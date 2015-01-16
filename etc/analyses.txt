@@ -116,3 +116,66 @@ percussion audit.
 
 VARATIONS. legato figures can be subito swapped out for tongued and off-string
 figures. legato figures and tongued / off-string figures can interpolate.
+
+
+###############################################################################
+###############################################################################
+###############################################################################
+
+04: low quiet winds.
+
+    bass flute
+    bass clarinet
+    baritone sax
+    english horn
+    guitar (low single notes on E string)
+    piano (low single notes, dyads or clusters)
+    marimba pedal point
+    violin (low)
+    viola (low)
+    cello (low)
+    bass (low)
+
+subsets:
+
+    bass flute
+    bass clarinet
+    baritone sax
+    english horn
+
+    violin (low)
+    viola (low)
+    cello (low)
+    bass (low)
+
+    violin (low)
+    viola (low)
+
+    cello (low)
+    bass (low)
+
+    bass clarinet
+    baritone sax
+
+    marimba pedal point
+    violin (low)
+    viola (low)
+    cello (low)
+    bass (low)
+
+    bass clarinet
+    baritone sax
+    cello (low)
+    bass (low)
+
+    guitar (low single notes on E string)
+    piano (low single notes, dyads or clusters)
+    marimba pedal point
+
+    bass flute
+    violin (low)
+    viola (low)
+
+    bass flute
+    cello (low)
+    bass (low)
