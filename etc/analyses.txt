@@ -135,6 +135,28 @@ TIME TREATMENTS.
     metric modulation with loops: +
     affective section sizes: +
 
+SUPERIMPOSITION AUDIT.
+
+    upper-register prestissimo: idem
+    guiro: +
+    dialoguing wind solos: +
+    contrabass halo: +
+    extremely quiet low winds: +
+    quiet multiphonic complexes: +
+    ferocious multiphonic complexes: +
+    pizzicati fantastiques: +
+    sostenuti fantastiques: +
+    tremoli fantastiques: +
+    massed off-string bowing: +
+    massed string trills: +
+    massed wind trills: +
+    electric string tremolo + maracas: +
+    woodblock underspine: +
+    extremely long string tremolo descent: +
+    snare roll: +
+    china cymbal miasma: +
+    piano lightning cadenza: +
+    whirly tubes: +
 
 ###############################################################################
 ###############################################################################
@@ -300,3 +322,26 @@ descents as a way of animating the material for time treatment.
 RHETORIC. material possibly effects submarine states. if this is true then the
 subito change from forte to piano may represent the overhead passing on of
 unaltered experience.
+
+SUPERIMPOSITION AUDIT.
+
+    upper-register prestissimo: +
+    guiro: *
+    dialoguing wind solos: +
+    contrabass halo: *
+    extremely quiet low winds: idem
+    quiet multiphonic complexes: +
+    ferocious multiphonic complexes: +
+    pizzicati fantastiques: +
+    sostenuti fantastiques: +
+    tremoli fantastiques: +
+    massed off-string bowing: +
+    massed string trills: +
+    massed wind trills: +
+    electric string tremolo + maracas: +
+    woodblock underspine: +
+    extremely long string tremolo descent: +
+    snare roll: +
+    china cymbal miasma: +
+    piano lightning cadenza: +
+    whirly tubes: +
