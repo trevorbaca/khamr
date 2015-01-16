@@ -1,0 +1,69 @@
+percussion subsets:
+    
+    triangle
+    scraped almglocken
+    tibetan bowls
+
+
+    scraped almglocken
+    tibetan bowls
+    whirly tubes
+    (groaned or rolled) bass drum
+    (large or very large) tam-tam
+    pedal point marimba
+
+    scraped almglocken
+    pedal point marimba
+
+    triangle
+    pedal point marimba
+
+    handbells
+    pedal point marimba
+
+    castanets
+    pedal point marimba
+
+    triangle
+    brushed (large or very large) tam-tam
+
+    maracas
+    brushed (large or very large) tam-tam
+
+    maracas
+    guiro(s)
+
+    castanets
+    brushed (large or very large) tam-tam
+
+    triangle
+    (groaned or rolled) bass drum
+
+    handbells
+    (groaned or rolled) bass drum
+
+    struck almglocken
+    (groaned or rolled) bass drum
+
+    scaped almglocken
+    (groaned or rolled) bass drum
+
+    triangle
+    tibetan bowls
+    whirly tubes
+    (groaned or rolled) bass drum
+
+    castanets
+    all cymbals
+
+    maracas
+    all cymbals
+
+    castanets
+    rolled snare
+
+    maracas
+    rolled snare
+
+    guiro(s)
+    rolled snare
