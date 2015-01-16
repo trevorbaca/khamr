@@ -12,29 +12,26 @@
     --
     --
 
-subset:
+subsets:
+
     piccolo
     b-flat clarinet
     sopranino sax
     oboe
     [(muted) piano]
 
-subset:
     piccolo
     [oboe]
     violin
     [piano]
 
-subset:
     b-flat clarinet
     sopranino sax
     [piano]
     
-subset:
     violin
     viola
 
-subset:
     b-flat clarinet
     lower sopranino sax
     lower violin
@@ -44,27 +41,23 @@ ensemble completion with resonant guitar coattacking beginnings or ends of
 violin slurs or viola slurs. or with extremely bright upper register guitar
 coattacking beginnings or ends of piccolo slurs.
 
-subset:
     piccolo running slurs
     extremely high guitar coattacks
 
-subset:
     b-flat clarinet running slurs
     sopranino sax running slurs
     high guitar coattacks
 
-[*] subset:
+    [*]
     violin running slurs or off-string figures
     viola running slurs or off-string figures
     guitar coattacks
 
-subset:
     piano running slurs
     guitar coattacks
 
 ensemble completion with cello off-string figures and bass off-string figures.
 
-subset:
     violin running slurs or off-string figures
     viola running slurs or off-string figures
     cello off-string figures
@@ -86,7 +79,8 @@ different rhythms between parts. there's even the possibility of rests coming
 in the middle of figures to effectively sever loops into two or three shards
 differently in different voices.
 
-percussion audit.
+PERCUSSION AUDIT.
+
     triangle: +
     handbells: +
     struck almglocken: --
@@ -108,14 +102,38 @@ percussion audit.
     struck very large tam-tam: +
     brushed large tam-tam: --
     brushed very large tam-tam: --
-    rainstick: --
-    ocean drum: --
     struck marimba: --
     woodblock struck marimba: +
     pedal point marimba: +
 
 VARATIONS. legato figures can be subito swapped out for tongued and off-string
 figures. legato figures and tongued / off-string figures can interpolate.
+
+TIME TREATMENTS.
+
+    global acc/rit: +
+    local acc/rit: +
+    global fermatas: +
+    subset fermatas: +
+    global acc/rit leading directly to global fermatas: +
+    global acc/rit leading directly to subset fermatas: +
+    loops in 1 layer: + 
+    loops in multiple layers: +
+    loops in all layers: +
+    loops scaled by global acc/rit: +
+    loops in 1 layer scaled by acc/rit: +
+    loops in multiple layers scaled by acc/rit: +
+    loops in all layers scaled by acc/rit: +
+    loops of acc/rit cell in 1 layer: +
+    loops of acc/rit cell in multiple layers: +
+    loops of acc/rit cells in all layers: +
+    loops with increasing cell size: +
+    loops with decreasing cell size: +
+    loops of acc/rit cell with increasing cell size: +
+    loops of acc/rit cell with decreasing cell size: +
+    metric modulation: +
+    metric modulation with loops: +
+    affective section sizes: +
 
 
 ###############################################################################
@@ -179,3 +197,106 @@ subsets:
     bass flute
     cello (low)
     bass (low)
+
+VARIATIONS. there's a dramatic variation available that enters the quiet
+version of this material subito from a very loud version of this material.
+there's also a version of this material that asks the players to all play
+ppppp (and which might omit the english horn). the ultraquiet version of this
+material makes for an incredible backdrop. a solo or dialogue of solos may be
+introduced over the backdrop.
+
+INTERNAL DEVELOPMENT. very slow crescendi are possible. very slow decrescendi
+are possible. the string subset of the material can transition very slow
+towards the bridge and away. the string subset of the material can transition
+from very slow bow to very fast bow and back. in fact the combination of tutti
+fast bow flautando over the winds is very attractive. as is tutti scratch over
+the winds.
+
+BLOCK CHANGES. block changes of dynamic in the winds but the strings. block
+changes of dynamic in the strings but not the winds. block changes of color in
+the strings but not the winds. block changes of tempo in the winds but not the
+strings. block changes of tempo in the strings but not the winds.
+
+    bass flute
+    bass clarinet
+    baritone sax
+    english horn
+    violin (low) extremely fast bow flautando
+    viola (low) extremely fast bow flautando
+    cello (low) extremely fast bow flautando
+    bass (low) extremely fast bow flautando
+
+    bass flute
+    bass clarinet
+    baritone sax
+    english horn
+    violin (low) scratch
+    viola (low) scratch
+    cello (low) scratch
+    bass (low) scratch
+
+PERCUSSION AUDIT.
+
+    triangle: --
+    handbells: ?
+    struck almglocken: +
+    scraped almglocken: +
+    tibetan bowls: --
+    whirly tubes: --
+    castanets: +
+    maracas: +
+    guiro(s): +
+    rolled snare: +
+    foot-struck bass drum: --
+    groaned bass drum: --
+    rolled bass drum: +
+    small cymbal: +
+    medium cymbal: +
+    large chinese cymbal: +
+    very large chinese cymbal: +
+    struck large tam-tam: +
+    struck very large tam-tam: +
+    brushed large tam-tam: --
+    brushed very large tam-tam: --
+    struck marimba: --
+    woodblock struck marimba: --
+    pedal point marimba: +
+
+TIME TREATMENTS.
+
+    global acc/rit: +
+    local acc/rit: +
+    global fermatas: +
+    subset fermatas: +
+    global acc/rit leading directly to global fermatas: +
+    global acc/rit leading directly to subset fermatas: +
+    loops in 1 layer: + 
+    loops in multiple layers: +
+    loops in all layers: +
+    loops scaled by global acc/rit: +
+    loops in 1 layer scaled by acc/rit: +
+    loops in multiple layers scaled by acc/rit: +
+    loops in all layers scaled by acc/rit: +
+    loops of acc/rit cell in 1 layer: +
+    loops of acc/rit cell in multiple layers: +
+    loops of acc/rit cells in all layers: +
+    loops with increasing cell size: +
+    loops with decreasing cell size: +
+    loops of acc/rit cell with increasing cell size: +
+    loops of acc/rit cell with decreasing cell size: +
+    metric modulation: +
+    metric modulation with loops: +
+    affective section sizes: +
+
+time treatments mostly do not apply when material manifests as fixed chord.
+time treatments do apply when material manifests with changing pitches or even
+very slowly changing pitches. in fact there's a way to get the time treatments
+to apply even in the scoring of a fixed chord with color deviation fingerings
+in the winds and microtonal deviations in the strings. in fact pervasive
+deviation means that the material can be effected at all tempi from extremely
+slow to extremely fast. can even use 3- to 5-note 24-ET microtonal ascents or
+descents as a way of animating the material for time treatment.
+
+RHETORIC. material possibly effects submarine states. if this is true then the
+subito change from forte to piano may represent the overhead passing on of
+unaltered experience.
