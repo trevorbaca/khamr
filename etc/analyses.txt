@@ -1,0 +1,118 @@
+01: upper-register legato prestissimo.
+
+    piccolo running altissimo
+    b-flat clarinet running quiet upper register
+    sopranino sax running quiet upper register
+    oboe running upper register
+    --
+    piano
+    --
+    violin short running slurs
+    viola short running slurs
+    --
+    --
+
+subset:
+    piccolo
+    b-flat clarinet
+    sopranino sax
+    oboe
+    [(muted) piano]
+
+subset:
+    piccolo
+    [oboe]
+    violin
+    [piano]
+
+subset:
+    b-flat clarinet
+    sopranino sax
+    [piano]
+    
+subset:
+    violin
+    viola
+
+subset:
+    b-flat clarinet
+    lower sopranino sax
+    lower violin
+    viola
+
+ensemble completion with resonant guitar coattacking beginnings or ends of
+violin slurs or viola slurs. or with extremely bright upper register guitar
+coattacking beginnings or ends of piccolo slurs.
+
+subset:
+    piccolo running slurs
+    extremely high guitar coattacks
+
+subset:
+    b-flat clarinet running slurs
+    sopranino sax running slurs
+    high guitar coattacks
+
+[*] subset:
+    violin running slurs or off-string figures
+    viola running slurs or off-string figures
+    guitar coattacks
+
+subset:
+    piano running slurs
+    guitar coattacks
+
+ensemble completion with cello off-string figures and bass off-string figures.
+
+subset:
+    violin running slurs or off-string figures
+    viola running slurs or off-string figures
+    cello off-string figures
+    bass off-string figures
+    [guitar coattacks]
+
+PITCH APPLICATION. shared register with relatively large number of simultaneous
+voices makes a strictly canonic or interruptedly canonic application of pitches
+possible. can be exact figure repetition of pitch, rhythm and dynamics first in
+piccolo then in violin then in sopranino sax then in clarinet and so on. amount
+of time between entry of voices can be constantly varied. this then enables the
+ability to loop on a single extant figure. looping can begin first in one or
+two voices while the remaining voices continue to state new pitch material.
+looping can then grow to encompass most or all voices. once looping is in place
+pitches can be added one at a time to all loops. once looping is in place
+pitches can be removed one at a time from all loops. there's also the
+possibility of canonic treatment with the same pitches between parts but with
+different rhythms between parts. there's even the possibility of rests coming
+in the middle of figures to effectively sever loops into two or three shards
+differently in different voices.
+
+percussion audit.
+    triangle: +
+    handbells: +
+    struck almglocken: --
+    scraped almglocken: --
+    tibetan bowls: --
+    whirly tubes: --
+    castanets: +
+    maracas: --
+    guiro(s): +
+    rolled snare: +
+    foot-struck bass drum: --
+    groaned bass drum: +
+    rolled bass drum: +
+    small cymbal: +
+    medium cymbal: +
+    large chinese cymbal: +
+    very large chinese cymbal: +
+    struck large tam-tam: +
+    struck very large tam-tam: +
+    brushed large tam-tam: --
+    brushed very large tam-tam: --
+    rainstick: --
+    ocean drum: --
+    struck marimba: --
+    woodblock struck marimba: +
+    pedal point marimba: +
+
+VARATIONS. legato figures can be subito swapped out for tongued and off-string
+figures. legato figures and tongued / off-string figures can interpolate.
