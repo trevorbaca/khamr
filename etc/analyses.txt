@@ -79,7 +79,7 @@ different rhythms between parts. there's even the possibility of rests coming
 in the middle of figures to effectively sever loops into two or three shards
 differently in different voices.
 
-PERCUSSION AUDIT.
+PERCUSSION.
 
     triangle: +
     handbells: +
@@ -109,7 +109,7 @@ PERCUSSION AUDIT.
 VARATIONS. legato figures can be subito swapped out for tongued and off-string
 figures. legato figures and tongued / off-string figures can interpolate.
 
-TIME TREATMENTS.
+TIME. 
 
     global acc/rit: +
     local acc/rit: +
@@ -135,7 +135,7 @@ TIME TREATMENTS.
     metric modulation with loops: +
     affective section sizes: +
 
-SUPERIMPOSITION AUDIT.
+SUPERIMPOSITION.
 
     upper-register prestissimo: idem
     guiro: +
@@ -164,6 +164,22 @@ SUPERIMPOSITION AUDIT.
 
 04: low quiet winds.
 
+ARCHETYPE.
+
+    bass flute
+    bass clarinet
+    baritone sax
+    english horn
+    --
+    --
+    --
+    --
+    --
+    --
+    --
+
+FULL SCORING.
+
     bass flute
     bass clarinet
     baritone sax
@@ -176,7 +192,7 @@ SUPERIMPOSITION AUDIT.
     cello (low)
     bass (low)
 
-subsets:
+SUBSETS.
 
     bass flute
     bass clarinet
@@ -222,10 +238,10 @@ subsets:
 
 VARIATIONS. there's a dramatic variation available that enters the quiet
 version of this material subito from a very loud version of this material.
-there's also a version of this material that asks the players to all play
-ppppp (and which might omit the english horn). the ultraquiet version of this
-material makes for an incredible backdrop. a solo or dialogue of solos may be
-introduced over the backdrop.
+there's also a version of this material that asks the players to all play ppppp
+(and omits the english horn). the ultraquiet version of this material makes for
+an incredible backdrop. a solo or dialogue of solos may be introduced over the
+backdrop.
 
 INTERNAL DEVELOPMENT. very slow crescendi are possible. very slow decrescendi
 are possible. the string subset of the material can transition very slow
@@ -257,7 +273,7 @@ strings. block changes of tempo in the strings but not the winds.
     cello (low) scratch
     bass (low) scratch
 
-PERCUSSION AUDIT.
+PERCUSSION.
 
     triangle: --
     handbells: ?
@@ -284,7 +300,7 @@ PERCUSSION AUDIT.
     woodblock struck marimba: --
     pedal point marimba: +
 
-TIME TREATMENTS.
+TIME.
 
     global acc/rit: +
     local acc/rit: +
@@ -323,7 +339,7 @@ RHETORIC. material possibly effects submarine states. if this is true then the
 subito change from forte to piano may represent the overhead passing on of
 unaltered experience.
 
-SUPERIMPOSITION AUDIT.
+SUPERIMPOSITION.
 
     upper-register prestissimo: +
     guiro: *
@@ -344,4 +360,165 @@ SUPERIMPOSITION AUDIT.
     snare roll: +
     china cymbal miasma: +
     piano lightning cadenza: +
+    whirly tubes: +
+
+###############################################################################
+###############################################################################
+###############################################################################
+
+06: ferocious multiphonic complexes.
+
+ARCHETYPE.
+
+    --
+    fff bass clarinet multiphonic(s)
+    fff baritone sax multiphonic(s)
+    fff english horn multiphonic(s)
+    --
+    --
+    --
+    --
+    --
+    --
+    --
+
+SUBSETS. any single multiphonic. any two multiphonics together at once.
+
+FULL SCORING.
+
+    fff piccolo fluttertongue
+    fff bass clarinet multiphonic(s)
+    fff baritone sax multiphonic(s)
+    fff english horn multiphonic(s)
+    --
+    upper- or lower-register fff tremolando clusters
+    [percussion]
+    fff scratch
+    fff scratch
+    fff scratch
+    fff scratch
+
+VARATIONS. variation with multiphonics all played by upper-register versions of
+the winds.
+
+    --
+    fff b-flat clarinet multiphonic(s)
+    fff sopranino or alto sax multiphonic(s)
+    fff oboe multiphonic(s)
+    --
+    --
+    --
+    --
+    --
+    --
+    --
+
+    fff piccolo fluttertongue
+    fff b-flat clarinet multiphonic(s)
+    fff sopranino or alto sax multiphonic(s)
+    fff oboe multiphonic(s)
+    fff maracas (guitar auxiliary)
+    fff upper-register tremolando piano clusters
+    fff maracas (percussion)
+    fff violin scratch harmonics
+    fff viola scratch harmonics
+    fff cello scratch harmonics
+    fff bass scratch harmonics
+
+MORE SUBSETS.
+
+    fff piccolo fluttertongue
+    fff upper-register tremolando piano clusters
+    fff maracas (perucssion)
+
+PERCUSSION. auxiliary percussion all available to guitarist during material
+because guitarist does not play material.
+
+    triangle: +
+    handbells: --
+    struck almglocken: +
+    scraped almglocken: --
+    tibetan bowls: --
+    whirly tubes: +
+    castanets: +
+    maracas: +
+    guiro(s): +
+    rolled snare: +
+    foot-struck bass drum: --
+    groaned bass drum: --
+    rolled bass drum: + (feroce)
+    small cymbal: +
+    medium cymbal: +
+    large chinese cymbal: +
+    very large chinese cymbal: +
+    struck large tam-tam: +
+    struck very large tam-tam: +
+    brushed large tam-tam: +
+    brushed very large tam-tam: +
+    struck marimba: --
+    woodblock struck marimba: --
+    pedal point marimba: +
+
+TIME.
+
+    global acc/rit: +
+    local acc/rit: +
+    global fermatas: +
+    subset fermatas: +
+    global acc/rit leading directly to global fermatas: +
+    global acc/rit leading directly to subset fermatas: +
+    loops in 1 layer: --
+    loops in multiple layers: --
+    loops in all layers: --
+    loops scaled by global acc/rit: --
+    loops in 1 layer scaled by acc/rit: --
+    loops in multiple layers scaled by acc/rit: --
+    loops in all layers scaled by acc/rit: --
+    loops of acc/rit cell in 1 layer: --
+    loops of acc/rit cell in multiple layers: --
+    loops of acc/rit cells in all layers: --
+    loops with increasing cell size: --
+    loops with decreasing cell size: --
+    loops of acc/rit cell with increasing cell size: --
+    loops of acc/rit cell with decreasing cell size: --
+    metric modulation: --
+    metric modulation with loops: --
+    affective section sizes: +
+
+INTERNAL DEVELOPMENT. doesn't need to be too much internal development.
+crescendi and decrescendi are possible in all parts. there's a potentially
+striking version of the material played pp in all parts which attenuates the
+forceful color of the archetypical version of the material. this kind of gritty
+pastel version of the material can lie latent for some time while other events
+happen on top. then the gritty pastel version of the material gradually or
+suddenly intensifies and completely overwhelms whatever other layers are
+active. there's also the possibility of gradually moving the register of the
+multiphonics either up or down while at the same time moving the register of
+the distorted strings either up or down.
+
+RHETORIC. lying-in-wait. the quiet version of the mateiral lying in wait while
+something seemingly dramatic happens superimposed on top will really work. then
+the quiet version becomes the ferocious version.
+
+SUPERIMPOSITION.
+
+    upper-register prestissimo: +
+    guiro: --
+    dialoguing wind solos: --
+    contrabass halo: ?
+    extremely quiet low winds: +
+    quiet multiphonic complexes: +
+    ferocious multiphonic complexes: idem
+    pizzicati fantastiques: +
+    sostenuti fantastiques: +
+    tremoli fantastiques: +
+    massed off-string bowing: +
+    massed string trills: +
+    massed wind trills: +
+    electric string tremolo + maracas: *
+    woodblock underspine: +
+    extremely long string tremolo descent: +
+    snare roll: +
+    china cymbal miasma: **
+    piano lightning cadenza: *
     whirly tubes: +
