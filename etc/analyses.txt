@@ -522,3 +522,158 @@ SUPERIMPOSITION.
     china cymbal miasma: **
     piano lightning cadenza: *
     whirly tubes: +
+
+###############################################################################
+###############################################################################
+###############################################################################
+
+13: piano lightning cadenza.
+
+ARCHETYPE.
+
+    --
+    --
+    --
+    --
+    --
+    extremely fast piano cadenza
+    --
+    --
+    --
+    --
+    --
+
+FULL SCORING.
+
+    loud or quiet piccolo prestissimo
+    --
+    --
+    --
+    guitar coarticulations & mandolin line articulations
+    extremely fast piano cadenza
+    --
+    --
+    --
+    --
+    --
+
+PERFORMANCE TECHNIQUE. white-key or chromatic scalar fragments. looping to
+pool up and build energy is a strong possibility. looping first on the stopped
+strings to pool up and build energy could be incredibly dramatic. trills make
+sense in the material. chained trills make an especially strong amount of sense
+in the material.
+
+NOTATION. single staff probably suffices. open question as to whether graces or
+extremely fast note values make more sense. third option is smaller notes
+without rhythmic specification. it's also possible to use the double-stemmed
+toccata notation to accent the first element some or all figures during regions
+of the cadenza and to give speed to the material incredibly.
+
+INTERNAL DEVELOPMENT. does the cadenza expire in the extreme upper registers of
+the instrument to avoid returning to the muted strings? does the cadenza visit
+the lower registers of the instrument at some point to encourage low-register
+energy and coax the brown colors of a low-register prestissimo? note that
+because the material moves so fast it can be used extensively in the piece to
+bear the continued presence of incredibly fast movement.
+
+ORCHESTRATION. is the material an extension of the upper register prestissimo?
+is the material a precursor of the upper register prestissimo? the material
+pairs well with almost everything. the material also spins off into the high
+instruments incredibly easily in the passing of exact fragments from the piano
+writing to the piccolo, b-flat clarinet, sopranino or alto sax and oboe.
+
+PERCUSSION.
+
+    triangle: +
+    handbells: --
+    struck almglocken: **
+    scraped almglocken: +
+    tibetan bowls: +
+    whirly tubes: +
+    castanets: +
+    maracas: +
+    guiro(s): --
+    rolled snare: +
+    foot-struck bass drum: +
+    groaned bass drum: +
+    rolled bass drum: +
+    small cymbal: +
+    medium cymbal: +
+    large chinese cymbal: **
+    very large chinese cymbal: **
+    struck large tam-tam: +
+    struck very large tam-tam: +
+    brushed large tam-tam: +
+    brushed very large tam-tam: +
+    struck marimba: --
+    woodblock struck marimba: --
+    pedal point marimba: --
+
+SUPERIMPOSITION.
+
+    upper-register prestissimo: **
+    guiro: as an in-transition
+    dialoguing wind solos: +
+    contrabass halo: +
+    extremely quiet low winds: +
+    quiet multiphonic complexes: +
+    ferocious multiphonic complexes: +
+    pizzicati fantastiques: +
+    sostenuti fantastiques: +
+    tremoli fantastiques: +
+    massed off-string bowing: +
+    massed string trills: +
+    massed wind trills: +
+    electric string tremolo & maracas: *
+    woodblock underspine: +
+    extremely long string tremolo descent: +
+    snare roll: +
+    china cymbal miasma: +
+    piano lightning cadenza: idem
+    whirly tubes: +
+
+RHETORIC. dramatic way to develop material starts with cadenza on only muted
+strings and then moves cadenza to open strings to pick up energy, brightness
+and loudness. cadenza keeps trying to get started during beginning of piece.
+this means cadenza keeps trying to get started on muted strings with broken
+rhythms and fragments that are not yet fully running-scalar. this means that
+there's a primordial form of the material that starts with perforated
+pointillism on the muted strings together with single points or hits in the
+other instruments. the nonpitched percussion instruments include castanets,
+single forceful guiro strokes, single maraca shakes, single snare hits, single
+dead snare hits, single bass drum hits, single dead bass drum hits, single
+woodblock hits, single dead woodblock hits. true pizzicati in the guitar and
+strings also make sense, especially dead pizzicati and even batrok pizzicati.
+this primordial form of the material is the homeland of dead strokes and dead
+hits. there are so many pathways into and out of the material. any of the
+textural materials compressed to a single octave or a ninth or tenth make for a
+dramatic lead-in to this material. if the cadenza expires in the extreme
+register of the instrument on the open strings then the cadenza leads perfectly
+into the electric string tremolo and maracas. the cadenza also leads perfectly
+into massed shakers. the cadenza also interacts extremely well with a
+fortissimo snare roll. what is the rhetoric of interaction between the cadenza
+and snare roll? the snare roll can try to force the cadenza to cease two or
+three times before being completely overwhelmed by the cadenza when the cadenza
+acquires a critical amount of energy or descends into the lowest registers of
+the piano. this is possible even with an incredibly forceful snare roll. so
+this provides a way of presenting the saturated versions of two materials in
+counterpoint at one time. once the cadenza descends into the lowest registers
+of the instrument it becomes possible to activate the low register version of
+the ferocious multiphonics. what this shows is that the cadenza functions as
+the activator of a large number of the saturated versions of the materials in
+the piece. the upper-registers parts of the cadenza activate the upper-register
+materials. the lower-register parts of the cadenza activate the lower-register
+materials. there are also a number of lovely contrast pathways. massed
+off-string bowing layers incredibly well as a type of luminescent haze over
+parts of the couse of the cadenza. massed string trills layer incredibly well
+as a type of lumicescent haze over parts of the course of the cadenza.
+castanets combined with the regions of luminescent haze will be incredible.
+
+LOOPING. does the cadenza get caught in loops? if the cadenza gets caught in
+loops on the open strings then it makes sense to pair an insistent scalar loop
+in the piano with an exactly cosynchronous forceful stroke against the guiro.
+the insistence on both will provide a type of energy that can only come from
+that combination. the cadenza can also get caught in big loops of 30 or 40
+extremely rapid pitches. long cadenza loops will timescale extremely
+effectively. long cadenza loops will pair extremely effectively with the china
+cymbal miasma and with the tam-tams. 
