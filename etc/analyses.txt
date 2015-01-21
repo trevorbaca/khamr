@@ -1,3 +1,30 @@
+materials:
+
+    1. upper-register prestissimo:
+    2. guiro:
+    3. dialoguing wind solos:
+    4. contrabass halo:
+    5. extremely quiet low winds:
+    6. quiet multiphonic complexes:
+    7. ferocious multiphonic complexes:
+    8. pizzicati fantastiques:
+    9. sostenuti fantastiques:
+    10. tremoli fantastiques:
+    11. massed off-string bowing:
+    12. massed string trills:
+    13. massed wind trills:
+    14. electric string tremolo & maracas:
+    15. woodblock underspine:
+    16. extremely long string tremolo descent:
+    17. snare roll:
+    18. china cymbal miasma:
+    19. piano lightning cadenza:
+    20. whirly tubes:
+
+###############################################################################
+###############################################################################
+###############################################################################
+
 01: upper-register legato prestissimo.
 
     piccolo running altissimo
@@ -135,7 +162,7 @@ TIME.
     metric modulation with loops: +
     affective section sizes: +
 
-SUPERIMPOSITION.
+LAYERING.
 
     upper-register prestissimo: idem
     guiro: +
@@ -157,7 +184,241 @@ SUPERIMPOSITION.
     china cymbal miasma: +
     piano lightning cadenza: +
     whirly tubes: +
+    
+###############################################################################
+###############################################################################
+###############################################################################
 
+2: GUIRO.
+
+VARIATIONS. four versions of material. first version uses credit cards against
+almost all white or black piano keys and almost all marimba resonators. second
+version uses wire brushes on the same. third version uses bursts of the usual
+guiro sound on two different actual guiros treated as auxiliary percussion and
+with credit cards being run in quick bursts against short segments of piano
+keys and short segments of marimba resonators.
+
+FULL SCORING. material doesn't appear fully scored. material appears admixed
+with other materials. material sometimes appears below other materials when
+other materials disappear.
+
+2(P): PLASTIC SEAWEED GUIRO.
+
+    credit card run somewhat slowly on first auxiliary guiro
+    credit card run somehwat slowly on second auxiliary guiro
+    credit card on almost all white or black piano keys
+    credit card on almost all of the marimba resonators
+
+2(B): BRUSHED SEAWEED GUIRO.
+
+    wire brushes run somewhat slowly on first auxiliary guiro
+    wire brushes run somewhat slowly on second auxiliary guiro
+    wire brushes on almost all white or black piano keys
+    wire brushes on almost all of the marimba resonators
+
+INTERNAL DEVELOPMENT. development is possible with phasing between the players.
+material begins with each player glissing at different rate. players then find
+their way into glissing at the same rate. looping then sets in on glisses that
+function at the same rate. loops then grow out of phase from each other. loop
+version of material transitions into burst guiro.
+
+PERCUSSION.
+
+    triangle: +
+    handbells: +
+    struck almglocken: --
+    scraped almglocken: +
+    tibetan bowls: +
+    whirly tubes: +
+    castanets: +
+    maracas: +
+    guiro(s): idem
+    rolled snare: +
+    foot-struck bass drum: +
+    groaned bass drum: +
+    rolled bass drum: +
+    small cymbal: +
+    medium cymbal: +
+    large chinese cymbal: +
+    very large chinese cymbal: +
+    struck large tam-tam: --
+    struck very large tam-tam: --
+    brushed large tam-tam: +
+    brushed very large tam-tam: +
+    struck marimba: --
+    woodblock struck marimba: --
+    pedal point marimba: --
+
+LAYERING.
+
+    1. upper-register prestissimo: +
+    2. guiro: idem
+    3. dialoguing wind solos: +
+    4. contrabass halo: +
+    5. extremely quiet low winds: +
+    6. quiet multiphonic complexes: +
+    7. ferocious multiphonic complexes: +
+    8. pizzicati fantastiques: --
+    9. sostenuti fantastiques: --
+    10. tremoli fantastiques: --
+    11. massed off-string bowing: +
+    12. massed string trills: --
+    13. massed wind trills: --
+    14. electric string tremolo & maracas: +
+    15. woodblock underspine: +
+    16. extremely long string tremolo descent: +
+    17. snare roll: +
+    18. china cymbal miasma: --
+    19. piano lightning cadenza: --
+    20. whirly tubes: +
+
+2(X): BURST GUIRO.
+
+    credit card run quickly on first auxiliary guiro
+    credit card run quickly on second auxiliary guiro
+    credit card run quickly on short segment of white or black piano keys
+    credit card run quickly on short segment of marimba resonators
+
+INTERNAL DEVELOPMENT. short bursts are assertive. can be used antiphonally
+between piano and marimba. can be used anitphonally between all four players.
+bursts become closer together. bursts become further apart. begins antiphonally
+between two players. then becomes rotational between three players. then
+becomes rotational between four players. then becomes two-part antiphonal
+between the four players grouped as two pairs.
+
+PERCUSSION.
+
+    triangle: +
+    handbells: --
+    struck almglocken: --
+    scraped almglocken: +
+    tibetan bowls: --
+    whirly tubes: --
+    castanets: +
+    maracas: +
+    guiro(s): idem
+    rolled snare: +
+    foot-struck bass drum: +
+    groaned bass drum: +
+    rolled bass drum: +
+    small cymbal: +
+    medium cymbal: +
+    large chinese cymbal: --
+    very large chinese cymbal: --
+    struck large tam-tam: --
+    struck very large tam-tam: --
+    brushed large tam-tam: +
+    brushed very large tam-tam: +
+    struck marimba: +
+    woodblock struck marimba: +
+    pedal point marimba: --
+    
+LAYERING.
+
+    1. upper-register prestissimo: +
+    2. guiro: idem
+    3. dialoguing wind solos: +
+    4. contrabass halo: +
+    5. extremely quiet low winds: +
+    6. quiet multiphonic complexes: +
+    7. ferocious multiphonic complexes: +
+    8. pizzicati fantastiques: +
+    9. sostenuti fantastiques: +
+    10. tremoli fantastiques: +
+    11. massed off-string bowing: +
+    12. massed string trills: +
+    13. massed wind trills: +
+    14. electric string tremolo & maracas: +
+    15. woodblock underspine: +
+    16. extremely long string tremolo descent: +
+    17. snare roll: +
+    18. china cymbal miasma: +
+    19. piano lightning cadenza: +
+    20. whirly tubes: +
+
+2(J): JARRING GUIRO.
+
+    rattan played incredibly loudly on marimba resonators.
+
+    rattan played incredibly loudly on marimba resonators.
+    struck large tam-tam
+    struck very large tam-tam
+
+PERCUSSION.
+
+    triangle: +
+    handbells: --
+    struck almglocken: +
+    scraped almglocken: +
+    tibetan bowls: --
+    whirly tubes: --
+    castanets: +
+    maracas: +
+    guiro(s): +
+    rolled snare: +
+    foot-struck bass drum: +
+    groaned bass drum: +
+    rolled bass drum: +
+    small cymbal: +
+    medium cymbal: +
+    large chinese cymbal: +
+    very large chinese cymbal: +
+    struck large tam-tam: **
+    struck very large tam-tam: **
+    brushed large tam-tam: +
+    brushed very large tam-tam: +
+    struck marimba: --
+    woodblock struck marimba: --
+    pedal point marimba: --
+
+LAYERING.
+
+    1. upper-register prestissimo: +
+    2. guiro: idem
+    3. dialoguing wind solos: +
+    4. contrabass halo: +
+    5. extremely quiet low winds: +
+    6. quiet multiphonic complexes: +
+    7. ferocious multiphonic complexes: **
+    8. pizzicati fantastiques: +
+    9. sostenuti fantastiques: *
+    10. tremoli fantastiques: *
+    11. massed off-string bowing: +
+    12. massed string trills: +
+    13. massed wind trills: +
+    14. electric string tremolo & maracas: *
+    15. woodblock underspine: +
+    16. extremely long string tremolo descent: +
+    17. snare roll: +
+    18. china cymbal miasma: --
+    19. piano lightning cadenza: --
+    20. whirly tubes: **
+
+no need for internal development.
+
+no need for looping.
+
+RHETORIC. even if used for an extended period of time the material will
+function to punctuate other materials. material can used to dwarf and
+effectively reframe the sound of even the very large tam-tam. material can also
+be used to stomp on top of a fortissimo full-ensemble texture. particularly
+effective if the process of stomping is mechanical and of insistent dynamics
+(but with a few rhythmic irregularities) and if the response of the tutti
+remainder of the ensemble is to decrescendo rather a lot at first but then to
+take much longer than expected to complete the final stage of the decrescendo
+from piano to pianissisimo. note that the stomping of the jarring guiro
+probably brings the music to pianissisimo rather than to niente to provide a
+way for the energy of the piece to begin building back up after an interesting
+amount of time. and the most interesting amount of time might be rather a lot
+of time such that a significant period of the music is heard tutti
+pianississimo as though distantly underwater. all of this means that only one
+region of jarring guiro appears in the piece. how is the jarring guiro
+approached? probabaly just appears out of nowhere and makes the best music when
+music with the quality of ferocious multiphonics is present at the first
+appearance of the material. there's a particularly good out-transition
+available with the appearance of whirly tubes and tibetan bowls played over the
+pianississimo induced by the stomping-out of the jarring guiro.
+ 
 ###############################################################################
 ###############################################################################
 ###############################################################################
@@ -339,7 +600,7 @@ RHETORIC. material possibly effects submarine states. if this is true then the
 subito change from forte to piano may represent the overhead passing on of
 unaltered experience.
 
-SUPERIMPOSITION.
+LAYERING.
 
     upper-register prestissimo: +
     guiro: *
@@ -500,7 +761,7 @@ RHETORIC. lying-in-wait. the quiet version of the mateiral lying in wait while
 something seemingly dramatic happens superimposed on top will really work. then
 the quiet version becomes the ferocious version.
 
-SUPERIMPOSITION.
+LAYERING.
 
     upper-register prestissimo: +
     guiro: --
@@ -527,7 +788,7 @@ SUPERIMPOSITION.
 ###############################################################################
 ###############################################################################
 
-13: piano lightning cadenza.
+19: piano lightning cadenza.
 
 ARCHETYPE.
 
@@ -609,7 +870,7 @@ PERCUSSION.
     woodblock struck marimba: --
     pedal point marimba: --
 
-SUPERIMPOSITION.
+LAYERING.
 
     upper-register prestissimo: **
     guiro: as an in-transition
