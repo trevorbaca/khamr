@@ -1,7 +1,8 @@
 materials:
 
     1. upper-register prestissimo:
-    2. guiro:
+    2a. seaweed guiro:
+    2b. burst guiro:
     3. dialoguing wind solos:
     4. contrabass halo:
     5. extremely quiet low winds:
@@ -137,8 +138,9 @@ TIME.
 
 LAYERING.
 
-    upper-register prestissimo: idem
-    guiro: +
+    upper-register prestissimo: [idem]
+    seaweed guiro: +
+    burst guiro: +
     dialoguing wind solos: +
     contrabass halo: +
     extremely quiet low winds: +
@@ -151,8 +153,6 @@ LAYERING.
     massed string trills: +
     massed wind trills: +
     electric string tremolo + maracas: +
-    woodblock underspine: +
-    extremely long string tremolo descent: +
     snare roll: +
     china cymbal miasma: +
     piano lightning cadenza: +
@@ -163,12 +163,10 @@ LAYERING.
     scraped almglocken: --
     castanets: +
     maracas: --
-    rolled snare: +
     foot-struck bass drum: --
     groaned bass drum: +
     rolled bass drum: +
     suspended cymbal: +
-    chinese cymbal: +
     struck tam-tam: +
     brushed tam-tam: --
     struck marimba: --
@@ -215,7 +213,8 @@ version of material transitions into burst guiro.
 LAYERING.
 
     1. upper-register prestissimo: +
-    2. guiro: idem
+    2a. seaweed guiro: [idem]
+    2b. burst guiro: +
     3. dialoguing wind solos: +
     4. contrabass halo: +
     5. extremely quiet low winds: +
@@ -228,10 +227,8 @@ LAYERING.
     12. massed string trills: --
     13. massed wind trills: --
     14. electric string tremolo & maracas: +
-    15. woodblock underspine: +
-    16. extremely long string tremolo descent: +
     17. snare roll: +
-    18. china cymbal miasma: --
+    18. china cymbal miasma: +
     19. piano lightning cadenza: --
     20. whirly tubes: +
 
@@ -240,12 +237,10 @@ LAYERING.
     scraped almglocken: +
     castanets: +
     maracas: +
-    rolled snare: +
     foot-struck bass drum: +
     groaned bass drum: +
     rolled bass drum: +
     suspended cymbal: +
-    chinese cymbal: +
     struck tam-tam: --
     brushed tam-tam: +
     struck marimba: --
@@ -269,7 +264,8 @@ between the four players grouped as two pairs.
 LAYERING.
 
     1. upper-register prestissimo: +
-    2. guiro: idem
+    2a. seaweed guiro: +
+    2b. burst guiro: [idem]
     3. dialoguing wind solos: +
     4. contrabass halo: +
     5. extremely quiet low winds: +
@@ -282,8 +278,6 @@ LAYERING.
     12. massed string trills: +
     13. massed wind trills: +
     14. electric string tremolo & maracas: +
-    15. woodblock underspine: +
-    16. extremely long string tremolo descent: +
     17. snare roll: +
     18. china cymbal miasma: +
     19. piano lightning cadenza: +
@@ -294,12 +288,10 @@ LAYERING.
     scraped almglocken: +
     castanets: +
     maracas: +
-    rolled snare: +
     foot-struck bass drum: +
     groaned bass drum: +
     rolled bass drum: +
     suspended cymbal: +
-    chinese cymbal: --
     struck tam-tam: --
     brushed tam-tam: +
     struck marimba: +
@@ -317,7 +309,8 @@ LAYERING.
 LAYERING.
 
     1. upper-register prestissimo: +
-    2. guiro: idem
+    2a. seaweed guiro: +
+    2b. burst guiro: +
     3. dialoguing wind solos: +
     4. contrabass halo: +
     5. extremely quiet low winds: +
@@ -330,10 +323,8 @@ LAYERING.
     12. massed string trills: +
     13. massed wind trills: +
     14. electric string tremolo & maracas: *
-    15. woodblock underspine: +
-    16. extremely long string tremolo descent: +
     17. snare roll: +
-    18. china cymbal miasma: --
+    18. china cymbal miasma: [+]
     19. piano lightning cadenza: --
     20. whirly tubes: **
 
@@ -342,12 +333,10 @@ LAYERING.
     scraped almglocken: +
     castanets: +
     maracas: +
-    rolled snare: +
     foot-struck bass drum: +
     groaned bass drum: +
     rolled bass drum: +
     suspended cymbal: +
-    chinese cymbal: +
     struck tam-tam: **
     brushed tam-tam: +
     struck marimba: --
@@ -536,10 +525,11 @@ unaltered experience.
 LAYERING.
 
     upper-register prestissimo: +
-    guiro: *
+    seaweed guiro: *
+    burst guiro: --
     dialoguing wind solos: +
     contrabass halo: *
-    extremely quiet low winds: idem
+    extremely quiet low winds: [idem]
     quiet multiphonic complexes: +
     ferocious multiphonic complexes: +
     pizzicati fantastiques: +
@@ -549,8 +539,6 @@ LAYERING.
     massed string trills: +
     massed wind trills: +
     electric string tremolo + maracas: +
-    woodblock underspine: +
-    extremely long string tremolo descent: +
     snare roll: +
     china cymbal miasma: +
     piano lightning cadenza: +
@@ -561,12 +549,10 @@ LAYERING.
     scraped almglocken: +
     castanets: +
     maracas: +
-    rolled snare: +
     foot-struck bass drum: --
     groaned bass drum: --
     rolled bass drum: +
     suspended cymbal: +
-    chinese cymbal: +
     struck tam-tam: +
     brushed tam-tam: --
     struck marimba: --
@@ -686,12 +672,13 @@ the quiet version becomes the ferocious version.
 LAYERING.
 
     upper-register prestissimo: +
-    guiro: --
+    seaweed guiro: --
+    burst guiro: --
     dialoguing wind solos: --
     contrabass halo: ?
     extremely quiet low winds: +
     quiet multiphonic complexes: +
-    ferocious multiphonic complexes: idem
+    ferocious multiphonic complexes: [idem]
     pizzicati fantastiques: +
     sostenuti fantastiques: +
     tremoli fantastiques: +
@@ -699,8 +686,6 @@ LAYERING.
     massed string trills: +
     massed wind trills: +
     electric string tremolo + maracas: *
-    woodblock underspine: +
-    extremely long string tremolo descent: +
     snare roll: +
     china cymbal miasma: **
     piano lightning cadenza: *
@@ -711,12 +696,10 @@ LAYERING.
     scraped almglocken: --
     castanets: +
     maracas: +
-    rolled snare: +
     foot-struck bass drum: --
     groaned bass drum: --
     rolled bass drum: + (feroce)
     suspended cymbal: +
-    chinese cymbal: +
     struck tam-tam: +
     brushed tam-tam: +
     struck marimba: --
@@ -726,6 +709,102 @@ LAYERING.
 auxiliary percussion all available to guitarist during material because
 guitarist does not play material.
 
+###############################################################################
+###############################################################################
+###############################################################################
+
+17: SNARE ROLL.
+
+ARCHETYPE.
+
+    --
+    --
+    --
+    --
+    --
+    --
+    fff snare roll
+    --
+    --
+    --
+    --
+
+there is no full scoring of the material.
+
+LAYERING.
+
+    upper-register prestissimo: +
+    seaweed guiro: +
+    burst guiro: +
+    dialoguing wind solos: +
+    contrabass halo: +
+    extremely quiet low winds: +
+    quiet multiphonic complexes: +
+    ferocious multiphonic complexes: +
+    pizzicati fantastiques: +
+    sostenuti fantastiques: +
+    tremoli fantastiques: +
+    massed off-string bowing: *
+    massed string trills: *
+    massed wind trills: +
+    electric string tremolo + maracas: --
+    snare roll: [idem]
+    china cymbal miasma: [+]
+    piano lightning cadenza: +
+    whirly tubes: +
+
+    triangle: +
+    struck almglocken: [+]
+    scraped almglocken: +
+    castanets: +
+    maracas: --
+    foot-struck bass drum: --
+    groaned bass drum: --
+    rolled bass drum: [+]
+    suspended cymbal: [+]
+    struck tam-tam: [+]
+    brushed tam-tam: [+]
+    struck marimba: --
+    woodblock struck marimba: --
+    pedal point marimba: [+]
+
+VARATIONS. most forceful version of material holds ffff roll for a surprising
+period of time and then effects a decrescendo over either a long or short
+duration. second version can be animated by waves of dynamic swells. third
+version can be played on cloth covering the head of the drum.
+
+TIME. reiteration rate can be subject to acc/rit. dynamic-swelled version of
+material can be looped. 
+
+    global acc/rit: +
+    local acc/rit: +
+    global fermatas: +
+    subset fermatas: [n/a]
+    global acc/rit leading directly to global fermatas: +
+    global acc/rit leading directly to subset fermatas: [n/a]
+    loops in 1 layer: + 
+    loops in multiple layers: [n/a]
+    loops in all layers: [n/a]
+    loops scaled by global acc/rit: +
+    loops in 1 layer scaled by acc/rit: +
+    loops in multiple layers scaled by acc/rit: [n/a]
+    loops in all layers scaled by acc/rit: [n/a]
+    loops of acc/rit cell in 1 layer: + (if loop duration is relatively long)
+    loops of acc/rit cell in multiple layers: [n/a]
+    loops of acc/rit cells in all layers: [n/a]
+    loops with increasing cell size: +
+    loops with decreasing cell size: +
+    loops of acc/rit cell with increasing cell size: +
+    loops of acc/rit cell with decreasing cell size: +
+    metric modulation: --
+    metric modulation with loops: --
+    affective section sizes: +
+
+RHETORIC. primary rhetorical value is to stomp on on-going action. which is the
+same as jarring guiro. jarring guiro will not be time-treated. so snare roll
+will be time treated to difference from jarring guiro.
+
+###############################################################################
 ###############################################################################
 ###############################################################################
 
@@ -771,7 +850,8 @@ exact pitch.
 LAYERING (against fff string tremolo altissimo).
 
     upper-register prestissimo: +
-    guiro: +
+    seaweed guiro: +
+    burst guiro: +
     dialoguing wind solos: --
     contrabass halo: +
     extremely quiet low winds: +
@@ -783,9 +863,7 @@ LAYERING (against fff string tremolo altissimo).
     massed off-string bowing: [+]
     massed string trills: [+]
     massed wind trills: +
-    electric string tremolo + maracas: idem
-    woodblock underspine: +
-    extremely long string tremolo descent: --
+    electric string tremolo + maracas: [idem]
     snare roll: *
     china cymbal miasma: *
     piano lightning cadenza: *
@@ -795,7 +873,7 @@ LAYERING (against fff string tremolo altissimo).
     struck almglocken: +
     scraped almglocken: +
     castanets: --
-    maracas: idem
+    maracas: [idem]
     foot-struck bass drum: +
     groaned bass drum: +
     rolled bass drum: +
@@ -822,7 +900,7 @@ LAYERING (against ppp string tremolo altissimo).
     massed off-string bowing: [+]
     massed string trills: [+]
     massed wind trills: +
-    electric string tremolo + maracas: idem
+    electric string tremolo + maracas: [idem]
     snare roll: *
     china cymbal miasma: *
     piano lightning cadenza: *
@@ -832,7 +910,7 @@ LAYERING (against ppp string tremolo altissimo).
     struck almglocken: +
     scraped almglocken: +
     castanets: --
-    maracas: idem
+    maracas: [idem]
     foot-struck bass drum: +
     groaned bass drum: +
     rolled bass drum: +
@@ -859,7 +937,7 @@ LAYERING (against fff massed shakers).
     massed off-string bowing: *
     massed string trills: *
     massed wind trills: +
-    electric string tremolo + maracas: idem
+    electric string tremolo + maracas: [idem]
     snare roll: --
     china cymbal miasma: **
     piano lightning cadenza: --
@@ -902,7 +980,8 @@ tremolo especially when the tremolo is loud.
 LAYERING.
  
     1. upper-register prestissimo: --
-    2. guiro: +
+    2a. seaweed guiro: +
+    2b. burst guiro: --
     3. dialoguing wind solos: +
     4. contrabass halo: +
     5. extremely quiet low winds: +
@@ -915,10 +994,8 @@ LAYERING.
     12. massed string trills: **
     13. massed wind trills: +
     14. electric string tremolo & maracas: ***
-    15. woodblock underspine: [--]
-    16. extremely long string tremolo descent: +
     17. snare roll: [--]
-    18. china cymbal miasma: idem
+    18. china cymbal miasma: [idem]
     19. piano lightning cadenza: +
     20. whirly tubes: **
 
@@ -927,12 +1004,10 @@ LAYERING.
     scraped almglocken: --
     castanets: --
     maracas: +
-    rolled snare: [+]
     foot-struck bass drum: --
     groaned bass drum: [+]
     rolled bass drum: [+]
     suspended cymbal: [+]
-    chinese cymbal: idem
     struck tam-tam: [+]
     brushed tam-tam: [+]
     struck marimba: [+]
@@ -1045,7 +1120,8 @@ writing to the piccolo, b-flat clarinet, sopranino or alto sax and oboe.
 LAYERING.
 
     upper-register prestissimo: **
-    guiro: as an in-transition
+    seaweed guiro: as in-transition
+    burst guiro: as in-transition
     dialoguing wind solos: +
     contrabass halo: +
     extremely quiet low winds: +
@@ -1058,11 +1134,9 @@ LAYERING.
     massed string trills: +
     massed wind trills: +
     electric string tremolo & maracas: *
-    woodblock underspine: +
-    extremely long string tremolo descent: +
     snare roll: +
-    china cymbal miasma: +
-    piano lightning cadenza: idem
+    china cymbal miasma: **
+    piano lightning cadenza: [idem]
     whirly tubes: +
 
     triangle: +
@@ -1070,12 +1144,10 @@ LAYERING.
     scraped almglocken: +
     castanets: +
     maracas: +
-    rolled snare: +
     foot-struck bass drum: +
     groaned bass drum: +
     rolled bass drum: +
     suspended cymbal: +
-    chinese cymbal: **
     struck tam-tam: +
     brushed tam-tam: +
     struck marimba: --
