@@ -788,6 +788,119 @@ LAYERING.
 ###############################################################################
 ###############################################################################
 
+18: CHINA CYMBAL MIASMA.
+
+ARCHETYPE.
+
+    slow-moving color-enveloped rolled china cymbal with fortississimo peaks
+
+INTERNAL DEVELOPMENT. three different processes play out. the first moves the
+position of the rolled mallets from the lip of the cymbal to the center of the
+cymbal. the second effects an unbelievably dramatic crescendo that possibly
+necessitates a quick mallet change from yarn to wood. the third process moves
+from the 22" cymbal to the 27" cymbal in the form of a quiet crossfade from the
+one to the other. the zargun color of the haze transforms during crossfade. a
+fourth process possibly increases or decreases the reiteration rate inside the
+tremolo especially when the tremolo is loud.
+
+LAYERING.
+ 
+    1. upper-register prestissimo: --
+    2. guiro: +
+    3. dialoguing wind solos: +
+    4. contrabass halo: +
+    5. extremely quiet low winds: +
+    6. quiet multiphonic complexes: +
+    7. ferocious multiphonic complexes: +
+    8. pizzicati fantastiques: +
+    9. sostenuti fantastiques: +
+    10. tremoli fantastiques: +
+    11. massed off-string bowing: +
+    12. massed string trills: **
+    13. massed wind trills: +
+    14. electric string tremolo & maracas: ***
+    15. woodblock underspine: [--]
+    16. extremely long string tremolo descent: +
+    17. snare roll: [--]
+    18. china cymbal miasma: idem
+    19. piano lightning cadenza: +
+    20. whirly tubes: **
+
+layers well with quiet static winds. layers well with loud static winds. layers
+well with massed delicate strings. layers extremely well with electric string
+tremolo and shakers. provides another opportunity for the whirly tubes to
+appear.
+
+PERCUSSION.
+
+    triangle: +
+    handbells: +
+    struck almglocken: --
+    scraped almglocken: --
+    tibetan bowls: +
+    whirly tubes: +
+    castanets: --
+    maracas: +
+    guiro(s): +
+    rolled snare: [+]
+    foot-struck bass drum: --
+    groaned bass drum: [+]
+    rolled bass drum: [+]
+    small cymbal: [+]
+    medium cymbal: [+]
+    large chinese cymbal: idem
+    very large chinese cymbal: idem
+    struck large tam-tam: [+]
+    struck very large tam-tam: [+]
+    brushed large tam-tam: [+]
+    brushed very large tam-tam: [+]
+    struck marimba: [+]
+    woodblock struck marimba: [+]
+    pedal point marimba: [+]
+
+TIME.
+
+    global acc/rit: --
+    local acc/rit: + (reiteration rate)
+    global fermatas: --
+    subset fermatas: + (pedal)
+    global acc/rit leading directly to global fermatas: --
+    global acc/rit leading directly to subset fermatas: --
+    loops in 1 layer: -- 
+    loops in multiple layers: --
+    loops in all layers: --
+    loops scaled by global acc/rit: --
+    loops in 1 layer scaled by acc/rit: --
+    loops in multiple layers scaled by acc/rit: --
+    loops in all layers scaled by acc/rit: --
+    loops of acc/rit cell in 1 layer: --
+    loops of acc/rit cell in multiple layers: --
+    loops of acc/rit cells in all layers: --
+    loops with increasing cell size: --
+    loops with decreasing cell size: --
+    loops of acc/rit cell with increasing cell size: --
+    loops of acc/rit cell with decreasing cell size: --
+    metric modulation: --
+    metric modulation with loops: --
+    affective section sizes: --
+
+no looping.
+
+RHETORIC. sounds like the material goes and away and comes back quite a number
+of times. this gives the effect of the presence of the material for a very long
+time. sounds like material first appears on 22" cymbal and only later migrates
+to 27" cymbal. also sounds like crossfaded migration from 22" cymbal to 27"
+cymbal is worked out in a very dramatic way and is accompanied by probabaly a
+pianississimo texture in the sustaining instruments. magic resonant guitar
+notes can also appear in part of the miasma as though discovered in the middle
+of the haze. interesting in-transition provided by circle-scraped hand-held
+almglocken in the orchestration of the static wind chord that precedes the
+appearance of the miasma.
+
+###############################################################################
+###############################################################################
+###############################################################################
+
 19: piano lightning cadenza.
 
 ARCHETYPE.
