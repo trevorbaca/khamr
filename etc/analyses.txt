@@ -25,7 +25,7 @@ materials:
 ###############################################################################
 ###############################################################################
 
-01: upper-register legato prestissimo.
+1: UPPER-REGISTER PRESTISSIMO.
 
     piccolo running altissimo
     b-flat clarinet running quiet upper register
@@ -106,33 +106,6 @@ different rhythms between parts. there's even the possibility of rests coming
 in the middle of figures to effectively sever loops into two or three shards
 differently in different voices.
 
-PERCUSSION.
-
-    triangle: +
-    handbells: +
-    struck almglocken: --
-    scraped almglocken: --
-    tibetan bowls: --
-    whirly tubes: --
-    castanets: +
-    maracas: --
-    guiro(s): +
-    rolled snare: +
-    foot-struck bass drum: --
-    groaned bass drum: +
-    rolled bass drum: +
-    small cymbal: +
-    medium cymbal: +
-    large chinese cymbal: +
-    very large chinese cymbal: +
-    struck large tam-tam: +
-    struck very large tam-tam: +
-    brushed large tam-tam: --
-    brushed very large tam-tam: --
-    struck marimba: --
-    woodblock struck marimba: +
-    pedal point marimba: +
-
 VARATIONS. legato figures can be subito swapped out for tongued and off-string
 figures. legato figures and tongued / off-string figures can interpolate.
 
@@ -185,6 +158,23 @@ LAYERING.
     piano lightning cadenza: +
     whirly tubes: +
     
+    triangle: +
+    struck almglocken: --
+    scraped almglocken: --
+    castanets: +
+    maracas: --
+    rolled snare: +
+    foot-struck bass drum: --
+    groaned bass drum: +
+    rolled bass drum: +
+    suspended cymbal: +
+    chinese cymbal: +
+    struck tam-tam: +
+    brushed tam-tam: --
+    struck marimba: --
+    woodblock struck marimba: +
+    pedal point marimba: +
+
 ###############################################################################
 ###############################################################################
 ###############################################################################
@@ -222,33 +212,6 @@ their way into glissing at the same rate. looping then sets in on glisses that
 function at the same rate. loops then grow out of phase from each other. loop
 version of material transitions into burst guiro.
 
-PERCUSSION.
-
-    triangle: +
-    handbells: +
-    struck almglocken: --
-    scraped almglocken: +
-    tibetan bowls: +
-    whirly tubes: +
-    castanets: +
-    maracas: +
-    guiro(s): idem
-    rolled snare: +
-    foot-struck bass drum: +
-    groaned bass drum: +
-    rolled bass drum: +
-    small cymbal: +
-    medium cymbal: +
-    large chinese cymbal: +
-    very large chinese cymbal: +
-    struck large tam-tam: --
-    struck very large tam-tam: --
-    brushed large tam-tam: +
-    brushed very large tam-tam: +
-    struck marimba: --
-    woodblock struck marimba: --
-    pedal point marimba: --
-
 LAYERING.
 
     1. upper-register prestissimo: +
@@ -272,6 +235,23 @@ LAYERING.
     19. piano lightning cadenza: --
     20. whirly tubes: +
 
+    triangle: +
+    struck almglocken: --
+    scraped almglocken: +
+    castanets: +
+    maracas: +
+    rolled snare: +
+    foot-struck bass drum: +
+    groaned bass drum: +
+    rolled bass drum: +
+    suspended cymbal: +
+    chinese cymbal: +
+    struck tam-tam: --
+    brushed tam-tam: +
+    struck marimba: --
+    woodblock struck marimba: --
+    pedal point marimba: --
+
 2(X): BURST GUIRO.
 
     credit card run quickly on first auxiliary guiro
@@ -286,33 +266,6 @@ between two players. then becomes rotational between three players. then
 becomes rotational between four players. then becomes two-part antiphonal
 between the four players grouped as two pairs.
 
-PERCUSSION.
-
-    triangle: +
-    handbells: --
-    struck almglocken: --
-    scraped almglocken: +
-    tibetan bowls: --
-    whirly tubes: --
-    castanets: +
-    maracas: +
-    guiro(s): idem
-    rolled snare: +
-    foot-struck bass drum: +
-    groaned bass drum: +
-    rolled bass drum: +
-    small cymbal: +
-    medium cymbal: +
-    large chinese cymbal: --
-    very large chinese cymbal: --
-    struck large tam-tam: --
-    struck very large tam-tam: --
-    brushed large tam-tam: +
-    brushed very large tam-tam: +
-    struck marimba: +
-    woodblock struck marimba: +
-    pedal point marimba: --
-    
 LAYERING.
 
     1. upper-register prestissimo: +
@@ -336,6 +289,23 @@ LAYERING.
     19. piano lightning cadenza: +
     20. whirly tubes: +
 
+    triangle: +
+    struck almglocken: --
+    scraped almglocken: +
+    castanets: +
+    maracas: +
+    rolled snare: +
+    foot-struck bass drum: +
+    groaned bass drum: +
+    rolled bass drum: +
+    suspended cymbal: +
+    chinese cymbal: --
+    struck tam-tam: --
+    brushed tam-tam: +
+    struck marimba: +
+    woodblock struck marimba: +
+    pedal point marimba: --
+
 2(J): JARRING GUIRO.
 
     rattan played incredibly loudly on marimba resonators.
@@ -343,33 +313,6 @@ LAYERING.
     rattan played incredibly loudly on marimba resonators.
     struck large tam-tam
     struck very large tam-tam
-
-PERCUSSION.
-
-    triangle: +
-    handbells: --
-    struck almglocken: +
-    scraped almglocken: +
-    tibetan bowls: --
-    whirly tubes: --
-    castanets: +
-    maracas: +
-    guiro(s): +
-    rolled snare: +
-    foot-struck bass drum: +
-    groaned bass drum: +
-    rolled bass drum: +
-    small cymbal: +
-    medium cymbal: +
-    large chinese cymbal: +
-    very large chinese cymbal: +
-    struck large tam-tam: **
-    struck very large tam-tam: **
-    brushed large tam-tam: +
-    brushed very large tam-tam: +
-    struck marimba: --
-    woodblock struck marimba: --
-    pedal point marimba: --
 
 LAYERING.
 
@@ -393,6 +336,23 @@ LAYERING.
     18. china cymbal miasma: --
     19. piano lightning cadenza: --
     20. whirly tubes: **
+
+    triangle: +
+    struck almglocken: +
+    scraped almglocken: +
+    castanets: +
+    maracas: +
+    rolled snare: +
+    foot-struck bass drum: +
+    groaned bass drum: +
+    rolled bass drum: +
+    suspended cymbal: +
+    chinese cymbal: +
+    struck tam-tam: **
+    brushed tam-tam: +
+    struck marimba: --
+    woodblock struck marimba: --
+    pedal point marimba: --
 
 no need for internal development.
 
@@ -423,7 +383,7 @@ pianississimo induced by the stomping-out of the jarring guiro.
 ###############################################################################
 ###############################################################################
 
-04: low quiet winds.
+4: LOW QUIET WINDS.
 
 ARCHETYPE.
 
@@ -534,33 +494,6 @@ strings. block changes of tempo in the strings but not the winds.
     cello (low) scratch
     bass (low) scratch
 
-PERCUSSION.
-
-    triangle: --
-    handbells: ?
-    struck almglocken: +
-    scraped almglocken: +
-    tibetan bowls: --
-    whirly tubes: --
-    castanets: +
-    maracas: +
-    guiro(s): +
-    rolled snare: +
-    foot-struck bass drum: --
-    groaned bass drum: --
-    rolled bass drum: +
-    small cymbal: +
-    medium cymbal: +
-    large chinese cymbal: +
-    very large chinese cymbal: +
-    struck large tam-tam: +
-    struck very large tam-tam: +
-    brushed large tam-tam: --
-    brushed very large tam-tam: --
-    struck marimba: --
-    woodblock struck marimba: --
-    pedal point marimba: +
-
 TIME.
 
     global acc/rit: +
@@ -623,11 +556,28 @@ LAYERING.
     piano lightning cadenza: +
     whirly tubes: +
 
+    triangle: --
+    struck almglocken: +
+    scraped almglocken: +
+    castanets: +
+    maracas: +
+    rolled snare: +
+    foot-struck bass drum: --
+    groaned bass drum: --
+    rolled bass drum: +
+    suspended cymbal: +
+    chinese cymbal: +
+    struck tam-tam: +
+    brushed tam-tam: --
+    struck marimba: --
+    woodblock struck marimba: --
+    pedal point marimba: +
+
 ###############################################################################
 ###############################################################################
 ###############################################################################
 
-06: ferocious multiphonic complexes.
+6: FEROCIOUS MULTIPHONIC COMPLEXES.
 
 ARCHETYPE.
 
@@ -691,34 +641,6 @@ MORE SUBSETS.
     fff piccolo fluttertongue
     fff upper-register tremolando piano clusters
     fff maracas (perucssion)
-
-PERCUSSION. auxiliary percussion all available to guitarist during material
-because guitarist does not play material.
-
-    triangle: +
-    handbells: --
-    struck almglocken: +
-    scraped almglocken: --
-    tibetan bowls: --
-    whirly tubes: +
-    castanets: +
-    maracas: +
-    guiro(s): +
-    rolled snare: +
-    foot-struck bass drum: --
-    groaned bass drum: --
-    rolled bass drum: + (feroce)
-    small cymbal: +
-    medium cymbal: +
-    large chinese cymbal: +
-    very large chinese cymbal: +
-    struck large tam-tam: +
-    struck very large tam-tam: +
-    brushed large tam-tam: +
-    brushed very large tam-tam: +
-    struck marimba: --
-    woodblock struck marimba: --
-    pedal point marimba: +
 
 TIME.
 
@@ -784,6 +706,180 @@ LAYERING.
     piano lightning cadenza: *
     whirly tubes: +
 
+    triangle: +
+    struck almglocken: +
+    scraped almglocken: --
+    castanets: +
+    maracas: +
+    rolled snare: +
+    foot-struck bass drum: --
+    groaned bass drum: --
+    rolled bass drum: + (feroce)
+    suspended cymbal: +
+    chinese cymbal: +
+    struck tam-tam: +
+    brushed tam-tam: +
+    struck marimba: --
+    woodblock struck marimba: --
+    pedal point marimba: +
+
+auxiliary percussion all available to guitarist during material because
+guitarist does not play material.
+
+###############################################################################
+###############################################################################
+
+18: ELECTRIC STRING TREMOLO & SHAKERS.
+
+ARCHETYPE.
+
+    --
+    --
+    --
+    --
+    --
+    --
+    fff maracas
+    fff violin tremolo altissimo
+    fff viola tremolo altissimo
+    fff cello tremolo altissimo
+    fff bass tremolo altissimo
+
+FULL SCORING.
+
+    fff piccolo fluttertongue
+    fff auxiliary shakers
+    fff auxiliary shakers
+    fff auxiliary shakers
+    fff auxiliary shakers
+    fff auxiliary shakers
+    struck tam-tam
+    fff violin tremolo altissimo
+    fff viola tremolo altissimo
+    fff cello tremolo altissimo
+    fff bass tremolo altissimo
+
+INTERNAL DEVELOPMENT. glissando up from notated starting pitch all the way up
+to highest pitch available on each of the four strings. dynamics are also
+available and it will be dramatic to decrescendo the fff strings down to ppp
+while holding the shakers all at fff. ppp layer can continue as other
+layers work in behind the shakers.
+
+TRANSITIONS. up-glissando in-transition helps all four strings start on an
+exact pitch.
+
+LAYERING (against fff string tremolo altissimo).
+
+    upper-register prestissimo: +
+    guiro: +
+    dialoguing wind solos: --
+    contrabass halo: +
+    extremely quiet low winds: +
+    quiet multiphonic complexes: +
+    ferocious multiphonic complexes: +
+    pizzicati fantastiques: +
+    sostenuti fantastiques: +
+    tremoli fantastiques: +
+    massed off-string bowing: [+]
+    massed string trills: [+]
+    massed wind trills: +
+    electric string tremolo + maracas: idem
+    woodblock underspine: +
+    extremely long string tremolo descent: --
+    snare roll: *
+    china cymbal miasma: *
+    piano lightning cadenza: *
+    whirly tubes: *
+
+    triangle: +
+    struck almglocken: +
+    scraped almglocken: +
+    castanets: --
+    maracas: idem
+    foot-struck bass drum: +
+    groaned bass drum: +
+    rolled bass drum: +
+    suspended cymbal: +
+    struck tam-tam: *
+    brushed tam-tam: * 
+    struck marimba: --
+    woodblock struck marimba: --
+    pedal point marimba: +
+
+LAYERING (against ppp string tremolo altissimo).
+
+    upper-register prestissimo: *
+    seaweed guiro: +
+    burst guiro: +
+    dialoguing wind solos: --
+    contrabass halo: +
+    extremely quiet low winds: +
+    quiet multiphonic complexes: +
+    ferocious multiphonic complexes: +
+    pizzicati fantastiques: +
+    sostenuti fantastiques: +
+    tremoli fantastiques: +
+    massed off-string bowing: [+]
+    massed string trills: [+]
+    massed wind trills: +
+    electric string tremolo + maracas: idem
+    snare roll: *
+    china cymbal miasma: *
+    piano lightning cadenza: *
+    whirly tubes: *
+
+    triangle: +
+    struck almglocken: +
+    scraped almglocken: +
+    castanets: --
+    maracas: idem
+    foot-struck bass drum: +
+    groaned bass drum: +
+    rolled bass drum: +
+    suspended cymbal: +
+    struck tam-tam: *
+    brushed tam-tam: * 
+    struck marimba: +
+    woodblock struck marimba: +
+    pedal point marimba: +
+
+LAYERING (against fff massed shakers).
+
+    upper-register prestissimo: +
+    seaweed guiro: --
+    burst guiro: --
+    dialoguing wind solos: +
+    contrabass halo: +
+    extremely quiet low winds: +
+    quiet multiphonic complexes: --
+    ferocious multiphonic complexes: +
+    pizzicati fantastiques: +
+    sostenuti fantastiques: +
+    tremoli fantastiques: +
+    massed off-string bowing: *
+    massed string trills: *
+    massed wind trills: +
+    electric string tremolo + maracas: idem
+    snare roll: --
+    china cymbal miasma: **
+    piano lightning cadenza: --
+    whirly tubes: **
+
+    triangle: +
+    struck almglocken: --
+    scraped almglocken: +
+    castanets: +
+    maracas: [idem]
+    foot-struck bass drum: +
+    groaned bass drum: +
+    rolled bass drum: +
+    suspended cymbal: +
+    struck tam-tam: +
+    brushed tam-tam: * 
+    struck marimba: +
+    woodblock struck marimba: --
+    pedal point marimba: +
+
 ###############################################################################
 ###############################################################################
 ###############################################################################
@@ -826,37 +922,27 @@ LAYERING.
     19. piano lightning cadenza: +
     20. whirly tubes: **
 
-layers well with quiet static winds. layers well with loud static winds. layers
-well with massed delicate strings. layers extremely well with electric string
-tremolo and shakers. provides another opportunity for the whirly tubes to
-appear.
-
-PERCUSSION.
-
     triangle: +
-    handbells: +
     struck almglocken: --
     scraped almglocken: --
-    tibetan bowls: +
-    whirly tubes: +
     castanets: --
     maracas: +
-    guiro(s): +
     rolled snare: [+]
     foot-struck bass drum: --
     groaned bass drum: [+]
     rolled bass drum: [+]
-    small cymbal: [+]
-    medium cymbal: [+]
-    large chinese cymbal: idem
-    very large chinese cymbal: idem
-    struck large tam-tam: [+]
-    struck very large tam-tam: [+]
-    brushed large tam-tam: [+]
-    brushed very large tam-tam: [+]
+    suspended cymbal: [+]
+    chinese cymbal: idem
+    struck tam-tam: [+]
+    brushed tam-tam: [+]
     struck marimba: [+]
     woodblock struck marimba: [+]
     pedal point marimba: [+]
+
+layers well with quiet static winds. layers well with loud static winds. layers
+well with massed delicate strings. layers extremely well with electric string
+tremolo and shakers. provides another opportunity for the whirly tubes to
+appear.
 
 TIME.
 
@@ -901,7 +987,7 @@ appearance of the miasma.
 ###############################################################################
 ###############################################################################
 
-19: piano lightning cadenza.
+19: PIANO LIGHTNING CADENZA.
 
 ARCHETYPE.
 
@@ -956,33 +1042,6 @@ pairs well with almost everything. the material also spins off into the high
 instruments incredibly easily in the passing of exact fragments from the piano
 writing to the piccolo, b-flat clarinet, sopranino or alto sax and oboe.
 
-PERCUSSION.
-
-    triangle: +
-    handbells: --
-    struck almglocken: **
-    scraped almglocken: +
-    tibetan bowls: +
-    whirly tubes: +
-    castanets: +
-    maracas: +
-    guiro(s): --
-    rolled snare: +
-    foot-struck bass drum: +
-    groaned bass drum: +
-    rolled bass drum: +
-    small cymbal: +
-    medium cymbal: +
-    large chinese cymbal: **
-    very large chinese cymbal: **
-    struck large tam-tam: +
-    struck very large tam-tam: +
-    brushed large tam-tam: +
-    brushed very large tam-tam: +
-    struck marimba: --
-    woodblock struck marimba: --
-    pedal point marimba: --
-
 LAYERING.
 
     upper-register prestissimo: **
@@ -1005,6 +1064,23 @@ LAYERING.
     china cymbal miasma: +
     piano lightning cadenza: idem
     whirly tubes: +
+
+    triangle: +
+    struck almglocken: **
+    scraped almglocken: +
+    castanets: +
+    maracas: +
+    rolled snare: +
+    foot-struck bass drum: +
+    groaned bass drum: +
+    rolled bass drum: +
+    suspended cymbal: +
+    chinese cymbal: **
+    struck tam-tam: +
+    brushed tam-tam: +
+    struck marimba: --
+    woodblock struck marimba: --
+    pedal point marimba: --
 
 RHETORIC. dramatic way to develop material starts with cadenza on only muted
 strings and then moves cadenza to open strings to pick up energy, brightness
