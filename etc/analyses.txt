@@ -913,6 +913,63 @@ TIME.
 ###############################################################################
 ###############################################################################
 
+13: MASSED WIND TRILLS.
+
+ARCHETYPE.
+
+    ff piccolo trills
+    ff upper-register b-flat clarinet trills
+    ff sopranino sax trills
+    fff lower-register english horn trills
+    --
+    --
+    --
+    --
+    --
+    --
+    --
+
+LAYERING.
+
+    upper-register prestissimo: --
+    seaweed guiro: +
+    burst guiro: --
+    dialoguing wind solos: [--]
+    contrabass halo: +
+    extremely quiet low winds: [+]
+    quiet multiphonic complexes: [+]
+    ferocious multiphonic complexes: [--]
+    pizzicati fantastiques: **
+    sostenuti fantastiques: +
+    tremoli fantastiques: --
+    massed off-string bowing: **
+    massed string trills: --
+    massed wind trills: [idem]
+    electric string tremolo & maracas: +
+    snare roll: +
+    china cymbal miasma: --
+    piano lightning cadenza: +
+    whirly tubes: --
+
+    triangle: +
+    struck almglocken: --
+    scraped almglocken: +
+    castanets: --
+    maracas: +
+    foot-struck bass drum: --
+    groaned bass drum: *
+    rolled bass drum: +
+    suspended cymbal: +
+    struck tam-tam: +
+    brushed tam-tam: +
+    struck marimba: --
+    woodblock struck marimba: +
+    pedal point marimba: --
+
+###############################################################################
+###############################################################################
+###############################################################################
+
 14: ELECTRIC STRING TREMOLO & SHAKERS.
 
 ARCHETYPE.
