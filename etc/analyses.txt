@@ -713,7 +713,7 @@ guitarist does not play material.
 ###############################################################################
 ###############################################################################
 
-17: SNARE ROLL.
+11: MASSED OFF-STRING BOWING.
 
 ARCHETYPE.
 
@@ -723,92 +723,101 @@ ARCHETYPE.
     --
     --
     --
-    fff snare roll
     --
-    --
-    --
-    --
+    fast off-string violin 
+    fast off-string viola
+    fast off-string cello
+    moderato off-string bass
 
-there is no full scoring of the material.
+FULL SCORING.
+
+    --
+    --
+    --
+    --
+    moderate resonant guitar
+    --
+    --
+    fast off-string violin 
+    fast off-string viola
+    fast off-string cello
+    moderato off-string bass
 
 LAYERING.
 
-    upper-register prestissimo: +
+    upper-register prestissimo: **
     seaweed guiro: +
     burst guiro: +
     dialoguing wind solos: +
-    contrabass halo: +
+    contrabass halo: **
     extremely quiet low winds: +
     quiet multiphonic complexes: +
     ferocious multiphonic complexes: +
     pizzicati fantastiques: +
     sostenuti fantastiques: +
     tremoli fantastiques: +
-    massed off-string bowing: *
-    massed string trills: *
+    massed off-string bowing: [idem]
+    massed string trills: **
     massed wind trills: +
-    electric string tremolo + maracas: --
-    snare roll: [idem]
-    china cymbal miasma: [+]
+    electric string tremolo + maracas: +
+    snare roll: +
+    china cymbal miasma: *
     piano lightning cadenza: +
     whirly tubes: +
 
     triangle: +
-    struck almglocken: [+]
+    struck almglocken: +
     scraped almglocken: +
-    castanets: +
-    maracas: --
+    castanets: --
+    maracas: +
     foot-struck bass drum: --
-    groaned bass drum: --
-    rolled bass drum: [+]
-    suspended cymbal: [+]
-    struck tam-tam: [+]
-    brushed tam-tam: [+]
-    struck marimba: --
-    woodblock struck marimba: --
-    pedal point marimba: [+]
+    groaned bass drum: +
+    rolled bass drum: +
+    suspended cymbal: +
+    struck tam-tam: +
+    brushed tam-tam: +
+    struck marimba: +
+    woodblock struck marimba: +
+    pedal point marimba: +
 
-VARATIONS. most forceful version of material holds ffff roll for a surprising
-period of time and then effects a decrescendo over either a long or short
-duration. second version can be animated by waves of dynamic swells. third
-version can be played on cloth covering the head of the drum.
+INTERNAL DEVELOPMENT. everything is available. all the time techniques work.
+all the time techniques can be used to effect internal development. crescendi
+and decrescendi work but of course aren't as dramatic as with the loud
+materials. material perfectly moves from figure to texture. gradual register
+transitions work perfectly. maybe better in this material than in any of the
+others.
 
-TIME. reiteration rate can be subject to acc/rit. dynamic-swelled version of
-material can be looped. 
+TIME.
 
     global acc/rit: +
     local acc/rit: +
     global fermatas: +
-    subset fermatas: [n/a]
+    subset fermatas: +
     global acc/rit leading directly to global fermatas: +
-    global acc/rit leading directly to subset fermatas: [n/a]
+    global acc/rit leading directly to subset fermatas: +
     loops in 1 layer: + 
-    loops in multiple layers: [n/a]
-    loops in all layers: [n/a]
+    loops in multiple layers: +
+    loops in all layers: +
     loops scaled by global acc/rit: +
     loops in 1 layer scaled by acc/rit: +
-    loops in multiple layers scaled by acc/rit: [n/a]
-    loops in all layers scaled by acc/rit: [n/a]
-    loops of acc/rit cell in 1 layer: + (if loop duration is relatively long)
-    loops of acc/rit cell in multiple layers: [n/a]
-    loops of acc/rit cells in all layers: [n/a]
+    loops in multiple layers scaled by acc/rit: +
+    loops in all layers scaled by acc/rit: +
+    loops of acc/rit cell in 1 layer: +
+    loops of acc/rit cell in multiple layers: +
+    loops of acc/rit cells in all layers: +
     loops with increasing cell size: +
     loops with decreasing cell size: +
     loops of acc/rit cell with increasing cell size: +
     loops of acc/rit cell with decreasing cell size: +
-    metric modulation: --
-    metric modulation with loops: --
+    metric modulation: +
+    metric modulation with loops: +
     affective section sizes: +
 
-RHETORIC. primary rhetorical value is to stomp on on-going action. which is the
-same as jarring guiro. jarring guiro will not be time-treated. so snare roll
-will be time treated to difference from jarring guiro.
-
 ###############################################################################
 ###############################################################################
 ###############################################################################
 
-18: ELECTRIC STRING TREMOLO & SHAKERS.
+14: ELECTRIC STRING TREMOLO & SHAKERS.
 
 ARCHETYPE.
 
@@ -957,6 +966,101 @@ LAYERING (against fff massed shakers).
     struck marimba: +
     woodblock struck marimba: --
     pedal point marimba: +
+
+###############################################################################
+###############################################################################
+###############################################################################
+
+17: SNARE ROLL.
+
+ARCHETYPE.
+
+    --
+    --
+    --
+    --
+    --
+    --
+    fff snare roll
+    --
+    --
+    --
+    --
+
+there is no full scoring of the material.
+
+LAYERING.
+
+    upper-register prestissimo: +
+    seaweed guiro: +
+    burst guiro: +
+    dialoguing wind solos: +
+    contrabass halo: +
+    extremely quiet low winds: +
+    quiet multiphonic complexes: +
+    ferocious multiphonic complexes: +
+    pizzicati fantastiques: +
+    sostenuti fantastiques: +
+    tremoli fantastiques: +
+    massed off-string bowing: *
+    massed string trills: *
+    massed wind trills: +
+    electric string tremolo + maracas: --
+    snare roll: [idem]
+    china cymbal miasma: [+]
+    piano lightning cadenza: +
+    whirly tubes: +
+
+    triangle: +
+    struck almglocken: [+]
+    scraped almglocken: +
+    castanets: +
+    maracas: --
+    foot-struck bass drum: --
+    groaned bass drum: --
+    rolled bass drum: [+]
+    suspended cymbal: [+]
+    struck tam-tam: [+]
+    brushed tam-tam: [+]
+    struck marimba: --
+    woodblock struck marimba: --
+    pedal point marimba: [+]
+
+VARATIONS. most forceful version of material holds ffff roll for a surprising
+period of time and then effects a decrescendo over either a long or short
+duration. second version can be animated by waves of dynamic swells. third
+version can be played on cloth covering the head of the drum.
+
+TIME. reiteration rate can be subject to acc/rit. dynamic-swelled version of
+material can be looped. 
+
+    global acc/rit: +
+    local acc/rit: +
+    global fermatas: +
+    subset fermatas: [n/a]
+    global acc/rit leading directly to global fermatas: +
+    global acc/rit leading directly to subset fermatas: [n/a]
+    loops in 1 layer: + 
+    loops in multiple layers: [n/a]
+    loops in all layers: [n/a]
+    loops scaled by global acc/rit: +
+    loops in 1 layer scaled by acc/rit: +
+    loops in multiple layers scaled by acc/rit: [n/a]
+    loops in all layers scaled by acc/rit: [n/a]
+    loops of acc/rit cell in 1 layer: + (if loop duration is relatively long)
+    loops of acc/rit cell in multiple layers: [n/a]
+    loops of acc/rit cells in all layers: [n/a]
+    loops with increasing cell size: +
+    loops with decreasing cell size: +
+    loops of acc/rit cell with increasing cell size: +
+    loops of acc/rit cell with decreasing cell size: +
+    metric modulation: --
+    metric modulation with loops: --
+    affective section sizes: +
+
+RHETORIC. primary rhetorical value is to stomp on on-going action. which is the
+same as jarring guiro. jarring guiro will not be time-treated. so snare roll
+will be time treated to difference from jarring guiro.
 
 ###############################################################################
 ###############################################################################
