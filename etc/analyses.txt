@@ -817,6 +817,102 @@ TIME.
 ###############################################################################
 ###############################################################################
 
+12: MASSED STRING TRILLS.
+
+ARCHETYPE.
+
+    --
+    --
+    --
+    --
+    --
+    --
+    --
+    violin trills
+    viola trills
+    cello trills
+    bass trills
+
+LAYERING.
+
+    upper-register prestissimo: +
+    seaweed guiro: +
+    burst guiro: +
+    dialoguing wind solos: **
+    contrabass halo: +
+    extremely quiet low winds: +
+    quiet multiphonic complexes: +
+    ferocious multiphonic complexes: **
+    pizzicati fantastiques: +
+    sostenuti fantastiques: +
+    tremoli fantastiques: +
+    massed off-string bowing: +
+    massed string trills: [idem]
+    massed wind trills: --
+    electric string tremolo + maracas: +
+    snare roll: +
+    china cymbal miasma: *
+    piano lightning cadenza: +
+    whirly tubes: +
+
+    triangle: +
+    struck almglocken: +
+    scraped almglocken: +
+    castanets: +
+    maracas: +
+    foot-struck bass drum: --
+    groaned bass drum: +
+    rolled bass drum: +
+    suspended cymbal: +
+    struck tam-tam: +
+    brushed tam-tam: +
+    struck marimba: +
+    woodblock struck marimba: +
+    pedal point marimba: +
+
+VARIATIONS. normative version uses ordinario bowing. second version uses
+fast bow flautando. third version uses slow bow taken to scratch. fourth
+version presents material incredibly quietly with ordinario bowing. fifth
+version presents material incredibly quietly with fast bow flautando. harmonic
+version is available.
+
+INTERNAL DEVELOPMENT. dynamics can be used extremely effectively to shape
+material. process may take dynamic enveloping from applying the same to all
+parts to applying differently in all parts and then back again. all the time
+techniques are available. trill rate can be slowed down and then sped up. trill
+rate changes can apply to an individual cell or over the course of four or five
+cells in a row. dramatic changes in register work incredibly well.
+
+TIME.
+
+    global acc/rit: +
+    local acc/rit: +
+    global fermatas: +
+    subset fermatas: +
+    global acc/rit leading directly to global fermatas: +
+    global acc/rit leading directly to subset fermatas: +
+    loops in 1 layer: + 
+    loops in multiple layers: +
+    loops in all layers: +
+    loops scaled by global acc/rit: +
+    loops in 1 layer scaled by acc/rit: +
+    loops in multiple layers scaled by acc/rit: +
+    loops in all layers scaled by acc/rit: +
+    loops of acc/rit cell in 1 layer: +
+    loops of acc/rit cell in multiple layers: +
+    loops of acc/rit cells in all layers: +
+    loops with increasing cell size: +
+    loops with decreasing cell size: +
+    loops of acc/rit cell with increasing cell size: +
+    loops of acc/rit cell with decreasing cell size: +
+    metric modulation: +
+    metric modulation with loops: +
+    affective section sizes: +
+
+###############################################################################
+###############################################################################
+###############################################################################
+
 14: ELECTRIC STRING TREMOLO & SHAKERS.
 
 ARCHETYPE.
