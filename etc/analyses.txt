@@ -14,12 +14,15 @@ materials:
     11. massed off-string bowing:
     12. massed string trills:
     13. massed wind trills:
+
     14. electric string tremolo & maracas:
+
     15. woodblock underspine:
     16. extremely long string tremolo descent:
     17. snare roll:
     18. china cymbal miasma:
     19. piano lightning cadenza:
+
     20. whirly tubes:
 
 ###############################################################################
