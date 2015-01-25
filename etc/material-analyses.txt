@@ -1143,7 +1143,7 @@ ARCHETYPE.
     --
     --
 
-there is no full scoring of the material.
+no full scoring of material.
 
 LAYERING.
 
@@ -1226,7 +1226,7 @@ will be time treated to difference from jarring guiro.
 
 ARCHETYPE.
 
-    slow-moving color-enveloped rolled china cymbal with fortississimo peaks
+    slow-moving color-enveloped china cymbal rolled with fortississimo peaks
 
 INTERNAL DEVELOPMENT. three different processes play out. the first moves the
 position of the rolled mallets from the lip of the cymbal to the center of the
