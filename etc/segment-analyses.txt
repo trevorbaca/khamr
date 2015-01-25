@@ -74,38 +74,92 @@ appearance of M14 in [E].
 
 stages:
 
-    M2a [(piano) seaweed guiro] (from [C])
     M3 [dialoguing wind solos]
+    M2a [(piano) seaweed guiro] (from [C])
+
+    M3 [dialoguing wind solos]
+
+    M3 [dialoguing wind solos]
+    M12 [massed string trills]
+    
+    M3 [dialoguing wind solos]
+    M17 [snare roll]
     M12 [massed string trills]
 
     M3 [dialoguing wind solos]
-    
-    M2a [seaweed guiro]
-    M3 [dialoguing wind solos]
-    M17 [snare roll]
-
-    
-    M2a [seaweed guiro]
-    M3 [dialoguing wind solos]
-    M17 [snare roll]
-
-    M17 [snare roll]
-    M3 [dialoguing wind solos]
     M5 [extremely quiet low winds]
-
     M17 [snare roll]
+    M12 [massed string trills]
+
+    M5 [extremely quiet low winds]
+    M17 [snare roll]
+    M12 [massed string trills]
+
+    M5 [extremely quiet low winds]
+    M17 [snare roll]
+
     M5 [extremely quiet low winds]
 
     M5 [extremely quiet low winds]
+    M18 [china cymbal miasma]
 
     M18 [china cymbal miasma]
-    M5 [extremely quiet low winds]
 
-    M18 [china cymbal miasma]
     M5 [extremely quiet low winds]
+    M18 [china cymbal miasma]
     M14 [electric string tremolo & shakers] 
 
-    M18 [china cymbal miasma]
     M5 [extremely quiet low winds]
-    M14 [electric string tremolo & shakers] 
     M19 [piano lightning cadenza]
+    M18 [china cymbal miasma]
+    M14 [electric string tremolo & shakers] 
+
+orchestration:
+
+    M3 [dialoguing wind solos] (bass flute)
+    M3 [dialoguing wind solos] (b-flat clarinet)
+    M3 [dialoguing wind solos] (baritone sax)
+    M3 [dialoguing wind solos] (english horn)
+    S4 guitar sparse accompaniment accompaniment
+    M2a [seaweed guiro] (piano with wire brushes)
+    --
+    --
+    --
+    --
+    --
+
+    --
+    --
+    --
+    --
+    S4 guitar sparse accompaniment accompaniment
+    M2a [seaweed guiro] (piano with wire brushes)
+    --
+    --
+    --
+    --
+    --
+
+    M3 [dialoguing wind solos] (bass flute)
+    M3 [dialoguing wind solos] (b-flat clarinet)
+    M3 [dialoguing wind solos] (baritone sax)
+    M3 [dialoguing wind solos] (english horn)
+    --
+    --
+    --
+    --
+    --
+    --
+    --
+
+    M3 [dialoguing wind solos] (bass flute)
+    M3 [dialoguing wind solos] (b-flat clarinet)
+    M3 [dialoguing wind solos] (baritone sax)
+    M3 [dialoguing wind solos] (english horn)
+    --
+    --
+    --
+    M12 [massed string trills] (violin)
+    M12 [massed string trills] (viola)
+    M12 [massed string trills] (cello)
+    M12 [massed string trills] (bass)

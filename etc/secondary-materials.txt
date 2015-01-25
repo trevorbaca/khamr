@@ -81,3 +81,5 @@ may accompanying piano lightning cadenza.
     struck marimba: +
     woodblock struck marimba: +
     pedal point marimba: +
+
+4. guitar sparse accompaniment lines.
