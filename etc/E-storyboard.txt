@@ -1,0 +1,68 @@
+[A] 8, 14, 4, 5, 19, 10, 6
+[B] 12, 4, 3, 18, 9, 4, 7
+[C] 14, 19, 10, 4, 3, 1, 2a
+[D] 3, 17, 5, 18, 5, 14, 19
+[E] 2b, 11, 14, 6, 2a, 5, 1
+
+###############################################################################
+#################################### [E] ######################################
+###############################################################################
+
+materials: 2b, 11, 14, 6, 2a, 5, 1
+
+what comes before? storyboard for [D] ends the segment with a four-layer
+composite of M5 [extremely quiet low winds], M19 [piano lightning cadenza], M18
+[china cymbal miasma] and M14 [electric string tremolo & shakers]. two of those
+materials are climaxing by the end of [D] and probably continue into the start
+of [E]. those two materials are M19 [piano lightning cadenza] and M18 [china
+cymbal miasma]. and there's also special handling of M14 [electric string
+tremolo & shakers] because the material climaxes in [E] and begins that process
+at the end of [D]. so M14 [electric string tremolo & shakers] also crosses the
+boundary from the end of [D] into [E]. and the version of M14 [electric string
+tremolo & shakers] that occurs at the end of [D] and the beginning of [E] is
+probabaly a rain of shakers scattered throughout the ensemble with the electric
+tremolo yet having been added in.
+
+M2B [burst guiro] marks the beginning of [E]. it's possible that the
+manifestation of M2B [burst guiro] here at the beginning of [E] is effected in
+the form of jarring fff rattan across the resonators of the marimba. this means
+that the percussionist will momentarily have to stop playing M18 [china cymbal
+miasma] in order to grab the rattan and run it against the marimba. it's also
+possible that the jarring fff rattan spawns a texture of smaller guiro bursts
+throughout the ensemble, probabaly both before and after the appearance of the
+fff rattan. after running the rattan against the marimba the percussionist can
+return to the china cymbals. there's a particularly nice combination of
+triangle together with the guiro bursts. so perhaps the composite texture
+running through the ensemble are antiphonal guiro bursts together with triangle
+hits.
+
+it may turn out to be that the piece features a sustained but shifting climax
+that begins in [D] and continue through almost all of [E]. this means that the
+function of [E] will be to climax the piece and then provide whatever
+concluding material is most effective.
+
+M11 [massed off-string bowing] is written structurally only in [E]. the
+material will not assert over the dynamics of M18 [china cymbal miasma] or M14
+[rain of shakers]. although it's possible that M11 [massed off-string bowing]
+will pair incredibly well with the M19 [piano lightning cadenza]. so perhaps
+M11 [massed off-string bowing] is used as a type of foam used in relievo of M19
+[piano lightning cadenza].
+
+the fully orchestrated form of M14 [electric string tremolo & shakers] may not
+climax in [E] because the material is to close to the end of the piece to
+climax in that way. it may be that the shakers-only form of the material is
+combined with piccolo fluttertongue but not with electric string tremolo. it is
+possible that ppp altissimo string tremolo appears. if this is the case then
+the M14 [ppp altissimo string tremolo & fff shakers] combines extremely well
+with M1 [upper-register prestissimo], M18 [china cymbal miasma], M19 [piano
+lightning cadenza] and M20 [whirly tubes]. M18 [china cymbal miasma] and M19
+[piano lightning cadenza] are already present and climaxing at the start of
+[E]. and M1 [upper-register prestissimo] is specified as the last material in
+the piece. so perhaps M1 [upper-register prestissimo] adds into [E] at the
+moment when M14 [ppp altissimo string tremolo & fff shakers] begins. it's also
+clear that the climaxing of M18 [china cymbal miasma] is actually a composite
+with loudly struck tam-tam. the tam-tam will complete the spectral space opened
+by M14 [ppp altissimo string tremolo & fff shakers], M1 [upper-reigster
+prestissimo], M18 [china cymbal miasma] and M19 [piano lightning cadenza]. also
+sounds like M19 [piano lightning cadenza] will be in basso furioso by this
+point.
