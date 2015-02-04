@@ -84,3 +84,25 @@ M7 [ferocious multiphonic complexes] is written to appear only at the end of
 happen at the end of [B] and possibly continue into the start of [C]. the
 presence of M18 [china cymbal miasma] climaxing on the 22" cymbal in [B] should
 be used in dialogue with the climax of M7 [ferocious multiphonic complexes].
+there's also the possibility that the M3 [dialoguing wind solos] transition to
+become M7 [ferocious multiphonic complexes] during [B].
+
+FIRST-ORDER STORYBOARD:
+
+    M12 [massed string trills] 
+    M4 [contrabass halo] 
+    M3 [dialoguing wind solos]
+    M18 [china cymbal miasma]
+
+    M12 [massed string trills] 
+    M4 [contrabass halo] 
+    M3 [dialoguing wind solos]
+    M18 [china cymbal miasma]
+    M9 [sostenuti fantastiques]
+
+    M18 [china cymbal miasma]
+    M9 [sostenuti fantastiques]
+    M7 [ferocious multiphonic complexes]
+
+so [B] ends in a field of densely saturated color. probably all parts of the
+field leak over into the start of [C].
