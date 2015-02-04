@@ -81,7 +81,7 @@ stages:
 
     M3 [dialoguing wind solos]
     M12 [massed string trills]
-    
+   
     M3 [dialoguing wind solos]
     M17 [snare roll]
     M12 [massed string trills]
