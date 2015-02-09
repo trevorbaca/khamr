@@ -10,7 +10,7 @@
 
 materials: 3, 17, 5, 18, 9, 14, 19
 
-M2a [seaweed guiro] from [C] probabaly leaks into the start of [C] with M3
+M2a [seaweed guiro] from [C] probabaly leaks into the start of [D] with M3
 [dialoguing wind solos] and possibly M17 [snare roll].
 
 M17 [snare roll] is written to occur only in [D]. so decision has to be made as
