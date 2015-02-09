@@ -101,6 +101,7 @@ END OF [D]:
 FIRST-ORDER STORYBOARD:
 
     M5 [extremely quiet low winds]
+    M6 [extremely quiet multiphonics]
     M19 [piano lightning cadenza: upper register]
     M2B [burst guiro rattan on marimba resonators]
     M2B [quick guiro strokes together with triangle hits]
@@ -109,20 +110,51 @@ FIRST-ORDER STORYBOARD:
     M11 [massed off-string bowing]
 
     M5 [extremely quiet low winds]
+    M6 [extremely quiet multiphonics]
     M19 [piano lightning cadenza: upper register]
     M2B [quick guiro strokes together with triangle hits]
     M18 [china cymbal miasma]
     M14 [ppp altissimo string tremolo & fff shakers]
     M11 [massed off-string bowing]
 
-    M5 [extremely quiet low winds]
+    M6 [extremely quiet multiphonics]
     M19 [piano lightning cadenza: upper register]
     M18 [china cymbal miasma]
     M14 [ppp altissimo string tremolo & fff shakers]
     M11 [massed off-string bowing]
 
-    M5 [extremely quiet low winds]
+    M6 [extremely quiet multiphonics]
     M19 [piano lightning cadenza: upper register]
     M18 [china cymbal miasma]
     M14 [ppp altissimo string tremolo & fff shakers: maximum]
-    M11 [massed off-string bowing]
+
+    M6 [extremely quiet multiphonics]
+    M19 [piano lightning cadenza: descending]
+    M18 [china cymbal miasma]
+    M14 [ppp altissimo string tremolo & fff shakers: maximum]
+
+    M6 [extremely quiet multiphonics]
+    M19 [piano lightning cadenza: very low & very loud]
+    M18 [china cymbal miasma: reapproaching maximum]
+    M14 [ppp altissimo string tremolo & fff shakers: maximum]
+
+    # intermittent windows of quiet materials shining through loud materials
+    M5 [extremely quiet low winds]
+    M6 [extremely quiet multiphonics]
+    M19 [piano lightning cadenza: rising]
+    M18 [china cymbal miasma: reapproaching maximum]
+    M14 [ppp altissimo string tremolo & fff shakers: maximum]
+
+    M5 [extremely quiet low winds]
+    M6 [extremely quiet multiphonics]
+    M19 [piano lightning cadenza: very high: maximum]
+    M18 [china cymbal miasma: maximum]
+    M14 [ppp altissimo string tremolo & fff shakers: maximum]
+
+    M1 [upper-register prestissimo]
+    M2A [seaweed guiro]
+    M5 [extremely quiet low winds]
+    M6 [extremely quiet multiphonics]
+    M19 [piano lightning cadenza: very high: maximum]
+    M18 [china cymbal miasma: maximum]
+    M14 [ppp altissimo string tremolo & fff shakers: maximum]
