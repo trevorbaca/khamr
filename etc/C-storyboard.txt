@@ -20,14 +20,14 @@ of [D] with M3 [dialoguing wind solos] and possibly M17 [snare roll]. so [D]
 will start with M3 [dialoguing wind solos] and probably be followed immediately
 by an incredibly forceful fffff M17 [snare roll].
 
-M14 [electric string tremolo & maracas] is written into the structure of [A],
-[C], [D] and [E]. M14 [electric string tremolo & maracas] climaxes somewhat
+M14 [electric string tremolo & shakers] is written into the structure of [A],
+[C], [D] and [E]. M14 [electric string tremolo & shakers] climaxes somewhat
 before the end of the piece in [E]. so the appearance here in [C] is definitely
 not a climax and may instead look backwards to the appearance of the material
 near the beginning of the piece in [A]. this may come out to mean that M14
-[electric string tremolo & maracas] here in [C] marks the endpoint of M16
+[electric string tremolo & shakers] here in [C] marks the endpoint of M16
 [extremely long string tremolo descent]. these materials connect because both
-M14 [electric string tremolo & maracas] and M16 [extremely long string tremolo
+M14 [electric string tremolo & shakers] and M16 [extremely long string tremolo
 descent] comprise tremolo. if that is the case then M16 [extremely long string
 tremolo descent] territorializes [A] and [B] for about four minutes of music.
 this suggests M16 [extremely long string tremolo descent] is perforated to
@@ -66,3 +66,72 @@ M3 [dialoguing wind solos] is written into the structure of [B], [C], [D]. M3
 of M3 [dialoguing wind solos] once the material crosses into [D]? the material
 is transformed into M5 [extremely quiet low winds] in [D] by the ferocity of
 M17 [snare roll] in [D].
+
+M1 [upper-register prestissimo] is written into the structure in only [C] and
+[E]. which means that M1 [upper-register prestissimo] climaxes here in [C].
+it's possible that M1 [upper-register prestissimo] starts very near the
+beginning of [C] and territorializes most of [C]. there may also be alternation
+between or layering of M3 [dialoguing wind solos] and M1 [upper-register
+prestissimo]. such alternation or layering may territorialize most of [C].
+
+M2a [seaweed guiro] is written into the structure of [C] and [E]. M2a [seaweed
+guiro] is used as only a passing glance backwards in [E]. and M2a [seaweed
+guiro] is probabaly used only very lightly here in [C], too. M2a [seaweed
+guiro] may function to bring M1 [upper-register prestissimo] to conclusion.
+
+END OF [B]:
+
+    M18 [china cymbal miasma]
+    M9 [sostenuti fantastiques]
+    M7 [ferocious multiphonic complexes]
+
+FIRST-ORDER STORYBOARD OF [C]:
+materials: 14, 19, 10, 4, 3, 1, 2a
+
+    M18 [china cymbal miasma]
+    M9 [sostenuti fantastiques]
+    M7 [ferocious multiphonic complexes]
+    M14 ==> M16 [extremely long string tremolo descent: endpoint]
+    M19 [piano lightning cadenza: foreshadow of end of piece]
+    
+    M18 [china cymbal miasma]
+    M9 [sostenuti fantastiques] ==> M10 [tremoli fantastiques]
+    M7 [ferocious multiphonic complexes]
+    M19 [piano lightning cadenza: foreshadow of end of piece]
+
+    M18 [china cymbal miasma]
+    M9 [sostenuti fantastiques] ==> M10 [tremoli fantastiques]
+    M7 [ferocious multiphonic complexes]
+    M19 [piano lightning cadenza: foreshadow of end of piece]
+    M4 [contrabass halo]
+    M3 [dialoguing wind solos]
+
+    M10 [tremoli fantastiques]
+    M19 [piano lightning cadenza: foreshadow of end of piece]
+    M4 [contrabass halo]
+    M3 [dialoguing wind solos]
+
+    M10 [tremoli fantastiques]
+    M4 [contrabass halo]
+    M3 [dialoguing wind solos]
+
+    M10 [tremoli fantastiques]
+    M4 [contrabass halo]
+    M1 [upper-register prestissimo]
+
+    # alternation between M1 and M3
+    M10 [tremoli fantastiques]
+    M4 [contrabass halo]
+    M1 [upper-register prestissimo]
+    M3 [dialoguing wind solos]
+
+    # alternation between M1 and M3
+    M10 [tremoli fantastiques]
+    M4 [contrabass halo]
+    M1 [upper-register prestissimo]
+    M3 [dialoguing wind solos]
+    M2a [seaweed guiro]
+
+    # farewell of M4
+    M4 [contrabass halo]
+    M2a [seaweed guiro]
