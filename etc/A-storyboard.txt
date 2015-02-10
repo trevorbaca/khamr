@@ -96,29 +96,35 @@ and there's also the first appearance of M19 [piano lightning cadenza].
 FIRST-ORDER STORYBOARD:
 materials: 8, 14(16), 4, 5, 19, 10, 6
 
+    [1]
     M4 [contrabass halo]
 
+    [2]
     M5 [extremely quiet low winds]
     M8 [pizzicati fantastiques]
     M4 [contrabass halo]
 
+    [3]
     M5 [extremely quiet low winds]
     M16 [extremely long string tremolo descent: start]
     M8 [pizzicati fantastiques]
     (M4 [contrabass halo])
 
+    [4]
     M6 [quiet multiphonic complexes] + M5 [extremely quiet low winds]
     M15 [woodblock underspine: start]
     (M16 [extremely long string tremolo descent])
     M8 [pizzicati fantastiques]
     (M4 [contrabass halo])
 
+    [5]
     M6 [quiet multiphonic complexes] + M5 [extremely quiet low winds]
     (M15 [woodblock underspine])
     (M16 [extremely long string tremolo descent])
     M8 [pizzicati fantastiques] ==> M10 [tremoli fantastiques]
     (M4 [contrabass halo])
 
+    [6]
     M6 [quiet multiphonic complexes]
     M19 [piano lightning cadenza]
     (M15 [woodblock underspine])
@@ -126,6 +132,7 @@ materials: 8, 14(16), 4, 5, 19, 10, 6
     M10 [tremoli fantastiques]
     (M4 [contrabass halo])
 
+    [7]
     (M6 [quiet multiphonic complexes])
     M19 [piano lightning cadenza]
     (M15 [woodblock underspine])
@@ -140,3 +147,109 @@ CARRY OVER INTO [B]:
     (M16 [extremely long string tremolo descent])
     (M12 [massed string trills])
     (M4 [contrabass halo])
+
+ORCHESTRATION:
+
+    [1]
+    M4 [bass flute accompaniment to contrabass halo]
+    --
+    --
+    --
+    --
+    --
+    --
+    --
+    M4 [viola accompaniment to contrabass halo]
+    M4 [cello accompaniment to contrabass halo]
+    M4 [contrabass halo]
+
+
+    [2]
+    M4 [bass flute accompaniment to contrabass halo]
+    M5 [extremely quiet low bass clarinet]
+    M5 [extremely quiet low baritone saxophone]
+    --
+    M8 [guitar pizzicati fantastiques]
+    --
+    --
+    M8 [violin pizzicati fantastiques]
+    M4 [viola accompaniment to contrabass halo]
+    M4 [cello accompaniment to contrabass halo]
+    M4 [contrabass halo]
+
+
+    [3]
+    M4 [bass flute accompaniment to contrabass halo]
+    M5 [extremely quiet low bass clarinet]
+    M5 [extremely quiet low baritone saxophone]
+    --
+    M8 [guitar pizzicati fantastiques]
+    --
+    --
+    M8 [violin pizzicati fantastiques]
+    M16 [extremely long string tremolo descent: start]
+    M8 [cello pizzicati fantastiques]
+    M4 [contrabass halo]
+
+
+    [4]
+    M4 [bass flute accompaniment to contrabass halo]
+    M5 [extremely quiet low bass clarinet]
+    M5 [extremely quiet low baritone saxophone]
+    --
+    M8 [guitar pizzicati fantastiques]
+    --
+    M15 [woodblock underspine: start]
+    M8 [violin pizzicati fantastiques]
+    (M16 [viola extremely long string tremolo descent])
+    M8 [viola pizzicati fantastiques]
+    M8 [cello pizzicati fantastiques]
+    M4 [contrabass halo]
+
+
+    [5]
+    M5+M6 [bass flute quiet multiphonic complexes + pure tone]
+    M5+M6 [bass clarinet quiet multiphonic complexes + pure tone]
+    M5+M6 [baritone saxophone quiet multiphonic complexes + pure tone]
+    --
+    M8 [guitar pizzicati fantastiques]
+    --
+    (M15 [woodblock underspine])
+    --
+    M8 [violin pizzicati fantastiques]
+    (M16 [viola extremely long string tremolo descent])
+    M8 [viola pizzicati fantastiques]
+    M8 [cello pizzicati fantastiques]
+    M4 [contrabass halo]
+
+
+    [6]
+    M6 [bass flute quiet multiphonic complexes]
+    M6 [bass clarinet quiet multiphonic complexes]
+    M6 [baritone saxophone quiet multiphonic complexes]
+    --
+    M8 [guitar pizzicati fantastiques]
+    M19 [piano lightning cadenza]
+    (M15 [woodblock underspine])
+    --
+    M8 [violin pizzicati fantastiques]
+    (M16 [viola extremely long string tremolo descent])
+    M8 [viola pizzicati fantastiques]
+    M8 [cello pizzicati fantastiques]
+    M4 [contrabass halo]
+
+
+    [7]
+    M6 [bass flute quiet multiphonic complexes]
+    M6 [bass clarinet quiet multiphonic complexes]
+    M6 [baritone saxophone quiet multiphonic complexes]
+    --
+    M8 [guitar pizzicati fantastiques]
+    M19 [piano lightning cadenza]
+    (M15 [woodblock underspine])
+    --
+    M8 [violin pizzicati fantastiques] ==> M10 [violin tremoli fantastiques]
+    (M16 [viola extremely long string tremolo descent])
+    M8 [viola pizzicati fantastiques] ==> M10 [viola tremoli fantastiques]
+    M8 [cello pizzicati fantastiques] ==> M10 [cello tremoli fantastiques]
+    M4 [contrabass halo]
