@@ -84,7 +84,7 @@ means that M19 [piano lightning cadenza] continues over the end of [D] and well
 into [E]. possibly M19 [piano lightning cadenza] continues into [E] up through
 the appearance of M14 [electric string tremolo & shakers] in [E].
 
-stages:
+FIRST-ORDER STORYBOARD:
 
     M3 [dialoguing wind solos]
     M2a [(piano) seaweed guiro] (from [C])
@@ -126,7 +126,7 @@ stages:
     M18 [china cymbal miasma]
     M14 [electric string tremolo & shakers] 
 
-orchestration:
+ORCHESTRATION:
 
     M3 [dialoguing wind solos] (bass flute)
     M3 [dialoguing wind solos] (b-flat clarinet)
@@ -140,6 +140,7 @@ orchestration:
     --
     --
 
+
     --
     --
     --
@@ -152,6 +153,7 @@ orchestration:
     --
     --
 
+
     M3 [dialoguing wind solos] (bass flute)
     M3 [dialoguing wind solos] (b-flat clarinet)
     M3 [dialoguing wind solos] (baritone sax)
@@ -163,6 +165,7 @@ orchestration:
     --
     --
     --
+
 
     M3 [dialoguing wind solos] (bass flute)
     M3 [dialoguing wind solos] (b-flat clarinet)
