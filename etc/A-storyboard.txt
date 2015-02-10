@@ -1,6 +1,6 @@
-[A] 8, 14, 4, 5, 19, 10, 6
+[A] 8, 14(16), 4, 5, 19, 10, 6
 [B] 12, 4, 3, 18, 9, 4, 7
-[C] 14, 19, 10, 4, 3, 1, 2a
+[C] 14(16), 19, 10, 4, 3, 1, 2a
 [D] 3, 17, 5, 18, 5, 14, 19
 [E] 2b, 11, 14, 6, 2a, 5, 1
 
@@ -59,3 +59,84 @@ materials in [A]. these are M8 [pizzicati fantastiques] and M5 [extremely quiet
 low winds] as semantic materials in [A] and also the start of M16 [extremely
 long string tremolo descent], M4 [contrabass halo] and M15 [woodblock
 underspine].
+
+M10 [tremoli fantastiques] is written into the structure of [A] and [C]. M10
+[tremoli fantastiques] follows immediately after M19 [piano lightning cadenza]
+both here in [A] and in [C]. so it is likely that M19 [piano lightning cadenza]
+and M10 [tremoli fantastiques] are bonded together in the piece. this may also
+mean that the final appearance of M19 [piano lightning cadenza] in [D] and [E]
+may also be accompanied by M10 [tremoli fantastiques] even though M10 [tremoli
+fantastiques] is not written into the structure of either [D] or [E].
+
+M6 [quiet multiphonic complexes] is written into the structure of [A] and [E].
+it's not clear that the material ever climaxes. though it will be easier to get
+a fair dose of the material in [A] than during the closing sequence in [E]. the
+presence of both M5 [extremely quiet low winds] and M6 [quiet multiphonic
+complexes] in [A] suggests that the two materials merge into a composite
+material during [A]. the same may be true of [E] in which both materials appear
+together again.
+
+there's another possibility for material transformation in [A]. both M8
+[pizzicati fantastiques] and M10 [tremoli fantastiques] appear in [A]. so it
+may be the case that M8 [pizzicati fantastiques] becomes M10 [tremoli
+fantastiques] during [A]. it is also the case that M12 [massed string trills]
+appears early in [B]. so it may be the case that M10 [tremoli fantastiques]
+becomes M12 [massed string trills] during the second part of [A]. if this is
+the case then M8 [pizzicati fantastiques] becomes M10 [tremoli fantastiques]
+which in turn becomes M12 [massed string trills].
+
+SUMMARY. so what are the primary events in [A]? three longterm and independent
+processes begin: M16 [extremely long string tremolo descent], M15 [woodblock
+underspine] and M4 [contrabass halo]. there is also the transformation of M8
+[pizzicati fantastiques] into M10 [tremoli fantastiques] and possibly a further
+transformation into M12 [massed string trills]. there's also an underlayer of
+M5 [extremely quiet low winds] together with M6 [quiet multiphonic complexes].
+and there's also the first appearance of M19 [piano lightning cadenza].
+
+FIRST-ORDER STORYBOARD:
+materials: 8, 14(16), 4, 5, 19, 10, 6
+
+    M4 [contrabass halo]
+
+    M5 [extremely quiet low winds]
+    M8 [pizzicati fantastiques]
+    M4 [contrabass halo]
+
+    M5 [extremely quiet low winds]
+    M16 [extremely long string tremolo descent: start]
+    M8 [pizzicati fantastiques]
+    (M4 [contrabass halo])
+
+    M6 [quiet multiphonic complexes] + M5 [extremely quiet low winds]
+    M15 [woodblock underspine: start]
+    (M16 [extremely long string tremolo descent])
+    M8 [pizzicati fantastiques]
+    (M4 [contrabass halo])
+
+    M6 [quiet multiphonic complexes] + M5 [extremely quiet low winds]
+    (M15 [woodblock underspine])
+    (M16 [extremely long string tremolo descent])
+    M8 [pizzicati fantastiques] ==> M10 [tremoli fantastiques]
+    (M4 [contrabass halo])
+
+    M6 [quiet multiphonic complexes]
+    M19 [piano lightning cadenza]
+    (M15 [woodblock underspine])
+    (M16 [extremely long string tremolo descent])
+    M10 [tremoli fantastiques]
+    (M4 [contrabass halo])
+
+    (M6 [quiet multiphonic complexes])
+    M19 [piano lightning cadenza]
+    (M15 [woodblock underspine])
+    (M16 [extremely long string tremolo descent])
+    M10 [tremoli fantastiques] ==> M12 [massed string trills]
+    (M4 [contrabass halo])
+
+CARRY OVER INTO [B]:
+
+    (M6 [quiet multiphonic complexes])
+    (M15 [woodblock underspine])
+    (M16 [extremely long string tremolo descent])
+    (M12 [massed string trills])
+    (M4 [contrabass halo])
