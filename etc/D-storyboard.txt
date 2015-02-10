@@ -8,7 +8,7 @@
 #################################### [D] ######################################
 ###############################################################################
 
-materials: 3, 17, 5, 18, 9, 14, 19
+materials: 3, 17, 5, 18, 5, 14, 19
 
 M2a [seaweed guiro] from [C] probabaly leaks into the start of [D] with M3
 [dialoguing wind solos] and possibly M17 [snare roll].
@@ -16,9 +16,11 @@ M2a [seaweed guiro] from [C] probabaly leaks into the start of [D] with M3
 M17 [snare roll] is written to occur only in [D]. so decision has to be made as
 to foreshadowing earlier in the piece. insertion of M17 between M3 [dialoguing
 wind solos] and M5 [extremely quiet low winds] probably means that M17 causes
-the transformation of M3 into M5. because M17 works particularly well with M11
-[massed off-string bowing] and M12 [massed off-string trills] it is possible
-that either M11 or M12 or both may appear on, with or before M17 here in [D]. 
+the transformation of M3 [dialoguing wind solos] into M5 [extremely quiet low
+winds]. because M17 works particularly well with M11 [massed off-string bowing]
+and M12 [massed off-string trills] it is possible that either M11 [massed
+off-string bowing] or M12 [massed off-string trills] or both may appear on,
+with or before M17 [snare roll] here in [D]. 
 
 M18 [china cymbal miasma] is written into the structure in both [B] and [D]. so
 some decision has to be made about the relative intensities of the two
@@ -53,9 +55,6 @@ roll] instead. M20 [whirly tubes] probabaly does appear here in [D] with M18
 [china cymbal miasma] because M20 is not written into the structure of the
 piece explicitly.
 
-it's possible that M5 [extremely quiet low winds] and M9 [sostenuti
-fantastiques] in [D] constitute essentially the same material.
-
 M14 [electric string tremolo & shakers] is written into the structure of
 segments [A], [C], [D] and [E]. which of the four regions climaxes the
 material? feels like the answer is likely [E] which will then make the
@@ -70,8 +69,8 @@ fluttertongue and struck tam-tam. so both materials would occur in the region
 territorialized by M14 [electric string tremolo & shakers] spanning [D] and
 [E]. note too that M20 [whirly tubes] constitute a strong pairing with M14
 [electric string tremolo & shakers]. this means that M14 [electric string
-tremolo & shakers] may appear in [D] with M18 [china cymbl miasma] M9
-[sostenuti fantastiques] and M14 [electric string tremolo & shakers] in
+tremolo & shakers] may appear in [D] with M18 [china cymbal miasma] M5
+[extremely quiet low winds] and M14 [electric string tremolo & shakers] in
 sequence.
 
 M19 [piano lightning cadenza] is written into the structure of segments [A],
