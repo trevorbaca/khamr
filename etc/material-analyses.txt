@@ -15,7 +15,7 @@ materials:
     12. massed string trills:
     13. massed wind trills:
 
-    14. electric string tremolo & maracas:
+    14. electric string tremolo & shakers:
 
     15. woodblock underspine:
     16. extremely long string tremolo descent:
@@ -155,7 +155,7 @@ LAYERING.
     massed off-string bowing: +
     massed string trills: +
     massed wind trills: +
-    electric string tremolo + maracas: +
+    electric string tremolo + shakers: +
     snare roll: +
     china cymbal miasma: +
     piano lightning cadenza: +
@@ -165,7 +165,7 @@ LAYERING.
     struck almglocken: --
     scraped almglocken: --
     castanets: +
-    maracas: --
+    shakers: --
     foot-struck bass drum: --
     groaned bass drum: +
     rolled bass drum: +
@@ -229,7 +229,7 @@ LAYERING.
     11. massed off-string bowing: +
     12. massed string trills: --
     13. massed wind trills: --
-    14. electric string tremolo & maracas: +
+    14. electric string tremolo & shakers: +
     17. snare roll: +
     18. china cymbal miasma: +
     19. piano lightning cadenza: --
@@ -239,7 +239,7 @@ LAYERING.
     struck almglocken: --
     scraped almglocken: +
     castanets: +
-    maracas: +
+    shakers: +
     foot-struck bass drum: +
     groaned bass drum: +
     rolled bass drum: +
@@ -280,7 +280,7 @@ LAYERING.
     11. massed off-string bowing: +
     12. massed string trills: +
     13. massed wind trills: +
-    14. electric string tremolo & maracas: +
+    14. electric string tremolo & shakers: +
     17. snare roll: +
     18. china cymbal miasma: +
     19. piano lightning cadenza: +
@@ -290,7 +290,7 @@ LAYERING.
     struck almglocken: --
     scraped almglocken: +
     castanets: +
-    maracas: +
+    shakers: +
     foot-struck bass drum: +
     groaned bass drum: +
     rolled bass drum: +
@@ -325,7 +325,7 @@ LAYERING.
     11. massed off-string bowing: +
     12. massed string trills: +
     13. massed wind trills: +
-    14. electric string tremolo & maracas: *
+    14. electric string tremolo & shakers: *
     17. snare roll: +
     18. china cymbal miasma: [+]
     19. piano lightning cadenza: --
@@ -335,7 +335,7 @@ LAYERING.
     struck almglocken: +
     scraped almglocken: +
     castanets: +
-    maracas: +
+    shakers: +
     foot-struck bass drum: +
     groaned bass drum: +
     rolled bass drum: +
@@ -541,7 +541,7 @@ LAYERING.
     massed off-string bowing: +
     massed string trills: +
     massed wind trills: +
-    electric string tremolo + maracas: +
+    electric string tremolo + shakers: +
     snare roll: +
     china cymbal miasma: +
     piano lightning cadenza: +
@@ -551,7 +551,7 @@ LAYERING.
     struck almglocken: +
     scraped almglocken: +
     castanets: +
-    maracas: +
+    shakers: +
     foot-struck bass drum: --
     groaned bass drum: --
     rolled bass drum: +
@@ -617,9 +617,9 @@ the winds.
     fff b-flat clarinet multiphonic(s)
     fff sopranino or alto sax multiphonic(s)
     fff oboe multiphonic(s)
-    fff maracas (guitar auxiliary)
+    fff shakers (guitar auxiliary)
     fff upper-register tremolando piano clusters
-    fff maracas (percussion)
+    fff shakers (percussion)
     fff violin scratch harmonics
     fff viola scratch harmonics
     fff cello scratch harmonics
@@ -629,7 +629,7 @@ MORE SUBSETS.
 
     fff piccolo fluttertongue
     fff upper-register tremolando piano clusters
-    fff maracas (perucssion)
+    fff shakers (perucssion)
 
 TIME.
 
@@ -688,7 +688,7 @@ LAYERING.
     massed off-string bowing: +
     massed string trills: +
     massed wind trills: +
-    electric string tremolo + maracas: *
+    electric string tremolo + shakers: *
     snare roll: +
     china cymbal miasma: **
     piano lightning cadenza: *
@@ -698,7 +698,7 @@ LAYERING.
     struck almglocken: +
     scraped almglocken: --
     castanets: +
-    maracas: +
+    shakers: +
     foot-struck bass drum: --
     groaned bass drum: --
     rolled bass drum: + (feroce)
@@ -762,7 +762,7 @@ LAYERING.
     massed off-string bowing: [idem]
     massed string trills: **
     massed wind trills: +
-    electric string tremolo + maracas: +
+    electric string tremolo + shakers: +
     snare roll: +
     china cymbal miasma: *
     piano lightning cadenza: +
@@ -772,7 +772,7 @@ LAYERING.
     struck almglocken: +
     scraped almglocken: +
     castanets: --
-    maracas: +
+    shakers: +
     foot-struck bass drum: --
     groaned bass drum: +
     rolled bass drum: +
@@ -852,7 +852,7 @@ LAYERING.
     massed off-string bowing: +
     massed string trills: [idem]
     massed wind trills: --
-    electric string tremolo + maracas: +
+    electric string tremolo + shakers: +
     snare roll: +
     china cymbal miasma: *
     piano lightning cadenza: +
@@ -862,7 +862,7 @@ LAYERING.
     struck almglocken: +
     scraped almglocken: +
     castanets: +
-    maracas: +
+    shakers: +
     foot-struck bass drum: --
     groaned bass drum: +
     rolled bass drum: +
@@ -948,7 +948,7 @@ LAYERING.
     massed off-string bowing: **
     massed string trills: --
     massed wind trills: [idem]
-    electric string tremolo & maracas: +
+    electric string tremolo & shakers: +
     snare roll: +
     china cymbal miasma: --
     piano lightning cadenza: +
@@ -958,7 +958,7 @@ LAYERING.
     struck almglocken: --
     scraped almglocken: +
     castanets: --
-    maracas: +
+    shakers: +
     foot-struck bass drum: --
     groaned bass drum: *
     rolled bass drum: +
@@ -983,7 +983,7 @@ ARCHETYPE.
     --
     --
     --
-    fff maracas
+    fff shakers
     fff violin tremolo altissimo
     fff viola tremolo altissimo
     fff cello tremolo altissimo
@@ -1028,7 +1028,7 @@ LAYERING (against fff string tremolo altissimo).
     massed off-string bowing: [+]
     massed string trills: [+]
     massed wind trills: +
-    electric string tremolo + maracas: [idem]
+    electric string tremolo + shakers: [idem]
     snare roll: *
     china cymbal miasma: *
     piano lightning cadenza: *
@@ -1038,7 +1038,7 @@ LAYERING (against fff string tremolo altissimo).
     struck almglocken: +
     scraped almglocken: +
     castanets: --
-    maracas: [idem]
+    shakers: [idem]
     foot-struck bass drum: +
     groaned bass drum: +
     rolled bass drum: +
@@ -1065,7 +1065,7 @@ LAYERING (against ppp string tremolo altissimo).
     massed off-string bowing: [+]
     massed string trills: [+]
     massed wind trills: +
-    electric string tremolo + maracas: [idem]
+    electric string tremolo + shakers: [idem]
     snare roll: *
     china cymbal miasma: *
     piano lightning cadenza: *
@@ -1075,7 +1075,7 @@ LAYERING (against ppp string tremolo altissimo).
     struck almglocken: +
     scraped almglocken: +
     castanets: --
-    maracas: [idem]
+    shakers: [idem]
     foot-struck bass drum: +
     groaned bass drum: +
     rolled bass drum: +
@@ -1102,7 +1102,7 @@ LAYERING (against fff massed shakers).
     massed off-string bowing: *
     massed string trills: *
     massed wind trills: +
-    electric string tremolo + maracas: [idem]
+    electric string tremolo + shakers: [idem]
     snare roll: --
     china cymbal miasma: **
     piano lightning cadenza: --
@@ -1112,7 +1112,7 @@ LAYERING (against fff massed shakers).
     struck almglocken: --
     scraped almglocken: +
     castanets: +
-    maracas: [idem]
+    shakers: [idem]
     foot-struck bass drum: +
     groaned bass drum: +
     rolled bass drum: +
@@ -1161,7 +1161,7 @@ LAYERING.
     massed off-string bowing: *
     massed string trills: *
     massed wind trills: +
-    electric string tremolo + maracas: --
+    electric string tremolo + shakers: --
     snare roll: [idem]
     china cymbal miasma: [+]
     piano lightning cadenza: +
@@ -1171,7 +1171,7 @@ LAYERING.
     struck almglocken: [+]
     scraped almglocken: +
     castanets: +
-    maracas: --
+    shakers: --
     foot-struck bass drum: --
     groaned bass drum: --
     rolled bass drum: [+]
@@ -1253,7 +1253,7 @@ LAYERING.
     11. massed off-string bowing: +
     12. massed string trills: **
     13. massed wind trills: +
-    14. electric string tremolo & maracas: ***
+    14. electric string tremolo & shakers: ***
     17. snare roll: [--]
     18. china cymbal miasma: [idem]
     19. piano lightning cadenza: +
@@ -1263,7 +1263,7 @@ LAYERING.
     struck almglocken: --
     scraped almglocken: --
     castanets: --
-    maracas: +
+    shakers: +
     foot-struck bass drum: --
     groaned bass drum: [+]
     rolled bass drum: [+]
@@ -1393,7 +1393,7 @@ LAYERING.
     massed off-string bowing: +
     massed string trills: +
     massed wind trills: +
-    electric string tremolo & maracas: *
+    electric string tremolo & shakers: *
     snare roll: +
     china cymbal miasma: **
     piano lightning cadenza: [idem]
@@ -1403,7 +1403,7 @@ LAYERING.
     struck almglocken: **
     scraped almglocken: +
     castanets: +
-    maracas: +
+    shakers: +
     foot-struck bass drum: +
     groaned bass drum: +
     rolled bass drum: +
@@ -1431,7 +1431,7 @@ hits. there are so many pathways into and out of the material. any of the
 textural materials compressed to a single octave or a ninth or tenth make for a
 dramatic lead-in to this material. if the cadenza expires in the extreme
 register of the instrument on the open strings then the cadenza leads perfectly
-into the electric string tremolo and maracas. the cadenza also leads perfectly
+into the electric string tremolo and shakers. the cadenza also leads perfectly
 into massed shakers. the cadenza also interacts extremely well with a
 fortissimo snare roll. what is the rhetoric of interaction between the cadenza
 and snare roll? the snare roll can try to force the cadenza to cease two or

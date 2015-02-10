@@ -1,0 +1,61 @@
+[A] 8, 14, 4, 5, 19, 10, 6
+[B] 12, 4, 3, 18, 9, 4, 7
+[C] 14, 19, 10, 4, 3, 1, 2a
+[D] 3, 17, 5, 18, 5, 14, 19
+[E] 2b, 11, 14, 6, 2a, 5, 1
+
+###############################################################################
+#################################### [B] ######################################
+###############################################################################
+
+materials: 8, 14, 4, 5, 19, 10, 6
+
+what comes after? [B] begins with a fourway composite:
+
+    M12 [massed string trills] 
+    M4 [contrabass halo] 
+    M3 [dialoguing wind solos]
+    M18 [china cymbal miasma]
+
+it's possible that one or more of the [B] start materials may leak backwards
+into the end of [A].
+
+M8 [pizzicati fantastiques] is written into the structure of only [A]. so if
+the material is to climax it will climax during about the first two minutes of
+the piece.
+
+M14 [electric string tremolo & shakers] is written into the structure of the
+piece all over the place. the occurrence of the material here in [A] is
+probably reinterpreted as the start of M16 [extremely long string tremolo
+descent] which then ends shortly after the start of [C].
+
+M4 [contrabass halo] is written into the structure of [A], [B], [C]. so M4
+[contrabass halo] territorializes the first three segments of the piece. this
+also means that M4 [contrabass halo] may start very near the beginning of the
+piece. this also means that M4 [contrabass halo] beaves as an independent layer
+in very much the same way as M15 [woodblock underspine] and M16 [extremely long
+string tremolo descent].
+
+M5 [extremely quiet low winds] is written into the structure of [A], [D], [E].
+the material probably never climaxes. how is M5 [extremely quiet low winds]
+interpreted in [D] and [E]? [D] introduces M5 [extremely quiet low winds] as a
+backdrop to M3 [dialoguing wind solos] and as the remains left over after the
+violence of M17 [snare roll]. the material remains as a type of (possibly
+intermittent) pedal for most of the rest of [D] which will add depth to most of
+[D]. will the presence of M5 [extremely quiet low winds] impute an element of
+the sinister? not necessarily. if the combination of contrabass clarinet and
+baritone saxophone is treated as a pedal then any major or perfect interval
+can be used to forestall the sinister. if the combination of contrabass
+clarinet and baritone saxophone is treated as a pair of voices in counterpoint
+then the moments of held conjunction between the two voices can be set to major
+or perfect intervals for the same reason.
+
+M19 [piano lightning cadenza] is written into the structure of [A], [C], [D].
+M19 [piano lightning cadenza] in [A] will foreshadow M19 [piano lightning
+cadenza] in [C], [D]. though the presentation of M19 [piano lightning cadenza]
+in [A] may be relatively forceful or relatively long, or both. because M19
+[piano lightning cadenza] combines effortlessly with all the preceding
+materials in [A]. these are M8 [pizzicati fantastiques] and M5 [extremely quiet
+low winds] as semantic materials in [A] and also the start of M16 [extremely
+long string tremolo descent], M4 [contrabass halo] and M15 [woodblock
+underspine].
