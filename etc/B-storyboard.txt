@@ -1,6 +1,6 @@
-[A] 8, 14, 4, 5, 19, 10, 6
+[A] 8, 14(16), 4, 5, 19, 10, 6
 [B] 12, 4, 3, 18, 9, 4, 7
-[C] 14, 19, 10, 4, 3, 1, 2a
+[C] 14(16), 19, 10, 4, 3, 1, 2a
 [D] 3, 17, 5, 18, 5, 14, 19
 [E] 2b, 11, 14, 6, 2a, 5, 1
 
@@ -17,6 +17,12 @@ what comes before? five different layers carry over from [A] into [B]:
     (M16 [extremely long string tremolo descent])
     (M12 [massed string trills])
     (M4 [contrabass halo])
+
+what follows after? three layers carry over from [B] into [C]:
+
+    (M18 [china cymbal miasma])
+    (M9 [sostenuti fantastiques])
+    (M7 [ferocious multiphonic complexes])
 
 M12 [massed string trills] is written to occur as a primary material only in
 [B]. so it makes sense for M12 to maximize in [B] if M12 wants to maximize in
