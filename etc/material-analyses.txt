@@ -1,35 +1,104 @@
+NUMBER: NAME
+    * ARCHETYPE
+    * FULL SCORING
+    * SUBSETS
+    * VARIATIONS
+    * SINGULARITY
+    * INTERNAL DEVELOPMENT
+    * BLOCK CHANGES
+    * TIME
+        global acc/rit: ?
+        local acc/rit: ?
+        global fermatas: ?
+        subset fermatas: ?
+        global acc/rit leading directly to global fermatas: ?
+        global acc/rit leading directly to subset fermatas: ?
+        loops in 1 layer: ? 
+        loops in multiple layers: ?
+        loops in all layers: ?
+        loops scaled by global acc/rit: ?
+        loops in 1 layer scaled by acc/rit: ?
+        loops in multiple layers scaled by acc/rit: ?
+        loops in all layers scaled by acc/rit: ?
+        loops of acc/rit cell in 1 layer: ?
+        loops of acc/rit cell in multiple layers: ?
+        loops of acc/rit cells in all layers: ?
+        loops with increasing cell size: ?
+        loops with decreasing cell size: ?
+        loops of acc/rit cell with increasing cell size: ?
+        loops of acc/rit cell with decreasing cell size: ?
+        metric modulation: ?
+        metric modulation with loops: ?
+    * RHETORIC
+    * LAYERING
+        upper-register prestissimo: ?
+        seaweed guiro: ?
+        burst guiro: ?
+        dialoguing wind solos: ?
+        contrabass halo: ?
+        extremely quiet low winds: ?
+        quiet multiphonic complexes: ?
+        ferocious multiphonic complexes: ?
+        pizzicati fantastiques: ?
+        sostenuti fantastiques: ?
+        tremoli fantastiques: ?
+        massed off-string bowing: ?
+        massed string trills: ?
+        massed wind trills: ?
+        electric string tremolo & shakers: ?
+        snare roll: ?
+        china cymbal miasma: ?
+        piano lightning cadenza: ?
+        whirly tubes: ?
+        #
+        triangle: ?
+        struck almglocken: ?
+        scraped almglocken: ?
+        castanets: ?
+        shakers: ?
+        foot-struck bass drum: ?
+        groaned bass drum: ?
+        rolled bass drum: ?
+        suspended cymbal: ?
+        struck tam-tam: ?
+        brushed tam-tam: ?
+        struck marimba: ?
+        woodblock struck marimba: ?
+        pedal point marimba: ?
+
+###############################################################################
+###############################################################################
+###############################################################################
+
 materials:
 
-    1. upper-register prestissimo:
-    2a. seaweed guiro:
-    2b. burst guiro:
-    3. dialoguing wind solos:
-    4. contrabass halo:
-    5. extremely quiet low winds:
-    6. quiet multiphonic complexes:
-    7. ferocious multiphonic complexes:
-    8. pizzicati fantastiques:
-    9. sostenuti fantastiques:
-    10. tremoli fantastiques:
-    11. massed off-string bowing:
-    12. massed string trills:
-    13. massed wind trills:
-
-    14. electric string tremolo & shakers:
-
-    15. woodblock underspine:
-    16. extremely long string tremolo descent:
-    17. snare roll:
-    18. china cymbal miasma:
-    19. piano lightning cadenza:
-
-    20. whirly tubes:
+    M1 upper-register prestissimo:
+    M2A seaweed guiro:
+    M2B burst guiro:
+    M3 dialoguing wind solos:
+    M4 contrabass halo:
+    M5 extremely quiet low winds:
+    M6 quiet multiphonic complexes:
+    M7 ferocious multiphonic complexes:
+    M8 pizzicati fantastiques:
+    M9 sostenuti fantastiques:
+    M10 tremoli fantastiques:
+    M11 massed off-string bowing:
+    M12 massed string trills:
+    M13 massed wind trills:
+    M14 electric string tremolo & shakers:
+    M15 woodblock underspine:
+    M16 extremely long string tremolo descent:
+    M17 snare roll:
+    M18 china cymbal miasma:
+    M19 piano lightning cadenza:
+    M20 whirly tubes:
 
 ###############################################################################
 ###############################################################################
 ###############################################################################
 
-1: UPPER-REGISTER PRESTISSIMO.
+M1: UPPER-REGISTER PRESTISSIMO.
 
     piccolo running altissimo
     b-flat clarinet running quiet upper register
@@ -137,7 +206,6 @@ TIME.
     loops of acc/rit cell with decreasing cell size: +
     metric modulation: +
     metric modulation with loops: +
-    affective section sizes: +
 
 LAYERING.
 
@@ -180,7 +248,7 @@ LAYERING.
 ###############################################################################
 ###############################################################################
 
-2: GUIRO.
+M2: GUIRO.
 
 VARIATIONS. four versions of material. first version uses credit cards against
 almost all white or black piano keys and almost all marimba resonators. second
@@ -375,7 +443,107 @@ pianississimo induced by the stomping-out of the jarring guiro.
 ###############################################################################
 ###############################################################################
 
-5: EXTREMELY LOW QUIET WINDS.
+M4: CONTRABASS HALO
+
+ARCHETYPE. 
+
+    --
+    --
+    --
+    --
+    --
+    --
+    --
+    --
+    --
+    --
+    contrabass halo
+    
+FULL SCORING. no full scoring.
+
+SUBSET. no subsets.
+
+VARIATIONS. material is probabaly always on the E string. glissandi with
+left-hand transitions between harmonic and half-harmonic pressure and
+right-hand transitions between flautando and scratch. no tremoli or other types
+of internal reiteration. intermittent multiphonics are encouraged. open
+questions as to whether practice mute should be used. open question as to
+whether intermittent moments of open string fortissimo should appear.
+
+INTERNAL DEVELOPMENT. start at middle of string on second partial and then work
+gradually and irregularly down towards the neck. the material never climaxes.
+the material is characterized primarily by intermittency. the material starts
+with relatively little scratch, moves towards heavy amounts of scratch and then
+transitions back to end with relatively little scratch.
+
+BLOCK CHANGES. no block changes. the material is singular.
+
+TIME TREATMENT. two cases. when the material expresses primarily harmonic
+glissandi then (accented) bow changes can be used to activate time. when the
+material expresses primarily fingered changes of harmonic glissandi then the
+rhythm of the fingered changes can be used to activate time. both time
+activation techniques are possible at relatively slow effective tempi.
+patterned dynamic enveloping is also a possibility but not characteristic of
+the material.
+
+    metric modulation: --
+    independent flow: --
+    independent suspension: [.S]
+    independent interruption: --
+    independent looping: [.L(slow)]
+    independent tempo transitions: --
+    independent tempo-transitioned flow: --
+    independent tempo-transitioned suspension: --
+    independent tempo-transitioned interruption: --
+    independent tempo-transitioned looping: --
+
+RHETORIC. the purpose of the material is to act as a spirit floating behind the
+action of the piece and ultimately released upward into the other world. M4
+[contrabass halo] is not aware of other materials. but other materials (like M3
+[dialoguing wind solos]) may notice and interact with M4 [contrabass halo].
+
+LAYERING.
+
+    M1 upper-register prestissimo: --
+    M2A seaweed guiro: +
+    M2B burst guiro: +
+    M3 dialoguing wind solos: _
+    M4 contrabass halo: [idem]
+    M5 extremely quiet low winds: +
+    M6 quiet multiphonic complexes: +
+    M7 ferocious multiphonic complexes: +
+    M8 pizzicati fantastiques: --
+    M9 sostenuti fantastiques: +
+    M10 tremoli fantastiques: +
+    M11 massed off-string bowing: +
+    M12 massed string trills: +
+    M13 massed wind trills: +
+    M14 electric string tremolo & shakers: +
+    M17 snare roll: +
+    M18 china cymbal miasma: --
+    M19 piano lightning cadenza: +
+    M20 whirly tubes: +
+     
+    triangle: +
+    struck almglocken: +
+    scraped almglocken: +
+    castanets: --
+    shakers: +
+    foot-struck bass drum: +
+    groaned bass drum: +
+    rolled bass drum: +
+    suspended cymbal: +
+    struck tam-tam: +
+    brushed tam-tam: +
+    struck marimba: --
+    woodblock struck marimba: --
+    pedal point marimba: +
+
+###############################################################################
+###############################################################################
+###############################################################################
+
+M5: EXTREMELY LOW QUIET WINDS.
 
 ARCHETYPE.
 
@@ -510,7 +678,6 @@ TIME.
     loops of acc/rit cell with decreasing cell size: +
     metric modulation: +
     metric modulation with loops: +
-    affective section sizes: +
 
 time treatments mostly do not apply when material manifests as fixed chord.
 time treatments do apply when material manifests with changing pitches or even
@@ -566,7 +733,7 @@ LAYERING.
 ###############################################################################
 ###############################################################################
 
-6: FEROCIOUS MULTIPHONIC COMPLEXES.
+M6: FEROCIOUS MULTIPHONIC COMPLEXES.
 
 ARCHETYPE.
 
@@ -655,7 +822,6 @@ TIME.
     loops of acc/rit cell with decreasing cell size: --
     metric modulation: --
     metric modulation with loops: --
-    affective section sizes: +
 
 INTERNAL DEVELOPMENT. doesn't need to be too much internal development.
 crescendi and decrescendi are possible in all parts. there's a potentially
@@ -716,7 +882,7 @@ guitarist does not play material.
 ###############################################################################
 ###############################################################################
 
-11: MASSED OFF-STRING BOWING.
+M11: MASSED OFF-STRING BOWING.
 
 ARCHETYPE.
 
@@ -814,13 +980,12 @@ TIME.
     loops of acc/rit cell with decreasing cell size: +
     metric modulation: +
     metric modulation with loops: +
-    affective section sizes: +
 
 ###############################################################################
 ###############################################################################
 ###############################################################################
 
-12: MASSED STRING TRILLS.
+M12: MASSED STRING TRILLS.
 
 ARCHETYPE.
 
@@ -910,13 +1075,12 @@ TIME.
     loops of acc/rit cell with decreasing cell size: +
     metric modulation: +
     metric modulation with loops: +
-    affective section sizes: +
 
 ###############################################################################
 ###############################################################################
 ###############################################################################
 
-13: MASSED WIND TRILLS.
+M13: MASSED WIND TRILLS.
 
 ARCHETYPE.
 
@@ -973,7 +1137,7 @@ LAYERING.
 ###############################################################################
 ###############################################################################
 
-14: ELECTRIC STRING TREMOLO & SHAKERS.
+M14: ELECTRIC STRING TREMOLO & SHAKERS.
 
 ARCHETYPE.
 
@@ -1127,7 +1291,7 @@ LAYERING (against fff massed shakers).
 ###############################################################################
 ###############################################################################
 
-17: SNARE ROLL.
+M17: SNARE ROLL.
 
 ARCHETYPE.
 
@@ -1212,7 +1376,6 @@ material can be looped.
     loops of acc/rit cell with decreasing cell size: +
     metric modulation: --
     metric modulation with loops: --
-    affective section sizes: +
 
 RHETORIC. primary rhetorical value is to stomp on on-going action. which is the
 same as jarring guiro. jarring guiro will not be time-treated. so snare roll
@@ -1222,7 +1385,7 @@ will be time treated to difference from jarring guiro.
 ###############################################################################
 ###############################################################################
 
-18: CHINA CYMBAL MIASMA.
+M18: CHINA CYMBAL MIASMA.
 
 ARCHETYPE.
 
@@ -1303,7 +1466,6 @@ TIME.
     loops of acc/rit cell with decreasing cell size: --
     metric modulation: --
     metric modulation with loops: --
-    affective section sizes: --
 
 no looping.
 
@@ -1322,7 +1484,7 @@ appearance of the miasma.
 ###############################################################################
 ###############################################################################
 
-19: PIANO LIGHTNING CADENZA.
+M19: PIANO LIGHTNING CADENZA.
 
 ARCHETYPE.
 
