@@ -17,10 +17,39 @@ modulation based on the duration of the loop cell?
 
 "independent (time) suspension"
 [.S]
-[*S]
-[**S]
+[(*)S]
+[(**)S]
+[{*}S]
+[{**}S]
 is the material striking when (one, some, all) layers are written to suspend
 time?
+
+"independent flow"
+[.F]
+[(*)F]
+[(**)F]
+[{*}F]
+[{**}F]
+is the material striking when (one, some all) layers are written to flow
+outside of time?
+
+"independent tempo-transitioned flow"
+[.A/R(F)]
+[(*)A/R(F)]
+[(**)A/R(F)]
+[{*}A/R(F)]
+[{**}A/R(F)]
+is the material striking when (one, some all) layers are written to speed up or
+slow down while flowing outside of time?
+
+"independent interruption"
+[.I]
+[(*)I]
+[(**)I]
+[{*}I]
+[{**}I]
+is the material striking when (one, some, all) layers are interrupted with
+silence?
 
 "independent tempo transitions"
 [.A/R]
@@ -49,8 +78,6 @@ fixed cell?
 is the material striking when (one, some, all) layers are written to loop an
 acc/rit cell?
 
-### COMPOSITE TIME TREATMENTS TREATMENTS ###
-
 "independent suspension-capped tempo transitions"
 [.(A/R->S)]
 [(*)(A/R->S)]
@@ -61,10 +88,10 @@ is the material striking when (one, some, all) layers are written to speed up
 or slow down and then suspend time?
 
 "independent tempo-transitioned loops"
-[.(A/R+L)]
-[(*)(A/R+L)]
-[(**)(A/R+L)]
-[{*}(A/R+L)]
-[{**}(A/R+L)]
+[.A/R(L)]
+[(*)A/R(L)]
+[(**)A/R(L)]
+[{*}A/R(L)]
+[{**}A/R(L)]
 is the material striking when (one, some, all) layers are looped and then
 written to speed up or slow down while looping?
