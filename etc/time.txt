@@ -2,29 +2,14 @@
 ############################## TIME TREATMENTS ################################
 ###############################################################################
 
-### GLOBAL TIME TREATMENTS TREATMENTS ###
-
+metric modulation:
 [MM]
-"metric modulation"
-is the material striking when written to effect a metric modulation?
-
 [MM(L)]
-"loop-indexed metric modulation"
-is the material striking when looped and then used to effect a metric
-modulation based on the duration of the loop cell?
+is the material striking when written to effect a metric modulation? is the
+material striking when looped and then used to effect a metric modulation based
+on the duration of the loop cell?
 
-### LAYER-SPECIFIC TIME TREATMENTS ###
-
-"independent (time) suspension"
-[.S]
-[(*)S]
-[(**)S]
-[{*}S]
-[{**}S]
-is the material striking when (one, some, all) layers are written to suspend
-time?
-
-"independent flow"
+flow:
 [.F]
 [(*)F]
 [(**)F]
@@ -33,16 +18,16 @@ time?
 is the material striking when (one, some all) layers are written to flow
 outside of time?
 
-"independent tempo-transitioned flow"
-[.A/R(F)]
-[(*)A/R(F)]
-[(**)A/R(F)]
-[{*}A/R(F)]
-[{**}A/R(F)]
-is the material striking when (one, some all) layers are written to speed up or
-slow down while flowing outside of time?
+suspension:
+[.S]
+[(*)S]
+[(**)S]
+[{*}S]
+[{**}S]
+is the material striking when (one, some, all) layers are written to suspend
+time?
 
-"independent interruption"
+interruption:
 [.I]
 [(*)I]
 [(**)I]
@@ -51,16 +36,7 @@ slow down while flowing outside of time?
 is the material striking when (one, some, all) layers are interrupted with
 silence?
 
-"independent tempo transitions"
-[.A/R]
-[(*)A/R]
-[(**)A/R]
-[{*}A/R]
-[{**}A/R]
-is the material striking when (one, some, all) layers are written to speed up
-or slow down?
-
-"independent (fixed) loops"
+looping:
 [.L]
 [(*)L]
 [(**)L]
@@ -69,29 +45,47 @@ or slow down?
 is the material striking when (one, some, all) layers are written to loop a
 fixed cell?
 
-"independent tempo-transitioned loops"
-[.L(A/R)]
-[(*)L(A/R)]
-[(**)L(A/R)]
-[{*}L(A/R)]
-[{**}L(A/R)]
-is the material striking when (one, some, all) layers are written to loop an
-acc/rit cell?
-
-"independent suspension-capped tempo transitions"
-[.(A/R->S)]
-[(*)(A/R->S)]
-[(**)(A/R->S)]
-[{*}(A/R->S)]
-[{**}(A/R->S)]
+tempo transitions:
+[.A/R]
+[(*)A/R]
+[(**)A/R]
+[{*}A/R]
+[{**}A/R]
 is the material striking when (one, some, all) layers are written to speed up
-or slow down and then suspend time?
+or slow down?
 
-"independent tempo-transitioned loops"
+tempo-transitioned flow:
+[.A/R(F)]
+[(*)A/R(F)]
+[(**)A/R(F)]
+[{*}A/R(F)]
+[{**}A/R(F)]
+is the material striking when (one, some all) layers are written to speed up or
+slow down while flowing outside of time?
+
+tempo-transitioned suspension:
+[.A/R(S)]
+[(*)A/R(S)]
+[(**)A/R(S)]
+[{*}A/R(S)]
+[{**}A/R(S)]
+is the material striking when (one, some all) layers are written to speed up or
+slow down while time is suspended?
+
+tempo-transitioned interruption:
+[.A/R(I)]
+[(*)A/R(I)]
+[(**)A/R(I)]
+[{*}A/R(I)]
+[{**}A/R(I)]
+is the material striking when (one, some all) layers are written to speed up or
+slow down while being interrupted with silences?
+
+tempo-transitioned looping:
 [.A/R(L)]
 [(*)A/R(L)]
 [(**)A/R(L)]
 [{*}A/R(L)]
 [{**}A/R(L)]
-is the material striking when (one, some, all) layers are looped and then
-written to speed up or slow down while looping?
+is the material striking when (one, some, all) layers are written to speed up
+or slow down while looping?
