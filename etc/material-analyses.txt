@@ -1,76 +1,115 @@
-NUMBER: NAME
-    * ARCHETYPE
-    * FULL SCORING
-    * SUBSETS
-    * VARIATIONS
-    * SINGULARITY
-    * INTERNAL DEVELOPMENT
-    * BLOCK CHANGES
-    * TIME
-        global acc/rit: ?
-        local acc/rit: ?
-        global fermatas: ?
-        subset fermatas: ?
-        global acc/rit leading directly to global fermatas: ?
-        global acc/rit leading directly to subset fermatas: ?
-        loops in 1 layer: ? 
-        loops in multiple layers: ?
-        loops in all layers: ?
-        loops scaled by global acc/rit: ?
-        loops in 1 layer scaled by acc/rit: ?
-        loops in multiple layers scaled by acc/rit: ?
-        loops in all layers scaled by acc/rit: ?
-        loops of acc/rit cell in 1 layer: ?
-        loops of acc/rit cell in multiple layers: ?
-        loops of acc/rit cells in all layers: ?
-        loops with increasing cell size: ?
-        loops with decreasing cell size: ?
-        loops of acc/rit cell with increasing cell size: ?
-        loops of acc/rit cell with decreasing cell size: ?
-        metric modulation: ?
-        metric modulation with loops: ?
-    * RHETORIC
-    * LAYERING
-        upper-register prestissimo: ?
-        seaweed guiro: ?
-        burst guiro: ?
-        dialoguing wind solos: ?
-        contrabass halo: ?
-        extremely quiet low winds: ?
-        quiet multiphonic complexes: ?
-        ferocious multiphonic complexes: ?
-        pizzicati fantastiques: ?
-        sostenuti fantastiques: ?
-        tremoli fantastiques: ?
-        massed off-string bowing: ?
-        massed string trills: ?
-        massed wind trills: ?
-        electric string tremolo & shakers: ?
-        snare roll: ?
-        china cymbal miasma: ?
-        piano lightning cadenza: ?
-        whirly tubes: ?
-        #
-        triangle: ?
-        struck almglocken: ?
-        scraped almglocken: ?
-        castanets: ?
-        shakers: ?
-        foot-struck bass drum: ?
-        groaned bass drum: ?
-        rolled bass drum: ?
-        suspended cymbal: ?
-        struck tam-tam: ?
-        brushed tam-tam: ?
-        struck marimba: ?
-        woodblock struck marimba: ?
-        pedal point marimba: ?
+###############################################################################
+############################ MATERIAL ANALYSES ################################
+###############################################################################
+
+M-NUMBER: MATERIAL NAME
+ARCHETYPE:
+FULL SCORING:
+SUBSETS:
+VARIATIONS.
+SINGULARITY.
+INTERNAL DEVELOPMENT.
+BLOCK CHANGES.
+TIME TREATMENT.
+    metric modulation:
+        [MM]
+        [MM(L)]
+    flow:
+        [.F]
+        [(*)F]
+        [(**)F]
+        [{*}F]
+        [{**}F]
+    suspension:
+        [.S]
+        [(*)S]
+        [(**)S]
+        [{*}S]
+        [{**}S]
+    interruption:
+        [.I]
+        [(*)I]
+        [(**)I]
+        [{*}I]
+        [{**}I]
+    looping:
+        [.L]
+        [(*)L]
+        [(**)L]
+        [{*}L]
+        [{**}L]
+    tempo transitions:
+        [.A/R]
+        [(*)A/R]
+        [(**)A/R]
+        [{*}A/R]
+        [{**}A/R]
+    tempo-transitioned flow:
+        [.A/R(F)]
+        [(*)A/R(F)]
+        [(**)A/R(F)]
+        [{*}A/R(F)]
+        [{**}A/R(F)]
+    tempo-transitioned suspension:
+        [.A/R(S)]
+        [(*)A/R(S)]
+        [(**)A/R(S)]
+        [{*}A/R(S)]
+        [{**}A/R(S)]
+    tempo-transitioned interruption:
+        [.A/R(I)]
+        [(*)A/R(I)]
+        [(**)A/R(I)]
+        [{*}A/R(I)]
+        [{**}A/R(I)]
+    tempo-transitioned looping:
+        [.A/R(L)]
+        [(*)A/R(L)]
+        [(**)A/R(L)]
+        [{*}A/R(L)]
+        [{**}A/R(L)]
+RHETORIC.
+LAYERING:
+    M1 [upper-register prestissimo]: ?
+    M2A [seaweed guiro]: ?
+    M2b [burst guiro]: ?
+    M3 [dialoguing wind solos]: ?
+    M4 [contrabass halo]: ?
+    M5 [extremely quiet low winds]: ?
+    M6 [quiet multiphonic complexes]: ?
+    M7 [ferocious multiphonic complexes]: ?
+    M8 [pizzicati fantastiques]: ?
+    M9 [sostenuti fantastiques]: ?
+    M10 [tremoli fantastiques]: ?
+    M11 [massed off-string bowing]: ?
+    M12 [massed string trills]: ?
+    M13 [massed wind trills]: ?
+    M14 [electric string tremolo & shakers]: ?
+    M17 [snare roll]: ?
+    M18 [china cymbal miasma]: ?
+    M19 [piano lightning cadenza]: ?
+    M20 [whirly tubes]: ?
+    #
+    triangle: ?
+    struck almglocken: ?
+    scraped almglocken: ?
+    castanets: ?
+    shakers: ?
+    foot-struck bass drum: ?
+    groaned bass drum: ?
+    rolled bass drum: ?
+    suspended cymbal: ?
+    struck tam-tam: ?
+    brushed tam-tam: ?
+    struck marimba: ?
+    woodblock struck marimba: ?
+    pedal point marimba: ?
 
 ###############################################################################
 ###############################################################################
 ###############################################################################
 
-materials:
+MATERIALS:
 
     M1 upper-register prestissimo:
     M2A seaweed guiro:
