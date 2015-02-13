@@ -1,0 +1,74 @@
+[TT] scorewide tempo transitions: do accelerandi and ritardandi written above
+the entire score cause the material noticeably to speed up or slow down?
+[abbreviation reads "tempo transitions."]
+
+[WTT] written-out tempo transitions in all layers: can the material be written
+in such a way to speed up or slow down in all layers (independently of the
+timeflow of other materials?) [abbreviation reads "wrtten-out tempo
+transitions."]
+
+[PWTT] written-out tempo transitions in only some layers: can the material
+written in such a way that only some layers of the material speed up or slow
+down? (not applicable for materials comprising only a single layer.)
+[abbreviation reads "partial written-out tempo transitions."]
+
+[F] (scorewide) fermatas: is the material striking when placed under fermatas
+written above the entire score? (if not, then the material is probabaly
+reiteration-rich and is better subject to looping that to fermatas.)
+[abbreviation reads "fermatas."]
+
+[WTS] written-out time suspension in all layers: can the material be written in
+such a way that all layers of the material appear to stop time? (which
+probabaly means that the material can be effected without the appearance of
+reiteration.) [abbreviation reads "written-out time suspension."]
+
+[PWTS] time suspension in only some layers: can the material be written in such
+a way that only some layers of the material appear to stop time? (not
+applicable for materials comprising only a single layer.) [abbreviation reads
+"partial written-out time suspension."]
+
+[TT->F] is the material striking when placed under an accelerando or ritardando
+(written above the entire score) that then leads to a fermata (also written
+above the entire score)?
+
+[WTT->WTS] written-out tempo transitions capped with time suspension in all
+layers: can the material be written in such a way to effect accelerando or
+ritardando capped with time suspension in all layers?
+
+[PWTT->PWTS] written-out tempo transitions capped with time suspension in only
+some layers: can the material be written in such a way to effect accelerando or
+ritardano capped with time suspension in only some layers?
+
+loops in 1 layer: ? 
+
+loops in multiple layers: ?
+
+loops in all layers: ?
+
+loops scaled by global acc/rit: ?
+
+loops in 1 layer scaled by acc/rit: ?
+
+loops in multiple layers scaled by acc/rit: ?
+
+loops in all layers scaled by acc/rit: ?
+
+loops of acc/rit cell in 1 layer: ?
+
+loops of acc/rit cell in multiple layers: ?
+
+loops of acc/rit cells in all layers: ?
+
+loops with increasing cell size: ?
+
+loops with decreasing cell size: ?
+
+loops of acc/rit cell with increasing cell size: ?
+
+loops of acc/rit cell with decreasing cell size: ?
+
+metric modulation: ?
+
+metric modulation with loops: ?
+
+affective section sizes: ?
