@@ -1,8 +1,8 @@
-[A] 8, 14(16), 4, 5, 19, 10, 6
+[A] 8, 16, 4, 5, 19, 10, 6
 [B] 12, 4, 3, 18, 9, 4, 7
-[C] 14(16), 19, 10, 4, 3, 1, 2a
+[C] 16, 19, 10, 4, 3, 1, 2A
 [D] 3, 17, 5, 18, 5, 14, 19
-[E] 2b, 11, 14, 6, 2a, 5, 1
+[E] 2B, 11, 14, 6, 2A, 5, 1
 
 ###############################################################################
 #################################### [E] ######################################
@@ -123,24 +123,24 @@ FIRST-ORDER STORYBOARD:
     M14 [ppp altissimo string tremolo & fff shakers]
     M11 [massed off-string bowing]
 
-    M6 [extremely quiet multiphonics]
+    M6 [extremely quiet multiphonics] ==> M7 [ferocious multiphonic complexes]
     M19 [piano lightning cadenza: upper register]
     M18 [china cymbal miasma]
     M14 [ppp altissimo string tremolo & fff shakers: maximum]
 
-    M6 [extremely quiet multiphonics]
+    M6 [extremely quiet multiphonics] ==> M7 [ferocious multiphonic complexes]
     M19 [piano lightning cadenza: descending]
     M18 [china cymbal miasma]
     M14 [ppp altissimo string tremolo & fff shakers: maximum]
 
-    M6 [extremely quiet multiphonics]
+    M7 [ferocious multiphonic complexes]
     M19 [piano lightning cadenza: very low & very loud]
     M18 [china cymbal miasma: reapproaching maximum]
     M14 [ppp altissimo string tremolo & fff shakers: maximum]
 
     # intermittent windows of quiet materials shining through loud materials
     M5 [extremely quiet low winds]
-    M6 [extremely quiet multiphonics]
+    M7 [ferocious multiphonic complexes] ==> M6 [extremely quiet multiphonics]
     M19 [piano lightning cadenza: rising]
     M18 [china cymbal miasma: reapproaching maximum]
     M14 [ppp altissimo string tremolo & fff shakers: maximum]

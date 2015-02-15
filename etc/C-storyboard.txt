@@ -1,14 +1,14 @@
-[A] 8, 14(16), 4, 5, 19, 10, 6
+[A] 8, 16, 4, 5, 19, 10, 6
 [B] 12, 4, 3, 18, 9, 4, 7
-[C] 14(16), 19, 10, 4, 3, 1, 2a
+[C] 16, 19, 10, 4, 3, 1, 2A
 [D] 3, 17, 5, 18, 5, 14, 19
-[E] 2b, 11, 14, 6, 2a, 5, 1
+[E] 2B, 11, 14, 6, 2A, 5, 1
 
 ###############################################################################
 #################################### [C] ######################################
 ###############################################################################
 
-materials: 14, 19, 10, 4, 3, 1, 2a
+materials: 16, 19, 10, 4, 3, 1, 2A
 
 what comes before? three different layers carry over from [B] into [C]:
 
@@ -27,33 +27,32 @@ perforated to appear only intermittently. the ability to restart the material
 from something close to the last pitch allows for perceptual continuity.
 
 M19 [piano lightning cadenza] is written into the structure of [A], [C] and
-[D] and crosses over into [E]. M19 [piano lightning cadenza] climaxes in [E].
-the occurrence of M19 [piano lightning cadenza] in [C] functions to foreshadow
-the start of the material at the end of [D].
+[D]. M19 [piano lighning cadenza] crosses over from [D] to [E]. M19 [piano
+lightning cadenza] climaxes in [E]. M19 [piano lightning cadenza] here in [C]
+foreshadows the start of M19 [piano lightning cadenza] at the end of [D].
 
 M10 [tremoli fantastiques] is written into the structure of [A] and [C]. M10
 [tremoli fantastiques] follows immediately after M19 [piano lightning cadenza]
-in both [A] and [C]. so it is likely that M19 [piano lightning cadenza]
-and M10 [tremoli fantastiques] are bonded together in the piece. this may also
-mean that the final appearance of M19 [piano lightning cadenza] in [D] and [E]
-may also be accompanied by M10 [tremoli fantastiques] even though M10 [tremoli
+in both [A] and [C]. so it is likely that M19 [piano lightning cadenza] and M10
+[tremoli fantastiques] are bonded together in the piece. this may mean that the
+final appearance of M19 [piano lightning cadenza] in [D] and [E] is also be
+accompanied by M10 [tremoli fantastiques] even though M10 [tremoli
 fantastiques] is not written into the structure of either [D] or [E].
 
 M4 [contrabass halo] is written into the structure of [A], [B] and [C]. so the
-occurrence of M4 [contrabass halo] in [C] marks the last appearance of the
-material in the piece. M4 [contrabass halo] probably never climaxes. M4
-[contrabass halo] territorializes the first three segments of the piece. what
-type of process of presentation characterizes M4 [contrabass halo] throughout
-[A], [B], [C]? M4 [contrabass halo] is probably only ever revealed in windows
-between other materials. M4 [contrabass halo] is followed immediately by M3
-[dialoguing wind solos] in both [B] and here in [C]. M4 [contrabass halo] and
-M3 [dialoguing wind solos] layer well together. it is possible that M4
-[contrabass halo] is sometimes a third partner in M3 [dialoguing wind solos].
-at the very least M4 [contrabass halo] and M3 [dialoguing wind solos] begin at
-the same time here in [C] just as they did earlier in [B]. occurrences of M3
-[dialoguing wind solos] later in the piece after [C] are not shadow-accompanied
-by M4 [contrabass halo] because M4 [contrabass halo] territorializes [A], [B],
-[C] only.
+occurrence of M4 [contrabass halo] in [C] marks the farewell appearance of M4
+[contrabass halo] in the piece. M4 [contrabass halo] probably never climaxes.
+what type of process of presentation characterizes M4 [contrabass halo]
+throughout [A], [B], [C]? M4 [contrabass halo] is probably only ever revealed
+in windows between other materials. M4 [contrabass halo] is followed
+immediately by M3 [dialoguing wind solos] in [B] and here in [C]. M4
+[contrabass halo] and M3 [dialoguing wind solos] layer well together. it is
+possible that M4 [contrabass halo] is sometimes a third partner in M3
+[dialoguing wind solos]. M4 [contrabass halo] and M3 [dialoguing wind solos]
+begin at the same time here in [C] just as they did earlier in [B]. occurrences
+of M3 [dialoguing wind solos] later in the piece after [C] are not
+shadow-accompanied by M4 [contrabass halo] because M4 [contrabass halo]
+territorializes only [A], [B], [C].
 
 M3 [dialoguing wind solos] is written into the structure of [B], [C], [D]. M3
 [dialoguing wind solos] earlier in [B] undergoes a transformation into M9
