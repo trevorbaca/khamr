@@ -2,10 +2,10 @@
 ############################ MATERIAL ANALYSES ################################
 ###############################################################################
 
-M-NUMBER: MATERIAL NAME
 ARCHETYPE:
 FULL SCORING:
 SUBSETS:
+DESCRIPTION.
 VARIATIONS.
 SINGULARITY.
 INTERNAL DEVELOPMENT.
@@ -479,10 +479,8 @@ available with the appearance of whirly tubes and tibetan bowls played over the
 pianississimo induced by the stomping-out of the jarring guiro.
  
 ###############################################################################
+########################## [M4: CONTRABASS HALO] ##############################
 ###############################################################################
-###############################################################################
-
-M4: CONTRABASS HALO
 
 ARCHETYPE. 
 
@@ -502,12 +500,14 @@ FULL SCORING. no full scoring.
 
 SUBSET. no subsets.
 
-VARIATIONS. material is probabaly always on the E string. glissandi with
+DESCRIPTION. material is probabaly always on the E string. glissandi with
 left-hand transitions between harmonic and half-harmonic pressure and
 right-hand transitions between flautando and scratch. no tremoli or other types
-of internal reiteration. intermittent multiphonics are encouraged. open
-questions as to whether practice mute should be used. open question as to
-whether intermittent moments of open string fortissimo should appear.
+of internal reiteration. intermittent multiphonics are encouraged.
+
+VARATIONS. open question as to whether practice mute should be used. open
+question as to whether intermittent moments of open string fortissimo should
+appear.
 
 INTERNAL DEVELOPMENT. start at middle of string on second partial and then work
 gradually and irregularly down towards the neck. the material never climaxes.
@@ -515,31 +515,30 @@ the material is characterized primarily by intermittency. the material starts
 with relatively little scratch, moves towards heavy amounts of scratch and then
 transitions back to end with relatively little scratch.
 
-BLOCK CHANGES. no block changes. the material is singular.
+BLOCK CHANGES. no block changes.
 
-TIME TREATMENT. two cases. when the material expresses primarily harmonic
-glissandi then (accented) bow changes can be used to activate time. when the
-material expresses primarily fingered changes of harmonic glissandi then the
-rhythm of the fingered changes can be used to activate time. both time
-activation techniques are possible at relatively slow effective tempi.
-patterned dynamic enveloping is also a possibility but not characteristic of
-the material.
+TIME TREATMENT. two cases. (accented) bow changes can be used to activate time
+when the material expresses primarily harmonic glissandi. fingered changes can
+be used to activate time when the material expresses primarily nonglissando
+harmonic changes. both time activation techniques are possible when played
+relatively slowly. patterned dynamic enveloping is also a possibility but not
+characteristic of the material.
 
     metric modulation: --
-    independent flow: --
-    independent suspension: [.S]
-    independent interruption: --
-    independent looping: [.L(slow)]
-    independent tempo transitions: --
-    independent tempo-transitioned flow: --
-    independent tempo-transitioned suspension: --
-    independent tempo-transitioned interruption: --
-    independent tempo-transitioned looping: --
+    flow: --
+    suspension: [.S]
+    interruption: --
+    looping: [.L(slow)]
+    tempo transitions: --
+    tempo-transitioned flow: --
+    tempo-transitioned suspension: --
+    tempo-transitioned interruption: --
+    tempo-transitioned looping: --
 
-RHETORIC. the purpose of the material is to act as a spirit floating behind the
-action of the piece and ultimately released upward into the other world. M4
-[contrabass halo] is not aware of other materials. but other materials (like M3
-[dialoguing wind solos]) may notice and interact with M4 [contrabass halo].
+RHETORIC. the material floats spiritlike behind the other action of the piece
+and ultimately floats upward into the beyond. M4 [contrabass halo] is not aware
+of other materials. but other materials (like M3 [dialoguing wind solos]) may
+notice and interact with M4 [contrabass halo].
 
 LAYERING.
 
@@ -579,12 +578,10 @@ LAYERING.
     pedal point marimba: +
 
 ###############################################################################
-###############################################################################
+####################### [M5: EXTREMELY QUIET LOW WINDS] #######################
 ###############################################################################
 
-M5: EXTREMELY LOW QUIET WINDS.
-
-ARCHETYPE.
+ARCHETYPE:
 
     bass flute
     bass clarinet
@@ -598,7 +595,7 @@ ARCHETYPE.
     --
     --
 
-FULL SCORING.
+FULL SCORING:
 
     bass flute
     bass clarinet
@@ -769,12 +766,10 @@ LAYERING.
     pedal point marimba: +
 
 ###############################################################################
-###############################################################################
+#################### [M6: FEROCIOUS MULTIPHONIC COMPLEXES] ####################
 ###############################################################################
 
-M6: FEROCIOUS MULTIPHONIC COMPLEXES.
-
-ARCHETYPE.
+ARCHETYPE:
 
     --
     fff bass clarinet multiphonic(s)
@@ -918,12 +913,10 @@ auxiliary percussion all available to guitarist during material because
 guitarist does not play material.
 
 ###############################################################################
-###############################################################################
+###################### [M11: MASSED OFF-STRING BOWING] ########################
 ###############################################################################
 
-M11: MASSED OFF-STRING BOWING.
-
-ARCHETYPE.
+ARCHETYPE:
 
     --
     --
@@ -937,7 +930,7 @@ ARCHETYPE.
     fast off-string cello
     moderato off-string bass
 
-FULL SCORING.
+FULL SCORING:
 
     --
     --
@@ -951,7 +944,7 @@ FULL SCORING.
     fast off-string cello
     moderato off-string bass
 
-LAYERING.
+LAYERING:
 
     upper-register prestissimo: **
     seaweed guiro: +
@@ -1021,12 +1014,10 @@ TIME.
     metric modulation with loops: +
 
 ###############################################################################
-###############################################################################
+######################### [M12: MASSED STRING TRILLS] #########################
 ###############################################################################
 
-M12: MASSED STRING TRILLS.
-
-ARCHETYPE.
+ARCHETYPE:
 
     --
     --
@@ -1040,7 +1031,7 @@ ARCHETYPE.
     cello trills
     bass trills
 
-LAYERING.
+LAYERING:
 
     upper-register prestissimo: +
     seaweed guiro: +
@@ -1090,7 +1081,7 @@ techniques are available. trill rate can be slowed down and then sped up. trill
 rate changes can apply to an individual cell or over the course of four or five
 cells in a row. dramatic changes in register work incredibly well.
 
-TIME.
+TIME:
 
     global acc/rit: +
     local acc/rit: +
@@ -1116,12 +1107,10 @@ TIME.
     metric modulation with loops: +
 
 ###############################################################################
-###############################################################################
+########################## [M13: MASSED WIND TRILLS] ##########################
 ###############################################################################
 
-M13: MASSED WIND TRILLS.
-
-ARCHETYPE.
+ARCHETYPE:
 
     ff piccolo trills
     ff upper-register b-flat clarinet trills
@@ -1135,7 +1124,7 @@ ARCHETYPE.
     --
     --
 
-LAYERING.
+LAYERING:
 
     upper-register prestissimo: --
     seaweed guiro: +
@@ -1173,12 +1162,10 @@ LAYERING.
     pedal point marimba: --
 
 ###############################################################################
-###############################################################################
+##################### [M14: ELECTRIC STRING TREMOLO & SHAKERS] ################
 ###############################################################################
 
-M14: ELECTRIC STRING TREMOLO & SHAKERS.
-
-ARCHETYPE.
+ARCHETYPE:
 
     --
     --
@@ -1192,7 +1179,7 @@ ARCHETYPE.
     fff cello tremolo altissimo
     fff bass tremolo altissimo
 
-FULL SCORING.
+FULL SCORING:
 
     fff piccolo fluttertongue
     fff auxiliary shakers
@@ -1252,7 +1239,7 @@ LAYERING (against fff string tremolo altissimo).
     woodblock struck marimba: --
     pedal point marimba: +
 
-LAYERING (against ppp string tremolo altissimo).
+LAYERING (against ppp string tremolo altissimo):
 
     upper-register prestissimo: *
     seaweed guiro: +
@@ -1289,7 +1276,7 @@ LAYERING (against ppp string tremolo altissimo).
     woodblock struck marimba: +
     pedal point marimba: +
 
-LAYERING (against fff massed shakers).
+LAYERING (against fff massed shakers):
 
     upper-register prestissimo: +
     seaweed guiro: --
@@ -1327,12 +1314,10 @@ LAYERING (against fff massed shakers).
     pedal point marimba: +
 
 ###############################################################################
-###############################################################################
+########################### [M17: SNARE ROLL] #################################
 ###############################################################################
 
-M17: SNARE ROLL.
-
-ARCHETYPE.
+ARCHETYPE:
 
     --
     --
@@ -1346,9 +1331,11 @@ ARCHETYPE.
     --
     --
 
-no full scoring of material.
+FULL SCORING. no full scoring.
 
-LAYERING.
+SUBSETS. no subsets.
+
+LAYERING:
 
     upper-register prestissimo: +
     seaweed guiro: +
@@ -1421,14 +1408,15 @@ same as jarring guiro. jarring guiro will not be time-treated. so snare roll
 will be time treated to difference from jarring guiro.
 
 ###############################################################################
+######################## [M18: CHINA CYMBAL MIASMA] ###########################
 ###############################################################################
-###############################################################################
 
-M18: CHINA CYMBAL MIASMA.
+ARCHETYPE. slow-moving color-enveloped china cymbal rolled with fortississimo
+peaks
 
-ARCHETYPE.
+FULL SCORING. no full scoring.
 
-    slow-moving color-enveloped china cymbal rolled with fortississimo peaks
+SUBSETS. no subsets.
 
 INTERNAL DEVELOPMENT. three different processes play out. the first moves the
 position of the rolled mallets from the lip of the cymbal to the center of the
@@ -1439,7 +1427,7 @@ one to the other. the zargun color of the haze transforms during crossfade. a
 fourth process possibly increases or decreases the reiteration rate inside the
 tremolo especially when the tremolo is loud.
 
-LAYERING.
+LAYERING:
  
     1. upper-register prestissimo: --
     2a. seaweed guiro: +
@@ -1520,12 +1508,10 @@ almglocken in the orchestration of the static wind chord that precedes the
 appearance of the miasma.
 
 ###############################################################################
-###############################################################################
+###################### [M19: PIANO LIGHTNING CADENZA] #########################
 ###############################################################################
 
-M19: PIANO LIGHTNING CADENZA.
-
-ARCHETYPE.
+ARCHETYPE:
 
     --
     --
@@ -1539,25 +1525,55 @@ ARCHETYPE.
     --
     --
 
-FULL SCORING.
+FULL SCORING (1):
 
-    loud or quiet piccolo prestissimo
+    loud or quiet piccolo prestissimo (possibly fluttertongue)
     --
     --
     --
-    guitar coarticulations & mandolin line articulations
+    guitar mandolin line
     extremely fast piano cadenza
-    --
-    --
-    --
-    --
-    --
+    castanets
+    violin mandolin line
+    viola intense tremoli
+    cello intense tremoli
+    bass intense tremoli
 
-PERFORMANCE TECHNIQUE. white-key or chromatic scalar fragments. looping to
-pool up and build energy is a strong possibility. looping first on the stopped
-strings to pool up and build energy could be incredibly dramatic. trills make
-sense in the material. chained trills make an especially strong amount of sense
-in the material.
+FULL SCORING (2):
+
+    --
+    --
+    --
+    --
+    guitar dead pizzicati & bartok pizzicati
+    piano single stopped string points
+    castanets or dead woodblock or dead bass drum or dead snare
+    violin dead pizzicati & bartok pizzicati
+    viola dead pizzicati & bartok pizzicati
+    cello dead pizzicati & bartok pizzicati
+    bass dead pizzicati & bartok pizzicati
+
+SUBSETS:
+
+    [a]
+    loud or quiet piccolo prestissimo (possibly fluttertongue)
+
+    [b]
+    guitar mandolin line articulations
+
+    [c]
+    loud or quiet piccolo prestissimo (possibly fluttertongue)
+    guitar mandolin line articulations
+
+[loud or quiet piccolo prestissimo] can be matched to a component of M1
+[upper-register prestissimo]. string [intense tremoli] can be matched to a
+component of M10 [tremoli fantastiques].
+
+DESCRIPTION. white-key scalar fragments. chromatic scalar fragments.
+pitch-patterned scalar fragments. looping to pool up and build energy is a
+strong possibility. looping first on the stopped strings to pool up and build
+energy could be incredibly dramatic. trills make sense in the material. chained
+trills make an especially strong amount of sense in the material.
 
 NOTATION. single staff probably suffices. open question as to whether graces or
 extremely fast note values make more sense. third option is smaller notes
@@ -1565,24 +1581,92 @@ without rhythmic specification. it's also possible to use the double-stemmed
 toccata notation to accent the first element some or all figures during regions
 of the cadenza and to give speed to the material incredibly.
 
+VARIATIONS. first variation that interpolates register from very high to very
+low while maintaining constantly swirled local contour. second variation that
+places piano extremely low, extremely fast, extremely loud and extremely muddy.
+third variation that starts with pointillist rhythms on stopped piano strings
+together with pointillist single plucks or tremoli in the guitar and strings.
+
+SINGULARITY. burst of piano fragment repeated prestissimo possibile together
+with burst of single-note piccolo fluttertongue together with burst of mandolin
+strumming on all the strings at once.
+
 INTERNAL DEVELOPMENT. does the cadenza expire in the extreme upper registers of
-the instrument to avoid returning to the muted strings? does the cadenza visit
-the lower registers of the instrument at some point to encourage low-register
-energy and coax the brown colors of a low-register prestissimo? note that
-because the material moves so fast it can be used extensively in the piece to
-bear the continued presence of incredibly fast movement.
+the piano to avoid returning to the muted strings? does the cadenza visit the
+lower registers of the instrument at some point to encourage low-register
+energy and coax the brown colors of low-register prestissimo? note that because
+the material moves so fast it can be used extensively in the piece to bear the
+continued presence of incredibly fast movement.
 
-ORCHESTRATION. is the material an extension of the upper register prestissimo?
-is the material a precursor of the upper register prestissimo? the material
-pairs well with almost everything. the material also spins off into the high
-instruments incredibly easily in the passing of exact fragments from the piano
-writing to the piccolo, b-flat clarinet, sopranino or alto sax and oboe.
+BLOCK CHANGES. block change of reigster is particularly effective. block change
+of dynamics is also effective.
 
-LAYERING.
+TIME TREATMENT. M19 [piano lightning cadenza] gets caught in big loops of 30 or
+40 extremely rapid pitches. long cadenza loops will tempo transition extremely
+effectively:
+
+    metric modulation: +
+    flow: +
+    suspension: --
+    interruption: +
+    looping: **
+    tempo transitions: **
+    tempo-transitioned flow: +
+    tempo-transitioned suspension: --
+    tempo-transitioned interruption: +
+    tempo-transitioned looping: **
+
+RHETORIC. dramatic way to develop material starts with cadenza on only muted
+strings and then moves cadenza to open strings to pick up energy, brightness
+and loudness. cadenza keeps trying to get started during beginning of piece.
+this means cadenza keeps trying to get started on muted strings with broken
+fragments. this means that there's a primordial form of the material that
+starts with perforated pointillism on the muted strings together with single
+points or hits in the other instruments. the nonpitched percussion instruments
+include castanets, single forceful guiro strokes, single maraca shakes, single
+snare hits, single dead snare hits, single bass drum hits, single dead bass
+drum hits, single woodblock hits, single dead woodblock hits. true pizzicati,
+dead pizzicati and bartok pizzicati all make sense in the guitar and strings.
+this primordial form of the material is the homeland of dead strokes and dead
+hits. very many pathways into and out of the material. any of the textural
+materials compressed to a single octave or a ninth or tenth make for a dramatic
+lead-in to this material. if the cadenza expires in the extreme register of the
+instrument on the open strings then the cadenza leads perfectly into M14
+[electric string tremolo and shakers]. the cadenza also leads perfectly into
+M14 [massed shakers]. the cadenza also interacts extremely well with M17
+[fortissimo snare roll]. what is the rhetoric of interaction between the M19
+[piano lightning cadenza] and M17 [snare roll]? the snare roll can try to force
+the cadenza to cease two or three times before being completely overwhelmed by
+the cadenza when the cadenza acquires a critical amount of energy or descends
+into the lowest registers of the piano. this is possible even with an
+incredibly forceful snare roll. so this provides a way of presenting the
+saturated versions of two materials in counterpoint at one time. this is
+possible even though M17 [snare roll] is written into the structure only in
+[D].
+
+LAYERING. is M19 [piano lightning cadena] an extension of M1 [upper-register
+prestissimo]? is M19 [piano lightning cadenza] a precursor of M1
+[upper-register prestissimo]? exact fragments of M19 [piano lightning cadenza]
+easily become piccolo, b-flat clarinet, sopranino sax or oboe fragments: if M19
+[piano lightning cadenza] gets caught in loops then it makes sense to pair an
+insistent scalar loop in the piano with an exactly cosynchronous forceful
+stroke against the guiro. the insistence on both will provide a type of energy
+that can only come from that combination. once the cadenza descends into the
+lowest registers of the piano it becomes possible to activate the low register
+version of M7 [ferocious multiphonic complexes]. what this shows is that the
+cadenza functions as the activator of a large number of the saturated versions
+of materials. the upper-register parts of the cadenza activate upper-register
+materials. the lower-register parts of the cadenza activate lower-register
+materials. there are a number of lovely contrast pathways. M11 [massed
+off-string bowing] layers incredibly well as a type of luminescent haze over
+parts of the couse of M19 [piano lightning cadenza]. M12 [massed string trills]
+layer incredibly well as a type of lumicescent haze over parts of the course of
+the cadenza. castanets combined with the regions of luminescent haze will be
+incredible:
 
     upper-register prestissimo: **
     seaweed guiro: as in-transition
-    burst guiro: as in-transition
+    burst guiro: **
     dialoguing wind solos: +
     contrabass halo: +
     extremely quiet low winds: +
@@ -1603,60 +1687,14 @@ LAYERING.
     triangle: +
     struck almglocken: **
     scraped almglocken: +
-    castanets: +
+    castanets: **
     shakers: +
     foot-struck bass drum: +
     groaned bass drum: +
     rolled bass drum: +
     suspended cymbal: +
-    struck tam-tam: +
-    brushed tam-tam: +
+    struck tam-tam: *
+    brushed tam-tam: *
     struck marimba: --
     woodblock struck marimba: --
     pedal point marimba: --
-
-RHETORIC. dramatic way to develop material starts with cadenza on only muted
-strings and then moves cadenza to open strings to pick up energy, brightness
-and loudness. cadenza keeps trying to get started during beginning of piece.
-this means cadenza keeps trying to get started on muted strings with broken
-rhythms and fragments that are not yet fully running-scalar. this means that
-there's a primordial form of the material that starts with perforated
-pointillism on the muted strings together with single points or hits in the
-other instruments. the nonpitched percussion instruments include castanets,
-single forceful guiro strokes, single maraca shakes, single snare hits, single
-dead snare hits, single bass drum hits, single dead bass drum hits, single
-woodblock hits, single dead woodblock hits. true pizzicati in the guitar and
-strings also make sense, especially dead pizzicati and even batrok pizzicati.
-this primordial form of the material is the homeland of dead strokes and dead
-hits. there are so many pathways into and out of the material. any of the
-textural materials compressed to a single octave or a ninth or tenth make for a
-dramatic lead-in to this material. if the cadenza expires in the extreme
-register of the instrument on the open strings then the cadenza leads perfectly
-into the electric string tremolo and shakers. the cadenza also leads perfectly
-into massed shakers. the cadenza also interacts extremely well with a
-fortissimo snare roll. what is the rhetoric of interaction between the cadenza
-and snare roll? the snare roll can try to force the cadenza to cease two or
-three times before being completely overwhelmed by the cadenza when the cadenza
-acquires a critical amount of energy or descends into the lowest registers of
-the piano. this is possible even with an incredibly forceful snare roll. so
-this provides a way of presenting the saturated versions of two materials in
-counterpoint at one time. once the cadenza descends into the lowest registers
-of the instrument it becomes possible to activate the low register version of
-the ferocious multiphonics. what this shows is that the cadenza functions as
-the activator of a large number of the saturated versions of the materials in
-the piece. the upper-registers parts of the cadenza activate the upper-register
-materials. the lower-register parts of the cadenza activate the lower-register
-materials. there are also a number of lovely contrast pathways. massed
-off-string bowing layers incredibly well as a type of luminescent haze over
-parts of the couse of the cadenza. massed string trills layer incredibly well
-as a type of lumicescent haze over parts of the course of the cadenza.
-castanets combined with the regions of luminescent haze will be incredible.
-
-LOOPING. does the cadenza get caught in loops? if the cadenza gets caught in
-loops on the open strings then it makes sense to pair an insistent scalar loop
-in the piano with an exactly cosynchronous forceful stroke against the guiro.
-the insistence on both will provide a type of energy that can only come from
-that combination. the cadenza can also get caught in big loops of 30 or 40
-extremely rapid pitches. long cadenza loops will timescale extremely
-effectively. long cadenza loops will pair extremely effectively with the china
-cymbal miasma and with the tam-tams. 

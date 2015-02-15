@@ -1,8 +1,8 @@
-[A] 8, 14(16), 4, 5, 19, 10, 6
+[A] 8, 16, 4, 5, 19, 10, 6
 [B] 12, 4, 3, 18, 9, 4, 7
-[C] 14(16), 19, 10, 4, 3, 1, 2a
+[C] 16, 19, 10, 4, 3, 1, 2A
 [D] 3, 17, 5, 18, 5, 14, 19
-[E] 2b, 11, 14, 6, 2a, 5, 1
+[E] 2B, 11, 14, 6, 2A, 5, 1
 
 ###############################################################################
 #################################### [D] ######################################
@@ -74,65 +74,81 @@ tremolo & shakers] may appear in [D] with M18 [china cymbal miasma] M5
 sequence.
 
 M19 [piano lightning cadenza] is written into the structure of segments [A],
-[C] and [D]. which of the three regions climaxes the material? M14 [electric
-string tremolo & shakers] and M19 [piano lightning cadenza] abut in [D] and
-work in counterpoint. so it's possible that [D-E] houses the climax of M14
-[electric string tremolo & shakers] and that [D] also houses the climax of M19
-[piano lightning cadenza]. then [D] superimposes the climaxes of M14 [electric
-string tremolo & shakers] and M19 [piano lightning cadenza]. probabaly also
-means that M19 [piano lightning cadenza] continues over the end of [D] and well
-into [E]. possibly M19 [piano lightning cadenza] continues into [E] up through
-the appearance of M14 [electric string tremolo & shakers] in [E]. M10 [tremoli
-fantastiques] follows M19 [piano lightning cadenza] in [A] and [C]. this may
-mean that M10 [tremoli fantastiques] is bonded to M19 [piano lightning cadenza]
-in the piece and that the occurrence of M19 [piano lightning cadenza] here in
-[D] is accompanied by M10 [tremoli fantastiques] even though M10 [tremoli
-fantastiques] is not written into the structure of [D].
+[C] and [D]. M14 [electric string tremolo & shakers] and M19 [piano lightning
+cadenza] abut in [D] and work in counterpoint. so it's possible that [D-E]
+houses the climax of M14 [electric string tremolo & shakers] and that [D] also
+houses the climax of M19 [piano lightning cadenza]. then [D] superimposes the
+climaxes of M14 [electric string tremolo & shakers] and M19 [piano lightning
+cadenza]. probabaly also means that M19 [piano lightning cadenza] continues
+over the end of [D] and well into [E]. possibly M19 [piano lightning cadenza]
+continues into [E] up through the appearance of M14 [electric string tremolo &
+shakers] in [E]. M10 [tremoli fantastiques] follows M19 [piano lightning
+cadenza] in [A] and [C]. this may mean that M10 [tremoli fantastiques] is
+bonded to M19 [piano lightning cadenza] in the piece and that the occurrence of
+M19 [piano lightning cadenza] here in [D] is accompanied by M10 [tremoli
+fantastiques] even though M10 [tremoli fantastiques] is not written into the
+structure of [D]. the true climax of M19 [piano lightning cadenza] then comes
+in [E]. the true climax of M19 [piano lightning cadenza] is also accompanied by
+a saturated version of M7 [ferocious multiphonic complexes] in [E] even though
+M7 [ferocrious multiphonic complexes] is written into only the end of [B].
 
 FIRST-ORDER STORYBOARD:
 
-    M3 [dialoguing wind solos]
-    M2a [(piano) seaweed guiro] (from [C])
+    [1]
+++++M3 [dialoguing wind solos]
+....(M2a [(piano) seaweed guiro] (from [C]))
 
-    M3 [dialoguing wind solos]
+    [2]
+    (M3 [dialoguing wind solos])
 
-    M3 [dialoguing wind solos]
-    M12 [massed string trills]
+    [3]
+    (M3 [dialoguing wind solos])
+++++M12 [massed string trills]
    
-    M3 [dialoguing wind solos]
-    M17 [snare roll]
-    M12 [massed string trills]
+    [4]
+    (M3 [dialoguing wind solos])
+++++M17 [snare roll]
+    (M12 [massed string trills])
 
-    M3 [dialoguing wind solos]
-    M5 [extremely quiet low winds]
-    M17 [snare roll]
-    M12 [massed string trills]
+    [5]
+....(M3 [dialoguing wind solos])
+++++M5 [extremely quiet low winds]
+    (M17 [snare roll])
+    (M12 [massed string trills])
 
-    M5 [extremely quiet low winds]
-    M17 [snare roll]
-    M12 [massed string trills]
+    [6]
+    (M5 [extremely quiet low winds])
+    (M17 [snare roll])
+....(M12 [massed string trills])
 
-    M5 [extremely quiet low winds]
-    M17 [snare roll]
+    [7]
+    (M5 [extremely quiet low winds])
+....(M17 [snare roll])
 
-    M5 [extremely quiet low winds]
+    [8]
+    (M5 [extremely quiet low winds])
 
-    M5 [extremely quiet low winds]
-    M18 [china cymbal miasma]
+    [9]
+    (M5 [extremely quiet low winds])
+++++M18 [china cymbal miasma]
 
-    M18 [china cymbal miasma]
+    [10]
+    (M18 [china cymbal miasma])
 
-    M5 [extremely quiet low winds]
-    M18 [china cymbal miasma]
-    M14 [electric string tremolo & shakers] 
+    [11]
+    (M5 [extremely quiet low winds])
+    (M18 [china cymbal miasma])
+++++M14 [electric string tremolo & shakers] 
 
-    M5 [extremely quiet low winds]
-    M19 [piano lightning cadenza]
-    M18 [china cymbal miasma]
-    M14 [electric string tremolo & shakers] 
+    [12]
+    (M5 [extremely quiet low winds])
+++++M19 [piano lightning cadenza]
+    (M18 [china cymbal miasma])
+    (M14 [electric string tremolo & shakers])
 
 ORCHESTRATION:
 
+    [1]
     M3 [dialoguing wind solos] (bass flute)
     M3 [dialoguing wind solos] (b-flat clarinet)
     M3 [dialoguing wind solos] (baritone sax)
@@ -146,6 +162,7 @@ ORCHESTRATION:
     --
 
 
+    [2]
     --
     --
     --
@@ -159,6 +176,7 @@ ORCHESTRATION:
     --
 
 
+    [3]
     M3 [dialoguing wind solos] (bass flute)
     M3 [dialoguing wind solos] (b-flat clarinet)
     M3 [dialoguing wind solos] (baritone sax)
@@ -172,6 +190,7 @@ ORCHESTRATION:
     --
 
 
+    [4]
     M3 [dialoguing wind solos] (bass flute)
     M3 [dialoguing wind solos] (b-flat clarinet)
     M3 [dialoguing wind solos] (baritone sax)
