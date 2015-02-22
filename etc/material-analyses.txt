@@ -1579,7 +1579,7 @@ NOTATION. single staff probably suffices. open question as to whether graces or
 extremely fast note values make more sense. third option is smaller notes
 without rhythmic specification. it's also possible to use the double-stemmed
 toccata notation to accent the first element some or all figures during regions
-of the cadenza and to give speed to the material incredibly.
+of the cadenza and to give incredible speed to the material.
 
 VARIATIONS. first variation that interpolates register from very high to very
 low while maintaining constantly swirled local contour. second variation that
@@ -1618,7 +1618,7 @@ effectively:
 
 RHETORIC. dramatic way to develop material starts with cadenza on only muted
 strings and then moves cadenza to open strings to pick up energy, brightness
-and loudness. cadenza keeps trying to get started during beginning of piece.
+and loudness. cadenza keeps trying to get started.
 this means cadenza keeps trying to get started on muted strings with broken
 fragments. this means that there's a primordial form of the material that
 starts with perforated pointillism on the muted strings together with single

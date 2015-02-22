@@ -142,3 +142,18 @@ materials: 16, 19, 10, 4, 3, 1, 2a
     # farewell of M4
     (M2a [seaweed guiro])
     (M4 [contrabass halo])
+
+ORCHESTRATION:
+
+    [1]
+++++M19 [piccolo fluttertongue accompaniment to piano lightning cadenza]
+    (M7 [contrabass clarinet ferocious multiphonics])
+    (M7 [baritone sax ferocious multiphonicss])
+    (M7 [english horn ferocious multiphonics])
+++++M19 [guitar manodlin line accompaniment to piano lightning cadenza]
+++++M19 [piano lightning cadenza: foreshadow end of piece]
+    (M18 [china cymbla miasma])
+++++M19 [violin mandolin line accompaniment to piano lightning cadenza]
+++++M19 [viola dead pizzicati accompaniment to piano lightning cadenza]
+++++M19 [cello dead pizzicati accompaniment to piano lightning cadenza]
+....(M16 [extremely long string tremolo descent: endpoint: ppp])
