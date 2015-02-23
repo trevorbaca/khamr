@@ -72,7 +72,7 @@ RHETORIC.
 LAYERING:
     M1 [upper-register prestissimo]: ?
     M2A [seaweed guiro]: ?
-    M2b [burst guiro]: ?
+    M2B [burst guiro]: ?
     M3 [dialoguing wind solos]: ?
     M4 [contrabass halo]: ?
     M5 [extremely quiet low winds]: ?
@@ -102,7 +102,6 @@ LAYERING:
     struck tam-tam: ?
     brushed tam-tam: ?
     struck marimba: ?
-    woodblock struck marimba: ?
     pedal point marimba: ?
 
 ###############################################################################
@@ -134,10 +133,10 @@ MATERIALS:
     M20 whirly tubes:
 
 ###############################################################################
-###############################################################################
+####################### [M1: UPPER-REGISTER PRESTISSIMO] ######################
 ###############################################################################
 
-M1: UPPER-REGISTER PRESTISSIMO.
+ARCHETYPE:
 
     piccolo running altissimo
     b-flat clarinet running quiet upper register
@@ -151,59 +150,77 @@ M1: UPPER-REGISTER PRESTISSIMO.
     --
     --
 
-subsets:
+FULL SCORING:
 
+    piccolo running altissimo
+    b-flat clarinet running quiet upper register
+    sopranino sax running quiet upper register
+    oboe running upper register
+    guitar coattacks with piccolo altissimo
+    piano
+    castanets & triangle
+    violin short running slurs
+    viola short running slurs
+    cello short running slurs
+    contrabass harmonic pizzicati with piano or guitar
+
+SUBSETS:
+
+    [a]
     piccolo
     b-flat clarinet
     sopranino sax
     oboe
     [(muted) piano]
 
+    [b]
     piccolo
     [oboe]
     violin
     [piano]
 
+    [c]
     b-flat clarinet
     sopranino sax
     [piano]
     
+    [d]
     violin
     viola
 
+    [e]
     b-flat clarinet
     lower sopranino sax
     lower violin
     viola
 
-ensemble completion with resonant guitar coattacking beginnings or ends of
-violin slurs or viola slurs. or with extremely bright upper register guitar
-coattacking beginnings or ends of piccolo slurs.
-
+    [f]
     piccolo running slurs
     extremely high guitar coattacks
 
+    [g]
     b-flat clarinet running slurs
     sopranino sax running slurs
     high guitar coattacks
 
     [*]
+    [h]
     violin running slurs or off-string figures
     viola running slurs or off-string figures
     guitar coattacks
 
+    [i]
     piano running slurs
     guitar coattacks
 
-ensemble completion with cello off-string figures and bass off-string figures.
-
+    [j]
     violin running slurs or off-string figures
     viola running slurs or off-string figures
     cello off-string figures
     bass off-string figures
     [guitar coattacks]
 
-PITCH APPLICATION. shared register with relatively large number of simultaneous
+DESCRIPTION. shared register with relatively large number of simultaneous
 voices makes a strictly canonic or interruptedly canonic application of pitches
 possible. can be exact figure repetition of pitch, rhythm and dynamics first in
 piccolo then in violin then in sopranino sax then in clarinet and so on. amount
@@ -221,70 +238,71 @@ differently in different voices.
 VARATIONS. legato figures can be subito swapped out for tongued and off-string
 figures. legato figures and tongued / off-string figures can interpolate.
 
-TIME. 
+SINGLARITY. single simultaneous but rhythmically irregular fast run of all
+running instruments (piccolo, b-flat clarinet, sopranino sax, oboe, violin,
+viola, cello) together with single (possibly blurred) strike of struck
+instruments (piano, castanets or triangle, contrabass harmonic pizzicato).
 
-    global acc/rit: +
-    local acc/rit: +
-    global fermatas: +
-    subset fermatas: +
-    global acc/rit leading directly to global fermatas: +
-    global acc/rit leading directly to subset fermatas: +
-    loops in 1 layer: + 
-    loops in multiple layers: +
-    loops in all layers: +
-    loops scaled by global acc/rit: +
-    loops in 1 layer scaled by acc/rit: +
-    loops in multiple layers scaled by acc/rit: +
-    loops in all layers scaled by acc/rit: +
-    loops of acc/rit cell in 1 layer: +
-    loops of acc/rit cell in multiple layers: +
-    loops of acc/rit cells in all layers: +
-    loops with increasing cell size: +
-    loops with decreasing cell size: +
-    loops of acc/rit cell with increasing cell size: +
-    loops of acc/rit cell with decreasing cell size: +
-    metric modulation: +
-    metric modulation with loops: +
+INTERNAL DEVELOPMENT. rhythmic figuration can be gradually made more dense or
+less dense in each running instrument. register can be gradually interpolated
+up or down in all running insturments.
 
-LAYERING.
+BLOCK CHANGES. block change of register in running instruments. block change of
+dynamics in running instruments.
 
-    upper-register prestissimo: [idem]
-    seaweed guiro: +
-    burst guiro: +
-    dialoguing wind solos: +
-    contrabass halo: +
-    extremely quiet low winds: +
-    quiet multiphonic complexes: +
-    ferocious multiphonic complexes: +
-    pizzicati fantastiques: +
-    sostenuti fantastiques: +
-    tremoli fantastiques: +
-    massed off-string bowing: +
-    massed string trills: +
-    massed wind trills: +
-    electric string tremolo + shakers: +
-    snare roll: +
-    china cymbal miasma: +
-    piano lightning cadenza: +
-    whirly tubes: +
-    
-    triangle: +
-    struck almglocken: --
-    scraped almglocken: --
-    castanets: +
-    shakers: --
+TIME TREATMENT:
+
+    metric modulation: [MM], [MM(L)]
+    flow: all
+    suspension: all
+    interruption: [(**)I]
+    looping: all
+    tempo transitions: all
+    tempo-transitioned flow: all
+    tempo-transitioned suspension: --
+    tempo-transitioned interruption: [(**)A/R(I)]
+    tempo-transitioned looping: all
+
+RHETORIC. used as a mass.
+
+LAYERING:
+
+    M1 [upper-register prestissimo]: [idem]
+    M2A [seaweed guiro]: +
+    M2B [burst guiro]: +
+    M3 [dialoguing wind solos]: +
+    M4 [contrabass halo]: +
+    M5 [extremely quiet low winds]: +
+    M6 [quiet multiphonic complexes]: +
+    M7 [ferocious multiphonic complexes]: +
+    M8 [pizzicati fantastiques]: +
+    M9 [sostenuti fantastiques]: +
+    M10 [tremoli fantastiques]: +
+    M11 [massed off-string bowing]: +
+    M12 [massed string trills]: +
+    M13 [massed wind trills]: +
+    M14 [electric string tremolo & shakers]: +
+    M17 [snare roll]: +
+    M18 [china cymbal miasma]: +
+    M19 [piano lightning cadenza]: *
+    M20 [whirly tubes]: *
+     
+    triangle: *
+    struck almglocken: +
+    scraped almglocken: +
+    castanets: *
+    shakers: *
     foot-struck bass drum: --
     groaned bass drum: +
-    rolled bass drum: +
-    suspended cymbal: +
+    rolled bass drum: --
+    suspended cymbal: --
     struck tam-tam: +
-    brushed tam-tam: --
+    brushed tam-tam: +
     struck marimba: --
-    woodblock struck marimba: +
     pedal point marimba: +
 
 ###############################################################################
-###############################################################################
+############################## [M2: GUIRO] ####################################
 ###############################################################################
 
 M2: GUIRO.
@@ -354,7 +372,6 @@ LAYERING.
     struck tam-tam: --
     brushed tam-tam: +
     struck marimba: --
-    woodblock struck marimba: --
     pedal point marimba: --
 
 2(X): BURST GUIRO.
@@ -405,7 +422,6 @@ LAYERING.
     struck tam-tam: --
     brushed tam-tam: +
     struck marimba: +
-    woodblock struck marimba: +
     pedal point marimba: --
 
 2(J): JARRING GUIRO.
@@ -450,7 +466,6 @@ LAYERING.
     struck tam-tam: **
     brushed tam-tam: +
     struck marimba: --
-    woodblock struck marimba: --
     pedal point marimba: --
 
 no need for internal development.
@@ -574,7 +589,6 @@ LAYERING.
     struck tam-tam: +
     brushed tam-tam: +
     struck marimba: --
-    woodblock struck marimba: --
     pedal point marimba: +
 
 ###############################################################################
@@ -762,7 +776,6 @@ LAYERING.
     struck tam-tam: +
     brushed tam-tam: --
     struck marimba: --
-    woodblock struck marimba: --
     pedal point marimba: +
 
 ###############################################################################
@@ -906,7 +919,6 @@ LAYERING.
     struck tam-tam: +
     brushed tam-tam: +
     struck marimba: --
-    woodblock struck marimba: --
     pedal point marimba: +
 
 auxiliary percussion all available to guitarist during material because
@@ -978,7 +990,6 @@ LAYERING:
     struck tam-tam: +
     brushed tam-tam: +
     struck marimba: +
-    woodblock struck marimba: +
     pedal point marimba: +
 
 INTERNAL DEVELOPMENT. everything is available. all the time techniques work.
@@ -1065,7 +1076,6 @@ LAYERING:
     struck tam-tam: +
     brushed tam-tam: +
     struck marimba: +
-    woodblock struck marimba: +
     pedal point marimba: +
 
 VARIATIONS. normative version uses ordinario bowing. second version uses
@@ -1158,7 +1168,6 @@ LAYERING:
     struck tam-tam: +
     brushed tam-tam: +
     struck marimba: --
-    woodblock struck marimba: +
     pedal point marimba: --
 
 ###############################################################################
@@ -1236,7 +1245,6 @@ LAYERING (against fff string tremolo altissimo).
     struck tam-tam: *
     brushed tam-tam: * 
     struck marimba: --
-    woodblock struck marimba: --
     pedal point marimba: +
 
 LAYERING (against ppp string tremolo altissimo):
@@ -1273,7 +1281,6 @@ LAYERING (against ppp string tremolo altissimo):
     struck tam-tam: *
     brushed tam-tam: * 
     struck marimba: +
-    woodblock struck marimba: +
     pedal point marimba: +
 
 LAYERING (against fff massed shakers):
@@ -1310,7 +1317,6 @@ LAYERING (against fff massed shakers):
     struck tam-tam: +
     brushed tam-tam: * 
     struck marimba: +
-    woodblock struck marimba: --
     pedal point marimba: +
 
 ###############################################################################
@@ -1369,7 +1375,6 @@ LAYERING:
     struck tam-tam: [+]
     brushed tam-tam: [+]
     struck marimba: --
-    woodblock struck marimba: --
     pedal point marimba: [+]
 
 VARATIONS. most forceful version of material holds ffff roll for a surprising
@@ -1461,7 +1466,6 @@ LAYERING:
     struck tam-tam: [+]
     brushed tam-tam: [+]
     struck marimba: [+]
-    woodblock struck marimba: [+]
     pedal point marimba: [+]
 
 layers well with quiet static winds. layers well with loud static winds. layers
@@ -1618,31 +1622,30 @@ effectively:
 
 RHETORIC. dramatic way to develop material starts with cadenza on only muted
 strings and then moves cadenza to open strings to pick up energy, brightness
-and loudness. cadenza keeps trying to get started.
-this means cadenza keeps trying to get started on muted strings with broken
-fragments. this means that there's a primordial form of the material that
-starts with perforated pointillism on the muted strings together with single
-points or hits in the other instruments. the nonpitched percussion instruments
-include castanets, single forceful guiro strokes, single maraca shakes, single
-snare hits, single dead snare hits, single bass drum hits, single dead bass
-drum hits, single woodblock hits, single dead woodblock hits. true pizzicati,
-dead pizzicati and bartok pizzicati all make sense in the guitar and strings.
-this primordial form of the material is the homeland of dead strokes and dead
-hits. very many pathways into and out of the material. any of the textural
-materials compressed to a single octave or a ninth or tenth make for a dramatic
-lead-in to this material. if the cadenza expires in the extreme register of the
-instrument on the open strings then the cadenza leads perfectly into M14
-[electric string tremolo and shakers]. the cadenza also leads perfectly into
-M14 [massed shakers]. the cadenza also interacts extremely well with M17
-[fortissimo snare roll]. what is the rhetoric of interaction between the M19
-[piano lightning cadenza] and M17 [snare roll]? the snare roll can try to force
-the cadenza to cease two or three times before being completely overwhelmed by
-the cadenza when the cadenza acquires a critical amount of energy or descends
-into the lowest registers of the piano. this is possible even with an
-incredibly forceful snare roll. so this provides a way of presenting the
-saturated versions of two materials in counterpoint at one time. this is
-possible even though M17 [snare roll] is written into the structure only in
-[D].
+and loudness. cadenza keeps trying to get started. this means cadenza keeps
+trying to get started on muted strings with broken fragments. this means that
+there's a primordial form of the material that starts with perforated
+pointillism on the muted strings together with single points or hits in the
+other instruments. the nonpitched percussion instruments include castanets,
+single forceful guiro strokes, single maraca shakes, single snare hits, single
+dead snare hits, single bass drum hits, single dead bass drum hits, single
+woodblock hits, single dead woodblock hits. true pizzicati, dead pizzicati and
+bartok pizzicati all make sense in the guitar and strings. this primordial form
+of the material is the homeland of dead strokes and dead hits. very many
+pathways into and out of the material. any of the textural materials compressed
+to a single octave or a ninth or tenth make for a dramatic lead-in to this
+material. if the cadenza expires in the extreme register of the instrument on
+the open strings then the cadenza leads perfectly into M14 [electric string
+tremolo and shakers]. the cadenza also leads perfectly into M14 [massed
+shakers]. the cadenza also interacts extremely well with M17 [fortissimo snare
+roll]. what is the rhetoric of interaction between the M19 [piano lightning
+cadenza] and M17 [snare roll]? the snare roll can try to force the cadenza to
+cease two or three times before being completely overwhelmed by the cadenza
+when the cadenza acquires a critical amount of energy or descends into the
+lowest registers of the piano. this is possible even with an incredibly
+forceful snare roll. so this provides a way of presenting the saturated
+versions of two materials in counterpoint at one time. this is possible even
+though M17 [snare roll] is written into the structure only in [D].
 
 LAYERING. is M19 [piano lightning cadena] an extension of M1 [upper-register
 prestissimo]? is M19 [piano lightning cadenza] a precursor of M1
@@ -1696,5 +1699,4 @@ incredible:
     struck tam-tam: *
     brushed tam-tam: *
     struck marimba: --
-    woodblock struck marimba: --
     pedal point marimba: --
