@@ -15,7 +15,7 @@ flow:
 [(**)F]
 [{*}F]
 [{**}F]
-is the material striking when (one, some all) layers are written to flow
+is the material striking when (one, some, all) layers are written to flow
 outside of time?
 
 suspension:

@@ -28,8 +28,9 @@ from something close to the last pitch allows for perceptual continuity.
 
 M19 [piano lightning cadenza] is written into the structure of [A], [C] and
 [D]. M19 [piano lighning cadenza] crosses over from [D] to [E]. M19 [piano
-lightning cadenza] climaxes in [E]. M19 [piano lightning cadenza] in [C]
-foreshadows the start of M19 [piano lightning cadenza] at the end of [D].
+lightning cadenza] climaxes in [E]. M19 [piano lightning cadenza] in both [A]
+and [C] foreshadows the start of M19 [piano lightning cadenza] at the end of
+[D].
 
 M10 [tremoli fantastiques] is written into the structure of [A] and [C]. M10
 [tremoli fantastiques] follows immediately after M19 [piano lightning cadenza]
@@ -148,12 +149,86 @@ ORCHESTRATION:
     [1]
 ++++M19 [piccolo fluttertongue accompaniment to piano lightning cadenza]
     (M7 [contrabass clarinet ferocious multiphonics])
-    (M7 [baritone sax ferocious multiphonicss])
+    (M7 [baritone sax ferocious multiphonics])
     (M7 [english horn ferocious multiphonics])
 ++++M19 [guitar manodlin line accompaniment to piano lightning cadenza]
 ++++M19 [piano lightning cadenza: foreshadow end of piece]
     (M18 [china cymbla miasma])
 ++++M19 [violin mandolin line accompaniment to piano lightning cadenza]
-++++M19 [viola dead pizzicati accompaniment to piano lightning cadenza]
-++++M19 [cello dead pizzicati accompaniment to piano lightning cadenza]
+++++M9 [viola sostenuti fantastiques]
+++++M9 [cello sostenuti fantastiques]
 ....(M16 [extremely long string tremolo descent: endpoint: ppp])
+    * make piccolo fluttertongue distribute differently than piano;
+      maybe rhythm of piccolo fluttertongue should follow non-M19 material
+    
+
+    [2]
+    (M19 [piccolo fluttertongue accompaniment to piano lightning cadenza])
+    (M7 [contrabass clarinet ferocious multiphonics])
+    (M7 [baritone sax ferocious multiphonics])
+    (M7 [english horn ferocious multiphonics])
+++++M19 [guitar manodlin line accompaniment to piano lightning cadenza]
+++++M19 [piano lightning cadenza: foreshadow end of piece]
+    (M18 [china cymbla miasma])
+++++M19 [violin mandolin line accompaniment to piano lightning cadenza]
+    (M19 [viola sostenuti fantastiques] ==> M10 [viola tremoli fantastiques])
+    (M19 [cello sostenuti fantastiques] ==> M10 [cello tremoli fantastiques])
+++++M4 [contrabass halo]
+
+
+    [3]
+    (M19 [piccolo fluttertongue accompaniment to piano lightning cadenza])
+    (M7 [contrabass clarinet ferocious multiphonics] ==> M3 [solos])
+    (M7 [baritone sax ferocious multiphonics] ==> M3 [solos])
+    (M7 [english horn ferocious multiphonics] ==> M3 [solos])
+    (M19 [guitar manodlin line accompaniment to piano lightning cadenza])
+    (M19 [piano lightning cadenza: foreshadow end of piece])
+....(M18 [china cymbla miasma])
+    (M19 [violin mandolin line accompaniment to piano lightning cadenza])
+    (M19 [viola sostenuti fantastiques] ==> M10 [viola tremoli fantastiques])
+    (M19 [cello sostenuti fantastiques] ==> M10 [cello tremoli fantastiques])
+    (M4 [contrabass halo])
+
+
+    [4]
+    (M19 [piccolo fluttertongue accompaniment to piano lightning cadenza])
+    (M3 [contrabass clarinet dialoguing solos])
+    (M3 [baritone sax dialoguing solos])
+    (M3 [english horn dialoguing solos])
+    (M19 [guitar manodlin line accompaniment to piano lightning cadenza])
+    (M19 [piano lightning cadenza: foreshadow end of piece])
+    perc: ???
+    (M19 [violin mandolin line] ==> M10 [violin tremoli fantastiques])
+    (M10 [viola tremoli fantastiques])
+    (M10 [cello tremoli fantastiques])
+    (M4 [contrabass halo])
+
+
+    [5]
+    (M19 [piccolo fluttertongue] ==> M1 [piccolo upper-register prestissimo])
+    (M3 [contrabass clarinet dialoguing solos] ==> M1 [b-flat running])
+    (M3 [baritone sax dialoguing solos] ==> M1 [sopranino running])
+    (M3 [english horn dialoguing solos] ==> M1 [oboe running])
+    (M19 [guitar mandolin line] ==> M1 [guitar coattacks with piccolo])
+    (M19 [piano ligthning cadenza] ==> M1 [piano coattacks with prestissimo])
+++++M1 [castanets and triangle]
+    (M10 [violin tremoli fantastiques])
+    (M10 [viola tremoli fantastiques])
+    (M10 [cello tremoli fantastiques])
+    (M4 [contrabass halo])
+
+
+    [6]
+    (M1 [piccolo upper-register prestissimo])
+    (M1 [b-flat clarinet upper-register prestissimo])
+    (M1 [sopranino sax upper-register prestissimo])
+    (M1 [oboe upper-register prestissim])
+    (M1 [guitar coattacks with piccolo])
+    (M1 [piano coattacks with prestissimo])
+    (M1 [castanets and triangle])
+    (M10 [violin tremoli fantastiques])
+    (M10 [viola tremoli fantastiques])
+    (M10 [cello tremoli fantastiques])
+    (M4 [contrabass halo])
+
+# TODO: orchestrate stages [7], [8], [9]
