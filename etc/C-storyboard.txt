@@ -231,4 +231,45 @@ ORCHESTRATION:
     (M10 [cello tremoli fantastiques])
     (M4 [contrabass halo])
 
-# TODO: orchestrate stages [7], [8], [9]
+
+    [7]
+    (M1 [piccolo prestissimo] & M3 [piccolo solos])
+    (M1 [b-flat clarinet prestissimo] & M3 [b-flat clarnet solos])
+    (M1 [sopranino sax uprestissimo] & M3 [sopranino sax solos])
+    (M1 [oboe prestissimo] & M3 [oboe solos])
+    (M1 [guitar coattacks with prestissimo])
+    (M1 [piano coattacks with prestissimo] ==> M2A [piano seaweed guiro])
+    (M1 [castanets and triangle] ==> M2A [marimba seaweed guiro])
+    (M10 [violin tremoli fantastiques])
+    (M10 [viola tremoli fantastiques])
+    (M10 [cello tremoli fantastiques])
+    (M4 [contrabass halo])
+
+
+    [8]
+    (M1 [piccolo prestissimo] & M3 [piccolo solos] ==> M2A [piccolo pizzicati])
+    (M1 [b-flat prestissimo] & M3 [b-flat solos] ==> M2A [b-flat slap])
+    (M1 [sopr. prestissimo] & M3 [sopr. solos] ==> M2A [sopr. slap])
+    (M1 [oboe prestissimo] & M3 [oboe solos] ==> M2A [oboe air tone])
+    (M1 [guitar coattacks with prestissimo] ==> M2A [guitar b-t-b pizzicati])
+    (M2A [piano seaweed guiro])
+    (M2A [marimba seaweed guiro])
+    (M10 [violin tremoli fantastiques] ==> M2A [violin b-t-b pizzicati])
+    (M10 [viola tremoli fantastiques] ==> M2A [viola b-t-b pizzicati])
+    (M10 [cello tremoli fantastiques] ==> M2A [cello b-t-b- pizzicati])
+    (M4 [contrabass halo])
+
+
+    [9]
+    # farewell of M4
+    (M2A [piccolo pizzicati])
+    (M2A [b-flat slap])
+    (M2A [sopr. slap])
+    (M2A [oboe air tone])
+    (M2A [guitar b-t-b pizzicati])
+    (M2A [piano seaweed guiro])
+    (M2A [marimba seaweed guiro])
+    (M2A [violin b-t-b pizzicati])
+    (M2A [viola b-t-b pizzicati])
+    (M2A [cello b-t-b- pizzicati])
+    (M4 [contrabass halo])
