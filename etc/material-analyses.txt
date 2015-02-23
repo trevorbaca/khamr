@@ -305,32 +305,76 @@ LAYERING:
 ############################## [M2: GUIRO] ####################################
 ###############################################################################
 
-M2: GUIRO.
+ARCHETYPE:
 
-VARIATIONS. four versions of material. first version uses credit cards against
-almost all white or black piano keys and almost all marimba resonators. second
-version uses wire brushes on the same. third version uses bursts of the usual
-guiro sound on two different actual guiros treated as auxiliary percussion and
-with credit cards being run in quick bursts against short segments of piano
-keys and short segments of marimba resonators.
+    --
+    --
+    --
+    --
+    --
+    piano credit card guiro
+    marimba resonator credit card guiro
+    --
+    --
+    --
+    --
 
-FULL SCORING. material doesn't appear fully scored. material appears admixed
-with other materials. material sometimes appears below other materials when
-other materials disappear.
+FULL SCORING:
 
-2(P): PLASTIC SEAWEED GUIRO.
+    piccolo sparse lip pizzicati
+    bass clarinet sparse slap-tongue
+    baritone sax sparse slap-tongue
+    english horn air noise
+    guitar behind-the-bridge sparse pizzicati
+    piano credit card guiro
+    marimba resonator credit card guiro
+    violin behind-the-bridge sparse pizzicati
+    viola behind-the-bridge sparse pizzicati 
+    cello behind-the-bridge sparse pizzicati
+    contrabass behind-the-bridge sparse pizzicati
 
-    credit card run somewhat slowly on first auxiliary guiro
-    credit card run somehwat slowly on second auxiliary guiro
-    credit card on almost all white or black piano keys
-    credit card on almost all of the marimba resonators
+SUBSETS:
 
-2(B): BRUSHED SEAWEED GUIRO.
+    [a]
+    guitar behind-the-bridge sparse pizzicati
+    violin behind-the-bridge sparse pizzicati
+    viola behind-the-bridge sparse pizzicati 
+    cello behind-the-bridge sparse pizzicati
+    contrabass behind-the-bridge sparse pizzicati
 
-    wire brushes run somewhat slowly on first auxiliary guiro
-    wire brushes run somewhat slowly on second auxiliary guiro
-    wire brushes on almost all white or black piano keys
-    wire brushes on almost all of the marimba resonators
+    [b]
+    piccolo sparse lip pizzicati
+    bass clarinet sparse slap-tongue
+    baritone sax sparse slap-tongue
+    [english horn air noise]
+    
+DESCRIPTION. primary difference between seaweed guiro and burst guiro.
+
+VARIATIONS. first version uses credit cards against white or black piano keys
+and marimba resonators. second version uses wire brushes on white or black
+piano keys and marimba resonators. third version uses bursts of the usual guiro
+sound on two different actual guiros treated as auxiliary percussion. third
+version also runs credit cards in quick bursts against short segments of piano
+keys and marimba resonators.
+
+    PLASTIC SEAWEED GUIRO:
+
+        credit card run somewhat slowly on first auxiliary guiro
+        credit card run somehwat slowly on second auxiliary guiro
+        credit card on almost all white or black piano keys
+        credit card on almost all of the marimba resonators
+
+    BRUSHED SEAWEED GUIRO:
+
+        wire brushes run somewhat slowly on first auxiliary guiro
+        wire brushes run somewhat slowly on second auxiliary guiro
+        wire brushes on almost all white or black piano keys
+        wire brushes on almost all of the marimba resonators
+
+SINGULARITY. irregular blurred cluster of one or two pizzicati in each of
+piccolo, bass clarinet, baritone sax; together with burst of piano and marimba
+guiro; together with one or two behind-the-bridge pizzicati in each of guitar,
+violin, viola, cello, bass.
 
 INTERNAL DEVELOPMENT. development is possible with phasing between the players.
 material begins with each player glissing at different rate. players then find
@@ -338,27 +382,45 @@ their way into glissing at the same rate. looping then sets in on glisses that
 function at the same rate. loops then grow out of phase from each other. loop
 version of material transitions into burst guiro.
 
-LAYERING.
+BLOCK CHANGES. subito change of dynamic and resulting level of assertiveness.
 
-    1. upper-register prestissimo: +
-    2a. seaweed guiro: [idem]
-    2b. burst guiro: +
-    3. dialoguing wind solos: +
-    4. contrabass halo: +
-    5. extremely quiet low winds: +
-    6. quiet multiphonic complexes: +
-    7. ferocious multiphonic complexes: +
-    8. pizzicati fantastiques: --
-    9. sostenuti fantastiques: --
-    10. tremoli fantastiques: --
-    11. massed off-string bowing: +
-    12. massed string trills: --
-    13. massed wind trills: --
-    14. electric string tremolo & shakers: +
-    17. snare roll: +
-    18. china cymbal miasma: +
-    19. piano lightning cadenza: --
-    20. whirly tubes: +
+TIME TREATMENT:
+
+    metric modulation: --
+    flow: --
+    suspension: --
+    interruption: --
+    looping: all
+    tempo transitions: all
+    tempo-transitioned flow: --
+    tempo-transitioned suspension: --
+    tempo-transitioned interruption: --
+    tempo-transitioned looping: all
+
+RHETORIC. material appears admixed with other materials. material sometimes
+appears below other materials when other materials disappear.
+
+LAYERING:
+
+    M1 [upper-register prestissimo]: +
+    M2A [seaweed guiro: [idem]
+    M2B [burst guiro]: +
+    M3 [dialoguing wind solos]: +
+    M4 [contrabass halo]: +
+    M5 [extremely quiet low winds]: +
+    M6 [quiet multiphonic complexes]: +
+    M7 [ferocious multiphonic complexes]: +
+    M8 [pizzicati fantastiques]: --
+    M9 [sostenuti fantastiques]: --
+    M10 [tremoli fantastiques]: --
+    M11 [massed off-string bowing]: +
+    M12 [massed string trills]: --
+    M13 [massed wind trills]: --
+    M14 [electric string tremolo & shakers]: +
+    M17 [snare roll]: +
+    M18 [china cymbal miasma]: +
+    M19 [piano lightning cadenza]: --
+    M20 [whirly tubes]: +
 
     triangle: +
     struck almglocken: --
