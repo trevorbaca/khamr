@@ -10,59 +10,47 @@
 
 materials: 2B, 11, 14, 6, 2A, 5, 1
 
-what comes before? [D] ends with a four-layer composite of M5 [extremely quiet
-low winds], M19 [piano lightning cadenza], M18 [china cymbal miasma] and M14
-[ppp altissimo string tremolo & fff shakers]. M19 [piano lightning cadenza] and
-M18 [china cymbal miasma] are climaxing by the end of [D] and probabaly
-continue into the start of [E]. and there's also special handling of M14 [ppp
-altissimo string tremolo & fff shakers] because the material will climax in [E]
-and begins that process at the end of [D]. so M14 [ppp altissimo string tremolo
-& fff shakers] also crosses the boundary from the end of [D] into [E]. and the
-version of M14 [ppp altissimo string tremolo & fff shakers] that occurs at the
-end of [D] and the beginning of [E] is probabaly a rain of shakers scattered
-throughout the ensemble with the electric tremolo not yet having been added in.
+what comes before? four different layers carry over from [D] into [E]:
 
-M2B [burst guiro] marks the beginning of [E]. it's possible that the
-manifestation of M2B [burst guiro] here at the beginning of [E] is effected in
-the form of jarring fff rattan across the resonators of the marimba. this means
-that the percussionist will momentarily have to stop playing M18 [china cymbal
-miasma] in order to grab the rattan and run it against the marimba. it's also
-possible that the jarring fff rattan spawns a texture of smaller guiro bursts
-throughout the ensemble, probabaly both before and after the appearance of the
-fff rattan. after running the rattan against the marimba the percussionist can
-return to the china cymbals. there's a particularly nice combination of
-triangle together with the guiro bursts. so perhaps the composite texture
-running through the ensemble are antiphonal guiro bursts together with triangle
-hits.
+    (M5 [extremely quiet low winds])
+    (M19 [piano lightning cadenza])
+    (M18 [china cymbal miasma])
+    (M14 [ppp altissimo string tremolo & fff shakers])
+
+the version of M14 [ppp altissimo string tremolo & fff shakers] that occurs at
+the end of [D] and the beginning of [E] is does not yet include string tremolo.
+
+M2B [burst guiro] marks the beginning of [E]. M2B [burst guiro] here at the
+beginning of [E] is orchestrated as jarring fff rattan across the resonators of
+the marimba. the percussionist will momentarily have to stop playing M18 [china
+cymbal miasma] in order to grab rattan and run it against the marimba. it's
+also possible that the jarring fff rattan spawns a texture of smaller guiro
+bursts throughout the ensemble both before and after the appearance of the fff
+rattan. the percussionist can return to the china cymbals after running rattan
+against the marimba.
 
 it may turn out to be that the piece features a sustained but shifting climax
-that begins in [D] and continues through almost all of [E]. this means that the
-function of [E] will be to climax the piece and then provide whatever
-concluding material is most effective.
+that begins in [D] and continues through almost all of [E].
 
 M11 [massed off-string bowing] is written into the structure of only [E]. the
 material will not assert over the dynamics of M18 [china cymbal miasma] or M14
-[rain of shakers]. although it's possible that M11 [massed off-string bowing]
-will pair incredibly well with the M19 [piano lightning cadenza]. so perhaps
-M11 [massed off-string bowing] is used as a type of foam in relief of M19
-[piano lightning cadenza].
+[ppp altissimo string tremolo & fff shakers]. although it's possible that M11
+[massed off-string bowing] will pair incredibly well with the M19 [piano
+lightning cadenza]. so perhaps M11 [massed off-string bowing] is a type of foam
+used in relief of M19 [piano lightning cadenza].
 
-the fully orchestrated form of M14 [ppp altissimo string tremolo & fff shakers]
-may not climax in [E] because the material is too close to the end of the piece
-to climax in that way. it may be that the shakers-only form of the material is
-combined with piccolo fluttertongue but not with electric string tremolo. it is
-possible that ppp altissimo string tremolo appears. if this is the case then
-the M14 [ppp altissimo string tremolo & fff shakers] combines extremely well
-with M1 [upper-register prestissimo], M18 [china cymbal miasma], M19 [piano
-lightning cadenza] and M20 [whirly tubes]. M18 [china cymbal miasma] and M19
-[piano lightning cadenza] are already present and climaxing at the start of
-[E]. and M1 [upper-register prestissimo] is specified as the last material in
-the piece. so perhaps M1 [upper-register prestissimo] adds into [E] at the
-moment when M14 [ppp altissimo string tremolo & fff shakers] begins. it's also
-clear that the climaxing of M18 [china cymbal miasma] is actually a composite
-with loudly struck tam-tam. the tam-tam will complete the spectral space opened
-by the other materials. also sounds like M19 [piano lightning cadenza] will be
-in basso furioso by this point.
+the orchestration of M14 [ppp altissimo string tremolo & fff shakers] that
+climaxes in [E] uses only ppp altissimo string tremolo rather than fff
+altissimo string tremolo. M14 [ppp altissimo string tremolo & fff shakers]
+combines extremely well with M1 [upper-register prestissimo], M18 [china cymbal
+miasma], M19 [piano lightning cadenza] and M20 [whirly tubes]. M18 [china
+cymbal miasma] and M19 [piano lightning cadenza] are already present and
+climaxing at the start of [E]. and M1 [upper-register prestissimo] is specified
+as the last material in the piece. so perhaps M1 [upper-register prestissimo]
+adds into [E] at the moment when M14 [ppp altissimo string tremolo & fff
+shakers] begins. it's also clear that the climaxing of M18 [china cymbal
+miasma] is actually a composite with loudly struck tam-tam. the tam-tam will
+complete the spectral space opened by the other materials.
 
 M6 [quiet multiphonic complexes] will manifest as a single b-flat clarinet
 multiphonic used as a type of background color pedal behind the activity of the
@@ -72,24 +60,20 @@ ending sequence for the entire piece. if so then there's a dramatic version of
 M6 [quiet multiphonic complexes] that layers in quiet multiphonics in the bass
 flute, bass clarinet and baritone sax all at ppp.  
 
-M2A [seaweed guiro] is written into the structure at the end of [C] and here at
-the end of [E]. so some decision has to be made about the relationship between
-the two appearances of the material. it feels like the appearances of the
-material reference each other but probably aren't identical. which means that
-the appearance here at the end of [E] is probably much less present or much
-more present than the occurrence at the end of [C], depending on the overall
-way the piece closes.
+M2A [seaweed guiro] is written into the structure at the end of [C] and at the
+end of [E]. the appearance of M2A [seaweed guiro] at the end of [C] is fully
+orchestrated. the appearance of M2A [seaweed guiro] at the end of [E] is much
+more lightly orchestrated. the appearance of M2A [seaweed guiro] at the end of
+[E] calls the appearance of M2a [seaweed guiro] at the end of [C] in only a
+dreamlike way.
 
-M5 [extremely quiet low winds] and M1 [upper-register prestissimo] written into
-the end of the piece means that both very high and very low materials are
-present near the end of the piece. so the piece has the option of ending with
-only the very high, with only the very low or with both the very high and the
-very low together.
+M5 [extremely quiet low winds] and M1 [upper-register prestissimo] are both
+written into the end of the piece. this means that the piece has the option of
+ending with only the very high, with only the very low or with both the very
+high and the very low together.
 
-it's possible that M6 [quiet multiphonic complexes] and M5 [extremely quiet low
-winds] in [E] are the same material. it's also possible that M6 [quiet
-multiphonic complexes] becomes M5 [extremely quiet low winds] through a
-process of decreasing multiphonic content and increasing pure pitch content.
+M6 [quiet multiphonic complexes] becomes M5 [extremely quiet low winds] through
+a process of decreasing multiphonic content and increasing pure pitch content.
 
 SUMMARY. [E] internally varies a single saturated color composite sustained
 until the end with only a daub of celestial color added as a finishing stroke.
@@ -111,7 +95,7 @@ FIRST-ORDER STORYBOARD:
 +++++M6 [extremely quiet multiphonics]
     (M19 [piano lightning cadenza: upper register])
 *****M2B [burst guiro rattan on marimba resonators]
-+++++M2B [quick guiro strokes together with triangle hits]
++++++M2B [quick guiro strokes]
     (M18 [china cymbal miasma])
     (M14 [ppp altissimo string tremolo & fff shakers])
 +++++M11 [massed off-string bowing]
@@ -120,7 +104,7 @@ FIRST-ORDER STORYBOARD:
 .....M5 [extremely quiet low winds])
     (M6 [extremely quiet multiphonics])
     (M19 [piano lightning cadenza: upper register])
-.....M2B [quick guiro strokes together with triangle hits])
+.....M2B [quick guiro strokes])
     (M18 [china cymbal miasma])
     (M14 [ppp altissimo string tremolo & fff shakers])
     (M11 [massed off-string bowing])

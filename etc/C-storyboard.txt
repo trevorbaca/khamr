@@ -85,7 +85,7 @@ END OF [B]:
     (M7 [ferocious multiphonic complexes])
 
 FIRST-ORDER STORYBOARD OF [C]:
-materials: 16, 19, 10, 4, 3, 1, 2a
+materials: 16, 19, 10, 4, 3, 1, 2A
 
     [1]
     (M7 [ferocious multiphonic complexes])
@@ -271,5 +271,5 @@ ORCHESTRATION:
     (M2A [marimba seaweed guiro])
     (M2A [violin b-t-b pizzicati])
     (M2A [viola b-t-b pizzicati])
-    (M2A [cello b-t-b- pizzicati])
+    (M2A [cello b-t-b pizzicati])
     (M4 [contrabass halo])
