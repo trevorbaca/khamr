@@ -172,7 +172,7 @@ ORCHESTRATION:
 *****M2B [burst rattan on marimba resonators]
 +++++M11 [violin massed off-string bowing]
 +++++M11 [viola massed off-string bowing]
-    (M14 [cello ppp altissimo string tremolo])
+    (M14 [cello tremolo altissimo: ppp])
     (M5 [bass low tone])
 
 
