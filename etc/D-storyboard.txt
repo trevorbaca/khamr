@@ -10,87 +10,82 @@
 
 materials: 3, 17, 5, 18, 5, 14, 19
 
-M2a [seaweed guiro] from [C] probabaly leaks into the start of [D] with M3
-[dialoguing wind solos] and possibly M17 [snare roll].
+what comes before? one layer carries over from [C] into [D]:
 
-M17 [snare roll] is written to occur only in [D]. so decision has to be made as
-to foreshadowing earlier in the piece. insertion of M17 between M3 [dialoguing
-wind solos] and M5 [extremely quiet low winds] probably means that M17 causes
-the transformation of M3 [dialoguing wind solos] into M5 [extremely quiet low
-winds]. because M17 works particularly well with M11 [massed off-string bowing]
-and M12 [massed off-string trills] it is possible that either M11 [massed
-off-string bowing] or M12 [massed off-string trills] or both may appear on,
-with or before M17 [snare roll] here in [D]. 
+    (M2A [seaweed guiro])
 
-M18 [china cymbal miasma] is written into the structure in both [B] and [D]. so
-some decision has to be made about the relative intensities of the two
-occurrences. even though M17 [snare roll] climaxes in [D] it is still possible
-that M18 [china cymbal miasma] also climaxes in [D]. wherever the climax of M18
-[china cymbal miasma] happens it takes a long time and probabaly takes longer
-than the approximate 2 minutes allotted to any given segment. so if M18 [china
-cymbal miasma] climaxes in [B] then the afterglow continues into [C] and if M18
-[china cymbal miasma] climaxes in [D] then the afterglow continues into [E].
-it's also possible that M18 [china cymbal miasma] climaxes in both [B] and [D]
-and that the pitch difference between the 22" and 27" cymbals is used as the
-primary differentiator between the two regions. then the 22" cymbal climaxes in
-[B] and the 27" cymbal climaxes in [D]. and that's probably exactly what
-happens.
+what follows after? four layers carry over from [D] into [E]:
 
-dynamic enveloping between M17 [snare roll] and M18 [china cymbal miasma] in
-[D] has to be structured convincingly.  
+    (M5 [extremely quiet low winds])
+    (M19 [piano lightning cadenza])
+    (M18 [china cymbal miasma])
+    (M14 [ppp altissimo string tremolo & fff shakers])
+
+M17 [snare roll] is written to occur only in [D].
+
+foreshadow M17 [snare roll] before [D].
+
+M17 [snare roll] causes the transformation of M3 [dialoguing wind solos] into
+M5 [extremely quiet low winds].
+
+M11 [massed off-string bowing] or M12 [massed off-string trills] or both appear
+with M17 [snare roll] in [D]. 
+
+M18 [china cymbal miasma] is written into the structure of [B] and [D]. M18
+[china cymbal miasma] climaxes in [B] on the 22" cymbal. M18 [china cymbal
+miasma] climaxes in [D] on the 27" cymbal.
+
+the dynamics of M17 [snare roll] and M18 [china cymbal miasma] have to be
+structured convincingly in [D].
 
 M18 [china cymbal miasma] pairs particularly well with M12 [massed string
-trills], M20 [whirly tubes] and especially M14 [electric string tremolo &
-maracas]. this implies that M18 [china cymbal miasma] in [D] continues right up
-into M14 [electric string tremolo & shakers] in [D] because M14 [electric
-string tremolo & shakers] is written into the structure of [D]. this means it
-is possible that either M12 [massed string trills] or M20 [whirly tubes] or
-both may also be present in [D]. so because M12 [massed string trills]
-functions as a contrapuntal pairing to both M17 [snare roll] and M18 [china
-cymbal miasma] it makes sense to include M12 [massed string trills] as a type
-of pervasive element throughout [D]. this also means that the M11 [massed
-off-string bowing] pairing possible with M17 [snare roll] need not appear with
-M17 [snare roll] because M12 [massed string trills] will appear with M17 [snare
-roll] instead. M20 [whirly tubes] probabaly does appear here in [D] with M18
-[china cymbal miasma] because M20 is not written into the structure of the
-piece explicitly.
+trills], M14 [electric string tremolo & shakers] and M20 [whirly tubes]. this
+implies that M18 [china cymbal miasma] in [D] continues right up into M14
+[electric string tremolo & shakers] in [D] because M14 [electric string tremolo
+& shakers] is written into the structure of [D]. this means it is possible that
+either M12 [massed string trills] or M20 [whirly tubes] or both may also be
+present in [D].
+
+it makes sense to include M12 [massed string trills] as a type of pervasive
+element throughout [D] because M12 [massed string trills] functions as a
+contrapuntal pairing to both M17 [snare roll] and M18 [china cymbal miasma].
+
+M11 [massed off-string bowing] need not appear with M17 [snare roll] because
+M12 [massed string trills] will appear with M17 [snare roll] instead.
+
+M20 [whirly tubes] appears with M18 [china cymbal miasma] in [D].
 
 M14 [electric string tremolo & shakers] is written into the structure of
-segments [A], [C], [D] and [E]. which of the four regions climaxes the
-material? feels like the answer is likely [E] which will then make the
-appearances of the material in [A], [C] and [D] function as some type of
-stripped-down foreshadowing. also possible that the climax may span from [D]
-all the way into [E]. if this is the case then the manifestation of the M14
-[electric string tremolo & shakers] may be a rain of shakers spread throughout
-the ensemble and sustained at loud dynamic while the tremolo content of the
-strings is subject to the internal process of repeated dynamic swells. the full
-scoring of M14 [electric string tremolo & shakers] features fff piccolo
-fluttertongue and struck tam-tam. so both materials would occur in the region
-territorialized by M14 [electric string tremolo & shakers] spanning [D] and
-[E]. note too that M20 [whirly tubes] constitute a strong pairing with M14
-[electric string tremolo & shakers]. this means that M14 [electric string
-tremolo & shakers] may appear in [D] with M18 [china cymbal miasma] M5
-[extremely quiet low winds] and M14 [electric string tremolo & shakers] in
-sequence.
+segments [A], [C], [D] and [E]. M14 [electric string tremolo & shakers]
+climaxes only in [D] and [E]. M14 [electric string tremolo & shakers] functions
+as a type of stripped-down foreshadowing in [A] and [C].
+
+the full scoring of M14 [electric string tremolo & shakers] features fff
+piccolo fluttertongue and struck tam-tam. both materials occur [D] and [E].
+
+M20 [whirly tubes] constitutes a strong pairing with M14 [electric string
+tremolo & shakers].
 
 M19 [piano lightning cadenza] is written into the structure of segments [A],
 [C] and [D]. M14 [electric string tremolo & shakers] and M19 [piano lightning
-cadenza] abut in [D] and work in counterpoint. so it's possible that [D-E]
-houses the climax of M14 [electric string tremolo & shakers] and that [D] also
-houses the climax of M19 [piano lightning cadenza]. then [D] superimposes the
-climaxes of M14 [electric string tremolo & shakers] and M19 [piano lightning
-cadenza]. probabaly also means that M19 [piano lightning cadenza] continues
-over the end of [D] and well into [E]. possibly M19 [piano lightning cadenza]
-continues into [E] up through the appearance of M14 [electric string tremolo &
-shakers] in [E]. M10 [tremoli fantastiques] follows M19 [piano lightning
-cadenza] in [A] and [C]. this may mean that M10 [tremoli fantastiques] is
-bonded to M19 [piano lightning cadenza] in the piece and that the occurrence of
-M19 [piano lightning cadenza] here in [D] is accompanied by M10 [tremoli
-fantastiques] even though M10 [tremoli fantastiques] is not written into the
-structure of [D]. the true climax of M19 [piano lightning cadenza] then comes
-in [E]. the true climax of M19 [piano lightning cadenza] is also accompanied by
-a saturated version of M7 [ferocious multiphonic complexes] in [E] even though
-M7 [ferocrious multiphonic complexes] is written into only the end of [B].
+cadenza] abut in [D] and work in counterpoint. 
+
+[D-E] houses the climax of M14 [electric string tremolo & shakers].
+
+[D-E] also houses the climax of M19 [piano lightning cadenza].
+
+M10 [tremoli fantastiques] follows M19 [piano lightning cadenza] in [A] and
+[C]. M10 [tremoli fantastiques] is bonded to M19 [piano lightning cadenza] in
+the piece.
+
+M19 [piano lightning cadenza] is accompanied by M10 [tremoli fantastiques] in
+[D] even though M10 [tremoli fantastiques] is not written into the structure of
+[D].
+
+the true climax of M19 [piano lightning cadenza] comes in [E]. the true climax
+of M19 [piano lightning cadenza] in [E] is accompanied by a saturated version
+of M7 [ferocious multiphonic complexes] even though M7 [ferocrious multiphonic
+complexes] is written into only the end of [B].
 
 FIRST-ORDER STORYBOARD:
 
