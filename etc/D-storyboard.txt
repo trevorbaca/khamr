@@ -28,7 +28,7 @@ foreshadow M17 [snare roll] before [D].
 M17 [snare roll] causes the transformation of M3 [dialoguing wind solos] into
 M5 [extremely quiet low winds].
 
-M11 [massed off-string bowing] or M12 [massed off-string trills] or both appear
+M11 [massed off-string bowing] or M12 [massed string trills] or both appear
 with M17 [snare roll] in [D]. 
 
 M18 [china cymbal miasma] is written into the structure of [B] and [D]. M18
@@ -144,56 +144,168 @@ FIRST-ORDER STORYBOARD:
 ORCHESTRATION:
 
     [1]
-    M3 [dialoguing wind solos] (bass flute)
-    M3 [dialoguing wind solos] (b-flat clarinet)
-    M3 [dialoguing wind solos] (baritone sax)
-    M3 [dialoguing wind solos] (english horn)
-    S4 guitar sparse accompaniment accompaniment
-    M2a [seaweed guiro] (piano with wire brushes)
-    --
-    --
-    --
-    --
-    --
++++++M3 [bass flute dialoguing wind solos]
++++++M3 [b-flat clarinet dialoguing wind solos]
++++++M3 [barintone sax dialoguing wind solos]
++++++M3 [english horn dialoguing wind solos]
++++++S4 guitar sparse accompaniment accompaniment
++++++M2a [seaweed guiro] (piano with wire brushes)
+    percussion: ???
++++++M12 [violin massed trills]
++++++M13 [viola massed trills]
++++++M14 [cello massed trills]
++++++M15 [bass massed trills]
 
 
     [2]
-    --
-    --
-    --
-    --
+    flute: ???
+    clarinet: ???
+    saxophone: ???
+    oboe: ???
     S4 guitar sparse accompaniment accompaniment
-    M2a [seaweed guiro] (piano with wire brushes)
-    --
-    --
-    --
-    --
-    --
+    M2A [seaweed guiro] (piano with wire brushes)
+    percussion: ???
+    (M12 [violin massed trills: ppp])
+    (M13 [viola massed trills: ppp])
+    (M14 [cello massed trills: ppp])
+    (M15 [bass massed trills: ppp])
 
 
     [3]
-    M3 [dialoguing wind solos] (bass flute)
-    M3 [dialoguing wind solos] (b-flat clarinet)
-    M3 [dialoguing wind solos] (baritone sax)
-    M3 [dialoguing wind solos] (english horn)
-    --
-    --
-    --
-    --
-    --
-    --
-    --
+    (M3 [bass flute dialoguing wind solos])
+    (M3 [b-flat clarinet dialoguing wind solos])
+    (M3 [baritone sax dialoguing wind solos])
+    (M3 [english horn dialoguing wind solos])
+    guitar: ???
+    piano: ???
+    percussion: ???
+    (M12 [violin massed trills: ppp])
+    (M13 [viola massed trills: ppp])
+    (M14 [cello massed trills: ppp])
+    (M15 [bass massed trills: ppp])
 
 
     [4]
-    M3 [dialoguing wind solos] (bass flute)
-    M3 [dialoguing wind solos] (b-flat clarinet)
-    M3 [dialoguing wind solos] (baritone sax)
-    M3 [dialoguing wind solos] (english horn)
+    (M3 [bass flute dialoguing wind solos])
+    (M3 [b-flat clarinet dialoguing wind solos])
+    (M3 [baritone sax dialoguing wind solos])
+    (M3 [english horn dialoguing wind solos])
+    guitar: ???
+    piano: ???
++++++M17 [snare roll: fff]
+    (M12 [violin massed trills: ppp])
+    (M13 [viola massed trills: ppp])
+    (M14 [cello massed trills: ppp])
+    (M15 [bass massed trills: ppp])
+
+
+    [5]
+    (M3 [bass flute dialoguing wind solos] ==> M5 [bass fl ext quiet low])
+    (M3 [b-flat cl. solos] ==> M5 [bass cl. ext quiet low])
+    (M3 [bar. sax solos] ==> M5 [bar. sax. ext quiet low])
+    (M3 [english horn solos] ==> M5 [english horn ext quiet low])
+    guitar: ???
+    piano: ???
+    (M17 [snare roll: fff])
+    (M12 [violin massed trills: ppp])
+    (M13 [viola massed trills: ppp])
+    (M14 [cello massed trills: ppp])
+    (M15 [bass massed trills: ppp] ==> M5 [bass low tone])
+
+
+    [6]
+    (M5 [bass fl ext quiet low])
+    (M5 [bass cl. ext quiet low])
+    (M5 [bar. sax. ext quiet low])
+    (M5 [english horn ext quiet low])
+    guitar: ???
+    piano: ???
+    (M17 [snare roll: fff])
+    (M12 [violin massed trills: ppp] ==> niente)
+    (M13 [viola massed trills: ppp] ==> niente)
+    (M14 [cello massed trills: ppp] ==> niente)
+    (M5 [bass low tone])
+
+
+    [7]
+    (M5 [bass fl ext quiet low])
+    (M5 [bass cl. ext quiet low])
+    (M5 [bar. sax. ext quiet low])
+    (M5 [english horn ext quiet low])
+    guitar: ???
+    piano: ???
+.....M17 [snare roll: fff]
     --
     --
     --
-    M12 [massed string trills] (violin)
-    M12 [massed string trills] (viola)
-    M12 [massed string trills] (cello)
-    M12 [massed string trills] (bass)
+    (M5 [bass low tone])
+
+
+    [8]
+    (M5 [bass fl ext quiet low])
+    (M5 [bass cl. ext quiet low])
+    (M5 [bar. sax. ext quiet low])
+    (M5 [english horn ext quiet low])
+    --
+    --
+    --
+    --
+    --
+    --
+    (M5 [bass low tone])
+
+
+    [9]
+    (M5 [bass fl ext quiet low])
+    (M5 [bass cl. ext quiet low])
+    (M5 [bar. sax. ext quiet low])
+    (M5 [english horn ext quiet low])
+    --
+    --
++++++M18 [china cymbal miasma: ppp]
+    --
+    --
+    --
+    (M5 [bass low tone])
+
+
+    [10]
+    --
+    --
+    --
+    --
+    --
+    --
+    (M18 [china cymbal miasma: ppp])
+    --
+    --
+    --
+    (M5 [bass low tone])
+
+
+    [11]
+    (M5 [bass fl ext quiet low])
+    (M5 [bass cl. ext quiet low])
+    (M5 [bar. sax. ext quiet low])
+    (M5 [english horn ext quiet low])
+    --
+    --
+    (M18 [china cymbal miasma: ppp])
+    --
+    --
+++++M14 [cello tremolo altissimo: ppp]
+    (M5 [bass low tone])
+
+
+    [11]
+    (M5 [bass fl ext quiet low])
+    (M5 [bass cl. ext quiet low])
+    (M5 [bar. sax. ext quiet low])
+    (M5 [english horn ext quiet low])
+    --
++++++M19 [piano lightning cadenza: stopped: relatively sparse]
+    (M18 [china cymbal miasma: pp])
+    --
+    --
+++++M14 [cello tremolo altissimo: ppp]
+    (M5 [bass low tone])
