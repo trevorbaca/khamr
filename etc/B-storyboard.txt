@@ -10,60 +10,36 @@
 
 materials: 12, 4, 3, 18, 9, 4, 7
 
-what comes before? five different layers carry over from [A] into [B]:
+what comes before? five layers carry over from [A] into [B]:
 
     (M6 [quiet multiphonic complexes])
     (M15 [woodblock underspine])
     (M16 [extremely long string tremolo descent])
-    (M12 [massed string trills])
+    (M10 [tremoli fantastiques] ==> M12 [massed string trills])
     (M4 [contrabass halo])
 
-what follows after? three layers carry over from [B] into [C]:
-
-    (M18 [china cymbal miasma])
-    (M9 [sostenuti fantastiques])
-    (M7 [ferocious multiphonic complexes])
-
 M12 [massed string trills] is written to occur as a primary material only in
-[B]. so it makes sense for M12 to maximize in [B] if M12 wants to maximize in
-the piece at all. of course M12 cooccurs with materials in the opening stages
-of [D]. and M12 may cooccur with materials in other segments, too. feels like
-the version of M12 that occurs here is incredibly quiet. so the material is a
-type of massed backdrop. and possibly one that may go on much longer than a
-backdrop would be expected to last. dynamic enveloping works really well here.
-so it's possible that dynamic enveloping starts with the end of [A] and
-continues into the start of [B]. all the time techniques work, too. so this may
-be a really good place to front two or three of the time techniques relatively
-early in the piece. even though the time techniques would then be predicated on
-backdrop material.
+[B]. (though M12 [massed string trills] cooccurs with materials in the opening
+stages of [D].) M12 [massed string trills] maximizes in [B]. M12 [massed string
+trills] is incredibly quiet in [B]. M12 [massed string trills] is a type of
+massed backdrop in [B]. M12 [massed string trills] goes on much longer than a
+backdrop would be expected to last. M12 [massed string trills] expresses
+noticeable dynamic enveloping. dynamic enveloping starts with M10 [tremoli
+fantastiques] at the end of [A] and continues into M12 [massed string trills]
+at the start of [B]. M12 [massed string trills] in [B] expresses two or three
+of the time techniques.
 
-M4 [contrabass halo] occurs in [A], [B] and [C]. and so the occurrence in [B]
-sits in the middle of the other two. M4 probabaly never climaxes. M4 is
-probabaly only ever revealed between other materials. M3 [dialoguing wind
-solos] follow M4 [contrabass halo] or come at the same time as M4 [contrabass
-halo]. the materials conceivably layer and work incredibly well in true
-counterpoint. so perhaps M4 [contrabass halo] and M3 [dialoguing wind solos]
-begin together at the same time in [B]. it's also possible that the
-pitch-content of M4 [contrabass halo] is restricted everywhere in the piece. a
-glissando lentissimo played on changing harmonics and half harmonics may be
-enough. in fact it may be that the four occurrences of M4 [contrabass halo] in
-the piece are all exposures of a slow-moving but deeply parametric line.
-probably notated on a single staff but probabaly notated with a number of
-transition spanners. which will mean that M4 [contrabass halo] derives from ins
-wasser. M12 [massed string trills] probabaly leaks into M4 [contrabass halo].
-this means that the contrabass probabaly doesn't participate in M12 [massed
-string trills] in [B]. and this may also mean that M12 [massed string trills],
-M4 [contrabass halo] and M3 [dialoguing wind solos] not only layer but begin at
-about the same time in [B].
+M4 [contrabass halo] occurs in [A], [B] and [C]. M4 [contrabass halo] in [B]
+continues the independent layer established in [A] and prolonged into [C].
 
-M18 [china cymbal miasma] is written to occur in [B] and [D]. the reasoning in
-the storyboarding of [D] climaxes M18 [china cymbal miasma] a first time on the
-22" cymbal in [B] and a second time on the 27" cymbal in [D]. that still sounds
-right. it's also possible to glue M18 [china cymbal miasma] together with the
-other three materials already present in [B]. this will mean that M12 [massed
-string trills], M4 [contrabass halo], M3 [dialoguing wind solos] and M18 [china
-cymbal miasma] can all be glued together near or at the beginning of [B] as a
-type of almost-full-ensemble amalgam.
+M18 [china cymbal miasma] is written into [B] and [D]. M18 [china cymbal
+miasma] climaxes a first time on the 22" cymbal in [B] and a second time on the
+27" cymbal in [D]. M18 [china cymbal miasma] glues together with the other
+three materials already present in [B].
+
+M12 [massed string trills], M4 [contrabass halo], M3 [dialoguing wind solos]
+and M18 [china cymbal miasma] glue together near or at the beginning of [B] as
+a type of almost-full-ensemble amalgam.
 
 the presence of M9 [sostenuti fantastiques] in [B] after both M12 [massed
 string trills] and M3 [dialoguing wind solos] suggests that either M12 [massed
@@ -78,42 +54,58 @@ by the time M9 [sostenuti fantastiques] are fully in effect. which other
 materials from [B] carry over into the M9 [sostenuti fantastiques]? conceivably
 any of the previous four materials in [B] may carry over into M9 [sostenuti
 fantastiques]. the limitation is that at least some of the strings in M12
-[massed string trills] or some of the winds in [dialoguing wind solos] or some
-of both the strings and the wind will have to drop out of the previous material
-and join M9 [sostenuti fantastiques]. so the option is available actually to
+[massed string trills] or some of the winds in M3 [dialoguing wind solos] or
+some of both the strings and the winds will have to drop out of the previous
+material and join M9 [sostenuti fantastiques]. so the option is available to
 have all five of the first materials in [B] continue to be in effect by the
 arrival of M9 [sostenuti fantastiques]. and that may be an effective way to
 allow each of the materials more time to work their magic.
 
-the presence of M4 [contrabass halo] at the end of [B] means either that M4
-[contrabass halo] continues throughout all of [B] or that M4 [contrabass halo]
-territorializes [B] intermittently. probably means that M4 [contrabass halo]
-territorializes all of [A], [B] and [C] intermittently or even pervasively.
-
 M7 [ferocious multiphonic complexes] is written to appear only at the end of
 [B]. so if M7 [ferocious multiphonic complexes] wants to climax then it will
-happen at the end of [B] and possibly continue into the start of [C]. the
-presence of M18 [china cymbal miasma] climaxing on the 22" cymbal in [B] should
-be used in dialogue with the climax of M7 [ferocious multiphonic complexes].
-there's also the possibility that the M3 [dialoguing wind solos] transition to
-become M7 [ferocious multiphonic complexes] during [B].
+happen at the end of [B] and possibly carry over into the start of [C]. M3
+[dialoguing wind solos] transitions to become M7 [ferocious multiphonic
+complexes] during [B].
+
+M18 [china cymbal miasma] and M7 [ferocious multiphonic complexes] both climax
+in [B].
 
 FIRST-ORDER STORYBOARD:
 
-    M12 [massed string trills] 
-    M4 [contrabass halo] 
-    M3 [dialoguing wind solos]
-    M18 [china cymbal miasma]
+    [1]
+    (M3 [dialoguing wind solos])
++++++M18 [china cymbal miasma]
+    (M15 [woodblock underspine])
+    (M12 [massed string trills])
+    (M16 [cello extremely long string tremolo descent])
+    (M4 [contrabass halo])
 
-    M12 [massed string trills] 
-    M4 [contrabass halo] 
-    M3 [dialoguing wind solos]
-    M18 [china cymbal miasma]
-    M9 [sostenuti fantastiques]
+    [2]
+    (M3 [dialoguing wind solos] ==> M9 [wind sostenuti fantastiques])
+    (M18 [china cymbal miasma])
+    (M15 [woodblock underspine])
+    (M12 [massed string trills] ==> [string sostenuti fantastiques])
+    (M9 [string sostenuti fantastiques])
+    (M16 [cello extremely long string tremolo descent])
+    (M4 [contrabass halo])
 
-    M18 [china cymbal miasma]
-    M9 [sostenuti fantastiques]
-    M7 [ferocious multiphonic complexes]
+    [3]
+    (M9 [wind sostenuti fantastiques])
++++++M7 [ferocious multiphonic complexes]
+    (M18 [china cymbal miasma])
+    (M15 [woodblock underspine])
+    (M9 [string sostenuti fantastiques])
+    (M16 [contrabass extremely long string tremolo descent])
+    (M4 [contrabass halo])
 
-so [B] ends in a field of densely saturated color. probably all parts of the
-field leak over into the start of [C].
+[B] ends in a field of densely saturated color.
+
+what carries over? seven layers carry over from [B] into [C]:
+
+    (M9 [wind sostenuti fantastiques])
+    (M7 [ferocious multiphonic complexes])
+    (M18 [china cymbal miasma])
+    (M15 [woodblock underspine])
+    (M9 [string sostenuti fantastiques])
+    (M16 [contrabass extremely long string tremolo descent])
+    (M4 [contrabass halo])

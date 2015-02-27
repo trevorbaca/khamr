@@ -5,20 +5,10 @@
 [E] 2B, 11, 14, 6, 2A, 5, 1
 
 ###############################################################################
-#################################### [B] ######################################
+#################################### [A] ######################################
 ###############################################################################
 
 materials: 8, 14, 4, 5, 19, 10, 6
-
-what comes after? [B] begins with a fourway composite:
-
-    M12 [massed string trills] 
-    M4 [contrabass halo] 
-    M3 [dialoguing wind solos]
-    M18 [china cymbal miasma]
-
-it's possible that one or more of the [B] start materials may leak backwards
-into the end of [A].
 
 M8 [pizzicati fantastiques] is written into the structure of only [A]. so if
 the material is to climax it will climax during about the first two minutes of
@@ -29,12 +19,12 @@ piece all over the place. the occurrence of the material here in [A] is
 probably reinterpreted as the start of M16 [extremely long string tremolo
 descent] which then ends shortly after the start of [C].
 
-M4 [contrabass halo] is written into the structure of [A], [B], [C]. so M4
-[contrabass halo] territorializes the first three segments of the piece. this
-also means that M4 [contrabass halo] may start very near the beginning of the
-piece. this also means that M4 [contrabass halo] beaves as an independent layer
-in very much the same way as M15 [woodblock underspine] and M16 [extremely long
-string tremolo descent].
+M4 [contrabass halo] is written into the structure of [A], [B], [C]. M4
+[contrabass halo] territorializes the first three segments of the piece. M4
+[contrabass halo] may start very near the beginning of the piece. M4
+[contrabass halo] beaves as an independent layer. M4 [contrabass halo] layers
+similarly to M15 [woodblock underspine] and M16 [extremely long string tremolo
+descent].
 
 M5 [extremely quiet low winds] is written into the structure of [A], [D], [E].
 the material probably never climaxes. how is M5 [extremely quiet low winds]
@@ -85,6 +75,14 @@ becomes M12 [massed string trills] during the second part of [A]. if this is
 the case then M8 [pizzicati fantastiques] becomes M10 [tremoli fantastiques]
 which in turn becomes M12 [massed string trills].
 
+what carries over? five layers carry over from [A] into [B]:
+
+    (M6 [quiet multiphonic complexes])
+    (M15 [woodblock underspine])
+    (M16 [extremely long string tremolo descent])
+    (M10 [tremoli fantastiques] ==> M12 [massed string trills])
+    (M4 [contrabass halo])
+
 SUMMARY. so what are the primary events in [A]? three longterm and independent
 processes begin: M16 [extremely long string tremolo descent], M15 [woodblock
 underspine] and M4 [contrabass halo]. there is also the transformation of M8
@@ -134,7 +132,7 @@ materials: 8, 16, 4, 5, 19, 10, 6
 
     [7]
     (M6 [quiet multiphonic complexes])
-    (M19 [piano lightning cadenza])
+.....M19 [piano lightning cadenza]
     (M15 [woodblock underspine])
     (M16 [extremely long string tremolo descent])
     (M10 [tremoli fantastiques] ==> M12 [massed string trills])
@@ -149,6 +147,8 @@ CARRY OVER INTO [B]:
     (M4 [contrabass halo])
 
 ORCHESTRATION:
+
+    ### TODO: analyze exits of material
 
     [1]
 ++++M4 [bass flute accompaniment to contrabass halo]
