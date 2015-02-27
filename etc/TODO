@@ -12,3 +12,9 @@
 6.  audit time techniques of entire piece.
 
 7.  allow for exact metric modulations *in the middle of* segments.
+
+8.  come up with a way to alternate between two (or more) materials
+    over the course of a voice within a segment.
+
+9.  come up with a way to interpolate between two materials over the course
+    of a voice within a segment.
