@@ -242,11 +242,10 @@ ORCHESTRATION:
     (M6 [bass flute quiet multiphonic complexes])
     (M6 [bass clarinet quiet multiphonic complexes])
     (M6 [baritone saxophone quiet multiphonic complexes])
-    --
+        ob: ???
     (M8 [guitar pizzicati fantastiques])
     (M19 [piano lightning cadenza])
     (M15 [woodblock underspine])
-    --
     (M8 [violin pizzicati fantastiques] ==> M10 [violin tremoli fantastiques])
     (M16 [viola extremely long string tremolo descent])
     (M8 [viola pizzicati fantastiques] ==> M10 [viola tremoli fantastiques])

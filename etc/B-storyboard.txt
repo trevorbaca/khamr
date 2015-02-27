@@ -109,3 +109,20 @@ what carries over? seven layers carry over from [B] into [C]:
     (M9 [string sostenuti fantastiques])
     (M16 [contrabass extremely long string tremolo descent])
     (M4 [contrabass halo])
+
+ORCHESTRATION:
+
+    [1]
+    (M6 [bass flute quiet multiphonics] ==> M3 [bass fl. solos])
+    (M6 [bass clarinet quiet multiphonics] ==> M3 [bass cl. solos])
+    (M6 [baritone sax quiet multiphonics] ==> M3 [baritone sax solos])
+        ob: ???
+    (M8 [guitar pizzicati fantastiques] ==> niente)
+        pf: ???
+    (M15 [woodblock underspine])
++++++M18 [china cymbal miasma: p]
+    (M10 [violin tremoli fantastiques] ==> M12 [violin massed trills])
+    (M16 [viola extremely long string tremolo descent])
+    (M10 [viola tremoli fantastiques] ==> M12 [viola massed trills])
+    (M10 [cello tremoli fantastiques] ==> M12 [cello massed trills])
+    (M4 [contrabass halo])
