@@ -1,4 +1,15 @@
-percussion subsets:
+AUXILIARY PERCUSSION:
+
+    triangles
+    scraped almglocken
+    castanets
+    woodblocks
+    guiros
+    shakers
+    whirly tubes
+    (tibetan bowl)
+
+PERCUSSION SUBSETS:
     
     triangle
     scraped almglocken
@@ -17,28 +28,22 @@ percussion subsets:
     triangle
     pedal point marimba
 
-    handbells
-    pedal point marimba
-
     castanets
     pedal point marimba
 
     triangle
     brushed (large or very large) tam-tam
 
-    maracas
+    shakers
     brushed (large or very large) tam-tam
 
-    maracas
+    shakers
     guiro(s)
 
     castanets
     brushed (large or very large) tam-tam
 
     triangle
-    (groaned or rolled) bass drum
-
-    handbells
     (groaned or rolled) bass drum
 
     struck almglocken
@@ -55,13 +60,13 @@ percussion subsets:
     castanets
     all cymbals
 
-    maracas
+    shakers
     all cymbals
 
     castanets
     rolled snare
 
-    maracas
+    shakers
     rolled snare
 
     guiro(s)
