@@ -581,6 +581,12 @@ DESCRIPTION. material is probabaly always on the E string. glissandi with
 left-hand transitions between harmonic and half-harmonic pressure and
 right-hand transitions between flautando and scratch. no tremoli or other types
 of internal reiteration. intermittent multiphonics are encouraged.
+pitch-content is restricted everywhere in the piece. a glissando lentissimo
+played on changing harmonics and half harmonics may be enough. in fact it may
+be that the four occurrences in the piece are all exposures of a slow-moving
+and deeply parametric line. probably notated on a single staff but probabaly
+notated with a number of transition spanners. which will mean that M4
+[contrabass halo] derives from "ins wasser".
 
 VARATIONS. open question as to whether practice mute should be used. open
 question as to whether intermittent moments of open string fortissimo should
