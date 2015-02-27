@@ -138,14 +138,6 @@ materials: 8, 16, 4, 5, 19, 10, 6
     (M10 [tremoli fantastiques] ==> M12 [massed string trills])
     (M4 [contrabass halo])
 
-CARRY OVER INTO [B]:
-
-    (M6 [quiet multiphonic complexes])
-    (M15 [woodblock underspine])
-    (M16 [extremely long string tremolo descent])
-    (M12 [massed string trills])
-    (M4 [contrabass halo])
-
 ORCHESTRATION:
 
     ### TODO: analyze exits of material
@@ -156,8 +148,8 @@ ORCHESTRATION:
     --
     --
     --
-    --
-    --
+    P [piano low note doubling of tam-tam]
+    P [struck tam-tam: mp]
     --
 ++++M4 [viola accompaniment to contrabass halo]
 ++++M4 [cello accompaniment to contrabass halo]

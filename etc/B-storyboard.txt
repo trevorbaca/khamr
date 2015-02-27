@@ -84,7 +84,7 @@ FIRST-ORDER STORYBOARD:
     (M3 [dialoguing wind solos] ==> M9 [wind sostenuti fantastiques])
     (M18 [china cymbal miasma])
     (M15 [woodblock underspine])
-    (M12 [massed string trills] ==> [string sostenuti fantastiques])
+    (M12 [massed string trills] ==> M9 [string sostenuti fantastiques])
     (M9 [string sostenuti fantastiques])
     (M16 [cello extremely long string tremolo descent])
     (M4 [contrabass halo])
@@ -100,16 +100,6 @@ FIRST-ORDER STORYBOARD:
 
 [B] ends in a field of densely saturated color.
 
-what carries over? seven layers carry over from [B] into [C]:
-
-    (M9 [wind sostenuti fantastiques])
-    (M7 [ferocious multiphonic complexes])
-    (M18 [china cymbal miasma])
-    (M15 [woodblock underspine])
-    (M9 [string sostenuti fantastiques])
-    (M16 [contrabass extremely long string tremolo descent])
-    (M4 [contrabass halo])
-
 ORCHESTRATION:
 
     [1]
@@ -120,9 +110,41 @@ ORCHESTRATION:
     (M8 [guitar pizzicati fantastiques] ==> niente)
         pf: ???
     (M15 [woodblock underspine])
-+++++M18 [china cymbal miasma: p]
+    (M18 [china cymbal miasma: niente < pf < mf > p < mf]
     (M10 [violin tremoli fantastiques] ==> M12 [violin massed trills])
     (M16 [viola extremely long string tremolo descent])
     (M10 [viola tremoli fantastiques] ==> M12 [viola massed trills])
     (M10 [cello tremoli fantastiques] ==> M12 [cello massed trills])
+    (M4 [contrabass halo])
+
+
+    [2]
+    (M3 [bass fl. solos] ==> M9 [bass fl. sostenuti fantastiques])
+    (M3 [bass cl. solos] ==> M9 [bass cl. sostenuti fantastiques])
+    (M3 [baritone sax solos] ==> M9 [baritone sax sostenuti fanastiques])
+        ob: ???
+        guitar: ???
+        pf: ???
+    (M15 [woodblock underspine])
+    (M18 [china cymbal miasma: mf < f > mf < f > mf < f])
+    (M12 [violin massed trills] ==> M9 [violin sostenuti fantastiques])
+    (M12 [viola massed trills] ==> M9 [viola sostenuti fantastiques])
+    (M12 [cello massed trills] ==> M9 [cello sostenuti fantastiques])
+    (M16 [cello extremely long string tremolo descent])
+    (M4 [contrabass halo])
+
+
+    [3]
+    (M9 [bass fl. sostenuti fantastiques])
+    (M9 [bass cl. sostenuti fant.] ==> M7 [bass cl. ferocious multi.])
+    (M9 [baritone sax sostenuti fant.] ==> M7 [baritone sax ferocious multi.])
+    (M9 [english horn ferocious multiphonic complexes])
+        guitar: ???
+        pf: ???
+    (M15 [woodblock underspine])
+    (M18 [china cymbal miasma: f < ff > f < ff > f < ff]
+    (M9 [violin sostenuti fantastiques])
+    (M9 [viola sostenuti fantastiques])
+    (M9 [cello sostenuti fantastiques])
+    (M9 [contrabass extremely long string tremolo descent])
     (M4 [contrabass halo])
