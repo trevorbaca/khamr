@@ -75,22 +75,22 @@ FIRST-ORDER STORYBOARD:
 materials: 8, 16, 4, 5, 19, 10, 6
 
     [1]
-++++M4 [contrabass halo]
+++++(M4 [contrabass halo])
 
     [2]
-++++M5 [extremely quiet low winds]
-++++M8 [pizzicati fantastiques]
+++++(M5 [extremely quiet low winds])
+++++(M8 [pizzicati fantastiques])
     (M4 [contrabass halo])
 
     [3]
     (M5 [extremely quiet low winds])
-++++M16 [extremely long string tremolo descent: start]
+++++(M16 [extremely long string tremolo descent: start])
     (M8 [pizzicati fantastiques])
     (M4 [contrabass halo])
 
     [4]
     (M6 [quiet multiphonic complexes] + M5 [extremely quiet low winds])
-++++M15 [woodblock underspine: start]
+++++(M15 [woodblock underspine: start])
     (M16 [extremely long string tremolo descent])
     (M8 [pizzicati fantastiques])
     (M4 [contrabass halo])
@@ -104,7 +104,7 @@ materials: 8, 16, 4, 5, 19, 10, 6
 
     [6]
     (M6 [quiet multiphonic complexes])
-++++M19 [piano lightning cadenza]
+++++(M19 [piano lightning cadenza])
     (M15 [woodblock underspine])
     (M16 [extremely long string tremolo descent])
     (M10 [tremoli fantastiques])
@@ -112,7 +112,7 @@ materials: 8, 16, 4, 5, 19, 10, 6
 
     [7]
     (M6 [quiet multiphonic complexes])
-.....M19 [piano lightning cadenza]
+....(M19 [piano lightning cadenza])
     (M15 [woodblock underspine])
     (M16 [extremely long string tremolo descent])
     (M10 [tremoli fantastiques] ==> M12 [massed string trills])
@@ -124,25 +124,25 @@ ORCHESTRATION:
     (M4 [bass flute accompaniment to contrabass halo: niente < p])
     (M4 [bass clarinet accompaniment to contrabass halo: niente < p])
     (M4 [baritone sax accompaniment to contrabass halo: niente < p])
-    P [oboe sparse triangle]
-    P [guitar low note doubling of tam-tam]
-    P [piano low note doubling of tam-tam]
-    P [struck tam-tam: mp]
+    (P [oboe sparse triangle])
+    (P [guitar low note doubling of tam-tam])
+    (P [piano low note doubling of tam-tam])
+    (P [struck tam-tam: mp])
     (M4 [violin accompaniment to contrabass halo: niente < p])
     (M4 [viola accompaniment to contrabass halo: niente < p])
     (M4 [cello accompaniment to contrabass halo: niente < p])
-++++M4 [contrabass halo: "f"]
+++++(M4 [contrabass halo: "f"])
 
 
     [2]
     (M4 [bass flute accompaniment to contrabass halo])
     (M4 [bass cl. halo acc.] ==> M5 [bass cl. ext. quiet low tone])
     (M4 [baritone sax halo acc.] ==> M5 [baritone sax ext. quiet low tone])
-++++M8 [oboe slap-tongue fantastiques acc. to guitar]
-++++M8 [guitar pizzicati fantastiques: sparse < denser]
-    P [guitar low note doubling of tam-tam]
-    P [piano low note doubling of tam-tam]
-    P [struck tam-tam: mp]
+++++(M8 [oboe slap-tongue fantastiques acc. to guitar])
+++++(M8 [guitar pizzicati fantastiques: sparse < denser])
+    (P [guitar low note doubling of tam-tam])
+    (P [piano low note doubling of tam-tam])
+    (P [struck tam-tam: mp])
     (M4 [violin acc. to contrabass halo] ==> M8 [vn. pizz. fant.])
     (M4 [viola acc. to contrabass halo] ==> M8 [va. pizz. fant.])
     (M4 [cello acc. to contrabass halo] ==> M8 [vc. pizz. fant.)
@@ -155,10 +155,10 @@ ORCHESTRATION:
     (M5 [extremely quiet low baritone saxophone])
     (M8 [oboe slap-tongue fantastiques acc. to guitar])
     (M8 [guitar pizzicati fantastiques])
-    P [guitar low note doubling of tam-tam]
-    P [piano low note doubling of tam-tam]
-    P [struck tam-tam: mp]
-++++M16 [violin extremely long string tremolo descent: start]
+    (P [guitar low note doubling of tam-tam])
+    (P [piano low note doubling of tam-tam])
+    (P [struck tam-tam: mp])
+++++(M16 [violin extremely long string tremolo descent: start])
     (M4 [violin acc. to contrabass halo] ==> M8 [vn. pizz. fant.])
     (M4 [viola acc. to contrabass halo] ==> M8 [va. pizz. fant.])
     (M4 [cello acc. to contrabass halo] ==> M8 [vc. pizz. fant.)
@@ -171,9 +171,9 @@ ORCHESTRATION:
     (M5 [extremely quiet low baritone saxophone])
     (M8 [oboe slap-tongue fantastiques acc. to guitar])
     (M8 [guitar pizzicati fantastiques: climax])
-    P [guitar low note doubling of tam-tam]
-    P [piano low note doubling of tam-tam]
-    P [struck tam-tam: mp]
+    (P [guitar low note doubling of tam-tam])
+    (P [piano low note doubling of tam-tam])
+    (P [struck tam-tam: mp])
     (M15 [woodblock underspine: start])
     (M16 [violin extremely long string tremolo descent])
     (M4 [violin acc. to contrabass halo] ==> M8 [vn. pizz. fant.])
@@ -188,10 +188,10 @@ ORCHESTRATION:
     (M5+M6 [baritone sax. quiet mult. + pure tone] ==> M6 [quiet mult.])
     (M8 [oboe slap-tongue] ==> niente; M6 [english horn quiet mult.])
     (M8 [guitar pizzicati fantastiques])
-    P [guitar low note doubling of tam-tam]
-    P [piano low note doubling of tam-tam]
+    (P [guitar low note doubling of tam-tam])
+    (P [piano low note doubling of tam-tam])
     (M19 [piano pizzicati fantastiques: climax] ==> M19 [pf lightning cadenza])
-    P [struck tam-tam: mp]
+    (P [struck tam-tam: mp])
     (M15 [woodblock underspine])
     (M8 [violin pizzicati fantastiques: climax])
     (M16 [viola extremely long string tremolo descent])
@@ -206,10 +206,10 @@ ORCHESTRATION:
     (M6 [baritone saxophone quiet multiphonic complexes])
     (M6 [english horn quiet multiphonic complexes]) 
     (M8 [guitar pizzicati fantastiques])
-    P [guitar low note doubling of tam-tam]
-    P [piano low note doubling of tam-tam]
+    (P [guitar low note doubling of tam-tam])
+    (P [piano low note doubling of tam-tam])
     (M19 [piano lightning cadenza])
-    P [struck tam-tam: mp]
+    (P [struck tam-tam: mp])
     (M15 [woodblock underspine])
     (M8 [violin pizzicati fantastiques] ==> M10 [violin tremoli fantastiques])
     (M16 [viola extremely long string tremolo descent])
@@ -224,11 +224,11 @@ ORCHESTRATION:
     (M6 [baritone saxophone quiet multiphonic complexes])
     (M6 [english horn quiet multiphonic complexes])
     (M8 [guitar pizzicati fantastiques])
-    P [guitar low note doubling of tam-tam]
-    P [piano low note doubling of tam-tam]
+    (P [guitar low note doubling of tam-tam])
+    (P [piano low note doubling of tam-tam])
     (M19 [piano lightning cadenza] ==> niente; AUX [piano clicks])
     (M15 [woodblock underspine])
-    P [struck tam-tam: mp]
+    (P [struck tam-tam: mp])
     (M8 [violin pizzicati fantastiques] ==> M10 [violin tremoli fantastiques])
     (M16 [viola extremely long string tremolo descent])
     (M8 [viola pizzicati fantastiques] ==> M10 [viola tremoli fantastiques])

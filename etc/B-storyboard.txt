@@ -71,10 +71,11 @@ M18 [china cymbal miasma] and M7 [ferocious multiphonic complexes] both climax
 in [B].
 
 FIRST-ORDER STORYBOARD:
+materials: 12, 4, 3, 18, 9, 4, 7
 
     [1]
     (M3 [dialoguing wind solos])
-+++++M18 [china cymbal miasma]
+++++(M18 [china cymbal miasma])
     (M15 [woodblock underspine])
     (M12 [massed string trills])
     (M16 [cello extremely long string tremolo descent])
@@ -91,14 +92,12 @@ FIRST-ORDER STORYBOARD:
 
     [3]
     (M9 [wind sostenuti fantastiques])
-+++++M7 [ferocious multiphonic complexes]
+++++(M7 [ferocious multiphonic complexes])
     (M18 [china cymbal miasma])
     (M15 [woodblock underspine])
     (M9 [string sostenuti fantastiques])
     (M16 [contrabass extremely long string tremolo descent])
     (M4 [contrabass halo])
-
-[B] ends in a field of densely saturated color.
 
 ORCHESTRATION:
 
@@ -110,7 +109,7 @@ ORCHESTRATION:
     (M8 [guitar pizzicati fantastiques] ==> niente; AUX [guitar clicks])
     (AUX [piano clicks on low string with credit card])
     (M15 [woodblock underspine])
-    (M18 [china cymbal miasma: niente < pf < mf > p < mf]
+    (M18 [china cymbal miasma: niente < p < mf > p < mf]
     (M10 [violin tremoli fantastiques] ==> M12 [violin massed trills])
     (M16 [viola extremely long string tremolo descent])
     (M10 [viola tremoli fantastiques] ==> M12 [viola massed trills])
@@ -146,5 +145,7 @@ ORCHESTRATION:
     (M9 [violin sostenuti fantastiques])
     (M9 [viola sostenuti fantastiques])
     (M9 [cello sostenuti fantastiques])
-    (M9 [contrabass extremely long string tremolo descent])
+    (M16 [contrabass extremely long string tremolo descent])
     (M4 [contrabass halo])
+
+[B] ends in a field of densely saturated color.
