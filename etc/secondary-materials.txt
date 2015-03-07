@@ -1,85 +1,10 @@
 1. guitar ponticello trends. resonant and mostly quiet. combined with melodic
 bass flute writing.
 
-    triangle: +
-    handbells: +
-    struck almglocken: +
-    scraped almglocken: +
-    tibetan bowls: --
-    whirly tubes: --
-    castanets: +
-    maracas: --
-    guiro(s): --
-    rolled snare: +
-    foot-struck bass drum: --
-    groaned bass drum: +
-    rolled bass drum: +
-    small cymbal: +
-    medium cymbal: +
-    large chinese cymbal: +
-    very large chinese cymbal: +
-    struck large tam-tam: +
-    struck very large tam-tam: +
-    brushed large tam-tam: +
-    brushed very large tam-tam: +
-    struck marimba: --
-    woodblock struck marimba: --
-    pedal point marimba: +
-
 2. guitar snap pizzicati.
 
-    triangle: --
-    handbells: --
-    struck almglocken: +
-    scraped almglocken: +
-    tibetan bowls: --
-    whirly tubes: --
-    castanets: +
-    maracas: +
-    guiro(s): +
-    rolled snare: +
-    foot-struck bass drum: +
-    groaned bass drum: +
-    rolled bass drum: +
-    small cymbal: +
-    medium cymbal: +
-    large chinese cymbal: +
-    very large chinese cymbal: +
-    struck large tam-tam: +
-    struck very large tam-tam: +
-    brushed large tam-tam: +
-    brushed very large tam-tam: +
-    struck marimba: +
-    woodblock struck marimba: +
-    pedal point marimba: +
-
 3. guitar mandolin writing. type of reitertive writing. can be reproduced more
-or less exactly with each other strings. must be avoided in piano and marimba.
-may accompanying piano lightning cadenza.
-
-    triangle: +
-    handbells: +
-    struck almglocken: +
-    scraped almglocken: +
-    tibetan bowls: +
-    whirly tubes: +
-    castanets: --
-    maracas: +
-    guiro(s): +
-    rolled snare: +
-    foot-struck bass drum: +
-    groaned bass drum: --
-    rolled bass drum: +
-    small cymbal: +
-    medium cymbal: +
-    large chinese cymbal: --
-    very large chinese cymbal: --
-    struck large tam-tam: +
-    struck very large tam-tam: +
-    brushed large tam-tam: +
-    brushed very large tam-tam: +
-    struck marimba: +
-    woodblock struck marimba: +
-    pedal point marimba: +
+or less exactly with the other strings. must be avoided in piano and marimba.
+may accompany piano lightning cadenza.
 
 4. guitar sparse accompaniment lines.

@@ -16,10 +16,6 @@ what comes before? three different layers carry over from [B] into [C]:
     (M9 [sostenuti fantastiques])
     (M7 [ferocious multiphonic complexes])
 
-what follows after? one layer carries over from [C] into [D]:
-
-    (M2A [seaweed guiro])
-
 M16 [extremely long string tremolo descent] terminates at the start of [C]. M16
 [extremely long string tremolo descent] territorializes [A] and [B] for about
 four minutes of music. M16 [extremely long string tremolo descent] is

@@ -138,7 +138,7 @@ ORCHESTRATION:
     (M4 [bass flute accompaniment to contrabass halo])
     (M4 [bass cl. halo acc.] ==> M5 [bass cl. ext. quiet low tone])
     (M4 [baritone sax halo acc.] ==> M5 [baritone sax ext. quiet low tone])
-    oboe: --
+++++M8 [oboe slap-tongue fantastiques acc. to guitar]
 ++++M8 [guitar pizzicati fantastiques: sparse < denser]
     P [guitar low note doubling of tam-tam]
     P [piano low note doubling of tam-tam]
@@ -153,7 +153,7 @@ ORCHESTRATION:
     (M4 [bass flute accompaniment to contrabass halo])
     (M5 [extremely quiet low bass clarinet])
     (M5 [extremely quiet low baritone saxophone])
-    oboe: --
+    (M8 [oboe slap-tongue fantastiques acc. to guitar])
     (M8 [guitar pizzicati fantastiques])
     P [guitar low note doubling of tam-tam]
     P [piano low note doubling of tam-tam]
@@ -166,10 +166,10 @@ ORCHESTRATION:
 
 
     [4]
-    (M4 [bass flute acc. to contrabass halo] ==> M5+M6 [quite mult. + tone])
+    (M4 [bass flute acc. to contrabass halo] ==> M5+M6 [quiet mult. + tone])
     (M5 [extremely quiet low bass clarinet])
     (M5 [extremely quiet low baritone saxophone])
-    oboe: --
+    (M8 [oboe slap-tongue fantastiques acc. to guitar])
     (M8 [guitar pizzicati fantastiques: climax])
     P [guitar low note doubling of tam-tam]
     P [piano low note doubling of tam-tam]
@@ -185,8 +185,8 @@ ORCHESTRATION:
     [5]
     (M5+M6 [bass fl. quiet mult. + pure tone] ==> M6 [quiet mult.])
     (M5+M6 [bass cl. quiet mult. + pure tone] ==> M6 [quiet mult.])
-    (M5+M6 [baritone sax. quiet mult. + pure tone] ==> [quiet mult.])
-    oboe: --
+    (M5+M6 [baritone sax. quiet mult. + pure tone] ==> M6 [quiet mult.])
+    (M8 [oboe slap-tongue] ==> niente; M6 [english horn quiet mult.])
     (M8 [guitar pizzicati fantastiques])
     P [guitar low note doubling of tam-tam]
     P [piano low note doubling of tam-tam]
@@ -204,7 +204,7 @@ ORCHESTRATION:
     (M6 [bass flute quiet multiphonic complexes])
     (M6 [bass clarinet quiet multiphonic complexes])
     (M6 [baritone saxophone quiet multiphonic complexes])
-    oboe: --
+    (M6 [english horn quiet multiphonic complexes]) 
     (M8 [guitar pizzicati fantastiques])
     P [guitar low note doubling of tam-tam]
     P [piano low note doubling of tam-tam]
@@ -222,11 +222,11 @@ ORCHESTRATION:
     (M6 [bass flute quiet multiphonic complexes])
     (M6 [bass clarinet quiet multiphonic complexes])
     (M6 [baritone saxophone quiet multiphonic complexes])
-    oboe: --
+    (M6 [english horn quiet multiphonic complexes])
     (M8 [guitar pizzicati fantastiques])
     P [guitar low note doubling of tam-tam]
     P [piano low note doubling of tam-tam]
-    (M19 [piano lightning cadenza] ==> niente)
+    (M19 [piano lightning cadenza] ==> niente; AUX [piano clicks])
     (M15 [woodblock underspine])
     P [struck tam-tam: mp]
     (M8 [violin pizzicati fantastiques] ==> M10 [violin tremoli fantastiques])

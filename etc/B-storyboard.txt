@@ -106,9 +106,9 @@ ORCHESTRATION:
     (M6 [bass flute quiet multiphonics] ==> M3 [bass fl. solos])
     (M6 [bass clarinet quiet multiphonics] ==> M3 [bass cl. solos])
     (M6 [baritone sax quiet multiphonics] ==> M3 [baritone sax solos])
-        ob: ???
-    (M8 [guitar pizzicati fantastiques] ==> niente)
-        pf: ???
+    (M6 [english horn quiet multiphonics] ==> M3 [eng. horn solos])
+    (M8 [guitar pizzicati fantastiques] ==> niente; AUX [guitar clicks])
+    (AUX [piano clicks on low string with credit card])
     (M15 [woodblock underspine])
     (M18 [china cymbal miasma: niente < pf < mf > p < mf]
     (M10 [violin tremoli fantastiques] ==> M12 [violin massed trills])
@@ -122,9 +122,9 @@ ORCHESTRATION:
     (M3 [bass fl. solos] ==> M9 [bass fl. sostenuti fantastiques])
     (M3 [bass cl. solos] ==> M9 [bass cl. sostenuti fantastiques])
     (M3 [baritone sax solos] ==> M9 [baritone sax sostenuti fanastiques])
-        ob: ???
-        guitar: ???
-        pf: ???
+    (M3 [eng. horn solos] ==> M9 [eng. horn air tone sotenuti fantastiques])
+    (AUX [guitar clicks])
+    (AUX [piano clicks])
     (M15 [woodblock underspine])
     (M18 [china cymbal miasma: mf < f > mf < f > mf < f])
     (M12 [violin massed trills] ==> M9 [violin sostenuti fantastiques])
@@ -139,8 +139,8 @@ ORCHESTRATION:
     (M9 [bass cl. sostenuti fant.] ==> M7 [bass cl. ferocious multi.])
     (M9 [baritone sax sostenuti fant.] ==> M7 [baritone sax ferocious multi.])
     (M9 [english horn ferocious multiphonic complexes])
-        guitar: ???
-        pf: ???
+    (AUX [guitar clicks])
+    (AUX [piano clicks])
     (M15 [woodblock underspine])
     (M18 [china cymbal miasma: f < ff > f < ff > f < ff]
     (M9 [violin sostenuti fantastiques])
