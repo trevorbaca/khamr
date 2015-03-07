@@ -10,99 +10,72 @@
 
 materials: 16, 19, 10, 4, 3, 1, 2A
 
-what comes before? three different layers carry over from [B] into [C]:
+what comes before? seven different layers carry over from [B] into [C]:
 
+    (M7 [ferocious multiphonic complexes])
+    (AUX [clicks])
+    (M15 [woodblock underspine])
     (M18 [china cymbal miasma])
     (M9 [sostenuti fantastiques])
-    (M7 [ferocious multiphonic complexes])
+    (M16 [extremely long string tremolo descent])
+    (M4 [contrabass halo])
 
-M16 [extremely long string tremolo descent] terminates at the start of [C]. M16
-[extremely long string tremolo descent] territorializes [A] and [B] for about
-four minutes of music. M16 [extremely long string tremolo descent] is
-perforated to appear only intermittently. the ability to restart the material
-from something close to the last pitch allows for perceptual continuity.
+M16 [extremely long string tremolo descent] terminates at the start of [C].
 
-M19 [piano lightning cadenza] is written into the structure of [A], [C] and
-[D]. M19 [piano lighning cadenza] crosses over from [D] to [E]. M19 [piano
-lightning cadenza] climaxes in [E]. M19 [piano lightning cadenza] in both [A]
-and [C] foreshadows the start of M19 [piano lightning cadenza] at the end of
-[D].
+M19 [piano lightning cadenza] is written into the structure of [A], [C], [D].
+M19 [piano lightning cadenza] in [A] and [C] foreshadows the start of M19
+[piano lightning cadenza] at the end of [D].
 
 M10 [tremoli fantastiques] is written into the structure of [A] and [C]. M10
 [tremoli fantastiques] follows immediately after M19 [piano lightning cadenza]
-in both [A] and [C]. so it is likely that M19 [piano lightning cadenza] and M10
-[tremoli fantastiques] are bonded together in the piece. this may mean that the
-final appearance of M19 [piano lightning cadenza] in [D] and [E] is also
-accompanied by M10 [tremoli fantastiques] even though M10 [tremoli
-fantastiques] is not written into the structure of either [D] or [E].
+in both [A] and [C]. M19 [piano lightning cadenza] and M10 [tremoli
+fantastiques] are bound together in the piece. the final appearance of M19
+[piano lightning cadenza] in [D] and [E] is accompanied by M10 [tremoli
+fantastiques] even though M10 [tremoli fantastiques] is not written into the
+structure of either [D] or [E].
 
-M4 [contrabass halo] is written into the structure of [A], [B] and [C]. so the
-occurrence of M4 [contrabass halo] in [C] marks the farewell appearance of M4
-[contrabass halo] in the piece. M4 [contrabass halo] probably never climaxes.
-what type of process of presentation characterizes M4 [contrabass halo]
-throughout [A], [B], [C]? M4 [contrabass halo] is probably only ever revealed
-in windows between other materials. M4 [contrabass halo] is followed
-immediately by M3 [dialoguing wind solos] in [B] and here in [C]. M4
-[contrabass halo] and M3 [dialoguing wind solos] layer well together. it is
-possible that M4 [contrabass halo] is sometimes a third partner in M3
-[dialoguing wind solos]. M4 [contrabass halo] and M3 [dialoguing wind solos]
-begin at the same time here in [C] just as they did earlier in [B]. occurrences
-of M3 [dialoguing wind solos] later in the piece after [C] are not
-shadow-accompanied by M4 [contrabass halo] because M4 [contrabass halo]
-territorializes only [A], [B], [C].
+M4 [contrabass halo] appears in the piece for the last time in [C].
 
 M3 [dialoguing wind solos] is written into the structure of [B], [C], [D]. M3
 [dialoguing wind solos] in [B] undergoes a transformation into M9 [sostenuti
-fantastiques]. here in [C] there is no structural reason to transform M3
-[dialoguing wind solos] into another material. M3 [dialoguing wind solos] here
-in [C] may continue all way into [D]. what is the fate of M3 [dialoguing wind
-solos] once the material crosses into [D]? the material is transformed into M5
-[extremely quiet low winds] in [D] by the ferocity of M17 [snare roll] in [D].
+fantastiques]. in [C] there is no structural reason to transform M3 [dialoguing
+wind solos] into another material.
 
-M1 [upper-register prestissimo] is written into the structure in only [C] and
-[E]. which means that M1 [upper-register prestissimo] climaxes here in [C].
-it's possible that M1 [upper-register prestissimo] starts very near the
-beginning of [C] and territorializes most of [C]. M3 [dialoguing wind solos]
-and M1 [upper-register prestissimo] may alternate in [C]. M3 [dialoguing wind
-solos] and M1 [upper-register prestissimo] may layer in [C]. the combination of
-M3 [dialoguing wind solos] and M1 [upper-register prestissimo] territorializes
-most of [C].
+M1 [upper-register prestissimo] is written into the structure of [C] and [E].
+M1 [upper-register prestissimo] climaxes in [C]. M3 [dialoguing wind solos] and
+M1 [upper-register prestissimo] alternate in [C] (exercising a type of
+windowing technique or a type of alternation technique).
 
 M2A [seaweed guiro] is written into the structure of [C] and [E]. M2A [seaweed
-guiro] is used as only a passing glance backwards in [E]. M2A [seaweed guiro]
-is probabaly used only very lightly here in [C], too. M2A [seaweed guiro] may
-function to bring M1 [upper-register prestissimo] to conclusion. M2A [seaweed
-guiro] crosses over into the start of [D].
+guiro] in [E] only glances passingly back at earlier parts of the piece. M2A
+[seaweed guiro] brings M1 [upper-register prestissimo] to conclusion. M2A
+[seaweed guiro] crosses over from [C] into [D].
 
-END OF [B]:
-
-    (M18 [china cymbal miasma])
-    (M9 [sostenuti fantastiques])
-    (M7 [ferocious multiphonic complexes])
-
-FIRST-ORDER STORYBOARD OF [C]:
+FIRST-ORDER STORYBOARD:
 materials: 16, 19, 10, 4, 3, 1, 2A
 
     [1]
     (M7 [ferocious multiphonic complexes])
-++++M19 [piano lightning cadenza: foreshadow of end of piece]
+++++(M19 [piano lightning cadenza: foreshadow end of piece])
     (M18 [china cymbal miasma])
     (M9 [sostenuti fantastiques])
 ....(M16 [extremely long string tremolo descent: endpoint])
+    (M4 [contrabass halo])
     
     [2]
     (M7 [ferocious multiphonic complexes])
     (M19 [piano lightning cadenza: foreshadow of end of piece])
     (M18 [china cymbal miasma])
     (M9 [sostenuti fantastiques] ==> M10 [tremoli fantastiques])
+    (M4 [contrabass halo])
 
-    [3]
-++++M3 [dialoguing wind solos]
+    [3])
+++++(M3 [dialoguing wind solos])
 ....(M7 [ferocious multiphonic complexes])
     (M19 [piano lightning cadenza: foreshadow of end of piece])
 ....(M18 [china cymbal miasma])
     (M9 [sostenuti fantastiques] ==> M10 [tremoli fantastiques])
-++++M4 [contrabass halo]
+    (M4 [contrabass halo])
 
     [4]
     (M3 [dialoguing wind solos])
@@ -116,7 +89,7 @@ materials: 16, 19, 10, 4, 3, 1, 2A
     (M4 [contrabass halo])
 
     [6]
-++++M1 [upper-register prestissimo]
+++++(M1 [upper-register prestissimo])
     (M10 [tremoli fantastiques])
     (M4 [contrabass halo])
 
@@ -131,31 +104,33 @@ materials: 16, 19, 10, 4, 3, 1, 2A
     # alternation between M1 and M3
 ....(M1 [upper-register prestissimo])
 ....(M3 [dialoguing wind solos])
-++++M2a [seaweed guiro]
+++++(M2A [seaweed guiro])
 ....(M10 [tremoli fantastiques])
     (M4 [contrabass halo])
 
     [9]
     # farewell of M4
-    (M2a [seaweed guiro])
-    (M4 [contrabass halo])
+    (M2A [seaweed guiro])
+....(M4 [contrabass halo])
 
 ORCHESTRATION:
 
     [1]
-++++M19 [piccolo fluttertongue accompaniment to piano lightning cadenza]
+++++(M19 [piccolo fluttertongue accompaniment to piano lightning cadenza])
     (M7 [contrabass clarinet ferocious multiphonics])
     (M7 [baritone sax ferocious multiphonics])
     (M7 [english horn ferocious multiphonics])
-++++M19 [guitar manodlin line accompaniment to piano lightning cadenza]
-++++M19 [piano lightning cadenza: foreshadow end of piece]
-    (M18 [china cymbla miasma])
-++++M19 [violin mandolin line accompaniment to piano lightning cadenza]
-++++M9 [viola sostenuti fantastiques]
-++++M9 [cello sostenuti fantastiques]
-....(M16 [extremely long string tremolo descent: endpoint: ppp])
+++++(M19 [guitar manodlin line accompaniment to piano lightning cadenza])
+++++(M19 [piano lightning cadenza: foreshadow end of piece])
+    (M18 [china cymbla miasma: f < ff > f < ff > f < ff])
+++++(M1 [castanets and triangle: announcement of beginning])
+++++(M19 [violin mandolin line accompaniment to piano lightning cadenza])
+    (M9 [viola sostenuti fantastiques])
+    (M9 [cello sostenuti fantastiques])
+....(M16 [contrabass extremely long string tremolo descent: endpoint: ppp])
+    (M4 [contrabass halo])
     * make piccolo fluttertongue distribute differently than piano;
-      maybe rhythm of piccolo fluttertongue should follow non-M19 material
+      piccolo fluttertongue rhythm should follow non-M19 material.
     
 
     [2]
@@ -163,13 +138,14 @@ ORCHESTRATION:
     (M7 [contrabass clarinet ferocious multiphonics])
     (M7 [baritone sax ferocious multiphonics])
     (M7 [english horn ferocious multiphonics])
-++++M19 [guitar manodlin line accompaniment to piano lightning cadenza]
-++++M19 [piano lightning cadenza: foreshadow end of piece]
-    (M18 [china cymbla miasma])
-++++M19 [violin mandolin line accompaniment to piano lightning cadenza]
+    (M19 [guitar manodlin line accompaniment to piano lightning cadenza])
+    (M19 [piano lightning cadenza: foreshadow end of piece])
+    (M18 [china cymbla miasma: mf < f > mf < f > mf < f])
+    (M1 [castanets and triangle: relatively thin])
+    (M19 [violin mandolin line accompaniment to piano lightning cadenza])
     (M19 [viola sostenuti fantastiques] ==> M10 [viola tremoli fantastiques])
     (M19 [cello sostenuti fantastiques] ==> M10 [cello tremoli fantastiques])
-++++M4 [contrabass halo]
+    (M4 [contrabass halo])
 
 
     [3]
@@ -179,7 +155,8 @@ ORCHESTRATION:
     (M7 [english horn ferocious multiphonics] ==> M3 [solos])
     (M19 [guitar manodlin line accompaniment to piano lightning cadenza])
     (M19 [piano lightning cadenza: foreshadow end of piece])
-....(M18 [china cymbla miasma])
+....(M18 [china cymbla miasma: p < mf > p < mf > p])
+    (M1 [castanets and triangle: relatively thin])
     (M19 [violin mandolin line accompaniment to piano lightning cadenza])
     (M19 [viola sostenuti fantastiques] ==> M10 [viola tremoli fantastiques])
     (M19 [cello sostenuti fantastiques] ==> M10 [cello tremoli fantastiques])
@@ -193,7 +170,7 @@ ORCHESTRATION:
     (M3 [english horn dialoguing solos])
     (M19 [guitar manodlin line accompaniment to piano lightning cadenza])
     (M19 [piano lightning cadenza: foreshadow end of piece])
-    perc: ???
+    (M1 [castanets and triangle: denser])
     (M19 [violin mandolin line] ==> M10 [violin tremoli fantastiques])
     (M10 [viola tremoli fantastiques])
     (M10 [cello tremoli fantastiques])
@@ -207,7 +184,7 @@ ORCHESTRATION:
     (M3 [english horn dialoguing solos] ==> M1 [oboe running])
     (M19 [guitar mandolin line] ==> M1 [guitar coattacks with piccolo])
     (M19 [piano ligthning cadenza] ==> M1 [piano coattacks with prestissimo])
-++++M1 [castanets and triangle]
+    (M1 [castanets and triangle])
     (M10 [violin tremoli fantastiques])
     (M10 [viola tremoli fantastiques])
     (M10 [cello tremoli fantastiques])
