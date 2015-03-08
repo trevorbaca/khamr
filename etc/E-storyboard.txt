@@ -89,20 +89,21 @@ END OF [D]:
     (M14 [ppp altissimo string tremolo & fff shakers])
 
 FIRST-ORDER STORYBOARD:
+materials: 2B, 11, 14, 6, 2A, 5, 1
 
     [1]
     (M5 [extremely quiet low winds] + M6 [extremely quiet multiphonics])
     (M19 [piano lightning cadenza: upper register])
-*****M2B [burst guiro rattan on marimba resonators]
-+++++M2B [quick guiro strokes]
+****(M2B [burst guiro rattan on marimba resonators])
+++++(M2B [quick guiro strokes])
     (M18 [china cymbal miasma: p])
     (M14 [ppp altissimo string tremolo & fff shakers])
-+++++M11 [massed off-string bowing]
+++++(M11 [massed off-string bowing])
 
     [2]
     (M5 [extremely quiet low winds] + M6 [extremely quiet multiphonics])
     (M19 [piano lightning cadenza: upper register])
-.....M2B [quick guiro strokes])
+----(M2B [quick guiro strokes])
     (M18 [china cymbal miasma: mp])
     (M14 [ppp altissimo string tremolo & fff shakers])
     (M11 [massed off-string bowing])
@@ -112,7 +113,7 @@ FIRST-ORDER STORYBOARD:
     (M19 [piano lightning cadenza: upper register])
     (M18 [china cymbal miasma: mf])
     (M14 [ppp altissimo string tremolo & fff shakers])
-.....M11 [massed off-string bowing]
+----(M11 [massed off-string bowing])
 
     [4]
     (M6 [extremely quiet multiphonics] ==> M7 [ferocious multiphonics])
@@ -133,7 +134,7 @@ FIRST-ORDER STORYBOARD:
     (M14 [ppp altissimo string tremolo & fff shakers: maximum])
 
     [7]
-+++++M5 [extremely quiet low winds]
+++++(M5 [extremely quiet low winds])
     (M7 [ferocious multiphonics] ==> M6 [extremely quiet multiphonics])
     (M19 [piano lightning cadenza: rising])
     (M18 [china cymbal miasma: fff])
@@ -147,13 +148,13 @@ FIRST-ORDER STORYBOARD:
     (M14 [ppp altissimo string tremolo & fff shakers: maximum])
 
     [9]
-*****M1 [upper-register prestissimo]
-*****M2A [seaweed guiro]
-.....M5 [extremely quiet low winds]
-.....M6 [extremely quiet multiphonics]
-.....M19 [piano lightning cadenza: very high: maximum]
-.....M18 [china cymbal miasma: fff > p < fff > p < fff]
-.....M14 [ppp altissimo string tremolo & fff shakers: maximum]
+****(M1 [upper-register prestissimo])
+****(M2A [seaweed guiro])
+----(M5 [extremely quiet low winds])
+----(M6 [extremely quiet multiphonics])
+----(M19 [piano lightning cadenza: very high: maximum])
+----(M18 [china cymbal miasma: fff > p < fff > p < fff])
+----(M14 [ppp altissimo string tremolo & fff shakers: maximum])
 
 ORCHESTRATION:
 
@@ -165,13 +166,13 @@ ORCHESTRATION:
     (M5 [bass flute low tone] + M6 [bass flute quiet multiphonics])
     (M5 [bass clar. low tone] + M6 [bass clar. quiet multiphonics])
     (M5 [baritone sax low tone] + M6 [baritone sax quiet multiphonics])
-+++++M2B [english horn quick guiro strokes]
+++++(M2B [english horn quick guiro strokes])
     (M14 [guitar shakers: fff])
     (M19 [piano lightning cadenza: upper register]) 
     (M18 [china cymbal miasma: p])
-*****M2B [burst rattan on marimba resonators]
-+++++M11 [violin massed off-string bowing]
-+++++M11 [viola massed off-string bowing]
+****(M2B [burst rattan on marimba resonators])
+++++(M11 [violin massed off-string bowing])
+++++(M11 [viola massed off-string bowing])
     (M14 [cello tremolo altissimo: ppp])
     (M5 [bass low tone])
 
@@ -236,7 +237,7 @@ ORCHESTRATION:
     (M6 [bass fl. quiet multiphonics] ==> M5 [bass fl ext quiet tone])
     ([bass clarinet ferocious multiphonics])
     ([baritone sax ferocious multiphonics])
-+++++[english horn: ferocious multiphonics]
+++++([english horn: ferocious multiphonics])
     (M14 [guitar shakers: fff])
     (M19 [piano lightning cadenza: very low: fffff]) 
     (M18 [china cymbal miasma: f])
@@ -261,7 +262,7 @@ ORCHESTRATION:
 
 
     [8] (intermittent windows of quiet materials shining through)
-*****M1 [piccolo upper-register prestissimo] + M19 [piccolo lightning]
+****(M1 [piccolo upper-register prestissimo] + M19 [piccolo lightning])
     (M5 [bass flute extremely quiet tone])
     (M6 [bass clarient extremely quiet multiphonics])
     (M6 [baritone saxophone extremely quiet multiphonics])

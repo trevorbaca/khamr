@@ -10,122 +10,86 @@
 
 materials: 3, 17, 5, 18, 5, 14, 19
 
-what comes before? one layer carries over from [C] into [D]:
+what comes before? one material (orchestrated with many layers) carries over
+from [C] into [D]:
 
     (M2A [seaweed guiro])
 
-what follows after? four layers carry over from [D] into [E]:
+M3 [dialoguing wind solos] is written into the structure of [B], [C], [D].
 
-    (M5 [extremely quiet low winds])
-    (M19 [piano lightning cadenza])
-    (M18 [china cymbal miasma])
-    (M14 [ppp altissimo string tremolo & fff shakers])
+M17 [snare roll] appears with M12 [massed string trills].
 
-M17 [snare roll] is written to occur only in [D].
+M17 [snare roll] transforms M3 [dialoguing wind solos] into M5 [extremely quiet
+low winds].
 
-foreshadow M17 [snare roll] before [D].
-
-M17 [snare roll] causes the transformation of M3 [dialoguing wind solos] into
-M5 [extremely quiet low winds].
-
-M11 [massed off-string bowing] or M12 [massed string trills] or both appear
-with M17 [snare roll] in [D]. 
+M5 [extremely quiet low winds] pervades [D].
 
 M18 [china cymbal miasma] is written into the structure of [B] and [D]. M18
-[china cymbal miasma] climaxes in [B] on the 22" cymbal. M18 [china cymbal
-miasma] climaxes in [D] on the 27" cymbal.
+[china cymbal miasma] climaxes on the 27" cymbal in [D].
 
-the dynamics of M17 [snare roll] and M18 [china cymbal miasma] have to be
-structured convincingly in [D].
+M17 [snare roll] and M18 [china cymbal miasma] must structure dynamics
+convincingly in [D].
 
-M18 [china cymbal miasma] pairs particularly well with M12 [massed string
-trills], M14 [electric string tremolo & shakers] and M20 [whirly tubes]. this
-implies that M18 [china cymbal miasma] in [D] continues right up into M14
-[electric string tremolo & shakers] in [D] because M14 [electric string tremolo
-& shakers] is written into the structure of [D]. this means it is possible that
-either M12 [massed string trills] or M20 [whirly tubes] or both may also be
-present in [D].
-
-it makes sense to include M12 [massed string trills] as a type of pervasive
-element throughout [D] because M12 [massed string trills] functions as a
-contrapuntal pairing to both M17 [snare roll] and M18 [china cymbal miasma].
-
-M11 [massed off-string bowing] need not appear with M17 [snare roll] because
-M12 [massed string trills] will appear with M17 [snare roll] instead.
+M12 [massed string trills] pervades [D].
 
 M20 [whirly tubes] appears with M18 [china cymbal miasma] in [D].
 
-M14 [electric string tremolo & shakers] is written into the structure of
-segments [A], [C], [D] and [E]. M14 [electric string tremolo & shakers]
-climaxes only in [D] and [E]. M14 [electric string tremolo & shakers] functions
-as a type of stripped-down foreshadowing in [A] and [C].
+M14 [electric string tremolo & shakers] is written into the structure of [A],
+[C], [D], [E]. M14 [electric string tremolo & shakers] climaxes in [D-E].
 
-the full scoring of M14 [electric string tremolo & shakers] features fff
-piccolo fluttertongue and struck tam-tam. both materials occur [D] and [E].
+M14 [electric string tremolo & shakers] is accompanied by piccolo fluttertongue
+and struck tam-tam in [D].
 
-M20 [whirly tubes] constitutes a strong pairing with M14 [electric string
-tremolo & shakers].
+M20 [whirly tubes] pair with M14 [electric string tremolo & shakers].
 
-M19 [piano lightning cadenza] is written into the structure of segments [A],
-[C] and [D]. M14 [electric string tremolo & shakers] and M19 [piano lightning
-cadenza] abut in [D] and work in counterpoint. 
-
-[D-E] houses the climax of M14 [electric string tremolo & shakers].
-
-[D-E] also houses the climax of M19 [piano lightning cadenza].
+M19 [piano lightning cadenza] is written into the structure of [A], [C], [D].
+M19 [piano lightning cadenza] climaxes in [E].
 
 M10 [tremoli fantastiques] follows M19 [piano lightning cadenza] in [A] and
-[C]. M10 [tremoli fantastiques] is bonded to M19 [piano lightning cadenza] in
-the piece.
-
-M19 [piano lightning cadenza] is accompanied by M10 [tremoli fantastiques] in
-[D] even though M10 [tremoli fantastiques] is not written into the structure of
-[D].
-
-the true climax of M19 [piano lightning cadenza] comes in [E]. the true climax
-of M19 [piano lightning cadenza] in [E] is accompanied by a saturated version
-of M7 [ferocious multiphonic complexes] even though M7 [ferocrious multiphonic
-complexes] is written into only the end of [B].
+[C]. M19 [piano lightning cadenza] is accompanied by M10 [tremoli fantastiques]
+in [D] even though M10 [tremoli fantastiques] is not written into the structure
+of [D].
 
 FIRST-ORDER STORYBOARD:
+materials: 3, 17, 5, 18, 5, 14, 19
 
     [1]
-++++M3 [dialoguing wind solos]
-....(M2a [(piano) seaweed guiro] (from [C]))
+++++(M3 [dialoguing wind solos])
+----(M2A [seaweed guiro] (from [C]))
 
     [2]
     (M3 [dialoguing wind solos])
 
     [3]
     (M3 [dialoguing wind solos])
-++++M12 [massed string trills]
+++++(M12 [massed string trills])
    
     [4]
     (M3 [dialoguing wind solos])
-++++M17 [snare roll]
+++++(M17 [snare roll])
     (M12 [massed string trills])
 
     [5]
-....(M3 [dialoguing wind solos])
-++++M5 [extremely quiet low winds]
+----(M3 [dialoguing wind solos])
+++++(M5 [extremely quiet low winds])
     (M17 [snare roll])
     (M12 [massed string trills])
 
     [6]
     (M5 [extremely quiet low winds])
     (M17 [snare roll])
-....(M12 [massed string trills])
+----(M12 [massed string trills])
 
     [7]
     (M5 [extremely quiet low winds])
-....(M17 [snare roll])
+----(M17 [snare roll])
 
     [8]
     (M5 [extremely quiet low winds])
 
     [9]
     (M5 [extremely quiet low winds])
-++++M18 [china cymbal miasma]
+++++(M18 [china cymbal miasma])
 
     [10]
     (M18 [china cymbal miasma])
@@ -133,28 +97,29 @@ FIRST-ORDER STORYBOARD:
     [11]
     (M5 [extremely quiet low winds])
     (M18 [china cymbal miasma])
-++++M14 [electric string tremolo & shakers] 
+++++(M14 [electric string tremolo & shakers])
 
     [12]
     (M5 [extremely quiet low winds])
-++++M19 [piano lightning cadenza]
+++++(M19 [piano lightning cadenza])
+++++(M10 [tremoli fantastiques])
     (M18 [china cymbal miasma])
     (M14 [electric string tremolo & shakers])
 
 ORCHESTRATION:
 
     [1]
-+++++M3 [bass flute dialoguing wind solos]
-+++++M3 [b-flat clarinet dialoguing wind solos]
-+++++M3 [barintone sax dialoguing wind solos]
-+++++M3 [english horn dialoguing wind solos]
-+++++S4 guitar sparse accompaniment accompaniment
-+++++M2a [seaweed guiro] (piano with wire brushes)
+++++(M3 [bass flute dialoguing wind solos])
+++++(M3 [b-flat clarinet dialoguing wind solos])
+++++(M3 [baritone sax dialoguing wind solos])
+++++(M3 [english horn dialoguing wind solos])
+    (M2A [guitar seaweed guiro])
+    (M2A [piano seaweed guiro])
     percussion: ???
-+++++M12 [violin massed trills]
-+++++M13 [viola massed trills]
-+++++M14 [cello massed trills]
-+++++M15 [bass massed trills]
+++++(M12 [violin massed trills: ppp])
+++++(M12 [viola massed trills: ppp])
+++++(M12 [cello massed trills: ppp])
+++++(M12 [bass massed trills: ppp])
 
 
     [2]
@@ -162,13 +127,13 @@ ORCHESTRATION:
     clarinet: ???
     saxophone: ???
     oboe: ???
-    S4 guitar sparse accompaniment accompaniment
-    M2A [seaweed guiro] (piano with wire brushes)
+    (M2A [guitar seaweed guiro])
+    (M2A [piano seaweed guiro])
     percussion: ???
     (M12 [violin massed trills: ppp])
-    (M13 [viola massed trills: ppp])
-    (M14 [cello massed trills: ppp])
-    (M15 [bass massed trills: ppp])
+    (M12 [viola massed trills: ppp])
+    (M12 [cello massed trills: ppp])
+    (M12 [bass massed trills: ppp])
 
 
     [3]
@@ -180,9 +145,9 @@ ORCHESTRATION:
     piano: ???
     percussion: ???
     (M12 [violin massed trills: ppp])
-    (M13 [viola massed trills: ppp])
-    (M14 [cello massed trills: ppp])
-    (M15 [bass massed trills: ppp])
+    (M12 [viola massed trills: ppp])
+    (M12 [cello massed trills: ppp])
+    (M12 [bass massed trills: ppp])
 
 
     [4]
@@ -192,11 +157,11 @@ ORCHESTRATION:
     (M3 [english horn dialoguing wind solos])
     guitar: ???
     piano: ???
-+++++M17 [snare roll: fff]
+++++(M17 [snare roll: fff])
     (M12 [violin massed trills: ppp])
-    (M13 [viola massed trills: ppp])
-    (M14 [cello massed trills: ppp])
-    (M15 [bass massed trills: ppp])
+    (M12 [viola massed trills: ppp])
+    (M12 [cello massed trills: ppp])
+    (M12 [bass massed trills: ppp])
 
 
     [5]
@@ -208,9 +173,9 @@ ORCHESTRATION:
     piano: ???
     (M17 [snare roll: fff])
     (M12 [violin massed trills: ppp])
-    (M13 [viola massed trills: ppp])
-    (M14 [cello massed trills: ppp])
-    (M15 [bass massed trills: ppp] ==> M5 [bass low tone])
+    (M12 [viola massed trills: ppp])
+    (M12 [cello massed trills: ppp])
+    (M12 [bass massed trills: ppp] ==> M5 [bass low tone])
 
 
     [6]
@@ -222,8 +187,8 @@ ORCHESTRATION:
     piano: ???
     (M17 [snare roll: fff])
     (M12 [violin massed trills: ppp] ==> niente)
-    (M13 [viola massed trills: ppp] ==> niente)
-    (M14 [cello massed trills: ppp] ==> niente)
+    (M12 [viola massed trills: ppp] ==> niente)
+    (M12 [cello massed trills: ppp] ==> niente)
     (M5 [bass low tone])
 
 
@@ -234,7 +199,7 @@ ORCHESTRATION:
     (M5 [english horn ext quiet low])
     guitar: ???
     piano: ???
-.....M17 [snare roll: fff]
+----(M17 [snare roll: fff])
     --
     --
     --
@@ -262,7 +227,7 @@ ORCHESTRATION:
     (M5 [english horn ext quiet low])
     --
     --
-+++++M18 [china cymbal miasma: ppp]
+++++(M18 [china cymbal miasma: ppp])
     --
     --
     --
@@ -284,28 +249,30 @@ ORCHESTRATION:
 
 
     [11]
-    (M5 [bass fl ext quiet low])
+++++(M14 [picc. fluttertongue acc. to string tremolo altissimo])
     (M5 [bass cl. ext quiet low])
     (M5 [bar. sax. ext quiet low])
     (M5 [english horn ext quiet low])
     --
     --
     (M18 [china cymbal miasma: ppp])
+++++(M14 [tam-tam acc. to string tremolo altissimo])
     --
     --
-++++M14 [cello tremolo altissimo: ppp]
+++++(M14 [cello tremolo altissimo: ppp])
     (M5 [bass low tone])
 
 
     [11]
-    (M5 [bass fl ext quiet low])
+    (M14 [picc. fluttertongue acc. to string tremolo altissimo])
     (M5 [bass cl. ext quiet low])
     (M5 [bar. sax. ext quiet low])
     (M5 [english horn ext quiet low])
     --
-+++++M19 [piano lightning cadenza: stopped: relatively sparse]
+++++(M19 [piano lightning cadenza: stopped: relatively sparse])
     (M18 [china cymbal miasma: pp])
-    --
-    --
-++++M14 [cello tremolo altissimo: ppp]
+    (M14 [tam-tam acc. to string tremolo altissimo])
+++++(M10 [violin tremoli fantastiques acc. to M19])
+++++(M10 [viola tremoli fantastiques acc. to M19])
+    (M14 [cello tremolo altissimo: ppp])
     (M5 [bass low tone])
