@@ -181,8 +181,8 @@ ORCHESTRATION:
     [6]
     (M5 [bass fl ext quiet low])
     (M5 [bass cl. ext quiet low])
-    (M5 [bar. sax. ext quiet low])
-    (M5 [english horn ext quiet low])
+    (M5 [bar. sax. ext quiet low] ==> AUX [bar. sax. air tone])
+    (AUX [english horn air tone])
     (AUX [guitar clicks])
     (AUX [piano clicks])
     (M17 [snare roll: fff])
@@ -193,10 +193,10 @@ ORCHESTRATION:
 
 
     [7]
-    (M5 [bass fl ext quiet low])
+    (M5 [bass fl ext quiet low] ==> AUX [bass flute air tone])
     (M5 [bass cl. ext quiet low])
-    (M5 [bar. sax. ext quiet low])
-    (M5 [english horn ext quiet low])
+    (AUX [bar. sax. air tone])
+    (AUX [english horn air tone])
     (AUX [guitar clicks])
     (AUX [piano clicks])
 ----(M17 [snare roll: fff])
@@ -207,10 +207,10 @@ ORCHESTRATION:
 
 
     [8]
-    (M5 [bass fl ext quiet low])
+    (AUX [bass flute air tone])
     (M5 [bass cl. ext quiet low])
-    (M5 [bar. sax. ext quiet low])
-    (M5 [english horn ext quiet low])
+    (AUX [bar. sax. air tone])
+    (AUX [english horn air tone])
     (AUX [guitar clicks])
     (AUX [piano clicks])
 ----(M17 [snare roll: fff])
@@ -221,54 +221,54 @@ ORCHESTRATION:
 
 
     [9]
-    (M5 [bass fl ext quiet low])
-    (M5 [bass cl. ext quiet low])
-    (M5 [bar. sax. ext quiet low])
-    (M5 [english horn ext quiet low])
-    --
-    --
+    (AUX [bass flute air tone])
+    (M5 [bass cl. ext quiet low] ==> AUX [bass clarinet air tone])
+    (AUX [bar. sax. air tone])
+    (AUX [english horn air tone])
+    (AUX [guitar clicks])
+    (AUX [piano clicks])
 ++++(M18 [china cymbal miasma: ppp])
-    --
-    --
-    --
-    (M5 [bass low tone])
+    (AUX [violin OB])
+    (AUX [viola OB])
+    (AUX [cello OB])
+    (M5 [bass low tone] ==> AUX [bass OB])
 
 
     [10]
-    --
-    --
-    --
-    --
-    --
-    --
+    (AUX [bass flute air tone])
+    (AUX [bass clarinet air tone])
+    (AUX [bar. sax. air tone])
+    (AUX [english horn air tone])
+    (AUX [guitar clicks])
+    (AUX [piano clicks])
     (M18 [china cymbal miasma: ppp])
-    --
-    --
-    --
-    (M5 [bass low tone])
+    (AUX [violin OB])
+    (AUX [viola OB])
+    (AUX [cello OB])
+    (AUX [bass OB])
 
 
     [11]
 ++++(M14 [picc. fluttertongue acc. to string tremolo altissimo])
-    (M5 [bass cl. ext quiet low])
-    (M5 [bar. sax. ext quiet low])
-    (M5 [english horn ext quiet low])
-    --
-    --
+    (AUX [bass clarinet air tone] ==> M5 [bass cl. ext quiet low])
+    (AUX [bar. sax. air tone] ==> M5 [bar. sax. ext quiet low])
+    (AUX [english horn air tone])
+    (AUX [guitar clicks])
+    (AUX [piano clicks])
     (M18 [china cymbal miasma: ppp])
 ++++(M14 [tam-tam acc. to string tremolo altissimo])
-    --
-    --
+    (AUX [violin OB])
+    (AUX [viola OB])
 ++++(M14 [cello tremolo altissimo: ppp])
-    (M5 [bass low tone])
+    (AUX [bass OB] ==> M5 [bass low tone])
 
 
-    [11]
+    [12]
     (M14 [picc. fluttertongue acc. to string tremolo altissimo])
     (M5 [bass cl. ext quiet low])
     (M5 [bar. sax. ext quiet low])
-    (M5 [english horn ext quiet low])
-    --
+    (AUX [english horn air tone])
+    (AUX [guitar clicks])
 ++++(M19 [piano lightning cadenza: stopped: relatively sparse])
     (M18 [china cymbal miasma: pp])
     (M14 [tam-tam acc. to string tremolo altissimo])
