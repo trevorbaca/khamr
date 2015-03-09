@@ -89,7 +89,7 @@ ORCHESTRATION:
     (AUX [piano clicks])
     (M15 [woodblock underspine])
     (M18 [china cymbal miasma: niente < p < mf > p < mf]
-    (P [30" tam-tam acc. to china cymbal])
+    (M18 [30" tam-tam acc. to china cymbal])
     (M10 [violin tremoli fantastiques] ==> M12 [violin massed trills: climax])
     (M16 [viola extremely long string tremolo descent])
     (M10 [viola tremoli fantastiques] ==> M12 [viola massed trills: climax])
@@ -98,7 +98,7 @@ ORCHESTRATION:
 
 
     [2]
-    (M3 [bass fl. solos] ==> M9 [bass fl. sostenuti fantastiques])
+    (M3 [bass fl. solos] ==> niente)
     (M3 [bass cl. solos] ==> M9 [bass cl. sostenuti fantastiques])
     (M3 [baritone sax solos] ==> M9 [baritone sax sostenuti fanastiques])
     (M3 [eng. horn solos] ==> M9 [eng. horn air tone sotenuti fantastiques])
@@ -106,7 +106,7 @@ ORCHESTRATION:
     (AUX [piano clicks])
     (M15 [woodblock underspine])
     (M18 [china cymbal miasma: mf < f > mf < f > mf < f])
-    (P [30" tam-tam acc. to china cymbal])
+    (M18 [30" tam-tam acc. to china cymbal])
     (M12 [violin massed trills: climax] ==> M9 [violin sostenuti fantastiques])
     (M12 [viola massed trills: climax] ==> M9 [viola sostenuti fantastiques])
     (M12 [cello massed trills: climax] ==> M9 [cello sostenuti fantastiques])
@@ -117,16 +117,16 @@ ORCHESTRATION:
 
 
     [3]
-    (M9 [bass fl. sostenuti fantastiques])
+    (niente ==> M19 [piccolo flutt. acc to piano lightning cadenza])
     (M9 [bass cl. sost. fant.] ==> M7 [bass cl. ferocious multi.: climax])
     (M9 [bar. sax. sost. fant.] ==> M7 [bar. sax. ferocious multi.: climax])
     (M9 [english horn air tone sost.] ==> M7 [english horn fer. mult: climax])
-    (AUX [guitar clicks])
-    (AUX [piano clicks])
+    (AUX [guitar clicks] ==> M19 [guitar mandolin line acc. to cadenza])
+    (AUX [piano clicks] ==> M19 [piano lightning cadenza])
     (M15 [woodblock underspine])
     (M18 [china cymbal miasma: f < ff > f < ff > f < ff]
-    (P [30" tam-tam acc. to china cymbal])
-    (M9 [violin sostenuti fantastiques])
+    (M18 [30" tam-tam acc. to china cymbal])
+    (M9 [violin sostenuti fantastiques] ==> M19 [violin mandolin acc. to cad.])
     (M9 [viola sostenuti fantastiques])
     (M9 [cello sostenuti fantastiques])
     (M16 [contrabass extremely long string tremolo descent])
