@@ -15,78 +15,41 @@ what comes before? four different layers carry over from [D] into [E]:
     (M5 [extremely quiet low winds])
     (M19 [piano lightning cadenza])
     (M18 [china cymbal miasma])
-    (M14 [ppp altissimo string tremolo & fff shakers])
+    (M14 [ppp altissimo string tremolo])
 
-the version of M14 [ppp altissimo string tremolo & fff shakers] that occurs at
-the end of [D] and the beginning of [E] is does not yet include string tremolo.
+M2B [burst guiro] marks the beginning of [E]. M2B [burst guiro] is orchestrated
+as jarring fff rattan across the resonators of the marimba. the percussionist
+will momentarily have to stop playing M18 [china cymbal miasma] in order to
+grab rattan and run it against the marimba. M2B [burst guiro] spawns a texture
+of smaller guiro bursts throughout the ensemble both before and after the
+appearance of the fff rattan. percussionist returns to the 27" china cymbal
+after running rattan against the marimba.
 
-M2B [burst guiro] marks the beginning of [E]. M2B [burst guiro] here at the
-beginning of [E] is orchestrated as jarring fff rattan across the resonators of
-the marimba. the percussionist will momentarily have to stop playing M18 [china
-cymbal miasma] in order to grab rattan and run it against the marimba. it's
-also possible that the jarring fff rattan spawns a texture of smaller guiro
-bursts throughout the ensemble both before and after the appearance of the fff
-rattan. the percussionist can return to the china cymbals after running rattan
-against the marimba.
-
-it may turn out to be that the piece features a sustained but shifting climax
-that begins in [D] and continues through almost all of [E].
-
-M11 [massed off-string bowing] is written into the structure of only [E]. the
-material will not assert over the dynamics of M18 [china cymbal miasma] or M14
-[ppp altissimo string tremolo & fff shakers]. although it's possible that M11
-[massed off-string bowing] will pair incredibly well with the M19 [piano
-lightning cadenza]. so perhaps M11 [massed off-string bowing] is a type of foam
-used in relief of M19 [piano lightning cadenza].
+M11 [massed off-string bowing] is written into the structure of only [E]. M11
+[massed off-string bowing] is a type of foam used in relief of M19 [piano
+lightning cadenza].
 
 the orchestration of M14 [ppp altissimo string tremolo & fff shakers] that
-climaxes in [E] uses only ppp altissimo string tremolo rather than fff
-altissimo string tremolo. M14 [ppp altissimo string tremolo & fff shakers]
-combines extremely well with M1 [upper-register prestissimo], M18 [china cymbal
-miasma], M19 [piano lightning cadenza] and M20 [whirly tubes]. M18 [china
-cymbal miasma] and M19 [piano lightning cadenza] are already present and
-climaxing at the start of [E]. and M1 [upper-register prestissimo] is specified
-as the last material in the piece. so perhaps M1 [upper-register prestissimo]
-adds into [E] at the moment when M14 [ppp altissimo string tremolo & fff
-shakers] begins. it's also clear that the climaxing of M18 [china cymbal
-miasma] is actually a composite with loudly struck tam-tam. the tam-tam will
-complete the spectral space opened by the other materials.
+climaxes in [E] uses ppp altissimo string tremolo rather fff altissimo string
+tremolo. M14 [ppp altissimo string tremolo & fff shakers] combines extremely
+well with M1 [upper-register prestissimo], M18 [china cymbal miasma], M19
+[piano lightning cadenza] and M20 [whirly tubes].
 
-M6 [quiet multiphonic complexes] will manifest as a single b-flat clarinet
-multiphonic used as a type of background color pedal behind the activity of the
-layered climaxes. it's possible that a lingering version of the quiet clarinet
-multiphonic appears after the layered climaxes subside. which may suggest an
-ending sequence for the entire piece. if so then there's a dramatic version of
-M6 [quiet multiphonic complexes] that layers in quiet multiphonics in the bass
-flute, bass clarinet and baritone sax all at ppp.  
+M18 [china cymbal miasma] climaxes together with with loudly struck tam-tam.
 
-M2A [seaweed guiro] is written into the structure at the end of [C] and at the
-end of [E]. the appearance of M2A [seaweed guiro] at the end of [C] is fully
-orchestrated. the appearance of M2A [seaweed guiro] at the end of [E] is much
-more lightly orchestrated. the appearance of M2A [seaweed guiro] at the end of
-[E] calls the appearance of M2a [seaweed guiro] at the end of [C] in only a
-dreamlike way.
+M2A [seaweed guiro] is written into the structure of [C] and [E]. M2A [seaweed
+guiro] is fully orchestrated in [C]. M2A [seaweed guiro] in [E] recalls the M2A
+[seaweed guiro] in a dreamlike way.
 
-M5 [extremely quiet low winds] and M1 [upper-register prestissimo] are both
-written into the end of the piece. this means that the piece has the option of
-ending with only the very high, with only the very low or with both the very
-high and the very low together.
+M6 [quiet multiphonic complexes] becomes M5 [extremely quiet low winds] in [E]
+through a process of decreasing multiphonic content and increasing pure pitch
+content.
 
-M6 [quiet multiphonic complexes] becomes M5 [extremely quiet low winds] through
-a process of decreasing multiphonic content and increasing pure pitch content.
-
-SUMMARY. [E] internally varies a single saturated color composite sustained
-until the end with only a daub of celestial color added as a finishing stroke.
-the composite color yokes four materials together: M7 [ferocious multiphonic
-complexes] + M19 [piano lightning cadenza: very low & very loud] + M18 [china
-cymbal miasma: maximum] + M14 [ppp altissimo string tremolo & fff shakers].
-
-END OF [D]:
-
-    (M5 [extremely quiet low winds])
-    (M19 [piano lightning cadenza])
-    (M18 [china cymbal miasma])
-    (M14 [ppp altissimo string tremolo & fff shakers])
+SUMMARY. [E] internally varies a single saturated composite sustained until the
+end. the composite color yokes four materials together: M7 [ferocious
+multiphonic complexes] + M19 [piano lightning cadenza: very low & very loud] +
+M18 [china cymbal miasma: maximum] + M14 [ppp altissimo string tremolo & fff
+shakers].
 
 FIRST-ORDER STORYBOARD:
 materials: 2B, 11, 14, 6, 2A, 5, 1
@@ -150,11 +113,11 @@ materials: 2B, 11, 14, 6, 2A, 5, 1
     [9]
 ****(M1 [upper-register prestissimo])
 ****(M2A [seaweed guiro])
-----(M5 [extremely quiet low winds])
-----(M6 [extremely quiet multiphonics])
-----(M19 [piano lightning cadenza: very high: maximum])
-----(M18 [china cymbal miasma: fff > p < fff > p < fff])
-----(M14 [ppp altissimo string tremolo & fff shakers: maximum])
+    (M5 [extremely quiet low winds])
+    (M6 [extremely quiet multiphonics])
+    (M19 [piano lightning cadenza: very high: maximum])
+    (M18 [china cymbal miasma: fff > p < fff > p < fff])
+    (M14 [ppp altissimo string tremolo & fff shakers: maximum])
 
 ORCHESTRATION:
 
@@ -162,8 +125,8 @@ ORCHESTRATION:
     materials and allow the quieter materials intermittently to shine
     through.
 
-    [1] (intermittent windows of quiet materials shining through)
-    (M5 [bass flute low tone] + M6 [bass flute quiet multiphonics])
+    [1]
+    (M14 [picc. fluttertongue acc. to string tremolo altissimo])
     (M5 [bass clar. low tone] + M6 [bass clar. quiet multiphonics])
     (M5 [baritone sax low tone] + M6 [baritone sax quiet multiphonics])
 ++++(M2B [english horn quick guiro strokes])
@@ -171,14 +134,15 @@ ORCHESTRATION:
     (M19 [piano lightning cadenza: upper register]) 
     (M18 [china cymbal miasma: p])
 ****(M2B [burst rattan on marimba resonators])
-++++(M11 [violin massed off-string bowing])
-++++(M11 [viola massed off-string bowing])
+    (M10 [violin tremoli fant.] ==> M11 [violin massed off-string bowing])
+    (M10 [viola tremoli fant.] ==> M11 [viola massed off-string bowing])
     (M14 [cello tremolo altissimo: ppp])
     (M5 [bass low tone])
+    * intermittent windows of quiet materials shining through.
 
 
-    [2] (intermittent windows of quiet materials shining through)
-    (M5 [bass flute low tone] + M6 [bass flute quiet multiphonics])
+    [2]
+    (M14 [picc. fluttertongue acc. to string tremolo altissimo])
     (M5 [bass clar. low tone] + M6 [bass clar. quiet multiphonics])
     (M5 [baritone sax low tone] + M6 [baritone sax quiet multiphonics])
     (M2B [english horn quick guiro strokes: sparser])
@@ -189,10 +153,11 @@ ORCHESTRATION:
     (M11 [viola massed off-string bowing])
     (M14 [cello ppp altissimo string tremolo])
     (M5 [bass low tone])
+    * intermittent windows of quiet materials shining through.
 
 
-    [3] (intermittent windows of quiet materials shining through)
-    (M6 [bass flute quiet multiphonics])
+    [3]
+    (M14 [picc. fluttertongue acc. to string tremolo altissimo])
     (M6 [bass clar. quiet multiphonics])
     (M6 [baritone sax quiet multiphonics])
     (M2B [english horn quick guiro strokes: even sparser])
@@ -200,27 +165,29 @@ ORCHESTRATION:
     (M19 [piano lightning cadenza: upper register]) 
     (M18 [china cymbal miasma: mf])
     (M11 [violin massed off-string bowing])
-    (M11 [viola massed off-string bowing])
+----(M11 [viola massed off-string bowing])
     (M14 [cello ppp altissimo string tremolo])
     (M5 [bass low tone: pp] ==> M7 [bass low tone: fff)
+    * intermittent windows of quiet materials shining through.
 
 
-    [4] (intermittent windows of quiet materials shining through)
-    (M6 [bass fl. quiet multiphonics])
+    [4]
+    (M14 [picc. fluttertongue acc. to string tremolo altissimo])
     (M6 [bass cl. quiet multiphonics] ==> M7 [bass cl. ferocious multi.])
     (M6 [bar. sax quiet multiphonics] ==> M7 [bar. sax ferocious multi.])
     (M2B [english horn quick guiro strokes: even sparser still])
     (M14 [guitar shakers: fff])
     (M19 [piano lightning cadenza: upper register]) 
     (M18 [china cymbal miasma: f])
-    (M14 [violin shakers: fff])
+----(M11 [violin massed off-string bowing])
     (M14 [viola shakers: fff])
     (M14 [cello ppp altissimo string tremolo])
     (M7 [bass low tone: fff])
+    * intermittent windows of quiet materials shining through.
 
 
-    [5] (intermittent windows of quiet materials shining through)
-    (M6 [bass fl. quiet multiphonics])
+    [5]
+    (M14 [picc. fluttertongue acc. to string tremolo altissimo])
     (M6 [bass cl. quiet multiphonics] ==> M7 [bass cl. ferocious multi.])
     (M6 [bar. sax quiet multiphonics] ==> M7 [bar. sax ferocious multi.])
     (M2B [english horn quick guiro strokes: sparser to niente])
@@ -231,53 +198,57 @@ ORCHESTRATION:
     (M14 [viola shakers: fff])
     (M14 [cello ppp altissimo string tremolo])
     (M7 [bass low tone: fff])
+    * intermittent windows of quiet materials shining through.
 
 
-    [6] (intermittent windows of quiet materials shining through)
-    (M6 [bass fl. quiet multiphonics] ==> M5 [bass fl ext quiet tone])
+    [6]
+    (M14 [picc. fluttertongue acc. to string tremolo altissimo])
     ([bass clarinet ferocious multiphonics])
     ([baritone sax ferocious multiphonics])
 ++++([english horn: ferocious multiphonics])
     (M14 [guitar shakers: fff])
     (M19 [piano lightning cadenza: very low: fffff]) 
-    (M18 [china cymbal miasma: f])
+    (M18 [china cymbal miasma: ff])
     (M14 [violin shakers: fff])
     (M14 [viola shakers: fff])
     (M14 [cello ppp altissimo string tremolo])
     (M7 [bass low tone: fff])
+    * intermittent windows of quiet materials shining through.
 
 
-    [7] (intermittent windows of quiet materials shining through)
-    (M5 [bass flute extremely quiet tone])
+    [7]
+    (M14+M1+M19+M7 [picc. fluttertongue])
     (M7 [bass cl. ferocious multi.] ==> M6 [bass cl quiet multi.])
     (M7 [bar. sax. ferocious multi.] ==> M6 [bar. sax. quiet multi.])
     (M7 [english horn: ferocious multiphonics])
-    (M14 [guitar shakers: fff])
+++++(M2A [guitar seaweed guiro])
     (M19 [piano lightning cadenza: rising]) 
     (M18 [china cymbal miasma: fff])
     (M14 [violin shakers: fff])
     (M14 [viola shakers: fff])
     (M14 [cello ppp altissimo string tremolo])
     (M7 [bass low tone: fff] ==> M6 [bass low tone: pp])
+    * intermittent windows of quiet materials shining through.
 
 
-    [8] (intermittent windows of quiet materials shining through)
-****(M1 [piccolo upper-register prestissimo] + M19 [piccolo lightning])
+    [8]
+    (M14+M1+M19+M7 [picc. fluttertongue])
     (M5 [bass flute extremely quiet tone])
     (M6 [bass clarient extremely quiet multiphonics])
     (M6 [baritone saxophone extremely quiet multiphonics])
     (M7 [english horn: ferocious multiphonics])
-    (M14 [guitar shakers: fff])
+----(M2A [guitar seaweed guiro])
     (M19 [piano lightning cadenza: very high: fffff]) 
     (M18 [china cymbal miasma: fff])
     (M14 [violin shakers: fff])
     (M14 [viola shakers: fff])
     (M14 [cello ppp altissimo string tremolo])
     (M6 [bass low tone: pp])
+    * intermittent windows of quiet materials shining through.
 
 
-    [9] (intermittent windows of quiet materials shining through)
-    (M1 [piccolo upper-register prestissimo] + M19 [piccolo lightning])
+    [9]
+    (M14+M1+M19+M7 [picc. fluttertongue])
     (M6 [bass clarient extremely quiet multiphonics])
     (M6 [baritone saxophone extremely quiet multiphonics])
     (M7 [english horn: ferocious multiphonics])
@@ -288,3 +259,4 @@ ORCHESTRATION:
     (M14 [viola shakers: fff])
     (M14 [cello ppp altissimo string tremolo])
     (M6 [bass low tone: pp])
+    * intermittent windows of quiet materials shining through.
