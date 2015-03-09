@@ -1,47 +1,30 @@
 AUXILIARY PERCUSSION:
 
     triangles
-    scraped almglocken
     castanets
-    woodblocks
     guiros
     shakers
     whirly tubes
-    (tibetan bowl)
 
 PERCUSSION SUBSETS:
     
     triangle
-    scraped almglocken
-    tibetan bowls
-
-    scraped almglocken
-    tibetan bowls
-    whirly tubes
-    (groaned or rolled) bass drum
-    (large or very large) tam-tam
-    pedal point marimba
-
-    scraped almglocken
-    pedal point marimba
-
-    triangle
     pedal point marimba
 
     castanets
     pedal point marimba
 
     triangle
-    brushed (large or very large) tam-tam
+    brushed tam-tam
 
     shakers
-    brushed (large or very large) tam-tam
+    brushed tam-tam
 
     shakers
-    guiro(s)
+    guiros
 
     castanets
-    brushed (large or very large) tam-tam
+    brushed tam-tam
 
     triangle
     (groaned or rolled) bass drum
@@ -52,22 +35,11 @@ PERCUSSION SUBSETS:
     scaped almglocken
     (groaned or rolled) bass drum
 
-    triangle
-    tibetan bowls
-    whirly tubes
-    (groaned or rolled) bass drum
-
-    castanets
-    all cymbals
-
-    shakers
-    all cymbals
-
     castanets
     rolled snare
 
     shakers
     rolled snare
 
-    guiro(s)
+    guiros
     rolled snare
