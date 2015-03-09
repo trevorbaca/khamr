@@ -18,57 +18,36 @@ what comes before? five layers carry over from [A] into [B]:
     (M10 [tremoli fantastiques] ==> M12 [massed string trills])
     (M4 [contrabass halo])
 
-M12 [massed string trills] is written to occur as a primary material only in
-[B]. (though M12 [massed string trills] cooccurs with materials in the opening
-stages of [D].) M12 [massed string trills] maximizes in [B]. M12 [massed string
-trills] is incredibly quiet in [B]. M12 [massed string trills] is a type of
-massed backdrop in [B]. M12 [massed string trills] goes on much longer than a
-backdrop would be expected to last. M12 [massed string trills] expresses
-noticeable dynamic enveloping. dynamic enveloping starts with M10 [tremoli
-fantastiques] at the end of [A] and continues into M12 [massed string trills]
-at the start of [B]. M12 [massed string trills] in [B] expresses two or three
-of the time techniques.
+M12 [massed string trills] is written into [B]. (M12 [massed string trills]
+cooccurs with materials in the opening stages of [D].) M12 [massed string
+trills] climaxes in [B]. M12 [massed string trills] expresses noticeable
+dynamic enveloping. dynamic enveloping starts with M10 [tremoli fantastiques]
+at the end of [A] and continues into M12 [massed string trills] at the start of
+[B]. M12 [massed string trills] in [B] effects two or three time techniques.
 
-M4 [contrabass halo] occurs in [A], [B] and [C]. M4 [contrabass halo] in [B]
-continues the independent layer established in [A] and prolonged into [C].
+M4 [contrabass halo] is written into [A], [B], [C]. M4 [contrabass halo] in [B]
+continues M4 [contrabass halo] in [A].
 
-M18 [china cymbal miasma] is written into [B] and [D]. M18 [china cymbal
-miasma] climaxes a first time on the 22" cymbal in [B] and a second time on the
-27" cymbal in [D]. M18 [china cymbal miasma] glues together with the other
-three materials already present in [B].
+M18 [china cymbal miasma] is written into [B], [D]. M18 [china cymbal miasma]
+climaxes on the 22" cymbal in [B].
 
 M12 [massed string trills], M4 [contrabass halo], M3 [dialoguing wind solos]
-and M18 [china cymbal miasma] glue together near or at the beginning of [B] as
-a type of almost-full-ensemble amalgam.
+and M18 [china cymbal miasma] glue together at the beginning of [B] as a
+full-ensemble amalgam.
 
-the presence of M9 [sostenuti fantastiques] in [B] after both M12 [massed
-string trills] and M3 [dialoguing wind solos] suggests that either M12 [massed
-string trills] or M3 [dialoguing wind solos] or both undergo a process of
-interpolation and become M9 [sostenuti fantastiques]. do such processes of
-interpolation necessarily effect a reduction of energy? not necessarily.
-because the transition from a greater number of attacks to a lesser number of
-attacks may be offset by a corresponding increase in dynamics.
+M12 [massed string trills] becomes M9 [sostenuti fantastiques] in [B]. M12
+[massed string trills] increases dynamics during the transition to M9
+[sostenuti fantastiques] to avoid losing energy.
 
-this also means that there's a natural change in the disposition of materials
-by the time M9 [sostenuti fantastiques] are fully in effect. which other
-materials from [B] carry over into the M9 [sostenuti fantastiques]? conceivably
-any of the previous four materials in [B] may carry over into M9 [sostenuti
-fantastiques]. the limitation is that at least some of the strings in M12
-[massed string trills] or some of the winds in M3 [dialoguing wind solos] or
-some of both the strings and the winds will have to drop out of the previous
-material and join M9 [sostenuti fantastiques]. so the option is available to
-have all five of the first materials in [B] continue to be in effect by the
-arrival of M9 [sostenuti fantastiques]. and that may be an effective way to
-allow each of the materials more time to work their magic.
+M3 [dialoguing wind solos] becomes M9 [sostenuti fantastiques] in [B]. M3
+[dialoguing wind solos] increases dynamics during the transition to M9
+[sostenuti fantastiques] to avoid losing energy.
 
-M7 [ferocious multiphonic complexes] is written to appear only at the end of
-[B]. so if M7 [ferocious multiphonic complexes] wants to climax then it will
-happen at the end of [B] and possibly carry over into the start of [C]. M3
-[dialoguing wind solos] transitions to become M7 [ferocious multiphonic
-complexes] during [B].
+M3 [dialoguing wind solos] becomes M7 [ferocious multiphonic complexes] in [B].
 
-M18 [china cymbal miasma] and M7 [ferocious multiphonic complexes] both climax
-in [B].
+M7 [ferocious multiphonic complexes] is written into [B]. M7 [ferocious
+multiphonic complexes] climaxes in [B]. (M7 [ferocious multiphonic complexes]
+also appears at the end of the piece.)
 
 FIRST-ORDER STORYBOARD:
 materials: 12, 4, 3, 18, 9, 4, 7
@@ -102,19 +81,20 @@ materials: 12, 4, 3, 18, 9, 4, 7
 ORCHESTRATION:
 
     [1]
-    (M6 [bass flute quiet multiphonics] ==> M3 [bass fl. solos])
+    (M10 [bass fl. tremoli fantastiques] ==> M3 [bass fl. solos])
     (M6 [bass clarinet quiet multiphonics] ==> M3 [bass cl. solos])
     (M6 [baritone sax quiet multiphonics] ==> M3 [baritone sax solos])
     (M6 [english horn quiet multiphonics] ==> M3 [eng. horn solos])
     (M8 [guitar pizzicati fantastiques] ==> niente; AUX [guitar clicks])
-    (AUX [piano clicks on low string with credit card])
+    (AUX [piano clicks])
     (M15 [woodblock underspine])
     (M18 [china cymbal miasma: niente < p < mf > p < mf]
-    (M10 [violin tremoli fantastiques] ==> M12 [violin massed trills])
+    (P [30" tam-tam acc. to china cymbal])
+    (M10 [violin tremoli fantastiques] ==> M12 [violin massed trills: climax])
     (M16 [viola extremely long string tremolo descent])
-    (M10 [viola tremoli fantastiques] ==> M12 [viola massed trills])
-    (M10 [cello tremoli fantastiques] ==> M12 [cello massed trills])
-    (M4 [contrabass halo])
+    (M10 [viola tremoli fantastiques] ==> M12 [viola massed trills: climax])
+    (M10 [cello tremoli fantastiques] ==> M12 [cello massed trills: climax])
+    (M4 [contrabass halo] + M10 [bass tremoli] ==> M12 [bass trills: climax])
 
 
     [2]
@@ -126,26 +106,30 @@ ORCHESTRATION:
     (AUX [piano clicks])
     (M15 [woodblock underspine])
     (M18 [china cymbal miasma: mf < f > mf < f > mf < f])
-    (M12 [violin massed trills] ==> M9 [violin sostenuti fantastiques])
-    (M12 [viola massed trills] ==> M9 [viola sostenuti fantastiques])
-    (M12 [cello massed trills] ==> M9 [cello sostenuti fantastiques])
+    (P [30" tam-tam acc. to china cymbal])
+    (M12 [violin massed trills: climax] ==> M9 [violin sostenuti fantastiques])
+    (M12 [viola massed trills: climax] ==> M9 [viola sostenuti fantastiques])
+    (M12 [cello massed trills: climax] ==> M9 [cello sostenuti fantastiques])
     (M16 [cello extremely long string tremolo descent])
-    (M4 [contrabass halo])
+    (M4 [contrabass halo] + M12 [bass trills: climax] ==> M9 [bass sost.])
+    * increase dynamics during M3 ==> M9 to preserve energy.
+    * increase dynamics during M12 ==> M9 to preserve energy.
 
 
     [3]
     (M9 [bass fl. sostenuti fantastiques])
-    (M9 [bass cl. sostenuti fant.] ==> M7 [bass cl. ferocious multi.])
-    (M9 [baritone sax sostenuti fant.] ==> M7 [baritone sax ferocious multi.])
-    (M9 [english horn ferocious multiphonic complexes])
+    (M9 [bass cl. sost. fant.] ==> M7 [bass cl. ferocious multi.: climax])
+    (M9 [bar. sax. sost. fant.] ==> M7 [bar. sax. ferocious multi.: climax])
+    (M9 [english horn air tone sost.] ==> M7 [english horn fer. mult: climax])
     (AUX [guitar clicks])
     (AUX [piano clicks])
     (M15 [woodblock underspine])
     (M18 [china cymbal miasma: f < ff > f < ff > f < ff]
+    (P [30" tam-tam acc. to china cymbal])
     (M9 [violin sostenuti fantastiques])
     (M9 [viola sostenuti fantastiques])
     (M9 [cello sostenuti fantastiques])
     (M16 [contrabass extremely long string tremolo descent])
-    (M4 [contrabass halo])
+    (M4 [contrabass halo] + M9 [bass sostenuti fantastiques])
 
 [B] ends in a field of densely saturated color.

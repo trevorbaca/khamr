@@ -10,31 +10,29 @@
 
 materials: 8, 14, 4, 5, 19, 10, 6
 
-M8 [pizzicati fantastiques] is written into the structure of only [A]. M8
-[pizzicati fantastiques] climaxes in [A].
+M8 [pizzicati fantastiques] is written into [A]. M8 [pizzicati fantastiques]
+climaxes in [A].
 
 M16 [extremely long string tremolo descent] begins in [A]. M16 [extremely long
 string tremolo descent] ends at the start of [C].
 
-M4 [contrabass halo] is written into the structure of [A], [B], [C]. M4
-[contrabass halo] ends at the start of [C]. M4 [contrabass halo] beaves as an
-independent layer.
+M4 [contrabass halo] is written into [A], [B], [C]. M4 [contrabass halo] ends
+at the start of [C]. M4 [contrabass halo] beaves as an independent layer.
 
-M5 [extremely quiet low winds] is written into the structure of [A], [D], [E].
-M5 [extremely quiet low winds] in [A] privileges major and perfect intervals to
-forestall any affect of the sinister.
+M5 [extremely quiet low winds] is written into [A], [D], [E]. M5 [extremely
+quiet low winds] in [A] privileges major and perfect intervals to forestall any
+affect of the sinister.
 
-M19 [piano lightning cadenza] is written into the structure of [A], [C], [D].
-M19 [piano lightning cadenza] in [A] foreshadows M19 [piano lightning cadenza]
-in [C] and [D]. M19 [piano lightning cadenza] in [A] emerges from M8 [pizzicati
+M19 [piano lightning cadenza] is written into [A], [C], [D]. M19 [piano
+lightning cadenza] in [A] foreshadows M19 [piano lightning cadenza] in [C] and
+[D]. M19 [piano lightning cadenza] in [A] emerges from M8 [pizzicati
 fantastiques].
 
-M10 [tremoli fantastiques] is written into the structure of [A], [C]. M19
-[piano lightning cadenza] and M10 [tremoli fantastiques] are bound together in
-the piece.
+M10 [tremoli fantastiques] is written into [A], [C]. M19 [piano lightning
+cadenza] and M10 [tremoli fantastiques] are bound together in the piece.
 
-M6 [quiet multiphonic complexes] is written into the structure of [A], [E]. M6
-[quiet multiphonic complexes] never climaxes.
+M6 [quiet multiphonic complexes] is written into [A], [E]. M6 [quiet
+multiphonic complexes] never climaxes.
 
 M5 [extremely quiet low winds] and M6 [quiet multiphonic complexes] merge into
 a composite during [A].
@@ -107,9 +105,9 @@ ORCHESTRATION:
     (M4 [bass clarinet accompaniment to contrabass halo: niente < p])
     (M4 [baritone sax accompaniment to contrabass halo: niente < p])
     (P [oboe sparse triangle])
-    (P [guitar low note doubling of tam-tam])
-    (P [piano low note doubling of tam-tam])
-    (P [struck tam-tam: mp])
+    (P [guitar low note doubling of 38" tam-tam])
+    (P [piano low note doubling of 38" tam-tam])
+    (P [struck 38" tam-tam: mp])
     (M4 [violin accompaniment to contrabass halo: niente < p])
     (M4 [viola accompaniment to contrabass halo: niente < p])
     (M4 [cello accompaniment to contrabass halo: niente < p])
@@ -122,9 +120,9 @@ ORCHESTRATION:
     (M4 [baritone sax halo acc.] ==> M5 [baritone sax ext. quiet low tone])
     (M8 [oboe slap-tongue acc. to guitar])
 ++++(M8 [guitar pizzicati fantastiques: sparse < denser])
-    (P [guitar low note doubling of tam-tam])
-    (P [piano low note doubling of tam-tam])
-    (P [struck tam-tam: mp])
+    (P [guitar low note doubling of 38" tam-tam])
+    (P [piano low note doubling of 38" tam-tam])
+    (P [struck 38" tam-tam: mp])
     (M4 [violin acc. to contrabass halo] ==> M8 [vn. pizz. fant.])
     (M4 [viola acc. to contrabass halo] ==> M8 [va. pizz. fant.])
     (M4 [cello acc. to contrabass halo] ==> M8 [vc. pizz. fant.)
@@ -137,9 +135,9 @@ ORCHESTRATION:
     (M5 [baritone sax extremely quiet low tone])
     (M8 [oboe slap-tongue acc. to guitar])
     (M8 [guitar pizzicati fantastiques])
-    (P [guitar low note doubling of tam-tam])
-    (P [piano low note doubling of tam-tam])
-    (P [struck tam-tam: mp])
+    (P [guitar low note doubling of 38" tam-tam])
+    (P [piano low note doubling of 38" tam-tam])
+    (P [struck 38" tam-tam: mp])
 ++++(M16 [violin extremely long string tremolo descent: start])
     (M4 [violin acc. to contrabass halo] ==> M8 [vn. pizz. fant.])
     (M4 [viola acc. to contrabass halo] ==> M8 [va. pizz. fant.])
@@ -153,9 +151,9 @@ ORCHESTRATION:
     (M5 [baritone sax extremely quiet low tone])
     (M8 [oboe slap-tongue acc. to guitar])
     (M8 [guitar pizzicati fantastiques: climax])
-    (P [guitar low note doubling of tam-tam])
-    (P [piano low note doubling of tam-tam])
-    (P [struck tam-tam: mp])
+    (P [guitar low note doubling of 38" tam-tam])
+    (P [piano low note doubling of 38" tam-tam])
+    (P [struck 38" tam-tam: mp])
     (M15 [woodblock underspine: start])
     (M16 [violin extremely long string tremolo descent])
     (M4 [violin acc. to contrabass halo] ==> M8 [vn. pizz. fant.])
@@ -170,10 +168,10 @@ ORCHESTRATION:
     (M5+M6 [baritone sax. quiet mult. + pure tone] ==> M6 [quiet mult.])
     (M8 [oboe slap-tongue] ==> niente; M6 [english horn quiet mult.])
     (M8 [guitar pizzicati fantastiques])
-    (P [guitar low note doubling of tam-tam])
-    (P [piano low note doubling of tam-tam])
+    (P [guitar low note doubling of 38" tam-tam])
+    (P [piano low note doubling of 38" tam-tam])
     (M19 [piano pizzicati fantastiques: climax] ==> M19 [pf lightning cadenza])
-    (P [struck tam-tam: mp])
+    (P [struck 38" tam-tam: mp])
     (M15 [woodblock underspine])
     (M8 [violin pizzicati fantastiques: climax])
     (M16 [viola extremely long string tremolo descent])
@@ -183,36 +181,38 @@ ORCHESTRATION:
 
 
     [6]
-    (M6 [bass flute quiet multiphonic complexes])
+    (M6 [bass flute quiet mult.] ==> M10 [bass flute tremoli fantastiques)
     (M6 [bass clarinet quiet multiphonic complexes])
     (M6 [baritone saxophone quiet multiphonic complexes])
     (M6 [english horn quiet multiphonic complexes]) 
     (M8 [guitar pizzicati fantastiques])
-    (P [guitar low note doubling of tam-tam])
-    (P [piano low note doubling of tam-tam])
+    (P [guitar low note doubling of 38" tam-tam])
+    (P [piano low note doubling of 38" tam-tam])
     (M19 [piano lightning cadenza])
-    (P [struck tam-tam: mp])
+    (P [struck 38" tam-tam: mp])
     (M15 [woodblock underspine])
     (M8 [violin pizzicati fantastiques] ==> M10 [violin tremoli fantastiques])
     (M16 [viola extremely long string tremolo descent])
     (M8 [viola pizzicati fantastiques] ==> M10 [viola tremoli fantastiques])
     (M8 [cello pizzicati fantastiques] ==> M10 [cello tremoli fantastiques])
-    (M4 [contrabass halo: "f"])
+    (M4 [contrabass halo: "f"] + M10 [contrabass tremoli fantastiques])
+    * dramatic dynamic enveloping on M10 [tremoli fantastiques]
 
 
     [7]
-    (M6 [bass flute quiet multiphonic complexes])
+    (M10 [bass flute tremoli fantastiques])
     (M6 [bass clarinet quiet multiphonic complexes])
     (M6 [baritone saxophone quiet multiphonic complexes])
     (M6 [english horn quiet multiphonic complexes])
     (M8 [guitar pizzicati fantastiques])
-    (P [guitar low note doubling of tam-tam])
-    (P [piano low note doubling of tam-tam])
+    (P [guitar low note doubling of 38" tam-tam])
+    (P [piano low note doubling of 38" tam-tam])
     (M19 [piano lightning cadenza] ==> niente; AUX [piano clicks])
     (M15 [woodblock underspine])
-    (P [struck tam-tam: mp])
+    (P [struck 38" tam-tam: mp])
     (M8 [violin pizzicati fantastiques] ==> M10 [violin tremoli fantastiques])
     (M16 [viola extremely long string tremolo descent])
     (M8 [viola pizzicati fantastiques] ==> M10 [viola tremoli fantastiques])
     (M8 [cello pizzicati fantastiques] ==> M10 [cello tremoli fantastiques])
-    (M4 [contrabass halo: "f"])
+    (M4 [contrabass halo: "f"] + M10 [contrabass tremoli fantastiques])
+    * dramatic dynamic enveloping on M10 [tremoli fantastiques]
