@@ -85,7 +85,8 @@ ORCHESTRATION:
     (M6 [bass clarinet quiet multiphonics] ==> M3 [bass cl. solos])
     (M6 [baritone sax quiet multiphonics] ==> M3 [baritone sax solos])
     (M6 [english horn quiet multiphonics] ==> M3 [eng. horn solos])
-    (M8 [guitar pizzicati fantastiques] ==> niente; AUX [guitar clicks])
+    (M8 [guitar pizz. fant.] ==> niente; AUX [guitar rh clicks + lh taps])
+    (M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
     (AUX [piano clicks])
     (M15 [woodblock underspine])
     (M18 [china cymbal miasma: niente < p < mf > p < mf]
@@ -97,6 +98,9 @@ ORCHESTRATION:
     (M10 [viola tremoli fantastiques] ==> M12 [viola massed trills: climax])
     (M10 [cello tremoli fantastiques] ==> M12 [cello massed trills: climax])
     (M4 [contrabass halo] + M10 [bass tremoli] ==> M12 [bass trills: climax])
+    * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
+      non-appuyé and half harmonics.
+    * guitar lh taps are pitched but possibly fixed on a single pitch.
 
 
     [2]
@@ -104,7 +108,8 @@ ORCHESTRATION:
     (M3 [bass cl. solos] ==> M9 [bass cl. sostenuti fantastiques])
     (M3 [baritone sax solos] ==> M9 [baritone sax sostenuti fanastiques])
     (M3 [eng. horn solos] ==> M9 [eng. horn air tone sotenuti fantastiques])
-    (AUX [guitar clicks])
+    (AUX [guitar rh clicks + lh taps])
+    (M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
     (AUX [piano clicks])
     (M15 [woodblock underspine])
     (M18 [china cymbal miasma: mf < f > mf < f > mf < f])
@@ -124,7 +129,8 @@ ORCHESTRATION:
     (M9 [bass cl. sost. fant.] ==> M7 [bass cl. ferocious multi.: climax])
     (M9 [bar. sax. sost. fant.] ==> M7 [bar. sax. ferocious multi.: climax])
     (M9 [english horn air tone sost.] ==> M7 [english horn fer. mult: climax])
-    (AUX [guitar clicks] ==> M19 [guitar mandolin line acc. to cadenza])
+    (AUX [guitar rh clicks + lh taps] ==> M19 [guitar mand. line acc. to cad.])
+    (M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
     (AUX [piano clicks] ==> M19 [piano lightning cadenza])
     (M15 [woodblock underspine])
     (M18 [china cymbal miasma: f < ff > f < ff > f < ff]
