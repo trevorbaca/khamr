@@ -106,9 +106,9 @@ ORCHESTRATION:
     (M4 [baritone sax acc. to contrabass halo: niente < p])
     (M4 [english horn air tone acc. to contrabass halo: niente < p])
     (M2B [guiro burst strokes (oboe): very short foreshadow of [E])
-    (M4 [guitar low note doubling of 38" tam-tam])
+    (M4 [guitar pitched tambour doubling of 38" tam-tam])
     (M14 [shakers (guitar): fff: very short foreshadow of [E])
-    (M4 [piano low note doubling of 38" tam-tam])
+    (M4 [piano tambour + low note doubling of 38" tam-tam])
     (M4 [struck 38" tam-tam acc. to halo: mp])
     (M1 [castanets and triangle: very sparse foreshadow of [C])
     (M4 [violin acc. to contrabass halo: niente < p])
@@ -123,13 +123,15 @@ ORCHESTRATION:
     (M4 [baritone sax halo acc.] ==> M5 [baritone sax ext. quiet low tone])
     (M8 [oboe slap-tongue acc. to guitar])
 ++++(M8 [guitar pizzicati fantastiques: sparse < denser])
-    (M4 [guitar low note doubling of 38" tam-tam])
-    (M4 [piano low note doubling of 38" tam-tam])
+    (M4 [guitar pitched tambour doubling of 38" tam-tam])
+    (M4 [piano tambour + low note doubling of 38" tam-tam])
     (M4 [struck 38" tam-tam acc. to halo: mp])
     (M4 [violin acc. to contrabass halo] ==> M8 [vn. pizz. fant.])
     (M4 [viola acc. to contrabass halo] ==> M8 [va. pizz. fant.])
     (M4 [cello acc. to contrabass halo] ==> M8 [vc. pizz. fant.)
     (M4 [contrabass halo: "f"])
+    * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
+      non-appuyé and half harmonics.
 
 
     [3]
@@ -138,8 +140,8 @@ ORCHESTRATION:
     (M5 [baritone sax extremely quiet low tone])
     (M8 [oboe slap-tongue acc. to guitar])
     (M8 [guitar pizzicati fantastiques])
-    (M4 [guitar low note doubling of 38" tam-tam])
-    (M4 [piano low note doubling of 38" tam-tam])
+    (M4 [guitar pitched tambour doubling of 38" tam-tam])
+    (M4 [piano tambour + low note doubling of 38" tam-tam])
     (M4 [struck 38" tam-tam acc. to halo: mp])
     (M16 [groaned bass drum initiation to string tremolo descent])
 ++++(M16 [violin extremely long string tremolo descent: start])
@@ -147,6 +149,8 @@ ORCHESTRATION:
     (M4 [viola acc. to contrabass halo] ==> M8 [va. pizz. fant.])
     (M4 [cello acc. to contrabass halo] ==> M8 [vc. pizz. fant.)
     (M5 [contrabass extremely quiet low tone])
+    * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
+      non-appuyé and half harmonics.
 
 
     [4]
@@ -155,8 +159,8 @@ ORCHESTRATION:
     (M5 [baritone sax extremely quiet low tone])
     (M8 [oboe slap-tongue acc. to guitar])
     (M8 [guitar pizzicati fantastiques: climax])
-    (M4 [guitar low note doubling of 38" tam-tam])
-    (M4 [piano low note doubling of 38" tam-tam])
+    (M4 [guitar pitched tambour doubling of 38" tam-tam])
+    (M4 [piano tambour + low note doubling of 38" tam-tam])
     (M4 [struck 38" tam-tam acc. to halo: mp])
     (M15 [woodblock underspine: start])
     (M16 [violin extremely long string tremolo descent])
@@ -164,6 +168,8 @@ ORCHESTRATION:
     (M4 [viola acc. to contrabass halo] ==> M8 [va. pizz. fant.])
     (M4 [cello acc. to contrabass halo] ==> M8 [vc. pizz. fant.)
     (M5 [contrabass extremely quiet low tone])
+    * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
+      non-appuyé and half harmonics.
 
 
     [5]
@@ -172,8 +178,8 @@ ORCHESTRATION:
     (M5+M6 [baritone sax. quiet mult. + pure tone] ==> M6 [quiet mult.])
     (M8 [oboe slap-tongue] ==> niente; M6 [english horn quiet mult.])
     (M8 [guitar pizzicati fantastiques])
-    (M4 [guitar low note doubling of 38" tam-tam])
-    (M4 [piano low note doubling of 38" tam-tam])
+    (M4 [guitar pitched tambour doubling of 38" tam-tam])
+    (M4 [piano tambour + low note doubling of 38" tam-tam])
     (M19 [piano pizzicati fantastiques: climax] ==> M19 [pf lightning cadenza])
     (M4 [struck 38" tam-tam acc. to halo: mp])
     (M15 [woodblock underspine])
@@ -185,6 +191,8 @@ ORCHESTRATION:
     (M8 [viola pizzicati fantastiques: climax])
     (M8 [cello pizzicati fantastiques: climax])
     (M5 [contrabass extremely quiet low tone] ==> M4 [contrabass halo: "f")
+    * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
+      non-appuyé and half harmonics.
 
 
     [6]
@@ -193,8 +201,8 @@ ORCHESTRATION:
     (M6 [baritone saxophone quiet multiphonic complexes])
     (M6 [english horn quiet multiphonic complexes]) 
     (M8 [guitar pizzicati fantastiques])
-    (M4 [guitar low note doubling of 38" tam-tam])
-    (M4 [piano low note doubling of 38" tam-tam])
+    (M4 [guitar pitched tambour doubling of 38" tam-tam])
+    (M4 [piano tambour + low note doubling of 38" tam-tam])
     (M19 [piano lightning cadenza])
     (M19 [scraped 30" tam-tam to articulate start of M19])
     (M4 [struck 38" tam-tam acc. to halo: mp])
@@ -207,6 +215,8 @@ ORCHESTRATION:
     (M8 [cello pizzicati fantastiques] ==> M10 [cello tremoli fantastiques])
     (M4 [contrabass halo: "f"] + M10 [contrabass tremoli fantastiques])
     * dramatic dynamic enveloping on M10 [tremoli fantastiques]
+    * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
+      non-appuyé and half harmonics.
 
 
     [7]
@@ -215,8 +225,8 @@ ORCHESTRATION:
     (M6 [baritone saxophone quiet multiphonic complexes])
     (M6 [english horn quiet multiphonic complexes])
     (M8 [guitar pizzicati fantastiques])
-    (M4 [guitar low note doubling of 38" tam-tam])
-    (M4 [piano low note doubling of 38" tam-tam])
+    (M4 [guitar pitched tambour doubling of 38" tam-tam])
+    (M4 [piano tambour + low note doubling of 38" tam-tam])
     (M19 [piano lightning cadenza] ==> niente; AUX [piano clicks])
     (M15 [woodblock underspine])
     (M6 [marimba low pedal-point acc. to quiet mult.])
@@ -228,3 +238,5 @@ ORCHESTRATION:
     (M8 [cello pizzicati fantastiques] ==> M10 [cello tremoli fantastiques])
     (M4 [contrabass halo: "f"] + M10 [contrabass tremoli fantastiques])
     * dramatic dynamic enveloping on M10 [tremoli fantastiques]
+    * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
+      non-appuyé and half harmonics.
