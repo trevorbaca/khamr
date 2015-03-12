@@ -107,7 +107,7 @@ materials: 3, 17, 5, 18, 5, 14, 19
 ORCHESTRATION:
 
     [1]
-    (M2A [piccolo pizzicati] ==> niente)
+    (M2A [bass flute whistle tones] ==> M3 [bass flute dialoguing solos])
     (M2A [b-flat slap] ==> M3 [b-flat clarinet dialoguing solos])
     (M3 [baritone sax dialoguing solos: niente < p])
     (M2A [oboe slap (w/o reed)] ==> niente)
@@ -189,6 +189,8 @@ ORCHESTRATION:
     (M12 [viola massed trills: ppp])
     (M12 [cello massed trills: ppp])
     (M12 [bass massed trills: ppp] ==> M5 [bass low tone])
+    * bass flute ext. quiet low M5 incl. double harmonics, whistle tones,
+      sciarrino whistle tones
 
 
     [6]
@@ -203,6 +205,8 @@ ORCHESTRATION:
     (M12 [viola massed trills: ppp] ==> AUX [viola OB])
     (M12 [cello massed trills: ppp] ==> AUX [cello OB])
     (M5 [bass low tone])
+    * bass flute ext. quiet low M5 incl. double harmonics, whistle tones,
+      sciarrino whistle tones
 
 
     [7]
@@ -217,6 +221,8 @@ ORCHESTRATION:
     (AUX [viola OB])
     (AUX [cello OB])
     (M5 [bass low tone])
+    * bass flute ext. quiet low M5 incl. double harmonics, whistle tones,
+      sciarrino whistle tones
 
 
     [8]
@@ -262,6 +268,7 @@ ORCHESTRATION:
     (AUX [cello OB])
     (AUX [bass OB])
     * english horn air tone mixes inhales and exhales
+    * flutist puts down bass flute and takes piccolo
 
 
     [11]
@@ -284,6 +291,7 @@ ORCHESTRATION:
 
     [12]
     (M14 [picc. fluttertongue acc. to string tremolo altissimo])
+    (M19 [piccolo jet whistle to art. start of M19])
     (M5 [bass cl. ext quiet low])
     (M5 [bar. sax. ext quiet low])
     (AUX [english horn air tone (w/o reed)])

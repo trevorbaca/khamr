@@ -110,7 +110,8 @@ materials: 16, 19, 10, 4, 3, 1, 2A
 ORCHESTRATION:
 
     [1]
-    (M19 [piccolo fluttertongue accompaniment to piano lightning cadenza])
+    (M19 [bass flute fluttertongue accompaniment to piano lightning cadenza])
+    (M19 [bass flute jet whistle to art. start of M19])
     (M7 [bass clarinet ferocious multiphonics: climax])
     (M7 [baritone sax ferocious multiphonics: climax])
     (M7 [english horn ferocious multiphonics: climax])
@@ -130,10 +131,11 @@ ORCHESTRATION:
     * make piccolo fluttertongue distribute differently than piano;
       piccolo fluttertongue rhythm should follow non-M19 material.
     * english horn M7 drawn from veale 180, 181, 182, 199.
+    * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones
     
 
     [2]
-    (M19 [piccolo fluttertongue accompaniment to piano lightning cadenza])
+    (M19 [bass flute fluttertongue accompaniment to piano lightning cadenza])
     (M7 [contrabass clarinet ferocious multiphonics: climax])
     (M7 [baritone sax ferocious multiphonics: climax])
     (M7 [english horn ferocious multiphonics: climax])
@@ -150,10 +152,11 @@ ORCHESTRATION:
     * guitar half-harmonic tremolo glissando transitions from stopped to
       half-harmonic to harmonic pressure and back durings its duration.
     * english horn M7 drawn from veale 180, 181, 182, 199.
+    * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones
 
 
     [3]
-    (M19 [piccolo fluttertongue accompaniment to piano lightning cadenza])
+    (M19 [bass flute fluttertongue accompaniment to piano lightning cadenza])
     (M7 [contrabass clarinet ferocious multiphonics] ==> M3 [solos])
     (M7 [baritone sax ferocious multiphonics] ==> M3 [solos])
     (M7 [english horn ferocious multiphonics] ==> M3 [solos])
@@ -174,10 +177,11 @@ ORCHESTRATION:
     * english horn M3 solo materials incl. color finger., trills, microtones,
       fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
       no solo techniques without the reed.
+    * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones
 
 
     [4]
-    (M19 [piccolo fluttertongue accompaniment to piano lightning cadenza])
+    (M19 [bass flute fluttertongue accompaniment to piano lightning cadenza])
     (M3 [contrabass clarinet dialoguing solos])
     (M3 [baritone sax dialoguing solos])
     (M3 [english horn dialoguing solos])
@@ -194,10 +198,11 @@ ORCHESTRATION:
     * english horn M3 solo materials incl. color finger., trills, microtones,
       fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
       no solo techniques without the reed.
+    * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones
 
 
     [5]
-    (M19 [piccolo fluttertongue] ==> M1 [piccolo upper-register prestissimo])
+    (M19 [bass fl. fluttertongue] ==> M1 [flute upper-register prestissimo])
     (M3 [contrabass clarinet dialoguing solos] ==> M1 [b-flat running])
     (M3 [baritone sax dialoguing solos] ==> M1 [sopranino running])
     (M3 [english horn dialoguing solos] ==> M1 [oboe running])
@@ -216,9 +221,10 @@ ORCHESTRATION:
       fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
       no solo techniques without the reed.
     * english horn changes to oboe
+    * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones
 
     [6]
-    (M1 [piccolo upper-register prestissimo: climax])
+    (M1 [flute upper-register prestissimo: climax])
     (M1 [b-flat clarinet upper-register prestissimo: climax])
     (M1 [sopranino sax upper-register prestissimo: climax])
     (M1 [oboe upper-register prestissimo: climax])
@@ -233,7 +239,7 @@ ORCHESTRATION:
 
 
     [7]
-    (M1 [piccolo prestissimo] & M3 [piccolo solos])
+    (M1 [flute prestissimo] & M3 [flute solos])
     (M1 [b-flat clarinet prestissimo] & M3 [b-flat clarnet solos])
     (M1 [sopranino sax uprestissimo] & M3 [sopranino sax solos])
     (M1 [oboe prestissimo] & M3 [oboe solos])
@@ -251,7 +257,7 @@ ORCHESTRATION:
 
 
     [8]
-    (M1 [piccolo prestissimo] & M3 [piccolo solos] ==> M2A [piccolo pizzicati])
+    (M1 [flute prestissimo] & M3 [flute solos] ==> niente)
     (M1 [b-flat prestissimo] & M3 [b-flat solos] ==> M2A [b-flat slap])
     (M1 [sopr. prestissimo] & M3 [sopr. solos] ==> M2A [sopr. slap])
     (M1 [oboe prestissimo] & M3 [oboe solos] ==> M2A [oboe slap (w/o reed)])
@@ -265,11 +271,12 @@ ORCHESTRATION:
     (M10 [cello tremoli fantastiques] ==> M2A [cello b-t-b pizzicati])
     (M4 [contrabass halo])
     * oboe removes reed during this stage
+    * flutist puts down flute and takes bass flute
 
 
     [9]
     # farewell of M4
-    (M2A [piccolo pizzicati])
+    (M2A [bass flute whistle tones acc. to seaweed])
     (M2A [b-flat slap])
     (M2A [sopr. slap])
     (M2A [oboe slap (w/o reed)])
