@@ -104,7 +104,7 @@ ORCHESTRATION:
     (M4 [bass flute acc. to contrabass halo: niente < p])
     (M4 [bass clarinet acc. to contrabass halo: niente < p])
     (M4 [baritone sax acc. to contrabass halo: niente < p])
-    (M4 [english horn air tone acc. to contrabass halo: niente < p])
+    (M4 [english horn air tone (w/o reed) acc. to halo: niente < p])
     (M2B [guiro burst strokes (oboe): very short foreshadow of [E])
     (M4 [guitar pitched tambour doubling of 38" tam-tam])
     (M14 [shakers (guitar): fff: very short foreshadow of [E])
@@ -115,13 +115,15 @@ ORCHESTRATION:
     (M4 [viola acc. to contrabass halo: niente < p])
     (M4 [cello acc. to contrabass halo: niente < p])
 ++++(M4 [contrabass halo: "f"])
+    * english horn air tone (w/o reed) mixes inhales and exhales
 
 
     [2]
     (M4 [bass flute halo acc.])
     (M4 [bass cl. halo acc.] ==> M5 [bass cl. ext. quiet low tone])
     (M4 [baritone sax halo acc.] ==> M5 [baritone sax ext. quiet low tone])
-    (M8 [oboe slap-tongue acc. to guitar])
+    (M8 [english horn slap-tongue (w/o reed) acc. to guitar])
+    (M4 [english horn air tone (w/o reed) acc. to halo])
 ++++(M8 [guitar pizzicati fantastiques: sparse < denser])
     (M4 [guitar pitched tambour doubling of 38" tam-tam])
     (M4 [piano tambour + low note doubling of 38" tam-tam])
@@ -132,13 +134,15 @@ ORCHESTRATION:
     (M4 [contrabass halo: "f"])
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
+    * english horn air tone (w/o reed) mixes inhales and exhales
 
 
     [3]
     (M4 [bass flute halo acc.])
     (M5 [bass clarinet extremely quiet low tone])
     (M5 [baritone sax extremely quiet low tone])
-    (M8 [oboe slap-tongue acc. to guitar])
+    (M8 [english horn slap-tongue (w/o reed) acc. to guitar])
+    (M4 [english horn air tone (w/o reed) acc. to halo])
     (M8 [guitar pizzicati fantastiques])
     (M4 [guitar pitched tambour doubling of 38" tam-tam])
     (M4 [piano tambour + low note doubling of 38" tam-tam])
@@ -151,13 +155,15 @@ ORCHESTRATION:
     (M5 [contrabass extremely quiet low tone])
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
+    * english horn air tone (w/o reed) mixes inhales and exhales
 
 
     [4]
     (M4 [bass flute halo acc.] ==> M5+M6 [quiet mult. + tone])
     (M5 [bass clarinet extremely quiet low tone])
     (M5 [baritone sax extremely quiet low tone])
-    (M8 [oboe slap-tongue acc. to guitar])
+    (M8 [english horn slap-tongue (w/o reed) acc. to guitar])
+    (M4 [english horn air tone (w/o reed) acc. to halo])
     (M8 [guitar pizzicati fantastiques: climax])
     (M4 [guitar pitched tambour doubling of 38" tam-tam])
     (M4 [piano tambour + low note doubling of 38" tam-tam])
@@ -170,13 +176,16 @@ ORCHESTRATION:
     (M5 [contrabass extremely quiet low tone])
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
+    * english horn air tone (w/o reed) mixes inhales and exhales
 
 
     [5]
     (M5+M6 [bass fl. quiet mult. + pure tone] ==> M6 [quiet mult.])
     (M5+M6 [bass cl. quiet mult. + pure tone] ==> M6 [quiet mult.])
     (M5+M6 [baritone sax. quiet mult. + pure tone] ==> M6 [quiet mult.])
-    (M8 [oboe slap-tongue] ==> niente; M6 [english horn quiet mult.])
+    (M8 [english horn slap-tongue (w/o reed)] ==> niente)
+    (M4 [english horn air tone (w/o reed) acc. to halo] ==> niente)
+    (niente ==> M6 [english horn quiet double harmonics])
     (M8 [guitar pizzicati fantastiques])
     (M4 [guitar pitched tambour doubling of 38" tam-tam])
     (M4 [piano tambour + low note doubling of 38" tam-tam])
@@ -193,13 +202,16 @@ ORCHESTRATION:
     (M5 [contrabass extremely quiet low tone] ==> M4 [contrabass halo: "f")
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
+    * english horn air tone (w/o reed) mixes inhales and exhales
+    * english horn inserts reed during this stage
+    * english horn M6 are veale numbers 6, 13, 16, 17, 18.
 
 
     [6]
     (M6 [bass flute quiet mult.] ==> M10 [bass flute tremoli fantastiques)
     (M6 [bass clarinet quiet multiphonic complexes])
     (M6 [baritone saxophone quiet multiphonic complexes])
-    (M6 [english horn quiet multiphonic complexes]) 
+    (M6 [english horn quiet double harmonics]) 
     (M8 [guitar pizzicati fantastiques])
     (M4 [guitar pitched tambour doubling of 38" tam-tam])
     (M4 [piano tambour + low note doubling of 38" tam-tam])
@@ -217,13 +229,14 @@ ORCHESTRATION:
     * dramatic dynamic enveloping on M10 [tremoli fantastiques]
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
+    * english horn M6 are veale numbers 6, 13, 16, 17, 18.
 
 
     [7]
     (M10 [bass flute tremoli fantastiques])
     (M6 [bass clarinet quiet multiphonic complexes])
     (M6 [baritone saxophone quiet multiphonic complexes])
-    (M6 [english horn quiet multiphonic complexes])
+    (M6 [english horn quiet double harmonics])
     (M8 [guitar pizzicati fantastiques])
     (M4 [guitar pitched tambour doubling of 38" tam-tam])
     (M4 [piano tambour + low note doubling of 38" tam-tam])
@@ -240,3 +253,4 @@ ORCHESTRATION:
     * dramatic dynamic enveloping on M10 [tremoli fantastiques]
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
+    * english horn M6 are veale numbers 6, 13, 16, 17, 18.
