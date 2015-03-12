@@ -105,6 +105,8 @@ ORCHESTRATION:
     * english horn M3 solo materials incl. color finger., trills, microtones,
       fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
       no solo techniques without the reed.
+    * bass flute M3 solo materials incl. fluttertongue, harmonics, double
+      harmonics, sciarrino whistle tones,
 
 
     [2]
@@ -134,7 +136,7 @@ ORCHESTRATION:
 
 
     [3]
-    (niente ==> M19 [piccolo flutt. acc to piano lightning cadenza])
+    (niente ==> M19 [bass flute flutt. acc to piano lightning cadenza])
     (M9 [bass cl. sost. fant.] ==> M7 [bass cl. ferocious multi.: climax])
     (M9 [bar. sax. sost. fant.] ==> M7 [bar. sax. ferocious multi.: climax])
     (M9 [english horn air tone sost.] ==> M7 [english horn fer. mult: climax])
@@ -153,5 +155,6 @@ ORCHESTRATION:
     * english horn air tone (w/o reed) mixes inhales and exhales
     * english horn inserts reed during this stage
     * english horn M7 drawn from veale 180, 181, 182, 199, 206, 207, 210, 211.
+    * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones
 
 [B] ends in a field of densely saturated color.
