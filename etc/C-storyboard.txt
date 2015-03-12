@@ -129,6 +129,7 @@ ORCHESTRATION:
     (M4 [contrabass halo])
     * make piccolo fluttertongue distribute differently than piano;
       piccolo fluttertongue rhythm should follow non-M19 material.
+    * english horn M7 drawn from veale 180, 181, 182, 199.
     
 
     [2]
@@ -148,6 +149,7 @@ ORCHESTRATION:
     (M4 [contrabass halo] and M10 [contrabass tremoli fantastiques])
     * guitar half-harmonic tremolo glissando transitions from stopped to
       half-harmonic to harmonic pressure and back durings its duration.
+    * english horn M7 drawn from veale 180, 181, 182, 199.
 
 
     [3]
@@ -168,6 +170,10 @@ ORCHESTRATION:
     (M4 [contrabass halo] and M10 [contrabass tremoli fantastiques])
     * guitar half-harmonic tremolo glissando transitions from stopped to
       half-harmonic to harmonic pressure and back durings its duration.
+    * english horn M7 drawn from veale 180, 181, 182, 199.
+    * english horn M3 solo materials incl. color finger., trills, microtones,
+      fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
+      no solo techniques without the reed.
 
 
     [4]
@@ -185,6 +191,9 @@ ORCHESTRATION:
     (M4 [contrabass halo] and M10 [contrabass tremoli fantastiques])
     * guitar half-harmonic tremolo glissando transitions from stopped to
       half-harmonic to harmonic pressure and back durings its duration.
+    * english horn M3 solo materials incl. color finger., trills, microtones,
+      fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
+      no solo techniques without the reed.
 
 
     [5]
@@ -203,6 +212,10 @@ ORCHESTRATION:
     * guitar "koto" (snap pizz. behind lh) coattacks on lower string
     * guitar half-harmonic tremolo glissando transitions from stopped to
       half-harmonic to harmonic pressure and back durings its duration.
+    * english horn M3 solo materials incl. color finger., trills, microtones,
+      fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
+      no solo techniques without the reed.
+    * english horn changes to oboe
 
     [6]
     (M1 [piccolo upper-register prestissimo: climax])
@@ -232,13 +245,16 @@ ORCHESTRATION:
     (M10 [viola tremoli fantastiques])
     (M10 [cello tremoli fantastiques])
     (M4 [contrabass halo])
+    * oboe M3 solo materials incl. color finger., trills, microtones,
+      fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
+      no solo techniques without the reed.
 
 
     [8]
     (M1 [piccolo prestissimo] & M3 [piccolo solos] ==> M2A [piccolo pizzicati])
     (M1 [b-flat prestissimo] & M3 [b-flat solos] ==> M2A [b-flat slap])
     (M1 [sopr. prestissimo] & M3 [sopr. solos] ==> M2A [sopr. slap])
-    (M1 [oboe prestissimo] & M3 [oboe solos] ==> M2A [oboe slap])
+    (M1 [oboe prestissimo] & M3 [oboe solos] ==> M2A [oboe slap (w/o reed)])
     (M1 [guitar "koto" coattacks with prest.] ==> M2A [guitar seaweed guiro])
     (M2A [guitar b-t-nut pizzicati])
     (M2A [piano seaweed guiro])
@@ -248,6 +264,7 @@ ORCHESTRATION:
     (M10 [viola tremoli fantastiques] ==> M2A [viola b-t-b pizzicati])
     (M10 [cello tremoli fantastiques] ==> M2A [cello b-t-b pizzicati])
     (M4 [contrabass halo])
+    * oboe removes reed during this stage
 
 
     [9]
@@ -255,7 +272,7 @@ ORCHESTRATION:
     (M2A [piccolo pizzicati])
     (M2A [b-flat slap])
     (M2A [sopr. slap])
-    (M2A [oboe slap])
+    (M2A [oboe slap (w/o reed)])
     (M2A [guitar seaweed guiro])
     (M2A [guitar b-t-nut pizzicati])
     (M4 [guitar multiphonics 6G/6J acc. to almglocken])
