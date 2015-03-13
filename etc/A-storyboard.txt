@@ -137,6 +137,9 @@ ORCHESTRATION:
     * english horn air tone (w/o reed) mixes inhales and exhales
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
+    * string M8 pizz. fant. include two- and three-note slurred pizz.,
+      lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
+      nail pizz, dead (muta) pizz, turetzky lifted pizz.
 
 
     [3]
@@ -159,6 +162,9 @@ ORCHESTRATION:
     * english horn air tone (w/o reed) mixes inhales and exhales
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
+    * string M8 pizz. fant. include two- and three-note slurred pizz.,
+      lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
+      nail pizz, dead (muta) pizz, turetzky lifted pizz.
 
 
     [4]
@@ -182,6 +188,9 @@ ORCHESTRATION:
     * english horn air tone (w/o reed) mixes inhales and exhales
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
+    * string M8 pizz. fant. include two- and three-note slurred pizz.,
+      lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
+      nail pizz, dead (muta) pizz, turetzky lifted pizz.
 
 
     [5]
@@ -212,6 +221,9 @@ ORCHESTRATION:
     * english horn M6 are veale numbers 6, 13, 16, 17, 18.
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
+    * string M8 pizz. fant. include two- and three-note slurred pizz.,
+      lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
+      nail pizz, dead (muta) pizz, turetzky lifted pizz.
 
 
     [6]
@@ -240,6 +252,9 @@ ORCHESTRATION:
     * english horn M6 are veale numbers 6, 13, 16, 17, 18.
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
+    * string M8 pizz. fant. include two- and three-note slurred pizz.,
+      lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
+      nail pizz, dead (muta) pizz, turetzky lifted pizz.
 
 
     [7]
@@ -265,3 +280,6 @@ ORCHESTRATION:
     * english horn M6 are veale numbers 6, 13, 16, 17, 18.
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
+    * string M8 pizz. fant. include two- and three-note slurred pizz.,
+      lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
+      nail pizz, dead (muta) pizz, turetzky lifted pizz.
