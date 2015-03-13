@@ -128,10 +128,11 @@ ORCHESTRATION:
     (M9 [cello sostenuti fantastiques])
 ----(M16 [contrabass extremely long string tremolo descent: endpoint: ppp])
     (M4 [contrabass halo])
-    * make piccolo fluttertongue distribute differently than piano;
-      piccolo fluttertongue rhythm should follow non-M19 material.
+    * make M19 fluttertongue distribute differently than piano;
+      M19 fluttertongue rhythm should follow non-M19 material.
+    * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones, aeolian
+      sounds, diaphragm accents, jet whistle
     * english horn M7 drawn from veale 180, 181, 182, 199.
-    * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones
     
 
     [2]
@@ -149,10 +150,11 @@ ORCHESTRATION:
     (M19 [viola sostenuti fantastiques] ==> M10 [viola tremoli fantastiques])
     (M19 [cello sostenuti fantastiques] ==> M10 [cello tremoli fantastiques])
     (M4 [contrabass halo] and M10 [contrabass tremoli fantastiques])
+    * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones, aeolian
+      sounds, diaphragm accents, jet whistle
+    * english horn M7 drawn from veale 180, 181, 182, 199.
     * guitar half-harmonic tremolo glissando transitions from stopped to
       half-harmonic to harmonic pressure and back durings its duration.
-    * english horn M7 drawn from veale 180, 181, 182, 199.
-    * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones
 
 
     [3]
@@ -171,13 +173,14 @@ ORCHESTRATION:
     (M19 [viola sostenuti fantastiques] ==> M10 [viola tremoli fantastiques])
     (M19 [cello sostenuti fantastiques] ==> M10 [cello tremoli fantastiques])
     (M4 [contrabass halo] and M10 [contrabass tremoli fantastiques])
-    * guitar half-harmonic tremolo glissando transitions from stopped to
-      half-harmonic to harmonic pressure and back durings its duration.
+    * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones, aeolian
+      sounds, diaphragm accents, jet whistle
     * english horn M7 drawn from veale 180, 181, 182, 199.
     * english horn M3 solo materials incl. color finger., trills, microtones,
       fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
       no solo techniques without the reed.
-    * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones
+    * guitar half-harmonic tremolo glissando transitions from stopped to
+      half-harmonic to harmonic pressure and back durings its duration.
 
 
     [4]
@@ -193,12 +196,13 @@ ORCHESTRATION:
     (M10 [viola tremoli fantastiques])
     (M10 [cello tremoli fantastiques])
     (M4 [contrabass halo] and M10 [contrabass tremoli fantastiques])
-    * guitar half-harmonic tremolo glissando transitions from stopped to
-      half-harmonic to harmonic pressure and back durings its duration.
+    * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones, aeolian
+      sounds, diaphragm accents, jet whistle
     * english horn M3 solo materials incl. color finger., trills, microtones,
       fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
       no solo techniques without the reed.
-    * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones
+    * guitar half-harmonic tremolo glissando transitions from stopped to
+      half-harmonic to harmonic pressure and back durings its duration.
 
 
     [5]
@@ -214,14 +218,17 @@ ORCHESTRATION:
     (M10 [viola tremoli fantastiques])
     (M10 [cello tremoli fantastiques])
     (M4 [contrabass halo] and M10 [contrabass tremoli fantastiques])
-    * guitar "koto" (snap pizz. behind lh) coattacks on lower string
-    * guitar half-harmonic tremolo glissando transitions from stopped to
-      half-harmonic to harmonic pressure and back durings its duration.
+    * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones, aeolian
+      sounds, diaphragm accents, jet whistle
+    * flutist puts down bass flute and takes flute
     * english horn M3 solo materials incl. color finger., trills, microtones,
       fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
       no solo techniques without the reed.
     * english horn changes to oboe
-    * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones
+    * guitar "koto" (snap pizz. behind lh) coattacks on lower string
+    * guitar half-harmonic tremolo glissando transitions from stopped to
+      half-harmonic to harmonic pressure and back durings its duration.
+
 
     [6]
     (M1 [flute upper-register prestissimo: climax])
@@ -251,6 +258,12 @@ ORCHESTRATION:
     (M10 [viola tremoli fantastiques])
     (M10 [cello tremoli fantastiques])
     (M4 [contrabass halo])
+    * flute M3 solo materials incl. fluttertongue, harmonics, double
+      harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
+      covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
+      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi.
+      bass flute M3 solo materials do not incl. singing, speaking, multiphonic
+      trills.
     * oboe M3 solo materials incl. color finger., trills, microtones,
       fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
       no solo techniques without the reed.
@@ -270,8 +283,14 @@ ORCHESTRATION:
     (M10 [viola tremoli fantastiques] ==> M2A [viola b-t-b pizzicati])
     (M10 [cello tremoli fantastiques] ==> M2A [cello b-t-b pizzicati])
     (M4 [contrabass halo])
-    * oboe removes reed during this stage
+    * flute M3 solo materials incl. fluttertongue, harmonics, double
+      harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
+      covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
+      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi.
+      bass flute M3 solo materials do not incl. singing, speaking, multiphonic
+      trills.
     * flutist puts down flute and takes bass flute
+    * oboe removes reed
 
 
     [9]

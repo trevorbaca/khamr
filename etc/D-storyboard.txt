@@ -120,6 +120,12 @@ ORCHESTRATION:
     (M12 [viola massed trills: niente < ppp])
     (M2A [cello b-t-b pizzicati] ==> M12 [cello massed trills: ppp])
     (M12 [bass massed trills: niente < ppp])
+    * bass flute M3 solo materials incl. fluttertongue, harmonics, double
+      harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
+      covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
+      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi.
+      bass flute M3 solo materials do not incl. singing, speaking, multiphonic
+      trills.
 
 
     [2]
@@ -136,6 +142,12 @@ ORCHESTRATION:
     (M12 [viola massed trills: ppp])
     (M12 [cello massed trills: ppp])
     (M12 [bass massed trills: ppp])
+    * bass flute M3 solo materials incl. fluttertongue, harmonics, double
+      harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
+      covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
+      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi.
+      bass flute M3 solo materials do not incl. singing, speaking, multiphonic
+      trills.
     * english horn M3 solo materials incl. color finger., trills, microtones,
       fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
       no solo techniques without the reed.
@@ -156,6 +168,12 @@ ORCHESTRATION:
     (M12 [viola massed trills: ppp])
     (M12 [cello massed trills: ppp])
     (M12 [bass massed trills: ppp])
+    * bass flute M3 solo materials incl. fluttertongue, harmonics, double
+      harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
+      covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
+      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi.
+      bass flute M3 solo materials do not incl. singing, speaking, multiphonic
+      trills.
     * english horn M3 solo materials incl. color finger., trills, microtones,
       fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
       no solo techniques without the reed.
@@ -174,6 +192,12 @@ ORCHESTRATION:
     (M12 [cello massed trills: ppp])
     (M12 [bass massed trills: ppp])
     * M20 [whirly tubes] starts together with M17 [snare roll]
+    * bass flute M3 solo materials incl. fluttertongue, harmonics, double
+      harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
+      covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
+      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi.
+      bass flute M3 solo materials do not incl. singing, speaking, multiphonic
+      trills.
     * oboist puts down english horn and takes whirly tube
 
 
@@ -189,8 +213,14 @@ ORCHESTRATION:
     (M12 [viola massed trills: ppp])
     (M12 [cello massed trills: ppp])
     (M12 [bass massed trills: ppp] ==> M5 [bass low tone])
+    * bass flute M3 solo materials incl. fluttertongue, harmonics, double
+      harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
+      covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
+      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi.
+      bass flute M3 solo materials do not incl. singing, speaking, multiphonic
+      trills.
     * bass flute ext. quiet low M5 incl. double harmonics, whistle tones,
-      sciarrino whistle tones
+      sciarrino whistle tones, aeolian sounds
 
 
     [6]
@@ -206,7 +236,7 @@ ORCHESTRATION:
     (M12 [cello massed trills: ppp] ==> AUX [cello OB])
     (M5 [bass low tone])
     * bass flute ext. quiet low M5 incl. double harmonics, whistle tones,
-      sciarrino whistle tones
+      sciarrino whistle tones, aeolian sounds
 
 
     [7]
@@ -222,7 +252,9 @@ ORCHESTRATION:
     (AUX [cello OB])
     (M5 [bass low tone])
     * bass flute ext. quiet low M5 incl. double harmonics, whistle tones,
-      sciarrino whistle tones
+      sciarrino whistle tones, aeolian sounds
+    * bass flute air tone mixes inhales, exhales, covered sound, uncovered
+      sound
 
 
     [8]
@@ -237,6 +269,8 @@ ORCHESTRATION:
     (AUX [viola OB])
     (AUX [cello OB])
     (M5 [bass low tone])
+    * bass flute air tone mixes inhales, exhales, covered sound, uncovered
+      sound
 
 
     [9]
@@ -251,6 +285,8 @@ ORCHESTRATION:
     (AUX [viola OB])
     (AUX [cello OB])
     (M5 [bass low tone] ==> AUX [bass OB])
+    * bass flute air tone mixes inhales, exhales, covered sound, uncovered
+      sound
     * oboist puts down whirly tubes and takes english horn
     * oboist removes reed from english horn
 
@@ -267,8 +303,10 @@ ORCHESTRATION:
     (AUX [viola OB])
     (AUX [cello OB])
     (AUX [bass OB])
-    * english horn air tone mixes inhales and exhales
+    * bass flute air tone mixes inhales, exhales, covered sound, uncovered
+      sound
     * flutist puts down bass flute and takes piccolo
+    * english horn air tone mixes inhales and exhales
 
 
     [11]
@@ -287,6 +325,8 @@ ORCHESTRATION:
 ++++(M14 [cello tremolo altissimo: ppp])
     (AUX [bass OB] ==> M5 [bass low tone])
     * english horn air tone mixes inhales and exhales
+    * piccolo fluttertongue acc. M14 incl. sciarrino whistle tones, aeolian
+      sounds, diaphragm accents, jet whistle
 
 
     [12]
@@ -306,5 +346,7 @@ ORCHESTRATION:
     (M10 [viola tremoli fantastiques acc. to M19])
     (M14 [cello tremolo altissimo: ppp])
     (M5 [bass low tone])
+    * piccolo fluttertongue acc. M14 incl. sciarrino whistle tones, aeolian
+      sounds, diaphragm accents, jet whistle
     * english horn air tone mixes inhales and exhales
     * oboist puts down english horn and takes guiro

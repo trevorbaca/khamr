@@ -98,15 +98,21 @@ ORCHESTRATION:
     (M10 [viola tremoli fantastiques] ==> M12 [viola massed trills: climax])
     (M10 [cello tremoli fantastiques] ==> M12 [cello massed trills: climax])
     (M4 [contrabass halo] + M10 [bass tremoli] ==> M12 [bass trills: climax])
-    * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
-      non-appuyé and half harmonics.
-    * guitar lh taps are pitched but possibly fixed on a single pitch.
+    * bass fl. M10 tremoli incl. harmonic tremoli
+    * bass flute M3 solo materials incl. fluttertongue, harmonics, double
+      harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
+      covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
+      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi.
+      bass flute M3 solo materials do not incl. singing, speaking, multiphonic
+      trills.
     * english horn M6 are veale numbers 6, 13, 16, 17, 18.
     * english horn M3 solo materials incl. color finger., trills, microtones,
       fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
       no solo techniques without the reed.
-    * bass flute M3 solo materials incl. fluttertongue, harmonics, double
-      harmonics, sciarrino whistle tones,
+    * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
+      non-appuyé and half harmonics.
+    * guitar lh taps are pitched but possibly fixed on a single pitch.
+
 
 
     [2]
@@ -131,6 +137,12 @@ ORCHESTRATION:
     * english horn M3 solo materials incl. color finger., trills, microtones,
       fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
       no solo techniques without the reed.
+    * bass flute M3 solo materials incl. fluttertongue, harmonics, double
+      harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
+      covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
+      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi.
+      bass flute M3 solo materials do not incl. singing, speaking, multiphonic
+      trills.
     * english horn removes reed during this stage
     * english horn air tone (w/o reed) mixes inhales and exhales
 
@@ -152,9 +164,10 @@ ORCHESTRATION:
     (M9 [cello sostenuti fantastiques])
     (M16 [contrabass extremely long string tremolo descent])
     (M4 [contrabass halo] + M9 [bass sostenuti fantastiques])
+    * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones, aeolian
+      sounds, diaphragm accents, jet whistle
     * english horn air tone (w/o reed) mixes inhales and exhales
     * english horn inserts reed during this stage
     * english horn M7 drawn from veale 180, 181, 182, 199, 206, 207, 210, 211.
-    * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones
 
 [B] ends in a field of densely saturated color.
