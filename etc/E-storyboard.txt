@@ -131,6 +131,8 @@ ORCHESTRATION:
     (M14 [cello tremolo altissimo: fff])
     (M5 [bass low tone])
     * intermittent windows of quiet materials shining through.
+    * piccolo fluttertongue acc. M14 incl. sciarrino whistle tones, aeolian
+      sounds, diaphragm accents, jet whistle
 
 
     [2]
@@ -148,6 +150,8 @@ ORCHESTRATION:
     (M14 [cello tremolo altissimo: fff])
     (M5 [bass low tone])
     * intermittent windows of quiet materials shining through.
+    * piccolo fluttertongue acc. M14 incl. sciarrino whistle tones, aeolian
+      sounds, diaphragm accents, jet whistle
 
 
     [3]
@@ -165,6 +169,8 @@ ORCHESTRATION:
     (M14 [cello tremolo altissimo: fff > f])
     (M5 [bass low tone: pp] ==> M7 [bass low tone: fff])
     * intermittent windows of quiet materials shining through.
+    * piccolo fluttertongue acc. M14 incl. sciarrino whistle tones, aeolian
+      sounds, diaphragm accents, jet whistle
 
 
     [4]
@@ -182,6 +188,8 @@ ORCHESTRATION:
     (M14 [cello tremolo altissimo: f > p])
     (M7 [bass low tone: fff])
     * intermittent windows of quiet materials shining through.
+    * piccolo fluttertongue acc. M14 incl. sciarrino whistle tones, aeolian
+      sounds, diaphragm accents, jet whistle
 
 
     [5]
@@ -201,6 +209,8 @@ ORCHESTRATION:
     * intermittent windows of quiet materials shining through.
     * oboist puts down guiro and takes english horn
     * oboist makes sure reed is in english horn
+    * piccolo fluttertongue acc. M14 incl. sciarrino whistle tones, aeolian
+      sounds, diaphragm accents, jet whistle
 
 
     [6]
@@ -219,6 +229,8 @@ ORCHESTRATION:
     (M7 [bass low tone: fff])
     * intermittent windows of quiet materials shining through.
     * english horn M7 drawn from veale 206, 207, 210, 211.
+    * piccolo fluttertongue acc. M14 incl. sciarrino whistle tones, aeolian
+      sounds, diaphragm accents, jet whistle
 
 
     [7]
@@ -236,6 +248,8 @@ ORCHESTRATION:
     (M14 [cello tremolo altissimo: ppp])
     (M7 [bass low tone: fff] ==> M6 [bass low tone: pp])
     * intermittent windows of quiet materials shining through.
+    * piccolo fluttertongue acc. M14 incl. sciarrino whistle tones, aeolian
+      sounds, diaphragm accents, jet whistle
     * english horn M7 drawn from veale 206, 207, 210, 211.
 
 
@@ -255,6 +269,8 @@ ORCHESTRATION:
     (M14 [cello tremolo altissimo: ppp])
     (M6 [bass low tone: pp])
     * intermittent windows of quiet materials shining through.
+    * piccolo fluttertongue acc. M14 incl. sciarrino whistle tones, aeolian
+      sounds, diaphragm accents, jet whistle
     * english horn M7 drawn from veale 206, 207, 210, 211.
 
 
@@ -273,4 +289,6 @@ ORCHESTRATION:
     (M14 [cello tremolo altissimo: ppp])
     (M6 [bass low tone: pp])
     * intermittent windows of quiet materials shining through.
+    * piccolo fluttertongue acc. M14 incl. sciarrino whistle tones, aeolian
+      sounds, diaphragm accents, jet whistle
     * english horn M7 drawn from veale 206, 207, 210, 211.
