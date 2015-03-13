@@ -102,9 +102,9 @@ ORCHESTRATION:
     * bass flute M3 solo materials incl. fluttertongue, harmonics, double
       harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
       covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
-      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi.
-      bass flute M3 solo materials do not incl. singing, speaking, multiphonic
-      trills.
+      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi,
+      koizumi multiphonic trills, koizumi portamento trills.
+      bass flute M3 solo materials do not incl. singing, speaking.
     * english horn M6 are veale numbers 6, 13, 16, 17, 18.
     * english horn M3 solo materials incl. color finger., trills, microtones,
       fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
@@ -140,9 +140,9 @@ ORCHESTRATION:
     * bass flute M3 solo materials incl. fluttertongue, harmonics, double
       harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
       covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
-      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi.
-      bass flute M3 solo materials do not incl. singing, speaking, multiphonic
-      trills.
+      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi,
+      koizumi multiphonic trills, koizumi portamento trills.
+      bass flute M3 solo materials do not incl. singing, speaking.
     * english horn removes reed during this stage
     * english horn air tone (w/o reed) mixes inhales and exhales
 

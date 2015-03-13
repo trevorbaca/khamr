@@ -123,9 +123,9 @@ ORCHESTRATION:
     * bass flute M3 solo materials incl. fluttertongue, harmonics, double
       harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
       covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
-      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi.
-      bass flute M3 solo materials do not incl. singing, speaking, multiphonic
-      trills.
+      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi,
+      koizumi multiphonic trills, koizumi portamento trills.
+      bass flute M3 solo materials do not incl. singing, speaking.
 
 
     [2]
@@ -145,9 +145,9 @@ ORCHESTRATION:
     * bass flute M3 solo materials incl. fluttertongue, harmonics, double
       harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
       covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
-      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi.
-      bass flute M3 solo materials do not incl. singing, speaking, multiphonic
-      trills.
+      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi,
+      koizumi multiphonic trills, koizumi portamento trills.
+      bass flute M3 solo materials do not incl. singing, speaking.
     * english horn M3 solo materials incl. color finger., trills, microtones,
       fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
       no solo techniques without the reed.
@@ -171,9 +171,9 @@ ORCHESTRATION:
     * bass flute M3 solo materials incl. fluttertongue, harmonics, double
       harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
       covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
-      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi.
-      bass flute M3 solo materials do not incl. singing, speaking, multiphonic
-      trills.
+      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi,
+      koizumi multiphonic trills, koizumi portamento trills.
+      bass flute M3 solo materials do not incl. singing, speaking.
     * english horn M3 solo materials incl. color finger., trills, microtones,
       fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
       no solo techniques without the reed.
@@ -195,9 +195,9 @@ ORCHESTRATION:
     * bass flute M3 solo materials incl. fluttertongue, harmonics, double
       harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
       covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
-      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi.
-      bass flute M3 solo materials do not incl. singing, speaking, multiphonic
-      trills.
+      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi,
+      koizumi multiphonic trills, koizumi portamento trills.
+      bass flute M3 solo materials do not incl. singing, speaking.
     * oboist puts down english horn and takes whirly tube
 
 
@@ -216,9 +216,9 @@ ORCHESTRATION:
     * bass flute M3 solo materials incl. fluttertongue, harmonics, double
       harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
       covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
-      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi.
-      bass flute M3 solo materials do not incl. singing, speaking, multiphonic
-      trills.
+      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi,
+      koizumi multiphonic trills, koizumi portamento trills.
+      bass flute M3 solo materials do not incl. singing, speaking.
     * bass flute ext. quiet low M5 incl. double harmonics, whistle tones,
       sciarrino whistle tones, aeolian sounds
 
