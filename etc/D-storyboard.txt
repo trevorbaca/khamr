@@ -231,10 +231,11 @@ ORCHESTRATION:
     (AUX [guitar clicks])
     (AUX [piano clicks])
     (M17 [snare roll: fff])
-    (M12 [violin massed trills: ppp] ==> AUX [violin OB])
-    (M12 [viola massed trills: ppp] ==> AUX [viola OB])
-    (M12 [cello massed trills: ppp] ==> AUX [cello OB])
+    (M12 [violin massed trills: ppp] ==> AUX [violin OB + veleno])
+    (M12 [viola massed trills: ppp] ==> AUX [viola OB + veleno])
+    (M12 [cello massed trills: ppp] ==> AUX [cello OB + veleno])
     (M5 [bass low tone])
+    * V3, V4
     * bass flute ext. quiet low M5 incl. double harmonics, whistle tones,
       sciarrino whistle tones, aeolian sounds
 
@@ -247,10 +248,11 @@ ORCHESTRATION:
     (AUX [guitar clicks])
     (AUX [piano clicks])
 ----(M17 [snare roll: fff])
-    (AUX [violin OB])
-    (AUX [viola OB])
-    (AUX [cello OB])
+    (AUX [violin OB + veleno])
+    (AUX [viola OB + veleno])
+    (AUX [cello OB + veleno])
     (M5 [bass low tone])
+    * V3, V4
     * bass flute ext. quiet low M5 incl. double harmonics, whistle tones,
       sciarrino whistle tones, aeolian sounds
     * bass flute air tone mixes inhales, exhales, covered sound, uncovered
@@ -265,10 +267,11 @@ ORCHESTRATION:
     (AUX [guitar clicks])
     (AUX [piano clicks])
 ****(M2A [marimba seaweed guiro: ppp])
-    (AUX [violin OB])
-    (AUX [viola OB])
-    (AUX [cello OB])
+    (AUX [violin OB + veleno])
+    (AUX [viola OB + veleno])
+    (AUX [cello OB + veleno])
     (M5 [bass low tone])
+    * V3, V4
     * bass flute air tone mixes inhales, exhales, covered sound, uncovered
       sound
 
@@ -281,10 +284,11 @@ ORCHESTRATION:
     (AUX [guitar clicks])
     (AUX [piano clicks])
 ++++(M18 [china cymbal miasma: ppp])
-    (AUX [violin OB])
-    (AUX [viola OB])
-    (AUX [cello OB])
+    (AUX [violin OB + veleno])
+    (AUX [viola OB + veleno])
+    (AUX [cello OB + veleno])
     (M5 [bass low tone] ==> AUX [bass OB])
+    * V3, V4
     * bass flute air tone mixes inhales, exhales, covered sound, uncovered
       sound
     * oboist puts down whirly tubes and takes english horn
@@ -299,10 +303,11 @@ ORCHESTRATION:
     (AUX [guitar clicks])
     (AUX [piano clicks])
     (M18 [china cymbal miasma: ppp])
-    (AUX [violin OB])
-    (AUX [viola OB])
-    (AUX [cello OB])
-    (AUX [bass OB])
+    (AUX [violin OB + veleno])
+    (AUX [viola OB + veleno])
+    (AUX [cello OB + veleno])
+    (AUX [bass OB + veleno])
+    * V3, V4
     * bass flute air tone mixes inhales, exhales, covered sound, uncovered
       sound
     * flutist puts down bass flute and takes piccolo
@@ -320,10 +325,11 @@ ORCHESTRATION:
     (M18 [china cymbal miasma: niente < ppp])
     (M18 [38" tam-tam acc. to china cymbal])
     (M14 [30" tam-tam acc. to string tremolo altissimo])
-    (AUX [violin OB])
-    (AUX [viola OB])
+    (AUX [violin OB + veleno])
+    (AUX [viola OB + veleno])
 ++++(M14 [cello tremolo altissimo: ppp])
-    (AUX [bass OB] ==> M5 [bass low tone])
+    (AUX [bass OB + veleno] ==> M5 [bass low tone])
+    * V3, V4
     * english horn air tone mixes inhales and exhales
     * piccolo fluttertongue acc. M14 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle

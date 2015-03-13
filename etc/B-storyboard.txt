@@ -164,6 +164,7 @@ ORCHESTRATION:
     (M9 [cello sostenuti fantastiques])
     (M16 [contrabass extremely long string tremolo descent])
     (M4 [contrabass halo] + M9 [bass sostenuti fantastiques])
+    * V1, V2
     * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle
     * english horn air tone (w/o reed) mixes inhales and exhales

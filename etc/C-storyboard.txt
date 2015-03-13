@@ -128,6 +128,7 @@ ORCHESTRATION:
     (M9 [cello sostenuti fantastiques])
 ----(M16 [contrabass extremely long string tremolo descent: endpoint: ppp])
     (M4 [contrabass halo])
+    * V1, V2
     * make M19 fluttertongue distribute differently than piano;
       M19 fluttertongue rhythm should follow non-M19 material.
     * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones, aeolian
@@ -150,6 +151,7 @@ ORCHESTRATION:
     (M19 [viola sostenuti fantastiques] ==> M10 [viola tremoli fantastiques])
     (M19 [cello sostenuti fantastiques] ==> M10 [cello tremoli fantastiques])
     (M4 [contrabass halo] and M10 [contrabass tremoli fantastiques])
+    * V1, V2
     * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle
     * english horn M7 drawn from veale 180, 181, 182, 199.
