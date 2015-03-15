@@ -116,9 +116,9 @@ ORCHESTRATION:
     (M2A [piano seaweed guiro])
     (M2A [marimba seaweed guiro] ==> niente)
     (AUX [attackless bass drum: ppp])
-    (M2A [violin b-t-b pizzicati] ==> M12 [violin massed trills: ppp])
+    (M2A [violin b-t-b clb] ==> M12 [violin massed trills: ppp])
     (M12 [viola massed trills: niente < ppp])
-    (M2A [cello b-t-b pizzicati] ==> M12 [cello massed trills: ppp])
+    (M2A [cello b-t-b clb] ==> M12 [cello massed trills: ppp])
     (M12 [bass massed trills: niente < ppp])
     * bass flute M3 solo materials incl. fluttertongue, harmonics, double
       harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
@@ -126,6 +126,7 @@ ORCHESTRATION:
       smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi,
       koizumi multiphonic trills, koizumi portamento trills.
       bass flute M3 solo materials do not incl. singing, speaking.
+    * string M2A incl. tailpiece bowing
 
 
     [2]

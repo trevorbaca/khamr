@@ -112,6 +112,8 @@ ORCHESTRATION:
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
     * guitar lh taps are pitched but possibly fixed on a single pitch.
+    * string M16 tremolo descent is always directly in front of the finger
+    * contrbass halo M4 detunes III, IV to Eb1, F1
 
 
 
@@ -145,6 +147,10 @@ ORCHESTRATION:
       bass flute M3 solo materials do not incl. singing, speaking.
     * english horn removes reed during this stage
     * english horn air tone (w/o reed) mixes inhales and exhales
+    * string M16 tremolo descent is always directly in front of the finger
+    * string M9 sost. fant. incl. bowing on tailpiece
+    * string M9 sost. fant. animated with circular bowing
+    * contrbass halo M4 detunes III, IV to Eb1, F1
 
 
     [3]
@@ -170,5 +176,9 @@ ORCHESTRATION:
     * english horn air tone (w/o reed) mixes inhales and exhales
     * english horn inserts reed during this stage
     * english horn M7 drawn from veale 180, 181, 182, 199, 206, 207, 210, 211.
+    * string M16 tremolo descent is always directly in front of the finger
+    * string M9 sost. fant. incl. bowing on tailpiece
+    * string M9 sost. fant. animated with circular bowing
+    * contrbass halo M4 detunes III, IV to Eb1, F1
 
 [B] ends in a field of densely saturated color.

@@ -117,6 +117,8 @@ ORCHESTRATION:
 ++++(M4 [contrabass halo: "f"])
     * bass flute acc. M4 to halo incl. double harmonics, whistle tones
     * english horn air tone (w/o reed) mixes inhales and exhales
+    * string M4 acc. to halo incl. bowing on tail piece
+    * contrbass halo M4 detunes III, IV to Eb1, F1
 
 
     [2]
@@ -130,16 +132,19 @@ ORCHESTRATION:
     (M4 [piano tambour + low note doubling of 38" tam-tam])
     (M4 [struck 38" tam-tam acc. to halo: mp])
     (M4 [violin acc. to contrabass halo] ==> M8 [vn. pizz. fant.])
-    (M4 [viola acc. to contrabass halo] ==> M8 [va. pizz. fant.])
-    (M4 [cello acc. to contrabass halo] ==> M8 [vc. pizz. fant.)
+    (M4 [viola acc. to contrabass halo] ==> M8 [va. buzz clb fant.])
+    (M4 [cello acc. to contrabass halo] ==> M8 [vc. buzz clb fant.)
     (M4 [contrabass halo: "f"])
     * bass flute acc. M4 to halo incl. double harmonics, whistle tones
     * english horn air tone (w/o reed) mixes inhales and exhales
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
-    * string M8 pizz. fant. include two- and three-note slurred pizz.,
+    * string M4 acc. to halo incl. bowing on tail piece
+    * string M8 buzz clb fant. incl. two- and three-note slurred buzz clb
+    * string M8 pizz. fant. incl. two- and three-note slurred pizz.,
       lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
       nail pizz, dead (muta) pizz, turetzky lifted pizz.
+    * contrbass halo M4 detunes III, IV to Eb1, F1
 
 
     [3]
@@ -155,17 +160,20 @@ ORCHESTRATION:
     (M16 [groaned bass drum initiation to string tremolo descent])
 ++++(M16 [violin extremely long string tremolo descent: start])
     (M4 [violin acc. to contrabass halo] ==> M8 [vn. pizz. fant.])
-    (M4 [viola acc. to contrabass halo] ==> M8 [va. pizz. fant.])
-    (M4 [cello acc. to contrabass halo] ==> M8 [vc. pizz. fant.)
+    (M4 [viola acc. to contrabass halo] ==> M8 [va. buzz clb fant.])
+    (M4 [cello acc. to contrabass halo] ==> M8 [vc. buzz clb fant.)
     (M5 [contrabass extremely quiet low tone])
     * bass flute acc. M4 to halo incl. double harmonics, whistle tones
     * english horn air tone (w/o reed) mixes inhales and exhales
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
+    * string M16 tremolo descent is always directly in front of the finger
+    * string M4 acc. to halo incl. bowing on tail piece
+    * string M8 buzz clb fant. incl. two- and three-note slurred buzz clb
     * string M8 pizz. fant. include two- and three-note slurred pizz.,
       lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
       nail pizz, dead (muta) pizz, turetzky lifted pizz.
-
+    * contrbass halo M4 detunes III, IV to Eb1, F1
 
     [4]
     (M4 [bass flute halo acc.] ==> M5+M6 [quiet mult. + tone])
@@ -180,17 +188,21 @@ ORCHESTRATION:
     (M15 [woodblock underspine: start])
     (M16 [violin extremely long string tremolo descent])
     (M4 [violin acc. to contrabass halo] ==> M8 [vn. pizz. fant.])
-    (M4 [viola acc. to contrabass halo] ==> M8 [va. pizz. fant.])
-    (M4 [cello acc. to contrabass halo] ==> M8 [vc. pizz. fant.)
+    (M4 [viola acc. to contrabass halo] ==> M8 [va. buzz clb fant.])
+    (M4 [cello acc. to contrabass halo] ==> M8 [vc. buzz clb fant.)
     (M5 [contrabass extremely quiet low tone])
     * bass flute acc. M4 to halo incl. double harmonics, whistle tones
     * bass fl. M6 incl. levine 38/40(B4), 54/64(C5), 85/93(C#5)
     * english horn air tone (w/o reed) mixes inhales and exhales
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
+    * string M16 tremolo descent is always directly in front of the finger
+    * string M4 acc. to halo incl. bowing on tail piece
+    * string M8 buzz clb fant. incl. two- and three-note slurred buzz clb
     * string M8 pizz. fant. include two- and three-note slurred pizz.,
       lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
       nail pizz, dead (muta) pizz, turetzky lifted pizz.
+    * contrbass halo M4 detunes III, IV to Eb1, F1
 
 
     [5]
@@ -211,8 +223,8 @@ ORCHESTRATION:
     (M16 [groaned bass drum articulation of string tremolo hand-off])
     (M8 [violin pizzicati fantastiques: climax])
     (M16 [viola extremely long string tremolo descent])
-    (M8 [viola pizzicati fantastiques: climax])
-    (M8 [cello pizzicati fantastiques: climax])
+    (M8 [viola buzz clb fantastiques: climax])
+    (M8 [cello buzz clb fantastiques: climax])
     (M5 [contrabass extremely quiet low tone] ==> M4 [contrabass halo: "f")
     * bass flute acc. M4 to halo incl. double harmonics, whistle tones
     * bass fl. M6 incl. levine 38/40(B4), 54/64(C5), 85/93(C#5)
@@ -221,9 +233,12 @@ ORCHESTRATION:
     * english horn M6 are veale numbers 6, 13, 16, 17, 18.
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
+    * string M16 tremolo descent is always directly in front of the finger
+    * string M8 buzz clb fant. incl. two- and three-note slurred buzz clb
     * string M8 pizz. fant. include two- and three-note slurred pizz.,
       lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
       nail pizz, dead (muta) pizz, turetzky lifted pizz.
+    * contrbass halo M4 detunes III, IV to Eb1, F1
 
 
     [6]
@@ -243,8 +258,8 @@ ORCHESTRATION:
     (M6 [sparse triangle acc. to marimba pedal point])
     (M8 [violin pizzicati fantastiques] ==> M10 [violin tremoli fantastiques])
     (M16 [viola extremely long string tremolo descent])
-    (M8 [viola pizzicati fantastiques] ==> M10 [viola tremoli fantastiques])
-    (M8 [cello pizzicati fantastiques] ==> M10 [cello tremoli fantastiques])
+    (M8 [viola buzz clb fantastiques] ==> M10 [viola tremoli fantastiques])
+    (M8 [cello buzz clb fantastiques] ==> M10 [cello tremoli fantastiques])
     (M4 [contrabass halo: "f"] + M10 [contrabass tremoli fantastiques])
     * dramatic dynamic enveloping on M10 [tremoli fantastiques]
     * bass fl. M6 incl. levine 38/40(B4), 54/64(C5), 85/93(C#5)
@@ -252,9 +267,12 @@ ORCHESTRATION:
     * english horn M6 are veale numbers 6, 13, 16, 17, 18.
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
+    * string M16 tremolo descent is always directly in front of the finger
+    * string M8 buzz clb fant. incl. two- and three-note slurred buzz clb
     * string M8 pizz. fant. include two- and three-note slurred pizz.,
       lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
       nail pizz, dead (muta) pizz, turetzky lifted pizz.
+    * contrbass halo M4 detunes III, IV to Eb1, F1
 
 
     [7]
@@ -280,6 +298,9 @@ ORCHESTRATION:
     * english horn M6 are veale numbers 6, 13, 16, 17, 18.
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
+    * string M16 tremolo descent is always directly in front of the finger
+    * string M8 buzz clb fant. incl. two- and three-note slurred buzz clb
     * string M8 pizz. fant. include two- and three-note slurred pizz.,
       lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
       nail pizz, dead (muta) pizz, turetzky lifted pizz.
+    * contrbass halo M4 detunes III, IV to Eb1, F1
