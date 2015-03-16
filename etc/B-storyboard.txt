@@ -113,8 +113,8 @@ ORCHESTRATION:
       non-appuyé and half harmonics.
     * guitar lh taps are pitched but possibly fixed on a single pitch.
     * string M16 tremolo descent is always directly in front of the finger
-    * contrbass halo M4 detunes III, IV to Eb1, F1
-
+    * contrabass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 incl. pulled harmonics, multiphonics
 
 
     [2]
@@ -150,7 +150,8 @@ ORCHESTRATION:
     * string M16 tremolo descent is always directly in front of the finger
     * string M9 sost. fant. incl. bowing on tailpiece
     * string M9 sost. fant. animated with circular bowing
-    * contrbass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 incl. pulled harmonics, multiphonics
 
 
     [3]
@@ -179,6 +180,7 @@ ORCHESTRATION:
     * string M16 tremolo descent is always directly in front of the finger
     * string M9 sost. fant. incl. bowing on tailpiece
     * string M9 sost. fant. animated with circular bowing
-    * contrbass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 incl. pulled harmonics, multiphonics
 
 [B] ends in a field of densely saturated color.

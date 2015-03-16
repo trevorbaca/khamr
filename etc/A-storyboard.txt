@@ -118,7 +118,8 @@ ORCHESTRATION:
     * bass flute acc. M4 to halo incl. double harmonics, whistle tones
     * english horn air tone (w/o reed) mixes inhales and exhales
     * string M4 acc. to halo incl. bowing on tail piece
-    * contrbass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 incl. pulled harmonics, multiphonics
 
 
     [2]
@@ -144,7 +145,8 @@ ORCHESTRATION:
     * string M8 pizz. fant. incl. two- and three-note slurred pizz.,
       lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
       nail pizz, dead (muta) pizz, turetzky lifted pizz.
-    * contrbass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 incl. pulled harmonics, multiphonics
 
 
     [3]
@@ -173,7 +175,9 @@ ORCHESTRATION:
     * string M8 pizz. fant. include two- and three-note slurred pizz.,
       lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
       nail pizz, dead (muta) pizz, turetzky lifted pizz.
-    * contrbass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 incl. pulled harmonics, multiphonics
+
 
     [4]
     (M4 [bass flute halo acc.] ==> M5+M6 [quiet mult. + tone])
@@ -202,7 +206,8 @@ ORCHESTRATION:
     * string M8 pizz. fant. include two- and three-note slurred pizz.,
       lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
       nail pizz, dead (muta) pizz, turetzky lifted pizz.
-    * contrbass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 incl. pulled harmonics, multiphonics
 
 
     [5]
@@ -238,7 +243,8 @@ ORCHESTRATION:
     * string M8 pizz. fant. include two- and three-note slurred pizz.,
       lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
       nail pizz, dead (muta) pizz, turetzky lifted pizz.
-    * contrbass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 incl. pulled harmonics, multiphonics
 
 
     [6]
@@ -272,7 +278,8 @@ ORCHESTRATION:
     * string M8 pizz. fant. include two- and three-note slurred pizz.,
       lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
       nail pizz, dead (muta) pizz, turetzky lifted pizz.
-    * contrbass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 incl. pulled harmonics, multiphonics
 
 
     [7]
@@ -303,4 +310,5 @@ ORCHESTRATION:
     * string M8 pizz. fant. include two- and three-note slurred pizz.,
       lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
       nail pizz, dead (muta) pizz, turetzky lifted pizz.
-    * contrbass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 incl. pulled harmonics, multiphonics
