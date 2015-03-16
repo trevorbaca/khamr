@@ -137,7 +137,8 @@ ORCHESTRATION:
     * string M16 tremolo descent is always directly in front of the finger
     * string M9 sost. fant. incl. bowing on tailpiece
     * string M9 sost. fant. animated with circular bowing
-    * contrbass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 incl. pulled harmonics, multiphonics
     
 
     [2]
@@ -163,7 +164,8 @@ ORCHESTRATION:
       half-harmonic to harmonic pressure and back durings its duration.
     * string M9 sostenuti fantastiques incl. bowing on tailpiece
     * string M9 sost. fant. animated with circular bowing
-    * contrbass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 incl. pulled harmonics, multiphonics
 
 
     [3]
@@ -192,7 +194,8 @@ ORCHESTRATION:
       half-harmonic to harmonic pressure and back durings its duration.
     * string M9 sost. fant. incl. bowing on tailpiece
     * string M9 sost. fant. animated with circular bowing
-    * contrbass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 incl. pulled harmonics, multiphonics
 
 
     [4]
@@ -215,7 +218,8 @@ ORCHESTRATION:
       no solo techniques without the reed.
     * guitar half-harmonic tremolo glissando transitions from stopped to
       half-harmonic to harmonic pressure and back durings its duration.
-    * contrbass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 incl. pulled harmonics, multiphonics
 
 
     [5]
@@ -241,7 +245,8 @@ ORCHESTRATION:
     * guitar "koto" (snap pizz. behind lh) coattacks on lower string
     * guitar half-harmonic tremolo glissando transitions from stopped to
       half-harmonic to harmonic pressure and back durings its duration.
-    * contrbass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 incl. pulled harmonics, multiphonics
 
 
     [6]
@@ -257,7 +262,8 @@ ORCHESTRATION:
     (M10 [viola tremoli fantastiques])
     (M10 [cello tremoli fantastiques])
     (M4 [contrabass halo] and M10 [contrabass tremoli fantastiques])
-    * contrbass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 incl. pulled harmonics, multiphonics
 
 
     [7]
@@ -282,7 +288,8 @@ ORCHESTRATION:
     * oboe M3 solo materials incl. color finger., trills, microtones,
       fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
       no solo techniques without the reed.
-    * contrbass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 incl. pulled harmonics, multiphonics
 
 
     [8]
@@ -308,7 +315,8 @@ ORCHESTRATION:
     * flutist puts down flute and takes bass flute
     * oboe removes reed
     * string M2A incl. tailpiece bowing
-    * contrbass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 incl. pulled harmonics, multiphonics
 
 
     [9]
@@ -328,4 +336,5 @@ ORCHESTRATION:
     (M2A [cello b-t-b clb])
 ----(M4 [contrabass halo])
     * string M2A incl. tailpiece bowing
-    * contrbass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 detunes III, IV to Eb1, F1
+    * contrabass halo M4 incl. pulled harmonics, multiphonics
