@@ -103,13 +103,18 @@ ORCHESTRATION:
       harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
       covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
       smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi,
-      koizumi multiphonic trills, koizumi portamento trills.
+      koizumi multiphonic trills, koizumi portamento trills, tongueless attacks
       bass flute M3 solos do not incl. singing, speaking.
+    * bass clar. M3 solos incl. tongueless attacks, multiphonics,
+      trilled multiphonics, pedal key trilled single notes, bisbigliandi,
+      color fingerings, pitch bends (check chart), smorzato, fluttertongue,
+      slap, key percussion
+      bass clar. M3 solos do not incl. teeth squeaks, secco slap
     * bar. sax. M6 quiet mult. incl. quiet dyads
     * bar. sax. M3 solos incl. slap, open slap, tongue ram (w/ mp),
       fluttertongue, smorzato, bisbigliandi, tongue stops on reed,
       trills, double trills (avoid D, Eb), sciarrino C5 trills, glissandi,
-      trilled glissandi, key percussion
+      trilled glissandi, key percussion, tongueless attacks
       bar. sax. M3 solos do not incl. secco slap, tongue ram (w/o mp),
       teeth tone, tremoli, harmonics, singing, speaking;
       no solo techniques without the reed.
