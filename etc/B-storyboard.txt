@@ -99,12 +99,20 @@ ORCHESTRATION:
     (M10 [cello tremoli fantastiques] ==> M12 [cello massed trills: climax])
     (M4 [contrabass halo] + M10 [bass tremoli] ==> M12 [bass trills: climax])
     * bass fl. M10 tremoli incl. harmonic tremoli
-    * bass flute M3 solo materials incl. fluttertongue, harmonics, double
+    * bass flute M3 solos incl. fluttertongue, harmonics, double
       harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
       covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
       smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi,
       koizumi multiphonic trills, koizumi portamento trills.
-      bass flute M3 solo materials do not incl. singing, speaking.
+      bass flute M3 solos do not incl. singing, speaking.
+    * bar. sax. M6 quiet mult. incl. quiet dyads
+    * bar. sax. M3 solos incl. slap, open slap, tongue ram (w/ mp),
+      fluttertongue, smorzato, bisbigliandi, tongue stops on reed,
+      trills, double trills (avoid D, Eb), sciarrino C5 trills, glissandi,
+      trilled glissandi, key percussion
+      bar. sax. M3 solos do not incl. secco slap, tongue ram (w/o mp),
+      teeth tone, tremoli, harmonics, singing, speaking;
+      no solo techniques without the reed.
     * english horn M6 are veale numbers 6, 13, 16, 17, 18.
     * english horn M3 solo materials incl. color finger., trills, microtones,
       fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
@@ -136,15 +144,22 @@ ORCHESTRATION:
     (M4 [contrabass halo] + M12 [bass trills: climax] ==> M9 [bass sost.])
     * increase dynamics during M3 ==> M9 to preserve energy.
     * increase dynamics during M12 ==> M9 to preserve energy.
-    * english horn M3 solo materials incl. color finger., trills, microtones,
-      fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
-      no solo techniques without the reed.
     * bass flute M3 solo materials incl. fluttertongue, harmonics, double
       harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
       covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
       smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi,
       koizumi multiphonic trills, koizumi portamento trills.
       bass flute M3 solo materials do not incl. singing, speaking.
+    * bar. sax. M3 solos incl. slap, open slap, tongue ram (w/ mp),
+      fluttertongue, smorzato, bisbigliandi, tongue stops on reed,
+      trills, double trills (avoid D, Eb), sciarrino C5 trills, glissandi,
+      trilled glissandi, key percussion
+      bar. sax. M3 solos do not incl. secco slap, tongue ram (w/o mp),
+      teeth tone, tremoli, harmonics, singing, speaking;
+      no solo techniques without the reed.
+    * english horn M3 solo materials incl. color finger., trills, microtones,
+      fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
+      no solo techniques without the reed.
     * english horn removes reed during this stage
     * english horn air tone (w/o reed) mixes inhales and exhales
     * string M16 tremolo descent is always directly in front of the finger

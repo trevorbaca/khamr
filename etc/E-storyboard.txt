@@ -133,6 +133,8 @@ ORCHESTRATION:
     * intermittent windows of quiet materials shining through.
     * piccolo fluttertongue acc. M14 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle
+    * bar. sax. M5 quiet low tone written as subtone
+    * bar. sax. M6 quiet multiphonics includes quiet dyads
 
 
     [2]
@@ -152,6 +154,8 @@ ORCHESTRATION:
     * intermittent windows of quiet materials shining through.
     * piccolo fluttertongue acc. M14 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle
+    * bar. sax. M5 quiet low tone written as subtone
+    * bar. sax. M6 quiet multiphonics includes quiet dyads
 
 
     [3]
@@ -171,6 +175,7 @@ ORCHESTRATION:
     * intermittent windows of quiet materials shining through.
     * piccolo fluttertongue acc. M14 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle
+    * bar. sax. M6 quiet multiphonics includes quiet dyads
 
 
     [4]
@@ -190,6 +195,7 @@ ORCHESTRATION:
     * intermittent windows of quiet materials shining through.
     * piccolo fluttertongue acc. M14 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle
+    * bar. sax. M6 quiet multiphonics includes quiet dyads
 
 
     [5]
