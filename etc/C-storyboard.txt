@@ -186,6 +186,13 @@ ORCHESTRATION:
     (M4 [contrabass halo] and M10 [contrabass tremoli fantastiques])
     * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle
+    * bar. sax. M3 solos incl. slap, open slap, tongue ram (w/ mp),
+      fluttertongue, smorzato, bisbigliandi, tongue stops on reed,
+      trills, double trills (avoid D, Eb), sciarrino C5 trills, glissandi,
+      trilled glissandi, key percussion
+      bar. sax. M3 solos do not incl. secco slap, tongue ram (w/o mp),
+      teeth tone, tremoli, harmonics, singing, speaking;
+      no solo techniques without the reed.
     * english horn M7 drawn from veale 180, 181, 182, 199.
     * english horn M3 solo materials incl. color finger., trills, microtones,
       fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
@@ -213,6 +220,13 @@ ORCHESTRATION:
     (M4 [contrabass halo] and M10 [contrabass tremoli fantastiques])
     * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle
+    * bar. sax. M3 solos incl. slap, open slap, tongue ram (w/ mp),
+      fluttertongue, smorzato, bisbigliandi, tongue stops on reed,
+      trills, double trills (avoid D, Eb), sciarrino C5 trills, glissandi,
+      trilled glissandi, key percussion
+      bar. sax. M3 solos do not incl. secco slap, tongue ram (w/o mp),
+      teeth tone, tremoli, harmonics, singing, speaking;
+      no solo techniques without the reed.
     * english horn M3 solo materials incl. color finger., trills, microtones,
       fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
       no solo techniques without the reed.
@@ -238,6 +252,13 @@ ORCHESTRATION:
     * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle
     * flutist puts down bass flute and takes flute
+    * bar. sax. M3 solos incl. slap, open slap, tongue ram (w/ mp),
+      fluttertongue, smorzato, bisbigliandi, tongue stops on reed,
+      trills, double trills (avoid D, Eb), sciarrino C5 trills, glissandi,
+      trilled glissandi, key percussion
+      bar. sax. M3 solos do not incl. secco slap, tongue ram (w/o mp),
+      teeth tone, tremoli, harmonics, singing, speaking;
+      no solo techniques without the reed.
     * english horn M3 solo materials incl. color finger., trills, microtones,
       fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
       no solo techniques without the reed.
