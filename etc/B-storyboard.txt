@@ -85,6 +85,7 @@ ORCHESTRATION:
     (M6 [english horn quiet double harmonics] ==> M3 [eng. horn solos])
     (M6 [bass clarinet quiet multiphonics] ==> M3 [bass cl. solos])
     (M6 [baritone sax quiet multiphonics] ==> M3 [baritone sax solos])
+    --
     (M8 [guitar pizz. fant.] ==> niente; AUX [guitar rh clicks + lh taps])
     (M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
     (AUX [piano clicks])
@@ -93,6 +94,7 @@ ORCHESTRATION:
     (M18 [30" tam-tam acc. to china cymbal])
     (M6 [marimba low pedal-point acc. to quiet mult.] ==> niente)
     (M6 [sparse triangle acc. to marimba pedal point])
+    --
     (M10 [violin tremoli fantastiques] ==> M12 [violin massed trills: climax])
     (M16 [viola extremely long string tremolo descent])
     (M10 [viola tremoli fantastiques] ==> M12 [viola massed trills: climax])
@@ -135,6 +137,7 @@ ORCHESTRATION:
     (M3 [eng. horn solos] ==> M9 [eng. horn air tone sotenuti fantastiques])
     (M3 [bass cl. solos] ==> M9 [bass cl. sostenuti fantastiques])
     (M3 [baritone sax solos] ==> M9 [baritone sax sostenuti fanastiques])
+    --
     (AUX [guitar rh clicks + lh taps])
     (M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
     (AUX [piano clicks])
@@ -142,6 +145,7 @@ ORCHESTRATION:
     (M18 [china cymbal miasma: mf < f > mf < f > mf < f])
     (M18 [30" tam-tam acc. to china cymbal])
     (M16 [groaned bass drum articulation of string tremolo hand-off])
+    --
     (M12 [violin massed trills: climax] ==> M9 [violin sostenuti fantastiques])
     (M12 [viola massed trills: climax] ==> M9 [viola sostenuti fantastiques])
     (M12 [cello massed trills: climax] ==> M9 [cello sostenuti fantastiques])
@@ -179,6 +183,7 @@ ORCHESTRATION:
     (M9 [english horn air tone sost.] ==> M7 [english horn fer. mult: climax])
     (M9 [bass cl. sost. fant.] ==> M7 [bass cl. ferocious multi.: climax])
     (M9 [bar. sax. sost. fant.] ==> M7 [bar. sax. ferocious multi.: climax])
+    --
     (AUX [guitar rh clicks + lh taps] ==> M19 [guitar mand. line acc. to cad.])
     (M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
     (AUX [piano clicks] ==> M19 [piano lightning cadenza])
@@ -186,6 +191,7 @@ ORCHESTRATION:
     (M18 [china cymbal miasma: f < ff > f < ff > f < ff]
     (M18 [30" tam-tam acc. to china cymbal])
     (M16 [groaned bass drum articulation of string tremolo hand-off])
+    --
     (M9 [violin sostenuti fantastiques] ==> M19 [violin mandolin acc. to cad.])
     (M9 [viola sostenuti fantastiques])
     (M9 [cello sostenuti fantastiques])

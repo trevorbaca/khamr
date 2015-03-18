@@ -102,15 +102,17 @@ ORCHESTRATION:
 
     [1]
     (M4 [bass flute acc. to contrabass halo: niente < p])
-    (M2B [(oboist) guiro burst strokes: very short foreshadow of [E])
-    (M4 [english horn air tone (w/o reed) acc. to halo: niente < p])
+    (M2B [(oboist) guiro burst strokes: very short foreshadow of [E];
+         M4 [english horn air tone (w/o reed) acc. to halo: niente < p])
     (M4 [bass clarinet acc. to contrabass halo: niente < p])
     (M4 [baritone sax acc. to contrabass halo: niente < p])
+    --
     (M4 [guitar pitched tambour doubling of 38" tam-tam])
     (M14 [shakers (guitar): fff: very short foreshadow of [E])
     (M4 [piano tambour + low note doubling of 38" tam-tam])
     (M4 [struck 38" tam-tam acc. to halo: mp])
     (M1 [castanets and triangle: very sparse foreshadow of [C])
+    --
     (M4 [violin acc. to contrabass halo: niente < p])
     (M4 [viola acc. to contrabass halo: niente < p])
     (M4 [cello acc. to contrabass halo: niente < p])
@@ -129,10 +131,12 @@ ORCHESTRATION:
         M8 [english horn slap-tongue (w/o reed) acc. to guitar])
     (M4 [bass cl. halo acc.] ==> M5 [bass cl. ext. quiet low tone])
     (M4 [baritone sax halo acc.] ==> M5 [baritone sax ext. quiet low tone])
+    --
 ++++(M8 [guitar pizzicati fantastiques: sparse < denser])
     (M4 [guitar pitched tambour doubling of 38" tam-tam])
     (M4 [piano tambour + low note doubling of 38" tam-tam])
     (M4 [struck 38" tam-tam acc. to halo: mp])
+    --
     (M4 [violin acc. to contrabass halo] ==> M8 [vn. pizz. fant.])
     (M4 [viola acc. to contrabass halo] ==> M8 [va. buzz clb fant.])
     (M4 [cello acc. to contrabass halo] ==> M8 [vc. buzz clb fant.)
@@ -158,11 +162,13 @@ ORCHESTRATION:
         M8 [english horn slap-tongue (w/o reed) acc. to guitar])
     (M5 [bass clarinet extremely quiet low tone])
     (M5 [baritone sax extremely quiet low tone])
+    --
     (M8 [guitar pizzicati fantastiques])
     (M4 [guitar pitched tambour doubling of 38" tam-tam])
     (M4 [piano tambour + low note doubling of 38" tam-tam])
     (M4 [struck 38" tam-tam acc. to halo: mp])
     (M16 [groaned bass drum initiation to string tremolo descent])
+    --
 ++++(M16 [violin extremely long string tremolo descent: start])
     (M4 [violin acc. to contrabass halo] ==> M8 [vn. pizz. fant.])
     (M4 [viola acc. to contrabass halo] ==> M8 [va. buzz clb fant.])
@@ -189,11 +195,13 @@ ORCHESTRATION:
         M8 [english horn slap-tongue (w/o reed) acc. to guitar])
     (M5 [bass clarinet extremely quiet low tone])
     (M5 [baritone sax extremely quiet low tone])
+    --
     (M8 [guitar pizzicati fantastiques: climax])
     (M4 [guitar pitched tambour doubling of 38" tam-tam])
     (M4 [piano tambour + low note doubling of 38" tam-tam])
     (M4 [struck 38" tam-tam acc. to halo: mp])
     (M15 [woodblock underspine: start])
+    --
     (M16 [violin extremely long string tremolo descent])
     (M4 [violin acc. to contrabass halo] ==> M8 [vn. pizz. fant.])
     (M4 [viola acc. to contrabass halo] ==> M8 [va. buzz clb fant.])
@@ -222,6 +230,7 @@ ORCHESTRATION:
         niente ==> M6 [english horn quiet double harmonics])
     (M5+M6 [bass cl. quiet mult. + pure tone] ==> M6 [quiet mult.])
     (M5+M6 [baritone sax. quiet mult. + pure tone] ==> M6 [quiet mult.])
+    --
     (M8 [guitar pizzicati fantastiques])
     (M4 [guitar pitched tambour doubling of 38" tam-tam])
     (M4 [piano tambour + low note doubling of 38" tam-tam])
@@ -231,6 +240,7 @@ ORCHESTRATION:
     (M6 [marimba low pedal-point acc. to quiet mult.])
     (M6 [sparse triangle acc. to marimba pedal point])
     (M16 [groaned bass drum articulation of string tremolo hand-off])
+    --
     (M8 [violin pizzicati fantastiques: climax])
     (M16 [viola extremely long string tremolo descent])
     (M8 [viola buzz clb fantastiques: climax])
@@ -260,6 +270,7 @@ ORCHESTRATION:
     (M6 [english horn quiet double harmonics]) 
     (M6 [bass clarinet quiet multiphonic complexes])
     (M6 [baritone saxophone quiet multiphonic complexes])
+    --
     (M8 [guitar pizzicati fantastiques])
     (M4 [guitar pitched tambour doubling of 38" tam-tam])
     (M4 [piano tambour + low note doubling of 38" tam-tam])
@@ -269,6 +280,7 @@ ORCHESTRATION:
     (M15 [woodblock underspine])
     (M6 [marimba low pedal-point acc. to quiet mult.])
     (M6 [sparse triangle acc. to marimba pedal point])
+    --
     (M8 [violin pizzicati fantastiques] ==> M10 [violin tremoli fantastiques])
     (M16 [viola extremely long string tremolo descent])
     (M8 [viola buzz clb fantastiques] ==> M10 [viola tremoli fantastiques])
@@ -295,6 +307,7 @@ ORCHESTRATION:
     (M6 [english horn quiet double harmonics])
     (M6 [bass clarinet quiet multiphonic complexes])
     (M6 [baritone saxophone quiet multiphonic complexes])
+    --
     (M8 [guitar pizzicati fantastiques])
     (M4 [guitar pitched tambour doubling of 38" tam-tam])
     (M4 [piano tambour + low note doubling of 38" tam-tam])
@@ -303,6 +316,7 @@ ORCHESTRATION:
     (M6 [marimba low pedal-point acc. to quiet mult.])
     (M6 [sparse triangle acc. to marimba pedal point])
     (M4 [struck 38" tam-tam acc. to halo: mp])
+    --
     (M8 [violin pizzicati fantastiques] ==> M10 [violin tremoli fantastiques])
     (M16 [viola extremely long string tremolo descent])
     (M8 [viola pizzicati fantastiques] ==> M10 [viola tremoli fantastiques])
