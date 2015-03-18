@@ -1,3 +1,21 @@
+PERCUSSION:
+
+    large tam-tam
+    very large tam-tam
+    triangle
+    whirly tubes
+    tibetan temple bowls
+    castanets
+    22" china cymbal
+    27" china cymbal
+    suspended almglocken (5)
+    maracas
+    caxixi
+    snare
+    guiros
+    bass drum
+    marimba
+
 AUXILIARY PERCUSSION:
 
     triangles
