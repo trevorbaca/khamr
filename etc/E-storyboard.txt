@@ -117,9 +117,9 @@ ORCHESTRATION:
 
     [1]
     (M14 [picc. fluttertongue acc. to string tremolo altissimo])
+++++(M2B [guiro burst strokes (oboist): dense])
     (M5 [bass clar. low tone] + M6 [bass clar. quiet multiphonics])
     (M5 [baritone sax low tone] + M6 [baritone sax quiet multiphonics])
-++++(M2B [guiro burst strokes (oboist): dense])
     (M14 [shakers (guitarist): fff])
     (M19 [piano lightning cadenza: upper register]) 
     (M18 [china cymbal miasma: p])
@@ -139,9 +139,9 @@ ORCHESTRATION:
 
     [2]
     (M14 [picc. fluttertongue acc. to string tremolo altissimo])
+    (M2B [guiro burst strokes (oboist): sparser])
     (M5 [bass clar. low tone] + M6 [bass clar. quiet multiphonics])
     (M5 [baritone sax low tone] + M6 [baritone sax quiet multiphonics])
-    (M2B [guiro burst strokes (oboist): sparser])
     (M14 [shakers (guitarist): fff])
     (M19 [piano lightning cadenza: upper register]) 
     (M18 [china cymbal miasma: mp])
@@ -160,9 +160,9 @@ ORCHESTRATION:
 
     [3]
     (M14 [picc. fluttertongue acc. to string tremolo altissimo])
+    (M2B [guiro burst strokes (oboist): even sparser])
     (M6 [bass clar. quiet multiphonics])
     (M6 [baritone sax quiet multiphonics])
-    (M2B [guiro burst strokes (oboist): even sparser])
     (M14 [shakers (guitarist): fff])
     (M19 [piano lightning cadenza: upper register]) 
     (M18 [china cymbal miasma: mf])
@@ -180,9 +180,9 @@ ORCHESTRATION:
 
     [4]
     (M14 [picc. fluttertongue acc. to string tremolo altissimo])
+    (M2B [guiro burst strokes (oboist): even sparser still])
     (M6 [bass cl. quiet multiphonics] ==> M7 [bass cl. ferocious multi.])
     (M6 [bar. sax quiet multiphonics] ==> M7 [bar. sax ferocious multi.])
-    (M2B [guiro burst strokes (oboist): even sparser still])
     (M14 [shakers (guitarist): fff])
     (M19 [piano lightning cadenza: upper register]) 
     (M18 [china cymbal miasma: f])
@@ -200,9 +200,9 @@ ORCHESTRATION:
 
     [5]
     (M14 [picc. fluttertongue acc. to string tremolo altissimo])
+    (M2B [guiro burst strokes (oboist): sparser to niente])
     (M6 [bass cl. quiet multiphonics] ==> M7 [bass cl. ferocious multi.])
     (M6 [bar. sax quiet multiphonics] ==> M7 [bar. sax ferocious multi.])
-    (M2B [guiro burst strokes (oboist): sparser to niente])
     (M14 [shakers (guitarist): fff])
     (M19 [piano lightning cadenza: descending]) 
     (M18 [china cymbal miasma: f])
@@ -221,9 +221,9 @@ ORCHESTRATION:
 
     [6]
     (M14 [picc. fluttertongue acc. to string tremolo altissimo])
-    ([bass clarinet ferocious multiphonics])
-    ([baritone sax ferocious multiphonics])
-++++([english horn: ferocious multiphonics])
+++++(M7 [english horn: ferocious multiphonics])
+    (M7 [bass clarinet ferocious multiphonics])
+    (M7 [baritone sax ferocious multiphonics])
     (M14 [shakers (guitarist): fff])
     (M19 [piano lightning cadenza: very low: fffff]) 
     (M18 [china cymbal miasma: ff])
@@ -241,9 +241,9 @@ ORCHESTRATION:
 
     [7]
     (M14+M1+M19+M7 [picc. fluttertongue])
+    (M7 [english horn: ferocious multiphonics])
     (M7 [bass cl. ferocious multi.] ==> M6 [bass cl quiet multi.])
     (M7 [bar. sax. ferocious multi.] ==> M6 [bar. sax. quiet multi.])
-    (M7 [english horn: ferocious multiphonics])
 ++++(M2A [guitar seaweed guiro])
     (M19 [piano lightning cadenza: rising]) 
     (M18 [china cymbal miasma: fff])
@@ -261,10 +261,10 @@ ORCHESTRATION:
 
     [8]
     (M14+M1+M19+M7 [picc. fluttertongue])
+    (M7 [english horn: ferocious multiphonics])
     (M5 [bass flute extremely quiet tone])
     (M6 [bass clarient extremely quiet multiphonics])
     (M6 [baritone saxophone extremely quiet multiphonics])
-    (M7 [english horn: ferocious multiphonics])
 ----(M2A [guitar seaweed guiro])
     (M19 [piano lightning cadenza: very high: fffff]) 
     (M18 [china cymbal miasma: fff])
@@ -282,9 +282,9 @@ ORCHESTRATION:
 
     [9]
     (M14+M1+M19+M7 [picc. fluttertongue])
+    (M7 [english horn: ferocious multiphonics])
     (M6 [bass clarient extremely quiet multiphonics])
     (M6 [baritone saxophone extremely quiet multiphonics])
-    (M7 [english horn: ferocious multiphonics])
     (M14 [shakers (guitarist): fff])
     (M19 [piano lightning cadenza: very high: fffff]) 
     (M18 [china cymbal miasma: fff > p < fff > p < fff])

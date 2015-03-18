@@ -82,9 +82,9 @@ ORCHESTRATION:
 
     [1]
     (M10 [bass fl. tremoli fantastiques] ==> M3 [bass fl. solos])
+    (M6 [english horn quiet double harmonics] ==> M3 [eng. horn solos])
     (M6 [bass clarinet quiet multiphonics] ==> M3 [bass cl. solos])
     (M6 [baritone sax quiet multiphonics] ==> M3 [baritone sax solos])
-    (M6 [english horn quiet double harmonics] ==> M3 [eng. horn solos])
     (M8 [guitar pizz. fant.] ==> niente; AUX [guitar rh clicks + lh taps])
     (M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
     (AUX [piano clicks])
@@ -132,9 +132,9 @@ ORCHESTRATION:
 
     [2]
     (M3 [bass fl. solos] ==> niente)
+    (M3 [eng. horn solos] ==> M9 [eng. horn air tone sotenuti fantastiques])
     (M3 [bass cl. solos] ==> M9 [bass cl. sostenuti fantastiques])
     (M3 [baritone sax solos] ==> M9 [baritone sax sostenuti fanastiques])
-    (M3 [eng. horn solos] ==> M9 [eng. horn air tone sotenuti fantastiques])
     (AUX [guitar rh clicks + lh taps])
     (M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
     (AUX [piano clicks])
@@ -176,9 +176,9 @@ ORCHESTRATION:
 
     [3]
     (niente ==> M19 [bass flute flutt. acc to piano lightning cadenza])
+    (M9 [english horn air tone sost.] ==> M7 [english horn fer. mult: climax])
     (M9 [bass cl. sost. fant.] ==> M7 [bass cl. ferocious multi.: climax])
     (M9 [bar. sax. sost. fant.] ==> M7 [bar. sax. ferocious multi.: climax])
-    (M9 [english horn air tone sost.] ==> M7 [english horn fer. mult: climax])
     (AUX [guitar rh clicks + lh taps] ==> M19 [guitar mand. line acc. to cad.])
     (M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
     (AUX [piano clicks] ==> M19 [piano lightning cadenza])

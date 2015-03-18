@@ -108,9 +108,9 @@ ORCHESTRATION:
 
     [1]
     (M2A [bass flute whistle tones] ==> M3 [bass flute dialoguing solos])
+    (M2A [oboe slap (w/o reed)] ==> niente)
     (M2A [b-flat slap] ==> M3 [b-flat clarinet dialoguing solos])
     (M3 [baritone sax dialoguing solos: niente < p])
-    (M2A [oboe slap (w/o reed)] ==> niente)
     (M2A [guitar seaweed guiro])
     (M2A [guitar b-t-nut pizzicati])
     (M2A [piano seaweed guiro])
@@ -138,9 +138,9 @@ ORCHESTRATION:
 
     [2]
 ++++(M3 [bass flute dialoguing solos])
+++++(M3 [english horn dialoguing solos])
     (M3 [b-flat clarinet dialoguing solos])
     (M3 [baritone sax dialoguing solos])
-++++(M3 [english horn dialoguing solos])
     (M2A [guitar seaweed guiro] alt. AUX [guitar clicks])
     (M2A [guitar b-t-nut pizzicati])
     (M2A [piano seaweed guiro] alt. AUX [piano clicks])
@@ -170,9 +170,9 @@ ORCHESTRATION:
 
     [3]
     (M3 [bass flute dialoguing solos])
+    (M3 [english horn dialoguing solos])
     (M3 [b-flat clarinet dialoguing solos])
     (M3 [baritone sax dialoguing solos])
-    (M3 [english horn dialoguing solos])
     (AUX [guitar clicks])
     (M2A [guitar b-t-nut pizzicati])
     (M17 [guitar multiphonics 6G/6J acc. to almglocken])
@@ -203,9 +203,9 @@ ORCHESTRATION:
 
     [4]
     (M3 [bass flute dialoguing solos])
+++++(M20 [whirly tubes (oboist)])
     (M3 [b-flat clarinet dialoguing solos])
     (M3 [baritone sax dialoguing solos])
-++++(M20 [whirly tubes (oboist)])
     (AUX [guitar clicks])
     (AUX [piano clicks])
 ++++(M17 [snare roll: fff])
@@ -232,9 +232,9 @@ ORCHESTRATION:
 
     [5]
     (M3 [bass flute dialoguing solos] ==> M5 [bass fl ext quiet low])
+    (M20 [whirly tubes (oboist)])
     (M3 [b-flat cl. solos] ==> M5 [bass cl. ext quiet low])
     (M3 [bar. sax dialoguing solos] ==> M5 [bar. sax. ext quiet low])
-    (M20 [whirly tubes (oboist)])
     (AUX [guitar clicks])
     (AUX [piano clicks])
     (M17 [snare roll: fff])
@@ -262,9 +262,9 @@ ORCHESTRATION:
 
     [6]
     (M5 [bass fl ext quiet low])
+    (M20 [whirly tubes (oboist)])
     (M5 [bass cl. ext quiet low])
     (M5 [bar. sax. ext quiet low] ==> AUX [bar. sax. air tone])
-    (M20 [whirly tubes (oboist)])
     (AUX [guitar clicks])
     (AUX [piano clicks])
     (M17 [snare roll: fff])
@@ -281,9 +281,9 @@ ORCHESTRATION:
 
     [7]
     (M5 [bass fl ext quiet low] ==> AUX [bass flute air tone])
+    (M20 [whirly tubes (oboist)])
     (M5 [bass cl. ext quiet low])
     (AUX [bar. sax. air tone])
-    (M20 [whirly tubes (oboist)])
     (AUX [guitar clicks])
     (AUX [piano clicks])
 ----(M17 [snare roll: fff])
@@ -301,9 +301,9 @@ ORCHESTRATION:
 
     [8]
     (AUX [bass flute air tone])
+    (M20 [whirly tubes (oboist)])
     (M5 [bass cl. ext quiet low])
     (AUX [bar. sax. air tone])
-    (M20 [whirly tubes (oboist)])
     (AUX [guitar clicks])
     (AUX [piano clicks])
 ****(M2A [marimba seaweed guiro: ppp])
@@ -319,9 +319,9 @@ ORCHESTRATION:
 
     [9]
     (AUX [bass flute air tone])
+    (AUX [english horn air tone (w/o reed)])
     (M5 [bass cl. ext quiet low] ==> AUX [bass clarinet air tone])
     (AUX [bar. sax. air tone])
-    (AUX [english horn air tone (w/o reed)])
     (AUX [guitar clicks])
     (AUX [piano clicks])
 ++++(M18 [china cymbal miasma: ppp])
@@ -339,9 +339,9 @@ ORCHESTRATION:
 
     [10]
     (AUX [bass flute air tone])
+    (AUX [english horn air tone (w/o reed)])
     (AUX [bass clarinet air tone])
     (AUX [bar. sax. air tone])
-    (AUX [english horn air tone (w/o reed)])
     (AUX [guitar clicks])
     (AUX [piano clicks])
     (M18 [china cymbal miasma: ppp])
@@ -359,9 +359,9 @@ ORCHESTRATION:
 
     [11]
     (M14 [picc. fluttertongue acc. to string tremolo altissimo])
+    (AUX [english horn air tone (w/o reed)])
     (AUX [bass clarinet air tone] ==> M5 [bass cl. ext quiet low])
     (AUX [bar. sax. air tone] ==> M5 [bar. sax. ext quiet low])
-    (AUX [english horn air tone (w/o reed)])
     (AUX [guitar clicks])
     (M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
     (AUX [piano clicks])
@@ -382,9 +382,9 @@ ORCHESTRATION:
     [12]
     (M14 [picc. fluttertongue acc. to string tremolo altissimo])
     (M19 [piccolo jet whistle to art. start of M19])
+    (AUX [english horn air tone (w/o reed)])
     (M5 [bass cl. ext quiet low])
     (M5 [bar. sax. ext quiet low])
-    (AUX [english horn air tone (w/o reed)])
     (AUX [guitar clicks])
     (M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
 ++++(M19 [piano lightning cadenza: stopped: relatively sparse])
