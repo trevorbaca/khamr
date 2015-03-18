@@ -223,10 +223,10 @@ ORCHESTRATION:
     (M14 [cello tremolo altissimo: p > ppp])
     (M7 [bass low tone: fff])
     * intermittent windows of quiet materials shining through.
-    * oboist puts down guiro and takes english horn
-    * oboist makes sure reed is in english horn
     * piccolo fluttertongue acc. M14 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle
+    * oboist puts down guiro and takes english horn
+    * oboist makes sure reed is in english horn
 
 
     [6]
@@ -246,9 +246,9 @@ ORCHESTRATION:
     (M14 [cello tremolo altissimo: ppp])
     (M7 [bass low tone: fff])
     * intermittent windows of quiet materials shining through.
-    * english horn M7 drawn from veale 206, 207, 210, 211.
     * piccolo fluttertongue acc. M14 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle
+    * english horn M7 drawn from veale 206, 207, 210, 211.
 
 
     [7]

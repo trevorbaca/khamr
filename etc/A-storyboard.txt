@@ -103,23 +103,24 @@ ORCHESTRATION:
     [1]
     (M4 [bass flute acc. to contrabass halo: niente < p])
     (M2B [(oboist) guiro burst strokes: very short foreshadow of [E];
-         M4 [english horn air tone (w/o reed) acc. to halo: niente < p])
+        M4 [english horn air tone (w/o reed) acc. to halo: niente < p])
     (M4 [bass clarinet acc. to contrabass halo: niente < p])
     (M4 [baritone sax acc. to contrabass halo: niente < p])
     --
-    (M4 [guitar pitched tambour doubling of 38" tam-tam])
-    (M14 [shakers (guitar): fff: very short foreshadow of [E])
-    (M4 [piano tambour + low note doubling of 38" tam-tam])
-    (M4 [struck 38" tam-tam acc. to halo: mp])
-    (M1 [castanets and triangle: very sparse foreshadow of [C])
+    (M14 [shakers (guitar): fff: very short foreshadow of [E];
+        M4 [guitar pitched tambour doubling of 38" tam-tam acc. to halo])
+    (M4 [piano tambour + low note doubling of 38" tam-tam acc. to halo])
+    (M4 [struck 38" tam-tam acc. to halo: mp];
+        M1 [castanets and triangle: very sparse foreshadow of [C];
+        M4 [struck 38" tam-tam acc. to halo: mp])
     --
     (M4 [violin acc. to contrabass halo: niente < p])
     (M4 [viola acc. to contrabass halo: niente < p])
     (M4 [cello acc. to contrabass halo: niente < p])
 ++++(M4 [contrabass halo: "f"])
     * bass flute acc. M4 to halo incl. double harmonics, whistle tones
-    * bar. sax. acc. M4 to halo written as subtone
     * english horn air tone (w/o reed) mixes inhales and exhales
+    * bar. sax. acc. M4 to halo written as subtone
     * string M4 acc. to halo incl. bowing on tail piece
     * contrabass halo M4 detunes III, IV to Eb1, F1
     * contrabass halo M4 incl. pulled harmonics, multiphonics
@@ -132,9 +133,9 @@ ORCHESTRATION:
     (M4 [bass cl. halo acc.] ==> M5 [bass cl. ext. quiet low tone])
     (M4 [baritone sax halo acc.] ==> M5 [baritone sax ext. quiet low tone])
     --
-++++(M8 [guitar pizzicati fantastiques: sparse < denser])
-    (M4 [guitar pitched tambour doubling of 38" tam-tam])
-    (M4 [piano tambour + low note doubling of 38" tam-tam])
+++++(M4 [guitar pitched tambour doubling of 38" tam-tam acc. to halo] +
+        M8 [guitar pizzicati fantastiques: sparse < denser])
+    (M4 [piano tambour + low note doubling of 38" tam-tam acc. to halo])
     (M4 [struck 38" tam-tam acc. to halo: mp])
     --
     (M4 [violin acc. to contrabass halo] ==> M8 [vn. pizz. fant.])
@@ -142,9 +143,9 @@ ORCHESTRATION:
     (M4 [cello acc. to contrabass halo] ==> M8 [vc. buzz clb fant.)
     (M4 [contrabass halo: "f"])
     * bass flute acc. M4 to halo incl. double harmonics, whistle tones
+    * english horn air tone (w/o reed) mixes inhales and exhales
     * bar. sax. acc. M4 to halo written as subtone
     * bar. sax. M5 quiet low tone written as subtone
-    * english horn air tone (w/o reed) mixes inhales and exhales
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
     * string M4 acc. to halo incl. bowing on tail piece
@@ -175,8 +176,8 @@ ORCHESTRATION:
     (M4 [cello acc. to contrabass halo] ==> M8 [vc. buzz clb fant.)
     (M5 [contrabass extremely quiet low tone])
     * bass flute acc. M4 to halo incl. double harmonics, whistle tones
-    * bar. sax. M5 quiet low tone written as subtone
     * english horn air tone (w/o reed) mixes inhales and exhales
+    * bar. sax. M5 quiet low tone written as subtone
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
     * string M16 tremolo descent is always directly in front of the finger
@@ -209,8 +210,8 @@ ORCHESTRATION:
     (M5 [contrabass extremely quiet low tone])
     * bass flute acc. M4 to halo incl. double harmonics, whistle tones
     * bass fl. M6 incl. levine 38/40(B4), 54/64(C5), 85/93(C#5)
-    * bar. sax. M5 quiet low tone written as subtone
     * english horn air tone (w/o reed) mixes inhales and exhales
+    * bar. sax. M5 quiet low tone written as subtone
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
     * string M16 tremolo descent is always directly in front of the finger
@@ -248,11 +249,11 @@ ORCHESTRATION:
     (M5 [contrabass extremely quiet low tone] ==> M4 [contrabass halo: "f")
     * bass flute acc. M4 to halo incl. double harmonics, whistle tones
     * bass fl. M6 incl. levine 38/40(B4), 54/64(C5), 85/93(C#5)
-    * bar. sax. M5 quiet low tone written as subtone
-    * bar. sax. M6 quiet mult. incl. quiet dyads
     * english horn air tone (w/o reed) mixes inhales and exhales
     * english horn inserts reed during this stage
     * english horn M6 are veale numbers 6, 13, 16, 17, 18.
+    * bar. sax. M5 quiet low tone written as subtone
+    * bar. sax. M6 quiet mult. incl. quiet dyads
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
     * string M16 tremolo descent is always directly in front of the finger
@@ -289,8 +290,8 @@ ORCHESTRATION:
     * dramatic dynamic enveloping on M10 [tremoli fantastiques]
     * bass fl. M6 incl. levine 38/40(B4), 54/64(C5), 85/93(C#5)
     * bass fl. M10 tremoli incl. harmonic tremoli
-    * bar. sax. M6 quiet mult. incl. quiet dyads
     * english horn M6 are veale numbers 6, 13, 16, 17, 18.
+    * bar. sax. M6 quiet mult. incl. quiet dyads
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
     * string M16 tremolo descent is always directly in front of the finger
@@ -324,8 +325,8 @@ ORCHESTRATION:
     (M4 [contrabass halo: "f"] + M10 [contrabass tremoli fantastiques])
     * dramatic dynamic enveloping on M10 [tremoli fantastiques]
     * bass fl. M10 tremoli incl. harmonic tremoli
-    * bar. sax. M6 quiet mult. incl. quiet dyads
     * english horn M6 are veale numbers 6, 13, 16, 17, 18.
+    * bar. sax. M6 quiet mult. incl. quiet dyads
     * guitar pizzicati comprise three colors: rh pizzicati, rh pizzicati
       non-appuyé and half harmonics.
     * string M16 tremolo descent is always directly in front of the finger
