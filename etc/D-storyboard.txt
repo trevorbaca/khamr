@@ -160,15 +160,15 @@ ORCHESTRATION:
       smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi,
       koizumi multiphonic trills, koizumi portamento trills.
       bass flute M3 solo materials do not incl. singing, speaking.
+    * english horn M3 solo materials incl. color finger., trills, microtones,
+      fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
+      no solo techniques without the reed.
     * bar. sax. M3 solos incl. slap, open slap, tongue ram (w/ mp),
       fluttertongue, smorzato, bisbigliandi, tongue stops on reed,
       trills, double trills (avoid D, Eb), sciarrino C5 trills, glissandi,
       trilled glissandi, key percussion
       bar. sax. M3 solos do not incl. secco slap, tongue ram (w/o mp),
       teeth tone, tremoli, harmonics, singing, speaking;
-      no solo techniques without the reed.
-    * english horn M3 solo materials incl. color finger., trills, microtones,
-      fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
       no solo techniques without the reed.
 
 
@@ -195,15 +195,15 @@ ORCHESTRATION:
       smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi,
       koizumi multiphonic trills, koizumi portamento trills.
       bass flute M3 solo materials do not incl. singing, speaking.
+    * english horn M3 solo materials incl. color finger., trills, microtones,
+      fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
+      no solo techniques without the reed.
     * bar. sax. M3 solos incl. slap, open slap, tongue ram (w/ mp),
       fluttertongue, smorzato, bisbigliandi, tongue stops on reed,
       trills, double trills (avoid D, Eb), sciarrino C5 trills, glissandi,
       trilled glissandi, key percussion
       bar. sax. M3 solos do not incl. secco slap, tongue ram (w/o mp),
       teeth tone, tremoli, harmonics, singing, speaking;
-      no solo techniques without the reed.
-    * english horn M3 solo materials incl. color finger., trills, microtones,
-      fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
       no solo techniques without the reed.
 
 
@@ -228,6 +228,7 @@ ORCHESTRATION:
       smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi,
       koizumi multiphonic trills, koizumi portamento trills.
       bass flute M3 solo materials do not incl. singing, speaking.
+    * oboist puts down english horn and takes whirly tube
     * bar. sax. M3 solos incl. slap, open slap, tongue ram (w/ mp),
       fluttertongue, smorzato, bisbigliandi, tongue stops on reed,
       trills, double trills (avoid D, Eb), sciarrino C5 trills, glissandi,
@@ -235,7 +236,6 @@ ORCHESTRATION:
       bar. sax. M3 solos do not incl. secco slap, tongue ram (w/o mp),
       teeth tone, tremoli, harmonics, singing, speaking;
       no solo techniques without the reed.
-    * oboist puts down english horn and takes whirly tube
 
 
     [5]
@@ -350,9 +350,9 @@ ORCHESTRATION:
     * V3, V4
     * bass flute air tone mixes inhales, exhales, covered sound, uncovered
       sound
-    * bar. sax. AUX air tone specifies high / middle / low with consonants
     * oboist puts down whirly tubes and takes english horn
     * oboist removes reed from english horn
+    * bar. sax. AUX air tone specifies high / middle / low with consonants
 
 
     [10]
@@ -373,8 +373,8 @@ ORCHESTRATION:
     * bass flute air tone mixes inhales, exhales, covered sound, uncovered
       sound
     * flutist puts down bass flute and takes piccolo
-    * bar. sax. AUX air tone specifies high / middle / low with consonants
     * english horn air tone mixes inhales and exhales
+    * bar. sax. AUX air tone specifies high / middle / low with consonants
 
 
     [11]
@@ -397,8 +397,8 @@ ORCHESTRATION:
     * V3, V4
     * piccolo fluttertongue acc. M14 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle
-    * bar. sax. AUX air tone specifies high / middle / low with consonants
     * english horn air tone mixes inhales and exhales
+    * bar. sax. AUX air tone specifies high / middle / low with consonants
 
 
     [12]
