@@ -102,10 +102,10 @@ ORCHESTRATION:
 
     [1]
     (M4 [bass flute acc. to contrabass halo: niente < p])
-    (M4 [bass clarinet acc. to contrabass halo: niente < p])
-    (M4 [baritone sax acc. to contrabass halo: niente < p])
     (M4 [english horn air tone (w/o reed) acc. to halo: niente < p])
     (M2B [guiro burst strokes (oboe): very short foreshadow of [E])
+    (M4 [bass clarinet acc. to contrabass halo: niente < p])
+    (M4 [baritone sax acc. to contrabass halo: niente < p])
     (M4 [guitar pitched tambour doubling of 38" tam-tam])
     (M14 [shakers (guitar): fff: very short foreshadow of [E])
     (M4 [piano tambour + low note doubling of 38" tam-tam])
@@ -125,10 +125,10 @@ ORCHESTRATION:
 
     [2]
     (M4 [bass flute halo acc.])
-    (M4 [bass cl. halo acc.] ==> M5 [bass cl. ext. quiet low tone])
-    (M4 [baritone sax halo acc.] ==> M5 [baritone sax ext. quiet low tone])
     (M8 [english horn slap-tongue (w/o reed) acc. to guitar])
     (M4 [english horn air tone (w/o reed) acc. to halo])
+    (M4 [bass cl. halo acc.] ==> M5 [bass cl. ext. quiet low tone])
+    (M4 [baritone sax halo acc.] ==> M5 [baritone sax ext. quiet low tone])
 ++++(M8 [guitar pizzicati fantastiques: sparse < denser])
     (M4 [guitar pitched tambour doubling of 38" tam-tam])
     (M4 [piano tambour + low note doubling of 38" tam-tam])
@@ -154,10 +154,10 @@ ORCHESTRATION:
 
     [3]
     (M4 [bass flute halo acc.])
-    (M5 [bass clarinet extremely quiet low tone])
-    (M5 [baritone sax extremely quiet low tone])
     (M8 [english horn slap-tongue (w/o reed) acc. to guitar])
     (M4 [english horn air tone (w/o reed) acc. to halo])
+    (M5 [bass clarinet extremely quiet low tone])
+    (M5 [baritone sax extremely quiet low tone])
     (M8 [guitar pizzicati fantastiques])
     (M4 [guitar pitched tambour doubling of 38" tam-tam])
     (M4 [piano tambour + low note doubling of 38" tam-tam])
@@ -185,10 +185,10 @@ ORCHESTRATION:
 
     [4]
     (M4 [bass flute halo acc.] ==> M5+M6 [quiet mult. + tone])
-    (M5 [bass clarinet extremely quiet low tone])
-    (M5 [baritone sax extremely quiet low tone])
     (M8 [english horn slap-tongue (w/o reed) acc. to guitar])
     (M4 [english horn air tone (w/o reed) acc. to halo])
+    (M5 [bass clarinet extremely quiet low tone])
+    (M5 [baritone sax extremely quiet low tone])
     (M8 [guitar pizzicati fantastiques: climax])
     (M4 [guitar pitched tambour doubling of 38" tam-tam])
     (M4 [piano tambour + low note doubling of 38" tam-tam])
@@ -217,11 +217,11 @@ ORCHESTRATION:
 
     [5]
     (M5+M6 [bass fl. quiet mult. + pure tone] ==> M6 [quiet mult.])
-    (M5+M6 [bass cl. quiet mult. + pure tone] ==> M6 [quiet mult.])
-    (M5+M6 [baritone sax. quiet mult. + pure tone] ==> M6 [quiet mult.])
     (M8 [english horn slap-tongue (w/o reed)] ==> niente)
     (M4 [english horn air tone (w/o reed) acc. to halo] ==> niente)
     (niente ==> M6 [english horn quiet double harmonics])
+    (M5+M6 [bass cl. quiet mult. + pure tone] ==> M6 [quiet mult.])
+    (M5+M6 [baritone sax. quiet mult. + pure tone] ==> M6 [quiet mult.])
     (M8 [guitar pizzicati fantastiques])
     (M4 [guitar pitched tambour doubling of 38" tam-tam])
     (M4 [piano tambour + low note doubling of 38" tam-tam])
@@ -257,9 +257,9 @@ ORCHESTRATION:
     [6]
     (M6 [bass flute quiet mult.] ==> M10 [bass flute tremoli fantastiques)
     (M19 [bass flute jet whistle to art. start of M19])
+    (M6 [english horn quiet double harmonics]) 
     (M6 [bass clarinet quiet multiphonic complexes])
     (M6 [baritone saxophone quiet multiphonic complexes])
-    (M6 [english horn quiet double harmonics]) 
     (M8 [guitar pizzicati fantastiques])
     (M4 [guitar pitched tambour doubling of 38" tam-tam])
     (M4 [piano tambour + low note doubling of 38" tam-tam])
@@ -292,9 +292,9 @@ ORCHESTRATION:
 
     [7]
     (M10 [bass flute tremoli fantastiques])
+    (M6 [english horn quiet double harmonics])
     (M6 [bass clarinet quiet multiphonic complexes])
     (M6 [baritone saxophone quiet multiphonic complexes])
-    (M6 [english horn quiet double harmonics])
     (M8 [guitar pizzicati fantastiques])
     (M4 [guitar pitched tambour doubling of 38" tam-tam])
     (M4 [piano tambour + low note doubling of 38" tam-tam])
