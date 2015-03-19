@@ -112,14 +112,14 @@ ORCHESTRATION:
     (M2A [b-flat slap] ==> M3 [b-flat clarinet dialoguing solos])
     (M3 [baritone sax dialoguing solos: niente < p])
     --
-    (M2A [guitar seaweed guiro])
-    (M2A [guitar b-t-nut pizzicati])
+    (M2A [guitar seaweed guiro] +
+        M2A [guitar b-t-nut pizzicati])
     (M2A [piano seaweed guiro])
-    (M2A [marimba seaweed guiro] ==> niente)
-    (AUX [attackless bass drum: ppp])
+    (M2A [marimba seaweed guiro] ==> niente +
+        AUX [attackless bass drum: ppp])
     --
     (M2A [violin b-t-b clb] ==> M12 [violin massed trills: ppp])
-    (M12 [viola massed trills: niente < ppp])
+    (M2A [viola b-t-b clb] ==> M12 [viola massed trills: ppp])
     (M2A [cello b-t-b clb] ==> M12 [cello massed trills: ppp])
     (M12 [bass massed trills: niente < ppp])
     * bass flute M3 solo materials incl. fluttertongue, harmonics, double
@@ -144,11 +144,11 @@ ORCHESTRATION:
     (M3 [b-flat clarinet dialoguing solos])
     (M3 [baritone sax dialoguing solos])
     --
-    (M2A [guitar seaweed guiro] alt. AUX [guitar clicks])
-    (M2A [guitar b-t-nut pizzicati])
+    (M2A [guitar seaweed guiro] alt. AUX [guitar clicks] +
+        M2A [guitar b-t-nut pizzicati])
     (M2A [piano seaweed guiro] alt. AUX [piano clicks])
-    (M2A marimba seaweed guiro] ==> niente)
-    (AUX [attackless bass drum: ppp])
+    (M2A marimba seaweed guiro] ==> niente +
+        (AUX [attackless bass drum: ppp])
     --
     (M12 [violin massed trills: ppp])
     (M12 [viola massed trills: ppp])
@@ -178,12 +178,12 @@ ORCHESTRATION:
     (M3 [b-flat clarinet dialoguing solos])
     (M3 [baritone sax dialoguing solos])
     --
-    (AUX [guitar clicks])
-    (M2A [guitar b-t-nut pizzicati])
-    (M17 [guitar multiphonics 6G/6J acc. to almglocken])
+    (AUX [guitar clicks] +
+        M2A [guitar b-t-nut pizzicati] +
+        M17 [guitar multiphonics 6G/6J acc. to almglocken])
     (AUX [piano clicks])
-    (M2A marimba seaweed guiro] ==> niente)
-    (M17 [almglocken omen of M17])
+    (M2A marimba seaweed guiro] ==> niente +
+        M17 [almglocken omen of M17])
     --
     (M12 [violin massed trills: ppp])
     (M12 [viola massed trills: ppp])
@@ -368,7 +368,7 @@ ORCHESTRATION:
     (AUX [violin OB + veleno])
     (AUX [viola OB + veleno])
     (AUX [cello OB + veleno])
-    (AUX [bass OB + veleno])
+    (AUX [bass OB])
     * V3, V4
     * bass flute air tone mixes inhales, exhales, covered sound, uncovered
       sound
@@ -383,17 +383,17 @@ ORCHESTRATION:
     (AUX [bass clarinet air tone] ==> M5 [bass cl. ext quiet low])
     (AUX [bar. sax. air tone] ==> M5 [bar. sax. ext quiet low])
     --
-    (AUX [guitar clicks])
-    (M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
+    (AUX [guitar clicks] +
+        M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
     (AUX [piano clicks])
-    (M18 [china cymbal miasma: niente < ppp])
-    (M18 [38" tam-tam acc. to china cymbal])
-    (M14 [30" tam-tam acc. to string tremolo altissimo])
+    (M18 [china cymbal miasma: niente < ppp] +
+        M18 [38" tam-tam acc. to china cymbal] +
+        M14 [30" tam-tam acc. to string tremolo altissimo])
     --
     (AUX [violin OB + veleno])
     (AUX [viola OB + veleno])
 ++++(M14 [cello tremolo altissimo: ppp])
-    (AUX [bass OB + veleno] ==> M5 [bass low tone])
+    (AUX [bass OB] ==> M5 [bass low tone])
     * V3, V4
     * piccolo fluttertongue acc. M14 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle
@@ -402,19 +402,19 @@ ORCHESTRATION:
 
 
     [12]
-    (M14 [picc. fluttertongue acc. to string tremolo altissimo])
-    (M19 [piccolo jet whistle to art. start of M19])
+    (M19 [piccolo jet whistle to art. start of M19] +
+        M14 [picc. fluttertongue acc. to string tremolo altissimo])
     (AUX [english horn air tone (w/o reed)])
     (M5 [bass cl. ext quiet low])
     (M5 [bar. sax. ext quiet low])
     --
-    (AUX [guitar clicks])
-    (M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
+    (AUX [guitar clicks] +
+        M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
 ++++(M19 [piano lightning cadenza: stopped: relatively sparse])
-    (M18 [china cymbal miasma: pp])
-    (M18 [38" tam-tam acc. to china cymbal])
-    (M14 [30" tam-tam acc. to string tremolo altissimo])
-    (M19 [scraped 30" tam-tam to articulate start of M19])
+    (M18 [china cymbal miasma: pp] +
+        M18 [38" tam-tam acc. to china cymbal] +
+        M14 [30" tam-tam acc. to string tremolo altissimo] +
+        M19 [scraped 30" tam-tam to articulate start of M19])
     --
     (M10 [violin tremoli fantastiques acc. to M19])
     (M10 [viola tremoli fantastiques acc. to M19])
