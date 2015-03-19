@@ -111,25 +111,24 @@ ORCHESTRATION:
 
     [1]
     (M19 [bass flute fluttertongue accompaniment to piano lightning cadenza])
-    (M19 [bass flute jet whistle to art. start of M19])
     (M7 [english horn ferocious multiphonics: climax])
     (M7 [bass clarinet ferocious multiphonics: climax])
     (M7 [baritone sax ferocious multiphonics: climax])
     --
-    (M19 [guitar mandolin line accompaniment to piano lightning cadenza])
-    (M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
+    (M19 [guitar mandolin line accompaniment to piano lightning cadenza] +
+        M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
     (M19 [piano lightning cadenza: foreshadow end of piece])
-    (M18 [china cymbla miasma: f < ff > f < ff > f < ff])
-    (M18 [30" tam-tam acc. to china cymbal])
-++++(M1 [castanets and triangle: relatively thin])
-    (M16 [groaned bass drum articulation of string tremolo termination])
-    (M19 [scraped 30" tam-tam to articulate start of M19])
+    (M18 [china cymbla miasma: f < ff > f < ff > f < ff] +
+        M18 [30" tam-tam acc. to china cymbal] +
+++++++++M1 [castanets and triangle: relatively thin] +
+        M16 [groaned bass drum articulation of string tremolo termination])
     --
     (M19 [violin mandolin line accompaniment to piano lightning cadenza])
     (M9 [viola sostenuti fantastiques])
     (M9 [cello sostenuti fantastiques])
-----(M16 [contrabass extremely long string tremolo descent: endpoint: ppp])
-    (M4 [contrabass halo])
+    (M9 [contrabass sostenuti fantastiques] +
+--------M16 [contrabass extremely long string tremolo descent: endpoint: ppp] +
+        M4 [contrabass halo])
     * V1, V2
     * M19 fluttertongue distributes differently than piano;
       M19 fluttertongue rhythm follows non-M19 material.
@@ -149,17 +148,18 @@ ORCHESTRATION:
     (M7 [bass clarinet ferocious multiphonics: climax])
     (M7 [baritone sax ferocious multiphonics: climax])
     --
-    (M19 [guitar half-harmonic mandolin line acc. to piano lightning cadenza])
-    (M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
+    (M19 [guitar half-harmonic mandolin line acc. to piano lightning cadenza] +
+        M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
     (M19 [piano lightning cadenza: foreshadow end of piece])
-    (M18 [china cymbla miasma: mf < f > mf < f > mf < f])
-    (M18 [30" tam-tam acc. to china cymbal])
-    (M1 [castanets and triangle: relatively thin])
+    (M18 [china cymbla miasma: mf < f > mf < f > mf < f] +
+        M18 [30" tam-tam acc. to china cymbal] +
+        M1 [castanets and triangle: relatively thin])
     --
     (M19 [violin mandolin line accompaniment to piano lightning cadenza])
-    (M19 [viola sostenuti fantastiques] ==> M10 [viola tremoli fantastiques])
-    (M19 [cello sostenuti fantastiques] ==> M10 [cello tremoli fantastiques])
-    (M4 [contrabass halo] and M10 [contrabass tremoli fantastiques])
+    (M9 [viola sostenuti fantastiques] ==> M10 [viola tremoli fantastiques])
+    (M9 [cello sostenuti fantastiques] ==> M10 [cello tremoli fantastiques])
+    (M9 [bass sost. fantastiques] ==> M10 [bass tremoli fantastiques] +
+        M4 [contrabass halo])
     * V1, V2
     * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle
@@ -178,18 +178,19 @@ ORCHESTRATION:
     (M7 [bass clarinet ferocious multiphonics] ==> M3 [solos])
     (M7 [baritone sax ferocious multiphonics] ==> M3 [solos])
     --
-    (M19 [guitar half-harmonic mandolin line acc. to piano lightning cadenza])
-    (M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
+    (M19 [guitar half-harmonic mandolin line acc. to piano lightning cadenza] +
+        M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
     (M19 [piano lightning cadenza: foreshadow end of piece])
-----(M18 [china cymbla miasma: p < mf > p < mf > p > niente])
-----(M18 [30" tam-tam acc. to china cymbal])
-    (M1 [castanets and triangle: relatively thin])
-    (AUX [attackless bass drum: ppp])
+----(M18 [china cymbla miasma: p < mf > p < mf > p > niente] +
+        M18 [30" tam-tam acc. to china cymbal] +
+        M1 [castanets and triangle: relatively thin] +
+        M1 [attackless bass drum: ppp])
     --
     (M19 [violin mandolin line accompaniment to piano lightning cadenza])
-    (M19 [viola sostenuti fantastiques] ==> M10 [viola tremoli fantastiques])
-    (M19 [cello sostenuti fantastiques] ==> M10 [cello tremoli fantastiques])
-    (M4 [contrabass halo] and M10 [contrabass tremoli fantastiques])
+    (M9 [viola sostenuti fantastiques] ==> M10 [viola tremoli fantastiques])
+    (M9 [cello sostenuti fantastiques] ==> M10 [cello tremoli fantastiques])
+    (M9 [bass sostenuti fantastiques] ==> M10 [bass tremoli fantastiques] +
+        M4 [contrabass halo])
     * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle
     * english horn M7 drawn from veale 180, 181, 182, 199.
@@ -219,13 +220,14 @@ ORCHESTRATION:
     --
     (M19 [guitar half-harmonic mandolin line acc. to piano lightning cadenza])
     (M19 [piano lightning cadenza: foreshadow end of piece])
-    (M1 [castanets and triangle: denser])
-    (AUX [attackless bass drum: ppp])
+    (M1 [castanets and triangle: denser] +
+        M1 [attackless bass drum: ppp])
     --
     (M19 [violin mandolin line] ==> M10 [violin tremoli fantastiques])
     (M10 [viola tremoli fantastiques])
     (M10 [cello tremoli fantastiques])
-    (M4 [contrabass halo] and M10 [contrabass tremoli fantastiques])
+    (M10 [contrabass tremoli fantastiques] +
+        M4 [contrabass halo])
     * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle
     * english horn M3 solo materials incl. color finger., trills, microtones,
@@ -247,18 +249,19 @@ ORCHESTRATION:
     [5]
     (M19 [bass fl. fluttertongue] ==> M1 [flute upper-register prestissimo])
     (M3 [english horn dialoguing solos] ==> M1 [oboe running])
-    (M3 [contrabass clarinet dialoguing solos] ==> M1 [b-flat running])
+    (M3 [bass clarinet dialoguing solos] ==> M1 [b-flat running])
     (M3 [baritone sax dialoguing solos] ==> M1 [sopranino running])
     --
-    (M19 [gt. half-harmonic mand.] ==> M1 [gt. "koto" coattacks with picc.])
+    (M19 [gt. half-harmonic mand.] ==> M1 [gt. "koto" coattacks with flute])
     (M19 [piano ligthning cadenza] ==> M1 [piano coattacks with prestissimo])
-    (M1 [castanets and triangle])
-    (AUX [attackless bass drum: ppp])
+    (M1 [castanets and triangle] +
+        M1 [attackless bass drum: ppp])
     --
     (M10 [violin tremoli fantastiques])
     (M10 [viola tremoli fantastiques])
     (M10 [cello tremoli fantastiques])
-    (M4 [contrabass halo] and M10 [contrabass tremoli fantastiques])
+    (M10 [contrabass tremoli fantastiques] +
+        M4 [contrabass halo])
     * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle
     * flutist puts down bass flute and takes flute
@@ -286,15 +289,16 @@ ORCHESTRATION:
     (M1 [b-flat clarinet upper-register prestissimo: climax])
     (M1 [sopranino sax upper-register prestissimo: climax])
     --
-    (M1 [guitar "koto" coattacks with piccolo])
+    (M1 [guitar "koto" coattacks with flute])
     (M1 [piano coattacks with prestissimo])
-    (M1 [castanets and triangle])
-    (AUX [attackless bass drum: ppp])
+    (M1 [castanets and triangle] +
+        (M1 [attackless bass drum: ppp])
     --
     (M10 [violin tremoli fantastiques])
     (M10 [viola tremoli fantastiques])
     (M10 [cello tremoli fantastiques])
-    (M4 [contrabass halo] and M10 [contrabass tremoli fantastiques])
+    (M10 [contrabass tremoli fantastiques] +
+        M4 [contrabass halo])
     * contrabass halo M4 detunes III, IV to Eb1, F1
     * contrabass halo M4 incl. pulled harmonics, multiphonics
 
@@ -307,8 +311,8 @@ ORCHESTRATION:
     --
     (M1 [guitar "koto" coattacks with prestissimo])
     (M1 [piano coattacks with prestissimo] ==> M2A [piano seaweed guiro])
-    (M1 [castanets and triangle] ==> M2A [marimba seaweed guiro])
-    (AUX [attackless bass drum: ppp])
+    (M1 [castanets and triangle w/ attackless bass drum] ==> 
+        M2A [marimba seaweed guiro])
     --
     (M10 [violin tremoli fantastiques])
     (M10 [viola tremoli fantastiques])
@@ -333,11 +337,12 @@ ORCHESTRATION:
     (M1 [b-flat prestissimo] & M3 [b-flat solos] ==> M2A [b-flat slap])
     (M1 [sopr. prestissimo] & M3 [sopr. solos] ==> M2A [sopr. slap])
     --
-    (M1 [guitar "koto" coattacks with prest.] ==> M2A [guitar seaweed guiro])
-    (M2A [guitar b-t-nut pizzicati])
+    (M1 [guitar "koto" coattacks with prestissimo ==>
+        M2A [guitar seaweed guiro] +
+        M2A [guitar b-t-nut pizzicati])
     (M2A [piano seaweed guiro])
-    (M2A [marimba seaweed guiro])
-    (AUX [attackless bass drum: ppp])
+    (M2A [marimba seaweed guiro] +
+        M1 [attackless bass drum: ppp])
     --
     (M10 [violin tremoli fantastiques] ==> M2A [violin b-t-b clb])
     (M10 [viola tremoli fantastiques] ==> M2A [viola b-t-b clb])
@@ -363,12 +368,12 @@ ORCHESTRATION:
     (M2A [b-flat clarinet slap])
     (M2A [sopranino sax slap])
     --
-    (M2A [guitar seaweed guiro])
-    (M2A [guitar b-t-nut pizzicati])
-    (M4 [guitar multiphonics 6G/6J acc. to almglocken])
+    (M2A [guitar seaweed guiro] +
+        M2A [guitar b-t-nut pizzicati] +
+        M4 [guitar multiphonics 6G/6J acc. to almglocken])
     (M2A [piano seaweed guiro])
-    (M2A [marimba seaweed guiro])
-    (M4 [almglocken farewell to M4])
+    (M2A [marimba seaweed guiro] +
+        M4 [almglocken farewell to M4])
     --
     (M2A [violin b-t-b clb])
     (M2A [viola b-t-b clb])

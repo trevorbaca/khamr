@@ -181,18 +181,20 @@ ORCHESTRATION:
 
 
     [3]
-    (niente ==> M19 [bass flute flutt. acc to piano lightning cadenza])
+    (niente ==> M19 [bass flute flutt. acc to piano lightning cadenza] +
+        M19 [bass flute jet whistle to art. start of M19])
     (M9 [english horn air tone sost.] ==> M7 [english horn fer. mult: climax])
     (M9 [bass cl. sost. fant.] ==> M7 [bass cl. ferocious multi.: climax])
     (M9 [bar. sax. sost. fant.] ==> M7 [bar. sax. ferocious multi.: climax])
     --
     (AUX [guitar rh clicks + lh taps] ==> M19 [gt. mand. line acc. to cad.] +
         M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
-    (AUX [piano clicks] ==> M19 [piano lightning cadenza])
+    (AUX [piano clicks] ==> M19 [piano lightning cadenza: foreshadow end])
     (M18 [china cymbal miasma: f < ff > f < ff > f < ff] +
         M18 [30" tam-tam acc. to china cymbal] +
         M15 [woodblock underspine] +
-        M16 [groaned bass drum articulation of string tremolo hand-off])
+        M16 [groaned bass drum articulation of string tremolo hand-off] +
+        M19 [scraped 30" tam-tam to articulate start of M19])
     --
     (M9 [violin sostenuti fantastiques] ==> M19 [violin mandolin acc. to cad.])
     (M9 [viola sostenuti fantastiques])
