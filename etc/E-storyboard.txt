@@ -123,10 +123,10 @@ ORCHESTRATION:
     --
     (M14 [(guitarist) shakers: fff])
     (M19 [piano lightning cadenza: upper register]) 
-    (M18 [china cymbal miasma: p])
-    (M18 [38" tam-tam acc. to china cymbal])
-    (M14 [30" tam-tam acc. to string tremolo altissimo])
-****(M2B [burst rattan on marimba resonators])
+****(M2B [burst rattan on marimba resonators];
+        M18 [china cymbal miasma: p] +
+        M18 [38" tam-tam acc. to china cymbal] +
+        M14 [30" tam-tam acc. to string tremolo altissimo])
     --
     (M10 [violin tremoli fant.] ==> M11 [violin massed off-string bowing])
     (M10 [viola tremoli fant.] ==> M11 [viola massed off-string bowing])
@@ -147,9 +147,9 @@ ORCHESTRATION:
     --
     (M14 [(guitarist) shakers: fff])
     (M19 [piano lightning cadenza: upper register]) 
-    (M18 [china cymbal miasma: mp])
-    (M18 [38" tam-tam acc. to china cymbal])
-    (M14 [30" tam-tam acc. to string tremolo altissimo])
+    (M18 [china cymbal miasma: mp] +
+        M18 [38" tam-tam acc. to china cymbal] +
+        M14 [30" tam-tam acc. to string tremolo altissimo])
     --
     (M11 [violin massed off-string bowing])
     (M11 [viola massed off-string bowing])
@@ -170,9 +170,9 @@ ORCHESTRATION:
     --
     (M14 [(guitarist) shakers: fff])
     (M19 [piano lightning cadenza: upper register]) 
-    (M18 [china cymbal miasma: mf])
-    (M18 [38" tam-tam acc. to china cymbal])
-    (M14 [30" tam-tam acc. to string tremolo altissimo])
+    (M18 [china cymbal miasma: mf] +
+        M18 [38" tam-tam acc. to china cymbal] +
+        M14 [30" tam-tam acc. to string tremolo altissimo])
     --
     (M11 [violin massed off-string bowing])
 ----(M11 [viola massed off-string bowing])
@@ -192,9 +192,9 @@ ORCHESTRATION:
     --
     (M14 [(guitarist) shakers: fff])
     (M19 [piano lightning cadenza: upper register]) 
-    (M18 [china cymbal miasma: f])
-    (M18 [38" tam-tam acc. to china cymbal])
-    (M14 [30" tam-tam acc. to string tremolo altissimo])
+    (M18 [china cymbal miasma: f] +
+        M18 [38" tam-tam acc. to china cymbal] +
+        M14 [30" tam-tam acc. to string tremolo altissimo])
     --
 ----(M11 [violin massed off-string bowing])
     (M14 [(violist) shakers: fff])
@@ -214,9 +214,9 @@ ORCHESTRATION:
     --
     (M14 [(guitarist) shakers: fff])
     (M19 [piano lightning cadenza: descending]) 
-    (M18 [china cymbal miasma: f])
-    (M18 [38" tam-tam acc. to china cymbal])
-    (M14 [30" tam-tam acc. to string tremolo altissimo])
+    (M18 [china cymbal miasma: f] +
+        M18 [38" tam-tam acc. to china cymbal] +
+        M14 [30" tam-tam acc. to string tremolo altissimo])
     --
     (M14 [(violinist) shakers: fff])
     (M14 [(violist) shakers: fff])
@@ -237,9 +237,9 @@ ORCHESTRATION:
     --
     (M14 [(guitarist) shakers: fff])
     (M19 [piano lightning cadenza: very low: fffff]) 
-    (M18 [china cymbal miasma: ff])
-    (M18 [38" tam-tam acc. to china cymbal])
-    (M14 [30" tam-tam acc. to string tremolo altissimo])
+    (M18 [china cymbal miasma: ff] +
+        M18 [38" tam-tam acc. to china cymbal] +
+        M14 [30" tam-tam acc. to string tremolo altissimo])
     --
     (M14 [(violinist) shakers: fff])
     (M14 [(violist) shakers: fff])
@@ -259,9 +259,9 @@ ORCHESTRATION:
     --
 ++++(M2A [guitar seaweed guiro])
     (M19 [piano lightning cadenza: rising]) 
-    (M18 [china cymbal miasma: fff])
-    (M18 [38" tam-tam acc. to china cymbal])
-    (M14 [30" tam-tam acc. to string tremolo altissimo])
+    (M18 [china cymbal miasma: fff] +
+        M18 [38" tam-tam acc. to china cymbal] +
+        M14 [30" tam-tam acc. to string tremolo altissimo])
     --
     (M14 [(violinist) shakers: fff])
     (M14 [(violist) shakers: fff])
@@ -282,9 +282,9 @@ ORCHESTRATION:
     --
 ----(M2A [guitar seaweed guiro])
     (M19 [piano lightning cadenza: very high: fffff]) 
-    (M18 [china cymbal miasma: fff])
-    (M18 [38" tam-tam acc. to china cymbal])
-    (M14 [30" tam-tam acc. to string tremolo altissimo])
+    (M18 [china cymbal miasma: fff] +
+        M18 [38" tam-tam acc. to china cymbal] +
+        M14 [30" tam-tam acc. to string tremolo altissimo])
     --
     (M14 [(violinist) shakers: fff])
     (M14 [(violist) shakers: fff])
@@ -304,9 +304,9 @@ ORCHESTRATION:
     --
     (M14 [(guitarist) shakers: fff])
     (M19 [piano lightning cadenza: very high: fffff]) 
-    (M18 [china cymbal miasma: fff > p < fff > p < fff])
-    (M18 [38" tam-tam acc. to china cymbal])
-    (M14 [30" tam-tam acc. to string tremolo altissimo])
+    (M18 [china cymbal miasma: fff > p < fff > p < fff] +
+        M18 [38" tam-tam acc. to china cymbal] +
+        M14 [30" tam-tam acc. to string tremolo altissimo])
     --
     (M14 [(violinist) shakers: fff])
     (M14 [(violist) shakers: fff])
