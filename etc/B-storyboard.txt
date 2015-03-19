@@ -86,20 +86,21 @@ ORCHESTRATION:
     (M6 [bass clarinet quiet multiphonics] ==> M3 [bass cl. solos])
     (M6 [baritone sax quiet multiphonics] ==> M3 [baritone sax solos])
     --
-    (M8 [guitar pizz. fant.] ==> niente; AUX [guitar rh clicks + lh taps])
-    (M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
+    (M8 [guitar pizz. fant.] ==> niente; AUX [guitar rh clicks + lh taps] +
+        M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
     (AUX [piano clicks])
-    (M15 [woodblock underspine])
-    (M18 [china cymbal miasma: niente < p < mf > p < mf]
-    (M18 [30" tam-tam acc. to china cymbal])
-    (M6 [marimba low pedal-point acc. to quiet mult.] ==> niente)
-    (M6 [sparse triangle acc. to marimba pedal point])
+    (M18 [china cymbal miasma: niente < p < mf > p < mf] +
+        M18 [30" tam-tam acc. to china cymbal] +
+        M6 [marimba low pedal-point acc. to quiet mult.: ==> niente] +
+        M6 [sparse triangle acc. to marimba pedal point] +
+        M15 [woodblock underspine])
     --
     (M10 [violin tremoli fantastiques] ==> M12 [violin massed trills: climax])
-    (M16 [viola extremely long string tremolo descent])
-    (M10 [viola tremoli fantastiques] ==> M12 [viola massed trills: climax])
+    (M10 [viola tremoli fantastiques] ==> M12 [viola massed trills: climax] +
+        M16 [viola extremely long string tremolo descent])
     (M10 [cello tremoli fantastiques] ==> M12 [cello massed trills: climax])
-    (M4 [contrabass halo] + M10 [bass tremoli] ==> M12 [bass trills: climax])
+    (M10 [contrabass tremoli] ==> M12 [contrabass trills: climax] +
+        M4 [contrabass halo])
     * bass fl. M10 tremoli incl. harmonic tremoli
     * bass flute M3 solos incl. fluttertongue, harmonics, double
       harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
@@ -138,19 +139,20 @@ ORCHESTRATION:
     (M3 [bass cl. solos] ==> M9 [bass cl. sostenuti fantastiques])
     (M3 [baritone sax solos] ==> M9 [baritone sax sostenuti fanastiques])
     --
-    (AUX [guitar rh clicks + lh taps])
-    (M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
+    (AUX [guitar rh clicks + lh taps] +
+        M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
     (AUX [piano clicks])
-    (M15 [woodblock underspine])
-    (M18 [china cymbal miasma: mf < f > mf < f > mf < f])
-    (M18 [30" tam-tam acc. to china cymbal])
-    (M16 [groaned bass drum articulation of string tremolo hand-off])
+    (M18 [china cymbal miasma: mf < f > mf < f > mf < f] +
+        M18 [30" tam-tam acc. to china cymbal] +
+        M16 [groaned bass drum articulation of string tremolo hand-off] +
+        M15 [woodblock underspine])
     --
     (M12 [violin massed trills: climax] ==> M9 [violin sostenuti fantastiques])
     (M12 [viola massed trills: climax] ==> M9 [viola sostenuti fantastiques])
-    (M12 [cello massed trills: climax] ==> M9 [cello sostenuti fantastiques])
-    (M16 [cello extremely long string tremolo descent])
-    (M4 [contrabass halo] + M12 [bass trills: climax] ==> M9 [bass sost.])
+    (M12 [cello massed trills: climax] ==> M9 [cello sostenuti fantastiques] +
+        M16 [cello extremely long string tremolo descent])
+    (M12 [bass trills: climax] ==> M9 [bass sost.] +
+        M4 [contrabass halo])
     * increase dynamics during M3 ==> M9 to preserve energy.
     * increase dynamics during M12 ==> M9 to preserve energy.
     * bass flute M3 solo materials incl. fluttertongue, harmonics, double
@@ -184,19 +186,20 @@ ORCHESTRATION:
     (M9 [bass cl. sost. fant.] ==> M7 [bass cl. ferocious multi.: climax])
     (M9 [bar. sax. sost. fant.] ==> M7 [bar. sax. ferocious multi.: climax])
     --
-    (AUX [guitar rh clicks + lh taps] ==> M19 [guitar mand. line acc. to cad.])
-    (M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
+    (AUX [guitar rh clicks + lh taps] ==> M19 [gt. mand. line acc. to cad.] +
+        M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
     (AUX [piano clicks] ==> M19 [piano lightning cadenza])
-    (M15 [woodblock underspine])
-    (M18 [china cymbal miasma: f < ff > f < ff > f < ff]
-    (M18 [30" tam-tam acc. to china cymbal])
-    (M16 [groaned bass drum articulation of string tremolo hand-off])
+    (M18 [china cymbal miasma: f < ff > f < ff > f < ff] +
+        M18 [30" tam-tam acc. to china cymbal] +
+        M15 [woodblock underspine] +
+        M16 [groaned bass drum articulation of string tremolo hand-off])
     --
     (M9 [violin sostenuti fantastiques] ==> M19 [violin mandolin acc. to cad.])
     (M9 [viola sostenuti fantastiques])
     (M9 [cello sostenuti fantastiques])
-    (M16 [contrabass extremely long string tremolo descent])
-    (M4 [contrabass halo] + M9 [bass sostenuti fantastiques])
+    (M9 [bass sostenuti fantastiques] + 
+        M16 [contrabass extremely long string tremolo descent] +
+        M4 [contrabass halo])
     * V1, V2
     * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle
