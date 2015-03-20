@@ -107,111 +107,69 @@ materials: 3, 17, 5, 18, 5, 14, 19
 ORCHESTRATION:
 
     [1]
-    (M2A [bass flute whistle tones] ==> M3 [bass flute dialoguing solos])
-    (M2A [oboe slap (w/o reed)] ==> niente)
-    (M2A [b-flat slap] ==> M3 [b-flat clarinet dialoguing solos])
-    (M3 [baritone sax dialoguing solos: niente < p])
+    (M2A [bass flute whistle tones])
+    (M2A [oboe air (w/o reed)])
+    (M2A [b-flat air])
+    (M2A [bar. sax. air])
     --
-    (M2A [guitar seaweed guiro] +
-        M2A [guitar b-t-nut pizzicati])
+    (M2A [guitar seaweed guiro + b-t-nut pizzicati])
     (M2A [piano seaweed guiro])
-    (M2A [marimba seaweed guiro] ==> niente +
+    (M2A [marimba seaweed guiro: ==> niente] +
         AUX [attackless bass drum: ppp])
     --
     (M2A [violin b-t-b clb] ==> M12 [violin massed trills: ppp])
     (M2A [viola b-t-b clb] ==> M12 [viola massed trills: ppp])
     (M2A [cello b-t-b clb] ==> M12 [cello massed trills: ppp])
-    (M12 [bass massed trills: niente < ppp])
-    * bass flute M3 solo materials incl. fluttertongue, harmonics, double
-      harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
-      covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
-      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi,
-      koizumi multiphonic trills, koizumi portamento trills.
-      bass flute M3 solo materials do not incl. singing, speaking.
-    * bar. sax. M3 solos incl. slap, open slap, tongue ram (w/ mp),
-      fluttertongue, smorzato, bisbigliandi, tongue stops on reed,
-      trills, double trills (avoid D, Eb), sciarrino C5 trills, glissandi,
-      trilled glissandi, key percussion
-      bar. sax. M3 solos do not incl. secco slap, tongue ram (w/o mp),
-      teeth tone, tremoli, harmonics, singing, speaking;
-      no solo techniques without the reed.
-    * string M2A incl. tailpiece bowing
+    (M2A [contrabass OB])
 
 
     [2]
-++++(M3 [bass flute dialoguing solos])
-++++(M3 [english horn dialoguing solos])
-    (M3 [b-flat clarinet dialoguing solos])
-    (M3 [baritone sax dialoguing solos])
+    (M2A [bass flute whistle tones])
+++++(M20 [(oboist) whirly tubes])
+++++(M20 [clarinetist) tibetan singing bowl])
+    (M2A [b-flat air])
+    (M2A [bar. sax. air])
     --
-    (M2A [guitar seaweed guiro] alt. AUX [guitar clicks] +
-        M2A [guitar b-t-nut pizzicati])
-    (M2A [piano seaweed guiro] alt. AUX [piano clicks])
-    (M2A marimba seaweed guiro] ==> niente +
-        (AUX [attackless bass drum: ppp])
+    (M2A [guitar seaweed guiro + b-t-nut pizz] +
+        AUX [guitar clicks])
+    (M2A [piano seaweed guiro] +
+        AUX [piano clicks])
+    (M2A marimba seaweed guiro: ==> niente] +
+        AUX [attackless bass drum: ppp])
     --
     (M12 [violin massed trills: ppp])
     (M12 [viola massed trills: ppp])
     (M12 [cello massed trills: ppp])
-    (M12 [bass massed trills: ppp])
-    * bass flute M3 solo materials incl. fluttertongue, harmonics, double
-      harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
-      covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
-      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi,
-      koizumi multiphonic trills, koizumi portamento trills.
-      bass flute M3 solo materials do not incl. singing, speaking.
-    * english horn M3 solo materials incl. color finger., trills, microtones,
-      fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
-      no solo techniques without the reed.
-    * bar. sax. M3 solos incl. slap, open slap, tongue ram (w/ mp),
-      fluttertongue, smorzato, bisbigliandi, tongue stops on reed,
-      trills, double trills (avoid D, Eb), sciarrino C5 trills, glissandi,
-      trilled glissandi, key percussion
-      bar. sax. M3 solos do not incl. secco slap, tongue ram (w/o mp),
-      teeth tone, tremoli, harmonics, singing, speaking;
-      no solo techniques without the reed.
+    (M2A [contrabass OB])
+    * M20 [whirly tubes + tibetan bowl] starts before M17 [snare roll]
 
 
     [3]
-    (M3 [bass flute dialoguing solos])
-    (M3 [english horn dialoguing solos])
-    (M3 [b-flat clarinet dialoguing solos])
-    (M3 [baritone sax dialoguing solos])
+    (M2A [bass flute whistle tones])
+    (M20 [(oboist) whirly tubes])
+    (M20 [(clarinetist) tibetan singing bowl])
+    (M2A [b-flat air])
+    (M2A [bar. sax. air])
     --
-    (AUX [guitar clicks] +
-        M2A [guitar b-t-nut pizzicati] +
+    (M2A [guitar b-t-nut pizzicati] +
+        AUX [guitar clicks] +
         M17 [guitar multiphonics 6G/6J acc. to almglocken])
     (AUX [piano clicks])
-    (M2A marimba seaweed guiro] ==> niente +
+    (M2A marimba seaweed guiro: ==> niente] +
         M17 [almglocken omen of M17])
     --
     (M12 [violin massed trills: ppp])
     (M12 [viola massed trills: ppp])
     (M12 [cello massed trills: ppp])
-    (M12 [bass massed trills: ppp])
-    * bass flute M3 solo materials incl. fluttertongue, harmonics, double
-      harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
-      covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
-      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi,
-      koizumi multiphonic trills, koizumi portamento trills.
-      bass flute M3 solo materials do not incl. singing, speaking.
-    * english horn M3 solo materials incl. color finger., trills, microtones,
-      fluttertongue, glissandi (but not oscillati), vibrato, smorzato;
-      no solo techniques without the reed.
-    * bar. sax. M3 solos incl. slap, open slap, tongue ram (w/ mp),
-      fluttertongue, smorzato, bisbigliandi, tongue stops on reed,
-      trills, double trills (avoid D, Eb), sciarrino C5 trills, glissandi,
-      trilled glissandi, key percussion
-      bar. sax. M3 solos do not incl. secco slap, tongue ram (w/o mp),
-      teeth tone, tremoli, harmonics, singing, speaking;
-      no solo techniques without the reed.
+    (M2A [contrabass OB])
+    * almglocken omen plays only first four of five almglocken, as suspension
 
 
     [4]
-    (M3 [bass flute dialoguing solos])
-++++(M20 [whirly tubes (oboist)])
-    (M3 [b-flat clarinet dialoguing solos])
-    (M3 [baritone sax dialoguing solos])
+    (M2A [bass fl. whistle tones] ==> M2A [bass fl. air tone])
+----(M20 [(oboist) whirly tube]; M2A [english horn air (w/o reed)])
+----(M20 [(clarinetist) tibetan bowl]; M2A [bass cl. air tone])
+    (M2A [bar. sax. air tone])
     --
     (AUX [guitar clicks])
     (AUX [piano clicks])
@@ -220,29 +178,17 @@ ORCHESTRATION:
     (M12 [violin massed trills: ppp])
     (M12 [viola massed trills: ppp])
     (M12 [cello massed trills: ppp])
-    (M12 [bass massed trills: ppp])
-    * M20 [whirly tubes] starts together with M17 [snare roll]
-    * bass flute M3 solo materials incl. fluttertongue, harmonics, double
-      harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
-      covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
-      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi,
-      koizumi multiphonic trills, koizumi portamento trills.
-      bass flute M3 solo materials do not incl. singing, speaking.
-    * oboist puts down english horn and takes whirly tube
-    * bar. sax. M3 solos incl. slap, open slap, tongue ram (w/ mp),
-      fluttertongue, smorzato, bisbigliandi, tongue stops on reed,
-      trills, double trills (avoid D, Eb), sciarrino C5 trills, glissandi,
-      trilled glissandi, key percussion
-      bar. sax. M3 solos do not incl. secco slap, tongue ram (w/o mp),
-      teeth tone, tremoli, harmonics, singing, speaking;
-      no solo techniques without the reed.
+    (M2A [contrabass OB])
+    * M17 [snare roll] stomps out M20 [whirly tubes + tibetan bowl]
+    * oboist puts down whirly tubes and takes english horn
+    * clarinetist puts down tibetan bowl and takes bass clarinet
 
 
     [5]
-    (M3 [bass flute dialoguing solos] ==> M5 [bass fl ext quiet low])
-    (M20 [(oboist) whirly tubes])
-    (M3 [b-flat cl. solos] ==> M5 [bass cl. ext quiet low])
-    (M3 [bar. sax dialoguing solos] ==> M5 [bar. sax. ext quiet low])
+    (M2A [bass fl. air tone] ==> M5 [bass fl. ext. quiet low])
+    (M2A [english horn air tone (w/o reed): appena udibile])
+    (M2A [bass cl. air tone] ==> M5 [bass cl. ext. quiet low])
+    (M2A [bar. sax. air tone] ==> M5 [bar. sax. ext quiet low])
     --
     (AUX [guitar clicks])
     (AUX [piano clicks])
@@ -251,30 +197,17 @@ ORCHESTRATION:
     (M12 [violin massed trills: ppp])
     (M12 [viola massed trills: ppp])
     (M12 [cello massed trills: ppp])
-    (M12 [bass massed trills: ppp] ==> M5 [bass low tone])
-    * bass flute M3 solo materials incl. fluttertongue, harmonics, double
-      harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
-      covered key clicks, tongue rams, vibrato transitions, tongue vibrato,
-      smorzato, aeolian sounds, bisbigliandi, tremoli, trills, glissandi,
-      koizumi multiphonic trills, koizumi portamento trills.
-      bass flute M3 solo materials do not incl. singing, speaking.
+    (M2A [contrabass OB] ==> M5 [bass low tone])
     * bass flute ext. quiet low M5 incl. double harmonics, whistle tones,
       sciarrino whistle tones, aeolian sounds
-    * bar. sax. M3 solos incl. slap, open slap, tongue ram (w/ mp),
-      fluttertongue, smorzato, bisbigliandi, tongue stops on reed,
-      trills, double trills (avoid D, Eb), sciarrino C5 trills, glissandi,
-      trilled glissandi, key percussion
-      bar. sax. M3 solos do not incl. secco slap, tongue ram (w/o mp),
-      teeth tone, tremoli, harmonics, singing, speaking;
-      no solo techniques without the reed.
     * bar. sax. M5 quiet low tone written as subtone
 
 
     [6]
-    (M5 [bass fl ext quiet low])
-    (M20 [(oboist) whirly tubes])
+    (M5 [bass fl. ext quiet low])
+    (M2A [english horn air (w/o reed): appena udibile])
     (M5 [bass cl. ext quiet low])
-    (M5 [bar. sax. ext quiet low] ==> AUX [bar. sax. air tone])
+    (M5 [bar. sax. ext. quiet low])
     --
     (AUX [guitar clicks])
     (AUX [piano clicks])
@@ -292,10 +225,10 @@ ORCHESTRATION:
 
 
     [7]
-    (M5 [bass fl ext quiet low] ==> AUX [bass flute air tone])
-    (M20 [(oboist) whirly tubes])
-    (M5 [bass cl. ext quiet low])
-    (AUX [bar. sax. air tone])
+    (M5 [bass fl. ext quiet low] ==> AUX [bass fl. air tone])
+    (M2A [english horn air (w/o reed): appena udibile])
+    (M5 [bass cl. ext quiet low] ==> AUX [bass cl. air tone])
+    (M5 [bar. sax. ext. quiet low] ==> AUX [bar. sax. air tone])
     --
     (AUX [guitar clicks])
     (AUX [piano clicks])
@@ -315,8 +248,8 @@ ORCHESTRATION:
 
     [8]
     (AUX [bass flute air tone])
-    (M20 [(oboist) whirly tubes])
-    (M5 [bass cl. ext quiet low])
+    (AUX [english horn air (w/o reed)])
+    (AUX [bass cl. air tone])
     (AUX [bar. sax. air tone])
     --
     (AUX [guitar clicks])
@@ -335,13 +268,13 @@ ORCHESTRATION:
 
     [9]
     (AUX [bass flute air tone])
-    (AUX [english horn air tone (w/o reed)])
-    (M5 [bass cl. ext quiet low] ==> AUX [bass clarinet air tone])
+    (AUX [english horn air (w/o reed)])
+    (AUX [bass cl. air tone])
     (AUX [bar. sax. air tone])
     --
     (AUX [guitar clicks])
     (AUX [piano clicks])
-++++(M18 [china cymbal miasma: ppp])
+++++(M18 [china cymbal miasma + 38" tam-tam: ppp])
     --
     (AUX [violin OB + veleno])
     (AUX [viola OB + veleno])
@@ -357,13 +290,13 @@ ORCHESTRATION:
 
     [10]
     (AUX [bass flute air tone])
-    (AUX [english horn air tone (w/o reed)])
-    (AUX [bass clarinet air tone])
+    (AUX [english horn air (w/o reed)])
+    (AUX [bass cl. air tone])
     (AUX [bar. sax. air tone])
     --
     (AUX [guitar clicks])
     (AUX [piano clicks])
-    (M18 [china cymbal miasma: ppp])
+    (M18 [china cymbal miasma + 38" tam-tam: ppp])
     --
     (AUX [violin OB + veleno])
     (AUX [viola OB + veleno])
@@ -380,14 +313,13 @@ ORCHESTRATION:
     [11]
     (M14 [picc. fluttertongue acc. to string tremolo altissimo])
     (AUX [english horn air tone (w/o reed)])
-    (AUX [bass clarinet air tone] ==> M5 [bass cl. ext quiet low])
+    (AUX [bass cl. air tone] ==> M5 [bass cl. ext. quiet low])
     (AUX [bar. sax. air tone] ==> M5 [bar. sax. ext quiet low])
     --
     (AUX [guitar clicks] +
         M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
     (AUX [piano clicks])
-    (M18 [china cymbal miasma: niente < ppp] +
-        M18 [38" tam-tam acc. to china cymbal] +
+    (M18 [china cymbal miasma + 38" tam-tam: ppp] +
         M14 [30" tam-tam acc. to string tremolo altissimo])
     --
     (AUX [violin OB + veleno])
@@ -411,8 +343,7 @@ ORCHESTRATION:
     (AUX [guitar clicks] +
         M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
 ++++(M19 [piano lightning cadenza: stopped: relatively sparse])
-    (M18 [china cymbal miasma: pp] +
-        M18 [38" tam-tam acc. to china cymbal] +
+    (M18 [china cymbal miasma + 38" tam-tam: pp] +
         M14 [30" tam-tam acc. to string tremolo altissimo] +
         M19 [scraped 30" tam-tam to articulate start of M19])
     --
