@@ -44,6 +44,7 @@ def test_khamr_segments_01(segment_path):
     if os.path.exists(local_boilerplate_path):
         os.remove(local_boilerplate_path)
     with systemtools.FilesystemState(
+        keep=[illustration_ly_path, illustration_pdf_path],
         remove=[local_boilerplate_path],
         ):
         shutil.copyfile(boilerplate_path, local_boilerplate_path)
