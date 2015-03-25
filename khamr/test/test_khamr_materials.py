@@ -11,6 +11,7 @@ boilerplate_path = ide.idetools.Configuration().boilerplate_directory
 boilerplate_path = os.path.join(boilerplate_path, '__output_material__.py')
 
 materials_path = os.path.join(khamr.__path__[0], 'materials')
+abbreviations_path = os.path.join(materials_path, 'abbreviations.py')
 miscellaneous_materials_path = os.path.join(materials_path, 'miscellaneous.py')
 
 directory_names = os.listdir(materials_path)
@@ -48,10 +49,16 @@ def test_khamr_materials_01(material_path):
 
 
 def test_khamr_materials_02():
-
     if not os.path.exists(miscellaneous_materials_path):
         return
-
     command = 'python {}'.format(miscellaneous_materials_path)
+    exit_status = systemtools.IOManager.spawn_subprocess(command)
+    assert exit_status == 0
+
+
+def test_khamr_materials_03():
+    if not os.path.exists(abbreviations_path):
+        return
+    command = 'python {}'.format(abbreviations_path)
     exit_status = systemtools.IOManager.spawn_subprocess(command)
     assert exit_status == 0
