@@ -250,34 +250,34 @@ grid_poss_to_flaut_poss = spannertools.TextSpanner(
 
 ### PITCH ###
 
-color_fingerings = makers.ColorFingeringSpecifier(
-    deposit_annotations=['color fingering'],
-    number_lists=(
-        [0, 1, 2, 1],
-        ),
-    )
-
-color_microtones = makers.MicrotonalDeviationSpecifier(
-    deposit_annotations=['color microtone'],
-    number_lists=(
-        [0, -0.5, 0, 0.5],
-        [0, 0.5, 0, -0.5],
-        ),
-    )
-
-trill_quarter_notes = makers.TrillSpecifier(
-    forbidden_annotations=['color fingering', 'color microtone'],
-    minimum_written_duration=Duration(1, 4),
-    )
-
-pervasive_trills = makers.TrillSpecifier(
-    minimum_written_duration=None,
-    )
-
-pervasive_A5_trills = makers.TrillSpecifier(
-    minimum_written_duration=None,
-    pitch=NamedPitch('A5'),
-    )
+#color_fingerings = makers.ColorFingeringSpecifier(
+#    deposit_annotations=['color fingering'],
+#    number_lists=(
+#        [0, 1, 2, 1],
+#        ),
+#    )
+#
+#color_microtones = makers.MicrotonalDeviationSpecifier(
+#    deposit_annotations=['color microtone'],
+#    number_lists=(
+#        [0, -0.5, 0, 0.5],
+#        [0, 0.5, 0, -0.5],
+#        ),
+#    )
+#
+#trill_quarter_notes = makers.TrillSpecifier(
+#    forbidden_annotations=['color fingering', 'color microtone'],
+#    minimum_written_duration=Duration(1, 4),
+#    )
+#
+#pervasive_trills = makers.TrillSpecifier(
+#    minimum_written_duration=None,
+#    )
+#
+#pervasive_A5_trills = makers.TrillSpecifier(
+#    minimum_written_duration=None,
+#    pitch=NamedPitch('A5'),
+#    )
 
 # articulation handlers
 alternate_bow_strokes = handlertools.PatternedArticulationsHandler(
@@ -316,10 +316,10 @@ repeated_pp_to_ff = handlertools.NoteAndChordHairpinHandler(
 
 ### miscellaneous
 
-low_piano_cluster = makers.ClusterSpecifier(
-    start_pitch=NamedPitch('C1'),
-    stop_pitch=NamedPitch('C3'),
-    )
+#low_piano_cluster = makers.ClusterSpecifier(
+#    start_pitch=NamedPitch('C1'),
+#    stop_pitch=NamedPitch('C3'),
+#    )
 
 silence_first = [rhythmmakertools.BooleanPattern(indices=[0])]
 silence_last = [rhythmmakertools.BooleanPattern(indices=[-1])]
@@ -331,7 +331,7 @@ stem_tremolo = handlertools.StemTremoloHandler(
     hash_mark_counts=[32],
     )
 
-tenor_piano_cluster = makers.ClusterSpecifier(
-    start_pitch=NamedPitch('A2'),
-    stop_pitch=NamedPitch('B3'),
-    )
+#tenor_piano_cluster = makers.ClusterSpecifier(
+#    start_pitch=NamedPitch('A2'),
+#    stop_pitch=NamedPitch('B3'),
+#    )
