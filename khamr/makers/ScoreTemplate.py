@@ -156,6 +156,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
                 flute_music_staff,
                 oboe_music_staff, 
                 clarinet_music_staff,
+                saxophone_music_staff,
                 ], 
             context_name='WindSectionStaffGroup',
             name='Wind Section Staff Group',

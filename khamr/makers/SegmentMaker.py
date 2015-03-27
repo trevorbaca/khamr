@@ -166,9 +166,10 @@ class SegmentMaker(makertools.SegmentMaker):
                     found_instrument = True
                     break
             if not found_instrument:
-                message = 'no instrument found for {!r}.'
-                message = message.format(voice.name)
-                raise Exception(message)
+                #message = 'no instrument found for {!r}.'
+                #message = message.format(voice.name)
+                #raise Exception(message)
+                continue
             instrument = copy.deepcopy(instrument)
             attach(instrument, first_leaf)
         
@@ -422,7 +423,7 @@ class SegmentMaker(makertools.SegmentMaker):
             spell_metrically='unassignable',
             )
         maker = rhythmmakertools.NoteRhythmMaker(
-            output_masks=[rhythmmakertools.mask_all()],
+            output_masks=[rhythmmakertools.silence_all()],
             )
         selections = maker(time_signatures)
         return selections
@@ -602,6 +603,7 @@ class SegmentMaker(makertools.SegmentMaker):
         clarinet_voice = self._score['Clarinet Music Voice']
         oboe_voice = self._score['Oboe Music Voice']
         saxophone_voice = self._score['Saxophone Music Voice']
+        percussion_voice = self._score['Percussion Music Voice']
         voices = [clarinet_voice, percussion_voice]
         for voice in voices:
             for leaf in iterate(voice).by_class(scoretools.Leaf):
