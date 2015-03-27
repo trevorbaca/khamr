@@ -33,6 +33,11 @@ class ScoreTemplate(abctools.AbjadValueObject):
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
                     }
                 }
+                \tag winds.saxophone
+                \context SaxophoneMusicStaff = "Saxophone Music Staff" {
+                    \context SaxophoneMusicVoice = "Saxophone Music Voice" {
+                    }
+                }
             >>
             \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
                 \tag percussion.guitar

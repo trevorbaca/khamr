@@ -1,5 +1,5 @@
 #(set-default-paper-size "11x17" 'portrait)
-#(set-global-staff-size 14)
+#(set-global-staff-size 12)
 
 \paper {
     %bottom-margin = 10\mm
@@ -209,16 +209,16 @@
         \override TupletBracket.staff-padding = 6
     }
     \context {
-        \PianoStaff
+        \StaffGroup
         \name WindSectionStaffGroup
         \type Engraver_group
-        \alias PianoStaff
+        \alias StaffGroup
         \accepts FluteMusicStaff
         \accepts OboeMusicStaff
         \accepts ClarinetMusicStaff
         \accepts SaxophoneMusicStaff
-        \override StaffGrouper.staff-staff-spacing.minimum-distance = 22
-        \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 26
+        \override StaffGrouper.staff-staff-spacing.minimum-distance = 32
+        \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 44
     }
     \context {
         \Voice
@@ -271,15 +271,15 @@
         \override TupletBracket.staff-padding = 5
     }
     \context {
-        \PianoStaff
+        \StaffGroup
         \name PercussionSectionStaffGroup
         \type Engraver_group
-        \alias PianoStaff
+        \alias StaffGroup
         \accepts GuitarMusicStaff
         \accepts PianoMusicStaff
         \accepts PercussionMusicStaff
-        \override StaffGrouper.staff-staff-spacing.minimum-distance = 22
-        \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 26
+        \override StaffGrouper.staff-staff-spacing.minimum-distance = 32
+        \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 44
     }
     \context {
         \Voice
@@ -354,16 +354,16 @@
         \override TupletBracket.staff-padding = 6
     }
     \context {
-        \PianoStaff
+        \StaffGroup
         \name StringSectionStaffGroup
         \type Engraver_group
-        \alias PianoStaff
+        \alias StaffGroup
         \accepts ViolinMusicStaff
         \accepts ViolaMusicStaff
         \accepts CelloMusicStaff
         \accepts ContrabassMusicStaff
-        \override StaffGrouper.staff-staff-spacing.minimum-distance = 22
-        \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 26
+        \override StaffGrouper.staff-staff-spacing.minimum-distance = 32
+        \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 44
     }
     \context {
         \Score
@@ -410,7 +410,7 @@
         \override TupletNumber.text = #tuplet-number::calc-fraction-text
         autoBeaming = ##f
         markFormatter = #format-mark-box-alphabet
-        proportionalNotationDuration = #(ly:make-moment 1 28)
+        proportionalNotationDuration = #(ly:make-moment 1 24)
         tupletFullLength = ##t
     }
 }
