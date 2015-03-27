@@ -21,7 +21,7 @@ class MusicMaker(abctools.AbjadObject):
         ::
 
             >>> print(format(music_maker, 'storage'))
-            krummzeit.makers.MusicMaker(
+            khamr.makers.MusicMaker(
                 context_name='Cello Music Voice',
                 division_maker=makertools.HypermeasureDivisionMaker(
                     measure_counts=[2, 3, 1],
