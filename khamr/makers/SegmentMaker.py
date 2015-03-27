@@ -422,8 +422,9 @@ class SegmentMaker(makertools.SegmentMaker):
         specifier = rhythmmakertools.DurationSpellingSpecifier(
             spell_metrically='unassignable',
             )
+        mask = rhythmmakertools.silence_all(use_multimeasure_rests=True)
         maker = rhythmmakertools.NoteRhythmMaker(
-            output_masks=[rhythmmakertools.silence_all()],
+            output_masks=[mask],
             )
         selections = maker(time_signatures)
         return selections

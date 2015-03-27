@@ -113,8 +113,9 @@ class MusicMaker(abctools.AbjadObject):
 
     @property
     def _default_rhythm_maker(self):
+        mask = rhythmmakertools.silence_all(use_multimeasure_rests=True) 
         maker = rhythmmakertools.NoteRhythmMaker(
-            output_masks=[rhythmmakertools.silence_all()],
+            output_masks=[mask],
             )
 
     @property

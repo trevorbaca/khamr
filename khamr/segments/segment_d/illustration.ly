@@ -1,4 +1,4 @@
-% 2015-03-26 22:00
+% 2015-03-26 23:12
 
 \version "2.19.17"
 \language "english"
@@ -271,149 +271,137 @@
             \tag winds.flute
             \context FluteMusicStaff = "Flute Music Staff" {
                 \context FluteMusicVoice = "Flute Music Voice" {
-                    r2
-                    r2
-                    r2.
-                    r2
-                    r1
-                    r2.
-                    r1
-                    r1
-                    r4
-                    r1
-                    r2
-                    r1
-                    r1
-                    r4
-                    r2.
-                    r2
-                    r2.
-                    r2
-                    r1
-                    r4
-                    r2.
-                    r1
-                    r2.
-                    r2
-                    r2
-                    r2
-                    r1
-                    r2
-                    r2
-                    r2.
-                    r1
-                    r2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
                 }
             }
             \tag winds.oboe
             \context OboeMusicStaff = "Oboe Music Staff" {
                 \context OboeMusicVoice = "Oboe Music Voice" {
-                    r2
-                    r2
-                    r2.
-                    r2
-                    r1
-                    r2.
-                    r1
-                    r1
-                    r4
-                    r1
-                    r2
-                    r1
-                    r1
-                    r4
-                    r2.
-                    r2
-                    r2.
-                    r2
-                    r1
-                    r4
-                    r2.
-                    r1
-                    r2.
-                    r2
-                    r2
-                    r2
-                    r1
-                    r2
-                    r2
-                    r2.
-                    r1
-                    r2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
                 }
             }
             \tag winds.clarinet
             \context ClarinetMusicStaff = "Clarinet Music Staff" {
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                    r2
-                    r2
-                    r2.
-                    r2
-                    r1
-                    r2.
-                    r1
-                    r1
-                    r4
-                    r1
-                    r2
-                    r1
-                    r1
-                    r4
-                    r2.
-                    r2
-                    r2.
-                    r2
-                    r1
-                    r4
-                    r2.
-                    r1
-                    r2.
-                    r2
-                    r2
-                    r2
-                    r1
-                    r2
-                    r2
-                    r2.
-                    r1
-                    r2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
                 }
             }
             \tag winds.saxophone
             \context SaxophoneMusicStaff = "Saxophone Music Staff" {
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
-                    r2
-                    r2
-                    r2.
-                    r2
-                    r1
-                    r2.
-                    r1
-                    r1
-                    r4
-                    r1
-                    r2
-                    r1
-                    r1
-                    r4
-                    r2.
-                    r2
-                    r2.
-                    r2
-                    r1
-                    r4
-                    r2.
-                    r1
-                    r2.
-                    r2
-                    r2
-                    r2
-                    r1
-                    r2
-                    r2
-                    r2.
-                    r1
-                    r2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
                 }
             }
         >>
@@ -421,112 +409,103 @@
             \tag percussion.guitar
             \context GuitarMusicStaff = "Guitar Music Staff" {
                 \context GuitarMusicVoice = "Guitar Music Voice" {
-                    r2
-                    r2
-                    r2.
-                    r2
-                    r1
-                    r2.
-                    r1
-                    r1
-                    r4
-                    r1
-                    r2
-                    r1
-                    r1
-                    r4
-                    r2.
-                    r2
-                    r2.
-                    r2
-                    r1
-                    r4
-                    r2.
-                    r1
-                    r2.
-                    r2
-                    r2
-                    r2
-                    r1
-                    r2
-                    r2
-                    r2.
-                    r1
-                    r2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
                 }
             }
             \tag percussion.piano
             \context PianoMusicStaff = "Piano Music Staff" {
                 \context PianoMusicVoice = "Piano Music Voice" {
-                    r2
-                    r2
-                    r2.
-                    r2
-                    r1
-                    r2.
-                    r1
-                    r1
-                    r4
-                    r1
-                    r2
-                    r1
-                    r1
-                    r4
-                    r2.
-                    r2
-                    r2.
-                    r2
-                    r1
-                    r4
-                    r2.
-                    r1
-                    r2.
-                    r2
-                    r2
-                    r2
-                    r1
-                    r2
-                    r2
-                    r2.
-                    r1
-                    r2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
                 }
             }
             \tag percussion
             \context PercussionMusicStaff = "Percussion Staff" {
                 \context PercussionMusicVoice = "Percussion Music Voice" {
-                    r2
-                    r2
-                    r2.
-                    r2
-                    r1
-                    r2.
-                    r1
-                    r1
-                    r4
-                    r1
-                    r2
-                    r1
-                    r1
-                    r4
-                    r2.
-                    r2
-                    r2.
-                    r2
-                    r1
-                    r4
-                    r2.
-                    r1
-                    r2.
-                    r2
-                    r2
-                    r2
-                    r1
-                    r2
-                    r2
-                    r2.
-                    r1
-                    r2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
                 }
             }
         >>
@@ -534,152 +513,140 @@
             \tag strings.violin
             \context ViolinMusicStaff = "Violin Music Staff" {
                 \context ViolinMusicVoice = "Violin Music Voice" {
-                    r2
-                    r2
-                    r2.
-                    r2
-                    r1
-                    r2.
-                    r1
-                    r1
-                    r4
-                    r1
-                    r2
-                    r1
-                    r1
-                    r4
-                    r2.
-                    r2
-                    r2.
-                    r2
-                    r1
-                    r4
-                    r2.
-                    r1
-                    r2.
-                    r2
-                    r2
-                    r2
-                    r1
-                    r2
-                    r2
-                    r2.
-                    r1
-                    r2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
                 }
             }
             \tag strings.viola
             \context ViolaMusicStaff = "Viola Music Staff" {
                 \clef "alto"
                 \context ViolaMusicVoice = "Viola Music Voice" {
-                    r2
-                    r2
-                    r2.
-                    r2
-                    r1
-                    r2.
-                    r1
-                    r1
-                    r4
-                    r1
-                    r2
-                    r1
-                    r1
-                    r4
-                    r2.
-                    r2
-                    r2.
-                    r2
-                    r1
-                    r4
-                    r2.
-                    r1
-                    r2.
-                    r2
-                    r2
-                    r2
-                    r1
-                    r2
-                    r2
-                    r2.
-                    r1
-                    r2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
                 }
             }
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
                 \clef "bass"
                 \context CelloMusicVoice = "Cello Music Voice" {
-                    r2
-                    r2
-                    r2.
-                    r2
-                    r1
-                    r2.
-                    r1
-                    r1
-                    r4
-                    r1
-                    r2
-                    r1
-                    r1
-                    r4
-                    r2.
-                    r2
-                    r2.
-                    r2
-                    r1
-                    r4
-                    r2.
-                    r1
-                    r2.
-                    r2
-                    r2
-                    r2
-                    r1
-                    r2
-                    r2
-                    r2.
-                    r1
-                    r2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
                 }
             }
             \tag strings.contrabass
             \context ContrabassMusicStaff = "Contrabass Music Staff" {
                 \clef "bass"
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
-                    r2
-                    r2
-                    r2.
-                    r2
-                    r1
-                    r2.
-                    r1
-                    r1
-                    r4
-                    r1
-                    r2
-                    r1
-                    r1
-                    r4
-                    r2.
-                    r2
-                    r2.
-                    r2
-                    r1
-                    r4
-                    r2.
-                    r1
-                    r2.
-                    r2
-                    r2
-                    r2
-                    r1
-                    r2
-                    r2
-                    r2.
-                    r1
-                    r2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
                 }
             }
         >>
