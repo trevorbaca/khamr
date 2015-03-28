@@ -245,6 +245,13 @@ class SegmentMaker(makertools.SegmentMaker):
             )
         lilypond_file.file_initial_user_includes.append(path)
         if not self.name == 'A':
+            path = os.path.join(
+                '..',
+                '..',
+                'stylesheets',
+                'nonfirst-segment.ily',
+                )
+            lilypond_file.file_initial_user_includes.append(path)
             lilypond_file.header_block.title = None
             lilypond_file.header_block.composer = None
 
