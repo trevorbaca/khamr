@@ -69,7 +69,7 @@ class SegmentMaker(makertools.SegmentMaker):
 
         Returns LilyPond file.
         '''
-        self._make_score()
+        self._make_score(metadata)
         self._make_lilypond_file()
         self._configure_lilypond_file()
         self._populate_time_signature_context()
@@ -91,9 +91,7 @@ class SegmentMaker(makertools.SegmentMaker):
         if not inspect_(score).is_well_formed():
             string = inspect_(score).tabulate_well_formedness_violations()
             raise Exception(string)
-        sticky_settings = {
-            'measure_count': self.measure_count,
-            }
+        sticky_settings = self._get_sticky_settings()
         return self.lilypond_file, sticky_settings
 
     ### PRIVATE METHODS ###
@@ -258,9 +256,17 @@ class SegmentMaker(makertools.SegmentMaker):
             lilypond_file.header_block.title = None
             lilypond_file.header_block.composer = None
 
-    def _get_current_bar_number(self):
-        #return 50
-        return
+    # TODO
+    def _get_end_clefs(self):
+        return {}
+
+    # TODO
+    def _get_end_instruments(self):
+        return {}
+
+    # TODO
+    def _get_end_tempo_indication(self):
+        pass
 
     def _get_music_makers_for_context(self, context_name):
         music_makers = []
@@ -282,6 +288,17 @@ class SegmentMaker(makertools.SegmentMaker):
         assert isinstance(stop_measure, Measure), stop_measure
         stop_offset = inspect_(stop_measure).get_timespan().stop_offset
         return start_offset, stop_offset
+
+    def _get_sticky_settings(self):
+        sticky_settings = {}
+        sticky_settings['end_clef_by_staff_name'] = \
+            self._get_end_clefs()
+        sticky_settings['end_instrument_by_staff_name'] = \
+            self._get_end_instruments()
+        sticky_settings['end_tempo_indication'] = \
+            self._get_end_tempo_indication()
+        sticky_settings['measure_count'] = self.measure_count
+        return sticky_settings
 
     def _get_time_signatures(self, start_stage=None, stop_stage=None):
         counts = len(self.time_signatures), sum(self.measures_per_stage)
@@ -501,53 +518,16 @@ class SegmentMaker(makertools.SegmentMaker):
             measures = self._make_rests(time_signatures)
             voice.extend(measures)
 
-    def _make_score(self):
+    def _make_score(self, metadata):
         from khamr import makers
         template = makers.ScoreTemplate()
         score = template()
-        current_bar_number = self._get_current_bar_number()
-        if current_bar_number is not None:
-            set_(score).current_bar_number = current_bar_number
+        first_bar_number = metadata.get('first_bar_number')
+        if first_bar_number is not None:
+            set_(score).current_bar_number = first_bar_number
         else:
             override(score).bar_number.transparent = True
         self._score = score
-
-#    def _move_clefs_from_notes_back_to_rests(self):
-#        prototype = indicatortools.Clef
-#        for leaf in iterate(self._score).by_class(scoretools.Leaf):
-#            clefs = inspect_(leaf).get_indicators(prototype)
-#            if not clefs:
-#                continue
-#            assert len(clefs) == 1
-#            clef = clefs[0]
-#            current_leaf = leaf
-#            previous_leaf = inspect_(current_leaf).get_leaf(-1)
-#            if not isinstance(previous_leaf, scoretools.Rest):
-#                continue
-#            #detach(clef, leaf)
-#            while True:
-#                current_leaf = previous_leaf
-#                previous_leaf = inspect_(current_leaf).get_leaf(-1)
-#                if not isinstance(previous_leaf, scoretools.Rest):
-#                    if current_leaf._start_offset == 0:
-#                        break
-#                    already_present_in_parentage = False
-#                    parentage = inspect_(current_leaf).get_parentage()
-#                    for component in parentage:
-#                        if (not component._start_offset ==
-#                            current_leaf._start_offset):
-#                            continue
-#                        if inspect_(component).has_indicator(prototype):
-#                            #already_present_in_parentage = True
-#                            detach(prototype, component)
-#                            break
-#                    if already_present_in_parentage:
-#                        break
-#                    else:
-#                        #attach(clef, current_leaf)
-#                        new_clef = new(clef)
-#                        attach(new_clef, current_leaf)
-#                        break
 
     def _move_instruments_from_notes_back_to_rests(self):
         prototype = instrumenttools.Instrument
