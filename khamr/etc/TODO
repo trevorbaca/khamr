@@ -1,1 +1,11 @@
-1.  audit time techniques of entire piece.
+1.  See if there's a way to start with short instrument names;
+    do so while working with segments.
+
+2.  Apply default instruments to all staves.
+
+3.  Reduce stem height in tempo indications.
+
+4.  See if there's a way to regularize circled bar numbers. 
+
+5.  Create an inter-segment cache. Use first for page numbers
+    and measure numbers.
