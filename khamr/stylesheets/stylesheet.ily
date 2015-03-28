@@ -1,6 +1,8 @@
 #(set-default-paper-size "11x17" 'portrait)
 #(set-global-staff-size 12)
 
+\include "instrument-names.ily"
+
 \paper {
     %bottom-margin = 10\mm
     evenFooterMarkup = \markup \fill-line {
@@ -13,7 +15,7 @@
         }
     }
     evenHeaderMarkup = \markup \fill-line { " " }
-    left-margin = 30\mm
+    left-margin = 20\mm
     oddFooterMarkup = \markup \fill-line {
         " "
         \concat {
@@ -82,7 +84,7 @@
 
 \layout {
     \accidentalStyle forget
-    indent = 0
+    indent = 10
     ragged-bottom = ##t
     ragged-last = ##t
     ragged-right = ##t
@@ -264,8 +266,8 @@
         \type Engraver_group
         \alias Staff
         \accepts PercussionMusicVoice
-        instrumentName = \markup { \hcenter-in #12 Percussion }
-        shortInstrumentName = \markup { \hcenter-in #12 Perc. }
+        instrumentName = \percussionName
+        shortInstrumentName = \shortPercussionName
         \override Beam.positions = #'(-6 . -6)
         \override DynamicLineSpanner.staff-padding = 9
         \override TupletBracket.staff-padding = 5
@@ -293,8 +295,8 @@
         \type Engraver_group
         \alias Staff
         \accepts ViolinMusicVoice
-        instrumentName = \markup { \hcenter-in #12 Violin }
-        shortInstrumentName = \markup { \hcenter-in #12 Vn. }
+        instrumentName = \violinName
+        shortInstrumentName = \shortViolinName
         \override Beam.positions = #'(-7 . -7)
         \override DynamicLineSpanner.staff-padding = 10
         \override TupletBracket.staff-padding = 6
@@ -311,8 +313,8 @@
         \type Engraver_group
         \alias Staff
         \accepts ViolaMusicVoice
-        instrumentName = \markup { \hcenter-in #12 Viola }
-        shortInstrumentName = \markup { \hcenter-in #12 Va. }
+        instrumentName = \violaName
+        shortInstrumentName = \shortViolaName
         \override Beam.positions = #'(-7 . -7)
         \override DynamicLineSpanner.staff-padding = 10
         \override TupletBracket.staff-padding = 6
@@ -329,8 +331,8 @@
         \type Engraver_group
         \alias Staff
         \accepts CelloMusicVoice
-        instrumentName = \markup { \hcenter-in #12 Cello }
-        shortInstrumentName = \markup { \hcenter-in #12 Vc. }
+        instrumentName = \celloName
+        shortInstrumentName = \shortCelloName
         \override Beam.positions = #'(-7 . -7)
         \override DynamicLineSpanner.staff-padding = 10
         \override TupletBracket.staff-padding = 6
@@ -347,8 +349,8 @@
         \type Engraver_group
         \alias Staff
         \accepts ContrabassMusicVoice
-        instrumentName = \markup { \hcenter-in #12 Contrabass }
-        shortInstrumentName = \markup { \hcenter-in #12 Vc. }
+        instrumentName = \contrabassName
+        shortInstrumentName = \shortContrabassName
         \override Beam.positions = #'(-7 . -7)
         \override DynamicLineSpanner.staff-padding = 10
         \override TupletBracket.staff-padding = 6
