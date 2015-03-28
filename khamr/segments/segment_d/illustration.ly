@@ -1,4 +1,4 @@
-% 2015-03-28 15:38
+% 2015-03-28 19:39
 
 \version "2.19.17"
 \language "english"
@@ -10,7 +10,7 @@
 
 \score {
     \context Score = "Score" \with {
-        \override BarNumber #'transparent = ##t
+        currentBarNumber = #7
     } <<
         \tag winds.flute.oboe.clarinet.saxophone.guitar.piano.percussion.strings.violin.viola.cello.contrabass
         \context TimeSignatureContext = "Time Signature Context" {
