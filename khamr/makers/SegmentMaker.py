@@ -91,7 +91,10 @@ class SegmentMaker(makertools.SegmentMaker):
         if not inspect_(score).is_well_formed():
             string = inspect_(score).tabulate_well_formedness_violations()
             raise Exception(string)
-        return self.lilypond_file
+        sticky_settings = {
+            'measure_count': self.measure_count,
+            }
+        return self.lilypond_file, sticky_settings
 
     ### PRIVATE METHODS ###
 
