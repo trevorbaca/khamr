@@ -6,7 +6,7 @@ metadata = collections.OrderedDict([
     ('end_clef_by_staff_name', {}),
     ('end_instrument_by_staff_name', {}),
     ('end_tempo_indication', None),
-    ('first_bar_number', 1),
+    ('first_bar_number', 13),
     ('measure_count', 6),
     ('name', 'C'),
     ])
