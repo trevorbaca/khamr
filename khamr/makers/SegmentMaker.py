@@ -255,6 +255,10 @@ class SegmentMaker(makertools.SegmentMaker):
             lilypond_file.header_block.title = None
             lilypond_file.header_block.composer = None
 
+    def _get_current_bar_number(self):
+        #return 50
+        return
+
     def _get_music_makers_for_context(self, context_name):
         music_makers = []
         for music_maker in self.music_makers:
@@ -444,7 +448,7 @@ class SegmentMaker(makertools.SegmentMaker):
     def _make_lilypond_file(self):
         lilypond_file = lilypondfiletools.make_basic_lilypond_file(self._score)
         for item in lilypond_file.items[:]:
-            if getattr(item, 'name', None) in ('layout', 'paper'):
+            if getattr(item, 'name', None) in ('header', 'layout', 'paper'):
                 lilypond_file.items.remove(item)
         self._lilypond_file = lilypond_file
             
@@ -498,6 +502,11 @@ class SegmentMaker(makertools.SegmentMaker):
         from khamr import makers
         template = makers.ScoreTemplate()
         score = template()
+        current_bar_number = self._get_current_bar_number()
+        if current_bar_number is not None:
+            set_(score).current_bar_number = current_bar_number
+        else:
+            override(score).bar_number.transparent = True
         self._score = score
 
 #    def _move_clefs_from_notes_back_to_rests(self):
@@ -586,6 +595,11 @@ class SegmentMaker(makertools.SegmentMaker):
 
     def _populate_time_signature_context(self):
         measures = self._make_skip_filled_measures()
+        leaves = iterate(measures).by_class(scoretools.Leaf)
+        leaves = list(leaves)
+        first_leaf = leaves[0]
+        dummy_first_bar_command = indicatortools.LilyPondCommand('bar ""')
+        attach(dummy_first_bar_command, first_leaf)
         time_signature_context = self._score['Time Signature Context']
         time_signature_context.extend(measures)
 
