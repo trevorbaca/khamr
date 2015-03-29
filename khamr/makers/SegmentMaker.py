@@ -93,8 +93,8 @@ class SegmentMaker(makertools.SegmentMaker):
         if not inspect_(score).is_well_formed():
             string = inspect_(score).tabulate_well_formedness_violations()
             raise Exception(string)
-        sticky_settings = self._get_sticky_settings()
-        return self.lilypond_file, sticky_settings
+        self._update_segment_metadata()
+        return self.lilypond_file, self._metadata
 
     ### PRIVATE METHODS ###
 
@@ -268,9 +268,29 @@ class SegmentMaker(makertools.SegmentMaker):
     def _get_end_instruments(self):
         return {}
 
-    # TODO
+    def _get_end_settings(self):
+        end_settings = {}
+        end_settings['end_clefs_by_staff'] = self._get_end_clefs()
+        end_settings['end_instruments_by_staff'] = self._get_end_instruments()
+        end_settings['end_tempo_indication'] = self._get_end_tempo_indication()
+        return end_settings
+
     def _get_end_tempo_indication(self):
-        pass
+        from khamr import materials
+        context = self._score['Time Signature Context']
+        last_leaf = inspect_(context).get_leaf(-1)
+        effective_tempo = inspect_(last_leaf).get_effective(Tempo)
+        if not effective_tempo:
+            return
+        tempo_inventory = materials.tempo_inventory
+        for tempo_name, tempo in tempo_inventory.iteritems():
+            if tempo == effective_tempo:
+                break
+        else:
+            message = 'can not find {!r} in tempo inventory {!r}.'
+            message = message.format(tempo, tempo_inventory)
+            raise Exception(message)
+        return tempo_name
 
     def _get_music_makers_for_context(self, context_name):
         music_makers = []
@@ -301,17 +321,6 @@ class SegmentMaker(makertools.SegmentMaker):
         rehearsal_ordinal = ord('A') - 1 + segment_index
         rehearsal_letter = chr(rehearsal_ordinal)
         return rehearsal_letter
-
-    def _get_sticky_settings(self):
-        sticky_settings = {}
-        sticky_settings['end_clefs_by_staff_name'] = \
-            self._get_end_clefs()
-        sticky_settings['end_instruments_by_staff_name'] = \
-            self._get_end_instruments()
-        sticky_settings['end_tempo_indication'] = \
-            self._get_end_tempo_indication()
-        sticky_settings['measure_count'] = self.measure_count
-        return sticky_settings
 
     def _get_time_signatures(self, start_stage=None, stop_stage=None):
         counts = len(self.time_signatures), sum(self.measures_per_stage)
@@ -642,6 +651,10 @@ class SegmentMaker(makertools.SegmentMaker):
                     written_pitch_number = sounding_pitch_number - i
                     leaf.written_pitch = written_pitch_number
         #raise Exception(temp)
+
+    def _update_segment_metadata(self):
+        self._metadata['measure_count'] = self.measure_count
+        self._metadata.update(self._get_end_settings())
 
     ### PUBLIC PROPERTIES ###
 
