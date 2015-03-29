@@ -1,4 +1,4 @@
-% 2015-03-29 08:21
+% 2015-03-29 14:33
 
 \version "2.19.17"
 \language "english"
@@ -9,7 +9,7 @@
 
 \score {
     \context Score = "Score" \with {
-        currentBarNumber = #1
+        currentBarNumber = #54
     } <<
         \tag winds.flute.oboe.clarinet.saxophone.guitar.piano.percussion.strings.violin.viola.cello.contrabass
         \context TimeSignatureContext = "Time Signature Context" {
