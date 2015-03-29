@@ -1,32 +1,43 @@
-fluteName = \markup { \hcenter-in #16 \center-column { Bass flute } }
-shortFluteName = \markup { \hcenter-in #10 \center-column { Bass fl. } }
+longSpace = 16
+shortSpace = 10
 
-oboeName = \markup { \hcenter-in #16 \center-column { English horn } }
-shortOboeName = \markup { \hcenter-in #10 \center-column { Eng. hn. } }
+fluteName = \markup {
+    \hcenter-in #longSpace \center-column { Bass flute } }
+shortFluteName = \markup {
+    \hcenter-in #shortSpace \center-column { Bass fl. } }
 
-clarinetName = \markup { \hcenter-in #16 \center-column { Bass clarinet } }
-shortClarinetName = \markup { \hcenter-in #10 \center-column { Bass cl. } }
+oboeName = \markup {
+    \hcenter-in #longSpace \center-column { English horn } }
+shortOboeName = \markup {
+    \hcenter-in #shortSpace \center-column { Eng. hn. } }
 
-saxophoneName = \markup { \hcenter-in #16 \center-column { Baritone sax. } }
-shortSaxophoneName = \markup { \hcenter-in #10 \center-column { Bar. sax. } }
+clarinetName = \markup {
+    \hcenter-in #longSpace \center-column { Bass clarinet } }
+shortClarinetName = \markup {
+    \hcenter-in #shortSpace \center-column { Bass cl. } }
 
-guitarName = \markup { \hcenter-in #16 Guitar }
-shortGuitarName = \markup { \hcenter-in #10 Gt. }
+saxophoneName = \markup {
+    \hcenter-in #longSpace \center-column { Baritone sax. } }
+shortSaxophoneName = \markup {
+    \hcenter-in #shortSpace \center-column { Bar. sax. } }
 
-pianoName = \markup { \hcenter-in #16 Piano }
-shortPianoName = \markup { \hcenter-in #10 Pf. }
+guitarName = \markup { \hcenter-in #longSpace Guitar }
+shortGuitarName = \markup { \hcenter-in #shortSpace Gt. }
 
-percussionName = \markup { \hcenter-in #16 Percussion }
-shortPercussionName = \markup { \hcenter-in #10 Perc. }
+pianoName = \markup { \hcenter-in #longSpace Piano }
+shortPianoName = \markup { \hcenter-in #shortSpace Pf. }
 
-violinName = \markup { \hcenter-in #16 Violin }
-shortViolinName = \markup { \hcenter-in #10 Vn. }
+percussionName = \markup { \hcenter-in #longSpace Percussion }
+shortPercussionName = \markup { \hcenter-in #shortSpace Perc. }
 
-violaName = \markup { \hcenter-in #16 Viola }
-shortViolaName = \markup { \hcenter-in #10 Va. }
+violinName = \markup { \hcenter-in #longSpace Violin }
+shortViolinName = \markup { \hcenter-in #shortSpace Vn. }
 
-celloName = \markup { \hcenter-in #16 Cello }
-shortCelloName = \markup { \hcenter-in #10 Vc. }
+violaName = \markup { \hcenter-in #longSpace Viola }
+shortViolaName = \markup { \hcenter-in #shortSpace Va. }
 
-contrabassName = \markup { \hcenter-in #16 Contrabass }
-shortContrabassName = \markup { \hcenter-in #10 Vb. }
+celloName = \markup { \hcenter-in #longSpace Cello }
+shortCelloName = \markup { \hcenter-in #shortSpace Vc. }
+
+contrabassName = \markup { \hcenter-in #longSpace Contrabass }
+shortContrabassName = \markup { \hcenter-in #shortSpace Vb. }
