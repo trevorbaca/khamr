@@ -117,7 +117,9 @@ class SegmentMaker(makertools.SegmentMaker):
             stage_number = stage_index + 1
             result = self._stage_number_to_measure_indices(stage_number)
             start_measure_index, stop_measure_index = result
-            string = '[{}{}]'.format(self.name, stage_number)
+            rehearsal_letter = self._get_rehearsal_letter()
+            #string = '[{}{}]'.format(self.name, stage_number)
+            string = '[{}{}]'.format(rehearsal_letter, stage_number)
             markup = Markup(string)
             markup = markup.with_color('blue')
             markup = markup.smaller()
@@ -291,11 +293,20 @@ class SegmentMaker(makertools.SegmentMaker):
         stop_offset = inspect_(stop_measure).get_timespan().stop_offset
         return start_offset, stop_offset
 
+    def _get_rehearsal_letter(self):
+        segment_number = self._metadata['segment_number']
+        if segment_number == 1:
+            return ''
+        segment_index = segment_number - 1
+        rehearsal_ordinal = ord('A') - 1 + segment_index
+        rehearsal_letter = chr(rehearsal_ordinal)
+        return rehearsal_letter
+
     def _get_sticky_settings(self):
         sticky_settings = {}
-        sticky_settings['end_clef_by_staff_name'] = \
+        sticky_settings['end_clefs_by_staff_name'] = \
             self._get_end_clefs()
-        sticky_settings['end_instrument_by_staff_name'] = \
+        sticky_settings['end_instruments_by_staff_name'] = \
             self._get_end_instruments()
         sticky_settings['end_tempo_indication'] = \
             self._get_end_tempo_indication()
