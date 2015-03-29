@@ -10,6 +10,5 @@ metadata = collections.OrderedDict([
     ('end_tempo_indication', None),
     ('first_bar_number', 48),
     ('measure_count', 6),
-    ('name', 5),
     ('segment_number', 5),
     ])
