@@ -1,4 +1,4 @@
-% 2015-03-29 14:37
+% 2015-03-29 15:18
 
 \version "2.19.17"
 \language "english"
@@ -10,7 +10,7 @@
 
 \score {
     \context Score = "Score" \with {
-        currentBarNumber = #72
+        currentBarNumber = #19
     } <<
         \tag winds.flute.oboe.clarinet.saxophone.guitar.piano.percussion.strings.violin.viola.cello.contrabass
         \context TimeSignatureContext = "Time Signature Context" {
@@ -23,7 +23,7 @@
                         \smaller
                             \with-color
                                 #blue
-                                [D1]
+                                [C1]
                         }
                     ^ \markup {
                     \smaller
@@ -48,7 +48,7 @@
                         \smaller
                             \with-color
                                 #blue
-                                [D2]
+                                [C2]
                         }
             }
             {
@@ -62,7 +62,7 @@
                         \smaller
                             \with-color
                                 #blue
-                                [D3]
+                                [C3]
                         }
             }
             {
@@ -117,7 +117,7 @@
                         \smaller
                             \with-color
                                 #blue
-                                [D4]
+                                [C4]
                         }
             }
             {
@@ -131,7 +131,7 @@
                         \smaller
                             \with-color
                                 #blue
-                                [D5]
+                                [C5]
                         }
             }
             {
@@ -145,7 +145,7 @@
                         \smaller
                             \with-color
                                 #blue
-                                [D6]
+                                [C6]
                         }
             }
             {
@@ -159,7 +159,7 @@
                         \smaller
                             \with-color
                                 #blue
-                                [D7]
+                                [C7]
                         }
             }
             {
@@ -173,7 +173,7 @@
                         \smaller
                             \with-color
                                 #blue
-                                [D8]
+                                [C8]
                         }
                     ^ \markup {
                     \smaller
@@ -203,7 +203,7 @@
                         \smaller
                             \with-color
                                 #blue
-                                [D9]
+                                [C9]
                         }
             }
             {
@@ -221,7 +221,7 @@
                         \smaller
                             \with-color
                                 #blue
-                                [D10]
+                                [C10]
                         }
             }
             {
@@ -237,7 +237,7 @@
                         \smaller
                             \with-color
                                 #blue
-                                [D11]
+                                [C11]
                         }
             }
             {
@@ -254,7 +254,7 @@
                         \smaller
                             \with-color
                                 #blue
-                                [D12]
+                                [C12]
                         }
             }
             {

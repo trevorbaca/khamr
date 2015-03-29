@@ -1,4 +1,4 @@
-% 2015-03-29 14:33
+% 2015-03-29 15:18
 
 \version "2.19.17"
 \language "english"
@@ -10,7 +10,7 @@
 
 \score {
     \context Score = "Score" \with {
-        currentBarNumber = #60
+        currentBarNumber = #7
     } <<
         \tag winds.flute.oboe.clarinet.saxophone.guitar.piano.percussion.strings.violin.viola.cello.contrabass
         \context TimeSignatureContext = "Time Signature Context" {
@@ -23,7 +23,7 @@
                         \smaller
                             \with-color
                                 #blue
-                                [B1]
+                                [A1]
                         }
             }
             {
@@ -36,7 +36,7 @@
                         \smaller
                             \with-color
                                 #blue
-                                [B2]
+                                [A2]
                         }
             }
             {
@@ -50,7 +50,7 @@
                         \smaller
                             \with-color
                                 #blue
-                                [B3]
+                                [A3]
                         }
             }
             {
