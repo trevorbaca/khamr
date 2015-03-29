@@ -14,6 +14,7 @@ class SegmentMaker(makertools.SegmentMaker):
     __slots__ = (
         '_final_markup',
         '_final_markup_extra_offset',
+        '_metadata',
         '_music_handlers',
         '_music_makers',
         '_score',
@@ -69,7 +70,8 @@ class SegmentMaker(makertools.SegmentMaker):
 
         Returns LilyPond file.
         '''
-        self._make_score(metadata)
+        self._metadata = metadata
+        self._make_score()
         self._make_lilypond_file()
         self._configure_lilypond_file()
         self._populate_time_signature_context()
@@ -175,8 +177,8 @@ class SegmentMaker(makertools.SegmentMaker):
             attach(instrument, first_leaf)
         
     def _attach_rehearsal_mark(self):
-        assert len(self.name) == 1 and self.name.upper(), repr(self.name)
-        letter_number = ord(self.name) - ord('A') + 0
+        segment_number = self._metadata['segment_number']
+        letter_number = segment_number - 1
         if letter_number == 0:
             return
         rehearsal_mark = indicatortools.RehearsalMark(number=letter_number)
@@ -245,7 +247,7 @@ class SegmentMaker(makertools.SegmentMaker):
             'stylesheet.ily',
             )
         lilypond_file.file_initial_user_includes.append(path)
-        if not self.name == 'A':
+        if 1 < self._metadata['segment_number']:
             path = os.path.join(
                 '..',
                 '..',
@@ -518,11 +520,11 @@ class SegmentMaker(makertools.SegmentMaker):
             measures = self._make_rests(time_signatures)
             voice.extend(measures)
 
-    def _make_score(self, metadata):
+    def _make_score(self):
         from khamr import makers
         template = makers.ScoreTemplate()
         score = template()
-        first_bar_number = metadata.get('first_bar_number')
+        first_bar_number = self._metadata['first_bar_number']
         if first_bar_number is not None:
             set_(score).current_bar_number = first_bar_number
         else:
