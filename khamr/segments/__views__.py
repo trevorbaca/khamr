@@ -8,7 +8,12 @@ view_inventory=idetools.ViewInventory(
         (
             'weird',
             idetools.View(
-                ['C', 'D', 'E', 'A', 'B']
+                ["'3' in :path:", 
+                "'4' in :path:",
+                "'5' in :path:",
+                "'1' in :path:",
+                "'2' in :path:",
+                ]
                 ),
             ),
         ]
