@@ -306,7 +306,7 @@ class SegmentMaker(makertools.SegmentMaker):
         if not effective_tempo:
             return
         tempo_inventory = materials.tempo_inventory
-        for tempo_name, tempo in tempo_inventory.iteritems():
+        for tempo_name, tempo in tempo_inventory.items():
             if tempo == effective_tempo:
                 break
         else:
