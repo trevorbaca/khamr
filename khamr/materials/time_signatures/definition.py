@@ -16,7 +16,3 @@ numerators = baca.utilities.helianthate(
 numerators = sequencetools.flatten_sequence(numerators)
 time_signatures = [TimeSignature((_, 4)) for _ in numerators]
 time_signatures = datastructuretools.CyclicTuple(time_signatures)
-
-__all__ = [
-    'time_signatures',
-    ]
