@@ -2,6 +2,7 @@
 #(set-global-staff-size 12)
 
 \include "instrument-names.ily"
+\include "scheme.ily"
 
 \paper {
     %bottom-margin = 10\mm
@@ -102,7 +103,8 @@
         \override BarNumber.extra-offset = #'(-6 . -4)
         \override BarNumber.font-size = 1
         \override BarNumber.padding = 4
-        \override BarNumber.stencil = #(make-stencil-circler 0.1 0.7 ly:text-interface::print)
+        %\override BarNumber.stencil = #(make-stencil-circler 0.1 0.7 ly:text-interface::print)
+        \override BarNumber.stencil = #(make-stencil-circler 0.1 2.0 ly:text-interface::print)
         \override MetronomeMark.X-extent = #'(0 . 0)
         \override MetronomeMark.Y-extent = #'(0 . 0)
         \override MetronomeMark.break-align-symbols = #'(left-edge)
