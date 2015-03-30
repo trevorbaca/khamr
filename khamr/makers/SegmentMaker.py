@@ -1,4 +1,5 @@
 # -*- encoding: utf-8 -*-
+import collections
 import copy
 import os
 from abjad import *
@@ -262,7 +263,18 @@ class SegmentMaker(makertools.SegmentMaker):
 
     # TODO
     def _get_end_clefs(self):
-        return {}
+        result = datastructuretools.TypedOrderedDict()
+        voices = iterate(self._score).by_class(Voice)
+        voices = [_ for _ in voices if _.is_semantic]
+        voices.sort(key=lambda x: x.name)
+        for voice in voices:
+            last_leaf = inspect_(voice).get_leaf(-1)
+            clef = inspect_(last_leaf).get_effective(Clef)
+            if clef:
+                result[voice.name] = clef.name
+            else:
+                result[voice.name] = None
+        return result
 
     # TODO
     def _get_end_instruments(self):
@@ -272,7 +284,8 @@ class SegmentMaker(makertools.SegmentMaker):
         end_settings = {}
         end_settings['end_clefs_by_staff'] = self._get_end_clefs()
         end_settings['end_instruments_by_staff'] = self._get_end_instruments()
-        end_settings['end_tempo_indication'] = self._get_end_tempo_indication()
+        end_settings['end_tempo'] = self._get_end_tempo_indication()
+        end_settings['end_time_signature'] = self._get_end_time_signature()
         return end_settings
 
     def _get_end_tempo_indication(self):
@@ -291,6 +304,15 @@ class SegmentMaker(makertools.SegmentMaker):
             message = message.format(tempo, tempo_inventory)
             raise Exception(message)
         return tempo_name
+
+    def _get_end_time_signature(self):
+        context = self._score['Time Signature Context']
+        last_measure = context[-1]
+        time_signature = inspect_(last_measure).get_effective(TimeSignature)
+        if not time_signature:
+            return
+        string = str(time_signature)
+        return string
 
     def _get_music_makers_for_context(self, context_name):
         music_makers = []
