@@ -20,21 +20,25 @@ class ScoreTemplate(abctools.AbjadValueObject):
             \context WindSectionStaffGroup = "Wind Section Staff Group" <<
                 \tag winds.flute
                 \context FluteMusicStaff = "Flute Music Staff" {
+                    \clef "treble"
                     \context FluteMusicVoice = "Flute Music Voice" {
                     }
                 }
                 \tag winds.oboe
                 \context OboeMusicStaff = "Oboe Music Staff" {
+                    \clef "treble"
                     \context OboeMusicVoice = "Oboe Music Voice" {
                     }
                 }
                 \tag winds.clarinet
                 \context ClarinetMusicStaff = "Clarinet Music Staff" {
+                    \clef "treble"
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
                     }
                 }
                 \tag winds.saxophone
                 \context SaxophoneMusicStaff = "Saxophone Music Staff" {
+                    \clef "treble"
                     \context SaxophoneMusicVoice = "Saxophone Music Voice" {
                     }
                 }
@@ -42,16 +46,19 @@ class ScoreTemplate(abctools.AbjadValueObject):
             \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
                 \tag percussion.guitar
                 \context GuitarMusicStaff = "Guitar Music Staff" {
+                    \clef "treble"
                     \context GuitarMusicVoice = "Guitar Music Voice" {
                     }
                 }
                 \tag percussion.piano
                 \context PianoMusicStaff = "Piano Music Staff" {
+                    \clef "treble"
                     \context PianoMusicVoice = "Piano Music Voice" {
                     }
                 }
                 \tag percussion
                 \context PercussionMusicStaff = "Percussion Staff" {
+                    \clef "percussion"
                     \context PercussionMusicVoice = "Percussion Music Voice" {
                     }
                 }
@@ -59,6 +66,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             \context StringSectionStaffGroup = "String Section Staff Group" <<
                 \tag strings.violin
                 \context ViolinMusicStaff = "Violin Music Staff" {
+                    \clef "treble"
                     \context ViolinMusicVoice = "Violin Music Voice" {
                     }
                 }
