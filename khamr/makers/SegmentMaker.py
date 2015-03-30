@@ -261,7 +261,6 @@ class SegmentMaker(makertools.SegmentMaker):
             lilypond_file.header_block.title = None
             lilypond_file.header_block.composer = None
 
-    # TODO
     def _get_end_clefs(self):
         result = datastructuretools.TypedOrderedDict()
         voices = iterate(self._score).by_class(Voice)
@@ -276,9 +275,20 @@ class SegmentMaker(makertools.SegmentMaker):
                 result[voice.name] = None
         return result
 
-    # TODO
     def _get_end_instruments(self):
-        return {}
+        result = datastructuretools.TypedOrderedDict()
+        staves = iterate(self._score).by_class(Staff)
+        staves = list(staves)
+        staves.sort(key=lambda x: x.name)
+        prototype = (instrumenttools.Instrument,)
+        for staff in staves:
+            last_leaf = inspect_(staff).get_leaf(-1)
+            instrument = inspect_(last_leaf).get_effective(prototype)
+            if instrument:
+                result[staff.name] = instrument.instrument_name
+            else:
+                result[staff.name] = None
+        return result
 
     def _get_end_settings(self):
         end_settings = {}

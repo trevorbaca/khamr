@@ -1,4 +1,4 @@
-% 2015-03-29 16:00
+% 2015-03-29 21:48
 
 \version "2.19.17"
 \language "english"
@@ -71,6 +71,7 @@
         \context WindSectionStaffGroup = "Wind Section Staff Group" <<
             \tag winds.flute
             \context FluteMusicStaff = "Flute Music Staff" {
+                \clef "treble"
                 \context FluteMusicVoice = "Flute Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
@@ -82,6 +83,7 @@
             }
             \tag winds.oboe
             \context OboeMusicStaff = "Oboe Music Staff" {
+                \clef "treble"
                 \context OboeMusicVoice = "Oboe Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
@@ -93,6 +95,7 @@
             }
             \tag winds.clarinet
             \context ClarinetMusicStaff = "Clarinet Music Staff" {
+                \clef "treble"
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
@@ -104,6 +107,7 @@
             }
             \tag winds.saxophone
             \context SaxophoneMusicStaff = "Saxophone Music Staff" {
+                \clef "treble"
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
@@ -117,6 +121,7 @@
         \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
             \tag percussion.guitar
             \context GuitarMusicStaff = "Guitar Music Staff" {
+                \clef "treble"
                 \context GuitarMusicVoice = "Guitar Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
@@ -128,6 +133,7 @@
             }
             \tag percussion.piano
             \context PianoMusicStaff = "Piano Music Staff" {
+                \clef "treble"
                 \context PianoMusicVoice = "Piano Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
@@ -139,6 +145,7 @@
             }
             \tag percussion
             \context PercussionMusicStaff = "Percussion Staff" {
+                \clef "percussion"
                 \context PercussionMusicVoice = "Percussion Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
@@ -152,6 +159,7 @@
         \context StringSectionStaffGroup = "String Section Staff Group" <<
             \tag strings.violin
             \context ViolinMusicStaff = "Violin Music Staff" {
+                \clef "treble"
                 \context ViolinMusicVoice = "Violin Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
