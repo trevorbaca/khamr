@@ -37,3 +37,13 @@ segment_maker.tempo_map = [
 ###############################################################################
 ################################ MUSIC-MAKERS #################################
 ###############################################################################
+
+music_maker = segment_maker.make_music_maker()
+music_maker.stages = (3, 9)
+music_maker.context_name = fl
+music_maker.instrument = instrumenttools.Flute() # from inventory
+music_maker.rhythm_maker = rhythmmakertools.NoteRhythmMaker(
+    tie_specifier=rhythmmakertools.TieSpecifier(
+        tie_across_divisions=True,
+        ),
+    )
