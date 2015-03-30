@@ -827,14 +827,37 @@ class SegmentMaker(makertools.SegmentMaker):
         else:
             return music_handlers
 
-    def make_music_maker(self):
+    def make_music_maker(
+        self,
+        clef=None,
+        context_name=None,
+        division_maker=None,
+        instrument=None,
+        rhythm_maker=None,
+        rhythm_overwrites=None,
+        staff_line_count=None,
+        stages=None,
+        start_tempo=None,
+        stop_tempo=None,
+        ):
         r'''Makes music-maker and appends music-maker to segment-maker's list
         of music-makers.
 
         Returns music-maker.
         '''
         from khamr import makers
-        music_maker = makers.MusicMaker()
+        music_maker = makers.MusicMaker(
+            clef=clef,
+            context_name=context_name,
+            division_maker=division_maker,
+            instrument=instrument,
+            rhythm_maker=rhythm_maker,
+            rhythm_overwrites=rhythm_overwrites,
+            staff_line_count=staff_line_count,
+            stages=stages,
+            start_tempo=start_tempo,
+            stop_tempo=stop_tempo,
+            )
         self.music_makers.append(music_maker)
         return music_maker
 

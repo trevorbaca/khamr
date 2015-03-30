@@ -1,4 +1,4 @@
-% 2015-03-30 15:37
+% 2015-03-30 16:07
 
 \version "2.19.17"
 \language "english"
@@ -271,15 +271,45 @@
             \context FluteMusicStaff = "Flute Music Staff" {
                 \clef "treble"
                 \context FluteMusicVoice = "Flute Music Voice" {
-                    \set Staff.instrumentName = \markup { Flute }
-                    \set Staff.shortInstrumentName = \markup { Fl. }
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1/2
-                    \set Staff.instrumentName = \markup { Flute }
-                    \set Staff.shortInstrumentName = \markup { Fl. }
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Flute
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Fl.
+                        }
+                    c'2 ~
+                    c'2 ~
+                    c'2. ~
+                    c'2
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Bass
+                                    flute
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Bass
+                                    fl.
+                                }
+                        }
                     c'1 ~
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.5)
+                                \box
+                                    "to bass flute"
+                            }
                     c'2. ~
                     c'1 ~
                     c'1 ~

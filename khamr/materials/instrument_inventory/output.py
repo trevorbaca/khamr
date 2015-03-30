@@ -61,7 +61,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 short_instrument_name_markup=markuptools.Markup(
                     contents=(
@@ -74,7 +73,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 allowable_clefs=indicatortools.ClefInventory(
                     [
@@ -105,7 +103,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 short_instrument_name_markup=markuptools.Markup(
                     contents=(
@@ -118,7 +115,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 allowable_clefs=indicatortools.ClefInventory(
                     [
@@ -152,7 +148,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 short_instrument_name_markup=markuptools.Markup(
                     contents=(
@@ -192,7 +187,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 short_instrument_name_markup=markuptools.Markup(
                     contents=(
@@ -205,7 +199,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 allowable_clefs=indicatortools.ClefInventory(
                     [
@@ -344,7 +337,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 short_instrument_name_markup=markuptools.Markup(
                     contents=(
@@ -357,7 +349,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 allowable_clefs=indicatortools.ClefInventory(
                     [
@@ -509,7 +500,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 short_instrument_name_markup=markuptools.Markup(
                     contents=(
@@ -522,7 +512,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 allowable_clefs=indicatortools.ClefInventory(
                     [
@@ -553,7 +542,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 short_instrument_name_markup=markuptools.Markup(
                     contents=(
@@ -566,7 +554,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 allowable_clefs=indicatortools.ClefInventory(
                     [
@@ -783,7 +770,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 short_instrument_name_markup=markuptools.Markup(
                     contents=(
@@ -823,7 +809,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 short_instrument_name_markup=markuptools.Markup(
                     contents=(
@@ -836,7 +821,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 allowable_clefs=indicatortools.ClefInventory(
                     [
@@ -867,7 +851,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 short_instrument_name_markup=markuptools.Markup(
                     contents=(
@@ -880,7 +863,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 allowable_clefs=indicatortools.ClefInventory(
                     [
@@ -947,7 +929,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 short_instrument_name_markup=markuptools.Markup(
                     contents=(
@@ -960,7 +941,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 allowable_clefs=indicatortools.ClefInventory(
                     [
@@ -991,7 +971,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 short_instrument_name_markup=markuptools.Markup(
                     contents=(
@@ -1004,7 +983,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 allowable_clefs=indicatortools.ClefInventory(
                     [
@@ -1035,7 +1013,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 short_instrument_name_markup=markuptools.Markup(
                     contents=(
@@ -1048,7 +1025,6 @@ instrument_inventory = datastructuretools.TypedOrderedDict(
                                 )
                             ),
                         ),
-                    direction=Up,
                     ),
                 allowable_clefs=indicatortools.ClefInventory(
                     [
