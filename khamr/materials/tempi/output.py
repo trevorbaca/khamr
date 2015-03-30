@@ -5,7 +5,7 @@ from abjad.tools import indicatortools
 import collections
 
 
-tempo_inventory = datastructuretools.TypedOrderedDict(
+tempi = datastructuretools.TypedOrderedDict(
     [
         (
             42,

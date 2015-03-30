@@ -21,7 +21,7 @@ def make_long_markup(string):
 def make_short_markup(string):
     return make_markup(string, short_space)
 
-instrument_inventory = datastructuretools.TypedOrderedDict([
+instruments = datastructuretools.TypedOrderedDict([
     (
         'almglocken', 
         instrumenttools.UntunedPercussion(
