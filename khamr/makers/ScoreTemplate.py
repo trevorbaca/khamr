@@ -123,6 +123,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             name='Flute Music Staff',
             )
         self._attach_tag('winds.flute', flute_music_staff)
+        attach(Clef('treble'), flute_music_staff)
         oboe_music_voice = scoretools.Voice(
             [], 
             context_name='OboeMusicVoice',
@@ -134,6 +135,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             name='Oboe Music Staff',
             )
         self._attach_tag('winds.oboe', oboe_music_staff)
+        attach(Clef('treble'), oboe_music_staff)
         clarinet_music_voice = scoretools.Voice(
             [],
             context_name='ClarinetMusicVoice',
@@ -145,6 +147,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             name='Clarinet Music Staff',
             )
         self._attach_tag('winds.clarinet', clarinet_music_staff)
+        attach(Clef('treble'), clarinet_music_staff)
         saxophone_music_voice = scoretools.Voice(
             [],
             context_name='SaxophoneMusicVoice',
@@ -156,6 +159,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             name='Saxophone Music Staff',
             )
         self._attach_tag('winds.saxophone', saxophone_music_staff)
+        attach(Clef('treble'), saxophone_music_staff)
         wind_section_staff_group = scoretools.StaffGroup(
             [
                 flute_music_staff,
@@ -179,6 +183,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             name='Guitar Music Staff',
             )
         self._attach_tag('percussion.guitar', guitar_music_staff)
+        attach(Clef('treble'), guitar_music_staff)
         piano_music_voice = scoretools.Voice(
             [], 
             context_name='PianoMusicVoice',
@@ -190,6 +195,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             name='Piano Music Staff',
             )
         self._attach_tag('percussion.piano', piano_music_staff)
+        attach(Clef('treble'), piano_music_staff)
         percussion_music_voice = scoretools.Voice(
             [],
             context_name='PercussionMusicVoice',
@@ -201,6 +207,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             name='Percussion Staff',
             )
         self._attach_tag('percussion', percussion_music_staff)
+        attach(Clef('percussion'), percussion_music_staff)
         percussion_section_staff_group = scoretools.StaffGroup(
             [
                 guitar_music_staff,
@@ -223,6 +230,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             name='Violin Music Staff',
             )
         self._attach_tag('strings.violin', violin_music_staff)
+        attach(Clef('treble'), violin_music_staff)
         viola_music_voice = scoretools.Voice(
             [], 
             context_name='ViolaMusicVoice',
