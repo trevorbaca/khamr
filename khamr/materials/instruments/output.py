@@ -7,7 +7,7 @@ from abjad.tools import pitchtools
 import collections
 
 
-instrument_inventory = datastructuretools.TypedOrderedDict(
+instruments = datastructuretools.TypedOrderedDict(
     [
         (
             'almglocken',

@@ -2,7 +2,7 @@
 from abjad import *
 
 
-tempo_inventory = datastructuretools.TypedOrderedDict([
+tempi = datastructuretools.TypedOrderedDict([
     (
         42,
         Tempo(Duration(1, 4), 42),
