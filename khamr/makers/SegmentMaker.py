@@ -305,13 +305,13 @@ class SegmentMaker(makertools.SegmentMaker):
         effective_tempo = inspect_(last_leaf).get_effective(Tempo)
         if not effective_tempo:
             return
-        tempo_inventory = materials.tempo_inventory
-        for tempo_name, tempo in tempo_inventory.items():
+        tempi = materials.tempi
+        for tempo_name, tempo in tempi.items():
             if tempo == effective_tempo:
                 break
         else:
             message = 'can not find {!r} in tempo inventory {!r}.'
-            message = message.format(tempo, tempo_inventory)
+            message = message.format(tempo, tempi)
             raise Exception(message)
         return tempo_name
 
