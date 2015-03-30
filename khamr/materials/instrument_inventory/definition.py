@@ -11,7 +11,8 @@ def make_markup(string, space):
         markup = Markup(string_parts[0]).hcenter_in(space)
     else:
         markups = [Markup(_) for _ in string_parts]
-        markup = Markup.center_column(markups).hcenter_in(space)
+        markup = Markup.center_column(markups, direction=None)
+        markup = markup.hcenter_in(space)
     return markup
 
 def make_long_markup(string):

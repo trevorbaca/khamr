@@ -160,6 +160,7 @@
         \accepts FluteMusicVoice
         \override Beam.positions = #'(-7 . -7)
         \override DynamicLineSpanner.staff-padding = 10
+        \override Tie.direction = #up
         \override TupletBracket.staff-padding = 6
         instrumentName = \fluteName
         shortInstrumentName = \shortFluteName
