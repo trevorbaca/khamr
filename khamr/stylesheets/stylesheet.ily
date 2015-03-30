@@ -103,8 +103,6 @@
         \override BarNumber.extra-offset = #'(-6 . -4)
         \override BarNumber.font-size = 1
         \override BarNumber.padding = 4
-        %\override BarNumber.stencil = #(make-stencil-circler 0.1 0.7 ly:text-interface::print)
-        \override BarNumber.stencil = #(make-stencil-circler 0.1 2.0 ly:text-interface::print)
         \override MetronomeMark.X-extent = #'(0 . 0)
         \override MetronomeMark.Y-extent = #'(0 . 0)
         \override MetronomeMark.break-align-symbols = #'(left-edge)
@@ -425,6 +423,7 @@
         \override TupletNumber.font-size = 1
         \override TupletNumber.text = #tuplet-number::calc-fraction-text
         autoBeaming = ##f
+        barNumberFormatter = #format-oval-barnumbers
         markFormatter = #format-mark-box-alphabet
         proportionalNotationDuration = #(ly:make-moment 1 24)
         tupletFullLength = ##t
