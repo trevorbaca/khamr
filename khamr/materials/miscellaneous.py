@@ -3,31 +3,6 @@ import baca
 from abjad import *
 
 
-metric_modulation_inventory = {
-    '3:2(4)=4': indicatortools.MetricModulation(
-        left_rhythm=Tuplet((2, 3), [Note('c4')]),
-        right_rhythm=Note('c4'),
-        ),
-    '4=3:2(4)': indicatortools.MetricModulation(
-        left_rhythm=Note('c4'),
-        right_rhythm=Tuplet((2, 3), [Note('c4')]),
-        ),
-    '4=4.': indicatortools.MetricModulation(
-        left_rhythm=Note('c4'),
-        right_rhythm=Note('c4.'),
-        ),
-    '4=8': indicatortools.MetricModulation(
-        left_rhythm=Note('c4'),
-        right_rhythm=Note('c8'),),
-    '4.=4': indicatortools.MetricModulation(
-        left_rhythm=Note('c4.'),
-        right_rhythm=Note('c4'),
-        ),
-    '8=4': indicatortools.MetricModulation(
-        left_rhythm=Note('c8'),
-        right_rhythm=Note('c4'),),
-    }
-
 tempo_inventory = {
     42: indicatortools.Tempo(Duration(1, 4), 42),
     63: indicatortools.Tempo(Duration(1, 4), 63),
@@ -50,7 +25,6 @@ time_signatures = [TimeSignature((_, 4)) for _ in numerators]
 time_signatures = datastructuretools.CyclicTuple(time_signatures)
 
 __all__ = [
-    'metric_modulation_inventory',
     'tempo_inventory',
     'time_signatures',
     ]
