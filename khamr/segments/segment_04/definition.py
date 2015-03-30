@@ -20,9 +20,9 @@ segment_maker = khamr.makers.SegmentMaker(
         ],
     show_stage_annotations=True,
     tempo_map=[
-        (1, khamr.materials.tempo_inventory[42]),
+        (1, khamr.materials.tempi[42]),
         (4, Accelerando()),
-        (8, khamr.materials.tempo_inventory[84]),
+        (8, khamr.materials.tempi[84]),
         ],
     time_signatures=khamr.materials.time_signatures[:29],
     transpose_score=True,
@@ -40,7 +40,7 @@ assert segment_maker.validate_time_signatures()
 segment_maker.make_music_maker(
     stages=(1, 2),
     context_name=khamr.materials.context_names['flute'],
-    instrument=khamr.materials.instrument_inventory['flute'],
+    instrument=khamr.materials.instruments['flute'],
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
@@ -50,7 +50,7 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(3, 9),
     context_name=khamr.materials.context_names['flute'],
-    instrument=khamr.materials.instrument_inventory['bass flute'],
+    instrument=khamr.materials.instruments['bass flute'],
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,

@@ -28,7 +28,7 @@ assert segment_maker.validate_time_signatures()
 ### TEMPO MAP ###
 music_maker = segment_maker.make_music_maker()
 segment_maker.tempo_map = [
-    (1, materials.tempo_inventory[126]),
+    (1, materials.tempi[126]),
     ]
 
 ###############################################################################
