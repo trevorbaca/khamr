@@ -27,3 +27,15 @@ assert segment_maker.validate_time_signatures()
 ###############################################################################
 ################################ MUSIC-MAKERS #################################
 ###############################################################################
+
+
+segment_maker.make_music_maker(
+    stages=(3, 9),
+    context_name=khamr.materials.context_names['flute'],
+    instrument=khamr.materials.instruments['bass flute'],
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            ),
+        ),
+    )
