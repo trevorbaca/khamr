@@ -4,7 +4,6 @@ from abjad.tools import indicatortools
 from abjad.tools import instrumenttools
 from abjad.tools import markuptools
 from abjad.tools import pitchtools
-import collections
 
 
 instruments = datastructuretools.TypedOrderedDict(

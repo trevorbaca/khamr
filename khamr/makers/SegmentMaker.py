@@ -38,14 +38,13 @@ class SegmentMaker(makertools.SegmentMaker):
         final_markup_extra_offset=None,
         measures_per_stage=None,
         music_makers=None,
-        name=None,
         show_stage_annotations=False,
         tempo_map=None,
         time_signatures=None,
         transpose_score=False,
         ):
         superclass = super(SegmentMaker, self)
-        superclass.__init__(name=name)
+        superclass.__init__()
         self._initialize_music_makers(music_makers)
         self.final_barline = final_barline
         if final_markup is not None:
@@ -55,7 +54,6 @@ class SegmentMaker(makertools.SegmentMaker):
             assert isinstance(final_markup_extra_offset, tuple)
         self._final_markup_extra_offset = final_markup_extra_offset
         self.measures_per_stage = measures_per_stage
-        self.name = name
         self._music_handlers = []
         self._initialize_time_signatures(time_signatures)
         assert isinstance(show_stage_annotations, bool)
@@ -119,7 +117,6 @@ class SegmentMaker(makertools.SegmentMaker):
             result = self._stage_number_to_measure_indices(stage_number)
             start_measure_index, stop_measure_index = result
             rehearsal_letter = self._get_rehearsal_letter()
-            #string = '[{}{}]'.format(self.name, stage_number)
             string = '[{}{}]'.format(rehearsal_letter, stage_number)
             markup = Markup(string)
             markup = markup.with_color('blue')
@@ -499,7 +496,7 @@ class SegmentMaker(makertools.SegmentMaker):
     def _make_instrument_change_markup(self, instrument):
         string = 'to {}'.format(instrument.instrument_name)
         markup = markuptools.Markup(string, direction=Up)
-        markup = markup.box().override(('box-padding', 0.5))
+        markup = markup.box().override(('box-padding', 0.75))
         return markup
 
     def _make_rests(self, time_signatures=None):

@@ -2,7 +2,6 @@
 from abjad.tools import datastructuretools
 from abjad.tools import durationtools
 from abjad.tools import indicatortools
-import collections
 
 
 tempi = datastructuretools.TypedOrderedDict(
