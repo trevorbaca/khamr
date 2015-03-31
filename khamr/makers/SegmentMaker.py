@@ -82,6 +82,7 @@ class SegmentMaker(makertools.SegmentMaker):
             self._annotate_stages()
         self._interpret_music_makers()
         self._interpret_music_handlers()
+        self._apply_previous_segment_end_settings()
         self._move_instruments_from_notes_back_to_rests()
         self._attach_instrument_to_first_leaf()
         self._move_untuned_percussion_markup_to_first_note()
@@ -127,6 +128,29 @@ class SegmentMaker(makertools.SegmentMaker):
             markup = markup.smaller()
             start_measure = context[start_measure_index]
             attach(markup, start_measure)
+
+    def _apply_previous_segment_end_settings(self):
+        if not self._previous_segment_metadata:
+            return
+        previous_instruments = self._previous_segment_metadata.get(
+            'end_instruments_by_staff')
+        if previous_instruments:
+            for staff in iterate(self._score).by_class(Staff):
+                previous_instrument_name = previous_instruments.get(
+                    staff.name)
+                if not previous_instrument_name:
+                    continue
+                first_leaf = inspect_(staff).get_leaf(0)
+                prototype = instrumenttools.Instrument
+                instrument = inspect_(first_leaf).get_effective(prototype)
+                if instrument is not None:
+                    continue
+                previous_instrument = self._get_instrument(
+                    previous_instrument_name)
+                if previous_instrument is None:
+                    return
+                copied_previous_instrument = new(previous_instrument)
+                attach(copied_previous_instrument, staff)
 
     def _attach_fermatas(self):
         if not self.tempo_map:
@@ -324,6 +348,16 @@ class SegmentMaker(makertools.SegmentMaker):
             return
         string = str(time_signature)
         return string
+
+    def _get_instrument(self, instrument_name):
+        import khamr
+        try:
+            from khamr.materials import instruments
+        except ImportError:
+            return
+        for instrument_name_, instrument in instruments.items():
+            if instrument_name_ == instrument_name:
+                return instrument
 
     def _get_music_makers_for_context(self, context_name):
         music_makers = []
