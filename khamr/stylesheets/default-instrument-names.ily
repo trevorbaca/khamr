@@ -1,102 +1,103 @@
 longSpace = 16
 shortSpace = 10
 color = #blue
+pad = 0.5
 
 fluteName = \markup {
     \hcenter-in #longSpace 
-    \with-color #color \bracket Flute
+    \with-color #color \bracket \pad-around #pad Flute
     }
 shortFluteName = \markup {
     \hcenter-in #shortSpace
-    \with-color #color \bracket Fl.
+    \with-color #color \bracket \pad-around #pad Fl.
     }
 
 oboeName = \markup {
     \hcenter-in #longSpace
-    \with-color #color \bracket Oboe
+    \with-color #color \bracket \pad-around #pad Oboe
     }
 shortOboeName = \markup {
     \hcenter-in #shortSpace
-    \with-color #color \bracket Ob.
+    \with-color #color \bracket \pad-around #pad Ob.
     }
 
 clarinetName = \markup {
     \hcenter-in #longSpace
-    \with-color #color \bracket Clarinet
+    \with-color #color \bracket \pad-around #pad Clarinet
     }
 shortClarinetName = \markup {
     \hcenter-in #shortSpace
-    \with-color #color \bracket Cl.
+    \with-color #color \bracket \pad-around #pad Cl.
     }
 
 saxophoneName = \markup {
     \hcenter-in #longSpace
-    \with-color #color \bracket Saxophone
+    \with-color #color \bracket \pad-around #pad Saxophone
     }
 shortSaxophoneName = \markup {
     \hcenter-in #shortSpace
-    \with-color #color \bracket Sax.
+    \with-color #color \bracket \pad-around #pad Sax.
     }
 
 guitarName = \markup {
     \hcenter-in #longSpace
-    \with-color #color \bracket Guitar
+    \with-color #color \bracket \pad-around #pad Guitar
     }
 shortGuitarName = \markup {
     \hcenter-in #shortSpace
-    \with-color #color \bracket Gt.
+    \with-color #color \bracket \pad-around #pad Gt.
     }
 
 pianoName = \markup {
     \hcenter-in #longSpace
-    \with-color #color \bracket Piano
+    \with-color #color \bracket \pad-around #pad Piano
     }
 shortPianoName = \markup {
     \hcenter-in #shortSpace 
-    \with-color #color \bracket Pf.
+    \with-color #color \bracket \pad-around #pad Pf.
     }
 
 percussionName = \markup {
     \hcenter-in #longSpace
-    \with-color #color \bracket Percussion
+    \with-color #color \bracket \pad-around #pad Percussion
     }
 shortPercussionName = \markup {
     \hcenter-in #shortSpace
-    \with-color #color \bracket Perc.
+    \with-color #color \bracket \pad-around #pad Perc.
     }
 
 violinName = \markup {
     \hcenter-in #longSpace
-    \with-color #color \bracket Violin
+    \with-color #color \bracket \pad-around #pad Violin
     }
 shortViolinName = \markup {
     \hcenter-in #shortSpace
-    \with-color #color \bracket Vn.
+    \with-color #color \bracket \pad-around #pad Vn.
     }
 
 violaName = \markup {
     \hcenter-in #longSpace
-    \with-color #color \bracket Viola
+    \with-color #color \bracket \pad-around #pad Viola
     }
 shortViolaName = \markup {
     \hcenter-in #shortSpace
-    \with-color #color \bracket Va.
+    \with-color #color \bracket \pad-around #pad Va.
     }
 
 celloName = \markup {
     \hcenter-in #longSpace
-    \with-color #color \bracket Cello
+    \with-color #color \bracket \pad-around #pad Cello
     }
 shortCelloName = \markup {
     \hcenter-in #shortSpace
-    \with-color #color \bracket Vc.
+    \with-color #color \bracket \pad-around #pad Vc.
     }
 
 contrabassName = \markup {
     \hcenter-in #longSpace
-    \with-color #color \bracket Contrabass
+    \with-color #color \bracket \pad-around #pad Contrabass
     }
 shortContrabassName = \markup {
     \hcenter-in #shortSpace
-    \with-color #color \bracket Vb.
+    \with-color #color \bracket \pad-around #pad Vb.
     }
