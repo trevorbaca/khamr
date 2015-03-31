@@ -1,5 +1,6 @@
 # -*- encoding: utf-8 -*-
 from abjad import *
+import baca
 
 
 class MusicMaker(abctools.AbjadObject):
@@ -97,12 +98,12 @@ class MusicMaker(abctools.AbjadObject):
         assert isinstance(first_leaf, scoretools.Leaf), repr(first_leaf)
         prototype = instrumenttools.UntunedPercussion
         if self.instrument is not None:
-            attach(self.instrument, first_leaf)
+            attach(self.instrument, first_leaf, scope=Staff)
         if (isinstance(self.instrument, prototype) and
             not self._hide_untuned_percussion_markup):
             self._attach_untuned_percussion_markup(first_leaf)
         if self.clef is not None:
-            attach(self.clef, first_leaf)
+            attach(self.clef, first_leaf, scope=Staff)
         if self.staff_line_count is not None:
             self._set_staff_line_count(first_leaf, self.staff_line_count)
         elif self.clef == Clef('percussion'):
@@ -113,10 +114,7 @@ class MusicMaker(abctools.AbjadObject):
 
     @property
     def _default_rhythm_maker(self):
-        mask = rhythmmakertools.silence_all(use_multimeasure_rests=True) 
-        maker = rhythmmakertools.NoteRhythmMaker(
-            output_masks=[mask],
-            )
+        return baca.materials.multimeasure_rests
 
     @property
     def _storage_format_specification(self):
