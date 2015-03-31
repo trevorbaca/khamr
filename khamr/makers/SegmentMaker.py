@@ -380,6 +380,16 @@ class SegmentMaker(makertools.SegmentMaker):
         stop_offset = inspect_(stop_measure).get_timespan().stop_offset
         return start_offset, stop_offset
 
+    def _get_previous_instrument(self, staff_name):
+        if not self._previous_segment_metadata:
+            return
+        previous_instruments = self._previous_segment_metadata.get(
+            'end_instruments_by_staff')
+        if not previous_instruments:
+            return
+        instrument = previous_instruments.get(staff_name)
+        return instrument
+
     def _get_rehearsal_letter(self):
         segment_number = self._segment_metadata['segment_number']
         if segment_number == 1:
@@ -506,27 +516,25 @@ class SegmentMaker(makertools.SegmentMaker):
 
     def _label_instrument_changes(self):
         prototype = instrumenttools.Instrument
-        switching_voices = (
-            'Flute Music Voice',
-            'Oboe Music Voice',
-            'Clarinet Music Voice',
-            'Saxophone Music Voice',
-            )
-        for voice in iterate(self._score).by_class(scoretools.Voice):
-            if voice.name not in switching_voices:
-                continue
-            for leaf in iterate(voice).by_class(scoretools.Leaf):
+        for staff in iterate(self._score).by_class(Staff):
+            leaves = iterate(staff).by_class(scoretools.Leaf)
+            for leaf_index, leaf in enumerate(leaves):
                 instruments = inspect_(leaf).get_indicators(prototype)
                 if not instruments:
                     continue
                 assert len(instruments) == 1
                 current_instrument = instruments[0]
                 previous_leaf = inspect_(leaf).get_leaf(-1)
-                if previous_leaf is None:
+                if previous_leaf is not None:
+                    result = inspect_(previous_leaf).get_effective(prototype)
+                    previous_instrument = result
+                elif (leaf_index == 0 and 
+                    1 < self._segment_metadata.get('segment_number')):
+                    instrument = self._get_previous_instrument(staff.name)
+                    previous_instrument = instrument
+                else:
                     continue
-                result = inspect_(previous_leaf).get_effective(prototype)
-                previous_effective_instrument = result
-                if not previous_effective_instrument == current_instrument:
+                if previous_instrument != current_instrument:
                     markup = self._make_instrument_change_markup(
                         current_instrument)
                     attach(markup, leaf)
