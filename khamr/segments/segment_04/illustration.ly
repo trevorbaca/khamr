@@ -1,4 +1,4 @@
-% 2015-03-30 16:07
+% 2015-03-31 10:20
 
 \version "2.19.17"
 \language "english"
@@ -306,7 +306,7 @@
                     c'1 ~
                         ^ \markup {
                             \override
-                                #'(box-padding . 0.5)
+                                #'(box-padding . 0.75)
                                 \box
                                     "to bass flute"
                             }

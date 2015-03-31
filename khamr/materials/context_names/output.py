@@ -1,6 +1,5 @@
 # -*- encoding: utf-8 -*-
 from abjad.tools import datastructuretools
-import collections
 
 
 context_names = datastructuretools.TypedOrderedDict(
