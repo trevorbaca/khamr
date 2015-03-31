@@ -15,7 +15,6 @@ class SegmentMaker(makertools.SegmentMaker):
     __slots__ = (
         '_final_markup',
         '_final_markup_extra_offset',
-        '_metadata',
         '_music_handlers',
         '_music_makers',
         '_score',
@@ -64,12 +63,12 @@ class SegmentMaker(makertools.SegmentMaker):
 
     ### SPECIAL METHODS ###
 
-    def __call__(self, metadata=None):
+    def __call__(self, segment_metadata=None):
         r'''Calls segment-maker.
 
         Returns LilyPond file.
         '''
-        self._metadata = metadata
+        self._segment_metadata = segment_metadata
         self._make_score()
         self._make_lilypond_file()
         self._configure_lilypond_file()
@@ -93,7 +92,7 @@ class SegmentMaker(makertools.SegmentMaker):
             string = inspect_(score).tabulate_well_formedness_violations()
             raise Exception(string)
         self._update_segment_metadata()
-        return self.lilypond_file, self._metadata
+        return self.lilypond_file, self._segment_metadata
 
     ### PRIVATE METHODS ###
 
@@ -177,7 +176,7 @@ class SegmentMaker(makertools.SegmentMaker):
             attach(instrument, first_leaf)
         
     def _attach_rehearsal_mark(self):
-        segment_number = self._metadata['segment_number']
+        segment_number = self._segment_metadata['segment_number']
         letter_number = segment_number - 1
         if letter_number == 0:
             return
@@ -247,7 +246,7 @@ class SegmentMaker(makertools.SegmentMaker):
             'stylesheet.ily',
             )
         lilypond_file.file_initial_user_includes.append(path)
-        if 1 < self._metadata['segment_number']:
+        if 1 < self._segment_metadata['segment_number']:
             path = os.path.join(
                 '..',
                 '..',
@@ -343,7 +342,7 @@ class SegmentMaker(makertools.SegmentMaker):
         return start_offset, stop_offset
 
     def _get_rehearsal_letter(self):
-        segment_number = self._metadata['segment_number']
+        segment_number = self._segment_metadata['segment_number']
         if segment_number == 1:
             return ''
         segment_index = segment_number - 1
@@ -573,7 +572,7 @@ class SegmentMaker(makertools.SegmentMaker):
         from khamr import makers
         template = makers.ScoreTemplate()
         score = template()
-        first_bar_number = self._metadata['first_bar_number']
+        first_bar_number = self._segment_metadata['first_bar_number']
         if first_bar_number is not None:
             set_(score).current_bar_number = first_bar_number
         else:
@@ -682,8 +681,8 @@ class SegmentMaker(makertools.SegmentMaker):
         #raise Exception(temp)
 
     def _update_segment_metadata(self):
-        self._metadata['measure_count'] = self.measure_count
-        self._metadata.update(self._get_end_settings())
+        self._segment_metadata['measure_count'] = self.measure_count
+        self._segment_metadata.update(self._get_end_settings())
 
     ### PUBLIC PROPERTIES ###
 
