@@ -70,7 +70,7 @@ class SegmentMaker(makertools.SegmentMaker):
         ):
         r'''Calls segment-maker.
 
-        Returns LilyPond file.
+        Returns LilyPond file and segment metadata.
         '''
         self._segment_metadata = segment_metadata
         self._previous_segment_metadata = previous_segment_metadata
@@ -78,8 +78,7 @@ class SegmentMaker(makertools.SegmentMaker):
         self._make_lilypond_file()
         self._configure_lilypond_file()
         self._populate_time_signature_context()
-        if self.show_stage_annotations:
-            self._annotate_stages()
+        self._annotate_stages()
         self._interpret_music_makers()
         self._interpret_music_handlers()
         self._apply_previous_segment_end_settings()
@@ -87,16 +86,11 @@ class SegmentMaker(makertools.SegmentMaker):
         self._attach_instrument_to_first_leaf()
         self._move_untuned_percussion_markup_to_first_note()
         self._label_instrument_changes()
-        if self.transpose_score:
-            self._transpose_instruments()
+        self._transpose_instruments()
         self._attach_rehearsal_mark()
         self._add_final_barline()
         self._add_final_markup()
-        score_block = self.lilypond_file['score']
-        score = score_block['Score']
-        if not inspect_(score).is_well_formed():
-            string = inspect_(score).tabulate_well_formedness_violations()
-            raise Exception(string)
+        self._check_well_formedness()
         self._update_segment_metadata()
         return self.lilypond_file, self._segment_metadata
 
@@ -116,6 +110,8 @@ class SegmentMaker(makertools.SegmentMaker):
             )
 
     def _annotate_stages(self):
+        if not self.show_stage_annotations:
+            return
         context = self._score['Time Signature Context']
         for stage_index in range(self.stage_count):
             stage_number = stage_index + 1
@@ -233,6 +229,13 @@ class SegmentMaker(makertools.SegmentMaker):
             assert isinstance(start_skip, scoretools.Skip), start_skip
             # TODO: adjust TempoSpanner to make measure attachment work
             attach(directive, start_skip, is_annotation=True)
+
+    def _check_well_formedness(self):
+        score_block = self.lilypond_file['score']
+        score = score_block['Score']
+        if not inspect_(score).is_well_formed():
+            string = inspect_(score).tabulate_well_formedness_violations()
+            raise Exception(string)
 
     def _compound_scope_to_logical_ties(
         self, 
@@ -701,6 +704,8 @@ class SegmentMaker(makertools.SegmentMaker):
         return len(stage_numbers) == len(set(stage_numbers))
 
     def _transpose_instruments(self):
+        if not self.transpose_score:
+            return
         flute_voice = self._score['Flute Music Voice']
         clarinet_voice = self._score['Clarinet Music Voice']
         oboe_voice = self._score['Oboe Music Voice']

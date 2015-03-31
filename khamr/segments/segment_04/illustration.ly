@@ -1,4 +1,4 @@
-% 2015-03-31 15:57
+% 2015-03-31 18:16
 
 \version "2.19.17"
 \language "english"
@@ -598,10 +598,11 @@
             \context ViolaMusicStaff = "Viola Music Staff" {
                 \clef "alto"
                 \context ViolaMusicVoice = "Viola Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1/2
+                    \clef "treble"
+                    c'2 ~
+                    c'2 ~
+                    c'2. ~
+                    c'2
                     R1 * 1
                     R1 * 3/4
                     R1 * 1
