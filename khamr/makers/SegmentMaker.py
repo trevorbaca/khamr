@@ -63,12 +63,17 @@ class SegmentMaker(makertools.SegmentMaker):
 
     ### SPECIAL METHODS ###
 
-    def __call__(self, segment_metadata=None):
+    def __call__(
+        self, 
+        segment_metadata=None,
+        previous_segment_metadata=None,
+        ):
         r'''Calls segment-maker.
 
         Returns LilyPond file.
         '''
         self._segment_metadata = segment_metadata
+        self._previous_segment_metadata = previous_segment_metadata
         self._make_score()
         self._make_lilypond_file()
         self._configure_lilypond_file()
