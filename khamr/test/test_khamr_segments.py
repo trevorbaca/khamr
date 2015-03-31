@@ -5,7 +5,6 @@ import pytest
 import shutil
 import khamr
 from abjad.tools import systemtools
-abjad_ide = ide.idetools.AbjadIDE(is_test=True)
 
 
 boilerplate_path = ide.idetools.Configuration().boilerplate_directory
@@ -45,7 +44,7 @@ def test_khamr_segments_01(segment_path):
         remove=[local_boilerplate_path],
         ):
         shutil.copyfile(boilerplate_path, local_boilerplate_path)
-        abjad_ide._replace_in_file(
+        ide.idetools.AbjadIDE._replace_in_file(
             local_boilerplate_path,
             'PREVIOUS_SEGMENT_METADATA_IMPORT_STATEMENT',
             'previous_segment_metadata = None',
