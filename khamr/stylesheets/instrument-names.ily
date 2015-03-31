@@ -1,43 +1,102 @@
 longSpace = 16
 shortSpace = 10
+color = #blue
 
 fluteName = \markup {
-    \hcenter-in #longSpace \center-column { Bass flute } }
+    \hcenter-in #longSpace 
+    \with-color #color \bracket Flute
+    }
 shortFluteName = \markup {
-    \hcenter-in #shortSpace \center-column { Bass fl. } }
+    \hcenter-in #shortSpace
+    \with-color #color \bracket Fl.
+    }
 
 oboeName = \markup {
-    \hcenter-in #longSpace \center-column { English horn } }
+    \hcenter-in #longSpace
+    \with-color #color \bracket Oboe
+    }
 shortOboeName = \markup {
-    \hcenter-in #shortSpace \center-column { Eng. hn. } }
+    \hcenter-in #shortSpace
+    \with-color #color \bracket Ob.
+    }
 
 clarinetName = \markup {
-    \hcenter-in #longSpace \center-column { Bass clarinet } }
+    \hcenter-in #longSpace
+    \with-color #color \bracket Clarinet
+    }
 shortClarinetName = \markup {
-    \hcenter-in #shortSpace \center-column { Bass cl. } }
+    \hcenter-in #shortSpace
+    \with-color #color \bracket Cl.
+    }
 
 saxophoneName = \markup {
-    \hcenter-in #longSpace \center-column { Baritone sax. } }
+    \hcenter-in #longSpace
+    \with-color #color \bracket Saxophone
+    }
 shortSaxophoneName = \markup {
-    \hcenter-in #shortSpace \center-column { Bar. sax. } }
+    \hcenter-in #shortSpace
+    \with-color #color \bracket Sax.
+    }
 
-guitarName = \markup { \hcenter-in #longSpace Guitar }
-shortGuitarName = \markup { \hcenter-in #shortSpace Gt. }
+guitarName = \markup {
+    \hcenter-in #longSpace
+    \with-color #color \bracket Guitar
+    }
+shortGuitarName = \markup {
+    \hcenter-in #shortSpace
+    \with-color #color \bracket Gt.
+    }
 
-pianoName = \markup { \hcenter-in #longSpace Piano }
-shortPianoName = \markup { \hcenter-in #shortSpace Pf. }
+pianoName = \markup {
+    \hcenter-in #longSpace
+    \with-color #color \bracket Piano
+    }
+shortPianoName = \markup {
+    \hcenter-in #shortSpace 
+    \with-color #color \bracket Pf.
+    }
 
-percussionName = \markup { \hcenter-in #longSpace Percussion }
-shortPercussionName = \markup { \hcenter-in #shortSpace Perc. }
+percussionName = \markup {
+    \hcenter-in #longSpace
+    \with-color #color \bracket Percussion
+    }
+shortPercussionName = \markup {
+    \hcenter-in #shortSpace
+    \with-color #color \bracket Perc.
+    }
 
-violinName = \markup { \hcenter-in #longSpace Violin }
-shortViolinName = \markup { \hcenter-in #shortSpace Vn. }
+violinName = \markup {
+    \hcenter-in #longSpace
+    \with-color #color \bracket Violin
+    }
+shortViolinName = \markup {
+    \hcenter-in #shortSpace
+    \with-color #color \bracket Vn.
+    }
 
-violaName = \markup { \hcenter-in #longSpace Viola }
-shortViolaName = \markup { \hcenter-in #shortSpace Va. }
+violaName = \markup {
+    \hcenter-in #longSpace
+    \with-color #color \bracket Viola
+    }
+shortViolaName = \markup {
+    \hcenter-in #shortSpace
+    \with-color #color \bracket Va.
+    }
 
-celloName = \markup { \hcenter-in #longSpace Cello }
-shortCelloName = \markup { \hcenter-in #shortSpace Vc. }
+celloName = \markup {
+    \hcenter-in #longSpace
+    \with-color #color \bracket Cello
+    }
+shortCelloName = \markup {
+    \hcenter-in #shortSpace
+    \with-color #color \bracket Vc.
+    }
 
-contrabassName = \markup { \hcenter-in #longSpace Contrabass }
-shortContrabassName = \markup { \hcenter-in #shortSpace Vb. }
+contrabassName = \markup {
+    \hcenter-in #longSpace
+    \with-color #color \bracket Contrabass
+    }
+shortContrabassName = \markup {
+    \hcenter-in #shortSpace
+    \with-color #color \bracket Vb.
+    }
