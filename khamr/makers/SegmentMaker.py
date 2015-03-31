@@ -75,6 +75,7 @@ class SegmentMaker(makertools.SegmentMaker):
         self._segment_metadata = segment_metadata
         self._previous_segment_metadata = previous_segment_metadata
         self._make_score()
+        self._apply_previous_segment_end_clefs()
         self._make_lilypond_file()
         self._configure_lilypond_file()
         self._populate_time_signature_context()
@@ -125,6 +126,19 @@ class SegmentMaker(makertools.SegmentMaker):
             start_measure = context[start_measure_index]
             attach(markup, start_measure)
 
+    def _apply_previous_segment_end_clefs(self):
+        if not self._previous_segment_metadata:
+            return
+        previous_clefs = self._previous_segment_metadata.get(
+            'end_clefs_by_staff')
+        if previous_clefs:
+            for staff in iterate(self._score).by_class(Staff):
+                previous_clef = previous_clefs.get(staff.name)
+                if not previous_clef:
+                    continue
+                copied_previous_clef = new(previous_clef)
+                attach(copied_previous_clef, staff, scope=Staff)
+
     def _apply_previous_segment_end_settings(self):
         if not self._previous_segment_metadata:
             return
@@ -141,7 +155,7 @@ class SegmentMaker(makertools.SegmentMaker):
                 instrument = inspect_(first_leaf).get_effective(prototype)
                 if instrument is not None:
                     continue
-                previous_instrument = self._get_instrument(
+                previous_instrument = self._get_instrument_by_name(
                     previous_instrument_name)
                 if previous_instrument is None:
                     return
@@ -301,6 +315,7 @@ class SegmentMaker(makertools.SegmentMaker):
                 result[voice.name] = clef.name
             else:
                 result[voice.name] = None
+        #raise Exception(result)
         return result
 
     def _get_end_instruments(self):
@@ -352,7 +367,7 @@ class SegmentMaker(makertools.SegmentMaker):
         string = str(time_signature)
         return string
 
-    def _get_instrument(self, instrument_name):
+    def _get_instrument_by_name(self, instrument_name):
         import khamr
         try:
             from khamr.materials import instruments
@@ -580,11 +595,11 @@ class SegmentMaker(makertools.SegmentMaker):
             if music_maker.start_tempo is not None:
                 start_tempo = new(music_maker.start_tempo)
                 first_leaf = inspect_(context).get_leaf(0)
-                attach(start_tempo, first_leaf)
+                attach(start_tempo, first_leaf, scope=Score)
             if music_maker.stop_tempo is not None:
                 stop_tempo = new(music_maker.stop_tempo)
                 last_leaf = inspect_(context).get_leaf(-1)
-                attach(stop_tempo, last_leaf)
+                attach(stop_tempo, last_leaf, scope=Score)
 
     def _make_music_for_voice(self, voice):
         assert not len(voice), repr(voice)
@@ -650,7 +665,7 @@ class SegmentMaker(makertools.SegmentMaker):
                 if not isinstance(previous_leaf, scoretools.Rest):
                     #attach(instrument, current_leaf)
                     new_instrument = copy.deepcopy(instrument)
-                    attach(new_instrument, current_leaf)
+                    attach(new_instrument, current_leaf, scope=Staff)
                     break
         
     def _move_untuned_percussion_markup_to_first_note(self):
