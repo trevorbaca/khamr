@@ -1,4 +1,4 @@
-% 2015-03-31 16:00
+% 2015-03-31 20:57
 
 \version "2.19.17"
 \language "english"
@@ -219,12 +219,12 @@
             }
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
-                \clef "bass"
                 \context CelloMusicVoice = "Cello Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1/2
+                    \clef "tenor"
+                    c'2 ~
+                    c'2 ~
+                    c'2. ~
+                    c'2
                     R1 * 1
                     R1 * 3/4
                 }

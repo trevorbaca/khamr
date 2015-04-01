@@ -1,6 +1,7 @@
 # -*- encoding: utf-8 -*-
 from abjad import *
 from experimental import *
+import baca
 import khamr
 
 
@@ -33,9 +34,12 @@ segment_maker.make_music_maker(
     stages=(3, 9),
     context_name=khamr.materials.context_names['flute'],
     instrument=khamr.materials.instruments['bass flute'],
-    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            tie_across_divisions=True,
-            ),
-        ),
+    rhythm_maker=baca.materials.tied_notes,
+    )
+
+segment_maker.make_music_maker(
+    stages=(1, 2),
+    context_name=khamr.materials.context_names['cello'],
+    rhythm_maker=baca.materials.tied_notes,
+    clef='tenor',
     )

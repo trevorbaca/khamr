@@ -52,3 +52,10 @@ segment_maker.make_music_maker(
     rhythm_maker=baca.materials.tied_notes,
     clef='treble',
     )
+
+segment_maker.make_music_maker(
+    stages=(3, 6),
+    context_name=khamr.materials.context_names['cello'],
+    rhythm_maker=baca.materials.tied_notes,
+    clef='bass',
+    )
