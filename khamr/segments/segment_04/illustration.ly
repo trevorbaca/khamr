@@ -1,4 +1,4 @@
-% 2015-03-31 21:12
+% 2015-04-01 15:51
 
 \version "2.19.17"
 \language "english"
@@ -281,16 +281,16 @@
                             #10
                             Fl.
                         }
-                    c'2 ~
+                    c'2
                         ^ \markup {
                             \override
                                 #'(box-padding . 0.75)
                                 \box
                                     "to flute"
                             }
-                    c'2 ~
-                    c'2. ~
-                    c'2
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -309,31 +309,31 @@
                                     fl.
                                 }
                         }
-                    c'1 ~
+                    c'1
                         ^ \markup {
                             \override
                                 #'(box-padding . 0.75)
                                 \box
                                     "to bass flute"
                             }
-                    c'2. ~
-                    c'1 ~
-                    c'1 ~
-                    c'4 ~
-                    c'1 ~
-                    c'2 ~
-                    c'1 ~
-                    c'1 ~
-                    c'4 ~
-                    c'2. ~
-                    c'2 ~
-                    c'2. ~
-                    c'2 ~
-                    c'1 ~
-                    c'4 ~
-                    c'2. ~
-                    c'1 ~
-                    c'2.
+                    c'2. \repeatTie
+                    c'1 \repeatTie
+                    c'1 \repeatTie
+                    c'4 \repeatTie
+                    c'1 \repeatTie
+                    c'2 \repeatTie
+                    c'1 \repeatTie
+                    c'1 \repeatTie
+                    c'4 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'1 \repeatTie
+                    c'4 \repeatTie
+                    c'2. \repeatTie
+                    c'1 \repeatTie
+                    c'2. \repeatTie
                     R1 * 1/2
                     R1 * 1/2
                     R1 * 1/2
@@ -598,10 +598,10 @@
             \context ViolaMusicStaff = "Viola Music Staff" {
                 \context ViolaMusicVoice = "Viola Music Voice" {
                     \clef "treble"
-                    c'2 ~
-                    c'2 ~
-                    c'2. ~
                     c'2
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
                     R1 * 1
                     R1 * 3/4
                     R1 * 1
@@ -638,16 +638,16 @@
                     R1 * 3/4
                     R1 * 1/2
                     \clef "bass"
-                    c'1 ~
-                    c'2. ~
-                    c'1 ~
-                    c'1 ~
-                    c'4 ~
-                    c'1 ~
-                    c'2 ~
-                    c'1 ~
-                    c'1 ~
-                    c'4
+                    c'1
+                    c'2. \repeatTie
+                    c'1 \repeatTie
+                    c'1 \repeatTie
+                    c'4 \repeatTie
+                    c'1 \repeatTie
+                    c'2 \repeatTie
+                    c'1 \repeatTie
+                    c'1 \repeatTie
+                    c'4 \repeatTie
                     R1 * 3/4
                     R1 * 1/2
                     R1 * 3/4
