@@ -1,4 +1,4 @@
-% 2015-03-31 20:57
+% 2015-04-01 15:51
 
 \version "2.19.17"
 \language "english"
@@ -113,8 +113,8 @@
                                     fl.
                                 }
                         }
-                    c'1 ~
-                    c'2.
+                    c'1
+                    c'2. \repeatTie
                 }
             }
             \tag winds.oboe
@@ -221,10 +221,10 @@
             \context CelloMusicStaff = "Cello Music Staff" {
                 \context CelloMusicVoice = "Cello Music Voice" {
                     \clef "tenor"
-                    c'2 ~
-                    c'2 ~
-                    c'2. ~
                     c'2
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
                     R1 * 1
                     R1 * 3/4
                 }
