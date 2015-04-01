@@ -13,6 +13,7 @@ class SegmentMaker(makertools.SegmentMaker):
     ### CLASS ATTRIBUTES ###
 
     __slots__ = (
+        '_cached_score_template_start_clefs',
         '_final_markup',
         '_final_markup_extra_offset',
         '_music_handlers',
@@ -72,16 +73,19 @@ class SegmentMaker(makertools.SegmentMaker):
 
         Returns LilyPond file and segment metadata.
         '''
-        self._segment_metadata = segment_metadata
-        self._previous_segment_metadata = previous_segment_metadata
+        self._segment_metadata = segment_metadata or \
+            datastructuretools.TypedOrderedDict()
+        self._previous_segment_metadata = previous_segment_metadata or \
+            datastructuretools.TypedOrderedDict()
         self._make_score()
-        self._apply_previous_segment_end_clefs()
+        self._cache_score_template_start_clefs()
         self._make_lilypond_file()
         self._configure_lilypond_file()
         self._populate_time_signature_context()
         self._annotate_stages()
         self._interpret_music_makers()
         self._interpret_music_handlers()
+        self._attach_missing_start_clefs()
         self._apply_previous_segment_end_settings()
         self._move_instruments_from_notes_back_to_rests()
         self._attach_instrument_to_first_leaf()
@@ -126,18 +130,21 @@ class SegmentMaker(makertools.SegmentMaker):
             start_measure = context[start_measure_index]
             attach(markup, start_measure)
 
-    def _apply_previous_segment_end_clefs(self):
-        if not self._previous_segment_metadata:
-            return
+    def _attach_missing_start_clefs(self):
+        cached_clefs = self._cached_score_template_start_clefs
         previous_clefs = self._previous_segment_metadata.get(
-            'end_clefs_by_staff')
-        if previous_clefs:
-            for staff in iterate(self._score).by_class(Staff):
-                previous_clef = previous_clefs.get(staff.name)
-                if not previous_clef:
-                    continue
-                copied_previous_clef = new(previous_clef)
-                attach(copied_previous_clef, staff, scope=Staff)
+            'end_clefs_by_staff', datastructuretools.TypedOrderedDict())
+        for staff in iterate(self._score).by_class(Staff):
+            if inspect_(staff).has_indicator(Clef):
+                continue
+            first_leaf = inspect_(staff).get_leaf(0)
+            if (first_leaf is None or
+                not inspect_(first_leaf).has_indicator(Clef)):
+                clef_name = previous_clefs.get(staff.name)
+                if clef_name is None:
+                    clef_name = cached_clefs.get(staff.name)
+                clef = Clef(clef_name)
+                attach(clef, staff)
 
     def _apply_previous_segment_end_settings(self):
         if not self._previous_segment_metadata:
@@ -244,6 +251,14 @@ class SegmentMaker(makertools.SegmentMaker):
             # TODO: adjust TempoSpanner to make measure attachment work
             attach(directive, start_skip, is_annotation=True)
 
+    def _cache_score_template_start_clefs(self):
+        dictionary = datastructuretools.TypedOrderedDict()
+        self._cached_score_template_start_clefs = dictionary
+        for staff in iterate(self._score).by_class(Staff):
+            clef = inspect_(staff).get_indicator(Clef)
+            self._cached_score_template_start_clefs[staff.name] = clef.name
+            detach(Clef, staff)
+        
     def _check_well_formedness(self):
         score_block = self.lilypond_file['score']
         score = score_block['Score']

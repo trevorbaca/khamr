@@ -1,4 +1,4 @@
-% 2015-03-31 18:40
+% 2015-03-31 20:45
 
 \version "2.19.17"
 \language "english"
@@ -596,7 +596,6 @@
             }
             \tag strings.viola
             \context ViolaMusicStaff = "Viola Music Staff" {
-                \clef "alto"
                 \context ViolaMusicVoice = "Viola Music Voice" {
                     \clef "treble"
                     c'2 ~
