@@ -320,17 +320,16 @@ class SegmentMaker(makertools.SegmentMaker):
 
     def _get_end_clefs(self):
         result = datastructuretools.TypedOrderedDict()
-        voices = iterate(self._score).by_class(Voice)
-        voices = [_ for _ in voices if _.is_semantic]
-        voices.sort(key=lambda x: x.name)
-        for voice in voices:
-            last_leaf = inspect_(voice).get_leaf(-1)
+        staves = iterate(self._score).by_class(Staff)
+        staves = [_ for _ in staves if _.is_semantic]
+        staves.sort(key=lambda x: x.name)
+        for staff in staves:
+            last_leaf = inspect_(staff).get_leaf(-1)
             clef = inspect_(last_leaf).get_effective(Clef)
             if clef:
-                result[voice.name] = clef.name
+                result[staff.name] = clef.name
             else:
-                result[voice.name] = None
-        #raise Exception(result)
+                result[staff.name] = None
         return result
 
     def _get_end_instruments(self):
@@ -760,7 +759,6 @@ class SegmentMaker(makertools.SegmentMaker):
                     i = instrument.sounding_pitch_of_written_middle_c.pitch_number
                     written_pitch_number = sounding_pitch_number - i
                     leaf.written_pitch = written_pitch_number
-        #raise Exception(temp)
 
     def _update_segment_metadata(self):
         self._segment_metadata['measure_count'] = self.measure_count
