@@ -17,7 +17,7 @@ metadata = datastructuretools.TypedOrderedDict(
                     ('Percussion Music Voice', 'percussion'),
                     ('Piano Music Voice', 'treble'),
                     ('Saxophone Music Voice', 'treble'),
-                    ('Viola Music Voice', 'alto'),
+                    ('Viola Music Voice', 'treble'),
                     ('Violin Music Voice', 'treble'),
                     ]
                 ),
