@@ -36,6 +36,7 @@ segment_maker.make_music_maker(
     stages=(1, 2),
     context_name=khamr.materials.context_names['flute'],
     instrument=khamr.materials.instruments['flute'],
+    division_maker=[(1, 4)],
     rhythm_maker=baca.materials.tied_notes,
     )
 
