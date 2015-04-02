@@ -11,11 +11,12 @@ class MusicMaker(abctools.AbjadObject):
         ::
 
             >>> from khamr import makers
-            >>> music_maker = makers.MusicMaker()
-            >>> music_maker.context_name = 'Cello Music Voice'
-            >>> music_maker.stages = 1, 4
-            >>> music_maker.division_maker = makertools.HypermeasureDivisionMaker(
-            ...     measure_counts=[2, 3, 1],
+            >>> music_maker = makers.MusicMaker(
+            ...     context_name='Cello Music Voice',
+            ...     stages=(1, 4),
+            ...     division_maker=makertools.HypermeasureDivisionMaker(
+            ...         measure_counts=[2, 3, 1],
+            ...         ),
             ...     )
             >>> music_maker.rhythm_maker = rhythmmakertools.NoteRhythmMaker()
 
@@ -66,8 +67,18 @@ class MusicMaker(abctools.AbjadObject):
         start_tempo=None,
         stop_tempo=None,
         ):
+        from experimental.tools import makertools
         self.clef = clef
         self.context_name = context_name
+        prototype = (
+            makertools.BeatDivisionMaker,
+            makertools.DivisionMaker,
+            makertools.HypermeasureDivisionMaker,
+            )
+        if not isinstance(division_maker, prototype):
+            division_maker = makertools.DivisionMaker(
+                pattern=division_maker,
+                )
         self.division_maker = division_maker
         self._hide_untuned_percussion_markup = False
         self.instrument = instrument
@@ -113,6 +124,10 @@ class MusicMaker(abctools.AbjadObject):
     ### PRIVATE PROPERTIES ###
 
     @property
+    def _default_division_maker(self):
+        return baca.materials.quarter_divisions
+
+    @property
     def _default_rhythm_maker(self):
         return baca.materials.multimeasure_rests
 
@@ -139,18 +154,25 @@ class MusicMaker(abctools.AbjadObject):
         markup = markup.box().override(('box-padding', 0.5))
         attach(markup, leaf)
 
+    def _get_division_maker(self):
+        if self.division_maker is not None:
+            return self.division_maker
+        return self._default_division_maker
+
     def _get_rhythm_maker(self):
         if self.rhythm_maker is not None:
             return self.rhythm_maker
         return self._default_rhythm_maker
 
     def _make_rhythm(self, time_signatures):
-        if self.division_maker is not None:
-            divisions = self.division_maker(time_signatures) 
-        else:
-            divisions = [
-                mathtools.NonreducedFraction(_) for _ in time_signatures
-                ]
+#        if self.division_maker is not None:
+#            divisions = self.division_maker(time_signatures) 
+#        else:
+#            divisions = [
+#                mathtools.NonreducedFraction(_) for _ in time_signatures
+#                ]
+        division_maker = self._get_division_maker()
+        divisions = division_maker(time_signatures)
         divisions = sequencetools.flatten_sequence(divisions)
         for division in divisions:
             assert isinstance(division, mathtools.NonreducedFraction), division

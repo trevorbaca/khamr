@@ -1,4 +1,4 @@
-% 2015-04-01 15:51
+% 2015-04-02 11:36
 
 \version "2.19.17"
 \language "english"
@@ -281,16 +281,21 @@
                             #10
                             Fl.
                         }
-                    c'2
+                    c'4
                         ^ \markup {
                             \override
                                 #'(box-padding . 0.75)
                                 \box
                                     "to flute"
                             }
-                    c'2 \repeatTie
-                    c'2. \repeatTie
-                    c'2 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -631,7 +636,7 @@
             }
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
-                \clef "tenor"
+                \clef "bass"
                 \context CelloMusicVoice = "Cello Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
