@@ -1,3 +1,0 @@
-1.  Reduce stem height in tempo indications.
-    Harmonize size of free-standing tempo indications and spanner-start tempo
-    indication.
