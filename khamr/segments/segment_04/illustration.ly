@@ -1,4 +1,4 @@
-% 2015-04-03 14:41
+% 2015-04-03 18:24
 
 \version "2.19.17"
 \language "english"
@@ -26,7 +26,8 @@
                                 [C1]
                         }
                     ^ \markup {
-                    \smaller
+                    \fontsize
+                        #-3
                         \general-align
                             #Y
                             #DOWN
@@ -35,7 +36,16 @@
                                 #0
                                 #1
                     \upright
-                        " = 42"
+                        \fontsize
+                            #3
+                            {
+                                \hspace
+                                    #0.5
+                                =
+                                \hspace
+                                    #0.1
+                                42
+                            }
                     }
             }
             {
@@ -90,7 +100,8 @@
                         \parenthesize
                             \line
                                 {
-                                    \smaller
+                                    \fontsize
+                                        #-3
                                         \general-align
                                             #Y
                                             #DOWN
@@ -99,7 +110,16 @@
                                                 #0
                                                 #1
                                     \upright
-                                        " = 42"
+                                        \fontsize
+                                            #3
+                                            {
+                                                \hspace
+                                                    #0.5
+                                                =
+                                                \hspace
+                                                    #0.1
+                                                42
+                                            }
                                 }
                     \hspace
                         #0.75
@@ -176,7 +196,8 @@
                                 [C8]
                         }
                     ^ \markup {
-                    \smaller
+                    \fontsize
+                        #-3
                         \general-align
                             #Y
                             #DOWN
@@ -185,7 +206,16 @@
                                 #0
                                 #1
                     \upright
-                        " = 84"
+                        \fontsize
+                            #3
+                            {
+                                \hspace
+                                    #0.5
+                                =
+                                \hspace
+                                    #0.1
+                                84
+                            }
                     }
             }
             {
