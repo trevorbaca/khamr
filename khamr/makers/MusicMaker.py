@@ -120,7 +120,7 @@ class MusicMaker(abctools.AbjadObject):
 
     @property
     def _default_division_maker(self):
-        return baca.materials.measure_divisions
+        return baca.materials.full_measure_divisions
 
     @property
     def _default_rhythm_maker(self):
