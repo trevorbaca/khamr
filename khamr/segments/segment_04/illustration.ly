@@ -1,4 +1,4 @@
-% 2015-04-02 11:36
+% 2015-04-03 13:56
 
 \version "2.19.17"
 \language "english"
@@ -42,8 +42,8 @@
                 s1 * 1/2
             }
             {
-                \time 3/4
-                s1 * 3/4
+                \time 6/4
+                s1 * 3/2
                     - \markup {
                         \smaller
                             \with-color
@@ -52,8 +52,8 @@
                         }
             }
             {
-                \time 2/4
-                s1 * 1/2
+                \time 3/4
+                s1 * 3/4
             }
             {
                 \time 4/4
@@ -66,7 +66,7 @@
                         }
             }
             {
-                \time 3/4
+                \time 6/8
                 s1 * 3/4
             }
             {
@@ -135,8 +135,8 @@
                         }
             }
             {
-                \time 2/4
-                s1 * 1/2
+                \time 3/4
+                s1 * 3/4
             }
             {
                 \time 4/4
@@ -153,7 +153,7 @@
                 s1 * 5/4
             }
             {
-                \time 3/4
+                \time 6/8
                 s1 * 3/4
                     - \markup {
                         \smaller
@@ -167,8 +167,8 @@
                 s1 * 1/2
             }
             {
-                \time 3/4
-                s1 * 3/4 \stopTextSpan
+                \time 6/4
+                s1 * 3/2 \stopTextSpan
                     - \markup {
                         \smaller
                             \with-color
@@ -197,7 +197,7 @@
                 s1 * 5/4
             }
             {
-                \time 3/4
+                \time 6/8
                 s1 * 3/4
                     - \markup {
                         \smaller
@@ -211,8 +211,8 @@
                 s1 * 1
             }
             {
-                \time 3/4
-                s1 * 3/4
+                \time 6/4
+                s1 * 3/2
             }
             {
                 \time 2/4
@@ -228,7 +228,8 @@
                 s1 * 1/2
             }
             {
-                s1 * 1/2
+                \time 3/4
+                s1 * 3/4
             }
             {
                 \time 4/4
@@ -248,8 +249,8 @@
                 s1 * 1/2
             }
             {
-                \time 3/4
-                s1 * 3/4
+                \time 6/4
+                s1 * 3/2
                     - \markup {
                         \smaller
                             \with-color
@@ -262,8 +263,8 @@
                 s1 * 1
             }
             {
-                \time 2/4
-                s1 * 1/2
+                \time 3/4
+                s1 * 3/4
             }
         }
         \context WindSectionStaffGroup = "Wind Section Staff Group" <<
@@ -291,8 +292,10 @@
                     c'4 \repeatTie
                     c'4 \repeatTie
                     c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
                     c'4 \repeatTie
                     c'4 \repeatTie
                     c'4 \repeatTie
@@ -314,40 +317,77 @@
                                     fl.
                                 }
                         }
-                    c'1
+                    c'4
                         ^ \markup {
                             \override
                                 #'(box-padding . 0.75)
                                 \box
                                     "to bass flute"
                             }
-                    c'2. \repeatTie
-                    c'1 \repeatTie
-                    c'1 \repeatTie
                     c'4 \repeatTie
-                    c'1 \repeatTie
-                    c'2 \repeatTie
-                    c'1 \repeatTie
-                    c'1 \repeatTie
                     c'4 \repeatTie
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'1 \repeatTie
                     c'4 \repeatTie
-                    c'2. \repeatTie
-                    c'1 \repeatTie
-                    c'2. \repeatTie
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
                     R1 * 1/2
                     R1 * 1/2
                     R1 * 3/4
                     R1 * 1
                     R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
                 }
             }
             \tag winds.oboe
@@ -356,33 +396,33 @@
                 \context OboeMusicVoice = "Oboe Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
-                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
                     R1 * 1
                     R1 * 3/4
                     R1 * 1
                     R1 * 5/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1
-                    R1 * 5/4
                     R1 * 3/4
                     R1 * 1/2
-                    R1 * 3/4
+                    R1 * 3/2
                     R1 * 1/2
                     R1 * 5/4
                     R1 * 3/4
                     R1 * 1
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1
+                    R1 * 3/2
                     R1 * 1/2
                     R1 * 1/2
                     R1 * 3/4
                     R1 * 1
                     R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
                 }
             }
             \tag winds.clarinet
@@ -391,33 +431,33 @@
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
-                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
                     R1 * 1
                     R1 * 3/4
                     R1 * 1
                     R1 * 5/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1
-                    R1 * 5/4
                     R1 * 3/4
                     R1 * 1/2
-                    R1 * 3/4
+                    R1 * 3/2
                     R1 * 1/2
                     R1 * 5/4
                     R1 * 3/4
                     R1 * 1
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1
+                    R1 * 3/2
                     R1 * 1/2
                     R1 * 1/2
                     R1 * 3/4
                     R1 * 1
                     R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
                 }
             }
             \tag winds.saxophone
@@ -426,33 +466,33 @@
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
-                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
                     R1 * 1
                     R1 * 3/4
                     R1 * 1
                     R1 * 5/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1
-                    R1 * 5/4
                     R1 * 3/4
                     R1 * 1/2
-                    R1 * 3/4
+                    R1 * 3/2
                     R1 * 1/2
                     R1 * 5/4
                     R1 * 3/4
                     R1 * 1
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1
+                    R1 * 3/2
                     R1 * 1/2
                     R1 * 1/2
                     R1 * 3/4
                     R1 * 1
                     R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
                 }
             }
         >>
@@ -463,33 +503,33 @@
                 \context GuitarMusicVoice = "Guitar Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
-                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
                     R1 * 1
                     R1 * 3/4
                     R1 * 1
                     R1 * 5/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1
-                    R1 * 5/4
                     R1 * 3/4
                     R1 * 1/2
-                    R1 * 3/4
+                    R1 * 3/2
                     R1 * 1/2
                     R1 * 5/4
                     R1 * 3/4
                     R1 * 1
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1
+                    R1 * 3/2
                     R1 * 1/2
                     R1 * 1/2
                     R1 * 3/4
                     R1 * 1
                     R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
                 }
             }
             \tag percussion.piano
@@ -498,33 +538,33 @@
                 \context PianoMusicVoice = "Piano Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
-                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
                     R1 * 1
                     R1 * 3/4
                     R1 * 1
                     R1 * 5/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1
-                    R1 * 5/4
                     R1 * 3/4
                     R1 * 1/2
-                    R1 * 3/4
+                    R1 * 3/2
                     R1 * 1/2
                     R1 * 5/4
                     R1 * 3/4
                     R1 * 1
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1
+                    R1 * 3/2
                     R1 * 1/2
                     R1 * 1/2
                     R1 * 3/4
                     R1 * 1
                     R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
                 }
             }
             \tag percussion
@@ -533,33 +573,33 @@
                 \context PercussionMusicVoice = "Percussion Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
-                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
                     R1 * 1
                     R1 * 3/4
                     R1 * 1
                     R1 * 5/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1
-                    R1 * 5/4
                     R1 * 3/4
                     R1 * 1/2
-                    R1 * 3/4
+                    R1 * 3/2
                     R1 * 1/2
                     R1 * 5/4
                     R1 * 3/4
                     R1 * 1
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1
+                    R1 * 3/2
                     R1 * 1/2
                     R1 * 1/2
                     R1 * 3/4
                     R1 * 1
                     R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
                 }
             }
         >>
@@ -570,33 +610,33 @@
                 \context ViolinMusicVoice = "Violin Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
-                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
                     R1 * 1
                     R1 * 3/4
                     R1 * 1
                     R1 * 5/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1
-                    R1 * 5/4
                     R1 * 3/4
                     R1 * 1/2
-                    R1 * 3/4
+                    R1 * 3/2
                     R1 * 1/2
                     R1 * 5/4
                     R1 * 3/4
                     R1 * 1
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1
+                    R1 * 3/2
                     R1 * 1/2
                     R1 * 1/2
                     R1 * 3/4
                     R1 * 1
                     R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
                 }
             }
             \tag strings.viola
@@ -605,43 +645,43 @@
                     \clef "treble"
                     c'2
                     c'2 \repeatTie
+                    c'1. \repeatTie
                     c'2. \repeatTie
-                    c'2 \repeatTie
                     R1 * 1
                     R1 * 3/4
                     R1 * 1
                     R1 * 5/4
                     R1 * 1
-                    R1 * 1/2
+                    R1 * 3/4
                     R1 * 1
                     R1 * 5/4
                     R1 * 3/4
                     R1 * 1/2
-                    R1 * 3/4
+                    R1 * 3/2
                     R1 * 1/2
                     R1 * 5/4
                     R1 * 3/4
                     R1 * 1
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1
+                    R1 * 3/2
                     R1 * 1/2
                     R1 * 1/2
                     R1 * 3/4
                     R1 * 1
                     R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
                 }
             }
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
-                \clef "bass"
+                \clef "tenor"
                 \context CelloMusicVoice = "Cello Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
-                    R1 * 1/2
                     \clef "bass"
                     c'1
                     c'2. \repeatTie
@@ -649,27 +689,27 @@
                     c'1 \repeatTie
                     c'4 \repeatTie
                     c'1 \repeatTie
-                    c'2 \repeatTie
+                    c'2. \repeatTie
                     c'1 \repeatTie
                     c'1 \repeatTie
                     c'4 \repeatTie
                     R1 * 3/4
                     R1 * 1/2
-                    R1 * 3/4
+                    R1 * 3/2
                     R1 * 1/2
                     R1 * 5/4
                     R1 * 3/4
                     R1 * 1
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1
+                    R1 * 3/2
                     R1 * 1/2
                     R1 * 1/2
                     R1 * 3/4
                     R1 * 1
                     R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
                 }
             }
             \tag strings.contrabass
@@ -678,33 +718,33 @@
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
-                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
                     R1 * 1
                     R1 * 3/4
                     R1 * 1
                     R1 * 5/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1
-                    R1 * 5/4
                     R1 * 3/4
                     R1 * 1/2
-                    R1 * 3/4
+                    R1 * 3/2
                     R1 * 1/2
                     R1 * 5/4
                     R1 * 3/4
                     R1 * 1
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1
+                    R1 * 3/2
                     R1 * 1/2
                     R1 * 1/2
                     R1 * 3/4
                     R1 * 1
                     R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
                 }
             }
         >>
