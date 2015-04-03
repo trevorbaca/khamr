@@ -36,7 +36,8 @@ segment_maker.make_music_maker(
     stages=(1, 2),
     context_name=khamr.materials.context_names['flute'],
     instrument=khamr.materials.instruments['flute'],
-    division_maker=baca.materials.quarter_note_beats,
+    division_maker=baca.materials.paired_quarter_note_beats,
+    #division_maker=baca.materials.quarter_note_beats,
     rhythm_maker=baca.materials.tied_notes,
     )
 
@@ -44,14 +45,15 @@ segment_maker.make_music_maker(
     stages=(3, 9),
     context_name=khamr.materials.context_names['flute'],
     instrument=khamr.materials.instruments['bass flute'],
-    #division_maker=baca.materials.paired_quarter_note_beats,
-    division_maker=baca.materials.quarter_note_beats,
+    division_maker=baca.materials.paired_quarter_note_beats,
+    #division_maker=baca.materials.quarter_note_beats,
     rhythm_maker=baca.materials.tied_notes,
     )
 
 segment_maker.make_music_maker(
     stages=(1, 2),
     context_name=khamr.materials.context_names['viola'],
+    division_maker=baca.materials.paired_quarter_note_beats,
     rhythm_maker=baca.materials.tied_notes,
     clef='treble',
     )
@@ -59,6 +61,7 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(3, 6),
     context_name=khamr.materials.context_names['cello'],
+    division_maker=baca.materials.paired_quarter_note_beats,
     rhythm_maker=baca.materials.tied_notes,
     clef='bass',
     )

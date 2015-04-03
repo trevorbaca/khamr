@@ -1,4 +1,4 @@
-% 2015-04-03 13:56
+% 2015-04-03 14:06
 
 \version "2.19.17"
 \language "english"
@@ -282,23 +282,17 @@
                             #10
                             Fl.
                         }
-                    c'4
+                    c'2
                         ^ \markup {
                             \override
                                 #'(box-padding . 0.75)
                                 \box
                                     "to flute"
                             }
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4. \repeatTie
-                    c'4. \repeatTie
-                    c'4. \repeatTie
-                    c'4. \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2. \repeatTie
+                    c'2. \repeatTie
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -317,68 +311,38 @@
                                     fl.
                                 }
                         }
-                    c'4
+                    c'2
                         ^ \markup {
                             \override
                                 #'(box-padding . 0.75)
                                 \box
                                     "to bass flute"
                             }
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4. \repeatTie
-                    c'4. \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4. \repeatTie
-                    c'4. \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4. \repeatTie
-                    c'4. \repeatTie
-                    c'4. \repeatTie
-                    c'4. \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4. \repeatTie
-                    c'4. \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4. \repeatTie
-                    c'4. \repeatTie
-                    c'4. \repeatTie
-                    c'4. \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2. \repeatTie
                     R1 * 1/2
                     R1 * 1/2
                     R1 * 3/4
@@ -645,7 +609,8 @@
                     \clef "treble"
                     c'2
                     c'2 \repeatTie
-                    c'1. \repeatTie
+                    c'2. \repeatTie
+                    c'2. \repeatTie
                     c'2. \repeatTie
                     R1 * 1
                     R1 * 3/4
@@ -683,16 +648,20 @@
                     R1 * 3/2
                     R1 * 3/4
                     \clef "bass"
-                    c'1
+                    c'2
+                    c'2 \repeatTie
                     c'2. \repeatTie
-                    c'1 \repeatTie
-                    c'1 \repeatTie
-                    c'4 \repeatTie
-                    c'1 \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
                     c'2. \repeatTie
-                    c'1 \repeatTie
-                    c'1 \repeatTie
-                    c'4 \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
                     R1 * 3/4
                     R1 * 1/2
                     R1 * 3/2
