@@ -160,8 +160,6 @@
         \accepts FluteMusicVoice
         \override Beam.positions = #'(-7 . -7)
         \override DynamicLineSpanner.staff-padding = 10
-        \override RepeatTie.direction = #up
-        \override Tie.direction = #up
         \override TupletBracket.staff-padding = 6
         instrumentName = \fluteName
         shortInstrumentName = \shortFluteName
@@ -412,7 +410,6 @@
         \override SpacingSpanner.strict-grace-spacing = ##t
         \override SpacingSpanner.strict-note-spacing = ##t
         \override SpacingSpanner.uniform-stretching = ##t
-        \override Stem.direction = #down
         \override StemTremolo.beam-width = 1.5
         \override StemTremolo.flag-count = 4
         \override StemTremolo.slope = 0.5
