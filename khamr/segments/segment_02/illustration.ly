@@ -1,4 +1,4 @@
-% 2015-03-31 21:12
+% 2015-04-03 13:56
 
 \version "2.19.17"
 \language "english"
@@ -30,8 +30,8 @@
                 s1 * 1/2
             }
             {
-                \time 3/4
-                s1 * 3/4
+                \time 6/4
+                s1 * 3/2
                     - \markup {
                         \smaller
                             \with-color
@@ -40,8 +40,8 @@
                         }
             }
             {
-                \time 2/4
-                s1 * 1/2
+                \time 3/4
+                s1 * 3/4
             }
             {
                 \time 4/4
@@ -54,7 +54,7 @@
                         }
             }
             {
-                \time 3/4
+                \time 6/8
                 s1 * 3/4
             }
         }
@@ -83,8 +83,8 @@
                 \context FluteMusicVoice = "Flute Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
-                    R1 * 1/2
                     R1 * 1
                     R1 * 3/4
                 }
@@ -95,8 +95,8 @@
                 \context OboeMusicVoice = "Oboe Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
-                    R1 * 1/2
                     R1 * 1
                     R1 * 3/4
                 }
@@ -107,8 +107,8 @@
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
-                    R1 * 1/2
                     R1 * 1
                     R1 * 3/4
                 }
@@ -119,8 +119,8 @@
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
-                    R1 * 1/2
                     R1 * 1
                     R1 * 3/4
                 }
@@ -133,8 +133,8 @@
                 \context GuitarMusicVoice = "Guitar Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
-                    R1 * 1/2
                     R1 * 1
                     R1 * 3/4
                 }
@@ -145,8 +145,8 @@
                 \context PianoMusicVoice = "Piano Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
-                    R1 * 1/2
                     R1 * 1
                     R1 * 3/4
                 }
@@ -157,8 +157,8 @@
                 \context PercussionMusicVoice = "Percussion Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
-                    R1 * 1/2
                     R1 * 1
                     R1 * 3/4
                 }
@@ -171,8 +171,8 @@
                 \context ViolinMusicVoice = "Violin Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
-                    R1 * 1/2
                     R1 * 1
                     R1 * 3/4
                 }
@@ -183,8 +183,8 @@
                 \context ViolaMusicVoice = "Viola Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
-                    R1 * 1/2
                     R1 * 1
                     R1 * 3/4
                 }
@@ -195,8 +195,8 @@
                 \context CelloMusicVoice = "Cello Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
-                    R1 * 1/2
                     R1 * 1
                     R1 * 3/4
                 }
@@ -207,8 +207,8 @@
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
-                    R1 * 1/2
                     R1 * 1
                     R1 * 3/4
                 }

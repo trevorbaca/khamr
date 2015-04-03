@@ -70,12 +70,7 @@ class MusicMaker(abctools.AbjadObject):
         from experimental.tools import makertools
         self.clef = clef
         self.context_name = context_name
-        prototype = (
-            makertools.BeatDivisionMaker,
-            makertools.DivisionMaker,
-            makertools.HypermeasureDivisionMaker,
-            )
-        if not isinstance(division_maker, prototype):
+        if not 'Maker' in division_maker.__class__.__name__:
             division_maker = makertools.DivisionMaker(
                 pattern=division_maker,
                 )
@@ -165,17 +160,9 @@ class MusicMaker(abctools.AbjadObject):
         return self._default_rhythm_maker
 
     def _make_rhythm(self, time_signatures):
-#        if self.division_maker is not None:
-#            divisions = self.division_maker(time_signatures) 
-#        else:
-#            divisions = [
-#                mathtools.NonreducedFraction(_) for _ in time_signatures
-#                ]
         division_maker = self._get_division_maker()
         divisions = division_maker(time_signatures)
         divisions = sequencetools.flatten_sequence(divisions)
-        for division in divisions:
-            assert isinstance(division, mathtools.NonreducedFraction), division
         rhythm_maker = self._get_rhythm_maker()
         selections = rhythm_maker(divisions)
         if not self.rhythm_overwrites:

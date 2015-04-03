@@ -13,6 +13,11 @@ numerators = baca.utilities.helianthate(
     -1,
     -1
     )
-numerators = sequencetools.flatten_sequence(numerators)
-time_signatures = [TimeSignature((_, 4)) for _ in numerators]
+pairs = baca.utilities.helianthate(
+    [[(2, 4), (2, 4), (6, 4)], [(3, 4), (4, 4)], [(6, 8), (4, 4), (5, 4)]],
+    -1,
+    -1
+    )
+pairs = sequencetools.flatten_sequence(pairs, depth=1)
+time_signatures = [TimeSignature(_) for _ in pairs]
 time_signatures = datastructuretools.CyclicTuple(time_signatures)
