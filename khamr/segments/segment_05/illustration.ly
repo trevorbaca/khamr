@@ -1,4 +1,4 @@
-% 2015-04-03 13:56
+% 2015-04-03 14:43
 
 \version "2.19.17"
 \language "english"
@@ -179,7 +179,7 @@
             }
             \tag strings.viola
             \context ViolaMusicStaff = "Viola Music Staff" {
-                \clef "treble"
+                \clef "alto"
                 \context ViolaMusicVoice = "Viola Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
@@ -191,7 +191,7 @@
             }
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
-                \clef "bass"
+                \clef "tenor"
                 \context CelloMusicVoice = "Cello Music Voice" {
                     R1 * 1/2
                     R1 * 1/2

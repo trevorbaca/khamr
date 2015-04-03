@@ -1,4 +1,4 @@
-% 2015-04-03 14:06
+% 2015-04-03 14:41
 
 \version "2.19.17"
 \language "english"
@@ -290,8 +290,7 @@
                                     "to flute"
                             }
                     c'2 \repeatTie
-                    c'2. \repeatTie
-                    c'2. \repeatTie
+                    c'1. \repeatTie
                     c'2. \repeatTie
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
@@ -311,117 +310,188 @@
                                     fl.
                                 }
                         }
-                    c'2
+                    c'1
                         ^ \markup {
                             \override
                                 #'(box-padding . 0.75)
                                 \box
                                     "to bass flute"
                             }
-                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'1 \repeatTie
                     c'2. \repeatTie
                     c'2 \repeatTie
-                    c'2 \repeatTie
+                    c'1 \repeatTie
                     c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'2 \repeatTie
-                    c'2 \repeatTie
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'2 \repeatTie
+                    c'1 \repeatTie
                     c'2. \repeatTie
                     c'2 \repeatTie
                     c'2. \repeatTie
                     c'2 \repeatTie
-                    c'2. \repeatTie
-                    c'2. \repeatTie
+                    c'1. \repeatTie
                     c'2 \repeatTie
                     c'2. \repeatTie
                     c'2 \repeatTie
                     c'2. \repeatTie
+                    c'1 \repeatTie
+                    c'1. \repeatTie
                     c'2 \repeatTie
                     c'2 \repeatTie
                     c'2. \repeatTie
+                    c'1 \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'1. \repeatTie
+                    c'1 \repeatTie
                     c'2. \repeatTie
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
                 }
             }
             \tag winds.oboe
             \context OboeMusicStaff = "Oboe Music Staff" {
                 \clef "treble"
                 \context OboeMusicVoice = "Oboe Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
+                    c'2
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2. \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
                 }
             }
             \tag winds.clarinet
             \context ClarinetMusicStaff = "Clarinet Music Staff" {
                 \clef "treble"
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
+                    c'4
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
                 }
             }
             \tag winds.saxophone
@@ -605,13 +675,12 @@
             }
             \tag strings.viola
             \context ViolaMusicStaff = "Viola Music Staff" {
+                \clef "alto"
                 \context ViolaMusicVoice = "Viola Music Voice" {
-                    \clef "treble"
-                    c'2
-                    c'2 \repeatTie
-                    c'2. \repeatTie
-                    c'2. \repeatTie
-                    c'2. \repeatTie
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 3/4
                     R1 * 1
                     R1 * 3/4
                     R1 * 1
@@ -647,21 +716,14 @@
                     R1 * 1/2
                     R1 * 3/2
                     R1 * 3/4
-                    \clef "bass"
-                    c'2
-                    c'2 \repeatTie
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'2 \repeatTie
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'2 \repeatTie
-                    c'2 \repeatTie
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'2 \repeatTie
-                    c'2. \repeatTie
-                    c'2 \repeatTie
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
                     R1 * 3/4
                     R1 * 1/2
                     R1 * 3/2
