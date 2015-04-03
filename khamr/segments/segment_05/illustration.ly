@@ -1,4 +1,4 @@
-% 2015-04-03 14:43
+% 2015-04-03 16:54
 
 \version "2.19.17"
 \language "english"
@@ -87,6 +87,7 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    \bar "|."
                 }
             }
             \tag winds.oboe
@@ -99,6 +100,7 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    \bar "|."
                 }
             }
             \tag winds.clarinet
@@ -111,6 +113,7 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    \bar "|."
                 }
             }
             \tag winds.saxophone
@@ -123,6 +126,7 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    \bar "|."
                 }
             }
         >>
@@ -137,6 +141,7 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    \bar "|."
                 }
             }
             \tag percussion.piano
@@ -149,6 +154,7 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    \bar "|."
                 }
             }
             \tag percussion
@@ -161,6 +167,7 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    \bar "|."
                 }
             }
         >>
@@ -175,6 +182,7 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    \bar "|."
                 }
             }
             \tag strings.viola
@@ -187,6 +195,7 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    \bar "|."
                 }
             }
             \tag strings.cello
@@ -199,6 +208,7 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    \bar "|."
                 }
             }
             \tag strings.contrabass
@@ -211,6 +221,7 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    \bar "|."
                 }
             }
         >>

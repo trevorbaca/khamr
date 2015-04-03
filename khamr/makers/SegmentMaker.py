@@ -102,9 +102,10 @@ class SegmentMaker(makertools.SegmentMaker):
     ### PRIVATE METHODS ###
 
     def _add_final_barline(self):
-        if not self.final_barline:
-            return
-        self._score.add_final_bar_line(to_each_voice=True)
+        segment_number = self._segment_metadata.get('segment_number')
+        segment_count = self._segment_metadata.get('segment_count')
+        if segment_number == segment_count:
+            self._score.add_final_bar_line(to_each_voice=True)
 
     def _add_final_markup(self):
         if self.final_markup is None:
