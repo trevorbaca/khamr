@@ -239,7 +239,9 @@ class SegmentMaker(makertools.SegmentMaker):
         # TODO: adjust TempoSpanner to make this possible:
         #attach(spannertools.TempoSpanner(), context)
         skips = list(iterate(context).by_class(scoretools.Leaf))
-        tempo_spanner = spannertools.TempoSpanner()
+        tempo_spanner = spannertools.TempoSpanner(
+            start_with_parenthesized_tempo=False,
+            )
         attach(tempo_spanner, skips)
         for stage_number, directive in self.tempo_map:
             assert 0 < stage_number <= self.stage_count

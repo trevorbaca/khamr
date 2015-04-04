@@ -1,4 +1,4 @@
-% 2015-04-03 18:24
+% 2015-04-04 15:21
 
 \version "2.19.17"
 \language "english"
@@ -18,16 +18,9 @@
                 \time 2/4
                 \bar ""
                 \mark #3
-                s1 * 1/2
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [C1]
-                        }
-                    ^ \markup {
+                s1 * 1/2 ^ \markup {
                     \fontsize
-                        #-3
+                        #-6
                         \general-align
                             #Y
                             #DOWN
@@ -36,16 +29,10 @@
                                 #0
                                 #1
                     \upright
-                        \fontsize
-                            #3
-                            {
-                                \hspace
-                                    #0.5
-                                =
-                                \hspace
-                                    #0.1
-                                42
-                            }
+                        {
+                            =
+                            42
+                        }
                     }
             }
             {
@@ -54,12 +41,6 @@
             {
                 \time 6/4
                 s1 * 3/2
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [C2]
-                        }
             }
             {
                 \time 3/4
@@ -68,12 +49,6 @@
             {
                 \time 4/4
                 s1 * 1
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [C3]
-                        }
             }
             {
                 \time 6/8
@@ -95,32 +70,9 @@
                     }
                 \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
                 \once \override TextSpanner.bound-details.left.text = \markup {
-                    \override
-                        #'(padding . 0.45)
-                        \parenthesize
-                            \line
-                                {
-                                    \fontsize
-                                        #-3
-                                        \general-align
-                                            #Y
-                                            #DOWN
-                                            \note-by-number
-                                                #2
-                                                #0
-                                                #1
-                                    \upright
-                                        \fontsize
-                                            #3
-                                            {
-                                                \hspace
-                                                    #0.5
-                                                =
-                                                \hspace
-                                                    #0.1
-                                                42
-                                            }
-                                }
+                    \large
+                        \upright
+                            accel.
                     \hspace
                         #0.75
                     }
@@ -133,12 +85,6 @@
                 \once \override TextSpanner.dash-fraction = 0.25
                 \once \override TextSpanner.dash-period = 1.5
                 s1 * 1 \startTextSpan
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [C4]
-                        }
             }
             {
                 \time 5/4
@@ -147,12 +93,6 @@
             {
                 \time 4/4
                 s1 * 1
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [C5]
-                        }
             }
             {
                 \time 3/4
@@ -161,12 +101,6 @@
             {
                 \time 4/4
                 s1 * 1
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [C6]
-                        }
             }
             {
                 \time 5/4
@@ -175,12 +109,6 @@
             {
                 \time 6/8
                 s1 * 3/4
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [C7]
-                        }
             }
             {
                 \time 2/4
@@ -188,16 +116,9 @@
             }
             {
                 \time 6/4
-                s1 * 3/2 \stopTextSpan
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [C8]
-                        }
-                    ^ \markup {
+                s1 * 3/2 \stopTextSpan ^ \markup {
                     \fontsize
-                        #-3
+                        #-6
                         \general-align
                             #Y
                             #DOWN
@@ -206,16 +127,10 @@
                                 #0
                                 #1
                     \upright
-                        \fontsize
-                            #3
-                            {
-                                \hspace
-                                    #0.5
-                                =
-                                \hspace
-                                    #0.1
-                                84
-                            }
+                        {
+                            =
+                            84
+                        }
                     }
             }
             {
@@ -229,12 +144,6 @@
             {
                 \time 6/8
                 s1 * 3/4
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [C9]
-                        }
             }
             {
                 \time 4/4
@@ -247,12 +156,6 @@
             {
                 \time 2/4
                 s1 * 1/2
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [C10]
-                        }
             }
             {
                 s1 * 1/2
@@ -264,12 +167,6 @@
             {
                 \time 4/4
                 s1 * 1
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [C11]
-                        }
             }
             {
                 \time 2/4
@@ -281,12 +178,6 @@
             {
                 \time 6/4
                 s1 * 3/2
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [C12]
-                        }
             }
             {
                 \time 4/4
