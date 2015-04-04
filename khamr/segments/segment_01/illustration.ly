@@ -1,4 +1,4 @@
-% 2015-04-03 14:42
+% 2015-04-04 15:22
 
 \version "2.19.17"
 \language "english"
@@ -24,7 +24,8 @@
                                 [1]
                         }
                     ^ \markup {
-                    \smaller
+                    \fontsize
+                        #-6
                         \general-align
                             #Y
                             #DOWN
@@ -33,7 +34,10 @@
                                 #0
                                 #1
                     \upright
-                        " = 126"
+                        {
+                            =
+                            126
+                        }
                     }
             }
             {

@@ -100,6 +100,7 @@
         \consists Text_engraver
         \consists Text_spanner_engraver
         \consists Time_signature_engraver
+        \override BarNumber.Y-extent = ##f
         \override BarNumber.extra-offset = #'(-6 . -4)
         \override BarNumber.font-size = 1
         \override BarNumber.padding = 4
@@ -119,11 +120,12 @@
         \override RehearsalMark.self-alignment-X = #center
         \override Script.font-size = 6
         \override Script.extra-offset = #'(4 . -9)
-        \override TextScript.font-size = 3
+        \override TextScript.font-size = 6
         \override TextScript.outside-staff-priority = 600
-        \override TextScript.padding = 6
+        \override TextScript.padding = 8
         \override TextSpanner.bound-details.right.attach-dir = #LEFT
-        \override TextSpanner.padding = 6.75
+        \override TextSpanner.font-size = 6
+        \override TextSpanner.Y-extent = #'(-6 . 6)
         \override TimeSignature.X-extent = #'(0 . 0)
         \override TimeSignature.break-align-symbol = #'left-edge
         \override TimeSignature.break-visibility = #end-of-line-invisible
