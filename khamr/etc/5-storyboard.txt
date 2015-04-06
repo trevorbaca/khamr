@@ -1,45 +1,45 @@
-[A] M8  M16 M4  M5  M19 M10 M6
-[B] M12 M4  M3  M18 M9  M4  M7
-[C] M16 M19 M10 M4  M3  M1  M2A
-[D] M3  M17 M5  M18 M5  M14 M19
-[E] M2B M11 M14 M6  M2A M5  M1
+[1] M8  M16 M4  M5  M19 M10 M6
+[2] M12 M4  M3  M18 M9  M4  M7
+[3] M16 M19 M10 M4  M3  M1  M2A
+[4] M3  M17 M5  M18 M5  M14 M19
+[5] M2B M11 M14 M6  M2A M5  M1
 
 ###############################################################################
-#################################### [E] ######################################
+#################################### [5] ######################################
 ###############################################################################
 
 materials: M2B, M11, M14, M6, M2A, M5, M1
 
-what comes before? four different layers carry over from [D] into [E]:
+what comes before? four different layers carry over from [4] into [5]:
 
     (M5 [extremely quiet low winds])
     (M19 [piano lightning cadenza])
     (M18 [china cymbal miasma])
     (M14 [ppp altissimo string tremolo])
 
-M2B [burst guiro] marks the beginning of [E]. M2B [burst guiro] is orchestrated
+M2B [burst guiro] marks the beginning of [5]. M2B [burst guiro] is orchestrated
 as jarring fff rattan across the resonators of the marimba. the percussionist
 momentarily stops M18 [china cymbal miasma] in order to play M2B [burst guiro].
 M2B [burst guiro] spawns a texture of smaller guiro bursts throughout the
 ensemble both before and after the appearance of the fff rattan. percussionist
 returns to M18 [china cymbal miasma] afterwards.
 
-M11 [massed off-string bowing] is written into only [E]. M11 [massed off-string
+M11 [massed off-string bowing] is written into only [5]. M11 [massed off-string
 bowing] is a type of foam used to highlight M19 [piano lightning cadenza].
 
 M14 [electric string tremolo and shakers] begins with fff string tremolo and
 fff shakers. M14 [electric string tremolo and shakers] subjects string tremolo
-to decrescendo and shakers to increasing density during [E]. M14 [electric
+to decrescendo and shakers to increasing density during [5]. M14 [electric
 string tremolo and shakers] combines extremely well with M1 [upper-register
 prestissimo].
 
-M18 [china cymbal miasma] climaxes with loudly struck 38" tam-tam in [E].
+M18 [china cymbal miasma] climaxes with loudly struck 38" tam-tam in [5].
 
-M2A [seaweed guiro] is written into [C], [E]. M2A [seaweed guiro] is fully
-orchestrated in [C]. M2A [seaweed guiro] is orchestrated in a dreamlike way in
-[E].
+M2A [seaweed guiro] is written into [3], [5]. M2A [seaweed guiro] is fully
+orchestrated in [3]. M2A [seaweed guiro] is orchestrated in a dreamlike way in
+[5].
 
-M6 [quiet multiphonic complexes] becomes M5 [extremely quiet low winds] in [E].
+M6 [quiet multiphonic complexes] becomes M5 [extremely quiet low winds] in [5].
 
 FIRST-ORDER STORYBOARD:
 materials: 2B, 11, 14, 6, 2A, 5, 1

@@ -1649,7 +1649,7 @@ when the cadenza acquires a critical amount of energy or descends into the
 lowest registers of the piano. this is possible even with an incredibly
 forceful snare roll. so this provides a way of presenting the saturated
 versions of two materials in counterpoint at one time. this is possible even
-though M17 [snare roll] is written into the structure only in [D].
+though M17 [snare roll] is written into the structure only in [4].
 
 LAYERING. is M19 [piano lightning cadena] an extension of M1 [upper-register
 prestissimo]? is M19 [piano lightning cadenza] a precursor of M1
