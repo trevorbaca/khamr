@@ -1,59 +1,59 @@
-[A] M8  M16 M4  M5  M19 M10 M6
-[B] M12 M4  M3  M18 M9  M4  M7
-[C] M16 M19 M10 M4  M3  M1  M2A
-[D] M3  M17 M5  M18 M5  M14 M19
-[E] M2B M11 M14 M6  M2A M5  M1
+[1] M8  M16 M4  M5  M19 M10 M6
+[2] M12 M4  M3  M18 M9  M4  M7
+[3] M16 M19 M10 M4  M3  M1  M2A
+[4] M3  M17 M5  M18 M5  M14 M19
+[5] M2B M11 M14 M6  M2A M5  M1
 
 ###############################################################################
-#################################### [D] ######################################
+#################################### [4] ######################################
 ###############################################################################
 
 materials: M3, M17, M5, M18, M5, M14, M19
 
 what comes before? one material (orchestrated with many layers) carries over
-from [C] into [D]:
+from [3] into [4]:
 
     (M2A [seaweed guiro])
 
-M3 [dialoguing wind solos] is written into [B], [C], [D].
+M3 [dialoguing wind solos] is written into [2], [3], [4].
 
 M17 [snare roll] appears with M12 [massed string trills].
 
 M17 [snare roll] transforms M3 [dialoguing wind solos] into M5 [extremely quiet
 low winds].
 
-M5 [extremely quiet low winds] pervades [D].
+M5 [extremely quiet low winds] pervades [4].
 
-M18 [china cymbal miasma] is written into [B], [D]. M18 [china cymbal miasma]
-climaxes on the 27" cymbal in [D].
+M18 [china cymbal miasma] is written into [2], [4]. M18 [china cymbal miasma]
+climaxes on the 27" cymbal in [4].
 
 M17 [snare roll] and M18 [china cymbal miasma] must structure dynamics
-convincingly in [D].
+convincingly in [4].
 
-M12 [massed string trills] pervades [D].
+M12 [massed string trills] pervades [4].
 
-M20 [whirly tubes] starts with M17 [snare roll] in [D]. M20 [whirly tubes]
-persists after M17 [snare roll] in [D].
+M20 [whirly tubes] starts with M17 [snare roll] in [4]. M20 [whirly tubes]
+persists after M17 [snare roll] in [4].
 
-M14 [electric string tremolo & shakers] is written into [A], [C], [D], [E]. M14
+M14 [electric string tremolo & shakers] is written into [1], [3], [4], [5]. M14
 [electric string tremolo & shakers] climaxes in [D-E]. M14 [electric string
 tremolo & shakers] is accompanied by piccolo fluttertongue and struck 38"
-tam-tam in [D].
+tam-tam in [4].
 
-M19 [piano lightning cadenza] is written into [A], [C], [D]. M19 [piano
-lightning cadenza] climaxes in [E]. M19 [piano lightning cadenza] is
-accompanied by struck 30" tam-tam in [D], [E].
+M19 [piano lightning cadenza] is written into [1], [3], [4]. M19 [piano
+lightning cadenza] climaxes in [5]. M19 [piano lightning cadenza] is
+accompanied by struck 30" tam-tam in [4], [5].
 
 M19 [piano lightning cadenza] is accompanied by M10 [tremoli fantastiques] in
-[D] even though M10 [tremoli fantastiques] is not written into the structure of
-[D].
+[4] even though M10 [tremoli fantastiques] is not written into the structure of
+[4].
 
 FIRST-ORDER STORYBOARD:
 materials: 3, 17, 5, 18, 5, 14, 19
 
     [1]
 ++++(M3 [dialoguing wind solos])
-----(M2A [seaweed guiro] (from [C]))
+----(M2A [seaweed guiro] (from [3]))
 
     [2]
     (M3 [dialoguing wind solos])

@@ -1,16 +1,16 @@
-[A] M8  M16 M4  M5  M19 M10 M6
-[B] M12 M4  M3  M18 M9  M4  M7
-[C] M16 M19 M10 M4  M3  M1  M2A
-[D] M3  M17 M5  M18 M5  M14 M19
-[E] M2B M11 M14 M6  M2A M5  M1
+[1] M8  M16 M4  M5  M19 M10 M6
+[2] M12 M4  M3  M18 M9  M4  M7
+[3] M16 M19 M10 M4  M3  M1  M2A
+[4] M3  M17 M5  M18 M5  M14 M19
+[5] M2B M11 M14 M6  M2A M5  M1
 
 ###############################################################################
-#################################### [C] ######################################
+#################################### [3] ######################################
 ###############################################################################
 
 materials: M16, M19, M10, M4, M3, M1, M2A
 
-what comes before? seven different layers carry over from [B] into [C]:
+what comes before? seven different layers carry over from [2] into [3]:
 
     (M7 [ferocious multiphonic complexes])
     (AUX [clicks])
@@ -20,30 +20,30 @@ what comes before? seven different layers carry over from [B] into [C]:
     (M16 [extremely long string tremolo descent])
     (M4 [contrabass halo])
 
-M16 [extremely long string tremolo descent] terminates at the start of [C].
+M16 [extremely long string tremolo descent] terminates at the start of [3].
 
-M19 [piano lightning cadenza] is written into [A], [C], [D]. M19 [piano
-lightning cadenza] in [A], [C] foreshadows the start of M19 [piano lightning
-cadenza] in [D].
+M19 [piano lightning cadenza] is written into [1], [3], [4]. M19 [piano
+lightning cadenza] in [1], [3] foreshadows the start of M19 [piano lightning
+cadenza] in [4].
 
-M10 [tremoli fantastiques] is written into [A], [C]. M10 [tremoli fantastiques]
+M10 [tremoli fantastiques] is written into [1], [3]. M10 [tremoli fantastiques]
 and M19 [piano lightning cadenza] are bound together.
 
-M4 [contrabass halo] appears in the piece for the last time in [C].
+M4 [contrabass halo] appears in the piece for the last time in [3].
 
-M3 [dialoguing wind solos] is written into [B], [C], [D]. M3 [dialoguing wind
-solos] transforms into M9 [sostenuti fantastiques] in [B]. in [C] there is no
+M3 [dialoguing wind solos] is written into [2], [3], [4]. M3 [dialoguing wind
+solos] transforms into M9 [sostenuti fantastiques] in [2]. in [3] there is no
 structural reason to transform M3 [dialoguing wind solos] into another
 material.
 
-M1 [upper-register prestissimo] is written into [C], [E]. M1 [upper-register
-prestissimo] climaxes in [C]. M3 [dialoguing wind solos] and M1 [upper-register
-prestissimo] alternate in [C] (exercising a type of windowing or alternation
+M1 [upper-register prestissimo] is written into [3], [5]. M1 [upper-register
+prestissimo] climaxes in [3]. M3 [dialoguing wind solos] and M1 [upper-register
+prestissimo] alternate in [3] (exercising a type of windowing or alternation
 technique).
 
-M2A [seaweed guiro] is written into [C], [E]. M2A [seaweed guiro] in [C] brings
+M2A [seaweed guiro] is written into [3], [5]. M2A [seaweed guiro] in [3] brings
 M1 [upper-register prestissimo] to conclusion. M2A [seaweed guiro] crosses over
-from [C] into [D].
+from [3] into [4].
 
 FIRST-ORDER STORYBOARD:
 materials: 16, 19, 10, 4, 3, 1, 2A

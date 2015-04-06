@@ -1,16 +1,16 @@
-[A] M8  M16 M4  M5  M19 M10 M6
-[B] M12 M4  M3  M18 M9  M4  M7
-[C] M16 M19 M10 M4  M3  M1  M2A
-[D] M3  M17 M5  M18 M5  M14 M19
-[E] M2B M11 M14 M6  M2A M5  M1
+[1] M8  M16 M4  M5  M19 M10 M6
+[2] M12 M4  M3  M18 M9  M4  M7
+[3] M16 M19 M10 M4  M3  M1  M2A
+[4] M3  M17 M5  M18 M5  M14 M19
+[5] M2B M11 M14 M6  M2A M5  M1
 
 ###############################################################################
-#################################### [B] ######################################
+#################################### [2] ######################################
 ###############################################################################
 
 materials: M12, M4, M3, M18, M9, M4, M7
 
-what comes before? five layers carry over from [A] into [B]:
+what comes before? five layers carry over from [1] into [2]:
 
     (M6 [quiet multiphonic complexes])
     (M15 [woodblock underspine])
@@ -18,35 +18,35 @@ what comes before? five layers carry over from [A] into [B]:
     (M10 [tremoli fantastiques] ==> M12 [massed string trills])
     (M4 [contrabass halo])
 
-M12 [massed string trills] is written into [B]. (M12 [massed string trills]
-cooccurs with materials in the opening stages of [D].) M12 [massed string
-trills] climaxes in [B]. M12 [massed string trills] expresses noticeable
+M12 [massed string trills] is written into [2]. (M12 [massed string trills]
+cooccurs with materials in the opening stages of [4].) M12 [massed string
+trills] climaxes in [2]. M12 [massed string trills] expresses noticeable
 dynamic enveloping. dynamic enveloping starts with M10 [tremoli fantastiques]
-at the end of [A] and continues into M12 [massed string trills] at the start of
-[B]. M12 [massed string trills] in [B] effects two or three time techniques.
+at the end of [1] and continues into M12 [massed string trills] at the start of
+[2]. M12 [massed string trills] in [2] effects two or three time techniques.
 
-M4 [contrabass halo] is written into [A], [B], [C]. M4 [contrabass halo] in [B]
-continues M4 [contrabass halo] in [A].
+M4 [contrabass halo] is written into [1], [2], [3]. M4 [contrabass halo] in [2]
+continues M4 [contrabass halo] in [1].
 
-M18 [china cymbal miasma] is written into [B], [D]. M18 [china cymbal miasma]
-climaxes on the 22" cymbal in [B].
+M18 [china cymbal miasma] is written into [2], [4]. M18 [china cymbal miasma]
+climaxes on the 22" cymbal in [2].
 
 M12 [massed string trills], M4 [contrabass halo], M3 [dialoguing wind solos]
-and M18 [china cymbal miasma] glue together at the beginning of [B] as a
+and M18 [china cymbal miasma] glue together at the beginning of [2] as a
 full-ensemble amalgam.
 
-M12 [massed string trills] becomes M9 [sostenuti fantastiques] in [B]. M12
+M12 [massed string trills] becomes M9 [sostenuti fantastiques] in [2]. M12
 [massed string trills] increases dynamics during the transition to M9
 [sostenuti fantastiques] to avoid losing energy.
 
-M3 [dialoguing wind solos] becomes M9 [sostenuti fantastiques] in [B]. M3
+M3 [dialoguing wind solos] becomes M9 [sostenuti fantastiques] in [2]. M3
 [dialoguing wind solos] increases dynamics during the transition to M9
 [sostenuti fantastiques] to avoid losing energy.
 
-M3 [dialoguing wind solos] becomes M7 [ferocious multiphonic complexes] in [B].
+M3 [dialoguing wind solos] becomes M7 [ferocious multiphonic complexes] in [2].
 
-M7 [ferocious multiphonic complexes] is written into [B]. M7 [ferocious
-multiphonic complexes] climaxes in [B]. (M7 [ferocious multiphonic complexes]
+M7 [ferocious multiphonic complexes] is written into [2]. M7 [ferocious
+multiphonic complexes] climaxes in [2]. (M7 [ferocious multiphonic complexes]
 also appears at the end of the piece.)
 
 FIRST-ORDER STORYBOARD:
@@ -214,4 +214,4 @@ ORCHESTRATION:
     * contrabass halo M4 detunes IV to G0
     * contrabass halo M4 incl. multiphonics
 
-[B] ends in a field of densely saturated color.
+[2] ends in a field of densely saturated color.

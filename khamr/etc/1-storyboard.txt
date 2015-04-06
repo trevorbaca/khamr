@@ -1,49 +1,49 @@
-[A] M8  M16 M4  M5  M19 M10 M6
-[B] M12 M4  M3  M18 M9  M4  M7
-[C] M16 M19 M10 M4  M3  M1  M2A
-[D] M3  M17 M5  M18 M5  M14 M19
-[E] M2B M11 M14 M6  M2A M5  M1
+[1] M8  M16 M4  M5  M19 M10 M6
+[2] M12 M4  M3  M18 M9  M4  M7
+[3] M16 M19 M10 M4  M3  M1  M2A
+[4] M3  M17 M5  M18 M5  M14 M19
+[5] M2B M11 M14 M6  M2A M5  M1
 
 ###############################################################################
-#################################### [A] ######################################
+#################################### [1] ######################################
 ###############################################################################
 
 materials: M8, M14, M4, M5, M19, M10, M6
 
-M8 [pizzicati fantastiques] is written into [A]. M8 [pizzicati fantastiques]
-climaxes in [A].
+M8 [pizzicati fantastiques] is written into [1]. M8 [pizzicati fantastiques]
+climaxes in [1].
 
-M16 [extremely long string tremolo descent] begins in [A]. M16 [extremely long
-string tremolo descent] ends at the start of [C].
+M16 [extremely long string tremolo descent] begins in [1]. M16 [extremely long
+string tremolo descent] ends at the start of [3].
 
-M4 [contrabass halo] is written into [A], [B], [C]. M4 [contrabass halo] ends
-at the start of [C]. M4 [contrabass halo] beaves as an independent layer.
+M4 [contrabass halo] is written into [1], [2], [3]. M4 [contrabass halo] ends
+at the start of [3]. M4 [contrabass halo] beaves as an independent layer.
 
-M5 [extremely quiet low winds] is written into [A], [D], [E]. M5 [extremely
-quiet low winds] in [A] privileges major and perfect intervals to forestall any
+M5 [extremely quiet low winds] is written into [1], [4], [5]. M5 [extremely
+quiet low winds] in [1] privileges major and perfect intervals to forestall any
 affect of the sinister.
 
-M19 [piano lightning cadenza] is written into [A], [C], [D]. M19 [piano
-lightning cadenza] in [A] foreshadows M19 [piano lightning cadenza] in [C] and
-[D]. M19 [piano lightning cadenza] in [A] emerges from M8 [pizzicati
+M19 [piano lightning cadenza] is written into [1], [3], [4]. M19 [piano
+lightning cadenza] in [1] foreshadows M19 [piano lightning cadenza] in [3] and
+[4]. M19 [piano lightning cadenza] in [1] emerges from M8 [pizzicati
 fantastiques].
 
-M10 [tremoli fantastiques] is written into [A], [C]. M19 [piano lightning
+M10 [tremoli fantastiques] is written into [1], [3]. M19 [piano lightning
 cadenza] and M10 [tremoli fantastiques] are bound together in the piece.
 
-M6 [quiet multiphonic complexes] is written into [A], [E]. M6 [quiet
+M6 [quiet multiphonic complexes] is written into [1], [5]. M6 [quiet
 multiphonic complexes] never climaxes.
 
 M5 [extremely quiet low winds] and M6 [quiet multiphonic complexes] merge into
-a composite during [A].
+a composite during [1].
 
 M5 [extremely quiet low winds] and M6 [quiet multiphonic complexes] merge into
-a composite during [E].
+a composite during [5].
 
 M8 [pizzicati fantastiques] becomes M10 [tremoli fantastiques] which in turn
 becomes M12 [massed string trills].
 
-SUMMARY. [A] initiates three longterm processes: M16 [extremely long string
+SUMMARY. [1] initiates three longterm processes: M16 [extremely long string
 tremolo descent], M15 [woodblock underspine] and M4 [contrabass halo]. M8
 [pizzicati fantastiques] becomes M10 [tremoli fantastiques] which becomes M12
 [massed string trills]. M5 [extremely quiet low winds] acts as an underlayer
@@ -102,16 +102,16 @@ ORCHESTRATION:
 
     [1]
     (M4 [bass flute acc. to halo: niente < p])
-    (M2B [(oboist) guiro burst strokes: very short foreshadow of [E];
+    (M2B [(oboist) guiro burst strokes: very short foreshadow of [5];
         M4 [english horn air tone (w/o reed) acc. to halo: niente < p])
     (M4 [bass clarinet acc. to halo: niente < p])
     (M4 [baritone sax acc. to halo: niente < p])
     --
-    (M14 [shakers (guitar): fff: very short foreshadow of [E];
+    (M14 [shakers (guitar): fff: very short foreshadow of [5];
         M4 [guitar pitched tambour doubling of 38" tam-tam acc. to halo])
     (M4 [piano tambour + low note doubling of 38" tam-tam acc. to halo])
     (M4 [struck 38" tam-tam acc. to halo: mp];
-        M1 [castanets and triangle: very sparse foreshadow of [C];
+        M1 [castanets and triangle: very sparse foreshadow of [3];
         M4 [struck 38" tam-tam acc. to halo: mp])
     --
     (M4 [violin acc. to halo: niente < p])
