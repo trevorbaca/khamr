@@ -3,6 +3,7 @@ from abjad import *
 from experimental import *
 import baca
 import khamr
+from khamr.materials.abbreviations import *
 
 
 ###############################################################################
@@ -14,7 +15,7 @@ segment_maker = khamr.makers.SegmentMaker(
         2, 2, 2, 2, 2, 2, 2,        # stages 1-7
         3, 3, 3, 3, 3,              # stages 8-12
         ],
-    #show_stage_annotations=True,
+    show_stage_annotations=True,
     tempo_map=[
         (1, khamr.materials.tempi[42]),
         (4, Accelerando()),
@@ -33,26 +34,16 @@ assert segment_maker.validate_time_signatures()
 ###############################################################################
 
 segment_maker.make_music_maker(
-    stages=(1, 12),
-    context_name=khamr.materials.context_names['flute'],
-    instrument=khamr.materials.instruments['flute'],
-    division_maker=baca.materials.fewest_glyph_divisions,
-    rhythm_maker=baca.materials.sixteenth_note_accelerandi,
-    #rhythm_maker=baca.materials.notes,
-    )
-
-segment_maker.make_music_maker(
-    stages=(1, 12),
-    context_name=khamr.materials.context_names['oboe'],
+    stages=(1, 3),
+    context_name=fl,
+    instrument=khamr.materials.instruments['bass flute'],
     division_maker=baca.materials.paired_quarter_note_beats,
-    rhythm_maker=baca.materials.sixteenth_note_accelerandi,
-    #rhythm_maker=baca.materials.notes,
+    rhythm_maker=baca.materials.tied_notes,
     )
 
-segment_maker.make_music_maker(
-    stages=(1, 12),
-    context_name=khamr.materials.context_names['clarinet'],
-    division_maker=baca.materials.quarter_note_beats,
-    rhythm_maker=baca.materials.sixteenth_note_accelerandi,
-    #rhythm_maker=baca.materials.notes,
+segment_maker.make_music_handler(
+    scope=(fl, (1, 3)),
+    specifiers=[
+        whistle_tone_spanner,
+        ],
     )
