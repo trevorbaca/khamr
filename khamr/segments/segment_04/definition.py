@@ -19,7 +19,7 @@ segment_maker = khamr.makers.SegmentMaker(
     tempo_map=[
         (1, khamr.materials.tempi[42]),
         (4, Accelerando()),
-        (8, khamr.materials.tempi[84]),
+        (7, khamr.materials.tempi[84]),
         ],
     time_signatures=khamr.materials.time_signatures[:29],
     transpose_score=True,
@@ -33,29 +33,22 @@ assert segment_maker.validate_time_signatures()
 ################################ MUSIC-MAKERS #################################
 ###############################################################################
 
-incise_specifier = rhythmmakertools.InciseSpecifier(
-    prefix_talea=[-2],
-    prefix_counts=[1],
-    suffix_talea=[-1],
-    suffix_counts=[1],
-    talea_denominator=16,
-    outer_divisions_only=False,
-    )
-incised_notes = rhythmmakertools.IncisedRhythmMaker(
-    incise_specifier=incise_specifier,
-    )
 segment_maker.make_music_maker(
     stages=(1, 3),
     context_name=fl,
     instrument=khamr.materials.instruments['bass flute'],
     division_maker=baca.materials.paired_quarter_note_beats,
-    rhythm_maker=incised_notes,
+    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=[True],
+            use_messiaen_style_ties=True,
+            ),
+        tuplet_ratios=[(-1, 4), (1,), (6, -1)],
+        ),
     )
 
 segment_maker.make_music_handler(
     scope=(fl, (1, 3)),
     specifiers=[
-        text_spanner_staff_padding(2),
-        whistle_tone_spanner,
         ],
     )
