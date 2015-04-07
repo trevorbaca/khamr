@@ -1,0 +1,2 @@
+1.  Mail LilyPond list and ask about text spanner line-breaking text
+    when used as accelerando.

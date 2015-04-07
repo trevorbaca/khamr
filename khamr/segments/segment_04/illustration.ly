@@ -1,4 +1,4 @@
-% 2015-04-06 18:41
+% 2015-04-06 23:23
 
 \version "2.19.17"
 \language "english"
@@ -267,6 +267,7 @@
             \context FluteMusicStaff = "Flute Music Staff" {
                 \clef "treble"
                 \context FluteMusicVoice = "Flute Music Voice" {
+                    \once \override TextSpanner #'staff-padding = #2
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -285,20 +286,98 @@
                                     fl.
                                 }
                         }
-                    c'2
+                    r8
                         ^ \markup {
                             \override
                                 #'(box-padding . 0.75)
                                 \box
                                     "to bass flute"
                             }
-                    c'2 \repeatTie
-                    c'2. \repeatTie
-                    c'2. \repeatTie
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'2 \repeatTie
-                    c'2. \repeatTie
+                    \once \override TextSpanner #'staff-padding = #2
+                    \override TextSpanner #'bound-details #'left #'padding = #-1
+                    \override TextSpanner #'bound-details #'left #'stencil-align-dir-y = #0
+                    \override TextSpanner #'bound-details #'left #'text = \markup {
+                        \larger
+                            \upright
+                                "whistle tones"
+                        \hspace
+                            #1
+                        }
+                    \override TextSpanner #'bound-details #'left-broken #'text = #'#f
+                    \override TextSpanner #'bound-details #'right #'padding = #1
+                    \override TextSpanner #'bound-details #'right #'stencil-align-dir-y = #1
+                    \override TextSpanner #'bound-details #'right #'text = \markup {
+                        \draw-line
+                            #'(0 . -1)
+                        }
+                    \override TextSpanner #'bound-details #'right-broken #'padding = #0
+                    \override TextSpanner #'bound-details #'right-broken #'text = #'#f
+                    \override TextSpanner #'dash-fraction = #0.25
+                    \override TextSpanner #'dash-period = #1.5
+                    c'4 ~ \startTextSpan
+                    \once \override TextSpanner #'staff-padding = #2
+                    c'16
+                    \once \override TextSpanner #'staff-padding = #2
+                    r16
+                    \once \override TextSpanner #'staff-padding = #2
+                    r8
+                    \once \override TextSpanner #'staff-padding = #2
+                    c'4 ~
+                    \once \override TextSpanner #'staff-padding = #2
+                    c'16
+                    \once \override TextSpanner #'staff-padding = #2
+                    r16
+                    \once \override TextSpanner #'staff-padding = #2
+                    r8
+                    \once \override TextSpanner #'staff-padding = #2
+                    c'2 ~
+                    \once \override TextSpanner #'staff-padding = #2
+                    c'16
+                    \once \override TextSpanner #'staff-padding = #2
+                    r16
+                    \once \override TextSpanner #'staff-padding = #2
+                    r8
+                    \once \override TextSpanner #'staff-padding = #2
+                    c'2 ~
+                    \once \override TextSpanner #'staff-padding = #2
+                    c'16
+                    \once \override TextSpanner #'staff-padding = #2
+                    r16
+                    \once \override TextSpanner #'staff-padding = #2
+                    r8
+                    \once \override TextSpanner #'staff-padding = #2
+                    c'2 ~
+                    \once \override TextSpanner #'staff-padding = #2
+                    c'16
+                    \once \override TextSpanner #'staff-padding = #2
+                    r16
+                    \once \override TextSpanner #'staff-padding = #2
+                    r8
+                    \once \override TextSpanner #'staff-padding = #2
+                    c'4 ~
+                    \once \override TextSpanner #'staff-padding = #2
+                    c'16
+                    \once \override TextSpanner #'staff-padding = #2
+                    r16
+                    \once \override TextSpanner #'staff-padding = #2
+                    r8
+                    \once \override TextSpanner #'staff-padding = #2
+                    c'4 ~
+                    \once \override TextSpanner #'staff-padding = #2
+                    c'16
+                    \once \override TextSpanner #'staff-padding = #2
+                    r16
+                    \once \override TextSpanner #'staff-padding = #2
+                    r8
+                    \once \override TextSpanner #'staff-padding = #2
+                    c'2 ~
+                    \once \override TextSpanner #'staff-padding = #2
+                    c'16 \stopTextSpan
+                    \revert TextSpanner #'bound-details
+                    \revert TextSpanner #'dash-fraction
+                    \revert TextSpanner #'dash-period
+                    \once \override TextSpanner #'staff-padding = #2
+                    r16
                     R1 * 1
                     R1 * 5/4
                     R1 * 1
@@ -610,7 +689,7 @@
             }
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
-                \clef "bass"
+                \clef "tenor"
                 \context CelloMusicVoice = "Cello Music Voice" {
                     R1 * 1/2
                     R1 * 1/2

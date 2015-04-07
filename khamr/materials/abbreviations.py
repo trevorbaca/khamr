@@ -181,6 +181,13 @@ def stem_direction(direction):
         attribute_value=str(direction),
         )
 
+def text_spanner_staff_padding(n):
+    return handlertools.OverrideHandler(
+        grob_name='text_spanner',
+        attribute_name='staff_padding',
+        attribute_value=str(n),
+        )
+
 def tie_direction(direction):
     return handlertools.OverrideHandler(
         grob_name='tie',
@@ -247,17 +254,16 @@ grid_poss_to_flaut_poss = spannertools.TextSpanner(
 	}
 )
 
-left_text = Markup('whistle tones').italic().larger() + Markup.hspace(1)
-right_text = Markup.hspace(1) + Markup('molto gridato').italic().larger()
+left_text = Markup('whistle tones').upright().larger() + Markup.hspace(1)
+right_text = Markup.draw_line(0, -1)
 whistle_tone_spanner = spannertools.TextSpanner(
 	overrides = {
 		'text_spanner__bound_details__left__padding': -1,
 		'text_spanner__bound_details__left__stencil_align_dir_y': 0,
 		'text_spanner__bound_details__left__text': left_text,
 		'text_spanner__bound_details__left_broken__text': None,
-		'text_spanner__bound_details__right__arrow': True,
 		'text_spanner__bound_details__right__padding': 1,
-		'text_spanner__bound_details__right__stencil_align_dir_y': 0,
+		'text_spanner__bound_details__right__stencil_align_dir_y': 1,
 		'text_spanner__bound_details__right__text': right_text,
 		'text_spanner__bound_details__right_broken__padding': 0,
 		'text_spanner__bound_details__right_broken__text': None,
