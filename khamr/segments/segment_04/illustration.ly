@@ -1,4 +1,4 @@
-% 2015-04-07 17:42
+% 2015-04-07 18:51
 
 \version "2.19.17"
 \language "english"
@@ -62,6 +62,10 @@
             {
                 \time 4/4
                 s1 * 1
+            }
+            {
+                \time 6/8
+                s1 * 3/4
                     - \markup {
                         \smaller
                             \with-color
@@ -70,11 +74,11 @@
                         }
             }
             {
-                \time 6/8
-                s1 * 3/4
+                \time 4/4
+                s1 * 1
             }
             {
-                \time 4/4
+                \time 5/4
                 \once \override TextSpanner.arrow-width = 0.25
                 \once \override TextSpanner.bound-details.left-broken.padding = -2
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
@@ -103,7 +107,7 @@
                 \once \override TextSpanner.bound-details.right.text = ##f
                 \once \override TextSpanner.dash-fraction = 0.25
                 \once \override TextSpanner.dash-period = 1.5
-                s1 * 1 \startTextSpan
+                s1 * 5/4 \startTextSpan
                     - \markup {
                         \smaller
                             \with-color
@@ -112,12 +116,12 @@
                         }
             }
             {
-                \time 5/4
-                s1 * 5/4
-            }
-            {
                 \time 4/4
                 s1 * 1
+            }
+            {
+                \time 3/4
+                s1 * 3/4
                     - \markup {
                         \smaller
                             \with-color
@@ -126,12 +130,12 @@
                         }
             }
             {
-                \time 3/4
-                s1 * 3/4
-            }
-            {
                 \time 4/4
                 s1 * 1
+            }
+            {
+                \time 5/4
+                s1 * 5/4
                     - \markup {
                         \smaller
                             \with-color
@@ -140,17 +144,31 @@
                         }
             }
             {
-                \time 5/4
-                s1 * 5/4
+                \time 6/8
+                s1 * 3/4
             }
             {
-                \time 6/8
-                s1 * 3/4 \stopTextSpan
+                \time 2/4
+                s1 * 1/2
                     - \markup {
                         \smaller
                             \with-color
                                 #blue
                                 [C7]
+                        }
+            }
+            {
+                \time 6/4
+                s1 * 3/2
+            }
+            {
+                \time 2/4
+                s1 * 1/2 \stopTextSpan
+                    - \markup {
+                        \smaller
+                            \with-color
+                                #blue
+                                [C8]
                         }
                     ^ \markup {
                     \fontsize
@@ -170,30 +188,16 @@
                     }
             }
             {
-                \time 2/4
-                s1 * 1/2
-            }
-            {
-                \time 6/4
-                s1 * 3/2
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [C8]
-                        }
-            }
-            {
-                \time 2/4
-                s1 * 1/2
-            }
-            {
                 \time 5/4
                 s1 * 5/4
             }
             {
                 \time 6/8
                 s1 * 3/4
+            }
+            {
+                \time 4/4
+                s1 * 1
                     - \markup {
                         \smaller
                             \with-color
@@ -202,15 +206,14 @@
                         }
             }
             {
-                \time 4/4
-                s1 * 1
-            }
-            {
                 \time 6/4
                 s1 * 3/2
             }
             {
                 \time 2/4
+                s1 * 1/2
+            }
+            {
                 s1 * 1/2
                     - \markup {
                         \smaller
@@ -220,15 +223,16 @@
                         }
             }
             {
-                s1 * 1/2
-            }
-            {
                 \time 3/4
                 s1 * 3/4
             }
             {
                 \time 4/4
                 s1 * 1
+            }
+            {
+                \time 2/4
+                s1 * 1/2
                     - \markup {
                         \smaller
                             \with-color
@@ -237,15 +241,15 @@
                         }
             }
             {
-                \time 2/4
-                s1 * 1/2
-            }
-            {
                 s1 * 1/2
             }
             {
                 \time 6/4
                 s1 * 3/2
+            }
+            {
+                \time 4/4
+                s1 * 1
                     - \markup {
                         \smaller
                             \with-color
@@ -254,11 +258,11 @@
                         }
             }
             {
-                \time 4/4
-                s1 * 1
+                \time 3/4
+                s1 * 3/4
             }
             {
-                \time 3/4
+                \time 6/8
                 s1 * 3/4
             }
         }
@@ -326,7 +330,13 @@
                         c'2. \repeatTie
                         r8
                     }
-                    R1 * 1
+                    \times 4/5 {
+                        r8
+                        c'2
+                    }
+                    {
+                        c'2 \repeatTie
+                    }
                     R1 * 5/4
                     R1 * 1
                     R1 * 3/4
@@ -348,6 +358,7 @@
                     R1 * 1/2
                     R1 * 3/2
                     R1 * 1
+                    R1 * 3/4
                     R1 * 3/4
                 }
             }
@@ -384,6 +395,7 @@
                     R1 * 3/2
                     R1 * 1
                     R1 * 3/4
+                    R1 * 3/4
                 }
             }
             \tag winds.clarinet
@@ -419,6 +431,7 @@
                     R1 * 3/2
                     R1 * 1
                     R1 * 3/4
+                    R1 * 3/4
                 }
             }
             \tag winds.saxophone
@@ -453,6 +466,7 @@
                     R1 * 1/2
                     R1 * 3/2
                     R1 * 1
+                    R1 * 3/4
                     R1 * 3/4
                 }
             }
@@ -491,6 +505,7 @@
                     R1 * 3/2
                     R1 * 1
                     R1 * 3/4
+                    R1 * 3/4
                 }
             }
             \tag percussion.piano
@@ -526,6 +541,7 @@
                     R1 * 3/2
                     R1 * 1
                     R1 * 3/4
+                    R1 * 3/4
                 }
             }
             \tag percussion
@@ -560,6 +576,7 @@
                     R1 * 1/2
                     R1 * 3/2
                     R1 * 1
+                    R1 * 3/4
                     R1 * 3/4
                 }
             }
@@ -598,6 +615,7 @@
                     R1 * 3/2
                     R1 * 1
                     R1 * 3/4
+                    R1 * 3/4
                 }
             }
             \tag strings.viola
@@ -632,6 +650,7 @@
                     R1 * 1/2
                     R1 * 3/2
                     R1 * 1
+                    R1 * 3/4
                     R1 * 3/4
                 }
             }
@@ -668,6 +687,7 @@
                     R1 * 3/2
                     R1 * 1
                     R1 * 3/4
+                    R1 * 3/4
                 }
             }
             \tag strings.contrabass
@@ -702,6 +722,7 @@
                     R1 * 1/2
                     R1 * 3/2
                     R1 * 1
+                    R1 * 3/4
                     R1 * 3/4
                 }
             }

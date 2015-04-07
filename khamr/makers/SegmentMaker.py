@@ -98,6 +98,7 @@ class SegmentMaker(makertools.SegmentMaker):
         self._add_final_markup()
         self._check_well_formedness()
         self._update_segment_metadata()
+        #raise Exception(self._calculate_duration_in_seconds())
         return self.lilypond_file, self._segment_metadata
 
     ### PRIVATE METHODS ###
@@ -263,6 +264,49 @@ class SegmentMaker(makertools.SegmentMaker):
             self._cached_score_template_start_clefs[staff.name] = clef.name
             detach(Clef, staff)
         
+    def _calculate_duration_in_seconds(self):
+        context = self._score['Time Signature Context']
+        current_tempo = None
+        leaves = iterate(context).by_class(scoretools.Leaf)
+        measure_summaries = []
+        tempo_index = 0
+        is_trending = False
+        for i, leaf in enumerate(leaves):
+            duration = inspect_(leaf).get_duration()
+            tempi = inspect_(leaf).get_indicators(Tempo)
+            if tempi:
+                current_tempo = tempi[0]
+                for measure_summary in measure_summaries[tempo_index:]:
+                    assert measure_summary[-1] is None
+                    measure_summary[-1] = current_tempo
+                tempo_index = i
+                is_trending = False
+            if inspect_(leaf).has_indicator(Accelerando):
+                is_trending = True
+            if inspect_(leaf).has_indicator(Ritardando):
+                is_trending = True
+            next_tempo = None
+            measure_summary = [
+                duration, 
+                current_tempo, 
+                is_trending,
+                next_tempo, 
+                ]
+            measure_summaries.append(measure_summary)
+        total_duration = Duration(0)
+        for measure_summary in measure_summaries:
+            duration, current_tempo, is_trending, next_tempo = measure_summary
+            if is_trending:
+                effective_tempo = current_tempo + next_tempo
+                effective_tempo /= 2
+            else:
+                effective_tempo = current_tempo
+            duration_ = effective_tempo.duration_to_milliseconds(duration)
+            duration_ /= 1000
+            total_duration += duration_
+        total_duration = int(round(total_duration))
+        return total_duration
+
     def _check_well_formedness(self):
         score_block = self.lilypond_file['score']
         score = score_block['Score']
