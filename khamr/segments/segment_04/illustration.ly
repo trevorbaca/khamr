@@ -1,4 +1,4 @@
-% 2015-04-06 23:23
+% 2015-04-07 17:42
 
 \version "2.19.17"
 \language "english"
@@ -145,26 +145,12 @@
             }
             {
                 \time 6/8
-                s1 * 3/4
+                s1 * 3/4 \stopTextSpan
                     - \markup {
                         \smaller
                             \with-color
                                 #blue
                                 [C7]
-                        }
-            }
-            {
-                \time 2/4
-                s1 * 1/2
-            }
-            {
-                \time 6/4
-                s1 * 3/2 \stopTextSpan
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [C8]
                         }
                     ^ \markup {
                     \fontsize
@@ -182,6 +168,20 @@
                             84
                         }
                     }
+            }
+            {
+                \time 2/4
+                s1 * 1/2
+            }
+            {
+                \time 6/4
+                s1 * 3/2
+                    - \markup {
+                        \smaller
+                            \with-color
+                                #blue
+                                [C8]
+                        }
             }
             {
                 \time 2/4
@@ -267,117 +267,65 @@
             \context FluteMusicStaff = "Flute Music Staff" {
                 \clef "treble"
                 \context FluteMusicVoice = "Flute Music Voice" {
-                    \once \override TextSpanner #'staff-padding = #2
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            \center-column
-                                {
-                                    Bass
-                                    flute
-                                }
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            \center-column
-                                {
-                                    Bass
-                                    fl.
-                                }
-                        }
-                    r8
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.75)
-                                \box
-                                    "to bass flute"
+                    \times 4/5 {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \center-column
+                                    {
+                                        Bass
+                                        flute
+                                    }
                             }
-                    \once \override TextSpanner #'staff-padding = #2
-                    \override TextSpanner #'bound-details #'left #'padding = #-1
-                    \override TextSpanner #'bound-details #'left #'stencil-align-dir-y = #0
-                    \override TextSpanner #'bound-details #'left #'text = \markup {
-                        \larger
-                            \upright
-                                "whistle tones"
-                        \hspace
-                            #1
-                        }
-                    \override TextSpanner #'bound-details #'left-broken #'text = #'#f
-                    \override TextSpanner #'bound-details #'right #'padding = #1
-                    \override TextSpanner #'bound-details #'right #'stencil-align-dir-y = #1
-                    \override TextSpanner #'bound-details #'right #'text = \markup {
-                        \draw-line
-                            #'(0 . -1)
-                        }
-                    \override TextSpanner #'bound-details #'right-broken #'padding = #0
-                    \override TextSpanner #'bound-details #'right-broken #'text = #'#f
-                    \override TextSpanner #'dash-fraction = #0.25
-                    \override TextSpanner #'dash-period = #1.5
-                    c'4 ~ \startTextSpan
-                    \once \override TextSpanner #'staff-padding = #2
-                    c'16
-                    \once \override TextSpanner #'staff-padding = #2
-                    r16
-                    \once \override TextSpanner #'staff-padding = #2
-                    r8
-                    \once \override TextSpanner #'staff-padding = #2
-                    c'4 ~
-                    \once \override TextSpanner #'staff-padding = #2
-                    c'16
-                    \once \override TextSpanner #'staff-padding = #2
-                    r16
-                    \once \override TextSpanner #'staff-padding = #2
-                    r8
-                    \once \override TextSpanner #'staff-padding = #2
-                    c'2 ~
-                    \once \override TextSpanner #'staff-padding = #2
-                    c'16
-                    \once \override TextSpanner #'staff-padding = #2
-                    r16
-                    \once \override TextSpanner #'staff-padding = #2
-                    r8
-                    \once \override TextSpanner #'staff-padding = #2
-                    c'2 ~
-                    \once \override TextSpanner #'staff-padding = #2
-                    c'16
-                    \once \override TextSpanner #'staff-padding = #2
-                    r16
-                    \once \override TextSpanner #'staff-padding = #2
-                    r8
-                    \once \override TextSpanner #'staff-padding = #2
-                    c'2 ~
-                    \once \override TextSpanner #'staff-padding = #2
-                    c'16
-                    \once \override TextSpanner #'staff-padding = #2
-                    r16
-                    \once \override TextSpanner #'staff-padding = #2
-                    r8
-                    \once \override TextSpanner #'staff-padding = #2
-                    c'4 ~
-                    \once \override TextSpanner #'staff-padding = #2
-                    c'16
-                    \once \override TextSpanner #'staff-padding = #2
-                    r16
-                    \once \override TextSpanner #'staff-padding = #2
-                    r8
-                    \once \override TextSpanner #'staff-padding = #2
-                    c'4 ~
-                    \once \override TextSpanner #'staff-padding = #2
-                    c'16
-                    \once \override TextSpanner #'staff-padding = #2
-                    r16
-                    \once \override TextSpanner #'staff-padding = #2
-                    r8
-                    \once \override TextSpanner #'staff-padding = #2
-                    c'2 ~
-                    \once \override TextSpanner #'staff-padding = #2
-                    c'16 \stopTextSpan
-                    \revert TextSpanner #'bound-details
-                    \revert TextSpanner #'dash-fraction
-                    \revert TextSpanner #'dash-period
-                    \once \override TextSpanner #'staff-padding = #2
-                    r16
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \center-column
+                                    {
+                                        Bass
+                                        fl.
+                                    }
+                            }
+                        r8
+                            ^ \markup {
+                                \override
+                                    #'(box-padding . 0.75)
+                                    \box
+                                        "to bass flute"
+                                }
+                        c'2
+                    }
+                    {
+                        c'2 \repeatTie
+                    }
+                    \times 4/7 {
+                        c'2. \repeatTie
+                        r8
+                    }
+                    \times 4/5 {
+                        r8
+                        c'2
+                    }
+                    {
+                        c'2 \repeatTie
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        c'2. \repeatTie
+                        r8
+                    }
+                    \times 4/5 {
+                        r8
+                        c'2
+                    }
+                    {
+                        c'2 \repeatTie
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        c'2. \repeatTie
+                        r8
+                    }
                     R1 * 1
                     R1 * 5/4
                     R1 * 1
