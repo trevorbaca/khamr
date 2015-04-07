@@ -34,7 +34,7 @@ assert segment_maker.validate_time_signatures()
 ###############################################################################
 
 segment_maker.make_music_maker(
-    stages=(1, 3),
+    stages=(1, 10),
     context_name=fl,
     instrument=khamr.materials.instruments['bass flute'],
     division_maker=baca.materials.paired_quarter_note_beats,
