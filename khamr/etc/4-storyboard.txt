@@ -165,7 +165,7 @@ ORCHESTRATION:
     * almglocken omen plays only first four of five almglocken, as suspension
 
 
-    [4]
+    [4]  { accelerando 42->84 begins }
     (M2A [bass fl. whistle tones] ==> M2A [bass fl. air tone])
 ----(M20 [(oboist) whirly tube]; M2A [english horn air (w/o reed)])
 ----(M20 [(clarinetist) tibetan bowl]; M2A [bass cl. air tone])
@@ -246,7 +246,7 @@ ORCHESTRATION:
     * bar. sax. AUX air tone specifies high / middle / low with consonants
 
 
-    [8]
+    [8]  { accelerando 42->84 completes }
     (AUX [bass flute air tone])
     (AUX [english horn air (w/o reed)])
     (AUX [bass cl. air tone])

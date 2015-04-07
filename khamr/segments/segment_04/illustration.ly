@@ -1,4 +1,4 @@
-% 2015-04-07 18:51
+% 2015-04-07 19:00
 
 \version "2.19.17"
 \language "english"
@@ -337,23 +337,112 @@
                     {
                         c'2 \repeatTie
                     }
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        c'2. \repeatTie
+                        r8
+                    }
+                    \times 4/5 {
+                        r8
+                        c'2
+                    }
+                    {
+                        c'2 \repeatTie
+                    }
+                    \times 4/7 {
+                        c'2. \repeatTie
+                        r8
+                    }
+                    \times 4/5 {
+                        r8.
+                        c'2.
+                    }
+                    {
+                        c'2 \repeatTie
+                    }
+                    \times 4/7 {
+                        c'2. \repeatTie
+                        r8
+                    }
+                    \times 4/5 {
+                        r8.
+                        c'2.
+                    }
+                    {
+                        c'2 \repeatTie
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        c'2. \repeatTie
+                        r8
+                    }
+                    \times 4/5 {
+                        r8
+                        c'2
+                    }
+                    {
+                        c'2 \repeatTie
+                    }
+                    \times 4/7 {
+                        c'2. \repeatTie
+                        r8
+                    }
+                    \times 4/5 {
+                        r8
+                        c'2
+                    }
+                    {
+                        c'2 \repeatTie
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        c'2. \repeatTie
+                        r8
+                    }
+                    \times 4/5 {
+                        r8
+                        c'2
+                    }
+                    {
+                        c'2. \repeatTie
+                    }
+                    \times 4/7 {
+                        c'2. \repeatTie
+                        r8
+                    }
+                    \times 4/5 {
+                        r8
+                        c'2
+                    }
+                    {
+                        c'2 \repeatTie
+                    }
+                    \times 4/7 {
+                        c'2. \repeatTie
+                        r8
+                    }
+                    \times 4/5 {
+                        r8
+                        c'2
+                    }
+                    {
+                        c'2 \repeatTie
+                    }
+                    \times 4/7 {
+                        c'2. \repeatTie
+                        r8
+                    }
+                    \times 4/5 {
+                        r8.
+                        c'2.
+                    }
+                    {
+                        c'2 \repeatTie
+                    }
+                    \times 4/7 {
+                        c'2. \repeatTie
+                        r8
+                    }
                     R1 * 1/2
                     R1 * 1/2
                     R1 * 3/2
