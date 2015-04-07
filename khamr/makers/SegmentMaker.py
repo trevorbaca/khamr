@@ -2,6 +2,7 @@
 import collections
 import copy
 import os
+import baca
 from abjad import *
 from experimental.tools import makertools
 
@@ -274,7 +275,6 @@ class SegmentMaker(makertools.SegmentMaker):
         compound_scope,
         include_rests=False,
         ):
-        from khamr import makers
         timespan_map, timespans = [], []
         for scope in compound_scope.simple_scopes:
             start_stage, stop_stage = scope.stages
@@ -458,10 +458,9 @@ class SegmentMaker(makertools.SegmentMaker):
             self._make_music_for_voice(voice)
 
     def _interpret_music_handler(self, music_handler):
-        from khamr import makers
         simple_scope = music_handler.scope
-        assert isinstance(simple_scope, makers.SimpleScope), simple_scope
-        compound_scope = makers.CompoundScope(simple_scope)
+        assert isinstance(simple_scope, baca.makers.SimpleScope), simple_scope
+        compound_scope = baca.makers.CompoundScope(simple_scope)
         result = self._compound_scope_to_logical_ties(compound_scope)
         logical_ties, timespan = result
         result = self._compound_scope_to_logical_ties(
@@ -524,9 +523,8 @@ class SegmentMaker(makertools.SegmentMaker):
             specifier(logical_ties, timespan)
 
     def _interpret_music_handlers(self):
-        from khamr import makers
         for music_handler in self.music_handlers:
-            if isinstance(music_handler, makers.PitchHandler):
+            if isinstance(music_handler, baca.makers.PitchHandler):
                 self._interpret_pitch_handler(music_handler)
             else:
                 self._interpret_music_handler(music_handler)
@@ -881,8 +879,7 @@ class SegmentMaker(makertools.SegmentMaker):
 
         Returns music-handler.
         '''
-        from khamr import makers
-        parser = makers.ScopeTokenParser()
+        parser = baca.makers.ScopeTokenParser()
         scope_tokens = []
         if isinstance(scope, tuple):
             simple_scopes = parser._to_simple_scopes(scope)
@@ -895,7 +892,7 @@ class SegmentMaker(makertools.SegmentMaker):
             raise TypeError(scope)
         music_handlers = []
         for scope_token in scope_tokens:
-            music_handler = makers.MusicHandler(
+            music_handler = baca.makers.MusicHandler(
                 scope=scope_token,
                 specifiers=specifiers,
                 )
