@@ -57,7 +57,7 @@ segment_maker.make_music_maker(
     stages=(11, 12),
     context_name=fl,
     instrument=khamr.materials.instruments['piccolo'],
-    division_maker=makertools.SplitDivisionMaker(
+    division_maker=makertools.SplitByDurationsDivisionCallback(
         durations=[Duration(1, 4)],
         ).fuse(counts=[2, 3, 4]),
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(

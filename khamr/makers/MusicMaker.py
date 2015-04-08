@@ -71,7 +71,7 @@ class MusicMaker(abctools.AbjadObject):
         self.clef = clef
         self.context_name = context_name
         if not 'Maker' in division_maker.__class__.__name__:
-            division_maker = makertools.SplitDivisionMaker(
+            division_maker = makertools.SplitByDurationsDivisionCallback(
                 pattern=division_maker,
                 )
         self.division_maker = division_maker
