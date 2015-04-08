@@ -1,4 +1,4 @@
-% 2015-04-07 19:00
+% 2015-04-08 00:30
 
 \version "2.19.17"
 \language "english"
@@ -362,6 +362,70 @@
                     }
                     \times 4/7 {
                         c'2. \repeatTie
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \center-column
+                                    {
+                                        Bass
+                                        flute
+                                    }
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \center-column
+                                    {
+                                        Bass
+                                        fl.
+                                    }
+                            }
+                        r8
+                    }
+                    \times 4/5 {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \center-column
+                                    {
+                                        Bass
+                                        flute
+                                    }
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \center-column
+                                    {
+                                        Bass
+                                        fl.
+                                    }
+                            }
+                        r8.
+                        c'2.
+                    }
+                    {
+                        c'2 \repeatTie
+                    }
+                    {
+                        c'2. \repeatTie
+                    }
+                    \times 4/7 {
+                        c'2. \repeatTie
+                        r8
+                    }
+                    \times 4/5 {
+                        r8
+                        c'2
+                    }
+                    {
+                        c'2 \repeatTie
+                    }
+                    {
+                        c'2 \repeatTie
+                    }
+                    \times 4/7 {
+                        c'2. \repeatTie
                         r8
                     }
                     \times 4/5 {
@@ -371,14 +435,19 @@
                     {
                         c'2 \repeatTie
                     }
-                    \tweak #'text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
+                    {
+                        c'2. \repeatTie
+                    }
+                    \times 4/7 {
                         c'2. \repeatTie
                         r8
                     }
                     \times 4/5 {
                         r8
                         c'2
+                    }
+                    {
+                        c'2 \repeatTie
                     }
                     {
                         c'2 \repeatTie
@@ -394,61 +463,141 @@
                     {
                         c'2 \repeatTie
                     }
-                    \tweak #'text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        c'2. \repeatTie
-                        r8
-                    }
-                    \times 4/5 {
-                        r8
-                        c'2
-                    }
                     {
                         c'2. \repeatTie
                     }
                     \times 4/7 {
                         c'2. \repeatTie
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Piccolo
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Picc.
+                            }
                         r8
+                            ^ \markup {
+                                \override
+                                    #'(box-padding . 0.75)
+                                    \box
+                                        "to piccolo"
+                                }
                     }
-                    \times 4/5 {
-                        r8
-                        c'2
+                    r2
+                    \times 8/9 {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Piccolo
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Picc.
+                            }
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
                     }
                     {
-                        c'2 \repeatTie
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
                     }
-                    \times 4/7 {
-                        c'2. \repeatTie
-                        r8
+                    \times 16/18 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
                     }
-                    \times 4/5 {
-                        r8
-                        c'2
+                    \times 8/9 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
                     }
                     {
-                        c'2 \repeatTie
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
                     }
-                    \times 4/7 {
-                        c'2. \repeatTie
-                        r8
+                    \times 16/18 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
                     }
-                    \times 4/5 {
-                        r8.
-                        c'2.
+                    \times 8/9 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
                     }
-                    {
-                        c'2 \repeatTie
-                    }
-                    \times 4/7 {
-                        c'2. \repeatTie
-                        r8
-                    }
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
                 }
             }
             \tag winds.oboe

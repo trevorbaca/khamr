@@ -34,7 +34,7 @@ assert segment_maker.validate_time_signatures()
 ###############################################################################
 
 segment_maker.make_music_maker(
-    stages=(1, 10),
+    stages=(1, 5),
     context_name=fl,
     instrument=khamr.materials.instruments['bass flute'],
     division_maker=baca.materials.paired_quarter_note_beats,
@@ -46,9 +46,22 @@ segment_maker.make_music_maker(
         tuplet_ratios=[(-1, 4), (1,), (6, -1)],
         ),
     )
-
-segment_maker.make_music_handler(
-    scope=(fl, (1, 3)),
-    specifiers=[
-        ],
+segment_maker.copy_music_maker(
+    fl,
+    1,
+    stages=(6, 10),
+    rhythm_maker__tuplet_ratios=[(-1, 4), (1,), (1,), (6, -1)],
+    rhythm_maker__output_masks=[rhythmmakertools.silence_last()],
+    )
+segment_maker.make_music_maker(
+    stages=(11, 12),
+    context_name=fl,
+    instrument=khamr.materials.instruments['piccolo'],
+    division_maker=makertools.DivisionMaker(
+        pattern=[Duration(1, 4)],
+        ).fuse(counts=[2, 3, 4]),
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[16],
+        extra_counts_per_division=[1, 0, 2],
+        ),
     )

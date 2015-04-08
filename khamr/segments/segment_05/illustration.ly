@@ -1,4 +1,4 @@
-% 2015-04-07 18:53
+% 2015-04-08 00:31
 
 \version "2.19.17"
 \language "english"
@@ -65,20 +65,12 @@
                 \set Staff.instrumentName = \markup {
                 \hcenter-in
                     #16
-                    \center-column
-                        {
-                            Bass
-                            flute
-                        }
+                    Piccolo
                 }
                 \set Staff.shortInstrumentName = \markup {
                 \hcenter-in
                     #10
-                    \center-column
-                        {
-                            Bass
-                            fl.
-                        }
+                    Picc.
                 }
                 \context FluteMusicVoice = "Flute Music Voice" {
                     R1 * 1/2
