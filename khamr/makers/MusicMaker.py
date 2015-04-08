@@ -14,7 +14,7 @@ class MusicMaker(abctools.AbjadObject):
             >>> music_maker = makers.MusicMaker(
             ...     context_name='Cello Music Voice',
             ...     stages=(1, 4),
-            ...     division_maker=makertools.FuseDivisionMaker(
+            ...     division_maker=makertools.FuseByCountsDivisionCallback(
             ...         measure_counts=[2, 3, 1],
             ...         ),
             ...     )
@@ -25,7 +25,7 @@ class MusicMaker(abctools.AbjadObject):
             >>> print(format(music_maker, 'storage'))
             khamr.makers.MusicMaker(
                 context_name='Cello Music Voice',
-                division_maker=makertools.FuseDivisionMaker(
+                division_maker=makertools.FuseByCountsDivisionCallback(
                     measure_counts=[2, 3, 1],
                     ),
                 rhythm_maker=rhythmmakertools.NoteRhythmMaker(),
