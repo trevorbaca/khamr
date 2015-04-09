@@ -1,4 +1,4 @@
-% 2015-04-08 00:30
+% 2015-04-09 16:18
 
 \version "2.19.17"
 \language "english"
@@ -48,16 +48,16 @@
             {
                 \time 6/4
                 s1 * 3/2
+            }
+            {
+                \time 3/4
+                s1 * 3/4
                     - \markup {
                         \smaller
                             \with-color
                                 #blue
                                 [C2]
                         }
-            }
-            {
-                \time 3/4
-                s1 * 3/4
             }
             {
                 \time 4/4
@@ -290,78 +290,151 @@
                                         fl.
                                     }
                             }
-                        r8
+                        r16
                             ^ \markup {
                                 \override
                                     #'(box-padding . 0.75)
                                     \box
                                         "to bass flute"
                                 }
-                        c'2
+                        c'4
                     }
                     {
-                        c'2 \repeatTie
+                        c'4 \repeatTie
                     }
                     \times 4/7 {
-                        c'2. \repeatTie
-                        r8
+                        c'4. \repeatTie
+                        r16
                     }
                     \times 4/5 {
-                        r8
-                        c'2
+                        r16
+                        c'4
                     }
                     {
-                        c'2 \repeatTie
+                        c'4. \repeatTie
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        c'2. \repeatTie
-                        r8
-                    }
-                    \times 4/5 {
-                        r8
-                        c'2
-                    }
-                    {
-                        c'2 \repeatTie
+                        c'4. \repeatTie
+                        r16
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        c'2. \repeatTie
-                        r8
-                    }
-                    \times 4/5 {
+                    \times 3/5 {
                         r8
                         c'2
                     }
                     {
-                        c'2 \repeatTie
+                        c'4. \repeatTie
+                    }
+                    \times 4/7 {
+                        c'4. \repeatTie
+                        r16
+                    }
+                    \times 4/5 {
+                        r16
+                        c'4
+                    }
+                    {
+                        c'4 \repeatTie
+                    }
+                    \times 4/7 {
+                        c'4. \repeatTie
+                        r16
+                    }
+                    \times 4/5 {
+                        r16
+                        c'4
+                    }
+                    {
+                        c'4 \repeatTie
+                    }
+                    \times 4/7 {
+                        c'4. \repeatTie
+                        r16
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        c'2. \repeatTie
-                        r8
-                    }
-                    \times 4/5 {
+                    \times 3/5 {
                         r8
                         c'2
                     }
                     {
-                        c'2 \repeatTie
+                        c'4. \repeatTie
                     }
                     \times 4/7 {
-                        c'2. \repeatTie
-                        r8
+                        c'4. \repeatTie
+                        r16
                     }
                     \times 4/5 {
-                        r8.
-                        c'2.
+                        r16
+                        c'4
                     }
                     {
-                        c'2 \repeatTie
+                        c'4 \repeatTie
                     }
                     \times 4/7 {
-                        c'2. \repeatTie
+                        c'4. \repeatTie
+                        r16
+                    }
+                    \times 4/5 {
+                        r16
+                        c'4
+                    }
+                    {
+                        c'4 \repeatTie
+                    }
+                    \times 4/7 {
+                        c'4. \repeatTie
+                        r16
+                    }
+                    \times 4/5 {
+                        r16
+                        c'4
+                    }
+                    {
+                        c'4 \repeatTie
+                    }
+                    \times 4/7 {
+                        c'4. \repeatTie
+                        r16
+                    }
+                    \times 4/5 {
+                        r16
+                        c'4
+                    }
+                    {
+                        c'4 \repeatTie
+                    }
+                    \times 4/7 {
+                        c'4. \repeatTie
+                        r16
+                    }
+                    \times 4/5 {
+                        r16
+                        c'4
+                    }
+                    {
+                        c'4 \repeatTie
+                    }
+                    \times 4/7 {
+                        c'4. \repeatTie
+                        r16
+                    }
+                    \times 4/5 {
+                        r16
+                        c'4
+                    }
+                    {
+                        c'4 \repeatTie
+                    }
+                    \times 4/7 {
+                        c'4. \repeatTie
+                        r16
+                    }
+                    \times 4/5 {
+                        r16
+                        c'4
+                    }
+                    \times 4/5 {
                         \set Staff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -380,114 +453,163 @@
                                         fl.
                                     }
                             }
-                        r8
-                    }
-                    \times 4/5 {
-                        \set Staff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                \center-column
-                                    {
-                                        Bass
-                                        flute
-                                    }
-                            }
-                        \set Staff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                \center-column
-                                    {
-                                        Bass
-                                        fl.
-                                    }
-                            }
-                        r8.
-                        c'2.
+                        r16
+                        c'4
                     }
                     {
-                        c'2 \repeatTie
+                        c'4 \repeatTie
                     }
                     {
-                        c'2. \repeatTie
+                        c'4 \repeatTie
                     }
                     \times 4/7 {
-                        c'2. \repeatTie
-                        r8
+                        c'4. \repeatTie
+                        r16
                     }
                     \times 4/5 {
+                        r16
+                        c'4
+                    }
+                    {
+                        c'4. \repeatTie
+                    }
+                    {
+                        c'4. \repeatTie
+                    }
+                    \times 4/7 {
+                        c'4. \repeatTie
+                        r16
+                    }
+                    \times 4/5 {
+                        r16
+                        c'4
+                    }
+                    {
+                        c'4. \repeatTie
+                    }
+                    {
+                        c'4. \repeatTie
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        c'4. \repeatTie
+                        r16
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 3/5 {
                         r8
                         c'2
                     }
                     {
-                        c'2 \repeatTie
+                        c'4 \repeatTie
                     }
                     {
-                        c'2 \repeatTie
+                        c'4 \repeatTie
                     }
                     \times 4/7 {
-                        c'2. \repeatTie
-                        r8
+                        c'4. \repeatTie
+                        r16
                     }
                     \times 4/5 {
-                        r8.
-                        c'2.
+                        r16
+                        c'4
                     }
                     {
-                        c'2 \repeatTie
+                        c'4 \repeatTie
                     }
                     {
-                        c'2. \repeatTie
+                        c'4 \repeatTie
                     }
                     \times 4/7 {
-                        c'2. \repeatTie
-                        r8
+                        c'4. \repeatTie
+                        r16
                     }
-                    \times 4/5 {
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 3/5 {
                         r8
                         c'2
                     }
                     {
-                        c'2 \repeatTie
+                        c'4. \repeatTie
                     }
                     {
-                        c'2 \repeatTie
+                        c'4 \repeatTie
                     }
                     \times 4/7 {
-                        c'2. \repeatTie
-                        r8
+                        c'4. \repeatTie
+                        r16
                     }
                     \times 4/5 {
+                        r16
+                        c'4
+                    }
+                    {
+                        c'4 \repeatTie
+                    }
+                    {
+                        c'4. \repeatTie
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        c'4. \repeatTie
+                        r16
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 3/5 {
                         r8
                         c'2
                     }
                     {
-                        c'2 \repeatTie
+                        c'4. \repeatTie
                     }
                     {
-                        c'2. \repeatTie
+                        c'4 \repeatTie
                     }
                     \times 4/7 {
-                        c'2. \repeatTie
-                        \set Staff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                Piccolo
-                            }
-                        \set Staff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                Picc.
-                            }
-                        r8
-                            ^ \markup {
-                                \override
-                                    #'(box-padding . 0.75)
-                                    \box
-                                        "to piccolo"
-                                }
+                        c'4. \repeatTie
+                        r16
                     }
-                    r2
-                    \times 8/9 {
+                    \times 4/5 {
+                        r16
+                        c'4
+                    }
+                    {
+                        c'4 \repeatTie
+                    }
+                    {
+                        c'4 \repeatTie
+                    }
+                    \times 4/7 {
+                        c'4. \repeatTie
+                        r16
+                    }
+                    \times 4/5 {
+                        r16
+                        c'4
+                    }
+                    {
+                        c'4 \repeatTie
+                    }
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Piccolo
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Picc.
+                        }
+                    r4
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to piccolo"
+                            }
+                    r4
+                    r4
+                    \times 8/10 {
                         \set Staff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -499,6 +621,53 @@
                                 Picc.
                             }
                         c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ~ ]
+                    }
+                    {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \times 16/18 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \times 8/10 {
+                        c'16 [
+                        c'16
                         c'16
                         c'16
                         c'16
@@ -542,53 +711,9 @@
                         c'16
                         c'16 ]
                     }
-                    \times 8/9 {
+                    \times 8/10 {
                         c'16 [
                         c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
-                    }
-                    {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
-                    }
-                    \times 16/18 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
-                    }
-                    \times 8/9 {
-                        c'16 [
                         c'16
                         c'16
                         c'16
@@ -604,9 +729,25 @@
             \context OboeMusicStaff = "Oboe Music Staff" {
                 \clef "treble"
                 \context OboeMusicVoice = "Oboe Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Oboe
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Ob.
+                        }
+                    c'2
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to oboe"
+                            }
+                    c'2 \repeatTie
+                    c'1. \repeatTie
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
