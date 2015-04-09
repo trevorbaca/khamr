@@ -70,21 +70,27 @@ segment_maker.make_music_maker(
     instrument=khamr.materials.instruments['piccolo'],
     division_maker=makertools.DivisionMaker()
         .split_by_durations(
+            compound_meter_multiplier=Multiplier(3, 2),
             durations=[Duration(1, 4)],
             )
         .flatten()
         .fuse_by_counts(
-            counts=[2, 3, 4],
+            counts=[2, 3, 1],
             )
         ,
     rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
         denominators=[16],
-        extra_counts_per_division=[2, 0, 2],
+        extra_counts_per_division=[6, 4, 0],
         output_masks=[
-            rhythmmakertools.silence_first(n=0),
+            rhythmmakertools.SustainMask(
+                indices=[2],
+                period=3,
+                ),
+            rhythmmakertools.silence_first(n=1),
             ],
         tie_specifier=rhythmmakertools.TieSpecifier(
-            tie_across_divisions=rhythmmakertools.select_first(),
+            tie_across_divisions=rhythmmakertools.select_all(),
+            use_messiaen_style_ties=True,
             ),
         ),
     )
@@ -93,5 +99,27 @@ segment_maker.make_music_maker(
     stages=(1, 1),
     context_name=ob,
     instrument=khamr.materials.instruments['oboe'],
-    rhythm_maker=baca.materials.tied_notes,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        output_masks=[
+            rhythmmakertools.silence_last(),
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        )
+    )
+segment_maker.make_music_maker(
+    stages=(2, 4),
+    context_name=ob,
+    instrument=khamr.materials.instruments['whirly tube'],
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        output_masks=[
+            rhythmmakertools.silence_last(),
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        )
     )

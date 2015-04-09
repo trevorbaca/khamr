@@ -24,7 +24,7 @@ def make_short_markup(string):
 instruments = datastructuretools.TypedOrderedDict([
     (
         'almglocken', 
-        instrumenttools.UntunedPercussion(
+        instrumenttools.Percussion(
             instrument_name_markup=make_long_markup('almglocken'),
             short_instrument_name_markup=make_short_markup('alm.'),
             )
@@ -45,7 +45,7 @@ instruments = datastructuretools.TypedOrderedDict([
         ),
     (
         'bass drum', 
-        instrumenttools.UntunedPercussion(
+        instrumenttools.Percussion(
             instrument_name_markup=make_long_markup('Bass drum'),
             short_instrument_name_markup=make_short_markup('BD'),
             )
@@ -59,14 +59,14 @@ instruments = datastructuretools.TypedOrderedDict([
         ),
     (
         'castanets', 
-        instrumenttools.UntunedPercussion(
+        instrumenttools.Percussion(
             instrument_name_markup=make_long_markup('castanets'),
             short_instrument_name_markup=make_short_markup('cast.'),
             )
         ),
     (
         'caxixi', 
-        instrumenttools.UntunedPercussion(
+        instrumenttools.Percussion(
             instrument_name_markup=make_long_markup('caxixi'),
             short_instrument_name_markup=make_short_markup('cxi.'),
             )
@@ -94,7 +94,7 @@ instruments = datastructuretools.TypedOrderedDict([
         ),
     (
         'guiro', 
-        instrumenttools.UntunedPercussion(
+        instrumenttools.Percussion(
             instrument_name_markup=make_long_markup('Guiro'),
             short_instrument_name_markup=make_short_markup('gro.'),
             )
@@ -108,21 +108,21 @@ instruments = datastructuretools.TypedOrderedDict([
         ),
     (
         'large China cymbal', 
-        instrumenttools.UntunedPercussion(
+        instrumenttools.Percussion(
             instrument_name_markup=make_long_markup('Large China cymbal'),
             short_instrument_name_markup=make_short_markup('Ch. cym. (L)'),
             )
         ),
     (
         'large tam-tam', 
-        instrumenttools.UntunedPercussion(
+        instrumenttools.Percussion(
             instrument_name_markup=make_long_markup('Large tam-tam'),
             short_instrument_name_markup=make_short_markup('tam. (L)'),
             )
         ),
     (
         'maracas', 
-        instrumenttools.UntunedPercussion(
+        instrumenttools.Percussion(
             instrument_name_markup=make_long_markup('maracas'),
             short_instrument_name_markup=make_short_markup('mrcs.'),
             )
@@ -157,7 +157,7 @@ instruments = datastructuretools.TypedOrderedDict([
         ),
     (
         'snare drum', 
-        instrumenttools.UntunedPercussion(
+        instrumenttools.Percussion(
             instrument_name_markup=make_long_markup('Snare drum'),
             short_instrument_name_markup=make_short_markup('SD'),
             )
@@ -171,35 +171,35 @@ instruments = datastructuretools.TypedOrderedDict([
         ),
     (
         'Tibetan bowl', 
-        instrumenttools.UntunedPercussion(
+        instrumenttools.Percussion(
             instrument_name_markup=make_long_markup('Tibetan bowl'),
             short_instrument_name_markup=make_short_markup('Tib. bowl'),
             )
         ),
     (
         'triangle', 
-        instrumenttools.UntunedPercussion(
+        instrumenttools.Percussion(
             instrument_name_markup=make_long_markup('Triangle'),
             short_instrument_name_markup=make_short_markup('tri.'),
             )
         ),
     (
         'very large China cymbal', 
-        instrumenttools.UntunedPercussion(
+        instrumenttools.Percussion(
             instrument_name_markup=make_long_markup('Very large China cymbal'),
             short_instrument_name_markup=make_short_markup('Ch. cym. (XL)'),
             )
         ),
     (
         'very large tam-tam', 
-        instrumenttools.UntunedPercussion(
+        instrumenttools.Percussion(
             instrument_name_markup=make_long_markup('Very large tam-tam'),
             short_instrument_name_markup=make_short_markup('tam. (XL)'),
             )
         ),
     (
         'whirly tube', 
-        instrumenttools.UntunedPercussion(
+        instrumenttools.Percussion(
             instrument_name_markup=make_long_markup('Whirly tube'),
             short_instrument_name_markup=make_short_markup('whr. tube'),
             )

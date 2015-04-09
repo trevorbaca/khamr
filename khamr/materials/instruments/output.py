@@ -10,7 +10,7 @@ instruments = datastructuretools.TypedOrderedDict(
     [
         (
             'almglocken',
-            instrumenttools.UntunedPercussion(
+            instrumenttools.Percussion(
                 instrument_name='untuned percussion',
                 short_instrument_name='perc.',
                 instrument_name_markup=markuptools.Markup(
@@ -133,7 +133,7 @@ instruments = datastructuretools.TypedOrderedDict(
             ),
         (
             'bass drum',
-            instrumenttools.UntunedPercussion(
+            instrumenttools.Percussion(
                 instrument_name='untuned percussion',
                 short_instrument_name='perc.',
                 instrument_name_markup=markuptools.Markup(
@@ -214,7 +214,7 @@ instruments = datastructuretools.TypedOrderedDict(
             ),
         (
             'castanets',
-            instrumenttools.UntunedPercussion(
+            instrumenttools.Percussion(
                 instrument_name='untuned percussion',
                 short_instrument_name='perc.',
                 instrument_name_markup=markuptools.Markup(
@@ -250,7 +250,7 @@ instruments = datastructuretools.TypedOrderedDict(
             ),
         (
             'caxixi',
-            instrumenttools.UntunedPercussion(
+            instrumenttools.Percussion(
                 instrument_name='untuned percussion',
                 short_instrument_name='perc.',
                 instrument_name_markup=markuptools.Markup(
@@ -400,7 +400,7 @@ instruments = datastructuretools.TypedOrderedDict(
             ),
         (
             'guiro',
-            instrumenttools.UntunedPercussion(
+            instrumenttools.Percussion(
                 instrument_name='untuned percussion',
                 short_instrument_name='perc.',
                 instrument_name_markup=markuptools.Markup(
@@ -485,7 +485,7 @@ instruments = datastructuretools.TypedOrderedDict(
             ),
         (
             'large China cymbal',
-            instrumenttools.UntunedPercussion(
+            instrumenttools.Percussion(
                 instrument_name='untuned percussion',
                 short_instrument_name='perc.',
                 instrument_name_markup=markuptools.Markup(
@@ -527,7 +527,7 @@ instruments = datastructuretools.TypedOrderedDict(
             ),
         (
             'large tam-tam',
-            instrumenttools.UntunedPercussion(
+            instrumenttools.Percussion(
                 instrument_name='untuned percussion',
                 short_instrument_name='perc.',
                 instrument_name_markup=markuptools.Markup(
@@ -569,7 +569,7 @@ instruments = datastructuretools.TypedOrderedDict(
             ),
         (
             'maracas',
-            instrumenttools.UntunedPercussion(
+            instrumenttools.Percussion(
                 instrument_name='untuned percussion',
                 short_instrument_name='perc.',
                 instrument_name_markup=markuptools.Markup(
@@ -755,7 +755,7 @@ instruments = datastructuretools.TypedOrderedDict(
             ),
         (
             'snare drum',
-            instrumenttools.UntunedPercussion(
+            instrumenttools.Percussion(
                 instrument_name='untuned percussion',
                 short_instrument_name='perc.',
                 instrument_name_markup=markuptools.Markup(
@@ -836,7 +836,7 @@ instruments = datastructuretools.TypedOrderedDict(
             ),
         (
             'Tibetan bowl',
-            instrumenttools.UntunedPercussion(
+            instrumenttools.Percussion(
                 instrument_name='untuned percussion',
                 short_instrument_name='perc.',
                 instrument_name_markup=markuptools.Markup(
@@ -878,7 +878,7 @@ instruments = datastructuretools.TypedOrderedDict(
             ),
         (
             'triangle',
-            instrumenttools.UntunedPercussion(
+            instrumenttools.Percussion(
                 instrument_name='untuned percussion',
                 short_instrument_name='perc.',
                 instrument_name_markup=markuptools.Markup(
@@ -914,7 +914,7 @@ instruments = datastructuretools.TypedOrderedDict(
             ),
         (
             'very large China cymbal',
-            instrumenttools.UntunedPercussion(
+            instrumenttools.Percussion(
                 instrument_name='untuned percussion',
                 short_instrument_name='perc.',
                 instrument_name_markup=markuptools.Markup(
@@ -956,7 +956,7 @@ instruments = datastructuretools.TypedOrderedDict(
             ),
         (
             'very large tam-tam',
-            instrumenttools.UntunedPercussion(
+            instrumenttools.Percussion(
                 instrument_name='untuned percussion',
                 short_instrument_name='perc.',
                 instrument_name_markup=markuptools.Markup(
@@ -998,7 +998,7 @@ instruments = datastructuretools.TypedOrderedDict(
             ),
         (
             'whirly tube',
-            instrumenttools.UntunedPercussion(
+            instrumenttools.Percussion(
                 instrument_name='untuned percussion',
                 short_instrument_name='perc.',
                 instrument_name_markup=markuptools.Markup(
