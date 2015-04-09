@@ -136,7 +136,7 @@ instruments = datastructuretools.TypedOrderedDict([
         ),
     (
         'oboe', 
-        instrumenttools.Piccolo(
+        instrumenttools.Oboe(
             instrument_name_markup=make_long_markup('Oboe'),
             short_instrument_name_markup=make_short_markup('Ob.'),
             )

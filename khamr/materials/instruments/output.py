@@ -644,9 +644,9 @@ instruments = datastructuretools.TypedOrderedDict(
             ),
         (
             'oboe',
-            instrumenttools.Piccolo(
-                instrument_name='piccolo',
-                short_instrument_name='picc.',
+            instrumenttools.Oboe(
+                instrument_name='oboe',
+                short_instrument_name='ob.',
                 instrument_name_markup=markuptools.Markup(
                     contents=(
                         markuptools.MarkupCommand(
@@ -673,9 +673,9 @@ instruments = datastructuretools.TypedOrderedDict(
                         ]
                     ),
                 pitch_range=pitchtools.PitchRange(
-                    range_string='[D5, C8]',
+                    range_string='[Bb3, A6]',
                     ),
-                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c''"),
+                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c'"),
                 ),
             ),
         (
