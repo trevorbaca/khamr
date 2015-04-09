@@ -1,4 +1,4 @@
-% 2015-04-09 16:18
+% 2015-04-09 19:04
 
 \version "2.19.17"
 \language "english"
@@ -609,43 +609,19 @@
                             }
                     r4
                     r4
-                    \times 8/10 {
-                        \set Staff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                Piccolo
-                            }
-                        \set Staff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                Picc.
-                            }
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ~ ]
-                    }
-                    {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
-                    }
-                    \times 16/18 {
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Piccolo
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Picc.
+                        }
+                    r2
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 14/18 {
                         c'16 [
                         c'16
                         c'16
@@ -665,34 +641,9 @@
                         c'16
                         c'16 ]
                     }
-                    \times 8/10 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
-                    }
-                    {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
-                    }
-                    \times 16/18 {
-                        c'16 [
+                    c'4. \repeatTie
+                    \times 12/18 {
+                        c'16 \repeatTie [
                         c'16
                         c'16
                         c'16
@@ -711,8 +662,54 @@
                         c'16
                         c'16 ]
                     }
-                    \times 8/10 {
-                        c'16 [
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 12/16 {
+                        c'16 \repeatTie [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    c'4 \repeatTie
+                    \times 8/14 {
+                        c'16 \repeatTie [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \times 16/20 {
+                        c'16 \repeatTie [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
                         c'16
                         c'16
                         c'16
@@ -747,13 +744,62 @@
                                     "to oboe"
                             }
                     c'2 \repeatTie
-                    c'1. \repeatTie
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Whirly
+                                    tube
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    whr.
+                                    tube
+                                }
+                        }
+                    r1.
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to untuned percussion"
+                            }
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Whirly
+                                    tube
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    whr.
+                                    tube
+                                }
+                        }
+                    c'2.
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.5)
+                                \box
+                                    "untuned percussion"
+                            }
+                    c'1 \repeatTie
+                    c'2. \repeatTie
+                    c'1 \repeatTie
+                    c'1 \repeatTie
+                    c'4 \repeatTie
+                    r1
                     R1 * 3/4
                     R1 * 1
                     R1 * 5/4
@@ -1035,7 +1081,7 @@
             }
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
-                \clef "tenor"
+                \clef "bass"
                 \context CelloMusicVoice = "Cello Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
