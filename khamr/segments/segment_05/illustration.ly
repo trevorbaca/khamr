@@ -1,4 +1,4 @@
-% 2015-04-08 00:31
+% 2015-04-10 18:25
 
 \version "2.19.17"
 \language "english"
@@ -85,6 +85,16 @@
             \tag winds.oboe
             \context OboeMusicStaff = "Oboe Music Staff" {
                 \clef "treble"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    Oboe
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    Ob.
+                }
                 \context OboeMusicVoice = "Oboe Music Voice" {
                     R1 * 1/2
                     R1 * 1/2

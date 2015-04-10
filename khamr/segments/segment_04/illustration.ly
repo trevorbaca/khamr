@@ -1,4 +1,4 @@
-% 2015-04-10 16:27
+% 2015-04-10 18:25
 
 \version "2.19.17"
 \language "english"
@@ -297,6 +297,7 @@
                                     \box
                                         "to bass flute"
                                 }
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c''4
                     }
                     {
@@ -319,6 +320,7 @@
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c''4.
                     }
                     {
@@ -364,6 +366,7 @@
                     }
                     \times 4/7 {
                         r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c''4.
                     }
                     {
@@ -388,6 +391,7 @@
                     r4
                     \times 4/5 {
                         r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c''4
                     }
                     {
@@ -408,6 +412,7 @@
                     }
                     \times 4/7 {
                         r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c''4.
                     }
                     {
@@ -454,6 +459,7 @@
                     }
                     \times 4/7 {
                         r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c''4.
                     }
                     {
@@ -542,8 +548,10 @@
                         c16
                         c16
                         c16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c16 ]
                     }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     c4. \repeatTie
                     \times 12/18 {
                         c16 \repeatTie [
@@ -563,10 +571,12 @@
                         c16
                         c16
                         c16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 12/16 {
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c16 \repeatTie [
                         c16
                         c16
@@ -582,8 +592,10 @@
                         c16
                         c16
                         c16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c16 ]
                     }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     c4 \repeatTie
                     \times 8/14 {
                         c16 \repeatTie [
@@ -599,9 +611,11 @@
                         c16
                         c16
                         c16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c16 ]
                     }
                     \times 16/20 {
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c16 \repeatTie [
                         c16
                         c16
@@ -698,12 +712,15 @@
                             Ob.
                         }
                     r16
-                    c'8. ~
-                    c'2 ~
-                    c'2 ~
-                    c'4
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c'8.
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'4 \repeatTie
                     r16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     c'16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     c'4. \repeatTie
                     c'2 \repeatTie
                     c'2. \repeatTie
@@ -712,12 +729,15 @@
                     r4.
                     r2
                     r16
-                    c'8. ~
-                    c'2 ~
-                    c'2 ~
-                    c'4
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c'8.
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'4 \repeatTie
                     r16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     c'16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     c'4. \repeatTie
                     c'1 \repeatTie
                     c'4. \repeatTie
@@ -725,10 +745,12 @@
                     r4
                     r2.
                     r16
-                    c'4.. ~
-                    c'2 ~
-                    c'2
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c'4..
+                    c'2 \repeatTie
+                    c'2 \repeatTie
                     r16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     c'8.
                     c'1 \repeatTie
                     c'2 \repeatTie
@@ -736,14 +758,17 @@
                     r4
                     r2.
                     r16
-                    c'16 ~
-                    c'4 ~
-                    c'4. ~
-                    c'2.
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c'16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c'4 \repeatTie
+                    c'4. \repeatTie
+                    c'2. \repeatTie
                     r16
-                    c'8. ~
-                    c'2. ~
-                    c'2.
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c'8.
+                    c'2. \repeatTie
+                    c'2. \repeatTie
                 }
             }
             \tag winds.clarinet
@@ -819,6 +844,7 @@
                             Cl.
                         }
                     r16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     d'8.
                     d'2 \repeatTie
                     d'2 \repeatTie
@@ -830,6 +856,7 @@
                     d'2. \repeatTie
                     d'2 \repeatTie
                     r16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     d'8.
                     d'2 \repeatTie
                     d'2 \repeatTie
@@ -837,6 +864,7 @@
                     r1
                     d'1.
                     r16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     d'4..
                     d'2 \repeatTie
                     d'2. \repeatTie
@@ -847,7 +875,9 @@
                     d'2 \repeatTie
                     d'2. \repeatTie
                     r16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     d'16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     d'4 \repeatTie
                     d'4. \repeatTie
                     d'1 \repeatTie
@@ -887,10 +917,12 @@
                             }
                     r2
                     r16
-                    a''16 ~
-                    a''4 ~
-                    a''2. ~
-                    a''4.
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    a''16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    a''4 \repeatTie
+                    a''2. \repeatTie
+                    a''4. \repeatTie
                     a''2.
                     a''1 \repeatTie
                     a''4 \repeatTie
@@ -898,17 +930,19 @@
                     r4.
                     r2
                     r16
-                    a''4.. ~
-                    a''1
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    a''4..
+                    a''1 \repeatTie
                     a''4
                     a''1 \repeatTie
                     a''2. \repeatTie
                     r1
                     r16
-                    a''8. ~
-                    a''2 ~
-                    a''2 ~
-                    a''4
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    a''8.
+                    a''2 \repeatTie
+                    a''2 \repeatTie
+                    a''4 \repeatTie
                     a''8
                     a''4. \repeatTie
                     a''2 \repeatTie
@@ -918,10 +952,11 @@
                     r4.
                     r2
                     r16
-                    a''8. ~
-                    a''2 ~
-                    a''2 ~
-                    a''4
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    a''8.
+                    a''2 \repeatTie
+                    a''2 \repeatTie
+                    a''4 \repeatTie
                     a''8
                     a''4. \repeatTie
                     a''1 \repeatTie
@@ -930,9 +965,10 @@
                     r4
                     r2.
                     r16
-                    a''4.. ~
-                    a''2 ~
-                    a''2
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    a''4..
+                    a''2 \repeatTie
+                    a''2 \repeatTie
                     a''4
                     a''1 \repeatTie
                     a''2 \repeatTie
@@ -940,10 +976,12 @@
                     r4
                     r2.
                     r16
-                    a''16 ~
-                    a''4 ~
-                    a''4. ~
-                    a''2.
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    a''16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    a''4 \repeatTie
+                    a''4. \repeatTie
+                    a''2. \repeatTie
                     a''4
                     a''2. \repeatTie
                     a''2. \repeatTie
@@ -1149,8 +1187,8 @@
                     c'2. \repeatTie
                     c'4
                     c'4 \repeatTie
-                    c'2 ~
-                    c'2.
+                    c'2
+                    c'2. \repeatTie
                 }
             }
         >>
@@ -1229,7 +1267,7 @@
             }
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
-                \clef "bass"
+                \clef "tenor"
                 \context CelloMusicVoice = "Cello Music Voice" {
                     R1 * 1/2
                     R1 * 1/2

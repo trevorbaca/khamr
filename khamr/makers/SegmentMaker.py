@@ -86,6 +86,7 @@ class SegmentMaker(makertools.SegmentMaker):
         self._annotate_stages()
         self._interpret_music_makers()
         self._interpret_music_handlers()
+        self._shorten_long_repeat_ties()
         self._attach_missing_start_clefs()
         self._apply_previous_segment_end_settings()
         self._move_instruments_from_notes_back_to_rests()
@@ -761,6 +762,23 @@ class SegmentMaker(makertools.SegmentMaker):
         attach(dummy_first_bar_command, first_leaf)
         time_signature_context = self._score['Time Signature Context']
         time_signature_context.extend(measures)
+
+    def _shorten_long_repeat_ties(self):
+        leaves = iterate(self._score).by_class(scoretools.Leaf)
+        for leaf in leaves:
+            ties = inspect_(leaf).get_spanners(spannertools.Tie)
+            if not ties:
+                continue
+            tie = ties.pop()
+            if not tie.use_messiaen_style_ties:
+                continue
+            previous_leaf = inspect_(leaf).get_leaf(-1)
+            if previous_leaf is None:
+                continue
+            if previous_leaf.written_duration < Duration(1, 8):
+                string = r"shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie"
+                command = indicatortools.LilyPondCommand(string)
+                attach(command, leaf)
 
     def _stage_number_to_measure_indices(self, stage_number):
         assert stage_number <= self.stage_count
