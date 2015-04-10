@@ -28,7 +28,9 @@ class MusicMaker(abctools.AbjadObject):
                 division_maker=makertools.FuseByCountsDivisionCallback(
                     counts=[2, 3, 1],
                     ),
+                rewrite_meter=False,
                 rhythm_maker=rhythmmakertools.NoteRhythmMaker(),
+                split_at_measure_boundaries=False,
                 stages=(1, 4),
                 )
 
@@ -46,11 +48,17 @@ class MusicMaker(abctools.AbjadObject):
         'context_name',
         'division_maker',
         'instrument',
+        'rewrite_meter',
         'rhythm_maker',
+        'split_at_measure_boundaries',
         'stages',
         'start_tempo',
         'stop_tempo',
         )
+
+    _khamr_meters = [
+        metertools.Meter('(6/4 ((3/8 (1/8 1/8 1/8)) (3/8 (1/8 1/8 1/8)) (3/8 (1/8 1/8 1/8)) (3/8 (1/8 1/8 1/8))))')
+        ]
 
     ### INITIALIZER ###    
 
@@ -60,8 +68,10 @@ class MusicMaker(abctools.AbjadObject):
         context_name=None,
         division_maker=None,
         instrument=None,
+        rewrite_meter=False,
         rhythm_maker=None,
         rhythm_overwrites=None,
+        split_at_measure_boundaries=False,
         staff_line_count=None,
         stages=None,
         start_tempo=None,
@@ -78,8 +88,10 @@ class MusicMaker(abctools.AbjadObject):
         self.division_maker = division_maker
         self._hide_untuned_percussion_markup = False
         self.instrument = instrument
+        self.rewrite_meter = rewrite_meter
         self.rhythm_maker = rhythm_maker
         self.rhythm_overwrites = rhythm_overwrites
+        self.split_at_measure_boundaries = split_at_measure_boundaries
         self._staff_line_count = staff_line_count
         self.stages = stages
         self.start_tempo = start_tempo
@@ -106,9 +118,9 @@ class MusicMaker(abctools.AbjadObject):
         prototype = instrumenttools.Percussion
         if self.instrument is not None:
             attach(self.instrument, first_leaf, scope=Staff)
-        if (isinstance(self.instrument, prototype) and
-            not self._hide_untuned_percussion_markup):
-            self._attach_untuned_percussion_markup(first_leaf)
+#        if (isinstance(self.instrument, prototype) and
+#            not self._hide_untuned_percussion_markup):
+#            self._attach_untuned_percussion_markup(first_leaf)
         if self.clef is not None:
             attach(self.clef, first_leaf, scope=Staff)
         if self.staff_line_count is not None:
@@ -166,6 +178,19 @@ class MusicMaker(abctools.AbjadObject):
         divisions = sequencetools.flatten_sequence(divisions)
         rhythm_maker = self._get_rhythm_maker()
         selections = rhythm_maker(divisions)
+        if self.split_at_measure_boundaries:
+            specifier = rhythmmakertools.DurationSpellingSpecifier
+            selections = specifier._split_at_measure_boundaries(
+                selections, 
+                time_signatures,
+                )
+        if self.rewrite_meter:
+            specifier = rhythmmakertools.DurationSpellingSpecifier
+            selections = specifier._rewrite_meter_(
+                selections, 
+                time_signatures,
+                self._khamr_meters,
+                )
         if not self.rhythm_overwrites:
             return selections
         dummy_measures = scoretools.make_spacer_skip_measures(time_signatures)

@@ -360,3 +360,9 @@ stem_tremolo = handlertools.StemTremoloHandler(
 #    start_pitch=NamedPitch('A2'),
 #    stop_pitch=NamedPitch('B3'),
 #    )
+
+partition_table = rhythmmakertools.PartitionTable([
+    (5, [2, 3]),
+    (9, [3, 3, 3]),
+    (11, [3, 4, 4]),
+    ])
