@@ -1,4 +1,4 @@
-% 2015-04-10 13:20
+% 2015-04-10 16:27
 
 \version "2.19.17"
 \language "english"
@@ -703,11 +703,11 @@
                     c'2 ~
                     c'4
                     r16
-                    c'16 ~
-                    c'4. ~
-                    c'2 ~
-                    c'2. ~
-                    c'4
+                    c'16
+                    c'4. \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'4 \repeatTie
                     r8
                     r4.
                     r2
@@ -717,11 +717,11 @@
                     c'2 ~
                     c'4
                     r16
-                    c'16 ~
-                    c'4. ~
-                    c'1 ~
-                    c'4. ~
-                    c'8
+                    c'16
+                    c'4. \repeatTie
+                    c'1 \repeatTie
+                    c'4. \repeatTie
+                    c'8 \repeatTie
                     r4
                     r2.
                     r16
@@ -729,10 +729,10 @@
                     c'2 ~
                     c'2
                     r16
-                    c'8. ~
-                    c'1 ~
-                    c'2 ~
-                    c'4
+                    c'8.
+                    c'1 \repeatTie
+                    c'2 \repeatTie
+                    c'4 \repeatTie
                     r4
                     r2.
                     r16
@@ -819,39 +819,39 @@
                             Cl.
                         }
                     r16
-                    d'8. ~
-                    d'2 ~
-                    d'2 ~
-                    d'2.
+                    d'8.
+                    d'2 \repeatTie
+                    d'2 \repeatTie
+                    d'2. \repeatTie
                     r2
                     r4.
                     r8
-                    d'4 ~
-                    d'2. ~
-                    d'2
+                    d'4
+                    d'2. \repeatTie
+                    d'2 \repeatTie
                     r16
-                    d'8. ~
-                    d'2 ~
-                    d'2 ~
-                    d'2.
+                    d'8.
+                    d'2 \repeatTie
+                    d'2 \repeatTie
+                    d'2. \repeatTie
                     r1
                     d'1.
                     r16
-                    d'4.. ~
-                    d'2 ~
-                    d'2. ~
-                    d'4
+                    d'4..
+                    d'2 \repeatTie
+                    d'2. \repeatTie
+                    d'4 \repeatTie
                     r2.
                     r4
-                    d'4 ~
-                    d'2 ~
-                    d'2.
-                    r16
-                    d'16 ~
-                    d'4 ~
-                    d'4. ~
-                    d'1 ~
                     d'4
+                    d'2 \repeatTie
+                    d'2. \repeatTie
+                    r16
+                    d'16
+                    d'4 \repeatTie
+                    d'4. \repeatTie
+                    d'1 \repeatTie
+                    d'4 \repeatTie
                     r2
                     r2.
                 }
@@ -891,29 +891,29 @@
                     a''4 ~
                     a''2. ~
                     a''4.
-                    a''2. ~
-                    a''1 ~
-                    a''4
+                    a''2.
+                    a''1 \repeatTie
+                    a''4 \repeatTie
                     r8
                     r4.
                     r2
                     r16
                     a''4.. ~
                     a''1
-                    a''4 ~
-                    a''1 ~
-                    a''2.
+                    a''4
+                    a''1 \repeatTie
+                    a''2. \repeatTie
                     r1
                     r16
                     a''8. ~
                     a''2 ~
                     a''2 ~
                     a''4
-                    a''8 ~
-                    a''4. ~
-                    a''2 ~
-                    a''2. ~
-                    a''4
+                    a''8
+                    a''4. \repeatTie
+                    a''2 \repeatTie
+                    a''2. \repeatTie
+                    a''4 \repeatTie
                     r8
                     r4.
                     r2
@@ -922,21 +922,21 @@
                     a''2 ~
                     a''2 ~
                     a''4
-                    a''8 ~
-                    a''4. ~
-                    a''1 ~
-                    a''4. ~
                     a''8
+                    a''4. \repeatTie
+                    a''1 \repeatTie
+                    a''4. \repeatTie
+                    a''8 \repeatTie
                     r4
                     r2.
                     r16
                     a''4.. ~
                     a''2 ~
                     a''2
-                    a''4 ~
-                    a''1 ~
-                    a''2 ~
                     a''4
+                    a''1 \repeatTie
+                    a''2 \repeatTie
+                    a''4 \repeatTie
                     r4
                     r2.
                     r16
@@ -944,9 +944,9 @@
                     a''4 ~
                     a''4. ~
                     a''2.
-                    a''4 ~
-                    a''2. ~
-                    a''2.
+                    a''4
+                    a''2. \repeatTie
+                    a''2. \repeatTie
                 }
             }
         >>
@@ -1135,20 +1135,20 @@
                                     (L)
                                 }
                         }
-                    c'1 ~
-                    c'1. ~
-                    c'2 ~
-                    c'2 ~
-                    c'2
-                    c'4 ~
+                    c'1
+                    c'1. \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
                     c'4
-                    c'2. ~
-                    c'2 ~
-                    c'2 ~
-                    c'1. ~
+                    c'4 \repeatTie
                     c'2.
-                    c'4 ~
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'1. \repeatTie
+                    c'2. \repeatTie
                     c'4
+                    c'4 \repeatTie
                     c'2 ~
                     c'2.
                 }

@@ -190,13 +190,15 @@ class MusicMaker(abctools.AbjadObject):
             selections = specifier._split_at_measure_boundaries(
                 selections, 
                 time_signatures,
+                use_messiaen_style_ties=True,
                 )
         if self.rewrite_meter:
             specifier = rhythmmakertools.DurationSpellingSpecifier
             selections = specifier._rewrite_meter_(
                 selections, 
                 time_signatures,
-                self._khamr_meters,
+                reference_meters=self._khamr_meters,
+                use_messiaen_style_ties=True,
                 )
         if not self.rhythm_overwrites:
             return selections
