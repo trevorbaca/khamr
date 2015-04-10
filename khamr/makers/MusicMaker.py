@@ -57,7 +57,14 @@ class MusicMaker(abctools.AbjadObject):
         )
 
     _khamr_meters = [
-        metertools.Meter('(6/4 ((3/8 (1/8 1/8 1/8)) (3/8 (1/8 1/8 1/8)) (3/8 (1/8 1/8 1/8)) (3/8 (1/8 1/8 1/8))))')
+        metertools.Meter(
+            '(6/4 ((3/8 (1/8 1/8 1/8)) (3/8 (1/8 1/8 1/8)) (3/8 (1/8 1/8 1/8)) (3/8 (1/8 1/8 1/8))))',
+            preferred_boundary_depth=1,
+            ),
+        metertools.Meter(
+            (6, 8),
+            preferred_boundary_depth=1,
+            )
         ]
 
     ### INITIALIZER ###    
