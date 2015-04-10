@@ -705,6 +705,7 @@ class SegmentMaker(makertools.SegmentMaker):
 
     def _move_instruments_from_notes_back_to_rests(self):
         prototype = instrumenttools.Instrument
+        rest_prototype = (scoretools.Rest, scoretools.MultimeasureRest)
         for leaf in iterate(self._score).by_class(scoretools.Leaf):
             instruments = inspect_(leaf).get_indicators(prototype)
             if not instruments:
@@ -713,7 +714,7 @@ class SegmentMaker(makertools.SegmentMaker):
             instrument = instruments[0]
             current_leaf = leaf
             previous_leaf = inspect_(current_leaf).get_leaf(-1)
-            if not isinstance(previous_leaf, scoretools.Rest):
+            if not isinstance(previous_leaf, rest_prototype):
                 continue
             #detach(instrument, leaf)
             while True:
@@ -721,7 +722,7 @@ class SegmentMaker(makertools.SegmentMaker):
                 previous_leaf = inspect_(current_leaf).get_leaf(-1)
                 if previous_leaf is None:
                     break
-                if not isinstance(previous_leaf, scoretools.Rest):
+                if not isinstance(previous_leaf,rest_prototype):
                     #attach(instrument, current_leaf)
                     new_instrument = copy.deepcopy(instrument)
                     attach(new_instrument, current_leaf, scope=Staff)
@@ -729,9 +730,10 @@ class SegmentMaker(makertools.SegmentMaker):
         
     def _move_untuned_percussion_markup_to_first_note(self):
         voice = self._score['Percussion Music Voice']
-        prototype = markuptools.Markup
-        for rest in iterate(voice).by_class(scoretools.Rest):
-            markups = inspect_(rest).get_indicators(prototype)
+        markup_prototype = markuptools.Markup
+        rest_prototype = (scoretools.Rest, scoretools.MultimeasureRest)
+        for rest in iterate(voice).by_class(rest_prototype):
+            markups = inspect_(rest).get_indicators(markup_prototype)
             if not markups:
                 continue
             untuned_percussion_markup = None
@@ -742,11 +744,11 @@ class SegmentMaker(makertools.SegmentMaker):
             if untuned_percussion_markup is None:
                 continue
             current_leaf = rest
-            while isinstance(current_leaf, scoretools.Rest):
+            while isinstance(current_leaf, rest_prototype):
                 current_leaf = inspect_(current_leaf).get_leaf(1)
                 if current_leaf is None:
                     break
-            if not isinstance(current_leaf, scoretools.Rest):
+            if not isinstance(current_leaf, rest_prototype):
                 detach(markup, rest)
                 attach(markup, current_leaf)
 
@@ -780,13 +782,7 @@ class SegmentMaker(makertools.SegmentMaker):
     def _transpose_instruments(self):
         if not self.transpose_score:
             return
-        flute_voice = self._score['Flute Music Voice']
-        clarinet_voice = self._score['Clarinet Music Voice']
-        oboe_voice = self._score['Oboe Music Voice']
-        saxophone_voice = self._score['Saxophone Music Voice']
-        percussion_voice = self._score['Percussion Music Voice']
-        voices = [clarinet_voice, percussion_voice]
-        for voice in voices:
+        for voice in iterate(self._score).by_class(Voice):
             for leaf in iterate(voice).by_class(scoretools.Leaf):
                 if not isinstance(leaf, (Note, Chord)):
                     continue
