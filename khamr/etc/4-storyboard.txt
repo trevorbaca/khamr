@@ -254,7 +254,7 @@ ORCHESTRATION:
     --
     (AUX [guitar clicks])
     (AUX [piano clicks])
-****(M2A [marimba seaweed guiro: ppp])
+****(M2A [marimba seaweed guiro: ppp] or tacet)
     --
     (AUX [violin OB + veleno])
     (AUX [viola OB + veleno])

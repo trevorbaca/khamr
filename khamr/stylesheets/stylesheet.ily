@@ -264,6 +264,7 @@
         \accepts PercussionMusicVoice
         instrumentName = \percussionName
         shortInstrumentName = \shortPercussionName
+        \override RepeatTie.direction = #up
     }
     \context {
         \StaffGroup

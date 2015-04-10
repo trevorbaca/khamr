@@ -210,3 +210,71 @@ segment_maker.copy_music_maker(
                 ),
             ],
     )
+
+segment_maker.make_music_maker(
+    stages=(1, 2),
+    context_name=perc,
+    instrument=khamr.materials.instruments['bass drum'],
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        duration_spelling_specifier=rhythmmakertools.DurationSpellingSpecifier(
+            spell_metrically=partition_table,
+            ),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        )
+    )
+segment_maker.make_music_maker(
+    stages=(4, 7),
+    context_name=perc,
+    instrument=khamr.materials.instruments['snare drum'],
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        duration_spelling_specifier=rhythmmakertools.DurationSpellingSpecifier(
+            spell_metrically=partition_table,
+            ),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        )
+    )
+segment_maker.make_music_maker(
+    stages=(9, 12),
+    context_name=perc,
+    instrument=khamr.materials.instruments['large China cymbal'],
+    division_maker=makertools.DivisionMaker()
+        .split_by_durations(
+            compound_meter_multiplier=Multiplier(3, 2),
+            durations=[(1, 4)],
+            )
+        .flatten()
+        .fuse_by_counts(
+            counts=[14, 2],
+            ),
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        ),
+    )
+
+###############################################################################
+############################### MUSIC-HANDLERS ################################
+###############################################################################
+
+segment_maker.make_music_handler(
+    scope=([perc], (1, 2)),
+    specifiers=[
+        Dynamic('ppp'),
+        stem_tremolo,
+        ],
+    )
+segment_maker.make_music_handler(
+    scope=([perc], (4, 7)),
+    specifiers=[
+        Dynamic('fff'),
+        stem_tremolo,
+        ],
+    )
