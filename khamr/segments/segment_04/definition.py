@@ -34,35 +34,36 @@ assert segment_maker.validate_time_signatures()
 ###############################################################################
 
 
-quarter_note_beats = makertools.DivisionMaker().split_by_durations(
-    compound_meter_multiplier=Multiplier(3, 2),
-    durations=[(1, 4)],
-    )
 segment_maker.make_music_maker(
-    stages=(1, 5),
+    stages=(1, 9),
     context_name=fl,
     instrument=khamr.materials.instruments['bass flute'],
-    division_maker=quarter_note_beats,
+    division_maker=makertools.DivisionMaker()
+        .split_by_durations(
+            compound_meter_multiplier=Multiplier(3, 2),
+            durations=[(1, 4)],
+            ),
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        output_masks=[
+            rhythmmakertools.SilenceMask(
+                indices=[12, 13, 14, 15],
+                period=16,
+                ),
+            ],
         tie_specifier=rhythmmakertools.TieSpecifier(
             tie_across_divisions=[True],
             use_messiaen_style_ties=True,
             ),
-        tuplet_ratios=[(-1, 4), (1,), (6, -1)],
+        tuplet_ratios=[
+            (-1, 4), (1,), (1,), (1,), (1,), (6, -1),
+            (-1, 6), (1,), (1,), (1,), (1,), (4, -1),
+            (1,), (1,), (1,), (1,),
+            ],
         tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
             avoid_dots=True,
             simplify_tuplets=True,
             ),
         ),
-    )
-segment_maker.copy_music_maker(
-    fl,
-    1,
-    stages=(6, 10),
-    rhythm_maker__tuplet_ratios=[(-1, 4), (1,), (1,), (6, -1)],
-    rhythm_maker__output_masks=[
-        rhythmmakertools.silence_last(n=3),
-        ],
     )
 segment_maker.make_music_maker(
     stages=(11, 12),
@@ -117,9 +118,6 @@ segment_maker.make_music_maker(
         duration_spelling_specifier=rhythmmakertools.DurationSpellingSpecifier(
             spell_metrically=partition_table,
             ),
-        output_masks=[
-            #rhythmmakertools.silence_last(),
-            ],
         tie_specifier=rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
             use_messiaen_style_ties=True,
@@ -135,7 +133,7 @@ segment_maker.make_music_maker(
             counts=mathtools.Infinity,
             )
         .split_by_durations(
-            durations=[(4, 4), (6, 4), (2, 4)],
+            durations=[(6, 4), (8, 4), (4, 4)],
             ),
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
@@ -156,4 +154,59 @@ segment_maker.make_music_maker(
             use_messiaen_style_ties=True,
             ),
         )
+    )
+
+segment_maker.copy_music_maker(
+    ob,
+    1,
+    context_name=cl,
+    instrument=khamr.materials.instruments['clarinet'],
+    )
+segment_maker.copy_music_maker(
+    ob,
+    3,
+    context_name=cl,
+    instrument=khamr.materials.instruments['clarinet'],
+    )
+segment_maker.copy_music_maker(
+    ob,
+    6,
+    context_name=cl,
+    instrument=khamr.materials.instruments['clarinet'],
+    division_maker=makertools.DivisionMaker()
+        .fuse_by_counts(
+            counts=mathtools.Infinity,
+            )
+        .split_by_durations(
+            durations=[(8, 4), (4, 4), (6, 4)],
+            ),
+    rhythm_maker__output_masks=[
+            rhythmmakertools.SilenceMask(
+                indices=[1],
+                period=3,
+                ),
+            rhythmmakertools.silence_last(),
+            ],
+    )
+
+segment_maker.copy_music_maker(
+    ob,
+    6,
+    stages=(1, 12),
+    context_name=sax,
+    instrument=khamr.materials.instruments['baritone saxophone'],
+    division_maker=makertools.DivisionMaker()
+        .fuse_by_counts(
+            counts=mathtools.Infinity,
+            )
+        .split_by_durations(
+            durations=[(4, 4), (6, 4), (8, 4)],
+            ),
+    rewrite_meter=True,
+    rhythm_maker__output_masks=[
+            rhythmmakertools.SilenceMask(
+                indices=[0],
+                period=3,
+                ),
+            ],
     )
