@@ -1,4 +1,4 @@
-% 2015-04-07 18:52
+% 2015-04-10 18:24
 
 \version "2.19.17"
 \language "english"
@@ -117,8 +117,8 @@
                                     fl.
                                 }
                         }
-                    c'1
-                    c'2. \repeatTie
+                    c''1
+                    c''2. \repeatTie
                 }
             }
             \tag winds.oboe
