@@ -1,4 +1,4 @@
-% 2015-04-10 18:25
+% 2015-04-10 19:26
 
 \version "2.19.17"
 \language "english"
@@ -993,36 +993,82 @@
             \context GuitarMusicStaff = "Guitar Music Staff" {
                 \clef "treble"
                 \context GuitarMusicVoice = "Guitar Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Guitar
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Gt.
+                        }
+                    c''2
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to guitar"
+                            }
+                    c''4. \repeatTie
+                    r8
+                    c''2.
+                    c''4. \repeatTie
+                    c''4 \repeatTie
+                    r8
+                    r2
+                    c''4
+                    c''2
+                    c''2
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Guitar
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Gt.
+                        }
+                    c''2.
+                    c''2.. \repeatTie
+                    r8
+                    c''2.
+                    c''2 \repeatTie
+                    c''1 \repeatTie
+                    c''2 \repeatTie
+                    c''8 \repeatTie
+                    r8
+                    r1
+                    r2.
+                    r2
+                    c''2.
+                    c''2 \repeatTie
+                    c''2. \repeatTie
+                    c''4. \repeatTie
+                    c''4 \repeatTie
+                    r8
+                    c''2
+                    c''2. \repeatTie
+                    c''4. \repeatTie
+                    r8
+                    r2.
+                    r1
+                    r1.
+                    c''2
+                    c''4. \repeatTie
+                    r8
+                    c''2.
+                    c''1 \repeatTie
+                    c''4. \repeatTie
+                    r8
+                    r2
+                    r1.
+                    c''1
+                    c''2. \repeatTie
+                    c''4. \repeatTie
+                    c''4 \repeatTie
+                    r8
                 }
             }
             \tag percussion.piano
@@ -1267,7 +1313,7 @@
             }
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
-                \clef "tenor"
+                \clef "bass"
                 \context CelloMusicVoice = "Cello Music Voice" {
                     R1 * 1/2
                     R1 * 1/2

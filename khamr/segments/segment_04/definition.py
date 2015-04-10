@@ -34,6 +34,8 @@ assert segment_maker.validate_time_signatures()
 ###############################################################################
 
 
+### WINDS ###
+
 segment_maker.make_music_maker(
     stages=(1, 9),
     context_name=fl,
@@ -209,6 +211,66 @@ segment_maker.copy_music_maker(
                 period=3,
                 ),
             ],
+    )
+
+### PERCUSSION ###
+
+segment_maker.make_music_maker(
+    stages=(1, 1),
+    context_name=gt,
+    instrument=khamr.materials.instruments['guitar'],
+    division_maker=makertools.DivisionMaker()
+        .fuse_by_counts(
+            counts=[2, 3],
+            ),
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
+        incise_specifier=rhythmmakertools.InciseSpecifier(
+            prefix_talea=[-1],
+            prefix_counts=[0],
+            suffix_talea=[-1],
+            suffix_counts=[1],
+            talea_denominator=8,
+            ),
+        output_masks=[
+            rhythmmakertools.SilenceMask(
+                indices=[2],
+                period=3,
+                ),
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        )
+    )
+segment_maker.make_music_maker(
+    stages=(2, 2),
+    context_name=gt,
+    division_maker=makertools.DivisionMaker()
+        .fuse_by_counts(
+            counts=mathtools.Infinity,
+            )
+        .split_by_durations(
+            durations=[(1, 4)],
+            )
+        .flatten()
+        .fuse_by_counts(
+            counts=[2, 1, 2, 2],
+            ),
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        output_masks=[
+            rhythmmakertools.silence_first(),
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        )
+    )
+segment_maker.copy_music_maker(
+    gt,
+    1,
+    stages=(3, 12),
     )
 
 segment_maker.make_music_maker(
