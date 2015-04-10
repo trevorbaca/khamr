@@ -1,4 +1,4 @@
-% 2015-04-10 19:26
+% 2015-04-10 19:48
 
 \version "2.19.17"
 \language "english"
@@ -1075,36 +1075,106 @@
             \context PianoMusicStaff = "Piano Music Staff" {
                 \clef "treble"
                 \context PianoMusicVoice = "Piano Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
+                    \set PianoStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Piano
+                        }
+                    \set PianoStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Pf.
+                        }
+                    c'2
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to piano"
+                            }
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'4. \repeatTie
+                    c'4 \repeatTie
+                    r8
+                    c'2.
+                    c'2.. \repeatTie
+                    r8
+                    r2.
+                    r1
+                    r2.
+                    r2
+                    c'1
+                    c'2 \repeatTie
+                    c'8 \repeatTie
+                    r8
+                    c'1
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'4. \repeatTie
+                    c'4 \repeatTie
+                    r8
+                    r2
+                    r1.
+                    c'2
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'4. \repeatTie
+                    c'4 \repeatTie
+                    r8
+                    c'1
+                    c'2. \repeatTie
+                    c'4. \repeatTie
+                    c'4 \repeatTie
+                    r8
+                    r2
+                    r2
+                    r2.
+                    c'1
+                    c'4. \repeatTie
+                    r8
+                    c'2
+                    c'2. \repeatTie
+                    c'4. \repeatTie
+                    c'4 \repeatTie
+                    r8
+                    \times 2/3 {
+                        r8
+                        c'8
+                        r8
+                    }
+                    \times 2/3 {
+                        r8
+                        c'8
+                        r8
+                    }
+                    r4
+                    r4
+                    \times 2/3 {
+                        r8
+                        c'4
+                    }
+                    {
+                        r8
+                        c'16
+                        r16
+                    }
+                    {
+                        r8
+                        c'16
+                        r16
+                    }
+                    r4
+                    \times 2/3 {
+                        r8
+                        c'8
+                        r8
+                    }
+                    \times 2/3 {
+                        r8
+                        c'8
+                        r8
+                    }
                 }
             }
             \tag percussion

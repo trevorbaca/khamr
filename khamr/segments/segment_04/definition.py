@@ -273,6 +273,38 @@ segment_maker.copy_music_maker(
     stages=(3, 12),
     )
 
+segment_maker.copy_music_maker(
+    gt,
+    1,
+    stages=(1, 11),
+    context_name=pf,
+    instrument=khamr.materials.instruments['piano'],
+    division_maker=makertools.DivisionMaker()
+        .fuse_by_counts(
+            counts=[3, 2],
+            ),
+    )
+segment_maker.make_music_maker(
+    stages=(12, 12),
+    context_name=pf,
+    division_maker=makertools.DivisionMaker()
+        .split_by_durations(
+            durations=[(1, 4)],
+            ),
+    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        output_masks=[
+            rhythmmakertools.BooleanPattern(
+                indices=[2, 3, 7],
+                period=8,
+                ),
+            ],
+        tuplet_ratios=[
+            (-1, 1, -1), (-1, 1, -1), (-1, 1, -2), (-3, 1, -1),
+            (-1, 2), (-2, 1, -1), (-2, 1, -1), (-3, 1, -1),
+            ],
+        ),
+    )
+
 segment_maker.make_music_maker(
     stages=(1, 2),
     context_name=perc,
