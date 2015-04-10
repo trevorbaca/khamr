@@ -1,4 +1,4 @@
-% 2015-04-10 12:05
+% 2015-04-10 13:20
 
 \version "2.19.17"
 \language "english"
@@ -1027,36 +1027,130 @@
             \context PercussionMusicStaff = "Percussion Staff" {
                 \clef "percussion"
                 \context PercussionMusicVoice = "Percussion Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Bass
+                                    drum
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            BD
+                        }
+                    c'2 :32 \ppp
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to percussion"
+                            }
+                    c'2 :32 \repeatTie
+                    c'1. :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Snare
+                                    drum
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            SD
+                        }
                     R1 * 3/4
                     R1 * 1
-                    R1 * 3/4
-                    R1 * 1
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Snare
+                                    drum
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            SD
+                        }
+                    c'2 :32 \fff
+                    c'2. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'1. :32 \repeatTie
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Large
+                                    China
+                                    cymbal
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Ch.
+                                    cym.
+                                    (L)
+                                }
+                        }
+                    R1 * 1/2
                     R1 * 5/4
-                    R1 * 1
                     R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Large
+                                    China
+                                    cymbal
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Ch.
+                                    cym.
+                                    (L)
+                                }
+                        }
+                    c'1 ~
+                    c'1. ~
+                    c'2 ~
+                    c'2 ~
+                    c'2
+                    c'4 ~
+                    c'4
+                    c'2. ~
+                    c'2 ~
+                    c'2 ~
+                    c'1. ~
+                    c'2.
+                    c'4 ~
+                    c'4
+                    c'2 ~
+                    c'2.
                 }
             }
         >>
