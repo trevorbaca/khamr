@@ -1,4 +1,4 @@
-% 2015-04-09 19:04
+% 2015-04-10 01:08
 
 \version "2.19.17"
 \language "english"
@@ -747,80 +747,95 @@
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
                             #16
-                            \center-column
-                                {
-                                    Whirly
-                                    tube
-                                }
+                            Oboe
                         }
                     \set Staff.shortInstrumentName = \markup {
                         \hcenter-in
                             #10
-                            \center-column
-                                {
-                                    whr.
-                                    tube
-                                }
+                            Ob.
                         }
                     r1.
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.75)
-                                \box
-                                    "to untuned percussion"
-                            }
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
                             #16
-                            \center-column
-                                {
-                                    Whirly
-                                    tube
-                                }
+                            Oboe
                         }
                     \set Staff.shortInstrumentName = \markup {
                         \hcenter-in
                             #10
-                            \center-column
-                                {
-                                    whr.
-                                    tube
-                                }
+                            Ob.
                         }
                     c'2.
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.5)
-                                \box
-                                    "untuned percussion"
-                            }
                     c'1 \repeatTie
                     c'2. \repeatTie
                     c'1 \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
                     c'1 \repeatTie
-                    c'4 \repeatTie
-                    r1
                     R1 * 3/4
                     R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Oboe
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Ob.
+                        }
+                    r16
+                    c'8. ~
+                    c'2 ~
+                    c'4
+                    r16
+                    c'8. ~
+                    c'2. ~
+                    c'2
+                    r4.
+                    r8.
+                    c'8. ~
+                    c'2.
+                    r16
+                    c'4.. ~
+                    c'1
+                    r4
+                    r4
+                    r16
+                    c'4.. ~
+                    c'2
+                    r16
+                    c'4.. ~
+                    c'2. ~
+                    c'4
+                    r8
+                    r4.
+                    r16
+                    c'4.. ~
+                    c'2
+                    r16
+                    c'8. ~
+                    c'2 ~
+                    c'2.
+                    r4
+                    r4
+                    r16
+                    c'8. ~
+                    c'2 ~
+                    c'4
+                    r16
+                    c'16 ~
+                    c'2. ~
+                    c'4. ~
+                    c'4
+                    r2
+                    r16
+                    c'8. ~
+                    c'2.
+                    r16
+                    c'16 ~
+                    c'4 ~
+                    c'4.
                 }
             }
             \tag winds.clarinet
