@@ -1,4 +1,4 @@
-% 2015-04-11 14:01
+% 2015-04-11 17:35
 
 \version "2.19.17"
 \language "english"
@@ -271,233 +271,88 @@
             \context FluteMusicStaff = "Flute Music Staff" {
                 \clef "treble"
                 \context FluteMusicVoice = "Flute Music Voice" {
-                    \times 4/5 {
-                        \set Staff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                \center-column
-                                    {
-                                        Bass
-                                        flute
-                                    }
-                            }
-                        \set Staff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                \center-column
-                                    {
-                                        Bass
-                                        fl.
-                                    }
-                            }
-                        r16
-                            ^ \markup {
-                                \override
-                                    #'(box-padding . 0.75)
-                                    \box
-                                        "to bass flute"
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Bass
+                                    flute
                                 }
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''4
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4. \repeatTie
-                    }
-                    \tweak #'text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        c''8. \repeatTie [
-                        c''8 \repeatTie
-                        c''16 \repeatTie ]
-                        r16
-                    }
-                    \tweak #'text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''8
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4. \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    \times 4/5 {
-                        c''4 \repeatTie
-                        r16
-                    }
-                    r2.
-                    r4.
-                    \tweak #'text #tuplet-number::calc-fraction-text
-                    \times 3/5 {
-                        r8
-                        c''4
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    \times 4/7 {
-                        c''4. \repeatTie
-                        r16
-                    }
-                    \times 4/7 {
-                        r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''4.
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    \times 4/5 {
-                        c''4 \repeatTie
-                        r16
-                    }
-                    r2
-                    r2
-                    \times 4/5 {
-                        r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''4
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    \times 4/7 {
-                        c''4. \repeatTie
-                        r16
-                    }
-                    \times 4/7 {
-                        r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''4.
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4. \repeatTie
-                    }
-                    \tweak #'text #tuplet-number::calc-fraction-text
-                    \times 3/5 {
-                        c''4. \repeatTie
-                        c''8 \repeatTie
-                        r8
-                    }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Bass
+                                    fl.
+                                }
+                        }
+                    r8.
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to bass flute"
+                            }
+                    c''16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c''4 \repeatTie
+                    c''2 \repeatTie
+                    c''2. \repeatTie
+                    c''4 \repeatTie
+                    r8
+                    r16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c''16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c''4 \repeatTie
+                    c''2. \repeatTie
+                    c''2 \repeatTie
                     r2
                     r2.
-                    \tweak #'text #tuplet-number::calc-fraction-text
-                    \times 3/5 {
-                        r8
-                        c''4
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4. \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    \times 4/7 {
-                        c''4. \repeatTie
-                        r16
-                    }
-                    \times 4/7 {
-                        r16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''4.
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4. \repeatTie
-                    }
-                    {
-                        c''4. \repeatTie
-                    }
-                    \times 4/5 {
-                        c''4 \repeatTie
-                        r16
-                    }
-                    r2.
-                    r4.
-                    \tweak #'text #tuplet-number::calc-fraction-text
-                    \times 3/5 {
-                        r8
-                        c''4
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4. \repeatTie
-                    }
-                    {
-                        c''4. \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
-                    {
-                        c''4 \repeatTie
-                    }
+                    r8.
+                    c''16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c''2. \repeatTie
+                    c''1 \repeatTie
+                    r8.
+                    c''16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c''1 \repeatTie
+                    c''2 \repeatTie
+                    r4
+                    r1
+                    r8.
+                    c''16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c''2 \repeatTie
+                    c''2 \repeatTie
+                    c''2. \repeatTie
+                    r8.
+                    c''16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c''4 \repeatTie
+                    c''2. \repeatTie
+                    c''4. \repeatTie
+                    c''8 \repeatTie
+                    r4
+                    r2
+                    r2
+                    r8.
+                    c''16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c''2 \repeatTie
+                    c''2. \repeatTie
+                    c''2 \repeatTie
+                    r8.
+                    c''16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c''4 \repeatTie
+                    c''2. \repeatTie
+                    c''4. \repeatTie
+                    c''8 \repeatTie
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -508,13 +363,15 @@
                             #10
                             Picc.
                         }
-                    R1 * 1/2
+                    r4
                         ^ \markup {
                             \override
                                 #'(box-padding . 0.75)
                                 \box
                                     "to piccolo"
                             }
+                    r2
+                    R1 * 1/2
                     R1 * 3/4
                     R1 * 1
                     \set Staff.instrumentName = \markup {
@@ -1312,124 +1169,395 @@
             \context ViolinMusicStaff = "Violin Music Staff" {
                 \clef "treble"
                 \context ViolinMusicVoice = "Violin Music Voice" {
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            Violin
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            Vn.
-                        }
-                    c'2 ~
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.75)
-                                \box
-                                    "to violin"
+                    \times 4/5 {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Violin
                             }
-                    c'2 ~
-                    c'1.
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Vn.
+                            }
+                        r16
+                            ^ \markup {
+                                \override
+                                    #'(box-padding . 0.75)
+                                    \box
+                                        "to violin"
+                                }
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                    }
+                    c'4 \repeatTie
+                    c'2 \repeatTie
+                    c'1. \repeatTie
+                    c'4 \repeatTie
+                    \times 4/5 {
+                        c'4 \repeatTie
+                        r16
+                    }
+                    \times 4/5 {
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                    }
+                    c'1 \repeatTie
+                    c'4. \repeatTie
+                    r4.
+                    r1
+                    r2.
+                    r2
+                    \times 4/5 {
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                    }
+                    c'2. \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    \times 4/5 {
+                        c'4 \repeatTie
+                        r16
+                    }
+                    \times 4/5 {
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                    }
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    r2.
+                    r2
+                    r1.
+                    r2
+                    \times 4/5 {
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                    }
+                    c'1 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    \times 4/5 {
+                        c'4 \repeatTie
+                        r16
+                    }
+                    \times 4/5 {
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                    }
+                    c'1. \repeatTie
+                    c'4 \repeatTie
+                    r4
+                    r2
+                    r2.
+                    r1
+                    \times 4/5 {
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                    }
+                    c'4 \repeatTie
+                    c'2 \repeatTie
+                    c'1. \repeatTie
+                    \times 2/3 {
+                        r8
+                        c'4 :32 \f
+                    }
+                    \times 2/3 {
+                        c'8 :32 \repeatTie
+                        r4
+                    }
+                    {
+                        r4
+                    }
+                    {
+                        r4
+                    }
+                    \times 2/3 {
+                        r8
+                        c'4 :32
+                    }
+                    {
+                        c'8. :32 \repeatTie
+                        r16
+                    }
+                    {
+                        r8
+                        c'8 :32
+                    }
+                    \times 4/5 {
+                        c'8. :32 \repeatTie
+                        r8
+                    }
+                    \times 2/3 {
+                        r8
+                        c'4 :32
+                    }
+                    \times 2/3 {
+                        c'8 :32 \repeatTie
+                        r4
+                    }
                 }
             }
             \tag strings.viola
             \context ViolaMusicStaff = "Viola Music Staff" {
                 \clef "alto"
                 \context ViolaMusicVoice = "Viola Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
+                    \times 4/7 {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Viola
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Va.
+                            }
+                        r16
+                            ^ \markup {
+                                \override
+                                    #'(box-padding . 0.75)
+                                    \box
+                                        "to viola"
+                                }
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4.
+                    }
+                    c'4 \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'4. \repeatTie
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        c'4. \repeatTie
+                        r16
+                    }
+                    r2.
+                    r1
+                    r2.
+                    r4
+                    \times 4/7 {
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4.
+                    }
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'4 \repeatTie
+                    \times 4/7 {
+                        c'4. \repeatTie
+                        r16
+                    }
+                    \times 4/7 {
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4.
+                    }
+                    c'4 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    \times 4/7 {
+                        c'4. \repeatTie
+                        r16
+                    }
+                    r4
+                    r2.
+                    r2
+                    r2.
+                    r2
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4.
+                    }
+                    c'2. \repeatTie
+                    c'4. \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    \times 4/7 {
+                        c'4. \repeatTie
+                        r16
+                    }
+                    \times 4/7 {
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4.
+                    }
+                    c'2. \repeatTie
+                    c'1 \repeatTie
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        c'4. \repeatTie
+                        r16
+                    }
+                    r2.
+                    r4.
+                    r2
+                    r2
+                    r2.
+                    \times 4/7 {
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4.
+                    }
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'4. \repeatTie
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        c'4. \repeatTie
+                        r16
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        r16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4.
+                    }
+                    c'4. \repeatTie
+                    {
+                        r4
+                    }
+                    {
+                        r4
+                    }
+                    \times 2/3 {
+                        r8
+                        c'4 :32 \f
+                    }
+                    \times 4/5 {
+                        c'8. :32 \repeatTie
+                        r8
+                    }
+                    \times 2/3 {
+                        r8
+                        c'4 :32
+                    }
+                    \times 4/5 {
+                        c'8 :32 \repeatTie
+                        r8.
+                    }
+                    \times 4/5 {
+                        r8
+                        c'8. :32
+                    }
+                    {
+                        r4
+                    }
+                    {
+                        r4
+                    }
+                    {
+                        r4
+                    }
                 }
             }
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
-                \clef "bass"
+                \clef "tenor"
                 \context CelloMusicVoice = "Cello Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Cello
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Vc.
+                        }
+                    r2
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to cello"
+                            }
+                    r2
+                    r2.
+                    r8
+                    c'4
+                    c'4. \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    \times 2/3 {
+                        c'4 \repeatTie
+                        r8
+                    }
+                    \times 2/3 {
+                        r8
+                        c'4
+                    }
+                    c'2. \repeatTie
+                    c'1 \repeatTie
+                    c'2 \repeatTie
+                    \times 2/3 {
+                        c'4 \repeatTie
+                        r8
+                    }
+                    r2
+                    r1
+                    \times 2/3 {
+                        r8
+                        c'4
+                    }
+                    c'2 \repeatTie
+                    c'1 \repeatTie
+                    \times 2/3 {
+                        c'4 \repeatTie
+                        r8
+                    }
+                    \times 2/3 {
+                        r8
+                        c'4
+                    }
+                    c'2. \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'4. \repeatTie
+                    c'4 \repeatTie
+                    r8
+                    r2.
+                    r2
+                    r2
+                    \times 2/3 {
+                        r8
+                        c'4
+                    }
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    \times 2/3 {
+                        c'4 \repeatTie
+                        r8
+                    }
+                    \times 2/3 {
+                        r8
+                        c'4
+                    }
+                    c'1. \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    \times 2/3 {
+                        c'4 \repeatTie
+                        r8
+                    }
+                    r2
+                    r1
+                    c'2 :32 \ppp
+                    c'2 :32 \repeatTie
+                    c'1. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'2. :32 \repeatTie
                 }
             }
             \tag strings.contrabass
