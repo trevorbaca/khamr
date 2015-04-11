@@ -216,7 +216,7 @@ ORCHESTRATION:
     (M12 [violin massed trills: ppp] ==> AUX [violin OB + veleno])
     (M12 [viola massed trills: ppp] ==> AUX [viola OB + veleno])
     (M12 [cello massed trills: ppp] ==> AUX [cello OB + veleno])
-    (M5 [bass low tone])
+    (M2A [contrabass OB] ==> M5 [bass low tone])
     * V3, V4
     * bass flute ext. quiet low M5 incl. double harmonics, whistle tones,
       sciarrino whistle tones, aeolian sounds

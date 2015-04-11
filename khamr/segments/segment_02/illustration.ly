@@ -1,4 +1,4 @@
-% 2015-04-04 15:22
+% 2015-04-11 19:53
 
 \version "2.19.17"
 \language "english"
@@ -16,9 +16,48 @@
         \context TimeSignatureContext = "Time Signature Context" {
             {
                 \time 2/4
+                \once \override TextSpanner.arrow-width = 0.25
+                \once \override TextSpanner.bound-details.left-broken.padding = -2
+                \once \override TextSpanner.bound-details.left-broken.text = \markup {
+                    \override
+                        #'(padding . 0.45)
+                        \parenthesize
+                            \large
+                                \upright
+                                    accel.
+                    \hspace
+                        #0.75
+                    }
+                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
+                \once \override TextSpanner.bound-details.left.text = \markup {
+                    \fontsize
+                        #-6
+                        \general-align
+                            #Y
+                            #DOWN
+                            \note-by-number
+                                #2
+                                #0
+                                #1
+                    \upright
+                        {
+                            =
+                            42
+                        }
+                    \hspace
+                        #1.25
+                    }
+                \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                \once \override TextSpanner.bound-details.right-broken.padding = 0
+                \once \override TextSpanner.bound-details.right-broken.text = ##f
+                \once \override TextSpanner.bound-details.right.arrow = ##t
+                \once \override TextSpanner.bound-details.right.padding = 2
+                \once \override TextSpanner.bound-details.right.text = ##f
+                \once \override TextSpanner.dash-fraction = 0.25
+                \once \override TextSpanner.dash-period = 1.5
                 \bar ""
                 \mark #1
-                s1 * 1/2
+                s1 * 1/2 \startTextSpan
                     - \markup {
                         \smaller
                             \with-color
@@ -32,6 +71,53 @@
             {
                 \time 6/4
                 s1 * 3/2
+            }
+            {
+                \time 3/4
+                s1 * 3/4
+            }
+            {
+                \time 4/4
+                \once \override TextSpanner.arrow-width = 0.25
+                \once \override TextSpanner.bound-details.left-broken.padding = -2
+                \once \override TextSpanner.bound-details.left-broken.text = \markup {
+                    \override
+                        #'(padding . 0.45)
+                        \parenthesize
+                            \large
+                                \upright
+                                    rit.
+                    \hspace
+                        #0.75
+                    }
+                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
+                \once \override TextSpanner.bound-details.left.text = \markup {
+                    \fontsize
+                        #-6
+                        \general-align
+                            #Y
+                            #DOWN
+                            \note-by-number
+                                #2
+                                #0
+                                #1
+                    \upright
+                        {
+                            =
+                            84
+                        }
+                    \hspace
+                        #1.25
+                    }
+                \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                \once \override TextSpanner.bound-details.right-broken.padding = 0
+                \once \override TextSpanner.bound-details.right-broken.text = ##f
+                \once \override TextSpanner.bound-details.right.arrow = ##t
+                \once \override TextSpanner.bound-details.right.padding = 2
+                \once \override TextSpanner.bound-details.right.text = ##f
+                \once \override TextSpanner.dash-fraction = 0.25
+                \once \override TextSpanner.dash-period = 1.5
+                s1 * 1 \stopTextSpan \startTextSpan
                     - \markup {
                         \smaller
                             \with-color
@@ -40,18 +126,257 @@
                         }
             }
             {
-                \time 3/4
+                \time 6/8
                 s1 * 3/4
             }
             {
                 \time 4/4
                 s1 * 1
+            }
+            {
+                \time 5/4
+                s1 * 5/4
+            }
+            {
+                \time 4/4
+                s1 * 1 \stopTextSpan
                     - \markup {
                         \smaller
                             \with-color
                                 #blue
                                 [A3]
                         }
+                    ^ \markup {
+                    \fontsize
+                        #-6
+                        \general-align
+                            #Y
+                            #DOWN
+                            \note-by-number
+                                #2
+                                #0
+                                #1
+                    \upright
+                        {
+                            =
+                            42
+                        }
+                    }
+            }
+            {
+                \time 3/4
+                s1 * 3/4
+            }
+            {
+                \time 4/4
+                s1 * 1
+            }
+            {
+                \time 5/4
+                s1 * 5/4
+            }
+            {
+                \time 6/8
+                s1 * 3/4
+            }
+            {
+                \time 2/4
+                s1 * 1/2
+            }
+            {
+                \time 6/4
+                \once \override TextSpanner.arrow-width = 0.25
+                \once \override TextSpanner.bound-details.left-broken.padding = -2
+                \once \override TextSpanner.bound-details.left-broken.text = \markup {
+                    \override
+                        #'(padding . 0.45)
+                        \parenthesize
+                            \large
+                                \upright
+                                    accel.
+                    \hspace
+                        #0.75
+                    }
+                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
+                \once \override TextSpanner.bound-details.left.text = \markup {
+                    \fontsize
+                        #-6
+                        \general-align
+                            #Y
+                            #DOWN
+                            \note-by-number
+                                #2
+                                #0
+                                #1
+                    \upright
+                        {
+                            =
+                            84
+                        }
+                    \hspace
+                        #0.5
+                    \general-align
+                        #Y
+                        #DOWN
+                        \override
+                            #'(padding . 0.5)
+                            \parenthesize
+                                \line
+                                    {
+                                        \scale
+                                            #'(0.5 . 0.5)
+                                            \score
+                                                {
+                                                    \new Score \with {
+                                                        \override SpacingSpanner #'spacing-increment = #0.5
+                                                        proportionalNotationDuration = ##f
+                                                    } <<
+                                                        \new RhythmicStaff \with {
+                                                            \remove Time_signature_engraver
+                                                            \remove Staff_symbol_engraver
+                                                            \override Stem #'direction = #up
+                                                            \override Stem #'length = #5
+                                                            \override TupletBracket #'bracket-visibility = ##t
+                                                            \override TupletBracket #'direction = #up
+                                                            \override TupletBracket #'padding = #1.25
+                                                            \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                            \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                            tupletFullLength = ##t
+                                                        } {
+                                                            c8
+                                                        }
+                                                    >>
+                                                    \layout {
+                                                        indent = #0
+                                                        ragged-right = ##t
+                                                    }
+                                                }
+                                        =
+                                        \hspace
+                                            #-0.5
+                                        \scale
+                                            #'(0.5 . 0.5)
+                                            \score
+                                                {
+                                                    \new Score \with {
+                                                        \override SpacingSpanner #'spacing-increment = #0.5
+                                                        proportionalNotationDuration = ##f
+                                                    } <<
+                                                        \new RhythmicStaff \with {
+                                                            \remove Time_signature_engraver
+                                                            \remove Staff_symbol_engraver
+                                                            \override Stem #'direction = #up
+                                                            \override Stem #'length = #5
+                                                            \override TupletBracket #'bracket-visibility = ##t
+                                                            \override TupletBracket #'direction = #up
+                                                            \override TupletBracket #'padding = #1.25
+                                                            \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                                            \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                                            tupletFullLength = ##t
+                                                        } {
+                                                            c4
+                                                        }
+                                                    >>
+                                                    \layout {
+                                                        indent = #0
+                                                        ragged-right = ##t
+                                                    }
+                                                }
+                                    }
+                    \hspace
+                        #1.25
+                    }
+                \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                \once \override TextSpanner.bound-details.right-broken.padding = 0
+                \once \override TextSpanner.bound-details.right-broken.text = ##f
+                \once \override TextSpanner.bound-details.right.arrow = ##t
+                \once \override TextSpanner.bound-details.right.padding = 2
+                \once \override TextSpanner.bound-details.right.text = ##f
+                \once \override TextSpanner.dash-fraction = 0.25
+                \once \override TextSpanner.dash-period = 1.5
+                s1 * 3/2 \startTextSpan
+                    - \markup {
+                        \smaller
+                            \with-color
+                                #blue
+                                [A4]
+                        }
+            }
+            {
+                \time 2/4
+                s1 * 1/2
+            }
+            {
+                \time 5/4
+                s1 * 5/4
+            }
+            {
+                \time 6/8
+                s1 * 3/4
+            }
+            {
+                \time 4/4
+                s1 * 1
+            }
+            {
+                \time 6/4
+                s1 * 3/2
+            }
+            {
+                \time 2/4
+                s1 * 1/2 \stopTextSpan
+                    - \markup {
+                        \smaller
+                            \with-color
+                                #blue
+                                [A5]
+                        }
+                    ^ \markup {
+                    \fontsize
+                        #-6
+                        \general-align
+                            #Y
+                            #DOWN
+                            \note-by-number
+                                #2
+                                #0
+                                #1
+                    \upright
+                        {
+                            =
+                            126
+                        }
+                    }
+            }
+            {
+                s1 * 1/2
+            }
+            {
+                \time 3/4
+                s1 * 3/4
+            }
+            {
+                \time 4/4
+                s1 * 1
+            }
+            {
+                \time 2/4
+                s1 * 1/2
+            }
+            {
+                s1 * 1/2
+            }
+            {
+                \time 6/4
+                s1 * 3/2
+            }
+            {
+                \time 4/4
+                s1 * 1
+            }
+            {
+                \time 3/4
+                s1 * 3/4
             }
             {
                 \time 6/8
@@ -87,6 +412,30 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
                 }
             }
             \tag winds.oboe
@@ -98,6 +447,30 @@
                     R1 * 3/2
                     R1 * 3/4
                     R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
                     R1 * 3/4
                 }
             }
@@ -111,6 +484,30 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
                 }
             }
             \tag winds.saxophone
@@ -122,6 +519,30 @@
                     R1 * 3/2
                     R1 * 3/4
                     R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
                     R1 * 3/4
                 }
             }
@@ -137,6 +558,30 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
                 }
             }
             \tag percussion.piano
@@ -149,6 +594,30 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
                 }
             }
             \tag percussion
@@ -160,6 +629,30 @@
                     R1 * 3/2
                     R1 * 3/4
                     R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
                     R1 * 3/4
                 }
             }
@@ -175,6 +668,30 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
                 }
             }
             \tag strings.viola
@@ -186,6 +703,30 @@
                     R1 * 3/2
                     R1 * 3/4
                     R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
                     R1 * 3/4
                 }
             }
@@ -199,17 +740,156 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
                 }
             }
             \tag strings.contrabass
             \context ContrabassMusicStaff = "Contrabass Music Staff" {
                 \clef "bass"
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Contrabass
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Cb.
+                        }
+                    c''4
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to contrabass"
+                            }
+                    \times 2/3 {
+                        c''8 \repeatTie
+                        c''4
+                    }
+                    c''2 \repeatTie
+                    \times 4/5 {
+                        c''16. \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c''4.
+                    }
+                    \times 4/5 {
+                        c''16. \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c''4.
+                    }
+                    c''4. \repeatTie
+                    c''8 \repeatTie
+                    c''4
+                    \times 2/3 {
+                        c''8 \repeatTie
+                        c''4
+                    }
+                    c''4 \repeatTie
+                    \times 4/5 {
+                        c''16 \repeatTie
+                        c''4
+                    }
+                    \times 4/5 {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Contrabass
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Cb.
+                            }
+                        c''4
+                        c''16
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c''4 \repeatTie
+                    \times 2/3 {
+                        c''4 \repeatTie
+                        c''8
+                    }
+                    \times 2/3 {
+                        c''4 \repeatTie
+                        c''8
+                    }
+                    c''4. \repeatTie
+                    \times 4/5 {
+                        c''4. \repeatTie
+                        c''16.
+                    }
+                    \times 4/5 {
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c''4 \repeatTie
+                        c''16
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c''2 \repeatTie
+                    \times 2/3 {
+                        c''4 \repeatTie
+                        c''8
+                    }
+                    c''4 \repeatTie
+                    \times 4/5 {
+                        c''4 \repeatTie
+                        c''16
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c''4 \repeatTie
+                    \times 2/3 {
+                        c''4 \repeatTie
+                        c''8
+                    }
+                    \times 2/3 {
+                        c''4 \repeatTie
+                        c''8
+                    }
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
                     R1 * 1/2
                     R1 * 1/2
                     R1 * 3/2
-                    R1 * 3/4
                     R1 * 1
+                    R1 * 3/4
                     R1 * 3/4
                 }
             }

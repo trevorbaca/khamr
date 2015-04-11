@@ -26,6 +26,7 @@ class SegmentMaker(makertools.SegmentMaker):
         'final_barline',
         'measures_per_stage',
         'name',
+        'raise_approximate_duration',
         'time_signatures',
         'tempo_map',
         )
@@ -39,6 +40,7 @@ class SegmentMaker(makertools.SegmentMaker):
         final_markup_extra_offset=None,
         measures_per_stage=None,
         music_makers=None,
+        raise_approximate_duration=False,
         show_stage_annotations=False,
         tempo_map=None,
         time_signatures=None,
@@ -57,6 +59,7 @@ class SegmentMaker(makertools.SegmentMaker):
         self.measures_per_stage = measures_per_stage
         self._music_handlers = []
         self._initialize_time_signatures(time_signatures)
+        self.raise_approximate_duration = bool(raise_approximate_duration)
         assert isinstance(show_stage_annotations, bool)
         self._show_stage_annotations = show_stage_annotations
         self.tempo_map = tempo_map
@@ -99,7 +102,7 @@ class SegmentMaker(makertools.SegmentMaker):
         self._add_final_markup()
         self._check_well_formedness()
         self._update_segment_metadata()
-        #raise Exception(self._approximate_duration_in_seconds())
+        self._raise_approximate_duration_in_seconds()
         return self.lilypond_file, self._segment_metadata
 
     ### PRIVATE METHODS ###
@@ -172,49 +175,6 @@ class SegmentMaker(makertools.SegmentMaker):
                     return
                 copied_previous_instrument = new(previous_instrument)
                 attach(copied_previous_instrument, staff)
-
-    def _approximate_duration_in_seconds(self):
-        context = self._score['Time Signature Context']
-        current_tempo = None
-        leaves = iterate(context).by_class(scoretools.Leaf)
-        measure_summaries = []
-        tempo_index = 0
-        is_trending = False
-        for i, leaf in enumerate(leaves):
-            duration = inspect_(leaf).get_duration()
-            tempi = inspect_(leaf).get_indicators(Tempo)
-            if tempi:
-                current_tempo = tempi[0]
-                for measure_summary in measure_summaries[tempo_index:]:
-                    assert measure_summary[-1] is None
-                    measure_summary[-1] = current_tempo
-                tempo_index = i
-                is_trending = False
-            if inspect_(leaf).has_indicator(Accelerando):
-                is_trending = True
-            if inspect_(leaf).has_indicator(Ritardando):
-                is_trending = True
-            next_tempo = None
-            measure_summary = [
-                duration, 
-                current_tempo, 
-                is_trending,
-                next_tempo, 
-                ]
-            measure_summaries.append(measure_summary)
-        total_duration = Duration(0)
-        for measure_summary in measure_summaries:
-            duration, current_tempo, is_trending, next_tempo = measure_summary
-            if is_trending:
-                effective_tempo = current_tempo + next_tempo
-                effective_tempo /= 2
-            else:
-                effective_tempo = current_tempo
-            duration_ = effective_tempo.duration_to_milliseconds(duration)
-            duration_ /= 1000
-            total_duration += duration_
-        total_duration = int(round(total_duration))
-        return total_duration
 
     def _attach_fermatas(self):
         if not self.tempo_map:
@@ -290,7 +250,10 @@ class SegmentMaker(makertools.SegmentMaker):
             )
         attach(tempo_spanner, skips)
         for stage_number, directive in self.tempo_map:
-            assert 0 < stage_number <= self.stage_count
+            if not 0 < stage_number <= self.stage_count:
+                message = 'stage number {} must be between {} and {}.'
+                message = message.format(stage_number, 0, self.stage_count)
+                raise Exception(message)
             result = self._stage_number_to_measure_indices(stage_number)
             start_measure_index, stop_measure_index = result
             start_measure = context[start_measure_index]
@@ -762,6 +725,53 @@ class SegmentMaker(makertools.SegmentMaker):
         attach(dummy_first_bar_command, first_leaf)
         time_signature_context = self._score['Time Signature Context']
         time_signature_context.extend(measures)
+
+    def _raise_approximate_duration_in_seconds(self):
+        if not self.raise_approximate_duration:
+            return
+        context = self._score['Time Signature Context']
+        current_tempo = None
+        leaves = iterate(context).by_class(scoretools.Leaf)
+        measure_summaries = []
+        tempo_index = 0
+        is_trending = False
+        for i, leaf in enumerate(leaves):
+            duration = inspect_(leaf).get_duration()
+            tempi = inspect_(leaf).get_indicators(Tempo)
+            if tempi:
+                current_tempo = tempi[0]
+                for measure_summary in measure_summaries[tempo_index:]:
+                    assert measure_summary[-1] is None
+                    measure_summary[-1] = current_tempo
+                tempo_index = i
+                is_trending = False
+            if inspect_(leaf).has_indicator(Accelerando):
+                is_trending = True
+            if inspect_(leaf).has_indicator(Ritardando):
+                is_trending = True
+            next_tempo = None
+            measure_summary = [
+                duration, 
+                current_tempo, 
+                is_trending,
+                next_tempo, 
+                ]
+            measure_summaries.append(measure_summary)
+        total_duration = Duration(0)
+        for measure_summary in measure_summaries:
+            duration, current_tempo, is_trending, next_tempo = measure_summary
+            if is_trending:
+                effective_tempo = current_tempo + next_tempo
+                effective_tempo /= 2
+            else:
+                effective_tempo = current_tempo
+            duration_ = effective_tempo.duration_to_milliseconds(duration)
+            duration_ /= 1000
+            total_duration += duration_
+        total_duration = int(round(total_duration))
+        message = '{} seconds'
+        message = message.format(total_duration)
+        raise Exception(message)
 
     def _shorten_long_repeat_ties(self):
         leaves = iterate(self._score).by_class(scoretools.Leaf)
