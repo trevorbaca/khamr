@@ -17,7 +17,7 @@ perc = 'Percussion Music Voice'
 vn = 'Violin Music Voice'
 va = 'Viola Music Voice'
 vc = 'Cello Music Voice'
-vb = 'Contrabass Music Voice'
+cb = 'Contrabass Music Voice'
 
 
 ### RHYTHM-MAKERS ###
@@ -103,7 +103,7 @@ non_flautando = non_flautando.larger()
 off_string = Markup('off-string bowing on staccati', direction=Up).larger()
 
 on_bridge = Markup(
-    'directly on bridge: full bow each stroke',
+    'directly on bridge: bow diagonally to produce white noise w/ no pitch',
     direction=Up,
     )
 on_bridge = on_bridge.larger()

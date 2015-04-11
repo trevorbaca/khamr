@@ -500,6 +500,38 @@ segment_maker.make_music_maker(
         ),
     )
 
+### CONTRABASS ###
+
+segment_maker.make_music_maker(
+    stages=(1, 4),
+    context_name=cb,
+    instrument=khamr.materials.instruments['contrabass'],
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(5, 12),
+    context_name=cb,
+    division_maker=makertools.DivisionMaker()
+        .fuse_by_counts(
+            counts=mathtools.Infinity,
+            )
+        .split_by_durations(
+            durations=[(18, 4)],
+            ),
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        )
+    )
+
 ###############################################################################
 ############################### MUSIC-HANDLERS ################################
 ###############################################################################
@@ -538,5 +570,15 @@ segment_maker.make_music_handler(
     specifiers=[
         Dynamic('ppp'),
         stem_tremolo,
+        ],
+    )
+
+### CONTRABASS ###
+
+segment_maker.make_music_handler(
+    scope=([cb], (1, 4)),
+    specifiers=[
+        Dynamic('p'),
+        on_bridge,
         ],
     )
