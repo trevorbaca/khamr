@@ -198,6 +198,7 @@ class MusicMaker(abctools.AbjadObject):
                 selections, 
                 time_signatures,
                 reference_meters=self._khamr_meters,
+                rewrite_tuplets=False,
                 use_messiaen_style_ties=True,
                 )
         if not self.rhythm_overwrites:
