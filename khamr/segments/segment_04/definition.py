@@ -45,6 +45,7 @@ segment_maker.make_music_maker(
             compound_meter_multiplier=Multiplier(3, 2),
             durations=[(1, 4)],
             ),
+    rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
         output_masks=[
             rhythmmakertools.SilenceMask(
@@ -351,6 +352,33 @@ segment_maker.make_music_maker(
         tie_specifier=rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
             ),
+        ),
+    )
+
+### STRINGS ###
+
+segment_maker.make_music_maker(
+    stages=(1, 1),
+    context_name=vn,
+    instrument=khamr.materials.instruments['violin'],
+    division_maker=makertools.DivisionMaker()
+        .split_by_durations(
+            compound_meter_multiplier=Multiplier(3, 2),
+            durations=[(1, 4)],
+            )
+        .flatten()
+        .fuse_by_counts(
+            counts=[10, 8, 12],
+            )
+        ,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        output_masks=[
+            rhythmmakertools.SilenceMask(
+                indices=[1],
+                period=3,
+                ),
+            ],
         ),
     )
 

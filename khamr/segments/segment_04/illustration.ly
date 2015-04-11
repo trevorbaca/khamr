@@ -1,4 +1,4 @@
-% 2015-04-10 19:48
+% 2015-04-11 14:01
 
 \version "2.19.17"
 \language "english"
@@ -314,14 +314,17 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        c''4. \repeatTie
+                        c''8. \repeatTie [
+                        c''8 \repeatTie
+                        c''16 \repeatTie ]
                         r16
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         r16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''4.
+                        c''8
+                        c''4 \repeatTie
                     }
                     {
                         c''4. \repeatTie
@@ -339,14 +342,13 @@
                         c''4 \repeatTie
                         r16
                     }
-                    r4
-                    r4
-                    r4
+                    r2.
                     r4.
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 3/5 {
                         r8
-                        c''2
+                        c''4
+                        c''4 \repeatTie
                     }
                     {
                         c''4 \repeatTie
@@ -385,10 +387,8 @@
                         c''4 \repeatTie
                         r16
                     }
-                    r4
-                    r4
-                    r4
-                    r4
+                    r2
+                    r2
                     \times 4/5 {
                         r16
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
@@ -429,17 +429,17 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 3/5 {
-                        c''2 \repeatTie
+                        c''4. \repeatTie
+                        c''8 \repeatTie
                         r8
                     }
-                    r4
-                    r4
-                    r4.
-                    r4.
+                    r2
+                    r2.
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 3/5 {
                         r8
-                        c''2
+                        c''4
+                        c''4 \repeatTie
                     }
                     {
                         c''4. \repeatTie
@@ -478,14 +478,13 @@
                         c''4 \repeatTie
                         r16
                     }
-                    r4
-                    r4
-                    r4
+                    r2.
                     r4.
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 3/5 {
                         r8
-                        c''2
+                        c''4
+                        c''4 \repeatTie
                     }
                     {
                         c''4. \repeatTie
@@ -1313,9 +1312,25 @@
             \context ViolinMusicStaff = "Violin Music Staff" {
                 \clef "treble"
                 \context ViolinMusicVoice = "Violin Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Violin
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Vn.
+                        }
+                    c'2 ~
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to violin"
+                            }
+                    c'2 ~
+                    c'1.
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
