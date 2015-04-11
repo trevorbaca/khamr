@@ -1,4 +1,4 @@
-% 2015-04-04 15:22
+% 2015-04-11 19:55
 
 \version "2.19.17"
 \language "english"
@@ -10,7 +10,7 @@
 
 \score {
     \context Score = "Score" \with {
-        currentBarNumber = #13
+        currentBarNumber = #37
     } <<
         \tag winds.flute.oboe.clarinet.saxophone.guitar.piano.percussion.strings.violin.viola.cello.contrabass
         \context TimeSignatureContext = "Time Signature Context" {
@@ -204,6 +204,16 @@
             \tag strings.contrabass
             \context ContrabassMusicStaff = "Contrabass Music Staff" {
                 \clef "bass"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    Contrabass
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    Cb.
+                }
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
                     R1 * 1/2
                     R1 * 1/2

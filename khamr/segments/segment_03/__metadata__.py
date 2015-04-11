@@ -28,7 +28,7 @@ metadata = datastructuretools.TypedOrderedDict(
                 [
                     ('Cello Music Staff', None),
                     ('Clarinet Music Staff', None),
-                    ('Contrabass Music Staff', None),
+                    ('Contrabass Music Staff', 'contrabass'),
                     ('Flute Music Staff', 'bass flute'),
                     ('Guitar Music Staff', None),
                     ('Oboe Music Staff', None),
@@ -43,7 +43,7 @@ metadata = datastructuretools.TypedOrderedDict(
         ('end_tempo', None),
         ('end_tempo_indication', None),
         ('end_time_signature', '6/8'),
-        ('first_bar_number', 13),
+        ('first_bar_number', 37),
         ('measure_count', 6),
         ('segment_count', 5),
         ('segment_number', 3),
