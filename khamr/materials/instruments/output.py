@@ -285,6 +285,59 @@ instruments = datastructuretools.TypedOrderedDict(
                 ),
             ),
         (
+            'cello',
+            instrumenttools.Cello(
+                instrument_name='cello',
+                short_instrument_name='vc.',
+                instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            16,
+                            'Cello'
+                            ),
+                        ),
+                    ),
+                short_instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            10,
+                            'Vc.'
+                            ),
+                        ),
+                    ),
+                allowable_clefs=indicatortools.ClefInventory(
+                    [
+                        indicatortools.Clef(
+                            name='bass',
+                            ),
+                        indicatortools.Clef(
+                            name='tenor',
+                            ),
+                        indicatortools.Clef(
+                            name='treble',
+                            ),
+                        ]
+                    ),
+                default_tuning=indicatortools.Tuning(
+                    pitches=pitchtools.PitchSegment(
+                        (
+                            pitchtools.NamedPitch('c,'),
+                            pitchtools.NamedPitch('g,'),
+                            pitchtools.NamedPitch('d'),
+                            pitchtools.NamedPitch('a'),
+                            ),
+                        item_class=pitchtools.NamedPitch,
+                        ),
+                    ),
+                pitch_range=pitchtools.PitchRange(
+                    range_string='[C2, G5]',
+                    ),
+                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c'"),
+                ),
+            ),
+        (
             'clarinet',
             instrumenttools.ClarinetInBFlat(
                 instrument_name='clarinet in B-flat',
@@ -318,6 +371,56 @@ instruments = datastructuretools.TypedOrderedDict(
                     range_string='[D3, Bb6]',
                     ),
                 sounding_pitch_of_written_middle_c=pitchtools.NamedPitch('bf'),
+                ),
+            ),
+        (
+            'contrabass',
+            instrumenttools.Contrabass(
+                instrument_name='contrabass',
+                short_instrument_name='cb.',
+                instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            16,
+                            'Contrabass'
+                            ),
+                        ),
+                    ),
+                short_instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            10,
+                            'Cb.'
+                            ),
+                        ),
+                    ),
+                allowable_clefs=indicatortools.ClefInventory(
+                    [
+                        indicatortools.Clef(
+                            name='bass',
+                            ),
+                        indicatortools.Clef(
+                            name='treble',
+                            ),
+                        ]
+                    ),
+                default_tuning=indicatortools.Tuning(
+                    pitches=pitchtools.PitchSegment(
+                        (
+                            pitchtools.NamedPitch('c,,'),
+                            pitchtools.NamedPitch('a,,'),
+                            pitchtools.NamedPitch('d,'),
+                            pitchtools.NamedPitch('g,'),
+                            ),
+                        item_class=pitchtools.NamedPitch,
+                        ),
+                    ),
+                pitch_range=pitchtools.PitchRange(
+                    range_string='[C1, G4]',
+                    ),
+                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch('c'),
                 ),
             ),
         (
@@ -992,6 +1095,103 @@ instruments = datastructuretools.TypedOrderedDict(
                     ),
                 pitch_range=pitchtools.PitchRange(
                     range_string='[A0, C8]',
+                    ),
+                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c'"),
+                ),
+            ),
+        (
+            'viola',
+            instrumenttools.Viola(
+                instrument_name='viola',
+                short_instrument_name='va.',
+                instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            16,
+                            'Viola'
+                            ),
+                        ),
+                    ),
+                short_instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            10,
+                            'Va.'
+                            ),
+                        ),
+                    ),
+                allowable_clefs=indicatortools.ClefInventory(
+                    [
+                        indicatortools.Clef(
+                            name='alto',
+                            ),
+                        indicatortools.Clef(
+                            name='treble',
+                            ),
+                        ]
+                    ),
+                default_tuning=indicatortools.Tuning(
+                    pitches=pitchtools.PitchSegment(
+                        (
+                            pitchtools.NamedPitch('c'),
+                            pitchtools.NamedPitch('g'),
+                            pitchtools.NamedPitch("d'"),
+                            pitchtools.NamedPitch("a'"),
+                            ),
+                        item_class=pitchtools.NamedPitch,
+                        ),
+                    ),
+                pitch_range=pitchtools.PitchRange(
+                    range_string='[C3, D6]',
+                    ),
+                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c'"),
+                ),
+            ),
+        (
+            'violin',
+            instrumenttools.Violin(
+                instrument_name='violin',
+                short_instrument_name='vn.',
+                instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            16,
+                            'Violin'
+                            ),
+                        ),
+                    ),
+                short_instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            10,
+                            'Vn.'
+                            ),
+                        ),
+                    ),
+                allowable_clefs=indicatortools.ClefInventory(
+                    [
+                        indicatortools.Clef(
+                            name='treble',
+                            ),
+                        ]
+                    ),
+                default_tuning=indicatortools.Tuning(
+                    pitches=pitchtools.PitchSegment(
+                        (
+                            pitchtools.NamedPitch('g'),
+                            pitchtools.NamedPitch("d'"),
+                            pitchtools.NamedPitch("a'"),
+                            pitchtools.NamedPitch("e''"),
+                            ),
+                        item_class=pitchtools.NamedPitch,
+                        ),
+                    ),
+                pitch_range=pitchtools.PitchRange(
+                    range_string='[G3, G7]',
                     ),
                 sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c'"),
                 ),
