@@ -1,5 +1,5 @@
 #(set-default-paper-size "11x17" 'portrait)
-#(set-global-staff-size 12)
+#(set-global-staff-size 10)
 
 \include "default-instrument-names.ily"
 \include "scheme.ily"

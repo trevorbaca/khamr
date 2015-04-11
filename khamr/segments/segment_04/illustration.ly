@@ -1,4 +1,4 @@
-% 2015-04-11 17:35
+% 2015-04-11 17:51
 
 \version "2.19.17"
 \language "english"
@@ -1564,36 +1564,66 @@
             \context ContrabassMusicStaff = "Contrabass Music Staff" {
                 \clef "bass"
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Contrabass
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Cb.
+                        }
+                    c''2 \p
+                        ^ \markup {
+                            \column
+                                {
+                                    \larger
+                                        "directly on bridge: bow diagonally to produce white noise w/ no pitch"
+                                    \override
+                                        #'(box-padding . 0.75)
+                                        \box
+                                            "to contrabass"
+                                }
+                            }
+                    c''2 \repeatTie
+                    c''1. \repeatTie
+                    c''2. \repeatTie
+                    c''1 \repeatTie
+                    c''2. \repeatTie
+                    c''1 \repeatTie
+                    c''1 \repeatTie
+                    c''4 \repeatTie
+                    c''1 \repeatTie
+                    c''2.
+                    c''1 \repeatTie
+                    c''2. \repeatTie
+                    c''2 \repeatTie
+                    c''2. \repeatTie
+                    c''2 \repeatTie
+                    c''4 \repeatTie
+                    c''8
+                    c''2. \repeatTie
+                    c''4. \repeatTie
+                    c''2 \repeatTie
+                    c''2. \repeatTie
+                    c''2 \repeatTie
+                    c''2. \repeatTie
+                    c''2. \repeatTie
+                    c''4
+                    c''1. \repeatTie
+                    c''2 \repeatTie
+                    c''2 \repeatTie
+                    c''2. \repeatTie
+                    c''1 \repeatTie
+                    c''2
+                    c''2 \repeatTie
+                    c''1. \repeatTie
+                    c''1 \repeatTie
+                    c''2. \repeatTie
+                    c''4 \repeatTie
+                    c''8
+                    c''4. \repeatTie
                 }
             }
         >>
