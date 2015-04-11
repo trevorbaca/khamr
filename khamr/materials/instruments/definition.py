@@ -72,10 +72,24 @@ instruments = datastructuretools.TypedOrderedDict([
             )
         ),
     (
+        'cello', 
+        instrumenttools.Cello(
+            instrument_name_markup=make_long_markup('Cello'),
+            short_instrument_name_markup=make_short_markup('Vc.'),
+            )
+        ),
+    (
         'clarinet', 
         instrumenttools.ClarinetInBFlat(
             instrument_name_markup=make_long_markup('Clarinet'),
             short_instrument_name_markup=make_short_markup('Cl.'),
+            )
+        ),
+    (
+        'contrabass', 
+        instrumenttools.Contrabass(
+            instrument_name_markup=make_long_markup('Contrabass'),
+            short_instrument_name_markup=make_short_markup('Cb.'),
             )
         ),
     (
@@ -195,6 +209,20 @@ instruments = datastructuretools.TypedOrderedDict([
         instrumenttools.Percussion(
             instrument_name_markup=make_long_markup('Very large tam-tam'),
             short_instrument_name_markup=make_short_markup('tam. (XL)'),
+            )
+        ),
+    (
+        'viola', 
+        instrumenttools.Viola(
+            instrument_name_markup=make_long_markup('Viola'),
+            short_instrument_name_markup=make_short_markup('Va.'),
+            )
+        ),
+    (
+        'violin', 
+        instrumenttools.Violin(
+            instrument_name_markup=make_long_markup('Violin'),
+            short_instrument_name_markup=make_short_markup('Vn.'),
             )
         ),
     (
