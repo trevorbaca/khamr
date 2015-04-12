@@ -73,10 +73,28 @@ string_tuplet_ratios_4 = [
     (1,), (1,), (1, 4),
     ]
 
-#reversed_string_tuplet_ratios = [
-#    list(reversed(_)) for _ in string_tuplet_ratios
-#    ]
-#reversed_string_tuplet_ratios = list(reversed(reversed_string_tuplet_ratios))
+stage_4_silence_mask = rhythmmakertools.SilenceMask(
+    indices=[
+        4, 5,
+        11, 12,
+        17, 18, 19, 20,
+        ],
+    )
+
+stage_5_silence_mask = rhythmmakertools.SilenceMask(
+    indices=[
+        0, 
+        2, 
+        4, 5, 
+        7, 8, 9,
+        11,
+        13,
+        15, 16, 17,
+        19, 20, 21,
+        23, 24,
+        26,
+        ],
+    )
 
 string_tuplet_spelling_specifier = rhythmmakertools.TupletSpellingSpecifier(
     flatten_trivial_tuplets=True,
@@ -119,6 +137,36 @@ segment_maker.make_music_maker(
         ),
     )
 
+segment_maker.make_music_maker(
+    stages=(4, 4),
+    context_name=vn,
+    division_maker=makertools.DivisionMaker()
+        .split_by_durations(
+            compound_meter_multiplier=Multiplier(3, 2),
+            durations=[(1, 4)],
+            )
+        .flatten()
+        ,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        output_masks=[
+            stage_4_silence_mask,
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        ),
+    )
+
+segment_maker.copy_music_maker(
+    vn,
+    4,
+    stages=(5, 5),
+    rhythm_maker__output_masks=[
+        stage_5_silence_mask,
+        ],
+    )
+
 ### VIOLA ###
 
 segment_maker.make_music_maker(
@@ -140,6 +188,18 @@ segment_maker.make_music_maker(
         tuplet_ratios=string_tuplet_ratios_3,
         tuplet_spelling_specifier=string_tuplet_spelling_specifier,
         ),
+    )
+
+segment_maker.copy_music_maker(
+    vn,
+    4,
+    context_name=va,
+    )
+
+segment_maker.copy_music_maker(
+    vn,
+    5,
+    context_name=va,
     )
 
 ### CELLO ###
@@ -165,6 +225,18 @@ segment_maker.make_music_maker(
         ),
     )
 
+segment_maker.copy_music_maker(
+    vn,
+    4,
+    context_name=vc,
+    )
+
+segment_maker.copy_music_maker(
+    vn,
+    5,
+    context_name=vc,
+    )
+
 ### CONTRABASS ###
 
 segment_maker.make_music_maker(
@@ -187,3 +259,19 @@ segment_maker.make_music_maker(
         tuplet_spelling_specifier=string_tuplet_spelling_specifier,
         ),
     )
+
+segment_maker.copy_music_maker(
+    vn,
+    4,
+    context_name=cb,
+    )
+
+segment_maker.copy_music_maker(
+    vn,
+    5,
+    context_name=cb,
+    )
+
+###############################################################################
+############################### MUSIC-HANDLERS ################################
+###############################################################################
