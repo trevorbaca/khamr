@@ -1,4 +1,4 @@
-% 2015-04-12 16:11
+% 2015-04-12 16:42
 
 \version "2.19.17"
 \language "english"
@@ -624,36 +624,68 @@
             \context PercussionMusicStaff = "Percussion Staff" {
                 \clef "percussion"
                 \context PercussionMusicVoice = "Percussion Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
+                    c'2
+                    c'2 \repeatTie
+                    c'1. \repeatTie
+                    c'2. \repeatTie
+                    c'4
+                    c'2.
+                    c'4.
+                    c'4.
+                    c'1 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'4 \repeatTie
+                    c'4
+                    c'2
+                    c'4 \repeatTie
+                    c'4
+                    c'4
+                    c'1 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'4. \repeatTie
+                    c'4.
+                    c'2
+                    r1.
+                    c'4
+                    r4
+                    r2.
+                    r2
+                    c'4.
+                    r4.
+                    r1
+                    c'4.
+                    r2.
+                    r4.
+                    r4
+                    c'4
+                    r4
+                    c'4
+                    r4
+                    r4
+                    c'4
+                    r4
+                    r4
+                    r4
+                    c'4
+                    r4
+                    c'4
+                    r4
+                    c'4
+                    r4.
+                    r4.
+                    r4.
+                    c'4.
+                    r4
+                    r4
+                    r4
+                    c'4
+                    r4
+                    r4
+                    c'4
+                    r4.
+                    c'4.
                 }
             }
         >>
