@@ -1,4 +1,4 @@
-% 2015-04-12 15:47
+% 2015-04-12 16:11
 
 \version "2.19.17"
 \language "english"
@@ -777,22 +777,55 @@
                         c'4
                     }
                     c'2 \repeatTie
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
+                    c'4.
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    r4
+                    r4
+                    c'4
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    r4.
+                    r4.
+                    c'4
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    r4.
+                    r4.
+                    r4.
+                    r4.
+                    r4
+                    c'4
+                    r4
+                    c'4
+                    r4
+                    r4
+                    c'4
+                    r4
+                    r4
+                    r4
+                    c'4
+                    r4
+                    c'4
+                    r4
+                    c'4
+                    r4.
+                    r4.
+                    r4.
+                    c'4.
+                    r4
+                    r4
+                    r4
+                    c'4
+                    r4
+                    r4
+                    c'4
+                    r4.
+                    c'4.
                 }
             }
             \tag strings.viola
@@ -893,22 +926,55 @@
                         c'8. ]
                     }
                     c'2 \repeatTie
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
+                    c'4.
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    r4
+                    r4
+                    c'4
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    r4.
+                    r4.
+                    c'4
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    r4.
+                    r4.
+                    r4.
+                    r4.
+                    r4
+                    c'4
+                    r4
+                    c'4
+                    r4
+                    r4
+                    c'4
+                    r4
+                    r4
+                    r4
+                    c'4
+                    r4
+                    c'4
+                    r4
+                    c'4
+                    r4.
+                    r4.
+                    r4.
+                    c'4.
+                    r4
+                    r4
+                    r4
+                    c'4
+                    r4
+                    r4
+                    c'4
+                    r4.
+                    c'4.
                 }
             }
             \tag strings.cello
@@ -995,22 +1061,55 @@
                         c'16 \repeatTie
                         c'4
                     }
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
+                    c'4.
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    c'4. \repeatTie
+                    r4
+                    r4
+                    c'4
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    r4.
+                    r4.
+                    c'4
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    r4.
+                    r4.
+                    r4.
+                    r4.
+                    r4
+                    c'4
+                    r4
+                    c'4
+                    r4
+                    r4
+                    c'4
+                    r4
+                    r4
+                    r4
+                    c'4
+                    r4
+                    c'4
+                    r4
+                    c'4
+                    r4.
+                    r4.
+                    r4.
+                    c'4.
+                    r4
+                    r4
+                    r4
+                    c'4
+                    r4
+                    r4
+                    c'4
+                    r4.
+                    c'4.
                 }
             }
             \tag strings.contrabass
@@ -1090,22 +1189,55 @@
                         c''8 ]
                     }
                     c''2 \repeatTie
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
+                    c''4.
+                    c''4. \repeatTie
+                    c''4. \repeatTie
+                    c''4. \repeatTie
+                    r4
+                    r4
+                    c''4
+                    c''4 \repeatTie
+                    c''4 \repeatTie
+                    c''4 \repeatTie
+                    c''4 \repeatTie
+                    r4.
+                    r4.
+                    c''4
+                    c''4 \repeatTie
+                    c''4 \repeatTie
+                    c''4 \repeatTie
+                    r4.
+                    r4.
+                    r4.
+                    r4.
+                    r4
+                    c''4
+                    r4
+                    c''4
+                    r4
+                    r4
+                    c''4
+                    r4
+                    r4
+                    r4
+                    c''4
+                    r4
+                    c''4
+                    r4
+                    c''4
+                    r4.
+                    r4.
+                    r4.
+                    c''4.
+                    r4
+                    r4
+                    r4
+                    c''4
+                    r4
+                    r4
+                    c''4
+                    r4.
+                    c''4.
                 }
             }
         >>
