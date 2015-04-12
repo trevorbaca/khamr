@@ -80,7 +80,7 @@ materials: 12, 4, 3, 18, 9, 4, 7
 
 ORCHESTRATION:
 
-    [1]
+    [1-2]
     (M10 [bass fl. tremoli fantastiques] ==> M3 [bass fl. solos])
     (M6 [english horn quiet double harmonics] ==> M3 [eng. horn solos])
     (M6 [bass clarinet quiet multiphonics] ==> M3 [bass cl. solos])
@@ -133,7 +133,7 @@ ORCHESTRATION:
     * contrabass halo M4 incl. multiphonics
 
 
-    [2]
+    [3]
     (M3 [bass fl. solos] ==> niente)
     (M3 [eng. horn solos] ==> M9 [eng. horn air tone sotenuti fantastiques])
     (M3 [bass cl. solos] ==> M9 [bass cl. sostenuti fantastiques])
@@ -180,7 +180,7 @@ ORCHESTRATION:
     * contrabass halo M4 incl. multiphonics
 
 
-    [3]
+    [4-5]
     (niente ==> M19 [bass flute flutt. acc to piano lightning cadenza] +
         M19 [bass flute jet whistle to art. start of M19])
     (M9 [english horn air tone sost.] ==> M7 [english horn fer. mult: climax])
