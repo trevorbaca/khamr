@@ -1,4 +1,4 @@
-% 2015-04-12 18:14
+% 2015-04-12 19:04
 
 \version "2.19.17"
 \language "english"
@@ -583,11 +583,10 @@
                                 }
                         }
                     \times 1/1 {
-                        \once \override Beam #'grow-direction = #left
-                        c'16 * 45/32 [
-                        c'16 * 103/64
-                        c'16 * 35/16
-                        c'16 * 179/64 ]
+                        \once \override Beam #'grow-direction = #right
+                        c'16 * 113/32 [
+                        c'16 * 169/64
+                        c'16 * 117/64 ]
                     }
                     \revert TupletNumber #'text
                     \override TupletNumber #'text = \markup {
@@ -622,7 +621,7 @@
                         }
                     \times 1/1 {
                         \once \override Beam #'grow-direction = #left
-                        c'16 * 45/32 [
+                        c'16 * 45/32 \repeatTie [
                         c'16 * 103/64
                         c'16 * 35/16
                         c'16 * 179/64 ]
@@ -659,16 +658,16 @@
                                 }
                         }
                     \times 1/1 {
-                        \once \override Beam #'grow-direction = #left
-                        c'16 * 31/16 [
-                        c'16 * 127/64
-                        c'16 * 133/64
-                        c'16 * 9/4
-                        c'16 * 159/64
-                        c'16 * 179/64
-                        c'16 * 101/32
-                        c'16 * 225/64
-                        c'16 * 243/64 ]
+                        \once \override Beam #'grow-direction = #right
+                        c'16 * 239/64 \repeatTie [
+                        c'16 * 231/64
+                        c'16 * 105/32
+                        c'16 * 23/8
+                        c'16 * 5/2
+                        c'16 * 71/32
+                        c'16 * 129/64
+                        c'16 * 61/32
+                        c'16 * 119/64 ]
                     }
                     \revert TupletNumber #'text
                     \override TupletNumber #'text = \markup {
@@ -703,39 +702,64 @@
                         }
                     \times 1/1 {
                         \once \override Beam #'grow-direction = #left
-                        c'16 * 7/4 [
+                        c'16 * 7/4 \repeatTie [
                         c'16 * 15/8
                         c'16 * 71/32
                         c'16 * 89/32
                         c'16 * 27/8 ]
                     }
                     \revert TupletNumber #'text
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
+                    c'1
+                    c'2. \repeatTie
+                    c'1 \repeatTie
+                    c'4 \repeatTie
+                    c'4
+                    c'2.
+                    c'4
+                    c'2.
+                    c'2. \repeatTie
+                    c'1 \repeatTie
+                    c'4 \repeatTie
+                    c'4
+                    c'2.
+                    c'4.
+                    c'4.
+                    c'2 \repeatTie
+                    c'1. :32
+                    r2
+                    c'1 :32
+                    c'4 :32 \repeatTie
+                    r2.
+                    c'1 :32
+                    r1.
+                    r4
+                    c'4 :32
+                    r4
+                    c'4 :32
+                    r4
+                    r4
+                    c'4 :32
+                    r4
+                    r4
+                    r4
+                    c'4 :32
+                    r4
+                    c'4 :32
+                    r4
+                    c'4 :32
+                    r4.
+                    r4.
+                    r4.
+                    c'4. :32
+                    r4
+                    r4
+                    r4
+                    c'4 :32
+                    r4
+                    r4
+                    c'4 :32
+                    r4.
+                    c'4. :32
                 }
             }
             \tag percussion.piano
@@ -1109,7 +1133,6 @@
                             }
                     \times 4/5 {
                         c'16 \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
                     c'4 \repeatTie
@@ -1130,18 +1153,15 @@
                         c'4 \repeatTie
                         c'16
                     }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     c'4 \repeatTie
                     c'4 \repeatTie
                     \times 4/5 {
                         c'16 \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
                     c'2 \repeatTie
                     \times 4/5 {
                         c'16 \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
                     c'8 \repeatTie
@@ -1160,17 +1180,14 @@
                         c'4 \repeatTie
                         c'16
                     }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     c'2 \repeatTie
                     \times 4/5 {
                         c'16 \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
                     c'2 \repeatTie
                     \times 4/5 {
                         c'16 \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
                     c'2 \repeatTie
@@ -1189,19 +1206,16 @@
                         c'4 \repeatTie
                         c'16
                     }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     c'4 \repeatTie
                     c'4 \repeatTie
                     \times 4/5 {
                         c'16 \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
                     c'4. \repeatTie
                     c'8 \repeatTie
                     \times 4/5 {
                         c'16 \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
                     c'2 \repeatTie
@@ -1280,7 +1294,6 @@
                     c'4 \repeatTie
                     \times 4/5 {
                         c'16 \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
                     c'2. \repeatTie
@@ -1301,19 +1314,16 @@
                         c'4 \repeatTie
                         c'16
                     }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     c'4 \repeatTie
                     c'4. \repeatTie
                     c'8 \repeatTie
                     \times 4/5 {
                         c'16 \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
                     c'2. \repeatTie
                     \times 4/5 {
                         c'16 \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
                     c'2. \repeatTie
@@ -1333,17 +1343,14 @@
                         c'4 \repeatTie
                         c'16
                     }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     c'2. \repeatTie
                     \times 4/5 {
                         c'16 \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
                     c'2. \repeatTie
                     \times 4/5 {
                         c'16 \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
                     c'4 \repeatTie
@@ -1429,7 +1436,6 @@
                     c'2 \repeatTie
                     \times 4/5 {
                         c'16 \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
                     c'8 \repeatTie
@@ -1452,17 +1458,14 @@
                         c'4 \repeatTie
                         c'16
                     }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     c'1 \repeatTie
                     \times 4/5 {
                         c'16 \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
                     c'1 \repeatTie
                     \times 4/5 {
                         c'16 \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
                     c'2. \repeatTie
@@ -1482,7 +1485,6 @@
                         c'4 \repeatTie
                         c'16
                     }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     c'2. \repeatTie
                     c'4 \repeatTie
                     \times 4/5 {
@@ -1565,7 +1567,6 @@
                     c''4 \repeatTie
                     \times 4/5 {
                         c''16 \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c''4
                     }
                     c''4 \repeatTie
@@ -1588,19 +1589,16 @@
                         c''4 \repeatTie
                         c''16
                     }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     c''2. \repeatTie
                     c''2 \repeatTie
                     \times 4/5 {
                         c''16 \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c''4
                     }
                     c''2. \repeatTie
                     c''2 \repeatTie
                     \times 4/5 {
                         c''16 \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c''4
                     }
                     c''1 \repeatTie

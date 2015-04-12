@@ -113,6 +113,14 @@ quarter_division_maker = quarter_division_maker.split_by_durations(
         )
 quarter_division_maker = quarter_division_maker.flatten()
 
+guitar_accelerando = rhythmmakertools.InterpolationSpecifier(
+    start_duration=Duration(1, 4),
+    stop_duration=Duration(1, 8),
+    written_duration=Duration(1, 16),
+    )
+
+guitar_ritardando = guitar_accelerando.reverse()
+
 ### FLUTE ###
 
 ### OBOE ##
@@ -130,13 +138,60 @@ segment_maker.make_music_maker(
         beam_specifier=rhythmmakertools.BeamSpecifier(
             use_feather_beams=True,
             ),
-        interpolation_specifier=rhythmmakertools.InterpolationSpecifier(
-            start_duration=Duration(1, 8),
-            stop_duration=Duration(1, 4),
-            written_duration=Duration(1, 16),
+        interpolation_specifiers=[
+            guitar_accelerando,
+            guitar_ritardando,
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
             ),
         tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
             use_note_duration_bracket=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(2, 3),
+    context_name=gt,
+    division_maker=makertools.DivisionMaker()
+        .split_by_durations(
+            compound_meter_multiplier=Multiplier(3, 2),
+            durations=[(1, 4)],
+            )
+        .flatten()
+        .fuse_by_counts(
+            counts=[11, 1, 3, 1],
+            )
+        ,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(4, 4),
+    context_name=gt,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        output_masks=rhythmmakertools.silence_every(indices=[1], period=2),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(5, 5),
+    context_name=gt,
+    division_maker=beat_division_maker,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        output_masks=stage_5_silence_mask,
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
             ),
         ),
     )
@@ -179,11 +234,7 @@ segment_maker.make_music_maker(
         beam_specifier=rhythmmakertools.BeamSpecifier(
             use_feather_beams=True,
             ),
-        interpolation_specifier=rhythmmakertools.InterpolationSpecifier(
-            start_duration=Duration(1, 8),
-            stop_duration=Duration(1, 4),
-            written_duration=Duration(1, 16),
-            ),
+        interpolation_specifiers=guitar_ritardando,
         output_masks=[
             rhythmmakertools.SilenceMask(
                 indices=[1],
@@ -410,9 +461,38 @@ segment_maker.copy_music_maker(
 ############################### MUSIC-HANDLERS ################################
 ###############################################################################
 
+### FLUTE ##
+
+### OBOE ###
+
+### CLARINET ###
+
+### SAXOPHONE ###
+
+### GUITAR ###
+
+segment_maker.make_music_handler(
+    scope=(gt, (4, 5)),
+    specifiers=[
+        stem_tremolo,
+        ],
+    )
+
+### PIANO ###
+
 segment_maker.make_music_handler(
     scope=(pf, (1, 3)),
     specifiers=[
         sparse_piano_clicks,
         ],
     )
+
+### PERCUSSION ###
+
+### VIOLIN ###
+
+### VIOLA ###
+
+### CELLO ###
+
+### CONTRABASS ###
