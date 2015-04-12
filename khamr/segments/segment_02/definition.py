@@ -100,6 +100,19 @@ string_tuplet_spelling_specifier = rhythmmakertools.TupletSpellingSpecifier(
     flatten_trivial_tuplets=True,
     )
 
+beat_division_maker = makertools.DivisionMaker()
+beat_division_maker = beat_division_maker.split_by_durations(
+        compound_meter_multiplier=Multiplier(3, 2),
+        durations=[(1, 4)],
+        )
+beat_division_maker = beat_division_maker.flatten()
+
+quarter_division_maker = makertools.DivisionMaker()
+quarter_division_maker = quarter_division_maker.split_by_durations(
+        durations=[(1, 4)],
+        )
+quarter_division_maker = quarter_division_maker.flatten()
+
 ### FLUTE ###
 
 ### OBOE ##
@@ -114,18 +127,75 @@ string_tuplet_spelling_specifier = rhythmmakertools.TupletSpellingSpecifier(
 
 ### PERCUSSION ###
 
+segment_maker.make_music_maker(
+    stages=(1, 3),
+    context_name=perc,
+    division_maker=makertools.DivisionMaker()
+        .split_by_durations(
+            compound_meter_multiplier=Multiplier(3, 2),
+            durations=[(1, 4)],
+            )
+        .flatten()
+        .fuse_by_counts(
+            counts=[11, 1, 3, 1],
+            )
+        ,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(4, 4),
+    context_name=perc,
+    division_maker=makertools.DivisionMaker()
+        .split_by_durations(
+            compound_meter_multiplier=Multiplier(3, 2),
+            durations=[(1, 4)],
+            )
+        .flatten()
+        ,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        output_masks=[
+            rhythmmakertools.SilenceMask(
+                indices=[
+                    0, 1, 2, 3,
+                    5,
+                    6, 7, 8, 9, 10,
+                    12,
+                    13, 14, 15, 16,
+                    18, 19, 20,
+                    ],
+                ),
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(5, 5),
+    context_name=perc,
+    division_maker=beat_division_maker,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        output_masks=[
+            stage_5_silence_mask,
+            ],
+        ),
+    )
+
 ### VIOLIN ###
 
 segment_maker.make_music_maker(
     stages=(1, 3),
     context_name=vn,
     instrument=khamr.materials.instruments['violin'],
-    division_maker=makertools.DivisionMaker()
-        .split_by_durations(
-            durations=[(1, 4)],
-            )
-        .flatten()
-        ,
+    division_maker=quarter_division_maker,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -140,13 +210,7 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(4, 4),
     context_name=vn,
-    division_maker=makertools.DivisionMaker()
-        .split_by_durations(
-            compound_meter_multiplier=Multiplier(3, 2),
-            durations=[(1, 4)],
-            )
-        .flatten()
-        ,
+    division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         output_masks=[
             stage_4_silence_mask,
@@ -173,12 +237,7 @@ segment_maker.make_music_maker(
     stages=(1, 3),
     context_name=va,
     instrument=khamr.materials.instruments['viola'],
-    division_maker=makertools.DivisionMaker()
-        .split_by_durations(
-            durations=[(1, 4)],
-            )
-        .flatten()
-        ,
+    division_maker=quarter_division_maker,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -208,12 +267,7 @@ segment_maker.make_music_maker(
     stages=(1, 3),
     context_name=vc,
     instrument=khamr.materials.instruments['cello'],
-    division_maker=makertools.DivisionMaker()
-        .split_by_durations(
-            durations=[(1, 4)],
-            )
-        .flatten()
-        ,
+    division_maker=quarter_division_maker,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -243,12 +297,7 @@ segment_maker.make_music_maker(
     stages=(1, 3),
     context_name=cb,
     instrument=khamr.materials.instruments['contrabass'],
-    division_maker=makertools.DivisionMaker()
-        .split_by_durations(
-            durations=[(1, 4)],
-            )
-        .flatten()
-        ,
+    division_maker=quarter_division_maker,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
