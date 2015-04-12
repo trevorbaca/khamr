@@ -77,6 +77,11 @@ fifth_harmonic_of_F1 = fifth_harmonic_of_F1.larger()
 
 gridato_possibile = Markup('gridato possibile', direction=Up).italic().larger()
 
+string = r'sparse, individual clicks with credit card'
+string += r' on C \hspace #-0.5 \raise #1 \sharp \hspace #-0.5 1 string'
+string += ' (1-2/sec. in irregular rhythm)'
+sparse_piano_clicks = Markup(string, direction=Up).line().larger()
+
 leggierissimo = Markup('leggierissimo', direction=Up).italic().larger()
 
 string = 'leggierissimo (off-string bowing on staccati)'

@@ -1,4 +1,4 @@
-% 2015-04-12 16:42
+% 2015-04-12 18:05
 
 \version "2.19.17"
 \language "english"
@@ -588,36 +588,278 @@
             \context PianoMusicStaff = "Piano Music Staff" {
                 \clef "treble"
                 \context PianoMusicVoice = "Piano Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
+                    \set PianoStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Piano
+                        }
+                    \set PianoStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Pf.
+                        }
+                    c'2
+                        ^ \markup {
+                            \column
+                                {
+                                    \larger
+                                        \line
+                                            {
+                                                sparse,
+                                                individual
+                                                clicks
+                                                with
+                                                credit
+                                                card
+                                                on
+                                                C
+                                                \hspace
+                                                    #-0.5
+                                                \raise
+                                                    #1
+                                                    \sharp
+                                                \hspace
+                                                    #-0.5
+                                                1
+                                                string
+                                                (1-2/sec.
+                                                in
+                                                irregular
+                                                rhythm)
+                                            }
+                                    \override
+                                        #'(box-padding . 0.75)
+                                        \box
+                                            "to piano"
+                                }
+                            }
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'4. \repeatTie
+                    c'4 \repeatTie
+                    r8
+                    c'2.
+                    c'2.. \repeatTie
+                    r8
+                    r2.
+                    r1
+                    r2.
+                    r2
+                    c'1
+                    c'2 \repeatTie
+                    c'8 \repeatTie
+                    r8
+                    c'1
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'4. \repeatTie
+                    c'4 \repeatTie
+                    r8
+                    r2
+                    \override TupletNumber #'text = \markup {
+                        \scale
+                            #'(0.75 . 0.75)
+                            \score
+                                {
+                                    \new Score \with {
+                                        \override SpacingSpanner #'spacing-increment = #0.5
+                                        proportionalNotationDuration = ##f
+                                    } <<
+                                        \new RhythmicStaff \with {
+                                            \remove Time_signature_engraver
+                                            \remove Staff_symbol_engraver
+                                            \override Stem #'direction = #up
+                                            \override Stem #'length = #5
+                                            \override TupletBracket #'bracket-visibility = ##t
+                                            \override TupletBracket #'direction = #up
+                                            \override TupletBracket #'padding = #1.25
+                                            \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                            \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                            tupletFullLength = ##t
+                                        } {
+                                            c'1.
+                                        }
+                                    >>
+                                    \layout {
+                                        indent = #0
+                                        ragged-right = ##t
+                                    }
+                                }
+                        }
+                    \times 1/1 {
+                        \once \override Beam #'grow-direction = #left
+                        c'16 * 31/16 [
+                        c'16 * 127/64
+                        c'16 * 133/64
+                        c'16 * 9/4
+                        c'16 * 159/64
+                        c'16 * 179/64
+                        c'16 * 101/32
+                        c'16 * 225/64
+                        c'16 * 243/64 ]
+                    }
+                    \revert TupletNumber #'text
+                    r2
+                    \override TupletNumber #'text = \markup {
+                        \scale
+                            #'(0.75 . 0.75)
+                            \score
+                                {
+                                    \new Score \with {
+                                        \override SpacingSpanner #'spacing-increment = #0.5
+                                        proportionalNotationDuration = ##f
+                                    } <<
+                                        \new RhythmicStaff \with {
+                                            \remove Time_signature_engraver
+                                            \remove Staff_symbol_engraver
+                                            \override Stem #'direction = #up
+                                            \override Stem #'length = #5
+                                            \override TupletBracket #'bracket-visibility = ##t
+                                            \override TupletBracket #'direction = #up
+                                            \override TupletBracket #'padding = #1.25
+                                            \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                            \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                            tupletFullLength = ##t
+                                        } {
+                                            c'1 ~
+                                            c'4
+                                        }
+                                    >>
+                                    \layout {
+                                        indent = #0
+                                        ragged-right = ##t
+                                    }
+                                }
+                        }
+                    \times 1/1 {
+                        \once \override Beam #'grow-direction = #left
+                        c'16 * 115/64 [
+                        c'16 * 117/64
+                        c'16 * 63/32
+                        c'16 * 35/16
+                        c'16 * 5/2
+                        c'16 * 185/64
+                        c'16 * 105/32
+                        c'16 * 227/64 ]
+                    }
+                    \revert TupletNumber #'text
+                    r2.
+                    \override TupletNumber #'text = \markup {
+                        \scale
+                            #'(0.75 . 0.75)
+                            \score
+                                {
+                                    \new Score \with {
+                                        \override SpacingSpanner #'spacing-increment = #0.5
+                                        proportionalNotationDuration = ##f
+                                    } <<
+                                        \new RhythmicStaff \with {
+                                            \remove Time_signature_engraver
+                                            \remove Staff_symbol_engraver
+                                            \override Stem #'direction = #up
+                                            \override Stem #'length = #5
+                                            \override TupletBracket #'bracket-visibility = ##t
+                                            \override TupletBracket #'direction = #up
+                                            \override TupletBracket #'padding = #1.25
+                                            \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
+                                            \override TupletNumber #'text = #tuplet-number::calc-fraction-text
+                                            tupletFullLength = ##t
+                                        } {
+                                            c'1
+                                        }
+                                    >>
+                                    \layout {
+                                        indent = #0
+                                        ragged-right = ##t
+                                    }
+                                }
+                        }
+                    \times 1/1 {
+                        \once \override Beam #'grow-direction = #left
+                        c'16 * 2 [
+                        c'16 * 133/64
+                        c'16 * 147/64
+                        c'16 * 43/16
+                        c'16 * 205/64
+                        c'16 * 239/64 ]
+                    }
+                    \revert TupletNumber #'text
+                    r1.
+                    r4
+                    \times 2/3 {
+                        c'8 [
+                        c'8
+                        c'8 ]
+                    }
+                    r4
+                    {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    r4
+                    r4
+                    {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    r4
+                    r4
+                    r4
+                    \times 2/3 {
+                        c'8 [
+                        c'8
+                        c'8 ]
+                    }
+                    r4
+                    {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    r4
+                    \times 4/5 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    r4.
+                    r4.
+                    r4.
+                    {
+                        c'16. [
+                        c'16.
+                        c'16.
+                        c'16. ]
+                    }
+                    r4
+                    r4
+                    r4
+                    \times 2/3 {
+                        c'8 [
+                        c'8
+                        c'8 ]
+                    }
+                    r4
+                    r4
+                    \times 2/3 {
+                        c'8 [
+                        c'8
+                        c'8 ]
+                    }
+                    r4.
+                    {
+                        c'16. [
+                        c'16.
+                        c'16.
+                        c'16. ]
+                    }
                 }
             }
             \tag percussion
