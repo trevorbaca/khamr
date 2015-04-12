@@ -123,6 +123,24 @@ quarter_division_maker = quarter_division_maker.flatten()
 
 ### GUITAR ###
 
+segment_maker.make_music_maker(
+    stages=(1, 1),
+    context_name=gt,
+    rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
+        beam_specifier=rhythmmakertools.BeamSpecifier(
+            use_feather_beams=True,
+            ),
+        interpolation_specifier=rhythmmakertools.InterpolationSpecifier(
+            start_duration=Duration(1, 8),
+            stop_duration=Duration(1, 4),
+            written_duration=Duration(1, 16),
+            ),
+        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+            use_note_duration_bracket=True,
+            ),
+        ),
+    )
+
 ### PIANO ###
 
 segment_maker.make_music_maker(
