@@ -1,4 +1,4 @@
-% 2015-04-11 19:55
+% 2015-04-12 18:07
 
 \version "2.19.17"
 \language "english"
@@ -141,6 +141,16 @@
             }
             \tag percussion.piano
             \context PianoMusicStaff = "Piano Music Staff" {
+                %%% \set PianoStaff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    Piano
+                } %%%
+                %%% \set PianoStaff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    Pf.
+                } %%%
                 \clef "treble"
                 \context PianoMusicVoice = "Piano Music Voice" {
                     R1 * 1/2
@@ -168,6 +178,16 @@
             \tag strings.violin
             \context ViolinMusicStaff = "Violin Music Staff" {
                 \clef "treble"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    Violin
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    Vn.
+                }
                 \context ViolinMusicVoice = "Violin Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
@@ -180,6 +200,16 @@
             \tag strings.viola
             \context ViolaMusicStaff = "Viola Music Staff" {
                 \clef "alto"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    Viola
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    Va.
+                }
                 \context ViolaMusicVoice = "Viola Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
@@ -192,6 +222,16 @@
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
                 \clef "tenor"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    Cello
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    Vc.
+                }
                 \context CelloMusicVoice = "Cello Music Voice" {
                     R1 * 1/2
                     R1 * 1/2

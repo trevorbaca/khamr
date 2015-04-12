@@ -125,6 +125,73 @@ quarter_division_maker = quarter_division_maker.flatten()
 
 ### PIANO ###
 
+segment_maker.make_music_maker(
+    stages=(1, 3),
+    context_name=pf,
+    instrument=khamr.materials.instruments['piano'],
+    division_maker=makertools.DivisionMaker()
+        .fuse_by_counts(
+            counts=[3, 2],
+            ),
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
+        incise_specifier=rhythmmakertools.InciseSpecifier(
+            prefix_talea=[-1],
+            prefix_counts=[0],
+            suffix_talea=[-1],
+            suffix_counts=[1],
+            talea_denominator=8,
+            ),
+        output_masks=[
+            rhythmmakertools.SilenceMask(
+                indices=[2],
+                period=3,
+                ),
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        )
+    )
+
+segment_maker.make_music_maker(
+    stages=(4, 4),
+    context_name=pf,
+    rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
+        beam_specifier=rhythmmakertools.BeamSpecifier(
+            use_feather_beams=True,
+            ),
+        interpolation_specifier=rhythmmakertools.InterpolationSpecifier(
+            start_duration=Duration(1, 8),
+            stop_duration=Duration(1, 4),
+            written_duration=Duration(1, 16),
+            ),
+        output_masks=[
+            rhythmmakertools.SilenceMask(
+                indices=[1],
+                period=2,
+                ),
+            ],
+        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+            use_note_duration_bracket=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(5, 5),
+    context_name=pf,
+    division_maker=beat_division_maker,
+    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        output_masks=[
+            stage_5_silence_mask,
+            ],
+        tuplet_ratios=[
+            (1, 1, 1, 1), (1, 1, 1), (1, 1, 1, 1, 1),
+            ],
+        ),
+    )
+
 ### PERCUSSION ###
 
 segment_maker.make_music_maker(
@@ -324,3 +391,10 @@ segment_maker.copy_music_maker(
 ###############################################################################
 ############################### MUSIC-HANDLERS ################################
 ###############################################################################
+
+segment_maker.make_music_handler(
+    scope=(pf, (1, 3)),
+    specifiers=[
+        sparse_piano_clicks,
+        ],
+    )
