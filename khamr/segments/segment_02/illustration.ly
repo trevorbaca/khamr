@@ -1,4 +1,4 @@
-% 2015-04-11 19:53
+% 2015-04-12 15:47
 
 \version "2.19.17"
 \language "english"
@@ -662,20 +662,121 @@
             \context ViolinMusicStaff = "Violin Music Staff" {
                 \clef "treble"
                 \context ViolinMusicVoice = "Violin Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Violin
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Vn.
+                        }
+                    c'2
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to violin"
+                            }
+                    \times 4/5 {
+                        c'16 \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                    }
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    \times 4/5 {
+                        c'8 \repeatTie [
+                        c'8. ]
+                    }
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    \times 4/5 {
+                        c'8. \repeatTie [
+                        c'8 ]
+                    }
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    \times 4/5 {
+                        c'4 \repeatTie
+                        c'16
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    \times 4/5 {
+                        c'16 \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                    }
+                    c'2 \repeatTie
+                    \times 4/5 {
+                        c'16 \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                    }
+                    c'8 \repeatTie
+                    c'4. \repeatTie
+                    \times 4/5 {
+                        c'8 \repeatTie [
+                        c'8. ]
+                    }
+                    c'2 \repeatTie
+                    \times 4/5 {
+                        c'8. \repeatTie [
+                        c'8 ]
+                    }
+                    c'2 \repeatTie
+                    \times 4/5 {
+                        c'4 \repeatTie
+                        c'16
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c'2 \repeatTie
+                    \times 4/5 {
+                        c'16 \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                    }
+                    c'2 \repeatTie
+                    \times 4/5 {
+                        c'16 \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                    }
+                    c'2 \repeatTie
+                    \times 4/5 {
+                        c'8 \repeatTie [
+                        c'8. ]
+                    }
+                    c'2 \repeatTie
+                    \times 4/5 {
+                        c'8. \repeatTie [
+                        c'8 ]
+                    }
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    \times 4/5 {
+                        c'4 \repeatTie
+                        c'16
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
+                    \times 4/5 {
+                        c'16 \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                    }
+                    c'4. \repeatTie
+                    c'8 \repeatTie
+                    \times 4/5 {
+                        c'16 \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                    }
+                    c'2 \repeatTie
                     R1 * 3/2
                     R1 * 1/2
                     R1 * 5/4
@@ -698,20 +799,100 @@
             \context ViolaMusicStaff = "Viola Music Staff" {
                 \clef "alto"
                 \context ViolaMusicVoice = "Viola Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Viola
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Va.
+                        }
+                    c'2
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to viola"
+                            }
+                    c'4 \repeatTie
+                    \times 4/5 {
+                        c'16 \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                    }
+                    c'2. \repeatTie
+                    \times 4/5 {
+                        c'8 \repeatTie [
+                        c'8. ]
+                    }
+                    c'8 \repeatTie
+                    c'4. \repeatTie
+                    c'4 \repeatTie
+                    \times 4/5 {
+                        c'8. \repeatTie [
+                        c'8 ]
+                    }
+                    c'4 \repeatTie
+                    c'2 \repeatTie
+                    \times 4/5 {
+                        c'4 \repeatTie
+                        c'16
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c'4 \repeatTie
+                    c'4. \repeatTie
+                    c'8 \repeatTie
+                    \times 4/5 {
+                        c'16 \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                    }
+                    c'2. \repeatTie
+                    \times 4/5 {
+                        c'16 \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                    }
+                    c'2. \repeatTie
+                    \times 4/5 {
+                        c'8 \repeatTie [
+                        c'8. ]
+                    }
+                    c'4 \repeatTie
+                    c'2 \repeatTie
+                    \times 4/5 {
+                        c'8. \repeatTie [
+                        c'8 ]
+                    }
+                    c'4 \repeatTie
+                    c'2 \repeatTie
+                    \times 4/5 {
+                        c'4 \repeatTie
+                        c'16
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c'2. \repeatTie
+                    \times 4/5 {
+                        c'16 \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                    }
+                    c'2. \repeatTie
+                    \times 4/5 {
+                        c'16 \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                    }
+                    c'4 \repeatTie
+                    c'4. \repeatTie
+                    c'8 \repeatTie
+                    \times 4/5 {
+                        c'8 \repeatTie [
+                        c'8. ]
+                    }
+                    c'2 \repeatTie
                     R1 * 3/2
                     R1 * 1/2
                     R1 * 5/4
@@ -734,20 +915,86 @@
             \context CelloMusicStaff = "Cello Music Staff" {
                 \clef "tenor"
                 \context CelloMusicVoice = "Cello Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Cello
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Vc.
+                        }
+                    c'2
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to cello"
+                            }
+                    c'2 \repeatTie
+                    \times 4/5 {
+                        c'16 \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                    }
+                    c'8 \repeatTie
+                    c'2. \repeatTie
+                    c'8 \repeatTie
+                    \times 4/5 {
+                        c'8 \repeatTie [
+                        c'8. ]
+                    }
+                    c'2. \repeatTie
+                    c'4 \repeatTie
+                    \times 4/5 {
+                        c'8. \repeatTie [
+                        c'8 ]
+                    }
+                    c'2 \repeatTie
+                    c'4. \repeatTie
+                    c'8 \repeatTie
+                    \times 4/5 {
+                        c'4 \repeatTie
+                        c'16
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c'1 \repeatTie
+                    \times 4/5 {
+                        c'16 \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                    }
+                    c'1 \repeatTie
+                    \times 4/5 {
+                        c'16 \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
+                    }
+                    c'2. \repeatTie
+                    c'4 \repeatTie
+                    \times 4/5 {
+                        c'8 \repeatTie [
+                        c'8. ]
+                    }
+                    c'4 \repeatTie
+                    c'2. \repeatTie
+                    \times 4/5 {
+                        c'8. \repeatTie [
+                        c'8 ]
+                    }
+                    c'1 \repeatTie
+                    \times 4/5 {
+                        c'4 \repeatTie
+                        c'16
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c'2. \repeatTie
+                    c'4 \repeatTie
+                    \times 4/5 {
+                        c'16 \repeatTie
+                        c'4
+                    }
                     R1 * 3/2
                     R1 * 1/2
                     R1 * 5/4
@@ -780,101 +1027,69 @@
                             #10
                             Cb.
                         }
-                    c''4
+                    c''2
                         ^ \markup {
                             \override
                                 #'(box-padding . 0.75)
                                 \box
                                     "to contrabass"
                             }
-                    \times 2/3 {
-                        c''8 \repeatTie
-                        c''4
-                    }
                     c''2 \repeatTie
-                    \times 4/5 {
-                        c''16. \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''4.
-                    }
-                    \times 4/5 {
-                        c''16. \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''4.
-                    }
-                    c''4. \repeatTie
-                    c''8 \repeatTie
-                    c''4
-                    \times 2/3 {
-                        c''8 \repeatTie
-                        c''4
-                    }
                     c''4 \repeatTie
                     \times 4/5 {
                         c''16 \repeatTie
-                        c''4
-                    }
-                    \times 4/5 {
-                        \set Staff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                Contrabass
-                            }
-                        \set Staff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                Cb.
-                            }
-                        c''4
-                        c''16
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    c''4 \repeatTie
-                    \times 2/3 {
-                        c''4 \repeatTie
-                        c''8
-                    }
-                    \times 2/3 {
-                        c''4 \repeatTie
-                        c''8
-                    }
-                    c''4. \repeatTie
-                    \times 4/5 {
-                        c''4. \repeatTie
-                        c''16.
-                    }
-                    \times 4/5 {
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''4 \repeatTie
-                        c''16
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    c''2 \repeatTie
-                    \times 2/3 {
-                        c''4 \repeatTie
-                        c''8
+                        c''4
                     }
                     c''4 \repeatTie
+                    c''2. \repeatTie
+                    c''4 \repeatTie
+                    \times 4/5 {
+                        c''8 \repeatTie [
+                        c''8. ]
+                    }
+                    c''4 \repeatTie
+                    c''1 \repeatTie
+                    \times 4/5 {
+                        c''8. \repeatTie [
+                        c''8 ]
+                    }
+                    c''8 \repeatTie
+                    c''4. \repeatTie
+                    c''2. \repeatTie
                     \times 4/5 {
                         c''4 \repeatTie
                         c''16
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c''2. \repeatTie
+                    c''2 \repeatTie
+                    \times 4/5 {
+                        c''16 \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c''4
+                    }
+                    c''2. \repeatTie
+                    c''2 \repeatTie
+                    \times 4/5 {
+                        c''16 \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c''4
+                    }
+                    c''1 \repeatTie
                     c''4 \repeatTie
-                    \times 2/3 {
-                        c''4 \repeatTie
-                        c''8
+                    \times 4/5 {
+                        c''8 \repeatTie [
+                        c''8. ]
                     }
-                    \times 2/3 {
-                        c''4 \repeatTie
-                        c''8
+                    c''2. \repeatTie
+                    c''4. \repeatTie
+                    c''8 \repeatTie
+                    \times 4/5 {
+                        c''8. \repeatTie [
+                        c''8 ]
                     }
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
+                    c''2 \repeatTie
                     R1 * 3/2
                     R1 * 1/2
                     R1 * 5/4
