@@ -8,7 +8,7 @@ metadata = datastructuretools.TypedOrderedDict(
             'end_clefs_by_staff',
             datastructuretools.TypedOrderedDict(
                 [
-                    ('Cello Music Staff', 'tenor'),
+                    ('Cello Music Staff', 'bass'),
                     ('Clarinet Music Staff', 'treble'),
                     ('Contrabass Music Staff', 'bass'),
                     ('Flute Music Staff', 'treble'),
@@ -29,7 +29,7 @@ metadata = datastructuretools.TypedOrderedDict(
                     ('Cello Music Staff', None),
                     ('Clarinet Music Staff', None),
                     ('Contrabass Music Staff', None),
-                    ('Flute Music Staff', 'bass flute'),
+                    ('Flute Music Staff', None),
                     ('Guitar Music Staff', None),
                     ('Oboe Music Staff', None),
                     ('Percussion Staff', None),
@@ -40,11 +40,11 @@ metadata = datastructuretools.TypedOrderedDict(
                     ]
                 ),
             ),
-        ('end_tempo', 126),
+        ('end_tempo', 84),
         ('end_tempo_indication', 126),
-        ('end_time_signature', '6/8'),
+        ('end_time_signature', '2/4'),
         ('first_bar_number', 1),
-        ('measure_count', 6),
+        ('measure_count', 40),
         ('segment_count', 5),
         ('segment_number', 1),
         ]
