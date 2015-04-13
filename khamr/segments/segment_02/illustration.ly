@@ -1,4 +1,4 @@
-% 2015-04-13 11:52
+% 2015-04-13 17:14
 
 \version "2.19.17"
 \language "english"
@@ -1512,6 +1512,16 @@
             }
             \tag percussion
             \context PercussionMusicStaff = "Percussion Staff" {
+                %%% \set PianoMusicStaff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    Piano
+                } %%%
+                %%% \set PianoMusicStaff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    Pf.
+                } %%%
                 \clef "percussion"
                 \context PercussionMusicVoice = "Percussion Music Voice" {
                     c'2
