@@ -235,7 +235,7 @@ ORCHESTRATION:
     (M7 [bass clarinet ferocious multiphonics])
     (M7 [baritone sax ferocious multiphonics])
     --
-    (M14 [(guitarist) shakers: fff])
+****(M2A [guitar seaweed guiro])
     (M19 [piano lightning cadenza: very low: fffff]) 
     (M18 [china cymbal miasma: ff] +
         M18 [38" tam-tam acc. to china cymbal] +
@@ -257,7 +257,7 @@ ORCHESTRATION:
     (M7 [bass cl. ferocious multi.] ==> M6 [bass cl quiet multi.])
     (M7 [bar. sax. ferocious multi.] ==> M6 [bar. sax. quiet multi.])
     --
-++++(M2A [guitar seaweed guiro])
+    (M14 [(guitarist) shakers: fff])
     (M19 [piano lightning cadenza: rising]) 
     (M18 [china cymbal miasma: fff] +
         M18 [38" tam-tam acc. to china cymbal] +
@@ -280,7 +280,7 @@ ORCHESTRATION:
     (M6 [bass clarient extremely quiet multiphonics])
     (M6 [baritone saxophone extremely quiet multiphonics])
     --
-----(M2A [guitar seaweed guiro])
+    (M14 [(guitarist) shakers: fff])
     (M19 [piano lightning cadenza: very high: fffff]) 
     (M18 [china cymbal miasma: fff] +
         M18 [38" tam-tam acc. to china cymbal] +

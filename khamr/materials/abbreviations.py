@@ -1,5 +1,6 @@
 # -*- encoding: utf-8 -*-
 from abjad import *
+from experimental import *
 from khamr import materials
 from khamr import makers
 from abjad.tools import pitchtools
@@ -22,8 +23,21 @@ cb = 'Contrabass Music Voice'
 
 ### RHYTHM-MAKERS ###
 
+beat_division_maker = makertools.DivisionMaker()
+beat_division_maker = beat_division_maker.split_by_durations(
+        compound_meter_multiplier=Multiplier(3, 2),
+        durations=[(1, 4)],
+        )
+beat_division_maker = beat_division_maker.flatten()
+
+quarter_division_maker = makertools.DivisionMaker()
+quarter_division_maker = quarter_division_maker.split_by_durations(
+        durations=[(1, 4)],
+        )
+quarter_division_maker = quarter_division_maker.flatten()
 
 ### MARKUP ###
+
 def make_effort_dynamic_markup(dynamic_text, direction=Down):
     left_quotes = Markup('“').italic().larger()
     dynamic_markup = Markup(dynamic_text).dynamic()
@@ -74,6 +88,8 @@ fingertips = fingertips.larger()
 
 fifth_harmonic_of_F1 = Markup('5th harmonic of F1', direction=Up)
 fifth_harmonic_of_F1 = fifth_harmonic_of_F1.larger()
+
+fret_guiro = Markup('fret guiro', direction=Up).larger()
 
 gridato_possibile = Markup('gridato possibile', direction=Up).italic().larger()
 
@@ -149,6 +165,8 @@ reiterated_pp = handlertools.ReiteratedDynamicHandler(
 senza_pedale = Markup('senza pedale', direction=Up)
 senza_pedale = senza_pedale.italic()
 senza_pedale = senza_pedale.larger()
+
+shakers = Markup('shakers', direction=Up).larger()
 
 show_tempo = Markup('allow bowing to convey accelerando', direction=Up)
 show_tempo = show_tempo.larger()

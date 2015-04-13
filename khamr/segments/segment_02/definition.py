@@ -100,19 +100,6 @@ string_tuplet_spelling_specifier = rhythmmakertools.TupletSpellingSpecifier(
     flatten_trivial_tuplets=True,
     )
 
-beat_division_maker = makertools.DivisionMaker()
-beat_division_maker = beat_division_maker.split_by_durations(
-        compound_meter_multiplier=Multiplier(3, 2),
-        durations=[(1, 4)],
-        )
-beat_division_maker = beat_division_maker.flatten()
-
-quarter_division_maker = makertools.DivisionMaker()
-quarter_division_maker = quarter_division_maker.split_by_durations(
-        durations=[(1, 4)],
-        )
-quarter_division_maker = quarter_division_maker.flatten()
-
 guitar_accelerando = rhythmmakertools.InterpolationSpecifier(
     start_duration=Duration(1, 4),
     stop_duration=Duration(1, 8),

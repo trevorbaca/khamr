@@ -47,6 +47,31 @@ assert segment_maker.validate_time_signatures()
 
 ### GUITAR ###
 
+segment_maker.make_music_maker(
+    stages=(1, 5),
+    context_name=gt,
+    clef='percussion',
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(6, 6),
+    context_name=gt,
+    division_maker=beat_division_maker,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(),
+    )
+
+segment_maker.copy_music_maker(
+    gt,
+    1,
+    stages=(7, 9),
+    )
+
 ### PIANO ###
 
 ### PERCUSSION ###
@@ -72,6 +97,22 @@ assert segment_maker.validate_time_signatures()
 ### SAXOPHONE ###
 
 ### GUITAR ###
+
+segment_maker.make_music_handler(
+    scope=(gt, [(1, 5), (7, 9)]),
+    specifiers=[
+        Dynamic('ff'),
+        shakers,
+        stem_tremolo,
+        ]
+    )
+
+segment_maker.make_music_handler(
+    scope=(gt, (6, 6)),
+    specifiers=[
+        fret_guiro,
+        ]
+    )
 
 ### PIANO ###
 
