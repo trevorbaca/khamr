@@ -72,9 +72,138 @@ segment_maker.copy_music_maker(
 
 ### OBOE ###
 
+segment_maker.make_music_maker(
+    stages=(1, 5),
+    context_name=ob,
+    instrument=khamr.materials.instruments['English horn'],
+    division_maker=makertools.DivisionMaker()
+        .fuse_by_counts(
+            counts=mathtools.Infinity,
+            )
+        .split_by_durations(
+            durations=[(6, 4), (9, 4), (4, 4)],
+            ),
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
+        incise_specifier=rhythmmakertools.InciseSpecifier(
+            prefix_talea=[-1],
+            prefix_counts=[0],
+            suffix_talea=[-1],
+            suffix_counts=[1],
+            talea_denominator=8,
+            ),
+        output_masks=[
+            rhythmmakertools.silence_every([2], period=3),
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        )
+    )
+
+segment_maker.make_music_maker(
+    stages=(6, 6),
+    context_name=ob,
+    division_maker=beat_division_maker,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(),
+    )
+
+segment_maker.copy_music_maker(
+    ob,
+    1,
+    stages=(7, 9),
+    rhythm_maker__output_masks=None,
+    )
+
 ### CLARINET ###
 
+segment_maker.make_music_maker(
+    stages=(1, 5),
+    context_name=cl,
+    instrument=khamr.materials.instruments['bass clarinet'],
+    division_maker=makertools.DivisionMaker()
+        .fuse_by_counts(
+            counts=mathtools.Infinity,
+            )
+        .split_by_durations(
+            durations=[(6, 4), (8, 4), (4, 4)],
+            ),
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
+        incise_specifier=rhythmmakertools.InciseSpecifier(
+            prefix_talea=[-1],
+            prefix_counts=[0],
+            suffix_talea=[-1],
+            suffix_counts=[1],
+            talea_denominator=8,
+            ),
+        output_masks=[
+            rhythmmakertools.silence_every([2], period=3),
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        )
+    )
+
+segment_maker.make_music_maker(
+    stages=(6, 6),
+    context_name=cl,
+    division_maker=beat_division_maker,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(),
+    )
+
+segment_maker.copy_music_maker(
+    cl,
+    1,
+    stages=(7, 9),
+    rhythm_maker__output_masks=None,
+    )
+
 ### SAXOPHONE ###
+
+segment_maker.make_music_maker(
+    stages=(1, 5),
+    context_name=sax,
+    instrument=khamr.materials.instruments['baritone saxophone'],
+    division_maker=makertools.DivisionMaker()
+        .fuse_by_counts(
+            counts=mathtools.Infinity,
+            )
+        .split_by_durations(
+            durations=[(6, 4), (4, 4), (9, 4)],
+            ),
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
+        incise_specifier=rhythmmakertools.InciseSpecifier(
+            prefix_talea=[-1],
+            prefix_counts=[0],
+            suffix_talea=[-1],
+            suffix_counts=[1],
+            talea_denominator=8,
+            ),
+        output_masks=[
+            rhythmmakertools.silence_every([1], period=3),
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        )
+    )
+
+segment_maker.make_music_maker(
+    stages=(6, 6),
+    context_name=sax,
+    division_maker=beat_division_maker,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(),
+    )
+
+segment_maker.copy_music_maker(
+    sax,
+    1,
+    stages=(7, 9),
+    rhythm_maker__output_masks=None,
+    )
 
 ### GUITAR ###
 
@@ -108,6 +237,7 @@ segment_maker.copy_music_maker(
 segment_maker.make_music_maker(
     stages=(1, 9),
     context_name=pf,
+    instrument=piano,
     division_maker=beat_division_maker
         .flatten()
         .fuse_by_counts(
@@ -266,7 +396,7 @@ segment_maker.make_music_maker(
 segment_maker.copy_music_maker(
     cb,
     1,
-    stages=(7, 7),
+    stages=(7, 9),
     )
 
 ###############################################################################

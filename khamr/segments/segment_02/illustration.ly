@@ -1,4 +1,4 @@
-% 2015-04-12 21:32
+% 2015-04-13 00:06
 
 \version "2.19.17"
 \language "english"
@@ -1372,12 +1372,12 @@
             \context PianoMusicStaff = "Piano Music Staff" {
                 \clef "treble"
                 \context PianoMusicVoice = "Piano Music Voice" {
-                    \set PianoStaff.instrumentName = \markup {
+                    \set PianoMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
                             Piano
                         }
-                    \set PianoStaff.shortInstrumentName = \markup {
+                    \set PianoMusicStaff.shortInstrumentName = \markup {
                         \hcenter-in
                             #10
                             Pf.
