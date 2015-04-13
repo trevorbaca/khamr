@@ -1,4 +1,4 @@
-% 2015-04-12 22:29
+% 2015-04-12 22:37
 
 \version "2.19.17"
 \language "english"
@@ -1038,58 +1038,77 @@
             \context CelloMusicStaff = "Cello Music Staff" {
                 \clef "tenor"
                 \context CelloMusicVoice = "Cello Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
+                    c'2 :32
+                    c'2 :32 \repeatTie
+                    c'1. :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    r4
+                    r2.
+                    r2.
+                    c'4 :32
+                    c'2. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    r4
+                    r2.
+                    c'4 :32
+                    c'2. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'2. :32
+                    c'2 :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2. :32
+                    c'2. :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    r4
+                    r1.
+                    r2
+                    r2
+                    r2.
+                    r2
+                    c'2 :32
+                    c'2 :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    r1.
+                    r1
+                    r2.
+                    r4.
+                    c'4. :32
+                    c'2. :32 \repeatTie
+                    c'4 :32
+                    c'2. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'4 :32
+                    c'1 :32 \repeatTie
+                    c'4 :32 \repeatTie
+                    r1
+                    r2.
+                    r2
+                    c'1. :32
+                    c'2 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'4 :32 \repeatTie
+                    r2.
+                    r2.
+                    r4.
+                    c'4. :32
+                    c'2 :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'2 :32
+                    c'2 :32 \repeatTie
+                    c'1. :32
+                    c'2. :32 \repeatTie
                     \bar "|."
                 }
             }

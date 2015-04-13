@@ -118,6 +118,24 @@ segment_maker.make_music_maker(
 
 ### CELLO ###
 
+segment_maker.make_music_maker(
+    stages=(1, 9),
+    context_name=vc,
+    division_maker=beat_division_maker
+        .flatten()
+        .fuse_by_counts(
+            counts=[14, 6, 12, 4, 12, 6, 8],
+            ),
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        output_masks=rhythmmakertools.silence_every([1, 3], period=6),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        ),
+    
+    )
+
 ### CONTRABASS ###
 
 ###############################################################################
@@ -173,5 +191,12 @@ segment_maker.make_music_handler(
 ### VIOLA ###
 
 ### CELLO ###
+
+segment_maker.make_music_handler(
+    scope=(vc, (1, 9)),
+    specifiers=[
+        stem_tremolo,
+        ]
+    )
 
 ### CONTRABASS ###
