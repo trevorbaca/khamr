@@ -1,4 +1,4 @@
-% 2015-04-12 23:15
+% 2015-04-12 23:27
 
 \version "2.19.17"
 \language "english"
@@ -376,69 +376,115 @@
             \tag winds.flute
             \context FluteMusicStaff = "Flute Music Staff" {
                 \clef "treble"
-                \set Staff.instrumentName = \markup {
-                \hcenter-in
-                    #16
-                    Piccolo
-                }
-                \set Staff.shortInstrumentName = \markup {
-                \hcenter-in
-                    #10
-                    Picc.
-                }
                 \context FluteMusicVoice = "Flute Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Piccolo
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Picc.
+                        }
+                    c2
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to piccolo"
+                            }
+                    c2 \repeatTie
+                    c1. \repeatTie
+                    c2 \repeatTie
+                    r4
+                    r2.
+                    c4
+                    c2. \repeatTie
+                    c1 \repeatTie
+                    c2. \repeatTie
+                    c2 \repeatTie
+                    c2 \repeatTie
+                    c2
+                    c2. \repeatTie
+                    c1 \repeatTie
+                    c4 \repeatTie
+                    r1
+                    c2.
+                    c2 \repeatTie
+                    c1. \repeatTie
+                    r2
+                    r2.
+                    r2
+                    r2.
+                    r4
+                    c2.
+                    c4. \repeatTie
+                    c2.
+                    c4. \repeatTie
+                    c4
+                    c4
+                    c4
+                    c4
+                    c4
+                    c4
+                    c4
+                    c4
+                    c4
+                    c4
+                    c4
+                    c4
+                    c4
+                    c4
+                    c4
+                    c4.
+                    c4.
+                    c4.
+                    c4.
+                    c4
+                    c4
+                    c4
+                    c4
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Piccolo
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Picc.
+                        }
+                    c2.
+                    c2. \repeatTie
+                    c1 \repeatTie
+                    c4 \repeatTie
+                    r1
+                    c2.
+                    c1 \repeatTie
+                    c1 \repeatTie
+                    c2. \repeatTie
+                    c2
+                    c2. \repeatTie
+                    c2 \repeatTie
+                    c1. \repeatTie
+                    r2
+                    r2
+                    c2.
+                    c2. \repeatTie
+                    c2. \repeatTie
+                    r4
+                    r1.
+                    r2
+                    r2
+                    r4
+                    c2.
+                    c4 \repeatTie
+                    c2
+                    c2 \repeatTie
+                    c2 \repeatTie
+                    c1. \repeatTie
+                    c2. \repeatTie
                     \bar "|."
                 }
             }
