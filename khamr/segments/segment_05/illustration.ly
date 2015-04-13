@@ -1,4 +1,4 @@
-% 2015-04-12 22:22
+% 2015-04-12 22:29
 
 \version "2.19.17"
 \language "english"
@@ -813,58 +813,104 @@
             \context PercussionMusicStaff = "Percussion Staff" {
                 \clef "percussion"
                 \context PercussionMusicVoice = "Percussion Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Large
+                                    China
+                                    cymbal
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Ch.
+                                    cym.
+                                    (L)
+                                }
+                        }
+                    c'2 :32
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to percussion"
+                            }
+                    c'2 :32 \repeatTie
+                    c'1. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    r4
+                    r2.
+                    c'4 :32
+                    c'2. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2 :32
+                    c'2. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'4 :32 \repeatTie
+                    r1
+                    c'2. :32
+                    c'2 :32 \repeatTie
+                    c'1. :32 \repeatTie
+                    r2
+                    r2.
+                    r2
+                    r2.
+                    r4
+                    c'2. :32
+                    c'4. :32 \repeatTie
+                    c'2. :32
+                    c'4. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    r2
+                    r2
+                    r1.
+                    r2
+                    c'2 :32
+                    c'2 :32 \repeatTie
+                    r4
+                    r2.
+                    r1
+                    r4
+                    c'1 :32
+                    c'2. :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'4 :32
+                    c'2. :32 \repeatTie
+                    r4
+                    r2.
+                    r2
+                    r2.
+                    r2
+                    r1.
+                    c'2 :32
+                    c'2. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'4 :32 \repeatTie
+                    r2.
+                    r4.
+                    c'2. :32
+                    c'4. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'4 :32 \repeatTie
+                    c'2. :32
+                    c'2. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    r1.
+                    c'2. :32
                     \bar "|."
                 }
             }

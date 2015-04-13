@@ -94,6 +94,24 @@ segment_maker.make_music_maker(
 
 ### PERCUSSION ###
 
+segment_maker.make_music_maker(
+    stages=(1, 9),
+    context_name=perc,
+    instrument=khamr.materials.instruments['large China cymbal'],
+    division_maker=beat_division_maker
+        .flatten()
+        .fuse_by_counts(
+            counts=[10, 4, 14, 10, 4, 8],
+            ),
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        output_masks=rhythmmakertools.silence_every([1, 4], period=5),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        ),
+    )
+
 ### VIOLIN ###
 
 ### VIOLA ###
@@ -142,6 +160,13 @@ segment_maker.make_music_handler(
     )
 
 ### PERCUSSION ###
+
+segment_maker.make_music_handler(
+    scope=(perc, (1, 9)),
+    specifiers=[
+        stem_tremolo,
+        ]
+    )
 
 ### VIOLIN ###
 
