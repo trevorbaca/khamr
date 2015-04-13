@@ -1,4 +1,4 @@
-% 2015-04-13 11:53
+% 2015-04-13 17:12
 
 \version "2.19.17"
 \language "english"
@@ -25,6 +25,22 @@
                                 #blue
                                 [B1]
                         }
+                    ^ \markup {
+                    \fontsize
+                        #-6
+                        \general-align
+                            #Y
+                            #DOWN
+                            \note-by-number
+                                #2
+                                #0
+                                #1
+                    \upright
+                        {
+                            =
+                            126
+                        }
+                    }
             }
             {
                 s1 * 1/2
@@ -45,13 +61,257 @@
             }
             {
                 \time 4/4
-                s1 * 1
+                \once \override TextSpanner.arrow-width = 0.25
+                \once \override TextSpanner.bound-details.left-broken.padding = -2
+                \once \override TextSpanner.bound-details.left-broken.text = \markup {
+                    \override
+                        #'(padding . 0.45)
+                        \parenthesize
+                            \large
+                                \upright
+                                    accel.
+                    \hspace
+                        #0.75
+                    }
+                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
+                \once \override TextSpanner.bound-details.left.text = \markup {
+                    \fontsize
+                        #-6
+                        \general-align
+                            #Y
+                            #DOWN
+                            \note-by-number
+                                #2
+                                #0
+                                #1
+                    \upright
+                        {
+                            =
+                            63
+                        }
+                    \hspace
+                        #1.25
+                    }
+                \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                \once \override TextSpanner.bound-details.right-broken.padding = 0
+                \once \override TextSpanner.bound-details.right-broken.text = ##f
+                \once \override TextSpanner.bound-details.right.arrow = ##t
+                \once \override TextSpanner.bound-details.right.padding = 2
+                \once \override TextSpanner.bound-details.right.text = ##f
+                \once \override TextSpanner.dash-fraction = 0.25
+                \once \override TextSpanner.dash-period = 1.5
+                s1 * 1 \startTextSpan
                     - \markup {
                         \smaller
                             \with-color
                                 #blue
                                 [B3]
                         }
+            }
+            {
+                \time 6/8
+                s1 * 3/4
+            }
+            {
+                \time 4/4
+                s1 * 1
+            }
+            {
+                \time 5/4
+                s1 * 5/4
+                    - \markup {
+                        \smaller
+                            \with-color
+                                #blue
+                                [B4]
+                        }
+            }
+            {
+                \time 4/4
+                s1 * 1
+            }
+            {
+                \time 3/4
+                s1 * 3/4 \stopTextSpan
+                    - \markup {
+                        \smaller
+                            \with-color
+                                #blue
+                                [B5]
+                        }
+                    ^ \markup {
+                    \fontsize
+                        #-6
+                        \general-align
+                            #Y
+                            #DOWN
+                            \note-by-number
+                                #2
+                                #0
+                                #1
+                    \upright
+                        {
+                            =
+                            126
+                        }
+                    }
+            }
+            {
+                \time 4/4
+                s1 * 1
+            }
+            {
+                \time 5/4
+                s1 * 5/4
+            }
+            {
+                \time 6/8
+                s1 * 3/4
+            }
+            {
+                \time 2/4
+                s1 * 1/2
+            }
+            {
+                \time 6/4
+                s1 * 3/2
+            }
+            {
+                \time 2/4
+                s1 * 1/2
+            }
+            {
+                \time 5/4
+                s1 * 5/4
+            }
+            {
+                \time 6/8
+                s1 * 3/4
+            }
+            {
+                \time 4/4
+                s1 * 1
+            }
+            {
+                \time 6/4
+                s1 * 3/2
+            }
+            {
+                \time 2/4
+                s1 * 1/2
+            }
+            {
+                s1 * 1/2
+            }
+            {
+                \time 3/4
+                s1 * 3/4
+            }
+            {
+                \time 4/4
+                s1 * 1
+            }
+            {
+                \time 2/4
+                s1 * 1/2
+            }
+            {
+                s1 * 1/2
+                    - \markup {
+                        \smaller
+                            \with-color
+                                #blue
+                                [B6]
+                        }
+                    ^ \markup {
+                    \fontsize
+                        #-6
+                        \general-align
+                            #Y
+                            #DOWN
+                            \note-by-number
+                                #2
+                                #0
+                                #1
+                    \upright
+                        {
+                            =
+                            63
+                        }
+                    }
+            }
+            {
+                \time 6/4
+                s1 * 3/2
+            }
+            {
+                \time 4/4
+                s1 * 1
+            }
+            {
+                \time 3/4
+                s1 * 3/4
+            }
+            {
+                \time 6/8
+                s1 * 3/4
+                    - \markup {
+                        \smaller
+                            \with-color
+                                #blue
+                                [B7]
+                        }
+                    ^ \markup {
+                    \fontsize
+                        #-6
+                        \general-align
+                            #Y
+                            #DOWN
+                            \note-by-number
+                                #2
+                                #0
+                                #1
+                    \upright
+                        {
+                            =
+                            42
+                        }
+                    }
+            }
+            {
+                \time 4/4
+                s1 * 1
+            }
+            {
+                \time 5/4
+                s1 * 5/4
+                    - \markup {
+                        \smaller
+                            \with-color
+                                #blue
+                                [B8]
+                        }
+            }
+            {
+                \time 3/4
+                s1 * 3/4
+            }
+            {
+                \time 4/4
+                s1 * 1
+                    - \markup {
+                        \smaller
+                            \with-color
+                                #blue
+                                [B9]
+                        }
+            }
+            {
+                s1 * 1
+            }
+            {
+                \time 5/4
+                s1 * 5/4
             }
             {
                 \time 6/8
@@ -87,6 +347,37 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
                 }
             }
             \tag winds.oboe
@@ -116,6 +407,37 @@
                     R1 * 3/2
                     R1 * 3/4
                     R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1
+                    R1 * 5/4
                     R1 * 3/4
                 }
             }
@@ -147,6 +469,37 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
                 }
             }
             \tag winds.saxophone
@@ -177,6 +530,37 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
                 }
             }
         >>
@@ -191,27 +575,89 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
                 }
             }
             \tag percussion.piano
             \context PianoMusicStaff = "Piano Music Staff" {
-                %%% \set PianoStaff.instrumentName = \markup {
+                \clef "treble"
+                \set PianoMusicStaff.instrumentName = \markup {
                 \hcenter-in
                     #16
                     Piano
-                } %%%
-                %%% \set PianoStaff.shortInstrumentName = \markup {
+                }
+                \set PianoMusicStaff.shortInstrumentName = \markup {
                 \hcenter-in
                     #10
                     Pf.
-                } %%%
-                \clef "treble"
+                }
                 \context PianoMusicVoice = "Piano Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
                     R1 * 3/2
                     R1 * 3/4
                     R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1
+                    R1 * 5/4
                     R1 * 3/4
                 }
             }
@@ -224,6 +670,37 @@
                     R1 * 3/2
                     R1 * 3/4
                     R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1
+                    R1 * 5/4
                     R1 * 3/4
                 }
             }
@@ -249,6 +726,37 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
                 }
             }
             \tag strings.viola
@@ -270,6 +778,37 @@
                     R1 * 3/2
                     R1 * 3/4
                     R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1
+                    R1 * 5/4
                     R1 * 3/4
                 }
             }
@@ -293,6 +832,37 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
                 }
             }
             \tag strings.contrabass
@@ -314,6 +884,37 @@
                     R1 * 3/2
                     R1 * 3/4
                     R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1
+                    R1 * 5/4
                     R1 * 3/4
                 }
             }
