@@ -117,7 +117,7 @@ ORCHESTRATION:
     --
     (M19 [guitar mandolin line accompaniment to piano lightning cadenza] +
         M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
-    (M19 [piano lightning cadenza: foreshadow end of piece])
+    (M19 [piano lightning cadenza])
     (M18 [china cymbla miasma: f < ff > f < ff > f < ff] +
         M18 [30" tam-tam acc. to china cymbal] +
 ++++++++M1 [castanets and triangle: relatively thin] +
@@ -150,7 +150,7 @@ ORCHESTRATION:
     --
     (M19 [guitar half-harmonic mandolin line acc. to piano lightning cadenza] +
         M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
-    (M19 [piano lightning cadenza: foreshadow end of piece])
+    (M19 [piano lightning cadenza])
     (M18 [china cymbla miasma: mf < f > mf < f > mf < f] +
         M18 [30" tam-tam acc. to china cymbal] +
         M1 [castanets and triangle: relatively thin])
@@ -180,7 +180,7 @@ ORCHESTRATION:
     --
     (M19 [guitar half-harmonic mandolin line acc. to piano lightning cadenza] +
         M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
-    (M19 [piano lightning cadenza: foreshadow end of piece])
+    (M19 [piano lightning cadenza])
 ----(M18 [china cymbla miasma: p < mf > p < mf > p > niente] +
         M18 [30" tam-tam acc. to china cymbal] +
         M1 [castanets and triangle: relatively thin] +
@@ -219,7 +219,7 @@ ORCHESTRATION:
     (M3 [baritone sax dialoguing solos])
     --
     (M19 [guitar half-harmonic mandolin line acc. to piano lightning cadenza])
-    (M19 [piano lightning cadenza: foreshadow end of piece])
+    (M19 [piano lightning cadenza])
     (M1 [castanets and triangle: denser] +
         M1 [attackless bass drum: ppp])
     --
@@ -247,13 +247,13 @@ ORCHESTRATION:
 
 
     [5] [tempo 126]
-    (M19 [bass fl. fluttertongue] ==> M1 [flute upper-register prestissimo])
-    (M3 [english horn dialoguing solos] ==> M1 [oboe running])
-    (M3 [bass clarinet dialoguing solos] ==> M1 [b-flat running])
-    (M3 [baritone sax dialoguing solos] ==> M1 [sopranino running])
+    (M1 [flute upper-register prestissimo: climax])
+    (M1 [oboe upper-register prestissimo: climax])
+    (M1 [b-flat clarinet upper-register prestissimo: climax])
+    (M1 [sopranino sax upper-register prestissimo: climax])
     --
     (M19 [gt. half-harmonic mand.] ==> M1 [gt. "koto" coattacks with flute])
-    (M19 [piano ligthning cadenza] ==> M1 [piano coattacks with prestissimo])
+    (M1 [piano coattacks with prestissimo])
     (M1 [castanets and triangle] +
         M1 [attackless bass drum: ppp])
     --
@@ -284,10 +284,10 @@ ORCHESTRATION:
 
 
     [6] [subito tempo 63]
-    (M1 [flute upper-register prestissimo: climax])
-    (M1 [oboe upper-register prestissimo: climax])
-    (M1 [b-flat clarinet upper-register prestissimo: climax])
-    (M1 [sopranino sax upper-register prestissimo: climax])
+    (M1 [flute upper-register prestissimo: climax: sub. half tempo])
+    (M1 [oboe upper-register prestissimo: climax: sub. half tempo])
+    (M1 [b-flat clarinet upper-register prestissimo: climax: sub. half tempo])
+    (M1 [sopranino sax upper-register prestissimo: climax: sub. half tempo])
     --
     (M1 [guitar "koto" coattacks with flute])
     (M1 [piano coattacks with prestissimo])
@@ -304,10 +304,10 @@ ORCHESTRATION:
 
 
     [7] [continue tempo 63]
-    (M1 [flute prestissimo] & M3 [flute solos])
-    (M1 [oboe prestissimo] & M3 [oboe solos])
-    (M1 [b-flat clarinet prestissimo] & M3 [b-flat clarnet solos])
-    (M1 [sopranino sax uprestissimo] & M3 [sopranino sax solos])
+    (M2A [bass flute whistle tones])
+    (M2A [oboe air (w/o reed)])
+    (M2A [b-flat clarinet air])
+    (M2A [sopranino sax air])
     --
     (M1 [guitar "koto" coattacks with prestissimo])
     (M1 [piano coattacks with prestissimo] ==> M2A [piano seaweed guiro])
@@ -332,10 +332,10 @@ ORCHESTRATION:
 
 
     [8] [subito tempo 42]
-    (M1 [flute prestissimo] & M3 [flute solos] ==> M2A [bass. fl. air)
-    (M1 [oboe prestissimo] & M3 [oboe solos] ==> M2A [oboe air (w/o reed)])
-    (M1 [b-flat prestissimo] & M3 [b-flat solos] ==> M2A [b-flat air])
-    (M1 [sopr. prestissimo] & M3 [sopr. solos] ==> M2A [sopr. air])
+    (M2A [bass flute whistle tones])
+    (M2A [oboe air (w/o reed)])
+    (M2A [b-flat clarinet air])
+    (M2A [sopranino sax air])
     --
     (M1 [guitar "koto" coattacks with prestissimo ==>
         M2A [guitar seaweed guiro] +
@@ -362,7 +362,7 @@ ORCHESTRATION:
 
     [9]
     # farewell of M4
-    (M2A [bass flute whistle tones acc. to seaweed])
+    (M2A [bass flute whistle tones])
     (M2A [oboe air (w/o reed)])
     (M2A [b-flat clarinet air])
     (M2A [sopranino sax air])
