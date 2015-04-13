@@ -115,7 +115,7 @@ ORCHESTRATION:
     materials and allow the quieter materials intermittently to shine
     through.
 
-    [1]
+    [1] [tempo 126]
     (M14 [picc. fluttertongue acc. to string tremolo altissimo])
 ++++(M2B [guiro burst strokes (oboist): dense])
     (M5 [bass clar. low tone] + M6 [bass clar. quiet multiphonics])
@@ -184,7 +184,7 @@ ORCHESTRATION:
     * bar. sax. M6 quiet multiphonics includes quiet dyads
 
 
-    [4]
+    [4] [ritardando begins from 126 to 31.5]
     (M14 [picc. fluttertongue acc. to string tremolo altissimo])
     (M2B [(oboist) guiro burst strokes: even sparser still])
     (M6 [bass cl. quiet multiphonics] ==> M7 [bass cl. ferocious multi.])
@@ -229,7 +229,7 @@ ORCHESTRATION:
     * oboist makes sure reed is in english horn
 
 
-    [6]
+    [6] [tempo 31.5; accelerando begins back up to 126]
     (M14 [picc. fluttertongue acc. to string tremolo altissimo])
 ++++(M7 [english horn: ferocious multiphonics])
     (M7 [bass clarinet ferocious multiphonics])
@@ -251,7 +251,7 @@ ORCHESTRATION:
     * english horn M7 drawn from veale 206, 207, 210, 211.
 
 
-    [7]
+    [7] [tempo 126]
     (M14+M1+M19+M7 [picc. fluttertongue])
     (M7 [english horn: ferocious multiphonics])
     (M7 [bass cl. ferocious multi.] ==> M6 [bass cl quiet multi.])

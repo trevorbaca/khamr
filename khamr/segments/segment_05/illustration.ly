@@ -1,4 +1,4 @@
-% 2015-04-11 19:55
+% 2015-04-12 21:50
 
 \version "2.19.17"
 \language "english"
@@ -25,6 +25,22 @@
                                 #blue
                                 [D1]
                         }
+                    ^ \markup {
+                    \fontsize
+                        #-6
+                        \general-align
+                            #Y
+                            #DOWN
+                            \note-by-number
+                                #2
+                                #0
+                                #1
+                    \upright
+                        {
+                            =
+                            126
+                        }
+                    }
             }
             {
                 s1 * 1/2
@@ -32,12 +48,6 @@
             {
                 \time 6/4
                 s1 * 3/2
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [D2]
-                        }
             }
             {
                 \time 3/4
@@ -50,11 +60,315 @@
                         \smaller
                             \with-color
                                 #blue
-                                [D3]
+                                [D2]
                         }
             }
             {
                 \time 6/8
+                s1 * 3/4
+            }
+            {
+                \time 4/4
+                s1 * 1
+            }
+            {
+                \time 5/4
+                s1 * 5/4
+            }
+            {
+                \time 4/4
+                s1 * 1
+                    - \markup {
+                        \smaller
+                            \with-color
+                                #blue
+                                [D3]
+                        }
+            }
+            {
+                \time 3/4
+                s1 * 3/4
+            }
+            {
+                \time 4/4
+                s1 * 1
+            }
+            {
+                \time 5/4
+                s1 * 5/4
+            }
+            {
+                \time 6/8
+                \once \override TextSpanner.arrow-width = 0.25
+                \once \override TextSpanner.bound-details.left-broken.padding = -2
+                \once \override TextSpanner.bound-details.left-broken.text = \markup {
+                    \override
+                        #'(padding . 0.45)
+                        \parenthesize
+                            \large
+                                \upright
+                                    rit.
+                    \hspace
+                        #0.75
+                    }
+                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
+                \once \override TextSpanner.bound-details.left.text = \markup {
+                    \large
+                        \upright
+                            rit.
+                    \hspace
+                        #0.75
+                    }
+                \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                \once \override TextSpanner.bound-details.right-broken.padding = 0
+                \once \override TextSpanner.bound-details.right-broken.text = ##f
+                \once \override TextSpanner.bound-details.right.arrow = ##t
+                \once \override TextSpanner.bound-details.right.padding = 2
+                \once \override TextSpanner.bound-details.right.text = ##f
+                \once \override TextSpanner.dash-fraction = 0.25
+                \once \override TextSpanner.dash-period = 1.5
+                s1 * 3/4 \startTextSpan
+                    - \markup {
+                        \smaller
+                            \with-color
+                                #blue
+                                [D4]
+                        }
+            }
+            {
+                \time 2/4
+                s1 * 1/2
+            }
+            {
+                \time 6/4
+                s1 * 3/2
+            }
+            {
+                \time 2/4
+                s1 * 1/2
+            }
+            {
+                \time 5/4
+                s1 * 5/4
+                    - \markup {
+                        \smaller
+                            \with-color
+                                #blue
+                                [D5]
+                        }
+            }
+            {
+                \time 6/8
+                s1 * 3/4
+            }
+            {
+                \time 4/4
+                s1 * 1
+            }
+            {
+                \time 6/4
+                s1 * 3/2
+            }
+            {
+                \time 2/4
+                \once \override TextSpanner.arrow-width = 0.25
+                \once \override TextSpanner.bound-details.left-broken.padding = -2
+                \once \override TextSpanner.bound-details.left-broken.text = \markup {
+                    \override
+                        #'(padding . 0.45)
+                        \parenthesize
+                            \large
+                                \upright
+                                    accel.
+                    \hspace
+                        #0.75
+                    }
+                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
+                \once \override TextSpanner.bound-details.left.text = \markup {
+                    \fontsize
+                        #-6
+                        \general-align
+                            #Y
+                            #DOWN
+                            \note-by-number
+                                #2
+                                #0
+                                #1
+                    \upright
+                        {
+                            =
+                            32
+                        }
+                    \hspace
+                        #1.25
+                    }
+                \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                \once \override TextSpanner.bound-details.right-broken.padding = 0
+                \once \override TextSpanner.bound-details.right-broken.text = ##f
+                \once \override TextSpanner.bound-details.right.arrow = ##t
+                \once \override TextSpanner.bound-details.right.padding = 2
+                \once \override TextSpanner.bound-details.right.text = ##f
+                \once \override TextSpanner.dash-fraction = 0.25
+                \once \override TextSpanner.dash-period = 1.5
+                s1 * 1/2 \stopTextSpan \startTextSpan
+                    - \markup {
+                        \smaller
+                            \with-color
+                                #blue
+                                [D6]
+                        }
+            }
+            {
+                s1 * 1/2
+            }
+            {
+                \time 3/4
+                s1 * 3/4
+            }
+            {
+                \time 4/4
+                s1 * 1
+            }
+            {
+                \time 2/4
+                s1 * 1/2
+            }
+            {
+                s1 * 1/2
+            }
+            {
+                \time 6/4
+                s1 * 3/2
+            }
+            {
+                \time 4/4
+                s1 * 1
+            }
+            {
+                \time 3/4
+                s1 * 3/4 \stopTextSpan
+                    - \markup {
+                        \smaller
+                            \with-color
+                                #blue
+                                [D7]
+                        }
+                    ^ \markup {
+                    \fontsize
+                        #-6
+                        \general-align
+                            #Y
+                            #DOWN
+                            \note-by-number
+                                #2
+                                #0
+                                #1
+                    \upright
+                        {
+                            =
+                            126
+                        }
+                    }
+            }
+            {
+                \time 6/8
+                s1 * 3/4
+            }
+            {
+                \time 4/4
+                s1 * 1
+            }
+            {
+                \time 5/4
+                s1 * 5/4
+            }
+            {
+                \time 3/4
+                s1 * 3/4
+            }
+            {
+                \time 4/4
+                s1 * 1
+            }
+            {
+                s1 * 1
+            }
+            {
+                \time 5/4
+                s1 * 5/4
+            }
+            {
+                \time 6/8
+                s1 * 3/4
+                    - \markup {
+                        \smaller
+                            \with-color
+                                #blue
+                                [D8]
+                        }
+            }
+            {
+                \time 2/4
+                s1 * 1/2
+            }
+            {
+                \time 6/4
+                s1 * 3/2
+            }
+            {
+                \time 2/4
+                s1 * 1/2
+            }
+            {
+                \time 5/4
+                s1 * 5/4
+            }
+            {
+                \time 6/8
+                s1 * 3/4
+            }
+            {
+                \time 4/4
+                s1 * 1
+            }
+            {
+                \time 6/4
+                s1 * 3/2
+            }
+            {
+                \time 2/4
+                s1 * 1/2
+                    - \markup {
+                        \smaller
+                            \with-color
+                                #blue
+                                [D9]
+                        }
+            }
+            {
+                s1 * 1/2
+            }
+            {
+                \time 4/4
+                s1 * 1
+            }
+            {
+                \time 3/4
+                s1 * 3/4
+            }
+            {
+                \time 2/4
+                s1 * 1/2
+            }
+            {
+                s1 * 1/2
+            }
+            {
+                \time 6/4
+                s1 * 3/2
+            }
+            {
+                \time 3/4
                 s1 * 3/4
             }
         }
@@ -79,6 +393,52 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 3/4
                     \bar "|."
                 }
             }
@@ -102,6 +462,52 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 3/4
                     \bar "|."
                 }
             }
@@ -115,6 +521,52 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 3/4
                     \bar "|."
                 }
             }
@@ -127,6 +579,52 @@
                     R1 * 3/2
                     R1 * 3/4
                     R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
                     \bar "|."
                 }
@@ -143,6 +641,52 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 3/4
                     \bar "|."
                 }
             }
@@ -156,6 +700,52 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 3/4
                     \bar "|."
                 }
             }
@@ -168,6 +758,52 @@
                     R1 * 3/2
                     R1 * 3/4
                     R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
                     \bar "|."
                 }
@@ -184,6 +820,52 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 3/4
                     \bar "|."
                 }
             }
@@ -196,6 +878,52 @@
                     R1 * 3/2
                     R1 * 3/4
                     R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
                     \bar "|."
                 }
@@ -210,6 +938,52 @@
                     R1 * 3/4
                     R1 * 1
                     R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 3/4
                     \bar "|."
                 }
             }
@@ -222,6 +996,52 @@
                     R1 * 3/2
                     R1 * 3/4
                     R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 3/2
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1/2
+                    R1 * 1/2
+                    R1 * 3/2
                     R1 * 3/4
                     \bar "|."
                 }

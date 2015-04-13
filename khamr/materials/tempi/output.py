@@ -7,6 +7,13 @@ from abjad.tools import indicatortools
 tempi = datastructuretools.TypedOrderedDict(
     [
         (
+            32,
+            indicatortools.Tempo(
+                duration=durationtools.Duration(1, 4),
+                units_per_minute=32,
+                ),
+            ),
+        (
             42,
             indicatortools.Tempo(
                 duration=durationtools.Duration(1, 4),
