@@ -1,4 +1,4 @@
-% 2015-04-12 19:59
+% 2015-04-12 21:32
 
 \version "2.19.17"
 \language "english"
@@ -413,10 +413,8 @@
                                 \box
                                     "to bass flute"
                             }
-                    \times 8/14 {
+                    \times 8/12 {
                         c''16 \repeatTie [
-                        c''16
-                        c''16
                         c''16
                         c''16
                         c''16
@@ -453,10 +451,8 @@
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     c''1 \repeatTie
-                    \times 8/14 {
+                    \times 8/12 {
                         c''16 \repeatTie [
-                        c''16
-                        c''16
                         c''16
                         c''16
                         c''16
@@ -472,10 +468,8 @@
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     c''4 \repeatTie
-                    \times 8/10 {
+                    {
                         c''16 \repeatTie [
-                        c''16
-                        c''16
                         c''16
                         c''16
                         c''16
@@ -498,28 +492,66 @@
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     c''4 \repeatTie
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
+                    r8
+                    c''2..
+                    c''2. \repeatTie
+                    c''1 \repeatTie
+                    r8
+                    c''8
+                    c''2 \repeatTie
+                    c''2 \repeatTie
+                    c''2. \repeatTie
+                    r8
+                    c''4.
+                    c''4.
+                    c''4. \repeatTie
+                    c''4. \repeatTie
+                    c''4. \repeatTie
+                    r4
+                    r4
+                    c''4
+                    c''4 \repeatTie
+                    c''4 \repeatTie
+                    c''4 \repeatTie
+                    c''4 \repeatTie
+                    r4.
+                    r4.
+                    c''4
+                    c''4 \repeatTie
+                    c''4 \repeatTie
+                    c''4 \repeatTie
+                    r4.
+                    r4.
+                    r4.
+                    r4.
+                    r4
+                    c''4
+                    r4
+                    c''4
+                    r4
+                    r4
+                    c''4
+                    r4
+                    r4
+                    r4
+                    c''4
+                    r4
+                    c''4
+                    r4
+                    c''4
+                    r4.
+                    r4.
+                    r4.
+                    c''4.
+                    r4
+                    r4
+                    r4
+                    c''4
+                    r4
+                    r4
+                    c''4
+                    r4.
+                    c''4.
                 }
             }
             \tag winds.oboe
@@ -564,10 +596,8 @@
                     g'2 \repeatTie
                     g'2. \repeatTie
                     \tweak #'text #tuplet-number::calc-fraction-text
-                    \times 12/22 {
+                    \times 12/20 {
                         g'16 \repeatTie [
-                        g'16
-                        g'16
                         g'16
                         g'16
                         g'16
@@ -591,10 +621,8 @@
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     g'4 \repeatTie
-                    \times 8/14 {
+                    \times 8/12 {
                         g'16 \repeatTie [
-                        g'16
-                        g'16
                         g'16
                         g'16
                         g'16
@@ -634,10 +662,8 @@
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     g'2. \repeatTie
-                    \times 8/14 {
+                    \times 8/12 {
                         g'16 \repeatTie [
-                        g'16
-                        g'16
                         g'16
                         g'16
                         g'16
@@ -650,100 +676,477 @@
                         g'16
                         g'16 ]
                     }
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
+                    r8
+                    g'2..
+                    g'2. \repeatTie
+                    g'1 \repeatTie
+                    g'1 \repeatTie
+                    r8
+                    g'8
+                    g'2. \repeatTie
+                    g'2 \repeatTie
+                    g'4.
+                    g'4. \repeatTie
+                    g'4. \repeatTie
+                    g'4. \repeatTie
+                    r4
+                    r4
+                    g'4
+                    g'4 \repeatTie
+                    g'4 \repeatTie
+                    g'4 \repeatTie
+                    g'4 \repeatTie
+                    r4.
+                    r4.
+                    g'4
+                    g'4 \repeatTie
+                    g'4 \repeatTie
+                    g'4 \repeatTie
+                    r4.
+                    r4.
+                    r4.
+                    r4.
+                    r4
+                    g'4
+                    r4
+                    g'4
+                    r4
+                    r4
+                    g'4
+                    r4
+                    r4
+                    r4
+                    g'4
+                    r4
+                    g'4
+                    r4
+                    g'4
+                    r4.
+                    r4.
+                    r4.
+                    g'4.
+                    r4
+                    r4
+                    r4
+                    g'4
+                    r4
+                    r4
+                    g'4
+                    r4.
+                    g'4.
                 }
             }
             \tag winds.clarinet
             \context ClarinetMusicStaff = "Clarinet Music Staff" {
                 \clef "treble"
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Bass
+                                    clarinet
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Bass
+                                    cl.
+                                }
+                        }
+                    d''2
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to bass clarinet"
+                            }
+                    \times 4/7 {
+                        d''8 \repeatTie [
+                        d''8
+                        d''8
+                        d''8
+                        d''8
+                        d''8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        d''8 ]
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    d''1. \repeatTie
+                    \times 4/7 {
+                        d''8 \repeatTie [
+                        d''8
+                        d''8
+                        d''8
+                        d''8
+                        d''8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        d''8 ]
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    d''4 \repeatTie
+                    d''2 \repeatTie
+                    \times 8/12 {
+                        d''16 \repeatTie [
+                        d''16
+                        d''16
+                        d''16
+                        d''16
+                        d''16
+                        d''16
+                        d''16
+                        d''16
+                        d''16
+                        d''16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        d''16 ]
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    d''2. \repeatTie
+                    d''2 \repeatTie
+                    \times 8/12 {
+                        d''16 \repeatTie [
+                        d''16
+                        d''16
+                        d''16
+                        d''16
+                        d''16
+                        d''16
+                        d''16
+                        d''16
+                        d''16
+                        d''16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        d''16 ]
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    d''1 \repeatTie
+                    \times 2/3 {
+                        d''8 \repeatTie [
+                        d''8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        d''8 ]
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    d''1 \repeatTie
+                    d''2 \repeatTie
+                    \times 2/3 {
+                        d''8 \repeatTie [
+                        d''8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        d''8 ]
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    d''1 \repeatTie
+                    {
+                        d''16 \repeatTie [
+                        d''16
+                        d''16
+                        d''16
+                        d''16
+                        d''16
+                        d''16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        d''16 ]
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    d''2. \repeatTie
+                    d''4. \repeatTie
+                    d''8 \repeatTie
+                    {
+                        d''16 \repeatTie [
+                        d''16
+                        d''16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        d''16 ]
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    d''2 \repeatTie
+                    d''4.
+                    d''4. \repeatTie
+                    d''4. \repeatTie
+                    d''4. \repeatTie
+                    r4
+                    r4
+                    d''4
+                    d''4 \repeatTie
+                    d''4 \repeatTie
+                    d''4 \repeatTie
+                    d''4 \repeatTie
+                    r4.
+                    r4.
+                    d''4
+                    d''4 \repeatTie
+                    d''4 \repeatTie
+                    d''4 \repeatTie
+                    r4.
+                    r4.
+                    r4.
+                    r4.
+                    r4
+                    d''4
+                    r4
+                    d''4
+                    r4
+                    r4
+                    d''4
+                    r4
+                    r4
+                    r4
+                    d''4
+                    r4
+                    d''4
+                    r4
+                    d''4
+                    r4.
+                    r4.
+                    r4.
+                    d''4.
+                    r4
+                    r4
+                    r4
+                    d''4
+                    r4
+                    r4
+                    d''4
+                    r4.
+                    d''4.
                 }
             }
             \tag winds.saxophone
             \context SaxophoneMusicStaff = "Saxophone Music Staff" {
                 \clef "treble"
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
+                    \times 8/12 {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \center-column
+                                    {
+                                        Baritone
+                                        saxophone
+                                    }
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \center-column
+                                    {
+                                        Bar.
+                                        sax.
+                                    }
+                            }
+                        a''16 [
+                            ^ \markup {
+                                \override
+                                    #'(box-padding . 0.75)
+                                    \box
+                                        "to baritone saxophone"
+                                }
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a''16 ]
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    a''2 \repeatTie
+                    a''4. \repeatTie
+                    a''8 \repeatTie
+                    \times 4/5 {
+                        a''8 \repeatTie [
+                        a''8
+                        a''8
+                        a''8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a''8 ]
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    a''8 \repeatTie
+                    a''4. \repeatTie
+                    a''4 \repeatTie
+                    {
+                        a''16 \repeatTie [
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a''16 ]
+                    }
+                    \times 4/5 {
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a''8 \repeatTie [
+                        a''8
+                        a''8
+                        a''8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a''8 ]
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    a''2 \repeatTie
+                    a''4 \repeatTie
+                    {
+                        a''16 \repeatTie [
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a''16 ]
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    a''1 \repeatTie
+                    \times 2/3 {
+                        a''8 \repeatTie [
+                        a''8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a''8 ]
+                    }
+                    {
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a''16 \repeatTie [
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a''16 ]
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    a''2 \repeatTie
+                    a''2 \repeatTie
+                    \times 4/7 {
+                        a''8 \repeatTie [
+                        a''8
+                        a''8
+                        a''8
+                        a''8
+                        a''8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a''8 ]
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    a''2. \repeatTie
+                    \times 8/12 {
+                        a''16 \repeatTie [
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a''16 ]
+                    }
+                    \times 4/7 {
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a''8 \repeatTie [
+                        a''8
+                        a''8
+                        a''8
+                        a''8
+                        a''8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a''8 ]
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    a''2. \repeatTie
+                    \times 8/12 {
+                        a''16 \repeatTie [
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        a''16
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a''16 ]
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    a''2. \repeatTie
+                    \times 4/5 {
+                        a''8 \repeatTie [
+                        a''8
+                        a''8
+                        a''8
+                        a''8 ]
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    a''4.
+                    a''4. \repeatTie
+                    a''4. \repeatTie
+                    a''4. \repeatTie
+                    r4
+                    r4
+                    a''4
+                    a''4 \repeatTie
+                    a''4 \repeatTie
+                    a''4 \repeatTie
+                    a''4 \repeatTie
+                    r4.
+                    r4.
+                    a''4
+                    a''4 \repeatTie
+                    a''4 \repeatTie
+                    a''4 \repeatTie
+                    r4.
+                    r4.
+                    r4.
+                    r4.
+                    r4
+                    a''4
+                    r4
+                    a''4
+                    r4
+                    r4
+                    a''4
+                    r4
+                    r4
+                    r4
+                    a''4
+                    r4
+                    a''4
+                    r4
+                    a''4
+                    r4.
+                    r4.
+                    r4.
+                    a''4.
+                    r4
+                    r4
+                    r4
+                    a''4
+                    r4
+                    r4
+                    a''4
+                    r4.
+                    a''4.
                 }
             }
         >>

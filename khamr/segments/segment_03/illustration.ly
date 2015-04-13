@@ -1,4 +1,4 @@
-% 2015-04-12 18:07
+% 2015-04-12 21:33
 
 \version "2.19.17"
 \language "english"
@@ -92,6 +92,24 @@
             \tag winds.oboe
             \context OboeMusicStaff = "Oboe Music Staff" {
                 \clef "treble"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    \center-column
+                        {
+                            English
+                            horn
+                        }
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    \center-column
+                        {
+                            Eng.
+                            hn.
+                        }
+                }
                 \context OboeMusicVoice = "Oboe Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
@@ -104,6 +122,24 @@
             \tag winds.clarinet
             \context ClarinetMusicStaff = "Clarinet Music Staff" {
                 \clef "treble"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    \center-column
+                        {
+                            Bass
+                            clarinet
+                        }
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    \center-column
+                        {
+                            Bass
+                            cl.
+                        }
+                }
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
@@ -116,6 +152,24 @@
             \tag winds.saxophone
             \context SaxophoneMusicStaff = "Saxophone Music Staff" {
                 \clef "treble"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    \center-column
+                        {
+                            Baritone
+                            saxophone
+                        }
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    \center-column
+                        {
+                            Bar.
+                            sax.
+                        }
+                }
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
                     R1 * 1/2
                     R1 * 1/2
