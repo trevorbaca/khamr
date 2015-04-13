@@ -1,4 +1,4 @@
-% 2015-04-12 21:50
+% 2015-04-12 22:09
 
 \version "2.19.17"
 \language "english"
@@ -633,60 +633,100 @@
         \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
             \tag percussion.guitar
             \context GuitarMusicStaff = "Guitar Music Staff" {
-                \clef "treble"
                 \context GuitarMusicVoice = "Guitar Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
+                    \clef "percussion"
+                    \stopStaff
+                    \override Staff.StaffSymbol #'line-count = #1
+                    \startStaff
+                    c'2 :32 \ff
+                        ^ \markup {
+                            \larger
+                                shakers
+                            }
+                    c'2 :32 \repeatTie
+                    c'1. :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'4 :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'4 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'1. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'4 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'1. :32 \repeatTie
+                    c'4
+                        ^ \markup {
+                            \larger
+                                "fret guiro"
+                            }
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4.
+                    c'4.
+                    c'4.
+                    c'4.
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    \clef "percussion"
+                    \stopStaff
+                    \override Staff.StaffSymbol #'line-count = #1
+                    \startStaff
+                    c'2. :32 \ff
+                        ^ \markup {
+                            \larger
+                                shakers
+                            }
+                    c'2. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'4 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'4 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'1. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'4 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'1. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'1. :32 \repeatTie
+                    c'2. :32 \repeatTie
                     \bar "|."
                 }
             }
