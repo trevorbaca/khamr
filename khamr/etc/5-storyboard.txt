@@ -128,8 +128,8 @@ ORCHESTRATION:
         M18 [38" tam-tam acc. to china cymbal] +
         M14 [30" tam-tam acc. to string tremolo altissimo])
     --
-    (M10 [violin tremoli fant.] ==> M11 [violin massed off-string bowing])
-    (M10 [viola tremoli fant.] ==> M11 [viola massed off-string bowing])
+    (M10 [violin tremoli fant.])
+    (M10 [viola tremoli fant.])
     (M14 [cello tremolo altissimo: fff])
     (M5 [bass low tone])
     * intermittent windows of quiet materials shining through.
@@ -151,8 +151,8 @@ ORCHESTRATION:
         M18 [38" tam-tam acc. to china cymbal] +
         M14 [30" tam-tam acc. to string tremolo altissimo])
     --
-    (M11 [violin massed off-string bowing])
-    (M11 [viola massed off-string bowing])
+    (M10 [violin tremoli fant.])
+    (M10 [viola tremoli fant.])
     (M14 [cello tremolo altissimo: fff])
     (M5 [bass low tone])
     * intermittent windows of quiet materials shining through.
@@ -174,8 +174,8 @@ ORCHESTRATION:
         M18 [38" tam-tam acc. to china cymbal] +
         M14 [30" tam-tam acc. to string tremolo altissimo])
     --
-    (M11 [violin massed off-string bowing])
-----(M11 [viola massed off-string bowing])
+    (M10 [violin tremoli fant.])
+    (M10 [viola tremoli fant.])
     (M14 [cello tremolo altissimo: fff > f])
     (M5 [bass low tone: pp] ==> M7 [bass low tone: fff])
     * intermittent windows of quiet materials shining through.
@@ -196,8 +196,8 @@ ORCHESTRATION:
         M18 [38" tam-tam acc. to china cymbal] +
         M14 [30" tam-tam acc. to string tremolo altissimo])
     --
-----(M11 [violin massed off-string bowing])
-    (M14 [(violist) shakers: fff])
+    (M10 [violin tremoli fant.])
+    (M10 [viola tremoli fant.])
     (M14 [cello tremolo altissimo: f > p])
     (M7 [bass low tone: fff])
     * intermittent windows of quiet materials shining through.
@@ -218,8 +218,8 @@ ORCHESTRATION:
         M18 [38" tam-tam acc. to china cymbal] +
         M14 [30" tam-tam acc. to string tremolo altissimo])
     --
-    (M14 [(violinist) shakers: fff])
-    (M14 [(violist) shakers: fff])
+    (M10 [violin tremoli fant.])
+    (M10 [viola tremoli fant.])
     (M14 [cello tremolo altissimo: p > ppp])
     (M7 [bass low tone: fff])
     * intermittent windows of quiet materials shining through.
@@ -241,8 +241,8 @@ ORCHESTRATION:
         M18 [38" tam-tam acc. to china cymbal] +
         M14 [30" tam-tam acc. to string tremolo altissimo])
     --
-    (M14 [(violinist) shakers: fff])
-    (M14 [(violist) shakers: fff])
+    (AUX [violin pedal tone.])
+    (AUX [viola pedal tone.])
     (M14 [cello tremolo altissimo: ppp])
     (M7 [bass low tone: fff])
     * intermittent windows of quiet materials shining through.
