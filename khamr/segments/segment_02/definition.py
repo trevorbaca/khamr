@@ -64,10 +64,6 @@ stage_5_silence_mask = rhythmmakertools.SilenceMask(
         ],
     )
 
-string_tuplet_spelling_specifier = rhythmmakertools.TupletSpellingSpecifier(
-    flatten_trivial_tuplets=True,
-    )
-
 guitar_accelerando = rhythmmakertools.InterpolationSpecifier(
     start_duration=Duration(1, 4),
     stop_duration=Duration(1, 8),

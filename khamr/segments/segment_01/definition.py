@@ -333,16 +333,81 @@ segment_maker.make_music_maker(
 
 ### VIOLIN ###
 
+segment_maker.make_music_maker(
+    stages=(6, 7),
+    context_name=vn,
+    division_maker=quarter_division_maker,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        tuplet_ratios=string_tuplet_ratios_4,
+        tuplet_spelling_specifier=string_tuplet_spelling_specifier,
+        ),
+    )
+
 ### VIOLA ###
+
+segment_maker.make_music_maker(
+    stages=(6, 7),
+    context_name=va,
+    division_maker=quarter_division_maker,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        tuplet_ratios=string_tuplet_ratios_3,
+        tuplet_spelling_specifier=string_tuplet_spelling_specifier,
+        ),
+    )
 
 ### CELLO ###
 
+segment_maker.make_music_maker(
+    stages=(6, 7),
+    context_name=vc,
+    division_maker=quarter_division_maker,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        tuplet_ratios=string_tuplet_ratios_2,
+        tuplet_spelling_specifier=string_tuplet_spelling_specifier,
+        ),
+    )
+
 ### CONTRABASS ###
 
-
-
-
-
+segment_maker.make_music_maker(
+    stages=(1, 7),
+    context_name=cb,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        output_masks=[
+            rhythmmakertools.sustain_every(
+                [0, 1, 4, 6],
+                period=7,
+                )
+            ],
+        tuplet_ratios=[
+            (6, 1), (6, 1), (6, 1),
+            (4, 1), (4, 1), (4, 1),
+            (3, 1), (3, 1), (3, 1),
+            (2, 1), (2, 1), (2, 1),
+            ],
+        tuplet_spelling_specifier=string_tuplet_spelling_specifier,
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            )
+        )
+    )
 
 ###############################################################################
 ############################### MUSIC-HANDLERS ################################

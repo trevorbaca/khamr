@@ -99,5 +99,5 @@ contrabassName = \markup {
     }
 shortContrabassName = \markup {
     \hcenter-in #shortSpace
-    \with-color #color \bracket \pad-around #pad Vb.
+    \with-color #color \bracket \pad-around #pad Cb.
     }
