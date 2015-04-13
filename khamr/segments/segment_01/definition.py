@@ -171,6 +171,7 @@ segment_maker.make_music_maker(
         .split_by_durations(
             durations=[(1, 4)],
             ),
+    rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
         output_masks=[
             rhythmmakertools.silence_every([1, 2, 3, 5, 6, 7, 8], period=9),
@@ -289,6 +290,7 @@ segment_maker.make_music_maker(
         .split_by_durations(
             durations=[(1, 4)],
             ),
+    rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
         output_masks=[
             rhythmmakertools.silence_every([1, 2, 3, 5, 6, 7, 8], period=9),
@@ -334,6 +336,31 @@ segment_maker.make_music_maker(
 ### VIOLIN ###
 
 segment_maker.make_music_maker(
+    stages=(1, 5),
+    context_name=vn,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        output_masks=[
+            rhythmmakertools.sustain_every(
+                [0, 1, 2, 5],
+                period=7,
+                )
+            ],
+        tuplet_ratios=[
+            (4, 1), (4, 1), (4, 1),
+            (3, 1), (3, 1), (3, 1),
+            (2, 1), (2, 1), (2, 1),
+            (6, 1), (6, 1), (6, 1),
+            ],
+        tuplet_spelling_specifier=string_tuplet_spelling_specifier,
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            )
+        )
+    )
+
+segment_maker.make_music_maker(
     stages=(6, 7),
     context_name=vn,
     division_maker=quarter_division_maker,
@@ -365,20 +392,74 @@ segment_maker.make_music_maker(
         ),
     )
 
-### CELLO ###
-
 segment_maker.make_music_maker(
-    stages=(6, 7),
-    context_name=vc,
-    division_maker=quarter_division_maker,
+    stages=(1, 5),
+    context_name=va,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        output_masks=[
+            rhythmmakertools.sustain_every(
+                [1, 2, 3, 6],
+                period=7,
+                )
+            ],
+        tuplet_ratios=[
+            (3, 1), (3, 1), (3, 1),
+            (2, 1), (2, 1), (2, 1),
+            (6, 1), (6, 1), (6, 1),
+            (4, 1), (4, 1), (4, 1),
+            ],
+        tuplet_spelling_specifier=string_tuplet_spelling_specifier,
         tie_specifier=rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
             use_messiaen_style_ties=True,
-            ),
-        tuplet_ratios=string_tuplet_ratios_2,
+            )
+        )
+    )
+
+### CELLO ###
+
+segment_maker.make_music_maker(
+    stages=(1, 3),
+    context_name=vc,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        output_masks=[
+            rhythmmakertools.sustain_every(
+                [0, 2, 3, 4],
+                period=7,
+                )
+            ],
+        tuplet_ratios=[
+            (2, 1), (2, 1), (2, 1),
+            (6, 1), (6, 1), (6, 1),
+            (4, 1), (4, 1), (4, 1),
+            (3, 1), (3, 1), (3, 1),
+            ],
         tuplet_spelling_specifier=string_tuplet_spelling_specifier,
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            )
+        )
+    )
+
+segment_maker.make_music_maker(
+    stages=(4, 7),
+    context_name=vc,
+    division_maker=makertools.DivisionMaker()
+        .split_by_durations(
+            durations=[(1, 4)],
+            ),
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        output_masks=[
+            rhythmmakertools.silence_every([1, 2, 3, 5, 6, 7, 8], period=9),
+            ],
+        tuplet_ratios=[
+            (-1, 1, -1), (-1, 1, -1), (-1, 1, -2), (-3, 1, -1),
+            (-1, 2), (-2, 1, -1), (-2, 1, -1), (-3, 1, -1),
+            ],
         ),
     )
 
