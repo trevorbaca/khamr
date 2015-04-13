@@ -1,4 +1,4 @@
-% 2015-04-13 10:29
+% 2015-04-13 10:50
 
 \version "2.19.17"
 \language "english"
@@ -289,184 +289,358 @@
             \context FluteMusicStaff = "Flute Music Staff" {
                 \clef "treble"
                 \context FluteMusicVoice = "Flute Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Bass
+                                    flute
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Bass
+                                    fl.
+                                }
+                        }
+                    c''2
+                    c''2 \repeatTie
+                    c''1. \repeatTie
+                    c''4. \repeatTie
+                    r8
+                    c''4
+                    c''1 \repeatTie
+                    c''2. \repeatTie
+                    c''2 \repeatTie
+                    c''8 \repeatTie
+                    r4.
+                    r2.
+                    r2
+                    c''1
+                    c''2. \repeatTie
+                    c''2 \repeatTie
+                    c''8 \repeatTie
+                    r8
+                    c''4
+                    c''2. \repeatTie
+                    c''2 \repeatTie
+                    c''4. \repeatTie
+                    c''4 \repeatTie
+                    r8
+                    r2
+                    r1.
+                    c''2
+                    c''2. \repeatTie
+                    c''2 \repeatTie
+                    c''2. \repeatTie
+                    c''8 \repeatTie
+                    r8
+                    c''2.
+                    c''1. \repeatTie
+                    c''2 \repeatTie
+                    c''8 \repeatTie
+                    r4.
+                    r2.
+                    r2
+                    c''2
+                    c''2 \repeatTie
+                    c''2 \repeatTie
+                    c''2. \repeatTie
+                    c''4. \repeatTie
+                    c''4 \repeatTie
+                    r8
+                    c''1
+                    c''2. \repeatTie
+                    c''4 \repeatTie
+                    r8
+                    r4.
+                    r1
+                    r4
+                    c''1
+                    c''2. \repeatTie
+                    c''2 \repeatTie
+                    c''8 \repeatTie
+                    r8
+                    c''4
+                    c''1 \repeatTie
+                    c''2. \repeatTie
+                    c''4. \repeatTie
+                    r8
+                    r2.
+                    r2
+                    r2.
+                    c''2.
+                    c''4. \repeatTie
+                    r8
                 }
             }
             \tag winds.oboe
             \context OboeMusicStaff = "Oboe Music Staff" {
                 \clef "treble"
                 \context OboeMusicVoice = "Oboe Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    English
+                                    horn
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Eng.
+                                    hn.
+                                }
+                        }
+                    g'2
+                    g'2 \repeatTie
+                    g'1. \repeatTie
+                    g'2. \repeatTie
+                    g'8 \repeatTie
+                    r2..
+                    r2.
+                    r4
+                    g'2.
+                    g'2. \repeatTie
+                    g'2 \repeatTie
+                    g'4. \repeatTie
+                    r8
+                    g'2
+                    g'2. \repeatTie
+                    g'1 \repeatTie
+                    g'8 \repeatTie
+                    r8
+                    r2
+                    r2
+                    r2.
+                    g'2
+                    g'1. \repeatTie
+                    g'4. \repeatTie
+                    r8
+                    g'2.
+                    g'2 \repeatTie
+                    g'2. \repeatTie
+                    g'1 \repeatTie
+                    g'4 \repeatTie
+                    r8
+                    r2.
+                    r4.
+                    r2
+                    r4
+                    g'4
+                    g'2. \repeatTie
+                    g'1 \repeatTie
+                    g'4. \repeatTie
+                    r8
+                    g'2
+                    g'1. \repeatTie
+                    g'2.. \repeatTie
+                    r8
+                    r2.
+                    r2.
+                    r4
+                    g'2.
+                    g'2. \repeatTie
+                    g'4. \repeatTie
+                    r8
+                    g'2.
+                    g'1 \repeatTie
+                    g'1 \repeatTie
+                    g'8 \repeatTie
+                    r8
+                    r2
+                    r2
+                    r2.
+                    g'2
+                    g'1. \repeatTie
+                    g'4. \repeatTie
+                    r8
                 }
             }
             \tag winds.clarinet
             \context ClarinetMusicStaff = "Clarinet Music Staff" {
                 \clef "treble"
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Bass
+                                    clarinet
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Bass
+                                    cl.
+                                }
+                        }
+                    d''2
+                    d''2 \repeatTie
+                    d''2. \repeatTie
+                    d''4. \repeatTie
+                    d''4 \repeatTie
+                    r8
+                    r2.
+                    r2.
+                    d''4
+                    d''2. \repeatTie
+                    d''1 \repeatTie
+                    d''2 \repeatTie
+                    d''8 \repeatTie
+                    r8
+                    r2
+                    r1
+                    d''2.
+                    d''1 \repeatTie
+                    d''2 \repeatTie
+                    d''8 \repeatTie
+                    r8
+                    d''2
+                    d''2. \repeatTie
+                    d''2 \repeatTie
+                    d''4. \repeatTie
+                    d''4 \repeatTie
+                    r8
+                    d''2.
+                    d''2 \repeatTie
+                    d''2.. \repeatTie
+                    r4.
+                    r2.
+                    r2.
+                    d''4
+                    d''1. \repeatTie
+                    d''2 \repeatTie
+                    d''2 \repeatTie
+                    d''8 \repeatTie
+                    r8
+                    r2
+                    r1
+                    d''2
+                    d''2 \repeatTie
+                    d''1. \repeatTie
+                    d''4. \repeatTie
+                    r8
+                    d''2
+                    d''2. \repeatTie
+                    d''2. \repeatTie
+                    d''8 \repeatTie
+                    r8
+                    d''2.
+                    d''2. \repeatTie
+                    d''4. \repeatTie
+                    r8
+                    r2.
+                    r2.
+                    d''4
+                    d''1 \repeatTie
+                    d''2. \repeatTie
+                    d''4. \repeatTie
+                    r8
+                    r2.
+                    r2
+                    r2.
+                    d''2.
+                    d''4. \repeatTie
+                    r8
                 }
             }
             \tag winds.saxophone
             \context SaxophoneMusicStaff = "Saxophone Music Staff" {
                 \clef "treble"
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Baritone
+                                    saxophone
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Bar.
+                                    sax.
+                                }
+                        }
+                    a''2
+                    a''2 \repeatTie
+                    a''1. \repeatTie
+                    a''2. \repeatTie
+                    a''2 \repeatTie
+                    a''8 \repeatTie
+                    r4.
+                    r2.
+                    r2.
+                    a''4
+                    a''2. \repeatTie
+                    a''2 \repeatTie
+                    a''2.. \repeatTie
+                    r8
+                    r2.
+                    r2.
+                    a''4
+                    a''2. \repeatTie
+                    a''2 \repeatTie
+                    a''2. \repeatTie
+                    a''4. \repeatTie
+                    r8
+                    a''1.
+                    a''2 \repeatTie
+                    a''4. \repeatTie
+                    r8
+                    a''2.
+                    a''2. \repeatTie
+                    a''1 \repeatTie
+                    a''1. \repeatTie
+                    a''8 \repeatTie
+                    r4.
+                    r2
+                    r2.
+                    a''1
+                    a''2 \repeatTie
+                    a''2 \repeatTie
+                    a''4. \repeatTie
+                    a''4 \repeatTie
+                    r8
+                    r2.
+                    r1
+                    a''2.
+                    a''2. \repeatTie
+                    a''1 \repeatTie
+                    a''8 \repeatTie
+                    r8
+                    a''1
+                    a''2. \repeatTie
+                    a''8 \repeatTie
+                    r8
+                    a''2.
+                    a''1 \repeatTie
+                    a''2. \repeatTie
+                    a''2 \repeatTie
+                    a''4. \repeatTie
+                    a''4 \repeatTie
+                    r8
+                    r2
+                    r1.
+                    a''4.
+                    r8
                 }
             }
         >>
