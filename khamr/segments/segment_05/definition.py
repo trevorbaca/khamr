@@ -74,6 +74,24 @@ segment_maker.copy_music_maker(
 
 ### PIANO ###
 
+segment_maker.make_music_maker(
+    stages=(1, 9),
+    context_name=pf,
+    division_maker=beat_division_maker
+        .flatten()
+        .fuse_by_counts(
+            counts=[10, 4, 14, 10, 4, 8],
+            )
+        ,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        output_masks=rhythmmakertools.silence_every([1, 4], period=5),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        ),
+    )
+
 ### PERCUSSION ###
 
 ### VIOLIN ###
@@ -115,6 +133,13 @@ segment_maker.make_music_handler(
     )
 
 ### PIANO ###
+
+segment_maker.make_music_handler(
+    scope=(pf, (1, 9)),
+    specifiers=[
+        stem_tremolo,
+        ]
+    )
 
 ### PERCUSSION ###
 
