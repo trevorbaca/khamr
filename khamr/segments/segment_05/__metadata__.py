@@ -17,8 +17,8 @@ metadata = datastructuretools.TypedOrderedDict(
                     ('Percussion Staff', 'percussion'),
                     ('Piano Music Staff', 'treble'),
                     ('Saxophone Music Staff', 'treble'),
-                    ('Viola Music Staff', 'alto'),
-                    ('Violin Music Staff', 'treble'),
+                    ('Viola Music Staff', 'percussion'),
+                    ('Violin Music Staff', 'percussion'),
                     ]
                 ),
             ),
@@ -35,8 +35,8 @@ metadata = datastructuretools.TypedOrderedDict(
                     ('Percussion Staff', 'percussion'),
                     ('Piano Music Staff', None),
                     ('Saxophone Music Staff', None),
-                    ('Viola Music Staff', None),
-                    ('Violin Music Staff', None),
+                    ('Viola Music Staff', 'percussion'),
+                    ('Violin Music Staff', 'percussion'),
                     ]
                 ),
             ),

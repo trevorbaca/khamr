@@ -114,7 +114,78 @@ segment_maker.make_music_maker(
 
 ### VIOLIN ###
 
+segment_maker.make_music_maker(
+    stages=(1, 5),
+    context_name=vn,
+    division_maker=quarter_division_maker,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        tuplet_ratios=string_tuplet_ratios_4,
+        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+            flatten_trivial_tuplets=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(6, 6),
+    context_name=vn,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        output_masks=rhythmmakertools.silence_last(),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            )
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(7, 9),
+    context_name=vn,
+    clef='percussion',
+    instrument=khamr.materials.instruments['caxixi'],
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            )
+        ),
+    )
+
 ### VIOLA ###
+
+segment_maker.make_music_maker(
+    stages=(1, 5),
+    context_name=va,
+    division_maker=quarter_division_maker,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        tuplet_ratios=string_tuplet_ratios_3,
+        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+            flatten_trivial_tuplets=True,
+            ),
+        ),
+    )
+
+segment_maker.copy_music_maker(
+    vn,
+    6,
+    context_name=va,
+    )
+
+segment_maker.copy_music_maker(
+    vn,
+    7,
+    context_name=va,
+    )
 
 ### CELLO ###
 
@@ -137,6 +208,35 @@ segment_maker.make_music_maker(
     )
 
 ### CONTRABASS ###
+
+segment_maker.make_music_maker(
+    stages=(1, 5),
+    context_name=cb,
+    division_maker=beat_division_maker
+        .flatten()
+        .fuse_by_counts(
+            counts=[12, 4, 12, 6, 8, 14, 6],
+            ),
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(6, 6),
+    context_name=cb,
+    division_maker=beat_division_maker,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(),
+    )
+
+segment_maker.copy_music_maker(
+    cb,
+    1,
+    stages=(7, 7),
+    )
 
 ###############################################################################
 ############################## MUSIC-HANDLERS #################################
@@ -187,6 +287,22 @@ segment_maker.make_music_handler(
     )
 
 ### VIOLIN ###
+
+segment_maker.make_music_handler(
+    scope=([vn, va], (1, 5)),
+    specifiers=[
+        stem_tremolo,
+        ]
+    )
+
+segment_maker.make_music_handler(
+    scope=([vn, va], (7, 9)),
+    specifiers=[
+        Dynamic('fff'),
+        shakers,
+        stem_tremolo,
+        ]
+    )
 
 ### VIOLA ###
 
