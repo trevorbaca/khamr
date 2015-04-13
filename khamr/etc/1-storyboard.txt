@@ -136,9 +136,9 @@ ORCHESTRATION:
     (M4 [piano tambour + low note doubling of 38" tam-tam acc. to halo])
     (M4 [struck 38" tam-tam acc. to halo: mp])
     --
-    (M4 [violin acc. to halo] ==> M8 [vn. pizz. fant.])
-    (M4 [viola acc. to halo] ==> M8 [va. buzz clb fant.])
-    (M4 [cello acc. to halo] ==> M8 [vc. buzz clb fant.)
+    (M4 [violin acc. to halo])
+    (M4 [viola acc. to halo])
+    (M4 [cello acc. to halo])
     (M4 [contrabass halo: "f"])
     * bass flute acc. M4 to halo incl. double harmonics, whistle tones
     * english horn air tone (w/o reed) mixes inhales and exhales
@@ -168,10 +168,9 @@ ORCHESTRATION:
     (M16 [groaned bass drum initiation to string tremolo descent];
         M4 [struck 38" tam-tam acc. to halo: mp])
     --
-++++(M16 [violin extremely long string tremolo descent: start] +
-        M8 [vn. pizz. fant.])
-    (M4 [viola acc. to halo] ==> M8 [va. buzz clb fant.])
-    (M4 [cello acc. to halo] ==> M8 [vc. buzz clb fant.)
+++++(M16 [violin extremely long string tremolo descent: start])
+    (M4 [viola acc. to halo])
+    (M4 [cello acc. to halo])
     (M5 [contrabass extremely quiet low tone])
     * bass flute acc. M4 to halo incl. double harmonics, whistle tones
     * english horn air tone (w/o reed) mixes inhales and exhales
@@ -201,10 +200,9 @@ ORCHESTRATION:
 ++++(M4 [struck 38" tam-tam acc. to halo: mp] +
         M15 [woodblock underspine: start])
     --
-    (M16 [violin extremely long string tremolo descent] +
-        M8 [vn. pizz. fant.])
-    (M4 [viola acc. to halo] ==> M8 [va. buzz clb fant.])
-    (M4 [cello acc. to halo] ==> M8 [vc. buzz clb fant.)
+    (M16 [violin extremely long string tremolo descent])
+    (M4 [viola acc. to halo])
+    (M8 [cello pizzicati fantastiques])
     (M5 [contrabass extremely quiet low tone])
     * bass flute acc. M4 to halo incl. double harmonics, whistle tones
     * bass fl. M6 incl. levine 38/40(B4), 54/64(C5), 85/93(C#5)
@@ -240,10 +238,9 @@ ORCHESTRATION:
         M6 [sparse triangle acc. to marimba pedal point] +
         M16 [groaned bass drum articulation of string tremolo hand-off])
     --
-    (M8 [violin pizzicati fantastiques: climax])
-    (M16 [viola extremely long string tremolo descent] +
-        M8 [viola buzz clb fantastiques: climax])
-    (M8 [cello buzz clb fantastiques: climax])
+    (M4 [violin acc. to halo])
+    (M16 [viola extremely long string tremolo descent])
+    (M8 [cello pizzicati fantastiques])
     (M5 [contrabass extremely quiet low tone] ==> M4 [contrabass halo: "f")
     * bass flute acc. M4 to halo incl. double harmonics, whistle tones
     * bass fl. M6 incl. levine 38/40(B4), 54/64(C5), 85/93(C#5)
@@ -280,11 +277,10 @@ ORCHESTRATION:
         M6 [marimba low pedal-point acc. to quiet mult.] +
         M6 [sparse triangle acc. to marimba pedal point])
     --
-    (M8 [violin pizzicati fantastiques] ==> M10 [violin tremoli fantastiques])
-    (M16 [viola extremely long string tremolo descent] +
-        M8 [viola buzz clb fant.] ==> M10 [viola tremoli fantastiques])
-    (M8 [cello buzz clb fantastiques] ==> M10 [cello tremoli fantastiques])
-    (M4 [contrabass halo: "f"] + M10 [contrabass tremoli fantastiques])
+    (M10 [violin tremoli fantastiques])
+    (M10 [viola tremoli fantastiques])
+    (M10 [cello tremoli fantastiques])
+    (M4 [contrabass halo: "f"])
     * dramatic dynamic enveloping on M10 [tremoli fantastiques]
     * bass fl. M6 incl. levine 38/40(B4), 54/64(C5), 85/93(C#5)
     * bass fl. M10 tremoli incl. harmonic tremoli
@@ -316,11 +312,11 @@ ORCHESTRATION:
         M6 [sparse triangle acc. to marimba pedal point] +
         M4 [struck 38" tam-tam acc. to halo: mp])
     --
-    (M8 [violin pizzicati fantastiques] ==> M10 [violin tremoli fantastiques])
-    (M16 [viola extremely long string tremolo descent] +
-        M8 [viola pizzicati fant.] ==> M10 [viola tremoli fantastiques])
-    (M8 [cello pizzicati fantastiques] ==> M10 [cello tremoli fantastiques])
-    (M4 [contrabass halo: "f"] + M10 [contrabass tremoli fantastiques])
+    (M10 [violin tremoli fantastiques])
+    (M10 [viola tremoli fantastiques] +
+        M16 [viola extremely long string tremolo descent])
+    (M10 [cello tremoli fantastiques])
+    (M4 [contrabass halo: "f"])
     * dramatic dynamic enveloping on M10 [tremoli fantastiques]
     * bass fl. M10 tremoli incl. harmonic tremoli
     * english horn M6 are veale numbers 6, 13, 16, 17, 18.
