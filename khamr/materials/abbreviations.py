@@ -73,6 +73,10 @@ string_tuplet_ratios_4 = [
     (1,), (1,), (1, 4),
     ]
 
+string_tuplet_spelling_specifier = rhythmmakertools.TupletSpellingSpecifier(
+    flatten_trivial_tuplets=True,
+    )
+
 ### MARKUP ###
 
 def make_effort_dynamic_markup(dynamic_text, direction=Down):
