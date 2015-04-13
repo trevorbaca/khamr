@@ -1,4 +1,4 @@
-% 2015-04-13 00:05
+% 2015-04-13 11:55
 
 \version "2.19.17"
 \language "english"
@@ -10,7 +10,7 @@
 
 \score {
     \context Score = "Score" \with {
-        currentBarNumber = #73
+        currentBarNumber = #111
     } <<
         \tag winds.flute.oboe.clarinet.saxophone.guitar.piano.percussion.strings.violin.viola.cello.contrabass
         \context TimeSignatureContext = "Time Signature Context" {
@@ -1790,7 +1790,7 @@
             }
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
-                \clef "tenor"
+                \clef "bass"
                 \set Staff.instrumentName = \markup {
                 \hcenter-in
                     #16

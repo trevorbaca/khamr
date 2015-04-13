@@ -295,24 +295,42 @@ segment_maker.copy_music_maker(
 
 ### GUITAR ###
 
+#segment_maker.make_music_maker(
+#    stages=(1, 1),
+#    context_name=gt,
+#    rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
+#        beam_specifier=rhythmmakertools.BeamSpecifier(
+#            use_feather_beams=True,
+#            ),
+#        interpolation_specifiers=[
+#            guitar_accelerando,
+#            guitar_ritardando,
+#            ],
+#        tie_specifier=rhythmmakertools.TieSpecifier(
+#            tie_across_divisions=True,
+#            use_messiaen_style_ties=True,
+#            ),
+#        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+#            use_note_duration_bracket=True,
+#            ),
+#        ),
+#    )
+
 segment_maker.make_music_maker(
     stages=(1, 1),
     context_name=gt,
-    rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
-        beam_specifier=rhythmmakertools.BeamSpecifier(
-            use_feather_beams=True,
+    division_maker=makertools.DivisionMaker()
+        .split_by_durations(
+            durations=[(1, 4)],
             ),
-        interpolation_specifiers=[
-            guitar_accelerando,
-            guitar_ritardando,
+    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        output_masks=[
+            rhythmmakertools.silence_every([1, 2, 3, 5, 6, 7, 8], period=9),
             ],
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            tie_across_divisions=True,
-            use_messiaen_style_ties=True,
-            ),
-        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
-            use_note_duration_bracket=True,
-            ),
+        tuplet_ratios=[
+            (-1, 1, -1), (-1, 1, -1), (-1, 1, -2), (-3, 1, -1),
+            (-1, 2), (-2, 1, -1), (-2, 1, -1), (-3, 1, -1),
+            ],
         ),
     )
 
