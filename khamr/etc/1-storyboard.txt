@@ -106,8 +106,7 @@ ORCHESTRATION:
     (M4 [bass clarinet acc. to halo: niente < p])
     (M4 [baritone sax acc. to halo: niente < p])
     --
-    (M14 [shakers (guitar): fff: very short foreshadow of [5];
-        M4 [guitar pitched tambour doubling of 38" tam-tam acc. to halo])
+    (M4 [guitar pitched tambour doubling of 38" tam-tam acc. to halo])
     (M4 [piano tambour + low note doubling of 38" tam-tam acc. to halo])
     (M4 [struck 38" tam-tam acc. to halo: mp];
         M1 [castanets and triangle: very sparse foreshadow of [3];
