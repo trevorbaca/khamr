@@ -230,7 +230,106 @@ segment_maker.copy_music_maker(
 
 ### PIANO ###
 
+segment_maker.make_music_maker(
+    stages=(1, 3),
+    context_name=pf,
+    instrument=khamr.materials.instruments['piano'],
+    division_maker=beat_division_maker
+        .fuse_by_counts(
+            counts=[20, 8, 20, 4],
+            )
+        ,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            )
+        )
+    )
+
+segment_maker.make_music_maker(
+    stages=(4, 5),
+    context_name=pf,
+    division_maker=makertools.DivisionMaker()
+        .fuse_by_counts(
+            counts=[3, 2],
+            )
+        .flatten()
+        ,
+    rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
+        beam_specifier=rhythmmakertools.BeamSpecifier(
+            use_feather_beams=True,
+            ),
+        interpolation_specifiers=[
+            rhythmmakertools.InterpolationSpecifier(
+                start_duration=Duration(1, 2),
+                stop_duration=Duration(1, 8),
+                written_duration=Duration(1, 16),
+                ),
+            rhythmmakertools.InterpolationSpecifier(
+                start_duration=Duration(1, 8),
+                stop_duration=Duration(1, 2),
+                written_duration=Duration(1, 16),
+                ),
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
+            use_note_duration_bracket=True,
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(6, 6),
+    context_name=pf,
+    division_maker=makertools.DivisionMaker()
+        .split_by_durations(
+            durations=[(1, 4)],
+            ),
+    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        output_masks=[
+            rhythmmakertools.silence_every([1, 2, 3, 5, 6, 7, 8], period=9),
+            ],
+        tuplet_ratios=[
+            (-1, 1, -1), (-1, 1, -1), (-1, 1, -2), (-3, 1, -1),
+            (-1, 2), (-2, 1, -1), (-2, 1, -1), (-3, 1, -1),
+            ],
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(7, 7),
+    context_name=pf,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            )
+        ),
+    )
+
+
 ### PERCUSSION ###
+
+segment_maker.make_music_maker(
+    stages=(1, 7),
+    context_name=perc,
+    instrument=khamr.materials.instruments['piano'],
+    division_maker=beat_division_maker
+        .fuse_by_counts(
+            counts=[20, 8, 20, 4],
+            )
+        ,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            )
+        )
+    )
 
 ### VIOLIN ###
 
