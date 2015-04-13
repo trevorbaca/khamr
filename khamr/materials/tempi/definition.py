@@ -4,6 +4,10 @@ from abjad import *
 
 tempi = datastructuretools.TypedOrderedDict([
     (
+        32,
+        Tempo(Duration(1, 4), 32),
+        ),
+    (
         42,
         Tempo(Duration(1, 4), 42),
         ),
