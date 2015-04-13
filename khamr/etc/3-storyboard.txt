@@ -172,7 +172,7 @@ ORCHESTRATION:
     * contrabass halo M4 incl. multiphonics
 
 
-    [3]
+    [3] [begin accelerando from 63 to 126]
     (M19 [bass flute fluttertongue accompaniment to piano lightning cadenza])
     (M7 [english horn ferocious multiphonics] ==> M3 [solos])
     (M7 [bass clarinet ferocious multiphonics] ==> M3 [solos])
@@ -212,7 +212,7 @@ ORCHESTRATION:
     * contrabass halo M4 incl. multiphonics
 
 
-    [4]
+    [4] [continue accelerando from 63 to 126]
     (M19 [bass flute fluttertongue accompaniment to piano lightning cadenza])
     (M3 [english horn dialoguing solos])
     (M3 [bass clarinet dialoguing solos])
@@ -246,7 +246,7 @@ ORCHESTRATION:
     * contrabass halo M4 incl. multiphonics
 
 
-    [5]
+    [5] [tempo 126]
     (M19 [bass fl. fluttertongue] ==> M1 [flute upper-register prestissimo])
     (M3 [english horn dialoguing solos] ==> M1 [oboe running])
     (M3 [bass clarinet dialoguing solos] ==> M1 [b-flat running])
@@ -283,7 +283,7 @@ ORCHESTRATION:
     * contrabass halo M4 incl. multiphonics
 
 
-    [6]
+    [6] [subito tempo 63]
     (M1 [flute upper-register prestissimo: climax])
     (M1 [oboe upper-register prestissimo: climax])
     (M1 [b-flat clarinet upper-register prestissimo: climax])
@@ -303,7 +303,7 @@ ORCHESTRATION:
     * contrabass halo M4 incl. multiphonics
 
 
-    [7]
+    [7] [continue tempo 63]
     (M1 [flute prestissimo] & M3 [flute solos])
     (M1 [oboe prestissimo] & M3 [oboe solos])
     (M1 [b-flat clarinet prestissimo] & M3 [b-flat clarnet solos])
@@ -331,7 +331,7 @@ ORCHESTRATION:
     * contrabass halo M4 incl. multiphonics
 
 
-    [8]
+    [8] [subito tempo 42]
     (M1 [flute prestissimo] & M3 [flute solos] ==> M2A [bass. fl. air)
     (M1 [oboe prestissimo] & M3 [oboe solos] ==> M2A [oboe air (w/o reed)])
     (M1 [b-flat prestissimo] & M3 [b-flat solos] ==> M2A [b-flat air])

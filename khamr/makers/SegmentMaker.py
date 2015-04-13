@@ -174,6 +174,10 @@ class SegmentMaker(makertools.SegmentMaker):
                 if previous_instrument is None:
                     return
                 copied_previous_instrument = new(previous_instrument)
+                prototype = instrumenttools.Piano
+                if isinstance(copied_previous_instrument, prototype):
+                    copied_previous_instrument._default_scope = \
+                        'PianoMusicStaff'
                 attach(copied_previous_instrument, staff)
 
     def _attach_fermatas(self):
