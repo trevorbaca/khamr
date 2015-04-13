@@ -123,7 +123,54 @@ guitar_ritardando = guitar_accelerando.reverse()
 
 ### FLUTE ###
 
+segment_maker.make_music_maker(
+    stages=(1, 2),
+    context_name=fl,
+    instrument=khamr.materials.instruments['bass flute'],
+    division_maker=makertools.DivisionMaker()
+        .split_by_durations(
+            durations=[(2, 4)],
+            remainder=Right,
+            )
+        .flatten()
+        ,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[8, 16],
+        extra_counts_per_division=[3, 6, 5, 10],
+        output_masks=rhythmmakertools.sustain_every([0, 2, 3], period=5),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),            
+        ),
+    )
+
 ### OBOE ##
+
+segment_maker.make_music_maker(
+    stages=(1, 2),
+    context_name=ob,
+    instrument=khamr.materials.instruments['English horn'],
+    division_maker=makertools.DivisionMaker()
+        .split_by_durations(
+            compound_meter_multiplier=Multiplier(3, 2),
+            durations=[(2, 4)],
+            remainder=Left,
+            )
+        .flatten()
+        ,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[8, 16],
+        extra_counts_per_division=[3, 6, 5, 10],
+        output_masks=rhythmmakertools.sustain_every([1, 2, 4], period=5),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),            
+        ),
+    )
 
 ### CLARINET ###
 

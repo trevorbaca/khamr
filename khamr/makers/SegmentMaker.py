@@ -785,7 +785,7 @@ class SegmentMaker(makertools.SegmentMaker):
             previous_leaf = inspect_(leaf).get_leaf(-1)
             if previous_leaf is None:
                 continue
-            if inspect_(previous_leaf).get_duration < Duration(1, 8):
+            if inspect_(previous_leaf).get_duration() < Duration(1, 8):
                 string = r"shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie"
                 command = indicatortools.LilyPondCommand(string)
                 attach(command, leaf)
