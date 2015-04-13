@@ -20,6 +20,11 @@ va = 'Viola Music Voice'
 vc = 'Cello Music Voice'
 cb = 'Contrabass Music Voice'
 
+### INSTRUMENTS ###
+
+# TODO: make Instrument.default_scope public
+piano = materials.instruments['piano']
+piano._default_scope = 'PianoMusicStaff'
 
 ### RHYTHM-MAKERS ###
 

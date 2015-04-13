@@ -1,4 +1,4 @@
-% 2015-04-11 19:55
+% 2015-04-13 00:07
 
 \version "2.19.17"
 \language "english"
@@ -931,12 +931,12 @@
             \context PianoMusicStaff = "Piano Music Staff" {
                 \clef "treble"
                 \context PianoMusicVoice = "Piano Music Voice" {
-                    \set PianoStaff.instrumentName = \markup {
+                    \set PianoMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
                             Piano
                         }
-                    \set PianoStaff.shortInstrumentName = \markup {
+                    \set PianoMusicStaff.shortInstrumentName = \markup {
                         \hcenter-in
                             #10
                             Pf.
@@ -1265,6 +1265,7 @@
                     c'1. \repeatTie
                     \times 2/3 {
                         r8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4 :32 \f
                     }
                     \times 2/3 {
@@ -1279,6 +1280,7 @@
                     }
                     \times 2/3 {
                         r8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4 :32
                     }
                     {
@@ -1295,6 +1297,7 @@
                     }
                     \times 2/3 {
                         r8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4 :32
                     }
                     \times 2/3 {
@@ -1431,6 +1434,7 @@
                     }
                     \times 2/3 {
                         r8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4 :32 \f
                     }
                     \times 4/5 {
@@ -1439,6 +1443,7 @@
                     }
                     \times 2/3 {
                         r8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4 :32
                     }
                     \times 4/5 {
@@ -1494,6 +1499,7 @@
                     }
                     \times 2/3 {
                         r8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
                     c'2. \repeatTie
@@ -1507,6 +1513,7 @@
                     r1
                     \times 2/3 {
                         r8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
                     c'2 \repeatTie
@@ -1517,6 +1524,7 @@
                     }
                     \times 2/3 {
                         r8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
                     c'2. \repeatTie
@@ -1530,6 +1538,7 @@
                     r2
                     \times 2/3 {
                         r8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
                     c'2 \repeatTie
@@ -1541,6 +1550,7 @@
                     }
                     \times 2/3 {
                         r8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
                     c'1. \repeatTie
