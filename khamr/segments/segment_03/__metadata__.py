@@ -30,7 +30,7 @@ metadata = datastructuretools.TypedOrderedDict(
                     ('Clarinet Music Staff', 'clarinet in B-flat'),
                     ('Contrabass Music Staff', 'contrabass'),
                     ('Flute Music Staff', 'flute'),
-                    ('Guitar Music Staff', None),
+                    ('Guitar Music Staff', 'guitar'),
                     ('Oboe Music Staff', 'oboe'),
                     ('Percussion Staff', 'percussion'),
                     ('Piano Music Staff', 'piano'),

@@ -258,7 +258,6 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(1, 9),
     context_name=perc,
-    instrument=khamr.materials.instruments['large China cymbal'],
     division_maker=beat_division_maker
         .flatten()
         .fuse_by_counts(

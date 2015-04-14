@@ -1,4 +1,4 @@
-% 2015-04-14 12:21
+% 2015-04-14 15:02
 
 \version "2.19.17"
 \language "english"
@@ -1213,34 +1213,18 @@
             \tag percussion
             \context PercussionMusicStaff = "Percussion Staff" {
                 \clef "percussion"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    Percussion
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    Perc.
+                }
                 \context PercussionMusicVoice = "Percussion Music Voice" {
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            \center-column
-                                {
-                                    Large
-                                    China
-                                    cymbal
-                                }
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            \center-column
-                                {
-                                    Ch.
-                                    cym.
-                                    (L)
-                                }
-                        }
                     c'2 :32
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.75)
-                                \box
-                                    "to percussion"
-                            }
                     c'2 :32 \repeatTie
                     c'1. :32 \repeatTie
                     c'2 :32 \repeatTie

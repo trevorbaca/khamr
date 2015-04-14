@@ -1,4 +1,4 @@
-% 2015-04-14 12:20
+% 2015-04-14 15:00
 
 \version "2.19.17"
 \language "english"
@@ -2786,55 +2786,65 @@
             \tag percussion.guitar
             \context GuitarMusicStaff = "Guitar Music Staff" {
                 \clef "treble"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    Guitar
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    Gt.
+                }
                 \context GuitarMusicVoice = "Guitar Music Voice" {
-                    c'2 :32
-                    c'2 :32 \repeatTie
-                    c'1. :32 \repeatTie
-                    c'2. :32 \repeatTie
-                    c'1 :32 \repeatTie
-                    c'2. :32 \repeatTie
-                    c'1 :32 \repeatTie
-                    c'2. :32 \repeatTie
-                    c'2 :32 \repeatTie
-                    c'1 :32 \repeatTie
-                    c'2. :32 \repeatTie
-                    c'1 :32 \repeatTie
-                    c'2. :32 \repeatTie
-                    c'2 :32 \repeatTie
-                    c'2. :32 \repeatTie
-                    c'2 :32 \repeatTie
-                    c'1. :32 \repeatTie
-                    c'2 :32 \repeatTie
-                    c'2. :32 \repeatTie
-                    c'2 :32 \repeatTie
-                    c'2. :32 \repeatTie
-                    c'1 :32 \repeatTie
-                    c'1. :32 \repeatTie
-                    c'2 :32 \repeatTie
-                    c'2 :32 \repeatTie
-                    c'2. :32 \repeatTie
-                    c'1 :32 \repeatTie
-                    c'2 :32 \repeatTie
-                    c'2 :32 \repeatTie
-                    c'1. :32 \repeatTie
-                    c'1 :32 \repeatTie
-                    c'2. :32 \repeatTie
+                    c''2 :32
+                    c''2 :32 \repeatTie
+                    c''1. :32 \repeatTie
+                    c''2. :32 \repeatTie
+                    c''1 :32 \repeatTie
+                    c''2. :32 \repeatTie
+                    c''1 :32 \repeatTie
+                    c''2. :32 \repeatTie
+                    c''2 :32 \repeatTie
+                    c''1 :32 \repeatTie
+                    c''2. :32 \repeatTie
+                    c''1 :32 \repeatTie
+                    c''2. :32 \repeatTie
+                    c''2 :32 \repeatTie
+                    c''2. :32 \repeatTie
+                    c''2 :32 \repeatTie
+                    c''1. :32 \repeatTie
+                    c''2 :32 \repeatTie
+                    c''2. :32 \repeatTie
+                    c''2 :32 \repeatTie
+                    c''2. :32 \repeatTie
+                    c''1 :32 \repeatTie
+                    c''1. :32 \repeatTie
+                    c''2 :32 \repeatTie
+                    c''2 :32 \repeatTie
+                    c''2. :32 \repeatTie
+                    c''1 :32 \repeatTie
+                    c''2 :32 \repeatTie
+                    c''2 :32 \repeatTie
+                    c''1. :32 \repeatTie
+                    c''1 :32 \repeatTie
+                    c''2. :32 \repeatTie
                     r8
-                    c'4
-                    c'4. \repeatTie
-                    c'1 \repeatTie
+                    c''4
+                    c''4. \repeatTie
+                    c''1 \repeatTie
                     r8
-                    c'8
-                    c'2 \repeatTie
-                    c'2 \repeatTie
-                    c'2. \repeatTie
-                    c'1 \repeatTie
+                    c''8
+                    c''2 \repeatTie
+                    c''2 \repeatTie
+                    c''2. \repeatTie
+                    c''1 \repeatTie
                     r1
                     r2.
                     r2
                     r8
-                    c'4
-                    c'4. \repeatTie
+                    c''4
+                    c''4. \repeatTie
                 }
             }
             \tag percussion.piano
@@ -3498,67 +3508,27 @@
             \tag percussion
             \context PercussionMusicStaff = "Percussion Staff" {
                 \clef "percussion"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    Percussion
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    Perc.
+                }
                 \context PercussionMusicVoice = "Percussion Music Voice" {
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            \center-column
-                                {
-                                    Large
-                                    China
-                                    cymbal
-                                }
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            \center-column
-                                {
-                                    Ch.
-                                    cym.
-                                    (L)
-                                }
-                        }
                     c'2 :32
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.75)
-                                \box
-                                    "to percussion"
-                            }
                     c'2 :32 \repeatTie
                     c'1. :32 \repeatTie
                     c'2. :32 \repeatTie
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            \center-column
-                                {
-                                    Bass
-                                    drum
-                                }
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            BD
-                        }
                     c'1 :32
                     c'2. :32 \repeatTie
                     c'1 :32 \repeatTie
                     c'2. :32 \repeatTie
                     c'2 :32 \repeatTie
                     c'1 :32 \repeatTie
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            castanets
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            cast.
-                        }
                     c'4
                     c'4
                     c'4
@@ -3615,16 +3585,6 @@
                     c'4
                     c'4
                     c'4
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            castanets
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            cast.
-                        }
                     c'4.
                     c'8
                     c'4 \repeatTie
@@ -3644,20 +3604,6 @@
                     c'4
                     c'4. \repeatTie
                     c'1 \repeatTie
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            \center-column
-                                {
-                                    Bass
-                                    drum
-                                }
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            BD
-                        }
                     c'2. :32
                     c'2 :32 \repeatTie
                     c'2. :32 \repeatTie
