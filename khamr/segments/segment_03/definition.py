@@ -527,7 +527,6 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(7, 7),
     context_name=perc,
-    instrument=khamr.materials.instruments['marimba'],
     division_maker=makertools.DivisionMaker()
         .fuse_by_counts(
             counts=[2, 3],
