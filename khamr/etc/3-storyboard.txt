@@ -309,7 +309,7 @@ ORCHESTRATION:
     (M2A [b-flat clarinet air])
     (M2A [sopranino sax air])
     --
-    (M1 [guitar "koto" coattacks with prestissimo])
+    (M2A [guitar seaweed guiro])
     (M1 [piano coattacks with prestissimo] ==> M2A [piano seaweed guiro])
     (M1 [castanets and triangle w/ attackless bass drum] ==> 
         M2A [marimba seaweed guiro])
@@ -337,9 +337,7 @@ ORCHESTRATION:
     (M2A [b-flat clarinet air])
     (M2A [sopranino sax air])
     --
-    (M1 [guitar "koto" coattacks with prestissimo ==>
-        M2A [guitar seaweed guiro] +
-        M2A [guitar b-t-nut pizzicati])
+    (M2A [guitar seaweed guiro])
     (M2A [piano seaweed guiro])
     (M2A [marimba seaweed guiro] +
         M1 [attackless bass drum: ppp])
@@ -367,8 +365,7 @@ ORCHESTRATION:
     (M2A [b-flat clarinet air])
     (M2A [sopranino sax air])
     --
-    (M2A [guitar seaweed guiro + b-t-nut pizz.] +
-        M4 [guitar multiphonics 6G/6J acc. to almglocken])
+    (M2A [guitar seaweed guiro])
     (M2A [piano seaweed guiro])
     (M2A [marimba seaweed guiro] +
         M4 [almglocken farewell to M4])
