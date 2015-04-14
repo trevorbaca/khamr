@@ -21,24 +21,32 @@ class ScoreTemplate(abctools.AbjadValueObject):
                 \tag winds.flute
                 \context FluteMusicStaff = "Flute Music Staff" {
                     \clef "treble"
+                    \set Staff.instrumentName = \markup { Bass flute }
+                    \set Staff.shortInstrumentName = \markup { Bass fl. }
                     \context FluteMusicVoice = "Flute Music Voice" {
                     }
                 }
                 \tag winds.oboe
                 \context OboeMusicStaff = "Oboe Music Staff" {
                     \clef "treble"
+                    \set Staff.instrumentName = \markup { English horn }
+                    \set Staff.shortInstrumentName = \markup { Eng. hn. }
                     \context OboeMusicVoice = "Oboe Music Voice" {
                     }
                 }
                 \tag winds.clarinet
                 \context ClarinetMusicStaff = "Clarinet Music Staff" {
                     \clef "treble"
+                    \set Staff.instrumentName = \markup { Bass clarinet }
+                    \set Staff.shortInstrumentName = \markup { Bass cl. }
                     \context ClarinetMusicVoice = "Clarinet Music Voice" {
                     }
                 }
                 \tag winds.saxophone
                 \context SaxophoneMusicStaff = "Saxophone Music Staff" {
                     \clef "treble"
+                    \set Staff.instrumentName = \markup { Baritone saxophone }
+                    \set Staff.shortInstrumentName = \markup { Bar. sax. }
                     \context SaxophoneMusicVoice = "Saxophone Music Voice" {
                     }
                 }
@@ -47,18 +55,24 @@ class ScoreTemplate(abctools.AbjadValueObject):
                 \tag percussion.guitar
                 \context GuitarMusicStaff = "Guitar Music Staff" {
                     \clef "treble"
+                    \set Staff.instrumentName = \markup { Guitar }
+                    \set Staff.shortInstrumentName = \markup { Gt. }
                     \context GuitarMusicVoice = "Guitar Music Voice" {
                     }
                 }
                 \tag percussion.piano
                 \context PianoMusicStaff = "Piano Music Staff" {
                     \clef "treble"
+                    \set PianoMusicStaff.instrumentName = \markup { Piano }
+                    \set PianoMusicStaff.shortInstrumentName = \markup { Pf. }
                     \context PianoMusicVoice = "Piano Music Voice" {
                     }
                 }
                 \tag percussion
                 \context PercussionMusicStaff = "Percussion Staff" {
                     \clef "percussion"
+                    \set Staff.instrumentName = \markup { Percussion }
+                    \set Staff.shortInstrumentName = \markup { Perc. }
                     \context PercussionMusicVoice = "Percussion Music Voice" {
                     }
                 }
@@ -67,24 +81,32 @@ class ScoreTemplate(abctools.AbjadValueObject):
                 \tag strings.violin
                 \context ViolinMusicStaff = "Violin Music Staff" {
                     \clef "treble"
+                    \set Staff.instrumentName = \markup { Violin }
+                    \set Staff.shortInstrumentName = \markup { Vn. }
                     \context ViolinMusicVoice = "Violin Music Voice" {
                     }
                 }
                 \tag strings.viola
                 \context ViolaMusicStaff = "Viola Music Staff" {
                     \clef "alto"
+                    \set Staff.instrumentName = \markup { Viola }
+                    \set Staff.shortInstrumentName = \markup { Va. }
                     \context ViolaMusicVoice = "Viola Music Voice" {
                     }
                 }
                 \tag strings.cello
                 \context CelloMusicStaff = "Cello Music Staff" {
                     \clef "bass"
+                    \set Staff.instrumentName = \markup { Cello }
+                    \set Staff.shortInstrumentName = \markup { Vc. }
                     \context CelloMusicVoice = "Cello Music Voice" {
                     }
                 }
                 \tag strings.contrabass
                 \context ContrabassMusicStaff = "Contrabass Music Staff" {
                     \clef "bass"
+                    \set Staff.instrumentName = \markup { Contrabass }
+                    \set Staff.shortInstrumentName = \markup { Cb. }
                     \context ContrabassMusicVoice = "Contrabass Music Voice" {
                     }
                 }
@@ -132,6 +154,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             )
         self._attach_tag('winds.flute', flute_music_staff)
         attach(Clef('treble'), flute_music_staff)
+        attach(instrumenttools.BassFlute(), flute_music_staff)
         oboe_music_voice = scoretools.Voice(
             [], 
             context_name='OboeMusicVoice',
@@ -144,6 +167,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             )
         self._attach_tag('winds.oboe', oboe_music_staff)
         attach(Clef('treble'), oboe_music_staff)
+        attach(instrumenttools.EnglishHorn(), oboe_music_staff)
         clarinet_music_voice = scoretools.Voice(
             [],
             context_name='ClarinetMusicVoice',
@@ -156,6 +180,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             )
         self._attach_tag('winds.clarinet', clarinet_music_staff)
         attach(Clef('treble'), clarinet_music_staff)
+        attach(instrumenttools.BassClarinet(), clarinet_music_staff)
         saxophone_music_voice = scoretools.Voice(
             [],
             context_name='SaxophoneMusicVoice',
@@ -168,6 +193,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             )
         self._attach_tag('winds.saxophone', saxophone_music_staff)
         attach(Clef('treble'), saxophone_music_staff)
+        attach(instrumenttools.BaritoneSaxophone(), saxophone_music_staff)
         wind_section_staff_group = scoretools.StaffGroup(
             [
                 flute_music_staff,
@@ -192,6 +218,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             )
         self._attach_tag('percussion.guitar', guitar_music_staff)
         attach(Clef('treble'), guitar_music_staff)
+        attach(instrumenttools.Guitar(), guitar_music_staff)
         piano_music_voice = scoretools.Voice(
             [], 
             context_name='PianoMusicVoice',
@@ -204,6 +231,9 @@ class ScoreTemplate(abctools.AbjadValueObject):
             )
         self._attach_tag('percussion.piano', piano_music_staff)
         attach(Clef('treble'), piano_music_staff)
+        piano = instrumenttools.Piano()
+        piano._default_scope = 'PianoMusicStaff'
+        attach(piano, piano_music_staff)
         percussion_music_voice = scoretools.Voice(
             [],
             context_name='PercussionMusicVoice',
@@ -216,6 +246,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             )
         self._attach_tag('percussion', percussion_music_staff)
         attach(Clef('percussion'), percussion_music_staff)
+        attach(instrumenttools.Percussion(), percussion_music_staff)
         percussion_section_staff_group = scoretools.StaffGroup(
             [
                 guitar_music_staff,
@@ -239,6 +270,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             )
         self._attach_tag('strings.violin', violin_music_staff)
         attach(Clef('treble'), violin_music_staff)
+        attach(instrumenttools.Violin(), violin_music_staff)
         viola_music_voice = scoretools.Voice(
             [], 
             context_name='ViolaMusicVoice',
@@ -251,6 +283,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             )
         self._attach_tag('strings.viola', viola_music_staff)
         attach(Clef('alto'), viola_music_staff)
+        attach(instrumenttools.Viola(), viola_music_staff)
         cello_music_voice = scoretools.Voice(
             [], 
             context_name='CelloMusicVoice',
@@ -263,6 +296,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             )
         self._attach_tag('strings.cello', cello_music_staff)
         attach(Clef('bass'), cello_music_staff)
+        attach(instrumenttools.Cello(), cello_music_staff)
         contrabass_music_voice = scoretools.Voice(
             [], 
             context_name='ContrabassMusicVoice',
@@ -275,6 +309,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             )
         self._attach_tag('strings.contrabass', contrabass_music_staff)
         attach(Clef('bass'), contrabass_music_staff)
+        attach(instrumenttools.Contrabass(), contrabass_music_staff)
         string_section_staff_group = scoretools.StaffGroup(
             [
                 violin_music_staff, 
