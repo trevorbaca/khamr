@@ -203,6 +203,8 @@ reiterated_pp = handlertools.ReiteratedDynamicHandler(
     dynamic_name='pp',
     )
 
+remove_reed = Markup('remove reed', direction=Up).larger()
+
 senza_pedale = Markup('senza pedale', direction=Up)
 senza_pedale = senza_pedale.italic()
 senza_pedale = senza_pedale.larger()
