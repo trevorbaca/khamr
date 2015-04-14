@@ -26,11 +26,11 @@ metadata = datastructuretools.TypedOrderedDict(
             'end_instruments_by_staff',
             datastructuretools.TypedOrderedDict(
                 [
-                    ('Cello Music Staff', 'cello'),
+                    ('Cello Music Staff', None),
                     ('Clarinet Music Staff', 'bass clarinet'),
-                    ('Contrabass Music Staff', 'contrabass'),
+                    ('Contrabass Music Staff', None),
                     ('Flute Music Staff', 'piccolo'),
-                    ('Guitar Music Staff', 'guitar'),
+                    ('Guitar Music Staff', None),
                     ('Oboe Music Staff', 'English horn'),
                     ('Percussion Staff', 'percussion'),
                     ('Piano Music Staff', 'piano'),

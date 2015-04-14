@@ -313,13 +313,11 @@ segment_maker.make_music_maker(
         ),
     )
 
-
 ### PERCUSSION ###
 
 segment_maker.make_music_maker(
     stages=(1, 7),
     context_name=perc,
-    instrument=khamr.materials.instruments['piano'],
     division_maker=beat_division_maker
         .fuse_by_counts(
             counts=[20, 8, 20, 4],
