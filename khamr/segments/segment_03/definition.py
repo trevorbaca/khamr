@@ -568,12 +568,225 @@ segment_maker.make_music_maker(
 
 ### VIOLIN ###
 
+segment_maker.make_music_maker(
+    stages=(1, 1),
+    context_name=vn,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(2, 6),
+    context_name=vn,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        output_masks=[
+            rhythmmakertools.sustain_every(
+                [0, 1, 3],
+                period=7,
+                )
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        tuplet_ratios=[
+            (4, 3), (3, 4),
+            (3, 2), (2, 3),
+            (2, 1), (1, 2),
+            ],
+        tuplet_spelling_specifier=string_tuplet_spelling_specifier,
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(7, 9),
+    context_name=vn,
+    division_maker=beat_division_maker
+        .fuse_by_counts(
+            counts=[8, 6, 4, 3],
+            )
+        ,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
+        incise_specifier=rhythmmakertools.InciseSpecifier(
+            prefix_talea=[-1],
+            prefix_counts=[1],
+            suffix_talea=[-1],
+            suffix_counts=[0],
+            talea_denominator=8,
+            ),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
+
 ### VIOLA ###
+
+segment_maker.make_music_maker(
+    stages=(1, 1),
+    context_name=va,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(2, 6),
+    context_name=va,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        output_masks=[
+            rhythmmakertools.sustain_every(
+                [1, 2, 4],
+                period=7,
+                )
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        tuplet_ratios=[
+            (3, 2), (2, 3),
+            (2, 1), (1, 2),
+            (4, 3), (3, 4),
+            ],
+        tuplet_spelling_specifier=string_tuplet_spelling_specifier,
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(7, 9),
+    context_name=va,
+    division_maker=beat_division_maker
+        .fuse_by_counts(
+            counts=[6, 4, 3, 8],
+            )
+        ,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
+        incise_specifier=rhythmmakertools.InciseSpecifier(
+            prefix_talea=[-1],
+            prefix_counts=[1],
+            suffix_talea=[-1],
+            suffix_counts=[0],
+            talea_denominator=8,
+            ),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
 
 ### CELLO ###
 
+segment_maker.make_music_maker(
+    stages=(1, 1),
+    context_name=vc,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(2, 6),
+    context_name=vc,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        output_masks=[
+            rhythmmakertools.sustain_every(
+                [2, 3, 5],
+                period=7,
+                )
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
+        tuplet_ratios=[
+            (2, 1), (1, 2),
+            (4, 3), (3, 4),
+            (3, 2), (2, 3),
+            ],
+        tuplet_spelling_specifier=string_tuplet_spelling_specifier,
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(7, 9),
+    context_name=vc,
+    division_maker=beat_division_maker
+        .fuse_by_counts(
+            counts=[4, 3, 8, 6],
+            )
+        ,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
+        incise_specifier=rhythmmakertools.InciseSpecifier(
+            prefix_talea=[-1],
+            prefix_counts=[1],
+            suffix_talea=[-1],
+            suffix_counts=[0],
+            talea_denominator=8,
+            ),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
+
 ### CONTRABASS ###
 
+segment_maker.make_music_maker(
+    stages=(1, 5),
+    context_name=cb,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        output_masks=[
+            rhythmmakertools.sustain_every(
+                [0, 1, 4, 6],
+                period=7,
+                )
+            ],
+        tuplet_ratios=[
+            (6, 1), (6, 1), (6, 1),
+            (4, 1), (4, 1), (4, 1),
+            (3, 1), (3, 1), (3, 1),
+            (2, 1), (2, 1), (2, 1),
+            ],
+        tuplet_spelling_specifier=string_tuplet_spelling_specifier,
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            )
+        )
+    )
+
+segment_maker.make_music_maker(
+    stages=(6, 9),
+    context_name=cb,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        output_masks=[
+            rhythmmakertools.silence_every([2], period=3),
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
 
 ###############################################################################
 ############################### MUSIC-HANDLERS ################################
