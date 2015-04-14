@@ -115,12 +115,10 @@ ORCHESTRATION:
     (M7 [bass clarinet ferocious multiphonics: climax])
     (M7 [baritone sax ferocious multiphonics: climax])
     --
-    (M19 [guitar mandolin line accompaniment to piano lightning cadenza] +
-        M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
+    (M19 [guitar half-harmonic tremolo])
     (M19 [piano lightning cadenza])
     (M18 [china cymbla miasma: f < ff > f < ff > f < ff] +
         M18 [30" tam-tam acc. to china cymbal] +
-++++++++M1 [castanets and triangle: relatively thin] +
         M16 [groaned bass drum articulation of string tremolo termination])
     --
     (M19 [violin mandolin line accompaniment to piano lightning cadenza])
@@ -148,12 +146,10 @@ ORCHESTRATION:
     (M7 [bass clarinet ferocious multiphonics: climax])
     (M7 [baritone sax ferocious multiphonics: climax])
     --
-    (M19 [guitar half-harmonic mandolin line acc. to piano lightning cadenza] +
-        M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
+    (M19 [guitar half-harmonic tremolo])
     (M19 [piano lightning cadenza])
     (M18 [china cymbla miasma: mf < f > mf < f > mf < f] +
-        M18 [30" tam-tam acc. to china cymbal] +
-        M1 [castanets and triangle: relatively thin])
+        M18 [30" tam-tam acc. to china cymbal])
     --
     (M19 [violin mandolin line accompaniment to piano lightning cadenza])
     (M9 [viola sost. fant. + tailpiece] ==> M10 [viola tremoli fantastiques])
@@ -178,13 +174,9 @@ ORCHESTRATION:
     tacet (change instrument)
     tacet (change instrument)
     --
-    (M19 [guitar half-harmonic mandolin line acc. to piano lightning cadenza] +
-        M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
+    (M19 [guitar half-harmonic tremolo])
     (M19 [piano lightning cadenza])
-----(M18 [china cymbla miasma: p < mf > p < mf > p > niente] +
-        M18 [30" tam-tam acc. to china cymbal] +
-        M1 [castanets and triangle: relatively thin] +
-        M1 [attackless bass drum: ppp])
+    (M1 [attackless bass drum: ppp])
     --
     (M19 [violin mandolin line accompaniment to piano lightning cadenza])
     (M9 [viola sost. fant. + tailpiece] ==> M10 [viola tremoli fantastiques])
@@ -218,10 +210,9 @@ ORCHESTRATION:
     tacet (change instrument)
     tacet (change instrument)
     --
-    (M19 [guitar half-harmonic mandolin line acc. to piano lightning cadenza])
+    (M19 [guitar half-harmonic tremolo])
     (M19 [piano lightning cadenza])
-    (M1 [castanets and triangle: denser] +
-        M1 [attackless bass drum: ppp])
+    (M1  [attackless bass drum: ppp])
     --
     (M19 [violin mandolin line] ==> M10 [violin tremoli fantastiques])
     (M10 [viola tremoli fantastiques])
@@ -252,10 +243,9 @@ ORCHESTRATION:
     (M1 [b-flat clarinet upper-register prestissimo: climax])
     (M1 [sopranino sax upper-register prestissimo: climax])
     --
-    (M19 [gt. half-harmonic mand.] ==> M1 [gt. "koto" coattacks with flute])
-    (M1 [piano coattacks with prestissimo])
-    (M1 [castanets and triangle] +
-        M1 [attackless bass drum: ppp])
+    (M19 [guitar half-harmonic tremolo])
+    (M1 [piano prestissimo])
+    (M1 [castanets: fff])
     --
     (M10 [violin tremoli fantastiques])
     (M10 [viola tremoli fantastiques])
@@ -289,10 +279,9 @@ ORCHESTRATION:
     (M1 [b-flat clarinet upper-register prestissimo: climax: sub. half tempo])
     (M1 [sopranino sax upper-register prestissimo: climax: sub. half tempo])
     --
-    (M1 [guitar "koto" coattacks with flute])
-    (M1 [piano coattacks with prestissimo])
-    (M1 [castanets and triangle] +
-        (M1 [attackless bass drum: ppp])
+    (M19 [guitar half-harmonic tremolo])
+    (M1 [piano prestissimo])
+    (M1 [castanets: fff])
     --
     (M10 [violin tremoli fantastiques])
     (M10 [viola tremoli fantastiques])
@@ -310,9 +299,8 @@ ORCHESTRATION:
     (M2A [sopranino sax air])
     --
     (M2A [guitar seaweed guiro])
-    (M1 [piano coattacks with prestissimo] ==> M2A [piano seaweed guiro])
-    (M1 [castanets and triangle w/ attackless bass drum] ==> 
-        M2A [marimba seaweed guiro])
+    (M2A [piano seaweed guiro])
+    (M2A [marimba seaweed guiro])
     --
     (M10 [violin tremoli fantastiques])
     (M10 [viola tremoli fantastiques])
@@ -339,8 +327,7 @@ ORCHESTRATION:
     --
     (M2A [guitar seaweed guiro])
     (M2A [piano seaweed guiro])
-    (M2A [marimba seaweed guiro] +
-        M1 [attackless bass drum: ppp])
+    (M4  [attackless bass drum: ppp])
     --
     (M10 [violin tremoli fantastiques] ==> M2A [violin b-t-b clb])
     (M10 [viola tremoli fantastiques] ==> M2A [viola b-t-b clb])
@@ -367,8 +354,7 @@ ORCHESTRATION:
     --
     (M2A [guitar seaweed guiro])
     (M2A [piano seaweed guiro])
-    (M2A [marimba seaweed guiro] +
-        M4 [almglocken farewell to M4])
+    (M4  [attackless bass drum: ppp])
     --
     (M2A [violin b-t-b clb])
     (M2A [viola b-t-b clb])
