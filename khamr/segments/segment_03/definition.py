@@ -39,3 +39,359 @@ assert segment_maker.validate_time_signatures()
 ###############################################################################
 ################################ MUSIC-MAKERS #################################
 ###############################################################################
+
+### FLUTE ###
+
+segment_maker.make_music_maker(
+    stages=(1, 1),
+    context_name=fl,
+    instrument=khamr.materials.instruments['bass flute'],
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(2, 2),
+    context_name=fl,
+    instrument=khamr.materials.instruments['bass flute'],
+    division_maker=beat_division_maker
+        .flatten()
+        .fuse_by_counts(
+            counts=[2, 2, 3, 2],
+            )
+        ,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[8],
+        extra_counts_per_division=[2, 4, 5],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(5, 6),
+    context_name=fl,
+    instrument=khamr.materials.instruments['flute'],
+    division_maker=makertools.DivisionMaker()
+        .fuse_by_counts(
+            counts=mathtools.Infinity,
+            )
+        .split_by_durations(
+            durations=[(7, 16)],
+            )
+        ,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[16],
+        extra_counts_per_division=[1],
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(7, 9),
+    context_name=fl,
+    instrument=khamr.materials.instruments['flute'],
+    division_maker=beat_division_maker
+        .fuse_by_counts(
+            counts=[6, 8, 3, 4],
+            )
+        ,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
+        incise_specifier=rhythmmakertools.InciseSpecifier(
+            prefix_talea=[-1],
+            prefix_counts=[1],
+            suffix_talea=[-1],
+            suffix_counts=[0],
+            talea_denominator=8,
+            ),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
+
+### OBOE ###
+
+segment_maker.make_music_maker(
+    stages=(1, 1),
+    context_name=ob,
+    instrument=khamr.materials.instruments['English horn'],
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(2, 2),
+    context_name=ob,
+    instrument=khamr.materials.instruments['English horn'],
+    division_maker=beat_division_maker
+        .flatten()
+        .fuse_by_counts(
+            counts=[2, 3, 2, 2],
+            )
+        ,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[8],
+        extra_counts_per_division=[4, 5, 2],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(5, 6),
+    context_name=ob,
+    instrument=khamr.materials.instruments['oboe'],
+    division_maker=makertools.DivisionMaker()
+        .fuse_by_counts(
+            counts=mathtools.Infinity,
+            )
+        .split_by_durations(
+            durations=[(5, 16)],
+            )
+        ,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[16],
+        extra_counts_per_division=[1],
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(7, 9),
+    context_name=ob,
+    instrument=khamr.materials.instruments['oboe'],
+    division_maker=beat_division_maker
+        .fuse_by_counts(
+            counts=[8, 3, 4, 6],
+            )
+        ,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
+        incise_specifier=rhythmmakertools.InciseSpecifier(
+            prefix_talea=[-1],
+            prefix_counts=[1],
+            suffix_talea=[-1],
+            suffix_counts=[0],
+            talea_denominator=8,
+            ),
+        output_masks=[
+            rhythmmakertools.silence_first(1),
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
+
+### CLARINET ###
+
+segment_maker.make_music_maker(
+    stages=(1, 1),
+    context_name=cl,
+    instrument=khamr.materials.instruments['bass clarinet'],
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(2, 2),
+    context_name=cl,
+    instrument=khamr.materials.instruments['bass clarinet'],
+    division_maker=beat_division_maker
+        .flatten()
+        .fuse_by_counts(
+            counts=[3, 2, 2, 2],
+            )
+        ,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[8],
+        extra_counts_per_division=[5, 2, 4],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(5, 6),
+    context_name=cl,
+    instrument=khamr.materials.instruments['clarinet'],
+    division_maker=makertools.DivisionMaker()
+        .fuse_by_counts(
+            counts=mathtools.Infinity,
+            )
+        .split_by_durations(
+            durations=[(8, 16)],
+            )
+        ,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[16],
+        extra_counts_per_division=[1],
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(7, 9),
+    context_name=cl,
+    instrument=khamr.materials.instruments['clarinet'],
+    division_maker=beat_division_maker
+        .fuse_by_counts(
+            counts=[3, 4, 6, 8],
+            )
+        ,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
+        incise_specifier=rhythmmakertools.InciseSpecifier(
+            prefix_talea=[-1],
+            prefix_counts=[1],
+            suffix_talea=[-1],
+            suffix_counts=[0],
+            talea_denominator=8,
+            ),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
+
+### SAXOPHONE ###
+
+segment_maker.make_music_maker(
+    stages=(1, 1),
+    context_name=sax,
+    instrument=khamr.materials.instruments['baritone saxophone'],
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(2, 2),
+    context_name=sax,
+    instrument=khamr.materials.instruments['baritone saxophone'],
+    division_maker=beat_division_maker
+        .flatten()
+        .fuse_by_counts(
+            counts=[2, 2, 2, 3],
+            )
+        ,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[8],
+        extra_counts_per_division=[2, 4, 5],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(5, 6),
+    context_name=sax,
+    instrument=khamr.materials.instruments['sopranino saxophone'],
+    division_maker=makertools.DivisionMaker()
+        .fuse_by_counts(
+            counts=mathtools.Infinity,
+            )
+        .split_by_durations(
+            durations=[(6, 16)],
+            )
+        ,
+    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
+        denominators=[16],
+        extra_counts_per_division=[1],
+        ),
+    )
+
+segment_maker.make_music_maker(
+    stages=(7, 9),
+    context_name=sax,
+    instrument=khamr.materials.instruments['sopranino saxophone'],
+    division_maker=beat_division_maker
+        .fuse_by_counts(
+            counts=[4, 6, 8, 3],
+            )
+        ,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
+        incise_specifier=rhythmmakertools.InciseSpecifier(
+            prefix_talea=[-1],
+            prefix_counts=[1],
+            suffix_talea=[-1],
+            suffix_counts=[0],
+            talea_denominator=8,
+            ),
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
+
+### GUITAR ###
+
+### PIANO ###
+
+### PERCUSSION ###
+
+### VIOLIN ###
+
+### VIOLA ###
+
+### CELLO ###
+
+### CONTRABASS ###
+
+
+###############################################################################
+############################### MUSIC-HANDLERS ################################
+###############################################################################
+
+
+### FLUTE ###
+
+### OBOE ###
+
+segment_maker.make_music_handler(
+    scope=(ob, (7, 9)),
+    specifiers=[
+        remove_reed,
+        ]
+    )
+
+### CLARINET ###
+
+### SAXOPHONE ###
+
+### GUITAR ###
+
+### PIANO ###
+
+### PERCUSSION ###
+
+### VIOLIN ###
+
+### VIOLA ###
+
+### CELLO ###
+
+### CONTRABASS ###

@@ -1,4 +1,4 @@
-% 2015-04-13 17:12
+% 2015-04-13 21:24
 
 \version "2.19.17"
 \language "english"
@@ -322,245 +322,2463 @@
             \tag winds.flute
             \context FluteMusicStaff = "Flute Music Staff" {
                 \clef "treble"
-                \set Staff.instrumentName = \markup {
-                \hcenter-in
-                    #16
-                    \center-column
-                        {
-                            Bass
-                            flute
-                        }
-                }
-                \set Staff.shortInstrumentName = \markup {
-                \hcenter-in
-                    #10
-                    \center-column
-                        {
-                            Bass
-                            fl.
-                        }
-                }
                 \context FluteMusicVoice = "Flute Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Bass
+                                    flute
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Bass
+                                    fl.
+                                }
+                        }
+                    c''2
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to bass flute"
+                            }
+                    c''2 \repeatTie
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/8 {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \center-column
+                                    {
+                                        Bass
+                                        flute
+                                    }
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \center-column
+                                    {
+                                        Bass
+                                        fl.
+                                    }
+                            }
+                        c''8 [
+                        c''8
+                        c''8
+                        c''8
+                        c''8
+                        c''8
+                        c''8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c''8 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/10 {
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c''8 \repeatTie [
+                        c''8
+                        c''8
+                        c''8
+                        c''8
+                        c''8
+                        c''8
+                        c''8
+                        c''8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c''8 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/11 {
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c''8 \repeatTie [
+                        c''8
+                        c''8
+                        c''8
+                        c''8
+                        c''8
+                        c''8
+                        c''8
+                        c''8
+                        c''8
+                        c''8 ]
+                    }
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Flute
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Fl.
+                        }
                     R1 * 1
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to flute"
+                            }
                     R1 * 3/4
                     R1 * 1
                     R1 * 5/4
                     R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Flute
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Fl.
+                            }
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 7/8 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \times 4/5 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Flute
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Fl.
+                        }
+                    r8
+                    c'4
+                    c'4. \repeatTie
+                    c'1 \repeatTie
+                    r8
+                    c'8
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    r8
+                    c'8
+                    c'2 \repeatTie
+                    r8
+                    c'8
+                    c'2. \repeatTie
+                    r8
+                    c'8
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    r8
+                    c'4
+                    c'4. \repeatTie
                 }
             }
             \tag winds.oboe
             \context OboeMusicStaff = "Oboe Music Staff" {
                 \clef "treble"
-                \set Staff.instrumentName = \markup {
-                \hcenter-in
-                    #16
-                    \center-column
-                        {
-                            English
-                            horn
-                        }
-                }
-                \set Staff.shortInstrumentName = \markup {
-                \hcenter-in
-                    #10
-                    \center-column
-                        {
-                            Eng.
-                            hn.
-                        }
-                }
                 \context OboeMusicVoice = "Oboe Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    English
+                                    horn
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Eng.
+                                    hn.
+                                }
+                        }
+                    g'2
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to English horn"
+                            }
+                    g'2 \repeatTie
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/10 {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \center-column
+                                    {
+                                        English
+                                        horn
+                                    }
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \center-column
+                                    {
+                                        Eng.
+                                        hn.
+                                    }
+                            }
+                        g'8 [
+                        g'8
+                        g'8
+                        g'8
+                        g'8
+                        g'8
+                        g'8
+                        g'8
+                        g'8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g'8 ]
+                    }
+                    \times 8/13 {
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g'8 \repeatTie [
+                        g'8
+                        g'8
+                        g'8
+                        g'8
+                        g'8
+                        g'8
+                        g'8
+                        g'8
+                        g'8
+                        g'8
+                        g'8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g'8 ]
+                    }
+                    \times 4/6 {
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        g'8 \repeatTie [
+                        g'8
+                        g'8
+                        g'8
+                        g'8
+                        g'8 ]
+                    }
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Oboe
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Ob.
+                        }
                     R1 * 1
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to oboe"
+                            }
                     R1 * 3/4
                     R1 * 1
                     R1 * 5/4
                     R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Oboe
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Ob.
+                            }
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \times 4/5 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Oboe
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Ob.
+                        }
+                    r2.
+                    r1
+                    r2
+                    r8
+                    c'8
+                        ^ \markup {
+                            \larger
+                                "remove reed"
+                            }
+                    c'2 \repeatTie
+                    r8
+                    c'8
+                    c'2 \repeatTie
+                    c'4 \repeatTie
+                    r8
+                    c'8
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    r8
+                    c'8
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
                 }
             }
             \tag winds.clarinet
             \context ClarinetMusicStaff = "Clarinet Music Staff" {
                 \clef "treble"
-                \set Staff.instrumentName = \markup {
-                \hcenter-in
-                    #16
-                    \center-column
-                        {
-                            Bass
-                            clarinet
-                        }
-                }
-                \set Staff.shortInstrumentName = \markup {
-                \hcenter-in
-                    #10
-                    \center-column
-                        {
-                            Bass
-                            cl.
-                        }
-                }
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Bass
+                                    clarinet
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Bass
+                                    cl.
+                                }
+                        }
+                    d''2
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to bass clarinet"
+                            }
+                    d''2 \repeatTie
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/14 {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \center-column
+                                    {
+                                        Bass
+                                        clarinet
+                                    }
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \center-column
+                                    {
+                                        Bass
+                                        cl.
+                                    }
+                            }
+                        d''8 [
+                        d''8
+                        d''8
+                        d''8
+                        d''8
+                        d''8
+                        d''8
+                        d''8
+                        d''8
+                        d''8
+                        d''8
+                        d''8
+                        d''8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        d''8 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/7 {
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        d''8 \repeatTie [
+                        d''8
+                        d''8
+                        d''8
+                        d''8
+                        d''8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        d''8 ]
+                    }
+                    {
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        d''8 \repeatTie [
+                        d''8
+                        d''8
+                        d''8 ]
+                    }
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Clarinet
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Cl.
+                        }
                     R1 * 1
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to clarinet in B-flat"
+                            }
                     R1 * 3/4
                     R1 * 1
                     R1 * 5/4
                     R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
+                    \times 8/9 {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Clarinet
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Cl.
+                            }
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 8/9 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \times 4/5 {
+                        d'16 [
+                        d'16
+                        d'16
+                        d'16
+                        d'16 ]
+                    }
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Clarinet
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Cl.
+                        }
+                    r8
+                    d'4
+                    d'4. \repeatTie
+                    d'4 \repeatTie
+                    r8
+                    d'8
+                    d'2 \repeatTie
+                    d'4 \repeatTie
+                    r8
+                    d'2..
+                    d'2 \repeatTie
+                    r8
+                    d'8
+                    d'1 \repeatTie
+                    d'2. \repeatTie
+                    r8
+                    d'8
+                    d'2 \repeatTie
+                    r8
+                    d'8
+                    d'2 \repeatTie
+                    d'4. \repeatTie
+                    r8
+                    d'4
                 }
             }
             \tag winds.saxophone
             \context SaxophoneMusicStaff = "Saxophone Music Staff" {
                 \clef "treble"
-                \set Staff.instrumentName = \markup {
-                \hcenter-in
-                    #16
-                    \center-column
-                        {
-                            Baritone
-                            saxophone
-                        }
-                }
-                \set Staff.shortInstrumentName = \markup {
-                \hcenter-in
-                    #10
-                    \center-column
-                        {
-                            Bar.
-                            sax.
-                        }
-                }
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Baritone
+                                    saxophone
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Bar.
+                                    sax.
+                                }
+                        }
+                    a''2
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to baritone saxophone"
+                            }
+                    a''2 \repeatTie
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/8 {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \center-column
+                                    {
+                                        Baritone
+                                        saxophone
+                                    }
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \center-column
+                                    {
+                                        Bar.
+                                        sax.
+                                    }
+                            }
+                        a''8 [
+                        a''8
+                        a''8
+                        a''8
+                        a''8
+                        a''8
+                        a''8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a''8 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/10 {
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a''8 \repeatTie [
+                        a''8
+                        a''8
+                        a''8
+                        a''8
+                        a''8
+                        a''8
+                        a''8
+                        a''8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a''8 ]
+                    }
+                    \times 4/5 {
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a''8 \repeatTie [
+                        a''8
+                        a''8
+                        a''8
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a''8 ]
+                    }
+                    {
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        a''8 \repeatTie [
+                        a''8 ]
+                    }
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Sopranino
+                                    saxophone
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Sopr.
+                                    sax.
+                                }
+                        }
                     R1 * 1
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to sopranino saxophone"
+                            }
                     R1 * 3/4
                     R1 * 1
                     R1 * 5/4
                     R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                \center-column
+                                    {
+                                        Sopranino
+                                        saxophone
+                                    }
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                \center-column
+                                    {
+                                        Sopr.
+                                        sax.
+                                    }
+                            }
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a16 [
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16
+                        a16 ]
+                    }
+                    \times 2/3 {
+                        a16 [
+                        a16
+                        a16 ]
+                    }
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Sopranino
+                                    saxophone
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Sopr.
+                                    sax.
+                                }
+                        }
+                    r8
+                    a4
+                    a4. \repeatTie
+                    a2 \repeatTie
+                    r8
+                    a4.
+                    a1 \repeatTie
+                    r8
+                    a8
+                    a2. \repeatTie
+                    a1 \repeatTie
+                    r8
+                    a8
+                    a2 \repeatTie
+                    r8
+                    a8
+                    a2. \repeatTie
+                    r8
+                    a4.
+                    a2. \repeatTie
                 }
             }
         >>

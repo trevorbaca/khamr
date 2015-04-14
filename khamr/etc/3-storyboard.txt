@@ -173,10 +173,10 @@ ORCHESTRATION:
 
 
     [3] [begin accelerando from 63 to 126]
-    (M19 [bass flute fluttertongue accompaniment to piano lightning cadenza])
-    (M7 [english horn ferocious multiphonics] ==> M3 [solos])
-    (M7 [bass clarinet ferocious multiphonics] ==> M3 [solos])
-    (M7 [baritone sax ferocious multiphonics] ==> M3 [solos])
+    tacet (change instrument)
+    tacet (change instrument)
+    tacet (change instrument)
+    tacet (change instrument)
     --
     (M19 [guitar half-harmonic mandolin line acc. to piano lightning cadenza] +
         M18 [guitar crossed-string tamburo acc. to china cymbal miasma])
@@ -213,10 +213,10 @@ ORCHESTRATION:
 
 
     [4] [continue accelerando from 63 to 126]
-    (M19 [bass flute fluttertongue accompaniment to piano lightning cadenza])
-    (M3 [english horn dialoguing solos])
-    (M3 [bass clarinet dialoguing solos])
-    (M3 [baritone sax dialoguing solos])
+    tacet (change instrument)
+    tacet (change instrument)
+    tacet (change instrument)
+    tacet (change instrument)
     --
     (M19 [guitar half-harmonic mandolin line acc. to piano lightning cadenza])
     (M19 [piano lightning cadenza])
@@ -304,7 +304,7 @@ ORCHESTRATION:
 
 
     [7] [continue tempo 63]
-    (M2A [bass flute whistle tones])
+    (M2A [flute whistle tones])
     (M2A [oboe air (w/o reed)])
     (M2A [b-flat clarinet air])
     (M2A [sopranino sax air])
@@ -332,7 +332,7 @@ ORCHESTRATION:
 
 
     [8] [subito tempo 42]
-    (M2A [bass flute whistle tones])
+    (M2A [flute whistle tones])
     (M2A [oboe air (w/o reed)])
     (M2A [b-flat clarinet air])
     (M2A [sopranino sax air])
@@ -362,7 +362,7 @@ ORCHESTRATION:
 
     [9]
     # farewell of M4
-    (M2A [bass flute whistle tones])
+    (M2A [flute whistle tones])
     (M2A [oboe air (w/o reed)])
     (M2A [b-flat clarinet air])
     (M2A [sopranino sax air])
