@@ -137,22 +137,6 @@ class SegmentMaker(makertools.SegmentMaker):
             start_measure = context[start_measure_index]
             attach(markup, start_measure)
 
-    def _attach_missing_start_clefs(self):
-        cached_clefs = self._cached_score_template_start_clefs
-        previous_clefs = self._previous_segment_metadata.get(
-            'end_clefs_by_staff', datastructuretools.TypedOrderedDict())
-        for staff in iterate(self._score).by_class(Staff):
-            if inspect_(staff).has_indicator(Clef):
-                continue
-            first_leaf = inspect_(staff).get_leaf(0)
-            if (first_leaf is None or
-                not inspect_(first_leaf).has_indicator(Clef)):
-                clef_name = previous_clefs.get(staff.name)
-                if clef_name is None:
-                    clef_name = cached_clefs.get(staff.name)
-                clef = Clef(clef_name)
-                attach(clef, staff)
-
     def _apply_previous_segment_end_settings(self):
         if not self._previous_segment_metadata:
             return
@@ -178,7 +162,8 @@ class SegmentMaker(makertools.SegmentMaker):
                 if isinstance(copied_previous_instrument, prototype):
                     copied_previous_instrument._default_scope = \
                         'PianoMusicStaff'
-                attach(copied_previous_instrument, staff)
+                #attach(copied_previous_instrument, staff)
+                self._attach_instrument(copied_previous_instrument, staff)
 
     def _attach_fermatas(self):
         if not self.tempo_map:
@@ -200,6 +185,67 @@ class SegmentMaker(makertools.SegmentMaker):
             assert isinstance(start_skip, scoretools.Skip), start_skip
             directive = new(directive)
             attach(directive, start_skip)
+
+    def _attach_instrument(self, instrument, component, scope=None):
+        effective_staff = inspect_(component).get_effective_staff()
+        effective_staff_name = effective_staff.context_name
+        message = 'can not attach {!r} to {}.'
+        message = message.format(instrument, effective_staff_name)
+        if effective_staff_name == 'FluteMusicStaff':
+            allowable_instruments = (
+                instrumenttools.Flute,
+                instrumenttools.BassFlute,
+                instrumenttools.Piccolo,
+                )
+        elif effective_staff_name == 'ClarinetMusicStaff':
+            allowable_instruments = (
+                instrumenttools.BFlatClarinet,
+                instrumenttools.BassClarinet,
+                )
+        elif effective_staff_name == 'OboeMusicStaff':
+            allowable_instruments = (
+                instrumenttools.Oboe,
+                instrumenttools.EnglishHorn,
+                )
+        elif effective_staff_name == 'SaxophoneMusicStaff':
+            allowable_instruments = (
+                instrumenttools.BaritoneSaxophone,
+                instrumenttools.SopraninoSaxophone,
+                )
+        elif effective_staff_name == 'GuitarMusicStaff':
+            allowable_instruments = (
+                instrumenttools.Guitar,
+                )
+        elif effective_staff_name == 'PianoMusicStaff':
+            allowable_instruments = (
+                instrumenttools.Piano,
+                )
+        elif effective_staff_name == 'PercussionMusicStaff':
+            allowable_instruments = (
+                instrumenttools.Percussion,
+                )
+        elif effective_staff_name == 'ViolinMusicStaff':
+            allowable_instruments = (
+                instrumenttools.Violin,
+                )
+        elif effective_staff_name == 'ViolaMusicStaff':
+            allowable_instruments = (
+                instrumenttools.Viola,
+                )
+        elif effective_staff_name == 'CelloMusicStaff':
+            allowable_instruments = (
+                instrumenttools.Cello,
+                )
+        elif effective_staff_name == 'ContrabassMusicStaff':
+            allowable_instruments = (
+                instrumenttools.Contrabass,
+                )
+        else:
+            message = 'unrecognized staff: {!r}.'
+            message = message.format(effective_staff_name)
+            raise Exception(message)
+        if not isinstance(instrument, allowable_instruments):
+            raise Exception(message)
 
     def _attach_instrument_to_first_leaf(self):
         no_instrument_switches = (
@@ -225,13 +271,27 @@ class SegmentMaker(makertools.SegmentMaker):
                     found_instrument = True
                     break
             if not found_instrument:
-                #message = 'no instrument found for {!r}.'
-                #message = message.format(voice.name)
-                #raise Exception(message)
                 continue
             instrument = copy.deepcopy(instrument)
-            attach(instrument, first_leaf)
+            #attach(instrument, first_leaf)
+            self._attach_instrument(instrument, first_leaf)
         
+    def _attach_missing_start_clefs(self):
+        cached_clefs = self._cached_score_template_start_clefs
+        previous_clefs = self._previous_segment_metadata.get(
+            'end_clefs_by_staff', datastructuretools.TypedOrderedDict())
+        for staff in iterate(self._score).by_class(Staff):
+            if inspect_(staff).has_indicator(Clef):
+                continue
+            first_leaf = inspect_(staff).get_leaf(0)
+            if (first_leaf is None or
+                not inspect_(first_leaf).has_indicator(Clef)):
+                clef_name = previous_clefs.get(staff.name)
+                if clef_name is None:
+                    clef_name = cached_clefs.get(staff.name)
+                clef = Clef(clef_name)
+                attach(clef, staff)
+
     def _attach_rehearsal_mark(self):
         segment_number = self._segment_metadata['segment_number']
         letter_number = segment_number - 1
@@ -693,7 +753,12 @@ class SegmentMaker(makertools.SegmentMaker):
                 if not isinstance(previous_leaf,rest_prototype):
                     #attach(instrument, current_leaf)
                     new_instrument = copy.deepcopy(instrument)
-                    attach(new_instrument, current_leaf, scope=Staff)
+                    #attach(new_instrument, current_leaf, scope=Staff)
+                    self._attach_instrument(
+                        new_instrument, 
+                        current_leaf,
+                        scope=Staff,
+                        )
                     break
         
     def _move_untuned_percussion_markup_to_first_note(self):
