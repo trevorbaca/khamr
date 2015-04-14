@@ -1,4 +1,4 @@
-% 2015-04-14 12:11
+% 2015-04-14 14:56
 
 \version "2.19.17"
 \language "english"
@@ -1154,10 +1154,20 @@
             \tag percussion.guitar
             \context GuitarMusicStaff = "Guitar Music Staff" {
                 \clef "treble"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    Guitar
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    Gt.
+                }
                 \context GuitarMusicVoice = "Guitar Music Voice" {
                     \times 2/3 {
                         r8
-                        c'8
+                        c''8
                         r8
                     }
                     r4
@@ -1165,7 +1175,7 @@
                     r4
                     \times 2/3 {
                         r8
-                        c'4
+                        c''4
                     }
                     r4
                     r4
@@ -1173,63 +1183,63 @@
                     r4
                     \times 2/3 {
                         r8
-                        c'8
+                        c''8
                         r8
                     }
                     r4
                     r4
                     r4
-                    c'1
-                    c'2. \repeatTie
-                    c'1 \repeatTie
-                    c'4 \repeatTie
-                    c'4
-                    c'2.
-                    c'4
-                    c'2.
-                    c'2. \repeatTie
-                    c'1 \repeatTie
-                    c'4 \repeatTie
-                    c'4
-                    c'2.
-                    c'4.
-                    c'4.
-                    c'2 \repeatTie
-                    c'1. :32
+                    c''1
+                    c''2. \repeatTie
+                    c''1 \repeatTie
+                    c''4 \repeatTie
+                    c''4
+                    c''2.
+                    c''4
+                    c''2.
+                    c''2. \repeatTie
+                    c''1 \repeatTie
+                    c''4 \repeatTie
+                    c''4
+                    c''2.
+                    c''4.
+                    c''4.
+                    c''2 \repeatTie
+                    c''1. :32
                     r2
-                    c'1 :32
-                    c'4 :32 \repeatTie
+                    c''1 :32
+                    c''4 :32 \repeatTie
                     r2.
-                    c'1 :32
+                    c''1 :32
                     r1.
                     r4
-                    c'4 :32
+                    c''4 :32
                     r4
-                    c'4 :32
-                    r4
-                    r4
-                    c'4 :32
+                    c''4 :32
                     r4
                     r4
+                    c''4 :32
                     r4
-                    c'4 :32
                     r4
-                    c'4 :32
                     r4
-                    c'4 :32
+                    c''4 :32
+                    r4
+                    c''4 :32
+                    r4
+                    c''4 :32
                     r4.
                     r4.
                     r4.
-                    c'4. :32
+                    c''4. :32
                     r4
                     r4
                     r4
-                    c'4 :32
+                    c''4 :32
                     r4
                     r4
-                    c'4 :32
+                    c''4 :32
                     r4.
-                    c'4. :32
+                    c''4. :32
                 }
             }
             \tag percussion.piano
@@ -1513,6 +1523,16 @@
             \tag percussion
             \context PercussionMusicStaff = "Percussion Staff" {
                 \clef "percussion"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    Percussion
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    Perc.
+                }
                 \context PercussionMusicVoice = "Percussion Music Voice" {
                     c'2
                     c'2 \repeatTie

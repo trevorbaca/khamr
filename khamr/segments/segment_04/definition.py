@@ -326,7 +326,6 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(1, 2),
     context_name=perc,
-    instrument=khamr.materials.instruments['bass drum'],
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         duration_spelling_specifier=rhythmmakertools.DurationSpellingSpecifier(
             spell_metrically=partition_table,
@@ -341,7 +340,6 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(4, 7),
     context_name=perc,
-    instrument=khamr.materials.instruments['snare drum'],
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         duration_spelling_specifier=rhythmmakertools.DurationSpellingSpecifier(
             spell_metrically=partition_table,
@@ -356,7 +354,6 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(9, 12),
     context_name=perc,
-    instrument=khamr.materials.instruments['large China cymbal'],
     division_maker=makertools.DivisionMaker()
         .split_by_durations(
             compound_meter_multiplier=Multiplier(3, 2),
