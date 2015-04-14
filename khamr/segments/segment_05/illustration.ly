@@ -1,4 +1,4 @@
-% 2015-04-14 15:02
+% 2015-04-14 15:17
 
 \version "2.19.17"
 \language "english"
@@ -375,7 +375,6 @@
         \context WindSectionStaffGroup = "Wind Section Staff Group" <<
             \tag winds.flute
             \context FluteMusicStaff = "Flute Music Staff" {
-                \clef "treble"
                 \context FluteMusicVoice = "Flute Music Voice" {
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
@@ -490,7 +489,6 @@
             }
             \tag winds.oboe
             \context OboeMusicStaff = "Oboe Music Staff" {
-                \clef "treble"
                 \context OboeMusicVoice = "Oboe Music Voice" {
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
@@ -662,7 +660,6 @@
             }
             \tag winds.clarinet
             \context ClarinetMusicStaff = "Clarinet Music Staff" {
-                \clef "treble"
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
@@ -839,7 +836,6 @@
             }
             \tag winds.saxophone
             \context SaxophoneMusicStaff = "Saxophone Music Staff" {
-                \clef "treble"
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
@@ -1117,7 +1113,6 @@
             }
             \tag percussion.piano
             \context PianoMusicStaff = "Piano Music Staff" {
-                \clef "treble"
                 \context PianoMusicVoice = "Piano Music Voice" {
                     \set PianoMusicStaff.instrumentName = \markup {
                         \hcenter-in
@@ -1212,7 +1207,6 @@
             }
             \tag percussion
             \context PercussionMusicStaff = "Percussion Staff" {
-                \clef "percussion"
                 \set Staff.instrumentName = \markup {
                 \hcenter-in
                     #16
@@ -1303,7 +1297,6 @@
         \context StringSectionStaffGroup = "String Section Staff Group" <<
             \tag strings.violin
             \context ViolinMusicStaff = "Violin Music Staff" {
-                \clef "treble"
                 \set Staff.instrumentName = \markup {
                 \hcenter-in
                     #16
@@ -1529,7 +1522,6 @@
             }
             \tag strings.viola
             \context ViolaMusicStaff = "Viola Music Staff" {
-                \clef "alto"
                 \set Staff.instrumentName = \markup {
                 \hcenter-in
                     #16
@@ -1722,7 +1714,6 @@
             }
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
-                \clef "bass"
                 \set Staff.instrumentName = \markup {
                 \hcenter-in
                     #16
@@ -1810,7 +1801,6 @@
             }
             \tag strings.contrabass
             \context ContrabassMusicStaff = "Contrabass Music Staff" {
-                \clef "bass"
                 \set Staff.instrumentName = \markup {
                 \hcenter-in
                     #16
