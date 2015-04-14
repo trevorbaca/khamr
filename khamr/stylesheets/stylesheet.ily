@@ -1,5 +1,5 @@
 #(set-default-paper-size "11x17" 'portrait)
-#(set-global-staff-size 10)
+#(set-global-staff-size 11)
 
 \include "default-instrument-names.ily"
 \include "scheme.ily"
@@ -32,10 +32,9 @@
     ragged-bottom = ##t
     ragged-last-bottom = ##t
     right-margin = 5\mm
-    % use (minimum-distance . 60) for final score
     markup-system-spacing = #'(
         (basic-distance . 0)
-        (minimum-distance . 12)
+        (minimum-distance . 40)
         (padding . 0)
         (stretchability . 0)
     )
@@ -53,13 +52,11 @@
     %)
     top-system-spacing = #'(
         (basic-distance . 0)
-        %(minimum-distance . 20)
-        (minimum-distance . 14)
+        (minimum-distance . 20)
         (padding . 0)
         (stretchability . 0)
     )
-    top-margin = 10\mm
-    %top-margin = 0\mm
+    top-margin = 15\mm
 }
 
 \header {
@@ -75,6 +72,7 @@
             \fontsize #14 {
                \line { AL-KITAB AL-KHAMR }
             }
+            " "
             \override #'(font-name . "Palatino Italic")
             \fontsize #3 {
                " for Ensemble Dal Niente "
@@ -217,7 +215,7 @@
         \accepts OboeMusicStaff
         \accepts ClarinetMusicStaff
         \accepts SaxophoneMusicStaff
-        \override StaffGrouper.staff-staff-spacing.minimum-distance = 32
+        \override StaffGrouper.staff-staff-spacing.minimum-distance = 34
         \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 44
     }
     \context {
@@ -274,7 +272,7 @@
         \accepts GuitarMusicStaff
         \accepts PianoMusicStaff
         \accepts PercussionMusicStaff
-        \override StaffGrouper.staff-staff-spacing.minimum-distance = 32
+        \override StaffGrouper.staff-staff-spacing.minimum-distance = 34
         \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 44
     }
     \context {
@@ -346,7 +344,7 @@
         \accepts ViolaMusicStaff
         \accepts CelloMusicStaff
         \accepts ContrabassMusicStaff
-        \override StaffGrouper.staff-staff-spacing.minimum-distance = 32
+        \override StaffGrouper.staff-staff-spacing.minimum-distance = 34
         \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 44
     }
     \context {
