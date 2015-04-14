@@ -121,9 +121,9 @@ ORCHESTRATION:
         M18 [30" tam-tam acc. to china cymbal] +
         M16 [groaned bass drum articulation of string tremolo termination])
     --
-    (M19 [violin mandolin line accompaniment to piano lightning cadenza])
-    (M9 [viola sost. fant. + tailpiece bowing])
-    (M9 [cello sost. fant. + tailpiece bowing])
+    (M9 [violin sost. fant.])
+    (M9 [viola sost. fant.])
+    (M9 [cello sost. fant.])
     (M9 [contrabass sost. fant. + tailpiece bowing] +
 --------M16 [contrabass extremely long string tremolo descent: endpoint: ppp] +
         M4 [contrabass halo])
@@ -151,11 +151,10 @@ ORCHESTRATION:
     (M18 [china cymbla miasma: mf < f > mf < f > mf < f] +
         M18 [30" tam-tam acc. to china cymbal])
     --
-    (M19 [violin mandolin line accompaniment to piano lightning cadenza])
-    (M9 [viola sost. fant. + tailpiece] ==> M10 [viola tremoli fantastiques])
-    (M9 [cello sost. fant. + tailpiece] ==> M10 [cello tremoli fantastiques])
-    (M9 [bass sost. fant. + tailpiece] ==> M10 [bass tremoli fantastiques] +
-        M4 [contrabass halo])
+    (M10 [violin tremoli fantastiques])
+    (M10 [viola tremoli fantastiques])
+    (M10 [cello tremoli fantastiques])
+    (M4 [contrabass halo])
     * V1, V2
     * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle
@@ -178,11 +177,10 @@ ORCHESTRATION:
     (M19 [piano lightning cadenza])
     (M1 [attackless bass drum: ppp])
     --
-    (M19 [violin mandolin line accompaniment to piano lightning cadenza])
-    (M9 [viola sost. fant. + tailpiece] ==> M10 [viola tremoli fantastiques])
-    (M9 [cello sost. fant. + tailpiece] ==> M10 [cello tremoli fantastiques])
-    (M9 [bass sost. fant. + tailpiece] ==> M10 [bass tremoli fantastiques] +
-        M4 [contrabass halo])
+    (M10 [violin tremoli fantastiques])
+    (M10 [viola tremoli fantastiques])
+    (M10 [cello tremoli fantastiques])
+    (M4 [contrabass halo])
     * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle
     * english horn M7 drawn from veale 180, 181, 182, 199.
@@ -214,11 +212,10 @@ ORCHESTRATION:
     (M19 [piano lightning cadenza])
     (M1  [attackless bass drum: ppp])
     --
-    (M19 [violin mandolin line] ==> M10 [violin tremoli fantastiques])
+    (M10 [violin tremoli fantastiques])
     (M10 [viola tremoli fantastiques])
     (M10 [cello tremoli fantastiques])
-    (M10 [contrabass tremoli fantastiques] +
-        M4 [contrabass halo])
+    (M4 [contrabass halo])
     * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle
     * english horn M3 solo materials incl. color finger., trills, microtones,
@@ -250,8 +247,7 @@ ORCHESTRATION:
     (M10 [violin tremoli fantastiques])
     (M10 [viola tremoli fantastiques])
     (M10 [cello tremoli fantastiques])
-    (M10 [contrabass tremoli fantastiques] +
-        M4 [contrabass halo])
+    (M4 [contrabass halo])
     * bass fl. fluttertongue acc. M19 incl. sciarrino whistle tones, aeolian
       sounds, diaphragm accents, jet whistle
     * flutist puts down bass flute and takes flute
@@ -286,8 +282,7 @@ ORCHESTRATION:
     (M10 [violin tremoli fantastiques])
     (M10 [viola tremoli fantastiques])
     (M10 [cello tremoli fantastiques])
-    (M10 [contrabass tremoli fantastiques] +
-        M4 [contrabass halo])
+    (M4 [contrabass halo])
     * contrabass halo M4 detunes IV to G0
     * contrabass halo M4 incl. multiphonics
 
@@ -302,9 +297,9 @@ ORCHESTRATION:
     (M2A [piano seaweed guiro])
     (M2A [marimba seaweed guiro])
     --
-    (M10 [violin tremoli fantastiques])
-    (M10 [viola tremoli fantastiques])
-    (M10 [cello tremoli fantastiques])
+    (M10 [violin clicks])
+    (M10 [viola clicks])
+    (M10 [cello clicks])
     (M4 [contrabass halo])
     * flute M3 solo materials incl. fluttertongue, harmonics, double
       harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
@@ -329,9 +324,9 @@ ORCHESTRATION:
     (M2A [piano seaweed guiro])
     (M4  [attackless bass drum: ppp])
     --
-    (M10 [violin tremoli fantastiques] ==> M2A [violin b-t-b clb])
-    (M10 [viola tremoli fantastiques] ==> M2A [viola b-t-b clb])
-    (M10 [cello tremoli fantastiques] ==> M2A [cello b-t-b clb])
+    (M10 [violin clicks])
+    (M10 [viola clicks])
+    (M10 [cello clicks])
     (M4 [contrabass halo])
     * flute M3 solo materials incl. fluttertongue, harmonics, double
       harmonics, sciarrino whistle tones, pizzicati, key clicks (w+w/o sound),
@@ -356,9 +351,9 @@ ORCHESTRATION:
     (M2A [piano seaweed guiro])
     (M4  [attackless bass drum: ppp])
     --
-    (M2A [violin b-t-b clb])
-    (M2A [viola b-t-b clb])
-    (M2A [cello b-t-b clb])
-----(M4 [contrabass halo])
+    (M10 [violin clicks])
+    (M10 [viola clicks])
+    (M10 [cello clicks])
+    (M4 [contrabass halo])
     * contrabass halo M4 detunes IV to G0
     * contrabass halo M4 incl. multiphonics
