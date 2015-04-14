@@ -1,4 +1,4 @@
-% 2015-04-13 21:39
+% 2015-04-13 22:37
 
 \version "2.19.17"
 \language "english"
@@ -2787,78 +2787,54 @@
             \context GuitarMusicStaff = "Guitar Music Staff" {
                 \clef "treble"
                 \context GuitarMusicVoice = "Guitar Music Voice" {
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            Guitar
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            Gt.
-                        }
-                    c''2 :32
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.75)
-                                \box
-                                    "to guitar"
-                            }
-                    c''2 :32 \repeatTie
-                    c''1. :32 \repeatTie
-                    c''2. :32 \repeatTie
-                    c''1 :32 \repeatTie
-                    c''2. :32 \repeatTie
-                    c''1 :32 \repeatTie
-                    c''1 :32 \repeatTie
-                    c''4 :32 \repeatTie
-                    c''1 :32 \repeatTie
-                    c''2. :32 \repeatTie
-                    c''1 :32 \repeatTie
-                    c''1 :32 \repeatTie
-                    c''4 :32 \repeatTie
-                    c''2. :32 \repeatTie
-                    c''2 :32 \repeatTie
-                    c''1. :32 \repeatTie
-                    c''2 :32 \repeatTie
-                    c''1 :32 \repeatTie
-                    c''4 :32 \repeatTie
-                    c''2. :32 \repeatTie
-                    c''1 :32 \repeatTie
-                    c''1. :32 \repeatTie
-                    c''2 :32 \repeatTie
-                    c''2 :32 \repeatTie
-                    c''2. :32 \repeatTie
-                    c''1 :32 \repeatTie
-                    c''2 :32 \repeatTie
-                    c''2 :32 \repeatTie
-                    c''1. :32 \repeatTie
-                    c''1 :32 \repeatTie
-                    c''2. :32 \repeatTie
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            Guitar
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            Gt.
-                        }
-                    c''2.
-                    c''2.. \repeatTie
+                    c'2 :32
+                    c'2 :32 \repeatTie
+                    c'1. :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'1. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'1. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'1. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'2. :32 \repeatTie
                     r8
-                    c''2.
-                    c''2 \repeatTie
-                    c''2. \repeatTie
-                    c''2.. \repeatTie
+                    c'4
+                    c'4. \repeatTie
+                    c'1 \repeatTie
                     r8
+                    c'8
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'1 \repeatTie
                     r1
                     r2.
                     r2
-                    c''4.
-                    c''4 \repeatTie
                     r8
+                    c'4
+                    c'4. \repeatTie
                 }
             }
             \tag percussion.piano
@@ -2875,86 +2851,843 @@
                     Pf.
                 }
                 \context PianoMusicVoice = "Piano Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
+                    {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \times 2/3 {
+                        c'8 [
+                        c'8
+                        c'8 ]
+                    }
+                    \times 4/5 {
+                        c'16. [
+                        c'16.
+                        c'16.
+                        c'16.
+                        c'16. ]
+                    }
+                    \times 4/5 {
+                        c'16. [
+                        c'16.
+                        c'16.
+                        c'16.
+                        c'16. ]
+                    }
+                    \times 4/5 {
+                        c'16. [
+                        c'16.
+                        c'16.
+                        c'16.
+                        c'16. ]
+                    }
+                    {
+                        c'8 [
+                        c'8
+                        c'8 ]
+                    }
+                    \times 2/3 {
+                        c'8 [
+                        c'8
+                        c'8 ]
+                    }
+                    {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \times 2/3 {
+                        c'8 [
+                        c'8
+                        c'8 ]
+                    }
+                    \times 2/3 {
+                        c'8 [
+                        c'8
+                        c'8 ]
+                    }
+                    \times 4/5 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \times 4/5 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \times 4/5 {
+                        c'16. [
+                        c'16.
+                        c'16.
+                        c'16.
+                        c'16. ]
+                    }
+                    \times 4/5 {
+                        c'16. [
+                        c'16.
+                        c'16.
+                        c'16.
+                        c'16. ]
+                    }
+                    \times 4/5 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \times 2/3 {
+                        c'8 [
+                        c'8
+                        c'8 ]
+                    }
+                    \times 4/5 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \times 4/5 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \times 4/5 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \times 2/3 {
+                        c'8 [
+                        c'8
+                        c'8 ]
+                    }
+                    \times 2/3 {
+                        c'8 [
+                        c'8
+                        c'8 ]
+                    }
+                    {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \times 2/3 {
+                        c'8 [
+                        c'8
+                        c'8 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 9/11 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/7 {
+                        c'16 [
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16
+                        c'16 ]
+                    }
+                    r8
+                    c'4
+                    c'4. \repeatTie
+                    c'1 \repeatTie
+                    r8
+                    c'8
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'1 \repeatTie
+                    r1
+                    r2.
+                    r2
+                    r8
+                    c'4
+                    c'4. \repeatTie
                 }
             }
             \tag percussion
             \context PercussionMusicStaff = "Percussion Staff" {
                 \clef "percussion"
                 \context PercussionMusicVoice = "Percussion Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Large
+                                    China
+                                    cymbal
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Ch.
+                                    cym.
+                                    (L)
+                                }
+                        }
+                    c'2 :32
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to percussion"
+                            }
+                    c'2 :32 \repeatTie
+                    c'1. :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Bass
+                                    drum
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            BD
+                        }
+                    c'1 :32
+                    c'2. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            castanets
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            cast.
+                        }
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    c'4
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            castanets
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            cast.
+                        }
+                    c'4.
+                    c'8
+                    c'4 \repeatTie
+                    c'8
+                    c'4 \repeatTie
+                    c'8
+                    c'4 \repeatTie
+                    c'8
+                    c'4 \repeatTie
+                    c'8
+                    c'4 \repeatTie
+                    c'4.
+                    c'4.
+                    c'4.
+                    c'4.
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Marimba
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Mb.
+                        }
+                    r8
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to marimba"
+                            }
+                    c'4
+                    c'4. \repeatTie
+                    c'1 \repeatTie
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Bass
+                                    drum
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            BD
+                        }
+                    c'2. :32
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to percussion"
+                            }
+                    c'2 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2. :32 \repeatTie
                 }
             }
         >>
