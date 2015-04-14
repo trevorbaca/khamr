@@ -1,4 +1,4 @@
-% 2015-04-13 22:37
+% 2015-04-13 23:27
 
 \version "2.19.17"
 \language "english"
@@ -3706,43 +3706,102 @@
                     Vn.
                 }
                 \context ViolinMusicVoice = "Violin Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
+                    c'2
+                    c'2 \repeatTie
+                    c'1.
+                    c'2.
+                    \times 4/5 {
+                        c'2.
+                        c'2
+                    }
+                    c'2.
+                    \times 2/3 {
+                        c'1
+                        c'2
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/9 {
+                        c'2.
+                        c'1.
+                    }
+                    \times 4/7 {
+                        c'1
+                        c'2.
+                    }
+                    c'2.
+                    c'1
+                    c'2
+                    c'2.
+                    c'2.
+                    \times 2/3 {
+                        c'4
+                        c'2
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        c'1
+                        c'2.
+                    }
+                    \times 4/7 {
+                        c'4.
+                        c'2
+                    }
+                    c'2.
+                    c'2 \repeatTie
+                    c'2.
+                    \times 2/3 {
+                        c'1
+                        c'2
+                    }
+                    c'1.
+                    \times 4/7 {
+                        c'2
+                        c'4.
+                    }
+                    \times 4/7 {
+                        c'4.
+                        c'2
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 3/5 {
+                        c'2.
+                        c'2
+                    }
+                    c'1
+                    c'2
+                    \times 2/3 {
+                        c'4
+                        c'2
+                    }
+                    c'1.
+                    \times 4/7 {
+                        c'2.
+                        c'1
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 3/5 {
+                        c'2.
+                        c'2
+                    }
+                    r8
+                    c'4
+                    c'4. \repeatTie
+                    c'1 \repeatTie
+                    c'2 \repeatTie
+                    r8
+                    c'8
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    r8
+                    c'2..
+                    r8
+                    c'8
+                    c'2 \repeatTie
+                    r8
+                    c'8
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
                 }
             }
             \tag strings.viola
@@ -3759,43 +3818,106 @@
                     Va.
                 }
                 \context ViolaMusicVoice = "Viola Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
+                    c'2
+                    c'2 \repeatTie
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 3/5 {
+                        c'1.
+                        c'1
+                    }
+                    c'2.
+                    c'1
+                    c'4
+                    c'8
+                    c'4. \repeatTie
+                    c'1
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/7 {
+                        c'2.
+                        c'1
+                    }
+                    \times 4/5 {
+                        c'2.
+                        c'2
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 3/5 {
+                        c'2
+                        c'2.
+                    }
+                    c'1
+                    c'2.
+                    c'2 \repeatTie
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        c'2
+                        c'4.
+                    }
+                    c'2
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 3/5 {
+                        c'1.
+                        c'1
+                    }
+                    \times 4/5 {
+                        c'4
+                        c'4.
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/9 {
+                        c'1.
+                        c'2.
+                    }
+                    c'2.
+                    c'1
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        c'2.
+                        c'1
+                    }
+                    c'2
+                    \times 4/5 {
+                        c'4
+                        c'4.
+                    }
+                    c'2
+                    c'4
+                    \times 2/3 {
+                        c'2
+                        c'1
+                    }
+                    c'2
+                    c'2
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 3/5 {
+                        c'1.
+                        c'1
+                    }
+                    c'1
+                    c'2
+                    c'4
+                    r8
+                    c'4
+                    c'4. \repeatTie
+                    c'1 \repeatTie
+                    r8
+                    c'8
+                    c'2 \repeatTie
+                    c'4 \repeatTie
+                    r8
+                    c'8
+                    c'2 \repeatTie
+                    r8
+                    c'8
+                    c'1 \repeatTie
+                    c'2. \repeatTie
+                    r8
+                    c'8
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    r8
+                    c'4
+                    c'4. \repeatTie
                 }
             }
             \tag strings.cello
@@ -3812,43 +3934,104 @@
                     Vc.
                 }
                 \context CelloMusicVoice = "Cello Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
+                    c'2
+                    c'2 \repeatTie
+                    c'2.
+                    c'4 \repeatTie
+                    c'8
+                    c'4. \repeatTie
+                    c'4
+                    c'2
+                    c'1
+                    c'2.
+                    \times 4/5 {
+                        c'2.
+                        c'2
+                    }
+                    c'2.
+                    c'2 \repeatTie
+                    \times 2/3 {
+                        c'1
+                        c'2
+                    }
+                    c'4
+                    c'2
+                    \times 4/7 {
+                        c'1
+                        c'2.
+                    }
+                    c'2.
+                    c'2 \repeatTie
+                    c'2.
+                    \times 4/5 {
+                        c'4
+                        c'4.
+                    }
+                    c'1.
+                    \times 2/3 {
+                        c'4
+                        c'2
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 5/7 {
+                        c'1
+                        c'2.
+                    }
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        c'4.
+                        c'2
+                    }
+                    c'1
+                    c'1.
+                    \times 2/3 {
+                        c'2
+                        c'4
+                    }
+                    c'2
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        c'2
+                        c'4.
+                    }
+                    \times 4/7 {
+                        c'2.
+                        c'1
+                    }
+                    \times 4/5 {
+                        c'4.
+                        c'4
+                    }
+                    c'2
+                    c'1.
+                    \times 2/3 {
+                        c'2
+                        c'1
+                    }
+                    c'2.
+                    r8
+                    c'4
+                    c'4. \repeatTie
+                    c'2 \repeatTie
+                    r8
+                    c'4.
+                    c'4 \repeatTie
+                    r8
+                    c'2..
+                    c'2. \repeatTie
+                    c'4 \repeatTie
+                    r8
+                    c'8
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    r8
+                    c'8
+                    c'2. \repeatTie
+                    r8
+                    c'4.
+                    c'4. \repeatTie
+                    r8
+                    c'4
                 }
             }
             \tag strings.contrabass
@@ -3865,43 +4048,81 @@
                     Cb.
                 }
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
+                    c''2
+                    c''2 \repeatTie
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        c''1. \repeatTie
+                        c''4
+                    }
+                    \times 4/5 {
+                        c''2. \repeatTie
+                        c''8.
+                    }
+                    c''1 \repeatTie
+                    \times 4/5 {
+                        c''2. \repeatTie
+                        c''8.
+                    }
+                    c''1 \repeatTie
+                    c''2. \repeatTie
+                    c''2 \repeatTie
+                    c''1 \repeatTie
+                    c''2 \repeatTie
+                    c''4
+                    \times 2/3 {
+                        c''1 \repeatTie
+                        c''2
+                    }
+                    c''2. \repeatTie
+                    c''2 \repeatTie
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        c''2. \repeatTie
+                        c''8
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c''2 \repeatTie
+                    c''1. \repeatTie
+                    c''2 \repeatTie
+                    c''1 \repeatTie
+                    c''4
+                    \times 4/5 {
+                        c''2. \repeatTie
+                        c''8.
+                    }
+                    c''1 \repeatTie
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 3/4 {
+                        c''1. \repeatTie
+                        c''2
+                    }
+                    c''2 \repeatTie
+                    c''2 \repeatTie
+                    c''2. \repeatTie
+                    \times 2/3 {
+                        c''1 \repeatTie
+                        c''2
+                    }
+                    \times 4/7 {
+                        c''2. \repeatTie
+                        c''8
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c''2
+                    c''1. \repeatTie
+                    r1
+                    c''2.
+                    c''2. \repeatTie
+                    r1
+                    c''2.
+                    c''2 \repeatTie
+                    c''2. \repeatTie
+                    r1
+                    c''1
+                    c''2. \repeatTie
+                    c''2 \repeatTie
+                    r2.
                 }
             }
         >>

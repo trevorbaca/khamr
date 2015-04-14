@@ -110,7 +110,7 @@ materials: 16, 19, 10, 4, 3, 1, 2A
 ORCHESTRATION:
 
     [1]
-    (M19 [bass flute fluttertongue accompaniment to piano lightning cadenza])
+    (M7 [bass flute fluttertongue: climax])
     (M7 [english horn ferocious multiphonics: climax])
     (M7 [bass clarinet ferocious multiphonics: climax])
     (M7 [baritone sax ferocious multiphonics: climax])
@@ -141,7 +141,7 @@ ORCHESTRATION:
     
 
     [2]
-    (M19 [bass flute fluttertongue accompaniment to piano lightning cadenza])
+    (M7 [bass flute fluttertongue: climax])
     (M7 [english horn ferocious multiphonics: climax])
     (M7 [bass clarinet ferocious multiphonics: climax])
     (M7 [baritone sax ferocious multiphonics: climax])
