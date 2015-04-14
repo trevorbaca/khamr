@@ -187,65 +187,8 @@ class SegmentMaker(makertools.SegmentMaker):
             attach(directive, start_skip)
 
     def _attach_instrument(self, instrument, component, scope=None):
-        effective_staff = inspect_(component).get_effective_staff()
-        effective_staff_name = effective_staff.context_name
-        message = 'can not attach {!r} to {}.'
-        message = message.format(instrument, effective_staff_name)
-        if effective_staff_name == 'FluteMusicStaff':
-            allowable_instruments = (
-                instrumenttools.Flute,
-                instrumenttools.BassFlute,
-                instrumenttools.Piccolo,
-                )
-        elif effective_staff_name == 'ClarinetMusicStaff':
-            allowable_instruments = (
-                instrumenttools.BFlatClarinet,
-                instrumenttools.BassClarinet,
-                )
-        elif effective_staff_name == 'OboeMusicStaff':
-            allowable_instruments = (
-                instrumenttools.Oboe,
-                instrumenttools.EnglishHorn,
-                )
-        elif effective_staff_name == 'SaxophoneMusicStaff':
-            allowable_instruments = (
-                instrumenttools.BaritoneSaxophone,
-                instrumenttools.SopraninoSaxophone,
-                )
-        elif effective_staff_name == 'GuitarMusicStaff':
-            allowable_instruments = (
-                instrumenttools.Guitar,
-                )
-        elif effective_staff_name == 'PianoMusicStaff':
-            allowable_instruments = (
-                instrumenttools.Piano,
-                )
-        elif effective_staff_name == 'PercussionMusicStaff':
-            allowable_instruments = (
-                instrumenttools.Percussion,
-                )
-        elif effective_staff_name == 'ViolinMusicStaff':
-            allowable_instruments = (
-                instrumenttools.Violin,
-                )
-        elif effective_staff_name == 'ViolaMusicStaff':
-            allowable_instruments = (
-                instrumenttools.Viola,
-                )
-        elif effective_staff_name == 'CelloMusicStaff':
-            allowable_instruments = (
-                instrumenttools.Cello,
-                )
-        elif effective_staff_name == 'ContrabassMusicStaff':
-            allowable_instruments = (
-                instrumenttools.Contrabass,
-                )
-        else:
-            message = 'unrecognized staff: {!r}.'
-            message = message.format(effective_staff_name)
-            raise Exception(message)
-        if not isinstance(instrument, allowable_instruments):
-            raise Exception(message)
+        self._check_instrument(instrument, component)
+        attach(instrument, component, scope=scope)
 
     def _attach_instrument_to_first_leaf(self):
         no_instrument_switches = (
@@ -335,6 +278,17 @@ class SegmentMaker(makertools.SegmentMaker):
             self._cached_score_template_start_clefs[staff.name] = clef.name
             detach(Clef, staff)
         
+    def _check_instrument(self, instrument, component):
+        import khamr
+        effective_staff = inspect_(component).get_effective_staff()
+        effective_staff_name = effective_staff.context_name
+        message = 'can not attach {!r} to {}.'
+        message = message.format(instrument, effective_staff_name)
+        allowable_instruments = khamr.materials.score_setup[
+            effective_staff_name]
+        if not isinstance(instrument, allowable_instruments):
+            raise Exception(message)
+
     def _check_well_formedness(self):
         score_block = self.lilypond_file['score']
         score = score_block['Score']
@@ -697,6 +651,8 @@ class SegmentMaker(makertools.SegmentMaker):
             measures = self._make_rests()
             voice.extend(measures) 
             return
+        effective_staff = inspect_(voice).get_effective_staff()
+        effective_staff_name = effective_staff.context_name
         next_stage = 1
         for music_maker in music_makers:
             if music_maker.stages is None:
@@ -711,7 +667,10 @@ class SegmentMaker(makertools.SegmentMaker):
                 measures = self._make_rests(time_signatures)
                 voice.extend(measures)
             time_signatures = self._get_time_signatures(*music_maker.stages)
-            music = music_maker(time_signatures)
+            music = music_maker(
+                effective_staff_name, 
+                time_signatures=time_signatures,
+                )
             voice.extend(music)
             next_stage = music_maker.stop_stage + 1
         if next_stage <= self.stage_count:

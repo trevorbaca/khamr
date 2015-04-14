@@ -106,7 +106,7 @@ class MusicMaker(abctools.AbjadObject):
 
     ### SPECIAL METHODS ###
 
-    def __call__(self, time_signatures=None):
+    def __call__(self, effective_staff_name, time_signatures=None):
         r'''Calls music-maker.
 
         Returns music. Probably as a selection.
@@ -124,7 +124,13 @@ class MusicMaker(abctools.AbjadObject):
         assert isinstance(first_leaf, scoretools.Leaf), repr(first_leaf)
         prototype = instrumenttools.Percussion
         if self.instrument is not None:
-            attach(self.instrument, first_leaf, scope=Staff)
+            #attach(self.instrument, first_leaf, scope=Staff)
+            self._attach_instrument(
+                self.instrument, 
+                first_leaf, 
+                effective_staff_name, 
+                scope=Staff,
+                )
 #        if (isinstance(self.instrument, prototype) and
 #            not self._hide_untuned_percussion_markup):
 #            self._attach_untuned_percussion_markup(first_leaf)
@@ -162,12 +168,31 @@ class MusicMaker(abctools.AbjadObject):
 
     ### PRIVATE METHODS ###
 
+    def _attach_instrument(
+        self, 
+        instrument, 
+        component, 
+        effective_staff_name, 
+        scope=None,
+        ):
+        self._check_instrument(instrument, effective_staff_name)
+        attach(instrument, component, scope=scope)
+
     def _attach_untuned_percussion_markup(self, leaf):
         name = self.instrument.instrument_name
         name = name.lower()
         markup = markuptools.Markup(name, direction=Up)
         markup = markup.box().override(('box-padding', 0.5))
         attach(markup, leaf)
+
+    def _check_instrument(self, instrument, effective_staff_name):
+        import khamr
+        message = 'can not attach {!r} to {}.'
+        message = message.format(instrument, effective_staff_name)
+        allowable_instruments = \
+            khamr.materials.score_setup[effective_staff_name]
+        if not isinstance(instrument, allowable_instruments):
+            raise Exception(message)
 
     def _get_division_maker(self):
         if self.division_maker is not None:
