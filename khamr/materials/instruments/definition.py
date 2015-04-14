@@ -23,13 +23,6 @@ def make_short_markup(string):
 
 instruments = datastructuretools.TypedOrderedDict([
     (
-        'almglocken', 
-        instrumenttools.Percussion(
-            instrument_name_markup=make_long_markup('almglocken'),
-            short_instrument_name_markup=make_short_markup('alm.'),
-            )
-        ),
-    (
         'baritone saxophone', 
         instrumenttools.BaritoneSaxophone(
             instrument_name_markup=make_long_markup('Baritone saxophone'),
@@ -44,31 +37,10 @@ instruments = datastructuretools.TypedOrderedDict([
             )
         ),
     (
-        'bass drum', 
-        instrumenttools.Percussion(
-            instrument_name_markup=make_long_markup('Bass drum'),
-            short_instrument_name_markup=make_short_markup('BD'),
-            )
-        ),
-    (
         'bass flute', 
         instrumenttools.BassFlute(
             instrument_name_markup=make_long_markup('Bass flute'),
             short_instrument_name_markup=make_short_markup('Bass fl.'),
-            )
-        ),
-    (
-        'castanets', 
-        instrumenttools.Percussion(
-            instrument_name_markup=make_long_markup('castanets'),
-            short_instrument_name_markup=make_short_markup('cast.'),
-            )
-        ),
-    (
-        'caxixi', 
-        instrumenttools.Percussion(
-            instrument_name_markup=make_long_markup('caxixi'),
-            short_instrument_name_markup=make_short_markup('cxi.'),
             )
         ),
     (
@@ -107,13 +79,6 @@ instruments = datastructuretools.TypedOrderedDict([
             )
         ),
     (
-        'guiro', 
-        instrumenttools.Percussion(
-            instrument_name_markup=make_long_markup('Guiro'),
-            short_instrument_name_markup=make_short_markup('gro.'),
-            )
-        ),
-    (
         'guitar', 
         instrumenttools.Guitar(
             instrument_name_markup=make_long_markup('Guitar'),
@@ -121,38 +86,17 @@ instruments = datastructuretools.TypedOrderedDict([
             )
         ),
     (
-        'large China cymbal', 
-        instrumenttools.Percussion(
-            instrument_name_markup=make_long_markup('Large China cymbal'),
-            short_instrument_name_markup=make_short_markup('Ch. cym. (L)'),
-            )
-        ),
-    (
-        'large tam-tam', 
-        instrumenttools.Percussion(
-            instrument_name_markup=make_long_markup('Large tam-tam'),
-            short_instrument_name_markup=make_short_markup('tam. (L)'),
-            )
-        ),
-    (
-        'maracas', 
-        instrumenttools.Percussion(
-            instrument_name_markup=make_long_markup('maracas'),
-            short_instrument_name_markup=make_short_markup('mrcs.'),
-            )
-        ),
-    (
-        'marimba', 
-        instrumenttools.Marimba(
-            instrument_name_markup=make_long_markup('Marimba'),
-            short_instrument_name_markup=make_short_markup('Mb.'),
-            )
-        ),
-    (
         'oboe', 
         instrumenttools.Oboe(
             instrument_name_markup=make_long_markup('Oboe'),
             short_instrument_name_markup=make_short_markup('Ob.'),
+            )
+        ),
+    (
+        'percussion', 
+        instrumenttools.Percussion(
+            instrument_name_markup=make_long_markup('Percussion'),
+            short_instrument_name_markup=make_short_markup('Perc.'),
             )
         ),
     (
@@ -170,45 +114,10 @@ instruments = datastructuretools.TypedOrderedDict([
             )
         ),
     (
-        'snare drum', 
-        instrumenttools.Percussion(
-            instrument_name_markup=make_long_markup('Snare drum'),
-            short_instrument_name_markup=make_short_markup('SD'),
-            )
-        ),
-    (
         'sopranino saxophone', 
         instrumenttools.SopraninoSaxophone(
             instrument_name_markup=make_long_markup('Sopranino saxophone'),
             short_instrument_name_markup=make_short_markup('Sopr. sax.'),
-            )
-        ),
-    (
-        'Tibetan bowl', 
-        instrumenttools.Percussion(
-            instrument_name_markup=make_long_markup('Tibetan bowl'),
-            short_instrument_name_markup=make_short_markup('Tib. bowl'),
-            )
-        ),
-    (
-        'triangle', 
-        instrumenttools.Percussion(
-            instrument_name_markup=make_long_markup('Triangle'),
-            short_instrument_name_markup=make_short_markup('tri.'),
-            )
-        ),
-    (
-        'very large China cymbal', 
-        instrumenttools.Percussion(
-            instrument_name_markup=make_long_markup('Very large China cymbal'),
-            short_instrument_name_markup=make_short_markup('Ch. cym. (XL)'),
-            )
-        ),
-    (
-        'very large tam-tam', 
-        instrumenttools.Percussion(
-            instrument_name_markup=make_long_markup('Very large tam-tam'),
-            short_instrument_name_markup=make_short_markup('tam. (XL)'),
             )
         ),
     (
@@ -223,13 +132,6 @@ instruments = datastructuretools.TypedOrderedDict([
         instrumenttools.Violin(
             instrument_name_markup=make_long_markup('Violin'),
             short_instrument_name_markup=make_short_markup('Vn.'),
-            )
-        ),
-    (
-        'whirly tube', 
-        instrumenttools.Percussion(
-            instrument_name_markup=make_long_markup('Whirly tube'),
-            short_instrument_name_markup=make_short_markup('whr. tube'),
             )
         ),
     ])
