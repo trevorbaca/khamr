@@ -15,6 +15,7 @@ class SegmentMaker(makertools.SegmentMaker):
 
     __slots__ = (
         '_cached_score_template_start_clefs',
+        '_cached_score_template_start_instruments',
         '_final_markup',
         '_final_markup_extra_offset',
         '_music_handlers',
@@ -82,6 +83,7 @@ class SegmentMaker(makertools.SegmentMaker):
         self._previous_segment_metadata = previous_segment_metadata or \
             datastructuretools.TypedOrderedDict()
         self._make_score()
+        self._cache_score_template_start_instruments()
         self._cache_score_template_start_clefs()
         self._make_lilypond_file()
         self._configure_lilypond_file()
@@ -90,6 +92,7 @@ class SegmentMaker(makertools.SegmentMaker):
         self._interpret_music_makers()
         self._interpret_music_handlers()
         self._shorten_long_repeat_ties()
+        self._attach_missing_start_instruments()
         self._attach_missing_start_clefs()
         self._apply_previous_segment_end_settings()
         self._move_instruments_from_notes_back_to_rests()
@@ -235,6 +238,28 @@ class SegmentMaker(makertools.SegmentMaker):
                 clef = Clef(clef_name)
                 attach(clef, staff)
 
+    def _attach_missing_start_instruments(self):
+        import khamr
+        cached_instruments = self._cached_score_template_start_instruments
+        previous_instruments = self._previous_segment_metadata.get(
+            'end_instruments_by_staff', datastructuretools.TypedOrderedDict())
+        prototype = instrumenttools.Instrument
+        for staff in iterate(self._score).by_class(Staff):
+            if inspect_(staff).has_indicator(prototype):
+                continue
+            first_leaf = inspect_(staff).get_leaf(0)
+            if (first_leaf is not None and 
+                inspect_(first_leaf).has_indicator(prototype)):
+                continue
+            if (first_leaf is None or
+                not inspect_(first_leaf).has_indicator(prototype)):
+                instrument_name = previous_instruments.get(staff.name)
+                if instrument_name is None:
+                    instrument_name = cached_instruments.get(staff.name)
+                instrument = khamr.materials.instruments[instrument_name]
+                instrument = copy.deepcopy(instrument)
+                attach(instrument, staff)
+
     def _attach_rehearsal_mark(self):
         segment_number = self._segment_metadata['segment_number']
         letter_number = segment_number - 1
@@ -277,6 +302,17 @@ class SegmentMaker(makertools.SegmentMaker):
             clef = inspect_(staff).get_indicator(Clef)
             self._cached_score_template_start_clefs[staff.name] = clef.name
             detach(Clef, staff)
+
+    def _cache_score_template_start_instruments(self):
+        dictionary = datastructuretools.TypedOrderedDict()
+        self._cached_score_template_start_instruments = dictionary
+        for staff in iterate(self._score).by_class(Staff):
+            prototype = instrumenttools.Instrument
+            instrument = inspect_(staff).get_indicator(prototype)
+            instrument_name = self._instrument_to_instrument_name(instrument)
+            self._cached_score_template_start_instruments[staff.name] = \
+                instrument_name
+            detach(instrumenttools.Instrument, staff)
         
     def _check_instrument(self, instrument, component):
         import khamr
@@ -475,6 +511,15 @@ class SegmentMaker(makertools.SegmentMaker):
             stages = stages[start_index:stop_index]
             time_signatures = sequencetools.flatten_sequence(stages)
         return time_signatures
+
+    def _instrument_to_instrument_name(self, instrument):
+        import khamr
+        for name, instrument_ in khamr.materials.instruments.items():
+            if type(instrument_) is type(instrument):
+                return name
+        message = 'can not find {!r} in instruments package.'
+        message = message.format(instrument)
+        raise Exception(message)
 
     def _interpret_music_makers(self):
         self._make_music_for_time_signature_context()
