@@ -111,9 +111,7 @@ class SegmentMaker(makertools.SegmentMaker):
     ### PRIVATE METHODS ###
 
     def _add_final_barline(self):
-        segment_number = self._segment_metadata.get('segment_number')
-        segment_count = self._segment_metadata.get('segment_count')
-        if segment_number == segment_count:
+        if self._is_last_segment():
             self._score.add_final_bar_line(to_each_voice=True)
 
     def _add_final_markup(self):
@@ -223,6 +221,8 @@ class SegmentMaker(makertools.SegmentMaker):
             self._attach_instrument(instrument, first_leaf)
         
     def _attach_missing_start_clefs(self):
+        if not self._is_first_segment():
+            return
         cached_clefs = self._cached_score_template_start_clefs
         previous_clefs = self._previous_segment_metadata.get(
             'end_clefs_by_staff', datastructuretools.TypedOrderedDict())
@@ -240,6 +240,8 @@ class SegmentMaker(makertools.SegmentMaker):
 
     def _attach_missing_start_instruments(self):
         import khamr
+        if not self._is_first_segment():
+            return
         cached_instruments = self._cached_score_template_start_instruments
         previous_instruments = self._previous_segment_metadata.get(
             'end_instruments_by_staff', datastructuretools.TypedOrderedDict())
@@ -575,7 +577,17 @@ class SegmentMaker(makertools.SegmentMaker):
                     )
                 logical_ties_with_rests, timespan = result
 
+    def _is_first_segment(self):
+        segment_number = self._segment_metadata.get('segment_number')
+        return segment_number == 1
+
+    def _is_last_segment(self):
+        segment_number = self._segment_metadata.get('segment_number')
+        segment_count = self._segment_metadata.get('segment_count')
+        return segment_number == segment_count
+
     def _logical_ties_to_leaves(self, logical_ties):
+    
         first_note = logical_ties[0].head
         last_note = logical_ties[-1][-1]
         leaves = []
