@@ -6,441 +6,10 @@ from abjad.tools import markuptools
 from abjad.tools import pitchtools
 
 
-instruments = datastructuretools.TypedOrderedDict(
+percussion_instruments = datastructuretools.TypedOrderedDict(
     [
         (
-            'baritone saxophone',
-            instrumenttools.BaritoneSaxophone(
-                instrument_name='baritone saxophone',
-                short_instrument_name='bar. sax.',
-                instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            16,
-                            markuptools.MarkupCommand(
-                                'center-column',
-                                ['Baritone', 'saxophone']
-                                )
-                            ),
-                        ),
-                    ),
-                short_instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            10,
-                            markuptools.MarkupCommand(
-                                'center-column',
-                                ['Bar.', 'sax.']
-                                )
-                            ),
-                        ),
-                    ),
-                allowable_clefs=indicatortools.ClefInventory(
-                    [
-                        indicatortools.Clef(
-                            name='treble',
-                            ),
-                        ]
-                    ),
-                pitch_range=pitchtools.PitchRange(
-                    range_string='[C2, Ab4]',
-                    ),
-                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch('ef,'),
-                ),
-            ),
-        (
-            'bass clarinet',
-            instrumenttools.BassClarinet(
-                instrument_name='bass clarinet',
-                short_instrument_name='bass cl.',
-                instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            16,
-                            markuptools.MarkupCommand(
-                                'center-column',
-                                ['Bass', 'clarinet']
-                                )
-                            ),
-                        ),
-                    ),
-                short_instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            10,
-                            markuptools.MarkupCommand(
-                                'center-column',
-                                ['Bass', 'cl.']
-                                )
-                            ),
-                        ),
-                    ),
-                allowable_clefs=indicatortools.ClefInventory(
-                    [
-                        indicatortools.Clef(
-                            name='treble',
-                            ),
-                        indicatortools.Clef(
-                            name='bass',
-                            ),
-                        ]
-                    ),
-                pitch_range=pitchtools.PitchRange(
-                    range_string='[Bb1, G5]',
-                    ),
-                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch('bf,'),
-                ),
-            ),
-        (
-            'bass flute',
-            instrumenttools.BassFlute(
-                instrument_name='bass flute',
-                short_instrument_name='bass fl.',
-                instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            16,
-                            markuptools.MarkupCommand(
-                                'center-column',
-                                ['Bass', 'flute']
-                                )
-                            ),
-                        ),
-                    ),
-                short_instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            10,
-                            markuptools.MarkupCommand(
-                                'center-column',
-                                ['Bass', 'fl.']
-                                )
-                            ),
-                        ),
-                    ),
-                allowable_clefs=indicatortools.ClefInventory(
-                    [
-                        indicatortools.Clef(
-                            name='treble',
-                            ),
-                        ]
-                    ),
-                pitch_range=pitchtools.PitchRange(
-                    range_string='[C3, C6]',
-                    ),
-                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch('c'),
-                ),
-            ),
-        (
-            'cello',
-            instrumenttools.Cello(
-                instrument_name='cello',
-                short_instrument_name='vc.',
-                instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            16,
-                            'Cello'
-                            ),
-                        ),
-                    ),
-                short_instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            10,
-                            'Vc.'
-                            ),
-                        ),
-                    ),
-                allowable_clefs=indicatortools.ClefInventory(
-                    [
-                        indicatortools.Clef(
-                            name='bass',
-                            ),
-                        indicatortools.Clef(
-                            name='tenor',
-                            ),
-                        indicatortools.Clef(
-                            name='treble',
-                            ),
-                        ]
-                    ),
-                default_tuning=indicatortools.Tuning(
-                    pitches=pitchtools.PitchSegment(
-                        (
-                            pitchtools.NamedPitch('c,'),
-                            pitchtools.NamedPitch('g,'),
-                            pitchtools.NamedPitch('d'),
-                            pitchtools.NamedPitch('a'),
-                            ),
-                        item_class=pitchtools.NamedPitch,
-                        ),
-                    ),
-                pitch_range=pitchtools.PitchRange(
-                    range_string='[C2, G5]',
-                    ),
-                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c'"),
-                ),
-            ),
-        (
-            'clarinet',
-            instrumenttools.ClarinetInBFlat(
-                instrument_name='clarinet in B-flat',
-                short_instrument_name='cl. in B-flat',
-                instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            16,
-                            'Clarinet'
-                            ),
-                        ),
-                    ),
-                short_instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            10,
-                            'Cl.'
-                            ),
-                        ),
-                    ),
-                allowable_clefs=indicatortools.ClefInventory(
-                    [
-                        indicatortools.Clef(
-                            name='treble',
-                            ),
-                        ]
-                    ),
-                pitch_range=pitchtools.PitchRange(
-                    range_string='[D3, Bb6]',
-                    ),
-                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch('bf'),
-                ),
-            ),
-        (
-            'contrabass',
-            instrumenttools.Contrabass(
-                instrument_name='contrabass',
-                short_instrument_name='cb.',
-                instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            16,
-                            'Contrabass'
-                            ),
-                        ),
-                    ),
-                short_instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            10,
-                            'Cb.'
-                            ),
-                        ),
-                    ),
-                allowable_clefs=indicatortools.ClefInventory(
-                    [
-                        indicatortools.Clef(
-                            name='bass',
-                            ),
-                        indicatortools.Clef(
-                            name='treble',
-                            ),
-                        ]
-                    ),
-                default_tuning=indicatortools.Tuning(
-                    pitches=pitchtools.PitchSegment(
-                        (
-                            pitchtools.NamedPitch('c,,'),
-                            pitchtools.NamedPitch('a,,'),
-                            pitchtools.NamedPitch('d,'),
-                            pitchtools.NamedPitch('g,'),
-                            ),
-                        item_class=pitchtools.NamedPitch,
-                        ),
-                    ),
-                pitch_range=pitchtools.PitchRange(
-                    range_string='[C1, G4]',
-                    ),
-                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch('c'),
-                ),
-            ),
-        (
-            'English horn',
-            instrumenttools.EnglishHorn(
-                instrument_name='English horn',
-                short_instrument_name='Eng. hn.',
-                instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            16,
-                            markuptools.MarkupCommand(
-                                'center-column',
-                                ['English', 'horn']
-                                )
-                            ),
-                        ),
-                    ),
-                short_instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            10,
-                            markuptools.MarkupCommand(
-                                'center-column',
-                                ['Eng.', 'hn.']
-                                )
-                            ),
-                        ),
-                    ),
-                allowable_clefs=indicatortools.ClefInventory(
-                    [
-                        indicatortools.Clef(
-                            name='treble',
-                            ),
-                        ]
-                    ),
-                pitch_range=pitchtools.PitchRange(
-                    range_string='[E3, C6]',
-                    ),
-                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch('f'),
-                ),
-            ),
-        (
-            'flute',
-            instrumenttools.Flute(
-                instrument_name='flute',
-                short_instrument_name='fl.',
-                instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            16,
-                            'Flute'
-                            ),
-                        ),
-                    ),
-                short_instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            10,
-                            'Fl.'
-                            ),
-                        ),
-                    ),
-                allowable_clefs=indicatortools.ClefInventory(
-                    [
-                        indicatortools.Clef(
-                            name='treble',
-                            ),
-                        ]
-                    ),
-                pitch_range=pitchtools.PitchRange(
-                    range_string='[C4, D7]',
-                    ),
-                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c'"),
-                ),
-            ),
-        (
-            'guitar',
-            instrumenttools.Guitar(
-                instrument_name='guitar',
-                short_instrument_name='gt.',
-                instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            16,
-                            'Guitar'
-                            ),
-                        ),
-                    ),
-                short_instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            10,
-                            'Gt.'
-                            ),
-                        ),
-                    ),
-                allowable_clefs=indicatortools.ClefInventory(
-                    [
-                        indicatortools.Clef(
-                            name='treble',
-                            ),
-                        ]
-                    ),
-                default_tuning=indicatortools.Tuning(
-                    pitches=pitchtools.PitchSegment(
-                        (
-                            pitchtools.NamedPitch('e,'),
-                            pitchtools.NamedPitch('a,'),
-                            pitchtools.NamedPitch('d'),
-                            pitchtools.NamedPitch('g'),
-                            pitchtools.NamedPitch('b'),
-                            pitchtools.NamedPitch("e'"),
-                            ),
-                        item_class=pitchtools.NamedPitch,
-                        ),
-                    ),
-                pitch_range=pitchtools.PitchRange(
-                    range_string='[E2, E5]',
-                    ),
-                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch('c'),
-                ),
-            ),
-        (
-            'oboe',
-            instrumenttools.Oboe(
-                instrument_name='oboe',
-                short_instrument_name='ob.',
-                instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            16,
-                            'Oboe'
-                            ),
-                        ),
-                    ),
-                short_instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            10,
-                            'Ob.'
-                            ),
-                        ),
-                    ),
-                allowable_clefs=indicatortools.ClefInventory(
-                    [
-                        indicatortools.Clef(
-                            name='treble',
-                            ),
-                        ]
-                    ),
-                pitch_range=pitchtools.PitchRange(
-                    range_string='[Bb3, A6]',
-                    ),
-                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c'"),
-                ),
-            ),
-        (
-            'percussion',
+            'almglocken',
             instrumenttools.Percussion(
                 instrument_name='percussion',
                 short_instrument_name='perc.',
@@ -449,7 +18,7 @@ instruments = datastructuretools.TypedOrderedDict(
                         markuptools.MarkupCommand(
                             'hcenter-in',
                             16,
-                            'Percussion'
+                            'almglocken'
                             ),
                         ),
                     ),
@@ -458,7 +27,7 @@ instruments = datastructuretools.TypedOrderedDict(
                         markuptools.MarkupCommand(
                             'hcenter-in',
                             10,
-                            'Perc.'
+                            'alm.'
                             ),
                         ),
                     ),
@@ -476,16 +45,19 @@ instruments = datastructuretools.TypedOrderedDict(
                 ),
             ),
         (
-            'piano',
-            instrumenttools.Piano(
-                instrument_name='piano',
-                short_instrument_name='pf.',
+            'bass drum',
+            instrumenttools.Percussion(
+                instrument_name='percussion',
+                short_instrument_name='perc.',
                 instrument_name_markup=markuptools.Markup(
                     contents=(
                         markuptools.MarkupCommand(
                             'hcenter-in',
                             16,
-                            'Piano'
+                            markuptools.MarkupCommand(
+                                'center-column',
+                                ['Bass', 'drum']
+                                )
                             ),
                         ),
                     ),
@@ -494,7 +66,271 @@ instruments = datastructuretools.TypedOrderedDict(
                         markuptools.MarkupCommand(
                             'hcenter-in',
                             10,
-                            'Pf.'
+                            'BD'
+                            ),
+                        ),
+                    ),
+                allowable_clefs=indicatortools.ClefInventory(
+                    [
+                        indicatortools.Clef(
+                            name='percussion',
+                            ),
+                        ]
+                    ),
+                pitch_range=pitchtools.PitchRange(
+                    range_string='[A0, C8]',
+                    ),
+                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c'"),
+                ),
+            ),
+        (
+            'castanets',
+            instrumenttools.Percussion(
+                instrument_name='percussion',
+                short_instrument_name='perc.',
+                instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            16,
+                            'castanets'
+                            ),
+                        ),
+                    ),
+                short_instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            10,
+                            'cast.'
+                            ),
+                        ),
+                    ),
+                allowable_clefs=indicatortools.ClefInventory(
+                    [
+                        indicatortools.Clef(
+                            name='percussion',
+                            ),
+                        ]
+                    ),
+                pitch_range=pitchtools.PitchRange(
+                    range_string='[A0, C8]',
+                    ),
+                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c'"),
+                ),
+            ),
+        (
+            'caxixi',
+            instrumenttools.Percussion(
+                instrument_name='percussion',
+                short_instrument_name='perc.',
+                instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            16,
+                            'caxixi'
+                            ),
+                        ),
+                    ),
+                short_instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            10,
+                            'cxi.'
+                            ),
+                        ),
+                    ),
+                allowable_clefs=indicatortools.ClefInventory(
+                    [
+                        indicatortools.Clef(
+                            name='percussion',
+                            ),
+                        ]
+                    ),
+                pitch_range=pitchtools.PitchRange(
+                    range_string='[A0, C8]',
+                    ),
+                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c'"),
+                ),
+            ),
+        (
+            'guiro',
+            instrumenttools.Percussion(
+                instrument_name='percussion',
+                short_instrument_name='perc.',
+                instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            16,
+                            'Guiro'
+                            ),
+                        ),
+                    ),
+                short_instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            10,
+                            'gro.'
+                            ),
+                        ),
+                    ),
+                allowable_clefs=indicatortools.ClefInventory(
+                    [
+                        indicatortools.Clef(
+                            name='percussion',
+                            ),
+                        ]
+                    ),
+                pitch_range=pitchtools.PitchRange(
+                    range_string='[A0, C8]',
+                    ),
+                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c'"),
+                ),
+            ),
+        (
+            'large China cymbal',
+            instrumenttools.Percussion(
+                instrument_name='percussion',
+                short_instrument_name='perc.',
+                instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            16,
+                            markuptools.MarkupCommand(
+                                'center-column',
+                                ['Large', 'China', 'cymbal']
+                                )
+                            ),
+                        ),
+                    ),
+                short_instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            10,
+                            markuptools.MarkupCommand(
+                                'center-column',
+                                ['Ch.', 'cym.', '(L)']
+                                )
+                            ),
+                        ),
+                    ),
+                allowable_clefs=indicatortools.ClefInventory(
+                    [
+                        indicatortools.Clef(
+                            name='percussion',
+                            ),
+                        ]
+                    ),
+                pitch_range=pitchtools.PitchRange(
+                    range_string='[A0, C8]',
+                    ),
+                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c'"),
+                ),
+            ),
+        (
+            'large tam-tam',
+            instrumenttools.Percussion(
+                instrument_name='percussion',
+                short_instrument_name='perc.',
+                instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            16,
+                            markuptools.MarkupCommand(
+                                'center-column',
+                                ['Large', 'tam-tam']
+                                )
+                            ),
+                        ),
+                    ),
+                short_instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            10,
+                            markuptools.MarkupCommand(
+                                'center-column',
+                                ['tam.', '(L)']
+                                )
+                            ),
+                        ),
+                    ),
+                allowable_clefs=indicatortools.ClefInventory(
+                    [
+                        indicatortools.Clef(
+                            name='percussion',
+                            ),
+                        ]
+                    ),
+                pitch_range=pitchtools.PitchRange(
+                    range_string='[A0, C8]',
+                    ),
+                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c'"),
+                ),
+            ),
+        (
+            'maracas',
+            instrumenttools.Percussion(
+                instrument_name='percussion',
+                short_instrument_name='perc.',
+                instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            16,
+                            'maracas'
+                            ),
+                        ),
+                    ),
+                short_instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            10,
+                            'mrcs.'
+                            ),
+                        ),
+                    ),
+                allowable_clefs=indicatortools.ClefInventory(
+                    [
+                        indicatortools.Clef(
+                            name='percussion',
+                            ),
+                        ]
+                    ),
+                pitch_range=pitchtools.PitchRange(
+                    range_string='[A0, C8]',
+                    ),
+                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c'"),
+                ),
+            ),
+        (
+            'marimba',
+            instrumenttools.Marimba(
+                instrument_name='marimba',
+                short_instrument_name='mb.',
+                instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            16,
+                            'Marimba'
+                            ),
+                        ),
+                    ),
+                short_instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            10,
+                            'Mb.'
                             ),
                         ),
                     ),
@@ -509,52 +345,55 @@ instruments = datastructuretools.TypedOrderedDict(
                         ]
                     ),
                 pitch_range=pitchtools.PitchRange(
+                    range_string='[F2, C7]',
+                    ),
+                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c'"),
+                ),
+            ),
+        (
+            'snare drum',
+            instrumenttools.Percussion(
+                instrument_name='percussion',
+                short_instrument_name='perc.',
+                instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            16,
+                            markuptools.MarkupCommand(
+                                'center-column',
+                                ['Snare', 'drum']
+                                )
+                            ),
+                        ),
+                    ),
+                short_instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            10,
+                            'SD'
+                            ),
+                        ),
+                    ),
+                allowable_clefs=indicatortools.ClefInventory(
+                    [
+                        indicatortools.Clef(
+                            name='percussion',
+                            ),
+                        ]
+                    ),
+                pitch_range=pitchtools.PitchRange(
                     range_string='[A0, C8]',
                     ),
                 sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c'"),
                 ),
             ),
         (
-            'piccolo',
-            instrumenttools.Piccolo(
-                instrument_name='piccolo',
-                short_instrument_name='picc.',
-                instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            16,
-                            'Piccolo'
-                            ),
-                        ),
-                    ),
-                short_instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            10,
-                            'Picc.'
-                            ),
-                        ),
-                    ),
-                allowable_clefs=indicatortools.ClefInventory(
-                    [
-                        indicatortools.Clef(
-                            name='treble',
-                            ),
-                        ]
-                    ),
-                pitch_range=pitchtools.PitchRange(
-                    range_string='[D5, C8]',
-                    ),
-                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c''"),
-                ),
-            ),
-        (
-            'sopranino saxophone',
-            instrumenttools.SopraninoSaxophone(
-                instrument_name='sopranino saxophone',
-                short_instrument_name='sopranino sax.',
+            'Tibetan bowl',
+            instrumenttools.Percussion(
+                instrument_name='percussion',
+                short_instrument_name='perc.',
                 instrument_name_markup=markuptools.Markup(
                     contents=(
                         markuptools.MarkupCommand(
@@ -562,7 +401,7 @@ instruments = datastructuretools.TypedOrderedDict(
                             16,
                             markuptools.MarkupCommand(
                                 'center-column',
-                                ['Sopranino', 'saxophone']
+                                ['Tibetan', 'bowl']
                                 )
                             ),
                         ),
@@ -574,7 +413,7 @@ instruments = datastructuretools.TypedOrderedDict(
                             10,
                             markuptools.MarkupCommand(
                                 'center-column',
-                                ['Sopr.', 'sax.']
+                                ['Tib.', 'bowl']
                                 )
                             ),
                         ),
@@ -582,77 +421,27 @@ instruments = datastructuretools.TypedOrderedDict(
                 allowable_clefs=indicatortools.ClefInventory(
                     [
                         indicatortools.Clef(
-                            name='treble',
+                            name='percussion',
                             ),
                         ]
                     ),
                 pitch_range=pitchtools.PitchRange(
-                    range_string='[Db4, F#6]',
-                    ),
-                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("ef'"),
-                ),
-            ),
-        (
-            'viola',
-            instrumenttools.Viola(
-                instrument_name='viola',
-                short_instrument_name='va.',
-                instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            16,
-                            'Viola'
-                            ),
-                        ),
-                    ),
-                short_instrument_name_markup=markuptools.Markup(
-                    contents=(
-                        markuptools.MarkupCommand(
-                            'hcenter-in',
-                            10,
-                            'Va.'
-                            ),
-                        ),
-                    ),
-                allowable_clefs=indicatortools.ClefInventory(
-                    [
-                        indicatortools.Clef(
-                            name='alto',
-                            ),
-                        indicatortools.Clef(
-                            name='treble',
-                            ),
-                        ]
-                    ),
-                default_tuning=indicatortools.Tuning(
-                    pitches=pitchtools.PitchSegment(
-                        (
-                            pitchtools.NamedPitch('c'),
-                            pitchtools.NamedPitch('g'),
-                            pitchtools.NamedPitch("d'"),
-                            pitchtools.NamedPitch("a'"),
-                            ),
-                        item_class=pitchtools.NamedPitch,
-                        ),
-                    ),
-                pitch_range=pitchtools.PitchRange(
-                    range_string='[C3, D6]',
+                    range_string='[A0, C8]',
                     ),
                 sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c'"),
                 ),
             ),
         (
-            'violin',
-            instrumenttools.Violin(
-                instrument_name='violin',
-                short_instrument_name='vn.',
+            'triangle',
+            instrumenttools.Percussion(
+                instrument_name='percussion',
+                short_instrument_name='perc.',
                 instrument_name_markup=markuptools.Markup(
                     contents=(
                         markuptools.MarkupCommand(
                             'hcenter-in',
                             16,
-                            'Violin'
+                            'Triangle'
                             ),
                         ),
                     ),
@@ -661,30 +450,145 @@ instruments = datastructuretools.TypedOrderedDict(
                         markuptools.MarkupCommand(
                             'hcenter-in',
                             10,
-                            'Vn.'
+                            'tri.'
                             ),
                         ),
                     ),
                 allowable_clefs=indicatortools.ClefInventory(
                     [
                         indicatortools.Clef(
-                            name='treble',
+                            name='percussion',
                             ),
                         ]
                     ),
-                default_tuning=indicatortools.Tuning(
-                    pitches=pitchtools.PitchSegment(
-                        (
-                            pitchtools.NamedPitch('g'),
-                            pitchtools.NamedPitch("d'"),
-                            pitchtools.NamedPitch("a'"),
-                            pitchtools.NamedPitch("e''"),
+                pitch_range=pitchtools.PitchRange(
+                    range_string='[A0, C8]',
+                    ),
+                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c'"),
+                ),
+            ),
+        (
+            'very large China cymbal',
+            instrumenttools.Percussion(
+                instrument_name='percussion',
+                short_instrument_name='perc.',
+                instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            16,
+                            markuptools.MarkupCommand(
+                                'center-column',
+                                ['Very', 'large', 'China', 'cymbal']
+                                )
                             ),
-                        item_class=pitchtools.NamedPitch,
                         ),
                     ),
+                short_instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            10,
+                            markuptools.MarkupCommand(
+                                'center-column',
+                                ['Ch.', 'cym.', '(XL)']
+                                )
+                            ),
+                        ),
+                    ),
+                allowable_clefs=indicatortools.ClefInventory(
+                    [
+                        indicatortools.Clef(
+                            name='percussion',
+                            ),
+                        ]
+                    ),
                 pitch_range=pitchtools.PitchRange(
-                    range_string='[G3, G7]',
+                    range_string='[A0, C8]',
+                    ),
+                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c'"),
+                ),
+            ),
+        (
+            'very large tam-tam',
+            instrumenttools.Percussion(
+                instrument_name='percussion',
+                short_instrument_name='perc.',
+                instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            16,
+                            markuptools.MarkupCommand(
+                                'center-column',
+                                ['Very', 'large', 'tam-tam']
+                                )
+                            ),
+                        ),
+                    ),
+                short_instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            10,
+                            markuptools.MarkupCommand(
+                                'center-column',
+                                ['tam.', '(XL)']
+                                )
+                            ),
+                        ),
+                    ),
+                allowable_clefs=indicatortools.ClefInventory(
+                    [
+                        indicatortools.Clef(
+                            name='percussion',
+                            ),
+                        ]
+                    ),
+                pitch_range=pitchtools.PitchRange(
+                    range_string='[A0, C8]',
+                    ),
+                sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c'"),
+                ),
+            ),
+        (
+            'whirly tube',
+            instrumenttools.Percussion(
+                instrument_name='percussion',
+                short_instrument_name='perc.',
+                instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            16,
+                            markuptools.MarkupCommand(
+                                'center-column',
+                                ['Whirly', 'tube']
+                                )
+                            ),
+                        ),
+                    ),
+                short_instrument_name_markup=markuptools.Markup(
+                    contents=(
+                        markuptools.MarkupCommand(
+                            'hcenter-in',
+                            10,
+                            markuptools.MarkupCommand(
+                                'center-column',
+                                ['whr.', 'tube']
+                                )
+                            ),
+                        ),
+                    ),
+                allowable_clefs=indicatortools.ClefInventory(
+                    [
+                        indicatortools.Clef(
+                            name='percussion',
+                            ),
+                        ]
+                    ),
+                pitch_range=pitchtools.PitchRange(
+                    range_string='[A0, C8]',
                     ),
                 sounding_pitch_of_written_middle_c=pitchtools.NamedPitch("c'"),
                 ),
