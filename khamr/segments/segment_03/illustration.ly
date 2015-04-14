@@ -1,4 +1,4 @@
-% 2015-04-13 21:24
+% 2015-04-13 21:39
 
 \version "2.19.17"
 \language "english"
@@ -2787,43 +2787,78 @@
             \context GuitarMusicStaff = "Guitar Music Staff" {
                 \clef "treble"
                 \context GuitarMusicVoice = "Guitar Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/2
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Guitar
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Gt.
+                        }
+                    c''2 :32
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to guitar"
+                            }
+                    c''2 :32 \repeatTie
+                    c''1. :32 \repeatTie
+                    c''2. :32 \repeatTie
+                    c''1 :32 \repeatTie
+                    c''2. :32 \repeatTie
+                    c''1 :32 \repeatTie
+                    c''1 :32 \repeatTie
+                    c''4 :32 \repeatTie
+                    c''1 :32 \repeatTie
+                    c''2. :32 \repeatTie
+                    c''1 :32 \repeatTie
+                    c''1 :32 \repeatTie
+                    c''4 :32 \repeatTie
+                    c''2. :32 \repeatTie
+                    c''2 :32 \repeatTie
+                    c''1. :32 \repeatTie
+                    c''2 :32 \repeatTie
+                    c''1 :32 \repeatTie
+                    c''4 :32 \repeatTie
+                    c''2. :32 \repeatTie
+                    c''1 :32 \repeatTie
+                    c''1. :32 \repeatTie
+                    c''2 :32 \repeatTie
+                    c''2 :32 \repeatTie
+                    c''2. :32 \repeatTie
+                    c''1 :32 \repeatTie
+                    c''2 :32 \repeatTie
+                    c''2 :32 \repeatTie
+                    c''1. :32 \repeatTie
+                    c''1 :32 \repeatTie
+                    c''2. :32 \repeatTie
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Guitar
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Gt.
+                        }
+                    c''2.
+                    c''2.. \repeatTie
+                    r8
+                    c''2.
+                    c''2 \repeatTie
+                    c''2. \repeatTie
+                    c''2.. \repeatTie
+                    r8
+                    r1
+                    r2.
+                    r2
+                    c''4.
+                    c''4 \repeatTie
+                    r8
                 }
             }
             \tag percussion.piano
