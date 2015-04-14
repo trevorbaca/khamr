@@ -308,7 +308,6 @@ segment_maker.make_music_maker(
     stages=(7, 9),
     context_name=vn,
     clef='percussion',
-    instrument=khamr.materials.instruments['caxixi'],
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,

@@ -1,4 +1,4 @@
-% 2015-04-13 23:27
+% 2015-04-14 12:20
 
 \version "2.19.17"
 \language "english"
@@ -3640,23 +3640,7 @@
                     c'4.
                     c'4.
                     c'4.
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            Marimba
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            Mb.
-                        }
                     r8
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.75)
-                                \box
-                                    "to marimba"
-                            }
                     c'4
                     c'4. \repeatTie
                     c'1 \repeatTie
@@ -3675,12 +3659,6 @@
                             BD
                         }
                     c'2. :32
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.75)
-                                \box
-                                    "to percussion"
-                            }
                     c'2 :32 \repeatTie
                     c'2. :32 \repeatTie
                     c'1 :32 \repeatTie

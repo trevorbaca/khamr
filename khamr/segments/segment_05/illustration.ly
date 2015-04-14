@@ -1,4 +1,4 @@
-% 2015-04-13 17:16
+% 2015-04-14 12:21
 
 \version "2.19.17"
 \language "english"
@@ -1504,34 +1504,8 @@
                     c'2 \repeatTie
                     c'2 \repeatTie
                     c'1. \repeatTie
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            caxixi
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            cxi.
-                        }
                     r1
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.75)
-                                \box
-                                    "to percussion"
-                            }
                     \clef "percussion"
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            caxixi
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            cxi.
-                        }
                     \stopStaff
                     \override Staff.StaffSymbol #'line-count = #1
                     \startStaff
@@ -1723,34 +1697,8 @@
                     c'2 \repeatTie
                     c'2 \repeatTie
                     c'1. \repeatTie
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            caxixi
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            cxi.
-                        }
                     r1
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.75)
-                                \box
-                                    "to percussion"
-                            }
                     \clef "percussion"
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            caxixi
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            cxi.
-                        }
                     \stopStaff
                     \override Staff.StaffSymbol #'line-count = #1
                     \startStaff
