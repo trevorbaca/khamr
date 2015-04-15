@@ -517,7 +517,7 @@ segment_maker.make_music_maker(
 segment_maker.make_music_handler(
     scope=(cb, (1, 7)),
     specifiers=[
-        Dynamic('mf'),
+        Dynamic('f'),
         baca.makers.GlissandoSpecifier(
             patterns=rhythmmakertools.select_all(),
             ),
@@ -528,6 +528,12 @@ segment_maker.make_music_handler(
             start_index=0,
             ),
         string_III,
-        pp_to_ff_logical_ties,
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(cb, (2, 7)),
+    specifiers=[
+        halo_hairpins,
         ],
     )

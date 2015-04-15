@@ -1,4 +1,4 @@
-% 2015-04-15 11:32
+% 2015-04-15 15:43
 
 \version "2.19.17"
 \language "english"
@@ -2036,7 +2036,6 @@
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
                     \once \override NoteHead #'style = #'harmonic
                     <g, a>2 \mf
-                        ^ \markup { 0 }
                         _ \markup {
                             \larger
                                 "III + IV"
@@ -2048,13 +2047,13 @@
                         \once \override NoteHead #'style = #'harmonic
                         <g, a>1. \repeatTie \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        <af, bf>4 ^ \markup { 1 }
+                        <af, bf>4
                     }
                     \times 4/5 {
                         \once \override NoteHead #'style = #'harmonic
                         <af, bf>2. \repeatTie \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        <gqs, aqs>8. ^ \markup { 2 }
+                        <gqs, aqs>8.
                     }
                     \once \override NoteHead #'style = #'harmonic
                     <gqs, aqs>1 \repeatTie
@@ -2062,7 +2061,7 @@
                         \once \override NoteHead #'style = #'harmonic
                         <gqs, aqs>2. \repeatTie \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        <a, b>8. ^ \markup { 3 }
+                        <a, b>8.
                     }
                     \once \override NoteHead #'style = #'harmonic
                     <a, b>1 \repeatTie
@@ -2075,12 +2074,12 @@
                     \once \override NoteHead #'style = #'harmonic
                     <a, b>2 \repeatTie \glissando
                     \once \override NoteHead #'style = #'harmonic
-                    <bqf, cqs'>4 ^ \markup { 4 }
+                    <bqf, cqs'>4
                     \times 2/3 {
                         \once \override NoteHead #'style = #'harmonic
                         <bqf, cqs'>1 \repeatTie \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        <af, bf>2 ^ \markup { 5 }
+                        <af, bf>2
                     }
                     \once \override NoteHead #'style = #'harmonic
                     <af, bf>2. \repeatTie
@@ -2091,7 +2090,7 @@
                         \once \override NoteHead #'style = #'harmonic
                         <af, bf>2. \repeatTie \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        <gqs, aqs>8 ^ \markup { 6 }
+                        <gqs, aqs>8
                     }
                     \once \override NoteHead #'style = #'harmonic
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie

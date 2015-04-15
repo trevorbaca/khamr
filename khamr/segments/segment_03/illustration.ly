@@ -1,4 +1,4 @@
-% 2015-04-15 11:52
+% 2015-04-15 15:40
 
 \version "2.19.17"
 \language "english"
@@ -3862,6 +3862,7 @@
                     <g,, a,>2. \repeatTie
                     <g,, a,>2. \repeatTie
                     r1
+                    \once \override TrillPitchHead #'stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
                     \pitchedTrill
                     g,,2. \startTrillSpan f
                     g,,2 \repeatTie

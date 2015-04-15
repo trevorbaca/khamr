@@ -389,6 +389,7 @@ pervasive_A5_trills = baca.makers.TrillSpecifier(
     )
 
 pervasive_F3_harmonic_trills = baca.makers.TrillSpecifier(
+    is_harmonic=True,
     minimum_written_duration=None,
     pitch=NamedPitch('F3'),
     )
@@ -430,9 +431,9 @@ repeated_pp_to_ff = handlertools.NoteAndChordHairpinHandler(
     hairpin_token='pp < ff',
     )
 
-pp_to_ff_logical_ties = handlertools.NoteAndChordHairpinHandler(
-    hairpin_token=['pp < ff', 'ff > pp'],
-    span=[3, 4],
+halo_hairpins = handlertools.NoteAndChordHairpinHandler(
+    hairpin_token=['f > p', 'p < f'],
+    span=[6, 8],
     )
 
 ### MISCELLANEOUS ###
@@ -442,9 +443,6 @@ def label_logical_ties(start_index=0):
         label_logical_ties=True,
         start_index=start_index
         )
-
-silence_first = [rhythmmakertools.BooleanPattern(indices=[0])]
-silence_last = [rhythmmakertools.BooleanPattern(indices=[-1])]
 
 ottava = spannertools.OctavationSpanner(start=1, stop=0)
 ottava_bassa = spannertools.OctavationSpanner(start=-1, stop=0)
