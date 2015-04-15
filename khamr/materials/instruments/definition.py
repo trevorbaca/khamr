@@ -51,7 +51,7 @@ instruments = datastructuretools.TypedOrderedDict([
             )
         ),
     (
-        'clarinet', 
+        'clarinet in B-flat', 
         instrumenttools.ClarinetInBFlat(
             instrument_name_markup=make_long_markup('Clarinet'),
             short_instrument_name_markup=make_short_markup('Cl.'),

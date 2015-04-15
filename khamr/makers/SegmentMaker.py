@@ -92,8 +92,8 @@ class SegmentMaker(makertools.SegmentMaker):
         self._interpret_music_makers()
         self._interpret_music_handlers()
         self._shorten_long_repeat_ties()
-        self._attach_default_first_segment_instruments()
-        self._attach_default_first_segment_clefs()
+        self._attach_first_segment_default_instruments()
+        self._attach_first_segment_default_clefs()
         self._apply_previous_segment_end_settings()
         self._move_instruments_from_notes_back_to_rests()
         self._attach_instrument_to_first_leaf()
@@ -142,48 +142,77 @@ class SegmentMaker(makertools.SegmentMaker):
         if self._is_first_segment():
             return
         if not self._previous_segment_metadata:
-            return
+            message = 'can not find previous metadata before segment {}.'
+            message = message.format(self._get_segment_identifier())
+            raise Exception(message)
         previous_instruments = self._previous_segment_metadata.get(
             'end_instruments_by_staff')
-        if previous_instruments:
-            for staff in iterate(self._score).by_class(Staff):
-                previous_instrument_name = previous_instruments.get(
-                    staff.name)
-                if not previous_instrument_name:
-                    message = 'can not find previous segment instrument.'
-                    raise Exception(message)
-                first_leaf = inspect_(staff).get_leaf(0)
-                prototype = instrumenttools.Instrument
-                instrument = inspect_(first_leaf).get_effective(prototype)
-                if instrument is not None:
-                    continue
-                previous_instrument = self._get_instrument_by_name(
-                    previous_instrument_name)
-                if previous_instrument is None:
-                    return
-                copied_previous_instrument = new(previous_instrument)
-                prototype = instrumenttools.Piano
-                if isinstance(copied_previous_instrument, prototype):
-                    copied_previous_instrument._default_scope = \
-                        'PianoMusicStaff'
-                self._attach_instrument(copied_previous_instrument, staff)
+        if not previous_instruments:
+            message = 'can not find previous instruments before segment {}.'
+            message = message.format(self._get_segment_identifier())
+            raise Exception(message)
+        for staff in iterate(self._score).by_class(Staff):
+            previous_instrument_name = previous_instruments.get(
+                staff.name)
+            if not previous_instrument_name:
+                message = 'can not find previous segment instrument.'
+                raise Exception(message)
+            first_leaf = inspect_(staff).get_leaf(0)
+            prototype = instrumenttools.Instrument
+            instrument = inspect_(first_leaf).get_effective(prototype)
+            if instrument is not None:
+                continue
+            previous_instrument = self._get_instrument_by_name(
+                previous_instrument_name)
+            if previous_instrument is None:
+                continue
+            copied_previous_instrument = new(previous_instrument)
+            prototype = instrumenttools.Piano
+            if isinstance(copied_previous_instrument, prototype):
+                copied_previous_instrument._default_scope = \
+                    'PianoMusicStaff'
+            self._attach_instrument(copied_previous_instrument, staff)
         previous_clefs = self._previous_segment_metadata.get(
             'end_clefs_by_staff')
-        if previous_clefs:
-            for staff in iterate(self._score).by_class(Staff):
-                previous_clef_name = previous_clefs.get(staff.name)
-                if not previous_clef_name:
-                    message = 'can not find previous segment clef.'
-                    raise Exception(message)
-                first_leaf = inspect_(staff).get_leaf(0)
-                prototype = Clef
-                clef = inspect_(first_leaf).get_effective(Clef)
-                if clef is not None:
-                    continue
-                clef = Clef(previous_clef_name)
-                attach(clef, staff)
+        if not previous_clefs:
+            message = 'can not find previous clefs before segment {}.'
+            message = message.format(self._get_segment_identifier())
+            raise Exception(message)
+        for staff in iterate(self._score).by_class(Staff):
+            previous_clef_name = previous_clefs.get(staff.name)
+            if not previous_clef_name:
+                message = 'can not find previous segment clef.'
+                raise Exception(message)
+            first_leaf = inspect_(staff).get_leaf(0)
+            prototype = Clef
+            clef = inspect_(first_leaf).get_effective(Clef)
+            if clef is not None:
+                continue
+            clef = Clef(previous_clef_name)
+            attach(clef, staff)
 
-    def _attach_default_first_segment_clefs(self):
+    def _attach_fermatas(self):
+        if not self.tempo_map:
+            return
+        context = self._score['Time Signature Context']
+        prototype = (
+            indicatortools.Fermata,
+            indicatortools.BreathMark,
+            )
+        for stage_number, directive in self.tempo_map:
+            if not isinstance(directive, prototype):
+                continue
+            assert 0 < stage_number <= self.stage_count
+            result = self._stage_number_to_measure_indices(stage_number)
+            start_measure_index, stop_measure_index = result
+            start_measure = context[start_measure_index]
+            assert isinstance(start_measure, Measure), start_measure
+            start_skip = start_measure[0]
+            assert isinstance(start_skip, scoretools.Skip), start_skip
+            directive = new(directive)
+            attach(directive, start_skip)
+
+    def _attach_first_segment_default_clefs(self):
         if not self._is_first_segment():
             return
         cached_clefs = self._cached_score_template_start_clefs
@@ -201,7 +230,7 @@ class SegmentMaker(makertools.SegmentMaker):
                 clef = Clef(clef_name)
                 attach(clef, staff)
 
-    def _attach_default_first_segment_instruments(self):
+    def _attach_first_segment_default_instruments(self):
         import khamr
         if not self._is_first_segment():
             return
@@ -224,27 +253,6 @@ class SegmentMaker(makertools.SegmentMaker):
                 instrument = khamr.materials.instruments[instrument_name]
                 instrument = copy.deepcopy(instrument)
                 attach(instrument, staff)
-
-    def _attach_fermatas(self):
-        if not self.tempo_map:
-            return
-        context = self._score['Time Signature Context']
-        prototype = (
-            indicatortools.Fermata,
-            indicatortools.BreathMark,
-            )
-        for stage_number, directive in self.tempo_map:
-            if not isinstance(directive, prototype):
-                continue
-            assert 0 < stage_number <= self.stage_count
-            result = self._stage_number_to_measure_indices(stage_number)
-            start_measure_index, stop_measure_index = result
-            start_measure = context[start_measure_index]
-            assert isinstance(start_measure, Measure), start_measure
-            start_skip = start_measure[0]
-            assert isinstance(start_skip, scoretools.Skip), start_skip
-            directive = new(directive)
-            attach(directive, start_skip)
 
     def _attach_instrument(self, instrument, component, scope=None):
         self._check_instrument(instrument, component)
@@ -409,7 +417,10 @@ class SegmentMaker(makertools.SegmentMaker):
             if instrument:
                 result[staff.name] = instrument.instrument_name
             else:
-                result[staff.name] = None
+                message = 'can not find effective instrument for last leaf'
+                message += ' ({!r}) of {}.'
+                message = message.format(last_leaf, staff.name)
+                raise Exception(message)
         return result
 
     def _get_end_settings(self):
@@ -421,13 +432,13 @@ class SegmentMaker(makertools.SegmentMaker):
         return end_settings
 
     def _get_end_tempo_indication(self):
-        from khamr import materials
+        import khamr
         context = self._score['Time Signature Context']
         last_leaf = inspect_(context).get_leaf(-1)
         effective_tempo = inspect_(last_leaf).get_effective(Tempo)
         if not effective_tempo:
             return
-        tempi = materials.tempi
+        tempi = khamr.materials.tempi
         for tempo_name, tempo in tempi.items():
             if tempo == effective_tempo:
                 break
@@ -495,6 +506,13 @@ class SegmentMaker(makertools.SegmentMaker):
         rehearsal_ordinal = ord('A') - 1 + segment_index
         rehearsal_letter = chr(rehearsal_ordinal)
         return rehearsal_letter
+
+    def _get_segment_identifier(self):
+        segment_name = self._segment_metadata.get('segment_name')
+        if segment_name is not None:
+            return segment_name
+        segment_number = self._segment_metadata['segment_number']
+        return segment_number
 
     def _get_time_signatures(self, start_stage=None, stop_stage=None):
         counts = len(self.time_signatures), sum(self.measures_per_stage)
@@ -611,11 +629,11 @@ class SegmentMaker(makertools.SegmentMaker):
                 self._interpret_music_handler(music_handler)
 
     def _initialize_music_makers(self, music_makers):
-        from khamr import makers
+        import khamr
         music_makers = music_makers or []
         music_makers = list(music_makers)
         for music_maker in music_makers:
-            assert isinstance(music_maker, makers.MusicMaker)
+            assert isinstance(music_maker, khamr.makers.MusicMaker)
         self._music_makers = music_makers
 
     def _initialize_time_signatures(self, time_signatures):
@@ -735,8 +753,8 @@ class SegmentMaker(makertools.SegmentMaker):
             voice.extend(measures)
 
     def _make_score(self):
-        from khamr import makers
-        template = makers.ScoreTemplate()
+        import khamr
+        template = khamr.makers.ScoreTemplate()
         score = template()
         first_bar_number = self._segment_metadata['first_bar_number']
         if first_bar_number is not None:
@@ -1093,8 +1111,8 @@ class SegmentMaker(makertools.SegmentMaker):
 
         Returns music-maker.
         '''
-        from khamr import makers
-        music_maker = makers.MusicMaker(
+        import khamr
+        music_maker = khamr.makers.MusicMaker(
             clef=clef,
             context_name=context_name,
             division_maker=division_maker,
