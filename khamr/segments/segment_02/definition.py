@@ -607,20 +607,45 @@ segment_maker.copy_music_maker(
 
 ### CONTRABASS ###
 
+#segment_maker.make_music_maker(
+#    stages=(1, 3),
+#    context_name=cb,
+#    instrument=khamr.materials.instruments['contrabass'],
+#    division_maker=quarter_division_maker,
+#    rewrite_meter=True,
+#    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+#        tie_specifier=rhythmmakertools.TieSpecifier(
+#            tie_across_divisions=True,
+#            use_messiaen_style_ties=True,
+#            ),
+#        tuplet_ratios=string_tuplet_ratios_1,
+#        tuplet_spelling_specifier=string_tuplet_spelling_specifier,
+#        ),
+#    )
+
 segment_maker.make_music_maker(
     stages=(1, 3),
     context_name=cb,
-    instrument=khamr.materials.instruments['contrabass'],
-    division_maker=quarter_division_maker,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        output_masks=[
+            rhythmmakertools.sustain_every(
+                [0, 1, 4, 6],
+                period=7,
+                )
+            ],
+        tuplet_ratios=[
+            (6, 1), (6, 1), (6, 1),
+            (4, 1), (4, 1), (4, 1),
+            (3, 1), (3, 1), (3, 1),
+            (2, 1), (2, 1), (2, 1),
+            ],
+        tuplet_spelling_specifier=string_tuplet_spelling_specifier,
         tie_specifier=rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
             use_messiaen_style_ties=True,
-            ),
-        tuplet_ratios=string_tuplet_ratios_1,
-        tuplet_spelling_specifier=string_tuplet_spelling_specifier,
-        ),
+            )
+        )
     )
 
 segment_maker.copy_music_maker(
@@ -674,3 +699,14 @@ segment_maker.make_music_handler(
 ### CELLO ###
 
 ### CONTRABASS ###
+
+segment_maker.make_music_handler(
+    scope=(cb, (1, 5)),
+    specifiers=[
+        label_logical_ties(start_index=19),
+        pitch_specifier(
+            source=khamr.materials.halo_pitches,
+            start_index=19,
+            ),
+        ],
+    )
