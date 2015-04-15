@@ -96,7 +96,7 @@ class SegmentMaker(makertools.SegmentMaker):
         self._attach_first_segment_default_clefs()
         self._apply_previous_segment_end_settings()
         self._move_instruments_from_notes_back_to_rests()
-        self._attach_instrument_to_first_leaf()
+        # TODO: probably remove # self._move_untuned_percussion_markup_to_first_note()
         self._move_untuned_percussion_markup_to_first_note()
         self._label_instrument_changes()
         self._transpose_instruments()
@@ -258,35 +258,6 @@ class SegmentMaker(makertools.SegmentMaker):
         self._check_instrument(instrument, component)
         attach(instrument, component, scope=scope)
 
-    def _attach_instrument_to_first_leaf(self):
-        no_instrument_switches = (
-            'Percussion Music Voice',
-            'Violin Music Voice',
-            'Viola Music Voice',
-            'Cello Music Voice',
-            'Contrbass Music Voice',
-            )
-        for voice in iterate(self._score).by_class(scoretools.Voice):
-            if voice.name in no_instrument_switches:
-                continue
-            leaves = iterate(voice).by_class(scoretools.Leaf)
-            leaves = list(leaves)
-            first_leaf = leaves[0]
-            prototype = instrumenttools.Instrument
-            if inspect_(first_leaf).has_indicator(prototype):
-                continue
-            found_instrument = False
-            for leaf in leaves:
-                if inspect_(leaf).has_indicator(prototype):
-                    instrument = inspect_(leaf).get_indicator(prototype)
-                    found_instrument = True
-                    break
-            if not found_instrument:
-                continue
-            instrument = copy.deepcopy(instrument)
-            #attach(instrument, first_leaf)
-            self._attach_instrument(instrument, first_leaf)
-        
     def _attach_rehearsal_mark(self):
         segment_number = self._segment_metadata['segment_number']
         letter_number = segment_number - 1
