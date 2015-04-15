@@ -96,8 +96,6 @@ class SegmentMaker(makertools.SegmentMaker):
         self._attach_first_segment_default_clefs()
         self._apply_previous_segment_end_settings()
         self._move_instruments_from_notes_back_to_rests()
-        # TODO: probably remove # self._move_untuned_percussion_markup_to_first_note()
-        #self._move_untuned_percussion_markup_to_first_note()
         self._label_instrument_changes()
         self._transpose_instruments()
         self._attach_rehearsal_mark()
@@ -779,30 +777,6 @@ class SegmentMaker(makertools.SegmentMaker):
                         )
                     break
         
-#    def _move_untuned_percussion_markup_to_first_note(self):
-#        voice = self._score['Percussion Music Voice']
-#        markup_prototype = markuptools.Markup
-#        rest_prototype = (scoretools.Rest, scoretools.MultimeasureRest)
-#        for rest in iterate(voice).by_class(rest_prototype):
-#            markups = inspect_(rest).get_indicators(markup_prototype)
-#            if not markups:
-#                continue
-#            untuned_percussion_markup = None
-#            for markup in markups:
-#                if r'\box' in format(markup):
-#                    untuned_percussion_markup = markup
-#                    break
-#            if untuned_percussion_markup is None:
-#                continue
-#            current_leaf = rest
-#            while isinstance(current_leaf, rest_prototype):
-#                current_leaf = inspect_(current_leaf).get_leaf(1)
-#                if current_leaf is None:
-#                    break
-#            if not isinstance(current_leaf, rest_prototype):
-#                detach(markup, rest)
-#                attach(markup, current_leaf)
-
     def _populate_time_signature_context(self):
         measures = self._make_skip_filled_measures()
         leaves = iterate(measures).by_class(scoretools.Leaf)
