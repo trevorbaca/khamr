@@ -97,7 +97,7 @@ class SegmentMaker(makertools.SegmentMaker):
         self._apply_previous_segment_end_settings()
         self._move_instruments_from_notes_back_to_rests()
         # TODO: probably remove # self._move_untuned_percussion_markup_to_first_note()
-        self._move_untuned_percussion_markup_to_first_note()
+        #self._move_untuned_percussion_markup_to_first_note()
         self._label_instrument_changes()
         self._transpose_instruments()
         self._attach_rehearsal_mark()
@@ -510,17 +510,35 @@ class SegmentMaker(makertools.SegmentMaker):
         message = message.format(instrument)
         raise Exception(message)
 
-    def _interpret_music_makers(self):
-        self._make_music_for_time_signature_context()
-        self._attach_tempo_indicators()
-        self._attach_fermatas()
-        for voice in iterate(self._score).by_class(scoretools.Voice):
-            self._make_music_for_voice(voice)
+    def _is_first_segment(self):
+        segment_number = self._segment_metadata.get('segment_number')
+        return segment_number == 1
+
+    def _is_last_segment(self):
+        segment_number = self._segment_metadata.get('segment_number')
+        segment_count = self._segment_metadata.get('segment_count')
+        return segment_number == segment_count
+
+    def _logical_ties_to_leaves(self, logical_ties):
+        first_note = logical_ties[0].head
+        last_note = logical_ties[-1][-1]
+        leaves = []
+        current_leaf = first_note
+        while current_leaf is not last_note:
+            leaves.append(current_leaf)
+            current_leaf = inspect_(current_leaf).get_leaf(1)
+        leaves.append(last_note)
+        return leaves
 
     def _interpret_music_handler(self, music_handler):
-        simple_scope = music_handler.scope
-        assert isinstance(simple_scope, baca.makers.SimpleScope), simple_scope
-        compound_scope = baca.makers.CompoundScope(simple_scope)
+        if isinstance(music_handler.scope, baca.makers.SimpleScope):
+            compound_scope = baca.makers.CompoundScope(music_handler.scope)
+        elif isinstance(music_handler.scope, baca.makers.CompoundScope):
+            compound_scope = music_handler.scope
+        else:
+            message = 'must be simple scope or compound scope: {!r}.'
+            message = message.format(music_handler.scope)
+            raise Exception(message)
         result = self._compound_scope_to_logical_ties(compound_scope)
         logical_ties, timespan = result
         result = self._compound_scope_to_logical_ties(
@@ -540,8 +558,18 @@ class SegmentMaker(makertools.SegmentMaker):
             indicatortools.Clef,
             instrumenttools.Instrument,
             )
+        mutators = []
+        nonmutators = []
         for specifier in specifiers:
-            if isinstance(specifier, note_indicators):
+            if getattr(specifier, '_mutates_score', False):
+                mutators.append(specifier)
+            else:
+                nonmutators.append(specifier)
+        specifiers = mutators + nonmutators
+        for specifier in specifiers:
+            if isinstance(specifier, baca.makers.PitchSpecifier):
+                specifier(logical_ties, timespan)
+            elif isinstance(specifier, note_indicators):
                 attach(specifier, logical_ties[0].head)
             elif isinstance(specifier, leaf_indicators):
                 attach(specifier, logical_ties_with_rests[0].head)
@@ -564,40 +592,27 @@ class SegmentMaker(makertools.SegmentMaker):
                     )
                 logical_ties_with_rests, timespan = result
 
-    def _is_first_segment(self):
-        segment_number = self._segment_metadata.get('segment_number')
-        return segment_number == 1
-
-    def _is_last_segment(self):
-        segment_number = self._segment_metadata.get('segment_number')
-        segment_count = self._segment_metadata.get('segment_count')
-        return segment_number == segment_count
-
-    def _logical_ties_to_leaves(self, logical_ties):
-    
-        first_note = logical_ties[0].head
-        last_note = logical_ties[-1][-1]
-        leaves = []
-        current_leaf = first_note
-        while current_leaf is not last_note:
-            leaves.append(current_leaf)
-            current_leaf = inspect_(current_leaf).get_leaf(1)
-        leaves.append(last_note)
-        return leaves
-
-    def _interpret_pitch_handler(self, pitch_handler):
-        compound_scope = pitch_handler.scope
-        result = self._compound_scope_to_logical_ties(compound_scope)
-        logical_ties, timespan = result
-        for specifier in pitch_handler.specifiers:
-            specifier(logical_ties, timespan)
-
     def _interpret_music_handlers(self):
         for music_handler in self.music_handlers:
-            if isinstance(music_handler, baca.makers.PitchHandler):
-                self._interpret_pitch_handler(music_handler)
-            else:
-                self._interpret_music_handler(music_handler)
+            #if isinstance(music_handler, baca.makers.PitchHandler):
+            #    self._interpret_pitch_handler(music_handler)
+            #else:
+            #    self._interpret_music_handler(music_handler)
+            self._interpret_music_handler(music_handler)
+
+    def _interpret_music_makers(self):
+        self._make_music_for_time_signature_context()
+        self._attach_tempo_indicators()
+        self._attach_fermatas()
+        for voice in iterate(self._score).by_class(scoretools.Voice):
+            self._make_music_for_voice(voice)
+
+#    def _interpret_pitch_handler(self, pitch_handler):
+#        compound_scope = pitch_handler.scope
+#        result = self._compound_scope_to_logical_ties(compound_scope)
+#        logical_ties, timespan = result
+#        for specifier in pitch_handler.specifiers:
+#            specifier(logical_ties, timespan)
 
     def _initialize_music_makers(self, music_makers):
         import khamr
@@ -764,29 +779,29 @@ class SegmentMaker(makertools.SegmentMaker):
                         )
                     break
         
-    def _move_untuned_percussion_markup_to_first_note(self):
-        voice = self._score['Percussion Music Voice']
-        markup_prototype = markuptools.Markup
-        rest_prototype = (scoretools.Rest, scoretools.MultimeasureRest)
-        for rest in iterate(voice).by_class(rest_prototype):
-            markups = inspect_(rest).get_indicators(markup_prototype)
-            if not markups:
-                continue
-            untuned_percussion_markup = None
-            for markup in markups:
-                if r'\box' in format(markup):
-                    untuned_percussion_markup = markup
-                    break
-            if untuned_percussion_markup is None:
-                continue
-            current_leaf = rest
-            while isinstance(current_leaf, rest_prototype):
-                current_leaf = inspect_(current_leaf).get_leaf(1)
-                if current_leaf is None:
-                    break
-            if not isinstance(current_leaf, rest_prototype):
-                detach(markup, rest)
-                attach(markup, current_leaf)
+#    def _move_untuned_percussion_markup_to_first_note(self):
+#        voice = self._score['Percussion Music Voice']
+#        markup_prototype = markuptools.Markup
+#        rest_prototype = (scoretools.Rest, scoretools.MultimeasureRest)
+#        for rest in iterate(voice).by_class(rest_prototype):
+#            markups = inspect_(rest).get_indicators(markup_prototype)
+#            if not markups:
+#                continue
+#            untuned_percussion_markup = None
+#            for markup in markups:
+#                if r'\box' in format(markup):
+#                    untuned_percussion_markup = markup
+#                    break
+#            if untuned_percussion_markup is None:
+#                continue
+#            current_leaf = rest
+#            while isinstance(current_leaf, rest_prototype):
+#                current_leaf = inspect_(current_leaf).get_leaf(1)
+#                if current_leaf is None:
+#                    break
+#            if not isinstance(current_leaf, rest_prototype):
+#                detach(markup, rest)
+#                attach(markup, current_leaf)
 
     def _populate_time_signature_context(self):
         measures = self._make_skip_filled_measures()
