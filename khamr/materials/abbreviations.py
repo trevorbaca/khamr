@@ -425,6 +425,8 @@ repeated_pp_to_ff = handlertools.NoteAndChordHairpinHandler(
 
 ### miscellaneous
 
+label_logical_ties = baca.makers.LabelSpecifier(label_logical_ties=True)
+
 #low_piano_cluster = makers.ClusterSpecifier(
 #    start_pitch=NamedPitch('C1'),
 #    stop_pitch=NamedPitch('C3'),
