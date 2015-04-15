@@ -731,37 +731,27 @@ segment_maker.make_music_maker(
 ### CONTRABASS ###
 
 segment_maker.make_music_maker(
-    stages=(1, 5),
-    context_name=cb,
-    rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
-        output_masks=[
-            rhythmmakertools.sustain_every(
-                [0, 1, 4, 6],
-                period=7,
-                )
-            ],
-        tuplet_ratios=[
-            (6, 1), (6, 1), (6, 1),
-            (4, 1), (4, 1), (4, 1),
-            (3, 1), (3, 1), (3, 1),
-            (2, 1), (2, 1), (2, 1),
-            ],
-        tuplet_spelling_specifier=string_tuplet_spelling_specifier,
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            tie_across_divisions=True,
-            use_messiaen_style_ties=True,
-            )
-        )
-    )
-
-segment_maker.make_music_maker(
-    stages=(6, 9),
+    stages=(1, 7),
     context_name=cb,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         output_masks=[
-            rhythmmakertools.silence_every([2], period=3),
+            rhythmmakertools.silence_last(1),
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        )
+    )
+
+segment_maker.make_music_maker(
+    stages=(8, 9),
+    context_name=cb,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        output_masks=[
+            rhythmmakertools.silence_last(1),
             ],
         tie_specifier=rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
@@ -833,12 +823,24 @@ segment_maker.make_music_handler(
 ### CONTRABASS ###
 
 segment_maker.make_music_handler(
-    scope=(cb, (1, 5)),
+    scope=(cb, (1, 7)),
     specifiers=[
-        label_logical_ties(start_index=19),
         pitch_specifier(
-            source=khamr.materials.halo_pitches,
-            start_index=0,
+            source=[pitchtools.PitchSegment(
+                items=[NamedPitch('G0'), NamedPitch('A1')], 
+                item_class=NamedPitch,
+                )],
             ),
+        Dynamic('f'),
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(cb, (8, 9)),
+    specifiers=[
+        pitch_specifier(
+            source='G0',
+            ),
+        pervasive_F3_harmonic_trills,
         ],
     )
