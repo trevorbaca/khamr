@@ -263,6 +263,7 @@
         instrumentName = \percussionName
         shortInstrumentName = \shortPercussionName
         \override RepeatTie.direction = #up
+        \override StaffSymbol.line-count = 1
     }
     \context {
         \StaffGroup
