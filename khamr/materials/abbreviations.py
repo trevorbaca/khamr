@@ -219,6 +219,7 @@ string = 'subito non armonichi e non gridato'
 subito_non_armonichi = Markup(string, direction=Up).italic().larger()
 
 string_III = Markup('III', direction=Down).larger()
+string_IV = Markup('IV', direction=Down).larger()
 strings_III_and_IV = Markup('III + IV', direction=Down).larger()
 
 subito_ordinario = Markup('subito ordinario', direction=Up).larger()
@@ -431,9 +432,20 @@ repeated_pp_to_ff = handlertools.NoteAndChordHairpinHandler(
     hairpin_token='pp < ff',
     )
 
+halo_accompaniment_hairpins = handlertools.NoteAndChordHairpinHandler(
+    hairpin_token=[
+        'pp > ppp', 'ppp < pp', 'pp > ppp', 'ppp < pp',
+        'pp < p', 'p > pp', 'pp < p', 'p > ppp', 'ppp < pp', 
+        ],
+    span='nontrivial ties',
+    )
+
 halo_hairpins = handlertools.NoteAndChordHairpinHandler(
-    hairpin_token=['f > p', 'p < f'],
-    span=[6, 8],
+    hairpin_token=[
+        'pp > ppp', 'ppp < pp', 'pp > ppp', 'ppp < pp',
+        'pp < p', 'p > pp', 'pp < p', 'p > ppp', 'ppp < pp', 
+        ],
+    span='nontrivial ties',
     )
 
 ### MISCELLANEOUS ###

@@ -290,6 +290,7 @@
         \accepts ViolinMusicVoice
         instrumentName = \violinName
         shortInstrumentName = \shortViolinName
+        \override DynamicLineSpanner.staff-padding = 6
     }
     \context {
         \Voice
@@ -305,6 +306,7 @@
         \accepts ViolaMusicVoice
         instrumentName = \violaName
         shortInstrumentName = \shortViolaName
+        \override DynamicLineSpanner.staff-padding = 6
     }
     \context {
         \Voice
@@ -320,6 +322,7 @@
         \accepts CelloMusicVoice
         instrumentName = \celloName
         shortInstrumentName = \shortCelloName
+        \override DynamicLineSpanner.staff-padding = 6
     }
     \context {
         \Voice

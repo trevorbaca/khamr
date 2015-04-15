@@ -508,9 +508,57 @@ segment_maker.make_music_maker(
 
 ### VIOLIN ###
 
+segment_maker.make_music_handler(
+    scope=(vn, (1, 6)),
+    specifiers=[
+        baca.makers.GlissandoSpecifier(
+            patterns=rhythmmakertools.select_all(),
+            ),
+        halo_accompaniment_hairpins,
+        natural_harmonics,
+        pitch_specifier(
+            source=khamr.materials.violin_halo_pitches,
+            start_index=0,
+            ),
+        string_IV,
+        ],
+    )
+
 ### VIOLA ###
 
+segment_maker.make_music_handler(
+    scope=(va, (1, 6)),
+    specifiers=[
+        baca.makers.GlissandoSpecifier(
+            patterns=rhythmmakertools.select_all(),
+            ),
+        halo_accompaniment_hairpins,
+        natural_harmonics,
+        pitch_specifier(
+            source=khamr.materials.violin_halo_pitches,
+            start_index=0,
+            ),
+        string_III,
+        ],
+    )
+
 ### CELLO ###
+
+segment_maker.make_music_handler(
+    scope=(vc, (1, 6)),
+    specifiers=[
+        baca.makers.GlissandoSpecifier(
+            patterns=rhythmmakertools.select_all(),
+            ),
+        halo_accompaniment_hairpins,
+        natural_harmonics,
+        pitch_specifier(
+            source=khamr.materials.cello_halo_pitches,
+            start_index=0,
+            ),
+        string_III,
+        ],
+    )
 
 ### CONTRABASS ###
 
@@ -521,7 +569,6 @@ segment_maker.make_music_handler(
         baca.makers.GlissandoSpecifier(
             patterns=rhythmmakertools.select_all(),
             ),
-        label_logical_ties(start_index=0),
         natural_harmonics,
         pitch_specifier(
             source=khamr.materials.halo_pitches,
