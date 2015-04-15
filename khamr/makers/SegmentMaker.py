@@ -83,8 +83,8 @@ class SegmentMaker(makertools.SegmentMaker):
         self._previous_segment_metadata = previous_segment_metadata or \
             datastructuretools.TypedOrderedDict()
         self._make_score()
-        self._cache_score_template_start_instruments()
-        self._cache_score_template_start_clefs()
+        self._remove_score_template_start_instruments()
+        self._remove_score_template_start_clefs()
         self._make_lilypond_file()
         self._configure_lilypond_file()
         self._populate_time_signature_context()
@@ -92,8 +92,8 @@ class SegmentMaker(makertools.SegmentMaker):
         self._interpret_music_makers()
         self._interpret_music_handlers()
         self._shorten_long_repeat_ties()
-        self._attach_missing_start_instruments()
-        self._attach_missing_start_clefs()
+        self._attach_default_first_segment_instruments()
+        self._attach_default_first_segment_clefs()
         self._apply_previous_segment_end_settings()
         self._move_instruments_from_notes_back_to_rests()
         self._attach_instrument_to_first_leaf()
@@ -139,6 +139,8 @@ class SegmentMaker(makertools.SegmentMaker):
             attach(markup, start_measure)
 
     def _apply_previous_segment_end_settings(self):
+        if self._is_first_segment():
+            return
         if not self._previous_segment_metadata:
             return
         previous_instruments = self._previous_segment_metadata.get(
@@ -148,7 +150,8 @@ class SegmentMaker(makertools.SegmentMaker):
                 previous_instrument_name = previous_instruments.get(
                     staff.name)
                 if not previous_instrument_name:
-                    continue
+                    message = 'can not find previous segment instrument.'
+                    raise Exception(message)
                 first_leaf = inspect_(staff).get_leaf(0)
                 prototype = instrumenttools.Instrument
                 instrument = inspect_(first_leaf).get_effective(prototype)
@@ -163,8 +166,64 @@ class SegmentMaker(makertools.SegmentMaker):
                 if isinstance(copied_previous_instrument, prototype):
                     copied_previous_instrument._default_scope = \
                         'PianoMusicStaff'
-                #attach(copied_previous_instrument, staff)
                 self._attach_instrument(copied_previous_instrument, staff)
+        previous_clefs = self._previous_segment_metadata.get(
+            'end_clefs_by_staff')
+        if previous_clefs:
+            for staff in iterate(self._score).by_class(Staff):
+                previous_clef_name = previous_clefs.get(staff.name)
+                if not previous_clef_name:
+                    message = 'can not find previous segment clef.'
+                    raise Exception(message)
+                first_leaf = inspect_(staff).get_leaf(0)
+                prototype = Clef
+                clef = inspect_(first_leaf).get_effective(Clef)
+                if clef is not None:
+                    continue
+                clef = Clef(previous_clef_name)
+                attach(clef, staff)
+
+    def _attach_default_first_segment_clefs(self):
+        if not self._is_first_segment():
+            return
+        cached_clefs = self._cached_score_template_start_clefs
+        previous_clefs = self._previous_segment_metadata.get(
+            'end_clefs_by_staff', datastructuretools.TypedOrderedDict())
+        for staff in iterate(self._score).by_class(Staff):
+            if inspect_(staff).has_indicator(Clef):
+                continue
+            first_leaf = inspect_(staff).get_leaf(0)
+            if (first_leaf is None or
+                not inspect_(first_leaf).has_indicator(Clef)):
+                clef_name = previous_clefs.get(staff.name)
+                if clef_name is None:
+                    clef_name = cached_clefs.get(staff.name)
+                clef = Clef(clef_name)
+                attach(clef, staff)
+
+    def _attach_default_first_segment_instruments(self):
+        import khamr
+        if not self._is_first_segment():
+            return
+        cached_instruments = self._cached_score_template_start_instruments
+        previous_instruments = self._previous_segment_metadata.get(
+            'end_instruments_by_staff', datastructuretools.TypedOrderedDict())
+        prototype = instrumenttools.Instrument
+        for staff in iterate(self._score).by_class(Staff):
+            if inspect_(staff).has_indicator(prototype):
+                continue
+            first_leaf = inspect_(staff).get_leaf(0)
+            if (first_leaf is not None and 
+                inspect_(first_leaf).has_indicator(prototype)):
+                continue
+            if (first_leaf is None or
+                not inspect_(first_leaf).has_indicator(prototype)):
+                instrument_name = previous_instruments.get(staff.name)
+                if instrument_name is None:
+                    instrument_name = cached_instruments.get(staff.name)
+                instrument = khamr.materials.instruments[instrument_name]
+                instrument = copy.deepcopy(instrument)
+                attach(instrument, staff)
 
     def _attach_fermatas(self):
         if not self.tempo_map:
@@ -220,48 +279,6 @@ class SegmentMaker(makertools.SegmentMaker):
             #attach(instrument, first_leaf)
             self._attach_instrument(instrument, first_leaf)
         
-    def _attach_missing_start_clefs(self):
-        if not self._is_first_segment():
-            return
-        cached_clefs = self._cached_score_template_start_clefs
-        previous_clefs = self._previous_segment_metadata.get(
-            'end_clefs_by_staff', datastructuretools.TypedOrderedDict())
-        for staff in iterate(self._score).by_class(Staff):
-            if inspect_(staff).has_indicator(Clef):
-                continue
-            first_leaf = inspect_(staff).get_leaf(0)
-            if (first_leaf is None or
-                not inspect_(first_leaf).has_indicator(Clef)):
-                clef_name = previous_clefs.get(staff.name)
-                if clef_name is None:
-                    clef_name = cached_clefs.get(staff.name)
-                clef = Clef(clef_name)
-                attach(clef, staff)
-
-    def _attach_missing_start_instruments(self):
-        import khamr
-        if not self._is_first_segment():
-            return
-        cached_instruments = self._cached_score_template_start_instruments
-        previous_instruments = self._previous_segment_metadata.get(
-            'end_instruments_by_staff', datastructuretools.TypedOrderedDict())
-        prototype = instrumenttools.Instrument
-        for staff in iterate(self._score).by_class(Staff):
-            if inspect_(staff).has_indicator(prototype):
-                continue
-            first_leaf = inspect_(staff).get_leaf(0)
-            if (first_leaf is not None and 
-                inspect_(first_leaf).has_indicator(prototype)):
-                continue
-            if (first_leaf is None or
-                not inspect_(first_leaf).has_indicator(prototype)):
-                instrument_name = previous_instruments.get(staff.name)
-                if instrument_name is None:
-                    instrument_name = cached_instruments.get(staff.name)
-                instrument = khamr.materials.instruments[instrument_name]
-                instrument = copy.deepcopy(instrument)
-                attach(instrument, staff)
-
     def _attach_rehearsal_mark(self):
         segment_number = self._segment_metadata['segment_number']
         letter_number = segment_number - 1
@@ -297,25 +314,6 @@ class SegmentMaker(makertools.SegmentMaker):
             # TODO: adjust TempoSpanner to make measure attachment work
             attach(directive, start_skip, is_annotation=True)
 
-    def _cache_score_template_start_clefs(self):
-        dictionary = datastructuretools.TypedOrderedDict()
-        self._cached_score_template_start_clefs = dictionary
-        for staff in iterate(self._score).by_class(Staff):
-            clef = inspect_(staff).get_indicator(Clef)
-            self._cached_score_template_start_clefs[staff.name] = clef.name
-            detach(Clef, staff)
-
-    def _cache_score_template_start_instruments(self):
-        dictionary = datastructuretools.TypedOrderedDict()
-        self._cached_score_template_start_instruments = dictionary
-        for staff in iterate(self._score).by_class(Staff):
-            prototype = instrumenttools.Instrument
-            instrument = inspect_(staff).get_indicator(prototype)
-            instrument_name = self._instrument_to_instrument_name(instrument)
-            self._cached_score_template_start_instruments[staff.name] = \
-                instrument_name
-            detach(instrumenttools.Instrument, staff)
-        
     def _check_instrument(self, instrument, component):
         import khamr
         effective_staff = inspect_(component).get_effective_staff()
@@ -858,6 +856,25 @@ class SegmentMaker(makertools.SegmentMaker):
         message = message.format(total_duration)
         raise Exception(message)
 
+    def _remove_score_template_start_clefs(self):
+        dictionary = datastructuretools.TypedOrderedDict()
+        self._cached_score_template_start_clefs = dictionary
+        for staff in iterate(self._score).by_class(Staff):
+            clef = inspect_(staff).get_indicator(Clef)
+            self._cached_score_template_start_clefs[staff.name] = clef.name
+            detach(Clef, staff)
+
+    def _remove_score_template_start_instruments(self):
+        dictionary = datastructuretools.TypedOrderedDict()
+        self._cached_score_template_start_instruments = dictionary
+        for staff in iterate(self._score).by_class(Staff):
+            prototype = instrumenttools.Instrument
+            instrument = inspect_(staff).get_indicator(prototype)
+            instrument_name = self._instrument_to_instrument_name(instrument)
+            self._cached_score_template_start_instruments[staff.name] = \
+                instrument_name
+            detach(instrumenttools.Instrument, staff)
+        
     def _shorten_long_repeat_ties(self):
         leaves = iterate(self._score).by_class(scoretools.Leaf)
         for leaf in leaves:
