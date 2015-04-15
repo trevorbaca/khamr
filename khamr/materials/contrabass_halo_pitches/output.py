@@ -3,7 +3,7 @@ from abjad.tools import datastructuretools
 from abjad.tools import pitchtools
 
 
-halo_pitches = datastructuretools.CyclicTuple(
+contrabass_halo_pitches = datastructuretools.CyclicTuple(
     [
         pitchtools.NamedPitch('a,'),
         pitchtools.NamedPitch('bf,'),

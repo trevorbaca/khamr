@@ -571,7 +571,7 @@ segment_maker.make_music_handler(
             ),
         natural_harmonics,
         pitch_specifier(
-            source=khamr.materials.halo_pitches,
+            source=khamr.materials.contrabass_halo_pitches,
             start_index=0,
             ),
         string_III,
