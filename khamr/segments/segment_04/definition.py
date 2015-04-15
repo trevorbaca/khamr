@@ -104,7 +104,6 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(1, 1),
     context_name=ob,
-    instrument=khamr.materials.instruments['oboe'],
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         output_masks=[
             rhythmmakertools.silence_last(),
@@ -119,7 +118,6 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(2, 4),
     context_name=ob,
-    instrument=khamr.materials.instruments['oboe'],
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         duration_spelling_specifier=rhythmmakertools.DurationSpellingSpecifier(
             spell_metrically=partition_table,
@@ -134,7 +132,6 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(6, 12),
     context_name=ob,
-    instrument=khamr.materials.instruments['oboe'],
     division_maker=makertools.DivisionMaker()
         .fuse_by_counts(
             counts=mathtools.Infinity,
@@ -169,21 +166,18 @@ segment_maker.copy_music_maker(
     ob,
     1,
     context_name=cl,
-    instrument=khamr.materials.instruments['clarinet'],
     )
 
 segment_maker.copy_music_maker(
     ob,
     3,
     context_name=cl,
-    instrument=khamr.materials.instruments['clarinet'],
     )
 
 segment_maker.copy_music_maker(
     ob,
     6,
     context_name=cl,
-    instrument=khamr.materials.instruments['clarinet'],
     division_maker=makertools.DivisionMaker()
         .fuse_by_counts(
             counts=mathtools.Infinity,
@@ -207,7 +201,6 @@ segment_maker.copy_music_maker(
     6,
     stages=(1, 12),
     context_name=sax,
-    instrument=khamr.materials.instruments['baritone saxophone'],
     division_maker=makertools.DivisionMaker()
         .fuse_by_counts(
             counts=mathtools.Infinity,
@@ -229,7 +222,6 @@ segment_maker.copy_music_maker(
 segment_maker.make_music_maker(
     stages=(1, 1),
     context_name=gt,
-    instrument=khamr.materials.instruments['guitar'],
     division_maker=makertools.DivisionMaker()
         .fuse_by_counts(
             counts=[2, 3],
@@ -293,7 +285,6 @@ segment_maker.copy_music_maker(
     1,
     stages=(1, 11),
     context_name=pf,
-    instrument=khamr.materials.instruments['piano'],
     division_maker=makertools.DivisionMaker()
         .fuse_by_counts(
             counts=[3, 2],
@@ -376,7 +367,6 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(1, 11),
     context_name=vn,
-    instrument=khamr.materials.instruments['violin'],
     division_maker=makertools.DivisionMaker()
         .split_by_durations(
             compound_meter_multiplier=Multiplier(3, 2),
@@ -432,7 +422,6 @@ segment_maker.copy_music_maker(
     vn,
     1,
     context_name=va,
-    instrument=khamr.materials.instruments['viola'],
     rhythm_maker__output_masks=[
         rhythmmakertools.SilenceMask(
             indices=[8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
@@ -472,7 +461,6 @@ segment_maker.copy_music_maker(
     1,
     stages=(1, 10),
     context_name=vc,
-    instrument=khamr.materials.instruments['cello'],
     rhythm_maker__output_masks=[
         rhythmmakertools.SilenceMask(
             indices=[0, 1, 2, 3, 4, 5],
@@ -502,7 +490,6 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(1, 4),
     context_name=cb,
-    instrument=khamr.materials.instruments['contrabass'],
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,

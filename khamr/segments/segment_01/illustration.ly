@@ -1,4 +1,4 @@
-% 2015-04-14 21:53
+% 2015-04-14 23:01
 
 \version "2.19.17"
 \language "english"
@@ -2167,7 +2167,7 @@
                         ^ \markup { 0 }
                         _ \markup {
                             \larger
-                                "sul III"
+                                III
                             }
                     \once \override NoteHead #'style = #'harmonic
                     a2 \repeatTie

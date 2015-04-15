@@ -42,7 +42,6 @@ assert segment_maker.validate_time_signatures()
 segment_maker.make_music_maker(
     stages=(1, 5),
     context_name=fl,
-    instrument=khamr.materials.instruments['piccolo'],
     division_maker=beat_division_maker
         .flatten()
         .fuse_by_counts(
@@ -165,7 +164,6 @@ segment_maker.copy_music_maker(
 segment_maker.make_music_maker(
     stages=(1, 5),
     context_name=sax,
-    instrument=khamr.materials.instruments['baritone saxophone'],
     division_maker=makertools.DivisionMaker()
         .fuse_by_counts(
             counts=mathtools.Infinity,

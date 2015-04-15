@@ -77,7 +77,6 @@ guitar_ritardando = guitar_accelerando.reverse()
 segment_maker.make_music_maker(
     stages=(1, 2),
     context_name=fl,
-    instrument=khamr.materials.instruments['bass flute'],
     division_maker=makertools.DivisionMaker()
         .split_by_durations(
             durations=[(2, 4)],
@@ -154,7 +153,6 @@ segment_maker.copy_music_maker(
 segment_maker.make_music_maker(
     stages=(1, 2),
     context_name=ob,
-    instrument=khamr.materials.instruments['English horn'],
     division_maker=makertools.DivisionMaker()
         .split_by_durations(
             compound_meter_multiplier=Multiplier(3, 2),
@@ -220,7 +218,6 @@ segment_maker.copy_music_maker(
 segment_maker.make_music_maker(
     stages=(1, 3),
     context_name=cl,
-    instrument=khamr.materials.instruments['bass clarinet'],
     division_maker=makertools.DivisionMaker()
         .split_by_durations(
             durations=[(2, 4)],
@@ -257,7 +254,6 @@ segment_maker.copy_music_maker(
 segment_maker.make_music_maker(
     stages=(1, 3),
     context_name=sax,
-    instrument=khamr.materials.instruments['baritone saxophone'],
     division_maker=makertools.DivisionMaker()
         .split_by_durations(
             durations=[(2, 4)],
@@ -379,7 +375,6 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(1, 3),
     context_name=pf,
-    instrument=khamr.materials.instruments['piano'],
     division_maker=makertools.DivisionMaker()
         .fuse_by_counts(
             counts=[3, 2],
@@ -508,7 +503,6 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(1, 3),
     context_name=vn,
-    instrument=khamr.materials.instruments['violin'],
     division_maker=quarter_division_maker,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
@@ -550,7 +544,6 @@ segment_maker.copy_music_maker(
 segment_maker.make_music_maker(
     stages=(1, 3),
     context_name=va,
-    instrument=khamr.materials.instruments['viola'],
     division_maker=quarter_division_maker,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
@@ -580,7 +573,6 @@ segment_maker.copy_music_maker(
 segment_maker.make_music_maker(
     stages=(1, 3),
     context_name=vc,
-    instrument=khamr.materials.instruments['cello'],
     division_maker=quarter_division_maker,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
@@ -606,22 +598,6 @@ segment_maker.copy_music_maker(
     )
 
 ### CONTRABASS ###
-
-#segment_maker.make_music_maker(
-#    stages=(1, 3),
-#    context_name=cb,
-#    instrument=khamr.materials.instruments['contrabass'],
-#    division_maker=quarter_division_maker,
-#    rewrite_meter=True,
-#    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
-#        tie_specifier=rhythmmakertools.TieSpecifier(
-#            tie_across_divisions=True,
-#            use_messiaen_style_ties=True,
-#            ),
-#        tuplet_ratios=string_tuplet_ratios_1,
-#        tuplet_spelling_specifier=string_tuplet_spelling_specifier,
-#        ),
-#    )
 
 segment_maker.make_music_maker(
     stages=(1, 3),
