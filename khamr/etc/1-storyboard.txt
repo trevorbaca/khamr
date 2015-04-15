@@ -101,8 +101,8 @@ materials: 8, 16, 4, 5, 19, 10, 6
 ORCHESTRATION:
 
     [1]
-    (M4 [bass flute acc. to halo: niente < p])
-    (M4 [english horn air tone (w/o reed) acc. to halo: niente < p])
+    (M6 [bass flute quiet multiphonics])
+    (M4 [english horn air tone (w/o reed)])
     (M4 [bass clarinet acc. to halo: niente < p])
     (M4 [baritone sax acc. to halo: niente < p])
     --
@@ -125,9 +125,8 @@ ORCHESTRATION:
 
 
     [2]
-    (M4 [bass flute halo acc.])
-    (M4 [english horn air tone (w/o reed) acc. to halo] +
-        M8 [english horn slap-tongue (w/o reed) acc. to guitar])
+    (M6 [bass flute quiet multiphonics])
+    (M4 [english horn air tone (w/o reed)])
     (M4 [bass cl. halo acc.] ==> M5 [bass cl. ext. quiet low tone])
     (M4 [baritone sax halo acc.] ==> M5 [baritone sax ext. quiet low tone])
     --
@@ -156,9 +155,8 @@ ORCHESTRATION:
 
 
     [3]
-    (M4 [bass flute halo acc.])
-    (M4 [english horn air tone (w/o reed) acc. to halo] +
-        M8 [english horn slap-tongue (w/o reed) acc. to guitar])
+    (M6 [bass flute quiet multiphonics])
+    (M4 [english horn air tone (w/o reed)])
     (M5 [bass clarinet extremely quiet low tone])
     (M5 [baritone sax extremely quiet low tone])
     --
@@ -188,9 +186,8 @@ ORCHESTRATION:
 
 
     [4]
-    (M4 [bass flute halo acc.] ==> M5+M6 [quiet mult. + tone])
-    (M4 [english horn air tone (w/o reed) acc. to halo] +
-        M8 [english horn slap-tongue (w/o reed) acc. to guitar])
+    (M6 [bass flute quiet multiphonics])
+    (M4 [english horn air tone (w/o reed)])
     (M5 [bass clarinet extremely quiet low tone])
     (M5 [baritone sax extremely quiet low tone])
     --
@@ -221,9 +218,8 @@ ORCHESTRATION:
 
 
     [5]
-    (M5+M6 [bass fl. quiet mult. + pure tone] ==> M6 [quiet mult.])
-    (M4 [english horn air tone (w/o reed) acc. to halo] ==> niente +
-        M8 [english horn slap-tongue (w/o reed) acc. to guitar] ==> niente +
+    (M6 [bass flute quiet multphonics])
+    (M4 [english horn air tone (w/o reed)])
         niente ==> M6 [english horn quiet double harmonics])
     (M5+M6 [bass cl. quiet mult. + pure tone] ==> M6 [quiet mult.])
     (M5+M6 [baritone sax. quiet mult. + pure tone] ==> M6 [quiet mult.])
@@ -261,8 +257,7 @@ ORCHESTRATION:
 
 
     [6]
-    (M6 [bass flute quiet mult.] ==> M10 [bass flute tremoli fantastiques];
-        M19 [bass flute jet whistle to art. start of M19])
+    (M10 [bass flute tremoli fantastiques])
     (M6 [english horn quiet double harmonics]) 
     (M6 [bass clarinet quiet multiphonic complexes])
     (M6 [baritone saxophone quiet multiphonic complexes])

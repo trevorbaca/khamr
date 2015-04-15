@@ -145,6 +145,14 @@ leggierissimo = Markup('leggierissimo', direction=Up).italic().larger()
 string = 'leggierissimo (off-string bowing on staccati)'
 leggierissimo_off_string = Markup(string, direction=Up).italic().larger()
 
+def levine_multiphonic(number):
+    string = 'L.{}'
+    string = string.format(number)
+    markup = Markup(string, direction=Up)
+    markup = markup.box().override(('box-padding', 0.75))
+    markup = markup.larger()
+    return markup
+
 molto_flautando = Markup('molto flautando', direction=Up).italic().larger()
 
 string = 'molto flautando ed estr. sul pont.'
@@ -223,6 +231,8 @@ string_IV = Markup('IV', direction=Down).larger()
 strings_III_and_IV = Markup('III + IV', direction=Down).larger()
 
 subito_ordinario = Markup('subito ordinario', direction=Up).larger()
+
+thin_wavering_tone = Markup('thin wavering tone', direction=Up).larger()
 
 def beam_positions(n):
     return handlertools.OverrideHandler(
@@ -360,6 +370,13 @@ def pitch_specifier(
         start_index=start_index,
         )
 
+color_fingering_1 = baca.makers.ColorFingeringSpecifier(
+    deposit_annotations=['color fingering'],
+    number_lists=(
+        [1],
+        ),
+    )
+
 color_fingerings = baca.makers.ColorFingeringSpecifier(
     deposit_annotations=['color fingering'],
     number_lists=(
@@ -444,6 +461,13 @@ halo_hairpins = handlertools.NoteAndChordHairpinHandler(
     hairpin_token=[
         'pp > ppp', 'ppp < pp', 'pp > ppp', 'ppp < pp',
         'pp < p', 'p > pp', 'pp < p', 'p > ppp', 'ppp < pp', 
+        ],
+    span='nontrivial ties',
+    )
+
+bass_flute_tremoli_hairpins = handlertools.NoteAndChordHairpinHandler(
+    hairpin_token=[
+        'mp > pp', 'pp < mp',
         ],
     span='nontrivial ties',
     )
