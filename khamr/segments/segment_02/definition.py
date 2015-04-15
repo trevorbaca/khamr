@@ -677,18 +677,33 @@ segment_maker.make_music_handler(
 ### CONTRABASS ###
 
 segment_maker.make_music_handler(
-    scope=(cb, (1, 5)),
+    scope=(cb, (1, 3)),
     specifiers=[
         pitch_specifier(
             source=khamr.materials.double_stop_halo_pitches,
             start_index=0,
             ),
         baca.makers.GlissandoSpecifier(
-            patterns=rhythmmakertools.select_all(),
+            patterns=[
+                rhythmmakertools.select_all(),
+                rhythmmakertools.silence_last(1),
+                ],
             ),
-        label_logical_ties(start_index=0),
         natural_harmonics,
         strings_III_and_IV,
         Dynamic('mf'),
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(cb, (4, 5)),
+    specifiers=[
+        pitch_specifier(
+            source=[pitchtools.PitchSegment(
+                items=[NamedPitch('G0'), NamedPitch('A1')], 
+                item_class=NamedPitch,
+                )],
+            ),
+        Dynamic('f'),
         ],
     )

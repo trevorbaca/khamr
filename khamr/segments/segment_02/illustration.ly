@@ -1,4 +1,4 @@
-% 2015-04-15 10:57
+% 2015-04-15 11:32
 
 \version "2.19.17"
 \language "english"
@@ -2095,105 +2095,56 @@
                     }
                     \once \override NoteHead #'style = #'harmonic
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    <gqs, aqs>2 \repeatTie \glissando
-                    \once \override NoteHead #'style = #'harmonic
-                    <a, b>4. ^ \markup { 7 }
-                    \once \override NoteHead #'style = #'harmonic
-                    <a, b>4. \repeatTie
-                    \once \override NoteHead #'style = #'harmonic
-                    <a, b>4. \repeatTie
-                    \once \override NoteHead #'style = #'harmonic
-                    <a, b>4. \repeatTie
-                    \once \override NoteHead #'style = #'harmonic
+                    <gqs, aqs>2 \repeatTie
+                    <g,, a,>4. \f
+                    <g,, a,>4. \repeatTie
+                    <g,, a,>4. \repeatTie
+                    <g,, a,>4. \repeatTie
                     r4
-                    \once \override NoteHead #'style = #'harmonic
                     r4
-                    \once \override NoteHead #'style = #'harmonic
-                    <g, a>4 ^ \markup { 8 }
-                    \once \override NoteHead #'style = #'harmonic
-                    <g, a>4 \repeatTie
-                    \once \override NoteHead #'style = #'harmonic
-                    <g, a>4 \repeatTie
-                    \once \override NoteHead #'style = #'harmonic
-                    <g, a>4 \repeatTie
-                    \once \override NoteHead #'style = #'harmonic
-                    <g, a>4 \repeatTie
-                    \once \override NoteHead #'style = #'harmonic
+                    <g,, a,>4
+                    <g,, a,>4 \repeatTie
+                    <g,, a,>4 \repeatTie
+                    <g,, a,>4 \repeatTie
+                    <g,, a,>4 \repeatTie
                     r4.
-                    \once \override NoteHead #'style = #'harmonic
                     r4.
-                    \once \override NoteHead #'style = #'harmonic
-                    <a, b>4 ^ \markup { 9 }
-                    \once \override NoteHead #'style = #'harmonic
-                    <a, b>4 \repeatTie
-                    \once \override NoteHead #'style = #'harmonic
-                    <a, b>4 \repeatTie
-                    \once \override NoteHead #'style = #'harmonic
-                    <a, b>4 \repeatTie
-                    \once \override NoteHead #'style = #'harmonic
+                    <g,, a,>4
+                    <g,, a,>4 \repeatTie
+                    <g,, a,>4 \repeatTie
+                    <g,, a,>4 \repeatTie
                     r4.
-                    \once \override NoteHead #'style = #'harmonic
                     r4.
-                    \once \override NoteHead #'style = #'harmonic
                     r4.
-                    \once \override NoteHead #'style = #'harmonic
                     r4.
-                    \once \override NoteHead #'style = #'harmonic
                     r4
-                    \once \override NoteHead #'style = #'harmonic
-                    <b, cs'>4 ^ \markup { 10 }
-                    \once \override NoteHead #'style = #'harmonic
+                    <g,, a,>4
                     r4
-                    \once \override NoteHead #'style = #'harmonic
-                    <aqs, bqs>4 ^ \markup { 11 }
-                    \once \override NoteHead #'style = #'harmonic
+                    <g,, a,>4
                     r4
-                    \once \override NoteHead #'style = #'harmonic
                     r4
-                    \once \override NoteHead #'style = #'harmonic
-                    <bf, c'>4 ^ \markup { 12 }
-                    \once \override NoteHead #'style = #'harmonic
+                    <g,, a,>4
                     r4
-                    \once \override NoteHead #'style = #'harmonic
                     r4
-                    \once \override NoteHead #'style = #'harmonic
                     r4
-                    \once \override NoteHead #'style = #'harmonic
-                    <g, a>4 ^ \markup { 13 }
-                    \once \override NoteHead #'style = #'harmonic
+                    <g,, a,>4
                     r4
-                    \once \override NoteHead #'style = #'harmonic
-                    <a, b>4 ^ \markup { 14 }
-                    \once \override NoteHead #'style = #'harmonic
+                    <g,, a,>4
                     r4
-                    \once \override NoteHead #'style = #'harmonic
-                    <b, cs'>4 ^ \markup { 15 }
-                    \once \override NoteHead #'style = #'harmonic
+                    <g,, a,>4
                     r4.
-                    \once \override NoteHead #'style = #'harmonic
                     r4.
-                    \once \override NoteHead #'style = #'harmonic
                     r4.
-                    \once \override NoteHead #'style = #'harmonic
-                    <aqs, bqs>4. ^ \markup { 16 }
-                    \once \override NoteHead #'style = #'harmonic
+                    <g,, a,>4.
                     r4
-                    \once \override NoteHead #'style = #'harmonic
                     r4
-                    \once \override NoteHead #'style = #'harmonic
                     r4
-                    \once \override NoteHead #'style = #'harmonic
-                    <cqf dqf'>4 ^ \markup { 17 }
-                    \once \override NoteHead #'style = #'harmonic
+                    <g,, a,>4
                     r4
-                    \once \override NoteHead #'style = #'harmonic
                     r4
-                    \once \override NoteHead #'style = #'harmonic
-                    <bf, c'>4 ^ \markup { 18 }
-                    \once \override NoteHead #'style = #'harmonic
+                    <g,, a,>4
                     r4.
-                    \once \override NoteHead #'style = #'harmonic
-                    <c d'>4. ^ \markup { 19 }
+                    <g,, a,>4.
                 }
             }
         >>
