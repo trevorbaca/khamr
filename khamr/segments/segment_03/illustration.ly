@@ -1,4 +1,4 @@
-% 2015-04-14 22:48
+% 2015-04-14 23:03
 
 \version "2.19.17"
 \language "english"
@@ -322,53 +322,45 @@
             \tag winds.flute
             \context FluteMusicStaff = "Flute Music Staff" {
                 \clef "treble"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    \center-column
+                        {
+                            Bass
+                            flute
+                        }
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    \center-column
+                        {
+                            Bass
+                            fl.
+                        }
+                }
                 \context FluteMusicVoice = "Flute Music Voice" {
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
                             #16
-                            \center-column
-                                {
-                                    Bass
-                                    flute
-                                }
+                            Flute
                         }
                     \set Staff.shortInstrumentName = \markup {
                         \hcenter-in
                             #10
-                            \center-column
-                                {
-                                    Bass
-                                    fl.
-                                }
+                            Fl.
                         }
                     c''2
                         ^ \markup {
                             \override
                                 #'(box-padding . 0.75)
                                 \box
-                                    "to bass flute"
+                                    "to flute"
                             }
                     c''2 \repeatTie
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/8 {
-                        \set Staff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                \center-column
-                                    {
-                                        Bass
-                                        flute
-                                    }
-                            }
-                        \set Staff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                \center-column
-                                    {
-                                        Bass
-                                        fl.
-                                    }
-                            }
                         c''8 [
                         c''8
                         c''8
@@ -887,16 +879,6 @@
                         c'16
                         c'16 ]
                     }
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            Flute
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            Fl.
-                        }
                     r8
                     c'4
                     c'4. \repeatTie
@@ -924,53 +906,45 @@
             \tag winds.oboe
             \context OboeMusicStaff = "Oboe Music Staff" {
                 \clef "treble"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    \center-column
+                        {
+                            English
+                            horn
+                        }
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    \center-column
+                        {
+                            Eng.
+                            hn.
+                        }
+                }
                 \context OboeMusicVoice = "Oboe Music Voice" {
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
                             #16
-                            \center-column
-                                {
-                                    English
-                                    horn
-                                }
+                            Oboe
                         }
                     \set Staff.shortInstrumentName = \markup {
                         \hcenter-in
                             #10
-                            \center-column
-                                {
-                                    Eng.
-                                    hn.
-                                }
+                            Ob.
                         }
                     g'2
                         ^ \markup {
                             \override
                                 #'(box-padding . 0.75)
                                 \box
-                                    "to English horn"
+                                    "to oboe"
                             }
                     g'2 \repeatTie
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/10 {
-                        \set Staff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                \center-column
-                                    {
-                                        English
-                                        horn
-                                    }
-                            }
-                        \set Staff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                \center-column
-                                    {
-                                        Eng.
-                                        hn.
-                                    }
-                            }
                         g'8 [
                         g'8
                         g'8
@@ -1551,16 +1525,6 @@
                         c'16
                         c'16 ]
                     }
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            Oboe
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            Ob.
-                        }
                     r2.
                     r1
                     r2
@@ -1589,53 +1553,45 @@
             \tag winds.clarinet
             \context ClarinetMusicStaff = "Clarinet Music Staff" {
                 \clef "treble"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    \center-column
+                        {
+                            Bass
+                            clarinet
+                        }
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    \center-column
+                        {
+                            Bass
+                            cl.
+                        }
+                }
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
                             #16
-                            \center-column
-                                {
-                                    Bass
-                                    clarinet
-                                }
+                            Clarinet
                         }
                     \set Staff.shortInstrumentName = \markup {
                         \hcenter-in
                             #10
-                            \center-column
-                                {
-                                    Bass
-                                    cl.
-                                }
+                            Cl.
                         }
                     d''2
                         ^ \markup {
                             \override
                                 #'(box-padding . 0.75)
                                 \box
-                                    "to bass clarinet"
+                                    "to clarinet in B-flat"
                             }
                     d''2 \repeatTie
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/14 {
-                        \set Staff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                \center-column
-                                    {
-                                        Bass
-                                        clarinet
-                                    }
-                            }
-                        \set Staff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                \center-column
-                                    {
-                                        Bass
-                                        cl.
-                                    }
-                            }
                         d''8 [
                         d''8
                         d''8
@@ -2094,16 +2050,6 @@
                         d'16
                         d'16 ]
                     }
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            Clarinet
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            Cl.
-                        }
                     r8
                     d'4
                     d'4. \repeatTie
@@ -2133,13 +2079,31 @@
             \tag winds.saxophone
             \context SaxophoneMusicStaff = "Saxophone Music Staff" {
                 \clef "treble"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    \center-column
+                        {
+                            Baritone
+                            saxophone
+                        }
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    \center-column
+                        {
+                            Bar.
+                            sax.
+                        }
+                }
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
                             #16
                             \center-column
                                 {
-                                    Baritone
+                                    Sopranino
                                     saxophone
                                 }
                         }
@@ -2148,7 +2112,7 @@
                             #10
                             \center-column
                                 {
-                                    Bar.
+                                    Sopr.
                                     sax.
                                 }
                         }
@@ -2157,29 +2121,11 @@
                             \override
                                 #'(box-padding . 0.75)
                                 \box
-                                    "to baritone saxophone"
+                                    "to sopranino saxophone"
                             }
                     a''2 \repeatTie
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/8 {
-                        \set Staff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                \center-column
-                                    {
-                                        Baritone
-                                        saxophone
-                                    }
-                            }
-                        \set Staff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                \center-column
-                                    {
-                                        Bar.
-                                        sax.
-                                    }
-                            }
                         a''8 [
                         a''8
                         a''8
@@ -2741,24 +2687,6 @@
                         a16
                         a16 ]
                     }
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            \center-column
-                                {
-                                    Sopranino
-                                    saxophone
-                                }
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            \center-column
-                                {
-                                    Sopr.
-                                    sax.
-                                }
-                        }
                     r8
                     a4
                     a4. \repeatTie

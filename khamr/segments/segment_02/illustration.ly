@@ -1,4 +1,4 @@
-% 2015-04-14 22:44
+% 2015-04-14 23:02
 
 \version "2.19.17"
 \language "english"
@@ -387,32 +387,26 @@
             \tag winds.flute
             \context FluteMusicStaff = "Flute Music Staff" {
                 \clef "treble"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    \center-column
+                        {
+                            Bass
+                            flute
+                        }
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    \center-column
+                        {
+                            Bass
+                            fl.
+                        }
+                }
                 \context FluteMusicVoice = "Flute Music Voice" {
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            \center-column
-                                {
-                                    Bass
-                                    flute
-                                }
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            \center-column
-                                {
-                                    Bass
-                                    fl.
-                                }
-                        }
                     c''2
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.75)
-                                \box
-                                    "to bass flute"
-                            }
                     \times 8/12 {
                         c''16 \repeatTie [
                         c''16
@@ -557,33 +551,27 @@
             \tag winds.oboe
             \context OboeMusicStaff = "Oboe Music Staff" {
                 \clef "treble"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    \center-column
+                        {
+                            English
+                            horn
+                        }
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    \center-column
+                        {
+                            Eng.
+                            hn.
+                        }
+                }
                 \context OboeMusicVoice = "Oboe Music Voice" {
                     \times 4/7 {
-                        \set Staff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                \center-column
-                                    {
-                                        English
-                                        horn
-                                    }
-                            }
-                        \set Staff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                \center-column
-                                    {
-                                        Eng.
-                                        hn.
-                                    }
-                            }
                         g'8 [
-                            ^ \markup {
-                                \override
-                                    #'(box-padding . 0.75)
-                                    \box
-                                        "to English horn"
-                                }
                         g'8
                         g'8
                         g'8
@@ -739,32 +727,26 @@
             \tag winds.clarinet
             \context ClarinetMusicStaff = "Clarinet Music Staff" {
                 \clef "treble"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    \center-column
+                        {
+                            Bass
+                            clarinet
+                        }
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    \center-column
+                        {
+                            Bass
+                            cl.
+                        }
+                }
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            \center-column
-                                {
-                                    Bass
-                                    clarinet
-                                }
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            \center-column
-                                {
-                                    Bass
-                                    cl.
-                                }
-                        }
                     d''2
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.75)
-                                \box
-                                    "to bass clarinet"
-                            }
                     \times 4/7 {
                         d''8 \repeatTie [
                         d''8
@@ -920,33 +902,27 @@
             \tag winds.saxophone
             \context SaxophoneMusicStaff = "Saxophone Music Staff" {
                 \clef "treble"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    \center-column
+                        {
+                            Baritone
+                            saxophone
+                        }
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    \center-column
+                        {
+                            Bar.
+                            sax.
+                        }
+                }
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
                     \times 8/12 {
-                        \set Staff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                \center-column
-                                    {
-                                        Baritone
-                                        saxophone
-                                    }
-                            }
-                        \set Staff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                \center-column
-                                    {
-                                        Bar.
-                                        sax.
-                                    }
-                            }
                         a''16 [
-                            ^ \markup {
-                                \override
-                                    #'(box-padding . 0.75)
-                                    \box
-                                        "to baritone saxophone"
-                                }
                         a''16
                         a''16
                         a''16
@@ -1245,51 +1221,44 @@
             \tag percussion.piano
             \context PianoMusicStaff = "Piano Music Staff" {
                 \clef "treble"
+                \set PianoMusicStaff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    Piano
+                }
+                \set PianoMusicStaff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    Pf.
+                }
                 \context PianoMusicVoice = "Piano Music Voice" {
-                    \set PianoMusicStaff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            Piano
-                        }
-                    \set PianoMusicStaff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            Pf.
-                        }
                     c'2
                         ^ \markup {
-                            \column
-                                {
-                                    \larger
-                                        \line
-                                            {
-                                                sparse,
-                                                individual
-                                                clicks
-                                                with
-                                                credit
-                                                card
-                                                on
-                                                C
-                                                \hspace
-                                                    #-0.5
-                                                \raise
-                                                    #1
-                                                    \sharp
-                                                \hspace
-                                                    #-0.5
-                                                1
-                                                string
-                                                (1-2/sec.
-                                                in
-                                                irregular
-                                                rhythm)
-                                            }
-                                    \override
-                                        #'(box-padding . 0.75)
-                                        \box
-                                            "to piano"
-                                }
+                            \larger
+                                \line
+                                    {
+                                        sparse,
+                                        individual
+                                        clicks
+                                        with
+                                        credit
+                                        card
+                                        on
+                                        C
+                                        \hspace
+                                            #-0.5
+                                        \raise
+                                            #1
+                                            \sharp
+                                        \hspace
+                                            #-0.5
+                                        1
+                                        string
+                                        (1-2/sec.
+                                        in
+                                        irregular
+                                        rhythm)
+                                    }
                             }
                     c'2 \repeatTie
                     c'2. \repeatTie
@@ -1603,24 +1572,18 @@
             \tag strings.violin
             \context ViolinMusicStaff = "Violin Music Staff" {
                 \clef "treble"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    Violin
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    Vn.
+                }
                 \context ViolinMusicVoice = "Violin Music Voice" {
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            Violin
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            Vn.
-                        }
                     c'2
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.75)
-                                \box
-                                    "to violin"
-                            }
                     \times 4/5 {
                         c'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
@@ -1779,24 +1742,18 @@
             \tag strings.viola
             \context ViolaMusicStaff = "Viola Music Staff" {
                 \clef "alto"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    Viola
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    Va.
+                }
                 \context ViolaMusicVoice = "Viola Music Voice" {
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            Viola
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            Va.
-                        }
                     c'2
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.75)
-                                \box
-                                    "to viola"
-                            }
                     c'4 \repeatTie
                     \times 4/5 {
                         c'16 \repeatTie
@@ -1933,24 +1890,18 @@
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
                 \clef "bass"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    Cello
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    Vc.
+                }
                 \context CelloMusicVoice = "Cello Music Voice" {
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            Cello
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            Vc.
-                        }
                     c'2
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.75)
-                                \box
-                                    "to cello"
-                            }
                     c'2 \repeatTie
                     \times 4/5 {
                         c'16 \repeatTie

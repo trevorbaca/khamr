@@ -1,4 +1,4 @@
-% 2015-04-14 22:50
+% 2015-04-14 23:50
 
 \version "2.19.17"
 \language "english"
@@ -376,24 +376,18 @@
             \tag winds.flute
             \context FluteMusicStaff = "Flute Music Staff" {
                 \clef "treble"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    Piccolo
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    Picc.
+                }
                 \context FluteMusicVoice = "Flute Music Voice" {
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            Piccolo
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            Picc.
-                        }
                     c2
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.75)
-                                \box
-                                    "to piccolo"
-                            }
                     c2 \repeatTie
                     c1. \repeatTie
                     c2 \repeatTie
@@ -445,16 +439,6 @@
                     c4
                     c4
                     c4
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            Piccolo
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            Picc.
-                        }
                     c2.
                     c2. \repeatTie
                     c1 \repeatTie
@@ -840,166 +824,142 @@
             \tag winds.saxophone
             \context SaxophoneMusicStaff = "Saxophone Music Staff" {
                 \clef "treble"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    \center-column
+                        {
+                            Sopranino
+                            saxophone
+                        }
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    \center-column
+                        {
+                            Sopr.
+                            sax.
+                        }
+                }
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            \center-column
-                                {
-                                    Baritone
-                                    saxophone
-                                }
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            \center-column
-                                {
-                                    Bar.
-                                    sax.
-                                }
-                        }
-                    a''2
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.75)
-                                \box
-                                    "to baritone saxophone"
-                            }
-                    a''2 \repeatTie
-                    a''4. \repeatTie
+                    a2
+                    a2 \repeatTie
+                    a4. \repeatTie
                     r2.
                     r4.
-                    a''2.
-                    a''1 \repeatTie
-                    a''4. \repeatTie
+                    a2.
+                    a1 \repeatTie
+                    a4. \repeatTie
                     r8
-                    a''4
-                    a''1 \repeatTie
-                    a''8 \repeatTie
+                    a4
+                    a1 \repeatTie
+                    a8 \repeatTie
                     r8
                     r2
                     r2
-                    a''1
-                    a''2. \repeatTie
-                    a''4. \repeatTie
+                    a1
+                    a2. \repeatTie
+                    a4. \repeatTie
                     r8
-                    a''2
-                    a''2.. \repeatTie
+                    a2
+                    a2.. \repeatTie
                     r4.
                     r2.
-                    a''2
-                    a''1. \repeatTie
-                    a''8 \repeatTie
+                    a2
+                    a1. \repeatTie
+                    a8 \repeatTie
                     r8
-                    a''4
-                    a''2. \repeatTie
-                    a''4. \repeatTie
+                    a4
+                    a2. \repeatTie
+                    a4. \repeatTie
                     r8
                     r2.
                     r4
-                    a''2.
-                    a''2. \repeatTie
-                    a''4. \repeatTie
-                    a''4 \repeatTie
+                    a2.
+                    a2. \repeatTie
+                    a4. \repeatTie
+                    a4 \repeatTie
                     r8
-                    a''4
-                    a''4
-                    a''4
-                    a''4
-                    a''4
-                    a''4
-                    a''4
-                    a''4
-                    a''4
-                    a''4
-                    a''4
-                    a''4
-                    a''4
-                    a''4
-                    a''4
-                    a''4.
-                    a''4.
-                    a''4.
-                    a''4.
-                    a''4
-                    a''4
-                    a''4
-                    a''4
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            \center-column
-                                {
-                                    Baritone
-                                    saxophone
-                                }
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            \center-column
-                                {
-                                    Bar.
-                                    sax.
-                                }
-                        }
-                    a''2.
-                    a''4. \repeatTie
-                    a''4 \repeatTie
+                    a4
+                    a4
+                    a4
+                    a4
+                    a4
+                    a4
+                    a4
+                    a4
+                    a4
+                    a4
+                    a4
+                    a4
+                    a4
+                    a4
+                    a4
+                    a4.
+                    a4.
+                    a4.
+                    a4.
+                    a4
+                    a4
+                    a4
+                    a4
+                    a2.
+                    a4. \repeatTie
+                    a4 \repeatTie
                     r8
-                    a''2..
+                    a2..
                     r8
-                    a''2.
-                    a''2 \repeatTie
-                    a''2. \repeatTie
-                    a''8 \repeatTie
+                    a2.
+                    a2 \repeatTie
+                    a2. \repeatTie
+                    a8 \repeatTie
                     r8
-                    a''2.
-                    a''2 \repeatTie
-                    a''8 \repeatTie
+                    a2.
+                    a2 \repeatTie
+                    a8 \repeatTie
                     r8
-                    a''4
-                    a''2 \repeatTie
-                    a''8 \repeatTie
+                    a4
+                    a2 \repeatTie
+                    a8 \repeatTie
                     r8
-                    a''2
-                    a''2. \repeatTie
-                    a''2 \repeatTie
-                    a''4. \repeatTie
+                    a2
+                    a2. \repeatTie
+                    a2 \repeatTie
+                    a4. \repeatTie
                     r8
-                    a''4
-                    a''2. \repeatTie
-                    a''4. \repeatTie
+                    a4
+                    a2. \repeatTie
+                    a4. \repeatTie
                     r8
-                    a''2..
+                    a2..
                     r8
-                    a''4
-                    a''2. \repeatTie
-                    a''1 \repeatTie
-                    a''8 \repeatTie
+                    a4
+                    a2. \repeatTie
+                    a1 \repeatTie
+                    a8 \repeatTie
                     r8
-                    a''8
-                    a''2. \repeatTie
-                    a''4. \repeatTie
-                    a''8 \repeatTie
+                    a8
+                    a2. \repeatTie
+                    a4. \repeatTie
+                    a8 \repeatTie
                     r8
-                    a''4
-                    a''2 \repeatTie
-                    a''8 \repeatTie
+                    a4
+                    a2 \repeatTie
+                    a8 \repeatTie
                     r8
-                    a''2.
-                    a''2. \repeatTie
-                    a''2 \repeatTie
-                    a''8 \repeatTie
+                    a2.
+                    a2. \repeatTie
+                    a2 \repeatTie
+                    a8 \repeatTie
                     r8
-                    a''4
-                    a''2. \repeatTie
-                    a''4. \repeatTie
+                    a4
+                    a2. \repeatTie
+                    a4. \repeatTie
                     r8
-                    a''4
-                    a''2 \repeatTie
-                    a''8 \repeatTie
+                    a4
+                    a2 \repeatTie
+                    a8 \repeatTie
                     r8
                     \bar "|."
                 }
