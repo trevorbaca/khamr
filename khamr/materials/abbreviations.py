@@ -388,7 +388,13 @@ pervasive_A5_trills = baca.makers.TrillSpecifier(
     pitch=NamedPitch('A5'),
     )
 
-# articulation handlers
+pervasive_F3_harmonic_trills = baca.makers.TrillSpecifier(
+    minimum_written_duration=None,
+    pitch=NamedPitch('F3'),
+    )
+
+### articulation handlers ###
+
 alternate_bow_strokes = handlertools.PatternedArticulationsHandler(
     articulation_lists=(['upbow', 'accent'], ['downbow', 'accent']),
     )
@@ -409,7 +415,7 @@ tenuti = handlertools.ReiteratedArticulationHandler(
     articulation_list=['tenuto'],
     )
     
-### dynamics
+### DYNAMICS ###
 
 patterned_f_ff = handlertools.TerracedDynamicsHandler(
     dynamics=['f', 'f', 'ff', 'f', 'ff', 'f', 'f', 'ff', 'ff'],
@@ -419,11 +425,17 @@ patterned_f_ff = handlertools.TerracedDynamicsHandler(
 repeated_p_to_ppp = handlertools.NoteAndChordHairpinHandler(
     hairpin_token='p > ppp',
     )
+
 repeated_pp_to_ff = handlertools.NoteAndChordHairpinHandler(
     hairpin_token='pp < ff',
     )
 
-### miscellaneous
+pp_to_ff_logical_ties = handlertools.NoteAndChordHairpinHandler(
+    hairpin_token=['pp < ff', 'ff > pp'],
+    span=[3, 4],
+    )
+
+### MISCELLANEOUS ###
 
 def label_logical_ties(start_index=0):
     return baca.makers.LabelSpecifier(

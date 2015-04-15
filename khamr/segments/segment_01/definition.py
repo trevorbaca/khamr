@@ -528,5 +528,6 @@ segment_maker.make_music_handler(
             start_index=0,
             ),
         string_III,
+        pp_to_ff_logical_ties,
         ],
     )

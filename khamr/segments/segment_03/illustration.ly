@@ -1,4 +1,4 @@
-% 2015-04-15 00:02
+% 2015-04-15 11:52
 
 \version "2.19.17"
 \language "english"
@@ -3828,81 +3828,49 @@
                     Cb.
                 }
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
-                    c''2
-                    c''2 \repeatTie
-                    \tweak #'text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        c''1. \repeatTie
-                        c''4
-                    }
-                    \times 4/5 {
-                        c''2. \repeatTie
-                        c''8.
-                    }
-                    c''1 \repeatTie
-                    \times 4/5 {
-                        c''2. \repeatTie
-                        c''8.
-                    }
-                    c''1 \repeatTie
-                    c''2. \repeatTie
-                    c''2 \repeatTie
-                    c''1 \repeatTie
-                    c''2 \repeatTie
-                    c''4
-                    \times 2/3 {
-                        c''1 \repeatTie
-                        c''2
-                    }
-                    c''2. \repeatTie
-                    c''2 \repeatTie
-                    \tweak #'text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        c''2. \repeatTie
-                        c''8
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    c''2 \repeatTie
-                    c''1. \repeatTie
-                    c''2 \repeatTie
-                    c''1 \repeatTie
-                    c''4
-                    \times 4/5 {
-                        c''2. \repeatTie
-                        c''8.
-                    }
-                    c''1 \repeatTie
-                    \tweak #'text #tuplet-number::calc-fraction-text
-                    \times 3/4 {
-                        c''1. \repeatTie
-                        c''2
-                    }
-                    c''2 \repeatTie
-                    c''2 \repeatTie
-                    c''2. \repeatTie
-                    \times 2/3 {
-                        c''1 \repeatTie
-                        c''2
-                    }
-                    \times 4/7 {
-                        c''2. \repeatTie
-                        c''8
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    c''2
-                    c''1. \repeatTie
+                    <g,, a,>2 \f
+                    <g,, a,>2 \repeatTie
+                    <g,, a,>1. \repeatTie
+                    <g,, a,>2. \repeatTie
+                    <g,, a,>1 \repeatTie
+                    <g,, a,>2. \repeatTie
+                    <g,, a,>1 \repeatTie
+                    <g,, a,>2. \repeatTie
+                    <g,, a,>2 \repeatTie
+                    <g,, a,>1 \repeatTie
+                    <g,, a,>2. \repeatTie
+                    <g,, a,>1 \repeatTie
+                    <g,, a,>2. \repeatTie
+                    <g,, a,>2 \repeatTie
+                    <g,, a,>2. \repeatTie
+                    <g,, a,>2 \repeatTie
+                    <g,, a,>1. \repeatTie
+                    <g,, a,>2 \repeatTie
+                    <g,, a,>2. \repeatTie
+                    <g,, a,>2 \repeatTie
+                    <g,, a,>2. \repeatTie
+                    <g,, a,>1 \repeatTie
+                    <g,, a,>1. \repeatTie
+                    <g,, a,>2 \repeatTie
+                    <g,, a,>2 \repeatTie
+                    <g,, a,>2. \repeatTie
+                    <g,, a,>1 \repeatTie
+                    <g,, a,>2 \repeatTie
+                    <g,, a,>2 \repeatTie
+                    <g,, a,>1. \repeatTie
+                    <g,, a,>1 \repeatTie
+                    <g,, a,>2. \repeatTie
+                    <g,, a,>2. \repeatTie
                     r1
-                    c''2.
-                    c''2. \repeatTie
-                    r1
-                    c''2.
-                    c''2 \repeatTie
-                    c''2. \repeatTie
-                    r1
-                    c''1
-                    c''2. \repeatTie
-                    c''2 \repeatTie
-                    r2.
+                    \pitchedTrill
+                    g,,2. \startTrillSpan f
+                    g,,2 \repeatTie
+                    g,,2. \repeatTie
+                    g,,1 \repeatTie
+                    g,,1 \repeatTie
+                    g,,2. \repeatTie
+                    g,,2 \repeatTie
+                    r2. \stopTrillSpan
                 }
             }
         >>
