@@ -218,8 +218,8 @@ show_tempo = show_tempo.larger()
 string = 'subito non armonichi e non gridato'
 subito_non_armonichi = Markup(string, direction=Up).italic().larger()
 
-string_III = Markup('sul III', direction=Down).larger()
-strings_III_and_IV = Markup('sul III + IV', direction=Down).larger()
+string_III = Markup('III', direction=Down).larger()
+strings_III_and_IV = Markup('III + IV', direction=Down).larger()
 
 subito_ordinario = Markup('subito ordinario', direction=Up).larger()
 
