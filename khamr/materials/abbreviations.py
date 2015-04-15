@@ -425,12 +425,11 @@ repeated_pp_to_ff = handlertools.NoteAndChordHairpinHandler(
 
 ### miscellaneous
 
-label_logical_ties = baca.makers.LabelSpecifier(label_logical_ties=True)
-
-#low_piano_cluster = makers.ClusterSpecifier(
-#    start_pitch=NamedPitch('C1'),
-#    stop_pitch=NamedPitch('C3'),
-#    )
+def label_logical_ties(start_index=0):
+    return baca.makers.LabelSpecifier(
+        label_logical_ties=True,
+        start_index=start_index
+        )
 
 silence_first = [rhythmmakertools.BooleanPattern(indices=[0])]
 silence_last = [rhythmmakertools.BooleanPattern(indices=[-1])]
@@ -441,11 +440,6 @@ ottava_bassa = spannertools.OctavationSpanner(start=-1, stop=0)
 stem_tremolo = handlertools.StemTremoloHandler(
     hash_mark_counts=[32],
     )
-
-#tenor_piano_cluster = baca.makers.ClusterSpecifier(
-#    start_pitch=NamedPitch('A2'),
-#    stop_pitch=NamedPitch('B3'),
-#    )
 
 partition_table = rhythmmakertools.PartitionTable([
     (5, [2, 3]),

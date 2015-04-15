@@ -521,7 +521,7 @@ segment_maker.make_music_handler(
         baca.makers.GlissandoSpecifier(
             patterns=rhythmmakertools.select_all(),
             ),
-        baca.makers.LabelSpecifier(),
+        label_logical_ties(start_index=0),
         natural_harmonics,
         pitch_specifier(
             source=khamr.materials.halo_pitches,

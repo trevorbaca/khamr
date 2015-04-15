@@ -1,4 +1,4 @@
-% 2015-04-14 15:15
+% 2015-04-14 22:44
 
 \version "2.19.17"
 \language "english"
@@ -386,6 +386,7 @@
         \context WindSectionStaffGroup = "Wind Section Staff Group" <<
             \tag winds.flute
             \context FluteMusicStaff = "Flute Music Staff" {
+                \clef "treble"
                 \context FluteMusicVoice = "Flute Music Voice" {
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
@@ -555,6 +556,7 @@
             }
             \tag winds.oboe
             \context OboeMusicStaff = "Oboe Music Staff" {
+                \clef "treble"
                 \context OboeMusicVoice = "Oboe Music Voice" {
                     \times 4/7 {
                         \set Staff.instrumentName = \markup {
@@ -736,6 +738,7 @@
             }
             \tag winds.clarinet
             \context ClarinetMusicStaff = "Clarinet Music Staff" {
+                \clef "treble"
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
@@ -916,6 +919,7 @@
             }
             \tag winds.saxophone
             \context SaxophoneMusicStaff = "Saxophone Music Staff" {
+                \clef "treble"
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
                     \times 8/12 {
                         \set Staff.instrumentName = \markup {
@@ -1149,6 +1153,7 @@
         \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
             \tag percussion.guitar
             \context GuitarMusicStaff = "Guitar Music Staff" {
+                \clef "treble"
                 \set Staff.instrumentName = \markup {
                 \hcenter-in
                     #16
@@ -1239,6 +1244,7 @@
             }
             \tag percussion.piano
             \context PianoMusicStaff = "Piano Music Staff" {
+                \clef "treble"
                 \context PianoMusicVoice = "Piano Music Voice" {
                     \set PianoMusicStaff.instrumentName = \markup {
                         \hcenter-in
@@ -1516,6 +1522,7 @@
             }
             \tag percussion
             \context PercussionMusicStaff = "Percussion Staff" {
+                \clef "percussion"
                 \set Staff.instrumentName = \markup {
                 \hcenter-in
                     #16
@@ -1595,6 +1602,7 @@
         \context StringSectionStaffGroup = "String Section Staff Group" <<
             \tag strings.violin
             \context ViolinMusicStaff = "Violin Music Staff" {
+                \clef "treble"
                 \context ViolinMusicVoice = "Violin Music Voice" {
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
@@ -1770,6 +1778,7 @@
             }
             \tag strings.viola
             \context ViolaMusicStaff = "Viola Music Staff" {
+                \clef "alto"
                 \context ViolaMusicVoice = "Viola Music Voice" {
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
@@ -1923,6 +1932,7 @@
             }
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
+                \clef "bass"
                 \context CelloMusicVoice = "Cello Music Voice" {
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
@@ -2061,133 +2071,102 @@
             }
             \tag strings.contrabass
             \context ContrabassMusicStaff = "Contrabass Music Staff" {
+                \clef "bass"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    Contrabass
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    Cb.
+                }
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            Contrabass
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            Cb.
-                        }
-                    c''2
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.75)
-                                \box
-                                    "to contrabass"
-                            }
-                    c''2 \repeatTie
-                    c''4 \repeatTie
-                    \times 4/5 {
-                        c''16 \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''4
+                    d'2 ^ \markup { 19 }
+                    d'2 \repeatTie
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        d'1. \repeatTie
+                        a4 ^ \markup { 20 }
                     }
-                    c''4 \repeatTie
-                    c''2. \repeatTie
-                    c''4 \repeatTie
                     \times 4/5 {
-                        c''8 \repeatTie [
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''8. ]
+                        a2. \repeatTie
+                        d'8. ^ \markup { 21 }
                     }
-                    c''4 \repeatTie
-                    c''1 \repeatTie
+                    d'1 \repeatTie
                     \times 4/5 {
-                        c''8. \repeatTie [
-                        c''8 ]
+                        d'2. \repeatTie
+                        cqs'8. ^ \markup { 22 }
+                    }
+                    cqs'1 \repeatTie
+                    cqs'2. \repeatTie
+                    cqs'2 \repeatTie
+                    cqs'1 \repeatTie
+                    cqs'2 \repeatTie
+                    dqs'4 ^ \markup { 23 }
+                    \times 2/3 {
+                        dqs'1 \repeatTie
+                        e'2 ^ \markup { 24 }
+                    }
+                    e'2. \repeatTie
+                    e'2 \repeatTie
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        e'2. \repeatTie
+                        cs'8 ^ \markup { 25 }
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    c''8 \repeatTie
-                    c''4. \repeatTie
-                    c''2. \repeatTie
-                    \times 4/5 {
-                        c''4 \repeatTie
-                        c''16
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    c''2. \repeatTie
-                    c''2 \repeatTie
-                    \times 4/5 {
-                        c''16 \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''4
-                    }
-                    c''2. \repeatTie
-                    c''2 \repeatTie
-                    \times 4/5 {
-                        c''16 \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''4
-                    }
-                    c''1 \repeatTie
-                    c''4 \repeatTie
-                    \times 4/5 {
-                        c''8 \repeatTie [
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''8. ]
-                    }
-                    c''2. \repeatTie
-                    c''4. \repeatTie
-                    c''8 \repeatTie
-                    \times 4/5 {
-                        c''8. \repeatTie [
-                        c''8 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    c''2 \repeatTie
-                    c''4.
-                    c''4. \repeatTie
-                    c''4. \repeatTie
-                    c''4. \repeatTie
+                    cs'2 \repeatTie
+                    d'4. ^ \markup { 26 }
+                    d'4. \repeatTie
+                    d'4. \repeatTie
+                    d'4. \repeatTie
                     r4
                     r4
-                    c''4
-                    c''4 \repeatTie
-                    c''4 \repeatTie
-                    c''4 \repeatTie
-                    c''4 \repeatTie
+                    eqf'4 ^ \markup { 27 }
+                    eqf'4 \repeatTie
+                    eqf'4 \repeatTie
+                    eqf'4 \repeatTie
+                    eqf'4 \repeatTie
                     r4.
                     r4.
-                    c''4
-                    c''4 \repeatTie
-                    c''4 \repeatTie
-                    c''4 \repeatTie
+                    f'4 ^ \markup { 28 }
+                    f'4 \repeatTie
+                    f'4 \repeatTie
+                    f'4 \repeatTie
                     r4.
                     r4.
                     r4.
                     r4.
                     r4
-                    c''4
+                    d'4 ^ \markup { 29 }
                     r4
-                    c''4
-                    r4
-                    r4
-                    c''4
+                    eqf'4 ^ \markup { 30 }
                     r4
                     r4
+                    fqf'4 ^ \markup { 31 }
                     r4
-                    c''4
                     r4
-                    c''4
                     r4
-                    c''4
+                    e'4 ^ \markup { 32 }
+                    r4
+                    a4 ^ \markup { 33 }
+                    r4
+                    bf4 ^ \markup { 34 }
                     r4.
                     r4.
                     r4.
-                    c''4.
+                    aqs4. ^ \markup { 35 }
                     r4
                     r4
                     r4
-                    c''4
+                    b4 ^ \markup { 36 }
                     r4
                     r4
-                    c''4
+                    cqs'4 ^ \markup { 37 }
                     r4.
-                    c''4.
+                    bf4. ^ \markup { 38 }
                 }
             }
         >>
