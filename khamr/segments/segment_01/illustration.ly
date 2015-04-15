@@ -1,4 +1,4 @@
-% 2015-04-15 16:38
+% 2015-04-15 19:28
 
 \version "2.19.17"
 \language "english"
@@ -304,102 +304,130 @@
             \tag winds.flute
             \context FluteMusicStaff = "Flute Music Staff" {
                 \clef "treble"
+                \set Staff.instrumentName = \markup {
+                \hcenter-in
+                    #16
+                    \center-column
+                        {
+                            Bass
+                            flute
+                        }
+                }
+                \set Staff.shortInstrumentName = \markup {
+                \hcenter-in
+                    #10
+                    \center-column
+                        {
+                            Bass
+                            fl.
+                        }
+                }
                 \context FluteMusicVoice = "Flute Music Voice" {
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            \center-column
-                                {
-                                    Bass
-                                    flute
-                                }
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            \center-column
-                                {
-                                    Bass
-                                    fl.
-                                }
-                        }
-                    c''2
-                    c''2 \repeatTie
-                    c''1. \repeatTie
-                    c''4. \repeatTie
+                    <g' g''>2 \mp
+                        ^ \markup {
+                            \larger
+                                \override
+                                    #'(box-padding . 0.75)
+                                    \box
+                                        L.17
+                            }
+                    <g' g''>2 \repeatTie
+                    <g' g''>1. \repeatTie
+                    <g' g''>4. \repeatTie
                     r8
-                    c''4
-                    c''1 \repeatTie
-                    c''2. \repeatTie
-                    c''2 \repeatTie
-                    c''8 \repeatTie
+                    <g' g''>4
+                    <g' g''>1 \repeatTie
+                    <g' g''>2. \repeatTie
+                    <g' g''>2 \repeatTie
+                    <g' g''>8 \repeatTie
                     r4.
                     r2.
                     r2
-                    c''1
-                    c''2. \repeatTie
-                    c''2 \repeatTie
-                    c''8 \repeatTie
+                    <g' g''>1
+                    <g' g''>2. \repeatTie
+                    <g' g''>2 \repeatTie
+                    <g' g''>8 \repeatTie
                     r8
-                    c''4
-                    c''2. \repeatTie
-                    c''2 \repeatTie
-                    c''4. \repeatTie
-                    c''4 \repeatTie
+                    <g' g''>4
+                    <g' g''>2. \repeatTie
+                    <g' g''>2 \repeatTie
+                    <g' g''>4. \repeatTie
+                    <g' g''>4 \repeatTie
                     r8
                     r2
                     r1.
-                    c''2
-                    c''2. \repeatTie
-                    c''2 \repeatTie
-                    c''2. \repeatTie
-                    c''8 \repeatTie
+                    <g' g''>2
+                    <g' g''>2. \repeatTie
+                    <g' g''>2 \repeatTie
+                    <g' g''>2. \repeatTie
+                    <g' g''>8 \repeatTie
                     r8
-                    c''2.
-                    c''1. \repeatTie
-                    c''2 \repeatTie
-                    c''8 \repeatTie
+                    <gs' gs''>2.
+                        ^ \markup {
+                            \larger
+                                \override
+                                    #'(box-padding . 0.75)
+                                    \box
+                                        L.22
+                            }
+                    <gs' gs''>1. \repeatTie
+                    <gs' gs''>2 \repeatTie
+                    <gs' gs''>8 \repeatTie
                     r4.
                     r2.
                     r2
-                    c''2
-                    c''2 \repeatTie
-                    c''2 \repeatTie
-                    c''2. \repeatTie
-                    c''4. \repeatTie
-                    c''4 \repeatTie
+                    <gs' gs''>2
+                    <gs' gs''>2 \repeatTie
+                    <gs' gs''>2 \repeatTie
+                    <gs' gs''>2. \repeatTie
+                    <gs' gs''>4. \repeatTie
+                    <gs' gs''>4 \repeatTie
                     r8
-                    c''1
-                    c''2. \repeatTie
-                    c''4 \repeatTie
+                    <gs' gs''>1
+                    <gs' gs''>2. \repeatTie
+                    <gs' gs''>4 \repeatTie
                     r8
                     r4.
                     r1
                     r4
-                    c''1
-                    c''2. \repeatTie
-                    c''2 \repeatTie
-                    c''8 \repeatTie
+                    <gs' gs''>1
+                    <gs' gs''>2. \repeatTie
+                    <gs' gs''>2 \repeatTie
+                    <gs' gs''>8 \repeatTie
                     r8
-                    c''4
-                    c''1 \repeatTie
-                    c''2. \repeatTie
-                    c''4. \repeatTie
+                    <gs' gs''>4
+                    <gs' gs''>1 \repeatTie
+                    <gs' gs''>2. \repeatTie
+                    <gs' gs''>4. \repeatTie
                     r8
                     r2.
                     r2
                     r2.
-                    c''2.
-                    c''2 \repeatTie
-                    c''2. \repeatTie
-                    c''2 \repeatTie
-                    c''4 \repeatTie
-                    r8
-                    c''4.
-                    c''1 \repeatTie
-                    c''2. \repeatTie
-                    c''4 \repeatTie
-                    r8
+                    a''2. \> \mp \startTrillSpan
+                        ^ \markup {
+                            \override
+                                #'(circle-padding . 0.25)
+                                \circle
+                                    \finger
+                                        1
+                            }
+                    a''2 \repeatTie
+                    a''2. \repeatTie
+                    a''2 \repeatTie
+                    a''4 \repeatTie \pp
+                    r8 \stopTrillSpan
+                    a''4. \< \pp \startTrillSpan
+                        ^ \markup {
+                            \override
+                                #'(circle-padding . 0.25)
+                                \circle
+                                    \finger
+                                        1
+                            }
+                    a''1 \repeatTie
+                    a''2. \repeatTie
+                    a''4 \repeatTie \mp
+                    r8 \stopTrillSpan
                     r4.
                 }
             }

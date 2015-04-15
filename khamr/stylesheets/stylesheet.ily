@@ -160,6 +160,7 @@
         \accepts FluteMusicVoice
         instrumentName = \fluteName
         shortInstrumentName = \shortFluteName
+        \override DynamicLineSpanner.staff-padding = 6
     }
     \context {
         \Voice

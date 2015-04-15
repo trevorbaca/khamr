@@ -494,7 +494,48 @@ segment_maker.make_music_maker(
 
 ### FLUTE ###
 
+segment_maker.make_music_handler(
+    scope=(fl, (1, 2)),
+    specifiers=[
+        Dynamic('mp'),
+        pitch_specifier(
+            source=[pitchtools.PitchSegment(
+                items=[NamedPitch('G3'), NamedPitch('G4')], 
+                item_class=NamedPitch,
+                )],
+            ),
+        levine_multiphonic(17),
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(fl, (3, 5)),
+    specifiers=[
+        pitch_specifier(
+            source=[pitchtools.PitchSegment(
+                items=[NamedPitch('G#3'), NamedPitch('G#4')], 
+                item_class=NamedPitch,
+                )],
+            ),
+        levine_multiphonic(22),
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(fl, (6, 7)),
+    specifiers=[
+        pitch_specifier(
+            source='A4',
+            ),
+        pervasive_trills,
+        bass_flute_tremoli_hairpins,
+        color_fingering_1,
+        ],
+    )
+
 ### OBOE ###
+
+
 
 ### CLARINET ###
 
