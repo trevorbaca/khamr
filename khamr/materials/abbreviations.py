@@ -1,6 +1,7 @@
 # -*- encoding: utf-8 -*-
 from abjad import *
 from experimental import *
+import baca
 from khamr import materials
 from khamr import makers
 from abjad.tools import pitchtools
@@ -217,6 +218,9 @@ show_tempo = show_tempo.larger()
 string = 'subito non armonichi e non gridato'
 subito_non_armonichi = Markup(string, direction=Up).italic().larger()
 
+string_III = Markup('sul III', direction=Down).larger()
+strings_III_and_IV = Markup('sul III + IV', direction=Down).larger()
+
 subito_ordinario = Markup('subito ordinario', direction=Up).larger()
 
 def beam_positions(n):
@@ -338,37 +342,51 @@ whistle_tone_spanner = spannertools.TextSpanner(
 	}
 )
 
-
 ### PITCH ###
 
-#color_fingerings = makers.ColorFingeringSpecifier(
-#    deposit_annotations=['color fingering'],
-#    number_lists=(
-#        [0, 1, 2, 1],
-#        ),
-#    )
-#
-#color_microtones = makers.MicrotonalDeviationSpecifier(
-#    deposit_annotations=['color microtone'],
-#    number_lists=(
-#        [0, -0.5, 0, 0.5],
-#        [0, 0.5, 0, -0.5],
-#        ),
-#    )
-#
-#trill_quarter_notes = makers.TrillSpecifier(
-#    forbidden_annotations=['color fingering', 'color microtone'],
-#    minimum_written_duration=Duration(1, 4),
-#    )
-#
-#pervasive_trills = makers.TrillSpecifier(
-#    minimum_written_duration=None,
-#    )
-#
-#pervasive_A5_trills = makers.TrillSpecifier(
-#    minimum_written_duration=None,
-#    pitch=NamedPitch('A5'),
-#    )
+def pitch_specifier(
+    counts=None,
+    operators=None,
+    reverse=False,
+    source=None,
+    start_index=0,
+    ):
+    return baca.makers.PitchSpecifier(
+        counts=counts,
+        operators=operators,
+        reverse=reverse,
+        source=source,
+        start_index=start_index,
+        )
+
+color_fingerings = baca.makers.ColorFingeringSpecifier(
+    deposit_annotations=['color fingering'],
+    number_lists=(
+        [0, 1, 2, 1],
+        ),
+    )
+
+color_microtones = baca.makers.MicrotonalDeviationSpecifier(
+    deposit_annotations=['color microtone'],
+    number_lists=(
+        [0, -0.5, 0, 0.5],
+        [0, 0.5, 0, -0.5],
+        ),
+    )
+
+trill_quarter_notes = baca.makers.TrillSpecifier(
+    forbidden_annotations=['color fingering', 'color microtone'],
+    minimum_written_duration=Duration(1, 4),
+    )
+
+pervasive_trills = baca.makers.TrillSpecifier(
+    minimum_written_duration=None,
+    )
+
+pervasive_A5_trills = baca.makers.TrillSpecifier(
+    minimum_written_duration=None,
+    pitch=NamedPitch('A5'),
+    )
 
 # articulation handlers
 alternate_bow_strokes = handlertools.PatternedArticulationsHandler(
@@ -422,7 +440,7 @@ stem_tremolo = handlertools.StemTremoloHandler(
     hash_mark_counts=[32],
     )
 
-#tenor_piano_cluster = makers.ClusterSpecifier(
+#tenor_piano_cluster = baca.makers.ClusterSpecifier(
 #    start_pitch=NamedPitch('A2'),
 #    stop_pitch=NamedPitch('B3'),
 #    )
