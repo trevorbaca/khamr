@@ -1,4 +1,4 @@
-% 2015-04-14 23:02
+% 2015-04-15 10:57
 
 \version "2.19.17"
 \language "english"
@@ -2034,90 +2034,166 @@
                     Cb.
                 }
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
-                    d'2 ^ \markup { 19 }
-                    d'2 \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    <g, a>2 \mf
+                        ^ \markup { 0 }
+                        _ \markup {
+                            \larger
+                                "III + IV"
+                            }
+                    \once \override NoteHead #'style = #'harmonic
+                    <g, a>2 \repeatTie
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        d'1. \repeatTie
-                        a4 ^ \markup { 20 }
+                        \once \override NoteHead #'style = #'harmonic
+                        <g, a>1. \repeatTie \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        <af, bf>4 ^ \markup { 1 }
                     }
                     \times 4/5 {
-                        a2. \repeatTie
-                        d'8. ^ \markup { 21 }
+                        \once \override NoteHead #'style = #'harmonic
+                        <af, bf>2. \repeatTie \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        <gqs, aqs>8. ^ \markup { 2 }
                     }
-                    d'1 \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    <gqs, aqs>1 \repeatTie
                     \times 4/5 {
-                        d'2. \repeatTie
-                        cqs'8. ^ \markup { 22 }
+                        \once \override NoteHead #'style = #'harmonic
+                        <gqs, aqs>2. \repeatTie \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        <a, b>8. ^ \markup { 3 }
                     }
-                    cqs'1 \repeatTie
-                    cqs'2. \repeatTie
-                    cqs'2 \repeatTie
-                    cqs'1 \repeatTie
-                    cqs'2 \repeatTie
-                    dqs'4 ^ \markup { 23 }
+                    \once \override NoteHead #'style = #'harmonic
+                    <a, b>1 \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    <a, b>2. \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    <a, b>2 \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    <a, b>1 \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    <a, b>2 \repeatTie \glissando
+                    \once \override NoteHead #'style = #'harmonic
+                    <bqf, cqs'>4 ^ \markup { 4 }
                     \times 2/3 {
-                        dqs'1 \repeatTie
-                        e'2 ^ \markup { 24 }
+                        \once \override NoteHead #'style = #'harmonic
+                        <bqf, cqs'>1 \repeatTie \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        <af, bf>2 ^ \markup { 5 }
                     }
-                    e'2. \repeatTie
-                    e'2 \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    <af, bf>2. \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    <af, bf>2 \repeatTie
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        e'2. \repeatTie
-                        cs'8 ^ \markup { 25 }
+                        \once \override NoteHead #'style = #'harmonic
+                        <af, bf>2. \repeatTie \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        <gqs, aqs>8 ^ \markup { 6 }
                     }
+                    \once \override NoteHead #'style = #'harmonic
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    cs'2 \repeatTie
-                    d'4. ^ \markup { 26 }
-                    d'4. \repeatTie
-                    d'4. \repeatTie
-                    d'4. \repeatTie
+                    <gqs, aqs>2 \repeatTie \glissando
+                    \once \override NoteHead #'style = #'harmonic
+                    <a, b>4. ^ \markup { 7 }
+                    \once \override NoteHead #'style = #'harmonic
+                    <a, b>4. \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    <a, b>4. \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    <a, b>4. \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
                     r4
+                    \once \override NoteHead #'style = #'harmonic
                     r4
-                    eqf'4 ^ \markup { 27 }
-                    eqf'4 \repeatTie
-                    eqf'4 \repeatTie
-                    eqf'4 \repeatTie
-                    eqf'4 \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    <g, a>4 ^ \markup { 8 }
+                    \once \override NoteHead #'style = #'harmonic
+                    <g, a>4 \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    <g, a>4 \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    <g, a>4 \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    <g, a>4 \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
                     r4.
+                    \once \override NoteHead #'style = #'harmonic
                     r4.
-                    f'4 ^ \markup { 28 }
-                    f'4 \repeatTie
-                    f'4 \repeatTie
-                    f'4 \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    <a, b>4 ^ \markup { 9 }
+                    \once \override NoteHead #'style = #'harmonic
+                    <a, b>4 \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    <a, b>4 \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    <a, b>4 \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
                     r4.
+                    \once \override NoteHead #'style = #'harmonic
                     r4.
+                    \once \override NoteHead #'style = #'harmonic
                     r4.
+                    \once \override NoteHead #'style = #'harmonic
                     r4.
+                    \once \override NoteHead #'style = #'harmonic
                     r4
-                    d'4 ^ \markup { 29 }
+                    \once \override NoteHead #'style = #'harmonic
+                    <b, cs'>4 ^ \markup { 10 }
+                    \once \override NoteHead #'style = #'harmonic
                     r4
-                    eqf'4 ^ \markup { 30 }
+                    \once \override NoteHead #'style = #'harmonic
+                    <aqs, bqs>4 ^ \markup { 11 }
+                    \once \override NoteHead #'style = #'harmonic
                     r4
+                    \once \override NoteHead #'style = #'harmonic
                     r4
-                    fqf'4 ^ \markup { 31 }
+                    \once \override NoteHead #'style = #'harmonic
+                    <bf, c'>4 ^ \markup { 12 }
+                    \once \override NoteHead #'style = #'harmonic
                     r4
+                    \once \override NoteHead #'style = #'harmonic
                     r4
+                    \once \override NoteHead #'style = #'harmonic
                     r4
-                    e'4 ^ \markup { 32 }
+                    \once \override NoteHead #'style = #'harmonic
+                    <g, a>4 ^ \markup { 13 }
+                    \once \override NoteHead #'style = #'harmonic
                     r4
-                    a4 ^ \markup { 33 }
+                    \once \override NoteHead #'style = #'harmonic
+                    <a, b>4 ^ \markup { 14 }
+                    \once \override NoteHead #'style = #'harmonic
                     r4
-                    bf4 ^ \markup { 34 }
+                    \once \override NoteHead #'style = #'harmonic
+                    <b, cs'>4 ^ \markup { 15 }
+                    \once \override NoteHead #'style = #'harmonic
                     r4.
+                    \once \override NoteHead #'style = #'harmonic
                     r4.
+                    \once \override NoteHead #'style = #'harmonic
                     r4.
-                    aqs4. ^ \markup { 35 }
+                    \once \override NoteHead #'style = #'harmonic
+                    <aqs, bqs>4. ^ \markup { 16 }
+                    \once \override NoteHead #'style = #'harmonic
                     r4
+                    \once \override NoteHead #'style = #'harmonic
                     r4
+                    \once \override NoteHead #'style = #'harmonic
                     r4
-                    b4 ^ \markup { 36 }
+                    \once \override NoteHead #'style = #'harmonic
+                    <cqf dqf'>4 ^ \markup { 17 }
+                    \once \override NoteHead #'style = #'harmonic
                     r4
+                    \once \override NoteHead #'style = #'harmonic
                     r4
-                    cqs'4 ^ \markup { 37 }
+                    \once \override NoteHead #'style = #'harmonic
+                    <bf, c'>4 ^ \markup { 18 }
+                    \once \override NoteHead #'style = #'harmonic
                     r4.
-                    bf4. ^ \markup { 38 }
+                    \once \override NoteHead #'style = #'harmonic
+                    <c d'>4. ^ \markup { 19 }
                 }
             }
         >>

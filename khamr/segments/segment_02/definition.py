@@ -679,10 +679,16 @@ segment_maker.make_music_handler(
 segment_maker.make_music_handler(
     scope=(cb, (1, 5)),
     specifiers=[
-        label_logical_ties(start_index=19),
         pitch_specifier(
-            source=khamr.materials.halo_pitches,
-            start_index=19,
+            source=khamr.materials.double_stop_halo_pitches,
+            start_index=0,
             ),
+        baca.makers.GlissandoSpecifier(
+            patterns=rhythmmakertools.select_all(),
+            ),
+        label_logical_ties(start_index=0),
+        natural_harmonics,
+        strings_III_and_IV,
+        Dynamic('mf'),
         ],
     )

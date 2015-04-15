@@ -831,3 +831,14 @@ segment_maker.make_music_handler(
 ### CELLO ###
 
 ### CONTRABASS ###
+
+segment_maker.make_music_handler(
+    scope=(cb, (1, 5)),
+    specifiers=[
+        label_logical_ties(start_index=19),
+        pitch_specifier(
+            source=khamr.materials.halo_pitches,
+            start_index=0,
+            ),
+        ],
+    )
