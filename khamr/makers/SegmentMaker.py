@@ -1094,20 +1094,6 @@ class SegmentMaker(makertools.SegmentMaker):
         self.music_makers.append(music_maker)
         return music_maker
 
-    def make_pitch_handler(
-        self,
-        scope,
-        specifiers,
-        ):
-        from khamr import makers
-        assert isinstance(specifiers, list), repr(specifiers)
-        pitch_handler = makers.PitchHandler(
-            scope=scope,
-            specifiers=specifiers,
-            )
-        self._music_handlers.append(pitch_handler)
-        return pitch_handler
-
     def validate_time_signatures(self):
         r'''Is true when the sum of all measures per stage equals
         total number of measures in segment. Otherwise false.
