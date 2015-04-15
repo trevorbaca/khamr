@@ -1,4 +1,4 @@
-% 2015-04-14 23:03
+% 2015-04-15 00:02
 
 \version "2.19.17"
 \language "english"
@@ -341,23 +341,7 @@
                         }
                 }
                 \context FluteMusicVoice = "Flute Music Voice" {
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            Flute
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            Fl.
-                        }
                     c''2
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.75)
-                                \box
-                                    "to flute"
-                            }
                     c''2 \repeatTie
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/8 {
@@ -925,23 +909,7 @@
                         }
                 }
                 \context OboeMusicVoice = "Oboe Music Voice" {
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            Oboe
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            Ob.
-                        }
                     g'2
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.75)
-                                \box
-                                    "to oboe"
-                            }
                     g'2 \repeatTie
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/10 {
@@ -1572,23 +1540,7 @@
                         }
                 }
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            Clarinet
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            Cl.
-                        }
                     d''2
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.75)
-                                \box
-                                    "to clarinet in B-flat"
-                            }
                     d''2 \repeatTie
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/14 {
@@ -2098,31 +2050,7 @@
                         }
                 }
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
-                    \set Staff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            \center-column
-                                {
-                                    Sopranino
-                                    saxophone
-                                }
-                        }
-                    \set Staff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            \center-column
-                                {
-                                    Sopr.
-                                    sax.
-                                }
-                        }
                     a''2
-                        ^ \markup {
-                            \override
-                                #'(box-padding . 0.75)
-                                \box
-                                    "to sopranino saxophone"
-                            }
                     a''2 \repeatTie
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/8 {
