@@ -12,8 +12,8 @@
             \bold \fontsize #3
             \on-the-fly #print-page-number-check-first
             \fromproperty #'page:page-number-string
-            %\hspace #18
         }
+        " "
     }
     evenHeaderMarkup = \markup \fill-line { " " }
     left-margin = 20\mm
@@ -23,8 +23,8 @@
             \bold \fontsize #3
             \on-the-fly #print-page-number-check-first
             \fromproperty #'page:page-number-string
-            %\hspace #18
         }
+        " "
     }
     oddHeaderMarkup = \markup \fill-line { " " }
     print-first-page-number = ##f
@@ -335,6 +335,7 @@
         \accepts ContrabassMusicVoice
         instrumentName = \contrabassName
         shortInstrumentName = \shortContrabassName
+        \override DynamicLineSpanner.staff-padding = 6
     }
     \context {
         \StaffGroup

@@ -1,4 +1,4 @@
-% 2015-04-15 13:43
+% 2015-04-15 15:03
 
 \version "2.19.17"
 \language "english"
@@ -2163,7 +2163,7 @@
                 }
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
                     \once \override NoteHead #'style = #'harmonic
-                    a2 \mf \< \pp
+                    a2 \f
                         ^ \markup { 0 }
                         _ \markup {
                             \larger
@@ -2174,9 +2174,9 @@
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         \once \override NoteHead #'style = #'harmonic
-                        a1. \repeatTie \ff \glissando
+                        a1. \repeatTie \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        bf4 \> \ff ^ \markup { 1 }
+                        bf4 ^ \markup { 1 }
                     }
                     \times 4/5 {
                         \once \override NoteHead #'style = #'harmonic
@@ -2185,89 +2185,89 @@
                         aqs8. ^ \markup { 2 }
                     }
                     \once \override NoteHead #'style = #'harmonic
-                    aqs1 \repeatTie \pp
+                    aqs1 \repeatTie
                     \times 4/5 {
                         \once \override NoteHead #'style = #'harmonic
-                        aqs2. \repeatTie \glissando \< \pp
+                        aqs2. \repeatTie \glissando
                         \once \override NoteHead #'style = #'harmonic
                         b8. ^ \markup { 3 }
                     }
                     \once \override NoteHead #'style = #'harmonic
-                    b1 \repeatTie \ff
+                    b1 \repeatTie
                     \once \override NoteHead #'style = #'harmonic
-                    b2. \repeatTie \> \ff
+                    b2. \repeatTie
                     \once \override NoteHead #'style = #'harmonic
                     b2 \repeatTie
                     \once \override NoteHead #'style = #'harmonic
                     b1 \repeatTie
                     \once \override NoteHead #'style = #'harmonic
-                    b2 \repeatTie \pp \glissando
+                    b2 \repeatTie \glissando
                     \once \override NoteHead #'style = #'harmonic
-                    cqs'4 \< \pp ^ \markup { 4 }
+                    cqs'4 \> \f ^ \markup { 4 }
                     \times 2/3 {
                         \once \override NoteHead #'style = #'harmonic
                         cqs'1 \repeatTie \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        bf2 \ff ^ \markup { 5 }
+                        bf2 ^ \markup { 5 }
                     }
                     \once \override NoteHead #'style = #'harmonic
-                    bf2. \repeatTie \> \ff
+                    bf2. \repeatTie
                     \once \override NoteHead #'style = #'harmonic
                     bf2 \repeatTie
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         \once \override NoteHead #'style = #'harmonic
-                        bf2. \repeatTie \glissando
+                        bf2. \repeatTie \p \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        aqs8 \pp ^ \markup { 6 }
+                        aqs8 \< \p ^ \markup { 6 }
                     }
                     \once \override NoteHead #'style = #'harmonic
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    aqs2 \repeatTie \< \pp
+                    aqs2 \repeatTie
                     \once \override NoteHead #'style = #'harmonic
                     aqs1. \repeatTie
                     \once \override NoteHead #'style = #'harmonic
-                    aqs2 \repeatTie \ff
+                    aqs2 \repeatTie
                     \once \override NoteHead #'style = #'harmonic
-                    aqs1 \repeatTie \glissando \> \ff
+                    aqs1 \repeatTie \glissando
                     \once \override NoteHead #'style = #'harmonic
                     b4 ^ \markup { 7 }
                     \times 4/5 {
                         \once \override NoteHead #'style = #'harmonic
                         b2. \repeatTie \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        a8. \pp ^ \markup { 8 }
+                        a8. \f ^ \markup { 8 }
                     }
                     \once \override NoteHead #'style = #'harmonic
-                    a1 \repeatTie \< \pp
+                    a1 \repeatTie \> \f
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 3/4 {
                         \once \override NoteHead #'style = #'harmonic
                         a1. \repeatTie \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        b2 \ff ^ \markup { 9 }
+                        b2 ^ \markup { 9 }
                     }
-                    \once \override NoteHead #'style = #'harmonic
-                    b2 \repeatTie \> \ff
                     \once \override NoteHead #'style = #'harmonic
                     b2 \repeatTie
                     \once \override NoteHead #'style = #'harmonic
-                    b2. \repeatTie
+                    b2 \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    b2. \repeatTie \p
                     \times 2/3 {
                         \once \override NoteHead #'style = #'harmonic
-                        b1 \repeatTie \pp \glissando
+                        b1 \repeatTie \glissando \< \p
                         \once \override NoteHead #'style = #'harmonic
-                        cs'2 \< \pp ^ \markup { 10 }
+                        cs'2 ^ \markup { 10 }
                     }
                     \times 4/7 {
                         \once \override NoteHead #'style = #'harmonic
                         cs'2. \repeatTie \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        bqs8 \ff ^ \markup { 11 }
+                        bqs8 ^ \markup { 11 }
                     }
                     \once \override NoteHead #'style = #'harmonic
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    bqs2 \repeatTie \> \ff
+                    bqs2 \repeatTie
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         \once \override NoteHead #'style = #'harmonic
@@ -2276,43 +2276,43 @@
                         c'4 ^ \markup { 12 }
                     }
                     \once \override NoteHead #'style = #'harmonic
-                    c'1 \repeatTie \pp
+                    c'1 \repeatTie \f
                     \once \override NoteHead #'style = #'harmonic
-                    c'2. \repeatTie \< \pp
+                    c'2. \repeatTie \> \f
                     \once \override NoteHead #'style = #'harmonic
                     c'2. \repeatTie
                     \once \override NoteHead #'style = #'harmonic
-                    c'2. \repeatTie \ff \glissando
+                    c'2. \repeatTie \glissando
                     \once \override NoteHead #'style = #'harmonic
-                    a4 \> \ff ^ \markup { 13 }
+                    a4 ^ \markup { 13 }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/8 {
                         \once \override NoteHead #'style = #'harmonic
                         a1. \repeatTie \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        b2 ^ \markup { 14 }
+                        b2 \p ^ \markup { 14 }
                     }
                     \once \override NoteHead #'style = #'harmonic
-                    b2. \repeatTie \pp
+                    b2. \repeatTie \< \p
                     \times 2/3 {
                         \once \override NoteHead #'style = #'harmonic
-                        b1 \repeatTie \glissando \< \pp
+                        b1 \repeatTie \glissando
                         \once \override NoteHead #'style = #'harmonic
                         cs'2 ^ \markup { 15 }
                     }
                     \once \override NoteHead #'style = #'harmonic
-                    cs'1 \repeatTie \ff
+                    cs'1 \repeatTie
                     \once \override NoteHead #'style = #'harmonic
-                    cs'2. \repeatTie \> \ff
+                    cs'2. \repeatTie
                     \once \override NoteHead #'style = #'harmonic
                     cs'2 \repeatTie
                     \once \override NoteHead #'style = #'harmonic
                     cs'2. \repeatTie
                     \times 4/7 {
                         \once \override NoteHead #'style = #'harmonic
-                        cs'2. \repeatTie \pp \glissando
+                        cs'2. \repeatTie \f \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        bqs8 \< \pp ^ \markup { 16 }
+                        bqs8 \> \f ^ \markup { 16 }
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
@@ -2320,16 +2320,16 @@
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         bqs1. \repeatTie \glissando
                         \once \override NoteHead #'style = #'harmonic
-                        dqf'4 \ff ^ \markup { 17 }
+                        dqf'4 ^ \markup { 17 }
                     }
                     \once \override NoteHead #'style = #'harmonic
-                    dqf'2 \repeatTie \> \ff
+                    dqf'2 \repeatTie
                     \once \override NoteHead #'style = #'harmonic
                     dqf'1 \repeatTie \glissando
                     \once \override NoteHead #'style = #'harmonic
-                    c'4 ^ \markup { 18 }
+                    c'4 \p ^ \markup { 18 }
                     \once \override NoteHead #'style = #'harmonic
-                    c'2. \repeatTie \pp
+                    c'2. \repeatTie
                     \once \override NoteHead #'style = #'harmonic
                     c'1 \repeatTie
                     \once \override NoteHead #'style = #'harmonic
