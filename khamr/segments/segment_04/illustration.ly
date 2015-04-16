@@ -1,4 +1,4 @@
-% 2015-04-16 19:12
+% 2015-04-16 19:35
 
 \version "2.19.17"
 \language "english"
@@ -239,28 +239,28 @@
                     bf'8. \repeatTie
                     r16
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    bf'2
+                    bf'2 \> \p
                     bf'1 \repeatTie
-                    bf'4.. \repeatTie
+                    bf'4.. \repeatTie \ppp
                     r16
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    bf'4
+                    bf'4 \> \p
                     bf'1 \repeatTie
                     bf'2 \repeatTie
-                    bf'8. \repeatTie
+                    bf'8. \repeatTie \ppp
                     r16
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    bf'2
+                    bf'2 \> \p
                     bf'2. \repeatTie
                     bf'2 \repeatTie
                     bf'4. \repeatTie
                     bf'4 \repeatTie
-                    bf'16 \repeatTie
+                    bf'16 \repeatTie \ppp
                     r16
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    bf'4.
+                    bf'4. \> \p
                     bf'4 \repeatTie
-                    bf'16 \repeatTie
+                    bf'16 \repeatTie \ppp
                     r16
                     R1 * 1/2
                     R1 * 5/4
@@ -323,18 +323,18 @@
                     r16
                     \once \override RepeatTie #'direction = #up
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    b'2.
+                    b'2. \> \p
                     \once \override RepeatTie #'direction = #up
                     b'1 \repeatTie
                     \once \override RepeatTie #'direction = #up
                     b'2 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    b'8. \repeatTie
+                    b'8. \repeatTie \ppp
                     \once \override RepeatTie #'direction = #up
                     r16
                     \once \override RepeatTie #'direction = #up
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    b'2
+                    b'2 \> \p
                     \once \override RepeatTie #'direction = #up
                     b'2. \repeatTie
                     \once \override RepeatTie #'direction = #up
@@ -346,7 +346,7 @@
                     \once \override RepeatTie #'direction = #up
                     b'4 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    b'16 \repeatTie
+                    b'16 \repeatTie \ppp
                     \stopStaff
                     \startStaff
                     \once \override RepeatTie #'direction = #up
@@ -458,7 +458,7 @@
                     r16
                     \once \override RepeatTie #'direction = #up
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    b'2
+                    b'2 \> \p
                     \once \override RepeatTie #'direction = #up
                     b'1 \repeatTie
                     \once \override RepeatTie #'direction = #up
@@ -466,12 +466,12 @@
                     \once \override RepeatTie #'direction = #up
                     b'2 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    b'8. \repeatTie
+                    b'8. \repeatTie \ppp
                     \once \override RepeatTie #'direction = #up
                     r16
                     \once \override RepeatTie #'direction = #up
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    b'4
+                    b'4 \> \p
                     \once \override RepeatTie #'direction = #up
                     b'2. \repeatTie
                     \once \override RepeatTie #'direction = #up
@@ -485,16 +485,16 @@
                     \once \override RepeatTie #'direction = #up
                     b'4 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    b'16 \repeatTie
+                    b'16 \repeatTie \ppp
                     \once \override RepeatTie #'direction = #up
                     r16
                     \once \override RepeatTie #'direction = #up
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    b'4.
+                    b'4. \> \p
                     \once \override RepeatTie #'direction = #up
                     b'4 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    b'16 \repeatTie
+                    b'16 \repeatTie \ppp
                     \stopStaff
                     \startStaff
                     \once \override RepeatTie #'direction = #up
@@ -657,21 +657,32 @@
                     Vn.
                 }
                 \context ViolinMusicVoice = "Violin Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
+                    c'2 -\upbow \p
+                        ^ \markup {
+                            \larger
+                                "directly on bridge: bow diagonally to produce white noise w/ no pitch"
+                            }
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2. -\downbow
+                    c'2. \repeatTie
+                    c'4 \repeatTie
+                    c'2. -\upbow
+                    c'2. \repeatTie
+                    c'4 \repeatTie
+                    c'2. -\downbow
+                    c'1 \repeatTie
+                    c'4 -\upbow \> \p
+                    c'1 \repeatTie
+                    c'2 \repeatTie
+                    c'4 -\downbow
+                    c'1 \repeatTie
+                    c'2 \repeatTie
+                    c'2. -\upbow
+                    c'2. \repeatTie
+                    c'4 \repeatTie
+                    c'4 -\downbow
+                    c'1. \repeatTie \ppp
                     R1 * 1/2
                     R1 * 5/4
                     R1 * 3/4
@@ -694,21 +705,37 @@
                     Va.
                 }
                 \context ViolaMusicVoice = "Viola Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
+                    c'2 -\upbow \p
+                        ^ \markup {
+                            \larger
+                                "directly on bridge: bow diagonally to produce white noise w/ no pitch"
+                            }
+                    c'2 \repeatTie
+                    c'4. \repeatTie
+                    c'8 \repeatTie
+                    c'4 -\downbow
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'4 -\upbow
+                    c'1 \repeatTie
+                    c'4 \repeatTie
+                    c'8 -\downbow
+                    c'4. \repeatTie
+                    c'1 \repeatTie
+                    c'2. -\upbow \> \p
+                    c'2 \repeatTie
+                    c'4 \repeatTie
+                    c'2. -\downbow
+                    c'2. \repeatTie
+                    c'1 -\upbow
+                    c'2 \repeatTie
+                    c'2. -\downbow
+                    c'2. \repeatTie
+                    c'2 -\upbow
+                    c'2. \repeatTie
+                    c'4 \repeatTie
+                    c'8 -\downbow
+                    c'4. \repeatTie \ppp
                     R1 * 1/2
                     R1 * 5/4
                     R1 * 3/4
@@ -731,21 +758,36 @@
                     Vc.
                 }
                 \context CelloMusicVoice = "Cello Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
+                    c'2 -\upbow \p
+                        ^ \markup {
+                            \larger
+                                "directly on bridge: bow diagonally to produce white noise w/ no pitch"
+                            }
+                    c'2 \repeatTie
+                    c'4 \repeatTie
+                    c'8 -\downbow
+                    c'2. \repeatTie
+                    c'4. \repeatTie
+                    c'2. -\upbow
+                    c'2 \repeatTie
+                    c'2 -\downbow
+                    c'2. \repeatTie
+                    c'1 -\upbow
+                    c'4 \repeatTie
+                    c'1 -\downbow \> \p
+                    c'4 \repeatTie
+                    c'2. -\upbow
+                    c'2 \repeatTie
+                    c'4 -\downbow
+                    c'1 \repeatTie
+                    c'2. -\upbow
+                    c'2 \repeatTie
+                    c'2. -\downbow
+                    c'2 \repeatTie
+                    c'2. -\upbow
+                    c'4. \repeatTie
+                    c'8 \repeatTie
+                    c'4 -\downbow \ppp
                     R1 * 1/2
                     R1 * 5/4
                     R1 * 3/4
@@ -768,21 +810,36 @@
                     Cb.
                 }
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
-                    R1 * 1/2
-                    R1 * 1/2
-                    R1 * 3/2
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 1
-                    R1 * 3/4
-                    R1 * 1
-                    R1 * 5/4
-                    R1 * 3/4
-                    R1 * 1/2
-                    R1 * 3/2
+                    c''2 -\upbow \p
+                        ^ \markup {
+                            \larger
+                                "directly on bridge: bow diagonally to produce white noise w/ no pitch"
+                            }
+                    c''2 \repeatTie
+                    c''2. -\downbow
+                    c''4 \repeatTie
+                    c''8 -\upbow
+                    c''4. \repeatTie
+                    c''2 \repeatTie
+                    c''4 -\downbow
+                    c''2. \repeatTie
+                    c''4 -\upbow
+                    c''2. \repeatTie
+                    c''1 -\downbow
+                    c''1 -\upbow \> \p
+                    c''4 -\downbow
+                    c''2. \repeatTie
+                    c''4 -\upbow
+                    c''2. \repeatTie
+                    c''1 -\downbow
+                    c''1 -\upbow
+                    c''4 -\downbow
+                    c''2. \repeatTie
+                    c''2 -\upbow
+                    c''4. \repeatTie
+                    c''8 \repeatTie
+                    c''4 -\downbow
+                    c''2. \repeatTie \ppp
                     R1 * 1/2
                     R1 * 5/4
                     R1 * 3/4

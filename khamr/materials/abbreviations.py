@@ -499,8 +499,12 @@ pervasive_F3_harmonic_trills = baca.makers.TrillSpecifier(
 
 ### articulation handlers ###
 
-alternate_bow_strokes = handlertools.PatternedArticulationsHandler(
+alternate_accented_bow_strokes = handlertools.PatternedArticulationsHandler(
     articulation_lists=(['upbow', 'accent'], ['downbow', 'accent']),
+    )
+
+alternate_bow_strokes = handlertools.PatternedArticulationsHandler(
+    articulation_lists=(['upbow'], ['downbow']),
     )
 
 double_tonguing = handlertools.ReiteratedArticulationHandler(
