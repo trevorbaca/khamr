@@ -111,6 +111,9 @@ string = 'catch resonance (but not attack) with pedal'
 catch_resonance = Markup(string, direction=Up, stack_priority=1000)
 catch_resonance = catch_resonance.larger()
 
+string = 'air tone (with lips covering moutplate: sounds minor 7th lower)'
+covered_flute_air_tone = Markup(string, direction=Up).larger()
+
 cross_note_heads = handlertools.OverrideHandler(
     grob_name='note_head',
     attribute_name='style',
@@ -167,6 +170,12 @@ leggierissimo = Markup('leggierissimo', direction=Up).italic().larger()
 
 string = 'leggierissimo (off-string bowing on staccati)'
 leggierissimo_off_string = Markup(string, direction=Up).italic().larger()
+
+def percussion_reminder_markup(name):
+    markup = Markup(name, direction=Up)
+    markup = markup.box().override(('box-padding', 0.75))
+    markup = markup.larger()
+    return markup
 
 def levine_multiphonic(number):
     string = 'L.{}'

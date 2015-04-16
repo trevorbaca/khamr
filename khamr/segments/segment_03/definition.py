@@ -547,6 +547,17 @@ segment_maker.make_music_handler(
         ],
     )
 
+segment_maker.make_music_handler(
+    scope=(fl, (9, 9)),
+    specifiers=[
+        Dynamic('pp'),
+        # sounding A2
+        pitch_specifier(source='G3')
+            ),
+        covered_flute_air_tone,
+        ],
+    )
+
 ### OBOE ###
 
 segment_maker.make_music_handler(
@@ -614,34 +625,83 @@ segment_maker.make_music_handler(
 ### GUITAR ###
 
 segment_maker.make_music_handler(
-    scope=(gt, (1, 6)),
+    scope=(gt, (1, 1)),
     specifiers=[
+        pitch_specifier(source='G3'),
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(gt, (5, 6)),
+    specifiers=[
+        Dynamic('fff'),
+        pitch_specifier(source='Ab4'),
         stem_tremolo,
-        ]
+        ],
     )
 
 ### PIANO ###
 
-### PERCUSSION ###
+segment_maker.make_music_handler(
+    scope=(pf, (1, 4)),
+    specifiers=[
+        Dynamic('fff'),
+        pitch_specifier(
+            source=khamr.materials.rose_pitch_classes,
+            operators=[
+                pitchtools.Inversion(),
+                pitchtools.Transposition(2),
+                ],
+            ),
+        sixth_octave,
+        ottava,
+        ],
+    )
 
 segment_maker.make_music_handler(
-    scope=(perc, (1, 2)),
+    scope=(pf, (3, 4)),
     specifiers=[
-        stem_tremolo,
+        Dynamic('fffff'),
         ]
     )
+
+segment_maker.make_music_handler(
+    scope=(pf, (5, 6)),
+    specifiers=[
+        Dynamic('fff'),
+        pitch_specifier(
+            source='C6 D6 D#6 E6 F6 F#6 C6 C#6 D#6 E6 F6',
+            ),
+        ],
+    )
+
+### PERCUSSION ###
 
 segment_maker.make_music_handler(
     scope=(perc, (3, 4)),
     specifiers=[
+        Clef('percussion'),
+        Dynamic('ppp'),
         stem_tremolo,
+        percussion_reminder_markup('bass drum'),
         ]
     )
 
 segment_maker.make_music_handler(
-    scope=(perc, (8, 9)),
+    scope=(perc, (5, 6)),
     specifiers=[
+        Dynamic('ff'),
+        staccati,
+        percussion_reminder_markup('castanets'),
+        ]
+    )
+
+segment_maker.make_music_handler(
+    scope=(perc, (7, 9)),
+    specifiers=[
+        Dynamic('ppp'),
         stem_tremolo,
+        percussion_reminder_markup('bass drum'),
         ]
     )
 
