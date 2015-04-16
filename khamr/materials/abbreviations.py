@@ -247,18 +247,27 @@ ppp_subtone = Markup('ppp').dynamic() + Markup('subtone')
 reiterated_fff = handlertools.ReiteratedDynamicHandler(
     dynamic_name='fff',
     )
+
 reiterated_ff = handlertools.ReiteratedDynamicHandler(
     dynamic_name='ff',
     )
+
 reiterated_f = handlertools.ReiteratedDynamicHandler(
     dynamic_name='f',
     )
+
+reiterated_mf = handlertools.ReiteratedDynamicHandler(
+    dynamic_name='mf',
+    )
+
 reiterated_mp = handlertools.ReiteratedDynamicHandler(
     dynamic_name='mp',
     )
+
 reiterated_p = handlertools.ReiteratedDynamicHandler(
     dynamic_name='p',
     )
+
 reiterated_pp = handlertools.ReiteratedDynamicHandler(
     dynamic_name='pp',
     )

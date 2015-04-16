@@ -40,7 +40,7 @@ assert segment_maker.validate_time_signatures()
 ################################ MUSIC-MAKERS #################################
 ###############################################################################
 
-### FLUTE ###
+### FLUTE MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 1),
@@ -90,7 +90,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-### OBOE ###
+### OBOE MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 1),
@@ -143,7 +143,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-### CLARINET ###
+### CLARINET MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 1),
@@ -185,7 +185,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-### SAXOPHONE ###
+### SAXOPHONE MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 1),
@@ -235,7 +235,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-### GUITAR ###
+### GUITAR MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 1),
@@ -251,7 +251,7 @@ segment_maker.make_music_maker(
     rhythm_maker=messiaen_tied_notes,
     )
 
-### PIANO ###
+### PIANO MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 4),
@@ -291,7 +291,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-### PERCUSSION ###
+### PERCUSSION MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(3, 4),
@@ -330,7 +330,7 @@ segment_maker.make_music_maker(
     rhythm_maker=messiaen_tied_notes,
     )
 
-### VIOLIN ###
+### VIOLIN MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 1),
@@ -362,7 +362,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-### VIOLA ###
+### VIOLA MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 1),
@@ -394,7 +394,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-### CELLO ###
+### CELLO MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 1),
@@ -426,7 +426,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-### CONTRABASS ###
+### CONTRABASS MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 1),
@@ -504,7 +504,7 @@ segment_maker.make_music_maker(
 ############################### MUSIC-HANDLERS ################################
 ###############################################################################
 
-### FLUTE ###
+### FLUTE HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=(fl, (1, 1)),
@@ -536,7 +536,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-### OBOE ###
+### OBOE HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=(ob, (1, 1)),
@@ -565,10 +565,11 @@ segment_maker.make_music_handler(
         pitch_specifier(source='B4'),
         air_tone_without_reed,
         single_line_staff,
+        repeat_tie_up,
         ],
     )
 
-### CLARINET ###
+### CLARINET HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=(cl, (1, 1)),
@@ -595,7 +596,7 @@ segment_maker.make_music_handler(
         ]
     )
 
-### SAXOPHONE ###
+### SAXOPHONE HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=(sax, (1, 1)),
@@ -628,7 +629,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-### GUITAR ###
+### GUITAR HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=(gt, (1, 1)),
@@ -646,7 +647,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-### PIANO ###
+### PIANO HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=(pf, (1, 4)),
@@ -681,7 +682,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-### PERCUSSION ###
+### PERCUSSION HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=(perc, (3, 4)),
@@ -712,7 +713,7 @@ segment_maker.make_music_handler(
         ]
     )
 
-### VIOLIN ###
+### VIOLIN HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=(vn, (1, 1)),
@@ -721,7 +722,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-### UPPER STRINGS ###
+### UPPER STRINGS HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=([vn, va, vc], (2, 6)),
@@ -764,7 +765,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-### VIOLA ###
+### VIOLA HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=(va, (1, 1)),
@@ -773,7 +774,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-### CELLO ###
+### CELLO HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=(vc, (1, 1)),
@@ -782,7 +783,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-### CONTRABASS ###
+### CONTRABASS HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=(cb, (1, 1)),
