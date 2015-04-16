@@ -1,4 +1,4 @@
-% 2015-04-16 00:09
+% 2015-04-16 08:46
 
 \version "2.19.17"
 \language "english"
@@ -1627,8 +1627,12 @@
             }
             \tag percussion.piano
             \context PianoMusicStaff = "Piano Music Staff" {
-                \clef "treble"
                 \context PianoMusicVoice = "Piano Music Voice" {
+                    \once \override RepeatTie #'direction = #up
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    \clef "bass"
                     \set PianoMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -1639,37 +1643,73 @@
                             #10
                             Pf.
                         }
-                    c'2
-                    c'2 \repeatTie
-                    c'1. \repeatTie
-                    c'2. \repeatTie
-                    c'1 \repeatTie
-                    c'2. \repeatTie
-                    c'2. \repeatTie
-                    c'4
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'2 \repeatTie
-                    c'2
-                    c'2. \repeatTie
-                    c'1 \repeatTie
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'2. \repeatTie
-                    c'2.
-                    c'2 \repeatTie
-                    c'2.
-                    c'2 \repeatTie
-                    c'2. \repeatTie
-                    c'1 \repeatTie
-                    c'1. \repeatTie
-                    c'2 \repeatTie
-                    c'2 \repeatTie
-                    c'4 \repeatTie
-                    c'2
-                    c'1 \repeatTie
+                    d2 \f
+                        ^ \markup {
+                            \larger
+                                "strike lowest strings with palm and lv (pedal down throughout)"
+                            }
+                    \once \override RepeatTie #'direction = #up
+                    d2 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d1. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d2. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d1 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d2. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d2. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d4
+                    \once \override RepeatTie #'direction = #up
+                    d2. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d2 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d2 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d2
+                    \once \override RepeatTie #'direction = #up
+                    d2. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d1 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d2. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d2 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d2. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d2 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d2. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d2.
+                    \once \override RepeatTie #'direction = #up
+                    d2 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d2.
+                    \once \override RepeatTie #'direction = #up
+                    d2 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d2. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d1 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d1. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d2 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d2 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d4 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    d2
+                    \once \override RepeatTie #'direction = #up
+                    d1 \repeatTie
+                    \stopStaff
+                    \startStaff
                     \override TupletNumber #'text = \markup {
                         \scale
                             #'(0.75 . 0.75)
@@ -1704,6 +1744,7 @@
                     \times 1/1 {
                         \once \override Beam #'grow-direction = #right
                         \ottava #1
+                        \clef "treble"
                         cs''''16 * 247/32 \f [
                         c''''16 * 459/64
                         a'''16 * 187/32
@@ -2622,122 +2663,99 @@
                         b4 \< \ppp
                     }
                     \once \override NoteHead #'style = #'harmonic
-                    b1 \repeatTie \pp
-                    \times 2/3 {
-                        r8
-                        c'8
-                        r8
+                    b1 \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    b2 \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    b2 \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    b2. \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    b4 \repeatTie \pp \glissando
+                    \once \override NoteHead #'style = #'harmonic
+                    aqs8 \> \pp
+                    \once \override NoteHead #'style = #'harmonic
+                    aqs4. \repeatTie
+                    \times 4/7 {
+                        \once \override NoteHead #'style = #'harmonic
+                        aqs1. \repeatTie \ppp \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        bf4 \< \ppp
                     }
-                    r4
-                    r2
-                    \times 2/3 {
-                        r8
+                    \once \override NoteHead #'style = #'harmonic
+                    bf2. \repeatTie
+                    \tweak #'text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        \once \override NoteHead #'style = #'harmonic
+                        bf2. \repeatTie \pp \glissando
+                        \once \override NoteHead #'style = #'harmonic
+                        g8 \< \pp
+                    }
+                    \once \override NoteHead #'style = #'harmonic
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    g1 \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    g2. \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    g2 \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    g2. \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    g2. \repeatTie \p \glissando
+                    \once \override NoteHead #'style = #'harmonic
+                    a4 \> \p
+                    \once \override NoteHead #'style = #'harmonic
+                    a2. \repeatTie \pp \glissando
+                    \once \override NoteHead #'style = #'harmonic
+                    b4 \< \pp
+                    \once \override NoteHead #'style = #'harmonic
+                    b2. \repeatTie
+                    \once \override NoteHead #'style = #'harmonic
+                    b2 \repeatTie \p \glissando
+                    c'2.
+                    c'4 \repeatTie
+                    \times 4/5 {
+                        c'16 \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
-                    r8
-                    r2.
-                    r8
-                    \times 2/3 {
-                        r8
-                        c'8
-                        r8
-                    }
-                    r2.
-                    {
-                        r8
-                        c'16
-                        r16
-                    }
-                    r2.
-                    r4
-                    {
-                        r16
-                        c'16
-                        r8
-                    }
-                    r4
-                    r2
-                    {
-                        r8
-                        c'16
-                        r16
-                    }
-                    r4
-                    r2.
+                    c'2. \repeatTie
+                    c'4 \repeatTie
                     \times 4/5 {
-                        r8.
-                        c'16
-                        r16
+                        c'8 \repeatTie [
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'8. ]
                     }
-                    r4
-                    r2
+                    c'4 \repeatTie
+                    c'2 \repeatTie
+                    c'4 \repeatTie
                     \times 4/5 {
-                        r8.
-                        c'16
-                        r16
+                        c'8. \repeatTie [
+                        c'8 ]
                     }
-                    r1
-                    \times 2/3 {
-                        r8
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c'2. \repeatTie
+                    c'4 \repeatTie
+                    \times 4/5 {
+                        c'4 \repeatTie
+                        c'16
+                    }
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c'4 \repeatTie
+                    c'2. \repeatTie
+                    \times 4/5 {
+                        c'16 \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
-                    r2.
-                    \times 2/3 {
-                        r8
-                        c'8
-                        r8
-                    }
-                    r1
-                    {
-                        r8
-                        c'16
-                        r16
-                    }
-                    r8
-                    r4.
-                    r4
-                    \times 2/3 {
-                        r8
-                        c'8
-                        r8
-                    }
-                    r2.
-                    r4
-                    {
-                        r8
-                        c'16
-                        r16
-                    }
-                    r4
-                    r2
-                    {
-                        r16
-                        c'16
-                        r8
-                    }
-                    r1
+                    c'2. \repeatTie
+                    c'4 \repeatTie
                     \times 4/5 {
-                        r8.
-                        c'16
-                        r16
+                        c'16 \repeatTie
+                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                        c'4
                     }
-                    r8
-                    r4.
-                    r4
-                    \times 4/5 {
-                        r8.
-                        c'16
-                        r16
-                    }
-                    r2
-                    r4.
-                    r8
-                    \times 2/3 {
-                        r8
-                        c'8
-                        r8
-                    }
-                    r2.
+                    c'4 \repeatTie
                 }
             }
             \tag strings.contrabass
