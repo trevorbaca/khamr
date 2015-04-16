@@ -56,8 +56,9 @@ class MarimbaHitSpecifier(abctools.AbjadObject):
             clef = Clef('treble')
             attach(clef, logical_tie.head)
             next_leaf = inspect_(logical_tie.tail).get_leaf(1)
-            clef = Clef('percussion')
-            attach(clef, next_leaf)
+            if next_leaf is not None:
+                clef = Clef('percussion')
+                attach(clef, next_leaf)
 
     ### PUBLIC PROPERTIES ###
 
