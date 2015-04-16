@@ -1,4 +1,4 @@
-% 2015-04-16 19:35
+% 2015-04-16 19:37
 
 \version "2.19.17"
 \language "english"
@@ -239,28 +239,28 @@
                     bf'8. \repeatTie
                     r16
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    bf'2 \> \p
+                    bf'2
                     bf'1 \repeatTie
-                    bf'4.. \repeatTie \ppp
+                    bf'4.. \repeatTie
                     r16
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    bf'4 \> \p
+                    bf'4
                     bf'1 \repeatTie
                     bf'2 \repeatTie
-                    bf'8. \repeatTie \ppp
+                    bf'8. \repeatTie
                     r16
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    bf'2 \> \p
+                    bf'2
                     bf'2. \repeatTie
                     bf'2 \repeatTie
                     bf'4. \repeatTie
                     bf'4 \repeatTie
-                    bf'16 \repeatTie \ppp
+                    bf'16 \repeatTie
                     r16
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    bf'4. \> \p
+                    bf'4.
                     bf'4 \repeatTie
-                    bf'16 \repeatTie \ppp
+                    bf'16 \repeatTie
                     r16
                     R1 * 1/2
                     R1 * 5/4
@@ -323,18 +323,18 @@
                     r16
                     \once \override RepeatTie #'direction = #up
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    b'2. \> \p
+                    b'2.
                     \once \override RepeatTie #'direction = #up
                     b'1 \repeatTie
                     \once \override RepeatTie #'direction = #up
                     b'2 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    b'8. \repeatTie \ppp
+                    b'8. \repeatTie
                     \once \override RepeatTie #'direction = #up
                     r16
                     \once \override RepeatTie #'direction = #up
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    b'2 \> \p
+                    b'2
                     \once \override RepeatTie #'direction = #up
                     b'2. \repeatTie
                     \once \override RepeatTie #'direction = #up
@@ -346,7 +346,7 @@
                     \once \override RepeatTie #'direction = #up
                     b'4 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    b'16 \repeatTie \ppp
+                    b'16 \repeatTie
                     \stopStaff
                     \startStaff
                     \once \override RepeatTie #'direction = #up
@@ -458,7 +458,7 @@
                     r16
                     \once \override RepeatTie #'direction = #up
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    b'2 \> \p
+                    b'2
                     \once \override RepeatTie #'direction = #up
                     b'1 \repeatTie
                     \once \override RepeatTie #'direction = #up
@@ -466,12 +466,12 @@
                     \once \override RepeatTie #'direction = #up
                     b'2 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    b'8. \repeatTie \ppp
+                    b'8. \repeatTie
                     \once \override RepeatTie #'direction = #up
                     r16
                     \once \override RepeatTie #'direction = #up
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    b'4 \> \p
+                    b'4
                     \once \override RepeatTie #'direction = #up
                     b'2. \repeatTie
                     \once \override RepeatTie #'direction = #up
@@ -485,16 +485,16 @@
                     \once \override RepeatTie #'direction = #up
                     b'4 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    b'16 \repeatTie \ppp
+                    b'16 \repeatTie
                     \once \override RepeatTie #'direction = #up
                     r16
                     \once \override RepeatTie #'direction = #up
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    b'4. \> \p
+                    b'4.
                     \once \override RepeatTie #'direction = #up
                     b'4 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    b'16 \repeatTie \ppp
+                    b'16 \repeatTie
                     \stopStaff
                     \startStaff
                     \once \override RepeatTie #'direction = #up
