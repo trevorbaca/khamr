@@ -527,18 +527,89 @@ segment_maker.make_music_maker(
 
 ### FLUTE ###
 
+segment_maker.make_music_handler(
+    scope=(fl, (1, 1)),
+    specifiers=[
+        pitch_specifier(
+            source='B5',
+            ),
+        stem_tremolo,
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(fl, (5, 6)),
+    specifiers=[
+        Dynamic('fff'),
+        pitch_specifier(
+            source='D6 E6 F#6 C6 C#6 D6 D#6 F6',
+            ),
+        ],
+    )
+
 ### OBOE ###
 
 segment_maker.make_music_handler(
-    scope=(ob, (7, 9)),
+    scope=(ob, (1, 1)),
     specifiers=[
-        remove_reed,
+        pitch_specifier(
+            source='G#3',
+            ),
         ]
     )
 
+segment_maker.make_music_handler(
+    scope=(ob, (5, 6)),
+    specifiers=[
+        Dynamic('fff'),
+        pitch_specifier(
+            source='C6 C#6 D#6 E6 F6 F#6',
+            ),
+        ],
+    )
+
+
 ### CLARINET ###
 
+segment_maker.make_music_handler(
+    scope=(cl, (1, 1)),
+    specifiers=[
+        pitch_specifier(
+            source='F#2',
+            ),
+        ]
+    )
+
+segment_maker.make_music_handler(
+    scope=(cl, (5, 6)),
+    specifiers=[
+        Dynamic('fff'),
+        pitch_specifier(
+            source='D6 D#6 F6 F#6 C6 C#6 D#6 E6 F6',
+            ),
+        ],
+    )
+
 ### SAXOPHONE ###
+
+segment_maker.make_music_handler(
+    scope=(sax, (1, 1)),
+    specifiers=[
+        pitch_specifier(
+            source='G#2',
+            ),
+        ]
+    )
+
+segment_maker.make_music_handler(
+    scope=(sax, (5, 6)),
+    specifiers=[
+        Dynamic('fff'),
+        pitch_specifier(
+            source='C6 C#6 D6 F6 F#6 D#6 E6',
+            ),
+        ],
+    )
 
 ### GUITAR ###
 
