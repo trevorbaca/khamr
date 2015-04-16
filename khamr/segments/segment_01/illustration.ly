@@ -1,4 +1,4 @@
-% 2015-04-16 09:01
+% 2015-04-16 17:37
 
 \version "2.19.17"
 \language "english"
@@ -404,26 +404,12 @@
                     r2
                     r2.
                     a''2. \> \mp \startTrillSpan
-                        ^ \markup {
-                            \override
-                                #'(circle-padding . 0.25)
-                                \circle
-                                    \finger
-                                        1
-                            }
                     a''2 \repeatTie
                     a''2. \repeatTie
                     a''2 \repeatTie
                     a''4 \repeatTie \pp
                     r8 \stopTrillSpan
                     a''4. \< \pp \startTrillSpan
-                        ^ \markup {
-                            \override
-                                #'(circle-padding . 0.25)
-                                \circle
-                                    \finger
-                                        1
-                            }
                     a''1 \repeatTie
                     a''2. \repeatTie
                     a''4 \repeatTie \mp
@@ -460,7 +446,7 @@
                     b'2 \p
                         ^ \markup {
                             \larger
-                                "air tone (without reed)"
+                                "air tone (without reed): inhale and exhale alternately"
                             }
                     \once \override RepeatTie #'direction = #up
                     b'2 \repeatTie
@@ -584,14 +570,14 @@
                             \larger
                                 "put reed back in"
                             }
-                    <e'' b''>1. -\flageolet \repeatTie
-                    <e'' b''>2 -\flageolet \repeatTie
-                    <e'' b''>4. -\flageolet \repeatTie
+                    <e'' b''>1. \repeatTie
+                    <e'' b''>2 \repeatTie
+                    <e'' b''>4. \repeatTie
                     r8
                     <e'' b''>2. -\flageolet
-                    <e'' b''>2. -\flageolet \repeatTie
-                    <e'' b''>1 -\flageolet \repeatTie
-                    <e'' b''>4 -\flageolet \repeatTie
+                    <e'' b''>2. \repeatTie
+                    <e'' b''>1 \repeatTie
+                    <e'' b''>4 \repeatTie
                     r8
                     r2.
                     r4.
@@ -1956,6 +1942,7 @@
                     }
                     r4
                     r2
+                    \once \override RepeatTie #'direction = #down
                     \clef "bass"
                     d1 \mp
                         ^ \markup {
@@ -1985,9 +1972,13 @@
                                         rhythm)
                                     }
                             }
+                    \once \override RepeatTie #'direction = #down
                     d4 \repeatTie
+                    \once \override RepeatTie #'direction = #down
                     d2. \repeatTie
+                    \once \override RepeatTie #'direction = #down
                     d1 \repeatTie
+                    \once \override RepeatTie #'direction = #down
                     d1. \repeatTie
                 }
             }

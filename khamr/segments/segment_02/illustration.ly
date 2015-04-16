@@ -1,4 +1,4 @@
-% 2015-04-16 13:15
+% 2015-04-16 17:38
 
 \version "2.19.17"
 \language "english"
@@ -385,16 +385,16 @@
                 }
                 \context OboeMusicVoice = "Oboe Music Voice" {
                     <e'' b''>2 -\flageolet
-                    <e'' b''>2 -\flageolet \repeatTie
-                    <e'' b''>1. -\flageolet \repeatTie
-                    <e'' b''>2. -\flageolet \repeatTie
-                    <e'' b''>8 -\flageolet \repeatTie
+                    <e'' b''>2 \repeatTie
+                    <e'' b''>1. \repeatTie
+                    <e'' b''>2. \repeatTie
+                    <e'' b''>8 \repeatTie
                     r2..
                     r2.
                     r4
                     <e'' b''>2. -\flageolet
-                    <e'' b''>2. -\flageolet \repeatTie
-                    <e'' b''>4. -\flageolet \repeatTie
+                    <e'' b''>2. \repeatTie
+                    <e'' b''>4. \repeatTie
                     r8
                     R1 * 1
                     R1 * 3/4

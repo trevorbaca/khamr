@@ -1,4 +1,4 @@
-% 2015-04-16 17:29
+% 2015-04-16 17:40
 
 \version "2.19.17"
 \language "english"
@@ -1869,15 +1869,57 @@
                         gs'''16
                         d'''16 ]
                     }
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Bass
+                                    clarinet
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Bass
+                                    cl.
+                                }
+                        }
                     R1 * 3/4
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to bass clarinet"
+                            }
                     R1 * 1
-                    a,1 \ppp
-                    a,4 \repeatTie
-                    a,2. \repeatTie
-                    a,1 \repeatTie
-                    a,1 \repeatTie
-                    a,1 \repeatTie
-                    a,4 \repeatTie
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Bass
+                                    clarinet
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Bass
+                                    cl.
+                                }
+                        }
+                    a1 \ppp
+                    a4 \repeatTie
+                    a2. \repeatTie
+                    a1 \repeatTie
+                    a1 \repeatTie
+                    a1 \repeatTie
+                    a4 \repeatTie
                     r2.
                 }
             }
@@ -2433,6 +2475,7 @@
                     R1 * 1
                     R1 * 5/4
                     R1 * 3/4
+                    \once \override RepeatTie #'direction = #up
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
@@ -2441,16 +2484,24 @@
                             \larger
                                 "air tone"
                             }
+                    \once \override RepeatTie #'direction = #up
                     b'1 \repeatTie
+                    \once \override RepeatTie #'direction = #up
                     b'2... \repeatTie
+                    \once \override RepeatTie #'direction = #up
                     r16
+                    \once \override RepeatTie #'direction = #up
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     b'4
+                    \once \override RepeatTie #'direction = #up
                     b'4. \repeatTie
+                    \once \override RepeatTie #'direction = #up
                     b'4 \repeatTie
+                    \once \override RepeatTie #'direction = #up
                     b'16 \repeatTie
                     \stopStaff
                     \startStaff
+                    \once \override RepeatTie #'direction = #up
                     r16
                 }
             }

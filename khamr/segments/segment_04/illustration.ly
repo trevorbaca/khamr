@@ -1,4 +1,4 @@
-% 2015-04-15 15:45
+% 2015-04-16 17:41
 
 \version "2.19.17"
 \language "english"
@@ -492,6 +492,7 @@
                         c16
                         c16
                         c16 ]
+                        \bar "|."
                     }
                 }
             }
@@ -579,6 +580,7 @@
                     c'8.
                     c'2. \repeatTie
                     c'2. \repeatTie
+                    \bar "|."
                 }
             }
             \tag winds.clarinet
@@ -587,67 +589,76 @@
                 \set Staff.instrumentName = \markup {
                 \hcenter-in
                     #16
-                    Clarinet
+                    \center-column
+                        {
+                            Bass
+                            clarinet
+                        }
                 }
                 \set Staff.shortInstrumentName = \markup {
                 \hcenter-in
                     #10
-                    Cl.
+                    \center-column
+                        {
+                            Bass
+                            cl.
+                        }
                 }
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                    d'2
-                    d'2 \repeatTie
+                    d''2
+                    d''2 \repeatTie
                     r1.
-                    d'2.
-                    d'1 \repeatTie
-                    d'2. \repeatTie
-                    d'1 \repeatTie
-                    d'2 \repeatTie
-                    d'2. \repeatTie
-                    d'1 \repeatTie
+                    d''2.
+                    d''1 \repeatTie
+                    d''2. \repeatTie
+                    d''1 \repeatTie
+                    d''2 \repeatTie
+                    d''2. \repeatTie
+                    d''1 \repeatTie
                     R1 * 3/4
                     R1 * 1
                     r16
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    d'8.
-                    d'2 \repeatTie
-                    d'2 \repeatTie
-                    d'2. \repeatTie
+                    d''8.
+                    d''2 \repeatTie
+                    d''2 \repeatTie
+                    d''2. \repeatTie
                     r2
                     r4.
                     r8
-                    d'4
-                    d'2. \repeatTie
-                    d'2 \repeatTie
+                    d''4
+                    d''2. \repeatTie
+                    d''2 \repeatTie
                     r16
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    d'8.
-                    d'2 \repeatTie
-                    d'2 \repeatTie
-                    d'2. \repeatTie
+                    d''8.
+                    d''2 \repeatTie
+                    d''2 \repeatTie
+                    d''2. \repeatTie
                     r1
-                    d'1.
+                    d''1.
                     r16
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    d'4..
-                    d'2 \repeatTie
-                    d'2. \repeatTie
-                    d'4 \repeatTie
+                    d''4..
+                    d''2 \repeatTie
+                    d''2. \repeatTie
+                    d''4 \repeatTie
                     r2.
                     r4
-                    d'4
-                    d'2 \repeatTie
-                    d'2. \repeatTie
+                    d''4
+                    d''2 \repeatTie
+                    d''2. \repeatTie
                     r16
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    d'16
+                    d''16
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    d'4 \repeatTie
-                    d'4. \repeatTie
-                    d'1 \repeatTie
-                    d'4 \repeatTie
+                    d''4 \repeatTie
+                    d''4. \repeatTie
+                    d''1 \repeatTie
+                    d''4 \repeatTie
                     r2
                     r2.
+                    \bar "|."
                 }
             }
             \tag winds.saxophone
@@ -743,6 +754,7 @@
                     a4
                     a2. \repeatTie
                     a2. \repeatTie
+                    \bar "|."
                 }
             }
         >>
@@ -811,6 +823,7 @@
                     c''4. \repeatTie
                     c''4 \repeatTie
                     r8
+                    \bar "|."
                 }
             }
             \tag percussion.piano
@@ -910,6 +923,7 @@
                         r8
                         c'8
                         r8
+                        \bar "|."
                     }
                 }
             }
@@ -963,6 +977,7 @@
                     c'4 \repeatTie
                     c'2
                     c'2. \repeatTie
+                    \bar "|."
                 }
             }
         >>
@@ -1099,6 +1114,7 @@
                     \times 2/3 {
                         c'8 :32 \repeatTie
                         r4
+                        \bar "|."
                     }
                 }
             }
@@ -1252,6 +1268,7 @@
                     }
                     {
                         r4
+                        \bar "|."
                     }
                 }
             }
@@ -1352,6 +1369,7 @@
                     c'1 :32 \repeatTie
                     c'2. :32 \repeatTie
                     c'2. :32 \repeatTie
+                    \bar "|."
                 }
             }
             \tag strings.contrabass
@@ -1411,6 +1429,7 @@
                     c''4 \repeatTie
                     c''8
                     c''4. \repeatTie
+                    \bar "|."
                 }
             }
         >>
