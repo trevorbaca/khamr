@@ -110,9 +110,9 @@ ORCHESTRATION:
     (M4 [piano tambour + low note doubling of 38" tam-tam acc. to halo])
     (M4 [struck 38" tam-tam])
     --
-    (M4 [violin acc. to halo: niente < p])
-    (M4 [viola acc. to halo: niente < p])
-    (M4 [cello acc. to halo: niente < p])
+    (M4 [violin acc. to halo])
+    (M4 [viola acc. to halo])
+    (M4 [cello acc. to halo])
 ++++(M4 [contrabass halo: "f"])
     * bass flute acc. M4 to halo incl. double harmonics, whistle tones
     * english horn air tone (w/o reed) mixes inhales and exhales
@@ -126,8 +126,7 @@ ORCHESTRATION:
     (M5 [bass clarinet quiet tone])
     (M5 [baritone sax quiet tone])
     --
-++++(M4 [guitar pitched tambour doubling of 38" tam-tam acc. to halo] +
-        M8 [guitar pizzicati fantastiques: sparse < denser])
+    (M8 [guitar pizzicati fantastiques])
     (M4 [piano tambour + low note doubling of 38" tam-tam acc. to halo])
     (M4 [struck 38" tam-tam])
     --
@@ -154,8 +153,7 @@ ORCHESTRATION:
     (M5 [bass clarinet quiet tone])
     (M5 [baritone sax quiet tone])
     --
-    (M4 [guitar pitched tambour doubling of 38" tam-tam acc. to halo] +
-        M8 [guitar pizzicati fantastiques: increasing])
+    (M8 [guitar pizzicati fantastiques])
     (M4 [piano tambour + low note doubling of 38" tam-tam])
     (M16 [groaned bass drum initiation to string tremolo descent];
         M4 [struck 38" tam-tam])
@@ -183,8 +181,7 @@ ORCHESTRATION:
     (M5 [bass clarinet quiet tone])
     (M5 [baritone sax quiet tone])
     --
-    (M4 [guitar pitched tambour doubling of 38" tam-tam acc. to halo] +
-        M8 [guitar pizzicati fantastiques: climax])
+    (M8 [guitar pizzicati fantastiques])
     (M4 [piano tambour + low note doubling of 38" tam-tam acc. to halo])
 ++++(M4 [struck 38" tam-tam acc. to halo: mp] +
         M15 [woodblock underspine: start])
@@ -213,8 +210,7 @@ ORCHESTRATION:
     (M5 [bass clarinet quiet tone])
     (M5 [baritone sax quiet tone])
     --
-    (M4 [guitar pitched tambour doubling of 38" tam-tam acc. to halo] +
-        M8 [guitar pizzicati fantastiques: climax])
+    (M8 [guitar pizzicati fantastiques])
     (M4 [piano tambour + low note doubling of 38" tam-tam acc. to halo] +
         M19 [pf lightning cadenza])
     (M4 [struck 38" tam-tam acc. to halo: mp] +
@@ -249,8 +245,7 @@ ORCHESTRATION:
     (M6 [bass clarinet quiet multiphonics])
     (M6 [baritone saxophone quiet multiphonics])
     --
-    (M4 [guitar pitched tambour doubling of 38" tam-tam acc. to halo] +
-        M8 [guitar pizzicati fantastiques: denoument])
+    (M8 [guitar pizzicati fantastiques])
     (M4 [piano tambour + low note doubling of 38" tam-tam acc. to halo] +
         M19 [pf lightning cadenza])
     (M19 [scraped 30" tam-tam to articulate start of M19] +
@@ -283,8 +278,7 @@ ORCHESTRATION:
     (M6 [bass clarinet quiet multiphonics])
     (M6 [baritone saxophone quiet multiphonics])
     --
-    (M4 [guitar pitched tambour doubling of 38" tam-tam acc. to halo] +
-        M8 [guitar pizzicati fantastiques: denoument])
+    (M8 [guitar pizzicati fantastiques])
     (M4 [piano tambour + low note doubling of 38" tam-tam acc. to halo] +
         M19 [pf lightning cadenza] ==> niente; AUX [piano clicks])
     (M15 [woodblock underspine])
