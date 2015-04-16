@@ -1,4 +1,4 @@
-% 2015-04-16 11:58
+% 2015-04-16 12:20
 
 \version "2.19.17"
 \language "english"
@@ -297,17 +297,17 @@
                         }
                 }
                 \context FluteMusicVoice = "Flute Music Voice" {
-                    c''2
-                    c''2 \repeatTie
-                    c''1. \repeatTie
-                    c''4. \repeatTie
-                    r8
-                    c''4
-                    c''1 \repeatTie
-                    c''2. \repeatTie
-                    c''2 \repeatTie
-                    c''8 \repeatTie
-                    r4.
+                    bf''2 \> \mp \startTrillSpan
+                    bf''2 \repeatTie
+                    bf''1. \repeatTie
+                    bf''4. \repeatTie \pp
+                    r8 \stopTrillSpan
+                    bf''4 \< \pp \startTrillSpan
+                    bf''1 \repeatTie
+                    bf''2. \repeatTie
+                    bf''2 \repeatTie
+                    bf''8 \repeatTie \mp
+                    r4. \stopTrillSpan
                     r2.
                     r2
                     c''1
@@ -320,26 +320,52 @@
                     c''2 \repeatTie
                     c''4. \repeatTie
                     c''4 \repeatTie
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Flute
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Fl.
+                        }
                     r8
+                        ^ \markup {
+                            \override
+                                #'(box-padding . 0.75)
+                                \box
+                                    "to flute"
+                            }
                     r2
-                    c''1.
-                    c''2 \repeatTie
-                    c''2. \repeatTie
-                    c''2 \repeatTie
-                    c''2. \repeatTie
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Flute
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Fl.
+                        }
+                    b''1. :32 \fff
+                    b''2 :32 \repeatTie
+                    b''2. :32 \repeatTie
+                    b''2 :32 \repeatTie
+                    b''2. :32 \repeatTie
                     r1
                     r1.
                     r4
-                    c''4
-                    c''2 \repeatTie
-                    c''2. \repeatTie
-                    c''1 \repeatTie
-                    c''2 \repeatTie
-                    c''2 \repeatTie
-                    c''1. \repeatTie
-                    c''1 \repeatTie
-                    c''2. \repeatTie
-                    c''2. \repeatTie
+                    b''4 :32
+                    b''2 :32 \repeatTie
+                    b''2. :32 \repeatTie
+                    b''1 :32 \repeatTie
+                    b''2 :32 \repeatTie
+                    b''2 :32 \repeatTie
+                    b''1. :32 \repeatTie
+                    b''1 :32 \repeatTie
+                    b''2. :32 \repeatTie
+                    b''2. :32 \repeatTie
                 }
             }
             \tag winds.oboe
@@ -364,17 +390,17 @@
                         }
                 }
                 \context OboeMusicVoice = "Oboe Music Voice" {
-                    g'2
-                    g'2 \repeatTie
-                    g'1. \repeatTie
-                    g'2. \repeatTie
-                    g'8 \repeatTie
+                    <e'' b''>2 -\flageolet
+                    <e'' b''>2 -\flageolet \repeatTie
+                    <e'' b''>1. -\flageolet \repeatTie
+                    <e'' b''>2. -\flageolet \repeatTie
+                    <e'' b''>8 -\flageolet \repeatTie
                     r2..
                     r2.
                     r4
-                    g'2.
-                    g'2. \repeatTie
-                    g'4. \repeatTie
+                    <e'' b''>2. -\flageolet
+                    <e'' b''>2. -\flageolet \repeatTie
+                    <e'' b''>4. -\flageolet \repeatTie
                     r8
                     R1 * 1
                     R1 * 3/4
@@ -382,24 +408,24 @@
                     R1 * 5/4
                     R1 * 3/4
                     R1 * 1/2
-                    g'1.
-                    g'2 \repeatTie
-                    g'2. \repeatTie
-                    g'2 \repeatTie
-                    g'2. \repeatTie
+                    ds'1. \fff
+                    ds'2 \repeatTie
+                    ds'2. \repeatTie
+                    ds'2 \repeatTie
+                    ds'2. \repeatTie
                     r1
                     r1.
                     r4
-                    g'4
-                    g'2 \repeatTie
-                    g'2. \repeatTie
-                    g'1 \repeatTie
-                    g'2 \repeatTie
-                    g'2 \repeatTie
-                    g'1. \repeatTie
-                    g'1 \repeatTie
-                    g'2. \repeatTie
-                    g'2. \repeatTie
+                    ds'4
+                    ds'2 \repeatTie
+                    ds'2. \repeatTie
+                    ds'1 \repeatTie
+                    ds'2 \repeatTie
+                    ds'2 \repeatTie
+                    ds'1. \repeatTie
+                    ds'1 \repeatTie
+                    ds'2. \repeatTie
+                    ds'2. \repeatTie
                 }
             }
             \tag winds.clarinet
@@ -424,49 +450,49 @@
                         }
                 }
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                    d''2
-                    d''2 \repeatTie
-                    d''2. \repeatTie
-                    d''4. \repeatTie
-                    d''4 \repeatTie
+                    a2
+                    a2 \repeatTie
+                    a2. \repeatTie
+                    a4. \repeatTie
+                    a4 \repeatTie
                     r8
                     r2.
                     r2.
-                    d''4
-                    d''2. \repeatTie
-                    d''1 \repeatTie
-                    d''2 \repeatTie
-                    d''8 \repeatTie
+                    a4
+                    a2. \repeatTie
+                    a1 \repeatTie
+                    a2 \repeatTie
+                    a8 \repeatTie
                     r8
                     r2
                     r1
-                    d''2.
-                    d''1 \repeatTie
-                    d''2 \repeatTie
-                    d''8 \repeatTie
+                    a2.
+                    a1 \repeatTie
+                    a2 \repeatTie
+                    a8 \repeatTie
                     r8
-                    d''2
-                    d''2. \repeatTie
-                    d''4. \repeatTie
+                    a2
+                    a2. \repeatTie
+                    a4. \repeatTie
                     r8
-                    d''1.
-                    d''2 \repeatTie
-                    d''2. \repeatTie
-                    d''2 \repeatTie
-                    d''2. \repeatTie
+                    gs1. \fff
+                    gs2 \repeatTie
+                    gs2. \repeatTie
+                    gs2 \repeatTie
+                    gs2. \repeatTie
                     r1
                     r1.
                     r4
-                    d''4
-                    d''2 \repeatTie
-                    d''2. \repeatTie
-                    d''1 \repeatTie
-                    d''2 \repeatTie
-                    d''2 \repeatTie
-                    d''1. \repeatTie
-                    d''1 \repeatTie
-                    d''2. \repeatTie
-                    d''2. \repeatTie
+                    gs4
+                    gs2 \repeatTie
+                    gs2. \repeatTie
+                    gs1 \repeatTie
+                    gs2 \repeatTie
+                    gs2 \repeatTie
+                    gs1. \repeatTie
+                    gs1 \repeatTie
+                    gs2. \repeatTie
+                    gs2. \repeatTie
                 }
             }
             \tag winds.saxophone
@@ -491,18 +517,18 @@
                         }
                 }
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
-                    a''2
-                    a''2 \repeatTie
-                    a''1. \repeatTie
-                    a''2. \repeatTie
-                    a''2 \repeatTie
-                    a''8 \repeatTie
+                    <d'' eqs''>2
+                    <d'' eqs''>2 \repeatTie
+                    <d'' eqs''>1. \repeatTie
+                    <d'' eqs''>2. \repeatTie
+                    <d'' eqs''>2 \repeatTie
+                    <d'' eqs''>8 \repeatTie
                     r4.
                     r2.
                     r2.
-                    a''4
-                    a''2. \repeatTie
-                    a''4. \repeatTie
+                    <d'' eqs''>4
+                    <d'' eqs''>2. \repeatTie
+                    <d'' eqs''>4. \repeatTie
                     r8
                     R1 * 1
                     R1 * 3/4
@@ -510,24 +536,24 @@
                     R1 * 5/4
                     R1 * 3/4
                     R1 * 1/2
-                    a''1.
-                    a''2 \repeatTie
-                    a''2. \repeatTie
-                    a''2 \repeatTie
-                    a''2. \repeatTie
+                    es'1. \fff
+                    es'2 \repeatTie
+                    es'2. \repeatTie
+                    es'2 \repeatTie
+                    es'2. \repeatTie
                     r1
                     r1.
                     r4
-                    a''4
-                    a''2 \repeatTie
-                    a''2. \repeatTie
-                    a''1 \repeatTie
-                    a''2 \repeatTie
-                    a''2 \repeatTie
-                    a''1. \repeatTie
-                    a''1 \repeatTie
-                    a''2. \repeatTie
-                    a''2. \repeatTie
+                    es'4
+                    es'2 \repeatTie
+                    es'2. \repeatTie
+                    es'1 \repeatTie
+                    es'2 \repeatTie
+                    es'2 \repeatTie
+                    es'1. \repeatTie
+                    es'1 \repeatTie
+                    es'2. \repeatTie
+                    es'2. \repeatTie
                 }
             }
         >>

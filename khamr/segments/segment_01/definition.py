@@ -544,7 +544,6 @@ segment_maker.make_music_handler(
             ),
         pervasive_trills,
         bass_flute_tremoli_hairpins,
-        color_fingering_1,
         ],
     )
 
