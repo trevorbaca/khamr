@@ -97,6 +97,8 @@ air_tone_without_reed = Markup(string, direction=Up).larger()
 
 arco = Markup('arco', direction=Up).larger()
 
+arco_ordinario = Markup('arco ordinario', direction=Up).larger()
+
 attackless = Markup('attackless', direction=Up).larger()
 
 string = 'attackless roll with very soft yarn mallets'
@@ -147,6 +149,10 @@ string += ' continuous loud sound'
 guitar_with_screw = Markup(string, direction=Up).line().larger()
 
 gridato_possibile = Markup('gridato possibile', direction=Up).italic().larger()
+
+string = r'sparse, individual clicks with incredibly slow-moving bow'
+string += ' (1-2/sec. in irregular rhythm)'
+sparse_cello_clicks = Markup(string, direction=Up).line().larger()
 
 string = r'sparse, individual clicks with nail or pick up string'
 string += ' (1-2/sec. in irregular rhythm)'

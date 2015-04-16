@@ -72,7 +72,7 @@ guitar_ritardando = guitar_accelerando.reverse()
 ### FLUTE ###
 
 segment_maker.make_music_maker(
-    stages=(1, 3),
+    stages=(1, 2),
     context_name=fl,
     division_maker=beat_division_maker
         .fuse_by_counts(
@@ -103,7 +103,7 @@ segment_maker.make_music_maker(
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         output_masks=[
-            stage_4_silence_mask,
+            rhythmmakertools.silence_every([1], period=2),
             ],
         tie_specifier=rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
@@ -189,6 +189,7 @@ segment_maker.make_music_maker(
             ),
         output_masks=[
             rhythmmakertools.silence_every([1, 3], period=6),
+            rhythmmakertools.silence_last(1),
             ],
         tie_specifier=rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
@@ -317,7 +318,7 @@ segment_maker.copy_music_maker(
     4,
     context_name=pf,
     rhythm_maker__tie_specifier=rhythmmakertools.TieSpecifier(
-        strip_all_ties=True,
+        strip_ties=True,
         ),
     )
 
@@ -325,6 +326,7 @@ segment_maker.make_music_maker(
     stages=(5, 5),
     context_name=pf,
     division_maker=beat_division_maker,
+    rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
         output_masks=[
             stage_5_silence_mask,
@@ -402,6 +404,9 @@ segment_maker.make_music_maker(
     division_maker=quarter_division_maker,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        output_masks=[
+            rhythmmakertools.silence_last(2),
+            ],
         tie_specifier=rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
             use_messiaen_style_ties=True,
@@ -431,6 +436,9 @@ segment_maker.make_music_maker(
     division_maker=quarter_division_maker,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        output_masks=[
+            rhythmmakertools.silence_last(2),
+            ],
         tie_specifier=rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
             use_messiaen_style_ties=True,
@@ -460,6 +468,9 @@ segment_maker.make_music_maker(
     division_maker=quarter_division_maker,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        output_masks=[
+            rhythmmakertools.silence_last(2),
+            ],
         tie_specifier=rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
             use_messiaen_style_ties=True,
@@ -474,6 +485,9 @@ segment_maker.make_music_maker(
     context_name=vc,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        output_masks=[
+            rhythmmakertools.silence_last(1),
+            ],
         tie_specifier=rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
             use_messiaen_style_ties=True,
@@ -504,7 +518,8 @@ segment_maker.make_music_maker(
             rhythmmakertools.sustain_every(
                 [0, 1, 4, 6],
                 period=7,
-                )
+                ),
+            rhythmmakertools.silence_last(1),
             ],
         tuplet_ratios=[
             (6, 1), (6, 1), (6, 1),
@@ -650,9 +665,7 @@ segment_maker.make_music_handler(
     scope=(gt, (2, 3)),
     specifiers=[
         Dynamic('mf'),
-        pitch_specifier(
-            source='F#3',
-            ),
+        pitch_specifier(source='F#3'),
         sparse_guitar_clicks,
         ],
     )
@@ -662,6 +675,7 @@ segment_maker.make_music_handler(
     specifiers=[
         Dynamic('ff'),
         guitar_with_screw,
+        pitch_specifier(source='G3'),
         ],
     )
 
@@ -704,14 +718,15 @@ segment_maker.make_music_handler(
 segment_maker.make_music_handler(
     scope=(pf, (5, 5)),
     specifiers=[
+        Clef('treble'),
         Dynamic('ffff'),
-        single_line_staff,
         pitch_specifier(
             source=khamr.materials.rose_pitch_classes,
             operators=[pitchtools.Inversion()],
             ),
         sixth_octave,
         marcati,
+        ottava,
         ],
     )
 
@@ -745,9 +760,128 @@ segment_maker.make_music_handler(
 
 ### VIOLIN ###
 
+segment_maker.make_music_handler(
+    scope=(vn, (1, 1)),
+    specifiers=[
+        pitch_specifier(
+            source=khamr.materials.color_trill_pitches,
+            operators=[pitchtools.Transposition(1)],
+            ),
+        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(vn, (2, 2)),
+    specifiers=[
+        pitch_specifier(
+            source=khamr.materials.color_trill_pitches,
+            operators=[pitchtools.Transposition(2)],
+            ),
+        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(vn, (3, 3)),
+    specifiers=[
+        pitch_specifier(
+            source=khamr.materials.color_trill_pitches,
+            operators=[pitchtools.Transposition(3)],
+            ),
+        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(vn, (4, 5)),
+    specifiers=[
+        Dynamic('fff'),
+        pitch_specifier(
+            source='A4',
+            ),
+        arco_ordinario,
+        ],
+    )
+
 ### VIOLA ###
 
+segment_maker.make_music_handler(
+    scope=(va, (1, 1)),
+    specifiers=[
+        pitch_specifier(
+            source=khamr.materials.color_trill_pitches,
+            ),
+        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(va, (2, 2)),
+    specifiers=[
+        pitch_specifier(
+            source=khamr.materials.color_trill_pitches,
+            operators=[pitchtools.Transposition(1)],
+            ),
+        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(va, (3, 3)),
+    specifiers=[
+        pitch_specifier(
+            source=khamr.materials.color_trill_pitches,
+            operators=[pitchtools.Transposition(2)],
+            ),
+        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(va, (4, 5)),
+    specifiers=[
+        Dynamic('fff'),
+        pitch_specifier(
+            source='G#4',
+            ),
+        arco_ordinario,
+        ],
+    )
+
 ### CELLO ###
+
+segment_maker.make_music_handler(
+    scope=(vc, (1, 2)),
+    specifiers=[
+        pitch_specifier(
+            source=khamr.materials.color_trill_pitches,
+            ),
+        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(vc, (3, 3)),
+    specifiers=[
+        Dynamic('mf'),
+        pitch_specifier(
+            source='F#3',
+            ),
+        sparse_cello_clicks,
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(vc, (4, 5)),
+    specifiers=[
+        Dynamic('fff'),
+        pitch_specifier(
+            source='G3',
+            ),
+        arco_ordinario,
+        ],
+    )
 
 ### CONTRABASS ###
 
@@ -773,12 +907,13 @@ segment_maker.make_music_handler(
 segment_maker.make_music_handler(
     scope=(cb, (4, 5)),
     specifiers=[
+        Dynamic('fff'),
         pitch_specifier(
             source=[pitchtools.PitchSegment(
                 items=[NamedPitch('G0'), NamedPitch('A1')], 
                 item_class=NamedPitch,
                 )],
             ),
-        Dynamic('f'),
+        arco_ordinario,
         ],
     )
