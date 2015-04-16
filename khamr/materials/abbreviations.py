@@ -78,6 +78,13 @@ string_tuplet_spelling_specifier = rhythmmakertools.TupletSpellingSpecifier(
     flatten_trivial_tuplets=True,
     )
 
+messiaen_tied_notes = rhythmmakertools.NoteRhythmMaker(
+    tie_specifier=rhythmmakertools.TieSpecifier(
+        tie_across_divisions=True,
+        use_messiaen_style_ties=True,
+        )
+    )
+
 ### MARKUP ###
 
 def make_effort_dynamic_markup(dynamic_text, direction=Down):
