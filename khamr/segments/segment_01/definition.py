@@ -376,21 +376,6 @@ segment_maker.make_music_maker(
 ### VIOLA ###
 
 segment_maker.make_music_maker(
-    stages=(6, 7),
-    context_name=va,
-    division_maker=quarter_division_maker,
-    rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            tie_across_divisions=True,
-            use_messiaen_style_ties=True,
-            ),
-        tuplet_ratios=string_tuplet_ratios_3,
-        tuplet_spelling_specifier=string_tuplet_spelling_specifier,
-        ),
-    )
-
-segment_maker.make_music_maker(
     stages=(1, 5),
     context_name=va,
     rewrite_meter=True,
@@ -415,10 +400,25 @@ segment_maker.make_music_maker(
         )
     )
 
+segment_maker.make_music_maker(
+    stages=(6, 7),
+    context_name=va,
+    division_maker=quarter_division_maker,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        tuplet_ratios=string_tuplet_ratios_3,
+        tuplet_spelling_specifier=string_tuplet_spelling_specifier,
+        ),
+    )
+
 ### CELLO ###
 
 segment_maker.make_music_maker(
-    stages=(1, 3),
+    stages=(1, 5),
     context_name=vc,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
@@ -442,22 +442,37 @@ segment_maker.make_music_maker(
         )
     )
 
+#segment_maker.make_music_maker(
+#    stages=(4, 7),
+#    context_name=vc,
+#    division_maker=makertools.DivisionMaker()
+#        .split_by_durations(
+#            durations=[(1, 4)],
+#            ),
+#    rewrite_meter=True,
+#    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+#        output_masks=[
+#            rhythmmakertools.silence_every([1, 2, 3, 5, 6, 7, 8], period=9),
+#            ],
+#        tuplet_ratios=[
+#            (-1, 1, -1), (-1, 1, -1), (-1, 1, -2), (-3, 1, -1),
+#            (-1, 2), (-2, 1, -1), (-2, 1, -1), (-3, 1, -1),
+#            ],
+#        ),
+#    )
+
 segment_maker.make_music_maker(
-    stages=(4, 7),
+    stages=(6, 7),
     context_name=vc,
-    division_maker=makertools.DivisionMaker()
-        .split_by_durations(
-            durations=[(1, 4)],
-            ),
+    division_maker=quarter_division_maker,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
-        output_masks=[
-            rhythmmakertools.silence_every([1, 2, 3, 5, 6, 7, 8], period=9),
-            ],
-        tuplet_ratios=[
-            (-1, 1, -1), (-1, 1, -1), (-1, 1, -2), (-3, 1, -1),
-            (-1, 2), (-2, 1, -1), (-2, 1, -1), (-3, 1, -1),
-            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        tuplet_ratios=string_tuplet_ratios_2,
+        tuplet_spelling_specifier=string_tuplet_spelling_specifier,
         ),
     )
 
@@ -641,8 +656,23 @@ segment_maker.make_music_handler(
 ### PIANO ###
 
 segment_maker.make_music_handler(
+    scope=(pf, (1, 3)),
+    specifiers=[
+        Clef('bass'),
+        Dynamic('f'),
+        strike_lowest_strings,
+        single_line_staff,
+        pitch_specifier(
+            source='D3',
+            ),
+        repeat_tie_up,
+        ],
+    )
+
+segment_maker.make_music_handler(
     scope=(pf, (4, 7)),
     specifiers=[
+        Clef('treble'),
         Dynamic('f'),
         sixth_octave,
         ottava,
@@ -683,6 +713,17 @@ segment_maker.make_music_handler(
         ],
     )
 
+#segment_maker.make_music_handler(
+#    scope=(vn, (6, 7)),
+#    specifiers=[
+#        halo_accompaniment_hairpins,
+#        pitch_specifier(
+#            source=khamr.materials.color_trill_pitches,
+#            ),
+#        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
+#        ],
+#    )
+
 ### VIOLA ###
 
 segment_maker.make_music_handler(
@@ -701,10 +742,21 @@ segment_maker.make_music_handler(
         ],
     )
 
+#segment_maker.make_music_handler(
+#    scope=(va, (6, 7)),
+#    specifiers=[
+#        halo_accompaniment_hairpins,
+#        pitch_specifier(
+#            source=khamr.materials.color_trill_pitches,
+#            ),
+#        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
+#        ],
+#    )
+
 ### CELLO ###
 
 segment_maker.make_music_handler(
-    scope=(vc, (1, 3)),
+    scope=(vc, (1, 5)),
     specifiers=[
         baca.makers.GlissandoSpecifier(
             patterns=rhythmmakertools.select_all(),
@@ -718,6 +770,17 @@ segment_maker.make_music_handler(
         string_III,
         ],
     )
+
+#segment_maker.make_music_handler(
+#    scope=(vc, (6, 7)),
+#    specifiers=[
+#        halo_accompaniment_hairpins,
+#        pitch_specifier(
+#            source=khamr.materials.color_trill_pitches,
+#            ),
+#        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
+#        ],
+#    )
 
 ### CONTRABASS ###
 

@@ -420,7 +420,7 @@ color_microtones = baca.makers.MicrotonalDeviationSpecifier(
 
 def pervasive_trills_at_interval(interval):
     return baca.makers.TrillSpecifier(
-        interval=interval
+        interval=interval,
         minimum_written_duration=None,
         )
     
