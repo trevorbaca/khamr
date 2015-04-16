@@ -279,8 +279,7 @@ ORCHESTRATION:
     (M6 [baritone saxophone quiet multiphonics])
     --
     (M8 [guitar pizzicati fantastiques])
-    (M4 [piano tambour + low note doubling of 38" tam-tam acc. to halo] +
-        M19 [pf lightning cadenza] ==> niente; AUX [piano clicks])
+    (AUX [piano clicks])
     (M15 [woodblock underspine])
         M6 [marimba low pedal-point acc. to quiet mult.] +
         M6 [sparse triangle acc. to marimba pedal point] +

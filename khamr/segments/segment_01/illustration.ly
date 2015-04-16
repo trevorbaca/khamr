@@ -1,4 +1,4 @@
-% 2015-04-16 08:46
+% 2015-04-16 09:01
 
 \version "2.19.17"
 \language "english"
@@ -1951,16 +1951,44 @@
                     \times 2/3 {
                         r8
                         d''''8
+                        \ottava #0
                         r8
                     }
                     r4
                     r2
-                    fs'''1
-                    fs'''4 \repeatTie
-                    fs'''2. \repeatTie
-                    fs'''1 \repeatTie
-                    fs'''1. \repeatTie
-                    \ottava #0
+                    \clef "bass"
+                    d1 \mp
+                        ^ \markup {
+                            \larger
+                                \line
+                                    {
+                                        sparse,
+                                        individual
+                                        clicks
+                                        with
+                                        credit
+                                        card
+                                        on
+                                        C
+                                        \hspace
+                                            #-0.5
+                                        \raise
+                                            #1
+                                            \sharp
+                                        \hspace
+                                            #-0.5
+                                        1
+                                        string
+                                        (1-2/sec.
+                                        in
+                                        irregular
+                                        rhythm)
+                                    }
+                            }
+                    d4 \repeatTie
+                    d2. \repeatTie
+                    d1 \repeatTie
+                    d1. \repeatTie
                 }
             }
             \tag percussion
@@ -2268,75 +2296,91 @@
                     b'2. \repeatTie
                     \once \override NoteHead #'style = #'harmonic
                     b'2 \repeatTie \p \glissando
-                    c'4.
-                    c'8 \repeatTie
+                    \pitchedTrill
+                    f'4. \ppp \startTrillSpan
+                        ^ \markup {
+                            \larger
+                                \italic
+                                    "molto flautando ed estr. sul pont."
+                            } gf'
+                    f'8 \repeatTie
                     \times 4/5 {
-                        c'16 \repeatTie
+                        f'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'4
+                        \pitchedTrill
+                        fs'4 \stopTrillSpan \startTrillSpan g'
                     }
-                    c'2 \repeatTie
+                    fs'2 \repeatTie
                     \times 4/5 {
-                        c'8 \repeatTie [
+                        fs'8 \repeatTie [
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'8. ]
+                        \pitchedTrill
+                        fqs'8. ] \stopTrillSpan \startTrillSpan gqf'
                     }
-                    c'8 \repeatTie
-                    c'4. \repeatTie
+                    fqs'8 \repeatTie
+                    fqs'4. \repeatTie
                     \times 4/5 {
-                        c'8. \repeatTie [
-                        c'8 ]
+                        fqs'8. \repeatTie [
+                        \pitchedTrill
+                        f'8 ] \stopTrillSpan \startTrillSpan gf'
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    c'8 \repeatTie
-                    c'4. \repeatTie
+                    f'8 \repeatTie
+                    f'4. \repeatTie
                     \times 4/5 {
-                        c'4 \repeatTie
-                        c'16
+                        f'4 \repeatTie
+                        \pitchedTrill
+                        fqs'16 \stopTrillSpan \startTrillSpan gqf'
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
+                    fqs'4 \repeatTie
+                    fqs'4 \repeatTie
                     \times 4/5 {
-                        c'16 \repeatTie
+                        fqs'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'4
+                        \pitchedTrill
+                        f'4 \stopTrillSpan \startTrillSpan gf'
                     }
-                    c'4 \repeatTie
-                    c'4 \repeatTie
+                    f'4 \repeatTie
+                    f'4 \repeatTie
                     \times 4/5 {
-                        c'16 \repeatTie
+                        f'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'4
+                        \pitchedTrill
+                        e'4 \stopTrillSpan \startTrillSpan f'
                     }
-                    c'4. \repeatTie
-                    c'8 \repeatTie
+                    e'4. \repeatTie
+                    e'8 \repeatTie
                     \times 4/5 {
-                        c'8 \repeatTie [
+                        e'8 \repeatTie [
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'8. ]
+                        \pitchedTrill
+                        eqs'8. ] \stopTrillSpan \startTrillSpan fqs'
                     }
-                    c'2 \repeatTie
+                    eqs'2 \repeatTie
                     \times 4/5 {
-                        c'8. \repeatTie [
-                        c'8 ]
+                        eqs'8. \repeatTie [
+                        \pitchedTrill
+                        e'8 ] \stopTrillSpan \startTrillSpan f'
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
+                    e'4 \repeatTie
+                    e'4 \repeatTie
                     \times 4/5 {
-                        c'4 \repeatTie
-                        c'16
+                        e'4 \repeatTie
+                        \pitchedTrill
+                        eqs'16 \stopTrillSpan \startTrillSpan fqs'
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
+                    eqs'4 \repeatTie
+                    eqs'4 \repeatTie
                     \times 4/5 {
-                        c'16 \repeatTie
+                        eqs'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'4
+                        \pitchedTrill
+                        f'4 \stopTrillSpan \startTrillSpan gf'
                     }
-                    c'4 \repeatTie
+                    f'4 \repeatTie \stopTrillSpan
                 }
             }
             \tag strings.viola
@@ -2495,56 +2539,69 @@
                     b'1 \repeatTie \p \glissando
                     \once \override NoteHead #'style = #'harmonic
                     aqs'4 \p \glissando
-                    c'2.
+                    \pitchedTrill
+                    f'2. \ppp \startTrillSpan
+                        ^ \markup {
+                            \larger
+                                \italic
+                                    "molto flautando ed estr. sul pont."
+                            } gf'
                     \times 4/5 {
-                        c'16 \repeatTie
+                        f'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'4
+                        \pitchedTrill
+                        fs'4 \stopTrillSpan \startTrillSpan g'
                     }
-                    c'4 \repeatTie
-                    c'4. \repeatTie
-                    c'8 \repeatTie
+                    fs'4 \repeatTie
+                    fs'4. \repeatTie
+                    fs'8 \repeatTie
                     \times 4/5 {
-                        c'8 \repeatTie [
+                        fs'8 \repeatTie [
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'8. ]
+                        \pitchedTrill
+                        fqs'8. ] \stopTrillSpan \startTrillSpan gqf'
                     }
-                    c'2. \repeatTie
+                    fqs'2. \repeatTie
                     \times 4/5 {
-                        c'8. \repeatTie [
-                        c'8 ]
+                        fqs'8. \repeatTie [
+                        \pitchedTrill
+                        f'8 ] \stopTrillSpan \startTrillSpan gf'
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    c'4 \repeatTie
-                    c'2 \repeatTie
+                    f'4 \repeatTie
+                    f'2 \repeatTie
                     \times 4/5 {
-                        c'4 \repeatTie
-                        c'16
+                        f'4 \repeatTie
+                        \pitchedTrill
+                        fqs'16 \stopTrillSpan \startTrillSpan gqf'
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    c'2 \repeatTie
-                    c'4 \repeatTie
+                    fqs'2 \repeatTie
+                    fqs'4 \repeatTie
                     \times 4/5 {
-                        c'16 \repeatTie
+                        fqs'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'4
+                        \pitchedTrill
+                        f'4 \stopTrillSpan \startTrillSpan gf'
                     }
-                    c'4 \repeatTie
-                    c'2 \repeatTie
+                    f'4 \repeatTie
+                    f'2 \repeatTie
                     \times 4/5 {
-                        c'16 \repeatTie
+                        f'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'4
+                        \pitchedTrill
+                        e'4 \stopTrillSpan \startTrillSpan f'
                     }
-                    c'4 \repeatTie
-                    c'4. \repeatTie
-                    c'8 \repeatTie
+                    e'4 \repeatTie
+                    e'4. \repeatTie
+                    e'8 \repeatTie
                     \times 4/5 {
-                        c'8 \repeatTie [
+                        e'8 \repeatTie [
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'8. ]
+                        \pitchedTrill
+                        eqs'8. ] \stopTrillSpan \startTrillSpan fqs'
                     }
-                    c'2. \repeatTie
+                    eqs'2. \repeatTie \stopTrillSpan
                 }
             }
             \tag strings.cello
@@ -2712,50 +2769,62 @@
                     b2. \repeatTie
                     \once \override NoteHead #'style = #'harmonic
                     b2 \repeatTie \p \glissando
-                    c'2.
-                    c'4 \repeatTie
+                    \pitchedTrill
+                    f'2. \ppp \startTrillSpan
+                        ^ \markup {
+                            \larger
+                                \italic
+                                    "molto flautando ed estr. sul pont."
+                            } gf'
+                    f'4 \repeatTie
                     \times 4/5 {
-                        c'16 \repeatTie
+                        f'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'4
+                        \pitchedTrill
+                        fs'4 \stopTrillSpan \startTrillSpan g'
                     }
-                    c'2. \repeatTie
-                    c'4 \repeatTie
+                    fs'2. \repeatTie
+                    fs'4 \repeatTie
                     \times 4/5 {
-                        c'8 \repeatTie [
+                        fs'8 \repeatTie [
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'8. ]
+                        \pitchedTrill
+                        fqs'8. ] \stopTrillSpan \startTrillSpan gqf'
                     }
-                    c'4 \repeatTie
-                    c'2 \repeatTie
-                    c'4 \repeatTie
+                    fqs'4 \repeatTie
+                    fqs'2 \repeatTie
+                    fqs'4 \repeatTie
                     \times 4/5 {
-                        c'8. \repeatTie [
-                        c'8 ]
+                        fqs'8. \repeatTie [
+                        \pitchedTrill
+                        f'8 ] \stopTrillSpan \startTrillSpan gf'
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    c'2. \repeatTie
-                    c'4 \repeatTie
+                    f'2. \repeatTie
+                    f'4 \repeatTie
                     \times 4/5 {
-                        c'4 \repeatTie
-                        c'16
+                        f'4 \repeatTie
+                        \pitchedTrill
+                        fqs'16 \stopTrillSpan \startTrillSpan gqf'
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    c'4 \repeatTie
-                    c'2. \repeatTie
+                    fqs'4 \repeatTie
+                    fqs'2. \repeatTie
                     \times 4/5 {
-                        c'16 \repeatTie
+                        fqs'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'4
+                        \pitchedTrill
+                        f'4 \stopTrillSpan \startTrillSpan gf'
                     }
-                    c'2. \repeatTie
-                    c'4 \repeatTie
+                    f'2. \repeatTie
+                    f'4 \repeatTie
                     \times 4/5 {
-                        c'16 \repeatTie
+                        f'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'4
+                        \pitchedTrill
+                        e'4 \stopTrillSpan \startTrillSpan f'
                     }
-                    c'4 \repeatTie
+                    e'4 \repeatTie \stopTrillSpan
                 }
             }
             \tag strings.contrabass
