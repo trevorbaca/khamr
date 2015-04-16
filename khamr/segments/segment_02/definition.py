@@ -606,7 +606,6 @@ segment_maker.make_music_handler(
 segment_maker.make_music_handler(
     scope=(cl, (1, 3)),
     specifiers=[
-        #Dynamic('ppp'),
         pitch_specifier(
             source='G2',
             ),
@@ -628,7 +627,6 @@ segment_maker.make_music_handler(
 segment_maker.make_music_handler(
     scope=(sax, (1, 2)),
     specifiers=[
-        #Dynamic('pp'),
         pitch_specifier(
             source=[pitchtools.PitchSegment(
                 items=[NamedPitch('F3'), NamedPitch('G+3')], 
