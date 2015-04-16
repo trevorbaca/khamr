@@ -92,6 +92,9 @@ accents = handlertools.ReiteratedArticulationHandler(
     articulation_list=['>'],
     )
 
+string = 'air tone (without reed)'
+air_tone_without_reed = Markup(string, direction=Up).larger()
+
 arco = Markup('arco', direction=Up).larger()
 
 attackless = Markup('attackless', direction=Up).larger()
@@ -147,6 +150,14 @@ leggierissimo_off_string = Markup(string, direction=Up).italic().larger()
 
 def levine_multiphonic(number):
     string = 'L.{}'
+    string = string.format(number)
+    markup = Markup(string, direction=Up)
+    markup = markup.box().override(('box-padding', 0.75))
+    markup = markup.larger()
+    return markup
+
+def weiss_multiphonic(number):
+    string = 'W.{}'
     string = string.format(number)
     markup = Markup(string, direction=Up)
     markup = markup.box().override(('box-padding', 0.75))
@@ -213,6 +224,12 @@ reiterated_pp = handlertools.ReiteratedDynamicHandler(
     )
 
 remove_reed = Markup('remove reed', direction=Up).larger()
+
+repeat_tie_up = handlertools.OverrideHandler(
+    grob_name='repeat_tie',
+    attribute_name='direction',
+    attribute_value='Up',
+    )
 
 senza_pedale = Markup('senza pedale', direction=Up)
 senza_pedale = senza_pedale.italic()
@@ -417,21 +434,29 @@ pervasive_F3_harmonic_trills = baca.makers.TrillSpecifier(
 alternate_bow_strokes = handlertools.PatternedArticulationsHandler(
     articulation_lists=(['upbow', 'accent'], ['downbow', 'accent']),
     )
+
 marcati = handlertools.ReiteratedArticulationHandler(
     articulation_list=['marcato'],
     skip_ties=True,
     )
+
 staccati = handlertools.ReiteratedArticulationHandler(
     articulation_list=['staccato'],
     maximum_duration=Duration(1, 4),
     skip_ties=True,
     )
+
 staccatissimi = handlertools.ReiteratedArticulationHandler(
     articulation_list=['staccatissimo'],
     skip_ties=True,
     )
+
 tenuti = handlertools.ReiteratedArticulationHandler(
     articulation_list=['tenuto'],
+    )
+
+reiterated_flageolets = handlertools.ReiteratedArticulationHandler(
+    articulation_list=['flageolet'],
     )
     
 ### DYNAMICS ###
@@ -474,6 +499,8 @@ bass_flute_tremoli_hairpins = handlertools.NoteAndChordHairpinHandler(
 
 ### MISCELLANEOUS ###
 
+five_line_staff = spannertools.StaffLinesSpanner(lines=5)
+
 def label_logical_ties(start_index=0):
     return baca.makers.LabelSpecifier(
         label_logical_ties=True,
@@ -492,3 +519,9 @@ partition_table = rhythmmakertools.PartitionTable([
     (9, [3, 3, 3]),
     (11, [3, 4, 4]),
     ])
+
+single_line_staff = spannertools.StaffLinesSpanner(lines=1)
+
+put_reed_back_in = Markup('put reed back in', direction=Up).larger()
+
+flageolet = indicatortools.LilyPondCommand('flageolet', format_slot='right')

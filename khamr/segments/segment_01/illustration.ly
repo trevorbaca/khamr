@@ -1,4 +1,4 @@
-% 2015-04-15 19:28
+% 2015-04-15 22:55
 
 \version "2.19.17"
 \language "english"
@@ -435,6 +435,10 @@
             \context OboeMusicStaff = "Oboe Music Staff" {
                 \clef "treble"
                 \context OboeMusicVoice = "Oboe Music Voice" {
+                    \once \override RepeatTie #'direction = #up
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -453,74 +457,141 @@
                                     hn.
                                 }
                         }
-                    g'2
-                    g'2 \repeatTie
-                    g'1. \repeatTie
-                    g'2. \repeatTie
-                    g'8 \repeatTie
+                    b'2 \p
+                        ^ \markup {
+                            \larger
+                                "air tone (without reed)"
+                            }
+                    \once \override RepeatTie #'direction = #up
+                    b'2 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'1. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'2. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'8 \repeatTie
+                    \once \override RepeatTie #'direction = #up
                     r2..
+                    \once \override RepeatTie #'direction = #up
                     r2.
+                    \once \override RepeatTie #'direction = #up
                     r4
-                    g'2.
-                    g'2. \repeatTie
-                    g'2 \repeatTie
-                    g'4. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'2.
+                    \once \override RepeatTie #'direction = #up
+                    b'2. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'2 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'4. \repeatTie
+                    \once \override RepeatTie #'direction = #up
                     r8
-                    g'2
-                    g'2. \repeatTie
-                    g'1 \repeatTie
-                    g'8 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'2
+                    \once \override RepeatTie #'direction = #up
+                    b'2. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'1 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'8 \repeatTie
+                    \once \override RepeatTie #'direction = #up
                     r8
+                    \once \override RepeatTie #'direction = #up
                     r2
+                    \once \override RepeatTie #'direction = #up
                     r2
+                    \once \override RepeatTie #'direction = #up
                     r2.
-                    g'2
-                    g'1. \repeatTie
-                    g'4. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'2
+                    \once \override RepeatTie #'direction = #up
+                    b'1. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'4. \repeatTie
+                    \once \override RepeatTie #'direction = #up
                     r8
-                    g'2.
-                    g'2 \repeatTie
-                    g'2. \repeatTie
-                    g'1 \repeatTie
-                    g'4 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'2.
+                    \once \override RepeatTie #'direction = #up
+                    b'2 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'2. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'1 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'4 \repeatTie
+                    \once \override RepeatTie #'direction = #up
                     r8
+                    \once \override RepeatTie #'direction = #up
                     r2.
+                    \once \override RepeatTie #'direction = #up
                     r4.
+                    \once \override RepeatTie #'direction = #up
                     r2
+                    \once \override RepeatTie #'direction = #up
                     r4
-                    g'4
-                    g'2. \repeatTie
-                    g'1 \repeatTie
-                    g'4. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'4
+                    \once \override RepeatTie #'direction = #up
+                    b'2. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'1 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'4. \repeatTie
+                    \once \override RepeatTie #'direction = #up
                     r8
-                    g'2
-                    g'1. \repeatTie
-                    g'2.. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'2
+                    \once \override RepeatTie #'direction = #up
+                    b'1. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'2.. \repeatTie
+                    \once \override RepeatTie #'direction = #up
                     r8
+                    \once \override RepeatTie #'direction = #up
                     r2.
+                    \once \override RepeatTie #'direction = #up
                     r2.
+                    \once \override RepeatTie #'direction = #up
                     r4
-                    g'2.
-                    g'2. \repeatTie
-                    g'4. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'2.
+                    \once \override RepeatTie #'direction = #up
+                    b'2. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'4. \repeatTie
+                    \once \override RepeatTie #'direction = #up
                     r8
-                    g'2.
-                    g'1 \repeatTie
-                    g'1 \repeatTie
-                    g'8 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'2.
+                    \once \override RepeatTie #'direction = #up
+                    b'1 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'1 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    b'8 \repeatTie
+                    \stopStaff
+                    \startStaff
+                    \once \override RepeatTie #'direction = #up
                     r8
+                    \once \override RepeatTie #'direction = #up
                     r2
+                    \once \override RepeatTie #'direction = #up
                     r2
                     r2.
-                    g'2
-                    g'1. \repeatTie
-                    g'2 \repeatTie
-                    g'4. \repeatTie
+                    <e'' b''>2 -\flageolet \pp
+                        ^ \markup {
+                            \larger
+                                "put reed back in"
+                            }
+                    <e'' b''>1. -\flageolet \repeatTie
+                    <e'' b''>2 -\flageolet \repeatTie
+                    <e'' b''>4. -\flageolet \repeatTie
                     r8
-                    g'2.
-                    g'2. \repeatTie
-                    g'1 \repeatTie
-                    g'4 \repeatTie
+                    <e'' b''>2. -\flageolet
+                    <e'' b''>2. -\flageolet \repeatTie
+                    <e'' b''>1 -\flageolet \repeatTie
+                    <e'' b''>4 -\flageolet \repeatTie
                     r8
                     r2.
                     r4.
@@ -548,83 +619,83 @@
                                     cl.
                                 }
                         }
-                    d''2
-                    d''2 \repeatTie
-                    d''2. \repeatTie
-                    d''4. \repeatTie
-                    d''4 \repeatTie
+                    b2 \ppp
+                    b2 \repeatTie
+                    b2. \repeatTie
+                    b4. \repeatTie
+                    b4 \repeatTie
                     r8
                     r2.
                     r2.
-                    d''4
-                    d''2. \repeatTie
-                    d''1 \repeatTie
-                    d''2 \repeatTie
-                    d''8 \repeatTie
+                    b4
+                    b2. \repeatTie
+                    b1 \repeatTie
+                    b2 \repeatTie
+                    b8 \repeatTie
                     r8
                     r2
                     r1
-                    d''2.
-                    d''1 \repeatTie
-                    d''2 \repeatTie
-                    d''8 \repeatTie
+                    b2.
+                    b1 \repeatTie
+                    b2 \repeatTie
+                    b8 \repeatTie
                     r8
-                    d''2
-                    d''2. \repeatTie
-                    d''2 \repeatTie
-                    d''4. \repeatTie
-                    d''4 \repeatTie
+                    b2
+                    b2. \repeatTie
+                    b2 \repeatTie
+                    b4. \repeatTie
+                    b4 \repeatTie
                     r8
-                    d''2.
-                    d''2 \repeatTie
-                    d''2.. \repeatTie
+                    b2.
+                    b2 \repeatTie
+                    b2.. \repeatTie
                     r4.
                     r2.
                     r2.
-                    d''4
-                    d''1. \repeatTie
-                    d''2 \repeatTie
-                    d''2 \repeatTie
-                    d''8 \repeatTie
+                    b4
+                    b1. \repeatTie
+                    b2 \repeatTie
+                    b2 \repeatTie
+                    b8 \repeatTie
                     r8
                     r2
                     r1
-                    d''2
-                    d''2 \repeatTie
-                    d''1. \repeatTie
-                    d''4. \repeatTie
+                    b2
+                    b2 \repeatTie
+                    b1. \repeatTie
+                    b4. \repeatTie
                     r8
-                    d''2
-                    d''2. \repeatTie
-                    d''2. \repeatTie
-                    d''8 \repeatTie
+                    b2
+                    b2. \repeatTie
+                    b2. \repeatTie
+                    b8 \repeatTie
                     r8
-                    d''2.
-                    d''2. \repeatTie
-                    d''4. \repeatTie
+                    b2.
+                    b2. \repeatTie
+                    b4. \repeatTie
                     r8
                     r2.
                     r2.
-                    d''4
-                    d''1 \repeatTie
-                    d''2. \repeatTie
-                    d''4. \repeatTie
+                    b4
+                    b1 \repeatTie
+                    b2. \repeatTie
+                    b4. \repeatTie
                     r8
                     r2.
                     r2
                     r2.
-                    d''2.
-                    d''2 \repeatTie
-                    d''2. \repeatTie
-                    d''2 \repeatTie
-                    d''4 \repeatTie
+                    b2.
+                    b2 \repeatTie
+                    b2. \repeatTie
+                    b2 \repeatTie
+                    b4 \repeatTie
                     r8
-                    d''4.
-                    d''1 \repeatTie
-                    d''2. \repeatTie
-                    d''4 \repeatTie
+                    b4.
+                    b1 \repeatTie
+                    b2. \repeatTie
+                    b4 \repeatTie
                     r8
-                    d''4
+                    b4
                     r8
                 }
             }
@@ -650,75 +721,82 @@
                                     sax.
                                 }
                         }
-                    a''2
-                    a''2 \repeatTie
-                    a''1. \repeatTie
-                    a''2. \repeatTie
-                    a''2 \repeatTie
-                    a''8 \repeatTie
+                    e''2 \ppp
+                    e''2 \repeatTie
+                    e''1. \repeatTie
+                    e''2. \repeatTie
+                    e''2 \repeatTie
+                    e''8 \repeatTie
                     r4.
                     r2.
                     r2.
-                    a''4
-                    a''2. \repeatTie
-                    a''2 \repeatTie
-                    a''2.. \repeatTie
+                    e''4
+                    e''2. \repeatTie
+                    e''2 \repeatTie
+                    e''2.. \repeatTie
                     r8
                     r2.
                     r2.
-                    a''4
-                    a''2. \repeatTie
-                    a''2 \repeatTie
-                    a''2. \repeatTie
-                    a''4. \repeatTie
+                    e''4
+                    e''2. \repeatTie
+                    e''2 \repeatTie
+                    e''2. \repeatTie
+                    e''4. \repeatTie
                     r8
-                    a''1.
-                    a''2 \repeatTie
-                    a''4. \repeatTie
+                    e''1.
+                    e''2 \repeatTie
+                    e''4. \repeatTie
                     r8
-                    a''2.
-                    a''2. \repeatTie
-                    a''1 \repeatTie
-                    a''1. \repeatTie
-                    a''8 \repeatTie
+                    e''2.
+                    e''2. \repeatTie
+                    e''1 \repeatTie
+                    e''1. \repeatTie
+                    e''8 \repeatTie
                     r4.
                     r2
                     r2.
-                    a''1
-                    a''2 \repeatTie
-                    a''2 \repeatTie
-                    a''4. \repeatTie
-                    a''4 \repeatTie
+                    e''1
+                    e''2 \repeatTie
+                    e''2 \repeatTie
+                    e''4. \repeatTie
+                    e''4 \repeatTie
                     r8
                     r2.
                     r1
-                    a''2.
-                    a''2. \repeatTie
-                    a''1 \repeatTie
-                    a''8 \repeatTie
+                    e''2.
+                    e''2. \repeatTie
+                    e''1 \repeatTie
+                    e''8 \repeatTie
                     r8
-                    a''1
-                    a''2. \repeatTie
-                    a''8 \repeatTie
+                    e''1
+                    e''2. \repeatTie
+                    e''8 \repeatTie
                     r8
-                    a''2.
-                    a''1 \repeatTie
-                    a''2. \repeatTie
-                    a''2 \repeatTie
-                    a''4. \repeatTie
-                    a''4 \repeatTie
+                    e''2.
+                    e''1 \repeatTie
+                    e''2. \repeatTie
+                    e''2 \repeatTie
+                    e''4. \repeatTie
+                    e''4 \repeatTie
                     r8
                     r2
                     r1.
-                    a''2
-                    a''2. \repeatTie
-                    a''2 \repeatTie
-                    a''2. \repeatTie
-                    a''8 \repeatTie
+                    <d'' eqs''>2 \pp
+                        ^ \markup {
+                            \larger
+                                \override
+                                    #'(box-padding . 0.75)
+                                    \box
+                                        W.77
+                            }
+                    <d'' eqs''>2. \repeatTie
+                    <d'' eqs''>2 \repeatTie
+                    <d'' eqs''>2. \repeatTie
+                    <d'' eqs''>8 \repeatTie
                     r2..
                     r2.
                     r4.
-                    a''4
+                    <d'' eqs''>4
                     r8
                 }
             }
@@ -1607,60 +1685,136 @@
                     Perc.
                 }
                 \context PercussionMusicVoice = "Percussion Music Voice" {
-                    c'2
-                    c'2 \repeatTie
-                    c'1. \repeatTie
-                    c'2. \repeatTie
-                    c'1 \repeatTie
-                    c'2. \repeatTie
-                    c'2. \repeatTie
-                    c'4
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'2 \repeatTie
-                    c'2
-                    c'2. \repeatTie
-                    c'1 \repeatTie
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'2. \repeatTie
-                    c'2.
-                    c'2 \repeatTie
-                    c'2.
-                    c'2 \repeatTie
-                    c'2. \repeatTie
-                    c'1 \repeatTie
-                    c'1. \repeatTie
-                    c'2 \repeatTie
-                    c'2 \repeatTie
-                    c'4 \repeatTie
-                    c'2
-                    c'1 \repeatTie
-                    c'2 \repeatTie
-                    c'2
-                    c'1. \repeatTie
-                    c'1 \repeatTie
-                    c'2. \repeatTie
-                    c'2. \repeatTie
-                    c'1 \repeatTie
-                    c'4 \repeatTie
-                    c'1
-                    c'2.
-                    c'1 \repeatTie
-                    c'1 \repeatTie
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'1.
-                    c'2 \repeatTie
-                    c'2 \repeatTie
-                    c'2.
-                    c'2. \repeatTie
-                    c'1 \repeatTie
-                    c'1. \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2 \p
+                    \once \override Stem #'direction = #down
+                    f2 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f1. \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2. \repeatTie
+                    \once \override Stem #'direction = #down
+                    f1 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2. \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2. \repeatTie
+                    \once \override Stem #'direction = #down
+                    f4
+                    \once \override Stem #'direction = #down
+                    f2. \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2
+                    \once \override Stem #'direction = #down
+                    f2. \repeatTie
+                    \once \override Stem #'direction = #down
+                    f1 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2. \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2. \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2. \repeatTie
+                    \once \override Stem #'direction = #down
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''2. \sfz
+                        ^ \markup {
+                            \larger
+                                "marimba + woodblock"
+                            }
+                    \once \override Stem #'direction = #down
+                    af''2 \repeatTie
+                    \stopStaff
+                    \startStaff
+                    \once \override Stem #'direction = #down
+                    \clef "percussion"
+                    f2.
+                    \once \override Stem #'direction = #down
+                    f2 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2. \repeatTie
+                    \once \override Stem #'direction = #down
+                    f1 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f1. \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f4 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2
+                    \once \override Stem #'direction = #down
+                    f1 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2
+                    \once \override Stem #'direction = #down
+                    f1. \repeatTie
+                    \once \override Stem #'direction = #down
+                    f1 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2. \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2. \repeatTie
+                    \once \override Stem #'direction = #down
+                    f1 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f4 \repeatTie
+                    \once \override Stem #'direction = #down
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''1 \sfz
+                        ^ \markup {
+                            \larger
+                                "marimba + woodblock"
+                            }
+                    \stopStaff
+                    \startStaff
+                    \once \override Stem #'direction = #down
+                    \clef "percussion"
+                    f2.
+                    \once \override Stem #'direction = #down
+                    f1 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f1 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2. \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2. \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f1.
+                    \once \override Stem #'direction = #down
+                    f2 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2.
+                    \once \override Stem #'direction = #down
+                    f2. \repeatTie
+                    \once \override Stem #'direction = #down
+                    f1 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f1. \repeatTie
                 }
             }
         >>

@@ -160,7 +160,7 @@
         \accepts FluteMusicVoice
         instrumentName = \fluteName
         shortInstrumentName = \shortFluteName
-        \override DynamicLineSpanner.staff-padding = 6
+        \override DynamicLineSpanner.staff-padding = 4
     }
     \context {
         \Voice
@@ -176,6 +176,7 @@
         \accepts OboeMusicVoice
         instrumentName = \oboeName
         shortInstrumentName = \shortOboeName
+        \override DynamicLineSpanner.staff-padding = 4
     }
     \context {
         \Voice
@@ -191,6 +192,7 @@
         \accepts ClarinetMusicVoice
         instrumentName = \clarinetName
         shortInstrumentName = \shortClarinetName
+        \override DynamicLineSpanner.staff-padding = 4
     }
     \context {
         \Voice
@@ -206,6 +208,7 @@
         \accepts SaxophoneMusicVoice
         instrumentName = \saxophoneName
         shortInstrumentName = \shortSaxophoneName
+        \override DynamicLineSpanner.staff-padding = 4
     }
     \context {
         \StaffGroup

@@ -102,15 +102,13 @@ ORCHESTRATION:
 
     [1]
     (M6 [bass flute quiet multiphonics])
-    (M4 [english horn air tone (w/o reed)])
-    (M4 [bass clarinet acc. to halo: niente < p])
-    (M4 [baritone sax acc. to halo: niente < p])
+    (M5 [english horn air tone (w/o reed)])
+    (M5 [bass clarinet quiet tone])
+    (M5 [baritone sax quiet tone])
     --
     (M4 [guitar pitched tambour doubling of 38" tam-tam acc. to halo])
     (M4 [piano tambour + low note doubling of 38" tam-tam acc. to halo])
-    (M4 [struck 38" tam-tam acc. to halo: mp];
-        M1 [castanets and triangle: very sparse foreshadow of [3];
-        M4 [struck 38" tam-tam acc. to halo: mp])
+    (M4 [struck 38" tam-tam])
     --
     (M4 [violin acc. to halo: niente < p])
     (M4 [viola acc. to halo: niente < p])
@@ -120,20 +118,18 @@ ORCHESTRATION:
     * english horn air tone (w/o reed) mixes inhales and exhales
     * bar. sax. acc. M4 to halo written as subtone
     * string M4 acc. to halo incl. bowing on tail piece
-    * contrabass halo M4 detunes IV to G0
-    * contrabass halo M4 incl. multiphonics
 
 
     [2]
     (M6 [bass flute quiet multiphonics])
-    (M4 [english horn air tone (w/o reed)])
-    (M4 [bass cl. halo acc.] ==> M5 [bass cl. ext. quiet low tone])
-    (M4 [baritone sax halo acc.] ==> M5 [baritone sax ext. quiet low tone])
+    (M5 [english horn air tone (w/o reed)])
+    (M5 [bass clarinet quiet tone])
+    (M5 [baritone sax quiet tone])
     --
 ++++(M4 [guitar pitched tambour doubling of 38" tam-tam acc. to halo] +
         M8 [guitar pizzicati fantastiques: sparse < denser])
     (M4 [piano tambour + low note doubling of 38" tam-tam acc. to halo])
-    (M4 [struck 38" tam-tam acc. to halo: mp])
+    (M4 [struck 38" tam-tam])
     --
     (M4 [violin acc. to halo])
     (M4 [viola acc. to halo])
@@ -150,21 +146,19 @@ ORCHESTRATION:
     * string M8 pizz. fant. incl. two- and three-note slurred pizz.,
       lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
       nail pizz, dead (muta) pizz, turetzky lifted pizz.
-    * contrabass halo M4 detunes IV to G0
-    * contrabass halo M4 incl. multiphonics
 
 
     [3]
     (M6 [bass flute quiet multiphonics])
-    (M4 [english horn air tone (w/o reed)])
-    (M5 [bass clarinet extremely quiet low tone])
-    (M5 [baritone sax extremely quiet low tone])
+    (M5 [english horn air tone (w/o reed)])
+    (M5 [bass clarinet quiet tone])
+    (M5 [baritone sax quiet tone])
     --
     (M4 [guitar pitched tambour doubling of 38" tam-tam acc. to halo] +
         M8 [guitar pizzicati fantastiques: increasing])
     (M4 [piano tambour + low note doubling of 38" tam-tam])
     (M16 [groaned bass drum initiation to string tremolo descent];
-        M4 [struck 38" tam-tam acc. to halo: mp])
+        M4 [struck 38" tam-tam])
     --
 ++++(M16 [violin extremely long string tremolo descent: start])
     (M4 [viola acc. to halo])
@@ -181,15 +175,13 @@ ORCHESTRATION:
     * string M8 pizz. fant. include two- and three-note slurred pizz.,
       lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
       nail pizz, dead (muta) pizz, turetzky lifted pizz.
-    * contrabass halo M4 detunes IV to G0
-    * contrabass halo M4 incl. multiphonics
 
 
     [4]
     (M6 [bass flute quiet multiphonics])
-    (M4 [english horn air tone (w/o reed)])
-    (M5 [bass clarinet extremely quiet low tone])
-    (M5 [baritone sax extremely quiet low tone])
+    (M5 [english horn air tone (w/o reed)])
+    (M5 [bass clarinet quiet tone])
+    (M5 [baritone sax quiet tone])
     --
     (M4 [guitar pitched tambour doubling of 38" tam-tam acc. to halo] +
         M8 [guitar pizzicati fantastiques: climax])
@@ -213,16 +205,13 @@ ORCHESTRATION:
     * string M8 pizz. fant. include two- and three-note slurred pizz.,
       lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
       nail pizz, dead (muta) pizz, turetzky lifted pizz.
-    * contrabass halo M4 detunes IV to G0
-    * contrabass halo M4 incl. multiphonics
 
 
     [5]
     (M6 [bass flute quiet multphonics])
-    (M4 [english horn air tone (w/o reed)])
-        niente ==> M6 [english horn quiet double harmonics])
-    (M5+M6 [bass cl. quiet mult. + pure tone] ==> M6 [quiet mult.])
-    (M5+M6 [baritone sax. quiet mult. + pure tone] ==> M6 [quiet mult.])
+    (M5 [english horn air tone (w/o reed)])
+    (M5 [bass clarinet quiet tone])
+    (M5 [baritone sax quiet tone])
     --
     (M4 [guitar pitched tambour doubling of 38" tam-tam acc. to halo] +
         M8 [guitar pizzicati fantastiques: climax])
@@ -252,15 +241,13 @@ ORCHESTRATION:
     * string M8 pizz. fant. include two- and three-note slurred pizz.,
       lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
       nail pizz, dead (muta) pizz, turetzky lifted pizz.
-    * contrabass halo M4 detunes IV to G0
-    * contrabass halo M4 incl. multiphonics
 
 
     [6]
     (M10 [bass flute tremoli fantastiques])
     (M6 [english horn quiet double harmonics]) 
-    (M6 [bass clarinet quiet multiphonic complexes])
-    (M6 [baritone saxophone quiet multiphonic complexes])
+    (M6 [bass clarinet quiet multiphonics])
+    (M6 [baritone saxophone quiet multiphonics])
     --
     (M4 [guitar pitched tambour doubling of 38" tam-tam acc. to halo] +
         M8 [guitar pizzicati fantastiques: denoument])
@@ -288,15 +275,13 @@ ORCHESTRATION:
     * string M8 pizz. fant. include two- and three-note slurred pizz.,
       lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
       nail pizz, dead (muta) pizz, turetzky lifted pizz.
-    * contrabass halo M4 detunes IV to G0
-    * contrabass halo M4 incl. multiphonics
 
 
     [7]
     (M10 [bass flute tremoli fantastiques])
     (M6 [english horn quiet double harmonics])
-    (M6 [bass clarinet quiet multiphonic complexes])
-    (M6 [baritone saxophone quiet multiphonic complexes])
+    (M6 [bass clarinet quiet multiphonics])
+    (M6 [baritone saxophone quiet multiphonics])
     --
     (M4 [guitar pitched tambour doubling of 38" tam-tam acc. to halo] +
         M8 [guitar pizzicati fantastiques: denoument])
@@ -323,5 +308,3 @@ ORCHESTRATION:
     * string M8 pizz. fant. include two- and three-note slurred pizz.,
       lh hammer-on + rh pizz., harmonic pizz, half-harmonic (effleure) pizz, 
       nail pizz, dead (muta) pizz, turetzky lifted pizz.
-    * contrabass halo M4 detunes IV to G0
-    * contrabass halo M4 incl. multiphonics
