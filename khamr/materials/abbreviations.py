@@ -142,7 +142,15 @@ fifth_harmonic_of_F1 = fifth_harmonic_of_F1.larger()
 
 fret_guiro = Markup('fret guiro', direction=Up).larger()
 
+string = r'draw metal screw back and forth across string:'
+string += ' continuous loud sound'
+guitar_with_screw = Markup(string, direction=Up).line().larger()
+
 gridato_possibile = Markup('gridato possibile', direction=Up).italic().larger()
+
+string = r'sparse, individual clicks with nail or pick up string'
+string += ' (1-2/sec. in irregular rhythm)'
+sparse_guitar_clicks = Markup(string, direction=Up).line().larger()
 
 string = r'sparse, individual clicks with credit card'
 string += r' on C \hspace #-0.5 \raise #1 \sharp \hspace #-0.5 1 string'

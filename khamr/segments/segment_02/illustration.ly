@@ -1,4 +1,4 @@
-% 2015-04-16 12:20
+% 2015-04-16 12:45
 
 \version "2.19.17"
 \language "english"
@@ -573,59 +573,91 @@
                 }
                 \context GuitarMusicVoice = "Guitar Music Voice" {
                     \times 2/3 {
+                        \once \override NoteHead #'style = #'cross
                         r8
-                        c''8
+                        \once \override NoteHead #'style = #'cross
+                        d''8
+                        \once \override NoteHead #'style = #'cross
                         r8
                     }
+                    \once \override NoteHead #'style = #'cross
                     r4
+                    \once \override NoteHead #'style = #'cross
                     r4
+                    \once \override NoteHead #'style = #'cross
                     r4
                     \times 2/3 {
+                        \once \override NoteHead #'style = #'cross
                         r8
-                        c''4
+                        \once \override NoteHead #'style = #'cross
+                        fs''4
                     }
+                    \once \override NoteHead #'style = #'cross
                     r4
+                    \once \override NoteHead #'style = #'cross
                     r4
+                    \once \override NoteHead #'style = #'cross
                     r4
+                    \once \override NoteHead #'style = #'cross
                     r4
                     \times 2/3 {
+                        \once \override NoteHead #'style = #'cross
                         r8
-                        c''8
+                        \once \override NoteHead #'style = #'cross
+                        g''8
+                        \once \override NoteHead #'style = #'cross
                         r8
                     }
+                    \once \override NoteHead #'style = #'cross
                     r4
+                    \once \override NoteHead #'style = #'cross
                     r4
+                    \once \override NoteHead #'style = #'cross
                     r4
-                    c''1
-                    c''2. \repeatTie
-                    c''1 \repeatTie
-                    c''2. \repeatTie
-                    c''2 \repeatTie
-                    c''1 \repeatTie
-                    c''2. \repeatTie
-                    c''1 \repeatTie
-                    c''2. \repeatTie
-                    c''2 \repeatTie
-                    c''2. \repeatTie
+                    fs'1 \mf
+                        ^ \markup {
+                            \larger
+                                \line
+                                    {
+                                        "sparse, individual clicks with nail or pick up string (1-2/sec. in irregular rhythm)"
+                                    }
+                            }
+                    fs'2. \repeatTie
+                    fs'1 \repeatTie
+                    fs'2. \repeatTie
+                    fs'2 \repeatTie
+                    fs'1 \repeatTie
+                    fs'2. \repeatTie
+                    fs'1 \repeatTie
+                    fs'2. \repeatTie
+                    fs'2 \repeatTie
+                    fs'2. \repeatTie
                     r2
-                    c''1. :32
-                    c''2 :32 \repeatTie
-                    c''2. :32 \repeatTie
-                    c''2 :32 \repeatTie
-                    c''2. :32 \repeatTie
+                    c''1. \ff
+                        ^ \markup {
+                            \larger
+                                \line
+                                    {
+                                        "draw metal screw back and forth across string: continuous loud sound"
+                                    }
+                            }
+                    c''2 \repeatTie
+                    c''2. \repeatTie
+                    c''2 \repeatTie
+                    c''2. \repeatTie
                     r1
                     r1.
                     r4
-                    c''4 :32
-                    c''2 :32 \repeatTie
-                    c''2. :32 \repeatTie
-                    c''1 :32 \repeatTie
-                    c''2 :32 \repeatTie
-                    c''2 :32 \repeatTie
-                    c''1. :32 \repeatTie
-                    c''1 :32 \repeatTie
-                    c''2. :32 \repeatTie
-                    c''2. :32 \repeatTie
+                    c''4
+                    c''2 \repeatTie
+                    c''2. \repeatTie
+                    c''1 \repeatTie
+                    c''2 \repeatTie
+                    c''2 \repeatTie
+                    c''1. \repeatTie
+                    c''1 \repeatTie
+                    c''2. \repeatTie
+                    c''2. \repeatTie
                 }
             }
             \tag percussion.piano
@@ -642,130 +674,116 @@
                     Pf.
                 }
                 \context PianoMusicVoice = "Piano Music Voice" {
-                    c'2
-                        ^ \markup {
-                            \larger
-                                \line
-                                    {
-                                        sparse,
-                                        individual
-                                        clicks
-                                        with
-                                        credit
-                                        card
-                                        on
-                                        C
-                                        \hspace
-                                            #-0.5
-                                        \raise
-                                            #1
-                                            \sharp
-                                        \hspace
-                                            #-0.5
-                                        1
-                                        string
-                                        (1-2/sec.
-                                        in
-                                        irregular
-                                        rhythm)
-                                    }
-                            }
-                    c'2 \repeatTie
-                    c'1. \repeatTie
-                    c'2. \repeatTie
-                    c'1 \repeatTie
-                    c'2. \repeatTie
-                    c'1 \repeatTie
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'1 \repeatTie
-                    c'2. \repeatTie
-                    c'1 \repeatTie
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'2. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    d2
+                    d2 \repeatTie
+                    d1. \repeatTie
+                    d2. \repeatTie
+                    d1 \repeatTie
+                    d2. \repeatTie
+                    d1 \repeatTie
+                    d2. \repeatTie
+                    d2 \repeatTie
+                    d1 \repeatTie
+                    d2. \repeatTie
+                    d1 \repeatTie
+                    d2. \repeatTie
+                    d2 \repeatTie
+                    d2. \repeatTie
+                    \stopStaff
+                    \startStaff
                     r2
-                    c'1.
-                    c'2 \repeatTie
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'2. \repeatTie
+                    \ottava #-1
+                    \clef "bass"
+                    <a,,, b,,, c,, d,, e,, f,, g,, a,,>1. :32 \fff
+                    <a,,, b,,, c,, d,, e,, f,, g,, a,,>2 :32 \repeatTie
+                    <a,,, b,,, c,, d,, e,, f,, g,, a,,>2. :32 \repeatTie
+                    <a,,, b,,, c,, d,, e,, f,, g,, a,,>2 :32 \repeatTie
+                    <a,,, b,,, c,, d,, e,, f,, g,, a,,>2. :32 \repeatTie
+                    \ottava #0
                     r1
                     r1.
                     r4
                     \times 2/3 {
-                        c'8 [
-                        c'8
-                        c'8 ]
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
+                        b'''8 -\marcato \ffff [
+                        c''''8 -\marcato
+                        ef''''8 -\marcato ]
                     }
                     r4
                     {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16 ]
+                        bf'''16 -\marcato [
+                        fs'''16 -\marcato
+                        f''''16 -\marcato
+                        d''''16 -\marcato ]
                     }
                     r4
                     r4
                     {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16 ]
+                        bf'''16 -\marcato [
+                        a'''16 -\marcato
+                        b'''16 -\marcato
+                        cs''''16 -\marcato ]
                     }
                     r4
                     r4
                     r4
                     \times 2/3 {
-                        c'8 [
-                        c'8
-                        c'8 ]
+                        ef''''8 -\marcato [
+                        d''''8 -\marcato
+                        e''''8 -\marcato ]
                     }
                     r4
                     {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16 ]
+                        af'''16 -\marcato [
+                        g'''16 -\marcato
+                        bf'''16 -\marcato
+                        fs'''16 -\marcato ]
                     }
                     r4
                     \times 4/5 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        f''''16 -\marcato [
+                        d''''16 -\marcato
+                        ef''''16 -\marcato
+                        a'''16 -\marcato
+                        b'''16 -\marcato ]
                     }
                     r4.
                     r4.
                     r4.
                     {
-                        c'16. [
-                        c'16.
-                        c'16.
-                        c'16. ]
+                        cs''''16. -\marcato [
+                        g'''16. -\marcato
+                        d''''16. -\marcato
+                        e''''16. -\marcato ]
                     }
                     r4
                     r4
                     r4
                     \times 2/3 {
-                        c'8 [
-                        c'8
-                        c'8 ]
+                        af'''8 -\marcato [
+                        bf'''8 -\marcato
+                        b'''8 -\marcato ]
                     }
                     r4
                     r4
                     \times 2/3 {
-                        c'8 [
-                        c'8
-                        c'8 ]
+                        c''''8 -\marcato [
+                        ef''''8 -\marcato
+                        cs''''8 -\marcato ]
                     }
                     r4.
                     {
-                        c'16. [
-                        c'16.
-                        c'16.
-                        c'16. ]
+                        ef''''16. -\marcato [
+                        a'''16. -\marcato
+                        b'''16. -\marcato
+                        af'''16. -\marcato ]
+                        \stopStaff
+                        \startStaff
                     }
                 }
             }
@@ -783,63 +801,273 @@
                     Perc.
                 }
                 \context PercussionMusicVoice = "Percussion Music Voice" {
-                    c'2
-                    c'2 \repeatTie
-                    c'1. \repeatTie
-                    c'2.
-                    c'1 \repeatTie
-                    c'2. \repeatTie
-                    c'1 \repeatTie
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'2 \repeatTie
-                    c'2
-                    c'2 \repeatTie
-                    r4
-                    r1
-                    r2.
-                    r2
-                    r2.
-                    r2
+                    \once \override Stem #'direction = #down
+                    f2
+                    \once \override Stem #'direction = #down
+                    f2 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f1. \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2.
+                    \once \override Stem #'direction = #down
+                    f1 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2. \repeatTie
+                    \once \override Stem #'direction = #down
+                    f1 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2. \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2 \repeatTie
+                    \once \override Stem #'direction = #down
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''2 \sfz
+                        ^ \markup {
+                            \larger
+                                "marimba + woodblock"
+                            }
+                    \once \override Stem #'direction = #down
+                    af''2 \repeatTie
+                    \stopStaff
+                    \startStaff
+                    \once \override Stem #'direction = #down
+                    \clef "percussion"
+                    f4
+                    \once \override Stem #'direction = #down
+                    f1 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2. \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2 \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2. \repeatTie
+                    \once \override Stem #'direction = #down
+                    f2 \repeatTie
+                    \once \override Stem #'direction = #down
                     r1.
-                    c'4
+                    \once \override Stem #'direction = #down
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4 \sfz
+                        ^ \markup {
+                            \larger
+                                "marimba + woodblock"
+                            }
+                    \stopStaff
+                    \startStaff
+                    \once \override Stem #'direction = #down
+                    \clef "percussion"
                     r4
+                    \once \override Stem #'direction = #down
                     r2.
+                    \once \override Stem #'direction = #down
                     r2
-                    c'4.
+                    \once \override Stem #'direction = #down
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4. \sfz
+                        ^ \markup {
+                            \larger
+                                "marimba + woodblock"
+                            }
+                    \stopStaff
+                    \startStaff
+                    \once \override Stem #'direction = #down
+                    \clef "percussion"
                     r4.
+                    \once \override Stem #'direction = #down
                     r1
-                    c'4.
+                    \once \override Stem #'direction = #down
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4. \sfz
+                        ^ \markup {
+                            \larger
+                                "marimba + woodblock"
+                            }
+                    \stopStaff
+                    \startStaff
+                    \once \override Stem #'direction = #down
+                    \clef "percussion"
                     r2.
+                    \once \override Stem #'direction = #down
                     r4.
+                    \once \override Stem #'direction = #down
                     r4
-                    c'4
+                    \once \override Stem #'direction = #down
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4 \sfz
+                        ^ \markup {
+                            \larger
+                                "marimba + woodblock"
+                            }
+                    \stopStaff
+                    \startStaff
+                    \once \override Stem #'direction = #down
+                    \clef "percussion"
                     r4
-                    c'4
+                    \once \override Stem #'direction = #down
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4 \sfz
+                        ^ \markup {
+                            \larger
+                                "marimba + woodblock"
+                            }
+                    \stopStaff
+                    \startStaff
+                    \once \override Stem #'direction = #down
+                    \clef "percussion"
                     r4
+                    \once \override Stem #'direction = #down
                     r4
-                    c'4
+                    \once \override Stem #'direction = #down
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4 \sfz
+                        ^ \markup {
+                            \larger
+                                "marimba + woodblock"
+                            }
+                    \stopStaff
+                    \startStaff
+                    \once \override Stem #'direction = #down
+                    \clef "percussion"
                     r4
+                    \once \override Stem #'direction = #down
                     r4
+                    \once \override Stem #'direction = #down
                     r4
-                    c'4
+                    \once \override Stem #'direction = #down
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4 \sfz
+                        ^ \markup {
+                            \larger
+                                "marimba + woodblock"
+                            }
+                    \stopStaff
+                    \startStaff
+                    \once \override Stem #'direction = #down
+                    \clef "percussion"
                     r4
-                    c'4
+                    \once \override Stem #'direction = #down
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4 \sfz
+                        ^ \markup {
+                            \larger
+                                "marimba + woodblock"
+                            }
+                    \stopStaff
+                    \startStaff
+                    \once \override Stem #'direction = #down
+                    \clef "percussion"
                     r4
-                    c'4
+                    \once \override Stem #'direction = #down
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4 \sfz
+                        ^ \markup {
+                            \larger
+                                "marimba + woodblock"
+                            }
+                    \stopStaff
+                    \startStaff
+                    \once \override Stem #'direction = #down
+                    \clef "percussion"
                     r4.
+                    \once \override Stem #'direction = #down
                     r4.
+                    \once \override Stem #'direction = #down
                     r4.
-                    c'4.
+                    \once \override Stem #'direction = #down
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4. \sfz
+                        ^ \markup {
+                            \larger
+                                "marimba + woodblock"
+                            }
+                    \stopStaff
+                    \startStaff
+                    \once \override Stem #'direction = #down
+                    \clef "percussion"
                     r4
+                    \once \override Stem #'direction = #down
                     r4
+                    \once \override Stem #'direction = #down
                     r4
-                    c'4
+                    \once \override Stem #'direction = #down
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4 \sfz
+                        ^ \markup {
+                            \larger
+                                "marimba + woodblock"
+                            }
+                    \stopStaff
+                    \startStaff
+                    \once \override Stem #'direction = #down
+                    \clef "percussion"
                     r4
+                    \once \override Stem #'direction = #down
                     r4
-                    c'4
+                    \once \override Stem #'direction = #down
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4 \sfz
+                        ^ \markup {
+                            \larger
+                                "marimba + woodblock"
+                            }
+                    \stopStaff
+                    \startStaff
+                    \once \override Stem #'direction = #down
+                    \clef "percussion"
                     r4.
-                    c'4.
+                    \once \override Stem #'direction = #down
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4. \sfz
+                        ^ \markup {
+                            \larger
+                                "marimba + woodblock"
+                            }
+                    \stopStaff
+                    \startStaff
                 }
             }
         >>

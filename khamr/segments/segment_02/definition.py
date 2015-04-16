@@ -316,6 +316,9 @@ segment_maker.copy_music_maker(
     fl,
     4,
     context_name=pf,
+    rhythm_maker__tie_specifier=rhythmmakertools.TieSpecifier(
+        strip_all_ties=True,
+        ),
     )
 
 segment_maker.make_music_maker(
@@ -344,9 +347,6 @@ segment_maker.make_music_maker(
         ,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        output_masks=[
-            rhythmmakertools.silence_last(1),
-            ],
         tie_specifier=rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
             )
@@ -636,9 +636,32 @@ segment_maker.make_music_handler(
 ### GUITAR ###
 
 segment_maker.make_music_handler(
+    scope=(gt, (1, 1)),
+    specifiers=[
+        pitch_specifier(
+            source=khamr.materials.rose_pitch_classes,
+            start_index=16,
+            ),
+        cross_note_heads,
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(gt, (2, 3)),
+    specifiers=[
+        Dynamic('mf'),
+        pitch_specifier(
+            source='F#3',
+            ),
+        sparse_guitar_clicks,
+        ],
+    )
+
+segment_maker.make_music_handler(
     scope=(gt, (4, 5)),
     specifiers=[
-        stem_tremolo,
+        Dynamic('ff'),
+        guitar_with_screw,
         ],
     )
 
@@ -647,11 +670,78 @@ segment_maker.make_music_handler(
 segment_maker.make_music_handler(
     scope=(pf, (1, 3)),
     specifiers=[
-        sparse_piano_clicks,
+        single_line_staff,
+        pitch_specifier(source='D3'),
+        repeat_tie_up,
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(pf, (4, 4)),
+    specifiers=[
+        Dynamic('fff'),
+        Clef('bass'),
+        pitch_specifier(
+            source=[pitchtools.PitchSegment(
+                items=[
+                    NamedPitch('A0'), 
+                    NamedPitch('B0'),
+                    NamedPitch('C1'),
+                    NamedPitch('D1'),
+                    NamedPitch('E1'),
+                    NamedPitch('F1'),
+                    NamedPitch('G1'),
+                    NamedPitch('A1'),
+                    ], 
+                item_class=NamedPitch,
+                )],
+            ),
+        ottava_bassa,
+        stem_tremolo,
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(pf, (5, 5)),
+    specifiers=[
+        Dynamic('ffff'),
+        single_line_staff,
+        pitch_specifier(
+            source=khamr.materials.rose_pitch_classes,
+            operators=[pitchtools.Inversion()],
+            ),
+        sixth_octave,
+        marcati,
         ],
     )
 
 ### PERCUSSION ###
+
+segment_maker.make_music_handler(
+    scope=(perc, (1, 3)),
+    specifiers=[
+        pitch_specifier(
+            source='F3 F3 Ab5 F3 F3 F3',
+            ),
+        stem_direction(Down),
+        khamr.makers.MarimbaHitSpecifier(
+            indices=[2],
+            ),
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(perc, (4, 5)),
+    specifiers=[
+        pitch_specifier(
+            source='Ab5',
+            ),
+        stem_direction(Down),
+        khamr.makers.MarimbaHitSpecifier(
+            indices=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+            ),
+        ],
+    )
 
 ### VIOLIN ###
 
