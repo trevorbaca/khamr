@@ -265,6 +265,12 @@ reiterated_pp = handlertools.ReiteratedDynamicHandler(
 
 remove_reed = Markup('remove reed', direction=Up).larger()
 
+repeat_tie_down = handlertools.OverrideHandler(
+    grob_name='repeat_tie',
+    attribute_name='direction',
+    attribute_value='Down',
+    )
+
 repeat_tie_up = handlertools.OverrideHandler(
     grob_name='repeat_tie',
     attribute_name='direction',
