@@ -71,28 +71,6 @@ guitar_ritardando = guitar_accelerando.reverse()
 
 ### FLUTE ###
 
-#segment_maker.make_music_maker(
-#    stages=(1, 2),
-#    context_name=fl,
-#    division_maker=makertools.DivisionMaker()
-#        .split_by_durations(
-#            durations=[(2, 4)],
-#            remainder=Right,
-#            )
-#        .flatten()
-#        ,
-#    rewrite_meter=True,
-#    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-#        denominators=[8, 16],
-#        extra_counts_per_division=[3, 4, 5, 8],
-#        output_masks=rhythmmakertools.sustain_every([0, 2, 3], period=5),
-#        tie_specifier=rhythmmakertools.TieSpecifier(
-#            tie_across_divisions=True,
-#            use_messiaen_style_ties=True,
-#            ),            
-#        ),
-#    )
-
 segment_maker.make_music_maker(
     stages=(1, 3),
     context_name=fl,
@@ -118,34 +96,6 @@ segment_maker.make_music_maker(
             ),
         ),
     )
-
-#segment_maker.make_music_maker(
-#    stages=(3, 3),
-#    context_name=fl,
-#    division_maker=makertools.DivisionMaker()
-#        .split_by_durations(
-#            compound_meter_multiplier=Multiplier(3, 2),
-#            durations=[(2, 4)],
-#            )
-#        .flatten()
-#        .fuse_by_counts(
-#            counts=[6, 4, 8],
-#            )
-#        ,
-#    rewrite_meter=True,
-#    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
-#        incise_specifier=rhythmmakertools.InciseSpecifier(
-#            prefix_talea=[-1],
-#            prefix_counts=[1],
-#            suffix_talea=[-1],
-#            suffix_counts=[0],
-#            talea_denominator=8,
-#            ),
-#        tie_specifier=rhythmmakertools.TieSpecifier(
-#            use_messiaen_style_ties=True,
-#            ),
-#        )
-#    )
 
 segment_maker.make_music_maker(
     stages=(4, 4),
@@ -180,29 +130,6 @@ segment_maker.make_music_maker(
 
 ### OBOE ##
 
-#segment_maker.make_music_maker(
-#    stages=(1, 2),
-#    context_name=ob,
-#    division_maker=makertools.DivisionMaker()
-#        .split_by_durations(
-#            compound_meter_multiplier=Multiplier(3, 2),
-#            durations=[(2, 4)],
-#            remainder=Left,
-#            )
-#        .flatten()
-#        ,
-#    rewrite_meter=True,
-#    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-#        denominators=[8, 16],
-#        extra_counts_per_division=[3, 4, 5, 8],
-#        output_masks=rhythmmakertools.sustain_every([1, 2, 4], period=5),
-#        tie_specifier=rhythmmakertools.TieSpecifier(
-#            tie_across_divisions=True,
-#            use_messiaen_style_ties=True,
-#            ),            
-#        ),
-#    )
-
 segment_maker.make_music_maker(
     stages=(1, 2),
     context_name=ob,
@@ -229,34 +156,6 @@ segment_maker.make_music_maker(
         ),
     )
 
-#segment_maker.make_music_maker(
-#    stages=(3, 3),
-#    context_name=ob,
-#    division_maker=makertools.DivisionMaker()
-#        .split_by_durations(
-#            compound_meter_multiplier=Multiplier(3, 2),
-#            durations=[(2, 4)],
-#            )
-#        .flatten()
-#        .fuse_by_counts(
-#            counts=[8, 4, 6],
-#            )
-#        ,
-#    rewrite_meter=True,
-#    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
-#        incise_specifier=rhythmmakertools.InciseSpecifier(
-#            prefix_talea=[-1],
-#            prefix_counts=[1],
-#            suffix_talea=[-1],
-#            suffix_counts=[0],
-#            talea_denominator=8,
-#            ),
-#        tie_specifier=rhythmmakertools.TieSpecifier(
-#            use_messiaen_style_ties=True,
-#            ),
-#        )
-#    )
-
 segment_maker.copy_music_maker(
     fl,
     4,
@@ -270,28 +169,6 @@ segment_maker.copy_music_maker(
     )
 
 ### CLARINET ###
-
-#segment_maker.make_music_maker(
-#    stages=(1, 3),
-#    context_name=cl,
-#    division_maker=makertools.DivisionMaker()
-#        .split_by_durations(
-#            durations=[(2, 4)],
-#            remainder=Right,
-#            )
-#        .flatten()
-#        ,
-#    rewrite_meter=True,
-#    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-#        denominators=[16, 8],
-#        extra_counts_per_division=[4, 3, 8, 5],
-#        output_masks=rhythmmakertools.sustain_every([0, 2, 3, 4, 6], period=7),
-#        tie_specifier=rhythmmakertools.TieSpecifier(
-#            tie_across_divisions=True,
-#            use_messiaen_style_ties=True,
-#            ),            
-#        ),
-#    )
 
 segment_maker.make_music_maker(
     stages=(1, 3),
@@ -333,28 +210,6 @@ segment_maker.copy_music_maker(
 
 ### SAXOPHONE ###
 
-#segment_maker.make_music_maker(
-#    stages=(1, 3),
-#    context_name=sax,
-#    division_maker=makertools.DivisionMaker()
-#        .split_by_durations(
-#            durations=[(2, 4)],
-#            remainder=Left,
-#            )
-#        .flatten()
-#        ,
-#    rewrite_meter=True,
-#    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-#        denominators=[16, 8],
-#        extra_counts_per_division=[4, 3, 8, 5],
-#        output_masks=rhythmmakertools.sustain_every([1, 2, 4, 5], period=7),
-#        tie_specifier=rhythmmakertools.TieSpecifier(
-#            tie_across_divisions=True,
-#            use_messiaen_style_ties=True,
-#            ),            
-#        ),
-#    )
-
 segment_maker.make_music_maker(
     stages=(1, 2),
     context_name=sax,
@@ -395,27 +250,6 @@ segment_maker.copy_music_maker(
 
 ### GUITAR ###
 
-#segment_maker.make_music_maker(
-#    stages=(1, 1),
-#    context_name=gt,
-#    rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
-#        beam_specifier=rhythmmakertools.BeamSpecifier(
-#            use_feather_beams=True,
-#            ),
-#        interpolation_specifiers=[
-#            guitar_accelerando,
-#            guitar_ritardando,
-#            ],
-#        tie_specifier=rhythmmakertools.TieSpecifier(
-#            tie_across_divisions=True,
-#            use_messiaen_style_ties=True,
-#            ),
-#        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
-#            use_note_duration_bracket=True,
-#            ),
-#        ),
-#    )
-
 segment_maker.make_music_maker(
     stages=(1, 1),
     context_name=gt,
@@ -449,29 +283,6 @@ segment_maker.make_music_maker(
         ),
     )
 
-#segment_maker.make_music_maker(
-#    stages=(4, 4),
-#    context_name=gt,
-#    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-#        output_masks=rhythmmakertools.silence_every(indices=[1], period=2),
-#        tie_specifier=rhythmmakertools.TieSpecifier(
-#            use_messiaen_style_ties=True,
-#            ),
-#        ),
-#    )
-#
-#segment_maker.make_music_maker(
-#    stages=(5, 5),
-#    context_name=gt,
-#    division_maker=beat_division_maker,
-#    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-#        output_masks=stage_5_silence_mask,
-#        tie_specifier=rhythmmakertools.TieSpecifier(
-#            use_messiaen_style_ties=True,
-#            ),
-#        ),
-#    )
-
 segment_maker.copy_music_maker(
     fl,
     4,
@@ -485,34 +296,6 @@ segment_maker.copy_music_maker(
     )
 
 ### PIANO ###
-
-#segment_maker.make_music_maker(
-#    stages=(1, 3),
-#    context_name=pf,
-#    division_maker=makertools.DivisionMaker()
-#        .fuse_by_counts(
-#            counts=[3, 2],
-#            ),
-#    rewrite_meter=True,
-#    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
-#        incise_specifier=rhythmmakertools.InciseSpecifier(
-#            prefix_talea=[-1],
-#            prefix_counts=[0],
-#            suffix_talea=[-1],
-#            suffix_counts=[1],
-#            talea_denominator=8,
-#            ),
-#        output_masks=[
-#            rhythmmakertools.SilenceMask(
-#                indices=[2],
-#                period=3,
-#                ),
-#            ],
-#        tie_specifier=rhythmmakertools.TieSpecifier(
-#            use_messiaen_style_ties=True,
-#            ),
-#        )
-#    )
 
 segment_maker.make_music_maker(
     stages=(1, 3),
@@ -528,26 +311,6 @@ segment_maker.make_music_maker(
             ),
         ),
     )
-
-#segment_maker.make_music_maker(
-#    stages=(4, 4),
-#    context_name=pf,
-#    rhythm_maker=rhythmmakertools.AccelerandoRhythmMaker(
-#        beam_specifier=rhythmmakertools.BeamSpecifier(
-#            use_feather_beams=True,
-#            ),
-#        interpolation_specifiers=guitar_ritardando,
-#        output_masks=[
-#            rhythmmakertools.SilenceMask(
-#                indices=[1],
-#                period=2,
-#                ),
-#            ],
-#        tuplet_spelling_specifier=rhythmmakertools.TupletSpellingSpecifier(
-#            use_note_duration_bracket=True,
-#            ),
-#        ),
-#    )
 
 segment_maker.copy_music_maker(
     fl,
@@ -570,27 +333,6 @@ segment_maker.make_music_maker(
     )
 
 ### PERCUSSION ###
-
-#segment_maker.make_music_maker(
-#    stages=(1, 3),
-#    context_name=perc,
-#    division_maker=makertools.DivisionMaker()
-#        .split_by_durations(
-#            compound_meter_multiplier=Multiplier(3, 2),
-#            durations=[(1, 4)],
-#            )
-#        .flatten()
-#        .fuse_by_counts(
-#            counts=[11, 1, 3, 1],
-#            )
-#        ,
-#    rewrite_meter=True,
-#    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-#        tie_specifier=rhythmmakertools.TieSpecifier(
-#            use_messiaen_style_ties=True,
-#            ),
-#        ),
-#    )
 
 segment_maker.make_music_maker(
     stages=(1, 3),
@@ -668,30 +410,6 @@ segment_maker.make_music_maker(
         tuplet_spelling_specifier=string_tuplet_spelling_specifier,
         ),
     )
-
-#segment_maker.make_music_maker(
-#    stages=(4, 4),
-#    context_name=vn,
-#    division_maker=beat_division_maker,
-#    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-#        output_masks=[
-#            stage_4_silence_mask,
-#            ],
-#        tie_specifier=rhythmmakertools.TieSpecifier(
-#            tie_across_divisions=True,
-#            use_messiaen_style_ties=True,
-#            ),
-#        ),
-#    )
-#
-#segment_maker.copy_music_maker(
-#    vn,
-#    4,
-#    stages=(5, 5),
-#    rhythm_maker__output_masks=[
-#        stage_5_silence_mask,
-#        ],
-#    )
 
 segment_maker.copy_music_maker(
     fl,
