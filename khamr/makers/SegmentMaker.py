@@ -551,6 +551,7 @@ class SegmentMaker(makertools.SegmentMaker):
         note_indicators = (
             indicatortools.Dynamic,
             markuptools.Markup,
+            indicatortools.LilyPondCommand,
             )
         leaf_indicators = (
             indicatortools.Clef,

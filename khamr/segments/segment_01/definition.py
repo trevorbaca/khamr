@@ -535,17 +535,91 @@ segment_maker.make_music_handler(
 
 ### OBOE ###
 
+segment_maker.make_music_handler(
+    scope=(ob, (1, 5)),
+    specifiers=[
+        air_tone_without_reed,
+        single_line_staff,
+        Dynamic('p'),
+        pitch_specifier(
+            source='E4',
+            ),
+        repeat_tie_up,
+        ]
+    )
 
+segment_maker.make_music_handler(
+    scope=(ob, (6, 7)),
+    specifiers=[
+        put_reed_back_in,
+        Dynamic('pp'),
+        pitch_specifier(
+            source=[pitchtools.PitchSegment(
+                items=[NamedPitch('A4'), NamedPitch('E5')], 
+                item_class=NamedPitch,
+                )],
+            ),
+        reiterated_flageolets,
+        ]
+    )
 
 ### CLARINET ###
 
+segment_maker.make_music_handler(
+    scope=(cl, (1, 7)),
+    specifiers=[
+        Dynamic('ppp'),
+        pitch_specifier(
+            source='A2',
+            ),
+        ]
+    )
+
 ### SAXOPHONE ###
+
+segment_maker.make_music_handler(
+    scope=(sax, (1, 5)),
+    specifiers=[
+        Dynamic('ppp'),
+        pitch_specifier(
+            source='G3',
+            ),
+        ]
+    )
+
+segment_maker.make_music_handler(
+    scope=(sax, (6, 7)),
+    specifiers=[
+        Dynamic('pp'),
+        pitch_specifier(
+            source=[pitchtools.PitchSegment(
+                items=[NamedPitch('F3'), NamedPitch('G+3')], 
+                item_class=NamedPitch,
+                )],
+            ),
+        weiss_multiphonic(77),
+        ]
+    )
 
 ### GUITAR ###
 
 ### PIANO ###
 
 ### PERCUSSION ###
+
+segment_maker.make_music_handler(
+    scope=(perc, (1, 7)),
+    specifiers=[
+        Dynamic('p'),
+        pitch_specifier(
+            source='F3 F3 F3 Ab5',
+            ),
+        stem_direction(Down),
+        khamr.makers.MarimbaHitSpecifier(
+            indices=[3, 7],
+            ),
+        ],
+    )
 
 ### VIOLIN ###
 
