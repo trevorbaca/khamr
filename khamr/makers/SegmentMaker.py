@@ -569,8 +569,18 @@ class SegmentMaker(makertools.SegmentMaker):
             if isinstance(specifier, baca.makers.PitchSpecifier):
                 specifier(logical_ties, timespan)
             elif isinstance(specifier, note_indicators):
+                if not logical_ties:
+                    message = 'no logical ties to which to attach specifier'
+                    message += ' {!r} belonging to music handler {!r}.'
+                    message = message.format(specifier, music_handler)
+                    raise Exception(message)
                 attach(specifier, logical_ties[0].head)
             elif isinstance(specifier, leaf_indicators):
+                if not logical_ties:
+                    message = 'no logical ties to which to attach specifier'
+                    message += ' {!r} belonging to music handler {!r}.'
+                    message = message.format(specifier, music_handler)
+                    raise Exception(message)
                 attach(specifier, logical_ties_with_rests[0].head)
             elif isinstance(specifier, spannertools.Spanner):
                 spanner = specifier

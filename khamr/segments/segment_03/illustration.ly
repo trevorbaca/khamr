@@ -1,4 +1,4 @@
-% 2015-04-16 15:44
+% 2015-04-16 17:09
 
 \version "2.19.17"
 \language "english"
@@ -3260,15 +3260,15 @@
                     c'4 -\tongue #2
                     c'4. -\tongue #2
                     c'8 -\tongue #2
-                    c'4 -\tongue #2 \repeatTie
+                    c'4 \repeatTie
                     c'8 -\tongue #2
-                    c'4 -\tongue #2 \repeatTie
+                    c'4 \repeatTie
                     c'8 -\tongue #2
-                    c'4 -\tongue #2 \repeatTie
+                    c'4 \repeatTie
                     c'8 -\tongue #2
-                    c'4 -\tongue #2 \repeatTie
+                    c'4 \repeatTie
                     c'8 -\tongue #2
-                    c'4 -\tongue #2 \repeatTie
+                    c'4 \repeatTie
                     c'4. -\tongue #2
                     c'4. -\tongue #2
                     c'4. -\tongue #2
@@ -3308,82 +3308,82 @@
                     Vn.
                 }
                 \context ViolinMusicVoice = "Violin Music Voice" {
-                    c'2
-                    c'2 \repeatTie
-                    c'1.
-                    c'2.
+                    a'2
+                    a'2 \repeatTie
+                    gff'1.
+                    gf'2.
                     \times 4/5 {
-                        c'2.
-                        c'2
+                        bff2.
+                        ff'2
                     }
-                    c'2.
+                    dff'2.
                     \times 2/3 {
-                        c'1
-                        c'2
+                        cf'1
+                        af2
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/9 {
-                        c'2.
-                        c'1.
+                        ff'2.
+                        ef'1.
                     }
                     \times 4/7 {
-                        c'1
-                        c'2.
+                        gff'1
+                        aff2.
                     }
-                    c'2.
-                    c'1
-                    c'2
-                    c'2.
-                    c'2.
+                    bff2.
+                    af1
+                    bf2
+                    eff'2.
+                    df'2.
                     \times 2/3 {
-                        c'4
-                        c'2
+                        ff'4
+                        dff'2
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        c'1
-                        c'2.
+                        cf'1
+                        af2.
                     }
                     \times 4/7 {
-                        c'4.
-                        c'2
+                        bff4.
+                        ef'2
                     }
-                    c'2.
-                    c'2 \repeatTie
-                    c'2.
+                    gff'2.
+                    gff'2 \repeatTie
+                    aff2.
                     \times 2/3 {
-                        c'1
-                        c'2
+                        df'1
+                        af2
                     }
-                    c'1.
+                    bf1.
                     \times 4/7 {
-                        c'2
-                        c'4.
+                        eff'2
+                        ff'4.
                     }
                     \times 4/7 {
-                        c'4.
-                        c'2
+                        gff'4.
+                        gf'2
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 3/5 {
-                        c'2.
-                        c'2
+                        bff2.
+                        aff2
                     }
-                    c'1
-                    c'2
+                    bff1
+                    ef'2
                     \times 2/3 {
-                        c'4
-                        c'2
+                        gff'4
+                        eff'2
                     }
-                    c'1.
+                    df'1.
                     \times 4/7 {
-                        c'2.
-                        c'1
+                        af2.
+                        bf1
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 3/5 {
-                        c'2.
-                        c'2
+                        bff2.
+                        ff'2
                     }
                     R1 * 3/4
                     R1 * 1
@@ -3409,84 +3409,84 @@
                     Va.
                 }
                 \context ViolaMusicVoice = "Viola Music Voice" {
-                    c'2
-                    c'2 \repeatTie
+                    gs'2
+                    gs'2 \repeatTie
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 3/5 {
-                        c'1.
-                        c'1
+                        gff'1.
+                        gf'1
                     }
-                    c'2.
-                    c'1
-                    c'4
-                    c'8
-                    c'4. \repeatTie
-                    c'1
+                    bff2.
+                    ff'1
+                    dff'4
+                    cf'8
+                    cf'4. \repeatTie
+                    af1
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/7 {
-                        c'2.
-                        c'1
+                        ff'2.
+                        ef'1
                     }
                     \times 4/5 {
-                        c'2.
-                        c'2
+                        gff'2.
+                        aff2
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 3/5 {
-                        c'2
-                        c'2.
+                        bff2
+                        af2.
                     }
-                    c'1
-                    c'2.
-                    c'2 \repeatTie
+                    bf1
+                    eff'2.
+                    eff'2 \repeatTie
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        c'2
-                        c'4.
+                        df'2
+                        ff'4.
                     }
-                    c'2
+                    dff'2
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 3/5 {
-                        c'1.
-                        c'1
+                        cf'1.
+                        af1
                     }
                     \times 4/5 {
-                        c'4
-                        c'4.
+                        bff4
+                        ef'4.
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/9 {
-                        c'1.
-                        c'2.
+                        gff'1.
+                        aff2.
                     }
-                    c'2.
-                    c'1
+                    df'2.
+                    af1
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        c'2.
-                        c'1
+                        bf2.
+                        eff'1
                     }
-                    c'2
+                    ff'2
                     \times 4/5 {
-                        c'4
-                        c'4.
+                        gff'4
+                        gf'4.
                     }
-                    c'2
-                    c'4
+                    bff2
+                    aff4
                     \times 2/3 {
-                        c'2
-                        c'1
+                        bff2
+                        ef'1
                     }
-                    c'2
-                    c'2
+                    gff'2
+                    eff'2
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 3/5 {
-                        c'1.
-                        c'1
+                        df'1.
+                        af1
                     }
-                    c'1
-                    c'2
-                    c'4
+                    bf1
+                    bff2
+                    ff'4
                     R1 * 3/4
                     R1 * 1
                     R1 * 5/4
@@ -3511,81 +3511,81 @@
                     Vc.
                 }
                 \context CelloMusicVoice = "Cello Music Voice" {
-                    c'2
-                    c'2 \repeatTie
-                    c'2.
-                    c'4 \repeatTie
-                    c'8
-                    c'4. \repeatTie
-                    c'4
-                    c'2
-                    c'1
-                    c'2.
+                    g2
+                    g2 \repeatTie
+                    gff'2.
+                    gff'4 \repeatTie
+                    gf'8
+                    gf'4. \repeatTie
+                    bff4
+                    ff'2
+                    dff'1
+                    cf'2.
                     \times 4/5 {
-                        c'2.
-                        c'2
+                        af2.
+                        ff'2
                     }
-                    c'2.
-                    c'2 \repeatTie
+                    ef'2.
+                    ef'2 \repeatTie
                     \times 2/3 {
-                        c'1
-                        c'2
+                        gff'1
+                        aff2
                     }
-                    c'4
-                    c'2
+                    bff4
+                    af2
                     \times 4/7 {
-                        c'1
-                        c'2.
+                        bf1
+                        eff'2.
                     }
-                    c'2.
-                    c'2 \repeatTie
-                    c'2.
+                    df'2.
+                    df'2 \repeatTie
+                    ff'2.
                     \times 4/5 {
-                        c'4
-                        c'4.
+                        dff'4
+                        cf'4.
                     }
-                    c'1.
+                    af1.
                     \times 2/3 {
-                        c'4
-                        c'2
+                        bff4
+                        ef'2
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/7 {
-                        c'1
-                        c'2.
+                        gff'1
+                        aff2.
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        c'4.
-                        c'2
+                        df'4.
+                        af2
                     }
-                    c'1
-                    c'1.
+                    bf1
+                    eff'1.
                     \times 2/3 {
-                        c'2
-                        c'4
+                        ff'2
+                        gff'4
                     }
-                    c'2
+                    gf'2
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        c'2
-                        c'4.
+                        bff2
+                        aff4.
                     }
                     \times 4/7 {
-                        c'2.
-                        c'1
+                        bff2.
+                        ef'1
                     }
                     \times 4/5 {
-                        c'4.
-                        c'4
+                        gff'4.
+                        eff'4
                     }
-                    c'2
-                    c'1.
+                    df'2
+                    af1.
                     \times 2/3 {
-                        c'2
-                        c'1
+                        bf2
+                        bff1
                     }
-                    c'2.
+                    ff'2.
                     R1 * 3/4
                     R1 * 1
                     R1 * 5/4
@@ -3612,37 +3612,46 @@
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
                     <g,, a,>2 \f
                     <g,, a,>2 \repeatTie
+                    <gs,, as,>1. \p
+                    <gs,, as,>2. \repeatTie
+                    <gs,, as,>1
+                    <gs,, as,>2. \repeatTie
+                    <gs,, as,>1 \repeatTie
+                    <gs,, as,>2.
+                    <gs,, as,>2 \repeatTie
+                    <gs,, as,>1 \repeatTie
+                    <gs,, as,>2.
+                        ^ \markup {
+                            \larger
+                                \italic
+                                    "estr. sul pont."
+                            }
+                    <gs,, as,>1 \repeatTie
+                    <gs,, as,>2. \repeatTie
+                    <gs,, as,>2 \repeatTie
+                    <gs,, as,>2. \repeatTie
+                    <gs,, as,>2 \repeatTie
+                    <gs,, as,>1. \repeatTie
+                    <gs,, as,>2 \repeatTie
+                    <gs,, as,>2. \repeatTie
+                    <gs,, as,>2 \repeatTie
+                    <gs,, as,>2. \repeatTie
+                    <gs,, as,>1 \repeatTie
+                    <gs,, as,>1. \repeatTie
+                    <gs,, as,>2 \repeatTie
+                    <gs,, as,>2 \repeatTie
+                    <gs,, as,>2. \repeatTie
+                    <gs,, as,>1 \repeatTie
+                    <gs,, as,>2 \repeatTie
+                    <g,, a,>2
+                        ^ \markup {
+                            \larger
+                                "arco ordinario"
+                            }
                     <g,, a,>1. \repeatTie
-                    <g,, a,>2. \repeatTie
                     <g,, a,>1 \repeatTie
-                    <g,, a,>2. \repeatTie
-                    <g,, a,>1 \repeatTie
-                    <g,, a,>2. \repeatTie
-                    <g,, a,>2 \repeatTie
-                    <g,, a,>1 \repeatTie
-                    <g,, a,>2. \repeatTie
-                    <g,, a,>1 \repeatTie
-                    <g,, a,>2. \repeatTie
-                    <g,, a,>2 \repeatTie
-                    <g,, a,>2. \repeatTie
-                    <g,, a,>2 \repeatTie
-                    <g,, a,>1. \repeatTie
-                    <g,, a,>2 \repeatTie
-                    <g,, a,>2. \repeatTie
-                    <g,, a,>2 \repeatTie
-                    <g,, a,>2. \repeatTie
-                    <g,, a,>1 \repeatTie
-                    <g,, a,>1. \repeatTie
-                    <g,, a,>2 \repeatTie
-                    <g,, a,>2 \repeatTie
-                    <g,, a,>2. \repeatTie
-                    <g,, a,>1 \repeatTie
-                    <g,, a,>2 \repeatTie
-                    <g,, a,>2 \repeatTie
-                    <g,, a,>1. \repeatTie
-                    <g,, a,>1 \repeatTie
-                    <g,, a,>2. \repeatTie
-                    <g,, a,>2. \repeatTie
+                    r2.
+                    <g,, a,>2.
                     r1
                     \once \override TrillPitchHead #'stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
                     \pitchedTrill

@@ -127,6 +127,8 @@ effort_ff = make_effort_dynamic_markup('ff')
 effort_f = make_effort_dynamic_markup('f')
 effort_mp = make_effort_dynamic_markup('mp')
 
+estr_sul_pont = Markup('estr. sul pont.', direction=Up).italic().larger()
+
 fff_ancora = Markup('fff').dynamic() + Markup('ancora').italic()
 
 ffff_possibile = Markup('ffff').dynamic() + Markup('possibile').italic()
@@ -441,6 +443,10 @@ color_microtones = baca.makers.MicrotonalDeviationSpecifier(
         [0, -0.5, 0, 0.5],
         [0, 0.5, 0, -0.5],
         ),
+    )
+
+pervasive_glissandi = baca.makers.GlissandoSpecifier(
+    patterns=rhythmmakertools.select_all(),
     )
 
 def pervasive_trills_at_interval(interval):
