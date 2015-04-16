@@ -670,12 +670,25 @@ segment_maker.make_music_handler(
     )
 
 segment_maker.make_music_handler(
-    scope=(pf, (4, 7)),
+    scope=(pf, (4, 6)),
     specifiers=[
         Clef('treble'),
         Dynamic('f'),
         sixth_octave,
         ottava,
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(pf, (7, 7)),
+    specifiers=[
+        Clef('bass'),
+        Dynamic('mp'),
+        sparse_piano_clicks,
+        pitch_specifier(
+            source='D3',
+            ),
+        repeat_tie_down,
         ],
     )
 
@@ -713,16 +726,17 @@ segment_maker.make_music_handler(
         ],
     )
 
-#segment_maker.make_music_handler(
-#    scope=(vn, (6, 7)),
-#    specifiers=[
-#        halo_accompaniment_hairpins,
-#        pitch_specifier(
-#            source=khamr.materials.color_trill_pitches,
-#            ),
-#        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
-#        ],
-#    )
+segment_maker.make_music_handler(
+    scope=(vn, (6, 7)),
+    specifiers=[
+        Dynamic('ppp'),
+        pitch_specifier(
+            source=khamr.materials.color_trill_pitches,
+            ),
+        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
+        molto_flautando_e_pont,
+        ],
+    )
 
 ### VIOLA ###
 
@@ -742,16 +756,17 @@ segment_maker.make_music_handler(
         ],
     )
 
-#segment_maker.make_music_handler(
-#    scope=(va, (6, 7)),
-#    specifiers=[
-#        halo_accompaniment_hairpins,
-#        pitch_specifier(
-#            source=khamr.materials.color_trill_pitches,
-#            ),
-#        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
-#        ],
-#    )
+segment_maker.make_music_handler(
+    scope=(va, (6, 7)),
+    specifiers=[
+        Dynamic('ppp'),
+        pitch_specifier(
+            source=khamr.materials.color_trill_pitches,
+            ),
+        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
+        molto_flautando_e_pont,
+        ],
+    )
 
 ### CELLO ###
 
@@ -771,16 +786,17 @@ segment_maker.make_music_handler(
         ],
     )
 
-#segment_maker.make_music_handler(
-#    scope=(vc, (6, 7)),
-#    specifiers=[
-#        halo_accompaniment_hairpins,
-#        pitch_specifier(
-#            source=khamr.materials.color_trill_pitches,
-#            ),
-#        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
-#        ],
-#    )
+segment_maker.make_music_handler(
+    scope=(vc, (6, 7)),
+    specifiers=[
+        Dynamic('ppp'),
+        pitch_specifier(
+            source=khamr.materials.color_trill_pitches,
+            ),
+        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
+        molto_flautando_e_pont,
+        ],
+    )
 
 ### CONTRABASS ###
 

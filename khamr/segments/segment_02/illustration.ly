@@ -1,4 +1,4 @@
-% 2015-04-15 15:43
+% 2015-04-16 09:03
 
 \version "2.19.17"
 \language "english"
@@ -1220,7 +1220,7 @@
             }
             \tag percussion.piano
             \context PianoMusicStaff = "Piano Music Staff" {
-                \clef "treble"
+                \clef "bass"
                 \set PianoMusicStaff.instrumentName = \markup {
                 \hcenter-in
                     #16
