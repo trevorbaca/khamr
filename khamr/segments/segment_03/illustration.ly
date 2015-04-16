@@ -1,4 +1,4 @@
-% 2015-04-16 14:09
+% 2015-04-16 14:47
 
 \version "2.19.17"
 \language "english"
@@ -2457,8 +2457,8 @@
                     Gt.
                 }
                 \context GuitarMusicVoice = "Guitar Music Voice" {
-                    c''2 :32
-                    c''2 :32 \repeatTie
+                    g'2
+                    g'2 \repeatTie
                     R1 * 3/2
                     R1 * 3/4
                     R1 * 1
@@ -2466,28 +2466,28 @@
                     R1 * 1
                     R1 * 5/4
                     R1 * 1
-                    c''2. :32
-                    c''1 :32 \repeatTie
-                    c''2. :32 \repeatTie
-                    c''2 :32 \repeatTie
-                    c''2. :32 \repeatTie
-                    c''2 :32 \repeatTie
-                    c''1. :32 \repeatTie
-                    c''2 :32 \repeatTie
-                    c''2. :32 \repeatTie
-                    c''2 :32 \repeatTie
-                    c''2. :32 \repeatTie
-                    c''1 :32 \repeatTie
-                    c''1. :32 \repeatTie
-                    c''2 :32 \repeatTie
-                    c''2 :32 \repeatTie
-                    c''2. :32 \repeatTie
-                    c''1 :32 \repeatTie
-                    c''2 :32 \repeatTie
-                    c''2 :32 \repeatTie
-                    c''1. :32 \repeatTie
-                    c''1 :32 \repeatTie
-                    c''2. :32 \repeatTie
+                    af''2. :32 \fff
+                    af''1 :32 \repeatTie
+                    af''2. :32 \repeatTie
+                    af''2 :32 \repeatTie
+                    af''2. :32 \repeatTie
+                    af''2 :32 \repeatTie
+                    af''1. :32 \repeatTie
+                    af''2 :32 \repeatTie
+                    af''2. :32 \repeatTie
+                    af''2 :32 \repeatTie
+                    af''2. :32 \repeatTie
+                    af''1 :32 \repeatTie
+                    af''1. :32 \repeatTie
+                    af''2 :32 \repeatTie
+                    af''2 :32 \repeatTie
+                    af''2. :32 \repeatTie
+                    af''1 :32 \repeatTie
+                    af''2 :32 \repeatTie
+                    af''2 :32 \repeatTie
+                    af''1. :32 \repeatTie
+                    af''1 :32 \repeatTie
+                    af''2. :32 \repeatTie
                     R1 * 3/4
                     R1 * 1
                     R1 * 5/4
@@ -2513,630 +2513,632 @@
                 }
                 \context PianoMusicVoice = "Piano Music Voice" {
                     {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16 ]
+                        \ottava #1
+                        cs''''16 \fff [
+                        d''''16
+                        f''''16
+                        c''''16 ]
                     }
                     {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16 ]
+                        af'''16 [
+                        g'''16
+                        e''''16
+                        c''''16 ]
                     }
                     {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16 ]
+                        b'''16 [
+                        cs''''16
+                        ef''''16
+                        f''''16 ]
                     }
                     \times 2/3 {
-                        c'8 [
-                        c'8
-                        c'8 ]
+                        e''''8 [
+                        fs'''8
+                        bf'''8 ]
                     }
                     \times 4/5 {
-                        c'16. [
-                        c'16.
-                        c'16.
-                        c'16.
-                        c'16. ]
+                        a'''16. [
+                        c''''16.
+                        af'''16.
+                        g'''16.
+                        e''''16. ]
                     }
                     \times 4/5 {
-                        c'16. [
-                        c'16.
-                        c'16.
-                        c'16.
-                        c'16. ]
+                        f''''16. [
+                        b'''16.
+                        cs''''16.
+                        ef''''16.
+                        a'''16. ]
                     }
                     \times 4/5 {
-                        c'16. [
-                        c'16.
-                        c'16.
-                        c'16.
-                        c'16. ]
+                        e''''16. [
+                        fs'''16.
+                        bf'''16.
+                        c''''16.
+                        cs''''16. ]
                     }
                     {
-                        c'8 [
-                        c'8
-                        c'8 ]
+                        d''''8 [
+                        f''''8
+                        ef''''8 ]
                     }
                     \times 2/3 {
-                        c'8 [
-                        c'8
-                        c'8 ]
+                        f''''8 [
+                        b'''8
+                        cs''''8 ]
                     }
                     {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16 ]
+                        bf'''16 [
+                        a'''16
+                        e''''16
+                        fs'''16 ]
                     }
                     {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16 ]
+                        f''''16 [
+                        c''''16
+                        cs''''16
+                        d''''16 ]
                     }
                     \times 2/3 {
-                        c'8 [
-                        c'8
-                        c'8 ]
+                        e''''8 \fffff [
+                        c''''8
+                        af'''8 ]
                     }
                     \times 2/3 {
-                        c'8 [
-                        c'8
-                        c'8 ]
+                        g'''8 [
+                        fs'''8
+                        bf'''8 ]
                     }
                     \times 4/5 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        a'''16 [
+                        e''''16
+                        d''''16
+                        f''''16
+                        c''''16 ]
                     }
                     \times 4/5 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        cs''''16 [
+                        g'''16
+                        e''''16
+                        c''''16
+                        af'''16 ]
                     }
                     \times 4/5 {
-                        c'16. [
-                        c'16.
-                        c'16.
-                        c'16.
-                        c'16. ]
+                        cs''''16. [
+                        ef''''16.
+                        f''''16.
+                        b'''16.
+                        cs''''16. ]
                     }
                     \times 4/5 {
-                        c'16. [
-                        c'16.
-                        c'16.
-                        c'16.
-                        c'16. ]
+                        d''''16. [
+                        f''''16.
+                        c''''16.
+                        af'''16.
+                        g'''16. ]
                     }
                     \times 4/5 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        e''''16 [
+                        c''''16
+                        b'''16
+                        cs''''16
+                        ef''''16 ]
                     }
                     {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16 ]
+                        f''''16 [
+                        e''''16
+                        fs'''16
+                        bf'''16 ]
                     }
                     {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16 ]
+                        a'''16 [
+                        c''''16
+                        af'''16
+                        g'''16 ]
                     }
                     {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16 ]
+                        e''''16 [
+                        f''''16
+                        b'''16
+                        cs''''16 ]
                     }
                     \times 2/3 {
-                        c'8 [
-                        c'8
-                        c'8 ]
+                        ef''''8 [
+                        a'''8
+                        e''''8 ]
                     }
                     \times 4/5 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        fs'''16 [
+                        bf'''16
+                        c''''16
+                        cs''''16
+                        d''''16 ]
                     }
                     \times 4/5 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        f''''16 [
+                        ef''''16
+                        f''''16
+                        b'''16
+                        cs''''16 ]
                     }
                     \times 4/5 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        bf'''16 [
+                        a'''16
+                        e''''16
+                        fs'''16
+                        f''''16 ]
                     }
                     \times 2/3 {
-                        c'8 [
-                        c'8
-                        c'8 ]
+                        c''''8 [
+                        cs''''8
+                        d''''8 ]
                     }
                     \times 2/3 {
-                        c'8 [
-                        c'8
-                        c'8 ]
+                        e''''8 [
+                        c''''8
+                        af'''8 ]
                     }
                     {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16 ]
+                        g'''16 [
+                        fs'''16
+                        bf'''16
+                        a'''16 ]
                     }
                     {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16 ]
+                        e''''16 [
+                        d''''16
+                        f''''16
+                        c''''16 ]
                     }
                     \times 2/3 {
-                        c'8 [
-                        c'8
-                        c'8 ]
+                        cs''''8 [
+                        g'''8
+                        e''''8 ]
+                        \ottava #0
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 \fff [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16 ]
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/7 {
-                        c'16 [
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16
-                        c'16 ]
+                        c'''16 [
+                        d'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16
+                        c'''16 ]
                     }
                     R1 * 3/4
                     R1 * 1
@@ -3166,13 +3168,28 @@
                     R1 * 1/2
                     R1 * 3/2
                     R1 * 3/4
-                    c'1 :32
+                    \clef "percussion"
+                    c'1 :32 \ppp
+                        ^ \markup {
+                            \larger
+                                \override
+                                    #'(box-padding . 0.75)
+                                    \box
+                                        "subito non armonichi e non gridato"
+                            }
                     c'2. :32 \repeatTie
                     c'1 :32 \repeatTie
                     c'2. :32 \repeatTie
                     c'2 :32 \repeatTie
                     c'1 :32 \repeatTie
-                    c'4
+                    c'4 \ff
+                        ^ \markup {
+                            \larger
+                                \override
+                                    #'(box-padding . 0.75)
+                                    \box
+                                        "subito non armonichi e non gridato"
+                            }
                     c'4
                     c'4
                     c'4
@@ -3243,16 +3260,23 @@
                     c'4.
                     c'4.
                     c'4.
-                    c'2.
-                    c'1 \repeatTie
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'2. \repeatTie
-                    c'1 \repeatTie
-                    c'1 \repeatTie
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'2. \repeatTie
+                    c'2. :32 \ppp
+                        ^ \markup {
+                            \larger
+                                \override
+                                    #'(box-padding . 0.75)
+                                    \box
+                                        "subito non armonichi e non gridato"
+                            }
+                    c'1 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'1 :32 \repeatTie
+                    c'2. :32 \repeatTie
+                    c'2 :32 \repeatTie
+                    c'2. :32 \repeatTie
                 }
             }
         >>
