@@ -1,4 +1,4 @@
-% 2015-04-16 14:47
+% 2015-04-16 15:44
 
 \version "2.19.17"
 \language "english"
@@ -813,16 +813,20 @@
                     R1 * 1
                     R1 * 5/4
                     R1 * 3/4
-                    r8
-                    c'2..
-                    c'2 \repeatTie
-                    r8
-                    c'4.
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'4. \repeatTie
-                    r8
-                    c'4
+                    bf'1 \pp
+                        ^ \markup {
+                            \larger
+                                "air tone with lips covering mouthplate (sounds major 7th lower)"
+                            }
+                    bf'2... \repeatTie
+                    r16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    bf'2.
+                    bf'2 \repeatTie
+                    bf'4. \repeatTie
+                    bf'4 \repeatTie
+                    bf'16 \repeatTie
+                    r16
                 }
             }
             \tag winds.oboe
@@ -1399,12 +1403,21 @@
                     R1 * 3/4
                     r1
                     r1
-                    r8
-                    c'8
-                    c'2 \repeatTie
-                    r8
-                    c'4.
-                    c'2. \repeatTie
+                    r2
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    b'2. \pp
+                        ^ \markup {
+                            \larger
+                                "air tone (without reed): inhale and exhale alternately"
+                            }
+                    b'4. \repeatTie
+                    b'4 \repeatTie
+                    b'16 \repeatTie
+                    \stopStaff
+                    \startStaff
+                    r16
                 }
             }
             \tag winds.clarinet
@@ -1858,24 +1871,14 @@
                     }
                     R1 * 3/4
                     R1 * 1
-                    r8
-                    d'8
-                    d'2 \repeatTie
-                    r8
-                    d'4.
-                    d'2 \repeatTie
-                    r8
-                    d'8
-                    d'1 \repeatTie
-                    d'4 \repeatTie
-                    r8
-                    d'8
-                    d'2 \repeatTie
-                    d'2. \repeatTie
-                    d'2 \repeatTie
-                    r8
-                    d'4
-                    d'4. \repeatTie
+                    a,1 \ppp
+                    a,4 \repeatTie
+                    a,2. \repeatTie
+                    a,1 \repeatTie
+                    a,1 \repeatTie
+                    a,1 \repeatTie
+                    a,4 \repeatTie
+                    r2.
                 }
             }
             \tag winds.saxophone
@@ -2430,15 +2433,25 @@
                     R1 * 1
                     R1 * 5/4
                     R1 * 3/4
-                    r8
-                    a2..
-                    r8
-                    a2..
-                    a2 \repeatTie
-                    r8
-                    a8
-                    a2 \repeatTie
-                    a2. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    b'1 \pp
+                        ^ \markup {
+                            \larger
+                                "air tone"
+                            }
+                    b'1 \repeatTie
+                    b'2... \repeatTie
+                    r16
+                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    b'4
+                    b'4. \repeatTie
+                    b'4 \repeatTie
+                    b'16 \repeatTie
+                    \stopStaff
+                    \startStaff
+                    r16
                 }
             }
         >>
@@ -3175,98 +3188,98 @@
                                 \override
                                     #'(box-padding . 0.75)
                                     \box
-                                        "subito non armonichi e non gridato"
+                                        "bass drum"
                             }
                     c'2. :32 \repeatTie
                     c'1 :32 \repeatTie
                     c'2. :32 \repeatTie
                     c'2 :32 \repeatTie
                     c'1 :32 \repeatTie
-                    c'4 \ff
+                    c'4 -\tongue #2 \ff
                         ^ \markup {
                             \larger
                                 \override
                                     #'(box-padding . 0.75)
                                     \box
-                                        "subito non armonichi e non gridato"
+                                        castanets
                             }
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4
-                    c'4.
-                    c'8
-                    c'4 \repeatTie
-                    c'8
-                    c'4 \repeatTie
-                    c'8
-                    c'4 \repeatTie
-                    c'8
-                    c'4 \repeatTie
-                    c'8
-                    c'4 \repeatTie
-                    c'4.
-                    c'4.
-                    c'4.
-                    c'4.
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4 -\tongue #2
+                    c'4. -\tongue #2
+                    c'8 -\tongue #2
+                    c'4 -\tongue #2 \repeatTie
+                    c'8 -\tongue #2
+                    c'4 -\tongue #2 \repeatTie
+                    c'8 -\tongue #2
+                    c'4 -\tongue #2 \repeatTie
+                    c'8 -\tongue #2
+                    c'4 -\tongue #2 \repeatTie
+                    c'8 -\tongue #2
+                    c'4 -\tongue #2 \repeatTie
+                    c'4. -\tongue #2
+                    c'4. -\tongue #2
+                    c'4. -\tongue #2
+                    c'4. -\tongue #2
                     c'2. :32 \ppp
                         ^ \markup {
                             \larger
                                 \override
                                     #'(box-padding . 0.75)
                                     \box
-                                        "subito non armonichi e non gridato"
+                                        "bass drum"
                             }
                     c'1 :32 \repeatTie
                     c'2. :32 \repeatTie

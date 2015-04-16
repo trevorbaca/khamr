@@ -92,7 +92,9 @@ accents = handlertools.ReiteratedArticulationHandler(
     articulation_list=['>'],
     )
 
-string = 'air tone (without reed)'
+air_tone = Markup('air tone', direction=Up).larger()
+
+string = 'air tone (without reed): inhale and exhale alternately'
 air_tone_without_reed = Markup(string, direction=Up).larger()
 
 arco = Markup('arco', direction=Up).larger()
@@ -111,7 +113,7 @@ string = 'catch resonance (but not attack) with pedal'
 catch_resonance = Markup(string, direction=Up, stack_priority=1000)
 catch_resonance = catch_resonance.larger()
 
-string = 'air tone (with lips covering moutplate: sounds minor 7th lower)'
+string = 'air tone with lips covering mouthplate (sounds major 7th lower)'
 covered_flute_air_tone = Markup(string, direction=Up).larger()
 
 cross_note_heads = handlertools.OverrideHandler(
@@ -471,6 +473,10 @@ pervasive_F3_harmonic_trills = baca.makers.TrillSpecifier(
 
 alternate_bow_strokes = handlertools.PatternedArticulationsHandler(
     articulation_lists=(['upbow', 'accent'], ['downbow', 'accent']),
+    )
+
+double_tonguing = handlertools.ReiteratedArticulationHandler(
+    articulation_list=['tongue #2'],
     )
 
 marcati = handlertools.ReiteratedArticulationHandler(

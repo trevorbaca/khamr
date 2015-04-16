@@ -77,17 +77,17 @@ segment_maker.make_music_maker(
     context_name=fl,
     division_maker=beat_division_maker
         .fuse_by_counts(
-            counts=[6, 8, 3, 4],
+            counts=[8],
             )
         ,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
         incise_specifier=rhythmmakertools.InciseSpecifier(
             prefix_talea=[-1],
-            prefix_counts=[1],
+            prefix_counts=[0],
             suffix_talea=[-1],
-            suffix_counts=[0],
-            talea_denominator=8,
+            suffix_counts=[1],
+            talea_denominator=16,
             ),
         tie_specifier=rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True
@@ -132,17 +132,17 @@ segment_maker.make_music_maker(
     context_name=ob,
     division_maker=beat_division_maker
         .fuse_by_counts(
-            counts=[8, 3, 4, 6],
+            counts=[10],
             )
         ,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
         incise_specifier=rhythmmakertools.InciseSpecifier(
             prefix_talea=[-1],
-            prefix_counts=[1],
+            prefix_counts=[0],
             suffix_talea=[-1],
-            suffix_counts=[0],
-            talea_denominator=8,
+            suffix_counts=[1],
+            talea_denominator=16,
             ),
         output_masks=[
             rhythmmakertools.silence_first(1),
@@ -188,21 +188,12 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(8, 9),
     context_name=cl,
-    division_maker=beat_division_maker
-        .fuse_by_counts(
-            counts=[3, 4, 6, 8],
-            )
-        ,
-    rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
-        incise_specifier=rhythmmakertools.InciseSpecifier(
-            prefix_talea=[-1],
-            prefix_counts=[1],
-            suffix_talea=[-1],
-            suffix_counts=[0],
-            talea_denominator=8,
-            ),
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        output_masks=[
+            rhythmmakertools.silence_last(1),
+            ],
         tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
             use_messiaen_style_ties=True
             ),
         ),
@@ -245,17 +236,17 @@ segment_maker.make_music_maker(
     context_name=sax,
     division_maker=beat_division_maker
         .fuse_by_counts(
-            counts=[4, 6, 8, 3],
+            counts=[12],
             )
         ,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
         incise_specifier=rhythmmakertools.InciseSpecifier(
             prefix_talea=[-1],
-            prefix_counts=[1],
+            prefix_counts=[0],
             suffix_talea=[-1],
-            suffix_counts=[0],
-            talea_denominator=8,
+            suffix_counts=[1],
+            talea_denominator=16,
             ),
         tie_specifier=rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True
@@ -551,9 +542,8 @@ segment_maker.make_music_handler(
     scope=(fl, (9, 9)),
     specifiers=[
         Dynamic('pp'),
-        # sounding A2
-        pitch_specifier(source='G3')
-            ),
+        # sounds B3
+        pitch_specifier(source='Bb4'),
         covered_flute_air_tone,
         ],
     )
@@ -579,15 +569,23 @@ segment_maker.make_music_handler(
         ],
     )
 
+segment_maker.make_music_handler(
+    scope=(ob, (9, 9)),
+    specifiers=[
+        Dynamic('pp'),
+        # dummy centerline pitch
+        pitch_specifier(source='B4'),
+        air_tone_without_reed,
+        single_line_staff,
+        ],
+    )
 
 ### CLARINET ###
 
 segment_maker.make_music_handler(
     scope=(cl, (1, 1)),
     specifiers=[
-        pitch_specifier(
-            source='F#2',
-            ),
+        pitch_specifier(source='F#2'),
         ]
     )
 
@@ -599,6 +597,14 @@ segment_maker.make_music_handler(
             source='D6 D#6 F6 F#6 C6 C#6 D#6 E6 F6',
             ),
         ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(cl, (8, 9)),
+    specifiers=[
+        Dynamic('ppp'),
+        pitch_specifier(source='G2'),
+        ]
     )
 
 ### SAXOPHONE ###
@@ -619,6 +625,17 @@ segment_maker.make_music_handler(
         pitch_specifier(
             source='C6 C#6 D6 F6 F#6 D#6 E6',
             ),
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(sax, (9, 9)),
+    specifiers=[
+        Dynamic('pp'),
+        # dummy centerline pitch
+        pitch_specifier(source='D5'),
+        air_tone,
+        single_line_staff,
         ],
     )
 
@@ -693,6 +710,7 @@ segment_maker.make_music_handler(
         Dynamic('ff'),
         staccati,
         percussion_reminder_markup('castanets'),
+        double_tonguing,
         ]
     )
 
