@@ -236,6 +236,7 @@
         \accepts GuitarMusicVoice
         instrumentName = \guitarName
         shortInstrumentName = \shortGuitarName
+        \override Beam.positions = #'(-4 . -4)
     }
     \context {
         \Voice
