@@ -246,6 +246,9 @@ shakers = Markup('shakers', direction=Up).larger()
 show_tempo = Markup('allow bowing to convey accelerando', direction=Up)
 show_tempo = show_tempo.larger()
 
+string = 'strike lowest strings with palm and lv (pedal down throughout)'
+strike_lowest_strings = Markup(string, direction=Up).larger()
+
 string = 'subito non armonichi e non gridato'
 subito_non_armonichi = Markup(string, direction=Up).italic().larger()
 
@@ -415,6 +418,12 @@ color_microtones = baca.makers.MicrotonalDeviationSpecifier(
         ),
     )
 
+def pervasive_trills_at_interval(interval):
+    return baca.makers.TrillSpecifier(
+        interval=interval
+        minimum_written_duration=None,
+        )
+    
 trill_quarter_notes = baca.makers.TrillSpecifier(
     forbidden_annotations=['color fingering', 'color microtone'],
     minimum_written_duration=Duration(1, 4),
