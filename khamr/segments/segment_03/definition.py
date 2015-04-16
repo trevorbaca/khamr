@@ -55,25 +55,6 @@ segment_maker.make_music_maker(
     )
 
 segment_maker.make_music_maker(
-    stages=(2, 2),
-    context_name=fl,
-    division_maker=beat_division_maker
-        .flatten()
-        .fuse_by_counts(
-            counts=[2, 2, 3, 2],
-            )
-        ,
-    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-        denominators=[8],
-        extra_counts_per_division=[2, 4, 5],
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            tie_across_divisions=True,
-            use_messiaen_style_ties=True
-            ),
-        ),
-    )
-
-segment_maker.make_music_maker(
     stages=(5, 6),
     context_name=fl,
     instrument=khamr.materials.instruments['flute'],
@@ -92,7 +73,7 @@ segment_maker.make_music_maker(
     )
 
 segment_maker.make_music_maker(
-    stages=(7, 9),
+    stages=(9, 9),
     context_name=fl,
     division_maker=beat_division_maker
         .fuse_by_counts(
@@ -129,25 +110,6 @@ segment_maker.make_music_maker(
     )
 
 segment_maker.make_music_maker(
-    stages=(2, 2),
-    context_name=ob,
-    division_maker=beat_division_maker
-        .flatten()
-        .fuse_by_counts(
-            counts=[2, 3, 2, 2],
-            )
-        ,
-    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-        denominators=[8],
-        extra_counts_per_division=[4, 5, 2],
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            tie_across_divisions=True,
-            use_messiaen_style_ties=True
-            ),
-        ),
-    )
-
-segment_maker.make_music_maker(
     stages=(5, 6),
     context_name=ob,
     instrument=khamr.materials.instruments['oboe'],
@@ -166,7 +128,7 @@ segment_maker.make_music_maker(
     )
 
 segment_maker.make_music_maker(
-    stages=(7, 9),
+    stages=(9, 9),
     context_name=ob,
     division_maker=beat_division_maker
         .fuse_by_counts(
@@ -206,25 +168,6 @@ segment_maker.make_music_maker(
     )
 
 segment_maker.make_music_maker(
-    stages=(2, 2),
-    context_name=cl,
-    division_maker=beat_division_maker
-        .flatten()
-        .fuse_by_counts(
-            counts=[3, 2, 2, 2],
-            )
-        ,
-    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-        denominators=[8],
-        extra_counts_per_division=[5, 2, 4],
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            tie_across_divisions=True,
-            use_messiaen_style_ties=True
-            ),
-        ),
-    )
-
-segment_maker.make_music_maker(
     stages=(5, 6),
     context_name=cl,
     instrument=khamr.materials.instruments['clarinet in B-flat'],
@@ -243,7 +186,7 @@ segment_maker.make_music_maker(
     )
 
 segment_maker.make_music_maker(
-    stages=(7, 9),
+    stages=(8, 9),
     context_name=cl,
     division_maker=beat_division_maker
         .fuse_by_counts(
@@ -280,25 +223,6 @@ segment_maker.make_music_maker(
     )
 
 segment_maker.make_music_maker(
-    stages=(2, 2),
-    context_name=sax,
-    division_maker=beat_division_maker
-        .flatten()
-        .fuse_by_counts(
-            counts=[2, 2, 2, 3],
-            )
-        ,
-    rhythm_maker=rhythmmakertools.EvenDivisionRhythmMaker(
-        denominators=[8],
-        extra_counts_per_division=[2, 4, 5],
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            tie_across_divisions=True,
-            use_messiaen_style_ties=True
-            ),
-        ),
-    )
-
-segment_maker.make_music_maker(
     stages=(5, 6),
     context_name=sax,
     instrument=khamr.materials.instruments['sopranino saxophone'],
@@ -317,7 +241,7 @@ segment_maker.make_music_maker(
     )
 
 segment_maker.make_music_maker(
-    stages=(7, 9),
+    stages=(9, 9),
     context_name=sax,
     division_maker=beat_division_maker
         .fuse_by_counts(
@@ -342,7 +266,7 @@ segment_maker.make_music_maker(
 ### GUITAR ###
 
 segment_maker.make_music_maker(
-    stages=(1, 6),
+    stages=(1, 1),
     context_name=gt,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -354,31 +278,15 @@ segment_maker.make_music_maker(
     )
 
 segment_maker.make_music_maker(
-    stages=(7, 9),
+    stages=(5, 6),
     context_name=gt,
-    division_maker=makertools.DivisionMaker()
-        .fuse_by_counts(
-            counts=[2, 3],
-            ),
     rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
-        incise_specifier=rhythmmakertools.InciseSpecifier(
-            prefix_talea=[-1],
-            prefix_counts=[1],
-            suffix_talea=[-1],
-            suffix_counts=[0],
-            talea_denominator=8,
-            ),
-        output_masks=[
-            rhythmmakertools.SilenceMask(
-                indices=[2],
-                period=3,
-                ),
-            ],
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True,
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True
             ),
-        )
+        ),
     )
 
 ### PIANO ###
@@ -421,57 +329,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-segment_maker.make_music_maker(
-    stages=(7, 9),
-    context_name=pf,
-    division_maker=makertools.DivisionMaker()
-        .fuse_by_counts(
-            counts=[2, 3],
-            ),
-    rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
-        incise_specifier=rhythmmakertools.InciseSpecifier(
-            prefix_talea=[-1],
-            prefix_counts=[1],
-            suffix_talea=[-1],
-            suffix_counts=[0],
-            talea_denominator=8,
-            ),
-        output_masks=[
-            rhythmmakertools.SilenceMask(
-                indices=[2],
-                period=3,
-                ),
-            ],
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True,
-            ),
-        )
-    )
-
-
 ### PERCUSSION ###
-
-segment_maker.make_music_maker(
-    stages=(1, 2),
-    context_name=perc,
-    division_maker=makertools.DivisionMaker()
-        .split_by_durations(
-            compound_meter_multiplier=Multiplier(3, 2),
-            durations=[(1, 4)],
-            )
-        .flatten()
-        .fuse_by_counts(
-            counts=[11, 1, 3, 1],
-            )
-        ,
-    rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True,
-            ),
-        ),
-    )
 
 segment_maker.make_music_maker(
     stages=(3, 4),
@@ -509,35 +367,7 @@ segment_maker.make_music_maker(
     )
 
 segment_maker.make_music_maker(
-    stages=(7, 7),
-    context_name=perc,
-    division_maker=makertools.DivisionMaker()
-        .fuse_by_counts(
-            counts=[2, 3],
-            ),
-    rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
-        incise_specifier=rhythmmakertools.InciseSpecifier(
-            prefix_talea=[-1],
-            prefix_counts=[1],
-            suffix_talea=[-1],
-            suffix_counts=[0],
-            talea_denominator=8,
-            ),
-        output_masks=[
-            rhythmmakertools.SilenceMask(
-                indices=[2],
-                period=3,
-                ),
-            ],
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True,
-            ),
-        )
-    )
-
-segment_maker.make_music_maker(
-    stages=(8, 9),
+    stages=(7, 9),
     context_name=perc,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -585,29 +415,6 @@ segment_maker.make_music_maker(
         ),
     )
 
-segment_maker.make_music_maker(
-    stages=(7, 9),
-    context_name=vn,
-    division_maker=beat_division_maker
-        .fuse_by_counts(
-            counts=[8, 6, 4, 3],
-            )
-        ,
-    rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
-        incise_specifier=rhythmmakertools.InciseSpecifier(
-            prefix_talea=[-1],
-            prefix_counts=[1],
-            suffix_talea=[-1],
-            suffix_counts=[0],
-            talea_denominator=8,
-            ),
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True
-            ),
-        ),
-    )
-
 ### VIOLA ###
 
 segment_maker.make_music_maker(
@@ -642,29 +449,6 @@ segment_maker.make_music_maker(
             (4, 3), (3, 4),
             ],
         tuplet_spelling_specifier=string_tuplet_spelling_specifier,
-        ),
-    )
-
-segment_maker.make_music_maker(
-    stages=(7, 9),
-    context_name=va,
-    division_maker=beat_division_maker
-        .fuse_by_counts(
-            counts=[6, 4, 3, 8],
-            )
-        ,
-    rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
-        incise_specifier=rhythmmakertools.InciseSpecifier(
-            prefix_talea=[-1],
-            prefix_counts=[1],
-            suffix_talea=[-1],
-            suffix_counts=[0],
-            talea_denominator=8,
-            ),
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True
-            ),
         ),
     )
 
@@ -705,29 +489,6 @@ segment_maker.make_music_maker(
         ),
     )
 
-segment_maker.make_music_maker(
-    stages=(7, 9),
-    context_name=vc,
-    division_maker=beat_division_maker
-        .fuse_by_counts(
-            counts=[4, 3, 8, 6],
-            )
-        ,
-    rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
-        incise_specifier=rhythmmakertools.InciseSpecifier(
-            prefix_talea=[-1],
-            prefix_counts=[1],
-            suffix_talea=[-1],
-            suffix_counts=[0],
-            talea_denominator=8,
-            ),
-        tie_specifier=rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True
-            ),
-        ),
-    )
-
 ### CONTRABASS ###
 
 segment_maker.make_music_maker(
@@ -763,7 +524,6 @@ segment_maker.make_music_maker(
 ###############################################################################
 ############################### MUSIC-HANDLERS ################################
 ###############################################################################
-
 
 ### FLUTE ###
 
