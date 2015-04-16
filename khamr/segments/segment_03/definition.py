@@ -483,7 +483,82 @@ segment_maker.make_music_maker(
 ### CONTRABASS ###
 
 segment_maker.make_music_maker(
-    stages=(1, 7),
+    stages=(1, 1),
+    context_name=cb,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        )
+    )
+
+segment_maker.make_music_maker(
+    stages=(2, 2),
+    context_name=cb,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        )
+    )
+
+segment_maker.make_music_maker(
+    stages=(3, 3),
+    context_name=cb,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        )
+    )
+
+segment_maker.make_music_maker(
+    stages=(4, 4),
+    context_name=cb,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        )
+    )
+
+segment_maker.make_music_maker(
+    stages=(5, 5),
+    context_name=cb,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        )
+    )
+
+segment_maker.make_music_maker(
+    stages=(6, 6),
+    context_name=cb,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        output_masks=[
+            rhythmmakertools.silence_last(1),
+            ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            tie_across_divisions=True,
+            use_messiaen_style_ties=True,
+            ),
+        )
+    )
+
+segment_maker.make_music_maker(
+    stages=(7, 7),
     context_name=cb,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -725,14 +800,97 @@ segment_maker.make_music_handler(
 
 ### VIOLIN ###
 
+segment_maker.make_music_handler(
+    scope=(vn, (1, 1)),
+    specifiers=[
+        pitch_specifier(source='A4'),
+        ],
+    )
+
+#segment_maker.make_music_handler(
+#    scope=(vn, (3, 4)),
+#    specifiers=[
+#        handlertools.NoteAndChordHairpinHandler(
+#            hairpin_token=['pp < f'],
+#            span='contiguous notes and chords',
+#            ),
+#        ],
+#    )
+
+### UPPER STRINGS ###
+
+segment_maker.make_music_handler(
+    scope=([vn, va, vc], (2, 6)),
+    specifiers=[
+        pitch_specifier(
+            source=khamr.materials.rose_pitch_classes,
+            operators=[
+                pitchtools.Inversion(),
+                pitchtools.Transposition(6),
+                ],
+            ),
+#        narrow_fourth_octave,
+#        pervasive_glissandi,
+#        estr_sul_pont,
+        ],
+    )
+
+#segment_maker.make_music_handler(
+#    scope=([vn, va, vc], (2, 2)),
+#    specifiers=[
+#        Dynamic('p'),
+#        ],
+#    )
+#
+#segment_maker.make_music_handler(
+#    scope=([vn, va, vc], (5, 5)),
+#    specifiers=[
+#        Dynamic('fff'),
+#        ],
+#    )
+
 ### VIOLA ###
 
+segment_maker.make_music_handler(
+    scope=(va, (1, 1)),
+    specifiers=[
+        pitch_specifier(source='G#4'),
+        ],
+    )
+
+#segment_maker.make_music_handler(
+#    scope=(va, (3, 4)),
+#    specifiers=[
+#        handlertools.NoteAndChordHairpinHandler(
+#            hairpin_token=['pp < f'],
+#            span='contiguous notes and chords',
+#            ),
+#        ],
+#    )
+
 ### CELLO ###
+
+segment_maker.make_music_handler(
+    scope=(vc, (1, 1)),
+    specifiers=[
+        pitch_specifier(source='G3'),
+        ],
+    )
+
+#segment_maker.make_music_handler(
+#    scope=(vc, (3, 4)),
+#    specifiers=[
+#        handlertools.NoteAndChordHairpinHandler(
+#            hairpin_token=['pp < f'],
+#            span='contiguous notes and chords',
+#            ),
+#        ],
+#    )
 
 ### CONTRABASS ###
 
 segment_maker.make_music_handler(
-    scope=(cb, (1, 7)),
+    scope=(cb, (1, 1)),
     specifiers=[
         pitch_specifier(
             source=[pitchtools.PitchSegment(
@@ -745,11 +903,64 @@ segment_maker.make_music_handler(
     )
 
 segment_maker.make_music_handler(
-    scope=(cb, (8, 9)),
+    scope=(cb, (2, 5)),
     specifiers=[
         pitch_specifier(
-            source='G0',
+            source=[pitchtools.PitchSegment(
+                items=[NamedPitch('G#0'), NamedPitch('A#1')], 
+                item_class=NamedPitch,
+                )],
             ),
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(cb, (6, 7)),
+    specifiers=[
+        pitch_specifier(
+            source=[pitchtools.PitchSegment(
+                items=[NamedPitch('G0'), NamedPitch('A1')], 
+                item_class=NamedPitch,
+                )],
+            ),
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(cb, (2, 2)),
+    specifiers=[
+        Dynamic('p'),
+        ],
+    )
+
+#segment_maker.make_music_handler(
+#    scope=(cb, (3, 4)),
+#    specifiers=[
+#        handlertools.NoteAndChordHairpinHandler(
+#            hairpin_token=['p < f'],
+#            span='contiguous notes and chords',
+#            ),
+#        ],
+#    )
+
+segment_maker.make_music_handler(
+    scope=(cb, (5, 5)),
+    specifiers=[
+        estr_sul_pont,
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(cb, (6, 9)),
+    specifiers=[
+        arco_ordinario,
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(cb, (8, 9)),
+    specifiers=[
+        pitch_specifier(source='G0'),
         pervasive_F3_harmonic_trills,
         ],
     )
