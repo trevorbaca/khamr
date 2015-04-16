@@ -124,16 +124,12 @@ class MusicMaker(abctools.AbjadObject):
         assert isinstance(first_leaf, scoretools.Leaf), repr(first_leaf)
         prototype = instrumenttools.Percussion
         if self.instrument is not None:
-            #attach(self.instrument, first_leaf, scope=Staff)
             self._attach_instrument(
                 self.instrument, 
                 first_leaf, 
                 effective_staff_name, 
                 scope=Staff,
                 )
-#        if (isinstance(self.instrument, prototype) and
-#            not self._hide_untuned_percussion_markup):
-#            self._attach_untuned_percussion_markup(first_leaf)
         if self.clef is not None:
             attach(self.clef, first_leaf, scope=Staff)
         if self.staff_line_count is not None:

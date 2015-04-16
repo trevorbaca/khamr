@@ -593,10 +593,6 @@ class SegmentMaker(makertools.SegmentMaker):
 
     def _interpret_music_handlers(self):
         for music_handler in self.music_handlers:
-            #if isinstance(music_handler, baca.makers.PitchHandler):
-            #    self._interpret_pitch_handler(music_handler)
-            #else:
-            #    self._interpret_music_handler(music_handler)
             self._interpret_music_handler(music_handler)
 
     def _interpret_music_makers(self):
@@ -605,13 +601,6 @@ class SegmentMaker(makertools.SegmentMaker):
         self._attach_fermatas()
         for voice in iterate(self._score).by_class(scoretools.Voice):
             self._make_music_for_voice(voice)
-
-#    def _interpret_pitch_handler(self, pitch_handler):
-#        compound_scope = pitch_handler.scope
-#        result = self._compound_scope_to_logical_ties(compound_scope)
-#        logical_ties, timespan = result
-#        for specifier in pitch_handler.specifiers:
-#            specifier(logical_ties, timespan)
 
     def _initialize_music_makers(self, music_makers):
         import khamr

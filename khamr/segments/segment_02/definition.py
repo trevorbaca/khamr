@@ -536,13 +536,102 @@ segment_maker.copy_music_maker(
 ############################### MUSIC-HANDLERS ################################
 ###############################################################################
 
-### FLUTE ##
+### FLUTE ###
+
+segment_maker.make_music_handler(
+    scope=(fl, (1, 2)),
+    specifiers=[
+        pitch_specifier(
+            source='Bb4',
+            ),
+        pervasive_trills,
+        bass_flute_tremoli_hairpins,
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(fl, (4, 5)),
+    specifiers=[
+        Dynamic('fff'),
+        pitch_specifier(
+            source='B5',
+            ),
+        stem_tremolo,
+        khamr.materials.instruments['flute'],
+        ],
+    )
 
 ### OBOE ###
 
+segment_maker.make_music_handler(
+    scope=(ob, (1, 2)),
+    specifiers=[
+        pitch_specifier(
+            source=[pitchtools.PitchSegment(
+                items=[NamedPitch('A4'), NamedPitch('E5')], 
+                item_class=NamedPitch,
+                )],
+            ),
+        reiterated_flageolets,
+        ]
+    )
+
+segment_maker.make_music_handler(
+    scope=(ob, (4, 5)),
+    specifiers=[
+        Dynamic('fff'),
+        pitch_specifier(
+            source='G#3',
+            ),
+        ]
+    )
+
 ### CLARINET ###
 
+segment_maker.make_music_handler(
+    scope=(cl, (1, 3)),
+    specifiers=[
+        #Dynamic('ppp'),
+        pitch_specifier(
+            source='G2',
+            ),
+        ]
+    )
+
+segment_maker.make_music_handler(
+    scope=(cl, (4, 5)),
+    specifiers=[
+        Dynamic('fff'),
+        pitch_specifier(
+            source='F#2',
+            ),
+        ]
+    )
+
 ### SAXOPHONE ###
+
+segment_maker.make_music_handler(
+    scope=(sax, (1, 2)),
+    specifiers=[
+        #Dynamic('pp'),
+        pitch_specifier(
+            source=[pitchtools.PitchSegment(
+                items=[NamedPitch('F3'), NamedPitch('G+3')], 
+                item_class=NamedPitch,
+                )],
+            ),
+        ]
+    )
+
+segment_maker.make_music_handler(
+    scope=(sax, (4, 5)),
+    specifiers=[
+        Dynamic('fff'),
+        pitch_specifier(
+            source='G#2',
+            ),
+        ]
+    )
 
 ### GUITAR ###
 
