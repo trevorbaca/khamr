@@ -238,11 +238,87 @@ segment_maker.make_music_maker(
 
 ### VIOLIN MAKERS ###
 
+segment_maker.make_music_maker(
+    stages=(1, 7),
+    context_name=vn,
+    division_maker=beat_division_maker
+        .fuse_by_counts(
+            counts=mathtools.Infinity(),
+            )
+        .split_by_durations(
+            durations=[(7, 4)]
+            )
+        ,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
+
 ### VIOLA MAKERS ###
+
+segment_maker.make_music_maker(
+    stages=(1, 7),
+    context_name=va,
+    division_maker=beat_division_maker
+        .fuse_by_counts(
+            counts=mathtools.Infinity(),
+            )
+        .split_by_durations(
+            durations=[(6, 4)]
+            )
+        ,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
 
 ### CELLO MAKERS ###
 
+segment_maker.make_music_maker(
+    stages=(1, 7),
+    context_name=vc,
+    division_maker=beat_division_maker
+        .fuse_by_counts(
+            counts=mathtools.Infinity(),
+            )
+        .split_by_durations(
+            durations=[(5, 4)]
+            )
+        ,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
+
 ### CONTRABASS MAKERS ###
+
+segment_maker.make_music_maker(
+    stages=(1, 7),
+    context_name=cb,
+    division_maker=beat_division_maker
+        .fuse_by_counts(
+            counts=mathtools.Infinity(),
+            )
+        .split_by_durations(
+            durations=[(4, 4)]
+            )
+        ,
+    rewrite_meter=True,
+    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True
+            ),
+        ),
+    )
 
 ###############################################################################
 ############################### MUSIC-HANDLERS ################################
@@ -338,3 +414,30 @@ segment_maker.make_music_handler(
 ### CELLO HANDLERS #####
 
 ### CONTRABASS HANDLERS ###
+
+### STRINGS ###
+
+segment_maker.make_music_handler(
+    scope=([vn, va, vc, cb], (1, 7)),
+    specifiers=[
+        alternate_bow_strokes,
+        on_bridge,
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=([vn, va, vc, cb], (1, 3)),
+    specifiers=[
+        Dynamic('p'),
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=([vn, va, vc, cb], (4, 7)),
+    specifiers=[
+        handlertools.NoteAndChordHairpinHandler(
+            hairpin_token=['p > ppp'],
+            span='contiguous notes and chords',
+            ),
+        ],
+    )
