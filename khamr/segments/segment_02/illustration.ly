@@ -1,4 +1,4 @@
-% 2015-04-16 09:03
+% 2015-04-16 11:58
 
 \version "2.19.17"
 \language "english"
@@ -185,116 +185,7 @@
             }
             {
                 \time 6/4
-                \once \override TextSpanner.arrow-width = 0.25
-                \once \override TextSpanner.bound-details.left-broken.padding = -2
-                \once \override TextSpanner.bound-details.left-broken.text = \markup {
-                    \override
-                        #'(padding . 0.45)
-                        \parenthesize
-                            \large
-                                \upright
-                                    accel.
-                    \hspace
-                        #0.75
-                    }
-                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
-                \once \override TextSpanner.bound-details.left.text = \markup {
-                    \fontsize
-                        #-6
-                        \general-align
-                            #Y
-                            #DOWN
-                            \note-by-number
-                                #2
-                                #0
-                                #1
-                    \upright
-                        {
-                            =
-                            84
-                        }
-                    \hspace
-                        #0.5
-                    \general-align
-                        #Y
-                        #DOWN
-                        \override
-                            #'(padding . 0.5)
-                            \parenthesize
-                                \line
-                                    {
-                                        \scale
-                                            #'(0.5 . 0.5)
-                                            \score
-                                                {
-                                                    \new Score \with {
-                                                        \override SpacingSpanner #'spacing-increment = #0.5
-                                                        proportionalNotationDuration = ##f
-                                                    } <<
-                                                        \new RhythmicStaff \with {
-                                                            \remove Time_signature_engraver
-                                                            \remove Staff_symbol_engraver
-                                                            \override Stem #'direction = #up
-                                                            \override Stem #'length = #5
-                                                            \override TupletBracket #'bracket-visibility = ##t
-                                                            \override TupletBracket #'direction = #up
-                                                            \override TupletBracket #'padding = #1.25
-                                                            \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
-                                                            \override TupletNumber #'text = #tuplet-number::calc-fraction-text
-                                                            tupletFullLength = ##t
-                                                        } {
-                                                            c8
-                                                        }
-                                                    >>
-                                                    \layout {
-                                                        indent = #0
-                                                        ragged-right = ##t
-                                                    }
-                                                }
-                                        =
-                                        \hspace
-                                            #-0.5
-                                        \scale
-                                            #'(0.5 . 0.5)
-                                            \score
-                                                {
-                                                    \new Score \with {
-                                                        \override SpacingSpanner #'spacing-increment = #0.5
-                                                        proportionalNotationDuration = ##f
-                                                    } <<
-                                                        \new RhythmicStaff \with {
-                                                            \remove Time_signature_engraver
-                                                            \remove Staff_symbol_engraver
-                                                            \override Stem #'direction = #up
-                                                            \override Stem #'length = #5
-                                                            \override TupletBracket #'bracket-visibility = ##t
-                                                            \override TupletBracket #'direction = #up
-                                                            \override TupletBracket #'padding = #1.25
-                                                            \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
-                                                            \override TupletNumber #'text = #tuplet-number::calc-fraction-text
-                                                            tupletFullLength = ##t
-                                                        } {
-                                                            c4
-                                                        }
-                                                    >>
-                                                    \layout {
-                                                        indent = #0
-                                                        ragged-right = ##t
-                                                    }
-                                                }
-                                    }
-                    \hspace
-                        #1.25
-                    }
-                \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-                \once \override TextSpanner.bound-details.right-broken.padding = 0
-                \once \override TextSpanner.bound-details.right-broken.text = ##f
-                \once \override TextSpanner.bound-details.right.arrow = ##t
-                \once \override TextSpanner.bound-details.right.padding = 2
-                \once \override TextSpanner.bound-details.right.text = ##f
-                \once \override TextSpanner.dash-fraction = 0.25
-                \once \override TextSpanner.dash-period = 1.5
-                s1 * 3/2 \startTextSpan
+                s1 * 3/2
                     - \markup {
                         \smaller
                             \with-color
@@ -324,7 +215,7 @@
             }
             {
                 \time 2/4
-                s1 * 1/2 \stopTextSpan
+                s1 * 1/2
                     - \markup {
                         \smaller
                             \with-color
@@ -407,145 +298,48 @@
                 }
                 \context FluteMusicVoice = "Flute Music Voice" {
                     c''2
-                    \times 8/12 {
-                        c''16 \repeatTie [
-                        c''16
-                        c''16
-                        c''16
-                        c''16
-                        c''16
-                        c''16
-                        c''16
-                        c''16
-                        c''16
-                        c''16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''16 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    c''2. \repeatTie
-                    c''4 \repeatTie
-                    \times 4/7 {
-                        c''8 \repeatTie [
-                        c''8
-                        c''8
-                        c''8
-                        c''8
-                        c''8
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''8 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     c''2 \repeatTie
-                    \times 2/3 {
-                        c''8 \repeatTie [
-                        c''8
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''8 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c''1. \repeatTie
+                    c''4. \repeatTie
+                    r8
+                    c''4
                     c''1 \repeatTie
-                    \times 8/12 {
-                        c''16 \repeatTie [
-                        c''16
-                        c''16
-                        c''16
-                        c''16
-                        c''16
-                        c''16
-                        c''16
-                        c''16
-                        c''16
-                        c''16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''16 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    c''4 \repeatTie
-                    {
-                        c''16 \repeatTie [
-                        c''16
-                        c''16
-                        c''16
-                        c''16
-                        c''16
-                        c''16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''16 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c''2. \repeatTie
                     c''2 \repeatTie
+                    c''8 \repeatTie
+                    r4.
+                    r2.
+                    r2
+                    c''1
+                    c''2. \repeatTie
                     c''2 \repeatTie
-                    \times 4/5 {
-                        c''8 \repeatTie [
-                        c''8
-                        c''8
-                        c''8
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''8 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    c''8 \repeatTie
+                    r8
+                    c''4
+                    c''2. \repeatTie
+                    c''2 \repeatTie
+                    c''4. \repeatTie
                     c''4 \repeatTie
                     r8
-                    c''2..
+                    r2
+                    c''1.
+                    c''2 \repeatTie
+                    c''2. \repeatTie
+                    c''2 \repeatTie
+                    c''2. \repeatTie
+                    r1
+                    r1.
+                    r4
+                    c''4
+                    c''2 \repeatTie
                     c''2. \repeatTie
                     c''1 \repeatTie
-                    r8
-                    c''8
                     c''2 \repeatTie
                     c''2 \repeatTie
+                    c''1. \repeatTie
+                    c''1 \repeatTie
                     c''2. \repeatTie
-                    r8
-                    c''4.
-                    c''4.
-                    c''4. \repeatTie
-                    c''4. \repeatTie
-                    c''4. \repeatTie
-                    r4
-                    r4
-                    c''4
-                    c''4 \repeatTie
-                    c''4 \repeatTie
-                    c''4 \repeatTie
-                    c''4 \repeatTie
-                    r4.
-                    r4.
-                    c''4
-                    c''4 \repeatTie
-                    c''4 \repeatTie
-                    c''4 \repeatTie
-                    r4.
-                    r4.
-                    r4.
-                    r4.
-                    r4
-                    c''4
-                    r4
-                    c''4
-                    r4
-                    r4
-                    c''4
-                    r4
-                    r4
-                    r4
-                    c''4
-                    r4
-                    c''4
-                    r4
-                    c''4
-                    r4.
-                    r4.
-                    r4.
-                    c''4.
-                    r4
-                    r4
-                    r4
-                    c''4
-                    r4
-                    r4
-                    c''4
-                    r4.
-                    c''4.
+                    c''2. \repeatTie
                 }
             }
             \tag winds.oboe
@@ -570,158 +364,42 @@
                         }
                 }
                 \context OboeMusicVoice = "Oboe Music Voice" {
-                    \times 4/7 {
-                        g'8 [
-                        g'8
-                        g'8
-                        g'8
-                        g'8
-                        g'8
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        g'8 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    g'2
                     g'2 \repeatTie
+                    g'1. \repeatTie
                     g'2. \repeatTie
-                    \tweak #'text #tuplet-number::calc-fraction-text
-                    \times 12/20 {
-                        g'16 \repeatTie [
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        g'16 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    g'4 \repeatTie
-                    \times 8/12 {
-                        g'16 \repeatTie [
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        g'16 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    g'1 \repeatTie
-                    \times 6/9 {
-                        g'8 \repeatTie [
-                        g'8
-                        g'8
-                        g'8
-                        g'8
-                        g'8
-                        g'8
-                        g'8
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        g'8 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    g'2 \repeatTie
-                    \times 4/5 {
-                        g'8 \repeatTie [
-                        g'8
-                        g'8
-                        g'8
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        g'8 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    g'8 \repeatTie
+                    r2..
+                    r2.
+                    r4
+                    g'2.
                     g'2. \repeatTie
-                    \times 8/12 {
-                        g'16 \repeatTie [
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16
-                        g'16 ]
-                    }
+                    g'4. \repeatTie
                     r8
-                    g'2..
-                    g'2. \repeatTie
-                    g'1 \repeatTie
-                    g'1 \repeatTie
-                    r8
-                    g'8
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    g'1.
+                    g'2 \repeatTie
                     g'2. \repeatTie
                     g'2 \repeatTie
-                    g'4.
-                    g'4. \repeatTie
-                    g'4. \repeatTie
-                    g'4. \repeatTie
-                    r4
+                    g'2. \repeatTie
+                    r1
+                    r1.
                     r4
                     g'4
-                    g'4 \repeatTie
-                    g'4 \repeatTie
-                    g'4 \repeatTie
-                    g'4 \repeatTie
-                    r4.
-                    r4.
-                    g'4
-                    g'4 \repeatTie
-                    g'4 \repeatTie
-                    g'4 \repeatTie
-                    r4.
-                    r4.
-                    r4.
-                    r4.
-                    r4
-                    g'4
-                    r4
-                    g'4
-                    r4
-                    r4
-                    g'4
-                    r4
-                    r4
-                    r4
-                    g'4
-                    r4
-                    g'4
-                    r4
-                    g'4
-                    r4.
-                    r4.
-                    r4.
-                    g'4.
-                    r4
-                    r4
-                    r4
-                    g'4
-                    r4
-                    r4
-                    g'4
-                    r4.
-                    g'4.
+                    g'2 \repeatTie
+                    g'2. \repeatTie
+                    g'1 \repeatTie
+                    g'2 \repeatTie
+                    g'2 \repeatTie
+                    g'1. \repeatTie
+                    g'1 \repeatTie
+                    g'2. \repeatTie
+                    g'2. \repeatTie
                 }
             }
             \tag winds.clarinet
@@ -747,156 +425,48 @@
                 }
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
                     d''2
-                    \times 4/7 {
-                        d''8 \repeatTie [
-                        d''8
-                        d''8
-                        d''8
-                        d''8
-                        d''8
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        d''8 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    d''1. \repeatTie
-                    \times 4/7 {
-                        d''8 \repeatTie [
-                        d''8
-                        d''8
-                        d''8
-                        d''8
-                        d''8
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        d''8 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    d''4 \repeatTie
                     d''2 \repeatTie
-                    \times 8/12 {
-                        d''16 \repeatTie [
-                        d''16
-                        d''16
-                        d''16
-                        d''16
-                        d''16
-                        d''16
-                        d''16
-                        d''16
-                        d''16
-                        d''16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        d''16 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    d''2. \repeatTie
-                    d''2 \repeatTie
-                    \times 8/12 {
-                        d''16 \repeatTie [
-                        d''16
-                        d''16
-                        d''16
-                        d''16
-                        d''16
-                        d''16
-                        d''16
-                        d''16
-                        d''16
-                        d''16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        d''16 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    d''1 \repeatTie
-                    \times 2/3 {
-                        d''8 \repeatTie [
-                        d''8
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        d''8 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    d''1 \repeatTie
-                    d''2 \repeatTie
-                    \times 2/3 {
-                        d''8 \repeatTie [
-                        d''8
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        d''8 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    d''1 \repeatTie
-                    {
-                        d''16 \repeatTie [
-                        d''16
-                        d''16
-                        d''16
-                        d''16
-                        d''16
-                        d''16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        d''16 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     d''2. \repeatTie
                     d''4. \repeatTie
+                    d''4 \repeatTie
+                    r8
+                    r2.
+                    r2.
+                    d''4
+                    d''2. \repeatTie
+                    d''1 \repeatTie
+                    d''2 \repeatTie
                     d''8 \repeatTie
-                    {
-                        d''16 \repeatTie [
-                        d''16
-                        d''16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        d''16 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    r8
+                    r2
+                    r1
+                    d''2.
+                    d''1 \repeatTie
                     d''2 \repeatTie
-                    d''4.
+                    d''8 \repeatTie
+                    r8
+                    d''2
+                    d''2. \repeatTie
                     d''4. \repeatTie
-                    d''4. \repeatTie
-                    d''4. \repeatTie
-                    r4
-                    r4
-                    d''4
-                    d''4 \repeatTie
-                    d''4 \repeatTie
-                    d''4 \repeatTie
-                    d''4 \repeatTie
-                    r4.
-                    r4.
-                    d''4
-                    d''4 \repeatTie
-                    d''4 \repeatTie
-                    d''4 \repeatTie
-                    r4.
-                    r4.
-                    r4.
-                    r4.
+                    r8
+                    d''1.
+                    d''2 \repeatTie
+                    d''2. \repeatTie
+                    d''2 \repeatTie
+                    d''2. \repeatTie
+                    r1
+                    r1.
                     r4
                     d''4
-                    r4
-                    d''4
-                    r4
-                    r4
-                    d''4
-                    r4
-                    r4
-                    r4
-                    d''4
-                    r4
-                    d''4
-                    r4
-                    d''4
-                    r4.
-                    r4.
-                    r4.
-                    d''4.
-                    r4
-                    r4
-                    r4
-                    d''4
-                    r4
-                    r4
-                    d''4
-                    r4.
-                    d''4.
+                    d''2 \repeatTie
+                    d''2. \repeatTie
+                    d''1 \repeatTie
+                    d''2 \repeatTie
+                    d''2 \repeatTie
+                    d''1. \repeatTie
+                    d''1 \repeatTie
+                    d''2. \repeatTie
+                    d''2. \repeatTie
                 }
             }
             \tag winds.saxophone
@@ -921,208 +491,43 @@
                         }
                 }
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
-                    \times 8/12 {
-                        a''16 [
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        a''16 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    a''2
                     a''2 \repeatTie
-                    a''4. \repeatTie
-                    a''8 \repeatTie
-                    \times 4/5 {
-                        a''8 \repeatTie [
-                        a''8
-                        a''8
-                        a''8
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        a''8 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    a''8 \repeatTie
-                    a''4. \repeatTie
-                    a''4 \repeatTie
-                    {
-                        a''16 \repeatTie [
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        a''16 ]
-                    }
-                    \times 4/5 {
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        a''8 \repeatTie [
-                        a''8
-                        a''8
-                        a''8
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        a''8 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    a''1. \repeatTie
+                    a''2. \repeatTie
                     a''2 \repeatTie
-                    a''4 \repeatTie
-                    {
-                        a''16 \repeatTie [
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        a''16 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    a''8 \repeatTie
+                    r4.
+                    r2.
+                    r2.
+                    a''4
+                    a''2. \repeatTie
+                    a''4. \repeatTie
+                    r8
+                    R1 * 1
+                    R1 * 3/4
+                    R1 * 1
+                    R1 * 5/4
+                    R1 * 3/4
+                    R1 * 1/2
+                    a''1.
+                    a''2 \repeatTie
+                    a''2. \repeatTie
+                    a''2 \repeatTie
+                    a''2. \repeatTie
+                    r1
+                    r1.
+                    r4
+                    a''4
+                    a''2 \repeatTie
+                    a''2. \repeatTie
                     a''1 \repeatTie
-                    \times 2/3 {
-                        a''8 \repeatTie [
-                        a''8
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        a''8 ]
-                    }
-                    {
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        a''16 \repeatTie [
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        a''16 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     a''2 \repeatTie
                     a''2 \repeatTie
-                    \times 4/7 {
-                        a''8 \repeatTie [
-                        a''8
-                        a''8
-                        a''8
-                        a''8
-                        a''8
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        a''8 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
+                    a''1. \repeatTie
+                    a''1 \repeatTie
                     a''2. \repeatTie
-                    \times 8/12 {
-                        a''16 \repeatTie [
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        a''16 ]
-                    }
-                    \times 4/7 {
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        a''8 \repeatTie [
-                        a''8
-                        a''8
-                        a''8
-                        a''8
-                        a''8
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        a''8 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     a''2. \repeatTie
-                    \times 8/12 {
-                        a''16 \repeatTie [
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        a''16
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        a''16 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    a''2. \repeatTie
-                    \times 4/5 {
-                        a''8 \repeatTie [
-                        a''8
-                        a''8
-                        a''8
-                        a''8 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    a''4.
-                    a''4. \repeatTie
-                    a''4. \repeatTie
-                    a''4. \repeatTie
-                    r4
-                    r4
-                    a''4
-                    a''4 \repeatTie
-                    a''4 \repeatTie
-                    a''4 \repeatTie
-                    a''4 \repeatTie
-                    r4.
-                    r4.
-                    a''4
-                    a''4 \repeatTie
-                    a''4 \repeatTie
-                    a''4 \repeatTie
-                    r4.
-                    r4.
-                    r4.
-                    r4.
-                    r4
-                    a''4
-                    r4
-                    a''4
-                    r4
-                    r4
-                    a''4
-                    r4
-                    r4
-                    r4
-                    a''4
-                    r4
-                    a''4
-                    r4
-                    a''4
-                    r4.
-                    r4.
-                    r4.
-                    a''4.
-                    r4
-                    r4
-                    r4
-                    a''4
-                    r4
-                    r4
-                    a''4
-                    r4.
-                    a''4.
                 }
             }
         >>
@@ -1168,54 +573,33 @@
                     c''1
                     c''2. \repeatTie
                     c''1 \repeatTie
-                    c''4 \repeatTie
-                    c''4
-                    c''2.
-                    c''4
-                    c''2.
+                    c''2. \repeatTie
+                    c''2 \repeatTie
+                    c''1 \repeatTie
                     c''2. \repeatTie
                     c''1 \repeatTie
-                    c''4 \repeatTie
-                    c''4
-                    c''2.
-                    c''4.
-                    c''4.
+                    c''2. \repeatTie
                     c''2 \repeatTie
-                    c''1. :32
+                    c''2. \repeatTie
                     r2
-                    c''1 :32
-                    c''4 :32 \repeatTie
-                    r2.
-                    c''1 :32
+                    c''1. :32
+                    c''2 :32 \repeatTie
+                    c''2. :32 \repeatTie
+                    c''2 :32 \repeatTie
+                    c''2. :32 \repeatTie
+                    r1
                     r1.
                     r4
                     c''4 :32
-                    r4
-                    c''4 :32
-                    r4
-                    r4
-                    c''4 :32
-                    r4
-                    r4
-                    r4
-                    c''4 :32
-                    r4
-                    c''4 :32
-                    r4
-                    c''4 :32
-                    r4.
-                    r4.
-                    r4.
-                    c''4. :32
-                    r4
-                    r4
-                    r4
-                    c''4 :32
-                    r4
-                    r4
-                    c''4 :32
-                    r4.
-                    c''4. :32
+                    c''2 :32 \repeatTie
+                    c''2. :32 \repeatTie
+                    c''1 :32 \repeatTie
+                    c''2 :32 \repeatTie
+                    c''2 :32 \repeatTie
+                    c''1. :32 \repeatTie
+                    c''1 :32 \repeatTie
+                    c''2. :32 \repeatTie
+                    c''2. :32 \repeatTie
                 }
             }
             \tag percussion.piano
@@ -1261,156 +645,26 @@
                                     }
                             }
                     c'2 \repeatTie
+                    c'1. \repeatTie
                     c'2. \repeatTie
-                    c'4. \repeatTie
-                    c'4 \repeatTie
-                    r8
-                    c'2.
-                    c'2.. \repeatTie
-                    r8
-                    r2.
+                    c'1 \repeatTie
+                    c'2. \repeatTie
+                    c'1 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'1 \repeatTie
+                    c'2. \repeatTie
+                    c'1 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    r2
+                    c'1.
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
                     r1
-                    r2.
-                    r2
-                    c'1
-                    c'2 \repeatTie
-                    c'8 \repeatTie
-                    r8
-                    c'1
-                    c'2. \repeatTie
-                    c'2 \repeatTie
-                    c'4. \repeatTie
-                    c'4 \repeatTie
-                    r8
-                    r2
-                    \override TupletNumber #'text = \markup {
-                        \scale
-                            #'(0.75 . 0.75)
-                            \score
-                                {
-                                    \new Score \with {
-                                        \override SpacingSpanner #'spacing-increment = #0.5
-                                        proportionalNotationDuration = ##f
-                                    } <<
-                                        \new RhythmicStaff \with {
-                                            \remove Time_signature_engraver
-                                            \remove Staff_symbol_engraver
-                                            \override Stem #'direction = #up
-                                            \override Stem #'length = #5
-                                            \override TupletBracket #'bracket-visibility = ##t
-                                            \override TupletBracket #'direction = #up
-                                            \override TupletBracket #'padding = #1.25
-                                            \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
-                                            \override TupletNumber #'text = #tuplet-number::calc-fraction-text
-                                            tupletFullLength = ##t
-                                        } {
-                                            c'1.
-                                        }
-                                    >>
-                                    \layout {
-                                        indent = #0
-                                        ragged-right = ##t
-                                    }
-                                }
-                        }
-                    \times 1/1 {
-                        \once \override Beam #'grow-direction = #left
-                        c'16 * 31/16 [
-                        c'16 * 127/64
-                        c'16 * 133/64
-                        c'16 * 9/4
-                        c'16 * 159/64
-                        c'16 * 179/64
-                        c'16 * 101/32
-                        c'16 * 225/64
-                        c'16 * 243/64 ]
-                    }
-                    \revert TupletNumber #'text
-                    r2
-                    \override TupletNumber #'text = \markup {
-                        \scale
-                            #'(0.75 . 0.75)
-                            \score
-                                {
-                                    \new Score \with {
-                                        \override SpacingSpanner #'spacing-increment = #0.5
-                                        proportionalNotationDuration = ##f
-                                    } <<
-                                        \new RhythmicStaff \with {
-                                            \remove Time_signature_engraver
-                                            \remove Staff_symbol_engraver
-                                            \override Stem #'direction = #up
-                                            \override Stem #'length = #5
-                                            \override TupletBracket #'bracket-visibility = ##t
-                                            \override TupletBracket #'direction = #up
-                                            \override TupletBracket #'padding = #1.25
-                                            \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
-                                            \override TupletNumber #'text = #tuplet-number::calc-fraction-text
-                                            tupletFullLength = ##t
-                                        } {
-                                            c'1 ~
-                                            c'4
-                                        }
-                                    >>
-                                    \layout {
-                                        indent = #0
-                                        ragged-right = ##t
-                                    }
-                                }
-                        }
-                    \times 1/1 {
-                        \once \override Beam #'grow-direction = #left
-                        c'16 * 115/64 [
-                        c'16 * 117/64
-                        c'16 * 63/32
-                        c'16 * 35/16
-                        c'16 * 5/2
-                        c'16 * 185/64
-                        c'16 * 105/32
-                        c'16 * 227/64 ]
-                    }
-                    \revert TupletNumber #'text
-                    r2.
-                    \override TupletNumber #'text = \markup {
-                        \scale
-                            #'(0.75 . 0.75)
-                            \score
-                                {
-                                    \new Score \with {
-                                        \override SpacingSpanner #'spacing-increment = #0.5
-                                        proportionalNotationDuration = ##f
-                                    } <<
-                                        \new RhythmicStaff \with {
-                                            \remove Time_signature_engraver
-                                            \remove Staff_symbol_engraver
-                                            \override Stem #'direction = #up
-                                            \override Stem #'length = #5
-                                            \override TupletBracket #'bracket-visibility = ##t
-                                            \override TupletBracket #'direction = #up
-                                            \override TupletBracket #'padding = #1.25
-                                            \override TupletBracket #'shorten-pair = #'(-1 . -1.5)
-                                            \override TupletNumber #'text = #tuplet-number::calc-fraction-text
-                                            tupletFullLength = ##t
-                                        } {
-                                            c'1
-                                        }
-                                    >>
-                                    \layout {
-                                        indent = #0
-                                        ragged-right = ##t
-                                    }
-                                }
-                        }
-                    \times 1/1 {
-                        \once \override Beam #'grow-direction = #left
-                        c'16 * 2 [
-                        c'16 * 133/64
-                        c'16 * 147/64
-                        c'16 * 43/16
-                        c'16 * 205/64
-                        c'16 * 239/64 ]
-                    }
-                    \revert TupletNumber #'text
                     r1.
                     r4
                     \times 2/3 {
@@ -1506,26 +760,21 @@
                     c'2
                     c'2 \repeatTie
                     c'1. \repeatTie
-                    c'2. \repeatTie
-                    c'4
                     c'2.
-                    c'4.
-                    c'4.
+                    c'1 \repeatTie
+                    c'2. \repeatTie
                     c'1 \repeatTie
                     c'2. \repeatTie
                     c'2 \repeatTie
-                    c'4 \repeatTie
-                    c'4
-                    c'2
-                    c'4 \repeatTie
-                    c'4
-                    c'4
-                    c'1 \repeatTie
-                    c'2. \repeatTie
                     c'2 \repeatTie
-                    c'4. \repeatTie
-                    c'4.
                     c'2
+                    c'2 \repeatTie
+                    r4
+                    r1
+                    r2.
+                    r2
+                    r2.
+                    r2
                     r1.
                     c'4
                     r4
@@ -1688,55 +937,24 @@
                         c'4
                     }
                     c'2 \repeatTie
-                    c'4.
-                    c'4. \repeatTie
-                    c'4. \repeatTie
-                    c'4. \repeatTie
-                    r4
-                    r4
-                    c'4
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    r4.
-                    r4.
-                    c'4
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    r4.
-                    r4.
-                    r4.
-                    r4.
+                    c'1.
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    r1
+                    r1.
                     r4
                     c'4
-                    r4
-                    c'4
-                    r4
-                    r4
-                    c'4
-                    r4
-                    r4
-                    r4
-                    c'4
-                    r4
-                    c'4
-                    r4
-                    c'4
-                    r4.
-                    r4.
-                    r4.
-                    c'4.
-                    r4
-                    r4
-                    r4
-                    c'4
-                    r4
-                    r4
-                    c'4
-                    r4.
-                    c'4.
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'1 \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'1. \repeatTie
+                    c'1 \repeatTie
+                    c'2. \repeatTie
+                    c'2. \repeatTie
                 }
             }
             \tag strings.viola
@@ -1836,55 +1054,24 @@
                         c'8. ]
                     }
                     c'2 \repeatTie
-                    c'4.
-                    c'4. \repeatTie
-                    c'4. \repeatTie
-                    c'4. \repeatTie
-                    r4
-                    r4
-                    c'4
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    r4.
-                    r4.
-                    c'4
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    r4.
-                    r4.
-                    r4.
-                    r4.
+                    c'1.
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    r1
+                    r1.
                     r4
                     c'4
-                    r4
-                    c'4
-                    r4
-                    r4
-                    c'4
-                    r4
-                    r4
-                    r4
-                    c'4
-                    r4
-                    c'4
-                    r4
-                    c'4
-                    r4.
-                    r4.
-                    r4.
-                    c'4.
-                    r4
-                    r4
-                    r4
-                    c'4
-                    r4
-                    r4
-                    c'4
-                    r4.
-                    c'4.
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'1 \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'1. \repeatTie
+                    c'1 \repeatTie
+                    c'2. \repeatTie
+                    c'2. \repeatTie
                 }
             }
             \tag strings.cello
@@ -1938,86 +1125,31 @@
                         c'4
                     }
                     c'1 \repeatTie
-                    \times 4/5 {
-                        c'16 \repeatTie
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'4
-                    }
+                    c'1
                     c'2. \repeatTie
-                    c'4 \repeatTie
-                    \times 4/5 {
-                        c'8 \repeatTie [
-                        \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'8. ]
-                    }
-                    c'4 \repeatTie
-                    c'2. \repeatTie
-                    \times 4/5 {
-                        c'8. \repeatTie [
-                        c'8 ]
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     c'1 \repeatTie
-                    \times 4/5 {
-                        c'4 \repeatTie
-                        c'16
-                    }
-                    \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     c'2. \repeatTie
-                    c'4 \repeatTie
-                    \times 4/5 {
-                        c'16 \repeatTie
-                        c'4
-                    }
-                    c'4.
-                    c'4. \repeatTie
-                    c'4. \repeatTie
-                    c'4. \repeatTie
-                    r4
-                    r4
-                    c'4
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    r4.
-                    r4.
-                    c'4
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    c'4 \repeatTie
-                    r4.
-                    r4.
-                    r4.
-                    r4.
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'1.
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    r1
+                    r1.
                     r4
                     c'4
-                    r4
-                    c'4
-                    r4
-                    r4
-                    c'4
-                    r4
-                    r4
-                    r4
-                    c'4
-                    r4
-                    c'4
-                    r4
-                    c'4
-                    r4.
-                    r4.
-                    r4.
-                    c'4.
-                    r4
-                    r4
-                    r4
-                    c'4
-                    r4
-                    r4
-                    c'4
-                    r4.
-                    c'4.
+                    c'2 \repeatTie
+                    c'2. \repeatTie
+                    c'1 \repeatTie
+                    c'2 \repeatTie
+                    c'2 \repeatTie
+                    c'1. \repeatTie
+                    c'1 \repeatTie
+                    c'2. \repeatTie
+                    c'2. \repeatTie
                 }
             }
             \tag strings.contrabass
@@ -2095,55 +1227,24 @@
                     \once \override NoteHead #'style = #'harmonic
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     <gqs, aqs>2 \repeatTie
-                    <g,, a,>4. \f
-                    <g,, a,>4. \repeatTie
-                    <g,, a,>4. \repeatTie
-                    <g,, a,>4. \repeatTie
-                    r4
-                    r4
-                    <g,, a,>4
-                    <g,, a,>4 \repeatTie
-                    <g,, a,>4 \repeatTie
-                    <g,, a,>4 \repeatTie
-                    <g,, a,>4 \repeatTie
-                    r4.
-                    r4.
-                    <g,, a,>4
-                    <g,, a,>4 \repeatTie
-                    <g,, a,>4 \repeatTie
-                    <g,, a,>4 \repeatTie
-                    r4.
-                    r4.
-                    r4.
-                    r4.
+                    <g,, a,>1. \f
+                    <g,, a,>2 \repeatTie
+                    <g,, a,>2. \repeatTie
+                    <g,, a,>2 \repeatTie
+                    <g,, a,>2. \repeatTie
+                    r1
+                    r1.
                     r4
                     <g,, a,>4
-                    r4
-                    <g,, a,>4
-                    r4
-                    r4
-                    <g,, a,>4
-                    r4
-                    r4
-                    r4
-                    <g,, a,>4
-                    r4
-                    <g,, a,>4
-                    r4
-                    <g,, a,>4
-                    r4.
-                    r4.
-                    r4.
-                    <g,, a,>4.
-                    r4
-                    r4
-                    r4
-                    <g,, a,>4
-                    r4
-                    r4
-                    <g,, a,>4
-                    r4.
-                    <g,, a,>4.
+                    <g,, a,>2 \repeatTie
+                    <g,, a,>2. \repeatTie
+                    <g,, a,>1 \repeatTie
+                    <g,, a,>2 \repeatTie
+                    <g,, a,>2 \repeatTie
+                    <g,, a,>1. \repeatTie
+                    <g,, a,>1 \repeatTie
+                    <g,, a,>2. \repeatTie
+                    <g,, a,>2. \repeatTie
                 }
             }
         >>
