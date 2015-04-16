@@ -4,6 +4,6 @@ from abjad import *
 
 metadata = datastructuretools.TypedOrderedDict(
     [
-        ('output_material_class_name', 'list'),
+        ('output_material_class_name', 'PitchSegment'),
         ]
     )

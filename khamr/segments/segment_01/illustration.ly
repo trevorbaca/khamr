@@ -1,4 +1,4 @@
-% 2015-04-15 22:55
+% 2015-04-16 00:09
 
 \version "2.19.17"
 \language "english"
@@ -816,126 +816,213 @@
                     Gt.
                 }
                 \context GuitarMusicVoice = "Guitar Music Voice" {
-                    c''4
+                    \once \override NoteHead #'style = #'cross
+                    cs'4 \mp
+                    \once \override NoteHead #'style = #'cross
                     r4
+                    \once \override NoteHead #'style = #'cross
                     r2
+                    \once \override NoteHead #'style = #'cross
                     r1.
+                    \once \override NoteHead #'style = #'cross
                     r2.
                     {
+                        \once \override NoteHead #'style = #'cross
                         r8
-                        c''16
+                        \once \override NoteHead #'style = #'cross
+                        c'16
+                        \once \override NoteHead #'style = #'cross
                         r16
                     }
+                    \once \override NoteHead #'style = #'cross
                     r2.
+                    \once \override NoteHead #'style = #'cross
                     r4
                     {
+                        \once \override NoteHead #'style = #'cross
                         r16
-                        c''16
+                        \once \override NoteHead #'style = #'cross
+                        a'16
+                        \once \override NoteHead #'style = #'cross
                         r8
                     }
+                    \once \override NoteHead #'style = #'cross
                     r4
+                    \once \override NoteHead #'style = #'cross
                     r2
                     {
+                        \once \override NoteHead #'style = #'cross
                         r8
-                        c''16
+                        \once \override NoteHead #'style = #'cross
+                        d'16
+                        \once \override NoteHead #'style = #'cross
                         r16
                     }
+                    \once \override NoteHead #'style = #'cross
                     r4
+                    \once \override NoteHead #'style = #'cross
                     r2.
                     \times 4/5 {
+                        \once \override NoteHead #'style = #'cross
                         r8.
-                        c''16
+                        \once \override NoteHead #'style = #'cross
+                        fs'16
+                        \once \override NoteHead #'style = #'cross
                         r16
                     }
+                    \once \override NoteHead #'style = #'cross
                     r4
+                    \once \override NoteHead #'style = #'cross
                     r2
                     \times 4/5 {
+                        \once \override NoteHead #'style = #'cross
                         r8.
-                        c''16
+                        \once \override NoteHead #'style = #'cross
+                        g'16
+                        \once \override NoteHead #'style = #'cross
                         r16
                     }
+                    \once \override NoteHead #'style = #'cross
                     r4
+                    \once \override NoteHead #'style = #'cross
                     r2.
                     \times 2/3 {
+                        \once \override NoteHead #'style = #'cross
                         r8
-                        c''4
+                        \once \override NoteHead #'style = #'cross
+                        bf'4
                     }
+                    \once \override NoteHead #'style = #'cross
                     r2.
                     \times 2/3 {
+                        \once \override NoteHead #'style = #'cross
                         r8
-                        c''8
+                        \once \override NoteHead #'style = #'cross
+                        d'8
+                        \once \override NoteHead #'style = #'cross
                         r8
                     }
+                    \once \override NoteHead #'style = #'cross
                     r1
                     {
+                        \once \override NoteHead #'style = #'cross
                         r8
-                        c''16
+                        \once \override NoteHead #'style = #'cross
+                        ef'16
+                        \once \override NoteHead #'style = #'cross
                         r16
                     }
+                    \once \override NoteHead #'style = #'cross
                     r8
+                    \once \override NoteHead #'style = #'cross
                     r4.
+                    \once \override NoteHead #'style = #'cross
                     r4
                     \times 2/3 {
+                        \once \override NoteHead #'style = #'cross
                         r8
-                        c''8
+                        \once \override NoteHead #'style = #'cross
+                        cs'8
+                        \once \override NoteHead #'style = #'cross
                         r8
                     }
+                    \once \override NoteHead #'style = #'cross
                     r2.
+                    \once \override NoteHead #'style = #'cross
                     r4
                     {
+                        \once \override NoteHead #'style = #'cross
                         r8
-                        c''16
+                        \once \override NoteHead #'style = #'cross
+                        b'16
+                        \once \override NoteHead #'style = #'cross
                         r16
                     }
+                    \once \override NoteHead #'style = #'cross
                     r4
+                    \once \override NoteHead #'style = #'cross
                     r2
                     {
+                        \once \override NoteHead #'style = #'cross
                         r16
-                        c''16
+                        \once \override NoteHead #'style = #'cross
+                        a'16
+                        \once \override NoteHead #'style = #'cross
                         r8
                     }
+                    \once \override NoteHead #'style = #'cross
                     r1
                     \times 4/5 {
+                        \once \override NoteHead #'style = #'cross
                         r8.
-                        c''16
+                        \once \override NoteHead #'style = #'cross
+                        bf'16
+                        \once \override NoteHead #'style = #'cross
                         r16
                     }
+                    \once \override NoteHead #'style = #'cross
                     r8
+                    \once \override NoteHead #'style = #'cross
                     r4.
+                    \once \override NoteHead #'style = #'cross
                     r4
                     \times 4/5 {
+                        \once \override NoteHead #'style = #'cross
                         r8.
-                        c''16
+                        \once \override NoteHead #'style = #'cross
+                        af'16
+                        \once \override NoteHead #'style = #'cross
                         r16
                     }
+                    \once \override NoteHead #'style = #'cross
                     r2
+                    \once \override NoteHead #'style = #'cross
                     r4.
+                    \once \override NoteHead #'style = #'cross
                     r8
                     \times 2/3 {
+                        \once \override NoteHead #'style = #'cross
                         r8
-                        c''8
+                        \once \override NoteHead #'style = #'cross
+                        e8
+                        \once \override NoteHead #'style = #'cross
                         r8
                     }
+                    \once \override NoteHead #'style = #'cross
                     r2.
                     \times 2/3 {
+                        \once \override NoteHead #'style = #'cross
                         r8
-                        c''4
+                        \once \override NoteHead #'style = #'cross
+                        f4
                     }
+                    \once \override NoteHead #'style = #'cross
                     r4
+                    \once \override NoteHead #'style = #'cross
                     r2
+                    \once \override NoteHead #'style = #'cross
                     r4
                     \times 2/3 {
+                        \once \override NoteHead #'style = #'cross
                         r8
-                        c''8
+                        \once \override NoteHead #'style = #'cross
+                        d'8
+                        \once \override NoteHead #'style = #'cross
                         r8
                     }
+                    \once \override NoteHead #'style = #'cross
                     r4
+                    \once \override NoteHead #'style = #'cross
                     r2
                     {
+                        \once \override NoteHead #'style = #'cross
                         r8
-                        c''16
+                        \once \override NoteHead #'style = #'cross
+                        fs'16
+                        \once \override NoteHead #'style = #'cross
                         r16
                     }
+                    \once \override NoteHead #'style = #'cross
                     r4
                     \override TupletNumber #'text = \markup {
                         \scale
@@ -969,10 +1056,18 @@
                         }
                     \times 1/1 {
                         \once \override Beam #'grow-direction = #right
-                        c''16 * 117/16 [
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        cs''16 * 117/16 [
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
                         c''16 * 73/16
-                        c''16 * 73/32
-                        c''16 * 59/32 ]
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        a''16 * 73/32
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        d''16 * 59/32 ]
                     }
                     \revert TupletNumber #'text
                     \override TupletNumber #'text = \markup {
@@ -1007,14 +1102,28 @@
                         }
                     \times 1/1 {
                         \once \override Beam #'grow-direction = #left
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''16 * 115/64 \repeatTie [
-                        c''16 * 121/64
-                        c''16 * 139/64
-                        c''16 * 87/32
-                        c''16 * 117/32
-                        c''16 * 81/16
-                        c''16 * 429/64 ]
+                        d''16 * 115/64 \repeatTie [
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        fs''16 * 121/64
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        g''16 * 139/64
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        bf''16 * 87/32
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        d''16 * 117/32
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        ef''16 * 81/16
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        cs''16 * 429/64 ]
                     }
                     \revert TupletNumber #'text
                     \override TupletNumber #'text = \markup {
@@ -1049,13 +1158,27 @@
                         }
                     \times 1/1 {
                         \once \override Beam #'grow-direction = #right
-                        c''16 * 487/64 \repeatTie [
-                        c''16 * 209/32
-                        c''16 * 143/32
-                        c''16 * 197/64
-                        c''16 * 19/8
-                        c''16 * 65/32
-                        c''16 * 61/32 ]
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        cs''16 * 487/64 \repeatTie [
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        b''16 * 209/32
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        a''16 * 143/32
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        bf''16 * 197/64
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        af''16 * 19/8
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        e''16 * 65/32
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        f''16 * 61/32 ]
                     }
                     \revert TupletNumber #'text
                     \override TupletNumber #'text = \markup {
@@ -1090,11 +1213,19 @@
                         }
                     \times 1/1 {
                         \once \override Beam #'grow-direction = #left
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''16 * 13/8 \repeatTie [
-                        c''16 * 125/64
-                        c''16 * 49/16
-                        c''16 * 343/64 ]
+                        f''16 * 13/8 \repeatTie [
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        d''16 * 125/64
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        fs''16 * 49/16
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        g''16 * 343/64 ]
                     }
                     \revert TupletNumber #'text
                     \override TupletNumber #'text = \markup {
@@ -1130,15 +1261,33 @@
                         }
                     \times 1/1 {
                         \once \override Beam #'grow-direction = #right
-                        c''16 * 123/16 \repeatTie [
-                        c''16 * 449/64
-                        c''16 * 351/64
-                        c''16 * 65/16
-                        c''16 * 199/64
-                        c''16 * 81/32
-                        c''16 * 35/16
-                        c''16 * 2
-                        c''16 * 123/64 ]
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        g''16 * 123/16 \repeatTie [
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        bf''16 * 449/64
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        a''16 * 351/64
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        ef''16 * 65/16
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        cs''16 * 199/64
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        b''16 * 81/32
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        f''16 * 35/16
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        bf''16 * 2
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        af''16 * 123/64 ]
                     }
                     \revert TupletNumber #'text
                     \override TupletNumber #'text = \markup {
@@ -1173,11 +1322,19 @@
                         }
                     \times 1/1 {
                         \once \override Beam #'grow-direction = #left
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''16 * 13/8 \repeatTie [
-                        c''16 * 125/64
-                        c''16 * 49/16
-                        c''16 * 343/64 ]
+                        af''16 * 13/8 \repeatTie [
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        e''16 * 125/64
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        d''16 * 49/16
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        cs''16 * 343/64 ]
                     }
                     \revert TupletNumber #'text
                     \override TupletNumber #'text = \markup {
@@ -1212,14 +1369,30 @@
                         }
                     \times 1/1 {
                         \once \override Beam #'grow-direction = #right
-                        c''16 * 245/32 \repeatTie [
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        cs''16 * 245/32 \repeatTie [
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
                         c''16 * 109/16
-                        c''16 * 161/32
-                        c''16 * 115/32
-                        c''16 * 175/64
-                        c''16 * 9/4
-                        c''16 * 129/64
-                        c''16 * 61/32 ]
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        a''16 * 161/32
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        b''16 * 115/32
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        a''16 * 175/64
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        ef''16 * 9/4
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        cs''16 * 129/64
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        e''16 * 61/32 ]
                     }
                     \revert TupletNumber #'text
                     \override TupletNumber #'text = \markup {
@@ -1255,13 +1428,25 @@
                         }
                     \times 1/1 {
                         \once \override Beam #'grow-direction = #left
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''16 * 113/64 \repeatTie [
-                        c''16 * 121/64
-                        c''16 * 147/64
-                        c''16 * 25/8
-                        c''16 * 145/32
-                        c''16 * 409/64 ]
+                        e''16 * 113/64 \repeatTie [
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        f''16 * 121/64
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        bf''16 * 147/64
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        af''16 * 25/8
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        a''16 * 145/32
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        d''16 * 409/64 ]
                     }
                     \revert TupletNumber #'text
                     \override TupletNumber #'text = \markup {
@@ -1297,11 +1482,21 @@
                         }
                     \times 1/1 {
                         \once \override Beam #'grow-direction = #right
-                        c''16 * 477/64 \repeatTie [
-                        c''16 * 353/64
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        d''16 * 477/64 \repeatTie [
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        cs''16 * 353/64
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
                         c''16 * 97/32
-                        c''16 * 17/8
-                        c''16 * 15/8 ]
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        bf''16 * 17/8
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        d''16 * 15/8 ]
                     }
                     \revert TupletNumber #'text
                     \override TupletNumber #'text = \markup {
@@ -1336,43 +1531,97 @@
                         }
                     \times 1/1 {
                         \once \override Beam #'grow-direction = #left
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''16 * 115/64 \repeatTie [
-                        c''16 * 121/64
-                        c''16 * 139/64
-                        c''16 * 87/32
-                        c''16 * 117/32
-                        c''16 * 81/16
-                        c''16 * 429/64 ]
+                        d''16 * 115/64 \repeatTie [
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        fs''16 * 121/64
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        g''16 * 139/64
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        af''16 * 87/32
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        e''16 * 117/32
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        f''16 * 81/16
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        bf''16 * 429/64 ]
                     }
                     \revert TupletNumber #'text
-                    c''2 \repeatTie
+                    \once \override NoteHead #'style = #'cross
+                    \once \override TupletBracket #'staff-padding = #4
+                    bf''2 \repeatTie
                     \times 2/3 {
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
                         r8
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
                         c''8
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
                         r8
                     }
+                    \once \override NoteHead #'style = #'cross
+                    \once \override TupletBracket #'staff-padding = #4
                     r2
+                    \once \override NoteHead #'style = #'cross
+                    \once \override TupletBracket #'staff-padding = #4
                     r4
                     \times 2/3 {
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
                         r8
-                        c''4
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        a''4
                     }
+                    \once \override NoteHead #'style = #'cross
+                    \once \override TupletBracket #'staff-padding = #4
                     r2.
+                    \once \override NoteHead #'style = #'cross
+                    \once \override TupletBracket #'staff-padding = #4
                     r4
                     \times 2/3 {
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
                         r8
-                        c''8
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        d''8
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
                         r8
                     }
+                    \once \override NoteHead #'style = #'cross
+                    \once \override TupletBracket #'staff-padding = #4
                     r2
+                    \once \override NoteHead #'style = #'cross
+                    \once \override TupletBracket #'staff-padding = #4
                     r4
                     {
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
                         r8
-                        c''16
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
+                        cs''16
+                        \once \override NoteHead #'style = #'cross
+                        \once \override TupletBracket #'staff-padding = #4
                         r16
                     }
+                    \once \override NoteHead #'style = #'cross
+                    \once \override TupletBracket #'staff-padding = #4
                     r4
+                    \once \override NoteHead #'style = #'cross
+                    \once \override TupletBracket #'staff-padding = #4
                     r2.
                 }
             }
@@ -1454,16 +1703,17 @@
                         }
                     \times 1/1 {
                         \once \override Beam #'grow-direction = #right
-                        c'16 * 247/32 [
-                        c'16 * 459/64
-                        c'16 * 187/32
-                        c'16 * 287/64
-                        c'16 * 223/64
-                        c'16 * 181/64
-                        c'16 * 153/64
-                        c'16 * 137/64
-                        c'16 * 2
-                        c'16 * 31/16 ]
+                        \ottava #1
+                        cs''''16 * 247/32 \f [
+                        c''''16 * 459/64
+                        a'''16 * 187/32
+                        d''''16 * 287/64
+                        fs'''16 * 223/64
+                        g'''16 * 181/64
+                        bf'''16 * 153/64
+                        d''''16 * 137/64
+                        ef''''16 * 2
+                        cs''''16 * 31/16 ]
                     }
                     \revert TupletNumber #'text
                     \override TupletNumber #'text = \markup {
@@ -1499,14 +1749,14 @@
                     \times 1/1 {
                         \once \override Beam #'grow-direction = #left
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'16 * 117/64 \repeatTie [
-                        c'16 * 121/64
-                        c'16 * 135/64
-                        c'16 * 5/2
-                        c'16 * 201/64
-                        c'16 * 33/8
-                        c'16 * 11/2
-                        c'16 * 221/32 ]
+                        cs''''16 * 117/64 \repeatTie [
+                        b'''16 * 121/64
+                        a'''16 * 135/64
+                        bf'''16 * 5/2
+                        af'''16 * 201/64
+                        e''''16 * 33/8
+                        f''''16 * 11/2
+                        d''''16 * 221/32 ]
                     }
                     \revert TupletNumber #'text
                     \override TupletNumber #'text = \markup {
@@ -1541,19 +1791,19 @@
                         }
                     \times 1/1 {
                         \once \override Beam #'grow-direction = #right
-                        c'16 * 497/64 \repeatTie [
-                        c'16 * 59/8
-                        c'16 * 51/8
-                        c'16 * 333/64
-                        c'16 * 67/16
-                        c'16 * 219/64
-                        c'16 * 185/64
-                        c'16 * 5/2
-                        c'16 * 9/4
-                        c'16 * 133/64
-                        c'16 * 127/64
+                        d''''16 * 497/64 \repeatTie [
+                        fs'''16 * 59/8
+                        g'''16 * 51/8
+                        bf'''16 * 333/64
+                        a'''16 * 67/16
+                        ef''''16 * 219/64
+                        cs''''16 * 185/64
+                        b'''16 * 5/2
+                        f''''16 * 9/4
+                        bf'''16 * 133/64
+                        af'''16 * 127/64
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'16 * 63/32 ]
+                        e''''16 * 63/32 ]
                     }
                     \revert TupletNumber #'text
                     \override TupletNumber #'text = \markup {
@@ -1589,14 +1839,14 @@
                     \times 1/1 {
                         \once \override Beam #'grow-direction = #left
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c'16 * 117/64 \repeatTie [
-                        c'16 * 121/64
-                        c'16 * 135/64
-                        c'16 * 5/2
-                        c'16 * 201/64
-                        c'16 * 33/8
-                        c'16 * 11/2
-                        c'16 * 221/32 ]
+                        e''''16 * 117/64 \repeatTie [
+                        d''''16 * 121/64
+                        cs''''16 * 135/64
+                        c''''16 * 5/2
+                        a'''16 * 201/64
+                        b'''16 * 33/8
+                        a'''16 * 11/2
+                        ef''''16 * 221/32 ]
                     }
                     \revert TupletNumber #'text
                     \override TupletNumber #'text = \markup {
@@ -1632,20 +1882,20 @@
                         }
                     \times 1/1 {
                         \once \override Beam #'grow-direction = #right
-                        c'16 * 123/16 \repeatTie [
-                        c'16 * 449/64
-                        c'16 * 351/64
-                        c'16 * 65/16
-                        c'16 * 199/64
-                        c'16 * 81/32
-                        c'16 * 35/16
-                        c'16 * 2
-                        c'16 * 123/64 ]
+                        ef''''16 * 123/16 \repeatTie [
+                        cs''''16 * 449/64
+                        e''''16 * 351/64
+                        f''''16 * 65/16
+                        bf'''16 * 199/64
+                        af'''16 * 81/32
+                        a'''16 * 35/16
+                        d''''16 * 2
+                        cs''''16 * 123/64 ]
                     }
                     \revert TupletNumber #'text
                     \times 2/3 {
                         r8
-                        c'8
+                        c''''8
                         r8
                     }
                     r8
@@ -1653,22 +1903,23 @@
                     r4
                     \times 2/3 {
                         r8
-                        c'4
+                        bf'''4
                     }
                     r2.
                     r4
                     \times 2/3 {
                         r8
-                        c'8
+                        d''''8
                         r8
                     }
                     r4
                     r2
-                    c'1
-                    c'4 \repeatTie
-                    c'2. \repeatTie
-                    c'1 \repeatTie
-                    c'1. \repeatTie
+                    fs'''1
+                    fs'''4 \repeatTie
+                    fs'''2. \repeatTie
+                    fs'''1 \repeatTie
+                    fs'''1. \repeatTie
+                    \ottava #0
                 }
             }
             \tag percussion
@@ -1976,55 +2227,37 @@
                     b'2. \repeatTie
                     \once \override NoteHead #'style = #'harmonic
                     b'2 \repeatTie \p \glissando
-                    \once \override NoteHead #'style = #'harmonic
-                    aqs'4. \> \p
-                    \once \override NoteHead #'style = #'harmonic
-                    aqs'8 \repeatTie
+                    c'4.
+                    c'8 \repeatTie
                     \times 4/5 {
-                        \once \override NoteHead #'style = #'harmonic
-                        aqs'16 \repeatTie \ppp \glissando
-                        \once \override NoteHead #'style = #'harmonic
+                        c'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        cqf''4 \< \ppp
+                        c'4
                     }
-                    \once \override NoteHead #'style = #'harmonic
-                    cqf''2 \repeatTie
+                    c'2 \repeatTie
                     \times 4/5 {
-                        \once \override NoteHead #'style = #'harmonic
-                        cqf''8 \repeatTie \pp \glissando [
-                        \once \override NoteHead #'style = #'harmonic
+                        c'8 \repeatTie [
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        bf'8. ] \> \pp
+                        c'8. ]
                     }
-                    \once \override NoteHead #'style = #'harmonic
-                    bf'8 \repeatTie
-                    \once \override NoteHead #'style = #'harmonic
-                    bf'4. \repeatTie
+                    c'8 \repeatTie
+                    c'4. \repeatTie
                     \times 4/5 {
-                        \once \override NoteHead #'style = #'harmonic
-                        bf'8. \repeatTie \ppp \glissando [
-                        \once \override NoteHead #'style = #'harmonic
-                        c''8 ] \< \ppp
+                        c'8. \repeatTie [
+                        c'8 ]
                     }
-                    \once \override NoteHead #'style = #'harmonic
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    c''8 \repeatTie
-                    \once \override NoteHead #'style = #'harmonic
-                    c''4. \repeatTie
+                    c'8 \repeatTie
+                    c'4. \repeatTie
                     \times 4/5 {
-                        \once \override NoteHead #'style = #'harmonic
-                        c''4 \repeatTie \pp \glissando
-                        \once \override NoteHead #'style = #'harmonic
-                        g'16 \> \pp
+                        c'4 \repeatTie
+                        c'16
                     }
-                    \once \override NoteHead #'style = #'harmonic
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    g'4 \repeatTie
-                    \once \override NoteHead #'style = #'harmonic
-                    g'4 \repeatTie
+                    c'4 \repeatTie
+                    c'4 \repeatTie
                     \times 4/5 {
-                        \once \override NoteHead #'style = #'harmonic
-                        g'16 \repeatTie \ppp \glissando
+                        c'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         c'4
                     }
@@ -2221,44 +2454,30 @@
                     b'1 \repeatTie \p \glissando
                     \once \override NoteHead #'style = #'harmonic
                     aqs'4 \p \glissando
-                    \once \override NoteHead #'style = #'harmonic
-                    cqf''2. \< \ppp
+                    c'2.
                     \times 4/5 {
-                        \once \override NoteHead #'style = #'harmonic
-                        cqf''16 \repeatTie \pp \glissando
-                        \once \override NoteHead #'style = #'harmonic
+                        c'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        bf'4 \> \pp
+                        c'4
                     }
-                    \once \override NoteHead #'style = #'harmonic
-                    bf'4 \repeatTie
-                    \once \override NoteHead #'style = #'harmonic
-                    bf'4. \repeatTie
-                    \once \override NoteHead #'style = #'harmonic
-                    bf'8 \repeatTie
+                    c'4 \repeatTie
+                    c'4. \repeatTie
+                    c'8 \repeatTie
                     \times 4/5 {
-                        \once \override NoteHead #'style = #'harmonic
-                        bf'8 \repeatTie \ppp \glissando [
-                        \once \override NoteHead #'style = #'harmonic
+                        c'8 \repeatTie [
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                        c''8. ] \< \ppp
+                        c'8. ]
                     }
-                    \once \override NoteHead #'style = #'harmonic
-                    c''2. \repeatTie
+                    c'2. \repeatTie
                     \times 4/5 {
-                        \once \override NoteHead #'style = #'harmonic
-                        c''8. \repeatTie \pp \glissando [
-                        \once \override NoteHead #'style = #'harmonic
-                        g'8 ] \> \pp
+                        c'8. \repeatTie [
+                        c'8 ]
                     }
-                    \once \override NoteHead #'style = #'harmonic
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
-                    g'4 \repeatTie
-                    \once \override NoteHead #'style = #'harmonic
-                    g'2 \repeatTie
+                    c'4 \repeatTie
+                    c'2 \repeatTie
                     \times 4/5 {
-                        \once \override NoteHead #'style = #'harmonic
-                        g'4 \repeatTie \ppp \glissando
+                        c'4 \repeatTie
                         c'16
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
@@ -2405,152 +2624,91 @@
                     \once \override NoteHead #'style = #'harmonic
                     b1 \repeatTie \pp
                     \times 2/3 {
-                        \once \override NoteHead #'style = #'harmonic
                         r8
-                        \once \override NoteHead #'style = #'harmonic
-                        aqs8 \pp
-                        \once \override NoteHead #'style = #'harmonic
+                        c'8
                         r8
                     }
-                    \once \override NoteHead #'style = #'harmonic
                     r4
-                    \once \override NoteHead #'style = #'harmonic
                     r2
                     \times 2/3 {
-                        \once \override NoteHead #'style = #'harmonic
                         r8
-                        \once \override NoteHead #'style = #'harmonic
-                        bf4 \ppp
+                        c'4
                     }
-                    \once \override NoteHead #'style = #'harmonic
                     r8
-                    \once \override NoteHead #'style = #'harmonic
                     r2.
-                    \once \override NoteHead #'style = #'harmonic
                     r8
                     \times 2/3 {
-                        \once \override NoteHead #'style = #'harmonic
                         r8
-                        \once \override NoteHead #'style = #'harmonic
-                        g8 \pp
-                        \once \override NoteHead #'style = #'harmonic
+                        c'8
                         r8
                     }
-                    \once \override NoteHead #'style = #'harmonic
                     r2.
                     {
-                        \once \override NoteHead #'style = #'harmonic
                         r8
-                        \once \override NoteHead #'style = #'harmonic
-                        a16 \p
-                        \once \override NoteHead #'style = #'harmonic
+                        c'16
                         r16
                     }
-                    \once \override NoteHead #'style = #'harmonic
                     r2.
-                    \once \override NoteHead #'style = #'harmonic
                     r4
                     {
-                        \once \override NoteHead #'style = #'harmonic
                         r16
-                        \once \override NoteHead #'style = #'harmonic
-                        b16 \pp
-                        \once \override NoteHead #'style = #'harmonic
+                        c'16
                         r8
                     }
-                    \once \override NoteHead #'style = #'harmonic
                     r4
-                    \once \override NoteHead #'style = #'harmonic
                     r2
                     {
-                        \once \override NoteHead #'style = #'harmonic
                         r8
-                        \once \override NoteHead #'style = #'harmonic
-                        aqs16 \p
-                        \once \override NoteHead #'style = #'harmonic
+                        c'16
                         r16
                     }
-                    \once \override NoteHead #'style = #'harmonic
                     r4
-                    \once \override NoteHead #'style = #'harmonic
                     r2.
                     \times 4/5 {
-                        \once \override NoteHead #'style = #'harmonic
                         r8.
-                        \once \override NoteHead #'style = #'harmonic
-                        cqf'16 \ppp
-                        \once \override NoteHead #'style = #'harmonic
+                        c'16
                         r16
                     }
-                    \once \override NoteHead #'style = #'harmonic
                     r4
-                    \once \override NoteHead #'style = #'harmonic
                     r2
                     \times 4/5 {
-                        \once \override NoteHead #'style = #'harmonic
                         r8.
-                        \once \override NoteHead #'style = #'harmonic
-                        bf16 \pp
-                        \once \override NoteHead #'style = #'harmonic
+                        c'16
                         r16
                     }
-                    \once \override NoteHead #'style = #'harmonic
                     r1
                     \times 2/3 {
-                        \once \override NoteHead #'style = #'harmonic
                         r8
-                        \once \override NoteHead #'style = #'harmonic
-                        c'4 \ppp
+                        c'4
                     }
-                    \once \override NoteHead #'style = #'harmonic
                     r2.
                     \times 2/3 {
-                        \once \override NoteHead #'style = #'harmonic
                         r8
-                        \once \override NoteHead #'style = #'harmonic
-                        g8 \pp
-                        \once \override NoteHead #'style = #'harmonic
+                        c'8
                         r8
                     }
-                    \once \override NoteHead #'style = #'harmonic
                     r1
                     {
-                        \once \override NoteHead #'style = #'harmonic
                         r8
-                        \once \override NoteHead #'style = #'harmonic
-                        c'16 \ppp
-                        \once \override NoteHead #'style = #'harmonic
+                        c'16
                         r16
                     }
-                    \once \override NoteHead #'style = #'harmonic
                     r8
-                    \once \override NoteHead #'style = #'harmonic
                     r4.
-                    \once \override NoteHead #'style = #'harmonic
                     r4
                     \times 2/3 {
-                        \once \override NoteHead #'style = #'harmonic
                         r8
-                        \once \override NoteHead #'style = #'harmonic
-                        bqf8 \pp
-                        \once \override NoteHead #'style = #'harmonic
+                        c'8
                         r8
                     }
-                    \once \override NoteHead #'style = #'harmonic
                     r2.
-                    \once \override NoteHead #'style = #'harmonic
                     r4
                     {
-                        \once \override NoteHead #'style = #'harmonic
                         r8
-                        \once \override NoteHead #'style = #'harmonic
-                        cqs'16 \p
-                        \once \override NoteHead #'style = #'harmonic
+                        c'16
                         r16
                     }
-                    \once \override NoteHead #'style = #'harmonic
                     r4
-                    \once \override NoteHead #'style = #'harmonic
                     r2
                     {
                         r16

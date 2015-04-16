@@ -109,6 +109,12 @@ string = 'catch resonance (but not attack) with pedal'
 catch_resonance = Markup(string, direction=Up, stack_priority=1000)
 catch_resonance = catch_resonance.larger()
 
+cross_note_heads = handlertools.OverrideHandler(
+    grob_name='note_head',
+    attribute_name='style',
+    attribute_value="'cross'",
+    )
+
 effort_fff = make_effort_dynamic_markup('fff')
 effort_ff = make_effort_dynamic_markup('ff')
 effort_f = make_effort_dynamic_markup('f')
@@ -525,3 +531,27 @@ single_line_staff = spannertools.StaffLinesSpanner(lines=1)
 put_reed_back_in = Markup('put reed back in', direction=Up).larger()
 
 flageolet = indicatortools.LilyPondCommand('flageolet', format_slot='right')
+
+wide_third_octave = baca.makers.RegistrationSpecifier(
+    registration=pitchtools.Registration(
+        [('[A0, F#4)', -20), ('[F#4, C8]', -6)]
+        ),
+    )
+
+narrow_fourth_octave = baca.makers.RegistrationSpecifier(
+    registration=pitchtools.Registration(
+        [('[A0, F#4)', -2), ('[F#4, C8]', 1)],
+        ),
+    )
+
+narrow_sixth_octave = baca.makers.RegistrationSpecifier(
+    registration=pitchtools.Registration(
+        [('[A0, F#4)', 22), ('[F#4, C8]', 25)],
+        ),
+    )
+
+sixth_octave = baca.makers.RegistrationSpecifier(
+    registration=pitchtools.Registration(
+        [('[A0, C8)', 30)],
+        ),
+    )

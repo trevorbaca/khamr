@@ -603,7 +603,51 @@ segment_maker.make_music_handler(
 
 ### GUITAR ###
 
+segment_maker.make_music_handler(
+    scope=(gt, (1, 3)),
+    specifiers=[
+        Dynamic('mp'),
+        pitch_specifier(
+            source=khamr.materials.rose_pitch_classes,
+            ),
+        wide_third_octave,
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(gt, (4, 7)),
+    specifiers=[
+        narrow_fourth_octave,
+        tuplet_bracket_staff_padding(4),
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(gt, (1, 7)),
+    specifiers=[
+        cross_note_heads,
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=([gt, pf], (4, 7)),
+    specifiers=[
+        pitch_specifier(
+            source=khamr.materials.rose_pitch_classes,
+            ),
+        ],
+    )
+
 ### PIANO ###
+
+segment_maker.make_music_handler(
+    scope=(pf, (4, 7)),
+    specifiers=[
+        Dynamic('f'),
+        sixth_octave,
+        ottava,
+        ],
+    )
 
 ### PERCUSSION ###
 
@@ -624,7 +668,7 @@ segment_maker.make_music_handler(
 ### VIOLIN ###
 
 segment_maker.make_music_handler(
-    scope=(vn, (1, 6)),
+    scope=(vn, (1, 5)),
     specifiers=[
         baca.makers.GlissandoSpecifier(
             patterns=rhythmmakertools.select_all(),
@@ -642,7 +686,7 @@ segment_maker.make_music_handler(
 ### VIOLA ###
 
 segment_maker.make_music_handler(
-    scope=(va, (1, 6)),
+    scope=(va, (1, 5)),
     specifiers=[
         baca.makers.GlissandoSpecifier(
             patterns=rhythmmakertools.select_all(),
@@ -660,7 +704,7 @@ segment_maker.make_music_handler(
 ### CELLO ###
 
 segment_maker.make_music_handler(
-    scope=(vc, (1, 6)),
+    scope=(vc, (1, 3)),
     specifiers=[
         baca.makers.GlissandoSpecifier(
             patterns=rhythmmakertools.select_all(),
