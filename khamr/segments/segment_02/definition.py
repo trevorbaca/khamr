@@ -69,7 +69,7 @@ guitar_accelerando = rhythmmakertools.InterpolationSpecifier(
 
 guitar_ritardando = guitar_accelerando.reverse()
 
-### FLUTE ###
+### FLUTE MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 2),
@@ -168,7 +168,7 @@ segment_maker.copy_music_maker(
     context_name=ob,
     )
 
-### CLARINET ###
+### CLARINET MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 3),
@@ -209,7 +209,7 @@ segment_maker.copy_music_maker(
     context_name=cl,
     )
 
-### SAXOPHONE ###
+### SAXOPHONE MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 2),
@@ -249,7 +249,7 @@ segment_maker.copy_music_maker(
     context_name=sax,
     )
 
-### GUITAR ###
+### GUITAR MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 1),
@@ -296,7 +296,7 @@ segment_maker.copy_music_maker(
     context_name=gt,
     )
 
-### PIANO ###
+### PIANO MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 3),
@@ -337,7 +337,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-### PERCUSSION ###
+### PERCUSSION MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 3),
@@ -396,7 +396,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-### VIOLIN ###
+### VIOLIN MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 3),
@@ -428,7 +428,7 @@ segment_maker.copy_music_maker(
     context_name=vn,
     )
 
-### VIOLA ###
+### VIOLA MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 3),
@@ -460,7 +460,7 @@ segment_maker.copy_music_maker(
     context_name=va,
     )
 
-### CELLO ###
+### CELLO MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 2),
@@ -507,7 +507,7 @@ segment_maker.copy_music_maker(
     context_name=vc,
     )
 
-### CONTRABASS ###
+### CONTRABASS MAKES ###
 
 segment_maker.make_music_maker(
     stages=(1, 3),
@@ -551,7 +551,7 @@ segment_maker.copy_music_maker(
 ############################### MUSIC-HANDLERS ################################
 ###############################################################################
 
-### FLUTE ###
+### FLUTE HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=(fl, (1, 2)),
@@ -567,16 +567,17 @@ segment_maker.make_music_handler(
 segment_maker.make_music_handler(
     scope=(fl, (4, 5)),
     specifiers=[
-        Dynamic('fff'),
+        reiterated_fff,
         pitch_specifier(
             source='B5',
             ),
         stem_tremolo,
+        fluttertongue,
         khamr.materials.instruments['flute'],
         ],
     )
 
-### OBOE ###
+### OBOE HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=(ob, (1, 2)),
@@ -594,14 +595,14 @@ segment_maker.make_music_handler(
 segment_maker.make_music_handler(
     scope=(ob, (4, 5)),
     specifiers=[
-        Dynamic('fff'),
+        reiterated_fff,
         pitch_specifier(
             source='G#3',
             ),
         ]
     )
 
-### CLARINET ###
+### CLARINET HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=(cl, (1, 3)),
@@ -615,14 +616,14 @@ segment_maker.make_music_handler(
 segment_maker.make_music_handler(
     scope=(cl, (4, 5)),
     specifiers=[
-        Dynamic('fff'),
+        reiterated_fff,
         pitch_specifier(
             source='F#2',
             ),
         ]
     )
 
-### SAXOPHONE ###
+### SAXOPHONE HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=(sax, (1, 2)),
@@ -639,14 +640,14 @@ segment_maker.make_music_handler(
 segment_maker.make_music_handler(
     scope=(sax, (4, 5)),
     specifiers=[
-        Dynamic('fff'),
+        reiterated_fff,
         pitch_specifier(
             source='G#2',
             ),
         ]
     )
 
-### GUITAR ###
+### GUITAR HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=(gt, (1, 1)),
@@ -663,7 +664,7 @@ segment_maker.make_music_handler(
     scope=(gt, (2, 3)),
     specifiers=[
         Dynamic('mf'),
-        pitch_specifier(source='F#3'),
+        pitch_specifier(source='F#2'),
         sparse_guitar_clicks,
         ],
     )
@@ -673,17 +674,18 @@ segment_maker.make_music_handler(
     specifiers=[
         Dynamic('ff'),
         guitar_with_screw,
-        pitch_specifier(source='G3'),
+        pitch_specifier(source='G2'),
         ],
     )
 
-### PIANO ###
+### PIANO HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=(pf, (1, 3)),
     specifiers=[
         single_line_staff,
-        pitch_specifier(source='D3'),
+        # dummy centerline pitch
+        pitch_specifier(source='C4'),
         repeat_tie_up,
         ],
     )
@@ -691,7 +693,7 @@ segment_maker.make_music_handler(
 segment_maker.make_music_handler(
     scope=(pf, (4, 4)),
     specifiers=[
-        Dynamic('fff'),
+        reiterated_fff,
         Clef('bass'),
         pitch_specifier(
             source=[pitchtools.PitchSegment(
@@ -717,29 +719,29 @@ segment_maker.make_music_handler(
     scope=(pf, (5, 5)),
     specifiers=[
         Clef('treble'),
-        Dynamic('ffff'),
+        Dynamic('fff'),
         pitch_specifier(
             source=khamr.materials.rose_pitch_classes,
             operators=[pitchtools.Inversion()],
             ),
         sixth_octave,
-        marcati,
         ottava,
         ],
     )
 
-### PERCUSSION ###
+### PERCUSSION HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=(perc, (1, 3)),
     specifiers=[
         pitch_specifier(
-            source='F3 F3 Ab5 F3 F3 F3',
+            source='C4 C4 Ab5 C4 C4 C4',
             ),
         stem_direction(Down),
         khamr.makers.MarimbaHitSpecifier(
             indices=[2],
             ),
+        pervasive_accents,
         ],
     )
 
@@ -756,7 +758,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-### VIOLIN ###
+### VIOLIN HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=(vn, (1, 1)),
@@ -792,9 +794,16 @@ segment_maker.make_music_handler(
     )
 
 segment_maker.make_music_handler(
+    scope=(vn, (1, 3)),
+    specifiers=[
+        pervasive_accents,
+        ],
+    )
+
+segment_maker.make_music_handler(
     scope=(vn, (4, 5)),
     specifiers=[
-        Dynamic('fff'),
+        reiterated_fff,
         pitch_specifier(
             source='A4',
             ),
@@ -802,7 +811,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-### VIOLA ###
+### VIOLA HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=(va, (1, 1)),
@@ -837,9 +846,16 @@ segment_maker.make_music_handler(
     )
 
 segment_maker.make_music_handler(
+    scope=(va, (1, 3)),
+    specifiers=[
+        pervasive_accents,
+        ],
+    )
+
+segment_maker.make_music_handler(
     scope=(va, (4, 5)),
     specifiers=[
-        Dynamic('fff'),
+        reiterated_fff,
         pitch_specifier(
             source='G#4',
             ),
@@ -847,7 +863,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-### CELLO ###
+### CELLO HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=(vc, (1, 2)),
@@ -856,6 +872,7 @@ segment_maker.make_music_handler(
             source=khamr.materials.color_trill_pitches,
             ),
         pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
+        pervasive_accents,
         ],
     )
 
@@ -873,7 +890,7 @@ segment_maker.make_music_handler(
 segment_maker.make_music_handler(
     scope=(vc, (4, 5)),
     specifiers=[
-        Dynamic('fff'),
+        reiterated_fff,
         pitch_specifier(
             source='G3',
             ),
@@ -881,7 +898,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-### CONTRABASS ###
+### CONTRABASS HANDLERS ###
 
 segment_maker.make_music_handler(
     scope=(cb, (1, 3)),
@@ -905,7 +922,7 @@ segment_maker.make_music_handler(
 segment_maker.make_music_handler(
     scope=(cb, (4, 5)),
     specifiers=[
-        Dynamic('fff'),
+        reiterated_fff,
         pitch_specifier(
             source=[pitchtools.PitchSegment(
                 items=[NamedPitch('G0'), NamedPitch('A1')], 

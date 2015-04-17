@@ -159,11 +159,15 @@ fingertips = fingertips.larger()
 fifth_harmonic_of_F1 = Markup('5th harmonic of F1', direction=Up)
 fifth_harmonic_of_F1 = fifth_harmonic_of_F1.larger()
 
+fluttertongue = Markup('fluttertongue', direction=Up).larger()
+
 fret_guiro = Markup('fret guiro', direction=Up).larger()
 
-string = r'draw metal screw back and forth across string:'
-string += ' continuous loud sound'
-guitar_with_screw = Markup(string, direction=Up).line().larger()
+string = 'draw metal screw back and forth slowly across string;'
+first_line = Markup(string).line()
+second_line = Markup('continuous loud sound').line()
+guitar_with_screw = Markup.column([first_line, second_line], direction=Up)
+guitar_with_screw = guitar_with_screw.larger()
 
 gridato_possibile = Markup('gridato possibile', direction=Up).italic().larger()
 
@@ -177,21 +181,25 @@ string = 'move towards (and then back away from) the bridge'
 string += ' at the center of each accelerando'
 move_towards_the_bridge = Markup(string, direction=Up).larger()
 
-string = r'sparse, individual clicks with incredibly slow-moving bow'
-string += ' (1-2/sec. in irregular rhythm)'
-sparse_cello_clicks = Markup(string, direction=Up).line().larger()
+string = 'sparse, individual clicks with extremely slow bow'
+first_line = Markup(string).line()
+second_line = Markup('(1-2/sec. in irregular rhythm)').line()
+sparse_cello_clicks = Markup.column([first_line, second_line], direction=Up)
+sparse_cello_clicks = sparse_cello_clicks.larger()
 
-string = r'sparse, individual clicks with nail or pick up string'
-string += ' (1-2/sec. in irregular rhythm)'
-sparse_guitar_clicks = Markup(string, direction=Up).line().larger()
+string = 'sparse, individual clicks with nail or pick laterally up string'
+first_line = Markup(string).line()
+second_line = Markup('(1-2/sec. in irregular rhythm)').line()
+sparse_guitar_clicks = Markup.column([first_line, second_line], direction=Up)
+sparse_guitar_clicks = sparse_guitar_clicks.larger()
 
 string = r'sparse, individual clicks with credit card'
 string += r' on C \hspace #-0.5 \raise #1 \sharp \hspace #-0.5 1 string'
 first_line = Markup(string).line()
 string = ' (1-2/sec. in irregular rhythm)'
 second_line = Markup(string).line()
-#sparse_piano_clicks = Markup(string, direction=Up).line().larger()
-sparse_piano_clicks = Markup.column([first_line, second_line]).larger()
+sparse_piano_clicks = Markup.column([first_line, second_line], direction=Up)
+sparse_piano_clicks = sparse_piano_clicks.larger()
 
 leggierissimo = Markup('leggierissimo', direction=Up).italic().larger()
 
