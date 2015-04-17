@@ -1,4 +1,4 @@
-% 2015-04-17 09:35
+% 2015-04-17 09:42
 
 \version "2.19.17"
 \language "english"
@@ -58,12 +58,6 @@
                 \bar ""
                 \mark #1
                 s1 * 1/2 \startTextSpan
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [A1]
-                        }
             }
             {
                 s1 * 1/2
@@ -118,12 +112,6 @@
                 \once \override TextSpanner.dash-fraction = 0.25
                 \once \override TextSpanner.dash-period = 1.5
                 s1 * 1 \stopTextSpan \startTextSpan
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [A2]
-                        }
             }
             {
                 \time 6/8
@@ -139,14 +127,7 @@
             }
             {
                 \time 4/4
-                s1 * 1 \stopTextSpan
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [A3]
-                        }
-                    ^ \markup {
+                s1 * 1 \stopTextSpan ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -186,12 +167,6 @@
             {
                 \time 6/4
                 s1 * 3/2
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [A4]
-                        }
             }
             {
                 \time 2/4
@@ -215,14 +190,7 @@
             }
             {
                 \time 2/4
-                s1 * 1/2
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [A5]
-                        }
-                    ^ \markup {
+                s1 * 1/2 ^ \markup {
                     \fontsize
                         #-6
                         \general-align
