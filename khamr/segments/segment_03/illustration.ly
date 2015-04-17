@@ -1,4 +1,4 @@
-% 2015-04-16 21:55
+% 2015-04-17 09:06
 
 \version "2.19.17"
 \language "english"
@@ -25,22 +25,6 @@
                                 #blue
                                 [B1]
                         }
-                    ^ \markup {
-                    \fontsize
-                        #-6
-                        \general-align
-                            #Y
-                            #DOWN
-                            \note-by-number
-                                #2
-                                #0
-                                #1
-                    \upright
-                        {
-                            =
-                            126
-                        }
-                    }
             }
             {
                 s1 * 1/2
@@ -364,7 +348,7 @@
                                 #10
                                 Fl.
                             }
-                        d'''16 \fff [
+                        d'''16 -\accent \fff [
                         e'''16
                         fs'''16
                         c'''16
@@ -375,7 +359,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -386,7 +370,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -397,7 +381,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -408,7 +392,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -419,7 +403,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -430,7 +414,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -441,7 +425,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -452,7 +436,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -463,7 +447,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -474,7 +458,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -485,7 +469,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -496,7 +480,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -507,7 +491,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -518,7 +502,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -529,7 +513,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -540,7 +524,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -551,7 +535,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -562,7 +546,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -573,7 +557,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -584,7 +568,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -595,7 +579,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -606,7 +590,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -617,7 +601,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -628,7 +612,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -639,7 +623,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -650,7 +634,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -661,7 +645,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -672,7 +656,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -683,7 +667,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -694,7 +678,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -705,7 +689,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -716,7 +700,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -727,7 +711,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -738,7 +722,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -749,7 +733,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -760,7 +744,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -771,7 +755,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -782,7 +766,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -793,7 +777,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -803,7 +787,7 @@
                         f'''16 ]
                     }
                     \times 4/5 {
-                        d'''16 [
+                        d'''16 -\accent [
                         e'''16
                         fs'''16
                         c'''16
@@ -816,7 +800,17 @@
                     bf'1 \pp
                         ^ \markup {
                             \larger
-                                "air tone with lips covering mouthplate (sounds major 7th lower)"
+                                \column
+                                    {
+                                        \line
+                                            {
+                                                "air tone with lips covering mouthplate"
+                                            }
+                                        \line
+                                            {
+                                                "(sounds major 7th lower)"
+                                            }
+                                    }
                             }
                     bf'2... \repeatTie
                     r16
@@ -827,6 +821,7 @@
                     bf'4 \repeatTie
                     bf'16 \repeatTie
                     r16
+                    \bar "|"
                 }
             }
             \tag winds.oboe
@@ -888,7 +883,7 @@
                                 #10
                                 Ob.
                             }
-                        c'''16 \fff [
+                        c'''16 -\accent \fff [
                         cs'''16
                         ds'''16
                         e'''16
@@ -897,7 +892,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -906,7 +901,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -915,7 +910,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -924,7 +919,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -933,7 +928,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -942,7 +937,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -951,7 +946,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -960,7 +955,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -969,7 +964,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -978,7 +973,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -987,7 +982,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -996,7 +991,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1005,7 +1000,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1014,7 +1009,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1023,7 +1018,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1032,7 +1027,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1041,7 +1036,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1050,7 +1045,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1059,7 +1054,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1068,7 +1063,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1077,7 +1072,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1086,7 +1081,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1095,7 +1090,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1104,7 +1099,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1113,7 +1108,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1122,7 +1117,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1131,7 +1126,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1140,7 +1135,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1149,7 +1144,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1158,7 +1153,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1167,7 +1162,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1176,7 +1171,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1185,7 +1180,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1194,7 +1189,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1203,7 +1198,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1212,7 +1207,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1221,7 +1216,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1230,7 +1225,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1239,7 +1234,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1248,7 +1243,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1257,7 +1252,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1266,7 +1261,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1275,7 +1270,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1284,7 +1279,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1293,7 +1288,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1302,7 +1297,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1311,7 +1306,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1320,7 +1315,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1329,7 +1324,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1338,7 +1333,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1347,7 +1342,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1356,7 +1351,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1365,7 +1360,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1374,7 +1369,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1383,7 +1378,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1391,7 +1386,7 @@
                         fs'''16 ]
                     }
                     \times 4/5 {
-                        c'''16 [
+                        c'''16 -\accent [
                         cs'''16
                         ds'''16
                         e'''16
@@ -1414,7 +1409,7 @@
                     b'2. \pp
                         ^ \markup {
                             \larger
-                                "air tone (without reed): inhale and exhale alternately"
+                                "air tone without reed: mix inhales and exhales ad lib."
                             }
                     \once \override RepeatTie #'direction = #up
                     b'4. \repeatTie
@@ -1426,6 +1421,7 @@
                     \startStaff
                     \once \override RepeatTie #'direction = #up
                     r16
+                    \bar "|"
                 }
             }
             \tag winds.clarinet
@@ -1486,7 +1482,7 @@
                                 #10
                                 Cl.
                             }
-                        e'''16 \fff [
+                        e'''16 -\accent \fff [
                         es'''16
                         g'''16
                         gs'''16
@@ -1497,7 +1493,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1508,7 +1504,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1519,7 +1515,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1530,7 +1526,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1541,7 +1537,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1552,7 +1548,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1563,7 +1559,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1574,7 +1570,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1585,7 +1581,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1596,7 +1592,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1607,7 +1603,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1618,7 +1614,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1629,7 +1625,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1640,7 +1636,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1651,7 +1647,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1662,7 +1658,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1673,7 +1669,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1684,7 +1680,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1695,7 +1691,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1706,7 +1702,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1717,7 +1713,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1728,7 +1724,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1739,7 +1735,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1750,7 +1746,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1761,7 +1757,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1772,7 +1768,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1783,7 +1779,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1794,7 +1790,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1805,7 +1801,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1816,7 +1812,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1827,7 +1823,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1838,7 +1834,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1849,7 +1845,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1860,7 +1856,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1871,7 +1867,7 @@
                         g'''16 ]
                     }
                     \times 4/5 {
-                        e'''16 [
+                        e'''16 -\accent [
                         es'''16
                         g'''16
                         gs'''16
@@ -1929,6 +1925,7 @@
                     a1 \repeatTie
                     a4 \repeatTie
                     r2.
+                    \bar "|"
                 }
             }
             \tag winds.saxophone
@@ -2006,7 +2003,7 @@
                                         sax.
                                     }
                             }
-                        a''16 \fff [
+                        a''16 -\accent \fff [
                         as''16
                         b''16
                         d'''16
@@ -2016,7 +2013,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2026,7 +2023,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2036,7 +2033,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2046,7 +2043,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2056,7 +2053,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2066,7 +2063,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2076,7 +2073,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2086,7 +2083,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2096,7 +2093,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2106,7 +2103,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2116,7 +2113,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2126,7 +2123,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2136,7 +2133,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2146,7 +2143,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2156,7 +2153,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2166,7 +2163,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2176,7 +2173,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2186,7 +2183,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2196,7 +2193,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2206,7 +2203,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2216,7 +2213,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2226,7 +2223,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2236,7 +2233,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2246,7 +2243,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2256,7 +2253,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2266,7 +2263,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2276,7 +2273,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2286,7 +2283,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2296,7 +2293,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2306,7 +2303,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2316,7 +2313,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2326,7 +2323,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2336,7 +2333,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2346,7 +2343,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2356,7 +2353,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2366,7 +2363,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2376,7 +2373,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2386,7 +2383,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2396,7 +2393,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2406,7 +2403,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2416,7 +2413,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2426,7 +2423,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2436,7 +2433,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2446,7 +2443,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2456,7 +2453,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2466,7 +2463,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16
                         d'''16
@@ -2475,7 +2472,7 @@
                         cs'''16 ]
                     }
                     \times 2/3 {
-                        a''16 [
+                        a''16 -\accent [
                         as''16
                         b''16 ]
                     }
@@ -2511,6 +2508,7 @@
                     \startStaff
                     \once \override RepeatTie #'direction = #up
                     r16
+                    \bar "|"
                 }
             }
         >>
@@ -2568,6 +2566,7 @@
                     R1 * 1
                     R1 * 5/4
                     R1 * 3/4
+                    \bar "|"
                 }
             }
             \tag percussion.piano
@@ -2652,7 +2651,7 @@
                         d''''16 ]
                     }
                     \times 2/3 {
-                        e''''8 \fffff [
+                        e''''8 \ffff [
                         c''''8
                         af'''8 ]
                     }
@@ -2770,7 +2769,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 \fff [
+                        c'''16 -\accent \fff [
                         d'''16
                         ds'''16
                         e'''16
@@ -2784,7 +2783,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -2798,7 +2797,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -2812,7 +2811,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -2826,7 +2825,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -2840,7 +2839,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -2854,7 +2853,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -2868,7 +2867,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -2882,7 +2881,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -2896,7 +2895,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -2910,7 +2909,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -2924,7 +2923,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -2938,7 +2937,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -2952,7 +2951,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -2966,7 +2965,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -2980,7 +2979,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -2994,7 +2993,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -3008,7 +3007,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -3022,7 +3021,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -3036,7 +3035,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -3050,7 +3049,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -3064,7 +3063,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -3078,7 +3077,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -3092,7 +3091,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -3106,7 +3105,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -3120,7 +3119,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -3134,7 +3133,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -3148,7 +3147,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -3162,7 +3161,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -3176,7 +3175,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -3190,7 +3189,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 9/11 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -3204,7 +3203,7 @@
                     }
                     \tweak #'text #tuplet-number::calc-fraction-text
                     \times 5/7 {
-                        c'''16 [
+                        c'''16 -\accent [
                         d'''16
                         ds'''16
                         e'''16
@@ -3220,6 +3219,7 @@
                     R1 * 1
                     R1 * 5/4
                     R1 * 3/4
+                    \bar "|"
                 }
             }
             \tag percussion
@@ -3241,7 +3241,7 @@
                     R1 * 3/2
                     R1 * 3/4
                     \clef "percussion"
-                    c'1 :32 \ppp
+                    c'1 :32 \pp
                         ^ \markup {
                             \larger
                                 \override
@@ -3349,6 +3349,7 @@
                     c'2. :32 \repeatTie
                     c'2 :32 \repeatTie
                     c'2. :32 \repeatTie
+                    \bar "|"
                 }
             }
         >>
@@ -3500,6 +3501,7 @@
                     R1 * 1
                     R1 * 5/4
                     R1 * 3/4
+                    \bar "|"
                 }
             }
             \tag strings.viola
@@ -3651,6 +3653,7 @@
                     R1 * 1
                     R1 * 5/4
                     R1 * 3/4
+                    \bar "|"
                 }
             }
             \tag strings.cello
@@ -3801,6 +3804,7 @@
                     R1 * 1
                     R1 * 5/4
                     R1 * 3/4
+                    \bar "|"
                 }
             }
             \tag strings.contrabass
@@ -3817,7 +3821,7 @@
                     Cb.
                 }
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
-                    <g,, a,>2 \f
+                    <g,, a,>2
                     <g,, a,>2 \repeatTie
                     <gs,, as,>1. \p
                     <gs,, as,>2. \repeatTie
@@ -3862,7 +3866,11 @@
                     r1
                     \once \override TrillPitchHead #'stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
                     \pitchedTrill
-                    g,,2. \startTrillSpan f
+                    g,,2. \mp \startTrillSpan
+                        ^ \markup {
+                            \larger
+                                "Shape trill dynamics freely and beautifully. (Thank you, Stefano.)"
+                            } f
                     g,,2 \repeatTie
                     g,,2. \repeatTie
                     g,,1 \repeatTie
@@ -3870,6 +3878,7 @@
                     g,,2. \repeatTie
                     g,,2 \repeatTie
                     r2. \stopTrillSpan
+                    \bar "|"
                 }
             }
         >>
