@@ -1,4 +1,4 @@
-% 2015-04-17 08:49
+% 2015-04-17 09:35
 
 \version "2.19.17"
 \language "english"
@@ -622,7 +622,7 @@
                                     {
                                         \line
                                             {
-                                                "sparse, individual clicks with nail or pick up string"
+                                                "sparse, individual clicks with nail or pick laterally up string"
                                             }
                                         \line
                                             {

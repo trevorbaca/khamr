@@ -1,4 +1,4 @@
-% 2015-04-17 09:06
+% 2015-04-17 09:37
 
 \version "2.19.17"
 \language "english"
@@ -3869,7 +3869,7 @@
                     g,,2. \mp \startTrillSpan
                         ^ \markup {
                             \larger
-                                "Shape trill dynamics freely and beautifully. (Thank you, Stefano.)"
+                                "Shape trill dynamics beautifully. (Thank you, Stefano.)"
                             } f
                     g,,2 \repeatTie
                     g,,2. \repeatTie
