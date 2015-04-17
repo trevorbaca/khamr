@@ -1,4 +1,4 @@
-% 2015-04-17 09:37
+% 2015-04-17 09:44
 
 \version "2.19.17"
 \language "english"
@@ -19,12 +19,6 @@
                 \bar ""
                 \mark #2
                 s1 * 1/2
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [B1]
-                        }
             }
             {
                 s1 * 1/2
@@ -32,12 +26,6 @@
             {
                 \time 6/4
                 s1 * 3/2
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [B2]
-                        }
             }
             {
                 \time 3/4
@@ -85,12 +73,6 @@
                 \once \override TextSpanner.dash-fraction = 0.25
                 \once \override TextSpanner.dash-period = 1.5
                 s1 * 1 \startTextSpan
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [B3]
-                        }
             }
             {
                 \time 6/8
@@ -103,12 +85,6 @@
             {
                 \time 5/4
                 s1 * 5/4
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [B4]
-                        }
             }
             {
                 \time 4/4
@@ -116,14 +92,7 @@
             }
             {
                 \time 3/4
-                s1 * 3/4 \stopTextSpan
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [B5]
-                        }
-                    ^ \markup {
+                s1 * 3/4 \stopTextSpan ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -200,14 +169,7 @@
                 s1 * 1/2
             }
             {
-                s1 * 1/2
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [B6]
-                        }
-                    ^ \markup {
+                s1 * 1/2 ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -238,14 +200,7 @@
             }
             {
                 \time 6/8
-                s1 * 3/4
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [B7]
-                        }
-                    ^ \markup {
+                s1 * 3/4 ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -269,12 +224,6 @@
             {
                 \time 5/4
                 s1 * 5/4
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [B8]
-                        }
             }
             {
                 \time 3/4
@@ -283,12 +232,6 @@
             {
                 \time 4/4
                 s1 * 1
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [B9]
-                        }
             }
             {
                 s1 * 1
