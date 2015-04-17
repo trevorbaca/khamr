@@ -6,14 +6,7 @@
             {
                 \time 2/4
                 \bar ""
-                s1 * 1/2
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [1]
-                        }
-                    ^ \markup {
+                s1 * 1/2 ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -60,12 +53,6 @@
             {
                 \time 4/4
                 s1 * 1
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [2]
-                        }
             }
             {
                 \time 3/4
@@ -98,12 +85,6 @@
             {
                 \time 5/4
                 s1 * 5/4
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [3]
-                        }
             }
             {
                 \time 6/8
@@ -174,12 +155,6 @@
                 \once \override TextSpanner.dash-fraction = 0.25
                 \once \override TextSpanner.dash-period = 1.5
                 s1 * 1/2 \startTextSpan
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [4]
-                        }
             }
             {
                 s1 * 1/2
@@ -203,12 +178,6 @@
             {
                 \time 4/4
                 s1 * 1
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [5]
-                        }
             }
             {
                 \time 5/4
@@ -231,14 +200,7 @@
             }
             {
                 \time 6/8
-                s1 * 3/4 \stopTextSpan
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [6]
-                        }
-                    ^ \markup {
+                s1 * 3/4 \stopTextSpan ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -270,12 +232,6 @@
             {
                 \time 5/4
                 s1 * 5/4
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [7]
-                        }
             }
             {
                 \time 6/8
@@ -405,6 +361,7 @@
                     a''4 \repeatTie \mp
                     r8 \stopTrillSpan
                     r4.
+                    \bar "|"
                 }
             }
             \tag winds.oboe
@@ -436,7 +393,7 @@
                     b'2 \p
                         ^ \markup {
                             \larger
-                                "air tone (without reed): inhale and exhale alternately"
+                                "air tone without reed: mix inhales and exhales ad lib."
                             }
                     \once \override RepeatTie #'direction = #up
                     b'2 \repeatTie
@@ -571,6 +528,7 @@
                     r8
                     r2.
                     r4.
+                    \bar "|"
                 }
             }
             \tag winds.clarinet
@@ -595,7 +553,7 @@
                                     cl.
                                 }
                         }
-                    b2 \ppp
+                    b2 \pp
                     b2 \repeatTie
                     b2. \repeatTie
                     b4. \repeatTie
@@ -673,6 +631,7 @@
                     r8
                     b4
                     r8
+                    \bar "|"
                 }
             }
             \tag winds.saxophone
@@ -697,7 +656,7 @@
                                     sax.
                                 }
                         }
-                    e''2 \ppp
+                    e''2 \pp
                     e''2 \repeatTie
                     e''1. \repeatTie
                     e''2. \repeatTie
@@ -757,7 +716,7 @@
                     r8
                     r2
                     r1.
-                    <d'' eqs''>2 \pp
+                    <d'' eqs''>2 \p
                         ^ \markup {
                             \larger
                                 \override
@@ -774,6 +733,7 @@
                     r4.
                     <d'' eqs''>4
                     r8
+                    \bar "|"
                 }
             }
         >>
@@ -793,7 +753,11 @@
                 }
                 \context GuitarMusicVoice = "Guitar Music Voice" {
                     \once \override NoteHead #'style = #'cross
-                    cs'4 \mp
+                    cs'4 \f
+                        ^ \markup {
+                            \larger
+                                "cross noteheads indicate half-harmonics"
+                            }
                     \once \override NoteHead #'style = #'cross
                     r4
                     \once \override NoteHead #'style = #'cross
@@ -1035,6 +999,10 @@
                         \once \override NoteHead #'style = #'cross
                         \once \override TupletBracket #'staff-padding = #4
                         cs''16 * 117/16 [
+                            ^ \markup {
+                                \larger
+                                    "move towards (and then back away from) the bridge at the center of each accelerando"
+                                }
                         \once \override NoteHead #'style = #'cross
                         \once \override TupletBracket #'staff-padding = #4
                         c''16 * 73/16
@@ -1599,6 +1567,7 @@
                     \once \override NoteHead #'style = #'cross
                     \once \override TupletBracket #'staff-padding = #4
                     r2.
+                    \bar "|"
                 }
             }
             \tag percussion.piano
@@ -1608,7 +1577,7 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
-                    \clef "bass"
+                    \clef "percussion"
                     \set PianoMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -1619,71 +1588,71 @@
                             #10
                             Pf.
                         }
-                    d2 \f
+                    c'2 -\accent \mf
                         ^ \markup {
                             \larger
-                                "strike lowest strings with palm and lv (pedal down throughout)"
+                                "tamburo: strike lowest strings with palm inside piano and let vibrate (pedal down throughout)"
                             }
                     \once \override RepeatTie #'direction = #up
-                    d2 \repeatTie
+                    c'2 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d1. \repeatTie
+                    c'1. \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d2. \repeatTie
+                    c'2. \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d1 \repeatTie
+                    c'1 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d2. \repeatTie
+                    c'2. \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d2. \repeatTie
+                    c'2. \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d4
+                    c'4 -\accent
                     \once \override RepeatTie #'direction = #up
-                    d2. \repeatTie
+                    c'2. \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d2 \repeatTie
+                    c'2 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d2 \repeatTie
+                    c'2 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d2
+                    c'2 -\accent
                     \once \override RepeatTie #'direction = #up
-                    d2. \repeatTie
+                    c'2. \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d1 \repeatTie
+                    c'1 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d2. \repeatTie
+                    c'2. \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d2 \repeatTie
+                    c'2 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d2. \repeatTie
+                    c'2. \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d2 \repeatTie
+                    c'2 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d2. \repeatTie
+                    c'2. \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d2.
+                    c'2. -\accent
                     \once \override RepeatTie #'direction = #up
-                    d2 \repeatTie
+                    c'2 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d2.
+                    c'2. -\accent
                     \once \override RepeatTie #'direction = #up
-                    d2 \repeatTie
+                    c'2 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d2. \repeatTie
+                    c'2. \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d1 \repeatTie
+                    c'1 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d1. \repeatTie
+                    c'1. \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d2 \repeatTie
+                    c'2 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d2 \repeatTie
+                    c'2 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d4 \repeatTie
+                    c'4 \repeatTie
                     \once \override RepeatTie #'direction = #up
-                    d2
+                    c'2 -\accent
                     \once \override RepeatTie #'direction = #up
-                    d1 \repeatTie
+                    c'1 \repeatTie
                     \stopStaff
                     \startStaff
                     \override TupletNumber #'text = \markup {
@@ -1721,7 +1690,11 @@
                         \once \override Beam #'grow-direction = #right
                         \ottava #1
                         \clef "treble"
-                        cs''''16 * 247/32 \f [
+                        cs''''16 * 247/32 \mf [
+                            ^ \markup {
+                                \larger
+                                    "match dynamic levels of guitar"
+                                }
                         c''''16 * 459/64
                         a'''16 * 187/32
                         d''''16 * 287/64
@@ -1932,44 +1905,53 @@
                     }
                     r4
                     r2
-                    \once \override RepeatTie #'direction = #down
-                    \clef "bass"
-                    d1 \mp
+                    \once \override RepeatTie #'direction = #up
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    \clef "percussion"
+                    c'1 \mp
                         ^ \markup {
                             \larger
-                                \line
+                                \column
                                     {
-                                        sparse,
-                                        individual
-                                        clicks
-                                        with
-                                        credit
-                                        card
-                                        on
-                                        C
-                                        \hspace
-                                            #-0.5
-                                        \raise
-                                            #1
-                                            \sharp
-                                        \hspace
-                                            #-0.5
-                                        1
-                                        string
-                                        (1-2/sec.
-                                        in
-                                        irregular
-                                        rhythm)
+                                        \line
+                                            {
+                                                sparse,
+                                                individual
+                                                clicks
+                                                with
+                                                credit
+                                                card
+                                                on
+                                                C
+                                                \hspace
+                                                    #-0.5
+                                                \raise
+                                                    #1
+                                                    \sharp
+                                                \hspace
+                                                    #-0.5
+                                                1
+                                                string
+                                            }
+                                        \line
+                                            {
+                                                "(1-2/sec. in irregular rhythm)"
+                                            }
                                     }
                             }
-                    \once \override RepeatTie #'direction = #down
-                    d4 \repeatTie
-                    \once \override RepeatTie #'direction = #down
-                    d2. \repeatTie
-                    \once \override RepeatTie #'direction = #down
-                    d1 \repeatTie
-                    \once \override RepeatTie #'direction = #down
-                    d1. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    c'4 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    c'2. \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    c'1 \repeatTie
+                    \once \override RepeatTie #'direction = #up
+                    c'1. \repeatTie
+                    \bar "|"
+                    \stopStaff
+                    \startStaff
                 }
             }
             \tag percussion
@@ -1987,52 +1969,62 @@
                 }
                 \context PercussionMusicVoice = "Percussion Music Voice" {
                     \once \override Stem #'direction = #down
-                    f2 \p
+                    c'2 -\accent \mp
+                        ^ \markup {
+                            \larger
+                                \override
+                                    #'(box-padding . 0.75)
+                                    \box
+                                        "XL tam-tam"
+                            }
                     \once \override Stem #'direction = #down
-                    f2 \repeatTie
+                    c'2 \repeatTie
                     \once \override Stem #'direction = #down
-                    f1. \repeatTie
+                    c'1. \repeatTie
                     \once \override Stem #'direction = #down
-                    f2. \repeatTie
+                    c'2. \repeatTie
                     \once \override Stem #'direction = #down
-                    f1 \repeatTie
+                    c'1 \repeatTie
                     \once \override Stem #'direction = #down
-                    f2. \repeatTie
+                    c'2. \repeatTie
                     \once \override Stem #'direction = #down
-                    f2. \repeatTie
+                    c'2. \repeatTie
                     \once \override Stem #'direction = #down
-                    f4
+                    c'4 -\accent
                     \once \override Stem #'direction = #down
-                    f2. \repeatTie
+                    c'2. \repeatTie
                     \once \override Stem #'direction = #down
-                    f2 \repeatTie
+                    c'2 \repeatTie
                     \once \override Stem #'direction = #down
-                    f2 \repeatTie
+                    c'2 \repeatTie
                     \once \override Stem #'direction = #down
-                    f2
+                    c'2 -\accent
                     \once \override Stem #'direction = #down
-                    f2. \repeatTie
+                    c'2. \repeatTie
                     \once \override Stem #'direction = #down
-                    f1 \repeatTie
+                    c'1 \repeatTie
                     \once \override Stem #'direction = #down
-                    f2. \repeatTie
+                    c'2. \repeatTie
                     \once \override Stem #'direction = #down
-                    f2 \repeatTie
+                    c'2 \repeatTie
                     \once \override Stem #'direction = #down
-                    f2. \repeatTie
+                    c'2. \repeatTie
                     \once \override Stem #'direction = #down
-                    f2 \repeatTie
+                    c'2 \repeatTie
                     \once \override Stem #'direction = #down
-                    f2. \repeatTie
+                    c'2. \repeatTie
                     \once \override Stem #'direction = #down
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
                     \clef "treble"
-                    af''2. \sfz
+                    af''2. -\accent -\marcato \sfz
                         ^ \markup {
                             \larger
-                                "marimba + woodblock"
+                                \override
+                                    #'(box-padding . 0.75)
+                                    \box
+                                        "marimba + woodblock"
                             }
                     \once \override Stem #'direction = #down
                     af''2 \repeatTie
@@ -2040,82 +2032,79 @@
                     \startStaff
                     \once \override Stem #'direction = #down
                     \clef "percussion"
-                    f2.
+                    c'2. -\accent
                     \once \override Stem #'direction = #down
-                    f2 \repeatTie
+                    c'2 \repeatTie
                     \once \override Stem #'direction = #down
-                    f2. \repeatTie
+                    c'2. \repeatTie
                     \once \override Stem #'direction = #down
-                    f1 \repeatTie
+                    c'1 \repeatTie
                     \once \override Stem #'direction = #down
-                    f1. \repeatTie
+                    c'1. \repeatTie
                     \once \override Stem #'direction = #down
-                    f2 \repeatTie
+                    c'2 \repeatTie
                     \once \override Stem #'direction = #down
-                    f2 \repeatTie
+                    c'2 \repeatTie
                     \once \override Stem #'direction = #down
-                    f4 \repeatTie
+                    c'4 \repeatTie
                     \once \override Stem #'direction = #down
-                    f2
+                    c'2 -\accent
                     \once \override Stem #'direction = #down
-                    f1 \repeatTie
+                    c'1 \repeatTie
                     \once \override Stem #'direction = #down
-                    f2 \repeatTie
+                    c'2 \repeatTie
                     \once \override Stem #'direction = #down
-                    f2
+                    c'2 -\accent
                     \once \override Stem #'direction = #down
-                    f1. \repeatTie
+                    c'1. \repeatTie
                     \once \override Stem #'direction = #down
-                    f1 \repeatTie
+                    c'1 \repeatTie
                     \once \override Stem #'direction = #down
-                    f2. \repeatTie
+                    c'2. \repeatTie
                     \once \override Stem #'direction = #down
-                    f2. \repeatTie
+                    c'2. \repeatTie
                     \once \override Stem #'direction = #down
-                    f1 \repeatTie
+                    c'1 \repeatTie
                     \once \override Stem #'direction = #down
-                    f4 \repeatTie
+                    c'4 \repeatTie
                     \once \override Stem #'direction = #down
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
                     \clef "treble"
-                    af''1 \sfz
-                        ^ \markup {
-                            \larger
-                                "marimba + woodblock"
-                            }
+                    af''1 -\accent -\marcato \sfz
                     \stopStaff
                     \startStaff
                     \once \override Stem #'direction = #down
                     \clef "percussion"
-                    f2.
+                    c'2. -\accent
                     \once \override Stem #'direction = #down
-                    f1 \repeatTie
+                    c'1 \repeatTie
                     \once \override Stem #'direction = #down
-                    f1 \repeatTie
+                    c'1 \repeatTie
                     \once \override Stem #'direction = #down
-                    f2. \repeatTie
+                    c'2. \repeatTie
                     \once \override Stem #'direction = #down
-                    f2 \repeatTie
+                    c'2 \repeatTie
                     \once \override Stem #'direction = #down
-                    f2. \repeatTie
+                    c'2. \repeatTie
                     \once \override Stem #'direction = #down
-                    f2 \repeatTie
+                    c'2 \repeatTie
                     \once \override Stem #'direction = #down
-                    f1.
+                    c'1. -\accent
                     \once \override Stem #'direction = #down
-                    f2 \repeatTie
+                    c'2 \repeatTie
                     \once \override Stem #'direction = #down
-                    f2 \repeatTie
+                    c'2 \repeatTie
                     \once \override Stem #'direction = #down
-                    f2.
+                    c'2. -\accent
                     \once \override Stem #'direction = #down
-                    f2. \repeatTie
+                    c'2. \repeatTie
                     \once \override Stem #'direction = #down
-                    f1 \repeatTie
+                    c'1 \repeatTie
                     \once \override Stem #'direction = #down
-                    f1. \repeatTie
+                    c'1. \repeatTie
+                    \bar "|"
                 }
             }
         >>
@@ -2136,6 +2125,10 @@
                 \context ViolinMusicVoice = "Violin Music Voice" {
                     \once \override NoteHead #'style = #'harmonic
                     g'2 \> \pp
+                        ^ \markup {
+                            \larger
+                                "emphasize multiphonics and unstable harmonics prominently throughout"
+                            }
                         _ \markup {
                             \larger
                                 IV
@@ -2278,7 +2271,7 @@
                     \once \override NoteHead #'style = #'harmonic
                     b'2 \repeatTie \p \glissando
                     \pitchedTrill
-                    f'4. \ppp \startTrillSpan
+                    f'4. -\accent \ppp \startTrillSpan
                         ^ \markup {
                             \larger
                                 \italic
@@ -2289,21 +2282,21 @@
                         f'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
-                        fs'4 \stopTrillSpan \startTrillSpan g'
+                        fs'4 -\accent \stopTrillSpan \startTrillSpan g'
                     }
                     fs'2 \repeatTie
                     \times 4/5 {
                         fs'8 \repeatTie [
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
-                        fqs'8. ] \stopTrillSpan \startTrillSpan gqf'
+                        fqs'8. -\accent ] \stopTrillSpan \startTrillSpan gqf'
                     }
                     fqs'8 \repeatTie
                     fqs'4. \repeatTie
                     \times 4/5 {
                         fqs'8. \repeatTie [
                         \pitchedTrill
-                        f'8 ] \stopTrillSpan \startTrillSpan gf'
+                        f'8 -\accent ] \stopTrillSpan \startTrillSpan gf'
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     f'8 \repeatTie
@@ -2311,7 +2304,7 @@
                     \times 4/5 {
                         f'4 \repeatTie
                         \pitchedTrill
-                        fqs'16 \stopTrillSpan \startTrillSpan gqf'
+                        fqs'16 -\accent \stopTrillSpan \startTrillSpan gqf'
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     fqs'4 \repeatTie
@@ -2320,7 +2313,7 @@
                         fqs'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
-                        f'4 \stopTrillSpan \startTrillSpan gf'
+                        f'4 -\accent \stopTrillSpan \startTrillSpan gf'
                     }
                     f'4 \repeatTie
                     f'4 \repeatTie
@@ -2328,7 +2321,7 @@
                         f'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
-                        e'4 \stopTrillSpan \startTrillSpan f'
+                        e'4 -\accent \stopTrillSpan \startTrillSpan f'
                     }
                     e'4. \repeatTie
                     e'8 \repeatTie
@@ -2336,13 +2329,13 @@
                         e'8 \repeatTie [
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
-                        eqs'8. ] \stopTrillSpan \startTrillSpan fqs'
+                        eqs'8. -\accent ] \stopTrillSpan \startTrillSpan fqs'
                     }
                     eqs'2 \repeatTie
                     \times 4/5 {
                         eqs'8. \repeatTie [
                         \pitchedTrill
-                        e'8 ] \stopTrillSpan \startTrillSpan f'
+                        e'8 -\accent ] \stopTrillSpan \startTrillSpan f'
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     e'4 \repeatTie
@@ -2350,7 +2343,7 @@
                     \times 4/5 {
                         e'4 \repeatTie
                         \pitchedTrill
-                        eqs'16 \stopTrillSpan \startTrillSpan fqs'
+                        eqs'16 -\accent \stopTrillSpan \startTrillSpan fqs'
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     eqs'4 \repeatTie
@@ -2359,9 +2352,10 @@
                         eqs'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
-                        f'4 \stopTrillSpan \startTrillSpan gf'
+                        f'4 -\accent \stopTrillSpan \startTrillSpan gf'
                     }
                     f'4 \repeatTie \stopTrillSpan
+                    \bar "|"
                 }
             }
             \tag strings.viola
@@ -2380,6 +2374,10 @@
                 \context ViolaMusicVoice = "Viola Music Voice" {
                     \once \override NoteHead #'style = #'harmonic
                     g'4. \pp \glissando
+                        ^ \markup {
+                            \larger
+                                "emphasize multiphonics and unstable harmonics prominently throughout"
+                            }
                         _ \markup {
                             \larger
                                 III
@@ -2521,7 +2519,7 @@
                     \once \override NoteHead #'style = #'harmonic
                     aqs'4 \p \glissando
                     \pitchedTrill
-                    f'2. \ppp \startTrillSpan
+                    f'2. -\accent \ppp \startTrillSpan
                         ^ \markup {
                             \larger
                                 \italic
@@ -2531,7 +2529,7 @@
                         f'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
-                        fs'4 \stopTrillSpan \startTrillSpan g'
+                        fs'4 -\accent \stopTrillSpan \startTrillSpan g'
                     }
                     fs'4 \repeatTie
                     fs'4. \repeatTie
@@ -2540,13 +2538,13 @@
                         fs'8 \repeatTie [
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
-                        fqs'8. ] \stopTrillSpan \startTrillSpan gqf'
+                        fqs'8. -\accent ] \stopTrillSpan \startTrillSpan gqf'
                     }
                     fqs'2. \repeatTie
                     \times 4/5 {
                         fqs'8. \repeatTie [
                         \pitchedTrill
-                        f'8 ] \stopTrillSpan \startTrillSpan gf'
+                        f'8 -\accent ] \stopTrillSpan \startTrillSpan gf'
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     f'4 \repeatTie
@@ -2554,7 +2552,7 @@
                     \times 4/5 {
                         f'4 \repeatTie
                         \pitchedTrill
-                        fqs'16 \stopTrillSpan \startTrillSpan gqf'
+                        fqs'16 -\accent \stopTrillSpan \startTrillSpan gqf'
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     fqs'2 \repeatTie
@@ -2563,7 +2561,7 @@
                         fqs'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
-                        f'4 \stopTrillSpan \startTrillSpan gf'
+                        f'4 -\accent \stopTrillSpan \startTrillSpan gf'
                     }
                     f'4 \repeatTie
                     f'2 \repeatTie
@@ -2571,7 +2569,7 @@
                         f'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
-                        e'4 \stopTrillSpan \startTrillSpan f'
+                        e'4 -\accent \stopTrillSpan \startTrillSpan f'
                     }
                     e'4 \repeatTie
                     e'4. \repeatTie
@@ -2580,9 +2578,10 @@
                         e'8 \repeatTie [
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
-                        eqs'8. ] \stopTrillSpan \startTrillSpan fqs'
+                        eqs'8. -\accent ] \stopTrillSpan \startTrillSpan fqs'
                     }
                     eqs'2. \repeatTie \stopTrillSpan
+                    \bar "|"
                 }
             }
             \tag strings.cello
@@ -2601,6 +2600,10 @@
                 \context CelloMusicVoice = "Cello Music Voice" {
                     \once \override NoteHead #'style = #'harmonic
                     g2 \> \pp
+                        ^ \markup {
+                            \larger
+                                "emphasize multiphonics and unstable harmonics prominently throughout"
+                            }
                         _ \markup {
                             \larger
                                 III
@@ -2751,7 +2754,7 @@
                     \once \override NoteHead #'style = #'harmonic
                     b2 \repeatTie \p \glissando
                     \pitchedTrill
-                    f'2. \ppp \startTrillSpan
+                    f'2. -\accent \ppp \startTrillSpan
                         ^ \markup {
                             \larger
                                 \italic
@@ -2762,7 +2765,7 @@
                         f'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
-                        fs'4 \stopTrillSpan \startTrillSpan g'
+                        fs'4 -\accent \stopTrillSpan \startTrillSpan g'
                     }
                     fs'2. \repeatTie
                     fs'4 \repeatTie
@@ -2770,7 +2773,7 @@
                         fs'8 \repeatTie [
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
-                        fqs'8. ] \stopTrillSpan \startTrillSpan gqf'
+                        fqs'8. -\accent ] \stopTrillSpan \startTrillSpan gqf'
                     }
                     fqs'4 \repeatTie
                     fqs'2 \repeatTie
@@ -2778,7 +2781,7 @@
                     \times 4/5 {
                         fqs'8. \repeatTie [
                         \pitchedTrill
-                        f'8 ] \stopTrillSpan \startTrillSpan gf'
+                        f'8 -\accent ] \stopTrillSpan \startTrillSpan gf'
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     f'2. \repeatTie
@@ -2786,7 +2789,7 @@
                     \times 4/5 {
                         f'4 \repeatTie
                         \pitchedTrill
-                        fqs'16 \stopTrillSpan \startTrillSpan gqf'
+                        fqs'16 -\accent \stopTrillSpan \startTrillSpan gqf'
                     }
                     \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                     fqs'4 \repeatTie
@@ -2795,7 +2798,7 @@
                         fqs'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
-                        f'4 \stopTrillSpan \startTrillSpan gf'
+                        f'4 -\accent \stopTrillSpan \startTrillSpan gf'
                     }
                     f'2. \repeatTie
                     f'4 \repeatTie
@@ -2803,9 +2806,10 @@
                         f'16 \repeatTie
                         \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
-                        e'4 \stopTrillSpan \startTrillSpan f'
+                        e'4 -\accent \stopTrillSpan \startTrillSpan f'
                     }
                     e'4 \repeatTie \stopTrillSpan
+                    \bar "|"
                 }
             }
             \tag strings.contrabass
@@ -2824,6 +2828,10 @@
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
                     \once \override NoteHead #'style = #'harmonic
                     a2 \f
+                        ^ \markup {
+                            \larger
+                                "emphasize multiphonics and unstable harmonics prominently throughout"
+                            }
                         _ \markup {
                             \larger
                                 III
@@ -2993,6 +3001,7 @@
                     c'1 \repeatTie
                     \once \override NoteHead #'style = #'harmonic
                     c'1. \repeatTie \pp
+                    \bar "|"
                 }
             }
         >>

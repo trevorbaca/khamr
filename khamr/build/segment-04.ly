@@ -8,28 +8,6 @@
                 \bar ""
                 \mark #3
                 s1 * 1/2
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [C1]
-                        }
-                    ^ \markup {
-                    \fontsize
-                        #-6
-                        \general-align
-                            #Y
-                            #DOWN
-                            \note-by-number
-                                #2
-                                #0
-                                #1
-                    \upright
-                        {
-                            =
-                            42
-                        }
-                    }
             }
             {
                 s1 * 1/2
@@ -41,12 +19,6 @@
             {
                 \time 3/4
                 s1 * 3/4
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [C2]
-                        }
             }
             {
                 \time 4/4
@@ -55,12 +27,6 @@
             {
                 \time 6/8
                 s1 * 3/4
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [C3]
-                        }
             }
             {
                 \time 4/4
@@ -97,12 +63,6 @@
                 \once \override TextSpanner.dash-fraction = 0.25
                 \once \override TextSpanner.dash-period = 1.5
                 s1 * 5/4 \startTextSpan
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [C4]
-                        }
             }
             {
                 \time 4/4
@@ -111,12 +71,6 @@
             {
                 \time 3/4
                 s1 * 3/4
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [C5]
-                        }
             }
             {
                 \time 4/4
@@ -125,12 +79,6 @@
             {
                 \time 5/4
                 s1 * 5/4
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [C6]
-                        }
             }
             {
                 \time 6/8
@@ -139,12 +87,6 @@
             {
                 \time 2/4
                 s1 * 1/2
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [C7]
-                        }
             }
             {
                 \time 6/4
@@ -152,14 +94,7 @@
             }
             {
                 \time 2/4
-                s1 * 1/2 \stopTextSpan
-                    - \markup {
-                        \smaller
-                            \with-color
-                                #blue
-                                [C8]
-                        }
-                    ^ \markup {
+                s1 * 1/2 \stopTextSpan ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -518,26 +453,26 @@
                     r2.
                     r1
                     r2.
+                    c''1 -\accent -\flageolet \mf
+                    c''2. -\accent -\flageolet \mf
+                    c''2 \repeatTie
                     r1
                     r2.
-                    r2
-                    c''1 -\flageolet \mf
-                    c''2. -\flageolet \mf
                     r1
                     r2.
                     r2
                     r2.
                     r2
                     r1.
-                    c''2 -\flageolet \mf
-                    c''2 \repeatTie
-                    c''2. -\flageolet \mf
+                    r2
+                    c''1 -\accent -\flageolet \mf
+                    c''4 -\accent -\flageolet \mf
                     c''2. \repeatTie
                     c''1 \repeatTie
-                    c''4. \repeatTie
-                    c''8 \repeatTie
-                    r4
-                    r2.
+                    c''2. \repeatTie
+                    c''4 \repeatTie
+                    r8
+                    r4.
                     \bar "|."
                 }
             }
@@ -561,26 +496,26 @@
                     r2.
                     r1
                     r2.
+                    as'1 -\accent \mf
+                    as'2. -\accent \mf
+                    as'2 \repeatTie
                     r1
                     r2.
-                    r2
-                    as'1 -\flageolet \mf
-                    as'2. -\flageolet \mf
                     r1
                     r2.
                     r2
                     r2.
                     r2
                     r1.
-                    as'2 -\flageolet \mf
-                    as'2 \repeatTie
-                    as'2. -\flageolet \mf
+                    r2
+                    as'1 -\accent \mf
+                    as'4 -\accent \mf
                     as'2. \repeatTie
                     as'1 \repeatTie
-                    as'4. \repeatTie
-                    as'8 \repeatTie
-                    r4
-                    r2.
+                    as'2. \repeatTie
+                    as'4 \repeatTie
+                    r8
+                    r4.
                     \bar "|."
                 }
             }
@@ -598,10 +533,10 @@
                     Perc.
                 }
                 \context PercussionMusicVoice = "Percussion Music Voice" {
-                    c'2 :32
+                    c'2 :32 \> \pp
                     c'2 :32 \repeatTie
                     c'1. :32 \repeatTie
-                    c'2. :32 \repeatTie
+                    c'2. :32 \repeatTie \ppp
                     r1
                     R1 * 3/4
                     R1 * 1
@@ -634,7 +569,6 @@
         \context StringSectionStaffGroup = "String Section Staff Group" <<
             \tag strings.violin
             \context ViolinMusicStaff = "Violin Music Staff" {
-                \clef "treble"
                 \set Staff.instrumentName = \markup {
                 \hcenter-in
                     #16
@@ -646,10 +580,17 @@
                     Vn.
                 }
                 \context ViolinMusicVoice = "Violin Music Voice" {
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    \clef "percussion"
+                    \stopStaff
+                    \override Staff.StaffSymbol #'line-count = #1
+                    \startStaff
                     c'2 -\upbow \p
                         ^ \markup {
                             \larger
-                                "directly on bridge: bow diagonally to produce white noise w/ no pitch"
+                                "bow on wooden mute"
                             }
                     c'2 \repeatTie
                     c'2. \repeatTie
@@ -672,6 +613,8 @@
                     c'4 \repeatTie
                     c'4 -\downbow
                     c'1. \repeatTie \ppp
+                    \stopStaff
+                    \startStaff
                     R1 * 1/2
                     R1 * 5/4
                     R1 * 3/4
@@ -682,7 +625,6 @@
             }
             \tag strings.viola
             \context ViolaMusicStaff = "Viola Music Staff" {
-                \clef "alto"
                 \set Staff.instrumentName = \markup {
                 \hcenter-in
                     #16
@@ -694,10 +636,17 @@
                     Va.
                 }
                 \context ViolaMusicVoice = "Viola Music Voice" {
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    \clef "percussion"
+                    \stopStaff
+                    \override Staff.StaffSymbol #'line-count = #1
+                    \startStaff
                     c'2 -\upbow \p
                         ^ \markup {
                             \larger
-                                "directly on bridge: bow diagonally to produce white noise w/ no pitch"
+                                "bow on wooden mute"
                             }
                     c'2 \repeatTie
                     c'4. \repeatTie
@@ -725,6 +674,8 @@
                     c'4 \repeatTie
                     c'8 -\downbow
                     c'4. \repeatTie \ppp
+                    \stopStaff
+                    \startStaff
                     R1 * 1/2
                     R1 * 5/4
                     R1 * 3/4
@@ -735,7 +686,6 @@
             }
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
-                \clef "bass"
                 \set Staff.instrumentName = \markup {
                 \hcenter-in
                     #16
@@ -747,10 +697,17 @@
                     Vc.
                 }
                 \context CelloMusicVoice = "Cello Music Voice" {
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    \clef "percussion"
+                    \stopStaff
+                    \override Staff.StaffSymbol #'line-count = #1
+                    \startStaff
                     c'2 -\upbow \p
                         ^ \markup {
                             \larger
-                                "directly on bridge: bow diagonally to produce white noise w/ no pitch"
+                                "bow on tailpiece"
                             }
                     c'2 \repeatTie
                     c'4 \repeatTie
@@ -777,6 +734,8 @@
                     c'4. \repeatTie
                     c'8 \repeatTie
                     c'4 -\downbow \ppp
+                    \stopStaff
+                    \startStaff
                     R1 * 1/2
                     R1 * 5/4
                     R1 * 3/4
@@ -787,7 +746,6 @@
             }
             \tag strings.contrabass
             \context ContrabassMusicStaff = "Contrabass Music Staff" {
-                \clef "bass"
                 \set Staff.instrumentName = \markup {
                 \hcenter-in
                     #16
@@ -799,41 +757,60 @@
                     Cb.
                 }
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
-                    c''2 -\upbow \p
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    \clef "percussion"
+                    \stopStaff
+                    \override Staff.StaffSymbol #'line-count = #1
+                    \startStaff
+                    c'2 -\upbow \p
                         ^ \markup {
                             \larger
-                                "directly on bridge: bow diagonally to produce white noise w/ no pitch"
+                                "bow on tailpiece"
                             }
-                    c''2 \repeatTie
-                    c''2. -\downbow
-                    c''4 \repeatTie
-                    c''8 -\upbow
-                    c''4. \repeatTie
-                    c''2 \repeatTie
-                    c''4 -\downbow
-                    c''2. \repeatTie
-                    c''4 -\upbow
-                    c''2. \repeatTie
-                    c''1 -\downbow
-                    c''1 -\upbow \> \p
-                    c''4 -\downbow
-                    c''2. \repeatTie
-                    c''4 -\upbow
-                    c''2. \repeatTie
-                    c''1 -\downbow
-                    c''1 -\upbow
-                    c''4 -\downbow
-                    c''2. \repeatTie
-                    c''2 -\upbow
-                    c''4. \repeatTie
-                    c''8 \repeatTie
-                    c''4 -\downbow
-                    c''2. \repeatTie \ppp
+                    c'2 \repeatTie
+                    c'2. -\downbow
+                    c'4 \repeatTie
+                    c'8 -\upbow
+                    c'4. \repeatTie
+                    c'2 \repeatTie
+                    c'4 -\downbow
+                    c'2. \repeatTie
+                    c'4 -\upbow
+                    c'2. \repeatTie
+                    c'1 -\downbow
+                    c'1 -\upbow \> \p
+                    c'4 -\downbow
+                    c'2. \repeatTie
+                    c'4 -\upbow
+                    c'2. \repeatTie
+                    c'1 -\downbow
+                    c'1 -\upbow
+                    c'4 -\downbow
+                    c'2. \repeatTie
+                    c'2 -\upbow
+                    c'4. \repeatTie
+                    c'8 \repeatTie
+                    c'4 -\downbow
+                    c'2. \repeatTie \ppp
+                    \stopStaff
+                    \startStaff
                     R1 * 1/2
                     R1 * 5/4
                     R1 * 3/4
                     R1 * 1
+                    \once \override TextScript #'extra-offset = #'(24 . -4)
                     R1 * 3/2
+                        _ \markup {
+                            \right-column
+                                {
+                                    \italic
+                                        "Cambridge, MA."
+                                    \italic
+                                        "January - Aprirl 2015."
+                                }
+                            }
                     \bar "|."
                 }
             }
