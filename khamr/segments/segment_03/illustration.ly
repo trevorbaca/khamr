@@ -1,4 +1,4 @@
-% 2015-04-16 17:40
+% 2015-04-16 21:55
 
 \version "2.19.17"
 \language "english"
@@ -1401,9 +1401,13 @@
                     R1 * 1
                     R1 * 5/4
                     R1 * 3/4
+                    \once \override RepeatTie #'direction = #up
                     r1
+                    \once \override RepeatTie #'direction = #up
                     r1
+                    \once \override RepeatTie #'direction = #up
                     r2
+                    \once \override RepeatTie #'direction = #up
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
@@ -1412,11 +1416,15 @@
                             \larger
                                 "air tone (without reed): inhale and exhale alternately"
                             }
+                    \once \override RepeatTie #'direction = #up
                     b'4. \repeatTie
+                    \once \override RepeatTie #'direction = #up
                     b'4 \repeatTie
+                    \once \override RepeatTie #'direction = #up
                     b'16 \repeatTie
                     \stopStaff
                     \startStaff
+                    \once \override RepeatTie #'direction = #up
                     r16
                 }
             }
