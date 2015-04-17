@@ -109,8 +109,13 @@ class SegmentMaker(makertools.SegmentMaker):
     ### PRIVATE METHODS ###
 
     def _add_final_barline(self):
+        abbreviation = '|'
         if self._is_last_segment():
-            self._score.add_final_bar_line(to_each_voice=True)
+            abbreviation = '|.'
+        self._score.add_final_bar_line(
+            abbreviation=abbreviation, 
+            to_each_voice=True,
+            )
 
     def _add_final_markup(self):
         if self.final_markup is None:

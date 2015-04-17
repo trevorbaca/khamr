@@ -95,13 +95,13 @@ def make_effort_dynamic_markup(dynamic_text, direction=Down):
     markup._direction = direction
     return markup
 
-accents = handlertools.ReiteratedArticulationHandler(
+pervasive_accents = handlertools.ReiteratedArticulationHandler(
     articulation_list=['>'],
     )
 
 air_tone = Markup('air tone', direction=Up).larger()
 
-string = 'air tone (without reed): inhale and exhale alternately'
+string = 'air tone without reed: mix inhales and exhales ad lib.'
 air_tone_without_reed = Markup(string, direction=Up).larger()
 
 arco = Markup('arco', direction=Up).larger()
@@ -134,6 +134,9 @@ effort_ff = make_effort_dynamic_markup('ff')
 effort_f = make_effort_dynamic_markup('f')
 effort_mp = make_effort_dynamic_markup('mp')
 
+string = 'emphasize multiphonics and unstable harmonics prominently throughout'
+emphasize_multiphonics = Markup(string, direction=Up).larger()
+
 estr_sul_pont = Markup('estr. sul pont.', direction=Up).italic().larger()
 
 fff_ancora = Markup('fff').dynamic() + Markup('ancora').italic()
@@ -164,6 +167,16 @@ guitar_with_screw = Markup(string, direction=Up).line().larger()
 
 gridato_possibile = Markup('gridato possibile', direction=Up).italic().larger()
 
+string = 'cross noteheads indicate half-harmonics'
+half_harmonics_explanation = Markup(string, direction=Up).larger()
+
+string = 'match dynamic levels of guitar'
+match_guitar_dynamic_levels = Markup(string, direction=Up).larger()
+
+string = 'move towards (and then back away from) the bridge'
+string += ' at the center of each accelerando'
+move_towards_the_bridge = Markup(string, direction=Up).larger()
+
 string = r'sparse, individual clicks with incredibly slow-moving bow'
 string += ' (1-2/sec. in irregular rhythm)'
 sparse_cello_clicks = Markup(string, direction=Up).line().larger()
@@ -174,8 +187,11 @@ sparse_guitar_clicks = Markup(string, direction=Up).line().larger()
 
 string = r'sparse, individual clicks with credit card'
 string += r' on C \hspace #-0.5 \raise #1 \sharp \hspace #-0.5 1 string'
-string += ' (1-2/sec. in irregular rhythm)'
-sparse_piano_clicks = Markup(string, direction=Up).line().larger()
+first_line = Markup(string).line()
+string = ' (1-2/sec. in irregular rhythm)'
+second_line = Markup(string).line()
+#sparse_piano_clicks = Markup(string, direction=Up).line().larger()
+sparse_piano_clicks = Markup.column([first_line, second_line]).larger()
 
 leggierissimo = Markup('leggierissimo', direction=Up).italic().larger()
 
@@ -229,7 +245,6 @@ on_bridge = Markup(
     direction=Up,
     )
 on_bridge = on_bridge.larger()
-
 
 string = 'directly on bridge: very slow bow, imperceptible bow changes'
 on_bridge_slow = Markup(string, direction=Up).larger()
@@ -295,7 +310,8 @@ shakers = Markup('shakers', direction=Up).larger()
 show_tempo = Markup('allow bowing to convey accelerando', direction=Up)
 show_tempo = show_tempo.larger()
 
-string = 'strike lowest strings with palm and lv (pedal down throughout)'
+string = 'tamburo: strike lowest strings with palm inside piano'
+string += ' and let vibrate (pedal down throughout)'
 strike_lowest_strings = Markup(string, direction=Up).larger()
 
 string = 'subito non armonichi e non gridato'
@@ -514,6 +530,11 @@ double_tonguing = handlertools.ReiteratedArticulationHandler(
 marcati = handlertools.ReiteratedArticulationHandler(
     articulation_list=['marcato'],
     skip_ties=True,
+    )
+
+# TODO: tweak shape later
+pervasive_lv = handlertools.ReiteratedArticulationHandler(
+    articulation_list=['laissezVibrer'],
     )
 
 staccati = handlertools.ReiteratedArticulationHandler(
