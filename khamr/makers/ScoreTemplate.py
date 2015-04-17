@@ -216,7 +216,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             context_name='GuitarMusicStaff',
             name='Guitar Music Staff',
             )
-        self._attach_tag('percussion.guitar', guitar_music_staff)
+        self._attach_tag('guitar', guitar_music_staff)
         attach(Clef('treble'), guitar_music_staff)
         attach(instrumenttools.Guitar(), guitar_music_staff)
         piano_music_voice = scoretools.Voice(
@@ -229,7 +229,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             context_name='PianoMusicStaff',
             name='Piano Music Staff',
             )
-        self._attach_tag('percussion.piano', piano_music_staff)
+        self._attach_tag('piano', piano_music_staff)
         attach(Clef('treble'), piano_music_staff)
         piano = instrumenttools.Piano()
         piano._default_scope = 'PianoMusicStaff'

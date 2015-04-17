@@ -5,6 +5,8 @@
 
 #(ly:set-option 'relative-includes #t)
 \include "../stylesheets/stylesheet.ily"
+#(set-default-paper-size "11x17" 'landscape)
+#(set-global-staff-size 14)
 
 \paper{
     system-system-spacing = #'(
@@ -19,14 +21,14 @@
     \context {
         \TimeSignatureContext
         \override BarNumber.extra-offset = #'(-6 . -8)
+        \override RehearsalMark.extra-offset = #'(0 . 7)
         \override Script.extra-offset = #'(2 . 0)
-        \override TextScript.padding = ##f
         \override TextSpanner.padding = ##f
-        \override TimeSignature.color = #red
+        \override TextSpanner.Y-extent = ##f
         \override TimeSignature.font-size = 0
         \override VerticalAxisGroup.default-staff-staff-spacing = #'(
             (basic-distance . 0)
-            (minimum-distance . 10)
+            (minimum-distance . 12)
             (padding . 0)
             (stretchability . 0)
         )

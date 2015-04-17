@@ -36,7 +36,7 @@
 }
 
 \score {
-    \keepWithTag percussion {
+    \keepWithTag contrabass {
         \include "segment-01.ly"
         \include "segment-02.ly"
         \include "segment-03.ly"

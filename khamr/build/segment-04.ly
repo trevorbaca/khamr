@@ -433,7 +433,7 @@
             }
         >>
         \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
-            \tag percussion.guitar
+            \tag guitar
             \context GuitarMusicStaff = "Guitar Music Staff" {
                 \clef "treble"
                 \set Staff.instrumentName = \markup {
@@ -476,7 +476,7 @@
                     \bar "|."
                 }
             }
-            \tag percussion.piano
+            \tag piano
             \context PianoMusicStaff = "Piano Music Staff" {
                 \clef "treble"
                 \set PianoMusicStaff.instrumentName = \markup {
