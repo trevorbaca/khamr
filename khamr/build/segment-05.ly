@@ -955,7 +955,7 @@
             }
         >>
         \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
-            \tag percussion.guitar
+            \tag guitar
             \context GuitarMusicStaff = "Guitar Music Staff" {
                 \set Staff.instrumentName = \markup {
                 \hcenter-in
@@ -1064,7 +1064,7 @@
                     \bar "|."
                 }
             }
-            \tag percussion.piano
+            \tag piano
             \context PianoMusicStaff = "Piano Music Staff" {
                 \clef "treble"
                 \context PianoMusicVoice = "Piano Music Voice" {
