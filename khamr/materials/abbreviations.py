@@ -339,6 +339,10 @@ strings_III_and_IV = Markup('III + IV', direction=Down).larger()
 
 subito_ordinario = Markup('subito ordinario', direction=Up).larger()
 
+bow_on_tailpiece = Markup('bow on tailpiece', direction=Up).larger()
+
+bow_on_wooden_mute = Markup('bow on wooden mute', direction=Up).larger()
+
 thin_wavering_tone = Markup('thin wavering tone', direction=Up).larger()
 
 def beam_positions(n):
