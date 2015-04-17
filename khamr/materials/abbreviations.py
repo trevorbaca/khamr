@@ -120,8 +120,13 @@ string = 'catch resonance (but not attack) with pedal'
 catch_resonance = Markup(string, direction=Up, stack_priority=1000)
 catch_resonance = catch_resonance.larger()
 
-string = 'air tone with lips covering mouthplate (sounds major 7th lower)'
-covered_flute_air_tone = Markup(string, direction=Up).larger()
+first_line = Markup('air tone with lips covering mouthplate').line()
+second_line = Markup('(sounds major 7th lower)').line()
+covered_flute_air_tone = Markup.column(
+    [first_line, 
+    second_line], direction=Up,
+    )
+covered_flute_air_tone = covered_flute_air_tone.larger()
 
 cross_note_heads = handlertools.OverrideHandler(
     grob_name='note_head',
@@ -317,6 +322,9 @@ shakers = Markup('shakers', direction=Up).larger()
 
 show_tempo = Markup('allow bowing to convey accelerando', direction=Up)
 show_tempo = show_tempo.larger()
+
+string = 'Shape trill dynamics beautifully. (Thank you, Stefano.)'
+scodanibbio = Markup(string, direction=Up).larger()
 
 string = 'tamburo: strike lowest strings with palm inside piano'
 string += ' and let vibrate (pedal down throughout)'

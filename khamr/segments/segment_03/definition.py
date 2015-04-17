@@ -21,7 +21,7 @@ segment_maker = khamr.makers.SegmentMaker(
     raise_approximate_duration=False,
     show_stage_annotations=True,
     tempo_map = [
-        (1, khamr.materials.tempi[126]),
+        #(1, khamr.materials.tempi[126]),
         (3, khamr.materials.tempi[63]),
         (3, Accelerando()),
         (5, khamr.materials.tempi[126]),
@@ -523,6 +523,11 @@ segment_maker.make_music_handler(
         pitch_specifier(
             source='D6 E6 F#6 C6 C#6 D6 D#6 F6',
             ),
+        handlertools.PatternedArticulationsHandler(
+            articulation_lists=[
+                ['>'], None, None, None, None, None, None, None,
+                ],
+            ),
         ],
     )
 
@@ -553,6 +558,11 @@ segment_maker.make_music_handler(
         Dynamic('fff'),
         pitch_specifier(
             source='C6 C#6 D#6 E6 F6 F#6',
+            ),
+        handlertools.PatternedArticulationsHandler(
+            articulation_lists=[
+                ['>'], None, None, None, None, None,
+                ],
             ),
         ],
     )
@@ -585,6 +595,11 @@ segment_maker.make_music_handler(
         pitch_specifier(
             source='D6 D#6 F6 F#6 C6 C#6 D#6 E6 F6',
             ),
+        handlertools.PatternedArticulationsHandler(
+            articulation_lists=[
+                ['>'], None, None, None, None, None, None, None, None,
+                ],
+            ),
         ],
     )
 
@@ -613,6 +628,11 @@ segment_maker.make_music_handler(
         Dynamic('fff'),
         pitch_specifier(
             source='C6 C#6 D6 F6 F#6 D#6 E6',
+            ),
+        handlertools.PatternedArticulationsHandler(
+            articulation_lists=[
+                ['>'], None, None, None, None, None, None,
+                ],
             ),
         ],
     )
@@ -668,7 +688,7 @@ segment_maker.make_music_handler(
 segment_maker.make_music_handler(
     scope=(pf, (3, 4)),
     specifiers=[
-        Dynamic('fffff'),
+        Dynamic('ffff'),
         ]
     )
 
@@ -679,6 +699,12 @@ segment_maker.make_music_handler(
         pitch_specifier(
             source='C6 D6 D#6 E6 F6 F#6 C6 C#6 D#6 E6 F6',
             ),
+        handlertools.PatternedArticulationsHandler(
+            articulation_lists=[
+                ['>'], 
+                None, None, None, None, None, None, None, None, None, None,
+                ],
+            ),
         ],
     )
 
@@ -688,7 +714,7 @@ segment_maker.make_music_handler(
     scope=(perc, (3, 4)),
     specifiers=[
         Clef('percussion'),
-        Dynamic('ppp'),
+        Dynamic('pp'),
         stem_tremolo,
         percussion_reminder_markup('bass drum'),
         ]
@@ -794,7 +820,6 @@ segment_maker.make_music_handler(
                 item_class=NamedPitch,
                 )],
             ),
-        Dynamic('f'),
         ],
     )
 
@@ -857,7 +882,9 @@ segment_maker.make_music_handler(
 segment_maker.make_music_handler(
     scope=(cb, (8, 9)),
     specifiers=[
+        Dynamic('mp'),
         pitch_specifier(source='G0'),
         pervasive_F3_harmonic_trills,
+        scodanibbio,
         ],
     )
