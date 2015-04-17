@@ -219,8 +219,8 @@
         \accepts OboeMusicStaff
         \accepts ClarinetMusicStaff
         \accepts SaxophoneMusicStaff
-        \override StaffGrouper.staff-staff-spacing.minimum-distance = 34
-        \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 44
+        \override StaffGrouper.staff-staff-spacing.minimum-distance = 32
+        \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 42
     }
     \context {
         \Voice
@@ -278,8 +278,8 @@
         \accepts GuitarMusicStaff
         \accepts PianoMusicStaff
         \accepts PercussionMusicStaff
-        \override StaffGrouper.staff-staff-spacing.minimum-distance = 34
-        \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 44
+        \override StaffGrouper.staff-staff-spacing.minimum-distance = 32
+        \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 42
     }
     \context {
         \Voice
@@ -354,8 +354,8 @@
         \accepts ViolaMusicStaff
         \accepts CelloMusicStaff
         \accepts ContrabassMusicStaff
-        \override StaffGrouper.staff-staff-spacing.minimum-distance = 34
-        \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 44
+        \override StaffGrouper.staff-staff-spacing.minimum-distance = 32
+        \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 42
     }
     \context {
         \Score

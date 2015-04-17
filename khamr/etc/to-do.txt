@@ -4,3 +4,5 @@
 
 2.  Mail LilyPond list and ask about text spanner line-breaking text
     when used as accelerando.
+
+3.  Come up with a way to model dummy centerline pitches that are clef-aware.
