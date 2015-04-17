@@ -10,14 +10,19 @@ from khamr.materials.abbreviations import *
 ############################## SEGMENT-MAKER ##################################
 ###############################################################################
 
+city = Markup('Cambridge, MA.').italic()
+date = Markup('January - Aprirl 2015.').italic()
+final_markup = Markup.right_column([city, date], direction=Down)
 segment_maker = khamr.makers.SegmentMaker(
+    final_markup=final_markup,
+    final_markup_extra_offset=(24, -4),
     measures_per_stage=[
         3, 2, 2, 2, 2, 2, 2, 5,     # stages 1-8
         ],
     raise_approximate_duration=False,
     show_stage_annotations=True,
     tempo_map=[
-        (1, khamr.materials.tempi[42]),
+        #(1, khamr.materials.tempi[42]),
         (4, Accelerando()),
         (8, khamr.materials.tempi[84]),
         ],
@@ -120,7 +125,7 @@ segment_maker.make_music_maker(
 ### GUITAR MAKERS ###
 
 segment_maker.make_music_maker(
-    stages=(1, 4),
+    stages=(1, 3),
     context_name=gt,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -128,11 +133,14 @@ segment_maker.make_music_maker(
             rhythmmakertools.silence_all(),
             rhythmmakertools.sustain_last(1),
             ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
         ),
     )
 
 segment_maker.make_music_maker(
-    stages=(5, 7),
+    stages=(4, 7),
     context_name=gt,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -140,6 +148,9 @@ segment_maker.make_music_maker(
             rhythmmakertools.silence_all(),
             rhythmmakertools.sustain_first(1),
             ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
         ),
     )
 
@@ -151,12 +162,13 @@ segment_maker.make_music_maker(
             counts=mathtools.Infinity,
             )
         .split_by_durations(
-            durations=[(4, 4), (12, 4)],
+            durations=[(2, 4), (4, 4), (12, 4)],
             )
         ,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         output_masks=[
+            rhythmmakertools.silence_first(1),
             rhythmmakertools.silence_last(1),
             ],
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -168,7 +180,7 @@ segment_maker.make_music_maker(
 ### PIANO MAKERS ###
 
 segment_maker.make_music_maker(
-    stages=(1, 4),
+    stages=(1, 3),
     context_name=pf,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -176,11 +188,14 @@ segment_maker.make_music_maker(
             rhythmmakertools.silence_all(),
             rhythmmakertools.sustain_last(1),
             ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
         ),
     )
 
 segment_maker.make_music_maker(
-    stages=(5, 7),
+    stages=(4, 7),
     context_name=pf,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -188,6 +203,9 @@ segment_maker.make_music_maker(
             rhythmmakertools.silence_all(),
             rhythmmakertools.sustain_first(1),
             ],
+        tie_specifier=rhythmmakertools.TieSpecifier(
+            use_messiaen_style_ties=True,
+            ),
         ),
     )
 
@@ -199,12 +217,13 @@ segment_maker.make_music_maker(
             counts=mathtools.Infinity,
             )
         .split_by_durations(
-            durations=[(4, 4), (12, 4)],
+            durations=[(2, 4), (4, 4), (12, 4)],
             )
         ,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         output_masks=[
+            rhythmmakertools.silence_first(1),
             rhythmmakertools.silence_last(1),
             ],
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -241,6 +260,7 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(1, 7),
     context_name=vn,
+    clef='percussion',
     division_maker=beat_division_maker
         .fuse_by_counts(
             counts=mathtools.Infinity(),
@@ -262,6 +282,7 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(1, 7),
     context_name=va,
+    clef='percussion',
     division_maker=beat_division_maker
         .fuse_by_counts(
             counts=mathtools.Infinity(),
@@ -283,6 +304,7 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(1, 7),
     context_name=vc,
+    clef='percussion',
     division_maker=beat_division_maker
         .fuse_by_counts(
             counts=mathtools.Infinity(),
@@ -304,6 +326,7 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(1, 7),
     context_name=cb,
+    clef='percussion',
     division_maker=beat_division_maker
         .fuse_by_counts(
             counts=mathtools.Infinity(),
@@ -375,6 +398,7 @@ segment_maker.make_music_handler(
         pitch_specifier(source='C4'),
         reiterated_flageolets,
         reiterated_mf,
+        pervasive_accents,
         ],
     )
 
@@ -384,8 +408,8 @@ segment_maker.make_music_handler(
     scope=(pf, (1, 8)),
     specifiers=[
         pitch_specifier(source='A#4'),
-        reiterated_flageolets,
         reiterated_mf,
+        pervasive_accents,
         ],
     )
 
@@ -395,6 +419,10 @@ segment_maker.make_music_handler(
     scope=(perc, (1, 2)),
     specifiers=[
         stem_tremolo,
+        handlertools.NoteAndChordHairpinHandler(
+            hairpin_token=['pp > ppp'],
+            span='contiguous notes and chords',
+            ),
         ],
     )
 
@@ -418,10 +446,44 @@ segment_maker.make_music_handler(
 ### STRINGS ###
 
 segment_maker.make_music_handler(
+    scope=([vn, va, vc], (1, 7)),
+    specifiers=[
+        pitch_specifier(source='C4'),
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=(cb, (1, 7)),
+    specifiers=[
+        pitch_specifier(source='C3'),
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=([vn, va, vc, cb], (1, 7)),
+    specifiers=[
+        single_line_staff,
+        ],
+    )
+
+segment_maker.make_music_handler(
     scope=([vn, va, vc, cb], (1, 7)),
     specifiers=[
         alternate_bow_strokes,
-        on_bridge,
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=([vn, va], (1, 7)),
+    specifiers=[
+        bow_on_wooden_mute,
+        ],
+    )
+
+segment_maker.make_music_handler(
+    scope=([vc, cb], (1, 7)),
+    specifiers=[
+        bow_on_tailpiece,
         ],
     )
 
