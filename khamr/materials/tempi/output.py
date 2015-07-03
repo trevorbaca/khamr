@@ -9,35 +9,35 @@ tempi = datastructuretools.TypedOrderedDict(
         (
             32,
             indicatortools.Tempo(
-                duration=durationtools.Duration(1, 4),
+                reference_duration=durationtools.Duration(1, 4),
                 units_per_minute=32,
                 ),
             ),
         (
             42,
             indicatortools.Tempo(
-                duration=durationtools.Duration(1, 4),
+                reference_duration=durationtools.Duration(1, 4),
                 units_per_minute=42,
                 ),
             ),
         (
             63,
             indicatortools.Tempo(
-                duration=durationtools.Duration(1, 4),
+                reference_duration=durationtools.Duration(1, 4),
                 units_per_minute=63,
                 ),
             ),
         (
             84,
             indicatortools.Tempo(
-                duration=durationtools.Duration(1, 4),
+                reference_duration=durationtools.Duration(1, 4),
                 units_per_minute=84,
                 ),
             ),
         (
             126,
             indicatortools.Tempo(
-                duration=durationtools.Duration(1, 4),
+                reference_duration=durationtools.Duration(1, 4),
                 units_per_minute=126,
                 ),
             ),
