@@ -1,6 +1,7 @@
 # -*- encoding: utf-8 -*-
 from abjad import *
-from khamr.materials.contrabass_halo_pitches.output import contrabass_halo_pitches
+from khamr.materials.contrabass_halo_pitches.definition import \
+    contrabass_halo_pitches
 
 
 double_stop_halo_pitches = []
