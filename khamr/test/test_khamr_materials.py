@@ -7,7 +7,7 @@ import khamr
 from abjad.tools import systemtools
 
 
-boilerplate_path = ide.idetools.Configuration().boilerplate_directory
+boilerplate_path = ide.tools.idetools.Configuration().boilerplate_directory
 boilerplate_path = os.path.join(boilerplate_path, '__output_material__.py')
 
 materials_path = os.path.join(khamr.__path__[0], 'materials')
