@@ -7,7 +7,7 @@ import khamr
 from abjad.tools import systemtools
 
 
-boilerplate_path = ide.tools.idetools.Configuration().boilerplate_directory
+boilerplate_path = ide.tools.idetools.AbjadIDEConfiguration().abjad_ide_boilerplate_directory
 boilerplate_path = os.path.join(boilerplate_path, '__illustrate_segment__.py')
 segments_path = os.path.join(khamr.__path__[0], 'segments')
 directory_names = os.listdir(segments_path)
