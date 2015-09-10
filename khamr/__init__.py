@@ -1,4 +1,4 @@
 # -*- coding: utf-8 -*-
-import makers
-import materials
-import segments
+from khamr import makers
+from khamr import materials
+from khamr import segments
