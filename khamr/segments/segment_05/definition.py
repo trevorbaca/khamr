@@ -3,7 +3,7 @@ from abjad import *
 from experimental import *
 import baca
 import khamr
-from khamr.materials.abbreviations import *
+from khamr.materials.__abbreviations__ import *
 
 
 ###############################################################################

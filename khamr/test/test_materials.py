@@ -15,7 +15,7 @@ boilerplate_path = os.path.join(
     )
 
 materials_path = os.path.join(khamr.__path__[0], 'materials')
-abbreviations_path = os.path.join(materials_path, 'abbreviations.py')
+abbreviations_path = os.path.join(materials_path, '__abbreviations__.py')
 miscellaneous_materials_path = os.path.join(materials_path, 'miscellaneous.py')
 
 directory_names = os.listdir(materials_path)
@@ -25,12 +25,12 @@ material_paths = [os.path.join(materials_path, _) for _ in directory_names]
 material_paths = [_ for _ in material_paths if os.path.isdir(_)]
 
 
-@pytest.mark.parametrize('material_path', material_paths)
-def test_materials_01(material_path):
-    r'''Interprets material packages.
+def test_materials_01():
+    r'''Interprets abbreviations file.
     '''
-    definition_file_path = os.path.join(material_path, 'definition.py')
-    command = 'python {}'.format(definition_file_path)
+    if not os.path.exists(abbreviations_path):
+        return
+    command = 'python {}'.format(abbreviations_path)
     exit_status = systemtools.IOManager.spawn_subprocess(command)
     assert exit_status == 0
 
@@ -45,12 +45,12 @@ def test_materials_02():
     assert exit_status == 0
 
 
-def test_materials_03():
-    r'''Interprets abbreviations file.
+@pytest.mark.parametrize('material_path', material_paths)
+def test_materials_03(material_path):
+    r'''Interprets material packages.
     '''
-    if not os.path.exists(abbreviations_path):
-        return
-    command = 'python {}'.format(abbreviations_path)
+    definition_file_path = os.path.join(material_path, 'definition.py')
+    command = 'python {}'.format(definition_file_path)
     exit_status = systemtools.IOManager.spawn_subprocess(command)
     assert exit_status == 0
 
@@ -91,4 +91,3 @@ def test_materials_04(material_path):
         command = 'python {}'.format(local_boilerplate_path)
         exit_status = systemtools.IOManager.spawn_subprocess(command)
         assert exit_status == 0
-
