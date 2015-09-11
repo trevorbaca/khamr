@@ -395,10 +395,11 @@ class SegmentMaker(makertools.SegmentMaker):
             if instrument:
                 result[staff.name] = instrument.instrument_name
             else:
-                message = 'can not find effective instrument for last leaf'
-                message += ' ({!r}) of {}.'
-                message = message.format(last_leaf, staff.name)
-                raise Exception(message)
+                #message = 'can not find effective instrument for last leaf'
+                #message += ' ({!r}) of {}.'
+                #message = message.format(last_leaf, staff.name)
+                #raise Exception(message)
+                pass
         return result
 
     def _get_end_settings(self):
