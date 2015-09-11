@@ -144,6 +144,10 @@ class SegmentMaker(makertools.SegmentMaker):
     def _apply_previous_segment_end_settings(self):
         if self._is_first_segment():
             return
+        # TODO: bail only *during test battery*
+        #       composition-time use should continue to checks
+        if not self._previous_segment_metadata:
+            return
         if not self._previous_segment_metadata:
             message = 'can not find previous metadata before segment {}.'
             message = message.format(self._get_segment_identifier())
