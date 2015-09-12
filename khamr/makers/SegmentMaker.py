@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import print_function
 import collections
 import copy
 import os
@@ -90,15 +91,15 @@ class SegmentMaker(makertools.SegmentMaker):
         self._populate_time_signature_context()
         self._annotate_stages()
         with systemtools.Timer() as timer:
-            print('interpreting music-makers ...')
+            print('\tInterpreting music-makers ... ', end='')
             self._interpret_music_makers()
-            message = '\t... {} sec.'
+            message = '{} sec.'
             message = message.format(int(timer.elapsed_time))
             print(message)
         with systemtools.Timer() as timer:
-            print('interpreting music-handlers ...')
+            print('\tInterpreting music-handlers ... ', end='')
             self._interpret_music_handlers()
-            message = '\t... {} sec.'
+            message = '{} sec.'
             message = message.format(int(timer.elapsed_time))
             print(message)
         self._shorten_long_repeat_ties()
