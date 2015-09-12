@@ -620,12 +620,16 @@ class SegmentMaker(makertools.SegmentMaker):
 
     def _interpret_music_handlers(self):
         for music_handler in self.music_handlers:
-            message = '\t\t{} ... '.format(music_handler)
+            message = '\t\t{} {} ... '
+            message = message.format(
+                music_handler.context_name,
+                music_handler.stages,
+                )
             print(message, end='')
             with systemtools.Timer() as timer:
                 self._interpret_music_handler(music_handler)
-            total_time = int(timer.elapsed_time)
             message = '{} sec.'
+            message = message.format(int(timer.elapsed_time))
             print(message)
 
     def _interpret_music_makers(self):
