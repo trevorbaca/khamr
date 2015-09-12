@@ -84,6 +84,6 @@ if __name__ == '__main__':
             print(message)
             illustrate_segment(segment_directory)
         elapsed_time = int(timer.elapsed_time)
-        message = '\t... DONE ({} sec.)'
+        message = '\tTotal Abjad runtime: {} sec.'
         message = message.format(elapsed_time)
         print(message)
