@@ -51,7 +51,6 @@ class MusicMaker(abctools.AbjadObject):
         'rewrite_meter',
         'rhythm_maker',
         'split_at_measure_boundaries',
-        'stages',
         'start_tempo',
         'stop_tempo',
         )
