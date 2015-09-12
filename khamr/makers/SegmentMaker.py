@@ -89,8 +89,18 @@ class SegmentMaker(makertools.SegmentMaker):
         self._configure_lilypond_file()
         self._populate_time_signature_context()
         self._annotate_stages()
-        self._interpret_music_makers()
-        self._interpret_music_handlers()
+        with systemtools.Timer() as timer:
+            print('interpreting music-makers ...')
+            self._interpret_music_makers()
+            message = '\t... {} sec.'
+            message = message.format(int(timer.elapsed_time))
+            print(message)
+        with systemtools.Timer() as timer:
+            print('interpreting music-handlers ...')
+            self._interpret_music_handlers()
+            message = '\t... {} sec.'
+            message = message.format(int(timer.elapsed_time))
+            print(message)
         self._shorten_long_repeat_ties()
         self._attach_first_segment_default_instruments()
         self._attach_first_segment_default_clefs()
