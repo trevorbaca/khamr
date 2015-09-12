@@ -620,7 +620,7 @@ class SegmentMaker(makertools.SegmentMaker):
 
     def _interpret_music_handlers(self):
         for music_handler in self.music_handlers:
-            message = '\t\t{} {} ... '
+            message = '\t\t{} {!r} ... '
             message = message.format(
                 music_handler.context_name,
                 music_handler.stages,
