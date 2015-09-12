@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import print_function
 import shutil
 import os
 import subprocess
@@ -79,10 +80,10 @@ if __name__ == '__main__':
             continue
         with systemtools.Timer() as timer:
             message = 'Illustrating {} ... '
-            message = message.format(segment_path)
-            print(message, end='')
-            illustrate_segment(segment_directory)
-            elapsed_time = int(time.elapsed_time)
-            message = 'DONE ({} sec.)'
-            message = message.format(elapsed_time)
+            message = message.format(definition_file)
             print(message)
+            illustrate_segment(segment_directory)
+        elapsed_time = int(time.elapsed_time)
+        message = '\t... DONE ({} sec.)'
+        message = message.format(elapsed_time)
+        print(message)
