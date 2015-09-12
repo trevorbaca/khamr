@@ -11,9 +11,6 @@ boilerplate_path = configuration.abjad_ide_boilerplate_directory
 boilerplate_path = os.path.join(boilerplate_path, '__illustrate_segment__.py')
 
 def illustrate_segment(segment_path):
-    message = 'Illustrating {} ...'
-    message = message.format(segment_path)
-    print(message)
     local_boilerplate_path = os.path.join(
         segment_path,
         '__illustrate_segment__.py',
@@ -66,7 +63,9 @@ if __name__ == '__main__':
         inner_score_directory,
         'segments',
         )
-    for name in os.listdir(segments_directory):
+    names = os.listdir(segments_directory)
+    names.sort()
+    for name in names:
         segment_directory = os.path.join(
             segments_directory,
             name,
@@ -78,4 +77,12 @@ if __name__ == '__main__':
             )
         if not os.path.isfile(definition_file):
             continue
-        illustrate_segment(segment_directory)
+        with systemtools.Timer() as timer:
+            message = 'Illustrating {} ... '
+            message = message.format(segment_path)
+            print(message, end='')
+            illustrate_segment(segment_directory)
+            elapsed_time = int(time.elapsed_time)
+            message = 'DONE ({} sec.)'
+            message = message.format(elapsed_time)
+            print(message)
