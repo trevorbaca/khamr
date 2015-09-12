@@ -17,7 +17,8 @@ install:
 
 script:
     - ajv doctest ./khamr -x
-    - py.test -rf ./khamr -x
+    #- py.test -rf ./khamr -x
+    - ./khamr/test/run_tests_with_timing.py
 
 notifications:
     email: false
