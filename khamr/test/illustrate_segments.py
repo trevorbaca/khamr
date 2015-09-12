@@ -83,7 +83,7 @@ if __name__ == '__main__':
             message = message.format(definition_file)
             print(message)
             illustrate_segment(segment_directory)
-        elapsed_time = int(time.elapsed_time)
+        elapsed_time = int(timer.elapsed_time)
         message = '\t... DONE ({} sec.)'
         message = message.format(elapsed_time)
         print(message)
