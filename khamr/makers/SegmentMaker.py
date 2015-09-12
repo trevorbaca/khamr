@@ -622,8 +622,8 @@ class SegmentMaker(makertools.SegmentMaker):
         for music_handler in self.music_handlers:
             message = '\t\t{} {!r} ... '
             message = message.format(
-                music_handler.context_name,
-                music_handler.stages,
+                music_handler.scope.context_name,
+                music_handler.scope.stages,
                 )
             print(message, end='')
             with systemtools.Timer() as timer:
