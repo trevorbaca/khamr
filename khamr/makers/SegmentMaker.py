@@ -96,12 +96,8 @@ class SegmentMaker(makertools.SegmentMaker):
             message = '{} sec.'
             message = message.format(int(timer.elapsed_time))
             print(message)
-        with systemtools.Timer() as timer:
-            print('\tInterpreting music-handlers ... ', end='')
-            self._interpret_music_handlers()
-            message = '{} sec.'
-            message = message.format(int(timer.elapsed_time))
-            print(message)
+        print('\tInterpreting music-handlers ... ')
+        self._interpret_music_handlers()
         self._shorten_long_repeat_ties()
         self._attach_first_segment_default_instruments()
         self._attach_first_segment_default_clefs()
@@ -624,7 +620,13 @@ class SegmentMaker(makertools.SegmentMaker):
 
     def _interpret_music_handlers(self):
         for music_handler in self.music_handlers:
-            self._interpret_music_handler(music_handler)
+            message = '\t\t{} ... '.format(music_handler)
+            print(message, end='')
+            with systemtools.Timer() as timer:
+                self._interpret_music_handler(music_handler)
+            total_time = int(timer.elapsed_time)
+            message = '{} sec.'
+            print(message)
 
     def _interpret_music_makers(self):
         self._make_music_for_time_signature_context()
