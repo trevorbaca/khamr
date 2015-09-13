@@ -103,7 +103,7 @@ class SegmentMaker(makertools.SegmentMaker):
         print('\tInterpreting music-handlers ... ')
         self._interpret_music_handlers()
         self._shorten_long_repeat_ties()
-        self._attach_first_segment_default_instruments()
+        self._attach_first_segment_default_instruments(khamr.materials)
         self._attach_first_segment_default_clefs()
         self._apply_previous_segment_end_settings(khamr.materials)
         self._move_instruments_from_notes_back_to_rests(khamr.materials)
