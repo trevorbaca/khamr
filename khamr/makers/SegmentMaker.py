@@ -9,7 +9,7 @@ from experimental.tools import makertools
 
 
 class SegmentMaker(makertools.SegmentMaker):
-    r'''Al-kitab al-khamr segment-maker.
+    r'''Segment-maker.
     '''
 
     ### CLASS ATTRIBUTES ###
@@ -20,6 +20,7 @@ class SegmentMaker(makertools.SegmentMaker):
         '_final_markup',
         '_final_markup_extra_offset',
         '_music_handlers',
+        '_music_maker_class',
         '_music_makers',
         '_score',
         '_show_stage_annotations',
@@ -48,9 +49,10 @@ class SegmentMaker(makertools.SegmentMaker):
         time_signatures=None,
         transpose_score=False,
         ):
+        import khamr
         superclass = super(SegmentMaker, self)
         superclass.__init__()
-        self._initialize_music_makers(music_makers)
+        self._initialize_music_makers(music_makers, khamr.makers)
         self.final_barline = final_barline
         if final_markup is not None:
             assert isinstance(final_markup, markuptools.Markup)
@@ -60,6 +62,7 @@ class SegmentMaker(makertools.SegmentMaker):
         self._final_markup_extra_offset = final_markup_extra_offset
         self.measures_per_stage = measures_per_stage
         self._music_handlers = []
+        self._music_maker_class = khamr.makers.MusicMaker
         self._initialize_time_signatures(time_signatures)
         self.raise_approximate_duration = bool(raise_approximate_duration)
         assert isinstance(show_stage_annotations, bool)
@@ -79,12 +82,13 @@ class SegmentMaker(makertools.SegmentMaker):
 
         Returns LilyPond file and segment metadata.
         '''
+        import khamr
         self._segment_metadata = segment_metadata or \
             datastructuretools.TypedOrderedDict()
         self._previous_segment_metadata = previous_segment_metadata or \
             datastructuretools.TypedOrderedDict()
-        self._make_score()
-        self._remove_score_template_start_instruments()
+        self._make_score(khamr.makers.ScoreTemplate())
+        self._remove_score_template_start_instruments(khamr.materials)
         self._remove_score_template_start_clefs()
         self._make_lilypond_file()
         self._configure_lilypond_file()
@@ -101,15 +105,15 @@ class SegmentMaker(makertools.SegmentMaker):
         self._shorten_long_repeat_ties()
         self._attach_first_segment_default_instruments()
         self._attach_first_segment_default_clefs()
-        self._apply_previous_segment_end_settings()
-        self._move_instruments_from_notes_back_to_rests()
+        self._apply_previous_segment_end_settings(khamr.materials)
+        self._move_instruments_from_notes_back_to_rests(khamr.materials)
         self._label_instrument_changes()
         self._transpose_instruments()
         self._attach_rehearsal_mark()
         self._add_final_barline()
         self._add_final_markup()
         self._check_well_formedness()
-        self._update_segment_metadata()
+        self._update_segment_metadata(khamr.materials)
         self._raise_approximate_duration_in_seconds()
         return self.lilypond_file, self._segment_metadata
 
@@ -148,7 +152,7 @@ class SegmentMaker(makertools.SegmentMaker):
             start_measure = context[start_measure_index]
             attach(markup, start_measure)
 
-    def _apply_previous_segment_end_settings(self):
+    def _apply_previous_segment_end_settings(self, materials_package):
         if self._is_first_segment():
             return
         # TODO: bail only *during test battery*
@@ -177,7 +181,9 @@ class SegmentMaker(makertools.SegmentMaker):
             if instrument is not None:
                 continue
             previous_instrument = self._get_instrument_by_name(
-                previous_instrument_name)
+                previous_instrument_name,
+                materials_package,
+                )
             if previous_instrument is None:
                 continue
             copied_previous_instrument = new(previous_instrument)
@@ -185,7 +191,11 @@ class SegmentMaker(makertools.SegmentMaker):
             if isinstance(copied_previous_instrument, prototype):
                 copied_previous_instrument._default_scope = \
                     'PianoMusicStaff'
-            self._attach_instrument(copied_previous_instrument, staff)
+            self._attach_instrument(
+                copied_previous_instrument, 
+                staff,
+                materials_package,
+                )
         previous_clefs = self._previous_segment_metadata.get(
             'end_clefs_by_staff')
         if not previous_clefs:
@@ -244,8 +254,7 @@ class SegmentMaker(makertools.SegmentMaker):
                 clef = Clef(clef_name)
                 attach(clef, staff)
 
-    def _attach_first_segment_default_instruments(self):
-        import khamr
+    def _attach_first_segment_default_instruments(self, materials_package):
         if not self._is_first_segment():
             return
         cached_instruments = self._cached_score_template_start_instruments
@@ -264,12 +273,18 @@ class SegmentMaker(makertools.SegmentMaker):
                 instrument_name = previous_instruments.get(staff.name)
                 if instrument_name is None:
                     instrument_name = cached_instruments.get(staff.name)
-                instrument = khamr.materials.instruments[instrument_name]
+                instrument = materials_package.instruments[instrument_name]
                 instrument = copy.deepcopy(instrument)
                 attach(instrument, staff)
 
-    def _attach_instrument(self, instrument, component, scope=None):
-        self._check_instrument(instrument, component)
+    def _attach_instrument(
+        self, 
+        instrument, 
+        component, 
+        materials_package,
+        scope=None,
+        ):
+        self._check_instrument(instrument, component, materials_package)
         attach(instrument, component, scope=scope)
 
     def _attach_rehearsal_mark(self):
@@ -307,13 +322,12 @@ class SegmentMaker(makertools.SegmentMaker):
             # TODO: adjust TempoSpanner to make measure attachment work
             attach(directive, start_skip, is_annotation=True)
 
-    def _check_instrument(self, instrument, component):
-        import khamr
+    def _check_instrument(self, instrument, component, materials_package):
         effective_staff = inspect_(component).get_effective_staff()
         effective_staff_name = effective_staff.context_name
         message = 'can not attach {!r} to {}.'
         message = message.format(instrument, effective_staff_name)
-        allowable_instruments = khamr.materials.score_setup[
+        allowable_instruments = materials_package.score_setup[
             effective_staff_name]
         if not isinstance(instrument, allowable_instruments):
             raise Exception(message)
@@ -409,22 +423,23 @@ class SegmentMaker(makertools.SegmentMaker):
                 pass
         return result
 
-    def _get_end_settings(self):
+    def _get_end_settings(self, materials_package):
         end_settings = {}
         end_settings['end_clefs_by_staff'] = self._get_end_clefs()
         end_settings['end_instruments_by_staff'] = self._get_end_instruments()
-        end_settings['end_tempo'] = self._get_end_tempo_indication()
+        end_settings['end_tempo'] = self._get_end_tempo_indication(
+            materials_package,
+            )
         end_settings['end_time_signature'] = self._get_end_time_signature()
         return end_settings
 
-    def _get_end_tempo_indication(self):
-        import khamr
+    def _get_end_tempo_indication(self, materials_package):
         context = self._score['Time Signature Context']
         last_leaf = inspect_(context).get_leaf(-1)
         effective_tempo = inspect_(last_leaf).get_effective(Tempo)
         if not effective_tempo:
             return
-        tempi = khamr.materials.tempi
+        tempi = materials_package.tempi
         for tempo_name, tempo in tempi.items():
             if tempo == effective_tempo:
                 break
@@ -443,10 +458,9 @@ class SegmentMaker(makertools.SegmentMaker):
         string = str(time_signature)
         return string
 
-    def _get_instrument_by_name(self, instrument_name):
-        import khamr
+    def _get_instrument_by_name(self, instrument_name, materials_package):
         try:
-            from khamr.materials import instruments
+            from materials_package import instruments
         except ImportError:
             return
         for instrument_name_, instrument in instruments.items():
@@ -516,9 +530,8 @@ class SegmentMaker(makertools.SegmentMaker):
             time_signatures = sequencetools.flatten_sequence(stages)
         return time_signatures
 
-    def _instrument_to_instrument_name(self, instrument):
-        import khamr
-        for name, instrument_ in khamr.materials.instruments.items():
+    def _instrument_to_instrument_name(self, instrument, materials_package):
+        for name, instrument_ in materials_package.instruments.items():
             if type(instrument_) is type(instrument):
                 return name
         message = 'can not find {!r} in instruments package.'
@@ -639,12 +652,11 @@ class SegmentMaker(makertools.SegmentMaker):
         for voice in iterate(self._score).by_class(scoretools.Voice):
             self._make_music_for_voice(voice)
 
-    def _initialize_music_makers(self, music_makers):
-        import khamr
+    def _initialize_music_makers(self, music_makers, makers_package):
         music_makers = music_makers or []
         music_makers = list(music_makers)
         for music_maker in music_makers:
-            assert isinstance(music_maker, khamr.makers.MusicMaker)
+            assert isinstance(music_maker, makers_package.MusicMaker)
         self._music_makers = music_makers
 
     def _initialize_time_signatures(self, time_signatures):
@@ -763,9 +775,7 @@ class SegmentMaker(makertools.SegmentMaker):
             measures = self._make_rests(time_signatures)
             voice.extend(measures)
 
-    def _make_score(self):
-        import khamr
-        template = khamr.makers.ScoreTemplate()
+    def _make_score(self, score_template):
         score = template()
         first_bar_number = self._segment_metadata['first_bar_number']
         if first_bar_number is not None:
@@ -774,7 +784,7 @@ class SegmentMaker(makertools.SegmentMaker):
             override(score).bar_number.transparent = True
         self._score = score
 
-    def _move_instruments_from_notes_back_to_rests(self):
+    def _move_instruments_from_notes_back_to_rests(self, materials_package):
         prototype = instrumenttools.Instrument
         rest_prototype = (scoretools.Rest, scoretools.MultimeasureRest)
         for leaf in iterate(self._score).by_class(scoretools.Leaf):
@@ -800,6 +810,7 @@ class SegmentMaker(makertools.SegmentMaker):
                     self._attach_instrument(
                         new_instrument, 
                         current_leaf,
+                        materials_package,
                         scope=Staff,
                         )
                     break
@@ -869,13 +880,16 @@ class SegmentMaker(makertools.SegmentMaker):
             self._cached_score_template_start_clefs[staff.name] = clef.name
             detach(Clef, staff)
 
-    def _remove_score_template_start_instruments(self):
+    def _remove_score_template_start_instruments(self, materials_package):
         dictionary = datastructuretools.TypedOrderedDict()
         self._cached_score_template_start_instruments = dictionary
         for staff in iterate(self._score).by_class(Staff):
             prototype = instrumenttools.Instrument
             instrument = inspect_(staff).get_indicator(prototype)
-            instrument_name = self._instrument_to_instrument_name(instrument)
+            instrument_name = self._instrument_to_instrument_name(
+                instrument,
+                materials_package,
+                )
             self._cached_score_template_start_instruments[staff.name] = \
                 instrument_name
             detach(instrumenttools.Instrument, staff)
@@ -936,31 +950,36 @@ class SegmentMaker(makertools.SegmentMaker):
                     written_pitch_number = sounding_pitch_number - i
                     leaf.written_pitch = written_pitch_number
 
-    def _update_segment_metadata(self):
+    def _update_segment_metadata(self, materials_package):
         self._segment_metadata['measure_count'] = self.measure_count
-        self._segment_metadata.update(self._get_end_settings())
+        end_settings = self._get_end_settings(materials_package)
+        self._segment_metadata.update(end_settings)
 
     ### PUBLIC PROPERTIES ###
 
     @property
     def final_markup(self):
-        r'''Gets final markup of segment.
+        r'''Gets final markup.
 
         Set to markup or none.
+
+        Returns markup or none.
         '''
         return self._final_markup
 
     @property
     def final_markup_extra_offset(self):
-        r'''Gets extra offset of segment final markup.
+        r'''Gets final markup extra offset.
 
         Set to pair or none.
+
+        Returns pair or none.
         '''
         return self._final_markup_extra_offset
 
     @property
     def measure_count(self):
-        r'''Gets total number of measures in segment.
+        r'''Gets measure count.
 
         Returns nonnegative integer.
         '''
@@ -968,7 +987,7 @@ class SegmentMaker(makertools.SegmentMaker):
 
     @property
     def music_makers(self):
-        r'''Gets segment-maker's music-makers.
+        r'''Gets music-makers.
 
         Returns tuple of music-makers.
         '''
@@ -976,7 +995,7 @@ class SegmentMaker(makertools.SegmentMaker):
     
     @property
     def music_handlers(self):
-        r'''Gets segment-maker's music-handlers.
+        r'''Gets music-handlers.
 
         Returns tuples of music-handlers.
         '''
@@ -987,12 +1006,14 @@ class SegmentMaker(makertools.SegmentMaker):
         r'''Is true when segment should annotate stages.
 
         Set to true or false.
+
+        Returns true or false.
         '''
         return self._show_stage_annotations
 
     @property
     def stage_count(self):
-        r'''Gets total number of stages in segment.
+        r'''Gets stage count.
 
         Returns nonnegative integer.
         '''
@@ -1004,13 +1025,17 @@ class SegmentMaker(makertools.SegmentMaker):
         as written (rather than as sounding).
 
         Set to true or false.
+
+        Returns true or false.
         '''
         return self._transpose_score
 
     ### PUBLIC METHODS ###
 
     def copy_music_maker(self, _context_name, _stage, **kwargs):
-        r'''Gets music-maker with `_context_name` defined for `_stage`.
+        r'''Copies music-maker with `_context_name` defined for `_stage`.
+
+        Gets music-maker with `_context_name` defined for `_stage`.
         Then makes new music-maker from this with optional `kwargs`.
 
         Short-cut for get-then-new.
@@ -1019,7 +1044,7 @@ class SegmentMaker(makertools.SegmentMaker):
         to avoid aliasing public keyword argument names `context_name`
         and `stage`.
 
-        Returns music-maker.
+        Returns new music-maker.
         '''
         music_maker = self.get_music_maker(_context_name, _stage)
         music_maker = copy.deepcopy(music_maker)
@@ -1093,13 +1118,13 @@ class SegmentMaker(makertools.SegmentMaker):
         start_tempo=None,
         stop_tempo=None,
         ):
-        r'''Makes music-maker and appends music-maker to segment-maker's list
-        of music-makers.
+        r'''Makes music-maker.
+        
+        Appends music-maker to segment-maker's list of music-makers.
 
-        Returns music-maker.
+        Returns new music-maker.
         '''
-        import khamr
-        music_maker = khamr.makers.MusicMaker(
+        music_maker = self._music_maker_class(
             clef=clef,
             context_name=context_name,
             division_maker=division_maker,
