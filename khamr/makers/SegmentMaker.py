@@ -776,7 +776,7 @@ class SegmentMaker(makertools.SegmentMaker):
             voice.extend(measures)
 
     def _make_score(self, score_template):
-        score = template()
+        score = score_template()
         first_bar_number = self._segment_metadata['first_bar_number']
         if first_bar_number is not None:
             set_(score).current_bar_number = first_bar_number
