@@ -1,12 +1,15 @@
+# -*- coding: utf-8 -*-
 from abjad import *
 
 
 class ScoreTemplate(abctools.AbjadValueObject):
+    r'''Score template.
+    '''
 
     ### SPECIAL METHODS ###
 
     def __call__(self):
-        r'''Calls Al-kitab al-khamr score template.
+        r'''Calls score template.
 
         >>> from khamr import makers
         >>> template = makers.ScoreTemplate()
@@ -116,7 +119,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
         Returns score.
         '''
 
-        # make time signature context
+        # makes time signature context
         time_signature_context = scoretools.Context(
             context_name='TimeSignatureContext',
             name='Time Signature Context',
@@ -141,7 +144,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
         tag_command = indicatortools.LilyPondCommand(tag_string, 'before')
         attach(tag_command, time_signature_context)
 
-        # make wind contexts
+        # makes wind contexts
         flute_music_voice = scoretools.Voice(
             [], 
             context_name='FluteMusicVoice',
@@ -205,7 +208,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             name='Wind Section Staff Group',
             )
 
-        # make percussion contexts
+        # makes percussion contexts
         guitar_music_voice = scoretools.Voice(
             [], 
             context_name='GuitarMusicVoice',
@@ -257,7 +260,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             name='Percussion Section Staff Group',
             )
 
-        # make string contexts
+        # makes string contexts
         violin_music_voice = scoretools.Voice(
             [], 
             context_name='ViolinMusicVoice',
@@ -321,7 +324,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             name='String Section Staff Group',
             )
         
-        # make score
+        # makes score
         score = Score(
             [
             time_signature_context,
@@ -332,7 +335,7 @@ class ScoreTemplate(abctools.AbjadValueObject):
             name='Score',
             )
 
-        # return score
+        # returns score
         return score
 
     ### PRIVATE METHODS ###
