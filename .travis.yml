@@ -17,7 +17,6 @@ install:
 
 script:
     - ajv doctest ./khamr -x
-    #- python ./khamr/test/run_tests_with_timing.py
     - py.test -rf ./khamr -x
     - python ./khamr/test/illustrate_segments.py
 
