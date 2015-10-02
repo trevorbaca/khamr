@@ -5,8 +5,8 @@ python:
     - 3.4
 
 before_install:
-    - wget -q http://download.linuxaudio.org/lilypond/binaries/linux-64/lilypond-2.19.26-1.linux-64.sh
-    - sudo sh lilypond-2.19.26-1.linux-64.sh --batch
+    - wget -q http://download.linuxaudio.org/lilypond/binaries/linux-64/lilypond-2.19.28-1.linux-64.sh
+    - sudo sh lilypond-2.19.28-1.linux-64.sh --batch
     - pip install --upgrade pip
 
 install:
