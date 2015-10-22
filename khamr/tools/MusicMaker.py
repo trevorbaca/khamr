@@ -10,8 +10,8 @@ class MusicMaker(abctools.AbjadObject):
 
         ::
 
-            >>> from khamr import makers
-            >>> music_maker = makers.MusicMaker(
+            >>> import khamr
+            >>> music_maker = khamr.tools.MusicMaker(
             ...     context_name='Cello Music Voice',
             ...     stages=(1, 4),
             ...     division_maker=makertools.FuseByCountsDivisionCallback(
@@ -23,7 +23,7 @@ class MusicMaker(abctools.AbjadObject):
         ::
 
             >>> print(format(music_maker, 'storage'))
-            khamr.makers.MusicMaker(
+            khamr.tools.MusicMaker(
                 context_name='Cello Music Voice',
                 division_maker=makertools.FuseByCountsDivisionCallback(
                     counts=[2, 3, 1],

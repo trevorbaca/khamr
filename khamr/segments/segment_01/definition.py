@@ -10,7 +10,7 @@ from khamr.materials.__abbreviations__ import *
 ############################## SEGMENT-MAKER ##################################
 ###############################################################################
 
-segment_maker = khamr.makers.SegmentMaker(
+segment_maker = khamr.tools.SegmentMaker(
     measures_per_stage=[
         8, 8, 8,
         6, 6,
@@ -689,7 +689,7 @@ segment_maker.make_music_handler(
             source='C4 C4 C4 Ab5',
             ),
         stem_direction(Down),
-        khamr.makers.MarimbaHitSpecifier(
+        khamr.tools.MarimbaHitSpecifier(
             attach_first_markup=True,
             indices=[3, 7],
             ),

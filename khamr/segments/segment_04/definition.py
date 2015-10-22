@@ -13,7 +13,7 @@ from khamr.materials.__abbreviations__ import *
 city = Markup('Cambridge, MA.').italic()
 date = Markup('January - Aprirl 2015.').italic()
 final_markup = Markup.right_column([city, date], direction=Down)
-segment_maker = khamr.makers.SegmentMaker(
+segment_maker = khamr.tools.SegmentMaker(
     final_markup=final_markup,
     final_markup_extra_offset=(24, -4),
     measures_per_stage=[
