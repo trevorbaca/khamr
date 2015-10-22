@@ -907,7 +907,7 @@ segment_maker.make_music_handler(
             source=khamr.materials.double_stop_halo_pitches,
             start_index=0,
             ),
-        baca.makers.GlissandoSpecifier(
+        baca.tools.GlissandoSpecifier(
             patterns=[
                 rhythmmakertools.select_all(),
                 rhythmmakertools.silence_last(1),
