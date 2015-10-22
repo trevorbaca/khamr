@@ -41,8 +41,13 @@ def illustrate_segment(segment_path):
         shutil.copyfile(boilerplate_path, local_boilerplate_path)
         ide.tools.idetools.AbjadIDE._replace_in_file(
             local_boilerplate_path,
-            'PREVIOUS_SEGMENT_METADATA_IMPORT_STATEMENT',
+            '{previous_segment_metadata_import_statement}',
             'previous_segment_metadata = None',
+            )
+        ide.tools.idetools.AbjadIDE._replace_in_file(
+            local_boilerplate_path,
+            '{{}}',
+            '{}',
             )
         assert os.path.exists(local_boilerplate_path)
         assert not os.path.exists(illustration_candidate_ly_path)
