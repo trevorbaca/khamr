@@ -52,7 +52,7 @@ class SegmentMaker(makertools.SegmentMaker):
         import khamr
         superclass = super(SegmentMaker, self)
         superclass.__init__()
-        self._initialize_music_makers(music_makers, khamr.makers)
+        self._initialize_music_makers(music_makers, khamr.tools)
         self.final_barline = final_barline
         if final_markup is not None:
             assert isinstance(final_markup, markuptools.Markup)
@@ -62,7 +62,7 @@ class SegmentMaker(makertools.SegmentMaker):
         self._final_markup_extra_offset = final_markup_extra_offset
         self.measures_per_stage = measures_per_stage
         self._music_handlers = []
-        self._music_maker_class = khamr.makers.MusicMaker
+        self._music_maker_class = khamr.tools.MusicMaker
         self._initialize_time_signatures(time_signatures)
         self.raise_approximate_duration = bool(raise_approximate_duration)
         assert isinstance(show_stage_annotations, bool)
@@ -87,7 +87,7 @@ class SegmentMaker(makertools.SegmentMaker):
             datastructuretools.TypedOrderedDict()
         self._previous_segment_metadata = previous_segment_metadata or \
             datastructuretools.TypedOrderedDict()
-        self._make_score(khamr.makers.ScoreTemplate())
+        self._make_score(khamr.tools.ScoreTemplate())
         self._remove_score_template_start_instruments(khamr.materials)
         self._remove_score_template_start_clefs()
         self._make_lilypond_file()

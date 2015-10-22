@@ -13,14 +13,14 @@ class MarimbaHitSpecifier(abctools.AbjadObject):
         ::
 
             >>> import khamr
-            >>> specifier = khamr.makers.MarimbaHitSpecifier(
+            >>> specifier = khamr.tools.MarimbaHitSpecifier(
             ...     indices=[3, 9],
             ...     )
 
         ::
             
             >>> print(format(specifier))
-            khamr.makers.MarimbaHitSpecifier(
+            khamr.tools.MarimbaHitSpecifier(
                 attach_first_markup=False,
                 indices=[3, 9],
                 )

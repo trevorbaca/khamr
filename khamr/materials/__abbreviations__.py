@@ -2,8 +2,7 @@
 from abjad import *
 from experimental import *
 import baca
-from khamr import materials
-from khamr import makers
+import khamr
 from abjad.tools import pitchtools
 
 
@@ -24,7 +23,7 @@ cb = 'Contrabass Music Voice'
 ### INSTRUMENTS ###
 
 # TODO: make Instrument.default_scope public
-piano = materials.instruments['piano']
+piano = khamr.materials.instruments['piano']
 piano._default_scope = 'PianoMusicStaff'
 
 ### RHYTHM-MAKERS ###

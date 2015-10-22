@@ -10,7 +10,7 @@ from khamr.materials.__abbreviations__ import *
 ############################## SEGMENT-MAKER ##################################
 ###############################################################################
 
-segment_maker = khamr.makers.SegmentMaker(
+segment_maker = khamr.tools.SegmentMaker(
     measures_per_stage=[
         4, 4, 4,    # stages 1-3
         4, 4,       # stages 3-4
