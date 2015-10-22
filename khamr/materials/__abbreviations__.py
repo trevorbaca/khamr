@@ -665,4 +665,4 @@ sixth_octave = baca.makers.RegistrationSpecifier(
     registration=pitchtools.Registration(
         [('[A0, C8)', 30)],
         ),
-    )rom abjad import *
+    )
