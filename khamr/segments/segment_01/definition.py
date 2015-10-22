@@ -703,7 +703,7 @@ segment_maker.make_music_handler(
 segment_maker.make_music_handler(
     scope=(vn, (1, 5)),
     specifiers=[
-        baca.makers.GlissandoSpecifier(
+        baca.tools.GlissandoSpecifier(
             patterns=rhythmmakertools.select_all(),
             ),
         halo_accompaniment_hairpins,
@@ -733,7 +733,7 @@ segment_maker.make_music_handler(
 segment_maker.make_music_handler(
     scope=(va, (1, 5)),
     specifiers=[
-        baca.makers.GlissandoSpecifier(
+        baca.tools.GlissandoSpecifier(
             patterns=rhythmmakertools.select_all(),
             ),
         halo_accompaniment_hairpins,
@@ -763,7 +763,7 @@ segment_maker.make_music_handler(
 segment_maker.make_music_handler(
     scope=(vc, (1, 5)),
     specifiers=[
-        baca.makers.GlissandoSpecifier(
+        baca.tools.GlissandoSpecifier(
             patterns=rhythmmakertools.select_all(),
             ),
         halo_accompaniment_hairpins,
@@ -794,7 +794,7 @@ segment_maker.make_music_handler(
     scope=(cb, (1, 7)),
     specifiers=[
         Dynamic('f'),
-        baca.makers.GlissandoSpecifier(
+        baca.tools.GlissandoSpecifier(
             patterns=rhythmmakertools.select_all(),
             ),
         natural_harmonics,

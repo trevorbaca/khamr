@@ -473,7 +473,7 @@ def pitch_specifier(
     source=None,
     start_index=0,
     ):
-    return baca.makers.PitchSpecifier(
+    return baca.tools.PitchSpecifier(
         counts=counts,
         operators=operators,
         reverse=reverse,
@@ -481,21 +481,21 @@ def pitch_specifier(
         start_index=start_index,
         )
 
-color_fingering_1 = baca.makers.ColorFingeringSpecifier(
+color_fingering_1 = baca.tools.ColorFingeringSpecifier(
     deposit_annotations=['color fingering'],
     number_lists=(
         [1],
         ),
     )
 
-color_fingerings = baca.makers.ColorFingeringSpecifier(
+color_fingerings = baca.tools.ColorFingeringSpecifier(
     deposit_annotations=['color fingering'],
     number_lists=(
         [0, 1, 2, 1],
         ),
     )
 
-color_microtones = baca.makers.MicrotonalDeviationSpecifier(
+color_microtones = baca.tools.MicrotonalDeviationSpecifier(
     deposit_annotations=['color microtone'],
     number_lists=(
         [0, -0.5, 0, 0.5],
@@ -503,31 +503,31 @@ color_microtones = baca.makers.MicrotonalDeviationSpecifier(
         ),
     )
 
-pervasive_glissandi = baca.makers.GlissandoSpecifier(
+pervasive_glissandi = baca.tools.GlissandoSpecifier(
     patterns=rhythmmakertools.select_all(),
     )
 
 def pervasive_trills_at_interval(interval):
-    return baca.makers.TrillSpecifier(
+    return baca.tools.TrillSpecifier(
         interval=interval,
         minimum_written_duration=None,
         )
     
-trill_quarter_notes = baca.makers.TrillSpecifier(
+trill_quarter_notes = baca.tools.TrillSpecifier(
     forbidden_annotations=['color fingering', 'color microtone'],
     minimum_written_duration=Duration(1, 4),
     )
 
-pervasive_trills = baca.makers.TrillSpecifier(
+pervasive_trills = baca.tools.TrillSpecifier(
     minimum_written_duration=None,
     )
 
-pervasive_A5_trills = baca.makers.TrillSpecifier(
+pervasive_A5_trills = baca.tools.TrillSpecifier(
     minimum_written_duration=None,
     pitch=NamedPitch('A5'),
     )
 
-pervasive_F3_harmonic_trills = baca.makers.TrillSpecifier(
+pervasive_F3_harmonic_trills = baca.tools.TrillSpecifier(
     is_harmonic=True,
     minimum_written_duration=None,
     pitch=NamedPitch('F3'),
@@ -619,7 +619,7 @@ bass_flute_tremoli_hairpins = handlertools.NoteAndChordHairpinHandler(
 five_line_staff = spannertools.StaffLinesSpanner(lines=5)
 
 def label_logical_ties(start_index=0):
-    return baca.makers.LabelSpecifier(
+    return baca.tools.LabelSpecifier(
         label_logical_ties=True,
         start_index=start_index
         )
@@ -643,25 +643,25 @@ put_reed_back_in = Markup('put reed back in', direction=Up).larger()
 
 flageolet = indicatortools.LilyPondCommand('flageolet', format_slot='right')
 
-wide_third_octave = baca.makers.RegistrationSpecifier(
+wide_third_octave = baca.tools.RegistrationSpecifier(
     registration=pitchtools.Registration(
         [('[A0, F#4)', -20), ('[F#4, C8]', -6)]
         ),
     )
 
-narrow_fourth_octave = baca.makers.RegistrationSpecifier(
+narrow_fourth_octave = baca.tools.RegistrationSpecifier(
     registration=pitchtools.Registration(
         [('[A0, F#4)', -2), ('[F#4, C8]', 1)],
         ),
     )
 
-narrow_sixth_octave = baca.makers.RegistrationSpecifier(
+narrow_sixth_octave = baca.tools.RegistrationSpecifier(
     registration=pitchtools.Registration(
         [('[A0, F#4)', 22), ('[F#4, C8]', 25)],
         ),
     )
 
-sixth_octave = baca.makers.RegistrationSpecifier(
+sixth_octave = baca.tools.RegistrationSpecifier(
     registration=pitchtools.Registration(
         [('[A0, C8)', 30)],
         ),
