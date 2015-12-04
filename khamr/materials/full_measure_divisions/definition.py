@@ -3,4 +3,6 @@ from abjad import *
 from experimental import *
 
 
-full_measure_divisions = makertools.SplitByDurationsDivisionCallback(durations=None)
+full_measure_divisions = makertools.SplitByDurationsDivisionCallback(
+    durations=None,
+    )
