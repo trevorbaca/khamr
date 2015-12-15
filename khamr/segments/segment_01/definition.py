@@ -66,7 +66,7 @@ segment_maker.make_music_maker(
             suffix_counts=[1],
             talea_denominator=8,
             ),
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_every([2, 5], period=6),
             ],
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -95,7 +95,7 @@ segment_maker.make_music_maker(
             suffix_counts=[1],
             talea_denominator=8,
             ),
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_every([1, 4], period=6),
             ],
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -124,7 +124,7 @@ segment_maker.make_music_maker(
             suffix_counts=[1],
             talea_denominator=8,
             ),
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_every([1, 3], period=6),
             ],
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -153,7 +153,7 @@ segment_maker.make_music_maker(
             suffix_counts=[1],
             talea_denominator=8,
             ),
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_every([1, 3], period=6),
             ],
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -173,7 +173,7 @@ segment_maker.make_music_maker(
             ),
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_every([1, 2, 3, 5, 6, 7, 8], period=9),
             rhythmmakertools.silence_first(12),
             rhythmmakertools.sustain_first(1),
@@ -224,7 +224,7 @@ segment_maker.copy_music_maker(
     gt,
     1,
     stages=(7, 7),
-    rhythm_maker__output_masks=[
+    rhythm_maker__division_masks=[
         rhythmmakertools.silence_every([1, 2, 3, 5, 6, 7, 8], period=9),
         ],
     )
@@ -292,7 +292,7 @@ segment_maker.make_music_maker(
             ),
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_every([1, 2, 3, 5, 6, 7, 8], period=9),
             ],
         tuplet_ratios=[
@@ -338,7 +338,7 @@ segment_maker.make_music_maker(
     context_name=vn,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
-        output_masks=[
+        division_masks=[
             rhythmmakertools.sustain_every(
                 [0, 1, 2, 5],
                 period=7,
@@ -380,7 +380,7 @@ segment_maker.make_music_maker(
     context_name=va,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
-        output_masks=[
+        division_masks=[
             rhythmmakertools.sustain_every(
                 [1, 2, 3, 6],
                 period=7,
@@ -422,7 +422,7 @@ segment_maker.make_music_maker(
     context_name=vc,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
-        output_masks=[
+        division_masks=[
             rhythmmakertools.sustain_every(
                 [0, 2, 3, 4],
                 period=7,
@@ -464,7 +464,7 @@ segment_maker.make_music_maker(
     context_name=cb,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
-        output_masks=[
+        division_masks=[
             rhythmmakertools.sustain_every(
                 [0, 1, 4, 6],
                 period=7,

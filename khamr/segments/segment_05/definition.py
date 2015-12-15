@@ -49,7 +49,7 @@ segment_maker.make_music_maker(
             ),
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        output_masks=rhythmmakertools.silence_every([1, 4], period=5),
+        division_masks=rhythmmakertools.silence_every([1, 4], period=5),
         tie_specifier=rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
             ),
@@ -91,7 +91,7 @@ segment_maker.make_music_maker(
             suffix_counts=[1],
             talea_denominator=8,
             ),
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_every([2], period=3),
             ],
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -111,7 +111,7 @@ segment_maker.copy_music_maker(
     ob,
     1,
     stages=(7, 9),
-    rhythm_maker__output_masks=None,
+    rhythm_maker__division_masks=None,
     )
 
 ### CLARINET ###
@@ -136,7 +136,7 @@ segment_maker.make_music_maker(
             suffix_counts=[1],
             talea_denominator=8,
             ),
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_every([2], period=3),
             ],
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -156,7 +156,7 @@ segment_maker.copy_music_maker(
     cl,
     1,
     stages=(7, 9),
-    rhythm_maker__output_masks=None,
+    rhythm_maker__division_masks=None,
     )
 
 ### SAXOPHONE ###
@@ -180,7 +180,7 @@ segment_maker.make_music_maker(
             suffix_counts=[1],
             talea_denominator=8,
             ),
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_every([1], period=3),
             ],
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -200,7 +200,7 @@ segment_maker.copy_music_maker(
     sax,
     1,
     stages=(7, 9),
-    rhythm_maker__output_masks=None,
+    rhythm_maker__division_masks=None,
     )
 
 ### GUITAR ###
@@ -244,7 +244,7 @@ segment_maker.make_music_maker(
         ,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        output_masks=rhythmmakertools.silence_every([1, 4], period=5),
+        division_masks=rhythmmakertools.silence_every([1, 4], period=5),
         tie_specifier=rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
             ),
@@ -263,7 +263,7 @@ segment_maker.make_music_maker(
             ),
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        output_masks=rhythmmakertools.silence_every([1, 4], period=5),
+        division_masks=rhythmmakertools.silence_every([1, 4], period=5),
         tie_specifier=rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
             ),
@@ -293,7 +293,7 @@ segment_maker.make_music_maker(
     stages=(6, 6),
     context_name=vn,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        output_masks=rhythmmakertools.silence_last(),
+        division_masks=rhythmmakertools.silence_last(),
         tie_specifier=rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
             use_messiaen_style_ties=True,
@@ -356,7 +356,7 @@ segment_maker.make_music_maker(
             ),
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        output_masks=rhythmmakertools.silence_every([1, 3], period=6),
+        division_masks=rhythmmakertools.silence_every([1, 3], period=6),
         tie_specifier=rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
             ),
