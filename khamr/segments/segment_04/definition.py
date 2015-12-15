@@ -129,7 +129,7 @@ segment_maker.make_music_maker(
     context_name=gt,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_all(),
             rhythmmakertools.sustain_last(1),
             ],
@@ -144,7 +144,7 @@ segment_maker.make_music_maker(
     context_name=gt,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_all(),
             rhythmmakertools.sustain_first(1),
             ],
@@ -167,7 +167,7 @@ segment_maker.make_music_maker(
         ,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_first(1),
             rhythmmakertools.silence_last(1),
             ],
@@ -184,7 +184,7 @@ segment_maker.make_music_maker(
     context_name=pf,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_all(),
             rhythmmakertools.sustain_last(1),
             ],
@@ -199,7 +199,7 @@ segment_maker.make_music_maker(
     context_name=pf,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_all(),
             rhythmmakertools.sustain_first(1),
             ],
@@ -222,7 +222,7 @@ segment_maker.make_music_maker(
         ,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_first(1),
             rhythmmakertools.silence_last(1),
             ],
@@ -238,7 +238,7 @@ segment_maker.make_music_maker(
     stages=(1, 2),
     context_name=perc,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_last(1),
             ],
         tie_specifier=rhythmmakertools.TieSpecifier(

@@ -707,7 +707,7 @@ class SegmentMaker(makertools.SegmentMaker):
             )
         mask = rhythmmakertools.silence_all(use_multimeasure_rests=True)
         maker = rhythmmakertools.NoteRhythmMaker(
-            output_masks=[mask],
+            division_masks=[mask],
             )
         selections = maker(time_signatures)
         return selections

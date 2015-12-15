@@ -134,7 +134,7 @@ segment_maker.make_music_maker(
             suffix_counts=[1],
             talea_denominator=16,
             ),
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_first(1),
             ],
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -175,7 +175,7 @@ segment_maker.make_music_maker(
     context_name=cl,
     instrument=khamr.materials.instruments['bass clarinet'],
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_last(1),
             ],
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -344,7 +344,7 @@ segment_maker.make_music_maker(
     context_name=vn,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
-        output_masks=[
+        division_masks=[
             rhythmmakertools.sustain_every(
                 [0, 1, 3],
                 period=7,
@@ -376,7 +376,7 @@ segment_maker.make_music_maker(
     context_name=va,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
-        output_masks=[
+        division_masks=[
             rhythmmakertools.sustain_every(
                 [1, 2, 4],
                 period=7,
@@ -408,7 +408,7 @@ segment_maker.make_music_maker(
     context_name=vc,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
-        output_masks=[
+        division_masks=[
             rhythmmakertools.sustain_every(
                 [2, 3, 5],
                 period=7,
@@ -475,7 +475,7 @@ segment_maker.make_music_maker(
     context_name=cb,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_last(1),
             ],
         tie_specifier=rhythmmakertools.TieSpecifier(
@@ -490,7 +490,7 @@ segment_maker.make_music_maker(
     context_name=cb,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        output_masks=[
+        division_masks=[
             rhythmmakertools.silence_last(1),
             ],
         tie_specifier=rhythmmakertools.TieSpecifier(
