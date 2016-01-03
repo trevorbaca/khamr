@@ -44,14 +44,14 @@ assert segment_maker.validate_time_signatures()
 
 segment_maker.make_music_maker(
     stages=(1, 1),
-    context_name=fl,
+    voice_name=fl,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
     stages=(5, 6),
-    context_name=fl,
+    voice_name=fl,
     instrument=khamr.materials.instruments['flute'],
     division_maker=makertools.DivisionMaker()
         .fuse_by_counts(
@@ -69,7 +69,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(9, 9),
-    context_name=fl,
+    voice_name=fl,
     division_maker=beat_division_maker
         .fuse_by_counts(
             counts=[8],
@@ -94,14 +94,14 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(1, 1),
-    context_name=ob,
+    voice_name=ob,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
     stages=(5, 6),
-    context_name=ob,
+    voice_name=ob,
     instrument=khamr.materials.instruments['oboe'],
     division_maker=makertools.DivisionMaker()
         .fuse_by_counts(
@@ -119,7 +119,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(9, 9),
-    context_name=ob,
+    voice_name=ob,
     division_maker=beat_division_maker
         .fuse_by_counts(
             counts=[10],
@@ -147,14 +147,14 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(1, 1),
-    context_name=cl,
+    voice_name=cl,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
     stages=(5, 6),
-    context_name=cl,
+    voice_name=cl,
     instrument=khamr.materials.instruments['clarinet in B-flat'],
     division_maker=makertools.DivisionMaker()
         .fuse_by_counts(
@@ -172,7 +172,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(8, 9),
-    context_name=cl,
+    voice_name=cl,
     instrument=khamr.materials.instruments['bass clarinet'],
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         division_masks=[
@@ -189,14 +189,14 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(1, 1),
-    context_name=sax,
+    voice_name=sax,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
     stages=(5, 6),
-    context_name=sax,
+    voice_name=sax,
     instrument=khamr.materials.instruments['sopranino saxophone'],
     division_maker=makertools.DivisionMaker()
         .fuse_by_counts(
@@ -214,7 +214,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(9, 9),
-    context_name=sax,
+    voice_name=sax,
     division_maker=beat_division_maker
         .fuse_by_counts(
             counts=[12],
@@ -239,14 +239,14 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(1, 1),
-    context_name=gt,
+    voice_name=gt,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
     stages=(5, 6),
-    context_name=gt,
+    voice_name=gt,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
@@ -255,7 +255,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(1, 4),
-    context_name=pf,
+    voice_name=pf,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
         tuplet_ratios=[
@@ -276,7 +276,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(5, 6),
-    context_name=pf,
+    voice_name=pf,
     division_maker=makertools.DivisionMaker()
         .fuse_by_counts(
             counts=mathtools.Infinity,
@@ -295,21 +295,21 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(3, 4),
-    context_name=perc,
+    voice_name=perc,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
     stages=(5, 5),
-    context_name=perc,
+    voice_name=perc,
     division_maker=quarter_division_maker,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(),
     )
 
 segment_maker.make_music_maker(
     stages=(6, 6),
-    context_name=perc,
+    voice_name=perc,
     division_maker=makertools.DivisionMaker()
         .fuse_by_counts(
             counts=mathtools.Infinity,
@@ -325,7 +325,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(7, 9),
-    context_name=perc,
+    voice_name=perc,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
@@ -334,14 +334,14 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(1, 1),
-    context_name=vn,
+    voice_name=vn,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
     stages=(2, 6),
-    context_name=vn,
+    voice_name=vn,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
         division_masks=[
@@ -366,14 +366,14 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(1, 1),
-    context_name=va,
+    voice_name=va,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
     stages=(2, 6),
-    context_name=va,
+    voice_name=va,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
         division_masks=[
@@ -398,14 +398,14 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(1, 1),
-    context_name=vc,
+    voice_name=vc,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
     stages=(2, 6),
-    context_name=vc,
+    voice_name=vc,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
         division_masks=[
@@ -430,49 +430,49 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(1, 1),
-    context_name=cb,
+    voice_name=cb,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
     stages=(2, 2),
-    context_name=cb,
+    voice_name=cb,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
     stages=(3, 3),
-    context_name=cb,
+    voice_name=cb,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
     stages=(4, 4),
-    context_name=cb,
+    voice_name=cb,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
     stages=(5, 5),
-    context_name=cb,
+    voice_name=cb,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
     stages=(6, 6),
-    context_name=cb,
+    voice_name=cb,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
     stages=(7, 7),
-    context_name=cb,
+    voice_name=cb,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         division_masks=[
@@ -487,7 +487,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(8, 9),
-    context_name=cb,
+    voice_name=cb,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         division_masks=[

@@ -12,7 +12,7 @@ class MusicMaker(abctools.AbjadObject):
 
             >>> import khamr
             >>> music_maker = khamr.tools.MusicMaker(
-            ...     context_name='Cello Music Voice',
+            ...     voice_name='Cello Music Voice',
             ...     stages=(1, 4),
             ...     division_maker=makertools.FuseByCountsDivisionCallback(
             ...         counts=[2, 3, 1],
@@ -24,7 +24,7 @@ class MusicMaker(abctools.AbjadObject):
 
             >>> print(format(music_maker, 'storage'))
             khamr.tools.MusicMaker(
-                context_name='Cello Music Voice',
+                voice_name='Cello Music Voice',
                 division_maker=makertools.FuseByCountsDivisionCallback(
                     counts=[2, 3, 1],
                     ),
@@ -45,7 +45,7 @@ class MusicMaker(abctools.AbjadObject):
         '_rhythm_overwrites',
         '_staff_line_count',
         '_stages',
-        'context_name',
+        'voice_name',
         'division_maker',
         'instrument',
         'rewrite_meter',
@@ -71,7 +71,7 @@ class MusicMaker(abctools.AbjadObject):
     def __init__(
         self,
         clef=None,
-        context_name=None,
+        voice_name=None,
         division_maker=None,
         instrument=None,
         rewrite_meter=False,
@@ -85,7 +85,7 @@ class MusicMaker(abctools.AbjadObject):
         ):
         from experimental.tools import makertools
         self.clef = clef
-        self.context_name = context_name
+        self.voice_name = voice_name
         if (not 'Maker' in division_maker.__class__.__name__ and
             not 'DivisionCallback' in division_maker.__class__.__name__):
             division_maker = makertools.SplitByDurationsDivisionCallback(
