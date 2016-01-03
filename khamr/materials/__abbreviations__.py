@@ -77,7 +77,7 @@ string_tuplet_spelling_specifier = rhythmmakertools.TupletSpellingSpecifier(
     flatten_trivial_tuplets=True,
     )
 
-messiaen_tied_notes = rhythmmakertools.NoteRhythmMaker(
+messiaen_tied_note_rhythm_maker = rhythmmakertools.NoteRhythmMaker(
     tie_specifier=rhythmmakertools.TieSpecifier(
         tie_across_divisions=True,
         use_messiaen_style_ties=True,

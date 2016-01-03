@@ -46,7 +46,7 @@ segment_maker.make_music_maker(
     stages=(1, 1),
     context_name=fl,
     rewrite_meter=True,
-    rhythm_maker=messiaen_tied_notes,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
@@ -96,7 +96,7 @@ segment_maker.make_music_maker(
     stages=(1, 1),
     context_name=ob,
     rewrite_meter=True,
-    rhythm_maker=messiaen_tied_notes,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
@@ -149,7 +149,7 @@ segment_maker.make_music_maker(
     stages=(1, 1),
     context_name=cl,
     rewrite_meter=True,
-    rhythm_maker=messiaen_tied_notes,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
@@ -191,7 +191,7 @@ segment_maker.make_music_maker(
     stages=(1, 1),
     context_name=sax,
     rewrite_meter=True,
-    rhythm_maker=messiaen_tied_notes,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
@@ -241,14 +241,14 @@ segment_maker.make_music_maker(
     stages=(1, 1),
     context_name=gt,
     rewrite_meter=True,
-    rhythm_maker=messiaen_tied_notes,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
     stages=(5, 6),
     context_name=gt,
     rewrite_meter=True,
-    rhythm_maker=messiaen_tied_notes,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 ### PIANO MAKERS ###
@@ -297,7 +297,7 @@ segment_maker.make_music_maker(
     stages=(3, 4),
     context_name=perc,
     rewrite_meter=True,
-    rhythm_maker=messiaen_tied_notes,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
@@ -327,7 +327,7 @@ segment_maker.make_music_maker(
     stages=(7, 9),
     context_name=perc,
     rewrite_meter=True,
-    rhythm_maker=messiaen_tied_notes,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 ### VIOLIN MAKERS ###
@@ -336,7 +336,7 @@ segment_maker.make_music_maker(
     stages=(1, 1),
     context_name=vn,
     rewrite_meter=True,
-    rhythm_maker=messiaen_tied_notes,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
@@ -368,7 +368,7 @@ segment_maker.make_music_maker(
     stages=(1, 1),
     context_name=va,
     rewrite_meter=True,
-    rhythm_maker=messiaen_tied_notes,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
@@ -400,7 +400,7 @@ segment_maker.make_music_maker(
     stages=(1, 1),
     context_name=vc,
     rewrite_meter=True,
-    rhythm_maker=messiaen_tied_notes,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
@@ -432,42 +432,42 @@ segment_maker.make_music_maker(
     stages=(1, 1),
     context_name=cb,
     rewrite_meter=True,
-    rhythm_maker=messiaen_tied_notes,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
     stages=(2, 2),
     context_name=cb,
     rewrite_meter=True,
-    rhythm_maker=messiaen_tied_notes,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
     stages=(3, 3),
     context_name=cb,
     rewrite_meter=True,
-    rhythm_maker=messiaen_tied_notes,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
     stages=(4, 4),
     context_name=cb,
     rewrite_meter=True,
-    rhythm_maker=messiaen_tied_notes,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
     stages=(5, 5),
     context_name=cb,
     rewrite_meter=True,
-    rhythm_maker=messiaen_tied_notes,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
     stages=(6, 6),
     context_name=cb,
     rewrite_meter=True,
-    rhythm_maker=messiaen_tied_notes,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 segment_maker.make_music_maker(
