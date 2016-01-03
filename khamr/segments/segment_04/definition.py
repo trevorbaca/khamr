@@ -94,7 +94,7 @@ segment_maker.make_music_maker(
 segment_maker.make_music_maker(
     stages=(1, 7),
     context_name=cl,
-    rhythm_maker=messiaen_tied_notes,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 ### SAXOPHONE MAKERS ###
@@ -252,7 +252,7 @@ segment_maker.make_music_maker(
     stages=(4, 7),
     context_name=perc,
     rewrite_meter=True,
-    rhythm_maker=messiaen_tied_notes,
+    rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
 ### VIOLIN MAKERS ###
