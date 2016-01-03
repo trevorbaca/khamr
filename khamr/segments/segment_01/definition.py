@@ -50,7 +50,7 @@ guitar_ritardando = guitar_accelerando.reverse()
 
 segment_maker.make_music_maker(
     stages=(1, 7),
-    context_name=fl,
+    voice_name=fl,
     instrument=khamr.materials.instruments['bass flute'],
     division_maker=beat_division_maker
         .fuse_by_counts(
@@ -79,7 +79,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(1, 7),
-    context_name=ob,
+    voice_name=ob,
     instrument=khamr.materials.instruments['English horn'],
     division_maker=beat_division_maker
         .fuse_by_counts(
@@ -108,7 +108,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(1, 7),
-    context_name=cl,
+    voice_name=cl,
     instrument=khamr.materials.instruments['bass clarinet'],
     division_maker=beat_division_maker
         .fuse_by_counts(
@@ -137,7 +137,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(1, 7),
-    context_name=sax,
+    voice_name=sax,
     instrument=khamr.materials.instruments['baritone saxophone'],
     division_maker=beat_division_maker
         .fuse_by_counts(
@@ -166,7 +166,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(1, 3),
-    context_name=gt,
+    voice_name=gt,
     division_maker=makertools.DivisionMaker()
         .split_by_durations(
             durations=[(1, 4)],
@@ -187,7 +187,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(4, 6),
-    context_name=gt,
+    voice_name=gt,
     division_maker=makertools.DivisionMaker()
         .fuse_by_counts(
             counts=[2, 1],
@@ -233,7 +233,7 @@ segment_maker.copy_music_maker(
 
 segment_maker.make_music_maker(
     stages=(1, 3),
-    context_name=pf,
+    voice_name=pf,
     instrument=khamr.materials.instruments['piano'],
     division_maker=beat_division_maker
         .fuse_by_counts(
@@ -250,7 +250,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(4, 5),
-    context_name=pf,
+    voice_name=pf,
     division_maker=makertools.DivisionMaker()
         .fuse_by_counts(
             counts=[3, 2],
@@ -285,7 +285,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(6, 6),
-    context_name=pf,
+    voice_name=pf,
     division_maker=makertools.DivisionMaker()
         .split_by_durations(
             durations=[(1, 4)],
@@ -304,7 +304,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(7, 7),
-    context_name=pf,
+    voice_name=pf,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         tie_specifier=rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
@@ -317,7 +317,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(1, 7),
-    context_name=perc,
+    voice_name=perc,
     division_maker=beat_division_maker
         .fuse_by_counts(
             counts=[20, 8, 20, 4],
@@ -335,7 +335,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(1, 5),
-    context_name=vn,
+    voice_name=vn,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
         division_masks=[
@@ -360,7 +360,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(6, 7),
-    context_name=vn,
+    voice_name=vn,
     division_maker=quarter_division_maker,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
@@ -377,7 +377,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(1, 5),
-    context_name=va,
+    voice_name=va,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
         division_masks=[
@@ -402,7 +402,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(6, 7),
-    context_name=va,
+    voice_name=va,
     division_maker=quarter_division_maker,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
@@ -419,7 +419,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(1, 5),
-    context_name=vc,
+    voice_name=vc,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
         division_masks=[
@@ -444,7 +444,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(6, 7),
-    context_name=vc,
+    voice_name=vc,
     division_maker=quarter_division_maker,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
@@ -461,7 +461,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(1, 7),
-    context_name=cb,
+    voice_name=cb,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
         division_masks=[

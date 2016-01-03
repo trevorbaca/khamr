@@ -73,7 +73,7 @@ guitar_ritardando = guitar_accelerando.reverse()
 
 segment_maker.make_music_maker(
     stages=(1, 2),
-    context_name=fl,
+    voice_name=fl,
     division_maker=beat_division_maker
         .fuse_by_counts(
             counts=[10, 10, 6, 10, 8, 6],
@@ -99,7 +99,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(4, 4),
-    context_name=fl,
+    voice_name=fl,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         division_masks=[
@@ -114,7 +114,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(5, 5),
-    context_name=fl,
+    voice_name=fl,
     rewrite_meter=True,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -132,7 +132,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(1, 2),
-    context_name=ob,
+    voice_name=ob,
     division_maker=beat_division_maker
         .fuse_by_counts(
             counts=[12, 6, 10, 10, 6, 8],
@@ -159,20 +159,20 @@ segment_maker.make_music_maker(
 segment_maker.copy_music_maker(
     fl,
     4,
-    context_name=ob,
+    voice_name=ob,
     )
 
 segment_maker.copy_music_maker(
     fl,
     5,
-    context_name=ob,
+    voice_name=ob,
     )
 
 ### CLARINET MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 3),
-    context_name=cl,
+    voice_name=cl,
     division_maker=beat_division_maker
         .fuse_by_counts(
             counts=[8, 6, 10, 6, 10, 8],
@@ -200,20 +200,20 @@ segment_maker.make_music_maker(
 segment_maker.copy_music_maker(
     fl,
     4,
-    context_name=cl,
+    voice_name=cl,
     )
 
 segment_maker.copy_music_maker(
     fl,
     5,
-    context_name=cl,
+    voice_name=cl,
     )
 
 ### SAXOPHONE MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 2),
-    context_name=sax,
+    voice_name=sax,
     division_maker=beat_division_maker
         .fuse_by_counts(
             counts=[14, 6, 10, 6, 10, 8],
@@ -240,20 +240,20 @@ segment_maker.make_music_maker(
 segment_maker.copy_music_maker(
     fl,
     4,
-    context_name=sax,
+    voice_name=sax,
     )
 
 segment_maker.copy_music_maker(
     fl,
     5,
-    context_name=sax,
+    voice_name=sax,
     )
 
 ### GUITAR MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 1),
-    context_name=gt,
+    voice_name=gt,
     division_maker=makertools.DivisionMaker()
         .split_by_durations(
             durations=[(1, 4)],
@@ -271,7 +271,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(2, 3),
-    context_name=gt,
+    voice_name=gt,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         division_masks=[
@@ -287,20 +287,20 @@ segment_maker.make_music_maker(
 segment_maker.copy_music_maker(
     fl,
     4,
-    context_name=gt,
+    voice_name=gt,
     )
 
 segment_maker.copy_music_maker(
     fl,
     5,
-    context_name=gt,
+    voice_name=gt,
     )
 
 ### PIANO MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 3),
-    context_name=pf,
+    voice_name=pf,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         division_masks=[
@@ -316,7 +316,7 @@ segment_maker.make_music_maker(
 segment_maker.copy_music_maker(
     fl,
     4,
-    context_name=pf,
+    voice_name=pf,
     rhythm_maker__tie_specifier=rhythmmakertools.TieSpecifier(
         strip_ties=True,
         ),
@@ -324,7 +324,7 @@ segment_maker.copy_music_maker(
 
 segment_maker.make_music_maker(
     stages=(5, 5),
-    context_name=pf,
+    voice_name=pf,
     division_maker=beat_division_maker,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
@@ -341,7 +341,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(1, 3),
-    context_name=perc,
+    voice_name=perc,
     division_maker=beat_division_maker
         .fuse_by_counts(
             counts=[8, 20, 4, 20],
@@ -357,7 +357,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(4, 4),
-    context_name=perc,
+    voice_name=perc,
     division_maker=makertools.DivisionMaker()
         .split_by_durations(
             compound_meter_multiplier=Multiplier(3, 2),
@@ -387,7 +387,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(5, 5),
-    context_name=perc,
+    voice_name=perc,
     division_maker=beat_division_maker,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         division_masks=[
@@ -400,7 +400,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(1, 3),
-    context_name=vn,
+    voice_name=vn,
     division_maker=quarter_division_maker,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
@@ -419,20 +419,20 @@ segment_maker.make_music_maker(
 segment_maker.copy_music_maker(
     fl,
     4,
-    context_name=vn,
+    voice_name=vn,
     )
 
 segment_maker.copy_music_maker(
     fl,
     5,
-    context_name=vn,
+    voice_name=vn,
     )
 
 ### VIOLA MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 3),
-    context_name=va,
+    voice_name=va,
     division_maker=quarter_division_maker,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
@@ -451,20 +451,20 @@ segment_maker.make_music_maker(
 segment_maker.copy_music_maker(
     vn,
     4,
-    context_name=va,
+    voice_name=va,
     )
 
 segment_maker.copy_music_maker(
     vn,
     5,
-    context_name=va,
+    voice_name=va,
     )
 
 ### CELLO MAKERS ###
 
 segment_maker.make_music_maker(
     stages=(1, 2),
-    context_name=vc,
+    voice_name=vc,
     division_maker=quarter_division_maker,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
@@ -482,7 +482,7 @@ segment_maker.make_music_maker(
 
 segment_maker.make_music_maker(
     stages=(3, 3),
-    context_name=vc,
+    voice_name=vc,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
         division_masks=[
@@ -498,20 +498,20 @@ segment_maker.make_music_maker(
 segment_maker.copy_music_maker(
     fl,
     4,
-    context_name=vc,
+    voice_name=vc,
     )
 
 segment_maker.copy_music_maker(
     fl,
     5,
-    context_name=vc,
+    voice_name=vc,
     )
 
 ### CONTRABASS MAKES ###
 
 segment_maker.make_music_maker(
     stages=(1, 3),
-    context_name=cb,
+    voice_name=cb,
     rewrite_meter=True,
     rhythm_maker=rhythmmakertools.TupletRhythmMaker(
         division_masks=[
@@ -538,13 +538,13 @@ segment_maker.make_music_maker(
 segment_maker.copy_music_maker(
     fl,
     4,
-    context_name=cb,
+    voice_name=cb,
     )
 
 segment_maker.copy_music_maker(
     fl,
     5,
-    context_name=cb,
+    voice_name=cb,
     )
 
 ###############################################################################
