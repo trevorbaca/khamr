@@ -71,7 +71,7 @@ guitar_ritardando = guitar_accelerando.reverse()
 
 ### FLUTE MAKERS ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 2),
     voice_name=fl,
     division_maker=beat_division_maker
@@ -97,7 +97,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(4, 4),
     voice_name=fl,
     rewrite_meter=True,
@@ -112,7 +112,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(5, 5),
     voice_name=fl,
     rewrite_meter=True,
@@ -130,7 +130,7 @@ segment_maker.make_music_maker(
 
 ### OBOE ##
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 2),
     voice_name=ob,
     division_maker=beat_division_maker
@@ -170,7 +170,7 @@ segment_maker.copy_music_maker(
 
 ### CLARINET MAKERS ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 3),
     voice_name=cl,
     division_maker=beat_division_maker
@@ -211,7 +211,7 @@ segment_maker.copy_music_maker(
 
 ### SAXOPHONE MAKERS ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 2),
     voice_name=sax,
     division_maker=beat_division_maker
@@ -251,7 +251,7 @@ segment_maker.copy_music_maker(
 
 ### GUITAR MAKERS ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 1),
     voice_name=gt,
     division_maker=makertools.DivisionMaker()
@@ -269,7 +269,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(2, 3),
     voice_name=gt,
     rewrite_meter=True,
@@ -298,7 +298,7 @@ segment_maker.copy_music_maker(
 
 ### PIANO MAKERS ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 3),
     voice_name=pf,
     rewrite_meter=True,
@@ -322,7 +322,7 @@ segment_maker.copy_music_maker(
         ),
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(5, 5),
     voice_name=pf,
     division_maker=beat_division_maker,
@@ -339,7 +339,7 @@ segment_maker.make_music_maker(
 
 ### PERCUSSION MAKERS ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 3),
     voice_name=perc,
     division_maker=beat_division_maker
@@ -355,7 +355,7 @@ segment_maker.make_music_maker(
         )
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(4, 4),
     voice_name=perc,
     division_maker=makertools.DivisionMaker()
@@ -385,7 +385,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(5, 5),
     voice_name=perc,
     division_maker=beat_division_maker,
@@ -398,7 +398,7 @@ segment_maker.make_music_maker(
 
 ### VIOLIN MAKERS ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 3),
     voice_name=vn,
     division_maker=quarter_division_maker,
@@ -430,7 +430,7 @@ segment_maker.copy_music_maker(
 
 ### VIOLA MAKERS ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 3),
     voice_name=va,
     division_maker=quarter_division_maker,
@@ -462,7 +462,7 @@ segment_maker.copy_music_maker(
 
 ### CELLO MAKERS ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 2),
     voice_name=vc,
     division_maker=quarter_division_maker,
@@ -480,7 +480,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(3, 3),
     voice_name=vc,
     rewrite_meter=True,
@@ -509,7 +509,7 @@ segment_maker.copy_music_maker(
 
 ### CONTRABASS MAKES ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 3),
     voice_name=cb,
     rewrite_meter=True,

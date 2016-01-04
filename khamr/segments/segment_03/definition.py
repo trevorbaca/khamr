@@ -42,14 +42,14 @@ assert segment_maker.validate_time_signatures()
 
 ### FLUTE MAKERS ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 1),
     voice_name=fl,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(5, 6),
     voice_name=fl,
     instrument=khamr.materials.instruments['flute'],
@@ -67,7 +67,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(9, 9),
     voice_name=fl,
     division_maker=beat_division_maker
@@ -92,14 +92,14 @@ segment_maker.make_music_maker(
 
 ### OBOE MAKERS ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 1),
     voice_name=ob,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(5, 6),
     voice_name=ob,
     instrument=khamr.materials.instruments['oboe'],
@@ -117,7 +117,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(9, 9),
     voice_name=ob,
     division_maker=beat_division_maker
@@ -145,14 +145,14 @@ segment_maker.make_music_maker(
 
 ### CLARINET MAKERS ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 1),
     voice_name=cl,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(5, 6),
     voice_name=cl,
     instrument=khamr.materials.instruments['clarinet in B-flat'],
@@ -170,7 +170,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(8, 9),
     voice_name=cl,
     instrument=khamr.materials.instruments['bass clarinet'],
@@ -187,14 +187,14 @@ segment_maker.make_music_maker(
 
 ### SAXOPHONE MAKERS ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 1),
     voice_name=sax,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(5, 6),
     voice_name=sax,
     instrument=khamr.materials.instruments['sopranino saxophone'],
@@ -212,7 +212,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(9, 9),
     voice_name=sax,
     division_maker=beat_division_maker
@@ -237,14 +237,14 @@ segment_maker.make_music_maker(
 
 ### GUITAR MAKERS ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 1),
     voice_name=gt,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(5, 6),
     voice_name=gt,
     rewrite_meter=True,
@@ -253,7 +253,7 @@ segment_maker.make_music_maker(
 
 ### PIANO MAKERS ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 4),
     voice_name=pf,
     division_maker=beat_division_maker,
@@ -274,7 +274,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(5, 6),
     voice_name=pf,
     division_maker=makertools.DivisionMaker()
@@ -293,21 +293,21 @@ segment_maker.make_music_maker(
 
 ### PERCUSSION MAKERS ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(3, 4),
     voice_name=perc,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(5, 5),
     voice_name=perc,
     division_maker=quarter_division_maker,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(),
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(6, 6),
     voice_name=perc,
     division_maker=makertools.DivisionMaker()
@@ -323,7 +323,7 @@ segment_maker.make_music_maker(
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(),
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(7, 9),
     voice_name=perc,
     rewrite_meter=True,
@@ -332,14 +332,14 @@ segment_maker.make_music_maker(
 
 ### VIOLIN MAKERS ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 1),
     voice_name=vn,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(2, 6),
     voice_name=vn,
     rewrite_meter=True,
@@ -364,14 +364,14 @@ segment_maker.make_music_maker(
 
 ### VIOLA MAKERS ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 1),
     voice_name=va,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(2, 6),
     voice_name=va,
     rewrite_meter=True,
@@ -396,14 +396,14 @@ segment_maker.make_music_maker(
 
 ### CELLO MAKERS ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 1),
     voice_name=vc,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(2, 6),
     voice_name=vc,
     rewrite_meter=True,
@@ -428,49 +428,49 @@ segment_maker.make_music_maker(
 
 ### CONTRABASS MAKERS ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 1),
     voice_name=cb,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(2, 2),
     voice_name=cb,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(3, 3),
     voice_name=cb,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(4, 4),
     voice_name=cb,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(5, 5),
     voice_name=cb,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(6, 6),
     voice_name=cb,
     rewrite_meter=True,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(7, 7),
     voice_name=cb,
     rewrite_meter=True,
@@ -485,7 +485,7 @@ segment_maker.make_music_maker(
         )
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(8, 9),
     voice_name=cb,
     rewrite_meter=True,
