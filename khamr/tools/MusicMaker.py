@@ -3,7 +3,7 @@ from abjad import *
 import baca
 
 
-class MusicMaker(abctools.AbjadObject):
+class RhythmMaker(abctools.AbjadObject):
     r'''Al-kitab al-khamr music-maker.
 
     ..  container:: example
@@ -11,7 +11,7 @@ class MusicMaker(abctools.AbjadObject):
         ::
 
             >>> import khamr
-            >>> music_maker = khamr.tools.MusicMaker(
+            >>> music_maker = khamr.tools.RhythmMaker(
             ...     voice_name='Cello Music Voice',
             ...     stages=(1, 4),
             ...     division_maker=makertools.FuseByCountsDivisionCallback(
@@ -23,7 +23,7 @@ class MusicMaker(abctools.AbjadObject):
         ::
 
             >>> print(format(music_maker, 'storage'))
-            khamr.tools.MusicMaker(
+            khamr.tools.RhythmMaker(
                 voice_name='Cello Music Voice',
                 division_maker=makertools.FuseByCountsDivisionCallback(
                     counts=[2, 3, 1],

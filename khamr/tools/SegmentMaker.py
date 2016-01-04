@@ -62,7 +62,7 @@ class SegmentMaker(makertools.SegmentMaker):
         self._final_markup_extra_offset = final_markup_extra_offset
         self.measures_per_stage = measures_per_stage
         self._music_handlers = []
-        self._music_maker_class = khamr.tools.MusicMaker
+        self._music_maker_class = khamr.tools.RhythmMaker
         self._initialize_time_signatures(time_signatures)
         self.raise_approximate_duration = bool(raise_approximate_duration)
         assert isinstance(show_stage_annotations, bool)
@@ -656,7 +656,7 @@ class SegmentMaker(makertools.SegmentMaker):
         music_makers = music_makers or []
         music_makers = list(music_makers)
         for music_maker in music_makers:
-            assert isinstance(music_maker, makers_package.MusicMaker)
+            assert isinstance(music_maker, makers_package.RhythmMaker)
         self._music_makers = music_makers
 
     def _initialize_time_signatures(self, time_signatures):
