@@ -220,7 +220,7 @@ segment_maker.make_rhythm_maker(
         ),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     gt,
     1,
     stages=(7, 7),
