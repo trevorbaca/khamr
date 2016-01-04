@@ -1103,7 +1103,7 @@ class SegmentMaker(makertools.SegmentMaker):
         else:
             return music_handlers
 
-    def make_music_maker(
+    def make_rhythm(
         self,
         clef=None,
         voice_name=None,

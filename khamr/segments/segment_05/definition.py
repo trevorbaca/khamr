@@ -39,7 +39,7 @@ assert segment_maker.validate_time_signatures()
 
 ### FLUTE ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 5),
     voice_name=fl,
     division_maker=beat_division_maker
@@ -56,7 +56,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(6, 6),
     voice_name=fl,
     division_maker=beat_division_maker,
@@ -71,7 +71,7 @@ segment_maker.copy_music_maker(
 
 ### OBOE ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 5),
     voice_name=ob,
     instrument=khamr.materials.instruments['English horn'],
@@ -100,7 +100,7 @@ segment_maker.make_music_maker(
         )
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(6, 6),
     voice_name=ob,
     division_maker=beat_division_maker,
@@ -116,7 +116,7 @@ segment_maker.copy_music_maker(
 
 ### CLARINET ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 5),
     voice_name=cl,
     instrument=khamr.materials.instruments['bass clarinet'],
@@ -145,7 +145,7 @@ segment_maker.make_music_maker(
         )
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(6, 6),
     voice_name=cl,
     division_maker=beat_division_maker,
@@ -161,7 +161,7 @@ segment_maker.copy_music_maker(
 
 ### SAXOPHONE ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 5),
     voice_name=sax,
     division_maker=makertools.DivisionMaker()
@@ -189,7 +189,7 @@ segment_maker.make_music_maker(
         )
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(6, 6),
     voice_name=sax,
     division_maker=beat_division_maker,
@@ -205,7 +205,7 @@ segment_maker.copy_music_maker(
 
 ### GUITAR ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 5),
     voice_name=gt,
     clef='percussion',
@@ -217,7 +217,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(6, 6),
     voice_name=gt,
     division_maker=beat_division_maker,
@@ -232,7 +232,7 @@ segment_maker.copy_music_maker(
 
 ### PIANO ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 9),
     voice_name=pf,
     instrument=piano,
@@ -253,7 +253,7 @@ segment_maker.make_music_maker(
 
 ### PERCUSSION ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 9),
     voice_name=perc,
     division_maker=beat_division_maker
@@ -272,7 +272,7 @@ segment_maker.make_music_maker(
 
 ### VIOLIN ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 5),
     voice_name=vn,
     division_maker=quarter_division_maker,
@@ -289,7 +289,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(6, 6),
     voice_name=vn,
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(
@@ -301,7 +301,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(7, 9),
     voice_name=vn,
     clef='percussion',
@@ -315,7 +315,7 @@ segment_maker.make_music_maker(
 
 ### VIOLA ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 5),
     voice_name=va,
     division_maker=quarter_division_maker,
@@ -346,7 +346,7 @@ segment_maker.copy_music_maker(
 
 ### CELLO ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 9),
     voice_name=vc,
     division_maker=beat_division_maker
@@ -366,7 +366,7 @@ segment_maker.make_music_maker(
 
 ### CONTRABASS ###
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(1, 5),
     voice_name=cb,
     division_maker=beat_division_maker
@@ -382,7 +382,7 @@ segment_maker.make_music_maker(
         ),
     )
 
-segment_maker.make_music_maker(
+segment_maker.make_rhythm(
     stages=(6, 6),
     voice_name=cb,
     division_maker=beat_division_maker,
