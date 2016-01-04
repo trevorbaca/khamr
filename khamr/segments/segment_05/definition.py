@@ -63,7 +63,7 @@ segment_maker.make_rhythm_maker(
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     fl,
     1,
     stages=(7, 9),
@@ -107,7 +107,7 @@ segment_maker.make_rhythm_maker(
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     ob,
     1,
     stages=(7, 9),
@@ -152,7 +152,7 @@ segment_maker.make_rhythm_maker(
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     cl,
     1,
     stages=(7, 9),
@@ -196,7 +196,7 @@ segment_maker.make_rhythm_maker(
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     sax,
     1,
     stages=(7, 9),
@@ -224,7 +224,7 @@ segment_maker.make_rhythm_maker(
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     gt,
     1,
     stages=(7, 9),
@@ -332,13 +332,13 @@ segment_maker.make_rhythm_maker(
         ),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn,
     6,
     voice_name=va,
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn,
     7,
     voice_name=va,
@@ -389,7 +389,7 @@ segment_maker.make_rhythm_maker(
     rhythm_maker=rhythmmakertools.NoteRhythmMaker(),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     cb,
     1,
     stages=(7, 9),

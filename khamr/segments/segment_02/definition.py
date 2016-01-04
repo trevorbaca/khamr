@@ -156,13 +156,13 @@ segment_maker.make_rhythm_maker(
         ),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     fl,
     4,
     voice_name=ob,
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     fl,
     5,
     voice_name=ob,
@@ -197,13 +197,13 @@ segment_maker.make_rhythm_maker(
         ),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     fl,
     4,
     voice_name=cl,
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     fl,
     5,
     voice_name=cl,
@@ -237,13 +237,13 @@ segment_maker.make_rhythm_maker(
         ),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     fl,
     4,
     voice_name=sax,
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     fl,
     5,
     voice_name=sax,
@@ -284,13 +284,13 @@ segment_maker.make_rhythm_maker(
         ),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     fl,
     4,
     voice_name=gt,
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     fl,
     5,
     voice_name=gt,
@@ -313,7 +313,7 @@ segment_maker.make_rhythm_maker(
         ),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     fl,
     4,
     voice_name=pf,
@@ -416,13 +416,13 @@ segment_maker.make_rhythm_maker(
         ),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     fl,
     4,
     voice_name=vn,
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     fl,
     5,
     voice_name=vn,
@@ -448,13 +448,13 @@ segment_maker.make_rhythm_maker(
         ),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn,
     4,
     voice_name=va,
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     vn,
     5,
     voice_name=va,
@@ -495,13 +495,13 @@ segment_maker.make_rhythm_maker(
         ),
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     fl,
     4,
     voice_name=vc,
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     fl,
     5,
     voice_name=vc,
@@ -535,13 +535,13 @@ segment_maker.make_rhythm_maker(
         )
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     fl,
     4,
     voice_name=cb,
     )
 
-segment_maker.copy_music_maker(
+segment_maker.copy_rhythm_maker(
     fl,
     5,
     voice_name=cb,
