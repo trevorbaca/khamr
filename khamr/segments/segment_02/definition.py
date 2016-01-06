@@ -30,7 +30,7 @@ segment_maker = khamr.tools.SegmentMaker(
 
 assert segment_maker.measure_count == 30
 assert segment_maker.stage_count == 5
-assert segment_maker.validate_time_signatures()
+segment_maker.validate_measures_per_stage()
 
 ###############################################################################
 ################################ MUSIC-MAKERS #################################
