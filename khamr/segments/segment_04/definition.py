@@ -349,7 +349,7 @@ segment_maker.define_rhythm(
 
 ### FLUTE HANDLERS ###
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(fl, (1, 7)),
     specifiers=[
         # sounds B3
@@ -359,7 +359,7 @@ segment_maker.make_music_handler(
 
 ### OBOE HANDLERS ###
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(ob, (1, 7)),
     specifiers=[
         # dummy centerline pitch
@@ -371,7 +371,7 @@ segment_maker.make_music_handler(
 
 ### CLARINET HANDLERS ###
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(cl, (1, 7)),
     specifiers=[
         pitch_specifier(source='G2'),
@@ -380,7 +380,7 @@ segment_maker.make_music_handler(
 
 ### SAXOPHONE HANDLERS ###
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(sax, (1, 7)),
     specifiers=[
         # dummy centerline pitch
@@ -392,7 +392,7 @@ segment_maker.make_music_handler(
 
 ### GUITAR HANDLERS ##
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(gt, (1, 8)),
     specifiers=[
         pitch_specifier(source='C4'),
@@ -404,7 +404,7 @@ segment_maker.make_music_handler(
 
 ### PIANO HANDLERS ###
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(pf, (1, 8)),
     specifiers=[
         pitch_specifier(source='A#4'),
@@ -415,7 +415,7 @@ segment_maker.make_music_handler(
 
 ### PERCUSSION HANDLERS ###
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(perc, (1, 2)),
     specifiers=[
         stem_tremolo,
@@ -426,7 +426,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(perc, (4, 7)),
     specifiers=[
         Dynamic('fff'),
@@ -445,56 +445,56 @@ segment_maker.make_music_handler(
 
 ### STRINGS ###
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=([vn, va, vc], (1, 7)),
     specifiers=[
         pitch_specifier(source='C4'),
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(cb, (1, 7)),
     specifiers=[
         pitch_specifier(source='C3'),
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=([vn, va, vc, cb], (1, 7)),
     specifiers=[
         single_line_staff,
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=([vn, va, vc, cb], (1, 7)),
     specifiers=[
         alternate_bow_strokes,
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=([vn, va], (1, 7)),
     specifiers=[
         bow_on_wooden_mute,
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=([vc, cb], (1, 7)),
     specifiers=[
         bow_on_tailpiece,
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=([vn, va, vc, cb], (1, 3)),
     specifiers=[
         Dynamic('p'),
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=([vn, va, vc, cb], (4, 7)),
     specifiers=[
         handlertools.NoteAndChordHairpinHandler(

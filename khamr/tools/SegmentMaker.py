@@ -1070,7 +1070,7 @@ class SegmentMaker(makertools.SegmentMaker):
         message = message.format(voice_name, stage)
         raise KeyError(message)
 
-    def make_music_handler(
+    def make_specifiers(
         self, 
         scope, 
         specifiers,
