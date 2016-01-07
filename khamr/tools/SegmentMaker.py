@@ -1092,7 +1092,7 @@ class SegmentMaker(makertools.SegmentMaker):
             raise TypeError(scope)
         music_handlers = []
         for scope_token in scope_tokens:
-            music_handler = baca.tools.MusicHandler(
+            music_handler = baca.tools.ScopedSpecifier(
                 scope=scope_token,
                 specifiers=specifiers,
                 )
