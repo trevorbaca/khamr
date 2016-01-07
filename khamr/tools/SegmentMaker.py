@@ -62,7 +62,7 @@ class SegmentMaker(makertools.SegmentMaker):
         self._final_markup_extra_offset = final_markup_extra_offset
         self.measures_per_stage = measures_per_stage
         self._music_handlers = []
-        self._music_maker_class = khamr.tools.RhythmMaker
+        self._music_maker_class = khamr.tools.RhythmDefinition
         self._initialize_time_signatures(time_signatures)
         self.raise_approximate_duration = bool(raise_approximate_duration)
         assert isinstance(show_stage_annotations, bool)
@@ -1032,7 +1032,7 @@ class SegmentMaker(makertools.SegmentMaker):
 
     ### PUBLIC METHODS ###
 
-    def copy_rhythm_maker(self, _voice_name, _stage, **kwargs):
+    def copy_rhythm(self, _voice_name, _stage, **kwargs):
         r'''Copies music-maker with `_voice_name` defined for `_stage`.
 
         Gets music-maker with `_voice_name` defined for `_stage`.
@@ -1103,7 +1103,7 @@ class SegmentMaker(makertools.SegmentMaker):
         else:
             return music_handlers
 
-    def make_rhythm_maker(
+    def define_rhythm(
         self,
         clef=None,
         voice_name=None,
