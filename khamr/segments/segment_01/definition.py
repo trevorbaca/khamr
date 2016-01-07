@@ -490,7 +490,7 @@ segment_maker.define_rhythm(
 
 ### FLUTE HANDLERS ###
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(fl, (1, 2)),
     specifiers=[
         Dynamic('mp'),
@@ -504,7 +504,7 @@ segment_maker.make_specifiers(
         ],
     )
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(fl, (3, 5)),
     specifiers=[
         pitch_specifier(
@@ -517,7 +517,7 @@ segment_maker.make_specifiers(
         ],
     )
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(fl, (6, 7)),
     specifiers=[
         pitch_specifier(
@@ -530,7 +530,7 @@ segment_maker.make_specifiers(
 
 ### OBOE HANDLERS ###
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(ob, (1, 5)),
     specifiers=[
         air_tone_without_reed,
@@ -543,7 +543,7 @@ segment_maker.make_specifiers(
         ]
     )
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(ob, (6, 7)),
     specifiers=[
         put_reed_back_in,
@@ -560,7 +560,7 @@ segment_maker.make_specifiers(
 
 ### CLARINET HANDLERS ###
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(cl, (1, 7)),
     specifiers=[
         Dynamic('pp'),
@@ -572,7 +572,7 @@ segment_maker.make_specifiers(
 
 ### SAXOPHONE HANDLERS ###
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(sax, (1, 5)),
     specifiers=[
         Dynamic('pp'),
@@ -582,7 +582,7 @@ segment_maker.make_specifiers(
         ]
     )
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(sax, (6, 7)),
     specifiers=[
         Dynamic('p'),
@@ -598,7 +598,7 @@ segment_maker.make_specifiers(
 
 ### GUITAR HANDLERS ###
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(gt, (1, 3)),
     specifiers=[
         Dynamic('f'),
@@ -610,7 +610,7 @@ segment_maker.make_specifiers(
         ],
     )
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(gt, (4, 7)),
     specifiers=[
         narrow_fourth_octave,
@@ -619,14 +619,14 @@ segment_maker.make_specifiers(
         ],
     )
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(gt, (1, 7)),
     specifiers=[
         cross_note_heads,
         ],
     )
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=([gt, pf], (4, 7)),
     specifiers=[
         pitch_specifier(
@@ -637,7 +637,7 @@ segment_maker.make_specifiers(
 
 ### PIANO HANDLERS ###
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(pf, (1, 3)),
     specifiers=[
         Clef('percussion'),
@@ -653,7 +653,7 @@ segment_maker.make_specifiers(
         ],
     )
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(pf, (4, 6)),
     specifiers=[
         Clef('treble'),
@@ -664,7 +664,7 @@ segment_maker.make_specifiers(
         ],
     )
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(pf, (7, 7)),
     specifiers=[
         Clef('percussion'),
@@ -681,7 +681,7 @@ segment_maker.make_specifiers(
 
 ### PERCUSSION HANDLERS ###
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(perc, (1, 7)),
     specifiers=[
         Dynamic('mp'),
@@ -700,7 +700,7 @@ segment_maker.make_specifiers(
 
 ### VIOLIN HANDLERS ###
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(vn, (1, 5)),
     specifiers=[
         baca.tools.GlissandoSpecifier(
@@ -716,7 +716,7 @@ segment_maker.make_specifiers(
         ],
     )
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(vn, (6, 7)),
     specifiers=[
         Dynamic('ppp'),
@@ -730,7 +730,7 @@ segment_maker.make_specifiers(
 
 ### VIOLA HANDLERS ###
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(va, (1, 5)),
     specifiers=[
         baca.tools.GlissandoSpecifier(
@@ -746,7 +746,7 @@ segment_maker.make_specifiers(
         ],
     )
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(va, (6, 7)),
     specifiers=[
         Dynamic('ppp'),
@@ -760,7 +760,7 @@ segment_maker.make_specifiers(
 
 ### CELLO HANDLERS ###
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(vc, (1, 5)),
     specifiers=[
         baca.tools.GlissandoSpecifier(
@@ -776,7 +776,7 @@ segment_maker.make_specifiers(
         ],
     )
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(vc, (6, 7)),
     specifiers=[
         Dynamic('ppp'),
@@ -790,7 +790,7 @@ segment_maker.make_specifiers(
 
 ### CONTRABASS HANDLERS ###
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(cb, (1, 7)),
     specifiers=[
         Dynamic('f'),
@@ -806,7 +806,7 @@ segment_maker.make_specifiers(
         ],
     )
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(cb, (2, 7)),
     specifiers=[
         halo_hairpins,
@@ -815,14 +815,14 @@ segment_maker.make_specifiers(
 
 ### STRINGS ###
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=([vn, va, vc, cb], (1, 7)),
     specifiers=[
         emphasize_multiphonics,
         ],
     )
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=([vn, va, vc], (6, 7)),
     specifiers=[
         pervasive_accents,

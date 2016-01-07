@@ -409,7 +409,7 @@ segment_maker.copy_rhythm(
 
 ### GUITAR ###
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(gt, [(1, 5), (7, 9)]),
     specifiers=[
         Dynamic('ff'),
@@ -418,7 +418,7 @@ segment_maker.make_specifiers(
         ]
     )
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(gt, (6, 6)),
     specifiers=[
         fret_guiro,
@@ -427,7 +427,7 @@ segment_maker.make_specifiers(
 
 ### PIANO ###
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(pf, (1, 9)),
     specifiers=[
         stem_tremolo,
@@ -436,7 +436,7 @@ segment_maker.make_specifiers(
 
 ### PERCUSSION ###
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(perc, (1, 9)),
     specifiers=[
         stem_tremolo,
@@ -445,14 +445,14 @@ segment_maker.make_specifiers(
 
 ### VIOLIN ###
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=([vn, va], (1, 5)),
     specifiers=[
         stem_tremolo,
         ]
     )
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=([vn, va], (7, 9)),
     specifiers=[
         Dynamic('fff'),
@@ -465,7 +465,7 @@ segment_maker.make_specifiers(
 
 ### CELLO ###
 
-segment_maker.make_specifiers(
+segment_maker.make_scoped_specifiers(
     scope=(vc, (1, 9)),
     specifiers=[
         stem_tremolo,
