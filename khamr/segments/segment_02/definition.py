@@ -553,7 +553,7 @@ segment_maker.copy_rhythm(
 
 ### FLUTE HANDLERS ###
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(fl, (1, 2)),
     specifiers=[
         pitch_specifier(
@@ -564,7 +564,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(fl, (4, 5)),
     specifiers=[
         reiterated_fff,
@@ -579,7 +579,7 @@ segment_maker.make_music_handler(
 
 ### OBOE HANDLERS ###
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(ob, (1, 2)),
     specifiers=[
         pitch_specifier(
@@ -592,7 +592,7 @@ segment_maker.make_music_handler(
         ]
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(ob, (4, 5)),
     specifiers=[
         reiterated_fff,
@@ -604,7 +604,7 @@ segment_maker.make_music_handler(
 
 ### CLARINET HANDLERS ###
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(cl, (1, 3)),
     specifiers=[
         pitch_specifier(
@@ -613,7 +613,7 @@ segment_maker.make_music_handler(
         ]
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(cl, (4, 5)),
     specifiers=[
         reiterated_fff,
@@ -625,7 +625,7 @@ segment_maker.make_music_handler(
 
 ### SAXOPHONE HANDLERS ###
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(sax, (1, 2)),
     specifiers=[
         pitch_specifier(
@@ -637,7 +637,7 @@ segment_maker.make_music_handler(
         ]
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(sax, (4, 5)),
     specifiers=[
         reiterated_fff,
@@ -649,7 +649,7 @@ segment_maker.make_music_handler(
 
 ### GUITAR HANDLERS ###
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(gt, (1, 1)),
     specifiers=[
         pitch_specifier(
@@ -660,7 +660,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(gt, (2, 3)),
     specifiers=[
         Dynamic('mf'),
@@ -669,7 +669,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(gt, (4, 5)),
     specifiers=[
         Dynamic('ff'),
@@ -680,7 +680,7 @@ segment_maker.make_music_handler(
 
 ### PIANO HANDLERS ###
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(pf, (1, 3)),
     specifiers=[
         single_line_staff,
@@ -690,7 +690,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(pf, (4, 4)),
     specifiers=[
         reiterated_fff,
@@ -715,7 +715,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(pf, (5, 5)),
     specifiers=[
         Clef('treble'),
@@ -731,7 +731,7 @@ segment_maker.make_music_handler(
 
 ### PERCUSSION HANDLERS ###
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(perc, (1, 3)),
     specifiers=[
         pitch_specifier(
@@ -745,7 +745,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(perc, (4, 5)),
     specifiers=[
         pitch_specifier(
@@ -760,7 +760,7 @@ segment_maker.make_music_handler(
 
 ### VIOLIN HANDLERS ###
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(vn, (1, 1)),
     specifiers=[
         pitch_specifier(
@@ -771,7 +771,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(vn, (2, 2)),
     specifiers=[
         pitch_specifier(
@@ -782,7 +782,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(vn, (3, 3)),
     specifiers=[
         pitch_specifier(
@@ -793,14 +793,14 @@ segment_maker.make_music_handler(
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(vn, (1, 3)),
     specifiers=[
         pervasive_accents,
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(vn, (4, 5)),
     specifiers=[
         reiterated_fff,
@@ -813,7 +813,7 @@ segment_maker.make_music_handler(
 
 ### VIOLA HANDLERS ###
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(va, (1, 1)),
     specifiers=[
         pitch_specifier(
@@ -823,7 +823,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(va, (2, 2)),
     specifiers=[
         pitch_specifier(
@@ -834,7 +834,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(va, (3, 3)),
     specifiers=[
         pitch_specifier(
@@ -845,14 +845,14 @@ segment_maker.make_music_handler(
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(va, (1, 3)),
     specifiers=[
         pervasive_accents,
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(va, (4, 5)),
     specifiers=[
         reiterated_fff,
@@ -865,7 +865,7 @@ segment_maker.make_music_handler(
 
 ### CELLO HANDLERS ###
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(vc, (1, 2)),
     specifiers=[
         pitch_specifier(
@@ -876,7 +876,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(vc, (3, 3)),
     specifiers=[
         Dynamic('mf'),
@@ -887,7 +887,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(vc, (4, 5)),
     specifiers=[
         reiterated_fff,
@@ -900,7 +900,7 @@ segment_maker.make_music_handler(
 
 ### CONTRABASS HANDLERS ###
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(cb, (1, 3)),
     specifiers=[
         pitch_specifier(
@@ -919,7 +919,7 @@ segment_maker.make_music_handler(
         ],
     )
 
-segment_maker.make_music_handler(
+segment_maker.make_specifiers(
     scope=(cb, (4, 5)),
     specifiers=[
         reiterated_fff,
