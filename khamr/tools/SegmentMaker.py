@@ -1075,33 +1075,20 @@ class SegmentMaker(makertools.SegmentMaker):
         scope, 
         specifiers,
         ):
-        r'''Makes music-handler.
+        r'''Makes scoped specifiers.
 
-        Returns music-handler.
+        Returns scoped specifiers.
         '''
-        parser = baca.tools.ScopeTokenParser()
-        scope_tokens = []
-        if isinstance(scope, tuple):
-            simple_scopes = parser._to_simple_scopes(scope)
-            scope_tokens.extend(simple_scopes)
-        elif isinstance(scope, list):
-            for scope_token in scope:
-                simple_scopes = parser._to_simple_scopes(scope_token)
-                scope_tokens.extend(simple_scopes)
-        else:
-            raise TypeError(scope)
-        music_handlers = []
-        for scope_token in scope_tokens:
-            music_handler = baca.tools.ScopedSpecifier(
-                scope=scope_token,
+        scoped_specifiers = []
+        compound_scope = baca.tools.CompoundScope.from_token(scope)
+        for simple_scope in compound_scope.simple_scopes:
+            scoped_specifier = baca.tools.ScopedSpecifier(
+                simple_scope=simple_scope,
                 specifiers=specifiers,
                 )
-            self._music_handlers.append(music_handler)
-            music_handlers.append(music_handler)
-        if len(music_handlers) == 1:
-            return music_handlers[0]
-        else:
-            return music_handlers
+            self._music_handlers.append(scoped_specifier)
+            scoped_specifiers.append(scoped_specifier)
+        return scoped_specifiers
 
     def define_rhythm(
         self,
