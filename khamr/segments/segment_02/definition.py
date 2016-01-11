@@ -683,7 +683,7 @@ segment_maker.make_scoped_specifiers(
 segment_maker.make_scoped_specifiers(
     scope=(pf, (1, 3)),
     specifiers=[
-        single_line_staff,
+        one_line_staff,
         # dummy centerline pitch
         pitch_specifier(source='C4'),
         repeat_tie_up,

@@ -534,7 +534,7 @@ segment_maker.make_scoped_specifiers(
     scope=(ob, (1, 5)),
     specifiers=[
         air_tone_without_reed,
-        single_line_staff,
+        one_line_staff,
         Dynamic('p'),
         pitch_specifier(
             source='E4',
@@ -643,7 +643,7 @@ segment_maker.make_scoped_specifiers(
         Clef('percussion'),
         Dynamic('mf'),
         strike_lowest_strings,
-        single_line_staff,
+        one_line_staff,
         # dummy centerline pitch
         pitch_specifier(
             source='C4',
@@ -675,7 +675,7 @@ segment_maker.make_scoped_specifiers(
             source='C4',
             ),
         repeat_tie_up,
-        single_line_staff,
+        one_line_staff,
         ],
     )
 

@@ -364,7 +364,7 @@ segment_maker.make_scoped_specifiers(
     specifiers=[
         # dummy centerline pitch
         pitch_specifier(source='B4'),
-        single_line_staff,
+        one_line_staff,
         repeat_tie_up,
         ],
     )
@@ -385,7 +385,7 @@ segment_maker.make_scoped_specifiers(
     specifiers=[
         # dummy centerline pitch
         pitch_specifier(source='D5'),
-        single_line_staff,
+        one_line_staff,
         repeat_tie_up,
         ],
     )
@@ -462,7 +462,7 @@ segment_maker.make_scoped_specifiers(
 segment_maker.make_scoped_specifiers(
     scope=([vn, va, vc, cb], (1, 7)),
     specifiers=[
-        single_line_staff,
+        one_line_staff,
         ],
     )
 

@@ -636,7 +636,7 @@ partition_table = rhythmmakertools.PartitionTable([
     (11, [3, 4, 4]),
     ])
 
-single_line_staff = spannertools.StaffLinesSpanner(lines=1)
+one_line_staff = spannertools.StaffLinesSpanner(lines=1)
 
 put_reed_back_in = Markup('put reed back in', direction=Up).larger()
 
