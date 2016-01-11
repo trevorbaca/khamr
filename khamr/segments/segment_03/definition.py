@@ -574,7 +574,7 @@ segment_maker.make_scoped_specifiers(
         # dummy centerline pitch
         pitch_specifier(source='B4'),
         air_tone_without_reed,
-        single_line_staff,
+        one_line_staff,
         repeat_tie_up,
         ],
     )
@@ -644,7 +644,7 @@ segment_maker.make_scoped_specifiers(
         # dummy centerline pitch
         pitch_specifier(source='D5'),
         air_tone,
-        single_line_staff,
+        one_line_staff,
         repeat_tie_up,
         ],
     )
