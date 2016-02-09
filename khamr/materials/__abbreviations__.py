@@ -582,15 +582,15 @@ patterned_f_ff = handlertools.TerracedDynamicsHandler(
     minimum_duration=Duration(1, 8),
     )
 
-repeated_p_to_ppp = handlertools.NoteAndChordHairpinHandler(
+repeated_p_to_ppp = handlertools.HairpinHandler(
     hairpin_token='p > ppp',
     )
 
-repeated_pp_to_ff = handlertools.NoteAndChordHairpinHandler(
+repeated_pp_to_ff = handlertools.HairpinHandler(
     hairpin_token='pp < ff',
     )
 
-halo_accompaniment_hairpins = handlertools.NoteAndChordHairpinHandler(
+halo_accompaniment_hairpins = handlertools.HairpinHandler(
     hairpin_token=[
         'pp > ppp', 'ppp < pp', 'pp > ppp', 'ppp < pp',
         'pp < p', 'p > pp', 'pp < p', 'p > ppp', 'ppp < pp', 
@@ -598,7 +598,7 @@ halo_accompaniment_hairpins = handlertools.NoteAndChordHairpinHandler(
     span='nontrivial ties',
     )
 
-halo_hairpins = handlertools.NoteAndChordHairpinHandler(
+halo_hairpins = handlertools.HairpinHandler(
     hairpin_token=[
         'pp > ppp', 'ppp < pp', 'pp > ppp', 'ppp < pp',
         'pp < p', 'p > pp', 'pp < p', 'p > ppp', 'ppp < pp', 
@@ -606,7 +606,7 @@ halo_hairpins = handlertools.NoteAndChordHairpinHandler(
     span='nontrivial ties',
     )
 
-bass_flute_tremoli_hairpins = handlertools.NoteAndChordHairpinHandler(
+bass_flute_tremoli_hairpins = handlertools.HairpinHandler(
     hairpin_token=[
         'mp > pp', 'pp < mp',
         ],
