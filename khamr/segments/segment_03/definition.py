@@ -784,7 +784,7 @@ segment_maker.make_scoped_specifiers(
 segment_maker.make_scoped_specifiers(
     scope=([vn, va, vc], (3, 4)),
     specifiers=[
-        handlertools.NoteAndChordHairpinHandler(
+        handlertools.HairpinHandler(
             hairpin_token=['pp < f'],
             span='contiguous notes and chords',
             ),
@@ -857,7 +857,7 @@ segment_maker.make_scoped_specifiers(
 segment_maker.make_scoped_specifiers(
     scope=(cb, (3, 4)),
     specifiers=[
-        handlertools.NoteAndChordHairpinHandler(
+        handlertools.HairpinHandler(
             hairpin_token=['p < f'],
             span='contiguous notes and chords',
             ),

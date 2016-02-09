@@ -419,7 +419,7 @@ segment_maker.make_scoped_specifiers(
     scope=(perc, (1, 2)),
     specifiers=[
         stem_tremolo,
-        handlertools.NoteAndChordHairpinHandler(
+        handlertools.HairpinHandler(
             hairpin_token=['pp > ppp'],
             span='contiguous notes and chords',
             ),
@@ -497,7 +497,7 @@ segment_maker.make_scoped_specifiers(
 segment_maker.make_scoped_specifiers(
     scope=([vn, va, vc, cb], (4, 7)),
     specifiers=[
-        handlertools.NoteAndChordHairpinHandler(
+        handlertools.HairpinHandler(
             hairpin_token=['p > ppp'],
             span='contiguous notes and chords',
             ),
