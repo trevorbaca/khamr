@@ -617,12 +617,6 @@ bass_flute_tremoli_hairpins = handlertools.HairpinHandler(
 
 five_line_staff = spannertools.StaffLinesSpanner(lines=5)
 
-def label_logical_ties(start_index=0):
-    return baca.tools.LabelSpecifier(
-        label_logical_ties=True,
-        start_index=start_index
-        )
-
 ottava = spannertools.OctavationSpanner(start=1, stop=0)
 ottava_bassa = spannertools.OctavationSpanner(start=-1, stop=0)
 
