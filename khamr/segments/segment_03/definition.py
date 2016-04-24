@@ -53,7 +53,7 @@ segment_maker.define_rhythm(
     stages=(5, 6),
     voice_name=fl,
     instrument=khamr.materials.instruments['flute'],
-    division_maker=makertools.DivisionMaker()
+    division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
             counts=mathtools.Infinity,
             )
@@ -103,7 +103,7 @@ segment_maker.define_rhythm(
     stages=(5, 6),
     voice_name=ob,
     instrument=khamr.materials.instruments['oboe'],
-    division_maker=makertools.DivisionMaker()
+    division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
             counts=mathtools.Infinity,
             )
@@ -156,7 +156,7 @@ segment_maker.define_rhythm(
     stages=(5, 6),
     voice_name=cl,
     instrument=khamr.materials.instruments['clarinet in B-flat'],
-    division_maker=makertools.DivisionMaker()
+    division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
             counts=mathtools.Infinity,
             )
@@ -198,7 +198,7 @@ segment_maker.define_rhythm(
     stages=(5, 6),
     voice_name=sax,
     instrument=khamr.materials.instruments['sopranino saxophone'],
-    division_maker=makertools.DivisionMaker()
+    division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
             counts=mathtools.Infinity,
             )
@@ -277,7 +277,7 @@ segment_maker.define_rhythm(
 segment_maker.define_rhythm(
     stages=(5, 6),
     voice_name=pf,
-    division_maker=makertools.DivisionMaker()
+    division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
             counts=mathtools.Infinity,
             )
@@ -310,7 +310,7 @@ segment_maker.define_rhythm(
 segment_maker.define_rhythm(
     stages=(6, 6),
     voice_name=perc,
-    division_maker=makertools.DivisionMaker()
+    division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
             counts=mathtools.Infinity,
             )

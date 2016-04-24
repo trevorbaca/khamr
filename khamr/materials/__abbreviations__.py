@@ -28,14 +28,14 @@ piano._default_scope = 'PianoMusicStaff'
 
 ### RHYTHM-MAKERS ###
 
-beat_division_maker = makertools.DivisionMaker()
+beat_division_maker = baca.tools.DivisionMaker()
 beat_division_maker = beat_division_maker.split_by_durations(
         compound_meter_multiplier=Multiplier(3, 2),
         durations=[(1, 4)],
         )
 beat_division_maker = beat_division_maker.flatten()
 
-quarter_division_maker = makertools.DivisionMaker()
+quarter_division_maker = baca.tools.DivisionMaker()
 quarter_division_maker = quarter_division_maker.split_by_durations(
         durations=[(1, 4)],
         )

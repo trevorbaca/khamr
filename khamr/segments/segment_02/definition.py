@@ -254,7 +254,7 @@ segment_maker.copy_rhythm(
 segment_maker.define_rhythm(
     stages=(1, 1),
     voice_name=gt,
-    division_maker=makertools.DivisionMaker()
+    division_maker=baca.tools.DivisionMaker()
         .split_by_durations(
             durations=[(1, 4)],
             ),
@@ -358,7 +358,7 @@ segment_maker.define_rhythm(
 segment_maker.define_rhythm(
     stages=(4, 4),
     voice_name=perc,
-    division_maker=makertools.DivisionMaker()
+    division_maker=baca.tools.DivisionMaker()
         .split_by_durations(
             compound_meter_multiplier=Multiplier(3, 2),
             durations=[(1, 4)],
