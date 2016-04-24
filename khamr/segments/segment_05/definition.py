@@ -18,7 +18,7 @@ segment_maker = khamr.tools.SegmentMaker(
         8, 8, 8,    # stages 7-9
         ],
     label_stage_numbers=True,
-    tempo_map = [
+    tempo_specifier = [
         (1, khamr.materials.tempi[126]),
         (4, Ritardando()),
         (6, khamr.materials.tempi[32]),
