@@ -157,7 +157,7 @@ segment_maker.define_rhythm(
 segment_maker.define_rhythm(
     stages=(8, 8),
     voice_name=gt,
-    division_maker=makertools.DivisionMaker()
+    division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
             counts=mathtools.Infinity,
             )
@@ -212,7 +212,7 @@ segment_maker.define_rhythm(
 segment_maker.define_rhythm(
     stages=(8, 8),
     voice_name=pf,
-    division_maker=makertools.DivisionMaker()
+    division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
             counts=mathtools.Infinity,
             )

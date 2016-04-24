@@ -167,7 +167,7 @@ segment_maker.define_rhythm(
 segment_maker.define_rhythm(
     stages=(1, 3),
     voice_name=gt,
-    division_maker=makertools.DivisionMaker()
+    division_maker=baca.tools.DivisionMaker()
         .split_by_durations(
             durations=[(1, 4)],
             ),
@@ -188,7 +188,7 @@ segment_maker.define_rhythm(
 segment_maker.define_rhythm(
     stages=(4, 6),
     voice_name=gt,
-    division_maker=makertools.DivisionMaker()
+    division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
             counts=[2, 1],
             )
@@ -251,7 +251,7 @@ segment_maker.define_rhythm(
 segment_maker.define_rhythm(
     stages=(4, 5),
     voice_name=pf,
-    division_maker=makertools.DivisionMaker()
+    division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
             counts=[3, 2],
             )
@@ -286,7 +286,7 @@ segment_maker.define_rhythm(
 segment_maker.define_rhythm(
     stages=(6, 6),
     voice_name=pf,
-    division_maker=makertools.DivisionMaker()
+    division_maker=baca.tools.DivisionMaker()
         .split_by_durations(
             durations=[(1, 4)],
             ),

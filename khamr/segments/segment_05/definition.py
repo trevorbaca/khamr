@@ -75,7 +75,7 @@ segment_maker.define_rhythm(
     stages=(1, 5),
     voice_name=ob,
     instrument=khamr.materials.instruments['English horn'],
-    division_maker=makertools.DivisionMaker()
+    division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
             counts=mathtools.Infinity,
             )
@@ -120,7 +120,7 @@ segment_maker.define_rhythm(
     stages=(1, 5),
     voice_name=cl,
     instrument=khamr.materials.instruments['bass clarinet'],
-    division_maker=makertools.DivisionMaker()
+    division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
             counts=mathtools.Infinity,
             )
@@ -164,7 +164,7 @@ segment_maker.copy_rhythm(
 segment_maker.define_rhythm(
     stages=(1, 5),
     voice_name=sax,
-    division_maker=makertools.DivisionMaker()
+    division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
             counts=mathtools.Infinity,
             )
