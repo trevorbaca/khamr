@@ -44,7 +44,7 @@ class SegmentMaker(makertools.SegmentMaker):
         measures_per_stage=None,
         music_makers=None,
         raise_approximate_duration=False,
-        label_stage_numbers=False,
+        label_stages=False,
         tempo_specifier=None,
         time_signatures=None,
         transpose_score=False,
@@ -65,8 +65,8 @@ class SegmentMaker(makertools.SegmentMaker):
         self._music_maker_class = khamr.tools.RhythmDefinition
         self._initialize_time_signatures(time_signatures)
         self.raise_approximate_duration = bool(raise_approximate_duration)
-        assert isinstance(label_stage_numbers, bool)
-        self._label_stage_numbers = label_stage_numbers
+        assert isinstance(label_stages, bool)
+        self._label_stage_numbers = label_stages
         self.tempo_specifier = tempo_specifier
         assert isinstance(transpose_score, bool)
         self._transpose_score = transpose_score
@@ -137,7 +137,7 @@ class SegmentMaker(makertools.SegmentMaker):
             )
 
     def _annotate_stages(self):
-        if not self.label_stage_numbers:
+        if not self.label_stages:
             return
         context = self._score['Time Signature Context']
         for stage_index in range(self.stage_count):
@@ -1002,7 +1002,7 @@ class SegmentMaker(makertools.SegmentMaker):
         return tuple(self._music_handlers)
 
     @property
-    def label_stage_numbers(self):
+    def label_stages(self):
         r'''Is true when segment should annotate stages.
 
         Set to true or false.
