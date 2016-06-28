@@ -127,7 +127,7 @@ covered_flute_air_tone = Markup.column(
     )
 covered_flute_air_tone = covered_flute_air_tone.larger()
 
-cross_note_heads = handlertools.OverrideHandler(
+cross_note_heads = handlertools.OverrideSpecifier(
     grob_name='note_head',
     attribute_name='style',
     attribute_value="'cross'",
@@ -240,7 +240,7 @@ molto_flautando_e_pont = Markup(string, direction=Up).italic().larger()
 string = 'molto gridato ed estr. sul pont.'
 molto_gridato = Markup(string, direction=Up).italic().larger()
 
-natural_harmonics = handlertools.OverrideHandler(
+natural_harmonics = handlertools.OverrideSpecifier(
     grob_name='note_head',
     attribute_name='style',
     attribute_value="'harmonic'",
@@ -301,13 +301,13 @@ reiterated_pp = handlertools.ReiteratedDynamicHandler(
 
 remove_reed = Markup('remove reed', direction=Up).larger()
 
-repeat_tie_down = handlertools.OverrideHandler(
+repeat_tie_down = handlertools.OverrideSpecifier(
     grob_name='repeat_tie',
     attribute_name='direction',
     attribute_value='Down',
     )
 
-repeat_tie_up = handlertools.OverrideHandler(
+repeat_tie_up = handlertools.OverrideSpecifier(
     grob_name='repeat_tie',
     attribute_name='direction',
     attribute_value='Up',
@@ -345,42 +345,42 @@ bow_on_wooden_mute = Markup('bow on wooden mute', direction=Up).larger()
 thin_wavering_tone = Markup('thin wavering tone', direction=Up).larger()
 
 def beam_positions(n):
-    return handlertools.OverrideHandler(
+    return handlertools.OverrideSpecifier(
         grob_name='beam',
         attribute_name='positions',
         attribute_value=str((n, n)),
         )
 
 def dynamic_line_spanner_staff_padding(n):
-    return handlertools.OverrideHandler(
+    return handlertools.OverrideSpecifier(
         grob_name='dynamic_line_spanner',
         attribute_name='staff_padding',
         attribute_value=str(n),
         )
 
 def markup_padding(n):
-    return handlertools.OverrideHandler(
+    return handlertools.OverrideSpecifier(
         grob_name='text_script',
         attribute_name='padding',
         attribute_value=str(n),
         )
 
 def stem_direction(direction):
-    return handlertools.OverrideHandler(
+    return handlertools.OverrideSpecifier(
         grob_name='stem',
         attribute_name='direction',
         attribute_value=str(direction),
         )
 
 def text_spanner_staff_padding(n):
-    return handlertools.OverrideHandler(
+    return handlertools.OverrideSpecifier(
         grob_name='text_spanner',
         attribute_name='staff_padding',
         attribute_value=str(n),
         )
 
 def tie_direction(direction):
-    return handlertools.OverrideHandler(
+    return handlertools.OverrideSpecifier(
         grob_name='tie',
         attribute_name='direction',
         attribute_value=str(direction),
@@ -388,7 +388,7 @@ def tie_direction(direction):
 
 def tremolo_down(n, maximum_adjustment=-1.5):
     pair = (0, -n)
-    return handlertools.OverrideHandler(
+    return handlertools.OverrideSpecifier(
         grob_name='stem_tremolo',
         attribute_name='extra_offset',
         attribute_value=str(pair),
@@ -401,7 +401,7 @@ def tremolo_down(n, maximum_adjustment=-1.5):
         )
 
 def tuplet_bracket_staff_padding(n):
-    return handlertools.OverrideHandler(
+    return handlertools.OverrideSpecifier(
         grob_name='tuplet_bracket',
         attribute_name='staff_padding',
         attribute_value=str(n),
