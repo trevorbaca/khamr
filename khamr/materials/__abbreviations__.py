@@ -620,9 +620,7 @@ five_line_staff = spannertools.StaffLinesSpanner(lines=5)
 ottava = spannertools.OctavationSpanner(start=1, stop=0)
 ottava_bassa = spannertools.OctavationSpanner(start=-1, stop=0)
 
-stem_tremolo = handlertools.StemTremoloHandler(
-    hash_mark_counts=[32],
-    )
+stem_tremolo = baca.tools.StemTremoloSpecifier(tremolo_flags=32)
 
 partition_table = rhythmmakertools.PartitionTable([
     (5, [2, 3]),
