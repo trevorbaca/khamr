@@ -566,15 +566,15 @@ patterned_f_ff = baca.tools.ArticulationSpecifier(
     #minimum_duration=Duration(1, 8),
     )
 
-repeated_p_to_ppp = handlertools.HairpinHandler(
+repeated_p_to_ppp = handlertools.HairpinSpecifier(
     hairpin_token='p > ppp',
     )
 
-repeated_pp_to_ff = handlertools.HairpinHandler(
+repeated_pp_to_ff = handlertools.HairpinSpecifier(
     hairpin_token='pp < ff',
     )
 
-halo_accompaniment_hairpins = handlertools.HairpinHandler(
+halo_accompaniment_hairpins = handlertools.HairpinSpecifier(
     hairpin_token=[
         'pp > ppp', 'ppp < pp', 'pp > ppp', 'ppp < pp',
         'pp < p', 'p > pp', 'pp < p', 'p > ppp', 'ppp < pp', 
@@ -582,7 +582,7 @@ halo_accompaniment_hairpins = handlertools.HairpinHandler(
     span='nontrivial ties',
     )
 
-halo_hairpins = handlertools.HairpinHandler(
+halo_hairpins = handlertools.HairpinSpecifier(
     hairpin_token=[
         'pp > ppp', 'ppp < pp', 'pp > ppp', 'ppp < pp',
         'pp < p', 'p > pp', 'pp < p', 'p > ppp', 'ppp < pp', 
@@ -590,7 +590,7 @@ halo_hairpins = handlertools.HairpinHandler(
     span='nontrivial ties',
     )
 
-bass_flute_tremoli_hairpins = handlertools.HairpinHandler(
+bass_flute_tremoli_hairpins = handlertools.HairpinSpecifier(
     hairpin_token=[
         'mp > pp', 'pp < mp',
         ],
