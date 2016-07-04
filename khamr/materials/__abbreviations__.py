@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
-from abjad import *
-from experimental import *
+import abjad
 import baca
 import khamr
-from abjad.tools import pitchtools
 
 
 ### CONTEXT NAMES ###
@@ -73,12 +71,12 @@ string_tuplet_ratios_4 = [
     (1,), (1,), (1, 4),
     ]
 
-string_tuplet_spelling_specifier = rhythmmakertools.TupletSpellingSpecifier(
+string_tuplet_spelling_specifier = abjad.rhythmmakertools.TupletSpellingSpecifier(
     flatten_trivial_tuplets=True,
     )
 
-messiaen_tied_note_rhythm_maker = rhythmmakertools.NoteRhythmMaker(
-    tie_specifier=rhythmmakertools.TieSpecifier(
+messiaen_tied_note_rhythm_maker = abjad.rhythmmakertools.NoteRhythmMaker(
+    tie_specifier=abjad.rhythmmakertools.TieSpecifier(
         tie_across_divisions=True,
         use_messiaen_style_ties=True,
         )
@@ -94,7 +92,7 @@ def make_effort_dynamic_markup(dynamic_text, direction=Down):
     markup._direction = direction
     return markup
 
-pervasive_accents = handlertools.ReiteratedArticulationHandler(
+pervasive_accents = baca.tools.ArticulationSpecifier(
     articulation_list=['>'],
     )
 
@@ -503,7 +501,7 @@ color_microtones = baca.tools.MicrotonalDeviationSpecifier(
     )
 
 pervasive_glissandi = baca.tools.GlissandoSpecifier(
-    patterns=rhythmmakertools.select_all(),
+    patterns=abjad.rhythmmakertools.select_all(),
     )
 
 def pervasive_trills_at_interval(interval):
@@ -542,36 +540,36 @@ alternate_bow_strokes = handlertools.PatternedArticulationsHandler(
     articulation_lists=(['upbow'], ['downbow']),
     )
 
-double_tonguing = handlertools.ReiteratedArticulationHandler(
+double_tonguing = baca.tools.ArticulationSpecifier(
     articulation_list=['tongue #2'],
     )
 
-marcati = handlertools.ReiteratedArticulationHandler(
+marcati = baca.tools.ArticulationSpecifier(
     articulation_list=['marcato'],
     skip_ties=True,
     )
 
 # TODO: tweak shape later
-pervasive_lv = handlertools.ReiteratedArticulationHandler(
+pervasive_lv = baca.tools.ArticulationSpecifier(
     articulation_list=['laissezVibrer'],
     )
 
-staccati = handlertools.ReiteratedArticulationHandler(
+staccati = baca.tools.ArticulationSpecifier(
     articulation_list=['staccato'],
     maximum_duration=Duration(1, 4),
     skip_ties=True,
     )
 
-staccatissimi = handlertools.ReiteratedArticulationHandler(
+staccatissimi = baca.tools.ArticulationSpecifier(
     articulation_list=['staccatissimo'],
     skip_ties=True,
     )
 
-tenuti = handlertools.ReiteratedArticulationHandler(
+tenuti = baca.tools.ArticulationSpecifier(
     articulation_list=['tenuto'],
     )
 
-reiterated_flageolets = handlertools.ReiteratedArticulationHandler(
+reiterated_flageolets = baca.tools.ArticulationSpecifier(
     articulation_list=['flageolet'],
     )
     
@@ -622,7 +620,7 @@ ottava_bassa = spannertools.OctavationSpanner(start=-1, stop=0)
 
 stem_tremolo = baca.tools.StemTremoloSpecifier(tremolo_flags=32)
 
-partition_table = rhythmmakertools.PartitionTable([
+partition_table = abjad.rhythmmakertools.PartitionTable([
     (5, [2, 3]),
     (9, [3, 3, 3]),
     (11, [3, 4, 4]),
@@ -635,25 +633,25 @@ put_reed_back_in = Markup('put reed back in', direction=Up).larger()
 flageolet = indicatortools.LilyPondCommand('flageolet', format_slot='right')
 
 wide_third_octave = baca.tools.RegisterSpecifier(
-    registration=pitchtools.Registration(
+    registration=abjad.pitchtools.Registration(
         [('[A0, F#4)', -20), ('[F#4, C8]', -6)]
         ),
     )
 
 narrow_fourth_octave = baca.tools.RegisterSpecifier(
-    registration=pitchtools.Registration(
+    registration=abjad.pitchtools.Registration(
         [('[A0, F#4)', -2), ('[F#4, C8]', 1)],
         ),
     )
 
 narrow_sixth_octave = baca.tools.RegisterSpecifier(
-    registration=pitchtools.Registration(
+    registration=abjad.pitchtools.Registration(
         [('[A0, F#4)', 22), ('[F#4, C8]', 25)],
         ),
     )
 
 sixth_octave = baca.tools.RegisterSpecifier(
-    registration=pitchtools.Registration(
+    registration=abjad.pitchtools.Registration(
         [('[A0, C8)', 30)],
         ),
     )
