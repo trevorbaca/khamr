@@ -269,33 +269,19 @@ ppp_ancora += Markup('ancora').italic()
 
 ppp_subtone = Markup('ppp').dynamic() + Markup('subtone')
 
-reiterated_fff = handlertools.ReiteratedDynamicHandler(
-    dynamic_name='fff',
-    )
+reiterated_fff = baca.tools.make_reiterated_dynamic(dynamic_name='fff')
 
-reiterated_ff = handlertools.ReiteratedDynamicHandler(
-    dynamic_name='ff',
-    )
+reiterated_ff = baca.tools.make_reiterated_dynamic(dynamic_name='ff')
 
-reiterated_f = handlertools.ReiteratedDynamicHandler(
-    dynamic_name='f',
-    )
+reiterated_f = baca.tools.make_reiterated_dynamic(dynamic_name='f')
 
-reiterated_mf = handlertools.ReiteratedDynamicHandler(
-    dynamic_name='mf',
-    )
+reiterated_mf = baca.tools.make_reiterated_dynamic(dynamic_name='mf')
 
-reiterated_mp = handlertools.ReiteratedDynamicHandler(
-    dynamic_name='mp',
-    )
+reiterated_mp = baca.tools.make_reiterated_dynamic(dynamic_name='mp')
 
-reiterated_p = handlertools.ReiteratedDynamicHandler(
-    dynamic_name='p',
-    )
+reiterated_p = baca.tools.make_reiterated_dynamic(dynamic_name='p')
 
-reiterated_pp = handlertools.ReiteratedDynamicHandler(
-    dynamic_name='pp',
-    )
+reiterated_pp = baca.tools.make_reiterated_dynamic(dynamic_name='pp')
 
 remove_reed = Markup('remove reed', direction=Up).larger()
 
