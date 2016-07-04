@@ -561,9 +561,9 @@ reiterated_flageolets = baca.tools.ArticulationSpecifier(
     
 ### DYNAMICS ###
 
-patterned_f_ff = handlertools.TerracedDynamicsHandler(
-    dynamics=['f', 'f', 'ff', 'f', 'ff', 'f', 'f', 'ff', 'ff'],
-    minimum_duration=Duration(1, 8),
+patterned_f_ff = baca.tools.ArticulationSpecifier(
+    articulations=['f', 'f', 'ff', 'f', 'ff', 'f', 'f', 'ff', 'ff'],
+    #minimum_duration=Duration(1, 8),
     )
 
 repeated_p_to_ppp = handlertools.HairpinHandler(
