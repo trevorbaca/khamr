@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
-import collections
-from abjad import *
+import abjad
 
 
-metadata = datastructuretools.TypedOrderedDict(
+metadata = abjad.datastructuretools.TypedOrderedDict(
     [
         (
             'output_material_class_name',
