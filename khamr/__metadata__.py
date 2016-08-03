@@ -3,7 +3,7 @@ import collections
 
 
 metadata = collections.OrderedDict([
-    ('catalog_number', 'AWN-015'),
+    ('catalog_number', 'AWN-011'),
     ('forces_tagline', 'for eleven players'),
     ('paper_size', '11 x 17 in'),
     ('price', '\\euro 66 / \\$ 84'),
