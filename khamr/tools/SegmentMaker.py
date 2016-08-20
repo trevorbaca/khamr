@@ -26,7 +26,7 @@ class SegmentMaker(makertools.SegmentMaker):
         '_label_stage_numbers',
         '_stages',
         '_transpose_score',
-        'final_barline',
+        'final_bar_line',
         'measures_per_stage',
         'name',
         'raise_approximate_duration',
@@ -38,7 +38,7 @@ class SegmentMaker(makertools.SegmentMaker):
 
     def __init__(
         self,
-        final_barline=False,
+        final_bar_line=False,
         final_markup=None,
         final_markup_extra_offset=None,
         measures_per_stage=None,
@@ -53,7 +53,7 @@ class SegmentMaker(makertools.SegmentMaker):
         superclass = super(SegmentMaker, self)
         superclass.__init__()
         self._initialize_music_makers(music_makers, khamr.tools)
-        self.final_barline = final_barline
+        self.final_bar_line = final_bar_line
         if final_markup is not None:
             assert isinstance(final_markup, markuptools.Markup)
         self._final_markup = final_markup
@@ -110,7 +110,7 @@ class SegmentMaker(makertools.SegmentMaker):
         self._label_instrument_changes()
         self._transpose_instruments()
         self._attach_rehearsal_mark()
-        self._add_final_barline()
+        self._add_final_bar_line()
         self._add_final_markup()
         self._check_well_formedness()
         self._update_segment_metadata(khamr.materials)
@@ -119,7 +119,7 @@ class SegmentMaker(makertools.SegmentMaker):
 
     ### PRIVATE METHODS ###
 
-    def _add_final_barline(self):
+    def _add_final_bar_line(self):
         abbreviation = '|'
         if self._is_last_segment():
             abbreviation = '|.'
