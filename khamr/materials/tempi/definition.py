@@ -1,26 +1,26 @@
 # -*- coding: utf-8 -*-
-from abjad import *
+import abjad
 
 
-tempi = datastructuretools.TypedOrderedDict([
+tempi = abjad.datastructuretools.TypedOrderedDict([
     (
         32,
-        Tempo(Duration(1, 4), 32),
+        abjad.Tempo(abjad.Duration(1, 4), 32),
         ),
     (
         42,
-        Tempo(Duration(1, 4), 42),
+        abjad.Tempo(abjad.Duration(1, 4), 42),
         ),
     (
         63,
-        Tempo(Duration(1, 4), 63),
+        abjad.Tempo(abjad.Duration(1, 4), 63),
         ),
     (
         84,
-        Tempo(Duration(1, 4), 84),
+        abjad.Tempo(abjad.Duration(1, 4), 84),
         ),
     (
         126,
-        Tempo(Duration(1, 4), 126),
+        abjad.Tempo(abjad.Duration(1, 4), 126),
         ),
     ])

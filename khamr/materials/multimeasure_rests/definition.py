@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-from abjad import *
+import abjad
 
 
-mask = rhythmmakertools.silence_all(use_multimeasure_rests=True) 
-multimeasure_rests = rhythmmakertools.NoteRhythmMaker(
+mask = abjad.rhythmmakertools.silence_all(use_multimeasure_rests=True) 
+multimeasure_rests = abjad.rhythmmakertools.NoteRhythmMaker(
     division_masks=[mask],
     )

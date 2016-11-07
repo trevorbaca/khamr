@@ -1,49 +1,49 @@
 # -*- coding: utf-8 -*-
-from abjad import *
+import abjad
 
 
-metric_modulations = datastructuretools.TypedOrderedDict([
+metric_modulations = abjad.datastructuretools.TypedOrderedDict([
     (
         '3:2(4)=4',
-        indicatortools.MetricModulation(
-            left_rhythm=Tuplet((2, 3), [Note('c4')]),
-            right_rhythm=Note('c4'),
+        abjad.indicatortools.MetricModulation(
+            left_rhythm=abjad.Tuplet((2, 3), [abjad.Note('c4')]),
+            right_rhythm=abjad.Note('c4'),
             ),
         ),
     (
         '4=3:2(4)',
-        indicatortools.MetricModulation(
-            left_rhythm=Note('c4'),
-            right_rhythm=Tuplet((2, 3), [Note('c4')]),
+        abjad.indicatortools.MetricModulation(
+            left_rhythm=abjad.Note('c4'),
+            right_rhythm=abjad.Tuplet((2, 3), [abjad.Note('c4')]),
             ),
         ),
 
     (
         '4=4.',
-        indicatortools.MetricModulation(
-            left_rhythm=Note('c4'),
-            right_rhythm=Note('c4.'),
+        abjad.indicatortools.MetricModulation(
+            left_rhythm=abjad.Note('c4'),
+            right_rhythm=abjad.Note('c4.'),
             ),
         ),
     (
         '4=8',
-        indicatortools.MetricModulation(
-            left_rhythm=Note('c4'),
-            right_rhythm=Note('c8'),
+        abjad.indicatortools.MetricModulation(
+            left_rhythm=abjad.Note('c4'),
+            right_rhythm=abjad.Note('c8'),
             ),
         ),
     (
         '4.=4',
-        indicatortools.MetricModulation(
-            left_rhythm=Note('c4.'),
-            right_rhythm=Note('c4'),
+        abjad.indicatortools.MetricModulation(
+            left_rhythm=abjad.Note('c4.'),
+            right_rhythm=abjad.Note('c4'),
             ),
         ),
     (
         '8=4',
-        indicatortools.MetricModulation(
-            left_rhythm=Note('c8'),
-            right_rhythm=Note('c4'),
+        abjad.indicatortools.MetricModulation(
+            left_rhythm=abjad.Note('c8'),
+            right_rhythm=abjad.Note('c4'),
             ),
         ),
     ])

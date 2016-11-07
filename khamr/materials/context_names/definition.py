@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-from abjad import *
+import abjad
 
 
-voice_names = datastructuretools.TypedOrderedDict(
+voice_names = abjad.datastructuretools.TypedOrderedDict(
     [
         ('cello', 'Cello Music Voice'),
         ('clarinet', 'Clarinet Music Voice'),

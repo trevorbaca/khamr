@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
+import abjad
 import baca
-from abjad import *
 
 
 # 108 seconds / segment
@@ -18,6 +18,6 @@ pairs = baca.tools.helianthate(
     -1,
     -1
     )
-pairs = sequencetools.flatten_sequence(pairs, depth=1)
-time_signatures = [TimeSignature(_) for _ in pairs]
-time_signatures = datastructuretools.CyclicTuple(time_signatures)
+pairs = abjad.sequencetools.flatten_sequence(pairs, depth=1)
+time_signatures = [abjad.TimeSignature(_) for _ in pairs]
+time_signatures = abjad.datastructuretools.CyclicTuple(time_signatures)
