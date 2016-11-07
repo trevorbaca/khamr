@@ -6,11 +6,15 @@ import baca
 class RhythmMaker(abctools.AbjadObject):
     r'''Al-kitab al-khamr music-maker.
 
+    ::
+
+        >>> import baca
+        >>> import khamr
+
     ..  container:: example
 
         ::
 
-            >>> import khamr
             >>> music_maker = khamr.tools.RhythmMaker(
             ...     voice_name='Cello Music Voice',
             ...     stages=(1, 4),
@@ -26,10 +30,12 @@ class RhythmMaker(abctools.AbjadObject):
             khamr.tools.RhythmMaker(
                 voice_name='Cello Music Voice',
                 division_maker=baca.tools.FuseByCountsDivisionCallback(
+                    cyclic=True,
                     counts=[2, 3, 1],
                     ),
                 rewrite_meter=False,
                 rhythm_maker=rhythmmakertools.NoteRhythmMaker(),
+                rhythm_overwrites=[],
                 split_at_measure_boundaries=False,
                 stages=(1, 4),
                 )

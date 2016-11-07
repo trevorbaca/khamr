@@ -30,32 +30,32 @@ class ScoreTemplate(abctools.AbjadValueObject):
                         \tag winds.flute
                         \context FluteMusicStaff = "Flute Music Staff" {
                             \clef "treble"
-                            \set Staff.instrumentName = \markup { Bass flute }
-                            \set Staff.shortInstrumentName = \markup { Bass fl. }
+                            \set Staff.instrumentName = \markup { "Bass flute" }
+                            \set Staff.shortInstrumentName = \markup { "Bass fl." }
                             \context FluteMusicVoice = "Flute Music Voice" {
                             }
                         }
                         \tag winds.oboe
                         \context OboeMusicStaff = "Oboe Music Staff" {
                             \clef "treble"
-                            \set Staff.instrumentName = \markup { English horn }
-                            \set Staff.shortInstrumentName = \markup { Eng. hn. }
+                            \set Staff.instrumentName = \markup { "English horn" }
+                            \set Staff.shortInstrumentName = \markup { "Eng. hn." }
                             \context OboeMusicVoice = "Oboe Music Voice" {
                             }
                         }
                         \tag winds.clarinet
                         \context ClarinetMusicStaff = "Clarinet Music Staff" {
                             \clef "treble"
-                            \set Staff.instrumentName = \markup { Bass clarinet }
-                            \set Staff.shortInstrumentName = \markup { Bass cl. }
+                            \set Staff.instrumentName = \markup { "Bass clarinet" }
+                            \set Staff.shortInstrumentName = \markup { "Bass cl." }
                             \context ClarinetMusicVoice = "Clarinet Music Voice" {
                             }
                         }
                         \tag winds.saxophone
                         \context SaxophoneMusicStaff = "Saxophone Music Staff" {
                             \clef "treble"
-                            \set Staff.instrumentName = \markup { Baritone saxophone }
-                            \set Staff.shortInstrumentName = \markup { Bar. sax. }
+                            \set Staff.instrumentName = \markup { "Baritone saxophone" }
+                            \set Staff.shortInstrumentName = \markup { "Bar. sax." }
                             \context SaxophoneMusicVoice = "Saxophone Music Voice" {
                             }
                         }
