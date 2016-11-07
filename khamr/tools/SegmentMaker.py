@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function
+import abjad
+import baca
 import collections
 import copy
+import experimental
 import os
-import baca
-from abjad import *
-from experimental.tools import makertools
 
 
-class SegmentMaker(makertools.SegmentMaker):
+class SegmentMaker(experimental.tools.makertools.SegmentMaker):
     r'''Segment-maker.
     '''
 

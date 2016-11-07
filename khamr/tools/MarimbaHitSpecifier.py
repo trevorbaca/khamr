@@ -1,10 +1,14 @@
 # -*- coding: utf-8 -*-
+import abjad
 import itertools
-from abjad import *
 
 
-class MarimbaHitSpecifier(abctools.AbjadObject):
+class MarimbaHitSpecifier(abjad.abctools.AbjadObject):
     r'''Marimba hit specifier.
+
+    ::
+
+        >>> import khamr
 
     ..  container:: example
 
@@ -12,7 +16,6 @@ class MarimbaHitSpecifier(abctools.AbjadObject):
 
         ::
 
-            >>> import khamr
             >>> specifier = khamr.tools.MarimbaHitSpecifier(
             ...     indices=[3, 9],
             ...     )
@@ -51,26 +54,26 @@ class MarimbaHitSpecifier(abctools.AbjadObject):
         for logical_tie_index, logical_tie in enumerate(logical_ties):
             if not logical_tie_index in self.indices:
                 continue
-            five_line_spanner = spannertools.StaffLinesSpanner(lines=5)
+            five_line_spanner = abjad.spannertools.StaffLinesSpanner(lines=5)
             attach(five_line_spanner, logical_tie)
             if self.attach_first_markup and not found_first:
                 string = 'marimba + woodblock'
-                markup = Markup(string, direction=Up)
+                markup = abjad.Markup(string, direction=Up)
                 markup = markup.box().override(('box-padding', 0.75))
                 markup = markup.larger()
                 attach(markup, logical_tie.head)
                 found_first = True
-            dynamic = Dynamic('sfz')
-            detach(Articulation, logical_tie.head)
-            attach(dynamic, logical_tie.head)
-            articulation = Articulation('marcato')
-            attach(articulation, logical_tie.head)
-            clef = Clef('treble')
+            dynamic = abjad.Dynamic('sfz')
+            abjad.detach(abjad.Articulation, logical_tie.head)
+            abjad.attach(dynamic, logical_tie.head)
+            articulation = abjad.Articulation('marcato')
+            abjad.attach(articulation, logical_tie.head)
+            clef = abjad.Clef('treble')
             attach(clef, logical_tie.head)
             next_leaf = inspect_(logical_tie.tail).get_leaf(1)
             if next_leaf is not None:
-                clef = Clef('percussion')
-                attach(clef, next_leaf)
+                clef = abjad.Clef('percussion')
+                abjad.attach(clef, next_leaf)
 
     ### PUBLIC PROPERTIES ###
 

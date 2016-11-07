@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-from abjad import *
-from experimental import *
+import abjad
 import baca
 import khamr
 from khamr.materials.__abbreviations__ import *
@@ -18,9 +17,9 @@ segment_maker = khamr.tools.SegmentMaker(
     label_stages=False,
     tempo_specifier = [
         (1, khamr.materials.tempi[42]),
-        (1, Accelerando()),
+        (1, abjad.Accelerando()),
         (2, khamr.materials.tempi[84]),
-        (2, Ritardando()),
+        (2, abjad.Ritardando()),
         (3, khamr.materials.tempi[42]),
         (5, khamr.materials.tempi[126]),
         ],
@@ -38,7 +37,7 @@ segment_maker.validate_measures_per_stage()
 
 ### SHARED ###
 
-stage_4_silence_mask = rhythmmakertools.SilenceMask(
+stage_4_silence_mask = abjad.rhythmmakertools.SilenceMask(
     indices=[
         4, 5,
         11, 12,
@@ -46,7 +45,7 @@ stage_4_silence_mask = rhythmmakertools.SilenceMask(
         ],
     )
 
-stage_5_silence_mask = rhythmmakertools.SilenceMask(
+stage_5_silence_mask = abjad.rhythmmakertools.SilenceMask(
     indices=[
         0, 
         2, 
@@ -61,7 +60,7 @@ stage_5_silence_mask = rhythmmakertools.SilenceMask(
         ],
     )
 
-guitar_accelerando = rhythmmakertools.InterpolationSpecifier(
+guitar_accelerando = abjad.rhythmmakertools.InterpolationSpecifier(
     start_duration=Duration(1, 4),
     stop_duration=Duration(1, 8),
     written_duration=Duration(1, 16),
@@ -80,8 +79,8 @@ segment_maker.define_rhythm(
             )
         ,
     rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
-        incise_specifier=rhythmmakertools.InciseSpecifier(
+    rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
+        incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
             prefix_talea=[-1],
             prefix_counts=[0],
             suffix_talea=[-1],
@@ -89,9 +88,9 @@ segment_maker.define_rhythm(
             talea_denominator=8,
             ),
         division_masks=[
-            rhythmmakertools.silence_every([2, 5], period=6),
+            abjad.rhythmmakertools.silence_every([2, 5], period=6),
             ],
-        tie_specifier=rhythmmakertools.TieSpecifier(
+        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
             ),
         ),
@@ -101,11 +100,11 @@ segment_maker.define_rhythm(
     stages=(4, 4),
     voice_name=fl,
     rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+    rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
         division_masks=[
-            rhythmmakertools.silence_every([1], period=2),
+            abjad.rhythmmakertools.silence_every([1], period=2),
             ],
-        tie_specifier=rhythmmakertools.TieSpecifier(
+        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
             use_messiaen_style_ties=True,
             ),
@@ -117,11 +116,11 @@ segment_maker.define_rhythm(
     voice_name=fl,
     rewrite_meter=True,
     division_maker=beat_division_maker,
-    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+    rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
         division_masks=[
-            rhythmmakertools.silence_first(1),
+            abjad.rhythmmakertools.silence_first(1),
             ],
-        tie_specifier=rhythmmakertools.TieSpecifier(
+        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
             use_messiaen_style_ties=True,
             ),
@@ -139,8 +138,8 @@ segment_maker.define_rhythm(
             )
         ,
     rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
-        incise_specifier=rhythmmakertools.InciseSpecifier(
+    rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
+        incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
             prefix_talea=[-1],
             prefix_counts=[0],
             suffix_talea=[-1],
@@ -148,9 +147,9 @@ segment_maker.define_rhythm(
             talea_denominator=8,
             ),
         division_masks=[
-            rhythmmakertools.silence_every([1, 4], period=6),
+            abjad.rhythmmakertools.silence_every([1, 4], period=6),
             ],
-        tie_specifier=rhythmmakertools.TieSpecifier(
+        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
             ),
         ),
@@ -179,8 +178,8 @@ segment_maker.define_rhythm(
             )
         ,
     rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
-        incise_specifier=rhythmmakertools.InciseSpecifier(
+    rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
+        incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
             prefix_talea=[-1],
             prefix_counts=[0],
             suffix_talea=[-1],
@@ -188,10 +187,10 @@ segment_maker.define_rhythm(
             talea_denominator=8,
             ),
         division_masks=[
-            rhythmmakertools.silence_every([1, 3], period=6),
-            rhythmmakertools.silence_last(1),
+            abjad.rhythmmakertools.silence_every([1, 3], period=6),
+            abjad.rhythmmakertools.silence_last(1),
             ],
-        tie_specifier=rhythmmakertools.TieSpecifier(
+        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
             ),
         ),
@@ -220,8 +219,8 @@ segment_maker.define_rhythm(
             )
         ,
     rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.IncisedRhythmMaker(
-        incise_specifier=rhythmmakertools.InciseSpecifier(
+    rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
+        incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
             prefix_talea=[-1],
             prefix_counts=[0],
             suffix_talea=[-1],
@@ -229,9 +228,9 @@ segment_maker.define_rhythm(
             talea_denominator=8,
             ),
         division_masks=[
-            rhythmmakertools.silence_every([1, 3], period=6),
+            abjad.rhythmmakertools.silence_every([1, 3], period=6),
             ],
-        tie_specifier=rhythmmakertools.TieSpecifier(
+        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
             ),
         ),
@@ -258,9 +257,9 @@ segment_maker.define_rhythm(
         .split_by_durations(
             durations=[(1, 4)],
             ),
-    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+    rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
         division_masks=[
-            rhythmmakertools.silence_every([1, 2, 3, 5, 6, 7, 8], period=9),
+            abjad.rhythmmakertools.silence_every([1, 2, 3, 5, 6, 7, 8], period=9),
             ],
         tuplet_ratios=[
             (-1, 1, -1), (-1, 1, -1), (-1, 1, -2), (-3, 1, -1),
@@ -273,11 +272,11 @@ segment_maker.define_rhythm(
     stages=(2, 3),
     voice_name=gt,
     rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+    rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
         division_masks=[
-            rhythmmakertools.silence_last(1),
+            abjad.rhythmmakertools.silence_last(1),
             ],
-        tie_specifier=rhythmmakertools.TieSpecifier(
+        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
             use_messiaen_style_ties=True,
             ),
@@ -302,11 +301,11 @@ segment_maker.define_rhythm(
     stages=(1, 3),
     voice_name=pf,
     rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+    rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
         division_masks=[
-            rhythmmakertools.silence_last(1),
+            abjad.rhythmmakertools.silence_last(1),
             ],
-        tie_specifier=rhythmmakertools.TieSpecifier(
+        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
             use_messiaen_style_ties=True,
             ),
@@ -317,7 +316,7 @@ segment_maker.copy_rhythm(
     fl,
     4,
     voice_name=pf,
-    rhythm_maker__tie_specifier=rhythmmakertools.TieSpecifier(
+    rhythm_maker__tie_specifier=abjad.rhythmmakertools.TieSpecifier(
         strip_ties=True,
         ),
     )
@@ -327,7 +326,7 @@ segment_maker.define_rhythm(
     voice_name=pf,
     division_maker=beat_division_maker,
     rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+    rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
         division_masks=[
             stage_5_silence_mask,
             ],
@@ -348,8 +347,8 @@ segment_maker.define_rhythm(
             )
         ,
     rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
-        tie_specifier=rhythmmakertools.TieSpecifier(
+    rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
+        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
             )
         )
@@ -366,9 +365,9 @@ segment_maker.define_rhythm(
         .flatten()
         ,
     rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+    rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
         division_masks=[
-            rhythmmakertools.SilenceMask(
+            abjad.rhythmmakertools.SilenceMask(
                 indices=[
                     0, 1, 2, 3,
                     5,
@@ -379,7 +378,7 @@ segment_maker.define_rhythm(
                     ],
                 ),
             ],
-        tie_specifier=rhythmmakertools.TieSpecifier(
+        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
             ),
         ),
@@ -389,7 +388,7 @@ segment_maker.define_rhythm(
     stages=(5, 5),
     voice_name=perc,
     division_maker=beat_division_maker,
-    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+    rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
         division_masks=[
             stage_5_silence_mask,
             ],
@@ -403,11 +402,11 @@ segment_maker.define_rhythm(
     voice_name=vn,
     division_maker=quarter_division_maker,
     rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+    rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
         division_masks=[
-            rhythmmakertools.silence_last(2),
+            abjad.rhythmmakertools.silence_last(2),
             ],
-        tie_specifier=rhythmmakertools.TieSpecifier(
+        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
             use_messiaen_style_ties=True,
             ),
@@ -435,11 +434,11 @@ segment_maker.define_rhythm(
     voice_name=va,
     division_maker=quarter_division_maker,
     rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+    rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
         division_masks=[
-            rhythmmakertools.silence_last(2),
+            abjad.rhythmmakertools.silence_last(2),
             ],
-        tie_specifier=rhythmmakertools.TieSpecifier(
+        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
             use_messiaen_style_ties=True,
             ),
@@ -467,11 +466,11 @@ segment_maker.define_rhythm(
     voice_name=vc,
     division_maker=quarter_division_maker,
     rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+    rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
         division_masks=[
-            rhythmmakertools.silence_last(2),
+            abjad.rhythmmakertools.silence_last(2),
             ],
-        tie_specifier=rhythmmakertools.TieSpecifier(
+        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
             use_messiaen_style_ties=True,
             ),
@@ -484,11 +483,11 @@ segment_maker.define_rhythm(
     stages=(3, 3),
     voice_name=vc,
     rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.NoteRhythmMaker(
+    rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
         division_masks=[
-            rhythmmakertools.silence_last(1),
+            abjad.rhythmmakertools.silence_last(1),
             ],
-        tie_specifier=rhythmmakertools.TieSpecifier(
+        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
             use_messiaen_style_ties=True,
             ),
@@ -513,13 +512,13 @@ segment_maker.define_rhythm(
     stages=(1, 3),
     voice_name=cb,
     rewrite_meter=True,
-    rhythm_maker=rhythmmakertools.TupletRhythmMaker(
+    rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
         division_masks=[
-            rhythmmakertools.sustain_every(
+            abjad.rhythmmakertools.sustain_every(
                 [0, 1, 4, 6],
                 period=7,
                 ),
-            rhythmmakertools.silence_last(1),
+            abjad.rhythmmakertools.silence_last(1),
             ],
         tuplet_ratios=[
             (6, 1), (6, 1), (6, 1),
@@ -528,7 +527,7 @@ segment_maker.define_rhythm(
             (2, 1), (2, 1), (2, 1),
             ],
         tuplet_spelling_specifier=string_tuplet_spelling_specifier,
-        tie_specifier=rhythmmakertools.TieSpecifier(
+        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,
             use_messiaen_style_ties=True,
             )
@@ -583,7 +582,7 @@ segment_maker.make_scoped_specifiers(
     scope=(ob, (1, 2)),
     specifiers=[
         pitch_specifier(
-            source=[pitchtools.PitchSegment(
+            source=[abjad.pitchtools.PitchSegment(
                 items=[NamedPitch('A4'), NamedPitch('E5')], 
                 item_class=NamedPitch,
                 )],
@@ -629,7 +628,7 @@ segment_maker.make_scoped_specifiers(
     scope=(sax, (1, 2)),
     specifiers=[
         pitch_specifier(
-            source=[pitchtools.PitchSegment(
+            source=[abjad.pitchtools.PitchSegment(
                 items=[NamedPitch('F3'), NamedPitch('G+3')], 
                 item_class=NamedPitch,
                 )],
@@ -663,7 +662,7 @@ segment_maker.make_scoped_specifiers(
 segment_maker.make_scoped_specifiers(
     scope=(gt, (2, 3)),
     specifiers=[
-        Dynamic('mf'),
+        abjad.Dynamic('mf'),
         pitch_specifier(source='F#2'),
         sparse_guitar_clicks,
         ],
@@ -672,7 +671,7 @@ segment_maker.make_scoped_specifiers(
 segment_maker.make_scoped_specifiers(
     scope=(gt, (4, 5)),
     specifiers=[
-        Dynamic('ff'),
+        abjad.Dynamic('ff'),
         guitar_with_screw,
         pitch_specifier(source='G2'),
         ],
@@ -694,9 +693,9 @@ segment_maker.make_scoped_specifiers(
     scope=(pf, (4, 4)),
     specifiers=[
         reiterated_fff,
-        Clef('bass'),
+        abjad.Clef('bass'),
         pitch_specifier(
-            source=[pitchtools.PitchSegment(
+            source=[abjad.pitchtools.PitchSegment(
                 items=[
                     NamedPitch('A0'), 
                     NamedPitch('B0'),
@@ -718,11 +717,11 @@ segment_maker.make_scoped_specifiers(
 segment_maker.make_scoped_specifiers(
     scope=(pf, (5, 5)),
     specifiers=[
-        Clef('treble'),
-        Dynamic('fff'),
+        abjad.Clef('treble'),
+        abjad.Dynamic('fff'),
         pitch_specifier(
             source=khamr.materials.rose_pitch_classes,
-            operators=[pitchtools.Inversion()],
+            operators=[abjad.pitchtools.Inversion()],
             ),
         sixth_octave,
         ottava,
@@ -765,9 +764,9 @@ segment_maker.make_scoped_specifiers(
     specifiers=[
         pitch_specifier(
             source=khamr.materials.color_trill_pitches,
-            operators=[pitchtools.Transposition(1)],
+            operators=[abjad.pitchtools.Transposition(1)],
             ),
-        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
+        pervasive_trills_at_interval(abjad.pitchtools.NamedInterval('m2')),
         ],
     )
 
@@ -776,9 +775,9 @@ segment_maker.make_scoped_specifiers(
     specifiers=[
         pitch_specifier(
             source=khamr.materials.color_trill_pitches,
-            operators=[pitchtools.Transposition(2)],
+            operators=[abjad.pitchtools.Transposition(2)],
             ),
-        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
+        pervasive_trills_at_interval(abjad.pitchtools.NamedInterval('m2')),
         ],
     )
 
@@ -787,9 +786,9 @@ segment_maker.make_scoped_specifiers(
     specifiers=[
         pitch_specifier(
             source=khamr.materials.color_trill_pitches,
-            operators=[pitchtools.Transposition(3)],
+            operators=[abjad.pitchtools.Transposition(3)],
             ),
-        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
+        pervasive_trills_at_interval(abjad.pitchtools.NamedInterval('m2')),
         ],
     )
 
@@ -819,7 +818,7 @@ segment_maker.make_scoped_specifiers(
         pitch_specifier(
             source=khamr.materials.color_trill_pitches,
             ),
-        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
+        pervasive_trills_at_interval(abjad.pitchtools.NamedInterval('m2')),
         ],
     )
 
@@ -828,9 +827,9 @@ segment_maker.make_scoped_specifiers(
     specifiers=[
         pitch_specifier(
             source=khamr.materials.color_trill_pitches,
-            operators=[pitchtools.Transposition(1)],
+            operators=[abjad.pitchtools.Transposition(1)],
             ),
-        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
+        pervasive_trills_at_interval(abjad.pitchtools.NamedInterval('m2')),
         ],
     )
 
@@ -839,9 +838,9 @@ segment_maker.make_scoped_specifiers(
     specifiers=[
         pitch_specifier(
             source=khamr.materials.color_trill_pitches,
-            operators=[pitchtools.Transposition(2)],
+            operators=[abjad.pitchtools.Transposition(2)],
             ),
-        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
+        pervasive_trills_at_interval(abjad.pitchtools.NamedInterval('m2')),
         ],
     )
 
@@ -871,7 +870,7 @@ segment_maker.make_scoped_specifiers(
         pitch_specifier(
             source=khamr.materials.color_trill_pitches,
             ),
-        pervasive_trills_at_interval(pitchtools.NamedInterval('m2')),
+        pervasive_trills_at_interval(abjad.pitchtools.NamedInterval('m2')),
         pervasive_accents,
         ],
     )
@@ -879,7 +878,7 @@ segment_maker.make_scoped_specifiers(
 segment_maker.make_scoped_specifiers(
     scope=(vc, (3, 3)),
     specifiers=[
-        Dynamic('mf'),
+        abjad.Dynamic('mf'),
         pitch_specifier(
             source='F#3',
             ),
@@ -907,15 +906,15 @@ segment_maker.make_scoped_specifiers(
             source=khamr.materials.double_stop_halo_pitches,
             start_index=0,
             ),
-        baca.tools.GlissandoSpecifier(
+        baca.tools.abjad.GlissandoSpecifier(
             patterns=[
-                rhythmmakertools.select_all(),
-                rhythmmakertools.silence_last(1),
+                abjad.rhythmmakertools.select_all(),
+                abjad.rhythmmakertools.silence_last(1),
                 ],
             ),
         natural_harmonics,
         strings_III_and_IV,
-        Dynamic('mf'),
+        abjad.Dynamic('mf'),
         ],
     )
 
@@ -924,7 +923,7 @@ segment_maker.make_scoped_specifiers(
     specifiers=[
         reiterated_fff,
         pitch_specifier(
-            source=[pitchtools.PitchSegment(
+            source=[abjad.pitchtools.PitchSegment(
                 items=[NamedPitch('G0'), NamedPitch('A1')], 
                 item_class=NamedPitch,
                 )],

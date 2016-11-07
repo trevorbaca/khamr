@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from abjad import *
+import abjad
 
 
 contrabass_halo_pitches = r'''
@@ -11,5 +11,7 @@ contrabass_halo_pitches = r'''
 contrabass_halo_pitches = contrabass_halo_pitches.split()
 #raise Exception(len(contrabass_halo_pitches))
 assert len(contrabass_halo_pitches) == 33
-contrabass_halo_pitches = [NamedPitch(_) for _ in contrabass_halo_pitches]
-contrabass_halo_pitches = datastructuretools.CyclicTuple(contrabass_halo_pitches)
+contrabass_halo_pitches = [
+    abjad.NamedPitch(_) for _ in contrabass_halo_pitches]
+contrabass_halo_pitches = \
+    abjad.datastructuretools.CyclicTuple(contrabass_halo_pitches)

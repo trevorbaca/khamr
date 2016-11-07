@@ -1,44 +1,44 @@
 # -*- coding: utf-8 -*-
-from abjad import *
+import abjad
 
 
 score_setup = {
     'FluteMusicStaff': (
-        instrumenttools.Flute,
-        instrumenttools.BassFlute,
-        instrumenttools.Piccolo,
+        abjad.instrumenttools.Flute,
+        abjad.instrumenttools.BassFlute,
+        abjad.instrumenttools.Piccolo,
         ),
     'ClarinetMusicStaff': (
-        instrumenttools.ClarinetInBFlat,
-        instrumenttools.BassClarinet,
+        abjad.instrumenttools.ClarinetInBFlat,
+        abjad.instrumenttools.BassClarinet,
         ),
     'OboeMusicStaff': (
-        instrumenttools.Oboe,
-        instrumenttools.EnglishHorn,
+        abjad.instrumenttools.Oboe,
+        abjad.instrumenttools.EnglishHorn,
         ),
     'SaxophoneMusicStaff': (
-        instrumenttools.BaritoneSaxophone,
-        instrumenttools.SopraninoSaxophone,
+        abjad.instrumenttools.BaritoneSaxophone,
+        abjad.instrumenttools.SopraninoSaxophone,
         ),
     'GuitarMusicStaff': (
-        instrumenttools.Guitar,
+        abjad.instrumenttools.Guitar,
         ),
     'PianoMusicStaff': (
-        instrumenttools.Piano,
+        abjad.instrumenttools.Piano,
         ),
     'PercussionMusicStaff': (
-        instrumenttools.Percussion,
+        abjad.instrumenttools.Percussion,
         ),
     'ViolinMusicStaff': (
-        instrumenttools.Violin,
+        abjad.instrumenttools.Violin,
         ),
     'ViolaMusicStaff': (
-        instrumenttools.Viola,
+        abjad.instrumenttools.Viola,
         ),
     'CelloMusicStaff': (
-        instrumenttools.Cello,
+        abjad.instrumenttools.Cello,
         ),
     'ContrabassMusicStaff': (
-        instrumenttools.Contrabass,
+        abjad.instrumenttools.Contrabass,
         ),
     }

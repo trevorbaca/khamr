@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-from abjad import *
+import abjad
 import baca
 
 
-class RhythmMaker(abctools.AbjadObject):
+class RhythmMaker(abjad.abctools.AbjadObject):
     r'''Al-kitab al-khamr music-maker.
 
     ::
@@ -62,11 +62,11 @@ class RhythmMaker(abctools.AbjadObject):
         )
 
     _khamr_meters = [
-        metertools.Meter(
+        abjad.metertools.Meter(
             '(6/4 ((3/8 (1/8 1/8 1/8)) (3/8 (1/8 1/8 1/8)) (3/8 (1/8 1/8 1/8)) (3/8 (1/8 1/8 1/8))))',
             preferred_boundary_depth=1,
             ),
-        metertools.Meter(
+        abjad.metertools.Meter(
             (6, 8),
             preferred_boundary_depth=1,
             )
@@ -116,17 +116,17 @@ class RhythmMaker(abctools.AbjadObject):
         Returns music. Probably as a selection.
         '''
         for time_signature in time_signatures:
-            assert isinstance(time_signature, indicatortools.TimeSignature)
+            assert isinstance(time_signature, abjad.indicatortools.TimeSignature)
         music = self._make_rhythm(time_signatures)
-        assert isinstance(music, (tuple, list, Voice)), repr(music)
+        assert isinstance(music, (tuple, list, abjad.Voice)), repr(music)
         first_item = music[0]
         if isinstance(first_item, selectiontools.Selection):
             first_component = first_item[0]
         else:
             first_component = first_item
         first_leaf = inspect_(first_component).get_leaf(0)
-        assert isinstance(first_leaf, scoretools.Leaf), repr(first_leaf)
-        prototype = instrumenttools.Percussion
+        assert isinstance(first_leaf, abjad.scoretools.Leaf), repr(first_leaf)
+        prototype = abjad.instrumenttools.Percussion
         if self.instrument is not None:
             self._attach_instrument(
                 self.instrument, 
@@ -211,14 +211,14 @@ class RhythmMaker(abctools.AbjadObject):
         rhythm_maker = self._get_rhythm_maker()
         selections = rhythm_maker(divisions)
         if self.split_at_measure_boundaries:
-            specifier = rhythmmakertools.DurationSpellingSpecifier
+            specifier = abjad.rhythmmakertools.DurationSpellingSpecifier
             selections = specifier._split_at_measure_boundaries(
                 selections, 
                 time_signatures,
                 use_messiaen_style_ties=True,
                 )
         if self.rewrite_meter:
-            specifier = rhythmmakertools.DurationSpellingSpecifier
+            specifier = abjad.rhythmmakertools.DurationSpellingSpecifier
             selections = specifier._rewrite_meter_(
                 selections, 
                 time_signatures,
@@ -228,9 +228,10 @@ class RhythmMaker(abctools.AbjadObject):
                 )
         if not self.rhythm_overwrites:
             return selections
-        dummy_measures = scoretools.make_spacer_skip_measures(time_signatures)
-        dummy_time_signature_voice = Voice(dummy_measures)
-        dummy_music_voice = Voice()
+        dummy_measures = abjad.scoretools.make_spacer_skip_measures(
+            time_signatures)
+        dummy_time_signature_voice = abjad.Voice(dummy_measures)
+        dummy_music_voice = abjad.Voice()
         dummy_music_voice.extend(selections)
         dummy_staff = Staff([dummy_time_signature_voice, dummy_music_voice])
         dummy_staff.is_simultaneous = True
@@ -267,13 +268,13 @@ class RhythmMaker(abctools.AbjadObject):
         return dummy_music_voice
 
     def _set_staff_line_count(self, first_leaf, staff_line_count):
-        command = indicatortools.LilyPondCommand('stopStaff')
+        command = abjad.indicatortools.LilyPondCommand('stopStaff')
         attach(command, first_leaf)
         string = "override Staff.StaffSymbol #'line-count = #{}"
         string = string.format(staff_line_count)
-        command = indicatortools.LilyPondCommand(string)
+        command = abjad.indicatortools.LilyPondCommand(string)
         attach(command, first_leaf)
-        command = indicatortools.LilyPondCommand('startStaff')
+        command = abjad.indicatortools.LilyPondCommand('startStaff')
         attach(command, first_leaf)
 
     ### PUBLIC PROPERTIES ###
@@ -324,7 +325,7 @@ class RhythmMaker(abctools.AbjadObject):
 
         Xylophone music-maker always returns 5.
         '''
-        if isinstance(self.instrument, instrumenttools.Xylophone):
+        if isinstance(self.instrument, abjad.instrumenttools.Xylophone):
             return 5
         return self._staff_line_count
 
@@ -344,9 +345,9 @@ class RhythmMaker(abctools.AbjadObject):
     def stages(self, expr):
         if expr is None:
             self._stages = expr
-        elif mathtools.is_positive_integer(expr):
+        elif abjad.mathtools.is_positive_integer(expr):
             self._stages = (expr, expr)
-        elif (mathtools.all_are_positive_integers(expr)
+        elif (abjad.mathtools.all_are_positive_integers(expr)
             and len(expr) == 2):
             self._stages = tuple(expr)
         else:

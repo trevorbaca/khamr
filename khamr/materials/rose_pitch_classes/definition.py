@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from abjad import *
+import abjad
 import baca
 
 
@@ -8,11 +8,11 @@ rose_pitch_classes = baca.tools.helianthate(
     -1,
     1,
     )
-rose_pitch_classes = sequencetools.flatten_sequence(rose_pitch_classes)
+rose_pitch_classes = abjad.sequencetools.flatten_sequence(rose_pitch_classes)
 assert len(rose_pitch_classes) == 64
 
-rose_pitch_classes = [NamedPitch(_) for _ in rose_pitch_classes]
-rose_pitch_classes = pitchtools.PitchSegment(
+rose_pitch_classes = [abjad.NamedPitch(_) for _ in rose_pitch_classes]
+rose_pitch_classes = abjad.pitchtools.PitchSegment(
     items=rose_pitch_classes,
-    item_class=NamedPitch,
+    item_class=abjad.NamedPitch,
     )
