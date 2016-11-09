@@ -28,7 +28,7 @@ piano._default_scope = 'PianoMusicStaff'
 
 beat_division_maker = baca.tools.DivisionMaker()
 beat_division_maker = beat_division_maker.split_by_durations(
-        compound_meter_multiplier=Multiplier(3, 2),
+        compound_meter_multiplier=abjad.Multiplier(3, 2),
         durations=[(1, 4)],
         )
 beat_division_maker = beat_division_maker.flatten()
@@ -85,47 +85,47 @@ messiaen_tied_note_rhythm_maker = abjad.rhythmmakertools.NoteRhythmMaker(
 ### MARKUP ###
 
 def make_effort_dynamic_markup(dynamic_text, direction=Down):
-    left_quotes = Markup('“').italic().larger()
-    dynamic_markup = Markup(dynamic_text).dynamic()
-    right_quotes = Markup('”').italic().larger()
+    left_quotes = abjad.Markup('“').italic().larger()
+    dynamic_markup = abjad.Markup(dynamic_text).dynamic()
+    right_quotes = abjad.Markup('”').italic().larger()
     markup = left_quotes + dynamic_markup + right_quotes
     markup._direction = direction
     return markup
 
 pervasive_accents = baca.tools.ArticulationSpecifier(
-    articulation_list=['>'],
+    articulations=['>'],
     )
 
-air_tone = Markup('air tone', direction=Up).larger()
+air_tone = abjad.Markup('air tone', direction=Up).larger()
 
 string = 'air tone without reed: mix inhales and exhales ad lib.'
-air_tone_without_reed = Markup(string, direction=Up).larger()
+air_tone_without_reed = abjad.Markup(string, direction=Up).larger()
 
-arco = Markup('arco', direction=Up).larger()
+arco = abjad.Markup('arco', direction=Up).larger()
 
-arco_ordinario = Markup('arco ordinario', direction=Up).larger()
+arco_ordinario = abjad.Markup('arco ordinario', direction=Up).larger()
 
-attackless = Markup('attackless', direction=Up).larger()
+attackless = abjad.Markup('attackless', direction=Up).larger()
 
 string = 'attackless roll with very soft yarn mallets'
-attackless_roll = Markup(string, direction=Up).larger()
+attackless_roll = abjad.Markup(string, direction=Up).larger()
 
 string = 'accent changes of direction noticeably at each attack'
-accent_changes = Markup(string, direction=Up)
+accent_changes = abjad.Markup(string, direction=Up)
 
 string = 'catch resonance (but not attack) with pedal'
-catch_resonance = Markup(string, direction=Up, stack_priority=1000)
+catch_resonance = abjad.Markup(string, direction=Up, stack_priority=1000)
 catch_resonance = catch_resonance.larger()
 
-first_line = Markup('air tone with lips covering mouthplate').line()
-second_line = Markup('(sounds major 7th lower)').line()
-covered_flute_air_tone = Markup.column(
+first_line = abjad.Markup('air tone with lips covering mouthplate').line()
+second_line = abjad.Markup('(sounds major 7th lower)').line()
+covered_flute_air_tone = abjad.Markup.column(
     [first_line, 
     second_line], direction=Up,
     )
 covered_flute_air_tone = covered_flute_air_tone.larger()
 
-cross_note_heads = handlertools.OverrideSpecifier(
+cross_note_heads = baca.tools.OverrideSpecifier(
     grob_name='note_head',
     attribute_name='style',
     attribute_value="'cross'",
@@ -137,79 +137,79 @@ effort_f = make_effort_dynamic_markup('f')
 effort_mp = make_effort_dynamic_markup('mp')
 
 string = 'emphasize multiphonics and unstable harmonics prominently throughout'
-emphasize_multiphonics = Markup(string, direction=Up).larger()
+emphasize_multiphonics = abjad.Markup(string, direction=Up).larger()
 
-estr_sul_pont = Markup('estr. sul pont.', direction=Up).italic().larger()
+estr_sul_pont = abjad.Markup('estr. sul pont.', direction=Up).italic().larger()
 
-fff_ancora = Markup('fff').dynamic() + Markup('ancora').italic()
+fff_ancora = abjad.Markup('fff').dynamic() + abjad.Markup('ancora').italic()
 
-ffff_possibile = Markup('ffff').dynamic() + Markup('possibile').italic()
-fff_possibile = Markup('fff').dynamic() + Markup('possibile').italic()
+ffff_possibile = abjad.Markup('ffff').dynamic() + abjad.Markup('possibile').italic()
+fff_possibile = abjad.Markup('fff').dynamic() + abjad.Markup('possibile').italic()
 
-fingertips = Markup(
+fingertips = abjad.Markup(
     'rapid roll with fingertips: keep speed constant during accelerando',
     direction=Up,
     )
 fingertips = fingertips.larger()
 
-fingertips_only = Markup(
+fingertips_only = abjad.Markup(
     'rapid roll with fingertips: keep speed constant during accelerando',
     direction=Up,
     )
 fingertips = fingertips.larger()
 
-fifth_harmonic_of_F1 = Markup('5th harmonic of F1', direction=Up)
+fifth_harmonic_of_F1 = abjad.Markup('5th harmonic of F1', direction=Up)
 fifth_harmonic_of_F1 = fifth_harmonic_of_F1.larger()
 
-fluttertongue = Markup('fluttertongue', direction=Up).larger()
+fluttertongue = abjad.Markup('fluttertongue', direction=Up).larger()
 
-fret_guiro = Markup('fret guiro', direction=Up).larger()
+fret_guiro = abjad.Markup('fret guiro', direction=Up).larger()
 
 string = 'draw metal screw back and forth slowly across string;'
-first_line = Markup(string).line()
-second_line = Markup('continuous loud sound').line()
-guitar_with_screw = Markup.column([first_line, second_line], direction=Up)
+first_line = abjad.Markup(string).line()
+second_line = abjad.Markup('continuous loud sound').line()
+guitar_with_screw = abjad.Markup.column([first_line, second_line], direction=Up)
 guitar_with_screw = guitar_with_screw.larger()
 
-gridato_possibile = Markup('gridato possibile', direction=Up).italic().larger()
+gridato_possibile = abjad.Markup('gridato possibile', direction=Up).italic().larger()
 
 string = 'cross noteheads indicate half-harmonics'
-half_harmonics_explanation = Markup(string, direction=Up).larger()
+half_harmonics_explanation = abjad.Markup(string, direction=Up).larger()
 
 string = 'match dynamic levels of guitar'
-match_guitar_dynamic_levels = Markup(string, direction=Up).larger()
+match_guitar_dynamic_levels = abjad.Markup(string, direction=Up).larger()
 
 string = 'move towards (and then back away from) the bridge'
 string += ' at the center of each accelerando'
-move_towards_the_bridge = Markup(string, direction=Up).larger()
+move_towards_the_bridge = abjad.Markup(string, direction=Up).larger()
 
 string = 'sparse, individual clicks with extremely slow bow'
-first_line = Markup(string).line()
-second_line = Markup('(1-2/sec. in irregular rhythm)').line()
-sparse_cello_clicks = Markup.column([first_line, second_line], direction=Up)
+first_line = abjad.Markup(string).line()
+second_line = abjad.Markup('(1-2/sec. in irregular rhythm)').line()
+sparse_cello_clicks = abjad.Markup.column([first_line, second_line], direction=Up)
 sparse_cello_clicks = sparse_cello_clicks.larger()
 
 string = 'sparse, individual clicks with nail or pick laterally up string'
-first_line = Markup(string).line()
-second_line = Markup('(1-2/sec. in irregular rhythm)').line()
-sparse_guitar_clicks = Markup.column([first_line, second_line], direction=Up)
+first_line = abjad.Markup(string).line()
+second_line = abjad.Markup('(1-2/sec. in irregular rhythm)').line()
+sparse_guitar_clicks = abjad.Markup.column([first_line, second_line], direction=Up)
 sparse_guitar_clicks = sparse_guitar_clicks.larger()
 
 string = r'sparse, individual clicks with credit card'
 string += r' on C \hspace #-0.5 \raise #1 \sharp \hspace #-0.5 1 string'
-first_line = Markup(string).line()
+first_line = abjad.Markup(string).line()
 string = ' (1-2/sec. in irregular rhythm)'
-second_line = Markup(string).line()
-sparse_piano_clicks = Markup.column([first_line, second_line], direction=Up)
+second_line = abjad.Markup(string).line()
+sparse_piano_clicks = abjad.Markup.column([first_line, second_line], direction=Up)
 sparse_piano_clicks = sparse_piano_clicks.larger()
 
-leggierissimo = Markup('leggierissimo', direction=Up).italic().larger()
+leggierissimo = abjad.Markup('leggierissimo', direction=Up).italic().larger()
 
 string = 'leggierissimo (off-string bowing on staccati)'
-leggierissimo_off_string = Markup(string, direction=Up).italic().larger()
+leggierissimo_off_string = abjad.Markup(string, direction=Up).italic().larger()
 
 def percussion_reminder_markup(name):
-    markup = Markup(name, direction=Up)
+    markup = abjad.Markup(name, direction=Up)
     markup = markup.box().override(('box-padding', 0.75))
     markup = markup.larger()
     return markup
@@ -217,7 +217,7 @@ def percussion_reminder_markup(name):
 def levine_multiphonic(number):
     string = 'L.{}'
     string = string.format(number)
-    markup = Markup(string, direction=Up)
+    markup = abjad.Markup(string, direction=Up)
     markup = markup.box().override(('box-padding', 0.75))
     markup = markup.larger()
     return markup
@@ -225,146 +225,146 @@ def levine_multiphonic(number):
 def weiss_multiphonic(number):
     string = 'W.{}'
     string = string.format(number)
-    markup = Markup(string, direction=Up)
+    markup = abjad.Markup(string, direction=Up)
     markup = markup.box().override(('box-padding', 0.75))
     markup = markup.larger()
     return markup
 
-molto_flautando = Markup('molto flautando', direction=Up).italic().larger()
+molto_flautando = abjad.Markup('molto flautando', direction=Up).italic().larger()
 
 string = 'molto flautando ed estr. sul pont.'
-molto_flautando_e_pont = Markup(string, direction=Up).italic().larger()
+molto_flautando_e_pont = abjad.Markup(string, direction=Up).italic().larger()
 
 string = 'molto gridato ed estr. sul pont.'
-molto_gridato = Markup(string, direction=Up).italic().larger()
+molto_gridato = abjad.Markup(string, direction=Up).italic().larger()
 
-natural_harmonics = handlertools.OverrideSpecifier(
+natural_harmonics = baca.tools.OverrideSpecifier(
     grob_name='note_head',
     attribute_name='style',
     attribute_value="'harmonic'",
     )
 
-non_flautando = Markup('non flautando', direction=Up)
+non_flautando = abjad.Markup('non flautando', direction=Up)
 non_flautando = non_flautando.italic()
 non_flautando = non_flautando.larger()
 
-off_string = Markup('off-string bowing on staccati', direction=Up).larger()
+off_string = abjad.Markup('off-string bowing on staccati', direction=Up).larger()
 
-on_bridge = Markup(
+on_bridge = abjad.Markup(
     'directly on bridge: bow diagonally to produce white noise w/ no pitch',
     direction=Up,
     )
 on_bridge = on_bridge.larger()
 
 string = 'directly on bridge: very slow bow, imperceptible bow changes'
-on_bridge_slow = Markup(string, direction=Up).larger()
+on_bridge_slow = abjad.Markup(string, direction=Up).larger()
 
-ordinario = Markup('ordinario', direction=Up).larger()
+ordinario = abjad.Markup('ordinario', direction=Up).larger()
 
-pizz = Markup('pizz.', direction=Up)
+pizz = abjad.Markup('pizz.', direction=Up)
 pizz = pizz.larger()
 
-ppp_ancora = Markup('ppp', direction=Down).dynamic()
-ppp_ancora += Markup('ancora').italic()
+ppp_ancora = abjad.Markup('ppp', direction=Down).dynamic()
+ppp_ancora += abjad.Markup('ancora').italic()
 
-ppp_subtone = Markup('ppp').dynamic() + Markup('subtone')
+ppp_subtone = abjad.Markup('ppp').dynamic() + abjad.Markup('subtone')
 
-reiterated_fff = baca.tools.make_reiterated_dynamic(dynamic_name='fff')
+reiterated_fff = baca.dynamics.make_reiterated_dynamic(dynamic_name='fff')
 
-reiterated_ff = baca.tools.make_reiterated_dynamic(dynamic_name='ff')
+reiterated_ff = baca.dynamics.make_reiterated_dynamic(dynamic_name='ff')
 
-reiterated_f = baca.tools.make_reiterated_dynamic(dynamic_name='f')
+reiterated_f = baca.dynamics.make_reiterated_dynamic(dynamic_name='f')
 
-reiterated_mf = baca.tools.make_reiterated_dynamic(dynamic_name='mf')
+reiterated_mf = baca.dynamics.make_reiterated_dynamic(dynamic_name='mf')
 
-reiterated_mp = baca.tools.make_reiterated_dynamic(dynamic_name='mp')
+reiterated_mp = baca.dynamics.make_reiterated_dynamic(dynamic_name='mp')
 
-reiterated_p = baca.tools.make_reiterated_dynamic(dynamic_name='p')
+reiterated_p = baca.dynamics.make_reiterated_dynamic(dynamic_name='p')
 
-reiterated_pp = baca.tools.make_reiterated_dynamic(dynamic_name='pp')
+reiterated_pp = baca.dynamics.make_reiterated_dynamic(dynamic_name='pp')
 
-remove_reed = Markup('remove reed', direction=Up).larger()
+remove_reed = abjad.Markup('remove reed', direction=Up).larger()
 
-repeat_tie_down = handlertools.OverrideSpecifier(
+repeat_tie_down = baca.tools.OverrideSpecifier(
     grob_name='repeat_tie',
     attribute_name='direction',
     attribute_value='Down',
     )
 
-repeat_tie_up = handlertools.OverrideSpecifier(
+repeat_tie_up = baca.tools.OverrideSpecifier(
     grob_name='repeat_tie',
     attribute_name='direction',
     attribute_value='Up',
     )
 
-senza_pedale = Markup('senza pedale', direction=Up)
+senza_pedale = abjad.Markup('senza pedale', direction=Up)
 senza_pedale = senza_pedale.italic()
 senza_pedale = senza_pedale.larger()
 
-shakers = Markup('shakers', direction=Up).larger()
+shakers = abjad.Markup('shakers', direction=Up).larger()
 
-show_tempo = Markup('allow bowing to convey accelerando', direction=Up)
+show_tempo = abjad.Markup('allow bowing to convey accelerando', direction=Up)
 show_tempo = show_tempo.larger()
 
 string = 'Shape trill dynamics beautifully. (Thank you, Stefano.)'
-scodanibbio = Markup(string, direction=Up).larger()
+scodanibbio = abjad.Markup(string, direction=Up).larger()
 
 string = 'tamburo: strike lowest strings with palm inside piano'
 string += ' and let vibrate (pedal down throughout)'
-strike_lowest_strings = Markup(string, direction=Up).larger()
+strike_lowest_strings = abjad.Markup(string, direction=Up).larger()
 
 string = 'subito non armonichi e non gridato'
-subito_non_armonichi = Markup(string, direction=Up).italic().larger()
+subito_non_armonichi = abjad.Markup(string, direction=Up).italic().larger()
 
-string_III = Markup('III', direction=Down).larger()
-string_IV = Markup('IV', direction=Down).larger()
-strings_III_and_IV = Markup('III + IV', direction=Down).larger()
+string_III = abjad.Markup('III', direction=Down).larger()
+string_IV = abjad.Markup('IV', direction=Down).larger()
+strings_III_and_IV = abjad.Markup('III + IV', direction=Down).larger()
 
-subito_ordinario = Markup('subito ordinario', direction=Up).larger()
+subito_ordinario = abjad.Markup('subito ordinario', direction=Up).larger()
 
-bow_on_tailpiece = Markup('bow on tailpiece', direction=Up).larger()
+bow_on_tailpiece = abjad.Markup('bow on tailpiece', direction=Up).larger()
 
-bow_on_wooden_mute = Markup('bow on wooden mute', direction=Up).larger()
+bow_on_wooden_mute = abjad.Markup('bow on wooden mute', direction=Up).larger()
 
-thin_wavering_tone = Markup('thin wavering tone', direction=Up).larger()
+thin_wavering_tone = abjad.Markup('thin wavering tone', direction=Up).larger()
 
 def beam_positions(n):
-    return handlertools.OverrideSpecifier(
+    return baca.tools.OverrideSpecifier(
         grob_name='beam',
         attribute_name='positions',
         attribute_value=str((n, n)),
         )
 
 def dynamic_line_spanner_staff_padding(n):
-    return handlertools.OverrideSpecifier(
+    return baca.tools.OverrideSpecifier(
         grob_name='dynamic_line_spanner',
         attribute_name='staff_padding',
         attribute_value=str(n),
         )
 
 def markup_padding(n):
-    return handlertools.OverrideSpecifier(
+    return baca.tools.OverrideSpecifier(
         grob_name='text_script',
         attribute_name='padding',
         attribute_value=str(n),
         )
 
 def stem_direction(direction):
-    return handlertools.OverrideSpecifier(
+    return baca.tools.OverrideSpecifier(
         grob_name='stem',
         attribute_name='direction',
         attribute_value=str(direction),
         )
 
 def text_spanner_staff_padding(n):
-    return handlertools.OverrideSpecifier(
+    return baca.tools.OverrideSpecifier(
         grob_name='text_spanner',
         attribute_name='staff_padding',
         attribute_value=str(n),
         )
 
 def tie_direction(direction):
-    return handlertools.OverrideSpecifier(
+    return baca.tools.OverrideSpecifier(
         grob_name='tie',
         attribute_name='direction',
         attribute_value=str(direction),
@@ -372,11 +372,11 @@ def tie_direction(direction):
 
 def tremolo_down(n, maximum_adjustment=-1.5):
     pair = (0, -n)
-    return handlertools.OverrideSpecifier(
+    return baca.tools.OverrideSpecifier(
         grob_name='stem_tremolo',
         attribute_name='extra_offset',
         attribute_value=str(pair),
-        maximum_written_duration=Duration(1),
+        maximum_written_duration=abjad.Duration(1),
         maximum_settings={
             'grob_name': 'stem_tremolo',
             'attribute_name': 'extra_offset',
@@ -385,15 +385,15 @@ def tremolo_down(n, maximum_adjustment=-1.5):
         )
 
 def tuplet_bracket_staff_padding(n):
-    return handlertools.OverrideSpecifier(
+    return baca.tools.OverrideSpecifier(
         grob_name='tuplet_bracket',
         attribute_name='staff_padding',
         attribute_value=str(n),
         )
 
-left_text = Markup('molto flautando').italic().larger() + Markup.hspace(1)
-right_text = Markup.hspace(1) + Markup('molto gridato').italic().larger()
-molto_flaut_to_molto_grid = spannertools.TextSpanner(
+left_text = abjad.Markup('molto flautando').italic().larger() + abjad.Markup.hspace(1)
+right_text = abjad.Markup.hspace(1) + abjad.Markup('molto gridato').italic().larger()
+molto_flaut_to_molto_grid = abjad.spannertools.TextSpanner(
 	overrides = {
 		'text_spanner__bound_details__left__padding': -1,
 		'text_spanner__bound_details__left__stencil_align_dir_y': 0,
@@ -410,9 +410,9 @@ molto_flaut_to_molto_grid = spannertools.TextSpanner(
 	}
 )
 
-left_text = Markup('grid. possibile').italic().larger() + Markup.hspace(1)
-right_text = Markup.hspace(1) + Markup('flaut. possibile').italic().larger()
-grid_poss_to_flaut_poss = spannertools.TextSpanner(
+left_text = abjad.Markup('grid. possibile').italic().larger() + abjad.Markup.hspace(1)
+right_text = abjad.Markup.hspace(1) + abjad.Markup('flaut. possibile').italic().larger()
+grid_poss_to_flaut_poss = abjad.spannertools.TextSpanner(
 	overrides = {
 		'text_spanner__bound_details__left__padding': -1,
 		'text_spanner__bound_details__left__stencil_align_dir_y': 0,
@@ -429,9 +429,9 @@ grid_poss_to_flaut_poss = spannertools.TextSpanner(
 	}
 )
 
-left_text = Markup('whistle tones').upright().larger() + Markup.hspace(1)
-right_text = Markup.draw_line(0, -1)
-whistle_tone_spanner = spannertools.TextSpanner(
+left_text = abjad.Markup('whistle tones').upright().larger() + abjad.Markup.hspace(1)
+right_text = abjad.Markup.draw_line(0, -1)
+whistle_tone_spanner = abjad.spannertools.TextSpanner(
 	overrides = {
 		'text_spanner__bound_details__left__padding': -1,
 		'text_spanner__bound_details__left__stencil_align_dir_y': 0,
@@ -487,7 +487,7 @@ color_microtones = baca.tools.MicrotonalDeviationSpecifier(
     )
 
 pervasive_glissandi = baca.tools.GlissandoSpecifier(
-    patterns=abjad.rhythmmakertools.select_all(),
+    patterns=abjad.patterntools.select_all(),
     )
 
 def pervasive_trills_at_interval(interval):
@@ -498,7 +498,7 @@ def pervasive_trills_at_interval(interval):
     
 trill_quarter_notes = baca.tools.TrillSpecifier(
     forbidden_annotations=['color fingering', 'color microtone'],
-    minimum_written_duration=Duration(1, 4),
+    minimum_written_duration=abjad.Duration(1, 4),
     )
 
 pervasive_trills = baca.tools.TrillSpecifier(
@@ -507,13 +507,13 @@ pervasive_trills = baca.tools.TrillSpecifier(
 
 pervasive_A5_trills = baca.tools.TrillSpecifier(
     minimum_written_duration=None,
-    pitch=NamedPitch('A5'),
+    pitch=abjad.NamedPitch('A5'),
     )
 
 pervasive_F3_harmonic_trills = baca.tools.TrillSpecifier(
     is_harmonic=True,
     minimum_written_duration=None,
-    pitch=NamedPitch('F3'),
+    pitch=abjad.NamedPitch('F3'),
     )
 
 ### articulation handlers ###
@@ -527,71 +527,71 @@ alternate_bow_strokes = baca.tools.ArticulationSpecifier(
     )
 
 double_tonguing = baca.tools.ArticulationSpecifier(
-    articulation_list=['tongue #2'],
+    articulations=['tongue #2'],
     )
 
 marcati = baca.tools.ArticulationSpecifier(
-    articulation_list=['marcato'],
-    skip_ties=True,
+    articulations=['marcato'],
+    #skip_ties=True,
     )
 
 # TODO: tweak shape later
 pervasive_lv = baca.tools.ArticulationSpecifier(
-    articulation_list=['laissezVibrer'],
+    articulations=['laissezVibrer'],
     )
 
 staccati = baca.tools.ArticulationSpecifier(
-    articulation_list=['staccato'],
-    maximum_duration=Duration(1, 4),
-    skip_ties=True,
+    articulations=['staccato'],
+    #maximum_duration=abjad.Duration(1, 4),
+    #skip_ties=True,
     )
 
 staccatissimi = baca.tools.ArticulationSpecifier(
-    articulation_list=['staccatissimo'],
-    skip_ties=True,
+    articulations=['staccatissimo'],
+    #skip_ties=True,
     )
 
 tenuti = baca.tools.ArticulationSpecifier(
-    articulation_list=['tenuto'],
+    articulations=['tenuto'],
     )
 
 reiterated_flageolets = baca.tools.ArticulationSpecifier(
-    articulation_list=['flageolet'],
+    articulations=['flageolet'],
     )
     
 ### DYNAMICS ###
 
 patterned_f_ff = baca.tools.ArticulationSpecifier(
     articulations=['f', 'f', 'ff', 'f', 'ff', 'f', 'f', 'ff', 'ff'],
-    #minimum_duration=Duration(1, 8),
+    #minimum_duration=abjad.Duration(1, 8),
     )
 
-repeated_p_to_ppp = handlertools.HairpinSpecifier(
-    hairpin_token='p > ppp',
+repeated_p_to_ppp = baca.tools.HairpinSpecifier(
+    hairpin_tokens=['p > ppp'],
     )
 
-repeated_pp_to_ff = handlertools.HairpinSpecifier(
-    hairpin_token='pp < ff',
+repeated_pp_to_ff = baca.tools.HairpinSpecifier(
+    hairpin_tokens=['pp < ff'],
     )
 
-halo_accompaniment_hairpins = handlertools.HairpinSpecifier(
-    hairpin_token=[
+halo_accompaniment_hairpins = baca.tools.HairpinSpecifier(
+    hairpin_tokens=[
         'pp > ppp', 'ppp < pp', 'pp > ppp', 'ppp < pp',
         'pp < p', 'p > pp', 'pp < p', 'p > ppp', 'ppp < pp', 
         ],
     span='nontrivial ties',
     )
 
-halo_hairpins = handlertools.HairpinSpecifier(
-    hairpin_token=[
+halo_hairpins = baca.tools.HairpinSpecifier(
+    hairpin_tokens=[
         'pp > ppp', 'ppp < pp', 'pp > ppp', 'ppp < pp',
         'pp < p', 'p > pp', 'pp < p', 'p > ppp', 'ppp < pp', 
         ],
     span='nontrivial ties',
     )
 
-bass_flute_tremoli_hairpins = handlertools.HairpinSpecifier(
-    hairpin_token=[
+bass_flute_tremoli_hairpins = baca.tools.HairpinSpecifier(
+    hairpin_tokens=[
         'mp > pp', 'pp < mp',
         ],
     span='nontrivial ties',
@@ -599,10 +599,10 @@ bass_flute_tremoli_hairpins = handlertools.HairpinSpecifier(
 
 ### MISCELLANEOUS ###
 
-five_line_staff = spannertools.StaffLinesSpanner(lines=5)
+five_line_staff = abjad.spannertools.StaffLinesSpanner(lines=5)
 
-ottava = spannertools.OctavationSpanner(start=1, stop=0)
-ottava_bassa = spannertools.OctavationSpanner(start=-1, stop=0)
+ottava = abjad.spannertools.OctavationSpanner(start=1, stop=0)
+ottava_bassa = abjad.spannertools.OctavationSpanner(start=-1, stop=0)
 
 stem_tremolo = baca.tools.StemTremoloSpecifier(tremolo_flags=32)
 
@@ -612,11 +612,11 @@ partition_table = abjad.rhythmmakertools.PartitionTable([
     (11, [3, 4, 4]),
     ])
 
-one_line_staff = spannertools.StaffLinesSpanner(lines=1)
+one_line_staff = abjad.spannertools.StaffLinesSpanner(lines=1)
 
-put_reed_back_in = Markup('put reed back in', direction=Up).larger()
+put_reed_back_in = abjad.Markup('put reed back in', direction=Up).larger()
 
-flageolet = indicatortools.LilyPondCommand('flageolet', format_slot='right')
+flageolet = abjad.LilyPondCommand('flageolet', format_slot='right')
 
 wide_third_octave = baca.tools.RegisterSpecifier(
     registration=abjad.pitchtools.Registration(
