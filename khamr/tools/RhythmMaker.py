@@ -116,7 +116,7 @@ class RhythmMaker(abjad.abctools.AbjadObject):
         Returns music. Probably as a selection.
         '''
         for time_signature in time_signatures:
-            assert isinstance(time_signature, abjad.indicatortools.TimeSignature)
+            assert isinstance(time_signature, abjad.TimeSignature)
         music = self._make_rhythm(time_signatures)
         assert isinstance(music, (tuple, list, abjad.Voice)), repr(music)
         first_item = music[0]
@@ -138,7 +138,7 @@ class RhythmMaker(abjad.abctools.AbjadObject):
             attach(self.clef, first_leaf, scope=Staff)
         if self.staff_line_count is not None:
             self._set_staff_line_count(first_leaf, self.staff_line_count)
-        elif self.clef == Clef('percussion'):
+        elif self.clef == abjad.Clef('percussion'):
             self._set_staff_line_count(first_leaf, 1)
         return music
 
@@ -207,7 +207,7 @@ class RhythmMaker(abjad.abctools.AbjadObject):
     def _make_rhythm(self, time_signatures):
         division_maker = self._get_division_maker()
         divisions = division_maker(time_signatures)
-        divisions = sequencetools.flatten_sequence(divisions)
+        divisions = abjad.sequencetools.flatten_sequence(divisions)
         rhythm_maker = self._get_rhythm_maker()
         selections = rhythm_maker(divisions)
         if self.split_at_measure_boundaries:
@@ -268,13 +268,13 @@ class RhythmMaker(abjad.abctools.AbjadObject):
         return dummy_music_voice
 
     def _set_staff_line_count(self, first_leaf, staff_line_count):
-        command = abjad.indicatortools.LilyPondCommand('stopStaff')
+        command = abjad.LilyPondCommand('stopStaff')
         attach(command, first_leaf)
         string = "override Staff.StaffSymbol #'line-count = #{}"
         string = string.format(staff_line_count)
-        command = abjad.indicatortools.LilyPondCommand(string)
+        command = abjad.LilyPondCommand(string)
         attach(command, first_leaf)
-        command = abjad.indicatortools.LilyPondCommand('startStaff')
+        command = abjad.LilyPondCommand('startStaff')
         attach(command, first_leaf)
 
     ### PUBLIC PROPERTIES ###
@@ -291,10 +291,10 @@ class RhythmMaker(abjad.abctools.AbjadObject):
     def clef(self, expr):
         if expr is None:
             self._clef = expr
-        elif isinstance(expr, Clef):
+        elif isinstance(expr, abjad.Clef):
             self._clef = expr
         elif isinstance(expr, str):
-            clef = Clef(expr)
+            clef = abjad.Clef(expr)
             self._clef = clef
         else:
             message = 'must be clef, string or none: {!r}.'
