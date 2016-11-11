@@ -359,7 +359,7 @@ segment_maker.define_rhythm(
     voice_name=perc,
     division_maker=baca.tools.DivisionMaker()
         .split_by_durations(
-            compound_meter_multiplier=Multiplier(3, 2),
+            compound_meter_multiplier=abjad.Multiplier(3, 2),
             durations=[(1, 4)],
             )
         .flatten()
