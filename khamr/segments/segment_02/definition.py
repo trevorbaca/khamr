@@ -38,15 +38,15 @@ segment_maker.validate_measures_per_stage()
 ### SHARED ###
 
 stage_4_silence_mask = abjad.rhythmmakertools.SilenceMask(
-    pattern=[
+    pattern=abjad.patterntools.select([
         4, 5,
         11, 12,
         17, 18, 19, 20,
-        ],
+        ]),
     )
 
 stage_5_silence_mask = abjad.rhythmmakertools.SilenceMask(
-    pattern=[
+    pattern=abjad.patterntools.select([
         0, 
         2, 
         4, 5, 
@@ -57,7 +57,7 @@ stage_5_silence_mask = abjad.rhythmmakertools.SilenceMask(
         19, 20, 21,
         23, 24,
         26,
-        ],
+        ]),
     )
 
 guitar_accelerando = abjad.rhythmmakertools.InterpolationSpecifier(
@@ -583,8 +583,8 @@ segment_maker.make_scoped_specifiers(
     specifiers=[
         pitch_specifier(
             source=[abjad.pitchtools.PitchSegment(
-                items=[NamedPitch('A4'), NamedPitch('E5')], 
-                item_class=NamedPitch,
+                items=[abjad.NamedPitch('A4'), abjad.NamedPitch('E5')], 
+                item_class=abjad.NamedPitch,
                 )],
             ),
         reiterated_flageolets,
@@ -629,8 +629,8 @@ segment_maker.make_scoped_specifiers(
     specifiers=[
         pitch_specifier(
             source=[abjad.pitchtools.PitchSegment(
-                items=[NamedPitch('F3'), NamedPitch('G+3')], 
-                item_class=NamedPitch,
+                items=[abjad.NamedPitch('F3'), abjad.NamedPitch('G+3')], 
+                item_class=abjad.NamedPitch,
                 )],
             ),
         ]
@@ -697,16 +697,16 @@ segment_maker.make_scoped_specifiers(
         pitch_specifier(
             source=[abjad.pitchtools.PitchSegment(
                 items=[
-                    NamedPitch('A0'), 
-                    NamedPitch('B0'),
-                    NamedPitch('C1'),
-                    NamedPitch('D1'),
-                    NamedPitch('E1'),
-                    NamedPitch('F1'),
-                    NamedPitch('G1'),
-                    NamedPitch('A1'),
+                    abjad.NamedPitch('A0'), 
+                    abjad.NamedPitch('B0'),
+                    abjad.NamedPitch('C1'),
+                    abjad.NamedPitch('D1'),
+                    abjad.NamedPitch('E1'),
+                    abjad.NamedPitch('F1'),
+                    abjad.NamedPitch('G1'),
+                    abjad.NamedPitch('A1'),
                     ], 
-                item_class=NamedPitch,
+                item_class=abjad.NamedPitch,
                 )],
             ),
         ottava_bassa,
@@ -924,8 +924,8 @@ segment_maker.make_scoped_specifiers(
         reiterated_fff,
         pitch_specifier(
             source=[abjad.pitchtools.PitchSegment(
-                items=[NamedPitch('G0'), NamedPitch('A1')], 
-                item_class=NamedPitch,
+                items=[abjad.NamedPitch('G0'), abjad.NamedPitch('A1')], 
+                item_class=abjad.NamedPitch,
                 )],
             ),
         arco_ordinario,

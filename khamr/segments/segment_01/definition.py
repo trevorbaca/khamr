@@ -495,8 +495,8 @@ segment_maker.make_scoped_specifiers(
         abjad.Dynamic('mp'),
         pitch_specifier(
             source=[abjad.pitchtools.PitchSegment(
-                items=[NamedPitch('G3'), NamedPitch('G4')], 
-                item_class=NamedPitch,
+                items=[abjad.NamedPitch('G3'), abjad.NamedPitch('G4')], 
+                item_class=abjad.NamedPitch,
                 )],
             ),
         levine_multiphonic(17),
@@ -508,8 +508,8 @@ segment_maker.make_scoped_specifiers(
     specifiers=[
         pitch_specifier(
             source=[abjad.pitchtools.PitchSegment(
-                items=[NamedPitch('G#3'), NamedPitch('G#4')], 
-                item_class=NamedPitch,
+                items=[abjad.NamedPitch('G#3'), abjad.NamedPitch('G#4')], 
+                item_class=abjad.NamedPitch,
                 )],
             ),
         levine_multiphonic(22),
@@ -549,8 +549,8 @@ segment_maker.make_scoped_specifiers(
         abjad.Dynamic('pp'),
         pitch_specifier(
             source=[abjad.pitchtools.PitchSegment(
-                items=[NamedPitch('A4'), NamedPitch('E5')], 
-                item_class=NamedPitch,
+                items=[abjad.NamedPitch('A4'), abjad.NamedPitch('E5')], 
+                item_class=abjad.NamedPitch,
                 )],
             ),
         reiterated_flageolets,
@@ -587,8 +587,8 @@ segment_maker.make_scoped_specifiers(
         abjad.Dynamic('p'),
         pitch_specifier(
             source=[abjad.pitchtools.PitchSegment(
-                items=[NamedPitch('F3'), NamedPitch('G+3')], 
-                item_class=NamedPitch,
+                items=[abjad.NamedPitch('F3'), abjad.NamedPitch('G+3')], 
+                item_class=abjad.NamedPitch,
                 )],
             ),
         weiss_multiphonic(77),
