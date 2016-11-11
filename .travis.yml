@@ -22,8 +22,9 @@ install:
 script:
     - ajv doctest -x ./khamr
     - py.test -xrf ./khamr
-    - python ./khamr/test/test_segments.py
-    - python ./khamr/test/illustrate_segments.py
+    # TODO: port segments to baca.tools.SegmentMaker and then uncomment:
+    #- python ./khamr/test/test_segments.py
+    #- python ./khamr/test/illustrate_segments.py
 
 notifications:
     email: false
