@@ -22,7 +22,7 @@ segment_maker = khamr.tools.SegmentMaker(
     tempo_specifier = [
         #(1, khamr.materials.tempi[126]),
         (3, khamr.materials.tempi[63]),
-        (3, Accelerando()),
+        (3, abjad.Accelerando()),
         (5, khamr.materials.tempi[126]),
         (6, khamr.materials.tempi[63]),
         (7, khamr.materials.tempi[42]),
@@ -54,7 +54,7 @@ segment_maker.define_rhythm(
     instrument=khamr.materials.instruments['flute'],
     division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
-            counts=mathtools.Infinity,
+            counts=abjad.mathtools.Infinity,
             )
         .split_by_durations(
             durations=[(7, 16)],
@@ -104,7 +104,7 @@ segment_maker.define_rhythm(
     instrument=khamr.materials.instruments['oboe'],
     division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
-            counts=mathtools.Infinity,
+            counts=abjad.mathtools.Infinity,
             )
         .split_by_durations(
             durations=[(5, 16)],
@@ -157,7 +157,7 @@ segment_maker.define_rhythm(
     instrument=khamr.materials.instruments['clarinet in B-flat'],
     division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
-            counts=mathtools.Infinity,
+            counts=abjad.mathtools.Infinity,
             )
         .split_by_durations(
             durations=[(8, 16)],
@@ -199,7 +199,7 @@ segment_maker.define_rhythm(
     instrument=khamr.materials.instruments['sopranino saxophone'],
     division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
-            counts=mathtools.Infinity,
+            counts=abjad.mathtools.Infinity,
             )
         .split_by_durations(
             durations=[(6, 16)],
@@ -278,7 +278,7 @@ segment_maker.define_rhythm(
     voice_name=pf,
     division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
-            counts=mathtools.Infinity,
+            counts=abjad.mathtools.Infinity,
             )
         .split_by_durations(
             durations=[(9, 16)],
@@ -311,7 +311,7 @@ segment_maker.define_rhythm(
     voice_name=perc,
     division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
-            counts=mathtools.Infinity,
+            counts=abjad.mathtools.Infinity,
             )
         .split_by_durations(
             durations=[(3, 8)],

@@ -38,7 +38,7 @@ segment_maker.validate_measures_per_stage()
 ### SHARED ###
 
 stage_4_silence_mask = abjad.rhythmmakertools.SilenceMask(
-    indices=[
+    pattern=[
         4, 5,
         11, 12,
         17, 18, 19, 20,
@@ -46,7 +46,7 @@ stage_4_silence_mask = abjad.rhythmmakertools.SilenceMask(
     )
 
 stage_5_silence_mask = abjad.rhythmmakertools.SilenceMask(
-    indices=[
+    pattern=[
         0, 
         2, 
         4, 5, 
@@ -368,7 +368,7 @@ segment_maker.define_rhythm(
     rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
         division_masks=[
             abjad.rhythmmakertools.SilenceMask(
-                indices=[
+                pattern=[
                     0, 1, 2, 3,
                     5,
                     6, 7, 8, 9, 10,

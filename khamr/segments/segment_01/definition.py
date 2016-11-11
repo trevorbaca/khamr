@@ -38,9 +38,9 @@ segment_maker.validate_measures_per_stage()
 ### SHARED ###
 
 guitar_accelerando = abjad.rhythmmakertools.InterpolationSpecifier(
-    start_duration=Duration(1, 4),
-    stop_duration=Duration(1, 8),
-    written_duration=Duration(1, 16),
+    start_duration=abjad.Duration(1, 4),
+    stop_duration=abjad.Duration(1, 8),
+    written_duration=abjad.Duration(1, 16),
     )
 
 guitar_ritardando = guitar_accelerando.reverse()
@@ -199,14 +199,14 @@ segment_maker.define_rhythm(
             ),
         interpolation_specifiers=[
             abjad.rhythmmakertools.InterpolationSpecifier(
-                start_duration=Duration(1, 2),
-                stop_duration=Duration(1, 8),
-                written_duration=Duration(1, 16),
+                start_duration=abjad.Duration(1, 2),
+                stop_duration=abjad.Duration(1, 8),
+                written_duration=abjad.Duration(1, 16),
                 ),
             abjad.rhythmmakertools.InterpolationSpecifier(
-                start_duration=Duration(1, 8),
-                stop_duration=Duration(1, 2),
-                written_duration=Duration(1, 16),
+                start_duration=abjad.Duration(1, 8),
+                stop_duration=abjad.Duration(1, 2),
+                written_duration=abjad.Duration(1, 16),
                 ),
             ],
         tie_specifier=abjad.rhythmmakertools.TieSpecifier(
@@ -262,14 +262,14 @@ segment_maker.define_rhythm(
             ),
         interpolation_specifiers=[
             abjad.rhythmmakertools.InterpolationSpecifier(
-                start_duration=Duration(1, 2),
-                stop_duration=Duration(1, 8),
-                written_duration=Duration(1, 16),
+                start_duration=abjad.Duration(1, 2),
+                stop_duration=abjad.Duration(1, 8),
+                written_duration=abjad.Duration(1, 16),
                 ),
             abjad.rhythmmakertools.InterpolationSpecifier(
-                start_duration=Duration(1, 8),
-                stop_duration=Duration(1, 2),
-                written_duration=Duration(1, 16),
+                start_duration=abjad.Duration(1, 8),
+                stop_duration=abjad.Duration(1, 2),
+                written_duration=abjad.Duration(1, 16),
                 ),
             ],
         tie_specifier=abjad.rhythmmakertools.TieSpecifier(
