@@ -76,7 +76,7 @@ segment_maker.define_rhythm(
     instrument=khamr.materials.instruments['English horn'],
     division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
-            counts=mathtools.Infinity,
+            counts=abjad.mathtools.Infinity,
             )
         .split_by_durations(
             durations=[(6, 4), (9, 4), (4, 4)],
@@ -121,7 +121,7 @@ segment_maker.define_rhythm(
     instrument=khamr.materials.instruments['bass clarinet'],
     division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
-            counts=mathtools.Infinity,
+            counts=abjad.mathtools.Infinity,
             )
         .split_by_durations(
             durations=[(6, 4), (8, 4), (4, 4)],
@@ -165,7 +165,7 @@ segment_maker.define_rhythm(
     voice_name=sax,
     division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
-            counts=mathtools.Infinity,
+            counts=abjad.mathtools.Infinity,
             )
         .split_by_durations(
             durations=[(6, 4), (4, 4), (9, 4)],
