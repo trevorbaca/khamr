@@ -55,7 +55,7 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         self._initialize_music_makers(music_makers, khamr.tools)
         self.final_bar_line = final_bar_line
         if final_markup is not None:
-            assert isinstance(final_markup, markuptools.Markup)
+            assert isinstance(final_markup, abjad.Markup)
         self._final_markup = final_markup
         if final_markup_extra_offset is not None:
             assert isinstance(final_markup_extra_offset, tuple)
@@ -146,11 +146,11 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
             start_measure_index, stop_measure_index = result
             rehearsal_letter = self._get_rehearsal_letter()
             string = '[{}{}]'.format(rehearsal_letter, stage_number)
-            markup = Markup(string)
+            markup = abjad.Markup(string)
             markup = markup.with_color('blue')
             markup = markup.smaller()
             start_measure = context[start_measure_index]
-            attach(markup, start_measure)
+            abjad.attach(markup, start_measure)
 
     def _apply_previous_segment_end_settings(self, materials_package):
         if self._is_first_segment():
@@ -169,15 +169,15 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
             message = 'can not find previous instruments before segment {}.'
             message = message.format(self._get_segment_identifier())
             raise Exception(message)
-        for staff in iterate(self._score).by_class(Staff):
+        for staff in abjad.iterate(self._score).by_class(abjad.Staff):
             previous_instrument_name = previous_instruments.get(
                 staff.name)
             if not previous_instrument_name:
                 message = 'can not find previous segment instrument.'
                 raise Exception(message)
-            first_leaf = inspect_(staff).get_leaf(0)
-            prototype = instrumenttools.Instrument
-            instrument = inspect_(first_leaf).get_effective(prototype)
+            first_leaf = abjad.inspect_(staff).get_leaf(0)
+            prototype = abjad.instrumenttools.Instrument
+            instrument = abjad.inspect_(first_leaf).get_effective(prototype)
             if instrument is not None:
                 continue
             previous_instrument = self._get_instrument_by_name(
@@ -186,8 +186,8 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
                 )
             if previous_instrument is None:
                 continue
-            copied_previous_instrument = new(previous_instrument)
-            prototype = instrumenttools.Piano
+            copied_previous_instrument = abjad.new(previous_instrument)
+            prototype = abjad.instrumenttools.Piano
             if isinstance(copied_previous_instrument, prototype):
                 copied_previous_instrument._default_scope = \
                     'PianoMusicStaff'
@@ -202,26 +202,26 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
             message = 'can not find previous clefs before segment {}.'
             message = message.format(self._get_segment_identifier())
             raise Exception(message)
-        for staff in iterate(self._score).by_class(Staff):
+        for staff in abjad.iterate(self._score).by_class(abjad.Staff):
             previous_clef_name = previous_clefs.get(staff.name)
             if not previous_clef_name:
                 message = 'can not find previous segment clef.'
                 raise Exception(message)
-            first_leaf = inspect_(staff).get_leaf(0)
-            prototype = Clef
-            clef = inspect_(first_leaf).get_effective(Clef)
+            first_leaf = abjad.inspect_(staff).get_leaf(0)
+            prototype = abjad.Clef
+            clef = abjad.inspect_(first_leaf).get_effective(abjad.Clef)
             if clef is not None:
                 continue
-            clef = Clef(previous_clef_name)
-            attach(clef, staff)
+            clef = abjad.Clef(previous_clef_name)
+            abjad.attach(clef, staff)
 
     def _attach_fermatas(self):
         if not self.tempo_specifier:
             return
         context = self._score['Time Signature Context']
         prototype = (
-            indicatortools.Fermata,
-            indicatortools.BreathMark,
+            abjad.Fermata,
+            abjad.indicatortools.BreathMark,
             )
         for stage_number, directive in self.tempo_specifier:
             if not isinstance(directive, prototype):
@@ -232,9 +232,9 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
             start_measure = context[start_measure_index]
             assert isinstance(start_measure, Measure), start_measure
             start_skip = start_measure[0]
-            assert isinstance(start_skip, scoretools.Skip), start_skip
-            directive = new(directive)
-            attach(directive, start_skip)
+            assert isinstance(start_skip, abjad.Skip), start_skip
+            directive = abjad.new(directive)
+            abjad.attach(directive, start_skip)
 
     def _attach_first_segment_default_clefs(self):
         if not self._is_first_segment():
@@ -242,17 +242,17 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         cached_clefs = self._cached_score_template_start_clefs
         previous_clefs = self._previous_segment_metadata.get(
             'end_clefs_by_staff', datastructuretools.TypedOrderedDict())
-        for staff in iterate(self._score).by_class(Staff):
-            if inspect_(staff).has_indicator(Clef):
+        for staff in abjad.iterate(self._score).by_class(abjad.Staff):
+            if abjad.inspect_(staff).has_indicator(abjad.Clef):
                 continue
-            first_leaf = inspect_(staff).get_leaf(0)
+            first_leaf = abjad.inspect_(staff).get_leaf(0)
             if (first_leaf is None or
-                not inspect_(first_leaf).has_indicator(Clef)):
+                not abjad.inspect_(first_leaf).has_indicator(abjad.Clef)):
                 clef_name = previous_clefs.get(staff.name)
                 if clef_name is None:
                     clef_name = cached_clefs.get(staff.name)
-                clef = Clef(clef_name)
-                attach(clef, staff)
+                clef = abjad.Clef(clef_name)
+                abjad.attach(clef, staff)
 
     def _attach_first_segment_default_instruments(self, materials_package):
         if not self._is_first_segment():
@@ -260,22 +260,22 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         cached_instruments = self._cached_score_template_start_instruments
         previous_instruments = self._previous_segment_metadata.get(
             'end_instruments_by_staff', datastructuretools.TypedOrderedDict())
-        prototype = instrumenttools.Instrument
-        for staff in iterate(self._score).by_class(Staff):
-            if inspect_(staff).has_indicator(prototype):
+        prototype = abjad.instrumenttools.Instrument
+        for staff in abjad.iterate(self._score).by_class(abjad.Staff):
+            if abjad.inspect_(staff).has_indicator(prototype):
                 continue
-            first_leaf = inspect_(staff).get_leaf(0)
+            first_leaf = abjad.inspect_(staff).get_leaf(0)
             if (first_leaf is not None and 
-                inspect_(first_leaf).has_indicator(prototype)):
+                abjad.inspect_(first_leaf).has_indicator(prototype)):
                 continue
             if (first_leaf is None or
-                not inspect_(first_leaf).has_indicator(prototype)):
+                not abjad.inspect_(first_leaf).has_indicator(prototype)):
                 instrument_name = previous_instruments.get(staff.name)
                 if instrument_name is None:
                     instrument_name = cached_instruments.get(staff.name)
                 instrument = materials_package.instruments[instrument_name]
                 instrument = copy.deepcopy(instrument)
-                attach(instrument, staff)
+                abjad.attach(instrument, staff)
 
     def _attach_instrument(
         self, 
@@ -285,29 +285,30 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         scope=None,
         ):
         self._check_instrument(instrument, component, materials_package)
-        attach(instrument, component, scope=scope)
+        abjad.attach(instrument, component, scope=scope)
 
     def _attach_rehearsal_mark(self):
         segment_number = self._segment_metadata['segment_number']
         letter_number = segment_number - 1
         if letter_number == 0:
             return
-        rehearsal_mark = indicatortools.RehearsalMark(number=letter_number)
+        rehearsal_mark = abjad.indicatortools.RehearsalMark(
+            number=letter_number)
         voice = self._score['Time Signature Context']
-        first_leaf = inspect_(voice).get_leaf(0)
-        attach(rehearsal_mark, first_leaf)
+        first_leaf = abjad.inspect_(voice).get_leaf(0)
+        abjad.attach(rehearsal_mark, first_leaf)
 
     def _attach_tempo_indicators(self):
         if not self.tempo_specifier:
             return
         context = self._score['Time Signature Context']
         # TODO: adjust TempoSpanner to make this possible:
-        #attach(spannertools.TempoSpanner(), context)
-        skips = list(iterate(context).by_class(scoretools.Leaf))
-        tempo_spanner = spannertools.TempoSpanner(
+        #abjad.attach(abjad.spannertools.TempoSpanner(), context)
+        skips = list(abjad.iterate(context).by_leaf())
+        tempo_spanner = abjad.spannertools.TempoSpanner(
             start_with_parenthesized_tempo=False,
             )
-        attach(tempo_spanner, skips)
+        abjad.attach(tempo_spanner, skips)
         for stage_number, directive in self.tempo_specifier:
             if not 0 < stage_number <= self.stage_count:
                 message = 'stage number {} must be between {} and {}.'
@@ -318,12 +319,12 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
             start_measure = context[start_measure_index]
             assert isinstance(start_measure, Measure), start_measure
             start_skip = start_measure[0]
-            assert isinstance(start_skip, scoretools.Skip), start_skip
+            assert isinstance(start_skip, abjad.Skip), start_skip
             # TODO: adjust TempoSpanner to make measure attachment work
-            attach(directive, start_skip, is_annotation=True)
+            abjad.attach(directive, start_skip, is_annotation=True)
 
     def _check_instrument(self, instrument, component, materials_package):
-        effective_staff = inspect_(component).get_effective_staff()
+        effective_staff = abjad.inspect_(component).get_effective_staff()
         effective_staff_name = effective_staff.voice_name
         message = 'can not attach {!r} to {}.'
         message = message.format(instrument, effective_staff_name)
@@ -335,8 +336,8 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
     def _check_well_formedness(self):
         score_block = self.lilypond_file['score']
         score = score_block['Score']
-        if not inspect_(score).is_well_formed():
-            string = inspect_(score).tabulate_well_formedness_violations()
+        if not abjad.inspect_(score).is_well_formed():
+            string = abjad.inspect_(score).tabulate_well_formedness_violations()
             raise Exception(string)
 
     def _compound_scope_to_logical_ties(
@@ -356,12 +357,12 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         compound_scope._voice_names = tuple(voice_names)
         logical_ties = []
         if include_rests:
-            prototype = (scoretools.Note, scoretools.Chord, scoretools.Rest)
+            prototype = (abjad.Note, abjad.Chord, abjad.Rest)
         else:
-            prototype = (scoretools.Note, scoretools.Chord)
-        for note in iterate(self._score).by_timeline(prototype):
+            prototype = (abjad.Note, abjad.Chord)
+        for note in abjad.iterate(self._score).by_timeline(prototype):
             if note in compound_scope:
-                logical_tie = inspect_(note).get_logical_tie()
+                logical_tie = abjad.inspect_(note).get_logical_tie()
                 if logical_tie.head is note:
                     logical_ties.append(logical_tie)
         start_offset = min(_.start_offset for _ in timespans)
@@ -392,12 +393,12 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
 
     def _get_end_clefs(self):
         result = datastructuretools.TypedOrderedDict()
-        staves = iterate(self._score).by_class(Staff)
+        staves = abjad.iterate(self._score).by_class(abjad.Staff)
         staves = [_ for _ in staves if _.is_semantic]
         staves.sort(key=lambda x: x.name)
         for staff in staves:
-            last_leaf = inspect_(staff).get_leaf(-1)
-            clef = inspect_(last_leaf).get_effective(Clef)
+            last_leaf = abjad.inspect_(staff).get_leaf(-1)
+            clef = abjad.inspect_(last_leaf).get_effective(abjad.Clef)
             if clef:
                 result[staff.name] = clef.name
             else:
@@ -406,13 +407,13 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
 
     def _get_end_instruments(self):
         result = datastructuretools.TypedOrderedDict()
-        staves = iterate(self._score).by_class(Staff)
+        staves = abjad.iterate(self._score).by_class(abjad.Staff)
         staves = list(staves)
         staves.sort(key=lambda x: x.name)
-        prototype = (instrumenttools.Instrument,)
+        prototype = (abjad.instrumenttools.Instrument,)
         for staff in staves:
-            last_leaf = inspect_(staff).get_leaf(-1)
-            instrument = inspect_(last_leaf).get_effective(prototype)
+            last_leaf = abjad.inspect_(staff).get_leaf(-1)
+            instrument = abjad.inspect_(last_leaf).get_effective(prototype)
             if instrument:
                 result[staff.name] = instrument.instrument_name
             else:
@@ -435,8 +436,8 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
 
     def _get_end_tempo_indication(self, materials_package):
         context = self._score['Time Signature Context']
-        last_leaf = inspect_(context).get_leaf(-1)
-        effective_tempo = inspect_(last_leaf).get_effective(Tempo)
+        last_leaf = abjad.inspect_(context).get_leaf(-1)
+        effective_tempo = abjad.inspect_(last_leaf).get_effective(abjad.Tempo)
         if not effective_tempo:
             return
         tempi = materials_package.tempi
@@ -452,7 +453,8 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
     def _get_end_time_signature(self):
         context = self._score['Time Signature Context']
         last_measure = context[-1]
-        time_signature = inspect_(last_measure).get_effective(TimeSignature)
+        time_signature = abjad.inspect_(last_measure).get_effective(
+            abjad.TimeSignature)
         if not time_signature:
             return
         string = str(time_signature)
@@ -480,12 +482,12 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         start_measure_index, stop_measure_index = result
         start_measure = context[start_measure_index]
         assert isinstance(start_measure, Measure), start_measure
-        start_offset = inspect_(start_measure).get_timespan().start_offset
+        start_offset = abjad.inspect_(start_measure).get_timespan().start_offset
         result = self._stage_number_to_measure_indices(stop_stage)
         start_measure_index, stop_measure_index = result
         stop_measure = context[stop_measure_index]
         assert isinstance(stop_measure, Measure), stop_measure
-        stop_offset = inspect_(stop_measure).get_timespan().stop_offset
+        stop_offset = abjad.inspect_(stop_measure).get_timespan().stop_offset
         return start_offset, stop_offset
 
     def _get_previous_instrument(self, staff_name):
@@ -517,7 +519,7 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
     def _get_time_signatures(self, start_stage=None, stop_stage=None):
         counts = len(self.time_signatures), sum(self.measures_per_stage)
         assert counts[0] == counts[1], counts
-        stages = sequencetools.partition_sequence_by_counts(
+        stages = abjad.sequencetools.partition_sequence_by_counts(
             self.time_signatures,
             self.measures_per_stage,
             )
@@ -527,7 +529,7 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         else:
             stop_index = stop_stage
             stages = stages[start_index:stop_index]
-            time_signatures = sequencetools.flatten_sequence(stages)
+            time_signatures = abjad.sequencetools.flatten_sequence(stages)
         return time_signatures
 
     def _instrument_to_instrument_name(self, instrument, materials_package):
@@ -554,7 +556,7 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         current_leaf = first_note
         while current_leaf is not last_note:
             leaves.append(current_leaf)
-            current_leaf = inspect_(current_leaf).get_leaf(1)
+            current_leaf = abjad.inspect_(current_leaf).get_leaf(1)
         leaves.append(last_note)
         return leaves
 
@@ -579,13 +581,13 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         else:
             specifiers = (music_handler.specifiers,)
         note_indicators = (
-            indicatortools.Dynamic,
-            markuptools.Markup,
-            indicatortools.LilyPondCommand,
+            abjad.Dynamic,
+            abjad.Markup,
+            abjad.LilyPondCommand,
             )
         leaf_indicators = (
-            indicatortools.Clef,
-            instrumenttools.Instrument,
+            abjad.Clef,
+            abjad.instrumenttools.Instrument,
             )
         mutators = []
         nonmutators = []
@@ -604,21 +606,21 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
                     message += ' {!r} belonging to music handler {!r}.'
                     message = message.format(specifier, music_handler)
                     raise Exception(message)
-                attach(specifier, logical_ties[0].head)
+                abjad.attach(specifier, logical_ties[0].head)
             elif isinstance(specifier, leaf_indicators):
                 if not logical_ties:
                     message = 'no logical ties to which to attach specifier'
                     message += ' {!r} belonging to music handler {!r}.'
                     message = message.format(specifier, music_handler)
                     raise Exception(message)
-                attach(specifier, logical_ties_with_rests[0].head)
-            elif isinstance(specifier, spannertools.Spanner):
+                abjad.attach(specifier, logical_ties_with_rests[0].head)
+            elif isinstance(specifier, abjad.spannertools.Spanner):
                 spanner = specifier
                 assert not len(spanner)
                 spanner = copy.deepcopy(spanner)
                 leaves = self._logical_ties_to_leaves(logical_ties)
-                attach(spanner, leaves)
-            elif isinstance(specifier, handlertools.OverrideSpecifier):
+                abjad.attach(spanner, leaves)
+            elif isinstance(specifier, baca.tools.OverrideSpecifier):
                 specifier(logical_ties_with_rests)
             else:
                 specifier(logical_ties, timespan)
@@ -649,7 +651,7 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         self._make_music_for_time_signature_context()
         self._attach_tempo_indicators()
         self._attach_fermatas()
-        for voice in iterate(self._score).by_class(scoretools.Voice):
+        for voice in abjad.iterate(self._score).by_class(abjad.Voice):
             self._make_music_for_voice(voice)
 
     def _initialize_music_makers(self, music_makers, makers_package):
@@ -664,24 +666,24 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         time_signatures_ = list(time_signatures)
         time_signatures_ = []
         for time_signature in time_signatures:
-            time_signature = indicatortools.TimeSignature(time_signature)
+            time_signature = abjad.TimeSignature(time_signature)
             time_signatures_.append(time_signature)
         time_signatures_ = tuple(time_signatures_)
         self.time_signatures = time_signatures_
 
     def _label_instrument_changes(self):
-        prototype = instrumenttools.Instrument
-        for staff in iterate(self._score).by_class(Staff):
-            leaves = iterate(staff).by_class(scoretools.Leaf)
+        prototype = abjad.instrumenttools.Instrument
+        for staff in abjad.iterate(self._score).by_class(abjad.Staff):
+            leaves = abjad.iterate(staff).by_leaf()
             for leaf_index, leaf in enumerate(leaves):
-                instruments = inspect_(leaf).get_indicators(prototype)
+                instruments = abjad.inspect_(leaf).get_indicators(prototype)
                 if not instruments:
                     continue
                 assert len(instruments) == 1
                 current_instrument = instruments[0]
-                previous_leaf = inspect_(leaf).get_leaf(-1)
+                previous_leaf = abjad.inspect_(leaf).get_leaf(-1)
                 if previous_leaf is not None:
-                    result = inspect_(previous_leaf).get_effective(prototype)
+                    result = abjad.inspect_(previous_leaf).get_effective(prototype)
                     previous_instrument = result
                 elif (leaf_index == 0 and 
                     1 < self._segment_metadata.get('segment_number')):
@@ -692,21 +694,21 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
                 if previous_instrument != current_instrument:
                     markup = self._make_instrument_change_markup(
                         current_instrument)
-                    attach(markup, leaf)
+                    abjad.attach(markup, leaf)
 
     def _make_instrument_change_markup(self, instrument):
         string = 'to {}'.format(instrument.instrument_name)
-        markup = markuptools.Markup(string, direction=Up)
+        markup = abjad.Markup(string, direction=Up)
         markup = markup.box().override(('box-padding', 0.75))
         return markup
 
     def _make_rests(self, time_signatures=None):
         time_signatures = time_signatures or self.time_signatures
-        specifier = rhythmmakertools.DurationSpellingSpecifier(
+        specifier = abjad.rhythmmakertools.DurationSpellingSpecifier(
             spell_metrically='unassignable',
             )
-        mask = rhythmmakertools.silence_all(use_multimeasure_rests=True)
-        maker = rhythmmakertools.NoteRhythmMaker(
+        mask = abjad.rhythmmakertools.silence_all(use_multimeasure_rests=True)
+        maker = abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[mask],
             )
         selections = maker(time_signatures)
@@ -714,7 +716,7 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
 
     def _make_skip_filled_measures(self, time_signatures=None):
         time_signatures = time_signatures or self.time_signatures
-        measures = scoretools.make_spacer_skip_measures(time_signatures)
+        measures = abjad.scoretools.make_spacer_skip_measures(time_signatures)
         return measures
 
     def _make_lilypond_file(self):
@@ -730,13 +732,13 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         music_makers = self._get_music_makers_for_context(voice_name)
         for music_maker in music_makers:
             if music_maker.start_tempo is not None:
-                start_tempo = new(music_maker.start_tempo)
-                first_leaf = inspect_(context).get_leaf(0)
-                attach(start_tempo, first_leaf, scope=Score)
+                start_tempo = abjad.new(music_maker.start_tempo)
+                first_leaf = abjad.inspect_(context).get_leaf(0)
+                abjad.attach(start_tempo, first_leaf, scope=Score)
             if music_maker.stop_tempo is not None:
-                stop_tempo = new(music_maker.stop_tempo)
-                last_leaf = inspect_(context).get_leaf(-1)
-                attach(stop_tempo, last_leaf, scope=Score)
+                stop_tempo = abjad.new(music_maker.stop_tempo)
+                last_leaf = abjad.inspect_(context).get_leaf(-1)
+                abjad.attach(stop_tempo, last_leaf, scope=Score)
 
     def _make_music_for_voice(self, voice):
         assert not len(voice), repr(voice)
@@ -747,7 +749,7 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
             measures = self._make_rests()
             voice.extend(measures) 
             return
-        effective_staff = inspect_(voice).get_effective_staff()
+        effective_staff = abjad.inspect_(voice).get_effective_staff()
         effective_staff_name = effective_staff.voice_name
         next_stage = 1
         for music_maker in music_makers:
@@ -781,47 +783,47 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         if first_bar_number is not None:
             set_(score).current_bar_number = first_bar_number
         else:
-            override(score).bar_number.transparent = True
+            abjad.override(score).bar_number.transparent = True
         self._score = score
 
     def _move_instruments_from_notes_back_to_rests(self, materials_package):
-        prototype = instrumenttools.Instrument
-        rest_prototype = (scoretools.Rest, scoretools.MultimeasureRest)
-        for leaf in iterate(self._score).by_class(scoretools.Leaf):
-            instruments = inspect_(leaf).get_indicators(prototype)
+        prototype = abjad.instrumenttools.Instrument
+        rest_prototype = (abjad.Rest, abjad.scoretools.MultimeasureRest)
+        for leaf in abjad.iterate(self._score).by_leaf():
+            instruments = abjad.inspect_(leaf).get_indicators(prototype)
             if not instruments:
                 continue
             assert len(instruments) == 1
             instrument = instruments[0]
             current_leaf = leaf
-            previous_leaf = inspect_(current_leaf).get_leaf(-1)
+            previous_leaf = abjad.inspect_(current_leaf).get_leaf(-1)
             if not isinstance(previous_leaf, rest_prototype):
                 continue
-            #detach(instrument, leaf)
+            #abjad.detach(instrument, leaf)
             while True:
                 current_leaf = previous_leaf
-                previous_leaf = inspect_(current_leaf).get_leaf(-1)
+                previous_leaf = abjad.inspect_(current_leaf).get_leaf(-1)
                 if previous_leaf is None:
                     break
                 if not isinstance(previous_leaf,rest_prototype):
-                    #attach(instrument, current_leaf)
+                    #abjad.attach(instrument, current_leaf)
                     new_instrument = copy.deepcopy(instrument)
-                    #attach(new_instrument, current_leaf, scope=Staff)
+                    #abjad.attach(new_instrument, current_leaf, scope=abjad.Staff)
                     self._attach_instrument(
                         new_instrument, 
                         current_leaf,
                         materials_package,
-                        scope=Staff,
+                        scope=abjad.Staff,
                         )
                     break
         
     def _populate_time_signature_context(self):
         measures = self._make_skip_filled_measures()
-        leaves = iterate(measures).by_class(scoretools.Leaf)
+        leaves = abjad.iterate(measures).by_leaf()
         leaves = list(leaves)
         first_leaf = leaves[0]
-        dummy_first_bar_command = indicatortools.LilyPondCommand('bar ""')
-        attach(dummy_first_bar_command, first_leaf)
+        dummy_first_bar_command = abjad.LilyPondCommand('bar ""')
+        abjad.attach(dummy_first_bar_command, first_leaf)
         time_signature_context = self._score['Time Signature Context']
         time_signature_context.extend(measures)
 
@@ -830,13 +832,13 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
             return
         context = self._score['Time Signature Context']
         current_tempo = None
-        leaves = iterate(context).by_class(scoretools.Leaf)
+        leaves = abjad.iterate(context).by_leaf()
         measure_summaries = []
         tempo_index = 0
         is_trending = False
         for i, leaf in enumerate(leaves):
-            duration = inspect_(leaf).get_duration()
-            tempi = inspect_(leaf).get_indicators(Tempo)
+            duration = abjad.inspect_(leaf).get_duration()
+            tempi = abjad.inspect_(leaf).get_indicators(abjad.Tempo)
             if tempi:
                 current_tempo = tempi[0]
                 for measure_summary in measure_summaries[tempo_index:]:
@@ -844,9 +846,9 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
                     measure_summary[-1] = current_tempo
                 tempo_index = i
                 is_trending = False
-            if inspect_(leaf).has_indicator(Accelerando):
+            if abjad.inspect_(leaf).has_indicator(Accelerando):
                 is_trending = True
-            if inspect_(leaf).has_indicator(Ritardando):
+            if abjad.inspect_(leaf).has_indicator(Ritardando):
                 is_trending = True
             next_tempo = None
             measure_summary = [
@@ -856,7 +858,7 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
                 next_tempo, 
                 ]
             measure_summaries.append(measure_summary)
-        total_duration = Duration(0)
+        total_duration = abjad.Duration(0)
         for measure_summary in measure_summaries:
             duration, current_tempo, is_trending, next_tempo = measure_summary
             if is_trending:
@@ -875,45 +877,46 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
     def _remove_score_template_start_clefs(self):
         dictionary = datastructuretools.TypedOrderedDict()
         self._cached_score_template_start_clefs = dictionary
-        for staff in iterate(self._score).by_class(Staff):
-            clef = inspect_(staff).get_indicator(Clef)
+        for staff in abjad.iterate(self._score).by_class(abjad.Staff):
+            clef = abjad.inspect_(staff).get_indicator(abjad.Clef)
             self._cached_score_template_start_clefs[staff.name] = clef.name
-            detach(Clef, staff)
+            abjad.detach(abjad.Clef, staff)
 
     def _remove_score_template_start_instruments(self, materials_package):
         dictionary = datastructuretools.TypedOrderedDict()
         self._cached_score_template_start_instruments = dictionary
-        for staff in iterate(self._score).by_class(Staff):
-            prototype = instrumenttools.Instrument
-            instrument = inspect_(staff).get_indicator(prototype)
+        for staff in abjad.iterate(self._score).by_class(abjad.Staff):
+            prototype = abjad.instrumenttools.Instrument
+            instrument = abjad.inspect_(staff).get_indicator(prototype)
             instrument_name = self._instrument_to_instrument_name(
                 instrument,
                 materials_package,
                 )
             self._cached_score_template_start_instruments[staff.name] = \
                 instrument_name
-            detach(instrumenttools.Instrument, staff)
+            abjad.detach(abjad.instrumenttools.Instrument, staff)
         
     def _shorten_long_repeat_ties(self):
-        leaves = iterate(self._score).by_class(scoretools.Leaf)
+        leaves = abjad.iterate(self._score).by_leaf()
         for leaf in leaves:
-            ties = inspect_(leaf).get_spanners(spannertools.Tie)
+            ties = abjad.inspect_(leaf).get_spanners(abjad.Tie)
             if not ties:
                 continue
             tie = ties.pop()
             if not tie.use_messiaen_style_ties:
                 continue
-            previous_leaf = inspect_(leaf).get_leaf(-1)
+            previous_leaf = abjad.inspect_(leaf).get_leaf(-1)
             if previous_leaf is None:
                 continue
-            if inspect_(previous_leaf).get_duration() < Duration(1, 8):
+            if abjad.inspect_(previous_leaf).get_duration() < abjad.Duration(1, 8):
                 string = r"shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0)) RepeatTie"
-                command = indicatortools.LilyPondCommand(string)
-                attach(command, leaf)
+                command = abjad.LilyPondCommand(string)
+                abjad.attach(command, leaf)
 
     def _stage_number_to_measure_indices(self, stage_number):
         assert stage_number <= self.stage_count
-        measure_indices = mathtools.cumulative_sums(self.measures_per_stage)
+        measure_indices = abjad.mathtools.cumulative_sums(
+            self.measures_per_stage)
         start_measure_index = measure_indices[stage_number-1]
         stop_measure_index = measure_indices[stage_number] - 1
         return start_measure_index, stop_measure_index
@@ -931,12 +934,12 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
     def _transpose_instruments(self):
         if not self.transpose_score:
             return
-        for voice in iterate(self._score).by_class(Voice):
-            for leaf in iterate(voice).by_class(scoretools.Leaf):
-                if not isinstance(leaf, (Note, Chord)):
+        for voice in abjad.iterate(self._score).by_class(Voice):
+            for leaf in abjad.iterate(voice).by_leaf():
+                if not isinstance(leaf, (abjad.Note, abjad.Chord)):
                     continue
-                inspector = inspect_(leaf)
-                prototype = instrumenttools.Instrument
+                inspector = abjad.inspect_(leaf)
+                prototype = abjad.instrumenttools.Instrument
                 instrument = inspector.get_effective(prototype)
                 if instrument is None:
                     continue
@@ -1048,7 +1051,7 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         '''
         music_maker = self.get_music_maker(_voice_name, _stage)
         music_maker = copy.deepcopy(music_maker)
-        new_music_maker = new(music_maker, **kwargs)
+        new_music_maker = abjad.new(music_maker, **kwargs)
         self.music_makers.append(new_music_maker)
         return new_music_maker
 
