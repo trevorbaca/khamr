@@ -61,9 +61,9 @@ stage_5_silence_mask = abjad.rhythmmakertools.SilenceMask(
     )
 
 guitar_accelerando = abjad.rhythmmakertools.InterpolationSpecifier(
-    start_duration=Duration(1, 4),
-    stop_duration=Duration(1, 8),
-    written_duration=Duration(1, 16),
+    start_duration=abjad.Duration(1, 4),
+    stop_duration=abjad.Duration(1, 8),
+    written_duration=abjad.Duration(1, 16),
     )
 
 guitar_ritardando = guitar_accelerando.reverse()
