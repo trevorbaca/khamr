@@ -368,14 +368,14 @@ segment_maker.define_rhythm(
     rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
         division_masks=[
             abjad.rhythmmakertools.SilenceMask(
-                pattern=[
+                pattern=abjad.patterntools.select([
                     0, 1, 2, 3,
                     5,
                     6, 7, 8, 9, 10,
                     12,
                     13, 14, 15, 16,
                     18, 19, 20,
-                    ],
+                    ]),
                 ),
             ],
         tie_specifier=abjad.rhythmmakertools.TieSpecifier(
