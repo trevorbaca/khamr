@@ -62,7 +62,7 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         self._final_markup_extra_offset = final_markup_extra_offset
         self.measures_per_stage = measures_per_stage
         self._music_handlers = []
-        self._music_maker_class = khamr.tools.RhythmDefinition
+        self._music_maker_class = khamr.tools.RhythmMaker
         self._initialize_time_signatures(time_signatures)
         self.raise_approximate_duration = bool(raise_approximate_duration)
         assert isinstance(label_stages, bool)
