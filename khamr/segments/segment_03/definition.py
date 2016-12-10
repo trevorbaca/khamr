@@ -503,7 +503,7 @@ segment_maker.define_rhythm(
 ############################### COLOR ################################
 ###############################################################################
 
-### FLUTE HANDLERS ###
+### FLUTE SPECIFIERS ###
 
 segment_maker.make_scoped_specifiers(
     scope=(fl, (1, 1)),
@@ -538,7 +538,7 @@ segment_maker.make_scoped_specifiers(
         ],
     )
 
-### OBOE HANDLERS ###
+### OBOE SPECIFIERS ###
 
 segment_maker.make_scoped_specifiers(
     scope=(ob, (1, 1)),
@@ -574,7 +574,7 @@ segment_maker.make_scoped_specifiers(
         ],
     )
 
-### CLARINET HANDLERS ###
+### CLARINET SPECIFIERS ###
 
 segment_maker.make_scoped_specifiers(
     scope=(cl, (1, 1)),
@@ -606,7 +606,7 @@ segment_maker.make_scoped_specifiers(
         ]
     )
 
-### SAXOPHONE HANDLERS ###
+### SAXOPHONE SPECIFIERS ###
 
 segment_maker.make_scoped_specifiers(
     scope=(sax, (1, 1)),
@@ -642,7 +642,7 @@ segment_maker.make_scoped_specifiers(
         ],
     )
 
-### GUITAR HANDLERS ###
+### GUITAR SPECIFIERS ###
 
 segment_maker.make_scoped_specifiers(
     scope=(gt, (1, 1)),
@@ -660,7 +660,7 @@ segment_maker.make_scoped_specifiers(
         ],
     )
 
-### PIANO HANDLERS ###
+### PIANO SPECIFIERS ###
 
 segment_maker.make_scoped_specifiers(
     scope=(pf, (1, 4)),
@@ -701,7 +701,7 @@ segment_maker.make_scoped_specifiers(
         ],
     )
 
-### PERCUSSION HANDLERS ###
+### PERCUSSION SPECIFIERS ###
 
 segment_maker.make_scoped_specifiers(
     scope=(perc, (3, 4)),
@@ -732,7 +732,7 @@ segment_maker.make_scoped_specifiers(
         ]
     )
 
-### VIOLIN HANDLERS ###
+### VIOLIN SPECIFIERS ###
 
 segment_maker.make_scoped_specifiers(
     scope=(vn, (1, 1)),
@@ -741,7 +741,7 @@ segment_maker.make_scoped_specifiers(
         ],
     )
 
-### UPPER STRINGS HANDLERS ###
+### UPPER STRINGS SPECIFIERS ###
 
 segment_maker.make_scoped_specifiers(
     scope=([vn, va, vc], (2, 6)),
@@ -777,14 +777,14 @@ segment_maker.make_scoped_specifiers(
 segment_maker.make_scoped_specifiers(
     scope=([vn, va, vc], (3, 4)),
     specifiers=[
-        handlertools.HairpinSpecifier(
+        baca.tools.HairpinSpecifier(
             hairpin_token=['pp < f'],
             span='contiguous notes and chords',
             ),
         ],
     )
 
-### VIOLA HANDLERS ###
+### VIOLA SPECIFIERS ###
 
 segment_maker.make_scoped_specifiers(
     scope=(va, (1, 1)),
@@ -793,7 +793,7 @@ segment_maker.make_scoped_specifiers(
         ],
     )
 
-### CELLO HANDLERS ###
+### CELLO SPECIFIERS ###
 
 segment_maker.make_scoped_specifiers(
     scope=(vc, (1, 1)),
@@ -802,7 +802,7 @@ segment_maker.make_scoped_specifiers(
         ],
     )
 
-### CONTRABASS HANDLERS ###
+### CONTRABASS SPECIFIERS ###
 
 segment_maker.make_scoped_specifiers(
     scope=(cb, (1, 1)),
@@ -850,7 +850,7 @@ segment_maker.make_scoped_specifiers(
 segment_maker.make_scoped_specifiers(
     scope=(cb, (3, 4)),
     specifiers=[
-        handlertools.HairpinSpecifier(
+        baca.tools.HairpinSpecifier(
             hairpin_token=['p < f'],
             span='contiguous notes and chords',
             ),

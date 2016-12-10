@@ -79,7 +79,7 @@ class MarimbaHitSpecifier(abjad.abctools.AbjadObject):
 
     @property
     def attach_first_markup(self):
-        r'''Is true when handler should attach markup to first instance.
+        r'''Is true when specifier should attach markup to first instance.
         Otherwise false.
 
         Defaults to false.
