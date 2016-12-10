@@ -516,7 +516,7 @@ pervasive_F3_harmonic_trills = baca.tools.TrillSpecifier(
     pitch=abjad.NamedPitch('F3'),
     )
 
-### articulation handlers ###
+### articulation specifiers ###
 
 alternate_accented_bow_strokes = baca.tools.ArticulationSpecifier(
     articulations=(['upbow', 'accent'], ['downbow', 'accent']),
