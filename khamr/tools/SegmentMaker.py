@@ -2,7 +2,6 @@
 from __future__ import print_function
 import abjad
 import baca
-import collections
 import copy
 import experimental
 import os
