@@ -3,7 +3,7 @@ import abjad
 import baca
 
 
-rose_pitch_classes = baca.tools.helianthate(
+rose_pitch_classes = baca.transforms.helianthate(
     [[1, 0, 9, 2], [6, 7, 10, 2], [3, 1, 11, 9], [10, 8, 4, 5]],
     -1,
     1,
