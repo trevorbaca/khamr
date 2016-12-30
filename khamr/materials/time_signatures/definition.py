@@ -8,12 +8,12 @@ import baca
 #   = 151.2 beats at 84 MM
 #   = 113.4 beats at 63 MM
 #   = 75.6 beats at 42 MM
-numerators = baca.tools.helianthate(
+numerators = baca.transforms.helianthate(
     [[2, 2, 3], [2, 4], [3, 4, 5]],
     -1,
     -1
     )
-pairs = baca.tools.helianthate(
+pairs = baca.transforms.helianthate(
     [[(2, 4), (2, 4), (6, 4)], [(3, 4), (4, 4)], [(6, 8), (4, 4), (5, 4)]],
     -1,
     -1
