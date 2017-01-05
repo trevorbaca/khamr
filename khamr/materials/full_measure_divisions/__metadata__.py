@@ -2,8 +2,4 @@
 import abjad
 
 
-metadata = abjad.datastructuretools.TypedOrderedDict(
-    [
-        ('output_material_class_name', 'SplitByDurationsDivisionCallback'),
-        ]
-    )
+metadata = abjad.datastructuretools.TypedOrderedDict()
