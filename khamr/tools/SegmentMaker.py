@@ -597,7 +597,7 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
                 nonmutators.append(specifier)
         specifiers = mutators + nonmutators
         for specifier in specifiers:
-            if isinstance(specifier, baca.tools.PitchSpecifier):
+            if isinstance(specifier, baca.tools.ScorePitchSpecifier):
                 specifier(logical_ties, timespan)
             elif isinstance(specifier, note_indicators):
                 if not logical_ties:
