@@ -394,57 +394,57 @@ def tuplet_bracket_staff_padding(n):
 left_text = abjad.Markup('molto flautando').italic().larger() + abjad.Markup.hspace(1)
 right_text = abjad.Markup.hspace(1) + abjad.Markup('molto gridato').italic().larger()
 molto_flaut_to_molto_grid = abjad.spannertools.TextSpanner(
-	overrides = {
-		'text_spanner__bound_details__left__padding': -1,
-		'text_spanner__bound_details__left__stencil_align_dir_y': 0,
-		'text_spanner__bound_details__left__text': left_text,
-		'text_spanner__bound_details__left_broken__text': None,
-		'text_spanner__bound_details__right__arrow': True,
-		'text_spanner__bound_details__right__padding': 1,
-		'text_spanner__bound_details__right__stencil_align_dir_y': 0,
-		'text_spanner__bound_details__right__text': right_text,
-		'text_spanner__bound_details__right_broken__padding': 0,
-		'text_spanner__bound_details__right_broken__text': None,
-		'text_spanner__dash_fraction': 0.25,
-		'text_spanner__dash_period': 1.5,
-	}
+    overrides = {
+        'text_spanner__bound_details__left__padding': -1,
+        'text_spanner__bound_details__left__stencil_align_dir_y': 0,
+        'text_spanner__bound_details__left__text': left_text,
+        'text_spanner__bound_details__left_broken__text': None,
+        'text_spanner__bound_details__right__arrow': True,
+        'text_spanner__bound_details__right__padding': 1,
+        'text_spanner__bound_details__right__stencil_align_dir_y': 0,
+        'text_spanner__bound_details__right__text': right_text,
+        'text_spanner__bound_details__right_broken__padding': 0,
+        'text_spanner__bound_details__right_broken__text': None,
+        'text_spanner__dash_fraction': 0.25,
+        'text_spanner__dash_period': 1.5,
+    }
 )
 
 left_text = abjad.Markup('grid. possibile').italic().larger() + abjad.Markup.hspace(1)
 right_text = abjad.Markup.hspace(1) + abjad.Markup('flaut. possibile').italic().larger()
 grid_poss_to_flaut_poss = abjad.spannertools.TextSpanner(
-	overrides = {
-		'text_spanner__bound_details__left__padding': -1,
-		'text_spanner__bound_details__left__stencil_align_dir_y': 0,
-		'text_spanner__bound_details__left__text': left_text,
-		'text_spanner__bound_details__left_broken__text': None,
-		'text_spanner__bound_details__right__arrow': True,
-		'text_spanner__bound_details__right__padding': 1,
-		'text_spanner__bound_details__right__stencil_align_dir_y': 0,
-		'text_spanner__bound_details__right__text': right_text,
-		'text_spanner__bound_details__right_broken__padding': 0,
-		'text_spanner__bound_details__right_broken__text': None,
-		'text_spanner__dash_fraction': 0.25,
-		'text_spanner__dash_period': 1.5,
-	}
+    overrides = {
+        'text_spanner__bound_details__left__padding': -1,
+        'text_spanner__bound_details__left__stencil_align_dir_y': 0,
+        'text_spanner__bound_details__left__text': left_text,
+        'text_spanner__bound_details__left_broken__text': None,
+        'text_spanner__bound_details__right__arrow': True,
+        'text_spanner__bound_details__right__padding': 1,
+        'text_spanner__bound_details__right__stencil_align_dir_y': 0,
+        'text_spanner__bound_details__right__text': right_text,
+        'text_spanner__bound_details__right_broken__padding': 0,
+        'text_spanner__bound_details__right_broken__text': None,
+        'text_spanner__dash_fraction': 0.25,
+        'text_spanner__dash_period': 1.5,
+    }
 )
 
 left_text = abjad.Markup('whistle tones').upright().larger() + abjad.Markup.hspace(1)
 right_text = abjad.Markup.draw_line(0, -1)
 whistle_tone_spanner = abjad.spannertools.TextSpanner(
-	overrides = {
-		'text_spanner__bound_details__left__padding': -1,
-		'text_spanner__bound_details__left__stencil_align_dir_y': 0,
-		'text_spanner__bound_details__left__text': left_text,
-		'text_spanner__bound_details__left_broken__text': None,
-		'text_spanner__bound_details__right__padding': 1,
-		'text_spanner__bound_details__right__stencil_align_dir_y': 1,
-		'text_spanner__bound_details__right__text': right_text,
-		'text_spanner__bound_details__right_broken__padding': 0,
-		'text_spanner__bound_details__right_broken__text': None,
-		'text_spanner__dash_fraction': 0.25,
-		'text_spanner__dash_period': 1.5,
-	}
+    overrides = {
+        'text_spanner__bound_details__left__padding': -1,
+        'text_spanner__bound_details__left__stencil_align_dir_y': 0,
+        'text_spanner__bound_details__left__text': left_text,
+        'text_spanner__bound_details__left_broken__text': None,
+        'text_spanner__bound_details__right__padding': 1,
+        'text_spanner__bound_details__right__stencil_align_dir_y': 1,
+        'text_spanner__bound_details__right__text': right_text,
+        'text_spanner__bound_details__right_broken__padding': 0,
+        'text_spanner__bound_details__right_broken__text': None,
+        'text_spanner__dash_fraction': 0.25,
+        'text_spanner__dash_period': 1.5,
+    }
 )
 
 ### PITCH ###
