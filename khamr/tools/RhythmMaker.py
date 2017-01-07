@@ -154,8 +154,7 @@ class RhythmMaker(abjad.abctools.AbjadObject):
 
     @property
     def _storage_format_specification(self):
-        from abjad.tools import systemtools
-        manager = systemtools.StorageFormatManager
+        manager = abjad.systemtools.StorageFormatManager
         keyword_argument_names = \
             manager.get_signature_keyword_argument_names(self)
         if not self.rhythm_overwrites:

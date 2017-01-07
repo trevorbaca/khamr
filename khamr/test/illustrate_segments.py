@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function
+import abjad
+import ide
 import shutil
 import os
 import subprocess
-import ide
-from abjad.tools import systemtools
 
 
 configuration = ide.tools.idetools.AbjadIDEConfiguration()
@@ -34,7 +34,7 @@ def illustrate_segment(segment_path):
         )
     if os.path.exists(local_boilerplate_path):
         os.remove(local_boilerplate_path)
-    with systemtools.FilesystemState(
+    with abjad.systemtools.FilesystemState(
         keep=[illustration_ly_path, illustration_pdf_path],
         remove=[local_boilerplate_path],
         ):
@@ -53,7 +53,7 @@ def illustrate_segment(segment_path):
         assert not os.path.exists(illustration_candidate_ly_path)
         assert not os.path.exists(illustration_candidate_pdf_path)
         command = 'python {}'.format(local_boilerplate_path)
-        exit_status = systemtools.IOManager.spawn_subprocess(command)
+        exit_status = abjad.systemtools.IOManager.spawn_subprocess(command)
         assert exit_status == 0
         assert os.path.exists(illustration_candidate_ly_path)
         assert os.path.exists(illustration_candidate_pdf_path)
@@ -83,7 +83,7 @@ if __name__ == '__main__':
             )
         if not os.path.isfile(definition_file):
             continue
-        with systemtools.Timer() as timer:
+        with abjad.systemtools.Timer() as timer:
             message = 'Illustrating {} ... '
             message = message.format(definition_file)
             print(message)
