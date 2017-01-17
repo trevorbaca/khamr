@@ -582,7 +582,7 @@ segment_maker.make_scoped_specifiers(
     scope=(ob, (1, 2)),
     specifiers=[
         pitch_specifier(
-            source=[abjad.pitchtools.PitchSegment(
+            source=[abjad.PitchSegment(
                 items=[abjad.NamedPitch('A4'), abjad.NamedPitch('E5')], 
                 item_class=abjad.NamedPitch,
                 )],
@@ -628,7 +628,7 @@ segment_maker.make_scoped_specifiers(
     scope=(sax, (1, 2)),
     specifiers=[
         pitch_specifier(
-            source=[abjad.pitchtools.PitchSegment(
+            source=[abjad.PitchSegment(
                 items=[abjad.NamedPitch('F3'), abjad.NamedPitch('G+3')], 
                 item_class=abjad.NamedPitch,
                 )],
@@ -695,7 +695,7 @@ segment_maker.make_scoped_specifiers(
         reiterated_fff,
         abjad.Clef('bass'),
         pitch_specifier(
-            source=[abjad.pitchtools.PitchSegment(
+            source=[abjad.PitchSegment(
                 items=[
                     abjad.NamedPitch('A0'), 
                     abjad.NamedPitch('B0'),
@@ -721,7 +721,7 @@ segment_maker.make_scoped_specifiers(
         abjad.Dynamic('fff'),
         pitch_specifier(
             source=khamr.materials.rose_pitch_classes,
-            operators=[abjad.pitchtools.Inversion()],
+            operators=[abjad.Inversion()],
             ),
         sixth_octave,
         ottava,
@@ -764,9 +764,9 @@ segment_maker.make_scoped_specifiers(
     specifiers=[
         pitch_specifier(
             source=khamr.materials.color_trill_pitches,
-            operators=[abjad.pitchtools.Transposition(1)],
+            operators=[abjad.Transposition(n=1)],
             ),
-        pervasive_trills_at_interval(abjad.pitchtools.NamedInterval('m2')),
+        pervasive_trills_at_interval(abjad.NamedInterval('m2')),
         ],
     )
 
@@ -775,9 +775,9 @@ segment_maker.make_scoped_specifiers(
     specifiers=[
         pitch_specifier(
             source=khamr.materials.color_trill_pitches,
-            operators=[abjad.pitchtools.Transposition(2)],
+            operators=[abjad.Transposition(n=2)],
             ),
-        pervasive_trills_at_interval(abjad.pitchtools.NamedInterval('m2')),
+        pervasive_trills_at_interval(abjad.NamedInterval('m2')),
         ],
     )
 
@@ -786,9 +786,9 @@ segment_maker.make_scoped_specifiers(
     specifiers=[
         pitch_specifier(
             source=khamr.materials.color_trill_pitches,
-            operators=[abjad.pitchtools.Transposition(3)],
+            operators=[abjad.Transposition(n=3)],
             ),
-        pervasive_trills_at_interval(abjad.pitchtools.NamedInterval('m2')),
+        pervasive_trills_at_interval(abjad.NamedInterval('m2')),
         ],
     )
 
@@ -818,7 +818,7 @@ segment_maker.make_scoped_specifiers(
         pitch_specifier(
             source=khamr.materials.color_trill_pitches,
             ),
-        pervasive_trills_at_interval(abjad.pitchtools.NamedInterval('m2')),
+        pervasive_trills_at_interval(abjad.NamedInterval('m2')),
         ],
     )
 
@@ -827,9 +827,9 @@ segment_maker.make_scoped_specifiers(
     specifiers=[
         pitch_specifier(
             source=khamr.materials.color_trill_pitches,
-            operators=[abjad.pitchtools.Transposition(1)],
+            operators=[abjad.Transposition(n=1)],
             ),
-        pervasive_trills_at_interval(abjad.pitchtools.NamedInterval('m2')),
+        pervasive_trills_at_interval(abjad.NamedInterval('m2')),
         ],
     )
 
@@ -838,9 +838,9 @@ segment_maker.make_scoped_specifiers(
     specifiers=[
         pitch_specifier(
             source=khamr.materials.color_trill_pitches,
-            operators=[abjad.pitchtools.Transposition(2)],
+            operators=[abjad.Transposition(n=2)],
             ),
-        pervasive_trills_at_interval(abjad.pitchtools.NamedInterval('m2')),
+        pervasive_trills_at_interval(abjad.NamedInterval('m2')),
         ],
     )
 
@@ -870,7 +870,7 @@ segment_maker.make_scoped_specifiers(
         pitch_specifier(
             source=khamr.materials.color_trill_pitches,
             ),
-        pervasive_trills_at_interval(abjad.pitchtools.NamedInterval('m2')),
+        pervasive_trills_at_interval(abjad.NamedInterval('m2')),
         pervasive_accents,
         ],
     )
@@ -923,7 +923,7 @@ segment_maker.make_scoped_specifiers(
     specifiers=[
         reiterated_fff,
         pitch_specifier(
-            source=[abjad.pitchtools.PitchSegment(
+            source=[abjad.PitchSegment(
                 items=[abjad.NamedPitch('G0'), abjad.NamedPitch('A1')], 
                 item_class=abjad.NamedPitch,
                 )],

@@ -669,8 +669,8 @@ segment_maker.make_scoped_specifiers(
         pitch_specifier(
             source=khamr.materials.rose_pitch_classes,
             operators=[
-                pitchtools.Inversion(),
-                pitchtools.Transposition(2),
+                abjad.Inversion(),
+                abjad.Transposition(n=2),
                 ],
             ),
         sixth_octave,
@@ -749,8 +749,8 @@ segment_maker.make_scoped_specifiers(
         pitch_specifier(
             source=khamr.materials.rose_pitch_classes,
             operators=[
-                pitchtools.Inversion(),
-                pitchtools.Transposition(6),
+                abjad.Inversion(),
+                abjad.Transposition(n=6),
                 ],
             ),
         narrow_fourth_octave,
@@ -808,7 +808,7 @@ segment_maker.make_scoped_specifiers(
     scope=(cb, (1, 1)),
     specifiers=[
         pitch_specifier(
-            source=[pitchtools.PitchSegment(
+            source=[abjad.PitchSegment(
                 items=[abjad.NamedPitch('G0'), abjad.NamedPitch('A1')], 
                 item_class=abjad.NamedPitch,
                 )],
@@ -820,7 +820,7 @@ segment_maker.make_scoped_specifiers(
     scope=(cb, (2, 5)),
     specifiers=[
         pitch_specifier(
-            source=[pitchtools.PitchSegment(
+            source=[abjad.PitchSegment(
                 items=[abjad.NamedPitch('G#0'), abjad.NamedPitch('A#1')], 
                 item_class=abjad.NamedPitch,
                 )],
@@ -832,7 +832,7 @@ segment_maker.make_scoped_specifiers(
     scope=(cb, (6, 7)),
     specifiers=[
         pitch_specifier(
-            source=[pitchtools.PitchSegment(
+            source=[abjad.PitchSegment(
                 items=[abjad.NamedPitch('G0'), abjad.NamedPitch('A1')], 
                 item_class=abjad.NamedPitch,
                 )],
