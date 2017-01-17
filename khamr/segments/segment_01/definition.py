@@ -494,7 +494,7 @@ segment_maker.make_scoped_specifiers(
     specifiers=[
         abjad.Dynamic('mp'),
         pitch_specifier(
-            source=[abjad.pitchtools.PitchSegment(
+            source=[abjad.PitchSegment(
                 items=[abjad.NamedPitch('G3'), abjad.NamedPitch('G4')], 
                 item_class=abjad.NamedPitch,
                 )],
@@ -507,7 +507,7 @@ segment_maker.make_scoped_specifiers(
     scope=(fl, (3, 5)),
     specifiers=[
         pitch_specifier(
-            source=[abjad.pitchtools.PitchSegment(
+            source=[abjad.PitchSegment(
                 items=[abjad.NamedPitch('G#3'), abjad.NamedPitch('G#4')], 
                 item_class=abjad.NamedPitch,
                 )],
@@ -548,7 +548,7 @@ segment_maker.make_scoped_specifiers(
         put_reed_back_in,
         abjad.Dynamic('pp'),
         pitch_specifier(
-            source=[abjad.pitchtools.PitchSegment(
+            source=[abjad.PitchSegment(
                 items=[abjad.NamedPitch('A4'), abjad.NamedPitch('E5')], 
                 item_class=abjad.NamedPitch,
                 )],
@@ -586,7 +586,7 @@ segment_maker.make_scoped_specifiers(
     specifiers=[
         abjad.Dynamic('p'),
         pitch_specifier(
-            source=[abjad.pitchtools.PitchSegment(
+            source=[abjad.PitchSegment(
                 items=[abjad.NamedPitch('F3'), abjad.NamedPitch('G+3')], 
                 item_class=abjad.NamedPitch,
                 )],
@@ -722,7 +722,7 @@ segment_maker.make_scoped_specifiers(
         pitch_specifier(
             source=khamr.materials.color_trill_pitches,
             ),
-        pervasive_trills_at_interval(abjad.pitchtools.NamedInterval('m2')),
+        pervasive_trills_at_interval(abjad.NamedInterval('m2')),
         molto_flautando_e_pont,
         ],
     )
@@ -752,7 +752,7 @@ segment_maker.make_scoped_specifiers(
         pitch_specifier(
             source=khamr.materials.color_trill_pitches,
             ),
-        pervasive_trills_at_interval(abjad.pitchtools.NamedInterval('m2')),
+        pervasive_trills_at_interval(abjad.NamedInterval('m2')),
         molto_flautando_e_pont,
         ],
     )
@@ -782,7 +782,7 @@ segment_maker.make_scoped_specifiers(
         pitch_specifier(
             source=khamr.materials.color_trill_pitches,
             ),
-        pervasive_trills_at_interval(abjad.pitchtools.NamedInterval('m2')),
+        pervasive_trills_at_interval(abjad.NamedInterval('m2')),
         molto_flautando_e_pont,
         ],
     )
