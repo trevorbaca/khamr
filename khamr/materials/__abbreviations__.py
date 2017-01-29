@@ -117,8 +117,8 @@ string = 'catch resonance (but not attack) with pedal'
 catch_resonance = abjad.Markup(string, direction=Up, stack_priority=1000)
 catch_resonance = catch_resonance.larger()
 
-first_line = abjad.Markup('air tone with lips covering mouthplate').line()
-second_line = abjad.Markup('(sounds major 7th lower)').line()
+first_line = abjad.MarkupList(['air tone with lips covering mouthplate']).line()
+second_line = abjad.MarkupList(['(sounds major 7th lower)']).line()
 covered_flute_air_tone = abjad.Markup.column(
     [first_line, 
     second_line], direction=Up,
@@ -166,9 +166,10 @@ fluttertongue = abjad.Markup('fluttertongue', direction=Up).larger()
 fret_guiro = abjad.Markup('fret guiro', direction=Up).larger()
 
 string = 'draw metal screw back and forth slowly across string;'
-first_line = abjad.Markup(string).line()
-second_line = abjad.Markup('continuous loud sound').line()
-guitar_with_screw = abjad.Markup.column([first_line, second_line], direction=Up)
+first_line = abjad.MarkupList([string]).line()
+second_line = abjad.MarkupList(['continuous loud sound']).line()
+guitar_with_screw = abjad.MarkupList(
+    [first_line, second_line]).column(direction=Up)
 guitar_with_screw = guitar_with_screw.larger()
 
 gridato_possibile = abjad.Markup('gridato possibile', direction=Up).italic().larger()
@@ -184,23 +185,26 @@ string += ' at the center of each accelerando'
 move_towards_the_bridge = abjad.Markup(string, direction=Up).larger()
 
 string = 'sparse, individual clicks with extremely slow bow'
-first_line = abjad.Markup(string).line()
-second_line = abjad.Markup('(1-2/sec. in irregular rhythm)').line()
-sparse_cello_clicks = abjad.Markup.column([first_line, second_line], direction=Up)
+first_line = abjad.MarkupList([string]).line()
+second_line = abjad.MarkupList(['(1-2/sec. in irregular rhythm)']).line()
+sparse_cello_clicks = abjad.MarkupList(
+    [first_line, second_line]).column(direction=Up)
 sparse_cello_clicks = sparse_cello_clicks.larger()
 
 string = 'sparse, individual clicks with nail or pick laterally up string'
-first_line = abjad.Markup(string).line()
-second_line = abjad.Markup('(1-2/sec. in irregular rhythm)').line()
-sparse_guitar_clicks = abjad.Markup.column([first_line, second_line], direction=Up)
+first_line = abjad.MarkupList([string]).line()
+second_line = abjad.MarkupList(['(1-2/sec. in irregular rhythm)']).line()
+sparse_guitar_clicks = abjad.MarkupList(
+    [first_line, second_line]).column(direction=Up)
 sparse_guitar_clicks = sparse_guitar_clicks.larger()
 
 string = r'sparse, individual clicks with credit card'
 string += r' on C \hspace #-0.5 \raise #1 \sharp \hspace #-0.5 1 string'
-first_line = abjad.Markup(string).line()
+first_line = abjad.MarkupList([string]).line()
 string = ' (1-2/sec. in irregular rhythm)'
-second_line = abjad.Markup(string).line()
-sparse_piano_clicks = abjad.Markup.column([first_line, second_line], direction=Up)
+second_line = abjad.MarkupList([string]).line()
+sparse_piano_clicks = abjad.MarkupList(
+    [first_line, second_line]).column(direction=Up)
 sparse_piano_clicks = sparse_piano_clicks.larger()
 
 leggierissimo = abjad.Markup('leggierissimo', direction=Up).italic().larger()
