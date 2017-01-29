@@ -528,7 +528,7 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         else:
             stop_index = stop_stage
             stages = stages[start_index:stop_index]
-            time_signatures = abjad.sequencetools.flatten_sequence(stages)
+            time_signatures = baca.Sequence(stages).flatten()
         return time_signatures
 
     def _instrument_to_instrument_name(self, instrument, materials_package):

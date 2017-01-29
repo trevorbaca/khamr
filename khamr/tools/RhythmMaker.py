@@ -30,7 +30,6 @@ class RhythmMaker(abjad.abctools.AbjadObject):
             khamr.tools.RhythmMaker(
                 voice_name='Cello Music Voice',
                 division_maker=baca.tools.FuseByCountsDivisionCallback(
-                    cyclic=True,
                     counts=[2, 3, 1],
                     ),
                 rewrite_meter=False,
@@ -206,7 +205,7 @@ class RhythmMaker(abjad.abctools.AbjadObject):
     def _make_rhythm(self, time_signatures):
         division_maker = self._get_division_maker()
         divisions = division_maker(time_signatures)
-        divisions = abjad.sequencetools.flatten_sequence(divisions)
+        divisions = baca.Sequence(divisions).flatten()
         rhythm_maker = self._get_rhythm_maker()
         selections = rhythm_maker(divisions)
         if self.split_at_measure_boundaries:

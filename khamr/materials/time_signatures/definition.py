@@ -18,6 +18,6 @@ pairs = baca.transforms.helianthate(
     -1,
     -1
     )
-pairs = abjad.sequencetools.flatten_sequence(pairs, depth=1)
+pairs = baca.Sequence(pairs).flatten(depth=1)
 time_signatures = [abjad.TimeSignature(_) for _ in pairs]
 time_signatures = abjad.datastructuretools.CyclicTuple(time_signatures)
