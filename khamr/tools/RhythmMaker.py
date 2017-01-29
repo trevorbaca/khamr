@@ -286,17 +286,17 @@ class RhythmMaker(abjad.abctools.AbjadObject):
         return self._clef
 
     @clef.setter
-    def clef(self, expr):
-        if expr is None:
-            self._clef = expr
-        elif isinstance(expr, abjad.Clef):
-            self._clef = expr
-        elif isinstance(expr, str):
-            clef = abjad.Clef(expr)
+    def clef(self, argument):
+        if argument is None:
+            self._clef = argument
+        elif isinstance(argument, abjad.Clef):
+            self._clef = argument
+        elif isinstance(argument, str):
+            clef = abjad.Clef(argument)
             self._clef = clef
         else:
             message = 'must be clef, string or none: {!r}.'
-            message = message.format(expr)
+            message = message.format(argument)
             raise TypeError(message)
 
     @property
@@ -308,12 +308,12 @@ class RhythmMaker(abjad.abctools.AbjadObject):
         return self._rhythm_overwrites
 
     @rhythm_overwrites.setter
-    def rhythm_overwrites(self, expr):
-        expr = expr or []
-        assert isinstance(expr, (list, tuple)), repr(expr)
-        for item in expr:
+    def rhythm_overwrites(self, argument):
+        argument = argument or []
+        assert isinstance(argument, (list, tuple)), repr(argument)
+        for item in argument:
             assert isinstance(item, tuple) and len(tuple) == 2, repr(item)
-        self._rhythm_overwrites = expr[:]
+        self._rhythm_overwrites = argument[:]
 
     @property
     def staff_line_count(self):
@@ -328,8 +328,8 @@ class RhythmMaker(abjad.abctools.AbjadObject):
         return self._staff_line_count
 
     @staff_line_count.setter
-    def staff_line_count(self, expr):
-        self._staff_line_count = expr
+    def staff_line_count(self, argument):
+        self._staff_line_count = argument
 
     @property
     def stages(self):
@@ -340,17 +340,17 @@ class RhythmMaker(abjad.abctools.AbjadObject):
         return self._stages
 
     @stages.setter
-    def stages(self, expr):
-        if expr is None:
-            self._stages = expr
-        elif abjad.mathtools.is_positive_integer(expr):
-            self._stages = (expr, expr)
-        elif (abjad.mathtools.all_are_positive_integers(expr)
-            and len(expr) == 2):
-            self._stages = tuple(expr)
+    def stages(self, argument):
+        if argument is None:
+            self._stages = argument
+        elif abjad.mathtools.is_positive_integer(argument):
+            self._stages = (argument, argument)
+        elif (abjad.mathtools.all_are_positive_integers(argument)
+            and len(argument) == 2):
+            self._stages = tuple(argument)
         else:
             message = 'positive integer or pair of positive integers: {!r}.'
-            message = message.format(expr)
+            message = message.format(argument)
             raise TypeError(message)
 
     @property
