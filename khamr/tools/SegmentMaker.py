@@ -1034,11 +1034,11 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
 
     ### PUBLIC METHODS ###
 
-    def copy_rhythm(self, _voice_name, _stage, **kwargs):
+    def copy_rhythm(self, _voice_name, _stage, **keywords):
         r'''Copies music-maker with `_voice_name` defined for `_stage`.
 
         Gets music-maker with `_voice_name` defined for `_stage`.
-        Then makes new music-maker from this with optional `kwargs`.
+        Then makes new music-maker from this with optional `keywords`.
 
         Short-cut for get-then-new.
 
@@ -1050,7 +1050,7 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         '''
         music_maker = self.get_music_maker(_voice_name, _stage)
         music_maker = copy.deepcopy(music_maker)
-        new_music_maker = abjad.new(music_maker, **kwargs)
+        new_music_maker = abjad.new(music_maker, **keywords)
         self.music_makers.append(new_music_maker)
         return new_music_maker
 
