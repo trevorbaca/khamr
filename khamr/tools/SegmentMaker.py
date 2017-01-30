@@ -518,8 +518,7 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
     def _get_time_signatures(self, start_stage=None, stop_stage=None):
         counts = len(self.time_signatures), sum(self.measures_per_stage)
         assert counts[0] == counts[1], counts
-        stages = abjad.sequencetools.partition_sequence_by_counts(
-            self.time_signatures,
+        stages = baca.Sequence(self.time_signatures).partition_by_counts(
             self.measures_per_stage,
             )
         start_index = start_stage - 1
