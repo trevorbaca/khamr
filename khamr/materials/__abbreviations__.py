@@ -273,19 +273,19 @@ ppp_ancora += abjad.Markup('ancora').italic()
 
 ppp_subtone = abjad.Markup('ppp').dynamic() + abjad.Markup('subtone')
 
-reiterated_fff = baca.dynamics.make_reiterated_dynamic(dynamic_name='fff')
+reiterated_fff = baca.make_reiterated_dynamic(dynamic_name='fff')
 
-reiterated_ff = baca.dynamics.make_reiterated_dynamic(dynamic_name='ff')
+reiterated_ff = baca.make_reiterated_dynamic(dynamic_name='ff')
 
-reiterated_f = baca.dynamics.make_reiterated_dynamic(dynamic_name='f')
+reiterated_f = baca.make_reiterated_dynamic(dynamic_name='f')
 
-reiterated_mf = baca.dynamics.make_reiterated_dynamic(dynamic_name='mf')
+reiterated_mf = baca.make_reiterated_dynamic(dynamic_name='mf')
 
-reiterated_mp = baca.dynamics.make_reiterated_dynamic(dynamic_name='mp')
+reiterated_mp = baca.make_reiterated_dynamic(dynamic_name='mp')
 
-reiterated_p = baca.dynamics.make_reiterated_dynamic(dynamic_name='p')
+reiterated_p = baca.make_reiterated_dynamic(dynamic_name='p')
 
-reiterated_pp = baca.dynamics.make_reiterated_dynamic(dynamic_name='pp')
+reiterated_pp = baca.make_reiterated_dynamic(dynamic_name='pp')
 
 remove_reed = abjad.Markup('remove reed', direction=Up).larger()
 
