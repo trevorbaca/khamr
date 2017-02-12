@@ -129,8 +129,8 @@ segment_maker.define_rhythm(
     rewrite_meter=True,
     rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
         division_masks=[
-            abjad.rhythmmakertools.silence_all(),
-            abjad.rhythmmakertools.sustain_last(1),
+            abjad.silence_all(),
+            abjad.sustain_last(1),
             ],
         tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
@@ -144,8 +144,8 @@ segment_maker.define_rhythm(
     rewrite_meter=True,
     rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
         division_masks=[
-            abjad.rhythmmakertools.silence_all(),
-            abjad.rhythmmakertools.sustain_first(1),
+            abjad.silence_all(),
+            abjad.sustain_first(1),
             ],
         tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
@@ -167,8 +167,8 @@ segment_maker.define_rhythm(
     rewrite_meter=True,
     rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
         division_masks=[
-            abjad.rhythmmakertools.silence_first(1),
-            abjad.rhythmmakertools.silence_last(1),
+            abjad.silence_first(1),
+            abjad.silence_last(1),
             ],
         tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
@@ -184,8 +184,8 @@ segment_maker.define_rhythm(
     rewrite_meter=True,
     rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
         division_masks=[
-            abjad.rhythmmakertools.silence_all(),
-            abjad.rhythmmakertools.sustain_last(1),
+            abjad.silence_all(),
+            abjad.sustain_last(1),
             ],
         tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
@@ -199,8 +199,8 @@ segment_maker.define_rhythm(
     rewrite_meter=True,
     rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
         division_masks=[
-            abjad.rhythmmakertools.silence_all(),
-            abjad.rhythmmakertools.sustain_first(1),
+            abjad.silence_all(),
+            abjad.sustain_first(1),
             ],
         tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
@@ -222,8 +222,8 @@ segment_maker.define_rhythm(
     rewrite_meter=True,
     rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
         division_masks=[
-            abjad.rhythmmakertools.silence_first(1),
-            abjad.rhythmmakertools.silence_last(1),
+            abjad.silence_first(1),
+            abjad.silence_last(1),
             ],
         tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             use_messiaen_style_ties=True,
@@ -238,7 +238,7 @@ segment_maker.define_rhythm(
     voice_name=perc,
     rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
         division_masks=[
-            abjad.rhythmmakertools.silence_last(1),
+            abjad.silence_last(1),
             ],
         tie_specifier=abjad.rhythmmakertools.TieSpecifier(
             tie_across_divisions=True,

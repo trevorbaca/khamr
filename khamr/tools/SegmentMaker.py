@@ -705,7 +705,7 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         specifier = abjad.rhythmmakertools.DurationSpellingSpecifier(
             spell_metrically='unassignable',
             )
-        mask = abjad.rhythmmakertools.silence_all(use_multimeasure_rests=True)
+        mask = abjad.silence_all(use_multimeasure_rests=True)
         maker = abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[mask],
             )
