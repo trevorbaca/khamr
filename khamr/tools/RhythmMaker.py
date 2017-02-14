@@ -22,7 +22,7 @@ class RhythmMaker(abjad.abctools.AbjadObject):
             ...         counts=[2, 3, 1],
             ...         ),
             ...     )
-            >>> music_maker.rhythm_maker = rhythmmakertools.NoteRhythmMaker()
+            >>> music_maker.rhythm_maker = abjad.rhythmmakertools.NoteRhythmMaker()
 
         ::
 
