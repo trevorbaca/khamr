@@ -2,7 +2,7 @@
 import abjad
 
 
-metric_modulations = abjad.datastructuretools.TypedOrderedDict([
+metric_modulations = abjad.TypedOrderedDict([
     (
         '3:2(4)=4',
         abjad.indicatortools.MetricModulation(

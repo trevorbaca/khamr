@@ -2,7 +2,7 @@
 import abjad
 
 
-tempi = abjad.datastructuretools.TypedOrderedDict([
+tempi = abjad.TypedOrderedDict([
     (
         32,
         abjad.Tempo(abjad.Duration(1, 4), 32),

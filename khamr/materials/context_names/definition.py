@@ -2,7 +2,7 @@
 import abjad
 
 
-voice_names = abjad.datastructuretools.TypedOrderedDict(
+voice_names = abjad.TypedOrderedDict(
     [
         ('cello', 'Cello Music Voice'),
         ('clarinet', 'Clarinet Music Voice'),
