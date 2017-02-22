@@ -36,7 +36,7 @@ assert segment_maker.stage_count == 9
 segment_maker.validate_measures_per_stage()
 
 ###############################################################################
-################################## SPECIFIERS #################################
+################################## #################################
 ###############################################################################
 
 ### FLUTE MAKERS ###
@@ -503,381 +503,311 @@ segment_maker.define_rhythm(
 #################################### COLOR ####################################
 ###############################################################################
 
-### FLUTE SPECIFIERS ###
+### FLUTE ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(fl, (1, 1)),
-    specifiers=[
-        pitch_specifier(
-            source='B5',
-            ),
-        stem_tremolo,
-        ],
+segment_maker.append_specifiers(
+    (fl, (1, 1)),
+    pitch_specifier(
+        source='B5',
+        ),
+    stem_tremolo,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(fl, (5, 6)),
-    specifiers=[
-        Dynamic('fff'),
-        pitch_specifier(
-            source='D6 E6 F#6 C6 C#6 D6 D#6 F6',
-            ),
-        baca.tools.ArticulationSpecifier(
-            articulations=['>', None, None, None, None, None, None, None],
-            ),
-        ],
+segment_maker.append_specifiers(
+    (fl, (5, 6)),
+    Dynamic('fff'),
+    pitch_specifier(
+        source='D6 E6 F#6 C6 C#6 D6 D#6 F6',
+        ),
+    baca.tools.ArticulationSpecifier(
+        articulations=['>', None, None, None, None, None, None, None],
+        ),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(fl, (9, 9)),
-    specifiers=[
-        Dynamic('pp'),
-        # sounds B3
-        pitch_specifier(source='Bb4'),
-        covered_flute_air_tone,
-        ],
+segment_maker.append_specifiers(
+    (fl, (9, 9)),
+    Dynamic('pp'),
+    # sounds B3
+    pitch_specifier(source='Bb4'),
+    covered_flute_air_tone,
     )
 
-### OBOE SPECIFIERS ###
+### OBOE ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(ob, (1, 1)),
-    specifiers=[
-        pitch_specifier(
-            source='G#3',
-            ),
-        ]
+segment_maker.append_specifiers(
+    (ob, (1, 1)),
+    pitch_specifier(
+        source='G#3',
+        ),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(ob, (5, 6)),
-    specifiers=[
-        Dynamic('fff'),
-        pitch_specifier(
-            source='C6 C#6 D#6 E6 F6 F#6',
-            ),
-        baca.tools.ArticulationSpecifier(
-            articulations=['>', None, None, None, None, None],
-            ),
-        ],
+segment_maker.append_specifiers(
+    (ob, (5, 6)),
+    Dynamic('fff'),
+    pitch_specifier(
+        source='C6 C#6 D#6 E6 F6 F#6',
+        ),
+    baca.tools.ArticulationSpecifier(
+        articulations=['>', None, None, None, None, None],
+        ),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(ob, (9, 9)),
-    specifiers=[
-        Dynamic('pp'),
-        # dummy centerline pitch
-        pitch_specifier(source='B4'),
-        air_tone_without_reed,
-        one_line_staff,
-        repeat_tie_up,
-        ],
+segment_maker.append_specifiers(
+    (ob, (9, 9)),
+    Dynamic('pp'),
+    # dummy centerline pitch
+    pitch_specifier(source='B4'),
+    air_tone_without_reed,
+    one_line_staff,
+    repeat_tie_up,
     )
 
-### CLARINET SPECIFIERS ###
+### CLARINET ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(cl, (1, 1)),
-    specifiers=[
-        pitch_specifier(source='F#2'),
-        ]
+segment_maker.append_specifiers(
+    (cl, (1, 1)),
+    pitch_specifier(source='F#2'),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(cl, (5, 6)),
-    specifiers=[
-        Dynamic('fff'),
-        pitch_specifier(
-            source='D6 D#6 F6 F#6 C6 C#6 D#6 E6 F6',
-            ),
-        baca.tools.ArticulationSpecifier(
-            articulations=[
-                '>', None, None, None, None, None, None, None, None,
-                ],
-            ),
-        ],
+segment_maker.append_specifiers(
+    (cl, (5, 6)),
+    Dynamic('fff'),
+    pitch_specifier(
+        source='D6 D#6 F6 F#6 C6 C#6 D#6 E6 F6',
+        ),
+    baca.tools.ArticulationSpecifier(
+        articulations=[
+            '>', None, None, None, None, None, None, None, None,
+            ],
+        ),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(cl, (8, 9)),
-    specifiers=[
-        Dynamic('ppp'),
-        pitch_specifier(source='G2'),
-        ]
+segment_maker.append_specifiers(
+    (cl, (8, 9)),
+    Dynamic('ppp'),
+    pitch_specifier(source='G2'),
     )
 
-### SAXOPHONE SPECIFIERS ###
+### SAXOPHONE ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(sax, (1, 1)),
-    specifiers=[
-        pitch_specifier(
-            source='G#2',
-            ),
-        ]
+segment_maker.append_specifiers(
+    (sax, (1, 1)),
+    pitch_specifier(
+        source='G#2',
+        ),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(sax, (5, 6)),
-    specifiers=[
-        Dynamic('fff'),
-        pitch_specifier(
-            source='C6 C#6 D6 F6 F#6 D#6 E6',
-            ),
-        baca.tools.ArticulationSpecifier(
-            articulations=['>', None, None, None, None, None, None],
-            ),
-        ],
+segment_maker.append_specifiers(
+    (sax, (5, 6)),
+    Dynamic('fff'),
+    pitch_specifier(
+        source='C6 C#6 D6 F6 F#6 D#6 E6',
+        ),
+    baca.tools.ArticulationSpecifier(
+        articulations=['>', None, None, None, None, None, None],
+        ),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(sax, (9, 9)),
-    specifiers=[
-        Dynamic('pp'),
-        # dummy centerline pitch
-        pitch_specifier(source='D5'),
-        air_tone,
-        one_line_staff,
-        repeat_tie_up,
-        ],
+segment_maker.append_specifiers(
+    (sax, (9, 9)),
+    Dynamic('pp'),
+    # dummy centerline pitch
+    pitch_specifier(source='D5'),
+    air_tone,
+    one_line_staff,
+    repeat_tie_up,
     )
 
-### GUITAR SPECIFIERS ###
+### GUITAR ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(gt, (1, 1)),
-    specifiers=[
-        pitch_specifier(source='G3'),
-        ],
+segment_maker.append_specifiers(
+    (gt, (1, 1)),
+    pitch_specifier(source='G3'),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(gt, (5, 6)),
-    specifiers=[
-        Dynamic('fff'),
-        pitch_specifier(source='Ab4'),
-        stem_tremolo,
-        ],
+segment_maker.append_specifiers(
+    (gt, (5, 6)),
+    Dynamic('fff'),
+    pitch_specifier(source='Ab4'),
+    stem_tremolo,
     )
 
-### PIANO SPECIFIERS ###
+### PIANO ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(pf, (1, 4)),
-    specifiers=[
-        Dynamic('fff'),
-        pitch_specifier(
-            source=khamr.materials.rose_pitch_classes,
-            operators=[
-                abjad.Inversion(),
-                abjad.Transposition(n=2),
-                ],
-            ),
-        sixth_octave,
-        ottava,
-        ],
+segment_maker.append_specifiers(
+    (pf, (1, 4)),
+    Dynamic('fff'),
+    pitch_specifier(
+        source=khamr.materials.rose_pitch_classes,
+        operators=[
+            abjad.Inversion(),
+            abjad.Transposition(n=2),
+            ],
+        ),
+    sixth_octave,
+    ottava,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(pf, (3, 4)),
-    specifiers=[
-        Dynamic('ffff'),
-        ]
+segment_maker.append_specifiers(
+    (pf, (3, 4)),
+    Dynamic('ffff'),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(pf, (5, 6)),
-    specifiers=[
-        Dynamic('fff'),
-        pitch_specifier(
-            source='C6 D6 D#6 E6 F6 F#6 C6 C#6 D#6 E6 F6',
-            ),
-        baca.tools.ArticulationSpecifier(
-            articulations=[
-                '>', 
-                None, None, None, None, None, None, None, None, None, None,
-                ],
-            ),
-        ],
+segment_maker.append_specifiers(
+    (pf, (5, 6)),
+    Dynamic('fff'),
+    pitch_specifier(
+        source='C6 D6 D#6 E6 F6 F#6 C6 C#6 D#6 E6 F6',
+        ),
+    baca.tools.ArticulationSpecifier(
+        articulations=[
+            '>', 
+            None, None, None, None, None, None, None, None, None, None,
+            ],
+        ),
     )
 
-### PERCUSSION SPECIFIERS ###
+### PERCUSSION ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(perc, (3, 4)),
-    specifiers=[
-        Clef('percussion'),
-        Dynamic('pp'),
-        stem_tremolo,
-        percussion_reminder_markup('bass drum'),
-        ]
+segment_maker.append_specifiers(
+    (perc, (3, 4)),
+    Clef('percussion'),
+    Dynamic('pp'),
+    stem_tremolo,
+    percussion_reminder_markup('bass drum'),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(perc, (5, 6)),
-    specifiers=[
-        Dynamic('fff'),
-        staccati,
-        percussion_reminder_markup('castanets'),
-        double_tonguing,
-        ]
+segment_maker.append_specifiers(
+    (perc, (5, 6)),
+    Dynamic('fff'),
+    staccati,
+    percussion_reminder_markup('castanets'),
+    double_tonguing,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(perc, (7, 9)),
-    specifiers=[
-        Dynamic('ppp'),
-        stem_tremolo,
-        percussion_reminder_markup('bass drum'),
-        ]
+segment_maker.append_specifiers(
+    (perc, (7, 9)),
+    Dynamic('ppp'),
+    stem_tremolo,
+    percussion_reminder_markup('bass drum'),
     )
 
-### VIOLIN SPECIFIERS ###
+### VIOLIN ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(vn, (1, 1)),
-    specifiers=[
-        pitch_specifier(source='A4'),
-        ],
+segment_maker.append_specifiers(
+    (vn, (1, 1)),
+    pitch_specifier(source='A4'),
     )
 
-### UPPER STRINGS SPECIFIERS ###
+### UPPER STRINGS ###
 
-segment_maker.make_scoped_specifiers(
-    scope=([vn, va, vc], (2, 6)),
-    specifiers=[
-        pitch_specifier(
-            source=khamr.materials.rose_pitch_classes,
-            operators=[
-                abjad.Inversion(),
-                abjad.Transposition(n=6),
-                ],
-            ),
-        narrow_fourth_octave,
-        pervasive_glissandi,
-        estr_sul_pont,
-        natural_harmonics,
-        ],
+segment_maker.append_specifiers(
+    ([vn, va, vc], (2, 6)),
+    pitch_specifier(
+        source=khamr.materials.rose_pitch_classes,
+        operators=[
+            abjad.Inversion(),
+            abjad.Transposition(n=6),
+            ],
+        ),
+    narrow_fourth_octave,
+    pervasive_glissandi,
+    estr_sul_pont,
+    natural_harmonics,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=([vn, va, vc], (2, 2)),
-    specifiers=[
-        Dynamic('p'),
-        ],
+segment_maker.append_specifiers(
+    ([vn, va, vc], (2, 2)),
+    Dynamic('p'),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=([vn, va, vc], (5, 5)),
-    specifiers=[
-        Dynamic('fff'),
-        ],
+segment_maker.append_specifiers(
+    ([vn, va, vc], (5, 5)),
+    Dynamic('fff'),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=([vn, va, vc], (3, 4)),
-    specifiers=[
-        baca.tools.HairpinSpecifier(
-            hairpin_token=['pp < f'],
-            span='contiguous notes and chords',
-            ),
-        ],
+segment_maker.append_specifiers(
+    ([vn, va, vc], (3, 4)),
+    baca.tools.HairpinSpecifier(
+        hairpin_token=['pp < f'],
+        span='contiguous notes and chords',
+        ),
     )
 
-### VIOLA SPECIFIERS ###
+### VIOLA ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(va, (1, 1)),
-    specifiers=[
-        pitch_specifier(source='G#4'),
-        ],
+segment_maker.append_specifiers(
+    (va, (1, 1)),
+    pitch_specifier(source='G#4'),
     )
 
-### CELLO SPECIFIERS ###
+### CELLO ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(vc, (1, 1)),
-    specifiers=[
-        pitch_specifier(source='G3'),
-        ],
+segment_maker.append_specifiers(
+    (vc, (1, 1)),
+    pitch_specifier(source='G3'),
     )
 
-### CONTRABASS SPECIFIERS ###
+### CONTRABASS ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(cb, (1, 1)),
-    specifiers=[
-        pitch_specifier(
-            source=[abjad.PitchSegment(
-                items=[abjad.NamedPitch('G0'), abjad.NamedPitch('A1')], 
-                item_class=abjad.NamedPitch,
-                )],
-            ),
-        ],
+segment_maker.append_specifiers(
+    (cb, (1, 1)),
+    pitch_specifier(
+        source=[abjad.PitchSegment(
+            items=[abjad.NamedPitch('G0'), abjad.NamedPitch('A1')], 
+            item_class=abjad.NamedPitch,
+            )],
+        ),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(cb, (2, 5)),
-    specifiers=[
-        pitch_specifier(
-            source=[abjad.PitchSegment(
-                items=[abjad.NamedPitch('G#0'), abjad.NamedPitch('A#1')], 
-                item_class=abjad.NamedPitch,
-                )],
-            ),
-        ],
+segment_maker.append_specifiers(
+    (cb, (2, 5)),
+    pitch_specifier(
+        source=[abjad.PitchSegment(
+            items=[abjad.NamedPitch('G#0'), abjad.NamedPitch('A#1')], 
+            item_class=abjad.NamedPitch,
+            )],
+        ),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(cb, (6, 7)),
-    specifiers=[
-        pitch_specifier(
-            source=[abjad.PitchSegment(
-                items=[abjad.NamedPitch('G0'), abjad.NamedPitch('A1')], 
-                item_class=abjad.NamedPitch,
-                )],
-            ),
-        ],
+segment_maker.append_specifiers(
+    (cb, (6, 7)),
+    pitch_specifier(
+        source=[abjad.PitchSegment(
+            items=[abjad.NamedPitch('G0'), abjad.NamedPitch('A1')], 
+            item_class=abjad.NamedPitch,
+            )],
+        ),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(cb, (2, 2)),
-    specifiers=[
-        Dynamic('p'),
-        ],
+segment_maker.append_specifiers(
+    (cb, (2, 2)),
+    Dynamic('p'),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(cb, (3, 4)),
-    specifiers=[
-        baca.tools.HairpinSpecifier(
-            hairpin_token=['p < f'],
-            span='contiguous notes and chords',
-            ),
-        ],
+segment_maker.append_specifiers(
+    (cb, (3, 4)),
+    baca.tools.HairpinSpecifier(
+        hairpin_token=['p < f'],
+        span='contiguous notes and chords',
+        ),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(cb, (5, 5)),
-    specifiers=[
-        Dynamic('fff'),
-        estr_sul_pont,
-        ],
+segment_maker.append_specifiers(
+    (cb, (5, 5)),
+    Dynamic('fff'),
+    estr_sul_pont,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(cb, (6, 9)),
-    specifiers=[
-        arco_ordinario,
-        ],
+segment_maker.append_specifiers(
+    (cb, (6, 9)),
+    arco_ordinario,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(cb, (8, 9)),
-    specifiers=[
-        Dynamic('mp'),
-        pitch_specifier(source='G0'),
-        pervasive_F3_harmonic_trills,
-        scodanibbio,
-        ],
+segment_maker.append_specifiers(
+    (cb, (8, 9)),
+    Dynamic('mp'),
+    pitch_specifier(source='G0'),
+    pervasive_F3_harmonic_trills,
+    scodanibbio,
     )
