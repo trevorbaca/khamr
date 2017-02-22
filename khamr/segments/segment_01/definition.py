@@ -45,7 +45,7 @@ guitar_accelerando = abjad.rhythmmakertools.InterpolationSpecifier(
 
 guitar_ritardando = guitar_accelerando.reverse()
 
-### FLUTE MAKERS ###
+### FLUTE ###
 
 segment_maker.define_rhythm(
     stages=(1, 7),
@@ -103,7 +103,7 @@ segment_maker.define_rhythm(
         ),
     )
 
-### CLARINET MAKERS ###
+### CLARINET ###
 
 segment_maker.define_rhythm(
     stages=(1, 7),
@@ -132,7 +132,7 @@ segment_maker.define_rhythm(
         ),
     )
 
-### SAXOPHONE MAKERS ###
+### SAXOPHONE ###
 
 segment_maker.define_rhythm(
     stages=(1, 7),
@@ -161,7 +161,7 @@ segment_maker.define_rhythm(
         ),
     )
 
-### GUITAR MAKERS ###
+### GUITAR ###
 
 segment_maker.define_rhythm(
     stages=(1, 3),
@@ -228,7 +228,7 @@ segment_maker.copy_rhythm(
         ],
     )
 
-### PIANO MAKERS ###
+### PIANO ###
 
 segment_maker.define_rhythm(
     stages=(1, 3),
@@ -312,7 +312,7 @@ segment_maker.define_rhythm(
         ),
     )
 
-### PERCUSSION MAKERS ###
+### PERCUSSION ###
 
 segment_maker.define_rhythm(
     stages=(1, 7),
@@ -330,7 +330,7 @@ segment_maker.define_rhythm(
         )
     )
 
-### VIOLIN MAKERS ###
+### VIOLIN ###
 
 segment_maker.define_rhythm(
     stages=(1, 5),
@@ -372,7 +372,7 @@ segment_maker.define_rhythm(
         ),
     )
 
-### VIOLA MAKERS ###
+### VIOLA ###
 
 segment_maker.define_rhythm(
     stages=(1, 5),
@@ -414,7 +414,7 @@ segment_maker.define_rhythm(
         ),
     )
 
-### CELLO MAKERS ###
+### CELLO ###
 
 segment_maker.define_rhythm(
     stages=(1, 5),
@@ -456,7 +456,7 @@ segment_maker.define_rhythm(
         ),
     )
 
-### CONTRABASS MAKERS ###
+### CONTRABASS ###
 
 segment_maker.define_rhythm(
     stages=(1, 7),
