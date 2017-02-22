@@ -1071,10 +1071,10 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         message = message.format(voice_name, stage)
         raise KeyError(message)
 
-    def make_scoped_specifiers(
+    def append_specifiers(
         self, 
         scope, 
-        specifiers,
+        *specifiers
         ):
         r'''Makes scoped specifiers.
 

@@ -408,67 +408,53 @@ segment_maker.copy_rhythm(
 
 ### GUITAR ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(gt, [(1, 5), (7, 9)]),
-    specifiers=[
-        abjad.Dynamic('ff'),
-        shakers,
-        stem_tremolo,
-        ]
+segment_maker.append_specifiers(
+    (gt, [(1, 5), (7, 9)]),
+    abjad.Dynamic('ff'),
+    shakers,
+    stem_tremolo,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(gt, (6, 6)),
-    specifiers=[
-        fret_guiro,
-        ]
+segment_maker.append_specifiers(
+    (gt, (6, 6)),
+    fret_guiro,
     )
 
 ### PIANO ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(pf, (1, 9)),
-    specifiers=[
-        stem_tremolo,
-        ]
+segment_maker.append_specifiers(
+    (pf, (1, 9)),
+    stem_tremolo,
     )
 
 ### PERCUSSION ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(perc, (1, 9)),
-    specifiers=[
-        stem_tremolo,
-        ]
+segment_maker.append_specifiers(
+    (perc, (1, 9)),
+    stem_tremolo,
     )
 
 ### VIOLIN ###
 
-segment_maker.make_scoped_specifiers(
-    scope=([vn, va], (1, 5)),
-    specifiers=[
-        stem_tremolo,
-        ]
+segment_maker.append_specifiers(
+    ([vn, va], (1, 5)),
+    stem_tremolo,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=([vn, va], (7, 9)),
-    specifiers=[
-        abjad.Dynamic('fff'),
-        shakers,
-        stem_tremolo,
-        ]
+segment_maker.append_specifiers(
+    ([vn, va], (7, 9)),
+    abjad.Dynamic('fff'),
+    shakers,
+    stem_tremolo,
     )
 
 ### VIOLA ###
 
 ### CELLO ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(vc, (1, 9)),
-    specifiers=[
-        stem_tremolo,
-        ]
+segment_maker.append_specifiers(
+    (vc, (1, 9)),
+    stem_tremolo,
     )
 
 ### CONTRABASS ###

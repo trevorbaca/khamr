@@ -346,159 +346,127 @@ segment_maker.define_rhythm(
 #################################### COLOR ####################################
 ###############################################################################
 
-### FLUTE HANDLERS ###
+### FLUTE ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(fl, (1, 7)),
-    specifiers=[
-        # sounds B3
-        pitch_specifier(source='Bb4'),
-        ],
+segment_maker.append_specifiers(
+    (fl, (1, 7)),
+    # sounds B3
+    pitch_specifier(source='Bb4'),
     )
 
-### OBOE HANDLERS ###
+### OBOE ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(ob, (1, 7)),
-    specifiers=[
-        # dummy centerline pitch
-        pitch_specifier(source='B4'),
-        one_line_staff,
-        repeat_tie_up,
-        ],
+segment_maker.append_specifiers(
+    (ob, (1, 7)),
+    # dummy centerline pitch
+    pitch_specifier(source='B4'),
+    one_line_staff,
+    repeat_tie_up,
     )
 
-### CLARINET HANDLERS ###
+### CLARINET ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(cl, (1, 7)),
-    specifiers=[
-        pitch_specifier(source='G2'),
-        ]
+segment_maker.append_specifiers(
+    (cl, (1, 7)),
+    pitch_specifier(source='G2'),
     )
 
-### SAXOPHONE HANDLERS ###
+### SAXOPHONE ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(sax, (1, 7)),
-    specifiers=[
-        # dummy centerline pitch
-        pitch_specifier(source='D5'),
-        one_line_staff,
-        repeat_tie_up,
-        ],
+segment_maker.append_specifiers(
+    (sax, (1, 7)),
+    # dummy centerline pitch
+    pitch_specifier(source='D5'),
+    one_line_staff,
+    repeat_tie_up,
     )
 
-### GUITAR HANDLERS ##
+### GUITAR ##
 
-segment_maker.make_scoped_specifiers(
-    scope=(gt, (1, 8)),
-    specifiers=[
-        pitch_specifier(source='C4'),
-        reiterated_flageolets,
-        reiterated_mf,
-        pervasive_accents,
-        ],
+segment_maker.append_specifiers(
+    (gt, (1, 8)),
+    pitch_specifier(source='C4'),
+    reiterated_flageolets,
+    reiterated_mf,
+    pervasive_accents,
     )
 
-### PIANO HANDLERS ###
+### PIANO ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(pf, (1, 8)),
-    specifiers=[
-        pitch_specifier(source='A#4'),
-        reiterated_mf,
-        pervasive_accents,
-        ],
+segment_maker.append_specifiers(
+    (pf, (1, 8)),
+    pitch_specifier(source='A#4'),
+    reiterated_mf,
+    pervasive_accents,
     )
 
-### PERCUSSION HANDLERS ###
+### PERCUSSION ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(perc, (1, 2)),
-    specifiers=[
-        stem_tremolo,
-        baca.tools.HairpinSpecifier(
-            hairpin_token=['pp > ppp'],
-            span='contiguous notes and chords',
-            ),
-        ],
+segment_maker.append_specifiers(
+    (perc, (1, 2)),
+    stem_tremolo,
+    baca.tools.HairpinSpecifier(
+        hairpin_token=['pp > ppp'],
+        span='contiguous notes and chords',
+        ),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(perc, (4, 7)),
-    specifiers=[
-        abjad.Dynamic('fff'),
-        stem_tremolo,
-        percussion_reminder_markup('snare drum'),
-        ],
+segment_maker.append_specifiers(
+    (perc, (4, 7)),
+    abjad.Dynamic('fff'),
+    stem_tremolo,
+    percussion_reminder_markup('snare drum'),
     )
 
-### VIOLIN HANDLERS ###
+### VIOLIN ###
 
-### VIOLA HANDLERS ###
+### VIOLA ###
 
-### CELLO HANDLERS #####
+### CELLO #####
 
-### CONTRABASS HANDLERS ###
+### CONTRABASS ###
 
 ### STRINGS ###
 
-segment_maker.make_scoped_specifiers(
-    scope=([vn, va, vc], (1, 7)),
-    specifiers=[
-        pitch_specifier(source='C4'),
-        ],
+segment_maker.append_specifiers(
+    ([vn, va, vc], (1, 7)),
+    pitch_specifier(source='C4'),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(cb, (1, 7)),
-    specifiers=[
-        pitch_specifier(source='C3'),
-        ],
+segment_maker.append_specifiers(
+    (cb, (1, 7)),
+    pitch_specifier(source='C3'),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=([vn, va, vc, cb], (1, 7)),
-    specifiers=[
-        one_line_staff,
-        ],
+segment_maker.append_specifiers(
+    ([vn, va, vc, cb], (1, 7)),
+    one_line_staff,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=([vn, va, vc, cb], (1, 7)),
-    specifiers=[
-        alternate_bow_strokes,
-        ],
+segment_maker.append_specifiers(
+    ([vn, va, vc, cb], (1, 7)),
+    alternate_bow_strokes,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=([vn, va], (1, 7)),
-    specifiers=[
-        bow_on_wooden_mute,
-        ],
+segment_maker.append_specifiers(
+    ([vn, va], (1, 7)),
+    bow_on_wooden_mute,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=([vc, cb], (1, 7)),
-    specifiers=[
-        bow_on_tailpiece,
-        ],
+segment_maker.append_specifiers(
+    ([vc, cb], (1, 7)),
+    bow_on_tailpiece,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=([vn, va, vc, cb], (1, 3)),
-    specifiers=[
-        abjad.Dynamic('p'),
-        ],
+segment_maker.append_specifiers(
+    ([vn, va, vc, cb], (1, 3)),
+    abjad.Dynamic('p'),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=([vn, va, vc, cb], (4, 7)),
-    specifiers=[
-        baca.tools.HairpinSpecifier(
-            hairpin_token=['p > ppp'],
-            span='contiguous notes and chords',
-            ),
-        ],
+segment_maker.append_specifiers(
+    ([vn, va, vc, cb], (4, 7)),
+    baca.tools.HairpinSpecifier(
+        hairpin_token=['p > ppp'],
+        span='contiguous notes and chords',
+        ),
     )

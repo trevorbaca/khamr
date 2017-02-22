@@ -550,384 +550,322 @@ segment_maker.copy_rhythm(
 ############################### COLOR ################################
 ###############################################################################
 
-### FLUTE HANDLERS ###
+### FLUTE ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(fl, (1, 2)),
-    specifiers=[
-        pitch_specifier(
-            source='Bb4',
-            ),
-        pervasive_trills,
-        bass_flute_tremoli_hairpins,
-        ],
+segment_maker.append_specifiers(
+    (fl, (1, 2)),
+    pitch_specifier(
+        source='Bb4',
+        ),
+    pervasive_trills,
+    bass_flute_tremoli_hairpins,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(fl, (4, 5)),
-    specifiers=[
-        reiterated_fff,
-        pitch_specifier(
-            source='B5',
-            ),
-        stem_tremolo,
-        fluttertongue,
-        khamr.materials.instruments['flute'],
-        ],
+segment_maker.append_specifiers(
+    (fl, (4, 5)),
+    reiterated_fff,
+    pitch_specifier(
+        source='B5',
+        ),
+    stem_tremolo,
+    fluttertongue,
+    khamr.materials.instruments['flute'],
     )
 
-### OBOE HANDLERS ###
+### OBOE ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(ob, (1, 2)),
-    specifiers=[
-        pitch_specifier(
-            source=[abjad.PitchSegment(
-                items=[abjad.NamedPitch('A4'), abjad.NamedPitch('E5')], 
-                item_class=abjad.NamedPitch,
-                )],
-            ),
-        reiterated_flageolets,
-        ]
+segment_maker.append_specifiers(
+    (ob, (1, 2)),
+    pitch_specifier(
+        source=[abjad.PitchSegment(
+            items=[abjad.NamedPitch('A4'), abjad.NamedPitch('E5')], 
+            item_class=abjad.NamedPitch,
+            )],
+        ),
+    reiterated_flageolets,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(ob, (4, 5)),
-    specifiers=[
-        reiterated_fff,
-        pitch_specifier(
-            source='G#3',
-            ),
-        ]
+segment_maker.append_specifiers(
+    (ob, (4, 5)),
+    reiterated_fff,
+    pitch_specifier(
+        source='G#3',
+        ),
     )
 
-### CLARINET HANDLERS ###
+### CLARINET ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(cl, (1, 3)),
-    specifiers=[
-        pitch_specifier(
-            source='G2',
-            ),
-        ]
+segment_maker.append_specifiers(
+    (cl, (1, 3)),
+    pitch_specifier(
+        source='G2',
+        ),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(cl, (4, 5)),
-    specifiers=[
-        reiterated_fff,
-        pitch_specifier(
-            source='F#2',
-            ),
-        ]
+segment_maker.append_specifiers(
+    (cl, (4, 5)),
+    reiterated_fff,
+    pitch_specifier(
+        source='F#2',
+        ),
     )
 
-### SAXOPHONE HANDLERS ###
+### SAXOPHONE ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(sax, (1, 2)),
-    specifiers=[
-        pitch_specifier(
-            source=[abjad.PitchSegment(
-                items=[abjad.NamedPitch('F3'), abjad.NamedPitch('G+3')], 
-                item_class=abjad.NamedPitch,
-                )],
-            ),
-        ]
+segment_maker.append_specifiers(
+    (sax, (1, 2)),
+    pitch_specifier(
+        source=[abjad.PitchSegment(
+            items=[abjad.NamedPitch('F3'), abjad.NamedPitch('G+3')], 
+            item_class=abjad.NamedPitch,
+            )],
+        ),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(sax, (4, 5)),
-    specifiers=[
-        reiterated_fff,
-        pitch_specifier(
-            source='G#2',
-            ),
-        ]
+segment_maker.append_specifiers(
+    (sax, (4, 5)),
+    reiterated_fff,
+    pitch_specifier(
+        source='G#2',
+        ),
     )
 
-### GUITAR HANDLERS ###
+### GUITAR ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(gt, (1, 1)),
-    specifiers=[
-        pitch_specifier(
-            source=khamr.materials.rose_pitch_classes,
-            start_index=16,
-            ),
-        cross_note_heads,
-        ],
+segment_maker.append_specifiers(
+    (gt, (1, 1)),
+    pitch_specifier(
+        source=khamr.materials.rose_pitch_classes,
+        start_index=16,
+        ),
+    cross_note_heads,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(gt, (2, 3)),
-    specifiers=[
-        abjad.Dynamic('mf'),
-        pitch_specifier(source='F#2'),
-        sparse_guitar_clicks,
-        ],
+segment_maker.append_specifiers(
+    (gt, (2, 3)),
+    abjad.Dynamic('mf'),
+    pitch_specifier(source='F#2'),
+    sparse_guitar_clicks,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(gt, (4, 5)),
-    specifiers=[
-        abjad.Dynamic('ff'),
-        guitar_with_screw,
-        pitch_specifier(source='G2'),
-        ],
+segment_maker.append_specifiers(
+    (gt, (4, 5)),
+    abjad.Dynamic('ff'),
+    guitar_with_screw,
+    pitch_specifier(source='G2'),
     )
 
-### PIANO HANDLERS ###
+### PIANO ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(pf, (1, 3)),
-    specifiers=[
-        one_line_staff,
-        # dummy centerline pitch
-        pitch_specifier(source='C4'),
-        repeat_tie_up,
-        ],
+segment_maker.append_specifiers(
+    (pf, (1, 3)),
+    one_line_staff,
+    # dummy centerline pitch
+    pitch_specifier(source='C4'),
+    repeat_tie_up,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(pf, (4, 4)),
-    specifiers=[
-        reiterated_fff,
-        abjad.Clef('bass'),
-        pitch_specifier(
-            source=[abjad.PitchSegment(
-                items=[
-                    abjad.NamedPitch('A0'), 
-                    abjad.NamedPitch('B0'),
-                    abjad.NamedPitch('C1'),
-                    abjad.NamedPitch('D1'),
-                    abjad.NamedPitch('E1'),
-                    abjad.NamedPitch('F1'),
-                    abjad.NamedPitch('G1'),
-                    abjad.NamedPitch('A1'),
-                    ], 
-                item_class=abjad.NamedPitch,
-                )],
-            ),
-        ottava_bassa,
-        stem_tremolo,
-        ],
+segment_maker.append_specifiers(
+    (pf, (4, 4)),
+    reiterated_fff,
+    abjad.Clef('bass'),
+    pitch_specifier(
+        source=[abjad.PitchSegment(
+            items=[
+                abjad.NamedPitch('A0'), 
+                abjad.NamedPitch('B0'),
+                abjad.NamedPitch('C1'),
+                abjad.NamedPitch('D1'),
+                abjad.NamedPitch('E1'),
+                abjad.NamedPitch('F1'),
+                abjad.NamedPitch('G1'),
+                abjad.NamedPitch('A1'),
+                ], 
+            item_class=abjad.NamedPitch,
+            )],
+        ),
+    ottava_bassa,
+    stem_tremolo,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(pf, (5, 5)),
-    specifiers=[
-        abjad.Clef('treble'),
-        abjad.Dynamic('fff'),
-        pitch_specifier(
-            source=khamr.materials.rose_pitch_classes,
-            operators=[abjad.Inversion()],
-            ),
-        sixth_octave,
-        ottava,
-        ],
+segment_maker.append_specifiers(
+    (pf, (5, 5)),
+    abjad.Clef('treble'),
+    abjad.Dynamic('fff'),
+    pitch_specifier(
+        source=khamr.materials.rose_pitch_classes,
+        operators=[abjad.Inversion()],
+        ),
+    sixth_octave,
+    ottava,
     )
 
-### PERCUSSION HANDLERS ###
+### PERCUSSION ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(perc, (1, 3)),
-    specifiers=[
-        pitch_specifier(
-            source='C4 C4 Ab5 C4 C4 C4',
-            ),
-        stem_direction(Down),
-        khamr.tools.MarimbaHitSpecifier(
-            indices=[2],
-            ),
-        pervasive_accents,
-        ],
+segment_maker.append_specifiers(
+    (perc, (1, 3)),
+    pitch_specifier(
+        source='C4 C4 Ab5 C4 C4 C4',
+        ),
+    stem_direction(Down),
+    khamr.tools.MarimbaHitSpecifier(
+        indices=[2],
+        ),
+    pervasive_accents,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(perc, (4, 5)),
-    specifiers=[
-        pitch_specifier(
-            source='Ab5',
-            ),
-        stem_direction(Down),
-        khamr.tools.MarimbaHitSpecifier(
-            indices=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-            ),
-        ],
+segment_maker.append_specifiers(
+    (perc, (4, 5)),
+    pitch_specifier(
+        source='Ab5',
+        ),
+    stem_direction(Down),
+    khamr.tools.MarimbaHitSpecifier(
+        indices=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+        ),
     )
 
-### VIOLIN HANDLERS ###
+### VIOLIN ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(vn, (1, 1)),
-    specifiers=[
-        pitch_specifier(
-            source=khamr.materials.color_trill_pitches,
-            operators=[abjad.Transposition(n=1)],
-            ),
-        pervasive_trills_at_interval(abjad.NamedInterval('m2')),
-        ],
+segment_maker.append_specifiers(
+    (vn, (1, 1)),
+    pitch_specifier(
+        source=khamr.materials.color_trill_pitches,
+        operators=[abjad.Transposition(n=1)],
+        ),
+    pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(vn, (2, 2)),
-    specifiers=[
-        pitch_specifier(
-            source=khamr.materials.color_trill_pitches,
-            operators=[abjad.Transposition(n=2)],
-            ),
-        pervasive_trills_at_interval(abjad.NamedInterval('m2')),
-        ],
+segment_maker.append_specifiers(
+    (vn, (2, 2)),
+    pitch_specifier(
+        source=khamr.materials.color_trill_pitches,
+        operators=[abjad.Transposition(n=2)],
+        ),
+    pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(vn, (3, 3)),
-    specifiers=[
-        pitch_specifier(
-            source=khamr.materials.color_trill_pitches,
-            operators=[abjad.Transposition(n=3)],
-            ),
-        pervasive_trills_at_interval(abjad.NamedInterval('m2')),
-        ],
+segment_maker.append_specifiers(
+    (vn, (3, 3)),
+    pitch_specifier(
+        source=khamr.materials.color_trill_pitches,
+        operators=[abjad.Transposition(n=3)],
+        ),
+    pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(vn, (1, 3)),
-    specifiers=[
-        pervasive_accents,
-        ],
+segment_maker.append_specifiers(
+    (vn, (1, 3)),
+    pervasive_accents,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(vn, (4, 5)),
-    specifiers=[
-        reiterated_fff,
-        pitch_specifier(
-            source='A4',
-            ),
-        arco_ordinario,
-        ],
+segment_maker.append_specifiers(
+    (vn, (4, 5)),
+    reiterated_fff,
+    pitch_specifier(
+        source='A4',
+        ),
+    arco_ordinario,
     )
 
-### VIOLA HANDLERS ###
+### VIOLA ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(va, (1, 1)),
-    specifiers=[
-        pitch_specifier(
-            source=khamr.materials.color_trill_pitches,
-            ),
-        pervasive_trills_at_interval(abjad.NamedInterval('m2')),
-        ],
+segment_maker.append_specifiers(
+    (va, (1, 1)),
+    pitch_specifier(
+        source=khamr.materials.color_trill_pitches,
+        ),
+    pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(va, (2, 2)),
-    specifiers=[
-        pitch_specifier(
-            source=khamr.materials.color_trill_pitches,
-            operators=[abjad.Transposition(n=1)],
-            ),
-        pervasive_trills_at_interval(abjad.NamedInterval('m2')),
-        ],
+segment_maker.append_specifiers(
+    (va, (2, 2)),
+    pitch_specifier(
+        source=khamr.materials.color_trill_pitches,
+        operators=[abjad.Transposition(n=1)],
+        ),
+    pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(va, (3, 3)),
-    specifiers=[
-        pitch_specifier(
-            source=khamr.materials.color_trill_pitches,
-            operators=[abjad.Transposition(n=2)],
-            ),
-        pervasive_trills_at_interval(abjad.NamedInterval('m2')),
-        ],
+segment_maker.append_specifiers(
+    (va, (3, 3)),
+    pitch_specifier(
+        source=khamr.materials.color_trill_pitches,
+        operators=[abjad.Transposition(n=2)],
+        ),
+    pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(va, (1, 3)),
-    specifiers=[
-        pervasive_accents,
-        ],
+segment_maker.append_specifiers(
+    (va, (1, 3)),
+    pervasive_accents,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(va, (4, 5)),
-    specifiers=[
-        reiterated_fff,
-        pitch_specifier(
-            source='G#4',
-            ),
-        arco_ordinario,
-        ],
+segment_maker.append_specifiers(
+    (va, (4, 5)),
+    reiterated_fff,
+    pitch_specifier(
+        source='G#4',
+        ),
+    arco_ordinario,
     )
 
-### CELLO HANDLERS ###
+### CELLO ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(vc, (1, 2)),
-    specifiers=[
-        pitch_specifier(
-            source=khamr.materials.color_trill_pitches,
-            ),
-        pervasive_trills_at_interval(abjad.NamedInterval('m2')),
-        pervasive_accents,
-        ],
+segment_maker.append_specifiers(
+    (vc, (1, 2)),
+    pitch_specifier(
+        source=khamr.materials.color_trill_pitches,
+        ),
+    pervasive_trills_at_interval(abjad.NamedInterval('m2')),
+    pervasive_accents,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(vc, (3, 3)),
-    specifiers=[
-        abjad.Dynamic('mf'),
-        pitch_specifier(
-            source='F#3',
-            ),
-        sparse_cello_clicks,
-        ],
+segment_maker.append_specifiers(
+    (vc, (3, 3)),
+    abjad.Dynamic('mf'),
+    pitch_specifier(
+        source='F#3',
+        ),
+    sparse_cello_clicks,
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(vc, (4, 5)),
-    specifiers=[
-        reiterated_fff,
-        pitch_specifier(
-            source='G3',
-            ),
-        arco_ordinario,
-        ],
+segment_maker.append_specifiers(
+    (vc, (4, 5)),
+    reiterated_fff,
+    pitch_specifier(
+        source='G3',
+        ),
+    arco_ordinario,
     )
 
-### CONTRABASS HANDLERS ###
+### CONTRABASS ###
 
-segment_maker.make_scoped_specifiers(
-    scope=(cb, (1, 3)),
-    specifiers=[
-        pitch_specifier(
-            source=khamr.materials.double_stop_halo_pitches,
-            start_index=0,
-            ),
-        baca.tools.abjad.GlissandoSpecifier(
-            patterns=[
-                abjad.rhythmmakertools.select_all(),
-                abjad.silence_last(1),
-                ],
-            ),
-        natural_harmonics,
-        strings_III_and_IV,
-        abjad.Dynamic('mf'),
-        ],
+segment_maker.append_specifiers(
+    (cb, (1, 3)),
+    pitch_specifier(
+        source=khamr.materials.double_stop_halo_pitches,
+        start_index=0,
+        ),
+    baca.tools.abjad.GlissandoSpecifier(
+        patterns=[
+            abjad.rhythmmakertools.select_all(),
+            abjad.silence_last(1),
+            ],
+        ),
+    natural_harmonics,
+    strings_III_and_IV,
+    abjad.Dynamic('mf'),
     )
 
-segment_maker.make_scoped_specifiers(
-    scope=(cb, (4, 5)),
-    specifiers=[
-        reiterated_fff,
-        pitch_specifier(
-            source=[abjad.PitchSegment(
-                items=[abjad.NamedPitch('G0'), abjad.NamedPitch('A1')], 
-                item_class=abjad.NamedPitch,
-                )],
-            ),
-        arco_ordinario,
-        ],
+segment_maker.append_specifiers(
+    (cb, (4, 5)),
+    reiterated_fff,
+    pitch_specifier(
+        source=[abjad.PitchSegment(
+            items=[abjad.NamedPitch('G0'), abjad.NamedPitch('A1')], 
+            item_class=abjad.NamedPitch,
+            )],
+        ),
+    arco_ordinario,
     )
