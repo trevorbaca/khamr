@@ -2,7 +2,7 @@
 import abjad
 
 
-metadata = abjad.datastructuretools.TypedOrderedDict([
+metadata = abjad.TypedOrderedDict([
     ('catalog_number', 'AWN-011'),
     ('forces_tagline', 'for eleven players'),
     ('paper_size', '11 x 17 in'),

@@ -21,7 +21,7 @@ def make_long_markup(string):
 def make_short_markup(string):
     return make_markup(string, short_space)
 
-instruments = abjad.datastructuretools.TypedOrderedDict([
+instruments = abjad.TypedOrderedDict([
     (
         'baritone saxophone', 
         abjad.instrumenttools.BaritoneSaxophone(

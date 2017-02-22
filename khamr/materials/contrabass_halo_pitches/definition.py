@@ -14,4 +14,4 @@ assert len(contrabass_halo_pitches) == 33
 contrabass_halo_pitches = [
     abjad.NamedPitch(_) for _ in contrabass_halo_pitches]
 contrabass_halo_pitches = \
-    abjad.datastructuretools.CyclicTuple(contrabass_halo_pitches)
+    abjad.CyclicTuple(contrabass_halo_pitches)

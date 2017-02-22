@@ -21,7 +21,7 @@ def make_long_markup(string):
 def make_short_markup(string):
     return make_markup(string, short_space)
 
-percussion_instruments = abjad.datastructuretools.TypedOrderedDict([
+percussion_instruments = abjad.TypedOrderedDict([
     (
         'almglocken', 
         abjad.instrumenttools.Percussion(
