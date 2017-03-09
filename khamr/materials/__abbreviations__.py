@@ -289,13 +289,13 @@ reiterated_pp = baca.reiterated_dynamic(dynamic_name='pp')
 
 remove_reed = abjad.Markup('remove reed', direction=Up).larger()
 
-repeat_tie_down = baca.tools.OverrideSpecifier(
+repeat_ties_down = baca.tools.OverrideSpecifier(
     grob_name='repeat_tie',
     attribute_name='direction',
     attribute_value='Down',
     )
 
-repeat_tie_up = baca.tools.OverrideSpecifier(
+repeat_ties_up = baca.tools.OverrideSpecifier(
     grob_name='repeat_tie',
     attribute_name='direction',
     attribute_value='Up',

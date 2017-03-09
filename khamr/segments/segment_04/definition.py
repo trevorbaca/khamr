@@ -361,7 +361,7 @@ segment_maker.append_specifiers(
     # dummy centerline pitch
     pitch_specifier(source='B4'),
     one_line_staff,
-    repeat_tie_up,
+    repeat_ties_up,
     )
 
 ### CLARINET ###
@@ -378,7 +378,7 @@ segment_maker.append_specifiers(
     # dummy centerline pitch
     pitch_specifier(source='D5'),
     one_line_staff,
-    repeat_tie_up,
+    repeat_ties_up,
     )
 
 ### GUITAR ##

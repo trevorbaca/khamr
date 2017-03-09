@@ -559,7 +559,7 @@ segment_maker.append_specifiers(
     pitch_specifier(source='B4'),
     air_tone_without_reed,
     one_line_staff,
-    repeat_tie_up,
+    repeat_ties_up,
     )
 
 ### CLARINET ###
@@ -615,7 +615,7 @@ segment_maker.append_specifiers(
     pitch_specifier(source='D5'),
     air_tone,
     one_line_staff,
-    repeat_tie_up,
+    repeat_ties_up,
     )
 
 ### GUITAR ###

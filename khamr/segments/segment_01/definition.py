@@ -531,7 +531,7 @@ segment_maker.append_specifiers(
     pitch_specifier(
         source='E4',
         ),
-    repeat_tie_up,
+    repeat_ties_up,
     )
 
 segment_maker.append_specifiers(
@@ -623,7 +623,7 @@ segment_maker.append_specifiers(
     pitch_specifier(
         source='C4',
         ),
-    repeat_tie_up,
+    repeat_ties_up,
     pervasive_accents,
     )
 
@@ -645,7 +645,7 @@ segment_maker.append_specifiers(
     pitch_specifier(
         source='C4',
         ),
-    repeat_tie_up,
+    repeat_ties_up,
     one_line_staff,
     )
 

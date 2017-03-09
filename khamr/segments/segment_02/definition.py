@@ -662,7 +662,7 @@ segment_maker.append_specifiers(
     one_line_staff,
     # dummy centerline pitch
     pitch_specifier(source='C4'),
-    repeat_tie_up,
+    repeat_ties_up,
     )
 
 segment_maker.append_specifiers(
