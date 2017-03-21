@@ -92,9 +92,7 @@ def make_effort_dynamic_markup(dynamic_text, direction=Down):
     markup._direction = direction
     return markup
 
-pervasive_accents = baca.tools.ArticulationSpecifier(
-    articulations=['>'],
-    )
+pervasive_accents = baca.accents()
 
 air_tone = abjad.Markup('air tone', direction=Up).larger()
 
@@ -522,52 +520,27 @@ pervasive_F3_harmonic_trills = baca.tools.TrillSpecifier(
 
 ### articulation specifiers ###
 
-alternate_accented_bow_strokes = baca.tools.ArticulationSpecifier(
-    articulations=(['upbow', 'accent'], ['downbow', 'accent']),
-    )
+alternate_bow_strokes = baca.alternate_bow_strokes()
 
-alternate_bow_strokes = baca.tools.ArticulationSpecifier(
-    articulations=(['upbow'], ['downbow']),
-    )
+double_tonguing = baca.double_tonguing()
 
-double_tonguing = baca.tools.ArticulationSpecifier(
-    articulations=['tongue #2'],
-    )
-
-marcati = baca.tools.ArticulationSpecifier(
-    articulations=['marcato'],
-    #skip_ties=True,
-    )
+marcati = baca.marcati()
 
 # TODO: tweak shape later
-pervasive_lv = baca.tools.ArticulationSpecifier(
-    articulations=['laissezVibrer'],
-    )
+pervasive_lv = baca.laissez_vibrer()
 
-staccati = baca.tools.ArticulationSpecifier(
-    articulations=['staccato'],
-    #maximum_duration=abjad.Duration(1, 4),
-    #skip_ties=True,
-    )
+staccati = baca.staccati()
 
-staccatissimi = baca.tools.ArticulationSpecifier(
-    articulations=['staccatissimo'],
-    #skip_ties=True,
-    )
+staccatissimi = baca.staccatissimi()
 
-tenuti = baca.tools.ArticulationSpecifier(
-    articulations=['tenuto'],
-    )
+tenuti = baca.tenuti()
 
-reiterated_flageolets = baca.tools.ArticulationSpecifier(
-    articulations=['flageolet'],
-    )
+reiterated_flageolets = baca.flageolets()
     
 ### DYNAMICS ###
 
-patterned_f_ff = baca.tools.ArticulationSpecifier(
+patterned_f_ff = baca.reiterated_dynamics(
     articulations=['f', 'f', 'ff', 'f', 'ff', 'f', 'f', 'ff', 'ff'],
-    #minimum_duration=abjad.Duration(1, 8),
     )
 
 repeated_p_to_ppp = baca.tools.HairpinSpecifier(
