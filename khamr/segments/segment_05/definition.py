@@ -408,41 +408,47 @@ segment_maker.copy_rhythm(
 
 ### GUITAR ###
 
-segment_maker.append_specifiers(
-    (gt, [(1, 5), (7, 9)]),
+segment_maker.append_commands(
+    gt,
+    [(1, 5), (7, 9)],
     abjad.Dynamic('ff'),
     shakers,
     stem_tremolo,
     )
 
-segment_maker.append_specifiers(
-    (gt, (6, 6)),
+segment_maker.append_commands(
+    gt,
+    (6, 6),
     fret_guiro,
     )
 
 ### PIANO ###
 
-segment_maker.append_specifiers(
-    (pf, (1, 9)),
+segment_maker.append_commands(
+    pf,
+    (1, 9),
     stem_tremolo,
     )
 
 ### PERCUSSION ###
 
-segment_maker.append_specifiers(
-    (perc, (1, 9)),
+segment_maker.append_commands(
+    perc,
+    (1, 9),
     stem_tremolo,
     )
 
 ### VIOLIN ###
 
-segment_maker.append_specifiers(
-    ([vn, va], (1, 5)),
+segment_maker.append_commands(
+    [vn, va],
+    (1, 5),
     stem_tremolo,
     )
 
-segment_maker.append_specifiers(
-    ([vn, va], (7, 9)),
+segment_maker.append_commands(
+    [vn, va],
+    (7, 9),
     abjad.Dynamic('fff'),
     shakers,
     stem_tremolo,
@@ -452,8 +458,9 @@ segment_maker.append_specifiers(
 
 ### CELLO ###
 
-segment_maker.append_specifiers(
-    (vc, (1, 9)),
+segment_maker.append_commands(
+    vc,
+    (1, 9),
     stem_tremolo,
     )
 

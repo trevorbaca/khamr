@@ -552,8 +552,9 @@ segment_maker.copy_rhythm(
 
 ### FLUTE ###
 
-segment_maker.append_specifiers(
-    (fl, (1, 2)),
+segment_maker.append_commands(
+    fl,
+    (1, 2),
     pitch_specifier(
         source='Bb4',
         ),
@@ -561,8 +562,9 @@ segment_maker.append_specifiers(
     bass_flute_tremoli_hairpins,
     )
 
-segment_maker.append_specifiers(
-    (fl, (4, 5)),
+segment_maker.append_commands(
+    fl,
+    (4, 5),
     reiterated_fff,
     pitch_specifier(
         source='B5',
@@ -574,8 +576,9 @@ segment_maker.append_specifiers(
 
 ### OBOE ###
 
-segment_maker.append_specifiers(
-    (ob, (1, 2)),
+segment_maker.append_commands(
+    ob,
+    (1, 2),
     pitch_specifier(
         source=[abjad.PitchSegment(
             items=[abjad.NamedPitch('A4'), abjad.NamedPitch('E5')], 
@@ -585,8 +588,9 @@ segment_maker.append_specifiers(
     reiterated_flageolets,
     )
 
-segment_maker.append_specifiers(
-    (ob, (4, 5)),
+segment_maker.append_commands(
+    ob,
+    (4, 5),
     reiterated_fff,
     pitch_specifier(
         source='G#3',
@@ -595,15 +599,17 @@ segment_maker.append_specifiers(
 
 ### CLARINET ###
 
-segment_maker.append_specifiers(
-    (cl, (1, 3)),
+segment_maker.append_commands(
+    cl,
+    (1, 3),
     pitch_specifier(
         source='G2',
         ),
     )
 
-segment_maker.append_specifiers(
-    (cl, (4, 5)),
+segment_maker.append_commands(
+    cl,
+    (4, 5),
     reiterated_fff,
     pitch_specifier(
         source='F#2',
@@ -612,8 +618,9 @@ segment_maker.append_specifiers(
 
 ### SAXOPHONE ###
 
-segment_maker.append_specifiers(
-    (sax, (1, 2)),
+segment_maker.append_commands(
+    sax,
+    (1, 2),
     pitch_specifier(
         source=[abjad.PitchSegment(
             items=[abjad.NamedPitch('F3'), abjad.NamedPitch('G+3')], 
@@ -622,8 +629,9 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (sax, (4, 5)),
+segment_maker.append_commands(
+    sax,
+    (4, 5),
     reiterated_fff,
     pitch_specifier(
         source='G#2',
@@ -632,8 +640,9 @@ segment_maker.append_specifiers(
 
 ### GUITAR ###
 
-segment_maker.append_specifiers(
-    (gt, (1, 1)),
+segment_maker.append_commands(
+    gt,
+    (1, 1),
     pitch_specifier(
         source=khamr.materials.rose_pitch_classes,
         start_index=16,
@@ -641,15 +650,17 @@ segment_maker.append_specifiers(
     cross_note_heads,
     )
 
-segment_maker.append_specifiers(
-    (gt, (2, 3)),
+segment_maker.append_commands(
+    gt,
+    (2, 3),
     abjad.Dynamic('mf'),
     pitch_specifier(source='F#2'),
     sparse_guitar_clicks,
     )
 
-segment_maker.append_specifiers(
-    (gt, (4, 5)),
+segment_maker.append_commands(
+    gt,
+    (4, 5),
     abjad.Dynamic('ff'),
     guitar_with_screw,
     pitch_specifier(source='G2'),
@@ -657,16 +668,18 @@ segment_maker.append_specifiers(
 
 ### PIANO ###
 
-segment_maker.append_specifiers(
-    (pf, (1, 3)),
+segment_maker.append_commands(
+    pf,
+    (1, 3),
     one_line_staff,
     # dummy centerline pitch
     pitch_specifier(source='C4'),
     repeat_ties_up,
     )
 
-segment_maker.append_specifiers(
-    (pf, (4, 4)),
+segment_maker.append_commands(
+    pf,
+    (4, 4),
     reiterated_fff,
     abjad.Clef('bass'),
     pitch_specifier(
@@ -688,8 +701,9 @@ segment_maker.append_specifiers(
     stem_tremolo,
     )
 
-segment_maker.append_specifiers(
-    (pf, (5, 5)),
+segment_maker.append_commands(
+    pf,
+    (5, 5),
     abjad.Clef('treble'),
     abjad.Dynamic('fff'),
     pitch_specifier(
@@ -702,8 +716,9 @@ segment_maker.append_specifiers(
 
 ### PERCUSSION ###
 
-segment_maker.append_specifiers(
-    (perc, (1, 3)),
+segment_maker.append_commands(
+    perc,
+    (1, 3),
     pitch_specifier(
         source='C4 C4 Ab5 C4 C4 C4',
         ),
@@ -714,8 +729,9 @@ segment_maker.append_specifiers(
     pervasive_accents,
     )
 
-segment_maker.append_specifiers(
-    (perc, (4, 5)),
+segment_maker.append_commands(
+    perc,
+    (4, 5),
     pitch_specifier(
         source='Ab5',
         ),
@@ -727,8 +743,9 @@ segment_maker.append_specifiers(
 
 ### VIOLIN ###
 
-segment_maker.append_specifiers(
-    (vn, (1, 1)),
+segment_maker.append_commands(
+    vn,
+    (1, 1),
     pitch_specifier(
         source=khamr.materials.color_trill_pitches,
         operators=[abjad.Transposition(n=1)],
@@ -736,8 +753,9 @@ segment_maker.append_specifiers(
     pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     )
 
-segment_maker.append_specifiers(
-    (vn, (2, 2)),
+segment_maker.append_commands(
+    vn,
+    (2, 2),
     pitch_specifier(
         source=khamr.materials.color_trill_pitches,
         operators=[abjad.Transposition(n=2)],
@@ -745,8 +763,9 @@ segment_maker.append_specifiers(
     pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     )
 
-segment_maker.append_specifiers(
-    (vn, (3, 3)),
+segment_maker.append_commands(
+    vn,
+    (3, 3),
     pitch_specifier(
         source=khamr.materials.color_trill_pitches,
         operators=[abjad.Transposition(n=3)],
@@ -754,13 +773,15 @@ segment_maker.append_specifiers(
     pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     )
 
-segment_maker.append_specifiers(
-    (vn, (1, 3)),
+segment_maker.append_commands(
+    vn,
+    (1, 3),
     pervasive_accents,
     )
 
-segment_maker.append_specifiers(
-    (vn, (4, 5)),
+segment_maker.append_commands(
+    vn,
+    (4, 5),
     reiterated_fff,
     pitch_specifier(
         source='A4',
@@ -770,16 +791,18 @@ segment_maker.append_specifiers(
 
 ### VIOLA ###
 
-segment_maker.append_specifiers(
-    (va, (1, 1)),
+segment_maker.append_commands(
+    va,
+    (1, 1),
     pitch_specifier(
         source=khamr.materials.color_trill_pitches,
         ),
     pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     )
 
-segment_maker.append_specifiers(
-    (va, (2, 2)),
+segment_maker.append_commands(
+    va,
+    (2, 2),
     pitch_specifier(
         source=khamr.materials.color_trill_pitches,
         operators=[abjad.Transposition(n=1)],
@@ -787,8 +810,9 @@ segment_maker.append_specifiers(
     pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     )
 
-segment_maker.append_specifiers(
-    (va, (3, 3)),
+segment_maker.append_commands(
+    va,
+    (3, 3),
     pitch_specifier(
         source=khamr.materials.color_trill_pitches,
         operators=[abjad.Transposition(n=2)],
@@ -796,13 +820,15 @@ segment_maker.append_specifiers(
     pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     )
 
-segment_maker.append_specifiers(
-    (va, (1, 3)),
+segment_maker.append_commands(
+    va,
+    (1, 3),
     pervasive_accents,
     )
 
-segment_maker.append_specifiers(
-    (va, (4, 5)),
+segment_maker.append_commands(
+    va,
+    (4, 5),
     reiterated_fff,
     pitch_specifier(
         source='G#4',
@@ -812,8 +838,9 @@ segment_maker.append_specifiers(
 
 ### CELLO ###
 
-segment_maker.append_specifiers(
-    (vc, (1, 2)),
+segment_maker.append_commands(
+    vc,
+    (1, 2),
     pitch_specifier(
         source=khamr.materials.color_trill_pitches,
         ),
@@ -821,8 +848,9 @@ segment_maker.append_specifiers(
     pervasive_accents,
     )
 
-segment_maker.append_specifiers(
-    (vc, (3, 3)),
+segment_maker.append_commands(
+    vc,
+    (3, 3),
     abjad.Dynamic('mf'),
     pitch_specifier(
         source='F#3',
@@ -830,8 +858,9 @@ segment_maker.append_specifiers(
     sparse_cello_clicks,
     )
 
-segment_maker.append_specifiers(
-    (vc, (4, 5)),
+segment_maker.append_commands(
+    vc,
+    (4, 5),
     reiterated_fff,
     pitch_specifier(
         source='G3',
@@ -841,8 +870,9 @@ segment_maker.append_specifiers(
 
 ### CONTRABASS ###
 
-segment_maker.append_specifiers(
-    (cb, (1, 3)),
+segment_maker.append_commands(
+    cb,
+    (1, 3),
     pitch_specifier(
         source=khamr.materials.double_stop_halo_pitches,
         start_index=0,
@@ -858,8 +888,9 @@ segment_maker.append_specifiers(
     abjad.Dynamic('mf'),
     )
 
-segment_maker.append_specifiers(
-    (cb, (4, 5)),
+segment_maker.append_commands(
+    cb,
+    (4, 5),
     reiterated_fff,
     pitch_specifier(
         source=[abjad.PitchSegment(

@@ -348,16 +348,18 @@ segment_maker.define_rhythm(
 
 ### FLUTE ###
 
-segment_maker.append_specifiers(
-    (fl, (1, 7)),
+segment_maker.append_commands(
+    fl,
+    (1, 7),
     # sounds B3
     pitch_specifier(source='Bb4'),
     )
 
 ### OBOE ###
 
-segment_maker.append_specifiers(
-    (ob, (1, 7)),
+segment_maker.append_commands(
+    ob,
+    (1, 7),
     # dummy centerline pitch
     pitch_specifier(source='B4'),
     one_line_staff,
@@ -366,15 +368,17 @@ segment_maker.append_specifiers(
 
 ### CLARINET ###
 
-segment_maker.append_specifiers(
-    (cl, (1, 7)),
+segment_maker.append_commands(
+    cl,
+    (1, 7),
     pitch_specifier(source='G2'),
     )
 
 ### SAXOPHONE ###
 
-segment_maker.append_specifiers(
-    (sax, (1, 7)),
+segment_maker.append_commands(
+    sax,
+    (1, 7),
     # dummy centerline pitch
     pitch_specifier(source='D5'),
     one_line_staff,
@@ -383,8 +387,9 @@ segment_maker.append_specifiers(
 
 ### GUITAR ##
 
-segment_maker.append_specifiers(
-    (gt, (1, 8)),
+segment_maker.append_commands(
+    gt,
+    (1, 8),
     pitch_specifier(source='C4'),
     reiterated_flageolets,
     reiterated_mf,
@@ -393,8 +398,9 @@ segment_maker.append_specifiers(
 
 ### PIANO ###
 
-segment_maker.append_specifiers(
-    (pf, (1, 8)),
+segment_maker.append_commands(
+    pf,
+    (1, 8),
     pitch_specifier(source='A#4'),
     reiterated_mf,
     pervasive_accents,
@@ -402,8 +408,9 @@ segment_maker.append_specifiers(
 
 ### PERCUSSION ###
 
-segment_maker.append_specifiers(
-    (perc, (1, 2)),
+segment_maker.append_commands(
+    perc,
+    (1, 2),
     stem_tremolo,
     baca.tools.HairpinSpecifier(
         hairpin_token=['pp > ppp'],
@@ -411,8 +418,9 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (perc, (4, 7)),
+segment_maker.append_commands(
+    perc,
+    (4, 7),
     abjad.Dynamic('fff'),
     stem_tremolo,
     percussion_reminder_markup('snare drum'),
@@ -428,43 +436,51 @@ segment_maker.append_specifiers(
 
 ### STRINGS ###
 
-segment_maker.append_specifiers(
-    ([vn, va, vc], (1, 7)),
+segment_maker.append_commands(
+    [vn, va, vc],
+    (1, 7),
     pitch_specifier(source='C4'),
     )
 
-segment_maker.append_specifiers(
-    (cb, (1, 7)),
+segment_maker.append_commands(
+    cb,
+    (1, 7),
     pitch_specifier(source='C3'),
     )
 
-segment_maker.append_specifiers(
-    ([vn, va, vc, cb], (1, 7)),
+segment_maker.append_commands(
+    [vn, va, vc, cb],
+    (1, 7),
     one_line_staff,
     )
 
-segment_maker.append_specifiers(
-    ([vn, va, vc, cb], (1, 7)),
+segment_maker.append_commands(
+    [vn, va, vc, cb],
+    (1, 7),
     alternate_bow_strokes,
     )
 
-segment_maker.append_specifiers(
-    ([vn, va], (1, 7)),
+segment_maker.append_commands(
+    [vn, va],
+    (1, 7),
     bow_on_wooden_mute,
     )
 
-segment_maker.append_specifiers(
-    ([vc, cb], (1, 7)),
+segment_maker.append_commands(
+    [vc, cb],
+    (1, 7),
     bow_on_tailpiece,
     )
 
-segment_maker.append_specifiers(
-    ([vn, va, vc, cb], (1, 3)),
+segment_maker.append_commands(
+    [vn, va, vc, cb],
+    (1, 3),
     abjad.Dynamic('p'),
     )
 
-segment_maker.append_specifiers(
-    ([vn, va, vc, cb], (4, 7)),
+segment_maker.append_commands(
+    [vn, va, vc, cb],
+    (4, 7),
     baca.tools.HairpinSpecifier(
         hairpin_token=['p > ppp'],
         span='contiguous notes and chords',
