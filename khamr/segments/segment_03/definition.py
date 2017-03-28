@@ -505,16 +505,18 @@ segment_maker.define_rhythm(
 
 ### FLUTE ###
 
-segment_maker.append_specifiers(
-    (fl, (1, 1)),
+segment_maker.append_commands(
+    fl,
+    (1, 1),
     pitch_specifier(
         source='B5',
         ),
     stem_tremolo,
     )
 
-segment_maker.append_specifiers(
-    (fl, (5, 6)),
+segment_maker.append_commands(
+    fl,
+    (5, 6),
     Dynamic('fff'),
     pitch_specifier(
         source='D6 E6 F#6 C6 C#6 D6 D#6 F6',
@@ -524,8 +526,9 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (fl, (9, 9)),
+segment_maker.append_commands(
+    fl,
+    (9, 9),
     Dynamic('pp'),
     # sounds B3
     pitch_specifier(source='Bb4'),
@@ -534,15 +537,17 @@ segment_maker.append_specifiers(
 
 ### OBOE ###
 
-segment_maker.append_specifiers(
-    (ob, (1, 1)),
+segment_maker.append_commands(
+    ob,
+    (1, 1),
     pitch_specifier(
         source='G#3',
         ),
     )
 
-segment_maker.append_specifiers(
-    (ob, (5, 6)),
+segment_maker.append_commands(
+    ob,
+    (5, 6),
     Dynamic('fff'),
     pitch_specifier(
         source='C6 C#6 D#6 E6 F6 F#6',
@@ -552,8 +557,9 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (ob, (9, 9)),
+segment_maker.append_commands(
+    ob,
+    (9, 9),
     Dynamic('pp'),
     # dummy centerline pitch
     pitch_specifier(source='B4'),
@@ -564,13 +570,15 @@ segment_maker.append_specifiers(
 
 ### CLARINET ###
 
-segment_maker.append_specifiers(
-    (cl, (1, 1)),
+segment_maker.append_commands(
+    cl,
+    (1, 1),
     pitch_specifier(source='F#2'),
     )
 
-segment_maker.append_specifiers(
-    (cl, (5, 6)),
+segment_maker.append_commands(
+    cl,
+    (5, 6),
     Dynamic('fff'),
     pitch_specifier(
         source='D6 D#6 F6 F#6 C6 C#6 D#6 E6 F6',
@@ -582,23 +590,26 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (cl, (8, 9)),
+segment_maker.append_commands(
+    cl,
+    (8, 9),
     Dynamic('ppp'),
     pitch_specifier(source='G2'),
     )
 
 ### SAXOPHONE ###
 
-segment_maker.append_specifiers(
-    (sax, (1, 1)),
+segment_maker.append_commands(
+    sax,
+    (1, 1),
     pitch_specifier(
         source='G#2',
         ),
     )
 
-segment_maker.append_specifiers(
-    (sax, (5, 6)),
+segment_maker.append_commands(
+    sax,
+    (5, 6),
     Dynamic('fff'),
     pitch_specifier(
         source='C6 C#6 D6 F6 F#6 D#6 E6',
@@ -608,8 +619,9 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (sax, (9, 9)),
+segment_maker.append_commands(
+    sax,
+    (9, 9),
     Dynamic('pp'),
     # dummy centerline pitch
     pitch_specifier(source='D5'),
@@ -620,13 +632,15 @@ segment_maker.append_specifiers(
 
 ### GUITAR ###
 
-segment_maker.append_specifiers(
-    (gt, (1, 1)),
+segment_maker.append_commands(
+    gt,
+    (1, 1),
     pitch_specifier(source='G3'),
     )
 
-segment_maker.append_specifiers(
-    (gt, (5, 6)),
+segment_maker.append_commands(
+    gt,
+    (5, 6),
     Dynamic('fff'),
     pitch_specifier(source='Ab4'),
     stem_tremolo,
@@ -634,8 +648,9 @@ segment_maker.append_specifiers(
 
 ### PIANO ###
 
-segment_maker.append_specifiers(
-    (pf, (1, 4)),
+segment_maker.append_commands(
+    pf,
+    (1, 4),
     Dynamic('fff'),
     pitch_specifier(
         source=khamr.materials.rose_pitch_classes,
@@ -648,13 +663,15 @@ segment_maker.append_specifiers(
     ottava,
     )
 
-segment_maker.append_specifiers(
-    (pf, (3, 4)),
+segment_maker.append_commands(
+    pf,
+    (3, 4),
     Dynamic('ffff'),
     )
 
-segment_maker.append_specifiers(
-    (pf, (5, 6)),
+segment_maker.append_commands(
+    pf,
+    (5, 6),
     Dynamic('fff'),
     pitch_specifier(
         source='C6 D6 D#6 E6 F6 F#6 C6 C#6 D#6 E6 F6',
@@ -669,24 +686,27 @@ segment_maker.append_specifiers(
 
 ### PERCUSSION ###
 
-segment_maker.append_specifiers(
-    (perc, (3, 4)),
+segment_maker.append_commands(
+    perc,
+    (3, 4),
     Clef('percussion'),
     Dynamic('pp'),
     stem_tremolo,
     percussion_reminder_markup('bass drum'),
     )
 
-segment_maker.append_specifiers(
-    (perc, (5, 6)),
+segment_maker.append_commands(
+    perc,
+    (5, 6),
     Dynamic('fff'),
     staccati,
     percussion_reminder_markup('castanets'),
     double_tonguing,
     )
 
-segment_maker.append_specifiers(
-    (perc, (7, 9)),
+segment_maker.append_commands(
+    perc,
+    (7, 9),
     Dynamic('ppp'),
     stem_tremolo,
     percussion_reminder_markup('bass drum'),
@@ -694,15 +714,17 @@ segment_maker.append_specifiers(
 
 ### VIOLIN ###
 
-segment_maker.append_specifiers(
-    (vn, (1, 1)),
+segment_maker.append_commands(
+    vn,
+    (1, 1),
     pitch_specifier(source='A4'),
     )
 
 ### UPPER STRINGS ###
 
-segment_maker.append_specifiers(
-    ([vn, va, vc], (2, 6)),
+segment_maker.append_commands(
+    [vn, va, vc],
+    (2, 6),
     pitch_specifier(
         source=khamr.materials.rose_pitch_classes,
         operators=[
@@ -716,18 +738,21 @@ segment_maker.append_specifiers(
     natural_harmonics,
     )
 
-segment_maker.append_specifiers(
-    ([vn, va, vc], (2, 2)),
+segment_maker.append_commands(
+    [vn, va, vc],
+    (2, 2),
     Dynamic('p'),
     )
 
-segment_maker.append_specifiers(
-    ([vn, va, vc], (5, 5)),
+segment_maker.append_commands(
+    [vn, va, vc],
+    (5, 5),
     Dynamic('fff'),
     )
 
-segment_maker.append_specifiers(
-    ([vn, va, vc], (3, 4)),
+segment_maker.append_commands(
+    [vn, va, vc],
+    (3, 4),
     baca.tools.HairpinSpecifier(
         hairpin_token=['pp < f'],
         span='contiguous notes and chords',
@@ -736,22 +761,25 @@ segment_maker.append_specifiers(
 
 ### VIOLA ###
 
-segment_maker.append_specifiers(
-    (va, (1, 1)),
+segment_maker.append_commands(
+    va,
+    (1, 1),
     pitch_specifier(source='G#4'),
     )
 
 ### CELLO ###
 
-segment_maker.append_specifiers(
-    (vc, (1, 1)),
+segment_maker.append_commands(
+    vc,
+    (1, 1),
     pitch_specifier(source='G3'),
     )
 
 ### CONTRABASS ###
 
-segment_maker.append_specifiers(
-    (cb, (1, 1)),
+segment_maker.append_commands(
+    cb,
+    (1, 1),
     pitch_specifier(
         source=[abjad.PitchSegment(
             items=[abjad.NamedPitch('G0'), abjad.NamedPitch('A1')], 
@@ -760,8 +788,9 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (cb, (2, 5)),
+segment_maker.append_commands(
+    cb,
+    (2, 5),
     pitch_specifier(
         source=[abjad.PitchSegment(
             items=[abjad.NamedPitch('G#0'), abjad.NamedPitch('A#1')], 
@@ -770,8 +799,9 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (cb, (6, 7)),
+segment_maker.append_commands(
+    cb,
+    (6, 7),
     pitch_specifier(
         source=[abjad.PitchSegment(
             items=[abjad.NamedPitch('G0'), abjad.NamedPitch('A1')], 
@@ -780,32 +810,37 @@ segment_maker.append_specifiers(
         ),
     )
 
-segment_maker.append_specifiers(
-    (cb, (2, 2)),
+segment_maker.append_commands(
+    cb,
+    (2, 2),
     Dynamic('p'),
     )
 
-segment_maker.append_specifiers(
-    (cb, (3, 4)),
+segment_maker.append_commands(
+    cb,
+    (3, 4),
     baca.tools.HairpinSpecifier(
         hairpin_token=['p < f'],
         span='contiguous notes and chords',
         ),
     )
 
-segment_maker.append_specifiers(
-    (cb, (5, 5)),
+segment_maker.append_commands(
+    cb,
+    (5, 5),
     Dynamic('fff'),
     estr_sul_pont,
     )
 
-segment_maker.append_specifiers(
-    (cb, (6, 9)),
+segment_maker.append_commands(
+    cb,
+    (6, 9),
     arco_ordinario,
     )
 
-segment_maker.append_specifiers(
-    (cb, (8, 9)),
+segment_maker.append_commands(
+    cb,
+    (8, 9),
     Dynamic('mp'),
     pitch_specifier(source='G0'),
     pervasive_F3_harmonic_trills,

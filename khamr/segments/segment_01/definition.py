@@ -489,8 +489,9 @@ segment_maker.define_rhythm(
 
 ### FLUTE ###
 
-segment_maker.append_specifiers(
-    (fl, (1, 2)),
+segment_maker.append_commands(
+    fl,
+    (1, 2),
     abjad.Dynamic('mp'),
     pitch_specifier(
         source=[abjad.PitchSegment(
@@ -501,8 +502,9 @@ segment_maker.append_specifiers(
     levine_multiphonic(17),
     )
 
-segment_maker.append_specifiers(
-    (fl, (3, 5)),
+segment_maker.append_commands(
+    fl,
+    (3, 5),
     pitch_specifier(
         source=[abjad.PitchSegment(
             items=[abjad.NamedPitch('G#3'), abjad.NamedPitch('G#4')], 
@@ -512,8 +514,9 @@ segment_maker.append_specifiers(
     levine_multiphonic(22),
     )
 
-segment_maker.append_specifiers(
-    (fl, (6, 7)),
+segment_maker.append_commands(
+    fl,
+    (6, 7),
     pitch_specifier(
         source='A4',
         ),
@@ -523,8 +526,9 @@ segment_maker.append_specifiers(
 
 ### OBOE ###
 
-segment_maker.append_specifiers(
-    (ob, (1, 5)),
+segment_maker.append_commands(
+    ob,
+    (1, 5),
     air_tone_without_reed,
     one_line_staff,
     abjad.Dynamic('p'),
@@ -534,8 +538,9 @@ segment_maker.append_specifiers(
     repeat_ties_up,
     )
 
-segment_maker.append_specifiers(
-    (ob, (6, 7)),
+segment_maker.append_commands(
+    ob,
+    (6, 7),
     put_reed_back_in,
     abjad.Dynamic('pp'),
     pitch_specifier(
@@ -549,8 +554,9 @@ segment_maker.append_specifiers(
 
 ### CLARINET ###
 
-segment_maker.append_specifiers(
-    (cl, (1, 7)),
+segment_maker.append_commands(
+    cl,
+    (1, 7),
     abjad.Dynamic('pp'),
     pitch_specifier(
         source='A2',
@@ -559,8 +565,9 @@ segment_maker.append_specifiers(
 
 ### SAXOPHONE ###
 
-segment_maker.append_specifiers(
-    (sax, (1, 5)),
+segment_maker.append_commands(
+    sax,
+    (1, 5),
     abjad.Dynamic('pp'),
     pitch_specifier(
         source='G3',
@@ -568,8 +575,9 @@ segment_maker.append_specifiers(
         ]
     )
 
-segment_maker.append_specifiers(
-    (sax, (6, 7)),
+segment_maker.append_commands(
+    sax,
+    (6, 7),
     abjad.Dynamic('p'),
     pitch_specifier(
         source=[abjad.PitchSegment(
@@ -582,8 +590,9 @@ segment_maker.append_specifiers(
 
 ### GUITAR ###
 
-segment_maker.append_specifiers(
-    (gt, (1, 3)),
+segment_maker.append_commands(
+    gt,
+    (1, 3),
     abjad.Dynamic('f'),
     pitch_specifier(
         source=khamr.materials.rose_pitch_classes,
@@ -592,20 +601,23 @@ segment_maker.append_specifiers(
     half_harmonics_explanation,
     )
 
-segment_maker.append_specifiers(
-    (gt, (4, 7)),
+segment_maker.append_commands(
+    gt,
+    (4, 7),
     narrow_fourth_octave,
     tuplet_bracket_staff_padding(4),
     move_towards_the_bridge,
     )
 
-segment_maker.append_specifiers(
-    (gt, (1, 7)),
+segment_maker.append_commands(
+    gt,
+    (1, 7),
     cross_note_heads,
     )
 
-segment_maker.append_specifiers(
-    ([gt, pf], (4, 7)),
+segment_maker.append_commands(
+    [gt, pf],
+    (4, 7),
     pitch_specifier(
         source=khamr.materials.rose_pitch_classes,
         ),
@@ -613,8 +625,9 @@ segment_maker.append_specifiers(
 
 ### PIANO ###
 
-segment_maker.append_specifiers(
-    (pf, (1, 3)),
+segment_maker.append_commands(
+    pf,
+    (1, 3),
     abjad.Clef('percussion'),
     abjad.Dynamic('mf'),
     strike_lowest_strings,
@@ -627,8 +640,9 @@ segment_maker.append_specifiers(
     pervasive_accents,
     )
 
-segment_maker.append_specifiers(
-    (pf, (4, 6)),
+segment_maker.append_commands(
+    pf,
+    (4, 6),
     abjad.Clef('treble'),
     abjad.Dynamic('mf'),
     sixth_octave,
@@ -636,8 +650,9 @@ segment_maker.append_specifiers(
     match_guitar_dynamic_levels,
     )
 
-segment_maker.append_specifiers(
-    (pf, (7, 7)),
+segment_maker.append_commands(
+    pf,
+    (7, 7),
     abjad.Clef('percussion'),
     abjad.Dynamic('mp'),
     sparse_piano_clicks,
@@ -651,8 +666,9 @@ segment_maker.append_specifiers(
 
 ### PERCUSSION ###
 
-segment_maker.append_specifiers(
-    (perc, (1, 7)),
+segment_maker.append_commands(
+    perc,
+    (1, 7),
     abjad.Dynamic('mp'),
     pitch_specifier(
         source='C4 C4 C4 Ab5',
@@ -668,8 +684,9 @@ segment_maker.append_specifiers(
 
 ### VIOLIN ###
 
-segment_maker.append_specifiers(
-    (vn, (1, 5)),
+segment_maker.append_commands(
+    vn,
+    (1, 5),
     baca.tools.abjad.GlissandoSpecifier(
         patterns=abjad.rhythmmakertools.select_all(),
         ),
@@ -682,8 +699,9 @@ segment_maker.append_specifiers(
     string_IV,
     )
 
-segment_maker.append_specifiers(
-    (vn, (6, 7)),
+segment_maker.append_commands(
+    vn,
+    (6, 7),
     abjad.Dynamic('ppp'),
     pitch_specifier(
         source=khamr.materials.color_trill_pitches,
@@ -694,8 +712,9 @@ segment_maker.append_specifiers(
 
 ### VIOLA ###
 
-segment_maker.append_specifiers(
-    (va, (1, 5)),
+segment_maker.append_commands(
+    va,
+    (1, 5),
     baca.tools.abjad.GlissandoSpecifier(
         patterns=abjad.rhythmmakertools.select_all(),
         ),
@@ -708,8 +727,9 @@ segment_maker.append_specifiers(
     string_III,
     )
 
-segment_maker.append_specifiers(
-    (va, (6, 7)),
+segment_maker.append_commands(
+    va,
+    (6, 7),
     abjad.Dynamic('ppp'),
     pitch_specifier(
         source=khamr.materials.color_trill_pitches,
@@ -720,8 +740,9 @@ segment_maker.append_specifiers(
 
 ### CELLO ###
 
-segment_maker.append_specifiers(
-    (vc, (1, 5)),
+segment_maker.append_commands(
+    vc,
+    (1, 5),
     baca.tools.abjad.GlissandoSpecifier(
         patterns=abjad.rhythmmakertools.select_all(),
         ),
@@ -734,8 +755,9 @@ segment_maker.append_specifiers(
     string_III,
     )
 
-segment_maker.append_specifiers(
-    (vc, (6, 7)),
+segment_maker.append_commands(
+    vc,
+    (6, 7),
     abjad.Dynamic('ppp'),
     pitch_specifier(
         source=khamr.materials.color_trill_pitches,
@@ -746,8 +768,9 @@ segment_maker.append_specifiers(
 
 ### CONTRABASS ###
 
-segment_maker.append_specifiers(
-    (cb, (1, 7)),
+segment_maker.append_commands(
+    cb,
+    (1, 7),
     abjad.Dynamic('f'),
     baca.tools.abjad.GlissandoSpecifier(
         patterns=abjad.rhythmmakertools.select_all(),
@@ -760,19 +783,22 @@ segment_maker.append_specifiers(
     string_III,
     )
 
-segment_maker.append_specifiers(
-    (cb, (2, 7)),
+segment_maker.append_commands(
+    cb,
+    (2, 7),
     halo_hairpins,
     )
 
 ### STRINGS ###
 
-segment_maker.append_specifiers(
-    ([vn, va, vc, cb], (1, 7)),
+segment_maker.append_commands(
+    [vn, va, vc, cb],
+    (1, 7),
     emphasize_multiphonics,
     )
 
-segment_maker.append_specifiers(
-    ([vn, va, vc], (6, 7)),
+segment_maker.append_commands(
+    [vn, va, vc],
+    (6, 7),
     pervasive_accents,
     )

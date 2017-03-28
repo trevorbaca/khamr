@@ -1071,7 +1071,7 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         message = message.format(voice_name, stage)
         raise KeyError(message)
 
-    def append_specifiers(
+    def append_commands(
         self, 
         scope, 
         *specifiers
