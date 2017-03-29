@@ -458,7 +458,7 @@ def pitch_specifier(
     source=None,
     start_index=0,
     ):
-    return baca.tools.ScorePitchSpecifier(
+    return baca.tools.ScorePitchCommand(
         counts=counts,
         operators=operators,
         reverse=reverse,
