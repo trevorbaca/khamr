@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 import abjad
+import baca
 
 
-class ScoreTemplate(abjad.abctools.AbjadValueObject):
+class ScoreTemplate(baca.tools.ScoreTemplate):
     r'''Score template.
 
     ::
@@ -28,8 +29,12 @@ class ScoreTemplate(abjad.abctools.AbjadValueObject):
                 >>> f(score)
                 \context Score = "Score" <<
                     \tag winds.flute.oboe.clarinet.saxophone.guitar.piano.percussion.strings.violin.viola.cello.contrabass
-                    \context TimeSignatureContext = "Time Signature Context" {
-                    }
+                    \context TimeSignatureContext = "Time Signature Context" <<
+                        \context TimeSignatureContextMultimeasureRests = "Time Signature Context Multimeasure Rests" {
+                        }
+                        \context TimeSignatureContextSkips = "Time Signature Context Skips" {
+                        }
+                    >>
                     \context WindSectionStaffGroup = "Wind Section Staff Group" <<
                         \tag winds.flute
                         \context FluteMusicStaff = "Flute Music Staff" {
@@ -128,10 +133,21 @@ class ScoreTemplate(abjad.abctools.AbjadValueObject):
 
         Returns score.
         '''
-
-        # makes time signature context
+        time_signature_context_multimeasure_rests = abjad.Context(
+            context_name='TimeSignatureContextMultimeasureRests',
+            name='Time Signature Context Multimeasure Rests',
+            )
+        time_signature_context_skips = abjad.Context(
+            context_name='TimeSignatureContextSkips',
+            name='Time Signature Context Skips',
+            )
         time_signature_context = abjad.Context(
+            [
+                time_signature_context_multimeasure_rests,
+                time_signature_context_skips,
+            ],
             context_name='TimeSignatureContext',
+            is_simultaneous=True,
             name='Time Signature Context',
             )
         instrument_tags = (
@@ -345,8 +361,6 @@ class ScoreTemplate(abjad.abctools.AbjadValueObject):
             ],
             name='Score',
             )
-
-        # returns score
         return score
 
     ### PRIVATE METHODS ###
