@@ -23,6 +23,12 @@ metadata = abjad.datastructuretools.TypedOrderedDict(
                 ),
             ),
         (
+            'end_instruments_by_context',
+            abjad.datastructuretools.TypedOrderedDict(
+                []
+                ),
+            ),
+        (
             'end_instruments_by_staff',
             abjad.datastructuretools.TypedOrderedDict(
                 [
@@ -40,7 +46,7 @@ metadata = abjad.datastructuretools.TypedOrderedDict(
                     ]
                 ),
             ),
-        ('end_tempo', 84),
+        ('end_tempo', None),
         ('end_tempo_indication', 126),
         ('end_time_signature', '6/4'),
         ('first_bar_number', 1),
