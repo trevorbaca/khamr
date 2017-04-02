@@ -1091,7 +1091,7 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
             scoped_specifiers.append(scoped_specifier)
         return scoped_specifiers
 
-    def define_rhythm(
+    def append_commands(
         self,
         clef=None,
         voice_name=None,
