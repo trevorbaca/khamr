@@ -40,7 +40,7 @@ segment_maker.validate_measures_per_stage()
 
 ### FLUTE MAKERS ###
 
-segment_maker.define_rhythm(
+segment_maker.append_commands(
     stages=(1, 7),
     voice_name=fl,
     division_maker=beat_division_maker
@@ -65,7 +65,7 @@ segment_maker.define_rhythm(
 
 ### OBOE MAKERS ###
 
-segment_maker.define_rhythm(
+segment_maker.append_commands(
     stages=(1, 7),
     voice_name=ob,
     division_maker=beat_division_maker
@@ -90,7 +90,7 @@ segment_maker.define_rhythm(
 
 ### CLARINET MAKERS ###
 
-segment_maker.define_rhythm(
+segment_maker.append_commands(
     stages=(1, 7),
     voice_name=cl,
     rhythm_maker=messiaen_tied_note_rhythm_maker,
@@ -98,7 +98,7 @@ segment_maker.define_rhythm(
 
 ### SAXOPHONE MAKERS ###
 
-segment_maker.define_rhythm(
+segment_maker.append_commands(
     stages=(1, 7),
     voice_name=sax,
     division_maker=beat_division_maker
@@ -123,7 +123,7 @@ segment_maker.define_rhythm(
 
 ### GUITAR MAKERS ###
 
-segment_maker.define_rhythm(
+segment_maker.append_commands(
     stages=(1, 3),
     voice_name=gt,
     rewrite_meter=True,
@@ -138,7 +138,7 @@ segment_maker.define_rhythm(
         ),
     )
 
-segment_maker.define_rhythm(
+segment_maker.append_commands(
     stages=(4, 7),
     voice_name=gt,
     rewrite_meter=True,
@@ -153,7 +153,7 @@ segment_maker.define_rhythm(
         ),
     )
 
-segment_maker.define_rhythm(
+segment_maker.append_commands(
     stages=(8, 8),
     voice_name=gt,
     division_maker=baca.tools.DivisionMaker()
@@ -178,7 +178,7 @@ segment_maker.define_rhythm(
 
 ### PIANO MAKERS ###
 
-segment_maker.define_rhythm(
+segment_maker.append_commands(
     stages=(1, 3),
     voice_name=pf,
     rewrite_meter=True,
@@ -193,7 +193,7 @@ segment_maker.define_rhythm(
         ),
     )
 
-segment_maker.define_rhythm(
+segment_maker.append_commands(
     stages=(4, 7),
     voice_name=pf,
     rewrite_meter=True,
@@ -208,7 +208,7 @@ segment_maker.define_rhythm(
         ),
     )
 
-segment_maker.define_rhythm(
+segment_maker.append_commands(
     stages=(8, 8),
     voice_name=pf,
     division_maker=baca.tools.DivisionMaker()
@@ -233,7 +233,7 @@ segment_maker.define_rhythm(
 
 ### PERCUSSION MAKERS ###
 
-segment_maker.define_rhythm(
+segment_maker.append_commands(
     stages=(1, 2),
     voice_name=perc,
     rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
@@ -247,7 +247,7 @@ segment_maker.define_rhythm(
         )
     )
     
-segment_maker.define_rhythm(
+segment_maker.append_commands(
     stages=(4, 7),
     voice_name=perc,
     rewrite_meter=True,
@@ -256,7 +256,7 @@ segment_maker.define_rhythm(
 
 ### VIOLIN MAKERS ###
 
-segment_maker.define_rhythm(
+segment_maker.append_commands(
     stages=(1, 7),
     voice_name=vn,
     clef='percussion',
@@ -278,7 +278,7 @@ segment_maker.define_rhythm(
 
 ### VIOLA MAKERS ###
 
-segment_maker.define_rhythm(
+segment_maker.append_commands(
     stages=(1, 7),
     voice_name=va,
     clef='percussion',
@@ -300,7 +300,7 @@ segment_maker.define_rhythm(
 
 ### CELLO MAKERS ###
 
-segment_maker.define_rhythm(
+segment_maker.append_commands(
     stages=(1, 7),
     voice_name=vc,
     clef='percussion',
@@ -322,7 +322,7 @@ segment_maker.define_rhythm(
 
 ### CONTRABASS MAKERS ###
 
-segment_maker.define_rhythm(
+segment_maker.append_commands(
     stages=(1, 7),
     voice_name=cb,
     clef='percussion',
