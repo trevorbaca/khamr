@@ -123,7 +123,7 @@ covered_flute_air_tone = abjad.Markup.column(
     )
 covered_flute_air_tone = covered_flute_air_tone.larger()
 
-cross_note_heads = baca.tools.OverrideSpecifier(
+cross_note_heads = baca.tools.OverrideCommand(
     grob_name='note_head',
     attribute_name='style',
     attribute_value="'cross'",
@@ -240,7 +240,7 @@ molto_flautando_e_pont = abjad.Markup(string, direction=Up).italic().larger()
 string = 'molto gridato ed estr. sul pont.'
 molto_gridato = abjad.Markup(string, direction=Up).italic().larger()
 
-natural_harmonics = baca.tools.OverrideSpecifier(
+natural_harmonics = baca.tools.OverrideCommand(
     grob_name='note_head',
     attribute_name='style',
     attribute_value="'harmonic'",
@@ -271,29 +271,29 @@ ppp_ancora += abjad.Markup('ancora').italic()
 
 ppp_subtone = abjad.Markup('ppp').dynamic() + abjad.Markup('subtone')
 
-reiterated_fff = baca.reiterated_dynamic(dynamic_name='fff')
+reiterated_fff = baca.reiterated_dynamic('fff')
 
-reiterated_ff = baca.reiterated_dynamic(dynamic_name='ff')
+reiterated_ff = baca.reiterated_dynamic('ff')
 
-reiterated_f = baca.reiterated_dynamic(dynamic_name='f')
+reiterated_f = baca.reiterated_dynamic('f')
 
-reiterated_mf = baca.reiterated_dynamic(dynamic_name='mf')
+reiterated_mf = baca.reiterated_dynamic('mf')
 
-reiterated_mp = baca.reiterated_dynamic(dynamic_name='mp')
+reiterated_mp = baca.reiterated_dynamic('mp')
 
-reiterated_p = baca.reiterated_dynamic(dynamic_name='p')
+reiterated_p = baca.reiterated_dynamic('p')
 
-reiterated_pp = baca.reiterated_dynamic(dynamic_name='pp')
+reiterated_pp = baca.reiterated_dynamic('pp')
 
 remove_reed = abjad.Markup('remove reed', direction=Up).larger()
 
-repeat_ties_down = baca.tools.OverrideSpecifier(
+repeat_ties_down = baca.tools.OverrideCommand(
     grob_name='repeat_tie',
     attribute_name='direction',
     attribute_value='Down',
     )
 
-repeat_ties_up = baca.tools.OverrideSpecifier(
+repeat_ties_up = baca.tools.OverrideCommand(
     grob_name='repeat_tie',
     attribute_name='direction',
     attribute_value='Up',
@@ -331,42 +331,42 @@ bow_on_wooden_mute = abjad.Markup('bow on wooden mute', direction=Up).larger()
 thin_wavering_tone = abjad.Markup('thin wavering tone', direction=Up).larger()
 
 def beam_positions(n):
-    return baca.tools.OverrideSpecifier(
+    return baca.tools.OverrideCommand(
         grob_name='beam',
         attribute_name='positions',
         attribute_value=str((n, n)),
         )
 
 def dynamic_line_spanner_staff_padding(n):
-    return baca.tools.OverrideSpecifier(
+    return baca.tools.OverrideCommand(
         grob_name='dynamic_line_spanner',
         attribute_name='staff_padding',
         attribute_value=str(n),
         )
 
 def markup_padding(n):
-    return baca.tools.OverrideSpecifier(
+    return baca.tools.OverrideCommand(
         grob_name='text_script',
         attribute_name='padding',
         attribute_value=str(n),
         )
 
 def stem_direction(direction):
-    return baca.tools.OverrideSpecifier(
+    return baca.tools.OverrideCommand(
         grob_name='stem',
         attribute_name='direction',
         attribute_value=str(direction),
         )
 
 def text_spanner_staff_padding(n):
-    return baca.tools.OverrideSpecifier(
+    return baca.tools.OverrideCommand(
         grob_name='text_spanner',
         attribute_name='staff_padding',
         attribute_value=str(n),
         )
 
 def tie_direction(direction):
-    return baca.tools.OverrideSpecifier(
+    return baca.tools.OverrideCommand(
         grob_name='tie',
         attribute_name='direction',
         attribute_value=str(direction),
@@ -374,7 +374,7 @@ def tie_direction(direction):
 
 def tremolo_down(n, maximum_adjustment=-1.5):
     pair = (0, -n)
-    return baca.tools.OverrideSpecifier(
+    return baca.tools.OverrideCommand(
         grob_name='stem_tremolo',
         attribute_name='extra_offset',
         attribute_value=str(pair),
@@ -387,7 +387,7 @@ def tremolo_down(n, maximum_adjustment=-1.5):
         )
 
 def tuplet_bracket_staff_padding(n):
-    return baca.tools.OverrideSpecifier(
+    return baca.tools.OverrideCommand(
         grob_name='tuplet_bracket',
         attribute_name='staff_padding',
         attribute_value=str(n),
@@ -466,21 +466,21 @@ def pitch_specifier(
         start_index=start_index,
         )
 
-color_fingering_1 = baca.tools.ColorFingeringSpecifier(
+color_fingering_1 = baca.tools.ColorFingeringCommand(
     deposit_annotations=['color fingering'],
     number_lists=(
         [1],
         ),
     )
 
-color_fingerings = baca.tools.ColorFingeringSpecifier(
+color_fingerings = baca.tools.ColorFingeringCommand(
     deposit_annotations=['color fingering'],
     number_lists=(
         [0, 1, 2, 1],
         ),
     )
 
-color_microtones = baca.tools.MicrotonalDeviationSpecifier(
+color_microtones = baca.tools.MicrotonalDeviationCommand(
     deposit_annotations=['color microtone'],
     number_lists=(
         [0, -0.5, 0, 0.5],
@@ -488,32 +488,30 @@ color_microtones = baca.tools.MicrotonalDeviationSpecifier(
         ),
     )
 
-pervasive_glissandi = baca.tools.GlissandoSpecifier(
-    patterns=abjad.patterntools.select_all(),
-    )
+pervasive_glissandi = baca.glissandi()
 
 def pervasive_trills_at_interval(interval):
-    return baca.tools.TrillSpecifier(
+    return baca.tools.TrillCommand(
         interval=interval,
         minimum_written_duration=None,
         )
     
-trill_quarter_notes = baca.tools.TrillSpecifier(
+trill_quarter_notes = baca.tools.TrillCommand(
     forbidden_annotations=['color fingering', 'color microtone'],
     minimum_written_duration=abjad.Duration(1, 4),
     )
 
-pervasive_trills = baca.tools.TrillSpecifier(
+pervasive_trills = baca.tools.TrillCommand(
     minimum_written_duration=None,
     )
 
-pervasive_A5_trills = baca.tools.TrillSpecifier(
+pervasive_A5_trills = baca.tools.TrillCommand(
     minimum_written_duration=None,
     pitch=abjad.NamedPitch('A5'),
     )
 
-pervasive_F3_harmonic_trills = baca.tools.TrillSpecifier(
-    is_harmonic=True,
+pervasive_F3_harmonic_trills = baca.tools.TrillCommand(
+    harmonic=True,
     minimum_written_duration=None,
     pitch=abjad.NamedPitch('F3'),
     )
@@ -539,39 +537,34 @@ reiterated_flageolets = baca.flageolets()
     
 ### DYNAMICS ###
 
-patterned_f_ff = baca.reiterated_dynamics(
-    articulations=['f', 'f', 'ff', 'f', 'ff', 'f', 'f', 'ff', 'ff'],
+patterned_f_ff = baca.reiterated_dynamic(
+    ['f', 'f', 'ff', 'f', 'ff', 'f', 'f', 'ff', 'ff'],
     )
 
-repeated_p_to_ppp = baca.tools.HairpinSpecifier(
+repeated_p_to_ppp = baca.tools.HairpinCommand(
     hairpin_tokens=['p > ppp'],
     )
 
-repeated_pp_to_ff = baca.tools.HairpinSpecifier(
+repeated_pp_to_ff = baca.tools.HairpinCommand(
     hairpin_tokens=['pp < ff'],
     )
 
-halo_accompaniment_hairpins = baca.tools.HairpinSpecifier(
-    hairpin_tokens=[
+halo_accompaniment_hairpins = baca.hairpins(
+    [
         'pp > ppp', 'ppp < pp', 'pp > ppp', 'ppp < pp',
         'pp < p', 'p > pp', 'pp < p', 'p > ppp', 'ppp < pp', 
         ],
-    span='nontrivial ties',
     )
 
-halo_hairpins = baca.tools.HairpinSpecifier(
-    hairpin_tokens=[
+halo_hairpins = baca.hairpins(
+    [
         'pp > ppp', 'ppp < pp', 'pp > ppp', 'ppp < pp',
         'pp < p', 'p > pp', 'pp < p', 'p > ppp', 'ppp < pp', 
         ],
-    span='nontrivial ties',
     )
 
-bass_flute_tremoli_hairpins = baca.tools.HairpinSpecifier(
-    hairpin_tokens=[
-        'mp > pp', 'pp < mp',
-        ],
-    span='nontrivial ties',
+bass_flute_tremoli_hairpins = baca.hairpins(
+    ['mp > pp', 'pp < mp'],
     )
 
 ### MISCELLANEOUS ###
@@ -581,7 +574,7 @@ five_line_staff = abjad.spannertools.StaffLinesSpanner(lines=5)
 ottava = abjad.spannertools.OctavationSpanner(start=1, stop=0)
 ottava_bassa = abjad.spannertools.OctavationSpanner(start=-1, stop=0)
 
-stem_tremolo = baca.tools.StemTremoloSpecifier(tremolo_flags=32)
+stem_tremolo = baca.tools.StemTremoloCommand(tremolo_flags=32)
 
 partition_table = abjad.rhythmmakertools.PartitionTable([
     (5, [2, 3]),
@@ -595,25 +588,25 @@ put_reed_back_in = abjad.Markup('put reed back in', direction=Up).larger()
 
 flageolet = abjad.LilyPondCommand('flageolet', format_slot='right')
 
-wide_third_octave = baca.tools.RegisterSpecifier(
+wide_third_octave = baca.tools.RegisterCommand(
     registration=abjad.pitchtools.Registration(
         [('[A0, F#4)', -20), ('[F#4, C8]', -6)]
         ),
     )
 
-narrow_fourth_octave = baca.tools.RegisterSpecifier(
+narrow_fourth_octave = baca.tools.RegisterCommand(
     registration=abjad.pitchtools.Registration(
         [('[A0, F#4)', -2), ('[F#4, C8]', 1)],
         ),
     )
 
-narrow_sixth_octave = baca.tools.RegisterSpecifier(
+narrow_sixth_octave = baca.tools.RegisterCommand(
     registration=abjad.pitchtools.Registration(
         [('[A0, F#4)', 22), ('[F#4, C8]', 25)],
         ),
     )
 
-sixth_octave = baca.tools.RegisterSpecifier(
+sixth_octave = baca.tools.RegisterCommand(
     registration=abjad.pitchtools.Registration(
         [('[A0, C8)', 30)],
         ),
