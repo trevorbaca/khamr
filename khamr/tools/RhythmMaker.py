@@ -4,10 +4,11 @@ import baca
 
 
 class RhythmMaker(abjad.abctools.AbjadObject):
-    r'''Al-kitab al-khamr music-maker.
+    r'''Rhythm-maker.
 
     ::
 
+        >>> import abjad
         >>> import baca
         >>> import khamr
 
@@ -26,7 +27,7 @@ class RhythmMaker(abjad.abctools.AbjadObject):
 
         ::
 
-            >>> print(format(music_maker, 'storage'))
+            >>> f(music_maker)
             khamr.tools.RhythmMaker(
                 voice_name='Cello Music Voice',
                 division_maker=baca.tools.FuseByCountsDivisionCallback(
@@ -39,7 +40,6 @@ class RhythmMaker(abjad.abctools.AbjadObject):
                 stages=(1, 4),
                 )
 
-    All properties can be configured at or after initialization.
     '''
 
     ### CLASS ATTRIBUTES ###
@@ -70,6 +70,8 @@ class RhythmMaker(abjad.abctools.AbjadObject):
             preferred_boundary_depth=1,
             )
         ]
+
+    _publish_storage_format = True
 
     ### INITIALIZER ###    
 
@@ -187,8 +189,8 @@ class RhythmMaker(abjad.abctools.AbjadObject):
         import khamr
         message = 'can not attach {!r} to {}.'
         message = message.format(instrument, effective_staff_name)
-        allowable_instruments = \
-            khamr.materials.score_setup[effective_staff_name]
+        allowable_instruments = khamr.materials.score_setup[
+            effective_staff_name]
         if not isinstance(instrument, allowable_instruments):
             raise Exception(message)
 
