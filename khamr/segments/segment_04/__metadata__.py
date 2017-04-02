@@ -2,11 +2,11 @@
 import abjad
 
 
-metadata = abjad.TypedOrderedDict(
+metadata = abjad.datastructuretools.TypedOrderedDict(
     [
         (
             'end_clefs_by_staff',
-            abjad.TypedOrderedDict(
+            abjad.datastructuretools.TypedOrderedDict(
                 [
                     ('Cello Music Staff', 'percussion'),
                     ('Clarinet Music Staff', 'treble'),
@@ -24,7 +24,7 @@ metadata = abjad.TypedOrderedDict(
             ),
         (
             'end_instruments_by_staff',
-            abjad.TypedOrderedDict(
+            abjad.datastructuretools.TypedOrderedDict(
                 [
                     ('Cello Music Staff', 'cello'),
                     ('Clarinet Music Staff', 'bass clarinet'),
@@ -45,7 +45,7 @@ metadata = abjad.TypedOrderedDict(
         ('end_time_signature', '6/4'),
         ('first_bar_number', 112),
         ('measure_count', 20),
-        ('segment_count', 4),
+        ('segment_count', 5),
         ('segment_number', 4),
         ]
     )
