@@ -26,12 +26,13 @@ piano._default_scope = 'PianoMusicStaff'
 
 ### RHYTHM-MAKERS ###
 
-beat_division_maker = baca.tools.DivisionMaker()
-beat_division_maker = beat_division_maker.split_by_durations(
-        compound_meter_multiplier=abjad.Multiplier(3, 2),
-        durations=[(1, 4)],
-        )
-beat_division_maker = beat_division_maker.flatten()
+#beat_division_maker = baca.tools.DivisionMaker()
+#beat_division_maker = beat_division_maker.split_by_durations(
+#        compound_meter_multiplier=abjad.Multiplier(3, 2),
+#        durations=[(1, 4)],
+#        )
+#beat_division_maker = beat_division_maker.flatten()
+beat_division_maker = khamr.tools.make_beat_division_maker()
 
 quarter_division_maker = baca.tools.DivisionMaker()
 quarter_division_maker = quarter_division_maker.split_by_durations(

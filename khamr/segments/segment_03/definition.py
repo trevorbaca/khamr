@@ -4,6 +4,18 @@ import baca
 import khamr
 from khamr.materials.__abbreviations__ import *
 
+fl = 'Flute Music Voice'
+ob = 'Oboe Music Voice'
+cl = 'Clarinet Music Voice'
+sax = 'Saxophone Music Voice'
+gt = 'Guitar Music Voice'
+pf = 'Piano Music Voice'
+perc = 'Percussion Music Voice'
+vn = 'Violin Music Voice'
+va = 'Viola Music Voice'
+vc = 'Cello Music Voice'
+cb = 'Contrabass Music Voice'
+
 
 ###############################################################################
 ##################################### [3] #####################################
@@ -45,10 +57,11 @@ segment_maker.validate_measures_per_stage()
 segment_maker.append_commands(
     fl,
     baca.select_stages(1, 1),
-    baca.tools.RhythmSpecifier(
-        rewrite_meter=True,
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
-        ),
+#    baca.tools.RhythmSpecifier(
+#        rewrite_meter=True,
+#        rhythm_maker=messiaen_tied_note_rhythm_maker,
+#        ),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
@@ -75,7 +88,7 @@ segment_maker.append_commands(
     fl,
     baca.select_stages(9, 9),
     baca.tools.RhythmSpecifier(
-        division_maker=beat_division_maker
+        division_maker=khamr.tools.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[8],
                 )
@@ -131,7 +144,7 @@ segment_maker.append_commands(
     ob,
     baca.select_stages(9, 9),
     baca.tools.RhythmSpecifier(
-        division_maker=beat_division_maker
+        division_maker=khamr.tools.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[10],
                 )
@@ -238,7 +251,7 @@ segment_maker.append_commands(
     sax,
     baca.select_stages(9, 9),
     baca.tools.RhythmSpecifier(
-        division_maker=beat_division_maker
+        division_maker=khamr.tools.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[12],
                 )
@@ -285,7 +298,7 @@ segment_maker.append_commands(
     pf,
     baca.select_stages(1, 4),
     baca.tools.RhythmSpecifier(
-        division_maker=beat_division_maker,
+        division_maker=khamr.tools.make_beat_division_maker(),
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             tuplet_ratios=[
                 (1, 1, 1, 1), (1, 1, 1, 1), (1, 1, 1, 1), (1, 1, 1), 
