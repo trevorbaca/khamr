@@ -158,7 +158,7 @@ segment_maker.append_commands(
     voice_name=gt,
     division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
-            counts=abjad.mathtools.Infinity,
+            counts=abjad.Infinity,
             )
         .split_by_durations(
             durations=[(2, 4), (4, 4), (12, 4)],
@@ -213,7 +213,7 @@ segment_maker.append_commands(
     voice_name=pf,
     division_maker=baca.tools.DivisionMaker()
         .fuse_by_counts(
-            counts=abjad.mathtools.Infinity,
+            counts=abjad.Infinity,
             )
         .split_by_durations(
             durations=[(2, 4), (4, 4), (12, 4)],
@@ -262,7 +262,7 @@ segment_maker.append_commands(
     clef='percussion',
     division_maker=beat_division_maker
         .fuse_by_counts(
-            counts=abjad.mathtools.Infinity(),
+            counts=abjad.Infinity(),
             )
         .split_by_durations(
             durations=[(7, 4)]
@@ -284,7 +284,7 @@ segment_maker.append_commands(
     clef='percussion',
     division_maker=beat_division_maker
         .fuse_by_counts(
-            counts=abjad.mathtools.Infinity(),
+            counts=abjad.Infinity(),
             )
         .split_by_durations(
             durations=[(6, 4)]
@@ -306,7 +306,7 @@ segment_maker.append_commands(
     clef='percussion',
     division_maker=beat_division_maker
         .fuse_by_counts(
-            counts=abjad.mathtools.Infinity(),
+            counts=abjad.Infinity(),
             )
         .split_by_durations(
             durations=[(5, 4)]
@@ -328,7 +328,7 @@ segment_maker.append_commands(
     clef='percussion',
     division_maker=beat_division_maker
         .fuse_by_counts(
-            counts=abjad.mathtools.Infinity(),
+            counts=abjad.Infinity(),
             )
         .split_by_durations(
             durations=[(4, 4)]
