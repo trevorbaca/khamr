@@ -107,13 +107,13 @@ string = 'catch resonance (but not attack) with pedal'
 catch_resonance = abjad.Markup(string, direction=Up, stack_priority=1000)
 catch_resonance = baca.markup(catch_resonance)
 
-first_line = abjad.MarkupList(['air tone with lips covering mouthplate']).line()
-second_line = abjad.MarkupList(['(sounds major 7th lower)']).line()
-covered_flute_air_tone = abjad.Markup.column(
-    [first_line, 
-    second_line], direction=Up,
-    )
-covered_flute_air_tone = baca.markup(covered_flute_air_tone)
+#first_line = abjad.MarkupList(['air tone with lips covering mouthplate']).line()
+#second_line = abjad.MarkupList(['(sounds major 7th lower)']).line()
+#covered_flute_air_tone = abjad.Markup.column(
+#    [first_line, 
+#    second_line], direction=Up,
+#    )
+#covered_flute_air_tone = baca.markup(covered_flute_air_tone)
 
 cross_note_heads = baca.cross_note_heads()
 
@@ -280,8 +280,8 @@ shakers = baca.markup.shakers()
 
 show_tempo = baca.markup.allow_bowing_to_convey_accelerando()
 
-string = 'Shape trill dynamics beautifully. (Thank you, Stefano.)'
-scodanibbio = baca.markup(string)
+#string = 'Shape trill dynamics beautifully. (Thank you, Stefano.)'
+#scodanibbio = baca.markup(string)
 
 string = 'tamburo: strike lowest strings with palm inside piano'
 string += ' and let vibrate (pedal down throughout)'
@@ -479,12 +479,6 @@ pervasive_A5_trills = baca.tools.TrillCommand(
     pitch=abjad.NamedPitch('A5'),
     )
 
-pervasive_F3_harmonic_trills = baca.tools.TrillCommand(
-    harmonic=True,
-    minimum_written_duration=None,
-    pitch=abjad.NamedPitch('F3'),
-    )
-
 ### articulation specifiers ###
 
 alternate_bow_strokes = baca.alternate_bow_strokes()
@@ -554,26 +548,30 @@ put_reed_back_in = baca.markup.put_reed_back_in()
 
 flageolet = baca.flageolets()
 
-wide_third_octave = baca.tools.RegisterCommand(
-    registration=abjad.pitchtools.Registration(
-        [('[A0, F#4)', -20), ('[F#4, C8]', -6)]
-        ),
-    )
+#wide_third_octave = baca.tools.RegisterCommand(
+#    registration=abjad.pitchtools.Registration(
+#        [('[A0, F#4)', -20), ('[F#4, C8]', -6)]
+#        ),
+#    )
+wide_third_octave = khamr.tools.make_wide_third_octave()
 
-narrow_fourth_octave = baca.tools.RegisterCommand(
-    registration=abjad.pitchtools.Registration(
-        [('[A0, F#4)', -2), ('[F#4, C8]', 1)],
-        ),
-    )
+#narrow_fourth_octave = baca.tools.RegisterCommand(
+#    registration=abjad.pitchtools.Registration(
+#        [('[A0, F#4)', -2), ('[F#4, C8]', 1)],
+#        ),
+#    )
+narrow_fourth_octave = khamr.tools.make_narrow_fourth_octave()
 
-narrow_sixth_octave = baca.tools.RegisterCommand(
-    registration=abjad.pitchtools.Registration(
-        [('[A0, F#4)', 22), ('[F#4, C8]', 25)],
-        ),
-    )
+#narrow_sixth_octave = baca.tools.RegisterCommand(
+#    registration=abjad.pitchtools.Registration(
+#        [('[A0, F#4)', 22), ('[F#4, C8]', 25)],
+#        ),
+#    )
+narrow_sixth_octave = khamr.tools.make_narrow_sixth_octave()
 
-sixth_octave = baca.tools.RegisterCommand(
-    registration=abjad.pitchtools.Registration(
-        [('[A0, C8)', 30)],
-        ),
-    )
+#sixth_octave = baca.tools.RegisterCommand(
+#    registration=abjad.pitchtools.Registration(
+#        [('[A0, C8)', 30)],
+#        ),
+#    )
+sixth_octave = khamr.tools.make_sixth_octave()
