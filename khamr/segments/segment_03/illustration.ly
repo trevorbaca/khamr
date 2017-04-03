@@ -860,7 +860,7 @@
                                 {
                                     \line
                                         {
-                                            "air tone with lips covering mouthplate"
+                                            "airtone with lips covering mouthplate"
                                         }
                                     \line
                                         {
@@ -1414,24 +1414,18 @@
                         f'''16 ]
                     }
                     s1 * 15/4
-                    \once \override RepeatTie.direction = #up
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
                     r1
-                    \once \override RepeatTie.direction = #up
                     r1
-                    \once \override RepeatTie.direction = #up
                     r2
-                    \once \override RepeatTie.direction = #up
-                    b'2. \pp - \markup { "air tone without reed: mix inhales and exhales ad lib." }
-                    \once \override RepeatTie.direction = #up
+                    \override RepeatTie.direction = #up
+                    b'2. \pp - \markup { "airtone without reed: mix inhales and exhales ad lib." }
                     b'4. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'4 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'16 \repeatTie
-                    \once \override RepeatTie.direction = #up
+                    \revert RepeatTie.direction
                     r16
                     \bar "|"
                     \stopStaff
@@ -2394,32 +2388,25 @@
                         b''16 ]
                     }
                     s1 * 15/4
-                    \once \override RepeatTie.direction = #up
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
+                    \override RepeatTie.direction = #up
                     b'1 \pp
                         ^ \markup {
                             \whiteout
                                 \upright
                                     airtone
                             }
-                    \once \override RepeatTie.direction = #up
                     b'1 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'2... \repeatTie
-                    \once \override RepeatTie.direction = #up
                     r16
-                    \once \override RepeatTie.direction = #up
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     b'4
-                    \once \override RepeatTie.direction = #up
                     b'4. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'4 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'16 \repeatTie
-                    \once \override RepeatTie.direction = #up
+                    \revert RepeatTie.direction
                     r16
                     \bar "|"
                     \stopStaff
@@ -3107,9 +3094,9 @@
                     \clef "percussion"
                     c'1 :32 \pp
                         ^ \markup {
-                            \larger
+                            \whiteout
                                 \override
-                                    #'(box-padding . 0.75)
+                                    #'(box-padding . 0.5)
                                     \box
                                         "bass drum"
                             }
@@ -3145,9 +3132,9 @@
                     \once \override Stem.color = #blue
                     c'4 -\staccato -\tongue #2 \fff
                         ^ \markup {
-                            \larger
+                            \whiteout
                                 \override
-                                    #'(box-padding . 0.75)
+                                    #'(box-padding . 0.5)
                                     \box
                                         castanets
                             }
@@ -3551,9 +3538,9 @@
                     \once \override Stem.color = #blue
                     c'2. :32 \ppp
                         ^ \markup {
-                            \larger
+                            \whiteout
                                 \override
-                                    #'(box-padding . 0.75)
+                                    #'(box-padding . 0.5)
                                     \box
                                         "bass drum"
                             }
@@ -3611,125 +3598,89 @@
                 \context ViolinMusicVoice = "Violin Music Voice" {
                     a'2
                     a'2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
-                    gff'1. \p \glissando ^ \markup { "estr. sul pont." }
-                    \once \override NoteHead.style = #'harmonic
+                    \override NoteHead.style = #'harmonic
+                    gff'1. \p \glissando
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "estr. sul pont."
+                            }
                     gf'2. \glissando
                     \times 4/5 {
-                        \once \override NoteHead.style = #'harmonic
                         bff'2. \glissando \< \pp
-                        \once \override NoteHead.style = #'harmonic
                         ff'2 \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     dff'2. \glissando
                     \times 2/3 {
-                        \once \override NoteHead.style = #'harmonic
                         cf'1 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         af'2 \glissando
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/9 {
-                        \once \override NoteHead.style = #'harmonic
                         ff'2. \glissando
-                        \once \override NoteHead.style = #'harmonic
                         ef'1. \glissando
                     }
                     \times 4/7 {
-                        \once \override NoteHead.style = #'harmonic
                         gff'1 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         aff'2. \f \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     bff'2. \fff \glissando
-                    \once \override NoteHead.style = #'harmonic
                     af'1 \glissando
                     {
-                        \once \override NoteHead.style = #'harmonic
                         bf2 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         eff'2. \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     df'2. \glissando
                     \times 2/3 {
-                        \once \override NoteHead.style = #'harmonic
                         ff'4 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         dff'2 \glissando
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        \once \override NoteHead.style = #'harmonic
                         cf'1 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         af'2. \glissando
                     }
                     \times 4/7 {
-                        \once \override NoteHead.style = #'harmonic
                         bff'4. \glissando
-                        \once \override NoteHead.style = #'harmonic
                         ef'2 \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     gff'2.
-                    \once \override NoteHead.style = #'harmonic
                     gff'2 \repeatTie \glissando
-                    \once \override NoteHead.style = #'harmonic
                     aff'2. \glissando
                     \times 2/3 {
-                        \once \override NoteHead.style = #'harmonic
                         df'1 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         af'2 \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     bf1. \glissando
                     \times 4/7 {
-                        \once \override NoteHead.style = #'harmonic
                         eff'2 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         ff'4. \glissando
                     }
                     \times 4/7 {
-                        \once \override NoteHead.style = #'harmonic
                         gff'4. \glissando
-                        \once \override NoteHead.style = #'harmonic
                         gf'2 \glissando
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
-                        \once \override NoteHead.style = #'harmonic
                         bff'2. \glissando
-                        \once \override NoteHead.style = #'harmonic
                         aff'2 \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     bff'1 \glissando
-                    \once \override NoteHead.style = #'harmonic
                     ef'2 \glissando
                     \times 2/3 {
-                        \once \override NoteHead.style = #'harmonic
                         gff'4 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         eff'2 \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     df'1. \glissando
                     \times 4/7 {
-                        \once \override NoteHead.style = #'harmonic
                         af'2. \glissando
-                        \once \override NoteHead.style = #'harmonic
                         bf1 \glissando
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
-                        \once \override NoteHead.style = #'harmonic
                         bff'2. \glissando
-                        \once \override NoteHead.style = #'harmonic
                         ff'2
+                        \revert NoteHead.style
                     }
                     s1 * 31/4
                     \bar "|"
@@ -3742,127 +3693,91 @@
                     gs'2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
-                        \once \override NoteHead.style = #'harmonic
-                        gff'1. \p \glissando ^ \markup { "estr. sul pont." }
-                        \once \override NoteHead.style = #'harmonic
+                        \override NoteHead.style = #'harmonic
+                        gff'1. \p \glissando
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        "estr. sul pont."
+                                }
                         gf'1 \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     bff'2. \glissando
-                    \once \override NoteHead.style = #'harmonic
                     ff'1 \glissando \< \pp
                     {
-                        \once \override NoteHead.style = #'harmonic
                         dff'4 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         cf'2 \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     af'1 \glissando
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/7 {
-                        \once \override NoteHead.style = #'harmonic
                         ff'2. \glissando
-                        \once \override NoteHead.style = #'harmonic
                         ef'1 \glissando
                     }
                     \times 4/5 {
-                        \once \override NoteHead.style = #'harmonic
                         gff'2. \glissando
-                        \once \override NoteHead.style = #'harmonic
                         aff'2 \f \glissando
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
-                        \once \override NoteHead.style = #'harmonic
                         bff'2 \fff \glissando
-                        \once \override NoteHead.style = #'harmonic
                         af'2. \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     bf1 \glissando
-                    \once \override NoteHead.style = #'harmonic
                     eff'2.
-                    \once \override NoteHead.style = #'harmonic
                     eff'2 \repeatTie \glissando
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        \once \override NoteHead.style = #'harmonic
                         df'2 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         ff'4. \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     dff'2 \glissando
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
-                        \once \override NoteHead.style = #'harmonic
                         cf'1. \glissando
-                        \once \override NoteHead.style = #'harmonic
                         af'1 \glissando
                     }
                     \times 4/5 {
-                        \once \override NoteHead.style = #'harmonic
                         bff'4 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         ef'4. \glissando
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/9 {
-                        \once \override NoteHead.style = #'harmonic
                         gff'1. \glissando
-                        \once \override NoteHead.style = #'harmonic
                         aff'2. \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     df'2. \glissando
-                    \once \override NoteHead.style = #'harmonic
                     af'1 \glissando
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        \once \override NoteHead.style = #'harmonic
                         bf2. \glissando
-                        \once \override NoteHead.style = #'harmonic
                         eff'1 \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     ff'2 \glissando
                     \times 4/5 {
-                        \once \override NoteHead.style = #'harmonic
                         gff'4 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         gf'4. \glissando
                     }
                     {
-                        \once \override NoteHead.style = #'harmonic
                         bff'2 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         aff'4 \glissando
                     }
                     \times 2/3 {
-                        \once \override NoteHead.style = #'harmonic
                         bff'2 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         ef'1 \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     gff'2 \glissando
-                    \once \override NoteHead.style = #'harmonic
                     eff'2 \glissando
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
-                        \once \override NoteHead.style = #'harmonic
                         df'1. \glissando
-                        \once \override NoteHead.style = #'harmonic
                         af'1 \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     bf1 \glissando
                     {
-                        \once \override NoteHead.style = #'harmonic
                         bff'2 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         ff'4
+                        \revert NoteHead.style
                     }
                     s1 * 31/4
                     \bar "|"
@@ -3874,126 +3789,89 @@
                     g2
                     g2 \repeatTie
                     {
-                        \once \override NoteHead.style = #'harmonic
-                        gff'1 \p \glissando ^ \markup { "estr. sul pont." }
-                        \once \override NoteHead.style = #'harmonic
+                        \override NoteHead.style = #'harmonic
+                        gff'1 \p \glissando
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        "estr. sul pont."
+                                }
                         gf'2 \glissando
                     }
                     {
-                        \once \override NoteHead.style = #'harmonic
                         bff'4 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         ff'2 \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     dff'1 \glissando \< \pp
-                    \once \override NoteHead.style = #'harmonic
                     cf'2. \glissando
                     \times 4/5 {
-                        \once \override NoteHead.style = #'harmonic
                         af'2. \glissando
-                        \once \override NoteHead.style = #'harmonic
                         ff'2 \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     ef'2.
-                    \once \override NoteHead.style = #'harmonic
                     ef'2 \repeatTie \glissando
                     \times 2/3 {
-                        \once \override NoteHead.style = #'harmonic
                         gff'1 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         aff'2 \f \glissando
                     }
                     {
-                        \once \override NoteHead.style = #'harmonic
                         bff'4 \fff \glissando
-                        \once \override NoteHead.style = #'harmonic
                         af'2 \glissando
                     }
                     \times 4/7 {
-                        \once \override NoteHead.style = #'harmonic
                         bf1 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         eff'2. \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     df'2.
-                    \once \override NoteHead.style = #'harmonic
                     df'2 \repeatTie \glissando
-                    \once \override NoteHead.style = #'harmonic
                     ff'2. \glissando
                     \times 4/5 {
-                        \once \override NoteHead.style = #'harmonic
                         dff'4 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         cf'4. \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     af'1. \glissando
                     \times 2/3 {
-                        \once \override NoteHead.style = #'harmonic
                         bff'4 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         ef'2 \glissando
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/7 {
-                        \once \override NoteHead.style = #'harmonic
                         gff'1 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         aff'2. \glissando
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        \once \override NoteHead.style = #'harmonic
                         df'4. \glissando
-                        \once \override NoteHead.style = #'harmonic
                         af'2 \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     bf1 \glissando
-                    \once \override NoteHead.style = #'harmonic
                     eff'1. \glissando
                     \times 2/3 {
-                        \once \override NoteHead.style = #'harmonic
                         ff'2 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         gff'4 \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     gf'2 \glissando
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        \once \override NoteHead.style = #'harmonic
                         bff'2 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         aff'4. \glissando
                     }
                     \times 4/7 {
-                        \once \override NoteHead.style = #'harmonic
                         bff'2. \glissando
-                        \once \override NoteHead.style = #'harmonic
                         ef'1 \glissando
                     }
                     \times 4/5 {
-                        \once \override NoteHead.style = #'harmonic
                         gff'4. \glissando
-                        \once \override NoteHead.style = #'harmonic
                         eff'4 \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     df'2 \glissando
-                    \once \override NoteHead.style = #'harmonic
                     af'1. \glissando
                     \times 2/3 {
-                        \once \override NoteHead.style = #'harmonic
                         bf2 \glissando
-                        \once \override NoteHead.style = #'harmonic
                         bff'1 \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
                     ff'2.
+                    \revert NoteHead.style
                     s1 * 31/4
                     \bar "|"
                 }
@@ -4011,7 +3889,12 @@
                     <gs,,, as,,>2.
                     <gs,,, as,,>2 \repeatTie
                     <gs,,, as,,>1 \repeatTie \f
-                    <gs,,, as,,>2. \fff ^ \markup { "estr. sul pont." }
+                    <gs,,, as,,>2. \fff
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "estr. sul pont."
+                            }
                     <gs,,, as,,>1 \repeatTie
                     <gs,,, as,,>2. \repeatTie
                     <gs,,, as,,>2 \repeatTie

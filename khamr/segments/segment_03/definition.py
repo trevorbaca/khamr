@@ -607,7 +607,7 @@ segment_maker.append_commands(
     fl,
     baca.select_stages(1, 1),
     baca.pitches('B5'),
-    stem_tremolo,
+    baca.stem_tremolo(),
     )
 
 segment_maker.append_commands(
@@ -619,6 +619,7 @@ segment_maker.append_commands(
         arguments=[
             abjad.Articulation('>'), None, None, None, None, None, None, None],
         ),
+    #baca.accents(selector=baca.select_leaves_in_each_tuplet(stop=1)),
     )
 
 segment_maker.append_commands(
@@ -627,7 +628,7 @@ segment_maker.append_commands(
     baca.dynamic('pp'),
     # sounds B3
     baca.pitches('Bb4'),
-    covered_flute_air_tone,
+    khamr.markup.covered_flute_airtone(),
     )
 
 ### OBOE ###
@@ -652,11 +653,11 @@ segment_maker.append_commands(
     ob,
     baca.select_stages(9, 9),
     baca.dynamic('pp'),
+    baca.one_line_staff(),
     # dummy centerline pitch
     baca.pitches('B4'),
-    air_tone_without_reed,
-    one_line_staff,
-    repeat_ties_up,
+    baca.repeat_ties_up(),
+    khamr.markup.airtone_without_reed(),
     )
 
 ### CLARINET ###
@@ -709,11 +710,11 @@ segment_maker.append_commands(
     sax,
     baca.select_stages(9, 9),
     baca.dynamic('pp'),
+    baca.markup.airtone(),
+    baca.one_line_staff(),
     # dummy centerline pitch
     baca.pitches('D5'),
-    air_tone,
-    one_line_staff,
-    repeat_ties_up,
+    baca.repeat_ties_up(),
     )
 
 ### GUITAR ###
@@ -729,7 +730,7 @@ segment_maker.append_commands(
     baca.select_stages(5, 6),
     baca.dynamic('fff'),
     baca.pitches('Ab4'),
-    stem_tremolo,
+    baca.stem_tremolo(),
     )
 
 ### PIANO ###
@@ -745,8 +746,8 @@ segment_maker.append_commands(
             abjad.Transposition(n=2),
             ],
         ),
-    sixth_octave,
     baca.ottava(),
+    khamr.tools.make_sixth_octave(),
     )
 
 segment_maker.append_commands(
@@ -775,25 +776,25 @@ segment_maker.append_commands(
     baca.select_stages(3, 4),
     baca.clef('percussion'),
     baca.dynamic('pp'),
-    stem_tremolo,
-    percussion_reminder_markup('bass drum'),
+    baca.markup.boxed('bass drum'),
+    baca.stem_tremolo(),
     )
 
 segment_maker.append_commands(
     perc,
     baca.select_stages(5, 6),
+    baca.double_tonguing(),
     baca.dynamic('fff'),
-    staccati,
-    percussion_reminder_markup('castanets'),
-    double_tonguing,
+    baca.markup.boxed('castanets'),
+    baca.staccati(),
     )
 
 segment_maker.append_commands(
     perc,
     baca.select_stages(7, 9),
     baca.dynamic('ppp'),
-    stem_tremolo,
-    percussion_reminder_markup('bass drum'),
+    baca.markup.boxed('bass drum'),
+    baca.stem_tremolo(),
     )
 
 ### VIOLIN ###
@@ -816,10 +817,10 @@ segment_maker.append_commands(
             abjad.Transposition(n=6),
             ],
         ),
-    narrow_fourth_octave,
-    pervasive_glissandi,
-    estr_sul_pont,
-    natural_harmonics,
+    baca.glissandi(),
+    baca.markup.estr_sul_pont(),
+    baca.natural_harmonics(),
+    khamr.tools.make_narrow_fourth_octave(),
     )
 
 segment_maker.append_commands(
@@ -915,20 +916,20 @@ segment_maker.append_commands(
     cb,
     baca.select_stages(5, 5),
     baca.dynamic('fff'),
-    estr_sul_pont,
+    baca.markup.estr_sul_pont(),
     )
 
 segment_maker.append_commands(
     cb,
     baca.select_stages(6, 9),
-    arco_ordinario,
+    baca.markup.arco_ordinario(),
     )
 
 segment_maker.append_commands(
     cb,
     baca.select_stages(8, 9),
     baca.dynamic('mp'),
+    baca.pervasive_trills_at_pitch('F3', harmonic=True),
     baca.pitches('G0'),
-    pervasive_F3_harmonic_trills,
-    scodanibbio,
+    khamr.markup.scodanibbio(),
     )
