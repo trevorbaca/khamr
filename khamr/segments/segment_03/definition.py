@@ -4,17 +4,17 @@ import baca
 import khamr
 from khamr.materials.__abbreviations__ import *
 
-fl = 'Flute Music Voice'
-ob = 'Oboe Music Voice'
-cl = 'Clarinet Music Voice'
-sax = 'Saxophone Music Voice'
-gt = 'Guitar Music Voice'
-pf = 'Piano Music Voice'
-perc = 'Percussion Music Voice'
-vn = 'Violin Music Voice'
-va = 'Viola Music Voice'
-vc = 'Cello Music Voice'
-cb = 'Contrabass Music Voice'
+#fl = 'Flute Music Voice'
+#ob = 'Oboe Music Voice'
+#cl = 'Clarinet Music Voice'
+#sax = 'Saxophone Music Voice'
+#gt = 'Guitar Music Voice'
+#pf = 'Piano Music Voice'
+#perc = 'Percussion Music Voice'
+#vn = 'Violin Music Voice'
+#va = 'Viola Music Voice'
+#vc = 'Cello Music Voice'
+#cb = 'Contrabass Music Voice'
 
 
 ###############################################################################
@@ -114,10 +114,11 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     ob,
     baca.select_stages(1, 1),
-    baca.tools.RhythmSpecifier(
-        rewrite_meter=True,
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
-        ),
+#    baca.tools.RhythmSpecifier(
+#        rewrite_meter=True,
+#        rhythm_maker=messiaen_tied_note_rhythm_maker,
+#        ),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
@@ -173,10 +174,11 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cl,
     baca.select_stages(1, 1),
-    baca.tools.RhythmSpecifier(
-        rewrite_meter=True,
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
-        ),
+#    baca.tools.RhythmSpecifier(
+#        rewrite_meter=True,
+#        rhythm_maker=messiaen_tied_note_rhythm_maker,
+#        ),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
@@ -221,10 +223,11 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     sax,
     baca.select_stages(1, 1),
-    baca.tools.RhythmSpecifier(
-        rewrite_meter=True,
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
-        ),
+#    baca.tools.RhythmSpecifier(
+#        rewrite_meter=True,
+#        rhythm_maker=messiaen_tied_note_rhythm_maker,
+#        ),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
@@ -277,19 +280,21 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     gt,
     baca.select_stages(1, 1),
-    baca.tools.RhythmSpecifier(
-        rewrite_meter=True,
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
-        ),
+#    baca.tools.RhythmSpecifier(
+#        rewrite_meter=True,
+#        rhythm_maker=messiaen_tied_note_rhythm_maker,
+#        ),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     gt,
     baca.select_stages(5, 6),
-    baca.tools.RhythmSpecifier(
-        rewrite_meter=True,
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
-        ),
+#    baca.tools.RhythmSpecifier(
+#        rewrite_meter=True,
+#        rhythm_maker=messiaen_tied_note_rhythm_maker,
+#        ),
+    baca.messiaen_tied_notes(),
     )
 
 ### PIANO ###
@@ -341,17 +346,18 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     perc,
     baca.select_stages(3, 4),
-    baca.tools.RhythmSpecifier(
-        rewrite_meter=True,
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
-        ),
+#    baca.tools.RhythmSpecifier(
+#        rewrite_meter=True,
+#        rhythm_maker=messiaen_tied_note_rhythm_maker,
+#        ),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     perc,
     baca.select_stages(5, 5),
     baca.tools.RhythmSpecifier(
-        division_maker=quarter_division_maker,
+        division_maker=khamr.tools.make_quarter_division_maker(),
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
         ),
     )
@@ -377,10 +383,11 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     perc,
     baca.select_stages(7, 9),
-    baca.tools.RhythmSpecifier(
-        rewrite_meter=True,
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
-        ),
+#    baca.tools.RhythmSpecifier(
+#        rewrite_meter=True,
+#        rhythm_maker=messiaen_tied_note_rhythm_maker,
+#        ),
+    baca.messiaen_tied_notes(),
     )
 
 ### VIOLIN ###
@@ -388,10 +395,11 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn,
     baca.select_stages(1, 1),
-    baca.tools.RhythmSpecifier(
-        rewrite_meter=True,
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
-        ),
+#    baca.tools.RhythmSpecifier(
+#        rewrite_meter=True,
+#        rhythm_maker=messiaen_tied_note_rhythm_maker,
+#        ),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
@@ -414,7 +422,7 @@ segment_maker.append_commands(
                 (3, 2), (2, 3),
                 (2, 1), (1, 2),
                 ],
-            tuplet_spelling_specifier=string_tuplet_spelling_specifier,
+            tuplet_spelling_specifier=khamr.tools.make_tuplet_spelling_specifier(),
             ),
         ),
     )
@@ -424,10 +432,11 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(1, 1),
-    baca.tools.RhythmSpecifier(
-        rewrite_meter=True,
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
-        ),
+#    baca.tools.RhythmSpecifier(
+#        rewrite_meter=True,
+#        rhythm_maker=messiaen_tied_note_rhythm_maker,
+#        ),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
@@ -450,7 +459,7 @@ segment_maker.append_commands(
                 (2, 1), (1, 2),
                 (4, 3), (3, 4),
                 ],
-            tuplet_spelling_specifier=string_tuplet_spelling_specifier,
+            tuplet_spelling_specifier=khamr.tools.make_tuplet_spelling_specifier(),
             ),
         ),
     )
@@ -460,10 +469,11 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(1, 1),
-    baca.tools.RhythmSpecifier(
-        rewrite_meter=True,
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
-        ),
+#    baca.tools.RhythmSpecifier(
+#        rewrite_meter=True,
+#        rhythm_maker=messiaen_tied_note_rhythm_maker,
+#        ),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
@@ -486,7 +496,7 @@ segment_maker.append_commands(
                 (4, 3), (3, 4),
                 (3, 2), (2, 3),
                 ],
-            tuplet_spelling_specifier=string_tuplet_spelling_specifier,
+            tuplet_spelling_specifier=khamr.tools.make_tuplet_spelling_specifier(),
             ),
         ),
     )
@@ -496,55 +506,61 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cb,
     baca.select_stages(1, 1),
-    baca.tools.RhythmSpecifier(
-        rewrite_meter=True,
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
-        ),
+#    baca.tools.RhythmSpecifier(
+#        rewrite_meter=True,
+#        rhythm_maker=messiaen_tied_note_rhythm_maker,
+#        ),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     cb,
     baca.select_stages(2, 2),
-    baca.tools.RhythmSpecifier(
-        rewrite_meter=True,
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
-        ),
+#    baca.tools.RhythmSpecifier(
+#        rewrite_meter=True,
+#        rhythm_maker=messiaen_tied_note_rhythm_maker,
+#        ),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     cb,
     baca.select_stages(3, 3),
-    baca.tools.RhythmSpecifier(
-        rewrite_meter=True,
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
-        ),
+#    baca.tools.RhythmSpecifier(
+#        rewrite_meter=True,
+#        rhythm_maker=messiaen_tied_note_rhythm_maker,
+#        ),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     cb,
     baca.select_stages(4, 4),
-    baca.tools.RhythmSpecifier(
-        rewrite_meter=True,
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
-        ),
+#    baca.tools.RhythmSpecifier(
+#        rewrite_meter=True,
+#        rhythm_maker=messiaen_tied_note_rhythm_maker,
+#        ),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     cb,
     baca.select_stages(5, 5),
-    baca.tools.RhythmSpecifier(
-        rewrite_meter=True,
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
-        ),
+#    baca.tools.RhythmSpecifier(
+#        rewrite_meter=True,
+#        rhythm_maker=messiaen_tied_note_rhythm_maker,
+#        ),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     cb,
     baca.select_stages(6, 6),
-    baca.tools.RhythmSpecifier(
-        rewrite_meter=True,
-        rhythm_maker=messiaen_tied_note_rhythm_maker,
-        ),
+#    baca.tools.RhythmSpecifier(
+#        rewrite_meter=True,
+#        rhythm_maker=messiaen_tied_note_rhythm_maker,
+#        ),
+    baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
@@ -590,9 +606,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     fl,
     baca.select_stages(1, 1),
-    pitch_specifier(
-        source='B5',
-        ),
+    baca.pitches('B5'),
     stem_tremolo,
     )
 
@@ -600,9 +614,7 @@ segment_maker.append_commands(
     fl,
     baca.select_stages(5, 6),
     baca.dynamic('fff'),
-    pitch_specifier(
-        source='D6 E6 F#6 C6 C#6 D6 D#6 F6',
-        ),
+    baca.pitches('D6 E6 F#6 C6 C#6 D6 D#6 F6'),
     baca.tools.AttachCommand(
         arguments=[
             abjad.Articulation('>'), None, None, None, None, None, None, None],
@@ -614,7 +626,7 @@ segment_maker.append_commands(
     baca.select_stages(9, 9),
     baca.dynamic('pp'),
     # sounds B3
-    pitch_specifier(source='Bb4'),
+    baca.pitches('Bb4'),
     covered_flute_air_tone,
     )
 
@@ -623,18 +635,14 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     ob,
     baca.select_stages(1, 1),
-    pitch_specifier(
-        source='G#3',
-        ),
+    baca.pitches('G#3'),
     )
 
 segment_maker.append_commands(
     ob,
     baca.select_stages(5, 6),
     baca.dynamic('fff'),
-    pitch_specifier(
-        source='C6 C#6 D#6 E6 F6 F#6',
-        ),
+    baca.pitches('C6 C#6 D#6 E6 F6 F#6'),
     baca.tools.AttachCommand(
         arguments=[abjad.Articulation('>'), None, None, None, None, None],
         ),
@@ -645,7 +653,7 @@ segment_maker.append_commands(
     baca.select_stages(9, 9),
     baca.dynamic('pp'),
     # dummy centerline pitch
-    pitch_specifier(source='B4'),
+    baca.pitches('B4'),
     air_tone_without_reed,
     one_line_staff,
     repeat_ties_up,
@@ -656,16 +664,14 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cl,
     baca.select_stages(1, 1),
-    pitch_specifier(source='F#2'),
+    baca.pitches('F#2'),
     )
 
 segment_maker.append_commands(
     cl,
     baca.select_stages(5, 6),
     baca.dynamic('fff'),
-    pitch_specifier(
-        source='D6 D#6 F6 F#6 C6 C#6 D#6 E6 F6',
-        ),
+    baca.pitches('D6 D#6 F6 F#6 C6 C#6 D#6 E6 F6'),
     baca.tools.AttachCommand(
         arguments=[abjad.Articulation('>'),
             None, None, None, None, None, None, None, None,
@@ -677,7 +683,7 @@ segment_maker.append_commands(
     cl,
     baca.select_stages(8, 9),
     baca.dynamic('ppp'),
-    pitch_specifier(source='G2'),
+    baca.pitches('G2'),
     )
 
 ### SAXOPHONE ###
@@ -685,18 +691,14 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     sax,
     baca.select_stages(1, 1),
-    pitch_specifier(
-        source='G#2',
-        ),
+    baca.pitches('G#2'),
     )
 
 segment_maker.append_commands(
     sax,
     baca.select_stages(5, 6),
     baca.dynamic('fff'),
-    pitch_specifier(
-        source='C6 C#6 D6 F6 F#6 D#6 E6',
-        ),
+    baca.pitches('C6 C#6 D6 F6 F#6 D#6 E6'),
     baca.tools.AttachCommand(
         arguments=[
             abjad.Articulation('>'), None, None, None, None, None, None],
@@ -708,7 +710,7 @@ segment_maker.append_commands(
     baca.select_stages(9, 9),
     baca.dynamic('pp'),
     # dummy centerline pitch
-    pitch_specifier(source='D5'),
+    baca.pitches('D5'),
     air_tone,
     one_line_staff,
     repeat_ties_up,
@@ -719,14 +721,14 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     gt,
     baca.select_stages(1, 1),
-    pitch_specifier(source='G3'),
+    baca.pitches('G3'),
     )
 
 segment_maker.append_commands(
     gt,
     baca.select_stages(5, 6),
     baca.dynamic('fff'),
-    pitch_specifier(source='Ab4'),
+    baca.pitches('Ab4'),
     stem_tremolo,
     )
 
@@ -736,8 +738,8 @@ segment_maker.append_commands(
     pf,
     baca.select_stages(1, 4),
     baca.dynamic('fff'),
-    pitch_specifier(
-        source=khamr.materials.rose_pitch_classes,
+    baca.pitches(
+        khamr.materials.rose_pitch_classes,
         operators=[
             abjad.Inversion(),
             abjad.Transposition(n=2),
@@ -757,9 +759,7 @@ segment_maker.append_commands(
     pf,
     baca.select_stages(5, 6),
     baca.dynamic('fff'),
-    pitch_specifier(
-        source='C6 D6 D#6 E6 F6 F#6 C6 C#6 D#6 E6 F6',
-        ),
+    baca.pitches('C6 D6 D#6 E6 F6 F#6 C6 C#6 D#6 E6 F6'),
     baca.tools.AttachCommand(
         arguments=[
             abjad.Articulation('>'), 
@@ -801,7 +801,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn,
     baca.select_stages(1, 1),
-    pitch_specifier(source='A4'),
+    baca.pitches('A4'),
     )
 
 ### UPPER STRINGS ###
@@ -809,8 +809,8 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     [vn, va, vc],
     baca.select_stages(2, 6),
-    pitch_specifier(
-        source=khamr.materials.rose_pitch_classes,
+    baca.pitches(
+        khamr.materials.rose_pitch_classes,
         operators=[
             abjad.Inversion(),
             abjad.Transposition(n=6),
@@ -849,7 +849,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(1, 1),
-    pitch_specifier(source='G#4'),
+    baca.pitches('G#4'),
     )
 
 ### CELLO ###
@@ -857,7 +857,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(1, 1),
-    pitch_specifier(source='G3'),
+    baca.pitches('G3'),
     )
 
 ### CONTRABASS ###
@@ -865,7 +865,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cb,
     baca.select_stages(1, 1),
-    pitch_specifier(
+    baca.pitches(
         source=[abjad.PitchSegment(
             items=[abjad.NamedPitch('G0'), abjad.NamedPitch('A1')], 
             item_class=abjad.NamedPitch,
@@ -876,7 +876,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cb,
     baca.select_stages(2, 5),
-    pitch_specifier(
+    baca.pitches(
         source=[abjad.PitchSegment(
             items=[abjad.NamedPitch('G#0'), abjad.NamedPitch('A#1')], 
             item_class=abjad.NamedPitch,
@@ -887,7 +887,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cb,
     baca.select_stages(6, 7),
-    pitch_specifier(
+    baca.pitches(
         source=[abjad.PitchSegment(
             items=[abjad.NamedPitch('G0'), abjad.NamedPitch('A1')], 
             item_class=abjad.NamedPitch,
@@ -928,7 +928,7 @@ segment_maker.append_commands(
     cb,
     baca.select_stages(8, 9),
     baca.dynamic('mp'),
-    pitch_specifier(source='G0'),
+    baca.pitches('G0'),
     pervasive_F3_harmonic_trills,
     scodanibbio,
     )

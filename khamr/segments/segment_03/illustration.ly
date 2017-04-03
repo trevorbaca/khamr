@@ -3646,10 +3646,12 @@
                     bff'2. \fff \glissando
                     \once \override NoteHead.style = #'harmonic
                     af'1 \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    bf2 \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    eff'2. \glissando
+                    {
+                        \once \override NoteHead.style = #'harmonic
+                        bf2 \glissando
+                        \once \override NoteHead.style = #'harmonic
+                        eff'2. \glissando
+                    }
                     \once \override NoteHead.style = #'harmonic
                     df'2. \glissando
                     \times 2/3 {
@@ -3749,10 +3751,12 @@
                     bff'2. \glissando
                     \once \override NoteHead.style = #'harmonic
                     ff'1 \glissando \< \pp
-                    \once \override NoteHead.style = #'harmonic
-                    dff'4 \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    cf'2 \glissando
+                    {
+                        \once \override NoteHead.style = #'harmonic
+                        dff'4 \glissando
+                        \once \override NoteHead.style = #'harmonic
+                        cf'2 \glissando
+                    }
                     \once \override NoteHead.style = #'harmonic
                     af'1 \glissando
                     \tweak text #tuplet-number::calc-fraction-text
@@ -3829,10 +3833,12 @@
                         \once \override NoteHead.style = #'harmonic
                         gf'4. \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
-                    bff'2 \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    aff'4 \glissando
+                    {
+                        \once \override NoteHead.style = #'harmonic
+                        bff'2 \glissando
+                        \once \override NoteHead.style = #'harmonic
+                        aff'4 \glissando
+                    }
                     \times 2/3 {
                         \once \override NoteHead.style = #'harmonic
                         bff'2 \glissando
@@ -3852,10 +3858,12 @@
                     }
                     \once \override NoteHead.style = #'harmonic
                     bf1 \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    bff'2 \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    ff'4
+                    {
+                        \once \override NoteHead.style = #'harmonic
+                        bff'2 \glissando
+                        \once \override NoteHead.style = #'harmonic
+                        ff'4
+                    }
                     s1 * 31/4
                     \bar "|"
                 }
@@ -3865,14 +3873,18 @@
                 \context CelloMusicVoice = "Cello Music Voice" {
                     g2
                     g2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
-                    gff'1 \p \glissando ^ \markup { "estr. sul pont." }
-                    \once \override NoteHead.style = #'harmonic
-                    gf'2 \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    bff'4 \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    ff'2 \glissando
+                    {
+                        \once \override NoteHead.style = #'harmonic
+                        gff'1 \p \glissando ^ \markup { "estr. sul pont." }
+                        \once \override NoteHead.style = #'harmonic
+                        gf'2 \glissando
+                    }
+                    {
+                        \once \override NoteHead.style = #'harmonic
+                        bff'4 \glissando
+                        \once \override NoteHead.style = #'harmonic
+                        ff'2 \glissando
+                    }
                     \once \override NoteHead.style = #'harmonic
                     dff'1 \glissando \< \pp
                     \once \override NoteHead.style = #'harmonic
@@ -3893,10 +3905,12 @@
                         \once \override NoteHead.style = #'harmonic
                         aff'2 \f \glissando
                     }
-                    \once \override NoteHead.style = #'harmonic
-                    bff'4 \fff \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    af'2 \glissando
+                    {
+                        \once \override NoteHead.style = #'harmonic
+                        bff'4 \fff \glissando
+                        \once \override NoteHead.style = #'harmonic
+                        af'2 \glissando
+                    }
                     \times 4/7 {
                         \once \override NoteHead.style = #'harmonic
                         bf1 \glissando
