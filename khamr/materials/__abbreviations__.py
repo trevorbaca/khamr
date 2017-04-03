@@ -41,37 +41,37 @@ beat_division_maker = khamr.tools.make_beat_division_maker()
 #quarter_division_maker = quarter_division_maker.flatten()
 quarter_division_maker = khamr.tools.make_quarter_division_maker()
 
-string_tuplet_ratios_1 = [
-    (1,), (1,), (1,), (1,), (1,), (1, 4),
-    (1,), (1,), (1,), (1,), (1,), (2, 3),
-    (1,), (1,), (1,), (1,), (1,), (3, 2),
-    (1,), (1,), (1,), (1,), (1,), (4, 1),
-    (1,), (1,), (1,), (1,), (1,), (1, 4),
-    ]
-
-string_tuplet_ratios_2 = [
-    (1,), (1,), (1,), (1,), (1, 4),
-    (1,), (1,), (1,), (1,), (2, 3),
-    (1,), (1,), (1,), (1,), (3, 2),
-    (1,), (1,), (1,), (1,), (4, 1),
-    (1,), (1,), (1,), (1,), (1, 4),
-    ]
-
-string_tuplet_ratios_3 = [
-    (1,), (1,), (1,), (1, 4),
-    (1,), (1,), (1,), (2, 3),
-    (1,), (1,), (1,), (3, 2),
-    (1,), (1,), (1,), (4, 1),
-    (1,), (1,), (1,), (1, 4),
-    ]
-
-string_tuplet_ratios_4 = [
-    (1,), (1,), (1, 4),
-    (1,), (1,), (2, 3),
-    (1,), (1,), (3, 2),
-    (1,), (1,), (4, 1),
-    (1,), (1,), (1, 4),
-    ]
+#string_tuplet_ratios_1 = [
+#    (1,), (1,), (1,), (1,), (1,), (1, 4),
+#    (1,), (1,), (1,), (1,), (1,), (2, 3),
+#    (1,), (1,), (1,), (1,), (1,), (3, 2),
+#    (1,), (1,), (1,), (1,), (1,), (4, 1),
+#    (1,), (1,), (1,), (1,), (1,), (1, 4),
+#    ]
+#
+#string_tuplet_ratios_2 = [
+#    (1,), (1,), (1,), (1,), (1, 4),
+#    (1,), (1,), (1,), (1,), (2, 3),
+#    (1,), (1,), (1,), (1,), (3, 2),
+#    (1,), (1,), (1,), (1,), (4, 1),
+#    (1,), (1,), (1,), (1,), (1, 4),
+#    ]
+#
+#string_tuplet_ratios_3 = [
+#    (1,), (1,), (1,), (1, 4),
+#    (1,), (1,), (1,), (2, 3),
+#    (1,), (1,), (1,), (3, 2),
+#    (1,), (1,), (1,), (4, 1),
+#    (1,), (1,), (1,), (1, 4),
+#    ]
+#
+#string_tuplet_ratios_4 = [
+#    (1,), (1,), (1, 4),
+#    (1,), (1,), (2, 3),
+#    (1,), (1,), (3, 2),
+#    (1,), (1,), (4, 1),
+#    (1,), (1,), (1, 4),
+#    ]
 
 #string_tuplet_spelling_specifier = abjad.rhythmmakertools.TupletSpellingSpecifier(
 #    flatten_trivial_tuplets=True,
@@ -276,7 +276,7 @@ repeat_ties_up = baca.tools.OverrideCommand(
 
 senza_pedale = baca.markup.senza_pedale()
 
-shakers = baca.markup.shakers()
+#shakers = baca.markup.shakers()
 
 show_tempo = baca.markup.allow_bowing_to_convey_accelerando()
 

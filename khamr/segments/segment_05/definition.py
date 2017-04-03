@@ -2,21 +2,36 @@
 import abjad
 import baca
 import khamr
-from khamr.materials.__abbreviations__ import *
+
+### CONTEXT NAMES ###
+
+fl = 'Flute Music Voice'
+ob = 'Oboe Music Voice'
+cl = 'Clarinet Music Voice'
+sax = 'Saxophone Music Voice'
+gt = 'Guitar Music Voice'
+pf = 'Piano Music Voice'
+perc = 'Percussion Music Voice'
+vn = 'Violin Music Voice'
+va = 'Viola Music Voice'
+vc = 'Cello Music Voice'
+cb = 'Contrabass Music Voice'
 
 
 ###############################################################################
-################################ SEGMENT-MAKER ################################
+##################################### [5] #####################################
 ###############################################################################
 
-segment_maker = khamr.tools.SegmentMaker(
+segment_maker = baca.tools.SegmentMaker(
+    ignore_repeat_pitch_classes=True,
+    label_stages=True,
     measures_per_stage=[
         4, 4, 4,    # stages 1-3
         4, 4,       # stages 3-4
         8,          # stage 6
         8, 8, 8,    # stages 7-9
         ],
-    label_stages=True,
+    score_template=khamr.tools.ScoreTemplate(),
     tempo_specifier = [
         (1, khamr.materials.tempi[126]),
         (4, abjad.Ritardando()),
@@ -33,219 +48,239 @@ assert segment_maker.stage_count == 9
 segment_maker.validate_measures_per_stage()
 
 ###############################################################################
-################################## SPECIFIERS #################################
+################################### COMMANDS ##################################
 ###############################################################################
 
 ### FLUTE ###
 
 segment_maker.append_commands(
-    stages=(1, 5),
-    voice_name=fl,
-    division_maker=beat_division_maker
-        .flatten()
-        .fuse_by_counts(
-            counts=[10, 4, 14, 10, 4, 8],
-            ),
-    rewrite_meter=True,
-    rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
-        division_masks=abjad.silence_every([1, 4], period=5),
-        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True,
+    fl,
+    baca.select_stages(1, 5),
+    baca.tools.RhythmSpecifier(
+        division_maker=khamr.tools.make_beat_division_maker()
+            .flatten()
+            .fuse_by_counts(
+                counts=[10, 4, 14, 10, 4, 8],
+                ),
+        rewrite_meter=True,
+        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
+            division_masks=abjad.silence_every([1, 4], period=5),
+            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+                use_messiaen_style_ties=True,
+                ),
             ),
         ),
     )
 
 segment_maker.append_commands(
-    stages=(6, 6),
-    voice_name=fl,
-    division_maker=beat_division_maker,
-    rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
+    fl,
+    baca.select_stages(6, 6),
+    baca.tools.RhythmSpecifier(
+        division_maker=khamr.tools.make_beat_division_maker(),
+        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
+        ),
     )
 
-segment_maker.copy_rhythm(
-    fl,
-    1,
-    stages=(7, 9),
+segment_maker.copy_specifier(
+    (fl, 1),
+    baca.select_stages(7, 9),
     )
 
 ### OBOE ###
 
 segment_maker.append_commands(
-    stages=(1, 5),
-    voice_name=ob,
-    instrument=khamr.materials.instruments['English horn'],
-    division_maker=baca.tools.DivisionMaker()
-        .fuse_by_counts(
-            counts=abjad.Infinity,
-            )
-        .split_by_durations(
-            durations=[(6, 4), (9, 4), (4, 4)],
+    ob,
+    baca.select_stages(1, 5),
+    baca.instrument(khamr.materials.instruments['English horn']),
+    baca.tools.RhythmSpecifier(
+        division_maker=baca.tools.DivisionMaker()
+            .fuse_by_counts(
+                counts=abjad.Infinity,
+                )
+            .split_by_durations(
+                durations=[(6, 4), (9, 4), (4, 4)],
+                ),
+        rewrite_meter=True,
+        rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
+            incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
+                prefix_talea=[-1],
+                prefix_counts=[0],
+                suffix_talea=[-1],
+                suffix_counts=[1],
+                talea_denominator=8,
+                ),
+            division_masks=[
+                abjad.silence_every([2], period=3),
+                ],
+            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+                use_messiaen_style_ties=True,
+                ),
             ),
-    rewrite_meter=True,
-    rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
-        incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
-            prefix_talea=[-1],
-            prefix_counts=[0],
-            suffix_talea=[-1],
-            suffix_counts=[1],
-            talea_denominator=8,
-            ),
-        division_masks=[
-            abjad.silence_every([2], period=3),
-            ],
-        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True,
-            ),
-        )
+        ),
     )
 
 segment_maker.append_commands(
-    stages=(6, 6),
-    voice_name=ob,
-    division_maker=beat_division_maker,
-    rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
+    ob,
+    baca.select_stages(6, 6),
+    baca.tools.RhythmSpecifier(
+        division_maker=khamr.tools.make_beat_division_maker(),
+        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
+        ),
     )
 
-segment_maker.copy_rhythm(
-    ob,
-    1,
-    stages=(7, 9),
+segment_maker.copy_specifier(
+    (ob, 1),
+    baca.select_stages(7, 9),
     rhythm_maker__division_masks=None,
     )
 
 ### CLARINET ###
 
 segment_maker.append_commands(
-    stages=(1, 5),
-    voice_name=cl,
-    instrument=khamr.materials.instruments['bass clarinet'],
-    division_maker=baca.tools.DivisionMaker()
-        .fuse_by_counts(
-            counts=abjad.Infinity,
-            )
-        .split_by_durations(
-            durations=[(6, 4), (8, 4), (4, 4)],
+    cl,
+    baca.select_stages(1, 5),
+    baca.instrument(khamr.materials.instruments['bass clarinet']),
+    baca.tools.RhythmSpecifier(
+        division_maker=baca.tools.DivisionMaker()
+            .fuse_by_counts(
+                counts=abjad.Infinity,
+                )
+            .split_by_durations(
+                durations=[(6, 4), (8, 4), (4, 4)],
+                ),
+        rewrite_meter=True,
+        rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
+            incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
+                prefix_talea=[-1],
+                prefix_counts=[0],
+                suffix_talea=[-1],
+                suffix_counts=[1],
+                talea_denominator=8,
+                ),
+            division_masks=[
+                abjad.silence_every([2], period=3),
+                ],
+            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+                use_messiaen_style_ties=True,
+                ),
             ),
-    rewrite_meter=True,
-    rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
-        incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
-            prefix_talea=[-1],
-            prefix_counts=[0],
-            suffix_talea=[-1],
-            suffix_counts=[1],
-            talea_denominator=8,
-            ),
-        division_masks=[
-            abjad.silence_every([2], period=3),
-            ],
-        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True,
-            ),
-        )
+        ),
     )
 
 segment_maker.append_commands(
-    stages=(6, 6),
-    voice_name=cl,
-    division_maker=beat_division_maker,
-    rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
+    cl,
+    baca.select_stages(6, 6),
+    baca.tools.RhythmSpecifier(
+        division_maker=khamr.tools.make_beat_division_maker(),
+        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
+        ),
     )
 
-segment_maker.copy_rhythm(
-    cl,
-    1,
-    stages=(7, 9),
+segment_maker.copy_specifier(
+    (cl, 1),
+    baca.select_stages(7, 9),
     rhythm_maker__division_masks=None,
     )
 
 ### SAXOPHONE ###
 
 segment_maker.append_commands(
-    stages=(1, 5),
-    voice_name=sax,
-    division_maker=baca.tools.DivisionMaker()
-        .fuse_by_counts(
-            counts=abjad.Infinity,
-            )
-        .split_by_durations(
-            durations=[(6, 4), (4, 4), (9, 4)],
+    sax,
+    baca.select_stages(1, 5),
+    baca.tools.RhythmSpecifier(
+        division_maker=baca.tools.DivisionMaker()
+            .fuse_by_counts(
+                counts=abjad.Infinity,
+                )
+            .split_by_durations(
+                durations=[(6, 4), (4, 4), (9, 4)],
+                ),
+        rewrite_meter=True,
+        rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
+            incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
+                prefix_talea=[-1],
+                prefix_counts=[0],
+                suffix_talea=[-1],
+                suffix_counts=[1],
+                talea_denominator=8,
+                ),
+            division_masks=[
+                abjad.silence_every([1], period=3),
+                ],
+            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+                use_messiaen_style_ties=True,
+                ),
             ),
-    rewrite_meter=True,
-    rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
-        incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
-            prefix_talea=[-1],
-            prefix_counts=[0],
-            suffix_talea=[-1],
-            suffix_counts=[1],
-            talea_denominator=8,
-            ),
-        division_masks=[
-            abjad.silence_every([1], period=3),
-            ],
-        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True,
-            ),
-        )
+        ),
     )
 
 segment_maker.append_commands(
-    stages=(6, 6),
-    voice_name=sax,
-    division_maker=beat_division_maker,
-    rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
+    sax,
+    baca.select_stages(6, 6),
+    baca.tools.RhythmSpecifier(
+        division_maker=khamr.tools.make_beat_division_maker(),
+        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
+        ),
     )
 
-segment_maker.copy_rhythm(
-    sax,
-    1,
-    stages=(7, 9),
+segment_maker.copy_specifier(
+    (sax, 1),
+    baca.select_stages(7, 9),
     rhythm_maker__division_masks=None,
     )
 
 ### GUITAR ###
 
 segment_maker.append_commands(
-    stages=(1, 5),
-    voice_name=gt,
-    clef='percussion',
-    rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
-        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-            tie_across_divisions=True,
-            use_messiaen_style_ties=True,
+    gt,
+    baca.select_stages(1, 5),
+    baca.clef('percussion'),
+    baca.tools.RhythmSpecifier(
+        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
+            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+                tie_across_divisions=True,
+                use_messiaen_style_ties=True,
+                ),
             ),
         ),
     )
 
 segment_maker.append_commands(
-    stages=(6, 6),
-    voice_name=gt,
-    division_maker=beat_division_maker,
-    rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
+    gt,
+    baca.select_stages(6, 6),
+    baca.tools.RhythmSpecifier(
+        division_maker=khamr.tools.make_beat_division_maker(),
+        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
+        ),
     )
 
-segment_maker.copy_rhythm(
-    gt,
-    1,
-    stages=(7, 9),
+segment_maker.copy_specifier(
+    (gt, 1),
+    baca.select_stages(7, 9),
     )
 
 ### PIANO ###
 
+piano = khamr.materials.instruments['piano']
+piano._default_scope = 'PianoMusicStaff'
+
 segment_maker.append_commands(
-    stages=(1, 9),
-    voice_name=pf,
-    instrument=piano,
-    division_maker=beat_division_maker
-        .flatten()
-        .fuse_by_counts(
-            counts=[10, 4, 14, 10, 4, 8],
-            )
-        ,
-    rewrite_meter=True,
-    rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
-        division_masks=abjad.silence_every([1, 4], period=5),
-        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True,
+    pf,
+    baca.select_stages(1, 9),
+    baca.instrument(piano),
+    baca.tools.RhythmSpecifier(
+        division_maker=khamr.tools.make_beat_division_maker()
+            .flatten()
+            .fuse_by_counts(
+                counts=[10, 4, 14, 10, 4, 8],
+                )
+            ,
+        rewrite_meter=True,
+        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
+            division_masks=abjad.silence_every([1, 4], period=5),
+            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+                use_messiaen_style_ties=True,
+                ),
             ),
         ),
     )
@@ -253,18 +288,20 @@ segment_maker.append_commands(
 ### PERCUSSION ###
 
 segment_maker.append_commands(
-    stages=(1, 9),
-    voice_name=perc,
-    division_maker=beat_division_maker
-        .flatten()
-        .fuse_by_counts(
-            counts=[10, 4, 14, 10, 4, 8],
-            ),
-    rewrite_meter=True,
-    rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
-        division_masks=abjad.silence_every([1, 4], period=5),
-        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True,
+    perc,
+    baca.select_stages(1, 9),
+    baca.tools.RhythmSpecifier(
+        division_maker=khamr.tools.make_beat_division_maker()
+            .flatten()
+            .fuse_by_counts(
+                counts=[10, 4, 14, 10, 4, 8],
+                ),
+        rewrite_meter=True,
+        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
+            division_masks=abjad.silence_every([1, 4], period=5),
+            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+                use_messiaen_style_ties=True,
+                ),
             ),
         ),
     )
@@ -272,126 +309,129 @@ segment_maker.append_commands(
 ### VIOLIN ###
 
 segment_maker.append_commands(
-    stages=(1, 5),
-    voice_name=vn,
-    division_maker=quarter_division_maker,
-    rewrite_meter=True,
-    rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
-        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-            tie_across_divisions=True,
-            use_messiaen_style_ties=True,
-            ),
-        tuplet_ratios=string_tuplet_ratios_4,
-        tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
-            flatten_trivial_tuplets=True,
+    vn,
+    baca.select_stages(1, 5),
+    baca.tools.RhythmSpecifier(
+        division_maker=khamr.tools.make_quarter_division_maker(),
+        rewrite_meter=True,
+        rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
+            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+                tie_across_divisions=True,
+                use_messiaen_style_ties=True,
+                ),
+            tuplet_ratios=khamr.tools.make_string_tuplet_ratios(4),
+            tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
+                flatten_trivial_tuplets=True,
+                ),
             ),
         ),
     )
 
 segment_maker.append_commands(
-    stages=(6, 6),
-    voice_name=vn,
-    rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
-        division_masks=abjad.silence_last(),
-        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-            tie_across_divisions=True,
-            use_messiaen_style_ties=True,
-            )
+    vn,
+    baca.select_stages(6, 6),
+    baca.tools.RhythmSpecifier(
+        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
+            division_masks=abjad.silence_last(),
+            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+                tie_across_divisions=True,
+                use_messiaen_style_ties=True,
+                )
+            ),
         ),
     )
 
 segment_maker.append_commands(
-    stages=(7, 9),
-    voice_name=vn,
-    clef='percussion',
-    rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
-        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-            tie_across_divisions=True,
-            use_messiaen_style_ties=True,
-            )
-        ),
+    vn,
+    baca.select_stages(7, 9),
+    baca.clef('percussion'),
+    baca.messiaen_tied_notes(),
     )
 
 ### VIOLA ###
 
 segment_maker.append_commands(
-    stages=(1, 5),
-    voice_name=va,
-    division_maker=quarter_division_maker,
-    rewrite_meter=True,
-    rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
-        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-            tie_across_divisions=True,
-            use_messiaen_style_ties=True,
-            ),
-        tuplet_ratios=string_tuplet_ratios_3,
-        tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
-            flatten_trivial_tuplets=True,
+    va,
+    baca.select_stages(1, 5),
+    baca.tools.RhythmSpecifier(
+        division_maker=khamr.tools.make_quarter_division_maker(),
+        rewrite_meter=True,
+        rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
+            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+                tie_across_divisions=True,
+                use_messiaen_style_ties=True,
+                ),
+            tuplet_ratios=khamr.tools.make_string_tuplet_ratios(3),
+            tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
+                flatten_trivial_tuplets=True,
+                ),
             ),
         ),
     )
 
-segment_maker.copy_rhythm(
-    vn,
-    6,
-    voice_name=va,
+segment_maker.copy_specifier(
+    (vn, 6),
+    baca.tools.SimpleScope(va, (6, 6)),
     )
 
-segment_maker.copy_rhythm(
-    vn,
-    7,
-    voice_name=va,
+segment_maker.copy_specifier(
+    (vn, 7),
+    baca.tools.SimpleScope(va, (7, 7)),
     )
 
 ### CELLO ###
 
 segment_maker.append_commands(
-    stages=(1, 9),
-    voice_name=vc,
-    division_maker=beat_division_maker
-        .flatten()
-        .fuse_by_counts(
-            counts=[14, 6, 12, 4, 12, 6, 8],
-            ),
-    rewrite_meter=True,
-    rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
-        division_masks=abjad.silence_every([1, 3], period=6),
-        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True,
+    vc,
+    baca.select_stages(1, 9),
+    baca.tools.RhythmSpecifier(
+        division_maker=khamr.tools.make_beat_division_maker()
+            .flatten()
+            .fuse_by_counts(
+                counts=[14, 6, 12, 4, 12, 6, 8],
+                ),
+        rewrite_meter=True,
+        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
+            division_masks=abjad.silence_every([1, 3], period=6),
+            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+                use_messiaen_style_ties=True,
+                ),
             ),
         ),
-    
     )
 
 ### CONTRABASS ###
 
 segment_maker.append_commands(
-    stages=(1, 5),
-    voice_name=cb,
-    division_maker=beat_division_maker
-        .flatten()
-        .fuse_by_counts(
-            counts=[12, 4, 12, 6, 8, 14, 6],
-            ),
-    rewrite_meter=True,
-    rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
-        tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-            use_messiaen_style_ties=True,
+    cb,
+    baca.select_stages(1, 5),
+    baca.tools.RhythmSpecifier(
+        division_maker=khamr.tools.make_beat_division_maker()
+            .flatten()
+            .fuse_by_counts(
+                counts=[12, 4, 12, 6, 8, 14, 6],
+                ),
+        rewrite_meter=True,
+        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
+            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+                use_messiaen_style_ties=True,
+                ),
             ),
         ),
     )
 
 segment_maker.append_commands(
-    stages=(6, 6),
-    voice_name=cb,
-    division_maker=beat_division_maker,
-    rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
+    cb,
+    baca.select_stages(6, 6),
+    baca.tools.RhythmSpecifier(
+        division_maker=khamr.tools.make_beat_division_maker(),
+        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
+        ),
     )
 
-segment_maker.copy_rhythm(
-    cb,
-    1,
-    stages=(7, 9),
+segment_maker.copy_specifier(
+    (cb, 1),
+    baca.select_stages(7, 9),
     )
 
 ###############################################################################
@@ -410,48 +450,48 @@ segment_maker.copy_rhythm(
 
 segment_maker.append_commands(
     gt,
-    [(1, 5), (7, 9)],
-    abjad.Dynamic('ff'),
-    shakers,
-    stem_tremolo,
+    [baca.select_stages(1, 5), baca.select_stages(7, 9)],
+    baca.dynamic('ff'),
+    baca.markup.shakers(),
+    baca.stem_tremolo(),
     )
 
 segment_maker.append_commands(
     gt,
-    (6, 6),
-    fret_guiro,
+    baca.select_stages(6, 6),
+    baca.markup('fret guiro'),
     )
 
 ### PIANO ###
 
 segment_maker.append_commands(
     pf,
-    (1, 9),
-    stem_tremolo,
+    baca.select_stages(1, 9),
+    baca.stem_tremolo(),
     )
 
 ### PERCUSSION ###
 
 segment_maker.append_commands(
     perc,
-    (1, 9),
-    stem_tremolo,
+    baca.select_stages(1, 9),
+    baca.stem_tremolo(),
     )
 
 ### VIOLIN ###
 
 segment_maker.append_commands(
     [vn, va],
-    (1, 5),
-    stem_tremolo,
+    baca.select_stages(1, 5),
+    baca.stem_tremolo(),
     )
 
 segment_maker.append_commands(
     [vn, va],
-    (7, 9),
-    abjad.Dynamic('fff'),
-    shakers,
-    stem_tremolo,
+    baca.select_stages(7, 9),
+    baca.dynamic('fff'),
+    baca.markup.shakers(),
+    baca.stem_tremolo(),
     )
 
 ### VIOLA ###
@@ -460,8 +500,8 @@ segment_maker.append_commands(
 
 segment_maker.append_commands(
     vc,
-    (1, 9),
-    stem_tremolo,
+    baca.select_stages(1, 9),
+    baca.stem_tremolo(),
     )
 
 ### CONTRABASS ###
