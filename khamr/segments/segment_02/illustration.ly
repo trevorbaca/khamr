@@ -629,40 +629,26 @@
             \tag piano
             \context PianoMusicStaff = "Piano Music Staff" {
                 \context PianoMusicVoice = "Piano Music Voice" {
-                    \once \override RepeatTie.direction = #up
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
+                    \override RepeatTie.direction = #up
                     c'2
-                    \once \override RepeatTie.direction = #up
                     c'2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'1. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'1 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'1 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'1 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'1 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
+                    \revert RepeatTie.direction
                     r2
                     \stopStaff
                     \startStaff
@@ -1400,83 +1386,51 @@
             \tag strings.contrabass
             \context ContrabassMusicStaff = "Contrabass Music Staff" {
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
-                    \once \override NoteHead.style = #'harmonic
-                    <g,, a,>2 \mf
-                        _ \markup {
-                            \whiteout
-                                \upright
-                                    III+IV
-                            }
-                    \once \override NoteHead.style = #'harmonic
+                    <g,, a,>2
                     <g,, a,>2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        \once \override NoteHead.style = #'harmonic
                         <g,, a,>1. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         <af,, bf,>4
                     }
                     \times 4/5 {
-                        \once \override NoteHead.style = #'harmonic
                         <af,, bf,>2. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         <gqs,, aqs,>8.
                     }
-                    \once \override NoteHead.style = #'harmonic
                     <gqs,, aqs,>1 \repeatTie
                     \times 4/5 {
-                        \once \override NoteHead.style = #'harmonic
                         <gqs,, aqs,>2. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         <a,, b,>8.
                     }
-                    \once \override NoteHead.style = #'harmonic
                     <a,, b,>1 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     <a,, b,>2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     <a,, b,>2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     <a,, b,>1 \repeatTie
                     {
-                        \once \override NoteHead.style = #'harmonic
                         <a,, b,>2 \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         <bqf,, cqs>4
                     }
                     \times 2/3 {
-                        \once \override NoteHead.style = #'harmonic
                         <bqf,, cqs>1 \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         <af,, bf,>2
                     }
-                    \once \override NoteHead.style = #'harmonic
                     <af,, bf,>2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     <af,, bf,>2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        \once \override NoteHead.style = #'harmonic
                         <af,, bf,>2. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         <gqs,, aqs,>8
                     }
-                    \once \override NoteHead.style = #'harmonic
                     r2
-                    <g,,, a,,>1.
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    "arco ordinario"
-                            }
+                    <g,,, a,,>1. -\fff
                     r2
-                    <g,,, a,,>2.
+                    <g,,, a,,>2. -\fff
                     <g,,, a,,>2 \repeatTie
                     r2.
-                    <g,,, a,,>1
+                    <g,,, a,,>1 -\fff
                     r1.
                     r4
-                    <g,,, a,,>4
+                    <g,,, a,,>4 -\fff
                     <g,,, a,,>2 \repeatTie
                     <g,,, a,,>2. \repeatTie
                     <g,,, a,,>1 \repeatTie

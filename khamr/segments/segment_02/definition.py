@@ -2,7 +2,20 @@
 import abjad
 import baca
 import khamr
-from khamr.materials.__abbreviations__ import *
+
+### CONTEXT NAMES ###
+
+fl = 'Flute Music Voice'
+ob = 'Oboe Music Voice'
+cl = 'Clarinet Music Voice'
+sax = 'Saxophone Music Voice'
+gt = 'Guitar Music Voice'
+pf = 'Piano Music Voice'
+perc = 'Percussion Music Voice'
+vn = 'Violin Music Voice'
+va = 'Viola Music Voice'
+vc = 'Cello Music Voice'
+cb = 'Contrabass Music Voice'
 
 
 ###############################################################################
@@ -72,7 +85,7 @@ segment_maker.append_commands(
     fl,
     baca.select_stages(1, 2),
     baca.tools.RhythmSpecifier(
-        division_maker=beat_division_maker
+        division_maker=khamr.tools.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[10, 10, 6, 10, 8, 6],
                 )
@@ -118,7 +131,7 @@ segment_maker.append_commands(
     baca.select_stages(5, 5),
     baca.tools.RhythmSpecifier(
         rewrite_meter=True,
-        division_maker=beat_division_maker,
+        division_maker=khamr.tools.make_beat_division_maker(),
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[
                 abjad.silence_first(1),
@@ -137,7 +150,7 @@ segment_maker.append_commands(
     ob,
     baca.select_stages(1, 2),
     baca.tools.RhythmSpecifier(
-        division_maker=beat_division_maker
+        division_maker=khamr.tools.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[12, 6, 10, 10, 6, 8],
                 )
@@ -177,7 +190,7 @@ segment_maker.append_commands(
     cl,
     baca.select_stages(1, 3),
     baca.tools.RhythmSpecifier(
-        division_maker=beat_division_maker
+        division_maker=khamr.tools.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[8, 6, 10, 6, 10, 8],
                 )
@@ -218,7 +231,7 @@ segment_maker.append_commands(
     sax,
     baca.select_stages(1, 2),
     baca.tools.RhythmSpecifier(
-        division_maker=beat_division_maker
+        division_maker=khamr.tools.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[14, 6, 10, 6, 10, 8],
                 )
@@ -332,7 +345,7 @@ segment_maker.append_commands(
     pf,
     baca.select_stages(5, 5),
     baca.tools.RhythmSpecifier(
-        division_maker=beat_division_maker,
+        division_maker=khamr.tools.make_beat_division_maker(),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
@@ -351,7 +364,7 @@ segment_maker.append_commands(
     perc,
     baca.select_stages(1, 3),
     baca.tools.RhythmSpecifier(
-        division_maker=beat_division_maker
+        division_maker=khamr.tools.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[8, 20, 4, 20],
                 )
@@ -401,7 +414,7 @@ segment_maker.append_commands(
     perc,
     baca.select_stages(5, 5),
     baca.tools.RhythmSpecifier(
-        division_maker=beat_division_maker,
+        division_maker=khamr.tools.make_beat_division_maker(),
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[
                 stage_5_silence_mask,
@@ -416,7 +429,7 @@ segment_maker.append_commands(
     vn,
     baca.select_stages(1, 3),
     baca.tools.RhythmSpecifier(
-        division_maker=quarter_division_maker,
+        division_maker=khamr.tools.make_quarter_division_maker(),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
@@ -427,7 +440,7 @@ segment_maker.append_commands(
                 use_messiaen_style_ties=True,
                 ),
             tuplet_ratios=khamr.tools.make_string_tuplet_ratios(4),
-            tuplet_spelling_specifier=string_tuplet_spelling_specifier,
+            tuplet_spelling_specifier=khamr.tools.make_tuplet_spelling_specifier(),
             ),
         ),
     )
@@ -448,7 +461,7 @@ segment_maker.append_commands(
     va,
     baca.select_stages(1, 3),
     baca.tools.RhythmSpecifier(
-        division_maker=quarter_division_maker,
+        division_maker=khamr.tools.make_quarter_division_maker(),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
@@ -459,7 +472,7 @@ segment_maker.append_commands(
                 use_messiaen_style_ties=True,
                 ),
             tuplet_ratios=khamr.tools.make_string_tuplet_ratios(3),
-            tuplet_spelling_specifier=string_tuplet_spelling_specifier,
+            tuplet_spelling_specifier=khamr.tools.make_tuplet_spelling_specifier(),
             ),
         ),
     )
@@ -480,7 +493,7 @@ segment_maker.append_commands(
     vc,
     baca.select_stages(1, 2),
     baca.tools.RhythmSpecifier(
-        division_maker=quarter_division_maker,
+        division_maker=khamr.tools.make_quarter_division_maker(),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
@@ -491,7 +504,7 @@ segment_maker.append_commands(
                 use_messiaen_style_ties=True,
                 ),
             tuplet_ratios=khamr.tools.make_string_tuplet_ratios(2),
-            tuplet_spelling_specifier=string_tuplet_spelling_specifier,
+            tuplet_spelling_specifier=khamr.tools.make_tuplet_spelling_specifier(),
             ),
         ),
     )
@@ -544,7 +557,7 @@ segment_maker.append_commands(
                 (3, 1), (3, 1), (3, 1),
                 (2, 1), (2, 1), (2, 1),
                 ],
-            tuplet_spelling_specifier=string_tuplet_spelling_specifier,
+            tuplet_spelling_specifier=khamr.tools.make_tuplet_spelling_specifier(),
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
                 use_messiaen_style_ties=True,
@@ -580,10 +593,8 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     fl,
     baca.select_stages(4, 5),
-    reiterated_fff,
-    pitch_specifier(
-        source='B5',
-        ),
+    baca.reiterated_dynamic('fff'),
+    baca.pitches('B5'),
     baca.stem_tremolo(),
     baca.markup.fluttertongue(),
     baca.instrument(khamr.materials.instruments['flute']),
@@ -594,22 +605,20 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     ob,
     baca.select_stages(1, 2),
-    pitch_specifier(
+    baca.pitches(
         source=[abjad.PitchSegment(
             items=[abjad.NamedPitch('A4'), abjad.NamedPitch('E5')], 
             item_class=abjad.NamedPitch,
             )],
         ),
-    reiterated_flageolets,
+    baca.flageolets(),
     )
 
 segment_maker.append_commands(
     ob,
     baca.select_stages(4, 5),
-    reiterated_fff,
-    pitch_specifier(
-        source='G#3',
-        ),
+    baca.reiterated_dynamic('fff'),
+    baca.pitches('G#3'),
     )
 
 ### CLARINET ###
@@ -617,18 +626,14 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cl,
     baca.select_stages(1, 3),
-    pitch_specifier(
-        source='G2',
-        ),
+    baca.pitches('G2'),
     )
 
 segment_maker.append_commands(
     cl,
     baca.select_stages(4, 5),
-    reiterated_fff,
-    pitch_specifier(
-        source='F#2',
-        ),
+    baca.reiterated_dynamic('fff'),
+    baca.pitches('F#2'),
     )
 
 ### SAXOPHONE ###
@@ -636,7 +641,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     sax,
     baca.select_stages(1, 2),
-    pitch_specifier(
+    baca.pitches(
         source=[abjad.PitchSegment(
             items=[abjad.NamedPitch('F3'), abjad.NamedPitch('G+3')], 
             item_class=abjad.NamedPitch,
@@ -647,10 +652,8 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     sax,
     baca.select_stages(4, 5),
-    reiterated_fff,
-    pitch_specifier(
-        source='G#2',
-        ),
+    baca.reiterated_dynamic('fff'),
+    baca.pitches('G#2'),
     )
 
 ### GUITAR ###
@@ -658,7 +661,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     gt,
     baca.select_stages(1, 1),
-    pitch_specifier(
+    baca.pitches(
         source=khamr.materials.rose_pitch_classes,
         start_index=16,
         ),
@@ -669,16 +672,16 @@ segment_maker.append_commands(
     gt,
     baca.select_stages(2, 3),
     baca.dynamic('mf'),
-    pitch_specifier(source='F#2'),
-    sparse_guitar_clicks,
+    baca.pitches('F#2'),
+    khamr.markup.sparse_guitar_clicks(),
     )
 
 segment_maker.append_commands(
     gt,
     baca.select_stages(4, 5),
     baca.dynamic('ff'),
-    guitar_with_screw,
-    pitch_specifier(source='G2'),
+    baca.pitches('G2'),
+    khamr.markup.guitar_with_screw(),
     )
 
 ### PIANO ###
@@ -688,16 +691,16 @@ segment_maker.append_commands(
     baca.select_stages(1, 3),
     baca.one_line_staff(),
     # dummy centerline pitch
-    pitch_specifier(source='C4'),
-    repeat_ties_up,
+    baca.pitches('C4'),
+    baca.repeat_ties_up(),
     )
 
 segment_maker.append_commands(
     pf,
     baca.select_stages(4, 4),
-    reiterated_fff,
+    baca.reiterated_dynamic('fff'),
     baca.clef('bass'),
-    pitch_specifier(
+    baca.pitches(
         source=[abjad.PitchSegment(
             items=[
                 abjad.NamedPitch('A0'), 
@@ -721,12 +724,12 @@ segment_maker.append_commands(
     baca.select_stages(5, 5),
     baca.clef('treble'),
     baca.dynamic('fff'),
-    pitch_specifier(
+    baca.pitches(
         source=khamr.materials.rose_pitch_classes,
         operators=[abjad.Inversion()],
         ),
-    sixth_octave,
     baca.ottava(),
+    khamr.tools.make_sixth_octave(),
     )
 
 ### PERCUSSION ###
@@ -734,23 +737,19 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     perc,
     baca.select_stages(1, 3),
-    pitch_specifier(
-        source='C4 C4 Ab5 C4 C4 C4',
-        ),
+    baca.accents(),
+    baca.pitches('C4 C4 Ab5 C4 C4 C4'),
     baca.stems_down(),
     # TODO: make work again:
 #    khamr.tools.MarimbaHitSpecifier(
 #        indices=[2],
 #        ),
-    baca.accents(),
     )
 
 segment_maker.append_commands(
     perc,
     baca.select_stages(4, 5),
-    pitch_specifier(
-        source='Ab5',
-        ),
+    baca.pitches('Ab5'),
     baca.stems_down(),
     # TODO: make work again
 #    khamr.tools.MarimbaHitSpecifier(
@@ -763,31 +762,31 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn,
     baca.select_stages(1, 1),
-    pitch_specifier(
+    baca.pervasive_trills_at_interval(abjad.NamedInterval('m2')),
+    baca.pitches(
         source=khamr.materials.color_trill_pitches,
         operators=[abjad.Transposition(n=1)],
         ),
-    baca.pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     )
 
 segment_maker.append_commands(
     vn,
     baca.select_stages(2, 2),
-    pitch_specifier(
+    baca.pervasive_trills_at_interval(abjad.NamedInterval('m2')),
+    baca.pitches(
         source=khamr.materials.color_trill_pitches,
         operators=[abjad.Transposition(n=2)],
         ),
-    baca.pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     )
 
 segment_maker.append_commands(
     vn,
     baca.select_stages(3, 3),
-    pitch_specifier(
+    baca.pervasive_trills_at_interval(abjad.NamedInterval('m2')),
+    baca.pitches(
         source=khamr.materials.color_trill_pitches,
         operators=[abjad.Transposition(n=3)],
         ),
-    baca.pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     )
 
 segment_maker.append_commands(
@@ -799,11 +798,9 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn,
     baca.select_stages(4, 5),
-    reiterated_fff,
-    pitch_specifier(
-        source='A4',
-        ),
-    arco_ordinario,
+    baca.markup.arco_ordinario(),
+    baca.pitches('A4'),
+    baca.reiterated_dynamic('fff'),
     )
 
 ### VIOLA ###
@@ -811,30 +808,28 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(1, 1),
-    pitch_specifier(
-        source=khamr.materials.color_trill_pitches,
-        ),
     baca.pervasive_trills_at_interval(abjad.NamedInterval('m2')),
+    baca.pitches(khamr.materials.color_trill_pitches),
     )
 
 segment_maker.append_commands(
     va,
     baca.select_stages(2, 2),
-    pitch_specifier(
-        source=khamr.materials.color_trill_pitches,
+    baca.pervasive_trills_at_interval(abjad.NamedInterval('m2')),
+    baca.pitches(
+        khamr.materials.color_trill_pitches,
         operators=[abjad.Transposition(n=1)],
         ),
-    baca.pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     )
 
 segment_maker.append_commands(
     va,
     baca.select_stages(3, 3),
-    pitch_specifier(
-        source=khamr.materials.color_trill_pitches,
+    baca.pervasive_trills_at_interval(abjad.NamedInterval('m2')),
+    baca.pitches(
+        khamr.materials.color_trill_pitches,
         operators=[abjad.Transposition(n=2)],
         ),
-    baca.pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     )
 
 segment_maker.append_commands(
@@ -846,11 +841,9 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(4, 5),
-    reiterated_fff,
-    pitch_specifier(
-        source='G#4',
-        ),
-    arco_ordinario,
+    baca.markup.arco_ordinario(),
+    baca.pitches('G#4'),
+    baca.reiterated_dynamic('fff'),
     )
 
 ### CELLO ###
@@ -858,31 +851,25 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(1, 2),
-    pitch_specifier(
-        source=khamr.materials.color_trill_pitches,
-        ),
-    baca.pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     baca.accents(),
+    baca.pervasive_trills_at_interval(abjad.NamedInterval('m2')),
+    baca.pitches(khamr.materials.color_trill_pitches),
     )
 
 segment_maker.append_commands(
     vc,
     baca.select_stages(3, 3),
     baca.dynamic('mf'),
-    pitch_specifier(
-        source='F#3',
-        ),
-    sparse_cello_clicks,
+    baca.pitches('F#3'),
+    khamr.markup.sparse_cello_clicks(),
     )
 
 segment_maker.append_commands(
     vc,
     baca.select_stages(4, 5),
-    reiterated_fff,
-    pitch_specifier(
-        source='G3',
-        ),
-    arco_ordinario,
+    baca.markup.arco_ordinario(),
+    baca.pitches('G3'),
+    baca.reiterated_dynamic('fff'),
     )
 
 ### CONTRABASS ###
@@ -890,31 +877,25 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cb,
     baca.select_stages(1, 3),
-    pitch_specifier(
+    baca.dynamic('mf'),
+    baca.glissandi(),
+    baca.markup.string_numbers([3, 4]),
+    baca.natural_harmonics(),
+    baca.pitches(
         source=khamr.materials.double_stop_halo_pitches,
         start_index=0,
         ),
-#    baca.tools.GlissandoCommand(
-#        pattern=[
-#            abjad.select_all(),
-#            abjad.silence_last(1),
-#            ],
-#        ),
-    baca.glissandi(),
-    natural_harmonics,
-    strings_III_and_IV,
-    baca.dynamic('mf'),
     )
 
 segment_maker.append_commands(
     cb,
     baca.select_stages(4, 5),
-    reiterated_fff,
-    pitch_specifier(
+    baca.markup.arco_ordinario(),
+    baca.pitches(
         source=[abjad.PitchSegment(
             items=[abjad.NamedPitch('G0'), abjad.NamedPitch('A1')], 
             item_class=abjad.NamedPitch,
             )],
         ),
-    arco_ordinario,
+    baca.reiterated_dynamic('fff'),
     )

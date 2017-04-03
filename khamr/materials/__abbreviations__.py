@@ -148,38 +148,38 @@ fluttertongue = baca.markup.fluttertongue()
 
 fret_guiro = baca.markup('fret guiro', direction=Up)
 
-string = 'draw metal screw back and forth slowly across string;'
-first_line = abjad.MarkupList([string]).line()
-second_line = abjad.MarkupList(['continuous loud sound']).line()
-guitar_with_screw = abjad.MarkupList(
-    [first_line, second_line]).column(direction=Up)
-guitar_with_screw = baca.markup(guitar_with_screw)
+#string = 'draw metal screw back and forth slowly across string;'
+#first_line = abjad.MarkupList([string]).line()
+#second_line = abjad.MarkupList(['continuous loud sound']).line()
+#guitar_with_screw = abjad.MarkupList(
+#    [first_line, second_line]).column(direction=Up)
+#guitar_with_screw = baca.markup(guitar_with_screw)
 
 gridato_possibile = baca.markup('gridato possibile', direction=Up)
 
 #string = 'cross noteheads indicate half-harmonics'
 #half_harmonics_explanation = baca.markup(string, direction=Up)
 
-string = 'match dynamic levels of guitar'
-match_guitar_dynamic_levels = baca.markup(string, direction=Up)
+#string = 'match dynamic levels of guitar'
+#match_guitar_dynamic_levels = baca.markup(string, direction=Up)
 
-string = 'move towards (and then back away from) the bridge'
-string += ' at the center of each accelerando'
-move_towards_the_bridge = baca.markup(string, direction=Up)
+#string = 'move towards (and then back away from) the bridge'
+#string += ' at the center of each accelerando'
+#move_towards_the_bridge = baca.markup(string, direction=Up)
 
-string = 'sparse, individual clicks with extremely slow bow'
-first_line = abjad.MarkupList([string]).line()
-second_line = abjad.MarkupList(['(1-2/sec. in irregular rhythm)']).line()
-sparse_cello_clicks = abjad.MarkupList(
-    [first_line, second_line]).column(direction=Up)
-sparse_cello_clicks = baca.markup(sparse_cello_clicks)
+#string = 'sparse, individual clicks with extremely slow bow'
+#first_line = abjad.MarkupList([string]).line()
+#second_line = abjad.MarkupList(['(1-2/sec. in irregular rhythm)']).line()
+#sparse_cello_clicks = abjad.MarkupList(
+#    [first_line, second_line]).column(direction=Up)
+#sparse_cello_clicks = baca.markup(sparse_cello_clicks)
 
-string = 'sparse, individual clicks with nail or pick laterally up string'
-first_line = abjad.MarkupList([string]).line()
-second_line = abjad.MarkupList(['(1-2/sec. in irregular rhythm)']).line()
-sparse_guitar_clicks = abjad.MarkupList(
-    [first_line, second_line]).column(direction=Up)
-sparse_guitar_clicks = baca.markup(sparse_guitar_clicks)
+#string = 'sparse, individual clicks with nail or pick laterally up string'
+#first_line = abjad.MarkupList([string]).line()
+#second_line = abjad.MarkupList(['(1-2/sec. in irregular rhythm)']).line()
+#sparse_guitar_clicks = abjad.MarkupList(
+#    [first_line, second_line]).column(direction=Up)
+#sparse_guitar_clicks = baca.markup(sparse_guitar_clicks)
 
 #string = r'sparse, individual clicks with credit card'
 #string += r' on C \hspace #-0.5 \raise #1 \sharp \hspace #-0.5 1 string'
