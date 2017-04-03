@@ -34,11 +34,12 @@ piano._default_scope = 'PianoMusicStaff'
 #beat_division_maker = beat_division_maker.flatten()
 beat_division_maker = khamr.tools.make_beat_division_maker()
 
-quarter_division_maker = baca.tools.DivisionMaker()
-quarter_division_maker = quarter_division_maker.split_by_durations(
-        durations=[(1, 4)],
-        )
-quarter_division_maker = quarter_division_maker.flatten()
+#quarter_division_maker = baca.tools.DivisionMaker()
+#quarter_division_maker = quarter_division_maker.split_by_durations(
+#        durations=[(1, 4)],
+#        )
+#quarter_division_maker = quarter_division_maker.flatten()
+quarter_division_maker = khamr.tools.make_quarter_division_maker()
 
 string_tuplet_ratios_1 = [
     (1,), (1,), (1,), (1,), (1,), (1, 4),
@@ -72,9 +73,10 @@ string_tuplet_ratios_4 = [
     (1,), (1,), (1, 4),
     ]
 
-string_tuplet_spelling_specifier = abjad.rhythmmakertools.TupletSpellingSpecifier(
-    flatten_trivial_tuplets=True,
-    )
+#string_tuplet_spelling_specifier = abjad.rhythmmakertools.TupletSpellingSpecifier(
+#    flatten_trivial_tuplets=True,
+#    )
+string_tuplet_spelling_specifier = khamr.tools.make_tuplet_spelling_specifier()
 
 messiaen_tied_note_rhythm_maker = abjad.rhythmmakertools.NoteRhythmMaker(
     tie_specifier=abjad.rhythmmakertools.TieSpecifier(
