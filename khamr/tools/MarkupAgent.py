@@ -33,6 +33,14 @@ class MarkupAgent(abjad.abctools.AbjadObject):
         string += ' prominently throughout'
         return baca.markup(string)
 
+    def guitar_with_screw():
+        string = 'draw metal screw back and forth slowly across string;'
+        first_line = abjad.MarkupList([string]).line()
+        second_line = abjad.MarkupList(['continuous loud sound']).line()
+        guitar_with_screw = abjad.MarkupList(
+            [first_line, second_line]).column(direction=Up)
+        return baca.markup(guitar_with_screw)
+
     def half_harmonics_explanation():
         string = 'cross noteheads indicate half-harmonics'
         return baca.markup(string)
@@ -49,6 +57,24 @@ class MarkupAgent(abjad.abctools.AbjadObject):
     def scodanibbio():
         string = 'Shape trill dynamics beautifully. (Thank you, Stefano.)'
         return baca.markup(string)
+
+    def sparse_cello_clicks():
+        string = 'sparse, individual clicks with extremely slow bow'
+        first_line = abjad.MarkupList([string]).line()
+        second_line = abjad.MarkupList(
+            ['(1-2/sec. in irregular rhythm)']).line()
+        sparse_cello_clicks = abjad.MarkupList(
+            [first_line, second_line]).column(direction=Up)
+        return baca.markup(sparse_cello_clicks)
+
+    def sparse_guitar_clicks():
+        string = 'sparse, individual clicks with nail or pick laterally up string'
+        first_line = abjad.MarkupList([string]).line()
+        second_line = abjad.MarkupList(
+            ['(1-2/sec. in irregular rhythm)']).line()
+        sparse_guitar_clicks = abjad.MarkupList(
+            [first_line, second_line]).column(direction=Up)
+        return baca.markup(sparse_guitar_clicks)
 
     def sparse_piano_clicks():
         string = r'sparse, individual clicks with credit card'
