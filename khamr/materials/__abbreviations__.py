@@ -91,8 +91,8 @@ pervasive_accents = baca.accents()
 
 air_tone = baca.markup.airtone()
 
-string = 'air tone without reed: mix inhales and exhales ad lib.'
-air_tone_without_reed = baca.markup(string)
+#string = 'air tone without reed: mix inhales and exhales ad lib.'
+#air_tone_without_reed = baca.markup(string)
 
 arco = baca.markup.arco()
 
@@ -115,22 +115,22 @@ catch_resonance = baca.markup(catch_resonance)
 #    )
 #covered_flute_air_tone = baca.markup(covered_flute_air_tone)
 
-cross_note_heads = baca.cross_note_heads()
+#cross_note_heads = baca.cross_note_heads()
+#
+#effort_fff = baca.effort_dynamic('fff')
+#effort_ff = baca.effort_dynamic('ff')
+#effort_f = baca.effort_dynamic('f')
+#effort_mp = baca.effort_dynamic('mp')
 
-effort_fff = baca.effort_dynamic('fff')
-effort_ff = baca.effort_dynamic('ff')
-effort_f = baca.effort_dynamic('f')
-effort_mp = baca.effort_dynamic('mp')
-
-string = 'emphasize multiphonics and unstable harmonics prominently throughout'
-emphasize_multiphonics = baca.markup(string)
-
-estr_sul_pont = baca.markup('estr. sul pont.', direction=Up)
-
-fff_ancora = baca.ancora_dynamic('fff')
-
-ffff_possibile = baca.possibile_dynamic('ffff')
-fff_possibile = baca.possibile_dynamic('fff')
+#string = 'emphasize multiphonics and unstable harmonics prominently throughout'
+#emphasize_multiphonics = baca.markup(string)
+#
+#estr_sul_pont = baca.markup('estr. sul pont.', direction=Up)
+#
+#fff_ancora = baca.ancora_dynamic('fff')
+#
+#ffff_possibile = baca.possibile_dynamic('ffff')
+#fff_possibile = baca.possibile_dynamic('fff')
 
 fingertips = baca.markup(
     'rapid roll with fingertips: keep speed constant during accelerando',
@@ -157,8 +157,8 @@ guitar_with_screw = baca.markup(guitar_with_screw)
 
 gridato_possibile = baca.markup('gridato possibile', direction=Up)
 
-string = 'cross noteheads indicate half-harmonics'
-half_harmonics_explanation = baca.markup(string, direction=Up)
+#string = 'cross noteheads indicate half-harmonics'
+#half_harmonics_explanation = baca.markup(string, direction=Up)
 
 string = 'match dynamic levels of guitar'
 match_guitar_dynamic_levels = baca.markup(string, direction=Up)
@@ -181,14 +181,14 @@ sparse_guitar_clicks = abjad.MarkupList(
     [first_line, second_line]).column(direction=Up)
 sparse_guitar_clicks = baca.markup(sparse_guitar_clicks)
 
-string = r'sparse, individual clicks with credit card'
-string += r' on C \hspace #-0.5 \raise #1 \sharp \hspace #-0.5 1 string'
-first_line = abjad.MarkupList([string]).line()
-string = ' (1-2/sec. in irregular rhythm)'
-second_line = abjad.MarkupList([string]).line()
-sparse_piano_clicks = abjad.MarkupList(
-    [first_line, second_line]).column(direction=Up)
-sparse_piano_clicks = baca.markup(sparse_piano_clicks)
+#string = r'sparse, individual clicks with credit card'
+#string += r' on C \hspace #-0.5 \raise #1 \sharp \hspace #-0.5 1 string'
+#first_line = abjad.MarkupList([string]).line()
+#string = ' (1-2/sec. in irregular rhythm)'
+#second_line = abjad.MarkupList([string]).line()
+#sparse_piano_clicks = abjad.MarkupList(
+#    [first_line, second_line]).column(direction=Up)
+#sparse_piano_clicks = baca.markup(sparse_piano_clicks)
 
 leggierissimo = baca.markup.leggierissimo()
 
@@ -201,21 +201,21 @@ def percussion_reminder_markup(name):
     markup = markup.larger()
     return baca.markup(markup)
 
-def levine_multiphonic(number):
-    string = 'L.{}'
-    string = string.format(number)
-    markup = abjad.Markup(string, direction=Up)
-    markup = markup.box().override(('box-padding', 0.75))
-    markup = markup.larger()
-    return baca.markup(markup)
+#def levine_multiphonic(number):
+#    string = 'L.{}'
+#    string = string.format(number)
+#    markup = abjad.Markup(string, direction=Up)
+#    markup = markup.box().override(('box-padding', 0.75))
+#    markup = markup.larger()
+#    return baca.markup(markup)
 
-def weiss_multiphonic(number):
-    string = 'W.{}'
-    string = string.format(number)
-    markup = abjad.Markup(string, direction=Up)
-    markup = markup.box().override(('box-padding', 0.75))
-    markup = markup.larger()
-    return baca.markup(markup)
+#def weiss_multiphonic(number):
+#    string = 'W.{}'
+#    string = string.format(number)
+#    markup = abjad.Markup(string, direction=Up)
+#    markup = markup.box().override(('box-padding', 0.75))
+#    markup = markup.larger()
+#    return baca.markup(markup)
 
 molto_flautando = baca.markup.molto_flautando()
 
@@ -283,9 +283,9 @@ show_tempo = baca.markup.allow_bowing_to_convey_accelerando()
 #string = 'Shape trill dynamics beautifully. (Thank you, Stefano.)'
 #scodanibbio = baca.markup(string)
 
-string = 'tamburo: strike lowest strings with palm inside piano'
-string += ' and let vibrate (pedal down throughout)'
-strike_lowest_strings = baca.markup(string)
+#string = 'tamburo: strike lowest strings with palm inside piano'
+#string += ' and let vibrate (pedal down throughout)'
+#strike_lowest_strings = baca.markup(string)
 
 subito_non_armonichi = baca.markup.subito_non_armonichi_e_non_gridato()
 
@@ -512,41 +512,31 @@ repeated_pp_to_ff = baca.tools.HairpinCommand(
     hairpin_tokens=['pp < ff'],
     )
 
-halo_accompaniment_hairpins = baca.hairpins(
-    [
-        'pp > ppp', 'ppp < pp', 'pp > ppp', 'ppp < pp',
-        'pp < p', 'p > pp', 'pp < p', 'p > ppp', 'ppp < pp', 
-        ],
-    )
-
-halo_hairpins = baca.hairpins(
-    [
-        'pp > ppp', 'ppp < pp', 'pp > ppp', 'ppp < pp',
-        'pp < p', 'p > pp', 'pp < p', 'p > ppp', 'ppp < pp', 
-        ],
-    )
-
-bass_flute_tremoli_hairpins = baca.hairpins(
-    ['mp > pp', 'pp < mp'],
-    )
+#halo_accompaniment_hairpins = baca.hairpins(
+#    [
+#        'pp > ppp', 'ppp < pp', 'pp > ppp', 'ppp < pp',
+#        'pp < p', 'p > pp', 'pp < p', 'p > ppp', 'ppp < pp', 
+#        ],
+#    )
+#
+#halo_hairpins = baca.hairpins(
+#    [
+#        'pp > ppp', 'ppp < pp', 'pp > ppp', 'ppp < pp',
+#        'pp < p', 'p > pp', 'pp < p', 'p > ppp', 'ppp < pp', 
+#        ],
+#    )
+#
+#bass_flute_tremoli_hairpins = baca.hairpins(
+#    ['mp > pp', 'pp < mp'],
+#    )
 
 ### MISCELLANEOUS ###
-
-five_line_staff = baca.five_line_staff()
-
-stem_tremolo = baca.stem_tremolo()
 
 partition_table = abjad.rhythmmakertools.PartitionTable([
     (5, [2, 3]),
     (9, [3, 3, 3]),
     (11, [3, 4, 4]),
     ])
-
-one_line_staff = baca.one_line_staff()
-
-put_reed_back_in = baca.markup.put_reed_back_in()
-
-flageolet = baca.flageolets()
 
 #wide_third_octave = baca.tools.RegisterCommand(
 #    registration=abjad.pitchtools.Registration(

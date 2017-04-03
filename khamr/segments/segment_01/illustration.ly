@@ -429,9 +429,9 @@
                 \context FluteMusicVoice = "Flute Music Voice" {
                     <g' g''>2
                         ^ \markup {
-                            \larger
+                            \whiteout
                                 \override
-                                    #'(box-padding . 0.75)
+                                    #'(box-padding . 0.5)
                                     \box
                                         L.17
                             }
@@ -462,9 +462,9 @@
                     r1.
                     <g' g''>2
                         ^ \markup {
-                            \larger
+                            \whiteout
                                 \override
-                                    #'(box-padding . 0.75)
+                                    #'(box-padding . 0.5)
                                     \box
                                         L.22
                             }
@@ -523,7 +523,6 @@
             \context OboeMusicStaff = "Oboe Music Staff" {
                 \clef "treble"
                 \context OboeMusicVoice = "Oboe Music Voice" {
-                    \once \override RepeatTie.direction = #up
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
@@ -545,128 +544,74 @@
                                     hn.
                                 }
                         }
-                    b'2 \p - \markup { "air tone without reed: mix inhales and exhales ad lib." }
-                    \once \override RepeatTie.direction = #up
+                    \override RepeatTie.direction = #up
+                    b'2 \p - \markup { "airtone without reed: mix inhales and exhales ad lib." }
                     b'2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'1. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'8 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     r2..
-                    \once \override RepeatTie.direction = #up
                     r2.
-                    \once \override RepeatTie.direction = #up
                     r4
-                    \once \override RepeatTie.direction = #up
                     b'2.
-                    \once \override RepeatTie.direction = #up
                     b'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'4. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     r8
-                    \once \override RepeatTie.direction = #up
                     b'2
-                    \once \override RepeatTie.direction = #up
                     b'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'1 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'8 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     r8
-                    \once \override RepeatTie.direction = #up
                     r2
-                    \once \override RepeatTie.direction = #up
                     r2
-                    \once \override RepeatTie.direction = #up
                     r2.
-                    \once \override RepeatTie.direction = #up
                     b'2
-                    \once \override RepeatTie.direction = #up
                     b'1. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'4. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     r8
-                    \once \override RepeatTie.direction = #up
                     b'2.
-                    \once \override RepeatTie.direction = #up
                     b'2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'1 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'4 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     r2
-                    \once \override RepeatTie.direction = #up
                     r2.
-                    \once \override RepeatTie.direction = #up
                     r2
-                    \once \override RepeatTie.direction = #up
                     r4
-                    \once \override RepeatTie.direction = #up
                     b'4
-                    \once \override RepeatTie.direction = #up
                     b'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'1 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'4. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     r8
-                    \once \override RepeatTie.direction = #up
                     b'2
-                    \once \override RepeatTie.direction = #up
                     b'1. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'2.. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     r8
-                    \once \override RepeatTie.direction = #up
                     r2.
-                    \once \override RepeatTie.direction = #up
                     r2.
-                    \once \override RepeatTie.direction = #up
                     r4
-                    \once \override RepeatTie.direction = #up
                     b'2.
-                    \once \override RepeatTie.direction = #up
                     b'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'4. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     r8
-                    \once \override RepeatTie.direction = #up
                     b'2.
-                    \once \override RepeatTie.direction = #up
                     b'1 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'1 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'8 \repeatTie
-                    \once \override RepeatTie.direction = #up
+                    \revert RepeatTie.direction
                     r8
-                    \once \override RepeatTie.direction = #up
                     r2
-                    \once \override RepeatTie.direction = #up
                     r2
                     \stopStaff
                     \startStaff
                     r2.
-                    <e'' b''>2 -\flageolet
+                    <e'' b''>2
                     <e'' b''>1. \repeatTie
                     <e'' b''>2 \repeatTie
                     <e'' b''>4. \repeatTie
                     r8
-                    <e'' b''>2. -\flageolet
+                    <e'' b''>2.
                     <e'' b''>2. \repeatTie
                     <e'' b''>1 \repeatTie
                     <e'' b''>4 \repeatTie
@@ -852,11 +797,11 @@
                     r8
                     e''2. \p
                         ^ \markup {
-                            \larger
+                            \whiteout
                                 \override
-                                    #'(box-padding . 0.75)
+                                    #'(box-padding . 0.5)
                                     \box
-                                        W.77
+                                        77
                             }
                     e''1 \repeatTie
                     e''2. \repeatTie
@@ -887,7 +832,7 @@
                 \clef "treble"
                 \context GuitarMusicVoice = "Guitar Music Voice" {
                     \override NoteHead.style = #'cross
-                    cs4 \f ^ \markup { "cross noteheads indicate half-harmonics" }
+                    cs4 \f - \markup { "cross noteheads indicate half-harmonics" }
                     r4
                     r2
                     r1.
@@ -1037,7 +982,7 @@
                     \times 1/1 {
                         \once \override Beam.grow-direction = #right
                         \override TupletBracket.staff-padding = #4
-                        cs'16 * 117/16 [ ^ \markup { "move towards (and then back away from) the bridge at the center of each accelerando" }
+                        cs'16 * 117/16 [ - \markup { "move towards (and then back away from) the bridge at the center of each accelerando" }
                         c'16 * 73/16
                         a'16 * 73/32
                         d'16 * 59/32 ]
@@ -1451,84 +1396,45 @@
             \tag piano
             \context PianoMusicStaff = "Piano Music Staff" {
                 \context PianoMusicVoice = "Piano Music Voice" {
-                    \once \override RepeatTie.direction = #up
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
                     \clef "percussion"
-                    \set PianoMusicStaff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            Piano
-                        }
-                    \set PianoMusicStaff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            Pf.
-                        }
+                    \override RepeatTie.direction = #up
                     c'2 -\accent \mf - \markup { "tamburo: strike lowest strings with palm inside piano and let vibrate (pedal down throughout)" }
-                    \once \override RepeatTie.direction = #up
                     c'2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'1. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'1 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'4 -\accent
-                    \once \override RepeatTie.direction = #up
                     c'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2 -\accent
-                    \once \override RepeatTie.direction = #up
                     c'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'1 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2. -\accent
-                    \once \override RepeatTie.direction = #up
                     c'2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2. -\accent
-                    \once \override RepeatTie.direction = #up
                     c'2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'1 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'1. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'4 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2 -\accent
-                    \once \override RepeatTie.direction = #up
                     c'1 \repeatTie
                     \stopStaff
                     \startStaff
+                    \revert RepeatTie.direction
                     \override TupletNumber.text = \markup {
                         \scale
                             #'(0.75 . 0.75)
@@ -1564,7 +1470,7 @@
                         \once \override Beam.grow-direction = #right
                         \ottava #1
                         \clef "treble"
-                        cs''''16 * 247/32 \mf [ ^ \markup { "match dynamic levels of guitar" }
+                        cs''''16 * 247/32 \mf [ - \markup { "match dynamic levels of guitar" }
                         c''''16 * 459/64
                         a'''16 * 187/32
                         d''''16 * 287/64
@@ -1773,11 +1679,11 @@
                     }
                     r4
                     r2
-                    \once \override RepeatTie.direction = #up
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
                     \clef "percussion"
+                    \override RepeatTie.direction = #up
                     c'1 \mp
                         ^ \markup {
                             \column
@@ -1808,17 +1714,14 @@
                                         }
                                 }
                             }
-                    \once \override RepeatTie.direction = #up
                     c'4 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'1 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     c'1. \repeatTie
                     \bar "|"
                     \stopStaff
                     \startStaff
+                    \revert RepeatTie.direction
                 }
             }
             \tag percussion
@@ -1828,9 +1731,9 @@
                     \override Stem.direction = #down
                     c'2 -\accent \mp
                         ^ \markup {
-                            \larger
+                            \whiteout
                                 \override
-                                    #'(box-padding . 0.75)
+                                    #'(box-padding . 0.5)
                                     \box
                                         "XL tam-tam"
                             }
@@ -1897,7 +1800,7 @@
             \context ViolinMusicStaff = "Violin Music Staff" {
                 \clef "treble"
                 \context ViolinMusicVoice = "Violin Music Voice" {
-                    \once \override NoteHead.style = #'harmonic
+                    \override NoteHead.style = #'harmonic
                     g'2 \> \pp
                         _ \markup {
                             \whiteout
@@ -1905,442 +1808,463 @@
                                     IV
                             }
                         - \markup { "emphasize multiphonics and unstable harmonics prominently throughout" }
-                    \once \override NoteHead.style = #'harmonic
                     g'2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     g'1. \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/4 {
-                        \once \override NoteHead.style = #'harmonic
                         g'2. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         af'4
                     }
-                    \once \override NoteHead.style = #'harmonic
-                    af'2. \repeatTie \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    gqs'4
-                    \once \override NoteHead.style = #'harmonic
+                    {
+                        af'2. \repeatTie \glissando
+                        gqs'4
+                    }
                     gqs'2. \repeatTie
                     \times 2/3 {
-                        \once \override NoteHead.style = #'harmonic
                         gqs'1 \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         a'2
                     }
-                    \once \override NoteHead.style = #'harmonic
                     a'2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     a'2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     a'1 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     a'2. \repeatTie
                     \times 4/7 {
-                        \once \override NoteHead.style = #'harmonic
                         a'1. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         bqf'4
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/7 {
-                        \once \override NoteHead.style = #'harmonic
                         bqf'1. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         af'4
                     }
-                    \once \override NoteHead.style = #'harmonic
                     af'2. \repeatTie
                     \times 4/5 {
-                        \once \override NoteHead.style = #'harmonic
                         af'2 \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         gqs'8
                     }
-                    \once \override NoteHead.style = #'harmonic
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     gqs'1. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     gqs'2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     gqs'2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     gqs'2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/4 {
-                        \once \override NoteHead.style = #'harmonic
                         gqs'2. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         a'4
                     }
                     \times 2/3 {
-                        \once \override NoteHead.style = #'harmonic
                         a'1 \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         g'2
                     }
-                    \once \override NoteHead.style = #'harmonic
                     g'1. \repeatTie
                     \times 2/3 {
-                        \once \override NoteHead.style = #'harmonic
                         g'2 \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         a'4
                     }
-                    \once \override NoteHead.style = #'harmonic
                     a'2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     a'2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     a'1 \repeatTie
                     \times 4/5 {
-                        \once \override NoteHead.style = #'harmonic
                         a'2 \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         b'8
                     }
                     \times 4/5 {
-                        \once \override NoteHead.style = #'harmonic
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         b'2 \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         aqs'8
                     }
-                    \once \override NoteHead.style = #'harmonic
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     aqs'1. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
-                    aqs'2. \repeatTie \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    bf'4
-                    \once \override NoteHead.style = #'harmonic
+                    {
+                        aqs'2. \repeatTie \glissando
+                        bf'4
+                    }
                     bf'2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     bf'2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     bf'1 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/9 {
-                        \once \override NoteHead.style = #'harmonic
                         bf'1. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         g'2.
                     }
-                    \once \override NoteHead.style = #'harmonic
-                    g'2 \repeatTie \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    a'4
-                    \once \override NoteHead.style = #'harmonic
+                    {
+                        g'2 \repeatTie \glissando
+                        a'4
+                    }
                     a'1 \repeatTie
                     \times 4/7 {
-                        \once \override NoteHead.style = #'harmonic
                         a'1. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         b'4
                     }
-                    \once \override NoteHead.style = #'harmonic
                     b'2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     b'2 \repeatTie \ppp
-                    \pitchedTrill
-                    f'2 -\accent \ppp \startTrillSpan
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    "molto flautando ed estr. sul pont."
-                            } gf'
+                    \revert NoteHead.style
+                    {
+                        \pitchedTrill
+                        f'4 -\accent \ppp \startTrillSpan
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        "molto flautando ed estr. sul pont."
+                                } gf'
+                    }
+                    {
+                        f'4 \repeatTie
+                    }
                     \times 4/5 {
                         f'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         fs'4 -\accent \stopTrillSpan \startTrillSpan g'
                     }
-                    fs'2 \repeatTie
+                    {
+                        fs'4 \repeatTie
+                    }
+                    {
+                        fs'4 \repeatTie
+                    }
                     \times 4/5 {
                         fs'8 \repeatTie [
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         fqs'8. -\accent ] \stopTrillSpan \startTrillSpan gqf'
                     }
-                    fqs'2 \repeatTie
+                    {
+                        fqs'4 \repeatTie
+                    }
+                    {
+                        fqs'4 \repeatTie
+                    }
                     \times 4/5 {
                         fqs'8. \repeatTie [
                         \pitchedTrill
                         f'8 -\accent ] \stopTrillSpan \startTrillSpan gf'
                     }
-                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    f'2 \repeatTie
+                    {
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        f'4 \repeatTie
+                    }
+                    {
+                        f'4 \repeatTie
+                    }
                     \times 4/5 {
                         f'4 \repeatTie
                         \pitchedTrill
                         fqs'16 -\accent \stopTrillSpan \startTrillSpan gqf'
                     }
-                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    fqs'4 \repeatTie
-                    fqs'4 \repeatTie
+                    {
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        fqs'4 \repeatTie
+                    }
+                    {
+                        fqs'4 \repeatTie
+                    }
                     \times 4/5 {
                         fqs'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         f'4 -\accent \stopTrillSpan \startTrillSpan gf'
                     }
-                    f'4 \repeatTie
-                    f'4 \repeatTie
+                    {
+                        f'4 \repeatTie
+                    }
+                    {
+                        f'4 \repeatTie
+                    }
                     \times 4/5 {
                         f'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         e'4 -\accent \stopTrillSpan \startTrillSpan f'
                     }
-                    e'2 \repeatTie
+                    {
+                        e'4 \repeatTie
+                    }
+                    {
+                        e'4 \repeatTie
+                    }
                     \times 4/5 {
                         e'8 \repeatTie [
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         eqs'8. -\accent ] \stopTrillSpan \startTrillSpan fqs'
                     }
-                    eqs'2 \repeatTie
+                    {
+                        eqs'4 \repeatTie
+                    }
+                    {
+                        eqs'4 \repeatTie
+                    }
                     \times 4/5 {
                         eqs'8. \repeatTie [
                         \pitchedTrill
                         e'8 -\accent ] \stopTrillSpan \startTrillSpan f'
                     }
-                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    e'4 \repeatTie
-                    e'4 \repeatTie
+                    {
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        e'4 \repeatTie
+                    }
+                    {
+                        e'4 \repeatTie
+                    }
                     \times 4/5 {
                         e'4 \repeatTie
                         \pitchedTrill
                         eqs'16 -\accent \stopTrillSpan \startTrillSpan fqs'
                     }
-                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    eqs'4 \repeatTie
-                    eqs'4 \repeatTie
+                    {
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        eqs'4 \repeatTie
+                    }
+                    {
+                        eqs'4 \repeatTie
+                    }
                     \times 4/5 {
                         eqs'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         f'4 -\accent \stopTrillSpan \startTrillSpan gf'
                     }
-                    f'4 \repeatTie \stopTrillSpan
-                    \bar "|"
+                    {
+                        f'4 \repeatTie \stopTrillSpan
+                        \bar "|"
+                    }
                 }
             }
             \tag strings.viola
             \context ViolaMusicStaff = "Viola Music Staff" {
                 \clef "alto"
                 \context ViolaMusicVoice = "Viola Music Voice" {
-                    \once \override NoteHead.style = #'harmonic
-                    g'4. \glissando \> \pp
-                        _ \markup {
-                            \whiteout
-                                \upright
-                                    III
-                            }
-                        - \markup { "emphasize multiphonics and unstable harmonics prominently throughout" }
-                    \once \override NoteHead.style = #'harmonic
-                    af'8
-                    \once \override NoteHead.style = #'harmonic
+                    {
+                        \override NoteHead.style = #'harmonic
+                        g'4. \glissando \> \pp
+                            _ \markup {
+                                \whiteout
+                                    \upright
+                                        III
+                                }
+                            - \markup { "emphasize multiphonics and unstable harmonics prominently throughout" }
+                        af'8
+                    }
                     af'2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     af'1. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     af'2. \repeatTie
                     \times 2/3 {
-                        \once \override NoteHead.style = #'harmonic
                         af'1 \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         gqs'2
                     }
-                    \once \override NoteHead.style = #'harmonic
-                    gqs'2 \repeatTie \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    a'4
-                    \once \override NoteHead.style = #'harmonic
+                    {
+                        gqs'2 \repeatTie \glissando
+                        a'4
+                    }
                     a'1 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/7 {
-                        \once \override NoteHead.style = #'harmonic
                         a'1. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         bqf'4
                     }
-                    \once \override NoteHead.style = #'harmonic
                     bqf'1 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     bqf'2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     bqf'1 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
-                    bqf'1 \repeatTie \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    af'4
+                    {
+                        bqf'1 \repeatTie \glissando
+                        af'4
+                    }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/4 {
-                        \once \override NoteHead.style = #'harmonic
                         af'2. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         gqs'4
                     }
-                    \once \override NoteHead.style = #'harmonic
                     gqs'2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/4 {
-                        \once \override NoteHead.style = #'harmonic
                         gqs'1. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         a'2
                     }
-                    \once \override NoteHead.style = #'harmonic
                     a'2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     a'2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     a'2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     a'2. \repeatTie
                     \times 4/7 {
-                        \once \override NoteHead.style = #'harmonic
                         a'1. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         g'4
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        \once \override NoteHead.style = #'harmonic
                         g'1. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         a'4
                     }
-                    \once \override NoteHead.style = #'harmonic
                     a'2 \repeatTie
                     \times 4/5 {
-                        \once \override NoteHead.style = #'harmonic
                         a'2 \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         b'8
                     }
-                    \once \override NoteHead.style = #'harmonic
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     b'2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     b'1 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     b'2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
-                    b'4. \repeatTie \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    aqs'8
+                    {
+                        b'4. \repeatTie \glissando
+                        aqs'8
+                    }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/4 {
-                        \once \override NoteHead.style = #'harmonic
                         aqs'1. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         bf'2
                     }
-                    \once \override NoteHead.style = #'harmonic
                     bf'1 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
-                    bf'2 \repeatTie \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    g'4
-                    \once \override NoteHead.style = #'harmonic
+                    {
+                        bf'2 \repeatTie \glissando
+                        g'4
+                    }
                     g'2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     g'1 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     g'2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     g'2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        \once \override NoteHead.style = #'harmonic
                         g'2. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         a'8
                     }
                     \times 4/5 {
-                        \once \override NoteHead.style = #'harmonic
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         a'1 \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         b'4
                     }
-                    \once \override NoteHead.style = #'harmonic
                     b'1 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
-                    b'1 \repeatTie \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    aqs'4 \ppp
-                    \pitchedTrill
-                    f'2. -\accent \ppp \startTrillSpan
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    "molto flautando ed estr. sul pont."
-                            } gf'
+                    {
+                        b'1 \repeatTie \glissando
+                        aqs'4 \ppp
+                        \revert NoteHead.style
+                    }
+                    {
+                        \pitchedTrill
+                        f'4 -\accent \ppp \startTrillSpan
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        "molto flautando ed estr. sul pont."
+                                } gf'
+                    }
+                    {
+                        f'4 \repeatTie
+                    }
+                    {
+                        f'4 \repeatTie
+                    }
                     \times 4/5 {
                         f'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         fs'4 -\accent \stopTrillSpan \startTrillSpan g'
                     }
-                    fs'4 \repeatTie
-                    fs'2 \repeatTie
+                    {
+                        fs'4 \repeatTie
+                    }
+                    {
+                        fs'4 \repeatTie
+                    }
+                    {
+                        fs'4 \repeatTie
+                    }
                     \times 4/5 {
                         fs'8 \repeatTie [
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         fqs'8. -\accent ] \stopTrillSpan \startTrillSpan gqf'
                     }
-                    fqs'2. \repeatTie
+                    {
+                        fqs'4 \repeatTie
+                    }
+                    {
+                        fqs'4 \repeatTie
+                    }
+                    {
+                        fqs'4 \repeatTie
+                    }
                     \times 4/5 {
                         fqs'8. \repeatTie [
                         \pitchedTrill
                         f'8 -\accent ] \stopTrillSpan \startTrillSpan gf'
                     }
-                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    f'4 \repeatTie
-                    f'2 \repeatTie
+                    {
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        f'4 \repeatTie
+                    }
+                    {
+                        f'4 \repeatTie
+                    }
+                    {
+                        f'4 \repeatTie
+                    }
                     \times 4/5 {
                         f'4 \repeatTie
                         \pitchedTrill
                         fqs'16 -\accent \stopTrillSpan \startTrillSpan gqf'
                     }
-                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    fqs'2 \repeatTie
-                    fqs'4 \repeatTie
+                    {
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        fqs'4 \repeatTie
+                    }
+                    {
+                        fqs'4 \repeatTie
+                    }
+                    {
+                        fqs'4 \repeatTie
+                    }
                     \times 4/5 {
                         fqs'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         f'4 -\accent \stopTrillSpan \startTrillSpan gf'
                     }
-                    f'4 \repeatTie
-                    f'2 \repeatTie
+                    {
+                        f'4 \repeatTie
+                    }
+                    {
+                        f'4 \repeatTie
+                    }
+                    {
+                        f'4 \repeatTie
+                    }
                     \times 4/5 {
                         f'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         e'4 -\accent \stopTrillSpan \startTrillSpan f'
                     }
-                    e'4 \repeatTie
-                    e'2 \repeatTie
+                    {
+                        e'4 \repeatTie
+                    }
+                    {
+                        e'4 \repeatTie
+                    }
+                    {
+                        e'4 \repeatTie
+                    }
                     \times 4/5 {
                         e'8 \repeatTie [
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         eqs'8. -\accent ] \stopTrillSpan \startTrillSpan fqs'
                     }
-                    eqs'2. \repeatTie \stopTrillSpan
-                    \bar "|"
+                    {
+                        eqs'4 \repeatTie
+                    }
+                    {
+                        eqs'4 \repeatTie
+                    }
+                    {
+                        eqs'4 \repeatTie \stopTrillSpan
+                        \bar "|"
+                    }
                 }
             }
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
                 \clef "bass"
                 \context CelloMusicVoice = "Cello Music Voice" {
-                    \once \override NoteHead.style = #'harmonic
+                    \override NoteHead.style = #'harmonic
                     g2 \> \pp
                         _ \markup {
                             \whiteout
@@ -2349,206 +2273,223 @@
                             }
                         - \markup { "emphasize multiphonics and unstable harmonics prominently throughout" }
                     \times 2/3 {
-                        \once \override NoteHead.style = #'harmonic
                         g2 \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         af4
                     }
-                    \once \override NoteHead.style = #'harmonic
                     af1. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     af2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     af1 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        \once \override NoteHead.style = #'harmonic
                         af2. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         gqs8
                     }
                     \times 4/5 {
-                        \once \override NoteHead.style = #'harmonic
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         gqs1 \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         a4
                     }
-                    \once \override NoteHead.style = #'harmonic
                     a2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     a2 \repeatTie
                     \times 4/5 {
-                        \once \override NoteHead.style = #'harmonic
                         a1 \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         bqf4
                     }
-                    \once \override NoteHead.style = #'harmonic
                     bqf2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     bqf1 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     bqf2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     bqf2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
-                    bqf2 \repeatTie \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    af4
+                    {
+                        bqf2 \repeatTie \glissando
+                        af4
+                    }
                     \times 2/3 {
-                        \once \override NoteHead.style = #'harmonic
                         af2 \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         gqs4
                     }
-                    \once \override NoteHead.style = #'harmonic
                     gqs1. \repeatTie
                     \times 4/7 {
-                        \once \override NoteHead.style = #'harmonic
                         gqs2. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         a8
                     }
-                    \once \override NoteHead.style = #'harmonic
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     a2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     a2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     a2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     a1 \repeatTie
                     \times 4/5 {
-                        \once \override NoteHead.style = #'harmonic
                         a1. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         g4.
                     }
                     \times 4/5 {
-                        \once \override NoteHead.style = #'harmonic
                         g2 \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         a8
                     }
-                    \once \override NoteHead.style = #'harmonic
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     a2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/4 {
-                        \once \override NoteHead.style = #'harmonic
                         a2. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         b4
                     }
-                    \once \override NoteHead.style = #'harmonic
                     b1 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     b2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     b2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
-                    b1 \repeatTie \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    aqs2
+                    {
+                        b1 \repeatTie \glissando
+                        aqs2
+                    }
                     \times 4/7 {
-                        \once \override NoteHead.style = #'harmonic
                         aqs1. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         bf4
                     }
-                    \once \override NoteHead.style = #'harmonic
                     bf2. \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        \once \override NoteHead.style = #'harmonic
                         bf2. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         g8
                     }
-                    \once \override NoteHead.style = #'harmonic
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     g1 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     g2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     g2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     g2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
-                    g2. \repeatTie \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    a4
-                    \once \override NoteHead.style = #'harmonic
-                    a2. \repeatTie \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    b4
-                    \once \override NoteHead.style = #'harmonic
+                    {
+                        g2. \repeatTie \glissando
+                        a4
+                    }
+                    {
+                        a2. \repeatTie \glissando
+                        b4
+                    }
                     b2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     b2 \repeatTie \ppp
-                    \pitchedTrill
-                    f'2. -\accent \ppp \startTrillSpan
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    "molto flautando ed estr. sul pont."
-                            } gf'
-                    f'4 \repeatTie
+                    \revert NoteHead.style
+                    {
+                        \pitchedTrill
+                        f'4 -\accent \ppp \startTrillSpan
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        "molto flautando ed estr. sul pont."
+                                } gf'
+                    }
+                    {
+                        f'4 \repeatTie
+                    }
+                    {
+                        f'4 \repeatTie
+                    }
+                    {
+                        f'4 \repeatTie
+                    }
                     \times 4/5 {
                         f'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         fs'4 -\accent \stopTrillSpan \startTrillSpan g'
                     }
-                    fs'1 \repeatTie
+                    {
+                        fs'4 \repeatTie
+                    }
+                    {
+                        fs'4 \repeatTie
+                    }
+                    {
+                        fs'4 \repeatTie
+                    }
+                    {
+                        fs'4 \repeatTie
+                    }
                     \times 4/5 {
                         fs'8 \repeatTie [
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         fqs'8. -\accent ] \stopTrillSpan \startTrillSpan gqf'
                     }
-                    fqs'4 \repeatTie
-                    fqs'2 \repeatTie
-                    fqs'4 \repeatTie
+                    {
+                        fqs'4 \repeatTie
+                    }
+                    {
+                        fqs'4 \repeatTie
+                    }
+                    {
+                        fqs'4 \repeatTie
+                    }
+                    {
+                        fqs'4 \repeatTie
+                    }
                     \times 4/5 {
                         fqs'8. \repeatTie [
                         \pitchedTrill
                         f'8 -\accent ] \stopTrillSpan \startTrillSpan gf'
                     }
-                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    f'2. \repeatTie
-                    f'4 \repeatTie
+                    {
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        f'4 \repeatTie
+                    }
+                    {
+                        f'4 \repeatTie
+                    }
+                    {
+                        f'4 \repeatTie
+                    }
+                    {
+                        f'4 \repeatTie
+                    }
                     \times 4/5 {
                         f'4 \repeatTie
                         \pitchedTrill
                         fqs'16 -\accent \stopTrillSpan \startTrillSpan gqf'
                     }
-                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    fqs'4 \repeatTie
-                    fqs'2. \repeatTie
+                    {
+                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                        fqs'4 \repeatTie
+                    }
+                    {
+                        fqs'4 \repeatTie
+                    }
+                    {
+                        fqs'4 \repeatTie
+                    }
+                    {
+                        fqs'4 \repeatTie
+                    }
                     \times 4/5 {
                         fqs'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         f'4 -\accent \stopTrillSpan \startTrillSpan gf'
                     }
-                    f'1 \repeatTie
+                    {
+                        f'4 \repeatTie
+                    }
+                    {
+                        f'4 \repeatTie
+                    }
+                    {
+                        f'4 \repeatTie
+                    }
+                    {
+                        f'4 \repeatTie
+                    }
                     \times 4/5 {
                         f'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         e'4 -\accent \stopTrillSpan \startTrillSpan f'
                     }
-                    e'4 \repeatTie \stopTrillSpan
-                    \bar "|"
+                    {
+                        e'4 \repeatTie \stopTrillSpan
+                        \bar "|"
+                    }
                 }
             }
             \tag strings.contrabass
             \context ContrabassMusicStaff = "Contrabass Music Staff" {
                 \clef "bass"
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
-                    \once \override NoteHead.style = #'harmonic
+                    \override NoteHead.style = #'harmonic
                     a,2 \f
                         _ \markup {
                             \whiteout
@@ -2556,172 +2497,117 @@
                                     III
                             }
                         - \markup { "emphasize multiphonics and unstable harmonics prominently throughout" }
-                    \once \override NoteHead.style = #'harmonic
                     a,2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        \once \override NoteHead.style = #'harmonic
                         a,1. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         bf,4
                     }
                     \times 4/5 {
-                        \once \override NoteHead.style = #'harmonic
                         bf,2. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         aqs,8.
                     }
-                    \once \override NoteHead.style = #'harmonic
                     aqs,1 \repeatTie
                     \times 4/5 {
-                        \once \override NoteHead.style = #'harmonic
                         aqs,2. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         b,8.
                     }
-                    \once \override NoteHead.style = #'harmonic
                     b,1 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     b,2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     b,2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     b,1 \repeatTie \> \pp
-                    \once \override NoteHead.style = #'harmonic
-                    b,2 \repeatTie \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    cqs4
+                    {
+                        b,2 \repeatTie \glissando
+                        cqs4
+                    }
                     \times 2/3 {
-                        \once \override NoteHead.style = #'harmonic
                         cqs1 \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         bf,2
                     }
-                    \once \override NoteHead.style = #'harmonic
                     bf,2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     bf,2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        \once \override NoteHead.style = #'harmonic
                         bf,2. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         aqs,8
                     }
-                    \once \override NoteHead.style = #'harmonic
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     aqs,2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     aqs,1. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     aqs,2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
-                    aqs,1 \repeatTie \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    b,4
+                    {
+                        aqs,1 \repeatTie \glissando
+                        b,4
+                    }
                     \times 4/5 {
-                        \once \override NoteHead.style = #'harmonic
                         b,2. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         a,8.
                     }
-                    \once \override NoteHead.style = #'harmonic
                     a,1 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/4 {
-                        \once \override NoteHead.style = #'harmonic
                         a,1. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         b,2
                     }
-                    \once \override NoteHead.style = #'harmonic
                     b,2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     b,2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     b,2. \repeatTie
                     \times 2/3 {
-                        \once \override NoteHead.style = #'harmonic
                         b,1 \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         cs2
                     }
                     \times 4/7 {
-                        \once \override NoteHead.style = #'harmonic
                         cs2. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         bqs,8
                     }
-                    \once \override NoteHead.style = #'harmonic
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     bqs,2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        \once \override NoteHead.style = #'harmonic
                         bqs,1. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         c4
                     }
-                    \once \override NoteHead.style = #'harmonic
                     c1 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     c2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     c2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
-                    c2. \repeatTie \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    a,4
+                    {
+                        c2. \repeatTie \glissando
+                        a,4
+                    }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/8 {
-                        \once \override NoteHead.style = #'harmonic
                         a,1. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         b,2
                     }
-                    \once \override NoteHead.style = #'harmonic
                     b,2. \repeatTie
                     \times 2/3 {
-                        \once \override NoteHead.style = #'harmonic
                         b,1 \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         cs2
                     }
-                    \once \override NoteHead.style = #'harmonic
                     cs1 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     cs2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     cs2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     cs2. \repeatTie
                     \times 4/7 {
-                        \once \override NoteHead.style = #'harmonic
                         cs2. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         bqs,8
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        \once \override NoteHead.style = #'harmonic
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         bqs,1. \repeatTie \glissando
-                        \once \override NoteHead.style = #'harmonic
                         dqf4
                     }
-                    \once \override NoteHead.style = #'harmonic
                     dqf2 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
-                    dqf1 \repeatTie \glissando
-                    \once \override NoteHead.style = #'harmonic
-                    c4
-                    \once \override NoteHead.style = #'harmonic
+                    {
+                        dqf1 \repeatTie \glissando
+                        c4
+                    }
                     c2. \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     c1 \repeatTie
-                    \once \override NoteHead.style = #'harmonic
                     c1. \repeatTie \ppp
                     \bar "|"
+                    \revert NoteHead.style
                 }
             }
         >>
