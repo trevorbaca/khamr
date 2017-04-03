@@ -2,19 +2,18 @@
 import abjad
 import baca
 import khamr
-from khamr.materials.__abbreviations__ import *
 
-#fl = 'Flute Music Voice'
-#ob = 'Oboe Music Voice'
-#cl = 'Clarinet Music Voice'
-#sax = 'Saxophone Music Voice'
-#gt = 'Guitar Music Voice'
-#pf = 'Piano Music Voice'
-#perc = 'Percussion Music Voice'
-#vn = 'Violin Music Voice'
-#va = 'Viola Music Voice'
-#vc = 'Cello Music Voice'
-#cb = 'Contrabass Music Voice'
+fl = 'Flute Music Voice'
+ob = 'Oboe Music Voice'
+cl = 'Clarinet Music Voice'
+sax = 'Saxophone Music Voice'
+gt = 'Guitar Music Voice'
+pf = 'Piano Music Voice'
+perc = 'Percussion Music Voice'
+vn = 'Violin Music Voice'
+va = 'Viola Music Voice'
+vc = 'Cello Music Voice'
+cb = 'Contrabass Music Voice'
 
 
 ###############################################################################
@@ -57,10 +56,6 @@ segment_maker.validate_measures_per_stage()
 segment_maker.append_commands(
     fl,
     baca.select_stages(1, 1),
-#    baca.tools.RhythmSpecifier(
-#        rewrite_meter=True,
-#        rhythm_maker=messiaen_tied_note_rhythm_maker,
-#        ),
     baca.messiaen_tied_notes(),
     )
 
@@ -114,10 +109,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     ob,
     baca.select_stages(1, 1),
-#    baca.tools.RhythmSpecifier(
-#        rewrite_meter=True,
-#        rhythm_maker=messiaen_tied_note_rhythm_maker,
-#        ),
     baca.messiaen_tied_notes(),
     )
 
@@ -174,10 +165,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cl,
     baca.select_stages(1, 1),
-#    baca.tools.RhythmSpecifier(
-#        rewrite_meter=True,
-#        rhythm_maker=messiaen_tied_note_rhythm_maker,
-#        ),
     baca.messiaen_tied_notes(),
     )
 
@@ -223,10 +210,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     sax,
     baca.select_stages(1, 1),
-#    baca.tools.RhythmSpecifier(
-#        rewrite_meter=True,
-#        rhythm_maker=messiaen_tied_note_rhythm_maker,
-#        ),
     baca.messiaen_tied_notes(),
     )
 
@@ -280,20 +263,12 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     gt,
     baca.select_stages(1, 1),
-#    baca.tools.RhythmSpecifier(
-#        rewrite_meter=True,
-#        rhythm_maker=messiaen_tied_note_rhythm_maker,
-#        ),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     gt,
     baca.select_stages(5, 6),
-#    baca.tools.RhythmSpecifier(
-#        rewrite_meter=True,
-#        rhythm_maker=messiaen_tied_note_rhythm_maker,
-#        ),
     baca.messiaen_tied_notes(),
     )
 
@@ -346,10 +321,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     perc,
     baca.select_stages(3, 4),
-#    baca.tools.RhythmSpecifier(
-#        rewrite_meter=True,
-#        rhythm_maker=messiaen_tied_note_rhythm_maker,
-#        ),
     baca.messiaen_tied_notes(),
     )
 
@@ -383,10 +354,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     perc,
     baca.select_stages(7, 9),
-#    baca.tools.RhythmSpecifier(
-#        rewrite_meter=True,
-#        rhythm_maker=messiaen_tied_note_rhythm_maker,
-#        ),
     baca.messiaen_tied_notes(),
     )
 
@@ -395,10 +362,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn,
     baca.select_stages(1, 1),
-#    baca.tools.RhythmSpecifier(
-#        rewrite_meter=True,
-#        rhythm_maker=messiaen_tied_note_rhythm_maker,
-#        ),
     baca.messiaen_tied_notes(),
     )
 
@@ -432,10 +395,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(1, 1),
-#    baca.tools.RhythmSpecifier(
-#        rewrite_meter=True,
-#        rhythm_maker=messiaen_tied_note_rhythm_maker,
-#        ),
     baca.messiaen_tied_notes(),
     )
 
@@ -469,10 +428,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(1, 1),
-#    baca.tools.RhythmSpecifier(
-#        rewrite_meter=True,
-#        rhythm_maker=messiaen_tied_note_rhythm_maker,
-#        ),
     baca.messiaen_tied_notes(),
     )
 
@@ -506,60 +461,36 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cb,
     baca.select_stages(1, 1),
-#    baca.tools.RhythmSpecifier(
-#        rewrite_meter=True,
-#        rhythm_maker=messiaen_tied_note_rhythm_maker,
-#        ),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     cb,
     baca.select_stages(2, 2),
-#    baca.tools.RhythmSpecifier(
-#        rewrite_meter=True,
-#        rhythm_maker=messiaen_tied_note_rhythm_maker,
-#        ),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     cb,
     baca.select_stages(3, 3),
-#    baca.tools.RhythmSpecifier(
-#        rewrite_meter=True,
-#        rhythm_maker=messiaen_tied_note_rhythm_maker,
-#        ),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     cb,
     baca.select_stages(4, 4),
-#    baca.tools.RhythmSpecifier(
-#        rewrite_meter=True,
-#        rhythm_maker=messiaen_tied_note_rhythm_maker,
-#        ),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     cb,
     baca.select_stages(5, 5),
-#    baca.tools.RhythmSpecifier(
-#        rewrite_meter=True,
-#        rhythm_maker=messiaen_tied_note_rhythm_maker,
-#        ),
     baca.messiaen_tied_notes(),
     )
 
 segment_maker.append_commands(
     cb,
     baca.select_stages(6, 6),
-#    baca.tools.RhythmSpecifier(
-#        rewrite_meter=True,
-#        rhythm_maker=messiaen_tied_note_rhythm_maker,
-#        ),
     baca.messiaen_tied_notes(),
     )
 
@@ -838,10 +769,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     [vn, va, vc],
     baca.select_stages(3, 4),
-#    baca.tools.HairpinSpecifier(
-#        hairpin_token=['pp < f'],
-#        span='contiguous notes and chords',
-#        ),
     baca.hairpins(['pp < f']),
     )
 
@@ -905,10 +832,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cb,
     baca.select_stages(3, 4),
-#    baca.tools.HairpinSpecifier(
-#        hairpin_token=['p < f'],
-#        span='contiguous notes and chords',
-#        ),
     baca.hairpins(['p < f']),
     )
 
