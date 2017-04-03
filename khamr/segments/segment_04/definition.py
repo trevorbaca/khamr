@@ -2,7 +2,6 @@
 import abjad
 import baca
 import khamr
-from khamr.materials.__abbreviations__ import *
 
 ### CONTEXT NAMES ###
 
@@ -108,7 +107,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cl,
     baca.select_stages(1, 7),
-    #rhythm_maker=messiaen_tied_note_rhythm_maker,
     baca.messiaen_tied_notes(),
     )
 
@@ -281,8 +279,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     perc,
     baca.select_stages(4, 7),
-#    rewrite_meter=True,
-#    rhythm_maker=messiaen_tied_note_rhythm_maker,
     baca.messiaen_tied_notes(),
     )
 
@@ -392,7 +388,7 @@ segment_maker.append_commands(
     fl,
     baca.select_stages(1, 7),
     # sounds B3
-    pitch_specifier(source='Bb4'),
+    baca.pitches('Bb4'),
     )
 
 ### OBOE ###
@@ -401,9 +397,9 @@ segment_maker.append_commands(
     ob,
     baca.select_stages(1, 7),
     # dummy centerline pitch
-    pitch_specifier(source='B4'),
-    one_line_staff,
-    repeat_ties_up,
+    baca.pitches('B4'),
+    baca.one_line_staff(),
+    baca.repeat_ties_up(),
     )
 
 ### CLARINET ###
@@ -411,7 +407,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cl,
     baca.select_stages(1, 7),
-    pitch_specifier(source='G2'),
+    baca.pitches('G2'),
     )
 
 ### SAXOPHONE ###
@@ -419,10 +415,10 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     sax,
     baca.select_stages(1, 7),
+    baca.one_line_staff(),
     # dummy centerline pitch
-    pitch_specifier(source='D5'),
-    one_line_staff,
-    repeat_ties_up,
+    baca.pitches('D5'),
+    baca.repeat_ties_up(),
     )
 
 ### GUITAR ##
@@ -430,10 +426,10 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     gt,
     baca.select_stages(1, 8),
-    pitch_specifier(source='C4'),
-    reiterated_flageolets,
-    reiterated_mf,
-    pervasive_accents,
+    baca.accents(),
+    baca.flageolets(),
+    baca.pitches('C4'),
+    baca.reiterated_dynamic('mf'),
     )
 
 ### PIANO ###
@@ -441,9 +437,9 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     pf,
     baca.select_stages(1, 8),
-    pitch_specifier(source='A#4'),
-    reiterated_mf,
-    pervasive_accents,
+    baca.accents(),
+    baca.pitches('A#4'),
+    baca.reiterated_dynamic('mf'),
     )
 
 ### PERCUSSION ###
@@ -451,66 +447,54 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     perc,
     baca.select_stages(1, 2),
-    stem_tremolo,
-#    baca.tools.HairpinSpecifier(
-#        hairpin_token=['pp > ppp'],
-#        span='contiguous notes and chords',
-#        ),
     baca.hairpins(['pp > ppp']),
+    baca.stem_tremolo(),
     )
 
 segment_maker.append_commands(
     perc,
     baca.select_stages(4, 7),
     baca.dynamic('fff'),
-    stem_tremolo,
-    percussion_reminder_markup('snare drum'),
+    baca.markup.boxed('snare drum'),
+    baca.stem_tremolo(),
     )
-
-### VIOLIN ###
-
-### VIOLA ###
-
-### CELLO #####
-
-### CONTRABASS ###
 
 ### STRINGS ###
 
 segment_maker.append_commands(
     [vn, va, vc],
     baca.select_stages(1, 7),
-    pitch_specifier(source='C4'),
+    baca.pitches('C4'),
     )
 
 segment_maker.append_commands(
     cb,
     baca.select_stages(1, 7),
-    pitch_specifier(source='C3'),
+    baca.pitches('C3'),
     )
 
 segment_maker.append_commands(
     [vn, va, vc, cb],
     baca.select_stages(1, 7),
-    one_line_staff,
+    baca.one_line_staff(),
     )
 
 segment_maker.append_commands(
     [vn, va, vc, cb],
     baca.select_stages(1, 7),
-    alternate_bow_strokes,
+    baca.alternate_bow_strokes(),
     )
 
 segment_maker.append_commands(
     [vn, va],
     baca.select_stages(1, 7),
-    bow_on_wooden_mute,
+    baca.markup.bow_on_wooden_mute(),
     )
 
 segment_maker.append_commands(
     [vc, cb],
     baca.select_stages(1, 7),
-    bow_on_tailpiece,
+    baca.markup.bow_on_tailpiece(),
     )
 
 segment_maker.append_commands(
@@ -522,9 +506,5 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     [vn, va, vc, cb],
     baca.select_stages(4, 7),
-#    baca.tools.HairpinSpecifier(
-#        hairpin_token=['p > ppp'],
-#        span='contiguous notes and chords',
-#        ),
     baca.hairpins(['p > ppp']),
     )

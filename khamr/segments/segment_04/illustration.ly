@@ -263,68 +263,42 @@
             \tag winds.oboe
             \context OboeMusicStaff = "Oboe Music Staff" {
                 \context OboeMusicVoice = "Oboe Music Voice" {
-                    \once \override RepeatTie.direction = #up
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
+                    \override RepeatTie.direction = #up
                     b'2
-                    \once \override RepeatTie.direction = #up
                     b'2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'1. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'4.. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     r16
-                    \once \override RepeatTie.direction = #up
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     b'4
-                    \once \override RepeatTie.direction = #up
                     b'1 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'8. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     r16
-                    \once \override RepeatTie.direction = #up
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     b'4
-                    \once \override RepeatTie.direction = #up
                     b'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'2... \repeatTie
-                    \once \override RepeatTie.direction = #up
                     r16
-                    \once \override RepeatTie.direction = #up
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     b'2.
-                    \once \override RepeatTie.direction = #up
                     b'1 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'8. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     r16
-                    \once \override RepeatTie.direction = #up
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     b'2
-                    \once \override RepeatTie.direction = #up
                     b'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     b'8. \repeatTie
-                    \once \override RepeatTie.direction = #up
+                    \revert RepeatTie.direction
                     r16
                     \stopStaff
                     \startStaff
@@ -359,70 +333,43 @@
             \tag winds.saxophone
             \context SaxophoneMusicStaff = "Saxophone Music Staff" {
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
-                    \once \override RepeatTie.direction = #up
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
+                    \override RepeatTie.direction = #up
                     d''2
-                    \once \override RepeatTie.direction = #up
                     d''2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     d''1. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     d''2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     d''8. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     r16
-                    \once \override RepeatTie.direction = #up
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     d''2.
-                    \once \override RepeatTie.direction = #up
                     d''2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     d''1 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     d''2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     d''8. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     r16
-                    \once \override RepeatTie.direction = #up
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     d''2
-                    \once \override RepeatTie.direction = #up
                     d''1 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     d''2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     d''2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     d''8. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     r16
-                    \once \override RepeatTie.direction = #up
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     d''4
-                    \once \override RepeatTie.direction = #up
                     d''2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     d''2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     d''2. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     d''2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     d''2 \repeatTie
-                    \once \override RepeatTie.direction = #up
                     d''8. \repeatTie
-                    \once \override RepeatTie.direction = #up
                     r16
-                    \once \override RepeatTie.direction = #up
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     d''2
-                    \once \override RepeatTie.direction = #up
                     d''8. \repeatTie
-                    \once \override RepeatTie.direction = #up
+                    \revert RepeatTie.direction
                     r16
                     \stopStaff
                     \startStaff
@@ -528,9 +475,9 @@
                     \once \override Stem.color = #blue
                     c'2. :32 \fff
                         ^ \markup {
-                            \larger
+                            \whiteout
                                 \override
-                                    #'(box-padding . 0.75)
+                                    #'(box-padding . 0.5)
                                     \box
                                         "snare drum"
                             }
