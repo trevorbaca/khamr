@@ -163,13 +163,11 @@ segment_maker.append_commands(
 
 segment_maker.copy_specifier(
     (fl, 4),
-    #voice_name=ob,
     baca.tools.SimpleScope(ob, (4, 4)),
     )
 
 segment_maker.copy_specifier(
     (fl, 5),
-    #voice_name=ob,
     baca.tools.SimpleScope(ob, (5, 5)),
     )
 
@@ -206,13 +204,11 @@ segment_maker.append_commands(
 
 segment_maker.copy_specifier(
     (fl, 4),
-    #voice_name=cl,
     baca.tools.SimpleScope(cl, (4, 4)),
     )
 
 segment_maker.copy_specifier(
     (fl, 5),
-    #voice_name=cl,
     baca.tools.SimpleScope(cl, (5, 5)),
     )
 
@@ -248,13 +244,11 @@ segment_maker.append_commands(
 
 segment_maker.copy_specifier(
     (fl, 4),
-    #voice_name=sax,
     baca.tools.SimpleScope(sax, (4, 4)),
     )
 
 segment_maker.copy_specifier(
     (fl, 5),
-    #voice_name=sax,
     baca.tools.SimpleScope(sax, (5, 5)),
     )
 
@@ -299,13 +293,11 @@ segment_maker.append_commands(
 
 segment_maker.copy_specifier(
     (fl, 4),
-    #voice_name=gt,
     baca.tools.SimpleScope(gt, (4, 4)),
     )
 
 segment_maker.copy_specifier(
     (fl, 5),
-    #voice_name=gt,
     baca.tools.SimpleScope(gt, (5, 5)),
     )
 
@@ -330,7 +322,6 @@ segment_maker.append_commands(
 
 segment_maker.copy_specifier(
     (fl, 4),
-    #voice_name=pf,
     baca.tools.SimpleScope(pf, (4, 4)),
     rhythm_maker__tie_specifier=abjad.rhythmmakertools.TieSpecifier(
         strip_ties=True,
@@ -435,7 +426,7 @@ segment_maker.append_commands(
                 tie_across_divisions=True,
                 use_messiaen_style_ties=True,
                 ),
-            tuplet_ratios=string_tuplet_ratios_4,
+            tuplet_ratios=khamr.tools.make_string_tuplet_ratios(4),
             tuplet_spelling_specifier=string_tuplet_spelling_specifier,
             ),
         ),
@@ -443,13 +434,11 @@ segment_maker.append_commands(
 
 segment_maker.copy_specifier(
     (fl, 4),
-    #voice_name=vn,
     baca.tools.SimpleScope(vn, (4, 4)),
     )
 
 segment_maker.copy_specifier(
     (fl, 5),
-    #voice_name=vn,
     baca.tools.SimpleScope(vn, (5, 5)),
     )
 
@@ -469,7 +458,7 @@ segment_maker.append_commands(
                 tie_across_divisions=True,
                 use_messiaen_style_ties=True,
                 ),
-            tuplet_ratios=string_tuplet_ratios_3,
+            tuplet_ratios=khamr.tools.make_string_tuplet_ratios(3),
             tuplet_spelling_specifier=string_tuplet_spelling_specifier,
             ),
         ),
@@ -477,13 +466,11 @@ segment_maker.append_commands(
 
 segment_maker.copy_specifier(
     (vn, 4),
-    #voice_name=va,
     baca.tools.SimpleScope(va, (4, 4)),
     )
 
 segment_maker.copy_specifier(
     (vn, 5),
-    #voice_name=va,
     baca.tools.SimpleScope(va, (5, 5)),
     )
 
@@ -503,7 +490,7 @@ segment_maker.append_commands(
                 tie_across_divisions=True,
                 use_messiaen_style_ties=True,
                 ),
-            tuplet_ratios=string_tuplet_ratios_2,
+            tuplet_ratios=khamr.tools.make_string_tuplet_ratios(2),
             tuplet_spelling_specifier=string_tuplet_spelling_specifier,
             ),
         ),
@@ -528,13 +515,11 @@ segment_maker.append_commands(
 
 segment_maker.copy_specifier(
     (fl, 4),
-    #voice_name=vc,
     baca.tools.SimpleScope(vc, (4, 4)),
     )
 
 segment_maker.copy_specifier(
     (fl, 5),
-    #voice_name=vc,
     baca.tools.SimpleScope(vc, (5, 5)),
     )
 
@@ -570,13 +555,11 @@ segment_maker.append_commands(
 
 segment_maker.copy_specifier(
     (fl, 4),
-    #voice_name=cb,
     baca.tools.SimpleScope(cb, (4, 4)),
     )
 
 segment_maker.copy_specifier(
     (fl, 5),
-    #voice_name=cb,
     baca.tools.SimpleScope(cb, (5, 5)),
     )
 
@@ -589,11 +572,9 @@ segment_maker.copy_specifier(
 segment_maker.append_commands(
     fl,
     baca.select_stages(1, 2),
-    pitch_specifier(
-        source='Bb4',
-        ),
+    baca.pitches('Bb4'),
+    baca.hairpins(['mp > pp', 'pp < mp']),
     baca.pervasive_trills(),
-    bass_flute_tremoli_hairpins,
     )
 
 segment_maker.append_commands(
@@ -603,8 +584,8 @@ segment_maker.append_commands(
     pitch_specifier(
         source='B5',
         ),
-    stem_tremolo,
-    fluttertongue,
+    baca.stem_tremolo(),
+    baca.markup.fluttertongue(),
     baca.instrument(khamr.materials.instruments['flute']),
     )
 
@@ -681,7 +662,7 @@ segment_maker.append_commands(
         source=khamr.materials.rose_pitch_classes,
         start_index=16,
         ),
-    cross_note_heads,
+    baca.cross_note_heads(),
     )
 
 segment_maker.append_commands(
@@ -705,7 +686,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     pf,
     baca.select_stages(1, 3),
-    one_line_staff,
+    baca.one_line_staff(),
     # dummy centerline pitch
     pitch_specifier(source='C4'),
     repeat_ties_up,
@@ -732,7 +713,7 @@ segment_maker.append_commands(
             )],
         ),
     baca.ottava_bassa(),
-    stem_tremolo,
+    baca.stem_tremolo(),
     )
 
 segment_maker.append_commands(
