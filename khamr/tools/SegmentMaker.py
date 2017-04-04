@@ -718,7 +718,7 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         return measures
 
     def _make_lilypond_file(self):
-        lilypond_file = lilypondfiletools.make_basic_lilypond_file(self._score)
+        lilypond_file = abjad.LilyPondFile.new(self._score)
         for item in lilypond_file.items[:]:
             if getattr(item, 'name', None) in ('header', 'layout', 'paper'):
                 lilypond_file.items.remove(item)
