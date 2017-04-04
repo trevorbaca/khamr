@@ -220,7 +220,7 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         context = self._score['Time Signature Context']
         prototype = (
             abjad.Fermata,
-            abjad.indicatortools.BreathMark,
+            abjad.BreathMark,
             )
         for stage_number, directive in self.tempo_specifier:
             if not isinstance(directive, prototype):
@@ -291,7 +291,7 @@ class SegmentMaker(experimental.tools.makertools.SegmentMaker):
         letter_number = segment_number - 1
         if letter_number == 0:
             return
-        rehearsal_mark = abjad.indicatortools.RehearsalMark(
+        rehearsal_mark = abjad.RehearsalMark(
             number=letter_number)
         voice = self._score['Time Signature Context']
         first_leaf = abjad.inspect_(voice).get_leaf(0)
