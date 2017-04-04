@@ -167,7 +167,7 @@ class ScoreTemplate(baca.tools.ScoreTemplate):
             )
         tag_string = '.'.join(instrument_tags)
         tag_string = 'tag {}'.format(tag_string)
-        tag_command = abjad.indicatortools.LilyPondCommand(
+        tag_command = abjad.LilyPondCommand(
             tag_string, 'before')
         abjad.attach(tag_command, time_signature_context)
 
@@ -368,6 +368,6 @@ class ScoreTemplate(baca.tools.ScoreTemplate):
     def _attach_tag(self, instrument_tag, context):
         assert isinstance(instrument_tag, str), repr(str)
         tag_string = 'tag {}'.format(instrument_tag)
-        tag_command = abjad.indicatortools.LilyPondCommand(
+        tag_command = abjad.LilyPondCommand(
             tag_string, 'before')
         abjad.attach(tag_command, context)

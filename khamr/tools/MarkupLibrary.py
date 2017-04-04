@@ -3,8 +3,8 @@ import abjad
 import baca
 
 
-class MarkupAgent(abjad.abctools.AbjadObject):
-    r'''Markup agent.
+class MarkupLibrary(abjad.abctools.AbjadObject):
+    r'''Markup library.
     '''
 
     ### CLASS VARIABLES ###
