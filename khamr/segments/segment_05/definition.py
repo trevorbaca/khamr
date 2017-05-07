@@ -22,7 +22,7 @@ cb = 'Contrabass Music Voice'
 ##################################### [5] #####################################
 ###############################################################################
 
-segment_maker = baca.tools.SegmentMaker(
+segment_maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     label_stages=True,
     measures_per_stage=[
@@ -56,7 +56,7 @@ segment_maker.validate_measures_per_stage()
 segment_maker.append_commands(
     fl,
     baca.select_stages(1, 5),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_maker=khamr.tools.make_beat_division_maker()
             .flatten()
             .fuse_by_counts(
@@ -75,7 +75,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     fl,
     baca.select_stages(6, 6),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_maker=khamr.tools.make_beat_division_maker(),
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
         ),
@@ -92,8 +92,8 @@ segment_maker.append_commands(
     ob,
     baca.select_stages(1, 5),
     baca.instrument(khamr.materials.instruments['English horn']),
-    baca.tools.RhythmSpecifier(
-        division_maker=baca.tools.DivisionMaker()
+    baca.RhythmSpecifier(
+        division_maker=baca.DivisionMaker()
             .fuse_by_counts(
                 counts=abjad.Infinity,
                 )
@@ -122,7 +122,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     ob,
     baca.select_stages(6, 6),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_maker=khamr.tools.make_beat_division_maker(),
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
         ),
@@ -140,8 +140,8 @@ segment_maker.append_commands(
     cl,
     baca.select_stages(1, 5),
     baca.instrument(khamr.materials.instruments['bass clarinet']),
-    baca.tools.RhythmSpecifier(
-        division_maker=baca.tools.DivisionMaker()
+    baca.RhythmSpecifier(
+        division_maker=baca.DivisionMaker()
             .fuse_by_counts(
                 counts=abjad.Infinity,
                 )
@@ -170,7 +170,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cl,
     baca.select_stages(6, 6),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_maker=khamr.tools.make_beat_division_maker(),
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
         ),
@@ -187,8 +187,8 @@ segment_maker.copy_specifier(
 segment_maker.append_commands(
     sax,
     baca.select_stages(1, 5),
-    baca.tools.RhythmSpecifier(
-        division_maker=baca.tools.DivisionMaker()
+    baca.RhythmSpecifier(
+        division_maker=baca.DivisionMaker()
             .fuse_by_counts(
                 counts=abjad.Infinity,
                 )
@@ -217,7 +217,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     sax,
     baca.select_stages(6, 6),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_maker=khamr.tools.make_beat_division_maker(),
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
         ),
@@ -235,7 +235,7 @@ segment_maker.append_commands(
     gt,
     baca.select_stages(1, 5),
     baca.clef('percussion'),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
@@ -248,7 +248,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     gt,
     baca.select_stages(6, 6),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_maker=khamr.tools.make_beat_division_maker(),
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
         ),
@@ -268,7 +268,7 @@ segment_maker.append_commands(
     pf,
     baca.select_stages(1, 9),
     baca.instrument(piano),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_maker=khamr.tools.make_beat_division_maker()
             .flatten()
             .fuse_by_counts(
@@ -290,7 +290,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     perc,
     baca.select_stages(1, 9),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_maker=khamr.tools.make_beat_division_maker()
             .flatten()
             .fuse_by_counts(
@@ -311,7 +311,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn,
     baca.select_stages(1, 5),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_maker=khamr.tools.make_quarter_division_maker(),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
@@ -330,7 +330,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn,
     baca.select_stages(6, 6),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=abjad.silence_last(),
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
@@ -353,7 +353,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(1, 5),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_maker=khamr.tools.make_quarter_division_maker(),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
@@ -371,12 +371,12 @@ segment_maker.append_commands(
 
 segment_maker.copy_specifier(
     (vn, 6),
-    baca.tools.SimpleScope(va, (6, 6)),
+    baca.SimpleScope(va, (6, 6)),
     )
 
 segment_maker.copy_specifier(
     (vn, 7),
-    baca.tools.SimpleScope(va, (7, 7)),
+    baca.SimpleScope(va, (7, 7)),
     )
 
 ### CELLO ###
@@ -384,7 +384,7 @@ segment_maker.copy_specifier(
 segment_maker.append_commands(
     vc,
     baca.select_stages(1, 9),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_maker=khamr.tools.make_beat_division_maker()
             .flatten()
             .fuse_by_counts(
@@ -405,7 +405,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cb,
     baca.select_stages(1, 5),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_maker=khamr.tools.make_beat_division_maker()
             .flatten()
             .fuse_by_counts(
@@ -423,7 +423,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cb,
     baca.select_stages(6, 6),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_maker=khamr.tools.make_beat_division_maker(),
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
         ),

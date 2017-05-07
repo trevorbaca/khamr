@@ -22,7 +22,7 @@ cb = 'Contrabass Music Voice'
 ################################ SEGMENT-MAKER ################################
 ###############################################################################
 
-segment_maker = baca.tools.SegmentMaker(
+segment_maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     label_stages=False,
     measures_per_stage=[
@@ -63,7 +63,7 @@ segment_maker.append_commands(
     fl,
     baca.select_stages(1, 7),
     baca.instrument(khamr.materials.instruments['bass flute']),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_maker=khamr.tools.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[10, 10, 6, 10, 8, 6],
@@ -94,7 +94,7 @@ segment_maker.append_commands(
     ob,
     baca.select_stages(1, 7),
     baca.instrument(khamr.materials.instruments['English horn']),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_maker=khamr.tools.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[12, 6, 10, 10, 6, 8],
@@ -125,7 +125,7 @@ segment_maker.append_commands(
     cl,
     baca.select_stages(1, 7),
     baca.instrument(khamr.materials.instruments['bass clarinet']),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_maker=khamr.tools.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[8, 6, 10, 6, 10, 8],
@@ -156,7 +156,7 @@ segment_maker.append_commands(
     sax,
     baca.select_stages(1, 7),
     baca.instrument(khamr.materials.instruments['baritone saxophone']),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_maker=khamr.tools.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[14, 6, 10, 6, 10, 8],
@@ -186,8 +186,8 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     gt,
     baca.select_stages(1, 3),
-    baca.tools.RhythmSpecifier(
-        division_maker=baca.tools.DivisionMaker()
+    baca.RhythmSpecifier(
+        division_maker=baca.DivisionMaker()
             .split_by_durations(
                 durations=[(1, 4)],
                 ),
@@ -209,8 +209,8 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     gt,
     baca.select_stages(4, 6),
-    baca.tools.RhythmSpecifier(
-        division_maker=baca.tools.DivisionMaker()
+    baca.RhythmSpecifier(
+        division_maker=baca.DivisionMaker()
             .fuse_by_counts(
                 counts=[2, 1],
                 )
@@ -257,7 +257,7 @@ segment_maker.append_commands(
     pf,
     baca.select_stages(1, 3),
     #baca.instrument(khamr.materials.instruments['piano']),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_maker=khamr.tools.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[20, 8, 20, 4],
@@ -275,8 +275,8 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     pf,
     baca.select_stages(4, 5),
-    baca.tools.RhythmSpecifier(
-        division_maker=baca.tools.DivisionMaker()
+    baca.RhythmSpecifier(
+        division_maker=baca.DivisionMaker()
             .fuse_by_counts(
                 counts=[3, 2],
                 )
@@ -312,8 +312,8 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     pf,
     baca.select_stages(6, 6),
-    baca.tools.RhythmSpecifier(
-        division_maker=baca.tools.DivisionMaker()
+    baca.RhythmSpecifier(
+        division_maker=baca.DivisionMaker()
             .split_by_durations(
                 durations=[(1, 4)],
                 ),
@@ -333,7 +333,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     pf,
     baca.select_stages(7, 7),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
@@ -348,7 +348,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     perc,
     baca.select_stages(1, 7),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_maker=khamr.tools.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[20, 8, 20, 4],
@@ -368,7 +368,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn,
     baca.select_stages(1, 5),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
@@ -395,7 +395,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vn,
     baca.select_stages(6, 7),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_maker=khamr.tools.make_quarter_division_maker(),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
@@ -414,7 +414,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(1, 5),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
@@ -441,7 +441,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     va,
     baca.select_stages(6, 7),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_maker=khamr.tools.make_quarter_division_maker(),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
@@ -460,7 +460,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(1, 5),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
@@ -487,7 +487,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     vc,
     baca.select_stages(6, 7),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         division_maker=khamr.tools.make_quarter_division_maker(),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
@@ -506,7 +506,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     cb,
     baca.select_stages(1, 7),
-    baca.tools.RhythmSpecifier(
+    baca.RhythmSpecifier(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[

@@ -19,7 +19,7 @@ class RhythmMaker(abjad.abctools.AbjadObject):
             >>> music_maker = khamr.tools.RhythmMaker(
             ...     voice_name='Cello Music Voice',
             ...     stages=(1, 4),
-            ...     division_maker=baca.tools.FuseByCountsDivisionCallback(
+            ...     division_maker=baca.FuseByCountsDivisionCallback(
             ...         counts=[2, 3, 1],
             ...         ),
             ...     )
@@ -30,7 +30,7 @@ class RhythmMaker(abjad.abctools.AbjadObject):
             >>> f(music_maker)
             khamr.tools.RhythmMaker(
                 voice_name='Cello Music Voice',
-                division_maker=baca.tools.FuseByCountsDivisionCallback(
+                division_maker=baca.FuseByCountsDivisionCallback(
                     counts=[2, 3, 1],
                     ),
                 rewrite_meter=False,
@@ -94,7 +94,7 @@ class RhythmMaker(abjad.abctools.AbjadObject):
         self.voice_name = voice_name
         if (not 'Maker' in division_maker.__class__.__name__ and
             not 'DivisionCallback' in division_maker.__class__.__name__):
-            division_maker = baca.tools.SplitByDurationsDivisionCallback(
+            division_maker = baca.SplitByDurationsDivisionCallback(
                 durations=division_maker,
                 )
         self.division_maker = division_maker
