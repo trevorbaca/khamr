@@ -54,7 +54,7 @@ class MarimbaHitSpecifier(abjad.abctools.AbjadObject):
         for logical_tie_index, logical_tie in enumerate(logical_ties):
             if not logical_tie_index in self.indices:
                 continue
-            five_line_spanner = abjad.spannertools.StaffLinesSpanner(lines=5)
+            five_line_spanner = abjad.StaffLinesSpanner(lines=5)
             attach(five_line_spanner, logical_tie)
             if self.attach_first_markup and not found_first:
                 string = 'marimba + woodblock'
