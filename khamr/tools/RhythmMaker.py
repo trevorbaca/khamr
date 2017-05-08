@@ -181,7 +181,7 @@ class RhythmMaker(abjad.abctools.AbjadObject):
     def _attach_untuned_percussion_markup(self, leaf):
         name = self.instrument.instrument_name
         name = name.lower()
-        markup = markuptools.Markup(name, direction=Up)
+        markup = markup.Markup(name, direction=Up)
         markup = markup.box().override(('box-padding', 0.5))
         attach(markup, leaf)
 
