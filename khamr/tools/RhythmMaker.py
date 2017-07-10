@@ -228,8 +228,8 @@ class RhythmMaker(abjad.abctools.AbjadObject):
                 )
         if not self.rhythm_overwrites:
             return selections
-        dummy_measures = abjad.scoretools.make_spacer_skip_measures(
-            time_signatures)
+        maker = abjad.MeasureMaker()
+        dummy_measures = maker(time_signatures)
         dummy_time_signature_voice = abjad.Voice(dummy_measures)
         dummy_music_voice = abjad.Voice()
         dummy_music_voice.extend(selections)
