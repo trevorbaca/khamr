@@ -229,7 +229,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         self._attach_tag('piano', piano_music_staff)
         #abjad.attach(abjad.Clef('treble'), piano_music_staff)
         #piano = abjad.instrumenttools.Piano()
-        piano._default_scope = 'PianoMusicStaff'
+        #piano._default_scope = 'PianoMusicStaff'
         #abjad.attach(piano, piano_music_staff)
         percussion_music_voice = abjad.Voice(
             [],
