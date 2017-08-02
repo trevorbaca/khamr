@@ -1,4 +1,4 @@
-\version "2.19.59"
+\version "2.19.64"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -3086,12 +3086,12 @@
             \context PercussionMusicStaff = "Percussion Staff" {
                 \context PercussionMusicVoice = "Percussion Music Voice" {
                     s1 * 13/4
+                    \clef "percussion"
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
-                    \clef "percussion"
                     c'1 :32 \pp
                         ^ \markup {
                             \whiteout

@@ -1,4 +1,4 @@
-\version "2.19.59"
+\version "2.19.64"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -2037,12 +2037,12 @@
             \tag guitar
             \context GuitarMusicStaff = "Guitar Music Staff" {
                 \context GuitarMusicVoice = "Guitar Music Voice" {
+                    \clef "percussion"
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
-                    \clef "percussion"
                     c'2 :32 \ff
                         ^ \markup {
                             \whiteout
@@ -3440,12 +3440,12 @@
                     \once \override Stem.color = #blue
                     c'1. \repeatTie
                     r1
+                    \clef "percussion"
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
-                    \clef "percussion"
                     c'2. :32 \fff
                         ^ \markup {
                             \whiteout

@@ -1,8 +1,8 @@
 #(set-default-paper-size "11x17" 'portrait)
 #(set-global-staff-size 11)
 
+\include "/Users/trevorbaca/baca/baca/stylesheets/scheme.ily"
 \include "default-instrument-names.ily"
-\include "scheme.ily"
 
 \paper {
     %bottom-margin = 10\mm

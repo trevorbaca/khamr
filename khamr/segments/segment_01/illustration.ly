@@ -1,4 +1,4 @@
-\version "2.19.59"
+\version "2.19.64"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -425,7 +425,6 @@
         \context WindSectionStaffGroup = "Wind Section Staff Group" <<
             \tag winds.flute
             \context FluteMusicStaff = "Flute Music Staff" {
-                \clef "treble"
                 \context FluteMusicVoice = "Flute Music Voice" {
                     <g' g''>2
                         ^ \markup {
@@ -521,7 +520,6 @@
             }
             \tag winds.oboe
             \context OboeMusicStaff = "Oboe Music Staff" {
-                \clef "treble"
                 \context OboeMusicVoice = "Oboe Music Voice" {
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
@@ -622,7 +620,6 @@
             }
             \tag winds.clarinet
             \context ClarinetMusicStaff = "Clarinet Music Staff" {
-                \clef "treble"
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
@@ -725,7 +722,6 @@
             }
             \tag winds.saxophone
             \context SaxophoneMusicStaff = "Saxophone Music Staff" {
-                \clef "treble"
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
                     \set Staff.instrumentName = \markup {
                         \hcenter-in
@@ -829,7 +825,6 @@
         \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
             \tag guitar
             \context GuitarMusicStaff = "Guitar Music Staff" {
-                \clef "treble"
                 \context GuitarMusicVoice = "Guitar Music Voice" {
                     \override NoteHead.style = #'cross
                     cs4 \f - \markup { "cross noteheads indicate half-harmonics" }
@@ -1396,10 +1391,10 @@
             \tag piano
             \context PianoMusicStaff = "Piano Music Staff" {
                 \context PianoMusicVoice = "Piano Music Voice" {
+                    \clef "percussion"
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
-                    \clef "percussion"
                     \override RepeatTie.direction = #up
                     c'2 -\accent \mf - \markup { "tamburo: strike lowest strings with palm inside piano and let vibrate (pedal down throughout)" }
                     c'2 \repeatTie
@@ -1432,9 +1427,9 @@
                     c'4 \repeatTie
                     c'2 -\accent
                     c'1 \repeatTie
+                    \revert RepeatTie.direction
                     \stopStaff
                     \startStaff
-                    \revert RepeatTie.direction
                     \override TupletNumber.text = \markup {
                         \scale
                             #'(0.75 . 0.75)
@@ -1467,9 +1462,9 @@
                                 }
                         }
                     \times 1/1 {
-                        \once \override Beam.grow-direction = #right
-                        \ottava #1
                         \clef "treble"
+                        \ottava #1
+                        \once \override Beam.grow-direction = #right
                         cs''''16 * 247/32 \mf [ - \markup { "match dynamic levels of guitar" }
                         c''''16 * 459/64
                         a'''16 * 187/32
@@ -1679,10 +1674,10 @@
                     }
                     r4
                     r2
+                    \clef "percussion"
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
-                    \clef "percussion"
                     \override RepeatTie.direction = #up
                     c'1 \mp
                         ^ \markup {
@@ -1719,14 +1714,13 @@
                     c'1 \repeatTie
                     c'1. \repeatTie
                     \bar "|"
+                    \revert RepeatTie.direction
                     \stopStaff
                     \startStaff
-                    \revert RepeatTie.direction
                 }
             }
             \tag percussion
             \context PercussionMusicStaff = "Percussion Staff" {
-                \clef "percussion"
                 \context PercussionMusicVoice = "Percussion Music Voice" {
                     \override Stem.direction = #down
                     c'2 -\accent \mp
@@ -1798,7 +1792,6 @@
         \context StringSectionStaffGroup = "String Section Staff Group" <<
             \tag strings.violin
             \context ViolinMusicStaff = "Violin Music Staff" {
-                \clef "treble"
                 \context ViolinMusicVoice = "Violin Music Voice" {
                     \override NoteHead.style = #'harmonic
                     g'2 \> \pp
@@ -2033,7 +2026,6 @@
             }
             \tag strings.viola
             \context ViolaMusicStaff = "Viola Music Staff" {
-                \clef "alto"
                 \context ViolaMusicVoice = "Viola Music Voice" {
                     {
                         \override NoteHead.style = #'harmonic
@@ -2262,7 +2254,6 @@
             }
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
-                \clef "bass"
                 \context CelloMusicVoice = "Cello Music Voice" {
                     \override NoteHead.style = #'harmonic
                     g2 \> \pp
@@ -2487,7 +2478,6 @@
             }
             \tag strings.contrabass
             \context ContrabassMusicStaff = "Contrabass Music Staff" {
-                \clef "bass"
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
                     \override NoteHead.style = #'harmonic
                     a,2 \f

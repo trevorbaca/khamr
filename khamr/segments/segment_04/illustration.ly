@@ -1,4 +1,4 @@
-\version "2.19.59"
+\version "2.19.64"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -534,10 +534,10 @@
             \tag strings.violin
             \context ViolinMusicStaff = "Violin Music Staff" {
                 \context ViolinMusicVoice = "Violin Music Voice" {
+                    \clef "percussion"
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
-                    \clef "percussion"
                     c'2 -\downbow \p
                         ^ \markup {
                             \whiteout
@@ -574,10 +574,10 @@
             \tag strings.viola
             \context ViolaMusicStaff = "Viola Music Staff" {
                 \context ViolaMusicVoice = "Viola Music Voice" {
+                    \clef "percussion"
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
-                    \clef "percussion"
                     c'2 -\downbow \p
                         ^ \markup {
                             \whiteout
@@ -614,10 +614,10 @@
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
                 \context CelloMusicVoice = "Cello Music Voice" {
+                    \clef "percussion"
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
-                    \clef "percussion"
                     c'2 -\downbow \p
                         ^ \markup {
                             \whiteout
@@ -656,10 +656,10 @@
             \tag strings.contrabass
             \context ContrabassMusicStaff = "Contrabass Music Staff" {
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
+                    \clef "percussion"
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
-                    \clef "percussion"
                     c2 -\downbow \p
                         ^ \markup {
                             \whiteout
