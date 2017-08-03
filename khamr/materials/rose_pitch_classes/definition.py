@@ -8,7 +8,7 @@ rose_pitch_classes = baca.helianthate(
     -1,
     1,
     )
-rose_pitch_classes = baca.Sequence(rose_pitch_classes).flatten()
+rose_pitch_classes = baca.sequence(rose_pitch_classes).flatten()
 assert len(rose_pitch_classes) == 64
 
 rose_pitch_classes = [abjad.NamedPitch(_) for _ in rose_pitch_classes]

@@ -207,7 +207,7 @@ class RhythmMaker(abjad.AbjadObject):
     def _make_rhythm(self, time_signatures):
         division_maker = self._get_division_maker()
         divisions = division_maker(time_signatures)
-        divisions = baca.Sequence(divisions).flatten()
+        divisions = baca.sequence(divisions).flatten()
         rhythm_maker = self._get_rhythm_maker()
         selections = rhythm_maker(divisions)
         if self.split_at_measure_boundaries:
