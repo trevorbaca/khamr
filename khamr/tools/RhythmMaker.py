@@ -121,7 +121,7 @@ class RhythmMaker(abjad.AbjadObject):
         music = self._make_rhythm(time_signatures)
         assert isinstance(music, (tuple, list, abjad.Voice)), repr(music)
         first_item = music[0]
-        if isinstance(first_item, selectiontools.Selection):
+        if isinstance(first_item, abjad.Selection):
             first_component = first_item[0]
         else:
             first_component = first_item
@@ -238,11 +238,10 @@ class RhythmMaker(abjad.AbjadObject):
         for rhythm_overwrite in self.rhythm_overwrites:
             selector, division_maker, rhythm_maker = rhythm_overwrite
             old_music_selection = selector(dummy_music_voice)
-            prototype = selectiontools.ContiguousSelection
+            prototype = abjad.ContiguousSelection
             #if 1 < len(old_music_selection):
             if True:
-                old_music_selection = selectiontools.SliceSelection(
-                    old_music_selection)
+                old_music_selection = abjad.SliceSelection(old_music_selection)
                 result = old_music_selection._get_parent_and_start_stop_indices()
                 parent, start_index, stop_index = result
                 old_duration = old_music_selection.get_duration()
@@ -253,7 +252,7 @@ class RhythmMaker(abjad.AbjadObject):
                 dummy_music_voice[start_index:stop_index+1] = \
                     new_music_selection
             #elif len(old_music_selection) == 1:
-            #    prototype = selectiontools.Selection
+            #    prototype = abjad.Selection
             #    assert isinstance(old_music_selection[0], prototype)
             #    old_music_selection = old_music_selection[0]
             #    old_duration = old_music_selection.get_duration()
