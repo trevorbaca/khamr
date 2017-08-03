@@ -233,7 +233,7 @@ class RhythmMaker(abjad.AbjadObject):
         dummy_time_signature_voice = abjad.Voice(dummy_measures)
         dummy_music_voice = abjad.Voice()
         dummy_music_voice.extend(selections)
-        dummy_staff = Staff([dummy_time_signature_voice, dummy_music_voice])
+        dummy_staff = abjad.Staff([dummy_time_signature_voice, dummy_music_voice])
         dummy_staff.is_simultaneous = True
         for rhythm_overwrite in self.rhythm_overwrites:
             selector, division_maker, rhythm_maker = rhythm_overwrite
