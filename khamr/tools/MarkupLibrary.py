@@ -3,7 +3,7 @@ import abjad
 import baca
 
 
-class MarkupLibrary(abjad.abctools.AbjadObject):
+class MarkupLibrary(abjad.AbjadObject):
     r'''Markup library.
     '''
 

@@ -3,7 +3,7 @@ import abjad
 import baca
 
 
-class RhythmMaker(abjad.abctools.AbjadObject):
+class RhythmMaker(abjad.AbjadObject):
     r'''Rhythm-maker.
 
     ::
@@ -61,11 +61,11 @@ class RhythmMaker(abjad.abctools.AbjadObject):
         )
 
     _khamr_meters = [
-        abjad.metertools.Meter(
+        abjad.Meter(
             '(6/4 ((3/8 (1/8 1/8 1/8)) (3/8 (1/8 1/8 1/8)) (3/8 (1/8 1/8 1/8)) (3/8 (1/8 1/8 1/8))))',
             preferred_boundary_depth=1,
             ),
-        abjad.metertools.Meter(
+        abjad.Meter(
             (6, 8),
             preferred_boundary_depth=1,
             )
@@ -155,7 +155,7 @@ class RhythmMaker(abjad.abctools.AbjadObject):
 
     @property
     def _storage_format_specification(self):
-        manager = abjad.systemtools.StorageFormatManager
+        manager = abjad.StorageFormatManager
         keyword_argument_names = \
             manager.get_signature_keyword_argument_names(self)
         if not self.rhythm_overwrites:

@@ -3,7 +3,7 @@ import abjad
 import itertools
 
 
-class MarimbaHitSpecifier(abjad.abctools.AbjadObject):
+class MarimbaHitSpecifier(abjad.AbjadObject):
     r'''Marimba hit specifier.
 
     ::
