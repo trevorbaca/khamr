@@ -40,24 +40,6 @@ metadata = abjad.TypedOrderedDict(
                     ]
                 ),
             ),
-        (
-            'end_instruments_by_staff',
-            abjad.TypedOrderedDict(
-                [
-                    ('Cello Music Staff', 'cello'),
-                    ('Clarinet Music Staff', 'bass clarinet'),
-                    ('Contrabass Music Staff', 'contrabass'),
-                    ('Flute Music Staff', 'bass flute'),
-                    ('Guitar Music Staff', 'guitar'),
-                    ('Oboe Music Staff', 'English horn'),
-                    ('Percussion Staff', 'percussion'),
-                    ('Piano Music Staff', 'piano'),
-                    ('Saxophone Music Staff', 'baritone saxophone'),
-                    ('Viola Music Staff', 'viola'),
-                    ('Violin Music Staff', 'violin'),
-                    ]
-                ),
-            ),
         ('end_tempo', 84),
         ('end_tempo_indication', 126),
         ('end_time_signature', '6/4'),
