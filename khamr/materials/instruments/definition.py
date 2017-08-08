@@ -1,29 +1,11 @@
 # -*- coding: utf-8 -*-
 import abjad
+import baca
 
-
-long_space = 16
-short_space = 10
-
-def make_markup(string, space):
-    string_parts = string.split()
-    if len(string_parts) == 1:
-        markup = abjad.Markup(string_parts[0]).hcenter_in(space)
-    else:
-        markups = [abjad.Markup(_) for _ in string_parts]
-        markup = abjad.Markup.center_column(markups, direction=None)
-        markup = markup.hcenter_in(space)
-    return markup
-
-def make_long_markup(string):
-    return make_markup(string, long_space)
-
-def make_short_markup(string):
-    return make_markup(string, short_space)
 
 piano = abjad.instrumenttools.Piano(
-    instrument_name_markup=make_long_markup('Piano'),
-    short_instrument_name_markup=make_short_markup('Pf.'),
+    instrument_name_markup=baca.markup.instrument_name('Piano'),
+    short_instrument_name_markup=short_instrument_name('Pf.'),
     )
 piano._default_scope = 'PianoMusicStaff'
 
@@ -31,78 +13,80 @@ instruments = abjad.TypedOrderedDict([
     (
         'baritone saxophone', 
         abjad.instrumenttools.BaritoneSaxophone(
-            instrument_name_markup=make_long_markup('Baritone saxophone'),
-            short_instrument_name_markup=make_short_markup('Bar. sax.'),
+            instrument_name_markup=\
+                baca.markup.instrument_name('Baritone saxophone'),
+            short_instrument_name_markup=short_instrument_name('Bar. sax.'),
             )
         ),
     (
         'bass clarinet', 
         abjad.instrumenttools.BassClarinet(
-            instrument_name_markup=make_long_markup('Bass clarinet'),
-            short_instrument_name_markup=make_short_markup('Bass cl.'),
+            instrument_name_markup=\
+                baca.markup.instrument_name('Bass clarinet'),
+            short_instrument_name_markup=short_instrument_name('Bass cl.'),
             )
         ),
     (
         'bass flute', 
         abjad.instrumenttools.BassFlute(
-            instrument_name_markup=make_long_markup('Bass flute'),
-            short_instrument_name_markup=make_short_markup('Bass fl.'),
+            instrument_name_markup=baca.markup.instrument_name('Bass flute'),
+            short_instrument_name_markup=short_instrument_name('Bass fl.'),
             )
         ),
     (
         'cello', 
         abjad.instrumenttools.Cello(
-            instrument_name_markup=make_long_markup('Cello'),
-            short_instrument_name_markup=make_short_markup('Vc.'),
+            instrument_name_markup=baca.markup.instrument_name('Cello'),
+            short_instrument_name_markup=short_instrument_name('Vc.'),
             )
         ),
     (
         'clarinet in B-flat', 
         abjad.instrumenttools.ClarinetInBFlat(
-            instrument_name_markup=make_long_markup('Clarinet'),
-            short_instrument_name_markup=make_short_markup('Cl.'),
+            instrument_name_markup=baca.markup.instrument_name('Clarinet'),
+            short_instrument_name_markup=short_instrument_name('Cl.'),
             )
         ),
     (
         'contrabass', 
         abjad.instrumenttools.Contrabass(
-            instrument_name_markup=make_long_markup('Contrabass'),
-            short_instrument_name_markup=make_short_markup('Cb.'),
+            instrument_name_markup=baca.markup.instrument_name('Contrabass'),
+            short_instrument_name_markup=short_instrument_name('Cb.'),
             )
         ),
     (
         'English horn', 
         abjad.instrumenttools.EnglishHorn(
-            instrument_name_markup=make_long_markup('English horn'),
-            short_instrument_name_markup=make_short_markup('Eng. hn.'),
+            instrument_name_markup=baca.markup.instrument_name('English horn'),
+            short_instrument_name_markup=short_instrument_name('Eng. hn.'),
             )
         ),
     (
         'flute', 
         abjad.instrumenttools.Flute(
-            instrument_name_markup=make_long_markup('Flute'),
-            short_instrument_name_markup=make_short_markup('Fl.'),
+            instrument_name_markup=baca.markup.instrument_name('Flute'),
+            short_instrument_name_markup=short_instrument_name('Fl.'),
             )
         ),
     (
         'guitar', 
         abjad.instrumenttools.Guitar(
-            instrument_name_markup=make_long_markup('Guitar'),
-            short_instrument_name_markup=make_short_markup('Gt.'),
+            instrument_name_markup=baca.markup.instrument_name('Guitar'),
+            short_instrument_name_markup=short_instrument_name('Gt.'),
             )
         ),
     (
         'oboe', 
         abjad.instrumenttools.Oboe(
-            instrument_name_markup=make_long_markup('Oboe'),
-            short_instrument_name_markup=make_short_markup('Ob.'),
+            instrument_name_markup=baca.markup.instrument_name('Oboe'),
+            short_instrument_name_markup=short_instrument_name('Ob.'),
             )
         ),
     (
         'percussion', 
         abjad.instrumenttools.Percussion(
-            instrument_name_markup=make_long_markup('Percussion'),
-            short_instrument_name_markup=make_short_markup('Perc.'),
+            instrument_name_markup=baca.markup.instrument_name('Percussion'),
+            short_instrument_name_markup=short_instrument_name('Perc.'),
             )
         ),
     (
@@ -112,29 +96,30 @@ instruments = abjad.TypedOrderedDict([
     (
         'piccolo', 
         abjad.instrumenttools.Piccolo(
-            instrument_name_markup=make_long_markup('Piccolo'),
-            short_instrument_name_markup=make_short_markup('Picc.'),
+            instrument_name_markup=baca.markup.instrument_name('Piccolo'),
+            short_instrument_name_markup=short_instrument_name('Picc.'),
             )
         ),
     (
         'sopranino saxophone', 
         abjad.instrumenttools.SopraninoSaxophone(
-            instrument_name_markup=make_long_markup('Sopranino saxophone'),
-            short_instrument_name_markup=make_short_markup('Sopr. sax.'),
+            instrument_name_markup=\
+                baca.markup.instrument_name('Sopranino saxophone'),
+            short_instrument_name_markup=short_instrument_name('Sopr. sax.'),
             )
         ),
     (
         'viola', 
         abjad.instrumenttools.Viola(
-            instrument_name_markup=make_long_markup('Viola'),
-            short_instrument_name_markup=make_short_markup('Va.'),
+            instrument_name_markup=baca.markup.instrument_name('Viola'),
+            short_instrument_name_markup=short_instrument_name('Va.'),
             )
         ),
     (
         'violin', 
         abjad.instrumenttools.Violin(
-            instrument_name_markup=make_long_markup('Violin'),
-            short_instrument_name_markup=make_short_markup('Vn.'),
+            instrument_name_markup=baca.markup.instrument_name('Violin'),
+            short_instrument_name_markup=short_instrument_name('Vn.'),
             )
         ),
     ])
