@@ -1,4 +1,4 @@
-\version "2.19.64"
+\version "2.19.65"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -350,16 +350,16 @@
             \tag winds.flute
             \context FluteMusicStaff = "Flute Music Staff" {
                 \context FluteMusicVoice = "Flute Music Voice" {
-                    bf'2 \> \mp \startTrillSpan
-                    bf'2 \repeatTie
-                    bf'1. \repeatTie
-                    bf'4. \repeatTie
+                    bf''2 \> \mp \startTrillSpan
+                    bf''2 \repeatTie
+                    bf''1. \repeatTie
+                    bf''4. \repeatTie
                     r8 \stopTrillSpan
-                    bf'4 \startTrillSpan
-                    bf'1 \repeatTie
-                    bf'2. \repeatTie
-                    bf'2 \repeatTie
-                    bf'8 \repeatTie \pp
+                    bf''4 \startTrillSpan
+                    bf''1 \repeatTie
+                    bf''2. \repeatTie
+                    bf''2 \repeatTie
+                    bf''8 \repeatTie \pp
                     r4. \stopTrillSpan
                     r2.
                     r2
@@ -416,19 +416,67 @@
             \tag winds.oboe
             \context OboeMusicStaff = "Oboe Music Staff" {
                 \context OboeMusicVoice = "Oboe Music Voice" {
-                    <a' e''>2 -\flageolet
-                    <a' e''>2 \repeatTie
-                    <a' e''>1. \repeatTie
-                    <a' e''>2. \repeatTie
-                    <a' e''>8 \repeatTie
+                    <e'' b''>2 -\flageolet
+                    <e'' b''>2 \repeatTie
+                    <e'' b''>1. \repeatTie
+                    <e'' b''>2. \repeatTie
+                    <e'' b''>8 \repeatTie
                     r2..
                     r2.
                     r4
-                    <a' e''>2. -\flageolet
-                    <a' e''>2. \repeatTie
-                    <a' e''>4. \repeatTie
+                    <e'' b''>2. -\flageolet
+                    <e'' b''>2. \repeatTie
+                    <e'' b''>4. \repeatTie
                     r8
                     s1 * 21/4
+                    ds'1. -\fff
+                    r2
+                    ds'2. -\fff
+                    ds'2 \repeatTie
+                    r2.
+                    ds'1 -\fff
+                    r1.
+                    r4
+                    ds'4 -\fff
+                    ds'2 \repeatTie
+                    ds'2. \repeatTie
+                    ds'1 \repeatTie
+                    ds'2 \repeatTie
+                    ds'2 \repeatTie
+                    ds'1. \repeatTie
+                    ds'1 \repeatTie
+                    ds'2. \repeatTie
+                    ds'2. \repeatTie
+                    \bar "|"
+                }
+            }
+            \tag winds.clarinet
+            \context ClarinetMusicStaff = "Clarinet Music Staff" {
+                \context ClarinetMusicVoice = "Clarinet Music Voice" {
+                    a2
+                    a2 \repeatTie
+                    a2. \repeatTie
+                    a2 \repeatTie
+                    a8 \repeatTie
+                    r8
+                    r2.
+                    r2.
+                    a4
+                    a2. \repeatTie
+                    a1 \repeatTie
+                    a2 \repeatTie
+                    a8 \repeatTie
+                    r8
+                    r2
+                    r1
+                    a2.
+                    a1 \repeatTie
+                    a2 \repeatTie
+                    a8 \repeatTie
+                    r8
+                    r2
+                    r2.
+                    r2
                     gs1. -\fff
                     r2
                     gs2. -\fff
@@ -450,89 +498,41 @@
                     \bar "|"
                 }
             }
-            \tag winds.clarinet
-            \context ClarinetMusicStaff = "Clarinet Music Staff" {
-                \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                    g,2
-                    g,2 \repeatTie
-                    g,2. \repeatTie
-                    g,2 \repeatTie
-                    g,8 \repeatTie
-                    r8
-                    r2.
-                    r2.
-                    g,4
-                    g,2. \repeatTie
-                    g,1 \repeatTie
-                    g,2 \repeatTie
-                    g,8 \repeatTie
-                    r8
-                    r2
-                    r1
-                    g,2.
-                    g,1 \repeatTie
-                    g,2 \repeatTie
-                    g,8 \repeatTie
-                    r8
-                    r2
-                    r2.
-                    r2
-                    fs,1. -\fff
-                    r2
-                    fs,2. -\fff
-                    fs,2 \repeatTie
-                    r2.
-                    fs,1 -\fff
-                    r1.
-                    r4
-                    fs,4 -\fff
-                    fs,2 \repeatTie
-                    fs,2. \repeatTie
-                    fs,1 \repeatTie
-                    fs,2 \repeatTie
-                    fs,2 \repeatTie
-                    fs,1. \repeatTie
-                    fs,1 \repeatTie
-                    fs,2. \repeatTie
-                    fs,2. \repeatTie
-                    \bar "|"
-                }
-            }
             \tag winds.saxophone
             \context SaxophoneMusicStaff = "Saxophone Music Staff" {
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
-                    <f gqs>2
-                    <f gqs>2 \repeatTie
-                    <f gqs>1. \repeatTie
-                    <f gqs>2. \repeatTie
-                    <f gqs>2 \repeatTie
-                    <f gqs>8 \repeatTie
+                    <d'' eqs''>2
+                    <d'' eqs''>2 \repeatTie
+                    <d'' eqs''>1. \repeatTie
+                    <d'' eqs''>2. \repeatTie
+                    <d'' eqs''>2 \repeatTie
+                    <d'' eqs''>8 \repeatTie
                     r4.
                     r2.
                     r2.
-                    <f gqs>4
-                    <f gqs>2. \repeatTie
-                    <f gqs>4. \repeatTie
+                    <d'' eqs''>4
+                    <d'' eqs''>2. \repeatTie
+                    <d'' eqs''>4. \repeatTie
                     r8
                     s1 * 21/4
-                    gs,1. -\fff
+                    es'1. -\fff
                     r2
-                    gs,2. -\fff
-                    gs,2 \repeatTie
+                    es'2. -\fff
+                    es'2 \repeatTie
                     r2.
-                    gs,1 -\fff
+                    es'1 -\fff
                     r1.
                     r4
-                    gs,4 -\fff
-                    gs,2 \repeatTie
-                    gs,2. \repeatTie
-                    gs,1 \repeatTie
-                    gs,2 \repeatTie
-                    gs,2 \repeatTie
-                    gs,1. \repeatTie
-                    gs,1 \repeatTie
-                    gs,2. \repeatTie
-                    gs,2. \repeatTie
+                    es'4 -\fff
+                    es'2 \repeatTie
+                    es'2. \repeatTie
+                    es'1 \repeatTie
+                    es'2 \repeatTie
+                    es'2 \repeatTie
+                    es'1. \repeatTie
+                    es'1 \repeatTie
+                    es'2. \repeatTie
+                    es'2. \repeatTie
                     \bar "|"
                 }
             }
@@ -544,7 +544,7 @@
                     \times 2/3 {
                         r8
                         \override NoteHead.style = #'cross
-                        d'8
+                        d''8
                         r8
                     }
                     r4
@@ -552,7 +552,7 @@
                     r4
                     \times 2/3 {
                         r8
-                        fs'4
+                        fs''4
                     }
                     r4
                     r4
@@ -560,14 +560,14 @@
                     r4
                     \times 2/3 {
                         r8
-                        g'8
+                        g''8
                         \revert NoteHead.style
                         r8
                     }
                     r4
                     r4
                     r4
-                    fs,1 \mf
+                    fs1 \mf
                         ^ \markup {
                             \column
                                 {
@@ -581,18 +581,18 @@
                                         }
                                 }
                             }
-                    fs,2. \repeatTie
-                    fs,1 \repeatTie
-                    fs,2. \repeatTie
-                    fs,2 \repeatTie
-                    fs,1 \repeatTie
-                    fs,2. \repeatTie
-                    fs,1 \repeatTie
-                    fs,2. \repeatTie
-                    fs,2 \repeatTie
-                    fs,2. \repeatTie
+                    fs2. \repeatTie
+                    fs1 \repeatTie
+                    fs2. \repeatTie
+                    fs2 \repeatTie
+                    fs1 \repeatTie
+                    fs2. \repeatTie
+                    fs1 \repeatTie
+                    fs2. \repeatTie
+                    fs2 \repeatTie
+                    fs2. \repeatTie
                     r2
-                    g,1. \ff
+                    g1. \ff
                         ^ \markup {
                             \column
                                 {
@@ -607,22 +607,22 @@
                                 }
                             }
                     r2
-                    g,2.
-                    g,2 \repeatTie
+                    g2.
+                    g2 \repeatTie
                     r2.
-                    g,1
+                    g1
                     r1.
                     r4
-                    g,4
-                    g,2 \repeatTie
-                    g,2. \repeatTie
-                    g,1 \repeatTie
-                    g,2 \repeatTie
-                    g,2 \repeatTie
-                    g,1. \repeatTie
-                    g,1 \repeatTie
-                    g,2. \repeatTie
-                    g,2. \repeatTie
+                    g4
+                    g2 \repeatTie
+                    g2. \repeatTie
+                    g1 \repeatTie
+                    g2 \repeatTie
+                    g2 \repeatTie
+                    g1. \repeatTie
+                    g1 \repeatTie
+                    g2. \repeatTie
+                    g2. \repeatTie
                     \bar "|"
                 }
             }
@@ -1386,60 +1386,60 @@
             \tag strings.contrabass
             \context ContrabassMusicStaff = "Contrabass Music Staff" {
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
-                    <g,, a,>2
-                    <g,, a,>2 \repeatTie
+                    <g, a>2
+                    <g, a>2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        <g,, a,>1. \repeatTie \glissando
-                        <af,, bf,>4
+                        <g, a>1. \repeatTie \glissando
+                        <af, bf>4
                     }
                     \times 4/5 {
-                        <af,, bf,>2. \repeatTie \glissando
-                        <gqs,, aqs,>8.
+                        <af, bf>2. \repeatTie \glissando
+                        <gqs, aqs>8.
                     }
-                    <gqs,, aqs,>1 \repeatTie
+                    <gqs, aqs>1 \repeatTie
                     \times 4/5 {
-                        <gqs,, aqs,>2. \repeatTie \glissando
-                        <a,, b,>8.
+                        <gqs, aqs>2. \repeatTie \glissando
+                        <a, b>8.
                     }
-                    <a,, b,>1 \repeatTie
-                    <a,, b,>2. \repeatTie
-                    <a,, b,>2 \repeatTie
-                    <a,, b,>1 \repeatTie
+                    <a, b>1 \repeatTie
+                    <a, b>2. \repeatTie
+                    <a, b>2 \repeatTie
+                    <a, b>1 \repeatTie
                     {
-                        <a,, b,>2 \repeatTie \glissando
-                        <bqf,, cqs>4
+                        <a, b>2 \repeatTie \glissando
+                        <bqf, cqs'>4
                     }
                     \times 2/3 {
-                        <bqf,, cqs>1 \repeatTie \glissando
-                        <af,, bf,>2
+                        <bqf, cqs'>1 \repeatTie \glissando
+                        <af, bf>2
                     }
-                    <af,, bf,>2. \repeatTie
-                    <af,, bf,>2 \repeatTie
+                    <af, bf>2. \repeatTie
+                    <af, bf>2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        <af,, bf,>2. \repeatTie \glissando
-                        <gqs,, aqs,>8
+                        <af, bf>2. \repeatTie \glissando
+                        <gqs, aqs>8
                     }
                     r2
-                    <g,,, a,,>1. -\fff
+                    <g,, a,>1. -\fff
                     r2
-                    <g,,, a,,>2. -\fff
-                    <g,,, a,,>2 \repeatTie
+                    <g,, a,>2. -\fff
+                    <g,, a,>2 \repeatTie
                     r2.
-                    <g,,, a,,>1 -\fff
+                    <g,, a,>1 -\fff
                     r1.
                     r4
-                    <g,,, a,,>4 -\fff
-                    <g,,, a,,>2 \repeatTie
-                    <g,,, a,,>2. \repeatTie
-                    <g,,, a,,>1 \repeatTie
-                    <g,,, a,,>2 \repeatTie
-                    <g,,, a,,>2 \repeatTie
-                    <g,,, a,,>1. \repeatTie
-                    <g,,, a,,>1 \repeatTie
-                    <g,,, a,,>2. \repeatTie
-                    <g,,, a,,>2. \repeatTie
+                    <g,, a,>4 -\fff
+                    <g,, a,>2 \repeatTie
+                    <g,, a,>2. \repeatTie
+                    <g,, a,>1 \repeatTie
+                    <g,, a,>2 \repeatTie
+                    <g,, a,>2 \repeatTie
+                    <g,, a,>1. \repeatTie
+                    <g,, a,>1 \repeatTie
+                    <g,, a,>2. \repeatTie
+                    <g,, a,>2. \repeatTie
                     \bar "|"
                 }
             }

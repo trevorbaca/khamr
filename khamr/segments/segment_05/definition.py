@@ -24,6 +24,7 @@ cb = 'Contrabass Music Voice'
 
 segment_maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
+    instruments=khamr.materials.instruments,
     label_stages=True,
     measures_per_stage=[
         4, 4, 4,    # stages 1-3
@@ -31,6 +32,7 @@ segment_maker = baca.SegmentMaker(
         8,          # stage 6
         8, 8, 8,    # stages 7-9
         ],
+    metronome_marks=khamr.materials.tempi,
     score_template=khamr.tools.ScoreTemplate(),
     tempo_specifier = [
         (1, khamr.materials.tempi[126]),
