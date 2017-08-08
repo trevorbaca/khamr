@@ -19,17 +19,19 @@ cb = 'Contrabass Music Voice'
 
 
 ###############################################################################
-################################ SEGMENT-MAKER ################################
+##################################### [1] #####################################
 ###############################################################################
 
 segment_maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
+    instruments=khamr.materials.instruments,
     label_stages=False,
     measures_per_stage=[
         8, 8, 8,
         6, 6,
         4, 4,
         ],
+    metronome_marks=khamr.materials.tempi,
     score_template=khamr.tools.ScoreTemplate(),
     tempo_specifier=[
         (1, khamr.materials.tempi[126]),

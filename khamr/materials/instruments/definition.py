@@ -21,6 +21,12 @@ def make_long_markup(string):
 def make_short_markup(string):
     return make_markup(string, short_space)
 
+piano = abjad.instrumenttools.Piano(
+    instrument_name_markup=make_long_markup('Piano'),
+    short_instrument_name_markup=make_short_markup('Pf.'),
+    )
+piano._default_scope = 'PianoMusicStaff'
+
 instruments = abjad.TypedOrderedDict([
     (
         'baritone saxophone', 
@@ -101,10 +107,7 @@ instruments = abjad.TypedOrderedDict([
         ),
     (
         'piano', 
-        abjad.instrumenttools.Piano(
-            instrument_name_markup=make_long_markup('Piano'),
-            short_instrument_name_markup=make_short_markup('Pf.'),
-            )
+        piano,
         ),
     (
         'piccolo', 

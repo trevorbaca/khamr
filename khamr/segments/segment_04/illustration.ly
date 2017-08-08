@@ -1,4 +1,4 @@
-\version "2.19.64"
+\version "2.19.65"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -216,45 +216,45 @@
             \tag winds.flute
             \context FluteMusicStaff = "Flute Music Staff" {
                 \context FluteMusicVoice = "Flute Music Voice" {
-                    bf'2
-                    bf'2 \repeatTie
-                    bf'2. \repeatTie
-                    bf'2 \repeatTie
-                    bf'8. \repeatTie
+                    bf''2
+                    bf''2 \repeatTie
+                    bf''2. \repeatTie
+                    bf''2 \repeatTie
+                    bf''8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    bf'2.
-                    bf'1 \repeatTie
-                    bf'4 \repeatTie
-                    bf'16 \repeatTie
+                    bf''2.
+                    bf''1 \repeatTie
+                    bf''4 \repeatTie
+                    bf''16 \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    bf'4.
-                    bf'1 \repeatTie
-                    bf'2 \repeatTie
-                    bf'8. \repeatTie
+                    bf''4.
+                    bf''1 \repeatTie
+                    bf''2 \repeatTie
+                    bf''8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    bf'2
-                    bf'1 \repeatTie
-                    bf'4.. \repeatTie
+                    bf''2
+                    bf''1 \repeatTie
+                    bf''4.. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    bf'4
-                    bf'1 \repeatTie
-                    bf'2 \repeatTie
-                    bf'8. \repeatTie
+                    bf''4
+                    bf''1 \repeatTie
+                    bf''2 \repeatTie
+                    bf''8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    bf'2
-                    bf'2. \repeatTie
-                    bf'2 \repeatTie
-                    bf'2 \repeatTie
-                    bf'8. \repeatTie
+                    bf''2
+                    bf''2. \repeatTie
+                    bf''2 \repeatTie
+                    bf''2 \repeatTie
+                    bf''8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    bf'2
-                    bf'8. \repeatTie
+                    bf''2
+                    bf''8. \repeatTie
                     r16
                     s1 * 5
                     \bar "|"
@@ -267,37 +267,37 @@
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
                     \override RepeatTie.direction = #up
-                    b'2
-                    b'2 \repeatTie
-                    b'1. \repeatTie
-                    b'4.. \repeatTie
+                    fs''2
+                    fs''2 \repeatTie
+                    fs''1. \repeatTie
+                    fs''4.. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    b'4
-                    b'1 \repeatTie
-                    b'2. \repeatTie
-                    b'2 \repeatTie
-                    b'8. \repeatTie
+                    fs''4
+                    fs''1 \repeatTie
+                    fs''2. \repeatTie
+                    fs''2 \repeatTie
+                    fs''8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    b'4
-                    b'2. \repeatTie
-                    b'2 \repeatTie
-                    b'2... \repeatTie
+                    fs''4
+                    fs''2. \repeatTie
+                    fs''2 \repeatTie
+                    fs''2... \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    b'2.
-                    b'1 \repeatTie
-                    b'2 \repeatTie
-                    b'8. \repeatTie
+                    fs''2.
+                    fs''1 \repeatTie
+                    fs''2 \repeatTie
+                    fs''8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    b'2
-                    b'2. \repeatTie
-                    b'2 \repeatTie
-                    b'2. \repeatTie
-                    b'2 \repeatTie
-                    b'8. \repeatTie
+                    fs''2
+                    fs''2. \repeatTie
+                    fs''2 \repeatTie
+                    fs''2. \repeatTie
+                    fs''2 \repeatTie
+                    fs''8. \repeatTie
                     \revert RepeatTie.direction
                     r16
                     \stopStaff
@@ -309,23 +309,23 @@
             \tag winds.clarinet
             \context ClarinetMusicStaff = "Clarinet Music Staff" {
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                    g,2
-                    g,2 \repeatTie
-                    g,1. \repeatTie
-                    g,2. \repeatTie
-                    g,1 \repeatTie
-                    g,2. \repeatTie
-                    g,1 \repeatTie
-                    g,2. \repeatTie
-                    g,2 \repeatTie
-                    g,1 \repeatTie
-                    g,2. \repeatTie
-                    g,1 \repeatTie
-                    g,2. \repeatTie
-                    g,2 \repeatTie
-                    g,2. \repeatTie
-                    g,2 \repeatTie
-                    g,1. \repeatTie
+                    a2
+                    a2 \repeatTie
+                    a1. \repeatTie
+                    a2. \repeatTie
+                    a1 \repeatTie
+                    a2. \repeatTie
+                    a1 \repeatTie
+                    a2. \repeatTie
+                    a2 \repeatTie
+                    a1 \repeatTie
+                    a2. \repeatTie
+                    a1 \repeatTie
+                    a2. \repeatTie
+                    a2 \repeatTie
+                    a2. \repeatTie
+                    a2 \repeatTie
+                    a1. \repeatTie
                     s1 * 5
                     \bar "|"
                 }
@@ -337,38 +337,38 @@
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
                     \override RepeatTie.direction = #up
-                    d''2
-                    d''2 \repeatTie
-                    d''1. \repeatTie
-                    d''2. \repeatTie
-                    d''8. \repeatTie
+                    b'''2
+                    b'''2 \repeatTie
+                    b'''1. \repeatTie
+                    b'''2. \repeatTie
+                    b'''8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    d''2.
-                    d''2. \repeatTie
-                    d''1 \repeatTie
-                    d''2 \repeatTie
-                    d''8. \repeatTie
+                    b'''2.
+                    b'''2. \repeatTie
+                    b'''1 \repeatTie
+                    b'''2 \repeatTie
+                    b'''8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    d''2
-                    d''1 \repeatTie
-                    d''2. \repeatTie
-                    d''2 \repeatTie
-                    d''8. \repeatTie
+                    b'''2
+                    b'''1 \repeatTie
+                    b'''2. \repeatTie
+                    b'''2 \repeatTie
+                    b'''8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    d''4
-                    d''2. \repeatTie
-                    d''2 \repeatTie
-                    d''2. \repeatTie
-                    d''2 \repeatTie
-                    d''2 \repeatTie
-                    d''8. \repeatTie
+                    b'''4
+                    b'''2. \repeatTie
+                    b'''2 \repeatTie
+                    b'''2. \repeatTie
+                    b'''2 \repeatTie
+                    b'''2 \repeatTie
+                    b'''8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    d''2
-                    d''8. \repeatTie
+                    b'''2
+                    b'''8. \repeatTie
                     \revert RepeatTie.direction
                     r16
                     \stopStaff
@@ -388,9 +388,9 @@
                     r2.
                     r1
                     r2.
-                    c'1 -\accent -\flageolet -\mf
-                    c'2. -\accent -\flageolet -\mf
-                    c'2 \repeatTie
+                    c''1 -\accent -\flageolet -\mf
+                    c''2. -\accent -\flageolet -\mf
+                    c''2 \repeatTie
                     r1
                     r2.
                     r1
@@ -400,11 +400,11 @@
                     r2
                     r1.
                     r2
-                    c'1 -\accent -\flageolet -\mf
-                    c'4 -\accent -\flageolet -\mf
-                    c'2. \repeatTie
-                    c'1 \repeatTie
-                    c'1 \repeatTie
+                    c''1 -\accent -\flageolet -\mf
+                    c''4 -\accent -\flageolet -\mf
+                    c''2. \repeatTie
+                    c''1 \repeatTie
+                    c''1 \repeatTie
                     r2
                     \bar "|"
                 }
@@ -534,10 +534,10 @@
             \tag strings.violin
             \context ViolinMusicStaff = "Violin Music Staff" {
                 \context ViolinMusicVoice = "Violin Music Voice" {
-                    \clef "percussion"
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
+                    \clef "percussion"
                     c'2 -\downbow \p
                         ^ \markup {
                             \whiteout
@@ -574,10 +574,10 @@
             \tag strings.viola
             \context ViolaMusicStaff = "Viola Music Staff" {
                 \context ViolaMusicVoice = "Viola Music Voice" {
-                    \clef "percussion"
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
+                    \clef "percussion"
                     c'2 -\downbow \p
                         ^ \markup {
                             \whiteout
@@ -614,10 +614,10 @@
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
                 \context CelloMusicVoice = "Cello Music Voice" {
-                    \clef "percussion"
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
+                    \clef "percussion"
                     c'2 -\downbow \p
                         ^ \markup {
                             \whiteout
@@ -656,37 +656,37 @@
             \tag strings.contrabass
             \context ContrabassMusicStaff = "Contrabass Music Staff" {
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
-                    \clef "percussion"
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
-                    c2 -\downbow \p
+                    \clef "percussion"
+                    c'2 -\downbow \p
                         ^ \markup {
                             \whiteout
                                 \upright
                                     "bow on tailpiece"
                             }
-                    c2 \repeatTie
-                    c1 -\upbow
-                    c2 -\downbow
-                    c2 \repeatTie
-                    c4 -\upbow
-                    c2. \repeatTie
-                    c4 -\downbow
-                    c2. \repeatTie
-                    c1 -\upbow
-                    c1 -\downbow \> \p
-                    c4 -\upbow
-                    c2. \repeatTie
-                    c4 -\downbow
-                    c2. \repeatTie
-                    c1 -\upbow
-                    c1 -\downbow
-                    c4 -\upbow
-                    c2. \repeatTie
-                    c2 -\downbow
-                    c2 \repeatTie
-                    c1 -\upbow \ppp
+                    c'2 \repeatTie
+                    c'1 -\upbow
+                    c'2 -\downbow
+                    c'2 \repeatTie
+                    c'4 -\upbow
+                    c'2. \repeatTie
+                    c'4 -\downbow
+                    c'2. \repeatTie
+                    c'1 -\upbow
+                    c'1 -\downbow \> \p
+                    c'4 -\upbow
+                    c'2. \repeatTie
+                    c'4 -\downbow
+                    c'2. \repeatTie
+                    c'1 -\upbow
+                    c'1 -\downbow
+                    c'4 -\upbow
+                    c'2. \repeatTie
+                    c'2 -\downbow
+                    c'2 \repeatTie
+                    c'1 -\upbow \ppp
                     \stopStaff
                     \startStaff
                     \once \override TextScript.extra-offset = #'(24 . -4)

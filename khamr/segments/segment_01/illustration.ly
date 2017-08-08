@@ -1,4 +1,4 @@
-\version "2.19.64"
+\version "2.19.65"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -426,6 +426,25 @@
             \tag winds.flute
             \context FluteMusicStaff = "Flute Music Staff" {
                 \context FluteMusicVoice = "Flute Music Voice" {
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Bass
+                                    flute
+                                }
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Bass
+                                    fl.
+                                }
+                        }
+                    \clef "treble"
                     <g' g''>2
                         ^ \markup {
                             \whiteout
@@ -542,6 +561,7 @@
                                     hn.
                                 }
                         }
+                    \clef "treble"
                     \override RepeatTie.direction = #up
                     b'2 \p - \markup { "airtone without reed: mix inhales and exhales ad lib." }
                     b'2 \repeatTie
@@ -639,6 +659,7 @@
                                     cl.
                                 }
                         }
+                    \clef "treble"
                     b2 \pp
                     b2 \repeatTie
                     b2. \repeatTie
@@ -741,6 +762,7 @@
                                     sax.
                                 }
                         }
+                    \clef "treble"
                     e''2 \pp
                     e''2 \repeatTie
                     e''1. \repeatTie
@@ -826,121 +848,131 @@
             \tag guitar
             \context GuitarMusicStaff = "Guitar Music Staff" {
                 \context GuitarMusicVoice = "Guitar Music Voice" {
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Guitar
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Gt.
+                        }
                     \override NoteHead.style = #'cross
-                    cs4 \f - \markup { "cross noteheads indicate half-harmonics" }
+                    cs'4 \f - \markup { "cross noteheads indicate half-harmonics" }
                     r4
                     r2
                     r1.
                     r2.
                     {
                         r8
-                        c16
+                        c'16
                         r16
                     }
                     r2.
                     r4
                     {
                         r16
-                        a16
+                        a'16
                         r8
                     }
                     r4
                     r2
                     {
                         r8
-                        d16
+                        d'16
                         r16
                     }
                     r4
                     r2.
                     \times 4/5 {
                         r8.
-                        fs16
+                        fs'16
                         r16
                     }
                     r4
                     r2
                     \times 4/5 {
                         r8.
-                        g16
+                        g'16
                         r16
                     }
                     r4
                     r2.
                     \times 2/3 {
                         r8
-                        bf4
+                        bf'4
                     }
                     r2.
                     \times 2/3 {
                         r8
-                        d8
+                        d'8
                         r8
                     }
                     r1
                     {
                         r8
-                        ef16
+                        ef'16
                         r16
                     }
                     r2
                     r4
                     \times 2/3 {
                         r8
-                        cs8
+                        cs'8
                         r8
                     }
                     r1
                     {
                         r8
-                        b16
+                        b'16
                         r16
                     }
                     r4
                     r2
                     {
                         r16
-                        a16
+                        a'16
                         r8
                     }
                     r1
                     \times 4/5 {
                         r8.
-                        bf16
+                        bf'16
                         r16
                     }
                     r2
                     r4
                     \times 4/5 {
                         r8.
-                        af16
+                        af'16
                         r16
                     }
                     r2
                     r2
                     \times 2/3 {
                         r8
-                        e,8
+                        e8
                         r8
                     }
                     r2.
                     \times 2/3 {
                         r8
-                        f,4
+                        f4
                     }
                     r4
                     r2
                     r4
                     \times 2/3 {
                         r8
-                        d8
+                        d'8
                         r8
                     }
                     r4
                     r2
                     {
                         r8
-                        fs16
+                        fs'16
                         r16
                     }
                     r4
@@ -977,10 +1009,10 @@
                     \times 1/1 {
                         \once \override Beam.grow-direction = #right
                         \override TupletBracket.staff-padding = #4
-                        cs'16 * 117/16 [ - \markup { "move towards (and then back away from) the bridge at the center of each accelerando" }
-                        c'16 * 73/16
-                        a'16 * 73/32
-                        d'16 * 59/32 ]
+                        cs''16 * 117/16 [ - \markup { "move towards (and then back away from) the bridge at the center of each accelerando" }
+                        c''16 * 73/16
+                        a''16 * 73/32
+                        d''16 * 59/32 ]
                     }
                     \revert TupletNumber.text
                     \override TupletNumber.text = \markup {
@@ -1016,13 +1048,13 @@
                     \times 1/1 {
                         \once \override Beam.grow-direction = #left
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        d'16 * 115/64 \repeatTie [
-                        fs'16 * 121/64
-                        g'16 * 139/64
-                        bf'16 * 87/32
-                        d'16 * 117/32
-                        ef'16 * 81/16
-                        cs'16 * 429/64 ]
+                        d''16 * 115/64 \repeatTie [
+                        fs''16 * 121/64
+                        g''16 * 139/64
+                        bf''16 * 87/32
+                        d''16 * 117/32
+                        ef''16 * 81/16
+                        cs''16 * 429/64 ]
                     }
                     \revert TupletNumber.text
                     \override TupletNumber.text = \markup {
@@ -1057,13 +1089,13 @@
                         }
                     \times 1/1 {
                         \once \override Beam.grow-direction = #right
-                        cs'16 * 487/64 \repeatTie [
-                        b'16 * 209/32
-                        a'16 * 143/32
-                        bf'16 * 197/64
-                        af'16 * 19/8
-                        e'16 * 65/32
-                        f'16 * 61/32 ]
+                        cs''16 * 487/64 \repeatTie [
+                        b''16 * 209/32
+                        a''16 * 143/32
+                        bf''16 * 197/64
+                        af''16 * 19/8
+                        e''16 * 65/32
+                        f''16 * 61/32 ]
                     }
                     \revert TupletNumber.text
                     \override TupletNumber.text = \markup {
@@ -1099,10 +1131,10 @@
                     \times 1/1 {
                         \once \override Beam.grow-direction = #left
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        f'16 * 13/8 \repeatTie [
-                        d'16 * 125/64
-                        fs'16 * 49/16
-                        g'16 * 343/64 ]
+                        f''16 * 13/8 \repeatTie [
+                        d''16 * 125/64
+                        fs''16 * 49/16
+                        g''16 * 343/64 ]
                     }
                     \revert TupletNumber.text
                     \override TupletNumber.text = \markup {
@@ -1138,15 +1170,15 @@
                         }
                     \times 1/1 {
                         \once \override Beam.grow-direction = #right
-                        g'16 * 123/16 \repeatTie [
-                        bf'16 * 449/64
-                        a'16 * 351/64
-                        ef'16 * 65/16
-                        cs'16 * 199/64
-                        b'16 * 81/32
-                        f'16 * 35/16
-                        bf'16 * 2
-                        af'16 * 123/64 ]
+                        g''16 * 123/16 \repeatTie [
+                        bf''16 * 449/64
+                        a''16 * 351/64
+                        ef''16 * 65/16
+                        cs''16 * 199/64
+                        b''16 * 81/32
+                        f''16 * 35/16
+                        bf''16 * 2
+                        af''16 * 123/64 ]
                     }
                     \revert TupletNumber.text
                     \override TupletNumber.text = \markup {
@@ -1182,10 +1214,10 @@
                     \times 1/1 {
                         \once \override Beam.grow-direction = #left
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        af'16 * 13/8 \repeatTie [
-                        e'16 * 125/64
-                        d'16 * 49/16
-                        cs'16 * 343/64 ]
+                        af''16 * 13/8 \repeatTie [
+                        e''16 * 125/64
+                        d''16 * 49/16
+                        cs''16 * 343/64 ]
                     }
                     \revert TupletNumber.text
                     \override TupletNumber.text = \markup {
@@ -1220,14 +1252,14 @@
                         }
                     \times 1/1 {
                         \once \override Beam.grow-direction = #right
-                        cs'16 * 245/32 \repeatTie [
-                        c'16 * 109/16
-                        a'16 * 161/32
-                        b'16 * 115/32
-                        a'16 * 175/64
-                        ef'16 * 9/4
-                        cs'16 * 129/64
-                        e'16 * 61/32 ]
+                        cs''16 * 245/32 \repeatTie [
+                        c''16 * 109/16
+                        a''16 * 161/32
+                        b''16 * 115/32
+                        a''16 * 175/64
+                        ef''16 * 9/4
+                        cs''16 * 129/64
+                        e''16 * 61/32 ]
                     }
                     \revert TupletNumber.text
                     \override TupletNumber.text = \markup {
@@ -1264,12 +1296,12 @@
                     \times 1/1 {
                         \once \override Beam.grow-direction = #left
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        e'16 * 113/64 \repeatTie [
-                        f'16 * 121/64
-                        bf'16 * 147/64
-                        af'16 * 25/8
-                        a'16 * 145/32
-                        d'16 * 409/64 ]
+                        e''16 * 113/64 \repeatTie [
+                        f''16 * 121/64
+                        bf''16 * 147/64
+                        af''16 * 25/8
+                        a''16 * 145/32
+                        d''16 * 409/64 ]
                     }
                     \revert TupletNumber.text
                     \override TupletNumber.text = \markup {
@@ -1305,11 +1337,11 @@
                         }
                     \times 1/1 {
                         \once \override Beam.grow-direction = #right
-                        d'16 * 477/64 \repeatTie [
-                        cs'16 * 353/64
-                        c'16 * 97/32
-                        bf'16 * 17/8
-                        d'16 * 15/8 ]
+                        d''16 * 477/64 \repeatTie [
+                        cs''16 * 353/64
+                        c''16 * 97/32
+                        bf''16 * 17/8
+                        d''16 * 15/8 ]
                     }
                     \revert TupletNumber.text
                     \override TupletNumber.text = \markup {
@@ -1345,41 +1377,41 @@
                     \times 1/1 {
                         \once \override Beam.grow-direction = #left
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        d'16 * 115/64 \repeatTie [
-                        fs'16 * 121/64
-                        g'16 * 139/64
-                        af'16 * 87/32
-                        e'16 * 117/32
-                        f'16 * 81/16
-                        bf'16 * 429/64 ]
+                        d''16 * 115/64 \repeatTie [
+                        fs''16 * 121/64
+                        g''16 * 139/64
+                        af''16 * 87/32
+                        e''16 * 117/32
+                        f''16 * 81/16
+                        bf''16 * 429/64 ]
                     }
                     \revert TupletNumber.text
                     {
-                        bf'2 \repeatTie
+                        bf''2 \repeatTie
                     }
                     \times 2/3 {
                         r8
-                        c'8
+                        c''8
                         r8
                     }
                     r2
                     r4
                     \times 2/3 {
                         r8
-                        a'4
+                        a''4
                     }
                     r2.
                     r4
                     \times 2/3 {
                         r8
-                        d'8
+                        d''8
                         r8
                     }
                     r2
                     r4
                     {
                         r8
-                        cs'16
+                        cs''16
                         \revert NoteHead.style
                         r16
                     }
@@ -1391,10 +1423,20 @@
             \tag piano
             \context PianoMusicStaff = "Piano Music Staff" {
                 \context PianoMusicVoice = "Piano Music Voice" {
-                    \clef "percussion"
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
+                    \set PianoMusicStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Piano
+                        }
+                    \set PianoMusicStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Pf.
+                        }
+                    \clef "percussion"
                     \override RepeatTie.direction = #up
                     c'2 -\accent \mf - \markup { "tamburo: strike lowest strings with palm inside piano and let vibrate (pedal down throughout)" }
                     c'2 \repeatTie
@@ -1462,9 +1504,9 @@
                                 }
                         }
                     \times 1/1 {
-                        \clef "treble"
                         \ottava #1
                         \once \override Beam.grow-direction = #right
+                        \clef "treble"
                         cs''''16 * 247/32 \mf [ - \markup { "match dynamic levels of guitar" }
                         c''''16 * 459/64
                         a'''16 * 187/32
@@ -1674,10 +1716,10 @@
                     }
                     r4
                     r2
-                    \clef "percussion"
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
+                    \clef "percussion"
                     \override RepeatTie.direction = #up
                     c'1 \mp
                         ^ \markup {
@@ -1722,6 +1764,16 @@
             \tag percussion
             \context PercussionMusicStaff = "Percussion Staff" {
                 \context PercussionMusicVoice = "Percussion Music Voice" {
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Percussion
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Perc.
+                        }
                     \override Stem.direction = #down
                     c'2 -\accent \mp
                         ^ \markup {
@@ -1793,6 +1845,17 @@
             \tag strings.violin
             \context ViolinMusicStaff = "Violin Music Staff" {
                 \context ViolinMusicVoice = "Violin Music Voice" {
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Violin
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Vn.
+                        }
+                    \clef "treble"
                     \override NoteHead.style = #'harmonic
                     g'2 \> \pp
                         _ \markup {
@@ -2028,6 +2091,16 @@
             \context ViolaMusicStaff = "Viola Music Staff" {
                 \context ViolaMusicVoice = "Viola Music Voice" {
                     {
+                        \set Staff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Viola
+                            }
+                        \set Staff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Va.
+                            }
                         \override NoteHead.style = #'harmonic
                         g'4. \glissando \> \pp
                             _ \markup {
@@ -2255,6 +2328,17 @@
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
                 \context CelloMusicVoice = "Cello Music Voice" {
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Cello
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Vc.
+                        }
+                    \clef "bass"
                     \override NoteHead.style = #'harmonic
                     g2 \> \pp
                         _ \markup {
@@ -2479,123 +2563,134 @@
             \tag strings.contrabass
             \context ContrabassMusicStaff = "Contrabass Music Staff" {
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Contrabass
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Cb.
+                        }
+                    \clef "bass"
                     \override NoteHead.style = #'harmonic
-                    a,2 \f
+                    a2 \f
                         _ \markup {
                             \whiteout
                                 \upright
                                     III
                             }
                         - \markup { "emphasize multiphonics and unstable harmonics prominently throughout" }
-                    a,2 \repeatTie
+                    a2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a,1. \repeatTie \glissando
-                        bf,4
+                        a1. \repeatTie \glissando
+                        bf4
                     }
                     \times 4/5 {
-                        bf,2. \repeatTie \glissando
-                        aqs,8.
+                        bf2. \repeatTie \glissando
+                        aqs8.
                     }
-                    aqs,1 \repeatTie
+                    aqs1 \repeatTie
                     \times 4/5 {
-                        aqs,2. \repeatTie \glissando
-                        b,8.
+                        aqs2. \repeatTie \glissando
+                        b8.
                     }
-                    b,1 \repeatTie
-                    b,2. \repeatTie
-                    b,2 \repeatTie
-                    b,1 \repeatTie \> \pp
+                    b1 \repeatTie
+                    b2. \repeatTie
+                    b2 \repeatTie
+                    b1 \repeatTie \> \pp
                     {
-                        b,2 \repeatTie \glissando
-                        cqs4
+                        b2 \repeatTie \glissando
+                        cqs'4
                     }
                     \times 2/3 {
-                        cqs1 \repeatTie \glissando
-                        bf,2
+                        cqs'1 \repeatTie \glissando
+                        bf2
                     }
-                    bf,2. \repeatTie
-                    bf,2 \repeatTie
+                    bf2. \repeatTie
+                    bf2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        bf,2. \repeatTie \glissando
-                        aqs,8
+                        bf2. \repeatTie \glissando
+                        aqs8
                     }
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    aqs,2 \repeatTie
-                    aqs,1. \repeatTie
-                    aqs,2 \repeatTie
+                    aqs2 \repeatTie
+                    aqs1. \repeatTie
+                    aqs2 \repeatTie
                     {
-                        aqs,1 \repeatTie \glissando
-                        b,4
+                        aqs1 \repeatTie \glissando
+                        b4
                     }
                     \times 4/5 {
-                        b,2. \repeatTie \glissando
-                        a,8.
+                        b2. \repeatTie \glissando
+                        a8.
                     }
-                    a,1 \repeatTie
+                    a1 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/4 {
-                        a,1. \repeatTie \glissando
-                        b,2
+                        a1. \repeatTie \glissando
+                        b2
                     }
-                    b,2 \repeatTie
-                    b,2 \repeatTie
-                    b,2. \repeatTie
+                    b2 \repeatTie
+                    b2 \repeatTie
+                    b2. \repeatTie
                     \times 2/3 {
-                        b,1 \repeatTie \glissando
-                        cs2
+                        b1 \repeatTie \glissando
+                        cs'2
                     }
                     \times 4/7 {
-                        cs2. \repeatTie \glissando
-                        bqs,8
+                        cs'2. \repeatTie \glissando
+                        bqs8
                     }
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    bqs,2 \repeatTie
+                    bqs2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        bqs,1. \repeatTie \glissando
-                        c4
+                        bqs1. \repeatTie \glissando
+                        c'4
                     }
-                    c1 \repeatTie
-                    c2. \repeatTie
-                    c2. \repeatTie
+                    c'1 \repeatTie
+                    c'2. \repeatTie
+                    c'2. \repeatTie
                     {
-                        c2. \repeatTie \glissando
-                        a,4
+                        c'2. \repeatTie \glissando
+                        a4
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/8 {
-                        a,1. \repeatTie \glissando
-                        b,2
+                        a1. \repeatTie \glissando
+                        b2
                     }
-                    b,2. \repeatTie
+                    b2. \repeatTie
                     \times 2/3 {
-                        b,1 \repeatTie \glissando
-                        cs2
+                        b1 \repeatTie \glissando
+                        cs'2
                     }
-                    cs1 \repeatTie
-                    cs2. \repeatTie
-                    cs2 \repeatTie
-                    cs2. \repeatTie
+                    cs'1 \repeatTie
+                    cs'2. \repeatTie
+                    cs'2 \repeatTie
+                    cs'2. \repeatTie
                     \times 4/7 {
-                        cs2. \repeatTie \glissando
-                        bqs,8
+                        cs'2. \repeatTie \glissando
+                        bqs8
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        bqs,1. \repeatTie \glissando
-                        dqf4
+                        bqs1. \repeatTie \glissando
+                        dqf'4
                     }
-                    dqf2 \repeatTie
+                    dqf'2 \repeatTie
                     {
-                        dqf1 \repeatTie \glissando
-                        c4
+                        dqf'1 \repeatTie \glissando
+                        c'4
                     }
-                    c2. \repeatTie
-                    c1 \repeatTie
-                    c1. \repeatTie \ppp
+                    c'2. \repeatTie
+                    c'1 \repeatTie
+                    c'1. \repeatTie \ppp
                     \bar "|"
                     \revert NoteHead.style
                 }

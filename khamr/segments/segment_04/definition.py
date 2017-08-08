@@ -26,10 +26,12 @@ segment_maker = baca.SegmentMaker(
     final_markup=khamr.tools.make_final_markup(),
     final_markup_extra_offset=(24, -4),
     ignore_repeat_pitch_classes=True,
+    instruments=khamr.materials.instruments,
     label_stages=False,
     measures_per_stage=[
         3, 2, 2, 2, 2, 2, 2, 5,     # stages 1-8
         ],
+    metronome_marks=khamr.materials.tempi,
     score_template=khamr.tools.ScoreTemplate(),
     tempo_specifier=[
         #(1, khamr.materials.tempi[42]),

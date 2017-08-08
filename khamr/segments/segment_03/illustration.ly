@@ -1,4 +1,4 @@
-\version "2.19.64"
+\version "2.19.65"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
@@ -387,8 +387,8 @@
             \tag winds.flute
             \context FluteMusicStaff = "Flute Music Staff" {
                 \context FluteMusicVoice = "Flute Music Voice" {
-                    b''2 :32
-                    b''2 :32 \repeatTie
+                    b'''2 :32
+                    b'''2 :32 \repeatTie
                     s1 * 29/4
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 7/8 {
@@ -883,8 +883,8 @@
             \tag winds.oboe
             \context OboeMusicStaff = "Oboe Music Staff" {
                 \context OboeMusicVoice = "Oboe Music Voice" {
-                    gs2
-                    gs2 \repeatTie
+                    ds'2
+                    ds'2 \repeatTie
                     s1 * 29/4
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/6 {
@@ -1435,8 +1435,8 @@
             \tag winds.clarinet
             \context ClarinetMusicStaff = "Clarinet Music Staff" {
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                    fs,2
-                    fs,2 \repeatTie
+                    gs2
+                    gs2 \repeatTie
                     s1 * 29/4
                     \times 8/9 {
                         \set Staff.instrumentName = \markup {
@@ -1885,8 +1885,8 @@
             \tag winds.saxophone
             \context SaxophoneMusicStaff = "Saxophone Music Staff" {
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
-                    gs,2
-                    gs,2 \repeatTie
+                    es'2
+                    es'2 \repeatTie
                     s1 * 29/4
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
@@ -2418,31 +2418,31 @@
             \tag guitar
             \context GuitarMusicStaff = "Guitar Music Staff" {
                 \context GuitarMusicVoice = "Guitar Music Voice" {
-                    g2
-                    g2 \repeatTie
+                    g'2
+                    g'2 \repeatTie
                     s1 * 29/4
-                    af'2. :32 \fff
-                    af'1 :32 \repeatTie
-                    af'2. :32 \repeatTie
-                    af'2 :32 \repeatTie
-                    af'2. :32 \repeatTie
-                    af'2 :32 \repeatTie
-                    af'1. :32 \repeatTie
-                    af'2 :32 \repeatTie
-                    af'2. :32 \repeatTie
-                    af'2 :32 \repeatTie
-                    af'2. :32 \repeatTie
-                    af'1 :32 \repeatTie
-                    af'1. :32 \repeatTie
-                    af'2 :32 \repeatTie
-                    af'2 :32 \repeatTie
-                    af'2. :32 \repeatTie
-                    af'1 :32 \repeatTie
-                    af'2 :32 \repeatTie
-                    af'2 :32 \repeatTie
-                    af'1. :32 \repeatTie
-                    af'1 :32 \repeatTie
-                    af'2. :32 \repeatTie
+                    af''2. :32 \fff
+                    af''1 :32 \repeatTie
+                    af''2. :32 \repeatTie
+                    af''2 :32 \repeatTie
+                    af''2. :32 \repeatTie
+                    af''2 :32 \repeatTie
+                    af''1. :32 \repeatTie
+                    af''2 :32 \repeatTie
+                    af''2. :32 \repeatTie
+                    af''2 :32 \repeatTie
+                    af''2. :32 \repeatTie
+                    af''1 :32 \repeatTie
+                    af''1. :32 \repeatTie
+                    af''2 :32 \repeatTie
+                    af''2 :32 \repeatTie
+                    af''2. :32 \repeatTie
+                    af''1 :32 \repeatTie
+                    af''2 :32 \repeatTie
+                    af''2 :32 \repeatTie
+                    af''1. :32 \repeatTie
+                    af''1 :32 \repeatTie
+                    af''2. :32 \repeatTie
                     s1 * 31/4
                     \bar "|"
                 }
@@ -3086,12 +3086,12 @@
             \context PercussionMusicStaff = "Percussion Staff" {
                 \context PercussionMusicVoice = "Percussion Music Voice" {
                     s1 * 13/4
-                    \clef "percussion"
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
+                    \clef "percussion"
                     c'1 :32 \pp
                         ^ \markup {
                             \whiteout
@@ -3879,59 +3879,59 @@
             \tag strings.contrabass
             \context ContrabassMusicStaff = "Contrabass Music Staff" {
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
-                    <g,,, a,,>2
-                    <g,,, a,,>2 \repeatTie
-                    <gs,,, as,,>1. \p
-                    <gs,,, as,,>2. \repeatTie
-                    <gs,,, as,,>1 \< \p
-                    <gs,,, as,,>2. \repeatTie
-                    <gs,,, as,,>1 \repeatTie
-                    <gs,,, as,,>2.
-                    <gs,,, as,,>2 \repeatTie
-                    <gs,,, as,,>1 \repeatTie \f
-                    <gs,,, as,,>2. \fff
+                    <g,, a,>2
+                    <g,, a,>2 \repeatTie
+                    <gs,, as,>1. \p
+                    <gs,, as,>2. \repeatTie
+                    <gs,, as,>1 \< \p
+                    <gs,, as,>2. \repeatTie
+                    <gs,, as,>1 \repeatTie
+                    <gs,, as,>2.
+                    <gs,, as,>2 \repeatTie
+                    <gs,, as,>1 \repeatTie \f
+                    <gs,, as,>2. \fff
                         ^ \markup {
                             \whiteout
                                 \upright
                                     "estr. sul pont."
                             }
-                    <gs,,, as,,>1 \repeatTie
-                    <gs,,, as,,>2. \repeatTie
-                    <gs,,, as,,>2 \repeatTie
-                    <gs,,, as,,>2. \repeatTie
-                    <gs,,, as,,>2 \repeatTie
-                    <gs,,, as,,>1. \repeatTie
-                    <gs,,, as,,>2 \repeatTie
-                    <gs,,, as,,>2. \repeatTie
-                    <gs,,, as,,>2 \repeatTie
-                    <gs,,, as,,>2. \repeatTie
-                    <gs,,, as,,>1 \repeatTie
-                    <gs,,, as,,>1. \repeatTie
-                    <gs,,, as,,>2 \repeatTie
-                    <gs,,, as,,>2 \repeatTie
-                    <gs,,, as,,>2. \repeatTie
-                    <gs,,, as,,>1 \repeatTie
-                    <gs,,, as,,>2 \repeatTie
-                    <g,,, a,,>2
+                    <gs,, as,>1 \repeatTie
+                    <gs,, as,>2. \repeatTie
+                    <gs,, as,>2 \repeatTie
+                    <gs,, as,>2. \repeatTie
+                    <gs,, as,>2 \repeatTie
+                    <gs,, as,>1. \repeatTie
+                    <gs,, as,>2 \repeatTie
+                    <gs,, as,>2. \repeatTie
+                    <gs,, as,>2 \repeatTie
+                    <gs,, as,>2. \repeatTie
+                    <gs,, as,>1 \repeatTie
+                    <gs,, as,>1. \repeatTie
+                    <gs,, as,>2 \repeatTie
+                    <gs,, as,>2 \repeatTie
+                    <gs,, as,>2. \repeatTie
+                    <gs,, as,>1 \repeatTie
+                    <gs,, as,>2 \repeatTie
+                    <g,, a,>2
                         ^ \markup {
                             \whiteout
                                 \upright
                                     "arco ordinario"
                             }
-                    <g,,, a,,>1. \repeatTie
-                    <g,,, a,,>1 \repeatTie
-                    <g,,, a,,>2. \repeatTie
-                    <g,,, a,,>2.
+                    <g,, a,>1. \repeatTie
+                    <g,, a,>1 \repeatTie
+                    <g,, a,>2. \repeatTie
+                    <g,, a,>2.
                     r1
                     \once \override TrillPitchHead.stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
                     \pitchedTrill
-                    g,,,2. \mp \startTrillSpan - \markup { "Shape trill dynamics beautifully. (Thank you, Stefano.)" } f
-                    g,,,2 \repeatTie
-                    g,,,2. \repeatTie
-                    g,,,1 \repeatTie
-                    g,,,1 \repeatTie
-                    g,,,2. \repeatTie
-                    g,,,2 \repeatTie
+                    g,,2. \mp \startTrillSpan - \markup { "Shape trill dynamics beautifully. (Thank you, Stefano.)" } f
+                    g,,2 \repeatTie
+                    g,,2. \repeatTie
+                    g,,1 \repeatTie
+                    g,,1 \repeatTie
+                    g,,2. \repeatTie
+                    g,,2 \repeatTie
                     r2. \stopTrillSpan
                     \bar "|"
                 }
