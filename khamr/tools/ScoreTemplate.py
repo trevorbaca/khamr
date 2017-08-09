@@ -15,7 +15,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         ::
 
-            >>> template = khamr.tools.ScoreTemplate()
+            >>> template = khamr.ScoreTemplate()
             >>> lilypond_file = template.__illustrate__()
             >>> path = '/Users/trevorbaca/Scores/khamr/khamr'
             >>> path += '/stylesheets/context-definitions.ily'
@@ -324,7 +324,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             flute_music_staff,
             'default_instrument',
-            khamr.materials.instruments['bass flute'],
+            khamr.instruments['bass flute'],
             )
         abjad.annotate(
             flute_music_staff,
@@ -347,7 +347,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             oboe_music_staff,
             'default_instrument',
-            khamr.materials.instruments['English horn'],
+            khamr.instruments['English horn'],
             )
         abjad.annotate(
             oboe_music_staff,
@@ -370,7 +370,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             clarinet_music_staff,
             'default_instrument',
-            khamr.materials.instruments['bass clarinet'],
+            khamr.instruments['bass clarinet'],
             )
         abjad.annotate(
             clarinet_music_staff,
@@ -393,7 +393,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             saxophone_music_staff,
             'default_instrument',
-            khamr.materials.instruments['baritone saxophone'],
+            khamr.instruments['baritone saxophone'],
             )
         abjad.annotate(
             saxophone_music_staff,
@@ -427,7 +427,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             guitar_music_staff,
             'default_instrument',
-            khamr.materials.instruments['guitar'],
+            khamr.instruments['guitar'],
             )
         abjad.annotate(
             guitar_music_staff,
@@ -450,7 +450,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             piano_music_staff,
             'default_instrument',
-            khamr.materials.instruments['piano'],
+            khamr.instruments['piano'],
             )
         abjad.annotate(
             piano_music_staff,
@@ -473,7 +473,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             percussion_music_staff,
             'default_instrument',
-            khamr.materials.instruments['percussion'],
+            khamr.instruments['percussion'],
             )
         abjad.annotate(
             percussion_music_staff,
@@ -506,7 +506,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             violin_music_staff,
             'default_instrument',
-            khamr.materials.instruments['violin'],
+            khamr.instruments['violin'],
             )
         abjad.annotate(
             violin_music_staff,
@@ -529,7 +529,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             viola_music_staff,
             'default_instrument',
-            khamr.materials.instruments['viola'],
+            khamr.instruments['viola'],
             )
         abjad.annotate(
             violin_music_staff,
@@ -552,7 +552,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             cello_music_staff,
             'default_instrument',
-            khamr.materials.instruments['cello'],
+            khamr.instruments['cello'],
             )
         abjad.annotate(
             cello_music_staff,
@@ -575,7 +575,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         abjad.annotate(
             contrabass_music_staff,
             'default_instrument',
-            khamr.materials.instruments['contrabass'],
+            khamr.instruments['contrabass'],
             )
         abjad.annotate(
             contrabass_music_staff,

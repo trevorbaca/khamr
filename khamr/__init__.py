@@ -8,7 +8,8 @@ if not (
     raise ImportError('Requires Python 3.5.')
 del distutils
 del platform
-from khamr import tools
+
+from khamr.tools import *
 from khamr.tools import MarkupLibrary as markup
-from khamr import materials
+from khamr.materials import *
 from khamr import segments

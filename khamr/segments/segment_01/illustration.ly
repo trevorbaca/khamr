@@ -858,6 +858,7 @@
                             #10
                             Gt.
                         }
+                    \clef "treble"
                     \override NoteHead.style = #'cross
                     cs'4 \f - \markup { "cross noteheads indicate half-harmonics" }
                     r4
@@ -1774,6 +1775,7 @@
                             #10
                             Perc.
                         }
+                    \clef "percussion"
                     \override Stem.direction = #down
                     c'2 -\accent \mp
                         ^ \markup {

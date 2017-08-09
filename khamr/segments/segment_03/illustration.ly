@@ -161,6 +161,7 @@
             \context TimeSignatureContextSkips = "Time Signature Context Skips" {
                 {
                     \time 2/4
+                    \tempo 4=126
                     \mark #2
                     s1 * 1/2
                 }

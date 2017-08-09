@@ -16,7 +16,7 @@ class RhythmMaker(abjad.AbjadObject):
 
         ::
 
-            >>> music_maker = khamr.tools.RhythmMaker(
+            >>> music_maker = khamr.RhythmMaker(
             ...     voice_name='Cello Music Voice',
             ...     stages=(1, 4),
             ...     division_maker=baca.FuseByCountsDivisionCallback(
@@ -189,7 +189,7 @@ class RhythmMaker(abjad.AbjadObject):
         import khamr
         message = 'can not attach {!r} to {}.'
         message = message.format(instrument, effective_staff_name)
-        allowable_instruments = khamr.materials.score_setup[
+        allowable_instruments = khamr.score_setup[
             effective_staff_name]
         if not isinstance(instrument, allowable_instruments):
             raise Exception(message)

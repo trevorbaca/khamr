@@ -23,22 +23,22 @@ cb = 'Contrabass Music Voice'
 ###############################################################################
 
 segment_maker = baca.SegmentMaker(
-    final_markup=khamr.tools.make_final_markup(),
+    final_markup=khamr.make_final_markup(),
     final_markup_extra_offset=(24, -4),
     ignore_repeat_pitch_classes=True,
-    instruments=khamr.materials.instruments,
+    instruments=khamr.instruments,
     label_stages=False,
     measures_per_stage=[
         3, 2, 2, 2, 2, 2, 2, 5,     # stages 1-8
         ],
-    metronome_marks=khamr.materials.tempi,
-    score_template=khamr.tools.ScoreTemplate(),
+    metronome_marks=khamr.tempi,
+    score_template=khamr.ScoreTemplate(),
     tempo_specifier=[
-        #(1, khamr.materials.tempi[42]),
+        #(1, khamr.tempi[42]),
         (4, abjad.Accelerando()),
-        (8, khamr.materials.tempi[84]),
+        (8, khamr.tempi[84]),
         ],
-    time_signatures=khamr.materials.time_signatures[:20],
+    time_signatures=khamr.time_signatures[:20],
     transpose_score=True,
     )
 
@@ -56,7 +56,7 @@ segment_maker.append_commands(
     fl,
     baca.select_stages(1, 7),
     baca.RhythmSpecifier(
-        division_maker=khamr.tools.make_beat_division_maker()
+        division_maker=khamr.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[8],
                 )
@@ -83,7 +83,7 @@ segment_maker.append_commands(
     ob,
     baca.select_stages(1, 7),
     baca.RhythmSpecifier(
-        division_maker=khamr.tools.make_beat_division_maker()
+        division_maker=khamr.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[10],
                 )
@@ -118,7 +118,7 @@ segment_maker.append_commands(
     sax,
     baca.select_stages(1, 7),
     baca.RhythmSpecifier(
-        division_maker=khamr.tools.make_beat_division_maker()
+        division_maker=khamr.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[12],
                 )
@@ -291,7 +291,7 @@ segment_maker.append_commands(
     baca.select_stages(1, 7),
     baca.clef('percussion'),
     baca.RhythmSpecifier(
-        division_maker=khamr.tools.make_beat_division_maker()
+        division_maker=khamr.make_beat_division_maker()
             .fuse_by_counts(
                 counts=abjad.Infinity,
                 )
@@ -315,7 +315,7 @@ segment_maker.append_commands(
     baca.select_stages(1, 7),
     baca.clef('percussion'),
     baca.RhythmSpecifier(
-        division_maker=khamr.tools.make_beat_division_maker()
+        division_maker=khamr.make_beat_division_maker()
             .fuse_by_counts(
                 counts=abjad.Infinity,
                 )
@@ -339,7 +339,7 @@ segment_maker.append_commands(
     baca.select_stages(1, 7),
     baca.clef('percussion'),
     baca.RhythmSpecifier(
-        division_maker=khamr.tools.make_beat_division_maker()
+        division_maker=khamr.make_beat_division_maker()
             .fuse_by_counts(
                 counts=abjad.Infinity,
                 )
@@ -363,7 +363,7 @@ segment_maker.append_commands(
     baca.select_stages(1, 7),
     baca.clef('percussion'),
     baca.RhythmSpecifier(
-        division_maker=khamr.tools.make_beat_division_maker()
+        division_maker=khamr.make_beat_division_maker()
             .fuse_by_counts(
                 counts=abjad.Infinity,
                 )
