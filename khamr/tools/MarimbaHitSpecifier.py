@@ -16,7 +16,7 @@ class MarimbaHitSpecifier(abjad.AbjadObject):
 
         ::
 
-            >>> specifier = khamr.tools.MarimbaHitSpecifier(
+            >>> specifier = khamr.MarimbaHitSpecifier(
             ...     indices=[3, 9],
             ...     )
 
