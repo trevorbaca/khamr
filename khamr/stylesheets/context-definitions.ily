@@ -3,7 +3,7 @@
 
 \layout {
     \context {
-        \name TimeSignatureContext
+        \name GlobalContext
         \type Engraver_group
         \consists Axis_group_engraver
         \consists Bar_number_engraver
@@ -252,7 +252,7 @@
     }
     \context {
         \Score
-        \accepts TimeSignatureContext
+        \accepts GlobalContext
         \accepts WindSectionStaffGroup
         \accepts PercussionSectionStaffGroup
         \accepts StringSectionStaffGroup
