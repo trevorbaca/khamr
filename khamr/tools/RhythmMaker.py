@@ -136,7 +136,7 @@ class RhythmMaker(abjad.AbjadObject):
                 scope=Staff,
                 )
         if self.clef is not None:
-            attach(self.clef, first_leaf, scope=Staff)
+            abjad.attach(self.clef, first_leaf, scope=Staff)
         if self.staff_line_count is not None:
             self._set_staff_line_count(first_leaf, self.staff_line_count)
         elif self.clef == abjad.Clef('percussion'):
@@ -179,7 +179,7 @@ class RhythmMaker(abjad.AbjadObject):
         attach(instrument, component, scope=scope)
 
     def _attach_untuned_percussion_markup(self, leaf):
-        name = self.instrument.instrument_name
+        name = self.instrument.name
         name = name.lower()
         markup = markup.Markup(name, direction=Up)
         markup = markup.box().override(('box-padding', 0.5))
