@@ -7,125 +7,125 @@ percussion_instruments = abjad.TypedOrderedDict([
     (
         'almglocken', 
         abjad.instrumenttools.Percussion(
-            instrument_name_markup=baca.markup.instrument_name('almglocken'),
-            short_instrument_name_markup=\
-                baca.markup.short_instrument_name('alm.'),
+            name_markup=baca.markup.instrument('almglocken'),
+            short_name_markup=\
+                baca.markup.short_instrument('alm.'),
             )
         ),
     (
         'bass drum', 
         abjad.instrumenttools.Percussion(
-            instrument_name_markup=baca.markup.instrument_name('Bass drum'),
-            short_instrument_name_markup=\
-                baca.markup.short_instrument_name('BD'),
+            name_markup=baca.markup.instrument('Bass drum'),
+            short_name_markup=\
+                baca.markup.short_instrument('BD'),
             )
         ),
     (
         'castanets', 
         abjad.instrumenttools.Percussion(
-            instrument_name_markup=baca.markup.instrument_name('castanets'),
-            short_instrument_name_markup=\
-                baca.markup.short_instrument_name('cast.'),
+            name_markup=baca.markup.instrument('castanets'),
+            short_name_markup=\
+                baca.markup.short_instrument('cast.'),
             )
         ),
     (
         'caxixi', 
         abjad.instrumenttools.Percussion(
-            instrument_name_markup=baca.markup.instrument_name('caxixi'),
-            short_instrument_name_markup=\
-                baca.markup.short_instrument_name('cxi.'),
+            name_markup=baca.markup.instrument('caxixi'),
+            short_name_markup=\
+                baca.markup.short_instrument('cxi.'),
             )
         ),
     (
         'guiro', 
         abjad.instrumenttools.Percussion(
-            instrument_name_markup=baca.markup.instrument_name('Guiro'),
-            short_instrument_name_markup=\
-                baca.markup.short_instrument_name('gro.'),
+            name_markup=baca.markup.instrument('Guiro'),
+            short_name_markup=\
+                baca.markup.short_instrument('gro.'),
             )
         ),
     (
         'large China cymbal', 
         abjad.instrumenttools.Percussion(
-            instrument_name_markup=\
-                baca.markup.instrument_name('Large China cymbal'),
-            short_instrument_name_markup=\
-                baca.markup.short_instrument_name('Ch. cym. (L)'),
+            name_markup=\
+                baca.markup.instrument('Large China cymbal'),
+            short_name_markup=\
+                baca.markup.short_instrument('Ch. cym. (L)'),
             )
         ),
     (
         'large tam-tam', 
         abjad.instrumenttools.Percussion(
-            instrument_name_markup=\
-                baca.markup.instrument_name('Large tam-tam'),
-            short_instrument_name_markup=\
-                baca.markup.short_instrument_name('tam. (L)'),
+            name_markup=\
+                baca.markup.instrument('Large tam-tam'),
+            short_name_markup=\
+                baca.markup.short_instrument('tam. (L)'),
             )
         ),
     (
         'maracas', 
         abjad.instrumenttools.Percussion(
-            instrument_name_markup=baca.markup.instrument_name('maracas'),
-            short_instrument_name_markup=\
-                baca.markup.short_instrument_name('mrcs.'),
+            name_markup=baca.markup.instrument('maracas'),
+            short_name_markup=\
+                baca.markup.short_instrument('mrcs.'),
             )
         ),
     (
         'marimba', 
         abjad.instrumenttools.Marimba(
-            instrument_name_markup=baca.markup.instrument_name('Marimba'),
-            short_instrument_name_markup=\
-                baca.markup.short_instrument_name('Mb.'),
+            name_markup=baca.markup.instrument('Marimba'),
+            short_name_markup=\
+                baca.markup.short_instrument('Mb.'),
             )
         ),
     (
         'snare drum', 
         abjad.instrumenttools.Percussion(
-            instrument_name_markup=baca.markup.instrument_name('Snare drum'),
-            short_instrument_name_markup=\
-                baca.markup.short_instrument_name('SD'),
+            name_markup=baca.markup.instrument('Snare drum'),
+            short_name_markup=\
+                baca.markup.short_instrument('SD'),
             )
         ),
     (
         'Tibetan bowl', 
         abjad.instrumenttools.Percussion(
-            instrument_name_markup=baca.markup.instrument_name('Tibetan bowl'),
-            short_instrument_name_markup=\
-                baca.markup.short_instrument_name('Tib. bowl'),
+            name_markup=baca.markup.instrument('Tibetan bowl'),
+            short_name_markup=\
+                baca.markup.short_instrument('Tib. bowl'),
             )
         ),
     (
         'triangle', 
         abjad.instrumenttools.Percussion(
-            instrument_name_markup=baca.markup.instrument_name('Triangle'),
-            short_instrument_name_markup=\
-                baca.markup.short_instrument_name('tri.'),
+            name_markup=baca.markup.instrument('Triangle'),
+            short_name_markup=\
+                baca.markup.short_instrument('tri.'),
             )
         ),
     (
         'very large China cymbal', 
         abjad.instrumenttools.Percussion(
-            instrument_name_markup=\
-                baca.markup.instrument_name('Very large China cymbal'),
-            short_instrument_name_markup=\
-                baca.markup.short_instrument_name('Ch. cym. (XL)'),
+            name_markup=\
+                baca.markup.instrument('Very large China cymbal'),
+            short_name_markup=\
+                baca.markup.short_instrument('Ch. cym. (XL)'),
             )
         ),
     (
         'very large tam-tam', 
         abjad.instrumenttools.Percussion(
-            instrument_name_markup=\
-                baca.markup.instrument_name('Very large tam-tam'),
-            short_instrument_name_markup=\
-                baca.markup.short_instrument_name('tam. (XL)'),
+            name_markup=\
+                baca.markup.instrument('Very large tam-tam'),
+            short_name_markup=\
+                baca.markup.short_instrument('tam. (XL)'),
             )
         ),
     (
         'whirly tube', 
         abjad.instrumenttools.Percussion(
-            instrument_name_markup=baca.markup.instrument_name('Whirly tube'),
-            short_instrument_name_markup=\
-                baca.markup.short_instrument_name('whr. tube'),
+            name_markup=baca.markup.instrument('Whirly tube'),
+            short_name_markup=\
+                baca.markup.short_instrument('whr. tube'),
             )
         ),
     ])
