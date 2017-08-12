@@ -59,8 +59,7 @@ segment_maker.append_commands(
         division_maker=khamr.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[8],
-                )
-            ,
+                ),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
             incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
@@ -86,8 +85,7 @@ segment_maker.append_commands(
         division_maker=khamr.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[10],
-                )
-            ,
+                ),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
             incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
@@ -121,8 +119,7 @@ segment_maker.append_commands(
         division_maker=khamr.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[12],
-                )
-            ,
+                ),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
             incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
@@ -185,8 +182,7 @@ segment_maker.append_commands(
                 )
             .split_by_durations(
                 durations=[(2, 4), (4, 4), (12, 4)],
-                )
-            ,
+                ),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[
@@ -245,8 +241,7 @@ segment_maker.append_commands(
                 )
             .split_by_durations(
                 durations=[(2, 4), (4, 4), (12, 4)],
-                )
-            ,
+                ),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[
@@ -277,7 +272,7 @@ segment_maker.append_commands(
             )
         ),
     )
-    
+
 segment_maker.append_commands(
     perc,
     baca.select_stages(4, 7),
@@ -297,8 +292,7 @@ segment_maker.append_commands(
                 )
             .split_by_durations(
                 durations=[(7, 4)]
-                )
-            ,
+                ),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
@@ -321,8 +315,7 @@ segment_maker.append_commands(
                 )
             .split_by_durations(
                 durations=[(6, 4)]
-                )
-            ,
+                ),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
@@ -345,8 +338,7 @@ segment_maker.append_commands(
                 )
             .split_by_durations(
                 durations=[(5, 4)]
-                )
-            ,
+                ),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
@@ -369,8 +361,7 @@ segment_maker.append_commands(
                 )
             .split_by_durations(
                 durations=[(4, 4)]
-                )
-            ,
+                ),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(

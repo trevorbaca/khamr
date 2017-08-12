@@ -30,7 +30,7 @@ segment_maker = baca.SegmentMaker(
         ],
     metronome_marks=khamr.tempi,
     score_template=khamr.ScoreTemplate(),
-    tempo_specifier = [
+    tempo_specifier=[
         (1, khamr.tempi[42]),
         (1, abjad.Accelerando()),
         (2, khamr.tempi[84]),
@@ -60,9 +60,9 @@ stage_4_silence_mask = abjad.rhythmmakertools.SilenceMask(
 
 stage_5_silence_mask = abjad.rhythmmakertools.SilenceMask(
     pattern=abjad.index([
-        0, 
-        2, 
-        4, 5, 
+        0,
+        2,
+        4, 5,
         7, 8, 9,
         11,
         13,
@@ -90,8 +90,7 @@ segment_maker.append_commands(
         division_maker=khamr.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[10, 10, 6, 10, 8, 6],
-                )
-            ,
+                ),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
             incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
@@ -155,8 +154,7 @@ segment_maker.append_commands(
         division_maker=khamr.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[12, 6, 10, 10, 6, 8],
-                )
-            ,
+                ),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
             incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
@@ -195,8 +193,7 @@ segment_maker.append_commands(
         division_maker=khamr.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[8, 6, 10, 6, 10, 8],
-                )
-            ,
+                ),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
             incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
@@ -236,8 +233,7 @@ segment_maker.append_commands(
         division_maker=khamr.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[14, 6, 10, 6, 10, 8],
-                )
-            ,
+                ),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
             incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
@@ -369,8 +365,7 @@ segment_maker.append_commands(
         division_maker=khamr.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[8, 20, 4, 20],
-                )
-            ,
+                ),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
@@ -389,8 +384,7 @@ segment_maker.append_commands(
                 compound_meter_multiplier=abjad.Multiplier(3, 2),
                 durations=[(1, 4)],
                 )
-            .flatten()
-            ,
+            .flatten(),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[
@@ -609,7 +603,7 @@ segment_maker.append_commands(
     baca.select_stages(1, 2),
     baca.pitches(
         source=[abjad.PitchSegment(
-            items=[abjad.NamedPitch('A4'), abjad.NamedPitch('E5')], 
+            items=[abjad.NamedPitch('A4'), abjad.NamedPitch('E5')],
             item_class=abjad.NamedPitch,
             )],
         ),
@@ -645,7 +639,7 @@ segment_maker.append_commands(
     baca.select_stages(1, 2),
     baca.pitches(
         source=[abjad.PitchSegment(
-            items=[abjad.NamedPitch('F3'), abjad.NamedPitch('G+3')], 
+            items=[abjad.NamedPitch('F3'), abjad.NamedPitch('G+3')],
             item_class=abjad.NamedPitch,
             )],
         ),
@@ -705,7 +699,7 @@ segment_maker.append_commands(
     baca.pitches(
         source=[abjad.PitchSegment(
             items=[
-                abjad.NamedPitch('A0'), 
+                abjad.NamedPitch('A0'),
                 abjad.NamedPitch('B0'),
                 abjad.NamedPitch('C1'),
                 abjad.NamedPitch('D1'),
@@ -713,7 +707,7 @@ segment_maker.append_commands(
                 abjad.NamedPitch('F1'),
                 abjad.NamedPitch('G1'),
                 abjad.NamedPitch('A1'),
-                ], 
+                ],
             item_class=abjad.NamedPitch,
             )],
         ),
@@ -743,9 +737,9 @@ segment_maker.append_commands(
     baca.pitches('C4 C4 Ab5 C4 C4 C4'),
     baca.stems_down(),
     # TODO: make work again:
-#    khamr.MarimbaHitSpecifier(
-#        indices=[2],
-#        ),
+    #khamr.MarimbaHitSpecifier(
+    #    indices=[2],
+    #    ),
     )
 
 segment_maker.append_commands(
@@ -754,9 +748,9 @@ segment_maker.append_commands(
     baca.pitches('Ab5'),
     baca.stems_down(),
     # TODO: make work again
-#    khamr.MarimbaHitSpecifier(
-#        indices=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-#        ),
+    #khamr.MarimbaHitSpecifier(
+    #    indices=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    #    ),
     )
 
 ### VIOLIN ###
@@ -895,7 +889,7 @@ segment_maker.append_commands(
     baca.markup.arco_ordinario(),
     baca.pitches(
         source=[abjad.PitchSegment(
-            items=[abjad.NamedPitch('G0'), abjad.NamedPitch('A1')], 
+            items=[abjad.NamedPitch('G0'), abjad.NamedPitch('A1')],
             item_class=abjad.NamedPitch,
             )],
         ),
