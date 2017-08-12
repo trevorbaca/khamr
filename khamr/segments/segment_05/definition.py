@@ -34,7 +34,7 @@ segment_maker = baca.SegmentMaker(
         ],
     metronome_marks=khamr.tempi,
     score_template=khamr.ScoreTemplate(),
-    tempo_specifier = [
+    tempo_specifier=[
         (1, khamr.tempi[126]),
         (4, abjad.Ritardando()),
         (6, khamr.tempi[32]),
@@ -275,8 +275,7 @@ segment_maker.append_commands(
             .flatten()
             .fuse_by_counts(
                 counts=[10, 4, 14, 10, 4, 8],
-                )
-            ,
+                ),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=abjad.silence_every([1, 4], period=5),

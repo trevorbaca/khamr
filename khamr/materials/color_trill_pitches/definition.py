@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 import abjad
-import baca
 
 
-color_trill_pitches = r''' 
+color_trill_pitches = r'''
     F4 F#4 F+4 F4 F+4 F4 E4 E+4 E4 E+4 F4 F+4 F#4 F+4 F#4 F#+4 F#4 E+4
     '''
 color_trill_pitches = color_trill_pitches.split()
