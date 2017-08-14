@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import abjad
 from khamr.materials.contrabass_halo_pitches.definition import \
     contrabass_halo_pitches
