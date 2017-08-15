@@ -1,5 +1,4 @@
 import abjad
-import itertools
 
 
 class MarimbaHitSpecifier(abjad.AbjadObject):
@@ -20,7 +19,7 @@ class MarimbaHitSpecifier(abjad.AbjadObject):
             ...     )
 
         ::
-            
+
             >>> print(format(specifier))
             khamr.tools.MarimbaHitSpecifier(
                 attach_first_markup=False,
@@ -51,16 +50,16 @@ class MarimbaHitSpecifier(abjad.AbjadObject):
     def __call__(self, logical_ties, timespan):
         found_first = False
         for logical_tie_index, logical_tie in enumerate(logical_ties):
-            if not logical_tie_index in self.indices:
+            if logical_tie_index not in self.indices:
                 continue
             five_line_spanner = abjad.StaffLinesSpanner(lines=5)
-            attach(five_line_spanner, logical_tie)
+            abjad.attach(five_line_spanner, logical_tie)
             if self.attach_first_markup and not found_first:
                 string = 'marimba + woodblock'
                 markup = abjad.Markup(string, direction=Up)
                 markup = markup.box().override(('box-padding', 0.75))
                 markup = markup.larger()
-                attach(markup, logical_tie.head)
+                abjad.attach(markup, logical_tie.head)
                 found_first = True
             dynamic = abjad.Dynamic('sfz')
             abjad.detach(abjad.Articulation, logical_tie.head)
@@ -68,8 +67,8 @@ class MarimbaHitSpecifier(abjad.AbjadObject):
             articulation = abjad.Articulation('marcato')
             abjad.attach(articulation, logical_tie.head)
             clef = abjad.Clef('treble')
-            attach(clef, logical_tie.head)
-            next_leaf = inspect_(logical_tie.tail).get_leaf(1)
+            abjad.attach(clef, logical_tie.head)
+            next_leaf = abjad.inspect(logical_tie.tail).get_leaf(1)
             if next_leaf is not None:
                 clef = abjad.Clef('percussion')
                 abjad.attach(clef, next_leaf)

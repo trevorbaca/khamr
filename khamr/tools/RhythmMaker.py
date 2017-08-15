@@ -1,5 +1,6 @@
 import abjad
 import baca
+import khamr
 
 
 class RhythmMaker(abjad.AbjadObject):
@@ -72,7 +73,7 @@ class RhythmMaker(abjad.AbjadObject):
 
     _publish_storage_format = True
 
-    ### INITIALIZER ###    
+    ### INITIALIZER ###
 
     def __init__(
         self,
@@ -91,8 +92,8 @@ class RhythmMaker(abjad.AbjadObject):
         ):
         self.clef = clef
         self.voice_name = voice_name
-        if (not 'Maker' in division_maker.__class__.__name__ and
-            not 'DivisionCallback' in division_maker.__class__.__name__):
+        if ('Maker' not in division_maker.__class__.__name__ and
+            'DivisionCallback' not in division_maker.__class__.__name__):
             division_maker = baca.SplitByDurationsDivisionCallback(
                 durations=division_maker,
                 )
@@ -124,18 +125,18 @@ class RhythmMaker(abjad.AbjadObject):
             first_component = first_item[0]
         else:
             first_component = first_item
-        first_leaf = inspect_(first_component).get_leaf(0)
+        first_leaf = abjad.inspect(first_component).get_leaf(0)
         assert isinstance(first_leaf, abjad.Leaf), repr(first_leaf)
-        prototype = abjad.instrumenttools.Percussion
+        #prototype = abjad.instrumenttools.Percussion
         if self.instrument is not None:
             self._attach_instrument(
-                self.instrument, 
-                first_leaf, 
-                effective_staff_name, 
-                scope=Staff,
+                self.instrument,
+                first_leaf,
+                effective_staff_name,
+                scope=abjad.Staff,
                 )
         if self.clef is not None:
-            abjad.attach(self.clef, first_leaf, scope=Staff)
+            abjad.attach(self.clef, first_leaf, scope=abjad.Staff)
         if self.staff_line_count is not None:
             self._set_staff_line_count(first_leaf, self.staff_line_count)
         elif self.clef == abjad.Clef('percussion'):
@@ -160,7 +161,7 @@ class RhythmMaker(abjad.AbjadObject):
         if not self.rhythm_overwrites:
             keyword_argument_names = list(keyword_argument_names)
             keyword_argument_names.remove('rhythm_overwrites')
-        return systemtools.StorageFormatSpecification(
+        return abjad.StorageFormatSpecification(
             self,
             keyword_argument_names=keyword_argument_names,
             )
@@ -168,24 +169,23 @@ class RhythmMaker(abjad.AbjadObject):
     ### PRIVATE METHODS ###
 
     def _attach_instrument(
-        self, 
-        instrument, 
-        component, 
-        effective_staff_name, 
+        self,
+        instrument,
+        component,
+        effective_staff_name,
         scope=None,
         ):
         self._check_instrument(instrument, effective_staff_name)
-        attach(instrument, component, scope=scope)
+        abjad.attach(instrument, component, scope=scope)
 
     def _attach_untuned_percussion_markup(self, leaf):
         name = self.instrument.name
         name = name.lower()
-        markup = markup.Markup(name, direction=Up)
+        markup = abjad.Markup(name, direction=Up)
         markup = markup.box().override(('box-padding', 0.5))
-        attach(markup, leaf)
+        abjad.attach(markup, leaf)
 
     def _check_instrument(self, instrument, effective_staff_name):
-        import khamr
         message = 'can not attach {!r} to {}.'
         message = message.format(instrument, effective_staff_name)
         allowable_instruments = khamr.score_setup[
@@ -212,14 +212,14 @@ class RhythmMaker(abjad.AbjadObject):
         if self.split_at_measure_boundaries:
             specifier = abjad.rhythmmakertools.DurationSpellingSpecifier
             selections = specifier._split_at_measure_boundaries(
-                selections, 
+                selections,
                 time_signatures,
                 use_messiaen_style_ties=True,
                 )
         if self.rewrite_meter:
             specifier = abjad.rhythmmakertools.DurationSpellingSpecifier
             selections = specifier._rewrite_meter_(
-                selections, 
+                selections,
                 time_signatures,
                 reference_meters=self._khamr_meters,
                 rewrite_tuplets=False,
@@ -237,7 +237,7 @@ class RhythmMaker(abjad.AbjadObject):
         for rhythm_overwrite in self.rhythm_overwrites:
             selector, division_maker, rhythm_maker = rhythm_overwrite
             old_music_selection = selector(dummy_music_voice)
-            prototype = abjad.ContiguousSelection
+            #prototype = abjad.ContiguousSelection
             #if 1 < len(old_music_selection):
             if True:
                 old_music_selection = abjad.SliceSelection(old_music_selection)
@@ -262,18 +262,18 @@ class RhythmMaker(abjad.AbjadObject):
             #    old_component = old_music_selection[0]
             #    index = dummy_music_voice.index(old_component)
             #    dummy_music_voice[index:index+1] = new_music_selection
-        music = dummy_music_voice[:]
+        #music = dummy_music_voice[:]
         return dummy_music_voice
 
     def _set_staff_line_count(self, first_leaf, staff_line_count):
         command = abjad.LilyPondCommand('stopStaff')
-        attach(command, first_leaf)
+        abjad.attach(command, first_leaf)
         string = "override Staff.StaffSymbol #'line-count = #{}"
         string = string.format(staff_line_count)
         command = abjad.LilyPondCommand(string)
-        attach(command, first_leaf)
+        abjad.attach(command, first_leaf)
         command = abjad.LilyPondCommand('startStaff')
-        attach(command, first_leaf)
+        abjad.attach(command, first_leaf)
 
     ### PUBLIC PROPERTIES ###
 
@@ -345,8 +345,8 @@ class RhythmMaker(abjad.AbjadObject):
             self._stages = argument
         elif abjad.mathtools.is_positive_integer(argument):
             self._stages = (argument, argument)
-        elif (abjad.mathtools.all_are_positive_integers(argument)
-            and len(argument) == 2):
+        elif (abjad.mathtools.all_are_positive_integers(argument) and
+            len(argument) == 2):
             self._stages = tuple(argument)
         else:
             message = 'positive integer or pair of positive integers: {!r}.'
