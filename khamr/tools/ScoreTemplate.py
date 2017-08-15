@@ -9,6 +9,7 @@ class ScoreTemplate(baca.ScoreTemplate):
     ::
 
         >>> import khamr
+        >>> import pathlib
 
     ..  container:: example
 
