@@ -6,6 +6,7 @@ install_requires = (
     'abjad',
     )
 
+
 def main():
     setup(
         author='Trevor Bača',
