@@ -147,11 +147,11 @@ class RhythmMaker(abjad.AbjadObject):
 
     @property
     def _default_division_maker(self):
-        return baca.materials.full_measure_divisions
+        return baca.full_measure_divisions
 
     @property
     def _default_rhythm_maker(self):
-        return baca.materials.multimeasure_rests
+        return baca.multimeasure_rests
 
     @property
     def _storage_format_specification(self):
