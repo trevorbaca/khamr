@@ -1,6 +1,5 @@
 import abjad
 import baca
-import khamr
 
 
 class RhythmMaker(abjad.AbjadObject):
@@ -175,7 +174,6 @@ class RhythmMaker(abjad.AbjadObject):
         effective_staff_name,
         scope=None,
         ):
-        self._check_instrument(instrument, effective_staff_name)
         abjad.attach(instrument, component, scope=scope)
 
     def _attach_untuned_percussion_markup(self, leaf):
@@ -184,14 +182,6 @@ class RhythmMaker(abjad.AbjadObject):
         markup = abjad.Markup(name, direction=Up)
         markup = markup.box().override(('box-padding', 0.5))
         abjad.attach(markup, leaf)
-
-    def _check_instrument(self, instrument, effective_staff_name):
-        message = 'can not attach {!r} to {}.'
-        message = message.format(instrument, effective_staff_name)
-        allowable_instruments = khamr.score_setup[
-            effective_staff_name]
-        if not isinstance(instrument, allowable_instruments):
-            raise Exception(message)
 
     def _get_division_maker(self):
         if self.division_maker is not None:
