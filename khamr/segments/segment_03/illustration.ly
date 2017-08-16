@@ -3627,10 +3627,8 @@
                     }
                     bff'2. \fff \glissando
                     af'1 \glissando
-                    {
-                        bf2 \glissando
-                        eff'2. \glissando
-                    }
+                    bf2 \glissando
+                    eff'2. \glissando
                     df'2. \glissando
                     \times 2/3 {
                         ff'4 \glissando
@@ -3705,10 +3703,8 @@
                     }
                     bff'2. \glissando
                     ff'1 \glissando \< \pp
-                    {
-                        dff'4 \glissando
-                        cf'2 \glissando
-                    }
+                    dff'4 \glissando
+                    cf'2 \glissando
                     af'1 \glissando
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/7 {
@@ -3759,10 +3755,8 @@
                         gff'4 \glissando
                         gf'4. \glissando
                     }
-                    {
-                        bff'2 \glissando
-                        aff'4 \glissando
-                    }
+                    bff'2 \glissando
+                    aff'4 \glissando
                     \times 2/3 {
                         bff'2 \glissando
                         ef'1 \glissando
@@ -3775,11 +3769,9 @@
                         af'1 \glissando
                     }
                     bf1 \glissando
-                    {
-                        bff'2 \glissando
-                        ff'4
-                        \revert NoteHead.style
-                    }
+                    bff'2 \glissando
+                    ff'4
+                    \revert NoteHead.style
                     s1 * 31/4
                     \bar "|"
                 }
@@ -3789,20 +3781,16 @@
                 \context CelloMusicVoice = "Cello Music Voice" {
                     g2
                     g2 \repeatTie
-                    {
-                        \override NoteHead.style = #'harmonic
-                        gff'1 \p \glissando
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "estr. sul pont."
-                                }
-                        gf'2 \glissando
-                    }
-                    {
-                        bff'4 \glissando
-                        ff'2 \glissando
-                    }
+                    \override NoteHead.style = #'harmonic
+                    gff'1 \p \glissando
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "estr. sul pont."
+                            }
+                    gf'2 \glissando
+                    bff'4 \glissando
+                    ff'2 \glissando
                     dff'1 \glissando \< \pp
                     cf'2. \glissando
                     \times 4/5 {
@@ -3815,10 +3803,8 @@
                         gff'1 \glissando
                         aff'2 \f \glissando
                     }
-                    {
-                        bff'4 \fff \glissando
-                        af'2 \glissando
-                    }
+                    bff'4 \fff \glissando
+                    af'2 \glissando
                     \times 4/7 {
                         bf1 \glissando
                         eff'2. \glissando
