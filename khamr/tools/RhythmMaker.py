@@ -28,13 +28,13 @@ class RhythmMaker(abjad.AbjadObject):
         ::
 
             >>> f(music_maker)
-            khamr.tools.RhythmMaker(
+            khamr.RhythmMaker(
                 voice_name='Cello Music Voice',
-                division_maker=baca.tools.FuseByCountsDivisionCallback(
+                division_maker=baca.FuseByCountsDivisionCallback(
                     counts=[2, 3, 1],
                     ),
                 rewrite_meter=False,
-                rhythm_maker=rhythmmakertools.NoteRhythmMaker(),
+                rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
                 rhythm_overwrites=[],
                 split_at_measure_boundaries=False,
                 stages=(1, 4),

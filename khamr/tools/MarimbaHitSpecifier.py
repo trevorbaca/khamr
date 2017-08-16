@@ -21,7 +21,7 @@ class MarimbaHitSpecifier(abjad.AbjadObject):
         ::
 
             >>> print(format(specifier))
-            khamr.tools.MarimbaHitSpecifier(
+            khamr.MarimbaHitSpecifier(
                 attach_first_markup=False,
                 indices=[3, 9],
                 )
