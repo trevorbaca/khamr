@@ -1,0 +1,3 @@
+[submodule "khamr/test"]
+	path = khamr/test
+	url = https://github.com/trevorbaca/test.git
