@@ -807,193 +807,119 @@
             \tag strings.violin
             \context ViolinMusicStaff = "Violin Music Staff" {
                 \context ViolinMusicVoice = "Violin Music Voice" {
-                    {
-                        \pitchedTrill
-                        gf'4 -\accent \startTrillSpan aff'
-                    }
-                    {
-                        gf'4 \repeatTie
-                    }
+                    \pitchedTrill
+                    gf'2 -\accent \startTrillSpan aff'
                     \times 4/5 {
                         gf'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         g'4 -\accent \stopTrillSpan \startTrillSpan af'
                     }
-                    {
-                        g'4 \repeatTie
-                    }
-                    {
-                        g'4 \repeatTie
-                    }
+                    g'4 \repeatTie
+                    g'4 \repeatTie
                     \times 4/5 {
                         g'8 \repeatTie [
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         gqf'8. -\accent ] \stopTrillSpan \startTrillSpan atqf'
                     }
-                    {
-                        gqf'4 \repeatTie
-                    }
-                    {
-                        gqf'4 \repeatTie
-                    }
+                    gqf'4 \repeatTie
+                    gqf'4 \repeatTie
                     \times 4/5 {
                         gqf'8. \repeatTie [
                         \pitchedTrill
                         gf'8 -\accent ] \stopTrillSpan \startTrillSpan aff'
                     }
-                    {
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        gf'4 \repeatTie
-                    }
-                    {
-                        gf'4 \repeatTie
-                    }
+                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                    gf'4 \repeatTie
+                    gf'4 \repeatTie
                     \times 4/5 {
                         gf'4 \repeatTie
                         \pitchedTrill
                         gqf'16 -\accent \stopTrillSpan \startTrillSpan atqf'
                     }
-                    {
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        gqf'4 \repeatTie
-                    }
-                    {
-                        gqf'4 \repeatTie
-                    }
+                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                    gqf'4 \repeatTie
+                    gqf'4 \repeatTie
                     \times 4/5 {
                         gqf'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         g'4 -\accent \stopTrillSpan \startTrillSpan af'
                     }
-                    {
-                        g'4 \repeatTie
-                    }
-                    {
-                        g'4 \repeatTie
-                    }
+                    g'2 \repeatTie
                     \times 4/5 {
                         g'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         gs'4 -\accent \stopTrillSpan \startTrillSpan a'
                     }
-                    {
-                        gs'4 \repeatTie
-                    }
-                    {
-                        gs'4 \repeatTie
-                    }
+                    gs'2 \repeatTie
                     \times 4/5 {
                         gs'8 \repeatTie [
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         gqs'8. -\accent ] \stopTrillSpan \startTrillSpan aqf'
                     }
-                    {
-                        gqs'4 \repeatTie
-                    }
-                    {
-                        gqs'4 \repeatTie
-                    }
+                    gqs'2 \repeatTie
                     \times 4/5 {
                         gqs'8. \repeatTie [
                         \pitchedTrill
                         g'8 -\accent ] \stopTrillSpan \startTrillSpan af'
                     }
-                    {
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'4 \repeatTie
-                    }
-                    {
-                        g'4 \repeatTie
-                    }
+                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                    g'2 \repeatTie
                     \times 4/5 {
                         g'4 \repeatTie
                         \pitchedTrill
                         gqs'16 -\accent \stopTrillSpan \startTrillSpan aqf'
                     }
-                    {
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        gqs'4 \repeatTie
-                    }
-                    {
-                        gqs'4 \repeatTie
-                    }
+                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                    gqs'2 \repeatTie
                     \times 4/5 {
                         gqs'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         af'4 -\accent \stopTrillSpan \startTrillSpan bff'
                     }
-                    {
-                        af'4 \repeatTie
-                    }
-                    {
-                        af'4 \repeatTie
-                    }
+                    af'2 \repeatTie
                     \times 4/5 {
                         af'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         a'4 -\accent \stopTrillSpan \startTrillSpan bf'
                     }
-                    {
-                        a'4 \repeatTie
-                    }
-                    {
-                        a'4 \repeatTie
-                    }
+                    a'2 \repeatTie
                     \times 4/5 {
                         a'8 \repeatTie [
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         aqf'8. -\accent ] \stopTrillSpan \startTrillSpan btqf'
                     }
-                    {
-                        aqf'4 \repeatTie
-                    }
-                    {
-                        aqf'4 \repeatTie
-                    }
+                    aqf'2 \repeatTie
                     \times 4/5 {
                         aqf'8. \repeatTie [
                         \pitchedTrill
                         af'8 -\accent ] \stopTrillSpan \startTrillSpan bff'
                     }
-                    {
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        af'4 \repeatTie
-                    }
-                    {
-                        af'4 \repeatTie
-                    }
+                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                    af'4 \repeatTie
+                    af'4 \repeatTie
                     \times 4/5 {
                         af'4 \repeatTie
                         \pitchedTrill
                         aqf'16 -\accent \stopTrillSpan \startTrillSpan btqf'
                     }
-                    {
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        aqf'4 \repeatTie
-                    }
-                    {
-                        aqf'4 \repeatTie
-                    }
+                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                    aqf'4 \repeatTie
+                    aqf'4 \repeatTie
                     \times 4/5 {
                         aqf'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         af'4 -\accent \stopTrillSpan \startTrillSpan bff'
                     }
-                    {
-                        af'4 \repeatTie
-                    }
-                    {
-                        af'4 \repeatTie
-                    }
+                    af'2 \repeatTie
                     \times 4/5 {
                         af'16 \repeatTie
                         \pitchedTrill
@@ -1029,181 +955,92 @@
             \tag strings.viola
             \context ViolaMusicStaff = "Viola Music Staff" {
                 \context ViolaMusicVoice = "Viola Music Voice" {
-                    {
-                        \pitchedTrill
-                        f'4 -\accent \startTrillSpan gf'
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
+                    \pitchedTrill
+                    f'2 -\accent \startTrillSpan gf'
+                    f'4 \repeatTie
                     \times 4/5 {
                         f'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         fs'4 -\accent \stopTrillSpan \startTrillSpan g'
                     }
-                    {
-                        fs'4 \repeatTie
-                    }
-                    {
-                        fs'4 \repeatTie
-                    }
-                    {
-                        fs'4 \repeatTie
-                    }
+                    fs'2. \repeatTie
                     \times 4/5 {
                         fs'8 \repeatTie [
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         fqs'8. -\accent ] \stopTrillSpan \startTrillSpan gqf'
                     }
-                    {
-                        fqs'4 \repeatTie
-                    }
-                    {
-                        fqs'4 \repeatTie
-                    }
-                    {
-                        fqs'4 \repeatTie
-                    }
+                    fqs'2 \repeatTie
+                    fqs'4 \repeatTie
                     \times 4/5 {
                         fqs'8. \repeatTie [
                         \pitchedTrill
                         f'8 -\accent ] \stopTrillSpan \startTrillSpan gf'
                     }
-                    {
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
+                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                    f'4 \repeatTie
+                    f'2 \repeatTie
                     \times 4/5 {
                         f'4 \repeatTie
                         \pitchedTrill
                         gf'16 -\accent \stopTrillSpan \startTrillSpan aff'
                     }
-                    {
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        gf'4 \repeatTie
-                    }
-                    {
-                        gf'4 \repeatTie
-                    }
-                    {
-                        gf'4 \repeatTie
-                    }
+                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                    gf'4 \repeatTie
+                    gf'2 \repeatTie
                     \times 4/5 {
                         gf'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         g'4 -\accent \stopTrillSpan \startTrillSpan af'
                     }
-                    {
-                        g'4 \repeatTie
-                    }
-                    {
-                        g'4 \repeatTie
-                    }
-                    {
-                        g'4 \repeatTie
-                    }
+                    g'2. \repeatTie
                     \times 4/5 {
                         g'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         gqf'4 -\accent \stopTrillSpan \startTrillSpan atqf'
                     }
-                    {
-                        gqf'4 \repeatTie
-                    }
-                    {
-                        gqf'4 \repeatTie
-                    }
-                    {
-                        gqf'4 \repeatTie
-                    }
+                    gqf'2. \repeatTie
                     \times 4/5 {
                         gqf'8 \repeatTie [
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         gf'8. -\accent ] \stopTrillSpan \startTrillSpan aff'
                     }
-                    {
-                        gf'4 \repeatTie
-                    }
-                    {
-                        gf'4 \repeatTie
-                    }
-                    {
-                        gf'4 \repeatTie
-                    }
+                    gf'4 \repeatTie
+                    gf'2 \repeatTie
                     \times 4/5 {
                         gf'8. \repeatTie [
                         \pitchedTrill
                         g'8 -\accent ] \stopTrillSpan \startTrillSpan af'
                     }
-                    {
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        g'4 \repeatTie
-                    }
-                    {
-                        g'4 \repeatTie
-                    }
-                    {
-                        g'4 \repeatTie
-                    }
+                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                    g'4 \repeatTie
+                    g'2 \repeatTie
                     \times 4/5 {
                         g'4 \repeatTie
                         \pitchedTrill
                         gs'16 -\accent \stopTrillSpan \startTrillSpan a'
                     }
-                    {
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        gs'4 \repeatTie
-                    }
-                    {
-                        gs'4 \repeatTie
-                    }
-                    {
-                        gs'4 \repeatTie
-                    }
+                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                    gs'2. \repeatTie
                     \times 4/5 {
                         gs'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         gqs'4 -\accent \stopTrillSpan \startTrillSpan aqf'
                     }
-                    {
-                        gqs'4 \repeatTie
-                    }
-                    {
-                        gqs'4 \repeatTie
-                    }
-                    {
-                        gqs'4 \repeatTie
-                    }
+                    gqs'2. \repeatTie
                     \times 4/5 {
                         gqs'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         g'4 -\accent \stopTrillSpan \startTrillSpan af'
                     }
-                    {
-                        g'4 \repeatTie
-                    }
-                    {
-                        g'4 \repeatTie
-                    }
-                    {
-                        g'4 \repeatTie
-                    }
+                    g'4 \repeatTie
+                    g'2 \repeatTie
                     \times 4/5 {
                         g'8 \repeatTie [
                         \pitchedTrill
@@ -1239,103 +1076,47 @@
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
                 \context CelloMusicVoice = "Cello Music Voice" {
-                    {
-                        \pitchedTrill
-                        f'4 -\accent \startTrillSpan gf'
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
+                    \pitchedTrill
+                    f'2 -\accent \startTrillSpan gf'
+                    f'2 \repeatTie
                     \times 4/5 {
                         f'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         fs'4 -\accent \stopTrillSpan \startTrillSpan g'
                     }
-                    {
-                        fs'4 \repeatTie
-                    }
-                    {
-                        fs'4 \repeatTie
-                    }
-                    {
-                        fs'4 \repeatTie
-                    }
-                    {
-                        fs'4 \repeatTie
-                    }
+                    fs'2 \repeatTie
+                    fs'2 \repeatTie
                     \times 4/5 {
                         fs'8 \repeatTie [
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         fqs'8. -\accent ] \stopTrillSpan \startTrillSpan gqf'
                     }
-                    {
-                        fqs'4 \repeatTie
-                    }
-                    {
-                        fqs'4 \repeatTie
-                    }
-                    {
-                        fqs'4 \repeatTie
-                    }
-                    {
-                        fqs'4 \repeatTie
-                    }
+                    fqs'2. \repeatTie
+                    fqs'4 \repeatTie
                     \times 4/5 {
                         fqs'8. \repeatTie [
                         \pitchedTrill
                         f'8 -\accent ] \stopTrillSpan \startTrillSpan gf'
                     }
-                    {
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
+                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                    f'2 \repeatTie
+                    f'2 \repeatTie
                     \times 4/5 {
                         f'4 \repeatTie
                         \pitchedTrill
                         fqs'16 -\accent \stopTrillSpan \startTrillSpan gqf'
                     }
-                    {
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        fqs'4 \repeatTie
-                    }
-                    {
-                        fqs'4 \repeatTie
-                    }
-                    {
-                        fqs'4 \repeatTie
-                    }
-                    {
-                        fqs'4 \repeatTie
-                    }
+                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                    fqs'1 \repeatTie
                     \times 4/5 {
                         fqs'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         f'4 -\accent \stopTrillSpan \startTrillSpan gf'
                     }
-                    {
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
+                    f'2 \repeatTie
                     r2 \stopTrillSpan
                     fs1 \mf
                         ^ \markup {
@@ -1406,10 +1187,8 @@
                     <a, b>2. \repeatTie
                     <a, b>2 \repeatTie
                     <a, b>1 \repeatTie
-                    {
-                        <a, b>2 \repeatTie \glissando
-                        <bqf, cqs'>4
-                    }
+                    <a, b>2 \repeatTie \glissando
+                    <bqf, cqs'>4
                     \times 2/3 {
                         <bqf, cqs'>1 \repeatTie \glissando
                         <af, bf>2

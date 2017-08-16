@@ -1873,10 +1873,8 @@
                         g'2. \repeatTie \glissando
                         af'4
                     }
-                    {
-                        af'2. \repeatTie \glissando
-                        gqs'4
-                    }
+                    af'2. \repeatTie \glissando
+                    gqs'4
                     gqs'2. \repeatTie
                     \times 2/3 {
                         gqs'1 \repeatTie \glissando
@@ -1933,10 +1931,8 @@
                     }
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     aqs'1. \repeatTie
-                    {
-                        aqs'2. \repeatTie \glissando
-                        bf'4
-                    }
+                    aqs'2. \repeatTie \glissando
+                    bf'4
                     bf'2. \repeatTie
                     bf'2. \repeatTie
                     bf'1 \repeatTie
@@ -1945,10 +1941,8 @@
                         bf'1. \repeatTie \glissando
                         g'2.
                     }
-                    {
-                        g'2 \repeatTie \glissando
-                        a'4
-                    }
+                    g'2 \repeatTie \glissando
+                    a'4
                     a'1 \repeatTie
                     \times 4/7 {
                         a'1. \repeatTie \glissando
@@ -1957,162 +1951,112 @@
                     b'2. \repeatTie
                     b'2 \repeatTie \ppp
                     \revert NoteHead.style
-                    {
-                        \pitchedTrill
-                        f'4 -\accent \ppp \startTrillSpan
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "molto flautando ed estr. sul pont."
-                                } gf'
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
+                    \pitchedTrill
+                    f'2 -\accent \ppp \startTrillSpan
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "molto flautando ed estr. sul pont."
+                            } gf'
                     \times 4/5 {
                         f'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         fs'4 -\accent \stopTrillSpan \startTrillSpan g'
                     }
-                    {
-                        fs'4 \repeatTie
-                    }
-                    {
-                        fs'4 \repeatTie
-                    }
+                    fs'2 \repeatTie
                     \times 4/5 {
                         fs'8 \repeatTie [
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         fqs'8. -\accent ] \stopTrillSpan \startTrillSpan gqf'
                     }
-                    {
-                        fqs'4 \repeatTie
-                    }
-                    {
-                        fqs'4 \repeatTie
-                    }
+                    fqs'2 \repeatTie
                     \times 4/5 {
                         fqs'8. \repeatTie [
                         \pitchedTrill
                         f'8 -\accent ] \stopTrillSpan \startTrillSpan gf'
                     }
-                    {
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
+                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                    f'2 \repeatTie
                     \times 4/5 {
                         f'4 \repeatTie
                         \pitchedTrill
                         fqs'16 -\accent \stopTrillSpan \startTrillSpan gqf'
                     }
-                    {
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        fqs'4 \repeatTie
-                    }
-                    {
-                        fqs'4 \repeatTie
-                    }
+                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                    fqs'4 \repeatTie
+                    fqs'4 \repeatTie
                     \times 4/5 {
                         fqs'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         f'4 -\accent \stopTrillSpan \startTrillSpan gf'
                     }
-                    {
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
+                    f'4 \repeatTie
+                    f'4 \repeatTie
                     \times 4/5 {
                         f'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         e'4 -\accent \stopTrillSpan \startTrillSpan f'
                     }
-                    {
-                        e'4 \repeatTie
-                    }
-                    {
-                        e'4 \repeatTie
-                    }
+                    e'2 \repeatTie
                     \times 4/5 {
                         e'8 \repeatTie [
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         eqs'8. -\accent ] \stopTrillSpan \startTrillSpan fqs'
                     }
-                    {
-                        eqs'4 \repeatTie
-                    }
-                    {
-                        eqs'4 \repeatTie
-                    }
+                    eqs'2 \repeatTie
                     \times 4/5 {
                         eqs'8. \repeatTie [
                         \pitchedTrill
                         e'8 -\accent ] \stopTrillSpan \startTrillSpan f'
                     }
-                    {
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        e'4 \repeatTie
-                    }
-                    {
-                        e'4 \repeatTie
-                    }
+                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                    e'4 \repeatTie
+                    e'4 \repeatTie
                     \times 4/5 {
                         e'4 \repeatTie
                         \pitchedTrill
                         eqs'16 -\accent \stopTrillSpan \startTrillSpan fqs'
                     }
-                    {
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        eqs'4 \repeatTie
-                    }
-                    {
-                        eqs'4 \repeatTie
-                    }
+                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                    eqs'4 \repeatTie
+                    eqs'4 \repeatTie
                     \times 4/5 {
                         eqs'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         f'4 -\accent \stopTrillSpan \startTrillSpan gf'
                     }
-                    {
-                        f'4 \repeatTie \stopTrillSpan
-                        \bar "|"
-                    }
+                    f'4 \repeatTie \stopTrillSpan
+                    \bar "|"
                 }
             }
             \tag strings.viola
             \context ViolaMusicStaff = "Viola Music Staff" {
                 \context ViolaMusicVoice = "Viola Music Voice" {
-                    {
-                        \set Staff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                Viola
+                    \set Staff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Viola
+                        }
+                    \set Staff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Va.
+                        }
+                    \override NoteHead.style = #'harmonic
+                    g'4. \glissando \> \pp
+                        _ \markup {
+                            \whiteout
+                                \upright
+                                    III
                             }
-                        \set Staff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                Va.
-                            }
-                        \override NoteHead.style = #'harmonic
-                        g'4. \glissando \> \pp
-                            _ \markup {
-                                \whiteout
-                                    \upright
-                                        III
-                                }
-                            - \markup { "emphasize multiphonics and unstable harmonics prominently throughout" }
-                        af'8
-                    }
+                        - \markup { "emphasize multiphonics and unstable harmonics prominently throughout" }
+                    af'8
                     af'2 \repeatTie
                     af'1. \repeatTie
                     af'2. \repeatTie
@@ -2120,10 +2064,8 @@
                         af'1 \repeatTie \glissando
                         gqs'2
                     }
-                    {
-                        gqs'2 \repeatTie \glissando
-                        a'4
-                    }
+                    gqs'2 \repeatTie \glissando
+                    a'4
                     a'1 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/7 {
@@ -2133,10 +2075,8 @@
                     bqf'1 \repeatTie
                     bqf'2. \repeatTie
                     bqf'1 \repeatTie
-                    {
-                        bqf'1 \repeatTie \glissando
-                        af'4
-                    }
+                    bqf'1 \repeatTie \glissando
+                    af'4
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/4 {
                         af'2. \repeatTie \glissando
@@ -2170,20 +2110,16 @@
                     b'2. \repeatTie
                     b'1 \repeatTie
                     b'2 \repeatTie
-                    {
-                        b'4. \repeatTie \glissando
-                        aqs'8
-                    }
+                    b'4. \repeatTie \glissando
+                    aqs'8
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/4 {
                         aqs'1. \repeatTie \glissando
                         bf'2
                     }
                     bf'1 \repeatTie
-                    {
-                        bf'2 \repeatTie \glissando
-                        g'4
-                    }
+                    bf'2 \repeatTie \glissando
+                    g'4
                     g'2. \repeatTie
                     g'1 \repeatTie
                     g'2. \repeatTie
@@ -2199,132 +2135,71 @@
                         b'4
                     }
                     b'1 \repeatTie
-                    {
-                        b'1 \repeatTie \glissando
-                        aqs'4 \ppp
-                        \revert NoteHead.style
-                    }
-                    {
-                        \pitchedTrill
-                        f'4 -\accent \ppp \startTrillSpan
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "molto flautando ed estr. sul pont."
-                                } gf'
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
+                    b'1 \repeatTie \glissando
+                    aqs'4 \ppp
+                    \revert NoteHead.style
+                    \pitchedTrill
+                    f'2. -\accent \ppp \startTrillSpan
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "molto flautando ed estr. sul pont."
+                            } gf'
                     \times 4/5 {
                         f'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         fs'4 -\accent \stopTrillSpan \startTrillSpan g'
                     }
-                    {
-                        fs'4 \repeatTie
-                    }
-                    {
-                        fs'4 \repeatTie
-                    }
-                    {
-                        fs'4 \repeatTie
-                    }
+                    fs'4 \repeatTie
+                    fs'2 \repeatTie
                     \times 4/5 {
                         fs'8 \repeatTie [
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         fqs'8. -\accent ] \stopTrillSpan \startTrillSpan gqf'
                     }
-                    {
-                        fqs'4 \repeatTie
-                    }
-                    {
-                        fqs'4 \repeatTie
-                    }
-                    {
-                        fqs'4 \repeatTie
-                    }
+                    fqs'2. \repeatTie
                     \times 4/5 {
                         fqs'8. \repeatTie [
                         \pitchedTrill
                         f'8 -\accent ] \stopTrillSpan \startTrillSpan gf'
                     }
-                    {
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
+                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                    f'4 \repeatTie
+                    f'2 \repeatTie
                     \times 4/5 {
                         f'4 \repeatTie
                         \pitchedTrill
                         fqs'16 -\accent \stopTrillSpan \startTrillSpan gqf'
                     }
-                    {
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        fqs'4 \repeatTie
-                    }
-                    {
-                        fqs'4 \repeatTie
-                    }
-                    {
-                        fqs'4 \repeatTie
-                    }
+                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                    fqs'2 \repeatTie
+                    fqs'4 \repeatTie
                     \times 4/5 {
                         fqs'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         f'4 -\accent \stopTrillSpan \startTrillSpan gf'
                     }
-                    {
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
+                    f'4 \repeatTie
+                    f'2 \repeatTie
                     \times 4/5 {
                         f'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         e'4 -\accent \stopTrillSpan \startTrillSpan f'
                     }
-                    {
-                        e'4 \repeatTie
-                    }
-                    {
-                        e'4 \repeatTie
-                    }
-                    {
-                        e'4 \repeatTie
-                    }
+                    e'4 \repeatTie
+                    e'2 \repeatTie
                     \times 4/5 {
                         e'8 \repeatTie [
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         eqs'8. -\accent ] \stopTrillSpan \startTrillSpan fqs'
                     }
-                    {
-                        eqs'4 \repeatTie
-                    }
-                    {
-                        eqs'4 \repeatTie
-                    }
-                    {
-                        eqs'4 \repeatTie \stopTrillSpan
-                        \bar "|"
-                    }
+                    eqs'2. \repeatTie \stopTrillSpan
+                    \bar "|"
                 }
             }
             \tag strings.cello
@@ -2376,10 +2251,8 @@
                     bqf1 \repeatTie
                     bqf2. \repeatTie
                     bqf2 \repeatTie
-                    {
-                        bqf2 \repeatTie \glissando
-                        af4
-                    }
+                    bqf2 \repeatTie \glissando
+                    af4
                     \times 2/3 {
                         af2 \repeatTie \glissando
                         gqs4
@@ -2412,10 +2285,8 @@
                     b1 \repeatTie
                     b2 \repeatTie
                     b2 \repeatTie
-                    {
-                        b1 \repeatTie \glissando
-                        aqs2
-                    }
+                    b1 \repeatTie \glissando
+                    aqs2
                     \times 4/7 {
                         aqs1. \repeatTie \glissando
                         bf4
@@ -2431,135 +2302,68 @@
                     g2. \repeatTie
                     g2 \repeatTie
                     g2. \repeatTie
-                    {
-                        g2. \repeatTie \glissando
-                        a4
-                    }
-                    {
-                        a2. \repeatTie \glissando
-                        b4
-                    }
+                    g2. \repeatTie \glissando
+                    a4
+                    a2. \repeatTie \glissando
+                    b4
                     b2. \repeatTie
                     b2 \repeatTie \ppp
                     \revert NoteHead.style
-                    {
-                        \pitchedTrill
-                        f'4 -\accent \ppp \startTrillSpan
-                            ^ \markup {
-                                \whiteout
-                                    \upright
-                                        "molto flautando ed estr. sul pont."
-                                } gf'
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
+                    \pitchedTrill
+                    f'2. -\accent \ppp \startTrillSpan
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "molto flautando ed estr. sul pont."
+                            } gf'
+                    f'4 \repeatTie
                     \times 4/5 {
                         f'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         fs'4 -\accent \stopTrillSpan \startTrillSpan g'
                     }
-                    {
-                        fs'4 \repeatTie
-                    }
-                    {
-                        fs'4 \repeatTie
-                    }
-                    {
-                        fs'4 \repeatTie
-                    }
-                    {
-                        fs'4 \repeatTie
-                    }
+                    fs'1 \repeatTie
                     \times 4/5 {
                         fs'8 \repeatTie [
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         fqs'8. -\accent ] \stopTrillSpan \startTrillSpan gqf'
                     }
-                    {
-                        fqs'4 \repeatTie
-                    }
-                    {
-                        fqs'4 \repeatTie
-                    }
-                    {
-                        fqs'4 \repeatTie
-                    }
-                    {
-                        fqs'4 \repeatTie
-                    }
+                    fqs'4 \repeatTie
+                    fqs'2 \repeatTie
+                    fqs'4 \repeatTie
                     \times 4/5 {
                         fqs'8. \repeatTie [
                         \pitchedTrill
                         f'8 -\accent ] \stopTrillSpan \startTrillSpan gf'
                     }
-                    {
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
+                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                    f'2. \repeatTie
+                    f'4 \repeatTie
                     \times 4/5 {
                         f'4 \repeatTie
                         \pitchedTrill
                         fqs'16 -\accent \stopTrillSpan \startTrillSpan gqf'
                     }
-                    {
-                        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        fqs'4 \repeatTie
-                    }
-                    {
-                        fqs'4 \repeatTie
-                    }
-                    {
-                        fqs'4 \repeatTie
-                    }
-                    {
-                        fqs'4 \repeatTie
-                    }
+                    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
+                    fqs'4 \repeatTie
+                    fqs'2. \repeatTie
                     \times 4/5 {
                         fqs'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         f'4 -\accent \stopTrillSpan \startTrillSpan gf'
                     }
-                    {
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
-                    {
-                        f'4 \repeatTie
-                    }
+                    f'1 \repeatTie
                     \times 4/5 {
                         f'16 \repeatTie
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                         \pitchedTrill
                         e'4 -\accent \stopTrillSpan \startTrillSpan f'
                     }
-                    {
-                        e'4 \repeatTie \stopTrillSpan
-                        \bar "|"
-                    }
+                    e'4 \repeatTie \stopTrillSpan
+                    \bar "|"
                 }
             }
             \tag strings.contrabass
@@ -2603,10 +2407,8 @@
                     b2. \repeatTie
                     b2 \repeatTie
                     b1 \repeatTie \> \pp
-                    {
-                        b2 \repeatTie \glissando
-                        cqs'4
-                    }
+                    b2 \repeatTie \glissando
+                    cqs'4
                     \times 2/3 {
                         cqs'1 \repeatTie \glissando
                         bf2
@@ -2622,10 +2424,8 @@
                     aqs2 \repeatTie
                     aqs1. \repeatTie
                     aqs2 \repeatTie
-                    {
-                        aqs1 \repeatTie \glissando
-                        b4
-                    }
+                    aqs1 \repeatTie \glissando
+                    b4
                     \times 4/5 {
                         b2. \repeatTie \glissando
                         a8.
@@ -2657,10 +2457,8 @@
                     c'1 \repeatTie
                     c'2. \repeatTie
                     c'2. \repeatTie
-                    {
-                        c'2. \repeatTie \glissando
-                        a4
-                    }
+                    c'2. \repeatTie \glissando
+                    a4
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/8 {
                         a1. \repeatTie \glissando
@@ -2686,10 +2484,8 @@
                         dqf'4
                     }
                     dqf'2 \repeatTie
-                    {
-                        dqf'1 \repeatTie \glissando
-                        c'4
-                    }
+                    dqf'1 \repeatTie \glissando
+                    c'4
                     c'2. \repeatTie
                     c'1 \repeatTie
                     c'1. \repeatTie \ppp
