@@ -22,7 +22,7 @@ cb = 'Contrabass Music Voice'
 ###############################################################################
 
 segment_maker = baca.SegmentMaker(
-    final_markup=khamr.make_final_markup(),
+    final_markup=khamr.final_markup(),
     final_markup_extra_offset=(24, -4),
     ignore_repeat_pitch_classes=True,
     instruments=khamr.instruments,
