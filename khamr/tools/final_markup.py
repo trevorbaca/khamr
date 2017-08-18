@@ -1,7 +1,7 @@
 import abjad
 
 
-def make_final_markup():
+def final_markup():
     r'''Makes final markup.
     '''
     city = abjad.Markup('Cambridge, MA.')
