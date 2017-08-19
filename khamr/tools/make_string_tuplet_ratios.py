@@ -1,7 +1,7 @@
-def make_string_tuplet_ratios(n):
+def make_string_tuplet_ratios(number):
     r'''Makes string tuplet ratios.
     '''
-    if n == 1:
+    if number == 1:
         return [
             (1,), (1,), (1,), (1,), (1,), (1, 4),
             (1,), (1,), (1,), (1,), (1,), (2, 3),
@@ -9,7 +9,7 @@ def make_string_tuplet_ratios(n):
             (1,), (1,), (1,), (1,), (1,), (4, 1),
             (1,), (1,), (1,), (1,), (1,), (1, 4),
             ]
-    elif n == 2:
+    elif number == 2:
         return [
             (1,), (1,), (1,), (1,), (1, 4),
             (1,), (1,), (1,), (1,), (2, 3),
@@ -17,7 +17,7 @@ def make_string_tuplet_ratios(n):
             (1,), (1,), (1,), (1,), (4, 1),
             (1,), (1,), (1,), (1,), (1, 4),
             ]
-    elif n == 3:
+    elif number == 3:
         return [
             (1,), (1,), (1,), (1, 4),
             (1,), (1,), (1,), (2, 3),
@@ -25,7 +25,7 @@ def make_string_tuplet_ratios(n):
             (1,), (1,), (1,), (4, 1),
             (1,), (1,), (1,), (1, 4),
             ]
-    elif n == 4:
+    elif number == 4:
         return [
             (1,), (1,), (1, 4),
             (1,), (1,), (2, 3),
@@ -34,4 +34,4 @@ def make_string_tuplet_ratios(n):
             (1,), (1,), (1, 4),
             ]
     else:
-        raise ValueError(n)
+        raise ValueError(number)
