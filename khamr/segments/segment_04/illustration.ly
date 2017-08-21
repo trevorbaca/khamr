@@ -696,8 +696,21 @@
                             \italic
                                 \right-column
                                     {
-                                        "Cambridge, MA."
-                                        "January - April 2015."
+                                        \line
+                                            {
+                                                "Cambridge, MA."
+                                            }
+                                        \line
+                                            {
+                                                January
+                                                \hspace
+                                                    #0.75
+                                                –
+                                                \hspace
+                                                    #0.75
+                                                April
+                                                2015.
+                                            }
                                     }
                             }
                     \bar "|"
