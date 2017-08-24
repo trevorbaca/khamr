@@ -320,7 +320,7 @@ segment_maker.append_commands(
                 use_messiaen_style_ties=True,
                 ),
             tuplet_ratios=khamr.make_string_tuplet_ratios(4),
-            tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
+            tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
                 flatten_trivial_tuplets=True,
                 ),
             ),
@@ -362,7 +362,7 @@ segment_maker.append_commands(
                 use_messiaen_style_ties=True,
                 ),
             tuplet_ratios=khamr.make_string_tuplet_ratios(3),
-            tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
+            tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
                 flatten_trivial_tuplets=True,
                 ),
             ),
