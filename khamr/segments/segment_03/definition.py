@@ -377,7 +377,7 @@ segment_maker.append_commands(
                 (3, 2), (2, 3),
                 (2, 1), (1, 2),
                 ],
-            tuplet_spelling_specifier=khamr.make_tuplet_spelling_specifier(),
+            tuplet_specifier=khamr.make_tuplet_spelling_specifier(),
             ),
         ),
     )
@@ -410,7 +410,7 @@ segment_maker.append_commands(
                 (2, 1), (1, 2),
                 (4, 3), (3, 4),
                 ],
-            tuplet_spelling_specifier=khamr.make_tuplet_spelling_specifier(),
+            tuplet_specifier=khamr.make_tuplet_spelling_specifier(),
             ),
         ),
     )
@@ -443,7 +443,7 @@ segment_maker.append_commands(
                 (4, 3), (3, 4),
                 (3, 2), (2, 3),
                 ],
-            tuplet_spelling_specifier=khamr.make_tuplet_spelling_specifier(),
+            tuplet_specifier=khamr.make_tuplet_spelling_specifier(),
             ),
         ),
     )

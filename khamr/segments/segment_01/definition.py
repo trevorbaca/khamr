@@ -232,7 +232,7 @@ segment_maker.append_commands(
                 tie_across_divisions=True,
                 use_messiaen_style_ties=True,
                 ),
-            tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
+            tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
                 use_note_duration_bracket=True,
                 ),
             ),
@@ -296,7 +296,7 @@ segment_maker.append_commands(
                 tie_across_divisions=True,
                 use_messiaen_style_ties=True,
                 ),
-            tuplet_spelling_specifier=abjad.rhythmmakertools.TupletSpellingSpecifier(
+            tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
                 use_note_duration_bracket=True,
                 ),
             ),
@@ -376,7 +376,7 @@ segment_maker.append_commands(
                 (2, 1), (2, 1), (2, 1),
                 (6, 1), (6, 1), (6, 1),
                 ],
-            tuplet_spelling_specifier=khamr.make_tuplet_spelling_specifier(),
+            tuplet_specifier=khamr.make_tuplet_spelling_specifier(),
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
                 use_messiaen_style_ties=True,
@@ -397,7 +397,7 @@ segment_maker.append_commands(
                 use_messiaen_style_ties=True,
                 ),
             tuplet_ratios=khamr.make_string_tuplet_ratios(4),
-            tuplet_spelling_specifier=khamr.make_tuplet_spelling_specifier(),
+            tuplet_specifier=khamr.make_tuplet_spelling_specifier(),
             ),
         ),
     )
@@ -422,7 +422,7 @@ segment_maker.append_commands(
                 (6, 1), (6, 1), (6, 1),
                 (4, 1), (4, 1), (4, 1),
                 ],
-            tuplet_spelling_specifier=khamr.make_tuplet_spelling_specifier(),
+            tuplet_specifier=khamr.make_tuplet_spelling_specifier(),
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
                 use_messiaen_style_ties=True,
@@ -443,7 +443,7 @@ segment_maker.append_commands(
                 use_messiaen_style_ties=True,
                 ),
             tuplet_ratios=khamr.make_string_tuplet_ratios(3),
-            tuplet_spelling_specifier=khamr.make_tuplet_spelling_specifier(),
+            tuplet_specifier=khamr.make_tuplet_spelling_specifier(),
             ),
         ),
     )
@@ -468,7 +468,7 @@ segment_maker.append_commands(
                 (4, 1), (4, 1), (4, 1),
                 (3, 1), (3, 1), (3, 1),
                 ],
-            tuplet_spelling_specifier=khamr.make_tuplet_spelling_specifier(),
+            tuplet_specifier=khamr.make_tuplet_spelling_specifier(),
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
                 use_messiaen_style_ties=True,
@@ -489,7 +489,7 @@ segment_maker.append_commands(
                 use_messiaen_style_ties=True,
                 ),
             tuplet_ratios=khamr.make_string_tuplet_ratios(2),
-            tuplet_spelling_specifier=khamr.make_tuplet_spelling_specifier(),
+            tuplet_specifier=khamr.make_tuplet_spelling_specifier(),
             ),
         ),
     )
@@ -514,7 +514,7 @@ segment_maker.append_commands(
                 (3, 1), (3, 1), (3, 1),
                 (2, 1), (2, 1), (2, 1),
                 ],
-            tuplet_spelling_specifier=khamr.make_tuplet_spelling_specifier(),
+            tuplet_specifier=khamr.make_tuplet_spelling_specifier(),
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
                 use_messiaen_style_ties=True,

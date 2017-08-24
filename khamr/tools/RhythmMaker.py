@@ -200,14 +200,14 @@ class RhythmMaker(abjad.AbjadObject):
         rhythm_maker = self._get_rhythm_maker()
         selections = rhythm_maker(divisions)
         if self.split_at_measure_boundaries:
-            specifier = abjad.rhythmmakertools.DurationSpellingSpecifier
+            specifier = abjad.rhythmmakertools.DurationSpecifier
             selections = specifier._split_at_measure_boundaries(
                 selections,
                 time_signatures,
                 use_messiaen_style_ties=True,
                 )
         if self.rewrite_meter:
-            specifier = abjad.rhythmmakertools.DurationSpellingSpecifier
+            specifier = abjad.rhythmmakertools.DurationSpecifier
             selections = specifier._rewrite_meter_(
                 selections,
                 time_signatures,
