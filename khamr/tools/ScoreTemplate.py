@@ -16,13 +16,11 @@ class ScoreTemplate(baca.ScoreTemplate):
         ::
 
             >>> template = khamr.ScoreTemplate()
-            >>> lilypond_file = template.__illustrate__()
-            >>> path = pathlib.Path(khamr.__path__[0], 'stylesheets')
-            >>> path = path.joinpath('context-definitions.ily')
-            >>> lilypond_file = abjad.new(
-            ...     lilypond_file,
+            >>> path = pathlib.Path(khamr.__path__[0])
+            >>> path = path / 'stylesheets' / 'context-definitions.ily'
+            >>> lilypond_file = template.__illustrate__(
             ...     global_staff_size=15,
-            ...     includes=[str(path)],
+            ...     includes=[path],
             ...     )
             >>> show(lilypond_file) # doctest: +SKIP
 
@@ -223,6 +221,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     #10
                                     Va.
                                 }
+                            \clef "alto"
                             s1
                         }
                     }
@@ -272,23 +271,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         Returns score.
         '''
-        time_signature_context_multimeasure_rests = abjad.Context(
-            context_name='GlobalRests',
-            name='Global Rests',
-            )
-        time_signature_context_skips = abjad.Context(
-            context_name='GlobalSkips',
-            name='Global Skips',
-            )
-        time_signature_context = abjad.Context(
-            [
-                time_signature_context_multimeasure_rests,
-                time_signature_context_skips,
-            ],
-            context_name='GlobalContext',
-            is_simultaneous=True,
-            name='Global Context',
-            )
+        time_signature_context = self._make_time_signature_context()
         instrument_tags = (
             'winds',
             'flute',
@@ -305,13 +288,9 @@ class ScoreTemplate(baca.ScoreTemplate):
             'contrabass',
             )
         tag_string = '.'.join(instrument_tags)
-        tag_string = 'tag {}'.format(tag_string)
-        tag_command = abjad.LilyPondCommand(tag_string, 'before')
-        abjad.attach(tag_command, time_signature_context)
-
+        self._attach_tag(tag_string, time_signature_context)
         # FLUTE
         flute_music_voice = abjad.Voice(
-            [],
             context_name='FluteMusicVoice',
             name='Flute Music Voice',
             )
@@ -320,21 +299,14 @@ class ScoreTemplate(baca.ScoreTemplate):
             context_name='FluteMusicStaff',
             name='Flute Music Staff',
             )
-        self._attach_tag('winds.flute', flute_music_staff)
         abjad.annotate(
             flute_music_staff,
             'default_instrument',
             khamr.instruments['bass flute'],
             )
-        abjad.annotate(
-            flute_music_staff,
-            'default_clef',
-            abjad.Clef('treble'),
-            )
-
+        self._attach_tag('winds.flute', flute_music_staff)
         # OBOE
         oboe_music_voice = abjad.Voice(
-            [],
             context_name='OboeMusicVoice',
             name='Oboe Music Voice',
             )
@@ -343,21 +315,14 @@ class ScoreTemplate(baca.ScoreTemplate):
             context_name='OboeMusicStaff',
             name='Oboe Music Staff',
             )
-        self._attach_tag('winds.oboe', oboe_music_staff)
         abjad.annotate(
             oboe_music_staff,
             'default_instrument',
             khamr.instruments['English horn'],
             )
-        abjad.annotate(
-            oboe_music_staff,
-            'default_clef',
-            abjad.Clef('treble'),
-            )
-
+        self._attach_tag('winds.oboe', oboe_music_staff)
         # CLARINET
         clarinet_music_voice = abjad.Voice(
-            [],
             context_name='ClarinetMusicVoice',
             name='Clarinet Music Voice',
             )
@@ -366,21 +331,14 @@ class ScoreTemplate(baca.ScoreTemplate):
             context_name='ClarinetMusicStaff',
             name='Clarinet Music Staff',
             )
-        self._attach_tag('winds.clarinet', clarinet_music_staff)
         abjad.annotate(
             clarinet_music_staff,
             'default_instrument',
             khamr.instruments['bass clarinet'],
             )
-        abjad.annotate(
-            clarinet_music_staff,
-            'default_clef',
-            abjad.Clef('treble'),
-            )
-
+        self._attach_tag('winds.clarinet', clarinet_music_staff)
         # SAXOPHONE
         saxophone_music_voice = abjad.Voice(
-            [],
             context_name='SaxophoneMusicVoice',
             name='Saxophone Music Voice',
             )
@@ -389,18 +347,125 @@ class ScoreTemplate(baca.ScoreTemplate):
             context_name='SaxophoneMusicStaff',
             name='Saxophone Music Staff',
             )
-        self._attach_tag('winds.saxophone', saxophone_music_staff)
         abjad.annotate(
             saxophone_music_staff,
             'default_instrument',
             khamr.instruments['baritone saxophone'],
             )
-        abjad.annotate(
-            saxophone_music_staff,
-            'default_clef',
-            abjad.Clef('treble'),
+        self._attach_tag('winds.saxophone', saxophone_music_staff)
+        # GUITAR
+        guitar_music_voice = abjad.Voice(
+            context_name='GuitarMusicVoice',
+            name='Guitar Music Voice',
             )
-
+        guitar_music_staff = abjad.Staff(
+            [guitar_music_voice],
+            context_name='GuitarMusicStaff',
+            name='Guitar Music Staff',
+            )
+        abjad.annotate(
+            guitar_music_staff,
+            'default_instrument',
+            khamr.instruments['guitar'],
+            )
+        self._attach_tag('guitar', guitar_music_staff)
+        # PIANO
+        piano_music_voice = abjad.Voice(
+            context_name='PianoMusicVoice',
+            name='Piano Music Voice',
+            )
+        piano_music_staff = abjad.Staff(
+            [piano_music_voice],
+            context_name='PianoMusicStaff',
+            name='Piano Music Staff',
+            )
+        abjad.annotate(
+            piano_music_staff,
+            'default_instrument',
+            khamr.instruments['piano'],
+            )
+        self._attach_tag('piano', piano_music_staff)
+        # PERCUSSION
+        percussion_music_voice = abjad.Voice(
+            context_name='PercussionMusicVoice',
+            name='Percussion Music Voice',
+            )
+        percussion_music_staff = abjad.Staff(
+            [percussion_music_voice],
+            context_name='PercussionMusicStaff',
+            name='Percussion Staff',
+            )
+        abjad.annotate(
+            percussion_music_staff,
+            'default_instrument',
+            khamr.instruments['percussion'],
+            )
+        self._attach_tag('percussion', percussion_music_staff)
+        # VIOLIN
+        violin_music_voice = abjad.Voice(
+            context_name='ViolinMusicVoice',
+            name='Violin Music Voice',
+            )
+        violin_music_staff = abjad.Staff(
+            [violin_music_voice],
+            context_name='ViolinMusicStaff',
+            name='Violin Music Staff',
+            )
+        abjad.annotate(
+            violin_music_staff,
+            'default_instrument',
+            khamr.instruments['violin'],
+            )
+        self._attach_tag('strings.violin', violin_music_staff)
+        # VIOLA
+        viola_music_voice = abjad.Voice(
+            context_name='ViolaMusicVoice',
+            name='Viola Music Voice',
+            )
+        viola_music_staff = abjad.Staff(
+            [viola_music_voice],
+            context_name='ViolaMusicStaff',
+            name='Viola Music Staff',
+            )
+        abjad.annotate(
+            viola_music_staff,
+            'default_instrument',
+            khamr.instruments['viola'],
+            )
+        self._attach_tag('strings.viola', viola_music_staff)
+        # CELLO
+        cello_music_voice = abjad.Voice(
+            context_name='CelloMusicVoice',
+            name='Cello Music Voice',
+            )
+        cello_music_staff = abjad.Staff(
+            [cello_music_voice],
+            context_name='CelloMusicStaff',
+            name='Cello Music Staff',
+            )
+        abjad.annotate(
+            cello_music_staff,
+            'default_instrument',
+            khamr.instruments['cello'],
+            )
+        self._attach_tag('strings.cello', cello_music_staff)
+        # CONTRABASS
+        contrabass_music_voice = abjad.Voice(
+            context_name='ContrabassMusicVoice',
+            name='Contrabass Music Voice',
+            )
+        contrabass_music_staff = abjad.Staff(
+            [contrabass_music_voice],
+            context_name='ContrabassMusicStaff',
+            name='Contrabass Music Staff',
+            )
+        abjad.annotate(
+            contrabass_music_staff,
+            'default_instrument',
+            khamr.instruments['contrabass'],
+            )
+        self._attach_tag('strings.contrabass', contrabass_music_staff)
+        # WIND SECTION
         wind_section_staff_group = abjad.StaffGroup(
             [
                 flute_music_staff,
@@ -411,76 +476,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             context_name='WindSectionStaffGroup',
             name='Wind Section Staff Group',
             )
-
-        # GUITAR
-        guitar_music_voice = abjad.Voice(
-            [],
-            context_name='GuitarMusicVoice',
-            name='Guitar Music Voice',
-            )
-        guitar_music_staff = abjad.Staff(
-            [guitar_music_voice],
-            context_name='GuitarMusicStaff',
-            name='Guitar Music Staff',
-            )
-        self._attach_tag('guitar', guitar_music_staff)
-        abjad.annotate(
-            guitar_music_staff,
-            'default_instrument',
-            khamr.instruments['guitar'],
-            )
-        abjad.annotate(
-            guitar_music_staff,
-            'default_clef',
-            abjad.Clef('treble'),
-            )
-
-        # PIANO
-        piano_music_voice = abjad.Voice(
-            [],
-            context_name='PianoMusicVoice',
-            name='Piano Music Voice',
-            )
-        piano_music_staff = abjad.Staff(
-            [piano_music_voice],
-            context_name='PianoMusicStaff',
-            name='Piano Music Staff',
-            )
-        self._attach_tag('piano', piano_music_staff)
-        abjad.annotate(
-            piano_music_staff,
-            'default_instrument',
-            khamr.instruments['piano'],
-            )
-        abjad.annotate(
-            piano_music_staff,
-            'default_clef',
-            abjad.Clef('treble'),
-            )
-
-        # PERCUSSION
-        percussion_music_voice = abjad.Voice(
-            [],
-            context_name='PercussionMusicVoice',
-            name='Percussion Music Voice',
-            )
-        percussion_music_staff = abjad.Staff(
-            [percussion_music_voice],
-            context_name='PercussionMusicStaff',
-            name='Percussion Staff',
-            )
-        self._attach_tag('percussion', percussion_music_staff)
-        abjad.annotate(
-            percussion_music_staff,
-            'default_instrument',
-            khamr.instruments['percussion'],
-            )
-        abjad.annotate(
-            percussion_music_staff,
-            'default_clef',
-            abjad.Clef('percussion'),
-            )
-
+        # PERCUSSION SECTION
         percussion_section_staff_group = abjad.StaffGroup(
             [
                 guitar_music_staff,
@@ -490,99 +486,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             context_name='PercussionSectionStaffGroup',
             name='Percussion Section Staff Group',
             )
-
-        # VIOLIN
-        violin_music_voice = abjad.Voice(
-            [],
-            context_name='ViolinMusicVoice',
-            name='Violin Music Voice',
-            )
-        violin_music_staff = abjad.Staff(
-            [violin_music_voice],
-            context_name='ViolinMusicStaff',
-            name='Violin Music Staff',
-            )
-        self._attach_tag('strings.violin', violin_music_staff)
-        abjad.annotate(
-            violin_music_staff,
-            'default_instrument',
-            khamr.instruments['violin'],
-            )
-        abjad.annotate(
-            violin_music_staff,
-            'default_clef',
-            abjad.Clef('treble'),
-            )
-
-        # VIOLA
-        viola_music_voice = abjad.Voice(
-            [],
-            context_name='ViolaMusicVoice',
-            name='Viola Music Voice',
-            )
-        viola_music_staff = abjad.Staff(
-            [viola_music_voice],
-            context_name='ViolaMusicStaff',
-            name='Viola Music Staff',
-            )
-        self._attach_tag('strings.viola', viola_music_staff)
-        abjad.annotate(
-            viola_music_staff,
-            'default_instrument',
-            khamr.instruments['viola'],
-            )
-        abjad.annotate(
-            violin_music_staff,
-            'default_clef',
-            abjad.Clef('alto'),
-            )
-
-        # CELLO
-        cello_music_voice = abjad.Voice(
-            [],
-            context_name='CelloMusicVoice',
-            name='Cello Music Voice',
-            )
-        cello_music_staff = abjad.Staff(
-            [cello_music_voice],
-            context_name='CelloMusicStaff',
-            name='Cello Music Staff',
-            )
-        self._attach_tag('strings.cello', cello_music_staff)
-        abjad.annotate(
-            cello_music_staff,
-            'default_instrument',
-            khamr.instruments['cello'],
-            )
-        abjad.annotate(
-            cello_music_staff,
-            'default_clef',
-            abjad.Clef('bass'),
-            )
-
-        # CONTRABASS
-        contrabass_music_voice = abjad.Voice(
-            [],
-            context_name='ContrabassMusicVoice',
-            name='Contrabass Music Voice',
-            )
-        contrabass_music_staff = abjad.Staff(
-            [contrabass_music_voice],
-            context_name='ContrabassMusicStaff',
-            name='Contrabass Music Staff',
-            )
-        self._attach_tag('strings.contrabass', contrabass_music_staff)
-        abjad.annotate(
-            contrabass_music_staff,
-            'default_instrument',
-            khamr.instruments['contrabass'],
-            )
-        abjad.annotate(
-            contrabass_music_staff,
-            'default_clef',
-            abjad.Clef('bass'),
-            )
-
+        # STRING SECTION
         string_section_staff_group = abjad.StaffGroup(
             [
                 violin_music_staff,
@@ -593,23 +497,14 @@ class ScoreTemplate(baca.ScoreTemplate):
             context_name='StringSectionStaffGroup',
             name='String Section Staff Group',
             )
-
-        # makes score
-        score = abjad.Score([
-            time_signature_context,
-            wind_section_staff_group,
-            percussion_section_staff_group,
-            string_section_staff_group,
-            ],
+        # SCORE
+        score = abjad.Score(
+            [
+                time_signature_context,
+                wind_section_staff_group,
+                percussion_section_staff_group,
+                string_section_staff_group,
+                ],
             name='Score',
             )
         return score
-
-    ### PRIVATE METHODS ###
-
-    def _attach_tag(self, instrument_tag, context):
-        assert isinstance(instrument_tag, str), repr(str)
-        tag_string = 'tag {}'.format(instrument_tag)
-        tag_command = abjad.LilyPondCommand(
-            tag_string, 'before')
-        abjad.attach(tag_command, context)
