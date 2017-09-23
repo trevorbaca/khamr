@@ -2048,6 +2048,7 @@
                             #10
                             Va.
                         }
+                    \clef "alto"
                     \override NoteHead.style = #'harmonic
                     g'4. \glissando \> \pp
                         _ \markup {
