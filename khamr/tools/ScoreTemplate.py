@@ -9,15 +9,13 @@ class ScoreTemplate(baca.ScoreTemplate):
     ::
 
         >>> import khamr
-        >>> import pathlib
 
     ..  container:: example
 
         ::
 
             >>> template = khamr.ScoreTemplate()
-            >>> path = pathlib.Path(khamr.__path__[0])
-            >>> path = path / 'stylesheets' / 'contexts.ily'
+            >>> path = abjad.Path('khamr', 'stylesheets', 'contexts.ily')
             >>> lilypond_file = template.__illustrate__(
             ...     global_staff_size=15,
             ...     includes=[path],
@@ -39,7 +37,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \tag winds.flute
                     \context FluteMusicStaff = "Flute Music Staff" {
                         \context FluteMusicVoice = "Flute Music Voice" {
-                            \set Staff.instrumentName = \markup {
+                            \set FluteMusicStaff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
                                     \center-column
@@ -48,7 +46,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                             flute
                                         }
                                 }
-                            \set Staff.shortInstrumentName = \markup {
+                            \set FluteMusicStaff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     \center-column
@@ -64,7 +62,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \tag winds.oboe
                     \context OboeMusicStaff = "Oboe Music Staff" {
                         \context OboeMusicVoice = "Oboe Music Voice" {
-                            \set Staff.instrumentName = \markup {
+                            \set OboeMusicStaff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
                                     \center-column
@@ -73,7 +71,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                             horn
                                         }
                                 }
-                            \set Staff.shortInstrumentName = \markup {
+                            \set OboeMusicStaff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     \center-column
@@ -89,7 +87,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \tag winds.clarinet
                     \context ClarinetMusicStaff = "Clarinet Music Staff" {
                         \context ClarinetMusicVoice = "Clarinet Music Voice" {
-                            \set Staff.instrumentName = \markup {
+                            \set ClarinetMusicStaff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
                                     \center-column
@@ -98,7 +96,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                             clarinet
                                         }
                                 }
-                            \set Staff.shortInstrumentName = \markup {
+                            \set ClarinetMusicStaff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     \center-column
@@ -114,7 +112,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \tag winds.saxophone
                     \context SaxophoneMusicStaff = "Saxophone Music Staff" {
                         \context SaxophoneMusicVoice = "Saxophone Music Voice" {
-                            \set Staff.instrumentName = \markup {
+                            \set SaxophoneMusicStaff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
                                     \center-column
@@ -123,7 +121,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                             saxophone
                                         }
                                 }
-                            \set Staff.shortInstrumentName = \markup {
+                            \set SaxophoneMusicStaff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     \center-column
@@ -141,12 +139,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \tag guitar
                     \context GuitarMusicStaff = "Guitar Music Staff" {
                         \context GuitarMusicVoice = "Guitar Music Voice" {
-                            \set Staff.instrumentName = \markup {
+                            \set GuitarMusicStaff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
                                     Guitar
                                 }
-                            \set Staff.shortInstrumentName = \markup {
+                            \set GuitarMusicStaff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Gt.
@@ -175,12 +173,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \tag percussion
                     \context PercussionMusicStaff = "Percussion Staff" {
                         \context PercussionMusicVoice = "Percussion Music Voice" {
-                            \set Staff.instrumentName = \markup {
+                            \set PercussionMusicStaff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
                                     Percussion
                                 }
-                            \set Staff.shortInstrumentName = \markup {
+                            \set PercussionMusicStaff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Perc.
@@ -194,12 +192,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \tag strings.violin
                     \context ViolinMusicStaff = "Violin Music Staff" {
                         \context ViolinMusicVoice = "Violin Music Voice" {
-                            \set Staff.instrumentName = \markup {
+                            \set ViolinMusicStaff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
                                     Violin
                                 }
-                            \set Staff.shortInstrumentName = \markup {
+                            \set ViolinMusicStaff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Vn.
@@ -211,12 +209,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \tag strings.viola
                     \context ViolaMusicStaff = "Viola Music Staff" {
                         \context ViolaMusicVoice = "Viola Music Voice" {
-                            \set Staff.instrumentName = \markup {
+                            \set ViolaMusicStaff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
                                     Viola
                                 }
-                            \set Staff.shortInstrumentName = \markup {
+                            \set ViolaMusicStaff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Va.
@@ -228,12 +226,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \tag strings.cello
                     \context CelloMusicStaff = "Cello Music Staff" {
                         \context CelloMusicVoice = "Cello Music Voice" {
-                            \set Staff.instrumentName = \markup {
+                            \set CelloMusicStaff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
                                     Cello
                                 }
-                            \set Staff.shortInstrumentName = \markup {
+                            \set CelloMusicStaff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Vc.
@@ -245,12 +243,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \tag strings.contrabass
                     \context ContrabassMusicStaff = "Contrabass Music Staff" {
                         \context ContrabassMusicVoice = "Contrabass Music Voice" {
-                            \set Staff.instrumentName = \markup {
+                            \set ContrabassMusicStaff.instrumentName = \markup {
                                 \hcenter-in
                                     #16
                                     Contrabass
                                 }
-                            \set Staff.shortInstrumentName = \markup {
+                            \set ContrabassMusicStaff.shortInstrumentName = \markup {
                                 \hcenter-in
                                     #10
                                     Cb.
