@@ -126,7 +126,7 @@ class RhythmMaker(abjad.AbjadObject):
             first_component = first_item
         first_leaf = abjad.inspect(first_component).get_leaf(0)
         assert isinstance(first_leaf, abjad.Leaf), repr(first_leaf)
-        #prototype = abjad.instrumenttools.Percussion
+        #prototype = abjad.Percussion
         if self.instrument is not None:
             self._attach_instrument(
                 self.instrument,
@@ -313,7 +313,7 @@ class RhythmMaker(abjad.AbjadObject):
 
         Xylophone music-maker always returns 5.
         '''
-        if isinstance(self.instrument, abjad.instrumenttools.Xylophone):
+        if isinstance(self.instrument, abjad.Xylophone):
             return 5
         return self._staff_line_count
 
