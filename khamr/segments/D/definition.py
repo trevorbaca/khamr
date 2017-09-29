@@ -263,7 +263,6 @@ segment_maker.copy_specifier(
 ### PIANO ###
 
 piano = khamr.instruments['piano']
-piano._default_scope = 'PianoMusicStaff'
 
 segment_maker.append_commands(
     pf,
