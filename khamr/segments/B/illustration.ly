@@ -393,12 +393,12 @@
                     s1 * 29/4
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 7/8 {
-                        \set Staff.instrumentName = \markup {
+                        \set FluteMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
                                 Flute
                             }
-                        \set Staff.shortInstrumentName = \markup {
+                        \set FluteMusicStaff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 Fl.
@@ -889,12 +889,12 @@
                     s1 * 29/4
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        \set Staff.instrumentName = \markup {
+                        \set OboeMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
                                 Oboe
                             }
-                        \set Staff.shortInstrumentName = \markup {
+                        \set OboeMusicStaff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 Ob.
@@ -1440,12 +1440,12 @@
                     gs2 \repeatTie
                     s1 * 29/4
                     \times 8/9 {
-                        \set Staff.instrumentName = \markup {
+                        \set ClarinetMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
                                 Clarinet
                             }
-                        \set Staff.shortInstrumentName = \markup {
+                        \set ClarinetMusicStaff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 Cl.
@@ -1848,7 +1848,7 @@
                         d'''16 ]
                     }
                     s1 * 7/4
-                    \set Staff.instrumentName = \markup {
+                    \set ClarinetMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
                             \center-column
@@ -1857,7 +1857,7 @@
                                     clarinet
                                 }
                         }
-                    \set Staff.shortInstrumentName = \markup {
+                    \set ClarinetMusicStaff.shortInstrumentName = \markup {
                         \hcenter-in
                             #10
                             \center-column
@@ -1891,7 +1891,7 @@
                     s1 * 29/4
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        \set Staff.instrumentName = \markup {
+                        \set SaxophoneMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
                                 \center-column
@@ -1900,7 +1900,7 @@
                                         saxophone
                                     }
                             }
-                        \set Staff.shortInstrumentName = \markup {
+                        \set SaxophoneMusicStaff.shortInstrumentName = \markup {
                             \hcenter-in
                                 #10
                                 \center-column

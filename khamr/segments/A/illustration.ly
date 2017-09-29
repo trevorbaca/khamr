@@ -364,12 +364,12 @@
                     r2.
                     r2
                     s1 * 21/4
-                    \set Staff.instrumentName = \markup {
+                    \set FluteMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
                             Flute
                         }
-                    \set Staff.shortInstrumentName = \markup {
+                    \set FluteMusicStaff.shortInstrumentName = \markup {
                         \hcenter-in
                             #10
                             Fl.

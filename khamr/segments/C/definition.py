@@ -30,12 +30,12 @@ segment_maker = baca.SegmentMaker(
     measures_per_stage=[
         3, 2, 2, 2, 2, 2, 2, 5,     # stages 1-8
         ],
-    metronome_marks=khamr.tempi,
+    metronome_marks=khamr.metronome_marks,
     score_template=khamr.ScoreTemplate(),
     tempo_specifier=[
-        #(1, khamr.tempi[42]),
+        #(1, khamr.metronome_marks[42]),
         (4, abjad.Accelerando()),
-        (8, khamr.tempi[84]),
+        (8, khamr.metronome_marks[84]),
         ],
     time_signatures=khamr.time_signatures[:20],
     transpose_score=True,

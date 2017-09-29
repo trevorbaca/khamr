@@ -2,13 +2,7 @@ import abjad
 import baca
 
 
-piano = abjad.instrumenttools.Piano(
-    name_markup=baca.markup.instrument('Piano'),
-    short_name_markup=baca.markup.short_instrument('Pf.'),
-    )
-piano._default_scope = 'PianoMusicStaff'
-
-instruments = abjad.TypedOrderedDict([
+instruments = abjad.InstrumentDictionary([
     (
         'baritone saxophone',
         abjad.instrumenttools.BaritoneSaxophone(
@@ -88,7 +82,11 @@ instruments = abjad.TypedOrderedDict([
         ),
     (
         'piano',
-        piano,
+        abjad.instrumenttools.Piano(
+            default_scope=abjad.Staff,
+            name_markup=baca.markup.instrument('Piano'),
+            short_name_markup=baca.markup.short_instrument('Pf.'),
+            ),
         ),
     (
         'piccolo',
