@@ -6,7 +6,7 @@ def make_sixth_octave():
     r'''Makes sixth octave register command.
     '''
     return baca.RegisterCommand(
-        registration=abjad.Registration(
+        registration=baca.Registration(
             [('[A0, C8)', 30)],
             ),
         )

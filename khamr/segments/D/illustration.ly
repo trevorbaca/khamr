@@ -842,7 +842,7 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
-                    \set Staff.instrumentName = \markup {
+                    \set OboeMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
                             \center-column
@@ -851,7 +851,7 @@
                                     horn
                                 }
                         }
-                    \set Staff.shortInstrumentName = \markup {
+                    \set OboeMusicStaff.shortInstrumentName = \markup {
                         \hcenter-in
                             #10
                             \center-column
@@ -1244,7 +1244,7 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
-                    \set Staff.instrumentName = \markup {
+                    \set ClarinetMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
                             \center-column
@@ -1253,7 +1253,7 @@
                                     clarinet
                                 }
                         }
-                    \set Staff.shortInstrumentName = \markup {
+                    \set ClarinetMusicStaff.shortInstrumentName = \markup {
                         \hcenter-in
                             #10
                             \center-column
