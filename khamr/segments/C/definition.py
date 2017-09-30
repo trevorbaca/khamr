@@ -2,23 +2,9 @@ import abjad
 import baca
 import khamr
 
-### CONTEXT NAMES ###
-
-fl = 'Flute Music Voice'
-ob = 'Oboe Music Voice'
-cl = 'Clarinet Music Voice'
-sax = 'Saxophone Music Voice'
-gt = 'Guitar Music Voice'
-pf = 'Piano Music Voice'
-perc = 'Percussion Music Voice'
-vn = 'Violin Music Voice'
-va = 'Viola Music Voice'
-vc = 'Cello Music Voice'
-cb = 'Contrabass Music Voice'
-
 
 ###############################################################################
-##################################### [4] #####################################
+##################################### [3] #####################################
 ###############################################################################
 
 segment_maker = baca.SegmentMaker(
@@ -52,7 +38,7 @@ segment_maker.validate_measures_per_stage()
 ### FLUTE ###
 
 segment_maker.append_commands(
-    fl,
+    'Flute Music Voice',
     baca.select_stages(1, 7),
     baca.RhythmSpecifier(
         division_maker=khamr.make_beat_division_maker()
@@ -78,7 +64,7 @@ segment_maker.append_commands(
 ### OBOE ###
 
 segment_maker.append_commands(
-    ob,
+    'Oboe Music Voice',
     baca.select_stages(1, 7),
     baca.RhythmSpecifier(
         division_maker=khamr.make_beat_division_maker()
@@ -104,7 +90,7 @@ segment_maker.append_commands(
 ### CLARINET ###
 
 segment_maker.append_commands(
-    cl,
+    'Clarinet Music Voice',
     baca.select_stages(1, 7),
     baca.messiaen_tied_notes(),
     )
@@ -112,7 +98,7 @@ segment_maker.append_commands(
 ### SAXOPHONE ###
 
 segment_maker.append_commands(
-    sax,
+    'Saxophone Music Voice',
     baca.select_stages(1, 7),
     baca.RhythmSpecifier(
         division_maker=khamr.make_beat_division_maker()
@@ -138,7 +124,7 @@ segment_maker.append_commands(
 ### GUITAR ###
 
 segment_maker.append_commands(
-    gt,
+    'Guitar Music Voice',
     baca.select_stages(1, 3),
     baca.RhythmSpecifier(
         rewrite_meter=True,
@@ -155,7 +141,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_commands(
-    gt,
+    'Guitar Music Voice',
     baca.select_stages(4, 7),
     baca.RhythmSpecifier(
         rewrite_meter=True,
@@ -172,7 +158,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_commands(
-    gt,
+    'Guitar Music Voice',
     baca.select_stages(8, 8),
     baca.RhythmSpecifier(
         division_maker=baca.DivisionMaker()
@@ -197,7 +183,7 @@ segment_maker.append_commands(
 ### PIANO ###
 
 segment_maker.append_commands(
-    pf,
+    'Piano Music Voice',
     baca.select_stages(1, 3),
     baca.RhythmSpecifier(
         rewrite_meter=True,
@@ -214,7 +200,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_commands(
-    pf,
+    'Piano Music Voice',
     baca.select_stages(4, 7),
     baca.RhythmSpecifier(
         rewrite_meter=True,
@@ -231,7 +217,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_commands(
-    pf,
+    'Piano Music Voice',
     baca.select_stages(8, 8),
     baca.RhythmSpecifier(
         division_maker=baca.DivisionMaker()
@@ -257,7 +243,7 @@ segment_maker.append_commands(
 ### PERCUSSION ###
 
 segment_maker.append_commands(
-    perc,
+    'Percussion Music Voice',
     baca.select_stages(1, 2),
     baca.RhythmSpecifier(
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
@@ -273,7 +259,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.append_commands(
-    perc,
+    'Percussion Music Voice',
     baca.select_stages(4, 7),
     baca.messiaen_tied_notes(),
     )
@@ -281,7 +267,7 @@ segment_maker.append_commands(
 ### VIOLIN ###
 
 segment_maker.append_commands(
-    vn,
+    'Violin Music Voice',
     baca.select_stages(1, 7),
     baca.clef('percussion'),
     baca.RhythmSpecifier(
@@ -304,7 +290,7 @@ segment_maker.append_commands(
 ### VIOLA ###
 
 segment_maker.append_commands(
-    va,
+    'Viola Music Voice',
     baca.select_stages(1, 7),
     baca.clef('percussion'),
     baca.RhythmSpecifier(
@@ -327,7 +313,7 @@ segment_maker.append_commands(
 ### CELLO ###
 
 segment_maker.append_commands(
-    vc,
+    'Cello Music Voice',
     baca.select_stages(1, 7),
     baca.clef('percussion'),
     baca.RhythmSpecifier(
@@ -350,7 +336,7 @@ segment_maker.append_commands(
 ### CONTRABASS ###
 
 segment_maker.append_commands(
-    cb,
+    'Contrabass Music Voice',
     baca.select_stages(1, 7),
     baca.clef('percussion'),
     baca.RhythmSpecifier(
@@ -377,7 +363,7 @@ segment_maker.append_commands(
 ### FLUTE ###
 
 segment_maker.append_commands(
-    fl,
+    'Flute Music Voice',
     baca.select_stages(1, 7),
     # sounds B3
     baca.pitches('Bb4'),
@@ -386,7 +372,7 @@ segment_maker.append_commands(
 ### OBOE ###
 
 segment_maker.append_commands(
-    ob,
+    'Oboe Music Voice',
     baca.select_stages(1, 7),
     # dummy centerline pitch
     baca.pitches('B4'),
@@ -397,7 +383,7 @@ segment_maker.append_commands(
 ### CLARINET ###
 
 segment_maker.append_commands(
-    cl,
+    'Clarinet Music Voice',
     baca.select_stages(1, 7),
     baca.pitches('G2'),
     )
@@ -405,7 +391,7 @@ segment_maker.append_commands(
 ### SAXOPHONE ###
 
 segment_maker.append_commands(
-    sax,
+    'Saxophone Music Voice',
     baca.select_stages(1, 7),
     baca.one_line_staff(),
     # dummy centerline pitch
@@ -416,7 +402,7 @@ segment_maker.append_commands(
 ### GUITAR ##
 
 segment_maker.append_commands(
-    gt,
+    'Guitar Music Voice',
     baca.select_stages(1, 8),
     baca.accents(),
     baca.flageolets(),
@@ -427,7 +413,7 @@ segment_maker.append_commands(
 ### PIANO ###
 
 segment_maker.append_commands(
-    pf,
+    'Piano Music Voice',
     baca.select_stages(1, 8),
     baca.accents(),
     baca.pitches('A#4'),
@@ -437,14 +423,14 @@ segment_maker.append_commands(
 ### PERCUSSION ###
 
 segment_maker.append_commands(
-    perc,
+    'Percussion Music Voice',
     baca.select_stages(1, 2),
     baca.hairpins(['pp > ppp']),
     baca.stem_tremolo(),
     )
 
 segment_maker.append_commands(
-    perc,
+    'Percussion Music Voice',
     baca.select_stages(4, 7),
     baca.dynamic('fff'),
     baca.markup.boxed('snare drum'),
@@ -454,49 +440,69 @@ segment_maker.append_commands(
 ### STRINGS ###
 
 segment_maker.append_commands(
-    [vn, va, vc],
+    ['Violin Music Voice', 'Viola Music Voice', 'Cello Music Voice'],
     baca.select_stages(1, 7),
     baca.pitches('C4'),
     )
 
 segment_maker.append_commands(
-    cb,
+    'Contrabass Music Voice',
     baca.select_stages(1, 7),
     baca.pitches('C3'),
     )
 
 segment_maker.append_commands(
-    [vn, va, vc, cb],
+    [
+        'Violin Music Voice',
+        'Viola Music Voice',
+        'Cello Music Voice',
+        'Contrabass Music Voice',
+        ],
     baca.select_stages(1, 7),
     baca.one_line_staff(),
     )
 
 segment_maker.append_commands(
-    [vn, va, vc, cb],
+    [
+        'Violin Music Voice',
+        'Viola Music Voice',
+        'Cello Music Voice',
+        'Contrabass Music Voice',
+        ],
     baca.select_stages(1, 7),
     baca.alternate_bow_strokes(),
     )
 
 segment_maker.append_commands(
-    [vn, va],
+    ['Violin Music Voice', 'Viola Music Voice'],
     baca.select_stages(1, 7),
     baca.markup.bow_on_wooden_mute(),
     )
 
 segment_maker.append_commands(
-    [vc, cb],
+    ['Cello Music Voice', 'Contrabass Music Voice'],
     baca.select_stages(1, 7),
     baca.markup.bow_on_tailpiece(),
     )
 
 segment_maker.append_commands(
-    [vn, va, vc, cb],
+    [
+        'Violin Music Voice',
+        'Viola Music Voice',
+        'Cello Music Voice',
+        'Contrabass Music Voice',
+        ],
     baca.select_stages(1, 3),
     baca.dynamic('p'),
     )
 
 segment_maker.append_commands(
-    [vn, va, vc, cb],
+    [
+        'Violin Music Voice',
+        'Viola Music Voice',
+        'Cello Music Voice',
+        'Contrabass Music Voice',
+        ],
     baca.select_stages(4, 7),
     baca.hairpins(['p > ppp']),
     )
