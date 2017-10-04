@@ -690,29 +690,7 @@
                     c'1 -\upbow \ppp
                     \stopStaff
                     \startStaff
-                    \once \override TextScript.extra-offset = #'(24 . -4)
                     s1 * 5
-                        _ \markup {
-                            \italic
-                                \right-column
-                                    {
-                                        \line
-                                            {
-                                                "Cambridge, MA."
-                                            }
-                                        \line
-                                            {
-                                                January
-                                                \hspace
-                                                    #0.75
-                                                –
-                                                \hspace
-                                                    #0.75
-                                                April
-                                                2015.
-                                            }
-                                    }
-                            }
                     \bar "|"
                 }
             }
