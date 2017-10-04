@@ -4,10 +4,12 @@ import khamr
 
 
 ###############################################################################
-##################################### [4] #####################################
+##################################### [D] #####################################
 ###############################################################################
 
 segment_maker = baca.SegmentMaker(
+    final_markup=(['Cambridge, MA.'], ['January', 'April 2015.']),
+    final_markup_extra_offset=(20, -4),
     ignore_repeat_pitch_classes=True,
     instruments=khamr.instruments,
     label_stages=True,

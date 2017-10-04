@@ -4600,7 +4600,32 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
+                    \once \override TextScript.extra-offset = #'(20 . -4)
                     c''2.
+                        _ \markup {
+                            \whiteout
+                                \upright
+                                    \with-color
+                                        #black
+                                        \right-column
+                                            {
+                                                \line
+                                                    {
+                                                        "Cambridge, MA."
+                                                    }
+                                                \line
+                                                    {
+                                                        January
+                                                        \hspace
+                                                            #0.75
+                                                        –
+                                                        \hspace
+                                                            #0.75
+                                                        April
+                                                        2015.
+                                                    }
+                                            }
+                            }
                     \bar "|."
                 }
             }
