@@ -21,7 +21,7 @@ segment_maker = baca.SegmentMaker(
         ],
     metronome_marks=khamr.metronome_marks,
     score_template=khamr.ScoreTemplate(),
-    tempo_specifier=[
+    metronome_mark_measure_map=[
         (1, khamr.metronome_marks[126]),
         (4, abjad.Ritardando()),
         (6, khamr.metronome_marks[32]),
