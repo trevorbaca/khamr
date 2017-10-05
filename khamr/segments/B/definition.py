@@ -52,7 +52,7 @@ segment_maker.append_commands(
     'Flute Music Voice',
     baca.select_stages(5, 6),
     baca.instrument(khamr.instruments['flute']),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_maker=baca.DivisionMaker()
             .fuse_by_counts(
                 counts=abjad.Infinity,
@@ -70,7 +70,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Flute Music Voice',
     baca.select_stages(9, 9),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_maker=khamr.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[8],
@@ -103,7 +103,7 @@ segment_maker.append_commands(
     'Oboe Music Voice',
     baca.select_stages(5, 6),
     baca.instrument(khamr.instruments['oboe']),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_maker=baca.DivisionMaker()
             .fuse_by_counts(
                 counts=abjad.Infinity,
@@ -121,7 +121,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Oboe Music Voice',
     baca.select_stages(9, 9),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_maker=khamr.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[10],
@@ -157,7 +157,7 @@ segment_maker.append_commands(
     'Clarinet Music Voice',
     baca.select_stages(5, 6),
     baca.instrument(khamr.instruments['clarinet in B-flat']),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_maker=baca.DivisionMaker()
             .fuse_by_counts(
                 counts=abjad.Infinity,
@@ -176,7 +176,7 @@ segment_maker.append_commands(
     'Clarinet Music Voice',
     baca.select_stages(8, 9),
     baca.instrument(khamr.instruments['bass clarinet']),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[
                 abjad.silence_last(1),
@@ -201,7 +201,7 @@ segment_maker.append_commands(
     'Saxophone Music Voice',
     baca.select_stages(5, 6),
     baca.instrument(khamr.instruments['sopranino saxophone']),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_maker=baca.DivisionMaker()
             .fuse_by_counts(
                 counts=abjad.Infinity,
@@ -219,7 +219,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Saxophone Music Voice',
     baca.select_stages(9, 9),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_maker=khamr.make_beat_division_maker()
             .fuse_by_counts(
                 counts=[12],
@@ -259,7 +259,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Piano Music Voice',
     baca.select_stages(1, 4),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_maker=khamr.make_beat_division_maker(),
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             tuplet_ratios=[
@@ -282,7 +282,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Piano Music Voice',
     baca.select_stages(5, 6),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_maker=baca.DivisionMaker()
             .fuse_by_counts(
                 counts=abjad.Infinity,
@@ -308,7 +308,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Percussion Music Voice',
     baca.select_stages(5, 5),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_maker=khamr.make_quarter_division_maker(),
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
         ),
@@ -317,7 +317,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Percussion Music Voice',
     baca.select_stages(6, 6),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         division_maker=baca.DivisionMaker()
             .fuse_by_counts(
                 counts=abjad.Infinity,
@@ -348,7 +348,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Violin Music Voice',
     baca.select_stages(2, 6),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
@@ -381,7 +381,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Viola Music Voice',
     baca.select_stages(2, 6),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
@@ -414,7 +414,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Cello Music Voice',
     baca.select_stages(2, 6),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
@@ -477,7 +477,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Contrabass Music Voice',
     baca.select_stages(7, 7),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[
@@ -494,7 +494,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Contrabass Music Voice',
     baca.select_stages(8, 9),
-    baca.RhythmSpecifier(
+    baca.RhythmCommand(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[
