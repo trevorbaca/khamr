@@ -19,10 +19,10 @@ segment_maker = baca.SegmentMaker(
     metronome_marks=khamr.metronome_marks,
     score_template=khamr.ScoreTemplate(),
     metronome_mark_measure_map=[
-        (1, khamr.metronome_marks[126]),
-        (4, khamr.metronome_marks[63]),
+        (1, khamr.metronome_marks['126']),
+        (4, khamr.metronome_marks['63']),
         (4, abjad.Accelerando()),
-        (6, khamr.metronome_marks[84]),
+        (6, khamr.metronome_marks['84']),
         ],
     time_signatures=khamr.time_signatures[:44],
     transpose_score=True,

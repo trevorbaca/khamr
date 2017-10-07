@@ -39,7 +39,7 @@ metadata = abjad.TypedOrderedDict(
                     ]
                 ),
             ),
-        ('end_metronome_mark', 126),
+        ('end_metronome_mark', '126'),
         ('end_time_signature', '6/8'),
         ('first_bar_number', 45),
         ('measure_count', 30),
