@@ -5,6 +5,5 @@ def make_weiss_multiphonic(number):
     r'''Makes Weiss multiphonic.
     '''
     pass
-    string = 'W.{}'
-    string = string.format(number)
+    string = f'W.{number}'
     return baca.markup.boxed(number)
