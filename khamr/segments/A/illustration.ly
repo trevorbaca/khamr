@@ -168,6 +168,13 @@
                     \once \override TextSpanner.dash-period = 1.5
                     \mark #1
                     s1 * 1/2 \startTextSpan
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A.1]
+                            }
                 }
                 {
                     s1 * 1/2
@@ -215,6 +222,13 @@
                     \once \override TextSpanner.dash-fraction = 0.25
                     \once \override TextSpanner.dash-period = 1.5
                     s1 * 1 \stopTextSpan \startTextSpan
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A.2]
+                            }
                 }
                 {
                     \time 6/8
@@ -230,7 +244,15 @@
                 }
                 {
                     \time 4/4
-                    s1 * 1 \stopTextSpan ^ \markup {
+                    s1 * 1 \stopTextSpan
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A.3]
+                            }
+                        ^ \markup {
                         \fontsize
                             #-6
                             \general-align
@@ -270,6 +292,13 @@
                 {
                     \time 6/4
                     s1 * 3/2
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A.4]
+                            }
                 }
                 {
                     \time 2/4
@@ -293,7 +322,15 @@
                 }
                 {
                     \time 2/4
-                    s1 * 1/2 ^ \markup {
+                    s1 * 1/2
+                        - \markup {
+                            \fontsize
+                                #-3
+                                \with-color
+                                    #blue
+                                    [A.5]
+                            }
+                        ^ \markup {
                         \fontsize
                             #-6
                             \general-align

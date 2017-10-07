@@ -10,6 +10,7 @@ import khamr
 segment_maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     instruments=khamr.instruments,
+    #label_stages=True,
     measures_per_stage=[
         4, 4, 6, 6, 10,
         ],
@@ -743,7 +744,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Violin Music Voice',
     baca.select_stages(1, 1),
-    baca.pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     baca.pitches(
         source=khamr.color_trill_pitches,
         operators=[abjad.Transposition(n=1)],
@@ -753,7 +753,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Violin Music Voice',
     baca.select_stages(2, 2),
-    baca.pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     baca.pitches(
         source=khamr.color_trill_pitches,
         operators=[abjad.Transposition(n=2)],
@@ -763,7 +762,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Violin Music Voice',
     baca.select_stages(3, 3),
-    baca.pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     baca.pitches(
         source=khamr.color_trill_pitches,
         operators=[abjad.Transposition(n=3)],
@@ -773,6 +771,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Violin Music Voice',
     baca.select_stages(1, 3),
+    baca.pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     baca.accents(),
     )
 
@@ -789,14 +788,12 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Viola Music Voice',
     baca.select_stages(1, 1),
-    baca.pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     baca.pitches(khamr.color_trill_pitches),
     )
 
 segment_maker.append_commands(
     'Viola Music Voice',
     baca.select_stages(2, 2),
-    baca.pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     baca.pitches(
         khamr.color_trill_pitches,
         operators=[abjad.Transposition(n=1)],
@@ -806,7 +803,6 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Viola Music Voice',
     baca.select_stages(3, 3),
-    baca.pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     baca.pitches(
         khamr.color_trill_pitches,
         operators=[abjad.Transposition(n=2)],
@@ -816,6 +812,7 @@ segment_maker.append_commands(
 segment_maker.append_commands(
     'Viola Music Voice',
     baca.select_stages(1, 3),
+    baca.pervasive_trills_at_interval(abjad.NamedInterval('m2')),
     baca.accents(),
     )
 
