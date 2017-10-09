@@ -70,9 +70,9 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.copy_specifier(
+segment_maker.copy_rhythm(
     ('Flute Music Voice', 1),
-    baca.select_stages(7, 9),
+    baca.SimpleScope('Flute Music Voice', baca.select_stages(7, 9)),
     )
 
 ### OBOE ###
@@ -117,9 +117,9 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.copy_specifier(
+segment_maker.copy_rhythm(
     ('Oboe Music Voice', 1),
-    baca.select_stages(7, 9),
+    baca.SimpleScope('Oboe Music Voice', baca.select_stages(7, 9)),
     rhythm_maker__division_masks=None,
     )
 
@@ -165,9 +165,9 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.copy_specifier(
+segment_maker.copy_rhythm(
     ('Clarinet Music Voice', 1),
-    baca.select_stages(7, 9),
+    baca.SimpleScope('Clarinet Music Voice', baca.select_stages(7, 9)),
     rhythm_maker__division_masks=None,
     )
 
@@ -212,9 +212,9 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.copy_specifier(
+segment_maker.copy_rhythm(
     ('Saxophone Music Voice', 1),
-    baca.select_stages(7, 9),
+    baca.SimpleScope('Saxophone Music Voice', baca.select_stages(7, 9)),
     rhythm_maker__division_masks=None,
     )
 
@@ -243,9 +243,9 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.copy_specifier(
+segment_maker.copy_rhythm(
     ('Guitar Music Voice', 1),
-    baca.select_stages(7, 9),
+    baca.SimpleScope('Guitar Music Voice', baca.select_stages(7, 9)),
     )
 
 ### PIANO ###
@@ -356,12 +356,12 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.copy_specifier(
+segment_maker.copy_rhythm(
     ('Violin Music Voice', 6),
     baca.SimpleScope('Viola Music Voice', (6, 6)),
     )
 
-segment_maker.copy_specifier(
+segment_maker.copy_rhythm(
     ('Violin Music Voice', 7),
     baca.SimpleScope('Viola Music Voice', (7, 7)),
     )
@@ -416,9 +416,9 @@ segment_maker.append_commands(
         ),
     )
 
-segment_maker.copy_specifier(
+segment_maker.copy_rhythm(
     ('Contrabass Music Voice', 1),
-    baca.select_stages(7, 9),
+    baca.SimpleScope('Contrabass Music Voice', baca.select_stages(7, 9)),
     )
 
 ###############################################################################
