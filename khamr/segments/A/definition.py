@@ -161,12 +161,12 @@ segment_maker.append_commands(
     )
 
 segment_maker.copy_rhythm(
-    ('Flute Music Voice', 4),
+    baca.SimpleScope('Flute Music Voice', 4),
     baca.SimpleScope('Oboe Music Voice', (4, 4)),
     )
 
 segment_maker.copy_rhythm(
-    ('Flute Music Voice', 5),
+    baca.SimpleScope('Flute Music Voice', 5),
     baca.SimpleScope('Oboe Music Voice', (5, 5)),
     )
 
@@ -201,12 +201,12 @@ segment_maker.append_commands(
     )
 
 segment_maker.copy_rhythm(
-    ('Flute Music Voice', 4),
+    baca.SimpleScope('Flute Music Voice', 4),
     baca.SimpleScope('Clarinet Music Voice', (4, 4)),
     )
 
 segment_maker.copy_rhythm(
-    ('Flute Music Voice', 5),
+    baca.SimpleScope('Flute Music Voice', 5),
     baca.SimpleScope('Clarinet Music Voice', (5, 5)),
     )
 
@@ -240,12 +240,12 @@ segment_maker.append_commands(
     )
 
 segment_maker.copy_rhythm(
-    ('Flute Music Voice', 4),
+    baca.SimpleScope('Flute Music Voice', 4),
     baca.SimpleScope('Saxophone Music Voice', (4, 4)),
     )
 
 segment_maker.copy_rhythm(
-    ('Flute Music Voice', 5),
+    baca.SimpleScope('Flute Music Voice', 5),
     baca.SimpleScope('Saxophone Music Voice', (5, 5)),
     )
 
@@ -289,12 +289,12 @@ segment_maker.append_commands(
     )
 
 segment_maker.copy_rhythm(
-    ('Flute Music Voice', 4),
+    baca.SimpleScope('Flute Music Voice', 4),
     baca.SimpleScope('Guitar Music Voice', (4, 4)),
     )
 
 segment_maker.copy_rhythm(
-    ('Flute Music Voice', 5),
+    baca.SimpleScope('Flute Music Voice', 5),
     baca.SimpleScope('Guitar Music Voice', (5, 5)),
     )
 
@@ -318,7 +318,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.copy_rhythm(
-    ('Flute Music Voice', 4),
+    baca.SimpleScope('Flute Music Voice', 4),
     baca.SimpleScope('Piano Music Voice', (4, 4)),
     rhythm_maker__tie_specifier=abjad.rhythmmakertools.TieSpecifier(
         strip_ties=True,
@@ -428,12 +428,12 @@ segment_maker.append_commands(
     )
 
 segment_maker.copy_rhythm(
-    ('Flute Music Voice', 4),
+    baca.SimpleScope('Flute Music Voice', 4),
     baca.SimpleScope('Violin Music Voice', (4, 4)),
     )
 
 segment_maker.copy_rhythm(
-    ('Flute Music Voice', 5),
+    baca.SimpleScope('Flute Music Voice', 5),
     baca.SimpleScope('Violin Music Voice', (5, 5)),
     )
 
@@ -460,12 +460,12 @@ segment_maker.append_commands(
     )
 
 segment_maker.copy_rhythm(
-    ('Violin Music Voice', 4),
+    baca.SimpleScope('Violin Music Voice', 4),
     baca.SimpleScope('Viola Music Voice', (4, 4)),
     )
 
 segment_maker.copy_rhythm(
-    ('Violin Music Voice', 5),
+    baca.SimpleScope('Violin Music Voice', 5),
     baca.SimpleScope('Viola Music Voice', (5, 5)),
     )
 
@@ -509,12 +509,12 @@ segment_maker.append_commands(
     )
 
 segment_maker.copy_rhythm(
-    ('Flute Music Voice', 4),
+    baca.SimpleScope('Flute Music Voice', 4),
     baca.SimpleScope('Cello Music Voice', (4, 4)),
     )
 
 segment_maker.copy_rhythm(
-    ('Flute Music Voice', 5),
+    baca.SimpleScope('Flute Music Voice', 5),
     baca.SimpleScope('Cello Music Voice', (5, 5)),
     )
 
@@ -549,12 +549,12 @@ segment_maker.append_commands(
     )
 
 segment_maker.copy_rhythm(
-    ('Flute Music Voice', 4),
+    baca.SimpleScope('Flute Music Voice', 4),
     baca.SimpleScope('Contrabass Music Voice', (4, 4)),
     )
 
 segment_maker.copy_rhythm(
-    ('Flute Music Voice', 5),
+    baca.SimpleScope('Flute Music Voice', 5),
     baca.SimpleScope('Contrabass Music Voice', (5, 5)),
     )
 
