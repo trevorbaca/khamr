@@ -226,7 +226,7 @@ segment_maker.append_commands(
     )
 
 segment_maker.copy_rhythm(
-    ('Guitar Music Voice', 1),
+    baca.SimpleScope('Guitar Music Voice', 1),
     baca.SimpleScope('Guitar Music Voice', baca.select_stages(7, 7)),
     rhythm_maker__division_masks=[
         abjad.silence_every([1, 2, 3, 5, 6, 7, 8], period=9),
