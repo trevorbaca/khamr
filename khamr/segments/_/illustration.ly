@@ -479,6 +479,12 @@
                     r2
                     r1.
                     <g' g''>2
+                    <g' g''>2. \repeatTie
+                    <g' g''>2 \repeatTie
+                    <g' g''>2. \repeatTie
+                    <g' g''>8 \repeatTie
+                    r8
+                    <gs' gs''>2.
                         ^ \markup {
                             \whiteout
                                 \override
@@ -486,12 +492,6 @@
                                     \box
                                         L.22
                             }
-                    <g' g''>2. \repeatTie
-                    <g' g''>2 \repeatTie
-                    <g' g''>2. \repeatTie
-                    <g' g''>8 \repeatTie
-                    r8
-                    <gs' gs''>2.
                     <gs' gs''>1. \repeatTie
                     <gs' gs''>2 \repeatTie
                     <gs' gs''>8 \repeatTie
@@ -813,14 +813,7 @@
                     e''2. \repeatTie
                     e''8 \repeatTie
                     r8
-                    e''2. \p
-                        ^ \markup {
-                            \whiteout
-                                \override
-                                    #'(box-padding . 0.5)
-                                    \box
-                                        77
-                            }
+                    e''2.
                     e''1 \repeatTie
                     e''2. \repeatTie
                     e''2 \repeatTie
@@ -830,6 +823,13 @@
                     r2
                     r1.
                     <d'' eqs''>2
+                        ^ \markup {
+                            \whiteout
+                                \override
+                                    #'(box-padding . 0.5)
+                                    \box
+                                        77
+                            }
                     <d'' eqs''>2. \repeatTie
                     <d'' eqs''>2 \repeatTie
                     <d'' eqs''>2. \repeatTie
