@@ -494,7 +494,7 @@ segment_maker(
         arguments=[
             abjad.Articulation('>'), None, None, None, None, None, None, None],
         ),
-    #baca.accents(selector=baca.select_leaves_in_each_tuplet(stop=1)),
+    #baca.accents(selector=baca.select_leaves_in_each_tuplet()[:1]),
     )
 
 segment_maker(
