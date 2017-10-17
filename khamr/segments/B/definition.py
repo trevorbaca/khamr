@@ -490,11 +490,7 @@ segment_maker(
     baca.scope('Flute Music Voice', 5, 6),
     baca.dynamic('fff'),
     baca.pitches('D6 E6 F#6 C6 C#6 D6 D#6 F6'),
-    baca.AttachCommand(
-        arguments=[
-            abjad.Articulation('>'), None, None, None, None, None, None, None],
-        ),
-    #baca.accents(selector=baca.select().leaves_in_each_tuplet()[:1]),
+    baca.accents(baca.select().top().tuplets().map(baca.select().leaf(0))),
     )
 
 segment_maker(
