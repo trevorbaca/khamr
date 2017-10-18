@@ -758,8 +758,8 @@
                     c'2. \repeatTie
                     c'2 \repeatTie
                     \revert Stem.direction
-                    \override Stem.direction = #down
                     r1.
+                    \override Stem.direction = #down
                     af''4
                     r4
                     r2.
