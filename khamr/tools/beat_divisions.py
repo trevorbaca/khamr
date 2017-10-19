@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def make_beat_division_maker():
+def beat_divisions():
     r'''Makes beat division-maker.
     '''
     beat_division_maker = baca.DivisionMaker()

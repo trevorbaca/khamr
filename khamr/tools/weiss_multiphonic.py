@@ -1,7 +1,7 @@
 import baca
 
 
-def make_weiss_multiphonic(number):
+def weiss_multiphonic(number):
     r'''Makes Weiss multiphonic.
     '''
     pass

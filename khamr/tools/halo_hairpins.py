@@ -1,7 +1,7 @@
 import baca
 
 
-def make_halo_accompaniment_hairpins():
+def halo_hairpins():
     r'''
     '''
     return baca.hairpins(

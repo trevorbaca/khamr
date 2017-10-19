@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def make_narrow_sixth_octave():
+def narrow_sixth_octave():
     r'''Makes narrow sixth octave register command.
     '''
     return baca.RegisterCommand(
