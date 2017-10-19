@@ -45,7 +45,7 @@ segment_maker.validate_measures_per_stage()
 segment_maker(
     baca.scope('Flute Music Voice', 1, 5),
     baca.RhythmBuilder(
-        division_maker=khamr.make_beat_division_maker()
+        division_maker=khamr.beat_divisions()
             .flatten()
             .fuse_by_counts(
                 counts=[10, 4, 14, 10, 4, 8],
@@ -63,7 +63,7 @@ segment_maker(
 segment_maker(
     baca.scope('Flute Music Voice', 6),
     baca.RhythmBuilder(
-        division_maker=khamr.make_beat_division_maker(),
+        division_maker=khamr.beat_divisions(),
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
         ),
     )
@@ -108,7 +108,7 @@ segment_maker(
 segment_maker(
     baca.scope('Oboe Music Voice', 6),
     baca.RhythmBuilder(
-        division_maker=khamr.make_beat_division_maker(),
+        division_maker=khamr.beat_divisions(),
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
         ),
     )
@@ -154,7 +154,7 @@ segment_maker(
 segment_maker(
     baca.scope('Clarinet Music Voice', 6),
     baca.RhythmBuilder(
-        division_maker=khamr.make_beat_division_maker(),
+        division_maker=khamr.beat_divisions(),
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
         ),
     )
@@ -199,7 +199,7 @@ segment_maker(
 segment_maker(
     baca.scope('Saxophone Music Voice', 6),
     baca.RhythmBuilder(
-        division_maker=khamr.make_beat_division_maker(),
+        division_maker=khamr.beat_divisions(),
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
         ),
     )
@@ -228,7 +228,7 @@ segment_maker(
 segment_maker(
     baca.scope('Guitar Music Voice', 6),
     baca.RhythmBuilder(
-        division_maker=khamr.make_beat_division_maker(),
+        division_maker=khamr.beat_divisions(),
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
         ),
     )
@@ -246,7 +246,7 @@ segment_maker(
     baca.scope('Piano Music Voice', 1, 9),
     baca.instrument(piano),
     baca.RhythmBuilder(
-        division_maker=khamr.make_beat_division_maker()
+        division_maker=khamr.beat_divisions()
             .flatten()
             .fuse_by_counts(
                 counts=[10, 4, 14, 10, 4, 8],
@@ -266,7 +266,7 @@ segment_maker(
 segment_maker(
     baca.scope('Percussion Music Voice', 1, 9),
     baca.RhythmBuilder(
-        division_maker=khamr.make_beat_division_maker()
+        division_maker=khamr.beat_divisions()
             .flatten()
             .fuse_by_counts(
                 counts=[10, 4, 14, 10, 4, 8],
@@ -286,14 +286,14 @@ segment_maker(
 segment_maker(
     baca.scope('Violin Music Voice', 1, 5),
     baca.RhythmBuilder(
-        division_maker=khamr.make_quarter_division_maker(),
+        division_maker=khamr.quarter_divisions(),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
                 use_messiaen_style_ties=True,
                 ),
-            tuplet_ratios=khamr.make_string_tuplet_ratios(4),
+            tuplet_ratios=khamr.string_tuplet_ratios(4),
             tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
                 flatten_trivial_tuplets=True,
                 ),
@@ -325,14 +325,14 @@ segment_maker(
 segment_maker(
     baca.scope('Viola Music Voice', 1, 5),
     baca.RhythmBuilder(
-        division_maker=khamr.make_quarter_division_maker(),
+        division_maker=khamr.quarter_divisions(),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
                 use_messiaen_style_ties=True,
                 ),
-            tuplet_ratios=khamr.make_string_tuplet_ratios(3),
+            tuplet_ratios=khamr.string_tuplet_ratios(3),
             tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
                 flatten_trivial_tuplets=True,
                 ),
@@ -355,7 +355,7 @@ segment_maker.copy_rhythm(
 segment_maker(
     baca.scope('Cello Music Voice', 1, 9),
     baca.RhythmBuilder(
-        division_maker=khamr.make_beat_division_maker()
+        division_maker=khamr.beat_divisions()
             .flatten()
             .fuse_by_counts(
                 counts=[14, 6, 12, 4, 12, 6, 8],
@@ -375,7 +375,7 @@ segment_maker(
 segment_maker(
     baca.scope('Contrabass Music Voice', 1, 5),
     baca.RhythmBuilder(
-        division_maker=khamr.make_beat_division_maker()
+        division_maker=khamr.beat_divisions()
             .flatten()
             .fuse_by_counts(
                 counts=[12, 4, 12, 6, 8, 14, 6],
@@ -392,7 +392,7 @@ segment_maker(
 segment_maker(
     baca.scope('Contrabass Music Voice', 6),
     baca.RhythmBuilder(
-        division_maker=khamr.make_beat_division_maker(),
+        division_maker=khamr.beat_divisions(),
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
         ),
     )

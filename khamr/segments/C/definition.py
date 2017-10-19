@@ -38,7 +38,7 @@ segment_maker.validate_measures_per_stage()
 segment_maker(
     baca.scope('Flute Music Voice', 1, 7),
     baca.RhythmBuilder(
-        division_maker=khamr.make_beat_division_maker()
+        division_maker=khamr.beat_divisions()
             .fuse_by_counts(
                 counts=[8],
                 ),
@@ -63,7 +63,7 @@ segment_maker(
 segment_maker(
     baca.scope('Oboe Music Voice', 1, 7),
     baca.RhythmBuilder(
-        division_maker=khamr.make_beat_division_maker()
+        division_maker=khamr.beat_divisions()
             .fuse_by_counts(
                 counts=[10],
                 ),
@@ -95,7 +95,7 @@ segment_maker(
 segment_maker(
     baca.scope('Saxophone Music Voice', 1, 7),
     baca.RhythmBuilder(
-        division_maker=khamr.make_beat_division_maker()
+        division_maker=khamr.beat_divisions()
             .fuse_by_counts(
                 counts=[12],
                 ),
@@ -256,7 +256,7 @@ segment_maker(
     baca.scope('Violin Music Voice', 1, 7),
     baca.clef('percussion'),
     baca.RhythmBuilder(
-        division_maker=khamr.make_beat_division_maker()
+        division_maker=khamr.beat_divisions()
             .fuse_by_counts(
                 counts=abjad.Infinity,
                 )
@@ -278,7 +278,7 @@ segment_maker(
     baca.scope('Viola Music Voice', 1, 7),
     baca.clef('percussion'),
     baca.RhythmBuilder(
-        division_maker=khamr.make_beat_division_maker()
+        division_maker=khamr.beat_divisions()
             .fuse_by_counts(
                 counts=abjad.Infinity,
                 )
@@ -300,7 +300,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 1, 7),
     baca.clef('percussion'),
     baca.RhythmBuilder(
-        division_maker=khamr.make_beat_division_maker()
+        division_maker=khamr.beat_divisions()
             .fuse_by_counts(
                 counts=abjad.Infinity,
                 )
@@ -322,7 +322,7 @@ segment_maker(
     baca.scope('Contrabass Music Voice', 1, 7),
     baca.clef('percussion'),
     baca.RhythmBuilder(
-        division_maker=khamr.make_beat_division_maker()
+        division_maker=khamr.beat_divisions()
             .fuse_by_counts(
                 counts=abjad.Infinity,
                 )

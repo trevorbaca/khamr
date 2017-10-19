@@ -1,7 +1,7 @@
 import abjad
 
 
-def make_tuplet_spelling_specifier():
+def tuplet_spelling():
     r'''Makes tuplet spelling specifier.
     '''
     return abjad.rhythmmakertools.TupletSpecifier(

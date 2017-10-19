@@ -68,7 +68,7 @@ segment_maker(
 segment_maker(
     baca.scope('Flute Music Voice', 9),
     baca.RhythmBuilder(
-        division_maker=khamr.make_beat_division_maker()
+        division_maker=khamr.beat_divisions()
             .fuse_by_counts(
                 counts=[8],
                 ),
@@ -116,7 +116,7 @@ segment_maker(
 segment_maker(
     baca.scope('Oboe Music Voice', 9),
     baca.RhythmBuilder(
-        division_maker=khamr.make_beat_division_maker()
+        division_maker=khamr.beat_divisions()
             .fuse_by_counts(
                 counts=[10],
                 ),
@@ -208,7 +208,7 @@ segment_maker(
 segment_maker(
     baca.scope('Saxophone Music Voice', 9),
     baca.RhythmBuilder(
-        division_maker=khamr.make_beat_division_maker()
+        division_maker=khamr.beat_divisions()
             .fuse_by_counts(
                 counts=[12],
                 ),
@@ -245,7 +245,7 @@ segment_maker(
 segment_maker(
     baca.scope('Piano Music Voice', 1, 4),
     baca.RhythmBuilder(
-        division_maker=khamr.make_beat_division_maker(),
+        division_maker=khamr.beat_divisions(),
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             tuplet_ratios=[
                 (1, 1, 1, 1), (1, 1, 1, 1), (1, 1, 1, 1), (1, 1, 1),
@@ -291,7 +291,7 @@ segment_maker(
 segment_maker(
     baca.scope('Percussion Music Voice', 5),
     baca.RhythmBuilder(
-        division_maker=khamr.make_quarter_division_maker(),
+        division_maker=khamr.quarter_divisions(),
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(),
         ),
     )
@@ -343,7 +343,7 @@ segment_maker(
                 (3, 2), (2, 3),
                 (2, 1), (1, 2),
                 ],
-            tuplet_specifier=khamr.make_tuplet_spelling_specifier(),
+            tuplet_specifier=khamr.tuplet_spelling(),
             ),
         ),
     )
@@ -374,7 +374,7 @@ segment_maker(
                 (2, 1), (1, 2),
                 (4, 3), (3, 4),
                 ],
-            tuplet_specifier=khamr.make_tuplet_spelling_specifier(),
+            tuplet_specifier=khamr.tuplet_spelling(),
             ),
         ),
     )
@@ -405,7 +405,7 @@ segment_maker(
                 (4, 3), (3, 4),
                 (3, 2), (2, 3),
                 ],
-            tuplet_specifier=khamr.make_tuplet_spelling_specifier(),
+            tuplet_specifier=khamr.tuplet_spelling(),
             ),
         ),
     )
@@ -596,7 +596,7 @@ segment_maker(
             ],
         ),
     baca.ottava(),
-    khamr.make_sixth_octave(),
+    khamr.sixth_octave(),
     )
 
 segment_maker(
@@ -660,7 +660,7 @@ segment_maker(
     baca.glissandi(),
     baca.markup.estr_sul_pont(),
     baca.natural_harmonics(),
-    khamr.make_narrow_fourth_octave(),
+    khamr.narrow_fourth_octave(),
     )
 
 segment_maker(

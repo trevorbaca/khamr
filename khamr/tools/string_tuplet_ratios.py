@@ -1,4 +1,4 @@
-def make_string_tuplet_ratios(number):
+def string_tuplet_ratios(number):
     r'''Makes string tuplet ratios.
     '''
     if number == 1:

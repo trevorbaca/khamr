@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def make_narrow_fourth_octave():
+def narrow_fourth_octave():
     r'''Makes narrow fourth octave register command.
     '''
     return baca.RegisterCommand(
