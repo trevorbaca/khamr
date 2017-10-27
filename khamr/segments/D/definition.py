@@ -305,7 +305,7 @@ segment_maker(
     baca.scope('Violin Music Voice', 6),
     baca.RhythmBuilder(
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
-            division_masks=abjad.silence_last(),
+            division_masks=abjad.silence_last(1),
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
                 use_messiaen_style_ties=True,
