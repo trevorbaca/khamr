@@ -660,7 +660,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Music Voice', 1, 5),
-    baca.glissandi(),
+    baca.glissando(),
     baca.markup.string_number(4),
     baca.natural_harmonics(),
     baca.pitches(
@@ -682,7 +682,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 1, 5),
-    baca.glissandi(),
+    baca.glissando(),
     baca.markup.string_number(3),
     baca.pitches(
         source=khamr.violin_halo_pitches,
@@ -704,7 +704,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 1, 5),
-    baca.glissandi(),
+    baca.glissando(),
     baca.markup.string_number(3),
     baca.natural_harmonics(),
     baca.pitches(
@@ -727,7 +727,7 @@ segment_maker(
 segment_maker(
     baca.scope('Contrabass Music Voice', 1, 7),
     baca.dynamic('f'),
-    baca.glissandi(),
+    baca.glissando(),
     baca.natural_harmonics(),
     baca.pitches(
         source=khamr.contrabass_halo_pitches,
