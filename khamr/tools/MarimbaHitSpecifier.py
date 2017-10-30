@@ -4,27 +4,21 @@ import abjad
 class MarimbaHitSpecifier(abjad.AbjadObject):
     r'''Marimba hit specifier.
 
-    ::
-
-        >>> import khamr
+    >>> import khamr
 
     ..  container:: example
 
         Initializes with boolean indices:
 
-        ::
+        >>> specifier = khamr.MarimbaHitSpecifier(
+        ...     indices=[3, 9],
+        ...     )
 
-            >>> specifier = khamr.MarimbaHitSpecifier(
-            ...     indices=[3, 9],
-            ...     )
-
-        ::
-
-            >>> print(format(specifier))
-            khamr.MarimbaHitSpecifier(
-                attach_first_markup=False,
-                indices=[3, 9],
-                )
+        >>> print(format(specifier))
+        khamr.MarimbaHitSpecifier(
+            attach_first_markup=False,
+            indices=[3, 9],
+            )
 
     '''
 
