@@ -684,7 +684,7 @@ segment_maker(
         ['Violin Music Voice', 'Viola Music Voice', 'Cello Music Voice'],
         [(3, 4)],
         ),
-    baca.hairpins(['pp < f']),
+    baca.hairpin('pp < f'),
     )
 
 ### VIOLA ###
@@ -740,7 +740,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Contrabass Music Voice', 3, 4),
-    baca.hairpins(['p < f']),
+    baca.hairpin('p < f'),
     )
 
 segment_maker(

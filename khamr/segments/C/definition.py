@@ -400,7 +400,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Percussion Music Voice', 1, 2),
-    baca.hairpins(['pp > ppp']),
+    baca.hairpin('pp > ppp'),
     baca.stem_tremolo(),
     )
 
@@ -477,5 +477,5 @@ segment_maker(
         'Contrabass Music Voice'],
         [(4, 7)],
         ),
-    baca.hairpins(['p > ppp']),
+    baca.hairpin('p > ppp'),
     )
