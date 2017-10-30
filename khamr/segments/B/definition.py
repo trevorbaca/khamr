@@ -657,7 +657,7 @@ segment_maker(
             abjad.Transposition(n=6),
             ],
         ),
-    baca.glissandi(),
+    baca.glissando(),
     baca.markup.estr_sul_pont(),
     baca.natural_harmonics(),
     khamr.narrow_fourth_octave(),

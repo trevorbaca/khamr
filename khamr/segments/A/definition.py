@@ -808,7 +808,7 @@ segment_maker(
 segment_maker(
     baca.scope('Contrabass Music Voice', 1, 3),
     baca.dynamic('mf'),
-    baca.glissandi(),
+    baca.glissando(baca.select().tleaves()),
     baca.markup.string_numbers([3, 4]),
     baca.natural_harmonics(),
     baca.pitches(
