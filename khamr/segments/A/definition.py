@@ -10,10 +10,8 @@ import khamr
 segment_maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     instruments=khamr.instruments,
-    #label_stages=True,
-    measures_per_stage=[
-        4, 4, 6, 6, 10,
-        ],
+    label_stages=False,
+    measures_per_stage=[4, 4, 6, 6, 10],
     metronome_marks=khamr.metronome_marks,
     score_template=khamr.ScoreTemplate(),
     metronome_mark_measure_map=[
@@ -808,7 +806,7 @@ segment_maker(
 segment_maker(
     baca.scope('Contrabass Music Voice', 1, 3),
     baca.dynamic('mf'),
-    baca.glissando(baca.select().tleaves()),
+    baca.glissando(),
     baca.markup.string_numbers([3, 4]),
     baca.natural_harmonics(),
     baca.pitches(
