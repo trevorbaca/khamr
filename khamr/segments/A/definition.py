@@ -547,7 +547,7 @@ segment_maker.copy_rhythm(
 segment_maker(
     baca.scope('Flute Music Voice', 1, 2),
     baca.pitches('Bb4'),
-    baca.hairpins(['mp > pp', 'pp < mp']),
+    baca.hairpin('mp > pp'),
     baca.trills(),
     )
 
