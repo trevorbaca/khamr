@@ -44,7 +44,7 @@ segment_maker.validate_measures_per_stage()
 
 segment_maker(
     baca.scope('Flute Music Voice', 1),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -92,7 +92,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Oboe Music Voice', 1),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -143,7 +143,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Clarinet Music Voice', 1),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -184,7 +184,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Saxophone Music Voice', 1),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -232,12 +232,12 @@ segment_maker(
 
 segment_maker(
     baca.scope('Guitar Music Voice', 1),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
     baca.scope('Guitar Music Voice', 5, 6),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 ### PIANO ###
@@ -285,7 +285,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Percussion Music Voice', 3, 4),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -314,14 +314,14 @@ segment_maker(
 
 segment_maker(
     baca.scope('Percussion Music Voice', 7, 9),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 ### VIOLIN ###
 
 segment_maker(
     baca.scope('Violin Music Voice', 1),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -352,7 +352,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 1),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -383,7 +383,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Cello Music Voice', 1),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
@@ -414,32 +414,32 @@ segment_maker(
 
 segment_maker(
     baca.scope('Contrabass Music Voice', 1),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
     baca.scope('Contrabass Music Voice', 2),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
     baca.scope('Contrabass Music Voice', 3),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
     baca.scope('Contrabass Music Voice', 4),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
     baca.scope('Contrabass Music Voice', 5),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(
     baca.scope('Contrabass Music Voice', 6),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 segment_maker(

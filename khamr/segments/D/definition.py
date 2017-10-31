@@ -317,7 +317,7 @@ segment_maker(
 segment_maker(
     baca.scope('Violin Music Voice', 7, 9),
     baca.clef('percussion'),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 ### VIOLA ###

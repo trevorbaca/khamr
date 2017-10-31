@@ -87,7 +87,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Clarinet Music Voice', 1, 7),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 ### SAXOPHONE ###
@@ -247,7 +247,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Percussion Music Voice', 4, 7),
-    baca.messiaen_tied_notes(),
+    baca.tied_notes(repeat_ties=True),
     )
 
 ### VIOLIN ###
