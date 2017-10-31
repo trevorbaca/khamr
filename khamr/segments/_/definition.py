@@ -523,7 +523,7 @@ segment_maker(
 segment_maker(
     baca.scope('Flute Music Voice', 6, 7),
     baca.hairpin('mp > pp'),
-    baca.trills(),
+    baca.map(baca.trill(), baca.select().qruns()),
     baca.pitches('A4'),
     )
 
