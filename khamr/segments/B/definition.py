@@ -82,7 +82,7 @@ segment_maker(
                 talea_denominator=16,
                 ),
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True
+                repeat_ties=True
                 ),
             ),
         ),
@@ -133,7 +133,7 @@ segment_maker(
                 abjad.silence_first(1),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True
+                repeat_ties=True
                 ),
             ),
         ),
@@ -174,7 +174,7 @@ segment_maker(
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
-                use_messiaen_style_ties=True
+                repeat_ties=True
                 ),
             ),
         ),
@@ -222,7 +222,7 @@ segment_maker(
                 talea_denominator=16,
                 ),
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True
+                repeat_ties=True
                 ),
             ),
         ),
@@ -336,7 +336,7 @@ segment_maker(
                     )
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             tuplet_ratios=[
                 (4, 3), (3, 4),
@@ -367,7 +367,7 @@ segment_maker(
                     )
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             tuplet_ratios=[
                 (3, 2), (2, 3),
@@ -398,7 +398,7 @@ segment_maker(
                     )
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             tuplet_ratios=[
                 (2, 1), (1, 2),
@@ -452,7 +452,7 @@ segment_maker(
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             )
         ),
@@ -468,7 +468,7 @@ segment_maker(
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
-                use_messiaen_style_ties=True
+                repeat_ties=True
                 ),
             ),
         ),
