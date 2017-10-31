@@ -757,7 +757,7 @@ segment_maker(
 segment_maker(
     baca.scope('Contrabass Music Voice', 8, 9),
     baca.dynamic('mp'),
-    baca.trills_at_pitch('F3', harmonic=True),
+    baca.pitched_trill('F3', harmonic=True),
     baca.pitches('G0'),
     khamr.markup.scodanibbio(),
     )
