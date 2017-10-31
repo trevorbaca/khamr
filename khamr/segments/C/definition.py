@@ -52,7 +52,7 @@ segment_maker(
                 talea_denominator=16,
                 ),
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True
+                repeat_ties=True
                 ),
             ),
         ),
@@ -77,7 +77,7 @@ segment_maker(
                 talea_denominator=16,
                 ),
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True
+                repeat_ties=True
                 ),
             ),
         ),
@@ -109,7 +109,7 @@ segment_maker(
                 talea_denominator=16,
                 ),
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True
+                repeat_ties=True
                 ),
             ),
         ),
@@ -127,7 +127,7 @@ segment_maker(
                 abjad.sustain_last(1),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             ),
         ),
@@ -143,7 +143,7 @@ segment_maker(
                 abjad.sustain_first(1),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             ),
         ),
@@ -166,7 +166,7 @@ segment_maker(
                 abjad.silence_last(1),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 )
             ),),
     )
@@ -183,7 +183,7 @@ segment_maker(
                 abjad.sustain_last(1),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             ),
         ),
@@ -199,7 +199,7 @@ segment_maker(
                 abjad.sustain_first(1),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             ),
         ),
@@ -222,7 +222,7 @@ segment_maker(
                 abjad.silence_last(1),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 )
             ),
         ),
@@ -239,7 +239,7 @@ segment_maker(
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             )
         ),
@@ -266,7 +266,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True
+                repeat_ties=True
                 ),
             ),
         ),
@@ -288,7 +288,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True
+                repeat_ties=True
                 ),
             ),
         ),
@@ -310,7 +310,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True
+                repeat_ties=True
                 ),
             ),
         ),
@@ -332,7 +332,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True
+                repeat_ties=True
                 ),
             ),
         ),

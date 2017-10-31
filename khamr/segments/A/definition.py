@@ -87,7 +87,7 @@ segment_maker(
                 abjad.silence_every([2, 5], period=6),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             ),
         ),
@@ -103,7 +103,7 @@ segment_maker(
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             ),
         ),
@@ -120,7 +120,7 @@ segment_maker(
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             ),
         ),
@@ -148,7 +148,7 @@ segment_maker(
                 abjad.silence_every([1, 4], period=6),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             ),
         ),
@@ -187,7 +187,7 @@ segment_maker(
                 abjad.silence_last(1),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             ),
         ),
@@ -225,7 +225,7 @@ segment_maker(
                 abjad.silence_every([1, 3], period=6),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             ),
         ),
@@ -272,7 +272,7 @@ segment_maker(
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             ),
         ),
@@ -300,7 +300,7 @@ segment_maker(
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             ),
         ),
@@ -342,7 +342,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 )
             ),
         ),
@@ -372,7 +372,7 @@ segment_maker(
                     ),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             ),
         ),
@@ -403,7 +403,7 @@ segment_maker(
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             tuplet_ratios=khamr.string_tuplet_ratios(4),
             tuplet_specifier=khamr.tuplet_spelling(),
@@ -434,7 +434,7 @@ segment_maker(
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             tuplet_ratios=khamr.string_tuplet_ratios(3),
             tuplet_specifier=khamr.tuplet_spelling(),
@@ -465,7 +465,7 @@ segment_maker(
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             tuplet_ratios=khamr.string_tuplet_ratios(2),
             tuplet_specifier=khamr.tuplet_spelling(),
@@ -483,7 +483,7 @@ segment_maker(
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 ),
             ),
         ),
@@ -522,7 +522,7 @@ segment_maker(
             tuplet_specifier=khamr.tuplet_spelling(),
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
-                use_messiaen_style_ties=True,
+                repeat_ties=True,
                 )
             ),
         ),
