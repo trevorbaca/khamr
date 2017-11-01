@@ -46,7 +46,7 @@ segment_maker(
     baca.scope('Flute Music Voice', 1, 5),
     baca.RhythmBuilder(
         division_maker=khamr.beat_divisions()
-            .flatten(depth=-1),
+            .flatten(depth=-1)
             .fuse_by_counts(
                 counts=[10, 4, 14, 10, 4, 8],
                 ),
@@ -247,7 +247,7 @@ segment_maker(
     baca.instrument(piano),
     baca.RhythmBuilder(
         division_maker=khamr.beat_divisions()
-            .flatten(depth=-1),
+            .flatten(depth=-1)
             .fuse_by_counts(
                 counts=[10, 4, 14, 10, 4, 8],
                 ),
@@ -267,7 +267,7 @@ segment_maker(
     baca.scope('Percussion Music Voice', 1, 9),
     baca.RhythmBuilder(
         division_maker=khamr.beat_divisions()
-            .flatten(depth=-1),
+            .flatten(depth=-1)
             .fuse_by_counts(
                 counts=[10, 4, 14, 10, 4, 8],
                 ),
@@ -356,7 +356,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 1, 9),
     baca.RhythmBuilder(
         division_maker=khamr.beat_divisions()
-            .flatten(depth=-1),
+            .flatten(depth=-1)
             .fuse_by_counts(
                 counts=[14, 6, 12, 4, 12, 6, 8],
                 ),
@@ -376,7 +376,7 @@ segment_maker(
     baca.scope('Contrabass Music Voice', 1, 5),
     baca.RhythmBuilder(
         division_maker=khamr.beat_divisions()
-            .flatten(depth=-1),
+            .flatten(depth=-1)
             .fuse_by_counts(
                 counts=[12, 4, 12, 6, 8, 14, 6],
                 ),
