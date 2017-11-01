@@ -191,7 +191,7 @@ segment_maker(
             .fuse_by_counts(
                 counts=[2, 1],
                 )
-            .flatten(),
+            .flatten(depth=-1),
         rhythm_maker=abjad.rhythmmakertools.AccelerandoRhythmMaker(
             beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
                 use_feather_beams=True,
@@ -253,7 +253,7 @@ segment_maker(
             .fuse_by_counts(
                 counts=[3, 2],
                 )
-            .flatten(),
+            .flatten(depth=-1),
         rhythm_maker=abjad.rhythmmakertools.AccelerandoRhythmMaker(
             beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
                 use_feather_beams=True,

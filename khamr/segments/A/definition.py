@@ -356,7 +356,7 @@ segment_maker(
                 compound_meter_multiplier=abjad.Multiplier(3, 2),
                 durations=[(1, 4)],
                 )
-            .flatten(),
+            .flatten(depth=-1),
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[
