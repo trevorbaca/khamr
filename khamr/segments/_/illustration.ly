@@ -561,68 +561,69 @@
                                     hn.
                                 }
                         }
-                    \clef "treble"
+                    \clef "percussion"
                     \override RepeatTie.direction = #up
-                    b'2 \p - \markup { "airtone without reed: mix inhales and exhales ad lib." }
-                    b'2 \repeatTie
-                    b'1. \repeatTie
-                    b'2. \repeatTie
-                    b'8 \repeatTie
+                    g'2 \p - \markup { "airtone without reed: mix inhales and exhales ad lib." }
+                    g'2 \repeatTie
+                    g'1. \repeatTie
+                    g'2. \repeatTie
+                    g'8 \repeatTie
                     r2..
                     r2.
                     r4
-                    b'2.
-                    b'2. \repeatTie
-                    b'2 \repeatTie
-                    b'4. \repeatTie
+                    g'2.
+                    g'2. \repeatTie
+                    g'2 \repeatTie
+                    g'4. \repeatTie
                     r8
-                    b'2
-                    b'2. \repeatTie
-                    b'1 \repeatTie
-                    b'8 \repeatTie
+                    g'2
+                    g'2. \repeatTie
+                    g'1 \repeatTie
+                    g'8 \repeatTie
                     r8
                     r2
                     r2
                     r2.
-                    b'2
-                    b'1. \repeatTie
-                    b'4. \repeatTie
+                    g'2
+                    g'1. \repeatTie
+                    g'4. \repeatTie
                     r8
-                    b'2.
-                    b'2 \repeatTie
-                    b'2. \repeatTie
-                    b'1 \repeatTie
-                    b'4 \repeatTie
+                    g'2.
+                    g'2 \repeatTie
+                    g'2. \repeatTie
+                    g'1 \repeatTie
+                    g'4 \repeatTie
                     r2
                     r2.
                     r2
                     r4
-                    b'4
-                    b'2. \repeatTie
-                    b'1 \repeatTie
-                    b'4. \repeatTie
+                    g'4
+                    g'2. \repeatTie
+                    g'1 \repeatTie
+                    g'4. \repeatTie
                     r8
-                    b'2
-                    b'1. \repeatTie
-                    b'2.. \repeatTie
+                    g'2
+                    g'1. \repeatTie
+                    g'2.. \repeatTie
                     r8
                     r2.
                     r2.
                     r4
-                    b'2.
-                    b'2. \repeatTie
-                    b'4. \repeatTie
+                    g'2.
+                    g'2. \repeatTie
+                    g'4. \repeatTie
                     r8
-                    b'2.
-                    b'1 \repeatTie
-                    b'1 \repeatTie
-                    b'8 \repeatTie
+                    g'2.
+                    g'1 \repeatTie
+                    g'1 \repeatTie
+                    g'8 \repeatTie
                     \revert RepeatTie.direction
                     r8
                     r2
                     r2
                     \stopStaff
                     \startStaff
+                    \clef "treble"
                     r2.
                     <e'' b''>2
                     <e'' b''>1. \repeatTie
@@ -1803,8 +1804,22 @@
                     c'2. \repeatTie
                     c'2 \repeatTie
                     c'2. \repeatTie
-                    af''2. -\accent
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''2. -\marcato \sfz
+                        ^ \markup {
+                            \larger
+                                \override
+                                    #'(box-padding . 0.75)
+                                    \box
+                                        "marimba + woodblock"
+                            }
                     af''2 \repeatTie
+                    \stopStaff
+                    \startStaff
+                    \clef "percussion"
                     c'2. -\accent
                     c'2 \repeatTie
                     c'2. \repeatTie
@@ -1823,7 +1838,14 @@
                     c'2. \repeatTie
                     c'1 \repeatTie
                     c'4 \repeatTie
-                    af''1 -\accent
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''1 -\marcato \sfz
+                    \stopStaff
+                    \startStaff
+                    \clef "percussion"
                     c'2. -\accent
                     c'1 \repeatTie
                     c'1 \repeatTie

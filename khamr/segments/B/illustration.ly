@@ -1420,14 +1420,15 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
+                    \clef "percussion"
                     r1
                     r1
                     r2
                     \override RepeatTie.direction = #up
-                    b'2. \pp - \markup { "airtone without reed: mix inhales and exhales ad lib." }
-                    b'4. \repeatTie
-                    b'4 \repeatTie
-                    b'16 \repeatTie
+                    c'2. \pp - \markup { "airtone without reed: mix inhales and exhales ad lib." }
+                    c'4. \repeatTie
+                    c'4 \repeatTie
+                    c'16 \repeatTie
                     \revert RepeatTie.direction
                     r16
                     \bar "|"
@@ -2396,21 +2397,22 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
+                    \clef "percussion"
                     \override RepeatTie.direction = #up
-                    b'1 \pp
+                    a1 \pp
                         ^ \markup {
                             \whiteout
                                 \upright
                                     airtone
                             }
-                    b'1 \repeatTie
-                    b'2... \repeatTie
+                    a1 \repeatTie
+                    a2... \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    b'4
-                    b'4. \repeatTie
-                    b'4 \repeatTie
-                    b'16 \repeatTie
+                    a4
+                    a4. \repeatTie
+                    a4 \repeatTie
+                    a16 \repeatTie
                     \revert RepeatTie.direction
                     r16
                     \bar "|"

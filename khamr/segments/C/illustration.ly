@@ -268,39 +268,39 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
-                    \clef "treble"
+                    \clef "percussion"
                     \override RepeatTie.direction = #up
-                    fs''2
-                    fs''2 \repeatTie
-                    fs''1. \repeatTie
-                    fs''4.. \repeatTie
+                    g'2
+                    g'2 \repeatTie
+                    g'1. \repeatTie
+                    g'4.. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    fs''4
-                    fs''1 \repeatTie
-                    fs''2. \repeatTie
-                    fs''2 \repeatTie
-                    fs''8. \repeatTie
+                    g'4
+                    g'1 \repeatTie
+                    g'2. \repeatTie
+                    g'2 \repeatTie
+                    g'8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    fs''4
-                    fs''2. \repeatTie
-                    fs''2 \repeatTie
-                    fs''2... \repeatTie
+                    g'4
+                    g'2. \repeatTie
+                    g'2 \repeatTie
+                    g'2... \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    fs''2.
-                    fs''1 \repeatTie
-                    fs''2 \repeatTie
-                    fs''8. \repeatTie
+                    g'2.
+                    g'1 \repeatTie
+                    g'2 \repeatTie
+                    g'8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    fs''2
-                    fs''2. \repeatTie
-                    fs''2 \repeatTie
-                    fs''2. \repeatTie
-                    fs''2 \repeatTie
-                    fs''8. \repeatTie
+                    g'2
+                    g'2. \repeatTie
+                    g'2 \repeatTie
+                    g'2. \repeatTie
+                    g'2 \repeatTie
+                    g'8. \repeatTie
                     \revert RepeatTie.direction
                     r16
                     \stopStaff
@@ -340,40 +340,40 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
-                    \clef "treble"
+                    \clef "percussion"
                     \override RepeatTie.direction = #up
-                    b'''2
-                    b'''2 \repeatTie
-                    b'''1. \repeatTie
-                    b'''2. \repeatTie
-                    b'''8. \repeatTie
+                    a''2
+                    a''2 \repeatTie
+                    a''1. \repeatTie
+                    a''2. \repeatTie
+                    a''8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    b'''2.
-                    b'''2. \repeatTie
-                    b'''1 \repeatTie
-                    b'''2 \repeatTie
-                    b'''8. \repeatTie
+                    a''2.
+                    a''2. \repeatTie
+                    a''1 \repeatTie
+                    a''2 \repeatTie
+                    a''8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    b'''2
-                    b'''1 \repeatTie
-                    b'''2. \repeatTie
-                    b'''2 \repeatTie
-                    b'''8. \repeatTie
+                    a''2
+                    a''1 \repeatTie
+                    a''2. \repeatTie
+                    a''2 \repeatTie
+                    a''8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    b'''4
-                    b'''2. \repeatTie
-                    b'''2 \repeatTie
-                    b'''2. \repeatTie
-                    b'''2 \repeatTie
-                    b'''2 \repeatTie
-                    b'''8. \repeatTie
+                    a''4
+                    a''2. \repeatTie
+                    a''2 \repeatTie
+                    a''2. \repeatTie
+                    a''2 \repeatTie
+                    a''2 \repeatTie
+                    a''8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    b'''2
-                    b'''8. \repeatTie
+                    a''2
+                    a''8. \repeatTie
                     \revert RepeatTie.direction
                     r16
                     \stopStaff
@@ -668,33 +668,33 @@
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
                     \clef "percussion"
-                    c'2 -\downbow \p
+                    c''2 -\downbow \p
                         ^ \markup {
                             \whiteout
                                 \upright
                                     "bow on tailpiece"
                             }
-                    c'2 \repeatTie
-                    c'1 -\upbow
-                    c'2 -\downbow
-                    c'2 \repeatTie
-                    c'4 -\upbow
-                    c'2. \repeatTie
-                    c'4 -\downbow
-                    c'2. \repeatTie
-                    c'1 -\upbow
-                    c'1 -\downbow \> \p
-                    c'4 -\upbow
-                    c'2. \repeatTie
-                    c'4 -\downbow
-                    c'2. \repeatTie
-                    c'1 -\upbow
-                    c'1 -\downbow
-                    c'4 -\upbow
-                    c'2. \repeatTie
-                    c'2 -\downbow
-                    c'2 \repeatTie
-                    c'1 -\upbow \ppp
+                    c''2 \repeatTie
+                    c''1 -\upbow
+                    c''2 -\downbow
+                    c''2 \repeatTie
+                    c''4 -\upbow
+                    c''2. \repeatTie
+                    c''4 -\downbow
+                    c''2. \repeatTie
+                    c''1 -\upbow
+                    c''1 -\downbow \> \p
+                    c''4 -\upbow
+                    c''2. \repeatTie
+                    c''4 -\downbow
+                    c''2. \repeatTie
+                    c''1 -\upbow
+                    c''1 -\downbow
+                    c''4 -\upbow
+                    c''2. \repeatTie
+                    c''2 -\downbow
+                    c''2 \repeatTie
+                    c''1 -\upbow \ppp
                     \stopStaff
                     \startStaff
                     s1 * 5

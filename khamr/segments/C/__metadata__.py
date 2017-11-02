@@ -12,10 +12,10 @@ metadata = abjad.TypedOrderedDict(
                     ('Contrabass Music Staff', 'percussion'),
                     ('Flute Music Staff', 'treble'),
                     ('Guitar Music Staff', 'treble'),
-                    ('Oboe Music Staff', 'treble'),
+                    ('Oboe Music Staff', 'percussion'),
                     ('Percussion Staff', 'percussion'),
                     ('Piano Music Staff', 'treble'),
-                    ('Saxophone Music Staff', 'treble'),
+                    ('Saxophone Music Staff', 'percussion'),
                     ('Viola Music Staff', 'percussion'),
                     ('Violin Music Staff', 'percussion'),
                     ]
