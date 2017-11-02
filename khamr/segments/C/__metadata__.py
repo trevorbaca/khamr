@@ -8,14 +8,14 @@ metadata = abjad.TypedOrderedDict(
             abjad.TypedOrderedDict(
                 [
                     ('Cello Music Staff', 'percussion'),
-                    ('Clarinet Music Staff', None),
+                    ('Clarinet Music Staff', 'treble'),
                     ('Contrabass Music Staff', 'percussion'),
-                    ('Flute Music Staff', None),
-                    ('Guitar Music Staff', None),
-                    ('Oboe Music Staff', None),
-                    ('Percussion Staff', None),
-                    ('Piano Music Staff', None),
-                    ('Saxophone Music Staff', None),
+                    ('Flute Music Staff', 'treble'),
+                    ('Guitar Music Staff', 'treble'),
+                    ('Oboe Music Staff', 'treble'),
+                    ('Percussion Staff', 'percussion'),
+                    ('Piano Music Staff', 'treble'),
+                    ('Saxophone Music Staff', 'treble'),
                     ('Viola Music Staff', 'percussion'),
                     ('Violin Music Staff', 'percussion'),
                     ]

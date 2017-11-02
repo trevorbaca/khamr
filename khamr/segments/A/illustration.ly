@@ -350,6 +350,7 @@
             \tag winds.flute
             \context FluteMusicStaff = "Flute Music Staff" {
                 \context FluteMusicVoice = "Flute Music Voice" {
+                    \clef "treble"
                     bf''2 \> \mp \startTrillSpan
                     bf''2 \repeatTie
                     bf''1. \repeatTie
@@ -416,6 +417,7 @@
             \tag winds.oboe
             \context OboeMusicStaff = "Oboe Music Staff" {
                 \context OboeMusicVoice = "Oboe Music Voice" {
+                    \clef "treble"
                     <e'' b''>2 -\flageolet
                     <e'' b''>2 \repeatTie
                     <e'' b''>1. \repeatTie
@@ -453,6 +455,7 @@
             \tag winds.clarinet
             \context ClarinetMusicStaff = "Clarinet Music Staff" {
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
+                    \clef "treble"
                     a2
                     a2 \repeatTie
                     a2. \repeatTie
@@ -501,6 +504,7 @@
             \tag winds.saxophone
             \context SaxophoneMusicStaff = "Saxophone Music Staff" {
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
+                    \clef "treble"
                     <d'' eqs''>2
                     <d'' eqs''>2 \repeatTie
                     <d'' eqs''>1. \repeatTie
@@ -542,6 +546,7 @@
             \context GuitarMusicStaff = "Guitar Music Staff" {
                 \context GuitarMusicVoice = "Guitar Music Voice" {
                     \times 2/3 {
+                        \clef "treble"
                         r8
                         \override NoteHead.style = #'cross
                         d''8
@@ -632,6 +637,7 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
+                    \clef "percussion"
                     \override RepeatTie.direction = #up
                     c'2
                     c'2 \repeatTie
@@ -738,6 +744,7 @@
             \tag percussion
             \context PercussionMusicStaff = "Percussion Staff" {
                 \context PercussionMusicVoice = "Percussion Music Voice" {
+                    \clef "percussion"
                     \override Stem.direction = #down
                     c'2 -\accent
                     c'2 \repeatTie
@@ -807,6 +814,7 @@
             \tag strings.violin
             \context ViolinMusicStaff = "Violin Music Staff" {
                 \context ViolinMusicVoice = "Violin Music Voice" {
+                    \clef "treble"
                     \pitchedTrill
                     gf'2 -\accent \startTrillSpan aff'
                     \times 4/5 {
@@ -955,6 +963,7 @@
             \tag strings.viola
             \context ViolaMusicStaff = "Viola Music Staff" {
                 \context ViolaMusicVoice = "Viola Music Voice" {
+                    \clef "alto"
                     \pitchedTrill
                     f'2 -\accent \startTrillSpan gf'
                     f'4 \repeatTie
@@ -1076,6 +1085,7 @@
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
                 \context CelloMusicVoice = "Cello Music Voice" {
+                    \clef "bass"
                     \pitchedTrill
                     f'2 -\accent \startTrillSpan gf'
                     f'2 \repeatTie
@@ -1167,6 +1177,7 @@
             \tag strings.contrabass
             \context ContrabassMusicStaff = "Contrabass Music Staff" {
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
+                    \clef "bass"
                     <g, a>2
                     <g, a>2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text

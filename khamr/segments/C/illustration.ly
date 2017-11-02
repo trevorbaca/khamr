@@ -217,6 +217,7 @@
             \tag winds.flute
             \context FluteMusicStaff = "Flute Music Staff" {
                 \context FluteMusicVoice = "Flute Music Voice" {
+                    \clef "treble"
                     bf''2
                     bf''2 \repeatTie
                     bf''2. \repeatTie
@@ -267,6 +268,7 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
+                    \clef "treble"
                     \override RepeatTie.direction = #up
                     fs''2
                     fs''2 \repeatTie
@@ -310,6 +312,7 @@
             \tag winds.clarinet
             \context ClarinetMusicStaff = "Clarinet Music Staff" {
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
+                    \clef "treble"
                     a2
                     a2 \repeatTie
                     a1. \repeatTie
@@ -337,6 +340,7 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
+                    \clef "treble"
                     \override RepeatTie.direction = #up
                     b'''2
                     b'''2 \repeatTie
@@ -383,6 +387,7 @@
             \tag guitar
             \context GuitarMusicStaff = "Guitar Music Staff" {
                 \context GuitarMusicVoice = "Guitar Music Voice" {
+                    \clef "treble"
                     r2
                     r2
                     r1.
@@ -413,6 +418,7 @@
             \tag piano
             \context PianoMusicStaff = "Piano Music Staff" {
                 \context PianoMusicVoice = "Piano Music Voice" {
+                    \clef "treble"
                     r2
                     r2
                     r1.
@@ -448,6 +454,7 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
+                    \clef "percussion"
                     c'2 :32 \> \pp
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
