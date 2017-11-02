@@ -1,8 +1,9 @@
 import abjad
+import baca
 
 
-class MarimbaHitSpecifier(abjad.AbjadObject):
-    r'''Marimba hit specifier.
+class MarimbaHitCommand(baca.Command):
+    r'''Marimba hit command.
 
     >>> import khamr
 
@@ -10,12 +11,12 @@ class MarimbaHitSpecifier(abjad.AbjadObject):
 
         Initializes with boolean indices:
 
-        >>> specifier = khamr.MarimbaHitSpecifier(
+        >>> specifier = khamr.MarimbaHitCommand(
         ...     indices=[3, 9],
         ...     )
 
         >>> print(format(specifier))
-        khamr.MarimbaHitSpecifier(
+        khamr.MarimbaHitCommand(
             attach_first_markup=False,
             indices=[3, 9],
             )
@@ -33,39 +34,40 @@ class MarimbaHitSpecifier(abjad.AbjadObject):
 
     def __init__(
         self,
-        attach_first_markup=False,
         indices=None,
+        attach_first_markup=False,
         ):
         self._attach_first_markup = bool(attach_first_markup)
         self._indices = indices
 
     ### SPECIAL METHODS ###
 
-    def __call__(self, logical_ties, timespan):
+    def __call__(self, argument=None):
+        r'''Calls command on `argument`.
+
+        Returns none.
+        '''
         found_first = False
-        for logical_tie_index, logical_tie in enumerate(logical_ties):
-            if logical_tie_index not in self.indices:
+        for i, plt in enumerate(baca.select(argument).plts()):
+            if i not in self.indices:
                 continue
-            five_line_spanner = abjad.StaffLinesSpanner(lines=5)
-            abjad.attach(five_line_spanner, logical_tie)
+            spanner = abjad.StaffLinesSpanner(lines=5)
+            abjad.attach(spanner, plt)
             if self.attach_first_markup and not found_first:
                 string = 'marimba + woodblock'
                 markup = abjad.Markup(string, direction=Up)
                 markup = markup.box().override(('box-padding', 0.75))
                 markup = markup.larger()
-                abjad.attach(markup, logical_tie.head)
+                abjad.attach(markup, plt.head)
                 found_first = True
-            dynamic = abjad.Dynamic('sfz')
-            abjad.detach(abjad.Articulation, logical_tie.head)
-            abjad.attach(dynamic, logical_tie.head)
-            articulation = abjad.Articulation('marcato')
-            abjad.attach(articulation, logical_tie.head)
-            clef = abjad.Clef('treble')
-            abjad.attach(clef, logical_tie.head)
-            next_leaf = abjad.inspect(logical_tie.tail).get_leaf(1)
+            abjad.detach(abjad.Articulation, plt.head)
+            abjad.attach(abjad.Dynamic('sfz'), plt.head)
+            abjad.attach(abjad.Articulation('marcato'), plt.head)
+            abjad.detach(abjad.Clef, plt.head)
+            abjad.attach(abjad.Clef('treble'), plt.head)
+            next_leaf = abjad.inspect(plt.tail).get_leaf(1)
             if next_leaf is not None:
-                clef = abjad.Clef('percussion')
-                abjad.attach(clef, next_leaf)
+                abjad.attach(abjad.Clef('percussion'), next_leaf)
 
     ### PUBLIC PROPERTIES ###
 

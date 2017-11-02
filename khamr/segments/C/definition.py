@@ -354,10 +354,9 @@ segment_maker(
 
 segment_maker(
     baca.scope('Oboe Music Voice', 1, 7),
-    # dummy centerline pitch
-    baca.pitches('B4'),
     baca.one_line_staff(),
     baca.repeat_ties_up(),
+    baca.staff_positions([0]),
     )
 
 ### CLARINET ###
@@ -372,9 +371,8 @@ segment_maker(
 segment_maker(
     baca.scope('Saxophone Music Voice', 1, 7),
     baca.one_line_staff(),
-    # dummy centerline pitch
-    baca.pitches('D5'),
     baca.repeat_ties_up(),
+    baca.staff_positions([0]),
     )
 
 ### GUITAR ##
@@ -418,12 +416,12 @@ segment_maker(
         ['Violin Music Voice', 'Viola Music Voice', 'Cello Music Voice'],
         [(1, 7)],
         ),
-    baca.pitches('C4'),
+    baca.staff_positions([0]),
     )
 
 segment_maker(
     baca.scope('Contrabass Music Voice', 1, 7),
-    baca.pitches('C3'),
+    baca.staff_positions([0]),
     )
 
 segment_maker(

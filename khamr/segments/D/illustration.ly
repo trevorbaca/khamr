@@ -861,7 +861,7 @@
                                     hn.
                                 }
                         }
-                    \clef "treble"
+                    \clef "percussion"
                     g'2
                     g'2 \repeatTie
                     \once \override Beam.color = #blue
@@ -1639,7 +1639,7 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
-                    \clef "treble"
+                    \clef "percussion"
                     a''2
                     a''2 \repeatTie
                     \once \override Beam.color = #blue

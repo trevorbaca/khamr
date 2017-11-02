@@ -756,8 +756,15 @@
                     c'2. \repeatTie
                     c'2 \repeatTie
                     c'2 \repeatTie
-                    af''2 -\accent
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''2 -\marcato \sfz
                     af''2 \repeatTie
+                    \stopStaff
+                    \startStaff
+                    \clef "percussion"
                     c'4 -\accent
                     c'1 \repeatTie
                     c'2. \repeatTie
@@ -766,47 +773,137 @@
                     c'2 \repeatTie
                     \revert Stem.direction
                     r1.
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
                     \override Stem.direction = #down
-                    af''4
+                    af''4 -\marcato \sfz
+                    \stopStaff
+                    \startStaff
+                    \clef "percussion"
                     r4
                     r2.
                     r2
-                    af''4.
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4. -\marcato \sfz
+                    \stopStaff
+                    \startStaff
+                    \clef "percussion"
                     r4.
                     r1
-                    af''4.
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4. -\marcato \sfz
+                    \stopStaff
+                    \startStaff
+                    \clef "percussion"
                     r4.
                     r2.
                     r4
-                    af''4
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4 -\marcato \sfz
+                    \stopStaff
+                    \startStaff
+                    \clef "percussion"
                     r4
-                    af''4
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4 -\marcato \sfz
+                    \stopStaff
+                    \startStaff
+                    \clef "percussion"
                     r4
                     r4
-                    af''4
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4 -\marcato \sfz
+                    \stopStaff
+                    \startStaff
+                    \clef "percussion"
                     r4
                     r4
                     r4
-                    af''4
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4 -\marcato \sfz
+                    \stopStaff
+                    \startStaff
+                    \clef "percussion"
                     r4
-                    af''4
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4 -\marcato \sfz
+                    \stopStaff
+                    \startStaff
+                    \clef "percussion"
                     r4
-                    af''4
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4 -\marcato \sfz
+                    \stopStaff
+                    \startStaff
+                    \clef "percussion"
                     r4.
                     r4.
                     r4.
-                    af''4.
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4. -\marcato \sfz
+                    \stopStaff
+                    \startStaff
+                    \clef "percussion"
                     r4
                     r4
                     r4
-                    af''4
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4 -\marcato \sfz
+                    \stopStaff
+                    \startStaff
+                    \clef "percussion"
                     r4
                     r4
-                    af''4
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4 -\marcato \sfz
+                    \stopStaff
+                    \startStaff
+                    \clef "percussion"
                     r4.
-                    af''4.
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
+                    \clef "treble"
+                    af''4. -\marcato \sfz
                     \bar "|"
                     \revert Stem.direction
+                    \stopStaff
+                    \startStaff
                 }
             }
         >>

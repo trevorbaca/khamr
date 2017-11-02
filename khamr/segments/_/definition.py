@@ -519,15 +519,17 @@ segment_maker(
 
 segment_maker(
     baca.scope('Oboe Music Voice', 1, 5),
+    baca.clef('percussion'),
     baca.dynamic('p'),
     baca.one_line_staff(),
-    baca.pitches('E4'),
+    baca.staff_positions([0]),
     baca.repeat_ties_up(),
     khamr.markup.airtone_without_reed(),
     )
 
 segment_maker(
     baca.scope('Oboe Music Voice', 6, 7),
+    baca.clef('treble'),
     baca.dynamic('pp'),
     baca.flageolets(),
     baca.markup.put_reed_back_in(),
@@ -602,9 +604,8 @@ segment_maker(
     baca.clef('percussion'),
     baca.dynamic('mf'),
     baca.one_line_staff(),
-    # dummy centerline pitch
-    baca.pitches('C4'),
     baca.repeat_ties_up(),
+    baca.staff_positions([0]),
     khamr.markup.strike_lowest_strings(),
     )
 
@@ -622,9 +623,8 @@ segment_maker(
     baca.clef('percussion'),
     baca.dynamic('mp'),
     baca.one_line_staff(),
-    # dummy centerline pitch
-    baca.pitches('C4'),
     baca.repeat_ties_up(),
+    baca.staff_positions([0]),
     khamr.markup.sparse_piano_clicks(),
     )
 
@@ -637,11 +637,7 @@ segment_maker(
     baca.markup.boxed('XL tam-tam'),
     baca.pitches('C4 C4 C4 Ab5'),
     baca.stems_down(),
-    # TODO: make work again:
-    #khamr.MarimbaHitSpecifier(
-    #    attach_first_markup=True,
-    #    indices=[3, 7],
-    #    ),
+    khamr.MarimbaHitCommand([3, 7], attach_first_markup=True),
     )
 
 ### VIOLIN ###

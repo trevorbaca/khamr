@@ -637,9 +637,8 @@ segment_maker(
 segment_maker(
     baca.scope('Piano Music Voice', 1, 3),
     baca.one_line_staff(),
-    # dummy centerline pitch
-    baca.pitches('C4'),
     baca.repeat_ties_up(),
+    baca.staff_positions([0]),
     )
 
 segment_maker(
@@ -684,20 +683,14 @@ segment_maker(
     baca.accents(),
     baca.pitches('C4 C4 Ab5 C4 C4 C4'),
     baca.stems_down(),
-    # TODO: make work again:
-    #khamr.MarimbaHitSpecifier(
-    #    indices=[2],
-    #    ),
+    khamr.MarimbaHitCommand(indices=[2]),
     )
 
 segment_maker(
     baca.scope('Percussion Music Voice', 4, 5),
     baca.pitches('Ab5'),
     baca.stems_down(),
-    # TODO: make work again
-    #khamr.MarimbaHitSpecifier(
-    #    indices=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    #    ),
+    khamr.MarimbaHitCommand([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
     )
 
 ### VIOLIN ###
