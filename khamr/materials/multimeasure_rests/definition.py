@@ -1,7 +1,7 @@
 import abjad
 
 
-mask = abjad.silence_all(use_multimeasure_rests=True)
+mask = abjad.silence([0], 1, use_multimeasure_rests=True)
 multimeasure_rests = abjad.rhythmmakertools.NoteRhythmMaker(
     division_masks=[mask],
     )

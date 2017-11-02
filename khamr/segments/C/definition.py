@@ -123,7 +123,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[
-                abjad.silence_all(),
+                abjad.silence([0], 1),
                 abjad.sustain([-1]),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
@@ -139,7 +139,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[
-                abjad.silence_all(),
+                abjad.silence([0], 1),
                 abjad.sustain([0]),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
@@ -179,7 +179,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[
-                abjad.silence_all(),
+                abjad.silence([0], 1),
                 abjad.sustain([-1]),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
@@ -195,7 +195,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[
-                abjad.silence_all(),
+                abjad.silence([0], 1),
                 abjad.sustain([0]),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
