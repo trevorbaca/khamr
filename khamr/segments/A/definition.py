@@ -84,7 +84,7 @@ segment_maker(
                 talea_denominator=8,
                 ),
             division_masks=[
-                abjad.silence_every([2, 5], period=6),
+                abjad.silence([2, 5], 6),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 repeat_ties=True,
@@ -99,7 +99,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[
-                abjad.silence_every([1], period=2),
+                abjad.silence([1], 2),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
@@ -116,7 +116,7 @@ segment_maker(
         division_maker=khamr.beat_divisions(),
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[
-                abjad.silence_first(1),
+                abjad.silence([0]),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
@@ -145,7 +145,7 @@ segment_maker(
                 talea_denominator=8,
                 ),
             division_masks=[
-                abjad.silence_every([1, 4], period=6),
+                abjad.silence([1, 4], 6),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 repeat_ties=True,
@@ -183,8 +183,8 @@ segment_maker(
                 talea_denominator=8,
                 ),
             division_masks=[
-                abjad.silence_every([1, 3], period=6),
-                abjad.silence_last(1),
+                abjad.silence([1, 3], 6),
+                abjad.silence([-1]),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 repeat_ties=True,
@@ -222,7 +222,7 @@ segment_maker(
                 talea_denominator=8,
                 ),
             division_masks=[
-                abjad.silence_every([1, 3], period=6),
+                abjad.silence([1, 3], 6),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 repeat_ties=True,
@@ -252,7 +252,7 @@ segment_maker(
                 ),
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
-                abjad.silence_every([1, 2, 3, 5, 6, 7, 8], period=9),
+                abjad.silence([1, 2, 3, 5, 6, 7, 8], 9),
                 ],
             tuplet_ratios=[
                 (-1, 1, -1), (-1, 1, -1), (-1, 1, -2), (-3, 1, -1),
@@ -268,7 +268,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[
-                abjad.silence_last(1),
+                abjad.silence([-1]),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
@@ -296,7 +296,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[
-                abjad.silence_last(1),
+                abjad.silence([-1]),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
@@ -399,7 +399,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
-                abjad.silence_last(2),
+                abjad.silence([-2, -1]),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
@@ -430,7 +430,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
-                abjad.silence_last(2),
+                abjad.silence([-2, -1]),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
@@ -461,7 +461,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
-                abjad.silence_last(2),
+                abjad.silence([-2, -1]),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
@@ -479,7 +479,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[
-                abjad.silence_last(1),
+                abjad.silence([-1]),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
@@ -507,11 +507,8 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
-                abjad.sustain_every(
-                    [0, 1, 4, 6],
-                    period=7,
-                    ),
-                abjad.silence_last(1),
+                abjad.sustain([0, 1, 4, 6], 7),
+                abjad.silence([-1]),
                 ],
             tuplet_ratios=[
                 (6, 1), (6, 1), (6, 1),

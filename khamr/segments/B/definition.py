@@ -130,7 +130,7 @@ segment_maker(
                 talea_denominator=16,
                 ),
             division_masks=[
-                abjad.silence_first(1),
+                abjad.silence([0]),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 repeat_ties=True
@@ -170,7 +170,7 @@ segment_maker(
     baca.RhythmBuilder(
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[
-                abjad.silence_last(1),
+                abjad.silence([-1]),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
@@ -330,10 +330,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
-                abjad.sustain_every(
-                    [0, 1, 3],
-                    period=7,
-                    )
+                abjad.sustain([0, 1, 3], 7),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 repeat_ties=True,
@@ -361,10 +358,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
-                abjad.sustain_every(
-                    [1, 2, 4],
-                    period=7,
-                    )
+                abjad.sustain([1, 2, 4], 7),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 repeat_ties=True,
@@ -392,10 +386,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
-                abjad.sustain_every(
-                    [2, 3, 5],
-                    period=7,
-                    )
+                abjad.sustain([2, 3, 5], 7),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 repeat_ties=True,
@@ -448,7 +439,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[
-                abjad.silence_last(1),
+                abjad.silence([-1]),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
@@ -464,7 +455,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
             division_masks=[
-                abjad.silence_last(1),
+                abjad.silence([-1]),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 tie_across_divisions=True,
