@@ -64,7 +64,7 @@ segment_maker(
                 talea_denominator=8,
                 ),
             division_masks=[
-                abjad.silence_every([2, 5], period=6),
+                abjad.silence([2, 5], 6),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 repeat_ties=True,
@@ -93,7 +93,7 @@ segment_maker(
                 talea_denominator=8,
                 ),
             division_masks=[
-                abjad.silence_every([1, 4], period=6),
+                abjad.silence([1, 4], 6),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 repeat_ties=True,
@@ -122,7 +122,7 @@ segment_maker(
                 talea_denominator=8,
                 ),
             division_masks=[
-                abjad.silence_every([1, 3], period=6),
+                abjad.silence([1, 3], 6),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 repeat_ties=True,
@@ -151,7 +151,7 @@ segment_maker(
                 talea_denominator=8,
                 ),
             division_masks=[
-                abjad.silence_every([1, 3], period=6),
+                abjad.silence([1, 3], 6),
                 ],
             tie_specifier=abjad.rhythmmakertools.TieSpecifier(
                 repeat_ties=True,
@@ -172,9 +172,9 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
-                abjad.silence_every([1, 2, 3, 5, 6, 7, 8], period=9),
-                abjad.silence_first(12),
-                abjad.sustain_first(1),
+                abjad.silence([1, 2, 3, 5, 6, 7, 8], 9),
+                abjad.silence([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]),
+                abjad.sustain([0]),
                 ],
             tuplet_ratios=[
                 (-1, 1, -1), (-1, 1, -1), (-1, 1, -2), (-3, 1, -1),
@@ -223,7 +223,7 @@ segment_maker.copy_rhythm(
     baca.scope('Guitar Music Voice', 1),
     baca.scope('Guitar Music Voice', 7),
     rhythm_maker__division_masks=[
-        abjad.silence_every([1, 2, 3, 5, 6, 7, 8], period=9),
+        abjad.silence([1, 2, 3, 5, 6, 7, 8], 9),
         ],
     )
 
@@ -291,7 +291,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
-                abjad.silence_every([1, 2, 3, 5, 6, 7, 8], period=9),
+                abjad.silence([1, 2, 3, 5, 6, 7, 8], 9),
                 ],
             tuplet_ratios=[
                 (-1, 1, -1), (-1, 1, -1), (-1, 1, -2), (-3, 1, -1),
@@ -339,10 +339,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
-                abjad.sustain_every(
-                    [0, 1, 2, 5],
-                    period=7,
-                    )
+                abjad.sustain([0, 1, 2, 5], 7),
                 ],
             tuplet_ratios=[
                 (4, 1), (4, 1), (4, 1),
@@ -383,10 +380,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
-                abjad.sustain_every(
-                    [1, 2, 3, 6],
-                    period=7,
-                    )
+                abjad.sustain([1, 2, 3, 6], 7),
                 ],
             tuplet_ratios=[
                 (3, 1), (3, 1), (3, 1),
@@ -427,10 +421,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
-                abjad.sustain_every(
-                    [0, 2, 3, 4],
-                    period=7,
-                    )
+                abjad.sustain([0, 2, 3, 4], 7),
                 ],
             tuplet_ratios=[
                 (2, 1), (2, 1), (2, 1),
@@ -471,10 +462,7 @@ segment_maker(
         rewrite_meter=True,
         rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
             division_masks=[
-                abjad.sustain_every(
-                    [0, 1, 4, 6],
-                    period=7,
-                    ),
+                abjad.sustain([0, 1, 4, 6], 7),
                 ],
             tuplet_ratios=[
                 (6, 1), (6, 1), (6, 1),
