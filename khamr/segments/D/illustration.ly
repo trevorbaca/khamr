@@ -579,6 +579,7 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
+                    \clef "treble"
                     c''2
                     c''2 \repeatTie
                     c''1. \repeatTie
@@ -860,6 +861,7 @@
                                     hn.
                                 }
                         }
+                    \clef "treble"
                     g'2
                     g'2 \repeatTie
                     \once \override Beam.color = #blue
@@ -1262,6 +1264,7 @@
                                     cl.
                                 }
                         }
+                    \clef "treble"
                     d''2
                     d''2 \repeatTie
                     \once \override Beam.color = #blue
@@ -1636,6 +1639,7 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
+                    \clef "treble"
                     a''2
                     a''2 \repeatTie
                     \once \override Beam.color = #blue
@@ -2495,6 +2499,7 @@
                             #10
                             Pf.
                         }
+                    \clef "treble"
                     c'2 :32
                     c'2 :32 \repeatTie
                     c'1. :32 \repeatTie
@@ -2643,6 +2648,7 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
+                    \clef "percussion"
                     c'2 :32
                     c'2 :32 \repeatTie
                     c'1. :32 \repeatTie
@@ -2793,6 +2799,7 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
+                    \clef "percussion"
                     c'2 :32
                     \times 4/5 {
                         \once \override Beam.color = #blue
@@ -3586,6 +3593,7 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
+                    \clef "percussion"
                     c'2 :32
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
@@ -4168,6 +4176,7 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
+                    \clef "percussion"
                     c'2 :32
                     c'2 :32 \repeatTie
                     c'1. :32 \repeatTie
@@ -4315,6 +4324,7 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
+                    \clef "percussion"
                     c''2
                     c''2 \repeatTie
                     c''1. \repeatTie

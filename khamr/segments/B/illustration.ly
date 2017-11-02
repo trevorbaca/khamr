@@ -388,6 +388,7 @@
             \tag winds.flute
             \context FluteMusicStaff = "Flute Music Staff" {
                 \context FluteMusicVoice = "Flute Music Voice" {
+                    \clef "treble"
                     b'''2 :32
                     b'''2 :32 \repeatTie
                     s1 * 29/4
@@ -884,6 +885,7 @@
             \tag winds.oboe
             \context OboeMusicStaff = "Oboe Music Staff" {
                 \context OboeMusicVoice = "Oboe Music Voice" {
+                    \clef "treble"
                     ds'2
                     ds'2 \repeatTie
                     s1 * 29/4
@@ -1436,6 +1438,7 @@
             \tag winds.clarinet
             \context ClarinetMusicStaff = "Clarinet Music Staff" {
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
+                    \clef "treble"
                     gs2
                     gs2 \repeatTie
                     s1 * 29/4
@@ -1886,6 +1889,7 @@
             \tag winds.saxophone
             \context SaxophoneMusicStaff = "Saxophone Music Staff" {
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
+                    \clef "treble"
                     es'2
                     es'2 \repeatTie
                     s1 * 29/4
@@ -2419,6 +2423,7 @@
             \tag guitar
             \context GuitarMusicStaff = "Guitar Music Staff" {
                 \context GuitarMusicVoice = "Guitar Music Voice" {
+                    \clef "treble"
                     g'2
                     g'2 \repeatTie
                     s1 * 29/4
@@ -2453,6 +2458,7 @@
                 \context PianoMusicVoice = "Piano Music Voice" {
                     {
                         \ottava #1
+                        \clef "treble"
                         df''''16 \fff [
                         d''''16
                         f''''16
@@ -3086,6 +3092,7 @@
             \tag percussion
             \context PercussionMusicStaff = "Percussion Staff" {
                 \context PercussionMusicVoice = "Percussion Music Voice" {
+                    \clef "percussion"
                     s1 * 13/4
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
@@ -3597,6 +3604,7 @@
             \tag strings.violin
             \context ViolinMusicStaff = "Violin Music Staff" {
                 \context ViolinMusicVoice = "Violin Music Voice" {
+                    \clef "treble"
                     a'2
                     a'2 \repeatTie
                     \override NoteHead.style = #'harmonic
@@ -3688,6 +3696,7 @@
             \tag strings.viola
             \context ViolaMusicStaff = "Viola Music Staff" {
                 \context ViolaMusicVoice = "Viola Music Voice" {
+                    \clef "alto"
                     gs'2
                     gs'2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
@@ -3779,6 +3788,7 @@
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
                 \context CelloMusicVoice = "Cello Music Voice" {
+                    \clef "bass"
                     g2
                     g2 \repeatTie
                     \override NoteHead.style = #'harmonic
@@ -3866,6 +3876,7 @@
             \tag strings.contrabass
             \context ContrabassMusicStaff = "Contrabass Music Staff" {
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
+                    \clef "bass"
                     <g,, a,>2
                     <g,, a,>2 \repeatTie
                     <gs,, as,>1. \p
