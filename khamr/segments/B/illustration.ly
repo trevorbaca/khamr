@@ -3094,7 +3094,7 @@
             \tag percussion
             \context PercussionMusicStaff = "Percussion Staff" {
                 \context PercussionMusicVoice = "Percussion Music Voice" {
-                    \clef "percussion"
+                    \clef "treble"
                     s1 * 13/4
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
