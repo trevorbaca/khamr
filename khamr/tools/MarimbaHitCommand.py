@@ -4,23 +4,6 @@ import baca
 
 class MarimbaHitCommand(baca.Command):
     r'''Marimba hit command.
-
-    >>> import khamr
-
-    ..  container:: example
-
-        Initializes with boolean indices:
-
-        >>> specifier = khamr.MarimbaHitCommand(
-        ...     indices=[3, 9],
-        ...     )
-
-        >>> print(format(specifier))
-        khamr.MarimbaHitCommand(
-            attach_first_markup=False,
-            indices=[3, 9],
-            )
-
     '''
 
     ### CLASS VARIABLES ##
