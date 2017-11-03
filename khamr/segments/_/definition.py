@@ -720,13 +720,16 @@ segment_maker(
     baca.markup.string_number(3),
     )
 
+hairpins = [
+    'pp > ppp', 'ppp < pp', 'pp > ppp', 'ppp < pp',
+    'pp < p', 'p > pp', 'pp < p', 'p > ppp', 'ppp < pp',
+    ]
 segment_maker(
     baca.scope('Contrabass Music Voice', 2, 7),
-    baca.hairpins([
-        'pp > ppp', 'ppp < pp', 'pp > ppp', 'ppp < pp',
-        'pp < p', 'p > pp', 'pp < p', 'p > ppp', 'ppp < pp',
-        ],
-        )
+    baca.map(
+        [baca.hairpin(_) for _ in hairpins],
+        baca.select().plts(),
+        ),
     )
 
 ### STRINGS ###

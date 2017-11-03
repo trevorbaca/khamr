@@ -1892,33 +1892,33 @@
                     g'1. \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/4 {
-                        g'2. \repeatTie \glissando
-                        af'4
+                        g'2. \repeatTie \ppp \glissando
+                        af'4 \< \ppp
                     }
-                    af'2. \repeatTie \glissando
-                    gqs'4
+                    af'2. \repeatTie \pp \glissando
+                    gqs'4 \> \pp
                     gqs'2. \repeatTie
                     \times 2/3 {
-                        gqs'1 \repeatTie \glissando
-                        a'2
+                        gqs'1 \repeatTie \ppp \glissando
+                        a'2 \< \ppp
                     }
                     a'2. \repeatTie
                     a'2 \repeatTie
                     a'1 \repeatTie
                     a'2. \repeatTie
                     \times 4/7 {
-                        a'1. \repeatTie \glissando
-                        bqf'4
+                        a'1. \repeatTie \pp \glissando
+                        bqf'4 \< \pp
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/7 {
-                        bqf'1. \repeatTie \glissando
-                        af'4
+                        bqf'1. \repeatTie \p \glissando
+                        af'4 \> \p
                     }
                     af'2. \repeatTie
                     \times 4/5 {
-                        af'2 \repeatTie \glissando
-                        gqs'8
+                        af'2 \repeatTie \pp \glissando
+                        gqs'8 \< \pp
                     }
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     gqs'1. \repeatTie
@@ -1927,51 +1927,51 @@
                     gqs'2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/4 {
-                        gqs'2. \repeatTie \glissando
-                        a'4
+                        gqs'2. \repeatTie \p \glissando
+                        a'4 \> \p
                     }
                     \times 2/3 {
-                        a'1 \repeatTie \glissando
-                        g'2
+                        a'1 \repeatTie \ppp \glissando
+                        g'2 \< \ppp
                     }
                     g'1. \repeatTie
                     \times 2/3 {
-                        g'2 \repeatTie \glissando
-                        a'4
+                        g'2 \repeatTie \pp \glissando
+                        a'4 \> \pp
                     }
                     a'2 \repeatTie
                     a'2. \repeatTie
                     a'1 \repeatTie
                     \times 4/5 {
-                        a'2 \repeatTie \glissando
-                        b'8
+                        a'2 \repeatTie \ppp \glissando
+                        b'8 \< \ppp
                     }
                     \times 4/5 {
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        b'2 \repeatTie \glissando
-                        aqs'8
+                        b'2 \repeatTie \pp \glissando
+                        aqs'8 \> \pp
                     }
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     aqs'1. \repeatTie
-                    aqs'2. \repeatTie \glissando
-                    bf'4
+                    aqs'2. \repeatTie \ppp \glissando
+                    bf'4 \< \ppp
                     bf'2. \repeatTie
                     bf'2. \repeatTie
                     bf'1 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/9 {
-                        bf'1. \repeatTie \glissando
-                        g'2.
+                        bf'1. \repeatTie \pp \glissando
+                        g'2. \< \pp
                     }
-                    g'2 \repeatTie \glissando
-                    a'4
+                    g'2 \repeatTie \p \glissando
+                    a'4 \> \p
                     a'1 \repeatTie
                     \times 4/7 {
-                        a'1. \repeatTie \glissando
-                        b'4
+                        a'1. \repeatTie \pp \glissando
+                        b'4 \< \pp
                     }
                     b'2. \repeatTie
-                    b'2 \repeatTie \ppp
+                    b'2 \repeatTie \p
                     \revert NoteHead.style
                     \pitchedTrill
                     f'2 -\accent \ppp \startTrillSpan
@@ -2072,94 +2072,94 @@
                         }
                     \clef "alto"
                     \override NoteHead.style = #'harmonic
-                    g'4. \glissando \> \pp
+                    g'4. \glissando
                         _ \markup {
                             \whiteout
                                 \upright
                                     III
                             }
                         - \markup { "emphasize multiphonics and unstable harmonics prominently throughout" }
-                    af'8
+                    af'8 \< \ppp
                     af'2 \repeatTie
                     af'1. \repeatTie
                     af'2. \repeatTie
                     \times 2/3 {
-                        af'1 \repeatTie \glissando
-                        gqs'2
+                        af'1 \repeatTie \pp \glissando
+                        gqs'2 \> \pp
                     }
-                    gqs'2 \repeatTie \glissando
-                    a'4
+                    gqs'2 \repeatTie \ppp \glissando
+                    a'4 \< \ppp
                     a'1 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/7 {
-                        a'1. \repeatTie \glissando
-                        bqf'4
+                        a'1. \repeatTie \pp \glissando
+                        bqf'4 \< \pp
                     }
                     bqf'1 \repeatTie
                     bqf'2. \repeatTie
                     bqf'1 \repeatTie
-                    bqf'1 \repeatTie \glissando
-                    af'4
+                    bqf'1 \repeatTie \p \glissando
+                    af'4 \> \p
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/4 {
-                        af'2. \repeatTie \glissando
-                        gqs'4
+                        af'2. \repeatTie \pp \glissando
+                        gqs'4 \< \pp
                     }
                     gqs'2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/4 {
-                        gqs'1. \repeatTie \glissando
-                        a'2
+                        gqs'1. \repeatTie \p \glissando
+                        a'2 \> \p
                     }
                     a'2 \repeatTie
                     a'2. \repeatTie
                     a'2 \repeatTie
                     a'2. \repeatTie
                     \times 4/7 {
-                        a'1. \repeatTie \glissando
-                        g'4
+                        a'1. \repeatTie \ppp \glissando
+                        g'4 \< \ppp
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        g'1. \repeatTie \glissando
-                        a'4
+                        g'1. \repeatTie \pp \glissando
+                        a'4 \> \pp
                     }
                     a'2 \repeatTie
                     \times 4/5 {
-                        a'2 \repeatTie \glissando
-                        b'8
+                        a'2 \repeatTie \ppp \glissando
+                        b'8 \< \ppp
                     }
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     b'2. \repeatTie
                     b'1 \repeatTie
                     b'2 \repeatTie
-                    b'4. \repeatTie \glissando
-                    aqs'8
+                    b'4. \repeatTie \pp \glissando
+                    aqs'8 \> \pp
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/4 {
-                        aqs'1. \repeatTie \glissando
-                        bf'2
+                        aqs'1. \repeatTie \ppp \glissando
+                        bf'2 \< \ppp
                     }
                     bf'1 \repeatTie
-                    bf'2 \repeatTie \glissando
-                    g'4
+                    bf'2 \repeatTie \pp \glissando
+                    g'4 \< \pp
                     g'2. \repeatTie
                     g'1 \repeatTie
                     g'2. \repeatTie
                     g'2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        g'2. \repeatTie \glissando
-                        a'8
+                        g'2. \repeatTie \p \glissando
+                        a'8 \> \p
                     }
                     \times 4/5 {
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        a'1 \repeatTie \glissando
-                        b'4
+                        a'1 \repeatTie \pp \glissando
+                        b'4 \< \pp
                     }
                     b'1 \repeatTie
-                    b'1 \repeatTie \glissando
-                    aqs'4 \ppp
+                    b'1 \repeatTie \p \glissando
+                    aqs'4
                     \revert NoteHead.style
                     \pitchedTrill
                     f'2. -\accent \ppp \startTrillSpan
@@ -2248,42 +2248,42 @@
                             }
                         - \markup { "emphasize multiphonics and unstable harmonics prominently throughout" }
                     \times 2/3 {
-                        g2 \repeatTie \glissando
-                        af4
+                        g2 \repeatTie \ppp \glissando
+                        af4 \< \ppp
                     }
                     af1. \repeatTie
                     af2. \repeatTie
                     af1 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        af2. \repeatTie \glissando
-                        gqs8
+                        af2. \repeatTie \pp \glissando
+                        gqs8 \> \pp
                     }
                     \times 4/5 {
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        gqs1 \repeatTie \glissando
-                        a4
+                        gqs1 \repeatTie \ppp \glissando
+                        a4 \< \ppp
                     }
                     a2. \repeatTie
                     a2 \repeatTie
                     \times 4/5 {
-                        a1 \repeatTie \glissando
-                        bqf4
+                        a1 \repeatTie \pp \glissando
+                        bqf4 \< \pp
                     }
                     bqf2. \repeatTie
                     bqf1 \repeatTie
                     bqf2. \repeatTie
                     bqf2 \repeatTie
-                    bqf2 \repeatTie \glissando
-                    af4
+                    bqf2 \repeatTie \p \glissando
+                    af4 \> \p
                     \times 2/3 {
-                        af2 \repeatTie \glissando
-                        gqs4
+                        af2 \repeatTie \pp \glissando
+                        gqs4 \< \pp
                     }
                     gqs1. \repeatTie
                     \times 4/7 {
-                        gqs2. \repeatTie \glissando
-                        a8
+                        gqs2. \repeatTie \p \glissando
+                        a8 \> \p
                     }
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     a2. \repeatTie
@@ -2291,46 +2291,46 @@
                     a2. \repeatTie
                     a1 \repeatTie
                     \times 4/5 {
-                        a1. \repeatTie \glissando
-                        g4.
+                        a1. \repeatTie \ppp \glissando
+                        g4. \< \ppp
                     }
                     \times 4/5 {
-                        g2 \repeatTie \glissando
-                        a8
+                        g2 \repeatTie \pp \glissando
+                        a8 \> \pp
                     }
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     a2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/4 {
-                        a2. \repeatTie \glissando
-                        b4
+                        a2. \repeatTie \ppp \glissando
+                        b4 \< \ppp
                     }
                     b1 \repeatTie
                     b2 \repeatTie
                     b2 \repeatTie
-                    b1 \repeatTie \glissando
-                    aqs2
+                    b1 \repeatTie \pp \glissando
+                    aqs2 \> \pp
                     \times 4/7 {
-                        aqs1. \repeatTie \glissando
-                        bf4
+                        aqs1. \repeatTie \ppp \glissando
+                        bf4 \< \ppp
                     }
                     bf2. \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        bf2. \repeatTie \glissando
-                        g8
+                        bf2. \repeatTie \pp \glissando
+                        g8 \< \pp
                     }
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     g1 \repeatTie
                     g2. \repeatTie
                     g2 \repeatTie
                     g2. \repeatTie
-                    g2. \repeatTie \glissando
-                    a4
-                    a2. \repeatTie \glissando
-                    b4
+                    g2. \repeatTie \p \glissando
+                    a4 \> \p
+                    a2. \repeatTie \pp \glissando
+                    b4 \< \pp
                     b2. \repeatTie
-                    b2 \repeatTie \ppp
+                    b2 \repeatTie \p
                     \revert NoteHead.style
                     \pitchedTrill
                     f'2. -\accent \ppp \startTrillSpan
@@ -2429,89 +2429,89 @@
                     b1 \repeatTie
                     b2. \repeatTie
                     b2 \repeatTie
-                    b1 \repeatTie \> \pp
+                    b1 \repeatTie
                     b2 \repeatTie \glissando
-                    cqs'4
+                    cqs'4 \> \pp
                     \times 2/3 {
-                        cqs'1 \repeatTie \glissando
-                        bf2
+                        cqs'1 \repeatTie \ppp \glissando
+                        bf2 \< \ppp
                     }
                     bf2. \repeatTie
                     bf2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        bf2. \repeatTie \glissando
-                        aqs8
+                        bf2. \repeatTie \pp \glissando
+                        aqs8 \> \pp
                     }
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     aqs2 \repeatTie
                     aqs1. \repeatTie
                     aqs2 \repeatTie
-                    aqs1 \repeatTie \glissando
-                    b4
+                    aqs1 \repeatTie \ppp \glissando
+                    b4 \< \ppp
                     \times 4/5 {
-                        b2. \repeatTie \glissando
-                        a8.
+                        b2. \repeatTie \pp \glissando
+                        a8. \< \pp
                     }
                     a1 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/4 {
-                        a1. \repeatTie \glissando
-                        b2
+                        a1. \repeatTie \p \glissando
+                        b2 \> \p
                     }
                     b2 \repeatTie
                     b2 \repeatTie
                     b2. \repeatTie
                     \times 2/3 {
-                        b1 \repeatTie \glissando
-                        cs'2
+                        b1 \repeatTie \pp \glissando
+                        cs'2 \< \pp
                     }
                     \times 4/7 {
-                        cs'2. \repeatTie \glissando
-                        bqs8
+                        cs'2. \repeatTie \p \glissando
+                        bqs8 \> \p
                     }
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     bqs2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        bqs1. \repeatTie \glissando
-                        c'4
+                        bqs1. \repeatTie \ppp \glissando
+                        c'4 \< \ppp
                     }
                     c'1 \repeatTie
                     c'2. \repeatTie
                     c'2. \repeatTie
-                    c'2. \repeatTie \glissando
-                    a4
+                    c'2. \repeatTie \pp \glissando
+                    a4 \> \pp
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/8 {
-                        a1. \repeatTie \glissando
-                        b2
+                        a1. \repeatTie \ppp \glissando
+                        b2 \< \ppp
                     }
                     b2. \repeatTie
                     \times 2/3 {
-                        b1 \repeatTie \glissando
-                        cs'2
+                        b1 \repeatTie \pp \glissando
+                        cs'2 \> \pp
                     }
                     cs'1 \repeatTie
                     cs'2. \repeatTie
                     cs'2 \repeatTie
                     cs'2. \repeatTie
                     \times 4/7 {
-                        cs'2. \repeatTie \glissando
-                        bqs8
+                        cs'2. \repeatTie \ppp \glissando
+                        bqs8 \< \ppp
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                        bqs1. \repeatTie \glissando
-                        dqf'4
+                        bqs1. \repeatTie \pp \glissando
+                        dqf'4 \< \pp
                     }
                     dqf'2 \repeatTie
-                    dqf'1 \repeatTie \glissando
-                    c'4
+                    dqf'1 \repeatTie \p \glissando
+                    c'4 \> \p
                     c'2. \repeatTie
                     c'1 \repeatTie
-                    c'1. \repeatTie \ppp
+                    c'1. \repeatTie \pp
                     \bar "|"
                     \revert NoteHead.style
                 }
