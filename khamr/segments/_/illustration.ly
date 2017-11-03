@@ -2072,7 +2072,7 @@
                         }
                     \clef "alto"
                     \override NoteHead.style = #'harmonic
-                    g'4. \glissando
+                    g'4. \glissando \pp
                         _ \markup {
                             \whiteout
                                 \upright
@@ -2159,7 +2159,7 @@
                     }
                     b'1 \repeatTie
                     b'1 \repeatTie \p \glissando
-                    aqs'4
+                    aqs'4 \p
                     \revert NoteHead.style
                     \pitchedTrill
                     f'2. -\accent \ppp \startTrillSpan
