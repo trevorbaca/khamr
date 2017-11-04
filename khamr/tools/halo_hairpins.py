@@ -7,4 +7,4 @@ def halo_hairpins():
         'pp < p', 'p > pp', 'pp < p', 'p > ppp', 'ppp < pp',
         ]
     hairpins = [baca.hairpin(_) for _ in hairpins]
-    return baca.map(hairpins, baca.select().plts())
+    return baca.map(hairpins, baca.plts())
