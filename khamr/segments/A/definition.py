@@ -544,7 +544,7 @@ segment_maker.copy_rhythm(
 segment_maker(
     baca.scope('Flute Music Voice', 1, 2),
     baca.hairpin('mp > pp'),
-    baca.map(baca.trill(), baca.select().qruns()),
+    baca.map(baca.trill(), baca.qruns()),
     baca.pitches('Bb4'),
     )
 
@@ -722,7 +722,7 @@ segment_maker(
 segment_maker(
     baca.scope('Violin Music Voice', 1, 3),
     baca.accents(),
-    baca.map(baca.trill('m2'), baca.select().plts()),
+    baca.map(baca.trill('m2'), baca.plts()),
     )
 
 segment_maker(
@@ -758,7 +758,7 @@ segment_maker(
 segment_maker(
     baca.scope('Viola Music Voice', 1, 3),
     baca.accents(),
-    baca.map(baca.trill('m2'), baca.select().plts()),
+    baca.map(baca.trill('m2'), baca.plts()),
     )
 
 segment_maker(
@@ -773,7 +773,7 @@ segment_maker(
 segment_maker(
     baca.scope('Cello Music Voice', 1, 2),
     baca.accents(),
-    baca.map(baca.trill('m2'), baca.select().plts()),
+    baca.map(baca.trill('m2'), baca.plts()),
     baca.pitches(khamr.color_trill_pitches),
     )
 

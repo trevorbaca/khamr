@@ -511,7 +511,7 @@ segment_maker(
 segment_maker(
     baca.scope('Flute Music Voice', 6, 7),
     baca.hairpin('mp > pp'),
-    baca.map(baca.trill(), baca.select().qruns()),
+    baca.map(baca.trill(), baca.qruns()),
     baca.pitches('A4'),
     )
 
@@ -657,7 +657,7 @@ segment_maker(
 segment_maker(
     baca.scope('Violin Music Voice', 6, 7),
     baca.dynamic('ppp'),
-    baca.map(baca.trill('m2'), baca.select().plts()),
+    baca.map(baca.trill('m2'), baca.plts()),
     baca.markup.molto_flautando_e_pont(),
     baca.pitches(khamr.color_trill_pitches),
     )
@@ -679,7 +679,7 @@ segment_maker(
 segment_maker(
     baca.scope('Viola Music Voice', 6, 7),
     baca.dynamic('ppp'),
-    baca.map(baca.trill('m2'), baca.select().plts()),
+    baca.map(baca.trill('m2'), baca.plts()),
     baca.markup.molto_flautando_e_pont(),
     baca.pitches(khamr.color_trill_pitches),
     )
@@ -701,7 +701,7 @@ segment_maker(
 segment_maker(
     baca.scope('Cello Music Voice', 6, 7),
     baca.dynamic('ppp'),
-    baca.map(baca.trill('m2'), baca.select().plts()),
+    baca.map(baca.trill('m2'), baca.plts()),
     baca.markup.molto_flautando_e_pont(),
     baca.pitches(khamr.color_trill_pitches),
     )
@@ -728,7 +728,7 @@ segment_maker(
     baca.scope('Contrabass Music Voice', 2, 7),
     baca.map(
         [baca.hairpin(_) for _ in hairpins],
-        baca.select().plts(),
+        baca.plts(),
         ),
     )
 
