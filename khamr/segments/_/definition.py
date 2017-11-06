@@ -1,6 +1,7 @@
 import abjad
 import baca
 import khamr
+from abjad import rhythmmakertools as rhythmos
 
 
 ###############################################################################
@@ -36,7 +37,7 @@ segment_maker.validate_measures_per_stage()
 ################################### COMMANDS ##################################
 ###############################################################################
 
-guitar_accelerando = abjad.rhythmmakertools.InterpolationSpecifier(
+guitar_accelerando = rhythmos.InterpolationSpecifier(
     start_duration=abjad.Duration(1, 4),
     stop_duration=abjad.Duration(1, 8),
     written_duration=abjad.Duration(1, 16),
@@ -55,8 +56,8 @@ segment_maker(
                 counts=[10, 10, 6, 10, 8, 6],
                 ),
         rewrite_meter=True,
-        rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
-            incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
+        rhythm_maker=rhythmos.IncisedRhythmMaker(
+            incise_specifier=rhythmos.InciseSpecifier(
                 prefix_talea=[-1],
                 prefix_counts=[0],
                 suffix_talea=[-1],
@@ -66,7 +67,7 @@ segment_maker(
             division_masks=[
                 abjad.silence([2, 5], 6),
                 ],
-            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+            tie_specifier=rhythmos.TieSpecifier(
                 repeat_ties=True,
                 ),
             ),
@@ -84,8 +85,8 @@ segment_maker(
                 counts=[12, 6, 10, 10, 6, 8],
                 ),
         rewrite_meter=True,
-        rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
-            incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
+        rhythm_maker=rhythmos.IncisedRhythmMaker(
+            incise_specifier=rhythmos.InciseSpecifier(
                 prefix_talea=[-1],
                 prefix_counts=[0],
                 suffix_talea=[-1],
@@ -95,7 +96,7 @@ segment_maker(
             division_masks=[
                 abjad.silence([1, 4], 6),
                 ],
-            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+            tie_specifier=rhythmos.TieSpecifier(
                 repeat_ties=True,
                 ),
             ),
@@ -113,8 +114,8 @@ segment_maker(
                 counts=[8, 6, 10, 6, 10, 8],
                 ),
         rewrite_meter=True,
-        rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
-            incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
+        rhythm_maker=rhythmos.IncisedRhythmMaker(
+            incise_specifier=rhythmos.InciseSpecifier(
                 prefix_talea=[-1],
                 prefix_counts=[0],
                 suffix_talea=[-1],
@@ -124,7 +125,7 @@ segment_maker(
             division_masks=[
                 abjad.silence([1, 3], 6),
                 ],
-            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+            tie_specifier=rhythmos.TieSpecifier(
                 repeat_ties=True,
                 ),
             ),
@@ -142,8 +143,8 @@ segment_maker(
                 counts=[14, 6, 10, 6, 10, 8],
                 ),
         rewrite_meter=True,
-        rhythm_maker=abjad.rhythmmakertools.IncisedRhythmMaker(
-            incise_specifier=abjad.rhythmmakertools.InciseSpecifier(
+        rhythm_maker=rhythmos.IncisedRhythmMaker(
+            incise_specifier=rhythmos.InciseSpecifier(
                 prefix_talea=[-1],
                 prefix_counts=[0],
                 suffix_talea=[-1],
@@ -153,7 +154,7 @@ segment_maker(
             division_masks=[
                 abjad.silence([1, 3], 6),
                 ],
-            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+            tie_specifier=rhythmos.TieSpecifier(
                 repeat_ties=True,
                 ),
             ),
@@ -170,7 +171,7 @@ segment_maker(
                 durations=[(1, 4)],
                 ),
         rewrite_meter=True,
-        rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
+        rhythm_maker=rhythmos.TupletRhythmMaker(
             division_masks=[
                 abjad.silence([1, 2, 3, 5, 6, 7, 8], 9),
                 abjad.silence([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]),
@@ -192,27 +193,27 @@ segment_maker(
                 counts=[2, 1],
                 )
             .flatten(depth=-1),
-        rhythm_maker=abjad.rhythmmakertools.AccelerandoRhythmMaker(
-            beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
+        rhythm_maker=rhythmos.AccelerandoRhythmMaker(
+            beam_specifier=rhythmos.BeamSpecifier(
                 use_feather_beams=True,
                 ),
             interpolation_specifiers=[
-                abjad.rhythmmakertools.InterpolationSpecifier(
+                rhythmos.InterpolationSpecifier(
                     start_duration=abjad.Duration(1, 2),
                     stop_duration=abjad.Duration(1, 8),
                     written_duration=abjad.Duration(1, 16),
                     ),
-                abjad.rhythmmakertools.InterpolationSpecifier(
+                rhythmos.InterpolationSpecifier(
                     start_duration=abjad.Duration(1, 8),
                     stop_duration=abjad.Duration(1, 2),
                     written_duration=abjad.Duration(1, 16),
                     ),
                 ],
-            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+            tie_specifier=rhythmos.TieSpecifier(
                 tie_across_divisions=True,
                 repeat_ties=True,
                 ),
-            tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
+            tuplet_specifier=rhythmos.TupletSpecifier(
                 use_note_duration_bracket=True,
                 ),
             ),
@@ -238,8 +239,8 @@ segment_maker(
                 counts=[20, 8, 20, 4],
                 ),
         rewrite_meter=True,
-        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
-            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+        rhythm_maker=rhythmos.NoteRhythmMaker(
+            tie_specifier=rhythmos.TieSpecifier(
                 repeat_ties=True,
                 )
             ),
@@ -254,27 +255,27 @@ segment_maker(
                 counts=[3, 2],
                 )
             .flatten(depth=-1),
-        rhythm_maker=abjad.rhythmmakertools.AccelerandoRhythmMaker(
-            beam_specifier=abjad.rhythmmakertools.BeamSpecifier(
+        rhythm_maker=rhythmos.AccelerandoRhythmMaker(
+            beam_specifier=rhythmos.BeamSpecifier(
                 use_feather_beams=True,
                 ),
             interpolation_specifiers=[
-                abjad.rhythmmakertools.InterpolationSpecifier(
+                rhythmos.InterpolationSpecifier(
                     start_duration=abjad.Duration(1, 2),
                     stop_duration=abjad.Duration(1, 8),
                     written_duration=abjad.Duration(1, 16),
                     ),
-                abjad.rhythmmakertools.InterpolationSpecifier(
+                rhythmos.InterpolationSpecifier(
                     start_duration=abjad.Duration(1, 8),
                     stop_duration=abjad.Duration(1, 2),
                     written_duration=abjad.Duration(1, 16),
                     ),
                 ],
-            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+            tie_specifier=rhythmos.TieSpecifier(
                 tie_across_divisions=True,
                 repeat_ties=True,
                 ),
-            tuplet_specifier=abjad.rhythmmakertools.TupletSpecifier(
+            tuplet_specifier=rhythmos.TupletSpecifier(
                 use_note_duration_bracket=True,
                 ),
             ),
@@ -289,7 +290,7 @@ segment_maker(
                 durations=[(1, 4)],
                 ),
         rewrite_meter=True,
-        rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
+        rhythm_maker=rhythmos.TupletRhythmMaker(
             division_masks=[
                 abjad.silence([1, 2, 3, 5, 6, 7, 8], 9),
                 ],
@@ -304,8 +305,8 @@ segment_maker(
 segment_maker(
     baca.scope('Piano Music Voice', 7),
     baca.RhythmBuilder(
-        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
-            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+        rhythm_maker=rhythmos.NoteRhythmMaker(
+            tie_specifier=rhythmos.TieSpecifier(
                 tie_across_divisions=True,
                 repeat_ties=True,
                 )
@@ -323,8 +324,8 @@ segment_maker(
                 counts=[20, 8, 20, 4],
                 ),
         rewrite_meter=True,
-        rhythm_maker=abjad.rhythmmakertools.NoteRhythmMaker(
-            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+        rhythm_maker=rhythmos.NoteRhythmMaker(
+            tie_specifier=rhythmos.TieSpecifier(
                 repeat_ties=True,
                 )
             ),
@@ -337,7 +338,7 @@ segment_maker(
     baca.scope('Violin Music Voice', 1, 5),
     baca.RhythmBuilder(
         rewrite_meter=True,
-        rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
+        rhythm_maker=rhythmos.TupletRhythmMaker(
             division_masks=[
                 abjad.sustain([0, 1, 2, 5], 7),
                 ],
@@ -348,7 +349,7 @@ segment_maker(
                 (6, 1), (6, 1), (6, 1),
                 ],
             tuplet_specifier=khamr.tuplet_spelling(),
-            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+            tie_specifier=rhythmos.TieSpecifier(
                 tie_across_divisions=True,
                 repeat_ties=True,
                 ),
@@ -361,8 +362,8 @@ segment_maker(
     baca.RhythmBuilder(
         division_maker=khamr.quarter_divisions(),
         rewrite_meter=True,
-        rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
-            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+        rhythm_maker=rhythmos.TupletRhythmMaker(
+            tie_specifier=rhythmos.TieSpecifier(
                 tie_across_divisions=True,
                 repeat_ties=True,
                 ),
@@ -378,7 +379,7 @@ segment_maker(
     baca.scope('Viola Music Voice', 1, 5),
     baca.RhythmBuilder(
         rewrite_meter=True,
-        rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
+        rhythm_maker=rhythmos.TupletRhythmMaker(
             division_masks=[
                 abjad.sustain([1, 2, 3, 6], 7),
                 ],
@@ -389,7 +390,7 @@ segment_maker(
                 (4, 1), (4, 1), (4, 1),
                 ],
             tuplet_specifier=khamr.tuplet_spelling(),
-            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+            tie_specifier=rhythmos.TieSpecifier(
                 tie_across_divisions=True,
                 repeat_ties=True,
                 )
@@ -402,8 +403,8 @@ segment_maker(
     baca.RhythmBuilder(
         division_maker=khamr.quarter_divisions(),
         rewrite_meter=True,
-        rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
-            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+        rhythm_maker=rhythmos.TupletRhythmMaker(
+            tie_specifier=rhythmos.TieSpecifier(
                 tie_across_divisions=True,
                 repeat_ties=True,
                 ),
@@ -419,7 +420,7 @@ segment_maker(
     baca.scope('Cello Music Voice', 1, 5),
     baca.RhythmBuilder(
         rewrite_meter=True,
-        rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
+        rhythm_maker=rhythmos.TupletRhythmMaker(
             division_masks=[
                 abjad.sustain([0, 2, 3, 4], 7),
                 ],
@@ -430,7 +431,7 @@ segment_maker(
                 (3, 1), (3, 1), (3, 1),
                 ],
             tuplet_specifier=khamr.tuplet_spelling(),
-            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+            tie_specifier=rhythmos.TieSpecifier(
                 tie_across_divisions=True,
                 repeat_ties=True,
                 ),
@@ -443,8 +444,8 @@ segment_maker(
     baca.RhythmBuilder(
         division_maker=khamr.quarter_divisions(),
         rewrite_meter=True,
-        rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
-            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+        rhythm_maker=rhythmos.TupletRhythmMaker(
+            tie_specifier=rhythmos.TieSpecifier(
                 tie_across_divisions=True,
                 repeat_ties=True,
                 ),
@@ -460,7 +461,7 @@ segment_maker(
     baca.scope('Contrabass Music Voice', 1, 7),
     baca.RhythmBuilder(
         rewrite_meter=True,
-        rhythm_maker=abjad.rhythmmakertools.TupletRhythmMaker(
+        rhythm_maker=rhythmos.TupletRhythmMaker(
             division_masks=[
                 abjad.sustain([0, 1, 4, 6], 7),
                 ],
@@ -471,7 +472,7 @@ segment_maker(
                 (2, 1), (2, 1), (2, 1),
                 ],
             tuplet_specifier=khamr.tuplet_spelling(),
-            tie_specifier=abjad.rhythmmakertools.TieSpecifier(
+            tie_specifier=rhythmos.TieSpecifier(
                 tie_across_divisions=True,
                 repeat_ties=True,
                 ),
