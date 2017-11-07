@@ -347,8 +347,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Flute Music Voice', 1, 7),
-    # sounds B3
-    baca.pitches('Bb4'),
+    baca.pitches('Bb4'), # (sounds B3)
     )
 
 ### OBOE ###

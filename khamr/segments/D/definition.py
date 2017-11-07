@@ -15,10 +15,10 @@ segment_maker = baca.SegmentMaker(
     instruments=khamr.instruments,
     label_stages=True,
     measures_per_stage=[
-        4, 4, 4,    # stages 1-3
-        4, 4,       # stages 3-4
-        8,          # stage 6
-        8, 8, 8,    # stages 7-9
+        4, 4, 4,    # 1-3
+        4, 4,       # 3-4
+        8,          # 6
+        8, 8, 8,    # 7-9
         ],
     metronome_marks=khamr.metronome_marks,
     score_template=khamr.ScoreTemplate(),
