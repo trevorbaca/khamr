@@ -13,11 +13,11 @@ segment_maker = baca.SegmentMaker(
     instruments=khamr.instruments,
     label_stages=False,
     measures_per_stage=[
-        2, 2,       # stages 1-2 (126)
-        3, 2,       # stages 3-4 (63->126)
-        16,         # stage 5 (126)
-        4,          # stage 6 (63)
-        2, 2, 4,    # stages 7-9 (42)
+        2, 2,       # 1-2 (126)
+        3, 2,       # 3-4 (63->126)
+        16,         # 5 (126)
+        4,          # 6 (63)
+        2, 2, 4,    # 7-9 (42)
         ],
     metronome_marks=khamr.metronome_marks,
     score_template=khamr.ScoreTemplate(),
@@ -488,8 +488,7 @@ segment_maker(
 segment_maker(
     baca.scope('Flute Music Voice', 9),
     baca.dynamic('pp'),
-    # sounds B3
-    baca.pitches('Bb4'),
+    baca.pitches('Bb4'), # (sounds B3)
     khamr.markup.covered_flute_airtone(),
     )
 
@@ -580,13 +579,7 @@ segment_maker(
 segment_maker(
     baca.scope('Piano Music Voice', 1, 4),
     baca.dynamic('fff'),
-    baca.pitches(
-        khamr.rose_pitch_classes,
-        operators=[
-            abjad.Inversion(),
-            abjad.Transposition(n=2),
-            ],
-        ),
+    baca.pitches(khamr.rose_pitch_classes.invert().transpose(2)),
     baca.ottava(),
     khamr.sixth_octave(),
     )
@@ -642,13 +635,7 @@ segment_maker(
         ['Violin Music Voice', 'Viola Music Voice', 'Cello Music Voice'],
         [(2, 6)],
         ),
-    baca.pitches(
-        khamr.rose_pitch_classes,
-        operators=[
-            abjad.Inversion(),
-            abjad.Transposition(n=6),
-            ],
-        ),
+    baca.pitches(khamr.rose_pitch_classes.invert().transpose(6)),
     baca.glissando(),
     baca.markup.estr_sul_pont(),
     baca.natural_harmonics(),
@@ -697,32 +684,17 @@ segment_maker(
 
 segment_maker(
     baca.scope('Contrabass Music Voice', 1),
-    baca.pitches(
-        source=[abjad.PitchSegment(
-            items=[abjad.NamedPitch('G0'), abjad.NamedPitch('A1')],
-            item_class=abjad.NamedPitch,
-            )],
-        ),
+    baca.pitches('<G0 A1>'),
     )
 
 segment_maker(
     baca.scope('Contrabass Music Voice', 2, 5),
-    baca.pitches(
-        source=[abjad.PitchSegment(
-            items=[abjad.NamedPitch('G#0'), abjad.NamedPitch('A#1')],
-            item_class=abjad.NamedPitch,
-            )],
-        ),
+    baca.pitches('<G#0 A#1>'),
     )
 
 segment_maker(
     baca.scope('Contrabass Music Voice', 6, 7),
-    baca.pitches(
-        source=[abjad.PitchSegment(
-            items=[abjad.NamedPitch('G0'), abjad.NamedPitch('A1')],
-            item_class=abjad.NamedPitch,
-            )],
-        ),
+    baca.pitches('<G0 A1>'),
     )
 
 segment_maker(

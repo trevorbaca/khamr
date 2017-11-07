@@ -489,23 +489,13 @@ segment_maker(
 segment_maker(
     baca.scope('Flute Music Voice', 1, 2),
     baca.dynamic('mp'),
-    baca.pitches(
-        source=[abjad.PitchSegment(
-            items=[abjad.NamedPitch('G3'), abjad.NamedPitch('G4')],
-            item_class=abjad.NamedPitch,
-            )],
-        ),
+    baca.pitches('<G3 G4>'),
     khamr.levine_multiphonic(17),
     )
 
 segment_maker(
     baca.scope('Flute Music Voice', 3, 5),
-    baca.pitches(
-        source=[abjad.PitchSegment(
-            items=[abjad.NamedPitch('G#3'), abjad.NamedPitch('G#4')],
-            item_class=abjad.NamedPitch,
-            )],
-        ),
+    baca.pitches('<G#3 G#4>'),
     khamr.levine_multiphonic(22),
     )
 
@@ -534,12 +524,7 @@ segment_maker(
     baca.dynamic('pp'),
     baca.flageolets(),
     baca.markup.put_reed_back_in(),
-    baca.pitches(
-        source=[abjad.PitchSegment(
-            items=[abjad.NamedPitch('A4'), abjad.NamedPitch('E5')],
-            item_class=abjad.NamedPitch,
-            )],
-        ),
+    baca.pitches('<A4 E5>'),
     )
 
 ### CLARINET ###
@@ -561,12 +546,7 @@ segment_maker(
 segment_maker(
     baca.scope('Saxophone Music Voice', 6, 7),
     baca.dynamic('p'),
-    baca.pitches(
-        source=[abjad.PitchSegment(
-            items=[abjad.NamedPitch('F3'), abjad.NamedPitch('G+3')],
-            item_class=abjad.NamedPitch,
-            )],
-        ),
+    baca.pitches('<F3 G+3>'),
     khamr.weiss_multiphonic(77),
     )
 
@@ -648,10 +628,7 @@ segment_maker(
     baca.glissando(),
     baca.markup.string_number(4),
     baca.natural_harmonics(),
-    baca.pitches(
-        source=khamr.violin_halo_pitches,
-        #start_index=0,
-        ),
+    baca.pitches(khamr.violin_halo_pitches),
     khamr.halo_hairpins(),
     )
 
@@ -669,10 +646,7 @@ segment_maker(
     baca.scope('Viola Music Voice', 1, 5),
     baca.glissando(),
     baca.markup.string_number(3),
-    baca.pitches(
-        source=khamr.violin_halo_pitches,
-        #start_index=0,
-        ),
+    baca.pitches(source=khamr.violin_halo_pitches),
     baca.natural_harmonics(),
     khamr.halo_hairpins(),
     )
@@ -692,10 +666,7 @@ segment_maker(
     baca.glissando(),
     baca.markup.string_number(3),
     baca.natural_harmonics(),
-    baca.pitches(
-        source=khamr.cello_halo_pitches,
-        #start_index=0,
-        ),
+    baca.pitches(khamr.cello_halo_pitches),
     khamr.halo_hairpins(),
     )
 
@@ -714,10 +685,7 @@ segment_maker(
     baca.dynamic('f'),
     baca.glissando(),
     baca.natural_harmonics(),
-    baca.pitches(
-        source=khamr.contrabass_halo_pitches,
-        #start_index=0,
-        ),
+    baca.pitches(khamr.contrabass_halo_pitches),
     baca.markup.string_number(3),
     )
 

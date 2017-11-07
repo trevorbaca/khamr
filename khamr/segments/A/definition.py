@@ -562,12 +562,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Oboe Music Voice', 1, 2),
-    baca.pitches(
-        source=[abjad.PitchSegment(
-            items=[abjad.NamedPitch('A4'), abjad.NamedPitch('E5')],
-            item_class=abjad.NamedPitch,
-            )],
-        ),
+    baca.pitches('<A4 E5>'),
     baca.flageolets(),
     )
 
@@ -594,12 +589,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Saxophone Music Voice', 1, 2),
-    baca.pitches(
-        source=[abjad.PitchSegment(
-            items=[abjad.NamedPitch('F3'), abjad.NamedPitch('G+3')],
-            item_class=abjad.NamedPitch,
-            )],
-        ),
+    baca.pitches('<F3 G+3>'),
     )
 
 segment_maker(
@@ -612,10 +602,7 @@ segment_maker(
 
 segment_maker(
     baca.scope('Guitar Music Voice', 1),
-    baca.pitches(
-        source=khamr.rose_pitch_classes,
-        start_index=16,
-        ),
+    baca.pitches(khamr.rose_pitch_classes.rotate(-16)),
     baca.cross_note_heads(),
     )
 
@@ -644,24 +631,10 @@ segment_maker(
 
 segment_maker(
     baca.scope('Piano Music Voice', 4),
-    baca.reiterated_dynamic('fff'),
     baca.clef('bass'),
-    baca.pitches(
-        source=[abjad.PitchSegment(
-            items=[
-                abjad.NamedPitch('A0'),
-                abjad.NamedPitch('B0'),
-                abjad.NamedPitch('C1'),
-                abjad.NamedPitch('D1'),
-                abjad.NamedPitch('E1'),
-                abjad.NamedPitch('F1'),
-                abjad.NamedPitch('G1'),
-                abjad.NamedPitch('A1'),
-                ],
-            item_class=abjad.NamedPitch,
-            )],
-        ),
     baca.ottava_bassa(),
+    baca.pitches('<A0 B0 C1 D1 E1 F1 G1 A1>'),
+    baca.reiterated_dynamic('fff'),
     baca.stem_tremolo(),
     )
 
@@ -669,11 +642,8 @@ segment_maker(
     baca.scope('Piano Music Voice', 5),
     baca.clef('treble'),
     baca.dynamic('fff'),
-    baca.pitches(
-        source=khamr.rose_pitch_classes,
-        operators=[abjad.Inversion()],
-        ),
     baca.ottava(),
+    baca.pitches(khamr.rose_pitch_classes.invert()),
     khamr.sixth_octave(),
     )
 
@@ -698,26 +668,17 @@ segment_maker(
 
 segment_maker(
     baca.scope('Violin Music Voice', 1),
-    baca.pitches(
-        source=khamr.color_trill_pitches,
-        operators=[abjad.Transposition(n=1)],
-        ),
+    baca.pitches(khamr.color_trill_pitches.transpose(1)),
     )
 
 segment_maker(
     baca.scope('Violin Music Voice', 2),
-    baca.pitches(
-        source=khamr.color_trill_pitches,
-        operators=[abjad.Transposition(n=2)],
-        ),
+    baca.pitches(khamr.color_trill_pitches.transpose(2)),
     )
 
 segment_maker(
     baca.scope('Violin Music Voice', 3),
-    baca.pitches(
-        source=khamr.color_trill_pitches,
-        operators=[abjad.Transposition(n=3)],
-        ),
+    baca.pitches(khamr.color_trill_pitches.transpose(3)),
     )
 
 segment_maker(
@@ -742,18 +703,12 @@ segment_maker(
 
 segment_maker(
     baca.scope('Viola Music Voice', 2),
-    baca.pitches(
-        khamr.color_trill_pitches,
-        operators=[abjad.Transposition(n=1)],
-        ),
+    baca.pitches(khamr.color_trill_pitches.transpose(1)),
     )
 
 segment_maker(
     baca.scope('Viola Music Voice', 3),
-    baca.pitches(
-        khamr.color_trill_pitches,
-        operators=[abjad.Transposition(n=2)],
-        ),
+    baca.pitches(khamr.color_trill_pitches.transpose(2)),
     )
 
 segment_maker(
@@ -800,20 +755,12 @@ segment_maker(
     baca.glissando(),
     baca.markup.string_numbers([3, 4]),
     baca.natural_harmonics(),
-    baca.pitches(
-        source=khamr.double_stop_halo_pitches,
-        start_index=0,
-        ),
+    baca.pitches(khamr.double_stop_halo_pitches),
     )
 
 segment_maker(
     baca.scope('Contrabass Music Voice', 4, 5),
     baca.markup.arco_ordinario(),
-    baca.pitches(
-        source=[abjad.PitchSegment(
-            items=[abjad.NamedPitch('G0'), abjad.NamedPitch('A1')],
-            item_class=abjad.NamedPitch,
-            )],
-        ),
+    baca.pitches('<G0 A1>'),
     baca.reiterated_dynamic('fff'),
     )

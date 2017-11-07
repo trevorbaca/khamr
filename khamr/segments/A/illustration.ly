@@ -659,12 +659,12 @@
                     \stopStaff
                     \startStaff
                     \ottava #-1
-                    <a,,, b,,, c,, d,, e,, f,, g,, a,,>1. :32
+                    <a,,, b,,, c,, d,, e,, f,, g,, a,,>1. :32 -\fff
                     r2
-                    <a,,, b,,, c,, d,, e,, f,, g,, a,,>1 :32
-                    <a,,, b,,, c,, d,, e,, f,, g,, a,,>4 :32
+                    <a,,, b,,, c,, d,, e,, f,, g,, a,,>1 :32 -\fff
+                    <a,,, b,,, c,, d,, e,, f,, g,, a,,>4 :32 -\fff
                     r2.
-                    <a,,, b,,, c,, d,, e,, f,, g,, a,,>1 :32
+                    <a,,, b,,, c,, d,, e,, f,, g,, a,,>1 :32 -\fff
                     \ottava #0
                     r1.
                     \clef "treble"
