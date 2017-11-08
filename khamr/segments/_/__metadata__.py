@@ -43,7 +43,7 @@ metadata = abjad.TypedOrderedDict(
         ('end_time_signature', '6/4'),
         ('first_bar_number', 1),
         ('measure_count', 44),
-        ('segment_count', 5),
+        ('segment_count', 4),
         ('segment_number', 1),
         ]
     )

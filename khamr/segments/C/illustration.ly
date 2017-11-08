@@ -259,7 +259,7 @@
                     bf''8. \repeatTie
                     r16
                     s1 * 5
-                    \bar "|"
+                    \bar "|."
                 }
             }
             \tag winds.oboe
@@ -306,7 +306,7 @@
                     \stopStaff
                     \startStaff
                     s1 * 5
-                    \bar "|"
+                    \bar "|."
                 }
             }
             \tag winds.clarinet
@@ -331,7 +331,7 @@
                     a2 \repeatTie
                     a1. \repeatTie
                     s1 * 5
-                    \bar "|"
+                    \bar "|."
                 }
             }
             \tag winds.saxophone
@@ -379,7 +379,7 @@
                     \stopStaff
                     \startStaff
                     s1 * 5
-                    \bar "|"
+                    \bar "|."
                 }
             }
         >>
@@ -468,7 +468,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     r2
-                    \bar "|"
+                    \bar "|."
                 }
             }
             \tag piano
@@ -555,7 +555,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     r2
-                    \bar "|"
+                    \bar "|."
                 }
             }
             \tag percussion
@@ -646,7 +646,7 @@
                     \once \override Stem.color = #blue
                     c'1. :32 \repeatTie
                     s1 * 5
-                    \bar "|"
+                    \bar "|."
                 }
             }
         >>
@@ -688,7 +688,7 @@
                     \stopStaff
                     \startStaff
                     s1 * 5
-                    \bar "|"
+                    \bar "|."
                 }
             }
             \tag strings.viola
@@ -728,7 +728,7 @@
                     \stopStaff
                     \startStaff
                     s1 * 5
-                    \bar "|"
+                    \bar "|."
                 }
             }
             \tag strings.cello
@@ -770,7 +770,7 @@
                     \stopStaff
                     \startStaff
                     s1 * 5
-                    \bar "|"
+                    \bar "|."
                 }
             }
             \tag strings.contrabass
@@ -810,7 +810,7 @@
                     \stopStaff
                     \startStaff
                     s1 * 5
-                    \bar "|"
+                    \bar "|."
                 }
             }
         >>
