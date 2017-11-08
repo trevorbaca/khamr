@@ -646,7 +646,7 @@ segment_maker(
     baca.scope('Viola Music Voice', 1, 5),
     baca.glissando(),
     baca.markup.string_number(3),
-    baca.pitches(source=khamr.violin_halo_pitches),
+    baca.pitches(khamr.violin_halo_pitches),
     baca.natural_harmonics(),
     khamr.halo_hairpins(),
     )
