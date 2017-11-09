@@ -624,8 +624,8 @@ segment_maker(
 
 segment_maker(
     baca.scope('Piano Music Voice', 1, 3),
-    baca.one_line_staff(),
     baca.repeat_ties_up(),
+    baca.staff_lines(1),
     baca.staff_positions([0]),
     )
 

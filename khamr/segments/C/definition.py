@@ -354,8 +354,8 @@ segment_maker(
 
 segment_maker(
     baca.scope('Oboe Music Voice', 1, 7),
-    baca.one_line_staff(),
     baca.repeat_ties_up(),
+    baca.staff_lines(1),
     baca.staff_positions([0]),
     )
 
@@ -370,8 +370,8 @@ segment_maker(
 
 segment_maker(
     baca.scope('Saxophone Music Voice', 1, 7),
-    baca.one_line_staff(),
     baca.repeat_ties_up(),
+    baca.staff_lines(1),
     baca.staff_positions([0]),
     )
 
@@ -432,7 +432,7 @@ segment_maker(
         'Contrabass Music Voice'],
         [(1, 7)],
         ),
-    baca.one_line_staff(),
+    baca.staff_lines(1),
     )
 
 segment_maker(
