@@ -3112,10 +3112,11 @@
                     c'1 :32 \pp
                         ^ \markup {
                             \whiteout
-                                \override
-                                    #'(box-padding . 0.5)
-                                    \box
-                                        "bass drum"
+                                \upright
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            "bass drum"
                             }
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
@@ -3150,10 +3151,11 @@
                     c'4 -\staccato -\tongue #2 \fff
                         ^ \markup {
                             \whiteout
-                                \override
-                                    #'(box-padding . 0.5)
-                                    \box
-                                        castanets
+                                \upright
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            castanets
                             }
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
@@ -3556,10 +3558,11 @@
                     c'2. :32 \ppp
                         ^ \markup {
                             \whiteout
-                                \override
-                                    #'(box-padding . 0.5)
-                                    \box
-                                        "bass drum"
+                                \upright
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            "bass drum"
                             }
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
