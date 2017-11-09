@@ -448,10 +448,11 @@
                     <g' g''>2
                         ^ \markup {
                             \whiteout
-                                \override
-                                    #'(box-padding . 0.5)
-                                    \box
-                                        L.17
+                                \upright
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            L.17
                             }
                     <g' g''>2 \repeatTie
                     <g' g''>1. \repeatTie
@@ -487,10 +488,11 @@
                     <gs' gs''>2.
                         ^ \markup {
                             \whiteout
-                                \override
-                                    #'(box-padding . 0.5)
-                                    \box
-                                        L.22
+                                \upright
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            L.22
                             }
                     <gs' gs''>1. \repeatTie
                     <gs' gs''>2 \repeatTie
@@ -831,10 +833,11 @@
                     <d'' eqs''>2
                         ^ \markup {
                             \whiteout
-                                \override
-                                    #'(box-padding . 0.5)
-                                    \box
-                                        77
+                                \upright
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            77
                             }
                     <d'' eqs''>2. \repeatTie
                     <d'' eqs''>2 \repeatTie
@@ -1817,10 +1820,11 @@
                                     \line
                                         {
                                             \whiteout
-                                                \override
-                                                    #'(box-padding . 0.5)
-                                                    \box
-                                                        "XL tam-tam"
+                                                \upright
+                                                    \override
+                                                        #'(box-padding . 0.5)
+                                                        \box
+                                                            "XL tam-tam"
                                         }
                                     \line
                                         {

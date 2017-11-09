@@ -596,10 +596,11 @@
                     c'2. :32 \fff
                         ^ \markup {
                             \whiteout
-                                \override
-                                    #'(box-padding . 0.5)
-                                    \box
-                                        "snare drum"
+                                \upright
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            "snare drum"
                             }
                     c'2 :32 \repeatTie
                     \once \override Beam.color = #blue
