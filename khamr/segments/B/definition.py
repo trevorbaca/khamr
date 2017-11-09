@@ -510,8 +510,8 @@ segment_maker(
     baca.scope('Oboe Music Voice', 9),
     baca.clef('percussion'),
     baca.dynamic('pp'),
-    baca.one_line_staff(),
     baca.repeat_ties_up(),
+    baca.staff_lines(1),
     baca.staff_positions([0]),
     khamr.markup.airtone_without_reed(),
     )
@@ -554,9 +554,9 @@ segment_maker(
     baca.scope('Saxophone Music Voice', 9),
     baca.clef('percussion'),
     baca.dynamic('pp'),
-    baca.one_line_staff(),
     baca.markup.airtone(),
     baca.repeat_ties_up(),
+    baca.staff_lines(1),
     baca.staff_positions([0]),
     )
 
