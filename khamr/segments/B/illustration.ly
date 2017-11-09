@@ -858,17 +858,19 @@
                     s1 * 15/4
                     bf'1 \pp
                         ^ \markup {
-                            \column
-                                {
-                                    \line
+                            \whiteout
+                                \upright
+                                    \column
                                         {
-                                            "airtone with lips covering mouthplate"
+                                            \line
+                                                {
+                                                    "airtone with lips covering mouthplate"
+                                                }
+                                            \line
+                                                {
+                                                    "(sounds major 7th lower)"
+                                                }
                                         }
-                                    \line
-                                        {
-                                            "(sounds major 7th lower)"
-                                        }
-                                }
                             }
                     bf'2... \repeatTie
                     r16
@@ -1425,7 +1427,12 @@
                     r1
                     r2
                     \override RepeatTie.direction = #up
-                    c'2. \pp - \markup { "airtone without reed: mix inhales and exhales ad lib." }
+                    c'2. \pp
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "airtone without reed: mix inhales and exhales ad lib."
+                            }
                     c'4. \repeatTie
                     c'4 \repeatTie
                     c'16 \repeatTie
@@ -4158,7 +4165,12 @@
                     r1
                     \once \override TrillPitchHead.stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
                     \pitchedTrill
-                    g,,2. \mp \startTrillSpan - \markup { "Shape trill dynamics beautifully. (Thank you, Stefano.)" } f
+                    g,,2. \mp \startTrillSpan
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "Shape trill dynamics beautifully. (Thank you, Stefano.)"
+                            } f
                     g,,2 \repeatTie
                     g,,2. \repeatTie
                     g,,1 \repeatTie
