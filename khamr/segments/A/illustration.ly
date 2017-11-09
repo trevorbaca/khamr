@@ -574,17 +574,19 @@
                     r4
                     fs1 \mf
                         ^ \markup {
-                            \column
-                                {
-                                    \line
+                            \whiteout
+                                \upright
+                                    \column
                                         {
-                                            "sparse, individual clicks with nail or pick laterally up string"
+                                            \line
+                                                {
+                                                    "sparse, individual clicks with nail or pick laterally up string"
+                                                }
+                                            \line
+                                                {
+                                                    "(1-2/sec. in irregular rhythm)"
+                                                }
                                         }
-                                    \line
-                                        {
-                                            "(1-2/sec. in irregular rhythm)"
-                                        }
-                                }
                             }
                     fs2. \repeatTie
                     fs1 \repeatTie
@@ -599,17 +601,19 @@
                     r2
                     g1. \ff
                         ^ \markup {
-                            \column
-                                {
-                                    \line
+                            \whiteout
+                                \upright
+                                    \column
                                         {
-                                            "draw metal screw back and forth slowly across string;"
+                                            \line
+                                                {
+                                                    "draw metal screw back and forth slowly across string;"
+                                                }
+                                            \line
+                                                {
+                                                    "continuous loud sound"
+                                                }
                                         }
-                                    \line
-                                        {
-                                            "continuous loud sound"
-                                        }
-                                }
                             }
                     r2
                     g2.
@@ -1311,17 +1315,19 @@
                     r2 \stopTrillSpan
                     fs1 \mf
                         ^ \markup {
-                            \column
-                                {
-                                    \line
+                            \whiteout
+                                \upright
+                                    \column
                                         {
-                                            "sparse, individual clicks with extremely slow bow"
+                                            \line
+                                                {
+                                                    "sparse, individual clicks with extremely slow bow"
+                                                }
+                                            \line
+                                                {
+                                                    "(1-2/sec. in irregular rhythm)"
+                                                }
                                         }
-                                    \line
-                                        {
-                                            "(1-2/sec. in irregular rhythm)"
-                                        }
-                                }
                             }
                     fs2. \repeatTie
                     fs1 \repeatTie

@@ -563,7 +563,12 @@
                         }
                     \clef "percussion"
                     \override RepeatTie.direction = #up
-                    g'2 \p - \markup { "airtone without reed: mix inhales and exhales ad lib." }
+                    g'2 \p
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "airtone without reed: mix inhales and exhales ad lib."
+                            }
                     g'2 \repeatTie
                     g'1. \repeatTie
                     g'2. \repeatTie
@@ -861,7 +866,12 @@
                         }
                     \clef "treble"
                     \override NoteHead.style = #'cross
-                    cs'4 \f - \markup { "cross noteheads indicate half-harmonics" }
+                    cs'4 \f
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "cross noteheads indicate half-harmonics"
+                            }
                     r4
                     r2
                     r1.
@@ -1011,7 +1021,12 @@
                     \times 1/1 {
                         \once \override Beam.grow-direction = #right
                         \override TupletBracket.staff-padding = #4
-                        cs''16 * 117/16 [ - \markup { "move towards (and then back away from) the bridge at the center of each accelerando" }
+                        cs''16 * 117/16 [
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        "move towards (and then back away from) the bridge at the center of each accelerando"
+                                }
                         c''16 * 73/16
                         a''16 * 73/32
                         d''16 * 59/32 ]
@@ -1440,7 +1455,12 @@
                         }
                     \clef "percussion"
                     \override RepeatTie.direction = #up
-                    c'2 -\accent \mf - \markup { "tamburo: strike lowest strings with palm inside piano and let vibrate (pedal down throughout)" }
+                    c'2 -\accent \mf
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "tamburo: strike lowest strings with palm inside piano and let vibrate (pedal down throughout)"
+                            }
                     c'2 \repeatTie
                     c'1. \repeatTie
                     c'2. \repeatTie
@@ -1509,7 +1529,12 @@
                         \ottava #1
                         \once \override Beam.grow-direction = #right
                         \clef "treble"
-                        cs''''16 * 247/32 \mf [ - \markup { "match dynamic levels of guitar" }
+                        cs''''16 * 247/32 \mf [
+                            ^ \markup {
+                                \whiteout
+                                    \upright
+                                        "match dynamic levels of guitar"
+                                }
                         c''''16 * 459/64
                         a'''16 * 187/32
                         d''''16 * 287/64
@@ -1725,33 +1750,35 @@
                     \override RepeatTie.direction = #up
                     c'1 \mp
                         ^ \markup {
-                            \column
-                                {
-                                    \line
+                            \whiteout
+                                \upright
+                                    \column
                                         {
-                                            sparse,
-                                            individual
-                                            clicks
-                                            with
-                                            credit
-                                            card
-                                            on
-                                            C
-                                            \hspace
-                                                #-0.5
-                                            \raise
-                                                #1
-                                                \sharp
-                                            \hspace
-                                                #-0.5
-                                            1
-                                            string
+                                            \line
+                                                {
+                                                    sparse,
+                                                    individual
+                                                    clicks
+                                                    with
+                                                    credit
+                                                    card
+                                                    on
+                                                    C
+                                                    \hspace
+                                                        #-0.5
+                                                    \raise
+                                                        #1
+                                                        \sharp
+                                                    \hspace
+                                                        #-0.5
+                                                    1
+                                                    string
+                                                }
+                                            \line
+                                                {
+                                                    "(1-2/sec. in irregular rhythm)"
+                                                }
                                         }
-                                    \line
-                                        {
-                                            "(1-2/sec. in irregular rhythm)"
-                                        }
-                                }
                             }
                     c'4 \repeatTie
                     c'2. \repeatTie
@@ -2247,12 +2274,16 @@
                     \clef "treble"
                     \override NoteHead.style = #'harmonic
                     g'2 \> \pp
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "emphasize multiphonics and unstable harmonics prominently throughout"
+                            }
                         _ \markup {
                             \whiteout
                                 \upright
                                     IV
                             }
-                        - \markup { "emphasize multiphonics and unstable harmonics prominently throughout" }
                     g'2 \repeatTie
                     g'1. \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
@@ -2438,12 +2469,16 @@
                     \clef "alto"
                     \override NoteHead.style = #'harmonic
                     g'4. \glissando \pp
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "emphasize multiphonics and unstable harmonics prominently throughout"
+                            }
                         _ \markup {
                             \whiteout
                                 \upright
                                     III
                             }
-                        - \markup { "emphasize multiphonics and unstable harmonics prominently throughout" }
                     af'8 \< \ppp
                     af'2 \repeatTie
                     af'1. \repeatTie
@@ -2606,12 +2641,16 @@
                     \clef "bass"
                     \override NoteHead.style = #'harmonic
                     g2 \> \pp
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "emphasize multiphonics and unstable harmonics prominently throughout"
+                            }
                         _ \markup {
                             \whiteout
                                 \upright
                                     III
                             }
-                        - \markup { "emphasize multiphonics and unstable harmonics prominently throughout" }
                     \times 2/3 {
                         g2 \repeatTie \ppp \glissando
                         af4 \< \ppp
@@ -2770,12 +2809,16 @@
                     \clef "bass"
                     \override NoteHead.style = #'harmonic
                     a2 \f
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    "emphasize multiphonics and unstable harmonics prominently throughout"
+                            }
                         _ \markup {
                             \whiteout
                                 \upright
                                     III
                             }
-                        - \markup { "emphasize multiphonics and unstable harmonics prominently throughout" }
                     a2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
