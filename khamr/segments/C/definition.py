@@ -412,7 +412,7 @@ segment_maker(
 ### STRINGS ###
 
 segment_maker(
-    baca.scopes(
+    baca.make_scopes(
         ['Violin Music Voice', 'Viola Music Voice', 'Cello Music Voice'],
         [(1, 7)],
         ),
@@ -425,7 +425,7 @@ segment_maker(
     )
 
 segment_maker(
-    baca.scopes([
+    baca.make_scopes([
         'Violin Music Voice',
         'Viola Music Voice',
         'Cello Music Voice',
@@ -436,7 +436,7 @@ segment_maker(
     )
 
 segment_maker(
-    baca.scopes([
+    baca.make_scopes([
         'Violin Music Voice',
         'Viola Music Voice',
         'Cello Music Voice',
@@ -447,17 +447,17 @@ segment_maker(
     )
 
 segment_maker(
-    baca.scopes(['Violin Music Voice', 'Viola Music Voice'], [(1, 7)]),
+    baca.make_scopes(['Violin Music Voice', 'Viola Music Voice'], [(1, 7)]),
     baca.markup.bow_on_wooden_mute(),
     )
 
 segment_maker(
-    baca.scopes(['Cello Music Voice', 'Contrabass Music Voice'], [(1, 7)]),
+    baca.make_scopes(['Cello Music Voice', 'Contrabass Music Voice'], [(1, 7)]),
     baca.markup.bow_on_tailpiece(),
     )
 
 segment_maker(
-    baca.scopes([
+    baca.make_scopes([
         'Violin Music Voice',
         'Viola Music Voice',
         'Cello Music Voice',
@@ -468,7 +468,7 @@ segment_maker(
     )
 
 segment_maker(
-    baca.scopes([
+    baca.make_scopes([
         'Violin Music Voice',
         'Viola Music Voice',
         'Cello Music Voice',

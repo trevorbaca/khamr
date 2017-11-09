@@ -631,7 +631,7 @@ segment_maker(
 ### UPPER STRINGS ###
 
 segment_maker(
-    baca.scopes(
+    baca.make_scopes(
         ['Violin Music Voice', 'Viola Music Voice', 'Cello Music Voice'],
         [(2, 6)],
         ),
@@ -643,7 +643,7 @@ segment_maker(
     )
 
 segment_maker(
-    baca.scopes(
+    baca.make_scopes(
         ['Violin Music Voice', 'Viola Music Voice', 'Cello Music Voice'],
         [2],
         ),
@@ -651,7 +651,7 @@ segment_maker(
     )
 
 segment_maker(
-    baca.scopes(
+    baca.make_scopes(
         ['Violin Music Voice', 'Viola Music Voice', 'Cello Music Voice'],
         [5],
         ),
@@ -659,7 +659,7 @@ segment_maker(
     )
 
 segment_maker(
-    baca.scopes(
+    baca.make_scopes(
         ['Violin Music Voice', 'Viola Music Voice', 'Cello Music Voice'],
         [(3, 4)],
         ),

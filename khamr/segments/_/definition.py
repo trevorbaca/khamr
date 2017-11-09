@@ -573,7 +573,7 @@ segment_maker(
     )
 
 segment_maker(
-    baca.scopes(['Guitar Music Voice', 'Piano Music Voice'], [(4, 7)]),
+    baca.make_scopes(['Guitar Music Voice', 'Piano Music Voice'], [(4, 7)]),
     baca.pitches(khamr.rose_pitch_classes),
     )
 
@@ -704,7 +704,7 @@ segment_maker(
 ### STRINGS ###
 
 segment_maker(
-    baca.scopes(
+    baca.make_scopes(
         ['Violin Music Voice',
         'Viola Music Voice',
         'Cello Music Voice',
@@ -715,7 +715,7 @@ segment_maker(
     )
 
 segment_maker(
-    baca.scopes(
+    baca.make_scopes(
         ['Violin Music Voice',
         'Viola Music Voice',
         'Cello Music Voice'],
