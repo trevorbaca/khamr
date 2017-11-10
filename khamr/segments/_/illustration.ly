@@ -571,65 +571,231 @@
                                 \upright
                                     "airtone without reed: mix inhales and exhales ad lib."
                             }
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     g'2 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     g'1. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     g'2. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     g'8 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     r2..
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     r2.
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     r4
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     g'2.
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     g'2. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     g'2 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     g'4. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     r8
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     g'2
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     g'2. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     g'1 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     g'8 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     r8
-                    r2
-                    r2
-                    r2.
-                    g'2
-                    g'1. \repeatTie
-                    g'4. \repeatTie
-                    r8
-                    g'2.
-                    g'2 \repeatTie
-                    g'2. \repeatTie
-                    g'1 \repeatTie
-                    g'4 \repeatTie
-                    r2
-                    r2.
-                    r2
-                    r4
-                    g'4
-                    g'2. \repeatTie
-                    g'1 \repeatTie
-                    g'4. \repeatTie
-                    r8
-                    g'2
-                    g'1. \repeatTie
-                    g'2.. \repeatTie
-                    r8
-                    r2.
-                    r2.
-                    r4
-                    g'2.
-                    g'2. \repeatTie
-                    g'4. \repeatTie
-                    r8
-                    g'2.
-                    g'1 \repeatTie
-                    g'1 \repeatTie
-                    g'8 \repeatTie
-                    \revert RepeatTie.direction
-                    r8
-                    r2
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     r2
                     \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
+                    r2
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    r2.
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    g'2
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    g'1. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    g'4. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    r8
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    g'2.
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    g'2 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    g'2. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    g'1 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    g'4 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    r2
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    r2.
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    r2
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    r4
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    g'4
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    g'2. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    g'1 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    g'4. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    r8
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    g'2
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    g'1. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    g'2.. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    r8
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    r2.
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    r2.
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    r4
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    g'2.
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    g'2. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    g'4. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    r8
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    g'2.
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    g'1 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    g'1 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    g'8 \repeatTie
+                    \revert RepeatTie.direction
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    r8
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    r2
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
+                    r2
                     \clef "treble"
                     r2.
                     <e'' b''>2
@@ -1464,39 +1630,127 @@
                                 \upright
                                     "tamburo: strike lowest strings with palm inside piano and let vibrate (pedal down throughout)"
                             }
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'1. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'1 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'4 -\accent
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2 -\accent
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'1 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2. -\accent
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2. -\accent
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'1 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'1. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'4 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2 -\accent
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'1 \repeatTie
                     \revert RepeatTie.direction
-                    \stopStaff
-                    \startStaff
                     \override TupletNumber.text = \markup {
                         \scale
                             #'(0.75 . 0.75)
@@ -1783,14 +2037,24 @@
                                                 }
                                         }
                             }
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'4 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'2. \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'1 \repeatTie
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     c'1. \repeatTie
                     \bar "|"
                     \revert RepeatTie.direction
-                    \stopStaff
-                    \startStaff
                 }
             }
             \tag percussion
