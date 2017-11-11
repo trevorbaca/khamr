@@ -1424,17 +1424,8 @@
                     \startStaff
                     \clef "percussion"
                     r1
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     r1
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     r2
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     \override RepeatTie.direction = #up
                     c'2. \pp
                         ^ \markup {
@@ -1442,22 +1433,10 @@
                                 \upright
                                     "airtone without reed: mix inhales and exhales ad lib."
                             }
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     c'4. \repeatTie
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     c'4 \repeatTie
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     c'16 \repeatTie
                     \revert RepeatTie.direction
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     r16
                     \bar "|"
                 }
@@ -2431,39 +2410,15 @@
                                 \upright
                                     airtone
                             }
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     a1 \repeatTie
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     a2... \repeatTie
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     r16
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     a4
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     a4. \repeatTie
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     a4 \repeatTie
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     a16 \repeatTie
                     \revert RepeatTie.direction
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     r16
                     \bar "|"
                 }

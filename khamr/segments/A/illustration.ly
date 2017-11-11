@@ -644,66 +644,21 @@
                     \clef "percussion"
                     \override RepeatTie.direction = #up
                     c'2
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     c'2 \repeatTie
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     c'1. \repeatTie
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     c'2. \repeatTie
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     c'1 \repeatTie
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     c'2. \repeatTie
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     c'1 \repeatTie
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     c'2. \repeatTie
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     c'2 \repeatTie
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     c'1 \repeatTie
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     c'2. \repeatTie
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     c'1 \repeatTie
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     c'2. \repeatTie
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     c'2 \repeatTie
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     c'2. \repeatTie
                     \revert RepeatTie.direction
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
                     r2
                     \ottava #-1
                     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1. :32 -\fff
