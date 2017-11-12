@@ -8,7 +8,7 @@ from abjad import rhythmmakertools as rhythmos
 ##################################### [A] #####################################
 ###############################################################################
 
-segment_maker = baca.SegmentMaker(
+maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     instruments=khamr.instruments,
     label_stages=False,
@@ -27,9 +27,9 @@ segment_maker = baca.SegmentMaker(
     transpose_score=True,
     )
 
-assert segment_maker.measure_count == 30
-assert segment_maker.stage_count == 5
-segment_maker.validate_measures_per_stage()
+assert maker.measure_count == 30
+assert maker.stage_count == 5
+maker.validate_measures_per_stage()
 
 ###############################################################################
 ################################### COMMANDS ##################################
@@ -68,7 +68,7 @@ guitar_ritardando = guitar_accelerando.reverse()
 
 ### FLUTE ###
 
-segment_maker(
+maker(
     baca.scope('Flute Music Voice', 1, 2),
     baca.RhythmBuilder(
         division_maker=khamr.beat_divisions()
@@ -94,7 +94,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Flute Music Voice', 4),
     baca.RhythmBuilder(
         rewrite_meter=True,
@@ -110,7 +110,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Flute Music Voice', 5),
     baca.RhythmBuilder(
         rewrite_meter=True,
@@ -129,7 +129,7 @@ segment_maker(
 
 ### OBOE ##
 
-segment_maker(
+maker(
     baca.scope('Oboe Music Voice', 1, 2),
     baca.RhythmBuilder(
         division_maker=khamr.beat_divisions()
@@ -155,19 +155,19 @@ segment_maker(
         ),
     )
 
-segment_maker.copy_rhythm(
+maker.copy_rhythm(
     baca.scope('Flute Music Voice', 4),
     baca.scope('Oboe Music Voice', 4),
     )
 
-segment_maker.copy_rhythm(
+maker.copy_rhythm(
     baca.scope('Flute Music Voice', 5),
     baca.scope('Oboe Music Voice', 5),
     )
 
 ### CLARINET ###
 
-segment_maker(
+maker(
     baca.scope('Clarinet Music Voice', 1, 3),
     baca.RhythmBuilder(
         division_maker=khamr.beat_divisions()
@@ -194,19 +194,19 @@ segment_maker(
         ),
     )
 
-segment_maker.copy_rhythm(
+maker.copy_rhythm(
     baca.scope('Flute Music Voice', 4),
     baca.scope('Clarinet Music Voice', 4),
     )
 
-segment_maker.copy_rhythm(
+maker.copy_rhythm(
     baca.scope('Flute Music Voice', 5),
     baca.scope('Clarinet Music Voice', 5),
     )
 
 ### SAXOPHONE ###
 
-segment_maker(
+maker(
     baca.scope('Saxophone Music Voice', 1, 2),
     baca.RhythmBuilder(
         division_maker=khamr.beat_divisions()
@@ -232,19 +232,19 @@ segment_maker(
         ),
     )
 
-segment_maker.copy_rhythm(
+maker.copy_rhythm(
     baca.scope('Flute Music Voice', 4),
     baca.scope('Saxophone Music Voice', 4),
     )
 
-segment_maker.copy_rhythm(
+maker.copy_rhythm(
     baca.scope('Flute Music Voice', 5),
     baca.scope('Saxophone Music Voice', 5),
     )
 
 ### GUITAR ###
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice', 1),
     baca.RhythmBuilder(
         division_maker=baca.DivisionMaker()
@@ -263,7 +263,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice', 2, 3),
     baca.RhythmBuilder(
         rewrite_meter=True,
@@ -279,19 +279,19 @@ segment_maker(
         ),
     )
 
-segment_maker.copy_rhythm(
+maker.copy_rhythm(
     baca.scope('Flute Music Voice', 4),
     baca.scope('Guitar Music Voice', 4),
     )
 
-segment_maker.copy_rhythm(
+maker.copy_rhythm(
     baca.scope('Flute Music Voice', 5),
     baca.scope('Guitar Music Voice', 5),
     )
 
 ### PIANO ###
 
-segment_maker(
+maker(
     baca.scope('Piano Music Voice', 1, 3),
     baca.RhythmBuilder(
         rewrite_meter=True,
@@ -307,7 +307,7 @@ segment_maker(
         ),
     )
 
-segment_maker.copy_rhythm(
+maker.copy_rhythm(
     baca.scope('Flute Music Voice', 4),
     baca.scope('Piano Music Voice', 4),
     rhythm_maker__tie_specifier=rhythmos.TieSpecifier(
@@ -315,7 +315,7 @@ segment_maker.copy_rhythm(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Piano Music Voice', 5),
     baca.RhythmBuilder(
         division_maker=khamr.beat_divisions(),
@@ -333,7 +333,7 @@ segment_maker(
 
 ### PERCUSSION ###
 
-segment_maker(
+maker(
     baca.scope('Percussion Music Voice', 1, 3),
     baca.RhythmBuilder(
         division_maker=khamr.beat_divisions()
@@ -349,7 +349,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Percussion Music Voice', 4),
     baca.RhythmBuilder(
         division_maker=baca.DivisionMaker()
@@ -379,7 +379,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Percussion Music Voice', 5),
     baca.RhythmBuilder(
         division_maker=khamr.beat_divisions(),
@@ -393,7 +393,7 @@ segment_maker(
 
 ### VIOLIN ###
 
-segment_maker(
+maker(
     baca.scope('Violin Music Voice', 1, 3),
     baca.RhythmBuilder(
         division_maker=khamr.quarter_divisions(),
@@ -412,19 +412,19 @@ segment_maker(
         ),
     )
 
-segment_maker.copy_rhythm(
+maker.copy_rhythm(
     baca.scope('Flute Music Voice', 4),
     baca.scope('Violin Music Voice', 4),
     )
 
-segment_maker.copy_rhythm(
+maker.copy_rhythm(
     baca.scope('Flute Music Voice', 5),
     baca.scope('Violin Music Voice', 5),
     )
 
 ### VIOLA ###
 
-segment_maker(
+maker(
     baca.scope('Viola Music Voice', 1, 3),
     baca.RhythmBuilder(
         division_maker=khamr.quarter_divisions(),
@@ -443,19 +443,19 @@ segment_maker(
         ),
     )
 
-segment_maker.copy_rhythm(
+maker.copy_rhythm(
     baca.scope('Violin Music Voice', 4),
     baca.scope('Viola Music Voice', 4),
     )
 
-segment_maker.copy_rhythm(
+maker.copy_rhythm(
     baca.scope('Violin Music Voice', 5),
     baca.scope('Viola Music Voice', 5),
     )
 
 ### CELLO ###
 
-segment_maker(
+maker(
     baca.scope('Cello Music Voice', 1, 2),
     baca.RhythmBuilder(
         division_maker=khamr.quarter_divisions(),
@@ -474,7 +474,7 @@ segment_maker(
         ),
     )
 
-segment_maker(
+maker(
     baca.scope('Cello Music Voice', 3),
     baca.RhythmBuilder(
         rewrite_meter=True,
@@ -490,19 +490,19 @@ segment_maker(
         ),
     )
 
-segment_maker.copy_rhythm(
+maker.copy_rhythm(
     baca.scope('Flute Music Voice', 4),
     baca.scope('Cello Music Voice', 4),
     )
 
-segment_maker.copy_rhythm(
+maker.copy_rhythm(
     baca.scope('Flute Music Voice', 5),
     baca.scope('Cello Music Voice', 5),
     )
 
 ### CONTRABASS ###
 
-segment_maker(
+maker(
     baca.scope('Contrabass Music Voice', 1, 3),
     baca.RhythmBuilder(
         rewrite_meter=True,
@@ -526,12 +526,12 @@ segment_maker(
         ),
     )
 
-segment_maker.copy_rhythm(
+maker.copy_rhythm(
     baca.scope('Flute Music Voice', 4),
     baca.scope('Contrabass Music Voice', 4),
     )
 
-segment_maker.copy_rhythm(
+maker.copy_rhythm(
     baca.scope('Flute Music Voice', 5),
     baca.scope('Contrabass Music Voice', 5),
     )
@@ -542,14 +542,14 @@ segment_maker.copy_rhythm(
 
 ### FLUTE ###
 
-segment_maker(
+maker(
     baca.scope('Flute Music Voice', 1, 2),
     baca.hairpin('mp > pp'),
     baca.map(baca.trill(), baca.qruns()),
     baca.pitches('Bb4'),
     )
 
-segment_maker(
+maker(
     baca.scope('Flute Music Voice', 4, 5),
     baca.reiterated_dynamic('fff'),
     baca.pitches('B5'),
@@ -560,13 +560,13 @@ segment_maker(
 
 ### OBOE ###
 
-segment_maker(
+maker(
     baca.scope('Oboe Music Voice', 1, 2),
     baca.pitches('<A4 E5>'),
     baca.flageolets(),
     )
 
-segment_maker(
+maker(
     baca.scope('Oboe Music Voice', 4, 5),
     baca.reiterated_dynamic('fff'),
     baca.pitches('G#3'),
@@ -574,12 +574,12 @@ segment_maker(
 
 ### CLARINET ###
 
-segment_maker(
+maker(
     baca.scope('Clarinet Music Voice', 1, 3),
     baca.pitches('G2'),
     )
 
-segment_maker(
+maker(
     baca.scope('Clarinet Music Voice', 4, 5),
     baca.reiterated_dynamic('fff'),
     baca.pitches('F#2'),
@@ -587,12 +587,12 @@ segment_maker(
 
 ### SAXOPHONE ###
 
-segment_maker(
+maker(
     baca.scope('Saxophone Music Voice', 1, 2),
     baca.pitches('<F3 G+3>'),
     )
 
-segment_maker(
+maker(
     baca.scope('Saxophone Music Voice', 4, 5),
     baca.reiterated_dynamic('fff'),
     baca.pitches('G#2'),
@@ -600,20 +600,20 @@ segment_maker(
 
 ### GUITAR ###
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice', 1),
     baca.pitches(khamr.rose_pitch_classes.rotate(-16)),
     baca.cross_note_heads(),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice', 2, 3),
     baca.dynamic('mf'),
     baca.pitches('F#2'),
     khamr.markup.sparse_guitar_clicks(),
     )
 
-segment_maker(
+maker(
     baca.scope('Guitar Music Voice', 4, 5),
     baca.dynamic('ff'),
     baca.pitches('G2'),
@@ -622,14 +622,14 @@ segment_maker(
 
 ### PIANO ###
 
-segment_maker(
+maker(
     baca.scope('Piano Music Voice', 1, 3),
     baca.repeat_ties_up(),
     baca.staff_lines(1),
     baca.staff_positions([0]),
     )
 
-segment_maker(
+maker(
     baca.scope('Piano Music Voice', 4),
     baca.clef('bass'),
     baca.ottava_bassa(),
@@ -638,7 +638,7 @@ segment_maker(
     baca.stem_tremolo(),
     )
 
-segment_maker(
+maker(
     baca.scope('Piano Music Voice', 5),
     baca.clef('treble'),
     baca.dynamic('fff'),
@@ -649,7 +649,7 @@ segment_maker(
 
 ### PERCUSSION ###
 
-segment_maker(
+maker(
     baca.scope('Percussion Music Voice', 1, 3),
     baca.accents(),
     baca.pitches('C4 C4 Ab5 C4 C4 C4'),
@@ -657,7 +657,7 @@ segment_maker(
     khamr.MarimbaHitCommand(indices=[2]),
     )
 
-segment_maker(
+maker(
     baca.scope('Percussion Music Voice', 4, 5),
     baca.pitches('Ab5'),
     baca.stems_down(),
@@ -666,28 +666,28 @@ segment_maker(
 
 ### VIOLIN ###
 
-segment_maker(
+maker(
     baca.scope('Violin Music Voice', 1),
     baca.pitches(khamr.color_trill_pitches.transpose(1)),
     )
 
-segment_maker(
+maker(
     baca.scope('Violin Music Voice', 2),
     baca.pitches(khamr.color_trill_pitches.transpose(2)),
     )
 
-segment_maker(
+maker(
     baca.scope('Violin Music Voice', 3),
     baca.pitches(khamr.color_trill_pitches.transpose(3)),
     )
 
-segment_maker(
+maker(
     baca.scope('Violin Music Voice', 1, 3),
     baca.accents(),
     baca.map(baca.trill('m2'), baca.plts()),
     )
 
-segment_maker(
+maker(
     baca.scope('Violin Music Voice', 4, 5),
     baca.markup.arco_ordinario(),
     baca.pitches('A4'),
@@ -696,28 +696,28 @@ segment_maker(
 
 ### VIOLA ###
 
-segment_maker(
+maker(
     baca.scope('Viola Music Voice', 1),
     baca.pitches(khamr.color_trill_pitches),
     )
 
-segment_maker(
+maker(
     baca.scope('Viola Music Voice', 2),
     baca.pitches(khamr.color_trill_pitches.transpose(1)),
     )
 
-segment_maker(
+maker(
     baca.scope('Viola Music Voice', 3),
     baca.pitches(khamr.color_trill_pitches.transpose(2)),
     )
 
-segment_maker(
+maker(
     baca.scope('Viola Music Voice', 1, 3),
     baca.accents(),
     baca.map(baca.trill('m2'), baca.plts()),
     )
 
-segment_maker(
+maker(
     baca.scope('Viola Music Voice', 4, 5),
     baca.markup.arco_ordinario(),
     baca.pitches('G#4'),
@@ -726,21 +726,21 @@ segment_maker(
 
 ### CELLO ###
 
-segment_maker(
+maker(
     baca.scope('Cello Music Voice', 1, 2),
     baca.accents(),
     baca.map(baca.trill('m2'), baca.plts()),
     baca.pitches(khamr.color_trill_pitches),
     )
 
-segment_maker(
+maker(
     baca.scope('Cello Music Voice', 3),
     baca.dynamic('mf'),
     baca.pitches('F#3'),
     khamr.markup.sparse_cello_clicks(),
     )
 
-segment_maker(
+maker(
     baca.scope('Cello Music Voice', 4, 5),
     baca.markup.arco_ordinario(),
     baca.pitches('G3'),
@@ -749,7 +749,7 @@ segment_maker(
 
 ### CONTRABASS ###
 
-segment_maker(
+maker(
     baca.scope('Contrabass Music Voice', 1, 3),
     baca.dynamic('mf'),
     baca.glissando(),
@@ -758,7 +758,7 @@ segment_maker(
     baca.pitches(khamr.double_stop_halo_pitches),
     )
 
-segment_maker(
+maker(
     baca.scope('Contrabass Music Voice', 4, 5),
     baca.markup.arco_ordinario(),
     baca.pitches('<G0 A1>'),
