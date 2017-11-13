@@ -13,16 +13,21 @@
         \tag winds.flute.oboe.clarinet.saxophone.guitar.piano.percussion.strings.violin.viola.cello.contrabass
         \context GlobalContext = "Global Context" <<
             \context GlobalSkips = "Global Skips" {
+                % measure 75
                 \tempo 4=126
                 \time 2/4
                 \mark #2
                 s1 * 1/2
+                % measure 76
                 \time 2/4
                 s1 * 1/2
+                % measure 77
                 \time 6/4
                 s1 * 3/2
+                % measure 78
                 \time 3/4
                 s1 * 3/4
+                % measure 79
                 \once \override TextSpanner.arrow-width = 0.25
                 \once \override TextSpanner.bound-details.left-broken.padding = 0
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
@@ -57,14 +62,19 @@
                 \once \override TextSpanner.dash-period = 1.5
                 \time 4/4
                 s1 * 1 \startTextSpan
+                % measure 80
                 \time 6/8
                 s1 * 3/4
+                % measure 81
                 \time 4/4
                 s1 * 1
+                % measure 82
                 \time 5/4
                 s1 * 5/4
+                % measure 83
                 \time 4/4
                 s1 * 1
+                % measure 84
                 \time 3/4
                 s1 * 3/4 \stopTextSpan ^ \markup {
                     \fontsize
@@ -82,36 +92,52 @@
                             126
                         }
                     }
+                % measure 85
                 \time 4/4
                 s1 * 1
+                % measure 86
                 \time 5/4
                 s1 * 5/4
+                % measure 87
                 \time 6/8
                 s1 * 3/4
+                % measure 88
                 \time 2/4
                 s1 * 1/2
+                % measure 89
                 \time 6/4
                 s1 * 3/2
+                % measure 90
                 \time 2/4
                 s1 * 1/2
+                % measure 91
                 \time 5/4
                 s1 * 5/4
+                % measure 92
                 \time 6/8
                 s1 * 3/4
+                % measure 93
                 \time 4/4
                 s1 * 1
+                % measure 94
                 \time 6/4
                 s1 * 3/2
+                % measure 95
                 \time 2/4
                 s1 * 1/2
+                % measure 96
                 \time 2/4
                 s1 * 1/2
+                % measure 97
                 \time 3/4
                 s1 * 3/4
+                % measure 98
                 \time 4/4
                 s1 * 1
+                % measure 99
                 \time 2/4
                 s1 * 1/2
+                % measure 100
                 \time 2/4
                 s1 * 1/2 ^ \markup {
                     \fontsize
@@ -129,12 +155,16 @@
                             63
                         }
                     }
+                % measure 101
                 \time 6/4
                 s1 * 3/2
+                % measure 102
                 \time 4/4
                 s1 * 1
+                % measure 103
                 \time 3/4
                 s1 * 3/4
+                % measure 104
                 \time 6/8
                 s1 * 3/4 ^ \markup {
                     \fontsize
@@ -152,18 +182,25 @@
                             42
                         }
                     }
+                % measure 105
                 \time 4/4
                 s1 * 1
+                % measure 106
                 \time 5/4
                 s1 * 5/4
+                % measure 107
                 \time 3/4
                 s1 * 3/4
+                % measure 108
                 \time 4/4
                 s1 * 1
+                % measure 109
                 \time 4/4
                 s1 * 1
+                % measure 110
                 \time 5/4
                 s1 * 5/4
+                % measure 111
                 \time 6/8
                 s1 * 3/4
             }
@@ -172,12 +209,16 @@
             \tag winds.flute
             \context FluteMusicStaff = "Flute Music Staff" {
                 \context FluteMusicVoice = "Flute Music Voice" {
+                    % measure 75
                     \clef "treble"
                     b'''2 :32
+                    % measure 76
                     b'''2 :32 \repeatTie
+                    % measure 77
                     s1 * 29/4
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 7/8 {
+                        % measure 84
                         \set FluteMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -238,6 +279,7 @@
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 7/8 {
+                        % measure 86
                         d'''16 -\accent [
                         e'''16
                         fs'''16
@@ -546,6 +588,7 @@
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 7/8 {
+                        % measure 100
                         d'''16 -\accent [
                         e'''16
                         fs'''16
@@ -639,7 +682,9 @@
                         c'''16
                         cs'''16 ]
                     }
+                    % measure 104
                     s1 * 15/4
+                    % measure 108
                     bf'1 \pp
                         ^ \markup {
                             \whiteout
@@ -656,11 +701,14 @@
                                                 }
                                         }
                             }
+                    % measure 109
                     bf'2... \repeatTie
                     r16
+                    % measure 110
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     bf'2.
                     bf'2 \repeatTie
+                    % measure 111
                     bf'4. \repeatTie
                     bf'4 \repeatTie
                     bf'16 \repeatTie
@@ -671,12 +719,16 @@
             \tag winds.oboe
             \context OboeMusicStaff = "Oboe Music Staff" {
                 \context OboeMusicVoice = "Oboe Music Voice" {
+                    % measure 75
                     \clef "treble"
                     ds'2
+                    % measure 76
                     ds'2 \repeatTie
+                    % measure 77
                     s1 * 29/4
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/6 {
+                        % measure 84
                         \set OboeMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -801,6 +853,117 @@
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/6 {
+                        % measure 88
+                        c'''16 -\accent [
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'''16 -\accent [
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'''16 -\accent [
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'''16 -\accent [
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'''16 -\accent [
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'''16 -\accent [
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'''16 -\accent [
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'''16 -\accent [
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        % measure 91
+                        c'''16 -\accent [
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'''16 -\accent [
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'''16 -\accent [
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        c'''16 -\accent [
+                        cs'''16
+                        ds'''16
+                        e'''16
+                        f'''16
+                        fs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        % measure 92
                         c'''16 -\accent [
                         cs'''16
                         ds'''16
@@ -909,6 +1072,7 @@
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/6 {
+                        % measure 96
                         c'''16 -\accent [
                         cs'''16
                         ds'''16
@@ -945,114 +1109,7 @@
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/6 {
-                        c'''16 -\accent [
-                        cs'''16
-                        ds'''16
-                        e'''16
-                        f'''16
-                        fs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
-                        c'''16 -\accent [
-                        cs'''16
-                        ds'''16
-                        e'''16
-                        f'''16
-                        fs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
-                        c'''16 -\accent [
-                        cs'''16
-                        ds'''16
-                        e'''16
-                        f'''16
-                        fs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
-                        c'''16 -\accent [
-                        cs'''16
-                        ds'''16
-                        e'''16
-                        f'''16
-                        fs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
-                        c'''16 -\accent [
-                        cs'''16
-                        ds'''16
-                        e'''16
-                        f'''16
-                        fs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
-                        c'''16 -\accent [
-                        cs'''16
-                        ds'''16
-                        e'''16
-                        f'''16
-                        fs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
-                        c'''16 -\accent [
-                        cs'''16
-                        ds'''16
-                        e'''16
-                        f'''16
-                        fs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
-                        c'''16 -\accent [
-                        cs'''16
-                        ds'''16
-                        e'''16
-                        f'''16
-                        fs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
-                        c'''16 -\accent [
-                        cs'''16
-                        ds'''16
-                        e'''16
-                        f'''16
-                        fs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
-                        c'''16 -\accent [
-                        cs'''16
-                        ds'''16
-                        e'''16
-                        f'''16
-                        fs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
-                        c'''16 -\accent [
-                        cs'''16
-                        ds'''16
-                        e'''16
-                        f'''16
-                        fs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
-                        c'''16 -\accent [
-                        cs'''16
-                        ds'''16
-                        e'''16
-                        f'''16
-                        fs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
+                        % measure 98
                         c'''16 -\accent [
                         cs'''16
                         ds'''16
@@ -1202,13 +1259,17 @@
                         e'''16
                         f'''16 ]
                     }
+                    % measure 104
                     s1 * 15/4
+                    % measure 108
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
                     \clef "percussion"
                     r1
+                    % measure 109
                     r1
+                    % measure 110
                     r2
                     \override RepeatTie.direction = #up
                     c'2. \pp
@@ -1217,6 +1278,7 @@
                                 \upright
                                     "airtone without reed: mix inhales and exhales ad lib."
                             }
+                    % measure 111
                     c'4. \repeatTie
                     c'4 \repeatTie
                     c'16 \repeatTie
@@ -1228,11 +1290,15 @@
             \tag winds.clarinet
             \context ClarinetMusicStaff = "Clarinet Music Staff" {
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
+                    % measure 75
                     \clef "treble"
                     gs2
+                    % measure 76
                     gs2 \repeatTie
+                    % measure 77
                     s1 * 29/4
                     \times 8/9 {
+                        % measure 84
                         \set ClarinetMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -1315,6 +1381,107 @@
                         g'''16 ]
                     }
                     \times 8/9 {
+                        % measure 87
+                        e'''16 -\accent [
+                        es'''16
+                        g'''16
+                        gs'''16
+                        d'''16
+                        ds'''16
+                        es'''16
+                        fs'''16
+                        g'''16 ]
+                    }
+                    \times 8/9 {
+                        e'''16 -\accent [
+                        es'''16
+                        g'''16
+                        gs'''16
+                        d'''16
+                        ds'''16
+                        es'''16
+                        fs'''16
+                        g'''16 ]
+                    }
+                    \times 8/9 {
+                        e'''16 -\accent [
+                        es'''16
+                        g'''16
+                        gs'''16
+                        d'''16
+                        ds'''16
+                        es'''16
+                        fs'''16
+                        g'''16 ]
+                    }
+                    \times 8/9 {
+                        e'''16 -\accent [
+                        es'''16
+                        g'''16
+                        gs'''16
+                        d'''16
+                        ds'''16
+                        es'''16
+                        fs'''16
+                        g'''16 ]
+                    }
+                    \times 8/9 {
+                        e'''16 -\accent [
+                        es'''16
+                        g'''16
+                        gs'''16
+                        d'''16
+                        ds'''16
+                        es'''16
+                        fs'''16
+                        g'''16 ]
+                    }
+                    \times 8/9 {
+                        e'''16 -\accent [
+                        es'''16
+                        g'''16
+                        gs'''16
+                        d'''16
+                        ds'''16
+                        es'''16
+                        fs'''16
+                        g'''16 ]
+                    }
+                    \times 8/9 {
+                        e'''16 -\accent [
+                        es'''16
+                        g'''16
+                        gs'''16
+                        d'''16
+                        ds'''16
+                        es'''16
+                        fs'''16
+                        g'''16 ]
+                    }
+                    \times 8/9 {
+                        e'''16 -\accent [
+                        es'''16
+                        g'''16
+                        gs'''16
+                        d'''16
+                        ds'''16
+                        es'''16
+                        fs'''16
+                        g'''16 ]
+                    }
+                    \times 8/9 {
+                        e'''16 -\accent [
+                        es'''16
+                        g'''16
+                        gs'''16
+                        d'''16
+                        ds'''16
+                        es'''16
+                        fs'''16
+                        g'''16 ]
+                    }
+                    \times 8/9 {
+                        % measure 92
                         e'''16 -\accent [
                         es'''16
                         g'''16
@@ -1425,6 +1592,54 @@
                         g'''16 ]
                     }
                     \times 8/9 {
+                        % measure 98
+                        e'''16 -\accent [
+                        es'''16
+                        g'''16
+                        gs'''16
+                        d'''16
+                        ds'''16
+                        es'''16
+                        fs'''16
+                        g'''16 ]
+                    }
+                    \times 8/9 {
+                        e'''16 -\accent [
+                        es'''16
+                        g'''16
+                        gs'''16
+                        d'''16
+                        ds'''16
+                        es'''16
+                        fs'''16
+                        g'''16 ]
+                    }
+                    \times 8/9 {
+                        % measure 99
+                        e'''16 -\accent [
+                        es'''16
+                        g'''16
+                        gs'''16
+                        d'''16
+                        ds'''16
+                        es'''16
+                        fs'''16
+                        g'''16 ]
+                    }
+                    \times 8/9 {
+                        % measure 100
+                        e'''16 -\accent [
+                        es'''16
+                        g'''16
+                        gs'''16
+                        d'''16
+                        ds'''16
+                        es'''16
+                        fs'''16
+                        g'''16 ]
+                    }
+                    \times 8/9 {
+                        % measure 101
                         e'''16 -\accent [
                         es'''16
                         g'''16
@@ -1458,6 +1673,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
+                        % measure 102
                         e'''16 -\accent [
                         es'''16
                         g'''16
@@ -1480,149 +1696,7 @@
                         g'''16 ]
                     }
                     \times 8/9 {
-                        e'''16 -\accent [
-                        es'''16
-                        g'''16
-                        gs'''16
-                        d'''16
-                        ds'''16
-                        es'''16
-                        fs'''16
-                        g'''16 ]
-                    }
-                    \times 8/9 {
-                        e'''16 -\accent [
-                        es'''16
-                        g'''16
-                        gs'''16
-                        d'''16
-                        ds'''16
-                        es'''16
-                        fs'''16
-                        g'''16 ]
-                    }
-                    \times 8/9 {
-                        e'''16 -\accent [
-                        es'''16
-                        g'''16
-                        gs'''16
-                        d'''16
-                        ds'''16
-                        es'''16
-                        fs'''16
-                        g'''16 ]
-                    }
-                    \times 8/9 {
-                        e'''16 -\accent [
-                        es'''16
-                        g'''16
-                        gs'''16
-                        d'''16
-                        ds'''16
-                        es'''16
-                        fs'''16
-                        g'''16 ]
-                    }
-                    \times 8/9 {
-                        e'''16 -\accent [
-                        es'''16
-                        g'''16
-                        gs'''16
-                        d'''16
-                        ds'''16
-                        es'''16
-                        fs'''16
-                        g'''16 ]
-                    }
-                    \times 8/9 {
-                        e'''16 -\accent [
-                        es'''16
-                        g'''16
-                        gs'''16
-                        d'''16
-                        ds'''16
-                        es'''16
-                        fs'''16
-                        g'''16 ]
-                    }
-                    \times 8/9 {
-                        e'''16 -\accent [
-                        es'''16
-                        g'''16
-                        gs'''16
-                        d'''16
-                        ds'''16
-                        es'''16
-                        fs'''16
-                        g'''16 ]
-                    }
-                    \times 8/9 {
-                        e'''16 -\accent [
-                        es'''16
-                        g'''16
-                        gs'''16
-                        d'''16
-                        ds'''16
-                        es'''16
-                        fs'''16
-                        g'''16 ]
-                    }
-                    \times 8/9 {
-                        e'''16 -\accent [
-                        es'''16
-                        g'''16
-                        gs'''16
-                        d'''16
-                        ds'''16
-                        es'''16
-                        fs'''16
-                        g'''16 ]
-                    }
-                    \times 8/9 {
-                        e'''16 -\accent [
-                        es'''16
-                        g'''16
-                        gs'''16
-                        d'''16
-                        ds'''16
-                        es'''16
-                        fs'''16
-                        g'''16 ]
-                    }
-                    \times 8/9 {
-                        e'''16 -\accent [
-                        es'''16
-                        g'''16
-                        gs'''16
-                        d'''16
-                        ds'''16
-                        es'''16
-                        fs'''16
-                        g'''16 ]
-                    }
-                    \times 8/9 {
-                        e'''16 -\accent [
-                        es'''16
-                        g'''16
-                        gs'''16
-                        d'''16
-                        ds'''16
-                        es'''16
-                        fs'''16
-                        g'''16 ]
-                    }
-                    \times 8/9 {
-                        e'''16 -\accent [
-                        es'''16
-                        g'''16
-                        gs'''16
-                        d'''16
-                        ds'''16
-                        es'''16
-                        fs'''16
-                        g'''16 ]
-                    }
-                    \times 8/9 {
+                        % measure 103
                         e'''16 -\accent [
                         es'''16
                         g'''16
@@ -1640,7 +1714,9 @@
                         gs'''16
                         d'''16 ]
                     }
+                    % measure 104
                     s1 * 7/4
+                    % measure 106
                     \set ClarinetMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -1667,11 +1743,16 @@
                                     "to bass clarinet"
                             }
                     a4 \repeatTie
+                    % measure 107
                     a2. \repeatTie
+                    % measure 108
                     a1 \repeatTie
+                    % measure 109
                     a1 \repeatTie
+                    % measure 110
                     a1 \repeatTie
                     a4 \repeatTie
+                    % measure 111
                     r2.
                     \bar "|"
                 }
@@ -1679,12 +1760,16 @@
             \tag winds.saxophone
             \context SaxophoneMusicStaff = "Saxophone Music Staff" {
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
+                    % measure 75
                     \clef "treble"
                     es'2
+                    % measure 76
                     es'2 \repeatTie
+                    % measure 77
                     s1 * 29/4
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
+                        % measure 84
                         \set SaxophoneMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -1729,6 +1814,89 @@
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
+                        % measure 85
+                        a''16 -\accent [
+                        as''16
+                        b''16
+                        d'''16
+                        ds'''16
+                        bs''16
+                        cs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a''16 -\accent [
+                        as''16
+                        b''16
+                        d'''16
+                        ds'''16
+                        bs''16
+                        cs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a''16 -\accent [
+                        as''16
+                        b''16
+                        d'''16
+                        ds'''16
+                        bs''16
+                        cs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a''16 -\accent [
+                        as''16
+                        b''16
+                        d'''16
+                        ds'''16
+                        bs''16
+                        cs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a''16 -\accent [
+                        as''16
+                        b''16
+                        d'''16
+                        ds'''16
+                        bs''16
+                        cs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a''16 -\accent [
+                        as''16
+                        b''16
+                        d'''16
+                        ds'''16
+                        bs''16
+                        cs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        % measure 87
+                        a''16 -\accent [
+                        as''16
+                        b''16
+                        d'''16
+                        ds'''16
+                        bs''16
+                        cs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a''16 -\accent [
+                        as''16
+                        b''16
+                        d'''16
+                        ds'''16
+                        bs''16
+                        cs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        % measure 88
                         a''16 -\accent [
                         as''16
                         b''16
@@ -1829,6 +1997,28 @@
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
+                        % measure 92
+                        a''16 -\accent [
+                        as''16
+                        b''16
+                        d'''16
+                        ds'''16
+                        bs''16
+                        cs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        a''16 -\accent [
+                        as''16
+                        b''16
+                        d'''16
+                        ds'''16
+                        bs''16
+                        cs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        % measure 93
                         a''16 -\accent [
                         as''16
                         b''16
@@ -1909,6 +2099,7 @@
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
+                        % measure 96
                         a''16 -\accent [
                         as''16
                         b''16
@@ -1969,106 +2160,7 @@
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
-                        a''16 -\accent [
-                        as''16
-                        b''16
-                        d'''16
-                        ds'''16
-                        bs''16
-                        cs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        a''16 -\accent [
-                        as''16
-                        b''16
-                        d'''16
-                        ds'''16
-                        bs''16
-                        cs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        a''16 -\accent [
-                        as''16
-                        b''16
-                        d'''16
-                        ds'''16
-                        bs''16
-                        cs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        a''16 -\accent [
-                        as''16
-                        b''16
-                        d'''16
-                        ds'''16
-                        bs''16
-                        cs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        a''16 -\accent [
-                        as''16
-                        b''16
-                        d'''16
-                        ds'''16
-                        bs''16
-                        cs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        a''16 -\accent [
-                        as''16
-                        b''16
-                        d'''16
-                        ds'''16
-                        bs''16
-                        cs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        a''16 -\accent [
-                        as''16
-                        b''16
-                        d'''16
-                        ds'''16
-                        bs''16
-                        cs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        a''16 -\accent [
-                        as''16
-                        b''16
-                        d'''16
-                        ds'''16
-                        bs''16
-                        cs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        a''16 -\accent [
-                        as''16
-                        b''16
-                        d'''16
-                        ds'''16
-                        bs''16
-                        cs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        a''16 -\accent [
-                        as''16
-                        b''16
-                        d'''16
-                        ds'''16
-                        bs''16
-                        cs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
+                        % measure 99
                         a''16 -\accent [
                         as''16
                         b''16
@@ -2182,7 +2274,9 @@
                         as''16
                         b''16 ]
                     }
+                    % measure 104
                     s1 * 15/4
+                    % measure 108
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
@@ -2194,11 +2288,14 @@
                                 \upright
                                     airtone
                             }
+                    % measure 109
                     a1 \repeatTie
+                    % measure 110
                     a2... \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     a4
+                    % measure 111
                     a4. \repeatTie
                     a4 \repeatTie
                     a16 \repeatTie
@@ -2212,32 +2309,56 @@
             \tag guitar
             \context GuitarMusicStaff = "Guitar Music Staff" {
                 \context GuitarMusicVoice = "Guitar Music Voice" {
+                    % measure 75
                     \clef "treble"
                     g'2
+                    % measure 76
                     g'2 \repeatTie
+                    % measure 77
                     s1 * 29/4
+                    % measure 84
                     af''2. :32 \fff
+                    % measure 85
                     af''1 :32 \repeatTie
+                    % measure 86
                     af''2. :32 \repeatTie
                     af''2 :32 \repeatTie
+                    % measure 87
                     af''2. :32 \repeatTie
+                    % measure 88
                     af''2 :32 \repeatTie
+                    % measure 89
                     af''1. :32 \repeatTie
+                    % measure 90
                     af''2 :32 \repeatTie
+                    % measure 91
                     af''2. :32 \repeatTie
                     af''2 :32 \repeatTie
+                    % measure 92
                     af''2. :32 \repeatTie
+                    % measure 93
                     af''1 :32 \repeatTie
+                    % measure 94
                     af''1. :32 \repeatTie
+                    % measure 95
                     af''2 :32 \repeatTie
+                    % measure 96
                     af''2 :32 \repeatTie
+                    % measure 97
                     af''2. :32 \repeatTie
+                    % measure 98
                     af''1 :32 \repeatTie
+                    % measure 99
                     af''2 :32 \repeatTie
+                    % measure 100
                     af''2 :32 \repeatTie
+                    % measure 101
                     af''1. :32 \repeatTie
+                    % measure 102
                     af''1 :32 \repeatTie
+                    % measure 103
                     af''2. :32 \repeatTie
+                    % measure 104
                     s1 * 31/4
                     \bar "|"
                 }
@@ -2246,6 +2367,7 @@
             \context PianoMusicStaff = "Piano Music Staff" {
                 \context PianoMusicVoice = "Piano Music Voice" {
                     {
+                        % measure 75
                         \ottava #1
                         \clef "treble"
                         df''''16 \fff [
@@ -2260,6 +2382,7 @@
                         c''''16 ]
                     }
                     {
+                        % measure 76
                         b'''16 [
                         df''''16
                         ef''''16
@@ -2271,6 +2394,7 @@
                         bf'''8 ]
                     }
                     \times 4/5 {
+                        % measure 77
                         a'''16. [
                         c''''16.
                         af'''16.
@@ -2297,6 +2421,7 @@
                         ef''''8 ]
                     }
                     \times 2/3 {
+                        % measure 78
                         f''''8 [
                         b'''8
                         df''''8 ]
@@ -2314,6 +2439,7 @@
                         d''''16 ]
                     }
                     \times 2/3 {
+                        % measure 79
                         e''''8 \ffff [
                         c''''8
                         af'''8 ]
@@ -2338,6 +2464,7 @@
                         af'''16 ]
                     }
                     \times 4/5 {
+                        % measure 80
                         df''''16. [
                         ef''''16.
                         f''''16.
@@ -2352,6 +2479,7 @@
                         g'''16. ]
                     }
                     \times 4/5 {
+                        % measure 81
                         e''''16 [
                         c''''16
                         b'''16
@@ -2377,6 +2505,7 @@
                         df''''16 ]
                     }
                     \times 2/3 {
+                        % measure 82
                         ef''''8 [
                         a'''8
                         e''''8 ]
@@ -2408,6 +2537,7 @@
                         d''''8 ]
                     }
                     \times 2/3 {
+                        % measure 83
                         e''''8 [
                         c''''8
                         af'''8 ]
@@ -2432,6 +2562,7 @@
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 9/11 {
+                        % measure 84
                         c'''16 -\accent \fff [
                         d'''16
                         ds'''16
@@ -2712,6 +2843,7 @@
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 9/11 {
+                        % measure 96
                         c'''16 -\accent [
                         d'''16
                         ds'''16
@@ -2768,6 +2900,7 @@
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 9/11 {
+                        % measure 99
                         c'''16 -\accent [
                         d'''16
                         ds'''16
@@ -2874,6 +3007,7 @@
                         fs'''16
                         c'''16 ]
                     }
+                    % measure 104
                     s1 * 31/4
                     \bar "|"
                 }
@@ -2881,8 +3015,10 @@
             \tag percussion
             \context PercussionMusicStaff = "Percussion Staff" {
                 \context PercussionMusicVoice = "Percussion Music Voice" {
+                    % measure 75
                     \clef "treble"
                     s1 * 13/4
+                    % measure 79
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -2898,18 +3034,21 @@
                                         \box
                                             "bass drum"
                             }
+                    % measure 80
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
                     c'2. :32 \repeatTie
+                    % measure 81
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
                     c'1 :32 \repeatTie
+                    % measure 82
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -2917,12 +3056,14 @@
                     \once \override Stem.color = #blue
                     c'2. :32 \repeatTie
                     c'2 :32 \repeatTie
+                    % measure 83
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
                     c'1 :32 \repeatTie
+                    % measure 84
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -2949,6 +3090,95 @@
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
                     c'4 -\staccato -\tongue #2
+                    % measure 85
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    % measure 86
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    % measure 87
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    % measure 88
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    % measure 89
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -2985,6 +3215,95 @@
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
                     c'4 -\staccato -\tongue #2
+                    % measure 90
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    % measure 91
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    % measure 92
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    % measure 93
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    % measure 94
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -3021,6 +3340,52 @@
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
                     c'4 -\staccato -\tongue #2
+                    % measure 95
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    % measure 96
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    % measure 97
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    % measure 98
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -3045,6 +3410,7 @@
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
                     c'4 -\staccato -\tongue #2
+                    % measure 99
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -3057,216 +3423,7 @@
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
                     c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
+                    % measure 100
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -3279,6 +3436,7 @@
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
                     c'8 -\staccato -\tongue #2 ~
+                    % measure 101
                     c'4
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
@@ -3305,6 +3463,7 @@
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
                     c'8 -\staccato -\tongue #2 ~
+                    % measure 102
                     c'4
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
@@ -3318,6 +3477,7 @@
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
                     c'4. -\staccato -\tongue #2
+                    % measure 103
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -3330,6 +3490,7 @@
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
                     c'4. -\staccato -\tongue #2
+                    % measure 104
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -3344,12 +3505,14 @@
                                         \box
                                             "bass drum"
                             }
+                    % measure 105
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
                     c'1 :32 \repeatTie
+                    % measure 106
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -3357,24 +3520,28 @@
                     \once \override Stem.color = #blue
                     c'2. :32 \repeatTie
                     c'2 :32 \repeatTie
+                    % measure 107
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
                     c'2. :32 \repeatTie
+                    % measure 108
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
                     c'1 :32 \repeatTie
+                    % measure 109
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
                     c'1 :32 \repeatTie
+                    % measure 110
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -3382,6 +3549,7 @@
                     \once \override Stem.color = #blue
                     c'2. :32 \repeatTie
                     c'2 :32 \repeatTie
+                    % measure 111
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -3396,9 +3564,12 @@
             \tag strings.violin
             \context ViolinMusicStaff = "Violin Music Staff" {
                 \context ViolinMusicVoice = "Violin Music Voice" {
+                    % measure 75
                     \clef "treble"
                     a'2
+                    % measure 76
                     a'2 \repeatTie
+                    % measure 77
                     \override NoteHead.style = #'harmonic
                     gff'1. \p \glissando
                         ^ \markup {
@@ -3406,81 +3577,108 @@
                                 \upright
                                     "estr. sul pont."
                             }
+                    % measure 78
                     gf'2. \glissando
                     \times 4/5 {
+                        % measure 79
                         bff'2. \glissando \< \pp
                         ff'2 \glissando
                     }
+                    % measure 80
                     dff'2. \glissando
                     \times 2/3 {
+                        % measure 81
                         cf'1 \glissando
                         af'2 \glissando
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/9 {
+                        % measure 82
                         ff'2. \glissando
                         ef'1. \glissando
                     }
                     \times 4/7 {
+                        % measure 83
                         gff'1 \glissando
                         aff'2. \f \glissando
                     }
+                    % measure 84
                     bff'2. \fff \glissando
+                    % measure 85
                     af'1 \glissando
+                    % measure 86
                     bf2 \glissando
                     eff'2. \glissando
+                    % measure 87
                     df'2. \glissando
                     \times 2/3 {
+                        % measure 88
                         ff'4 \glissando
                         dff'2 \glissando
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
+                        % measure 89
                         cf'1 \glissando
                         af'2. \glissando
                     }
                     \times 4/7 {
+                        % measure 90
                         bff'4. \glissando
                         ef'2 \glissando
                     }
+                    % measure 91
                     gff'2.
                     gff'2 \repeatTie \glissando
+                    % measure 92
                     aff'2. \glissando
                     \times 2/3 {
+                        % measure 93
                         df'1 \glissando
                         af'2 \glissando
                     }
+                    % measure 94
                     bf1. \glissando
                     \times 4/7 {
+                        % measure 95
                         eff'2 \glissando
                         ff'4. \glissando
                     }
                     \times 4/7 {
+                        % measure 96
                         gff'4. \glissando
                         gf'2 \glissando
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
+                        % measure 97
                         bff'2. \glissando
                         aff'2 \glissando
                     }
+                    % measure 98
                     bff'1 \glissando
+                    % measure 99
                     ef'2 \glissando
                     \times 2/3 {
+                        % measure 100
                         gff'4 \glissando
                         eff'2 \glissando
                     }
+                    % measure 101
                     df'1. \glissando
                     \times 4/7 {
+                        % measure 102
                         af'2. \glissando
                         bf1 \glissando
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
+                        % measure 103
                         bff'2. \glissando
                         ff'2
                         \revert NoteHead.style
                     }
+                    % measure 104
                     s1 * 31/4
                     \bar "|"
                 }
@@ -3488,11 +3686,14 @@
             \tag strings.viola
             \context ViolaMusicStaff = "Viola Music Staff" {
                 \context ViolaMusicVoice = "Viola Music Voice" {
+                    % measure 75
                     \clef "alto"
                     gs'2
+                    % measure 76
                     gs'2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
+                        % measure 77
                         \override NoteHead.style = #'harmonic
                         gff'1. \p \glissando
                             ^ \markup {
@@ -3502,77 +3703,104 @@
                                 }
                         gf'1 \glissando
                     }
+                    % measure 78
                     bff'2. \glissando
+                    % measure 79
                     ff'1 \glissando \< \pp
+                    % measure 80
                     dff'4 \glissando
                     cf'2 \glissando
+                    % measure 81
                     af'1 \glissando
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/7 {
+                        % measure 82
                         ff'2. \glissando
                         ef'1 \glissando
                     }
                     \times 4/5 {
+                        % measure 83
                         gff'2. \glissando
                         aff'2 \f \glissando
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
+                        % measure 84
                         bff'2 \fff \glissando
                         af'2. \glissando
                     }
+                    % measure 85
                     bf1 \glissando
+                    % measure 86
                     eff'2.
                     eff'2 \repeatTie \glissando
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
+                        % measure 87
                         df'2 \glissando
                         ff'4. \glissando
                     }
+                    % measure 88
                     dff'2 \glissando
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
+                        % measure 89
                         cf'1. \glissando
                         af'1 \glissando
                     }
                     \times 4/5 {
+                        % measure 90
                         bff'4 \glissando
                         ef'4. \glissando
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/9 {
+                        % measure 91
                         gff'1. \glissando
                         aff'2. \glissando
                     }
+                    % measure 92
                     df'2. \glissando
+                    % measure 93
                     af'1 \glissando
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
+                        % measure 94
                         bf2. \glissando
                         eff'1 \glissando
                     }
+                    % measure 95
                     ff'2 \glissando
                     \times 4/5 {
+                        % measure 96
                         gff'4 \glissando
                         gf'4. \glissando
                     }
+                    % measure 97
                     bff'2 \glissando
                     aff'4 \glissando
                     \times 2/3 {
+                        % measure 98
                         bff'2 \glissando
                         ef'1 \glissando
                     }
+                    % measure 99
                     gff'2 \glissando
+                    % measure 100
                     eff'2 \glissando
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
+                        % measure 101
                         df'1. \glissando
                         af'1 \glissando
                     }
+                    % measure 102
                     bf1 \glissando
+                    % measure 103
                     bff'2 \glissando
                     ff'4
                     \revert NoteHead.style
+                    % measure 104
                     s1 * 31/4
                     \bar "|"
                 }
@@ -3580,9 +3808,12 @@
             \tag strings.cello
             \context CelloMusicStaff = "Cello Music Staff" {
                 \context CelloMusicVoice = "Cello Music Voice" {
+                    % measure 75
                     \clef "bass"
                     g2
+                    % measure 76
                     g2 \repeatTie
+                    % measure 77
                     \override NoteHead.style = #'harmonic
                     gff'1 \p \glissando
                         ^ \markup {
@@ -3591,76 +3822,103 @@
                                     "estr. sul pont."
                             }
                     gf'2 \glissando
+                    % measure 78
                     bff'4 \glissando
                     ff'2 \glissando
+                    % measure 79
                     dff'1 \glissando \< \pp
+                    % measure 80
                     cf'2. \glissando
                     \times 4/5 {
+                        % measure 81
                         af'2. \glissando
                         ff'2 \glissando
                     }
+                    % measure 82
                     ef'2.
                     ef'2 \repeatTie \glissando
                     \times 2/3 {
+                        % measure 83
                         gff'1 \glissando
                         aff'2 \f \glissando
                     }
+                    % measure 84
                     bff'4 \fff \glissando
                     af'2 \glissando
                     \times 4/7 {
+                        % measure 85
                         bf1 \glissando
                         eff'2. \glissando
                     }
+                    % measure 86
                     df'2.
                     df'2 \repeatTie \glissando
+                    % measure 87
                     ff'2. \glissando
                     \times 4/5 {
+                        % measure 88
                         dff'4 \glissando
                         cf'4. \glissando
                     }
+                    % measure 89
                     af'1. \glissando
                     \times 2/3 {
+                        % measure 90
                         bff'4 \glissando
                         ef'2 \glissando
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/7 {
+                        % measure 91
                         gff'1 \glissando
                         aff'2. \glissando
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
+                        % measure 92
                         df'4. \glissando
                         af'2 \glissando
                     }
+                    % measure 93
                     bf1 \glissando
+                    % measure 94
                     eff'1. \glissando
                     \times 2/3 {
+                        % measure 95
                         ff'2 \glissando
                         gff'4 \glissando
                     }
+                    % measure 96
                     gf'2 \glissando
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
+                        % measure 97
                         bff'2 \glissando
                         aff'4. \glissando
                     }
                     \times 4/7 {
+                        % measure 98
                         bff'2. \glissando
                         ef'1 \glissando
                     }
                     \times 4/5 {
+                        % measure 99
                         gff'4. \glissando
                         eff'4 \glissando
                     }
+                    % measure 100
                     df'2 \glissando
+                    % measure 101
                     af'1. \glissando
                     \times 2/3 {
+                        % measure 102
                         bf2 \glissando
                         bff'1 \glissando
                     }
+                    % measure 103
                     ff'2.
                     \revert NoteHead.style
+                    % measure 104
                     s1 * 31/4
                     \bar "|"
                 }
@@ -3668,9 +3926,12 @@
             \tag strings.contrabass
             \context ContrabassMusicStaff = "Contrabass Music Staff" {
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
+                    % measure 75
                     \clef "bass"
                     <g,, a,>2
+                    % measure 76
                     <g,, a,>2 \repeatTie
+                    % measure 77
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3679,6 +3940,7 @@
                     <gs,, as,>1. \p
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 78
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3687,6 +3949,7 @@
                     <gs,, as,>2. \repeatTie
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 79
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3695,6 +3958,7 @@
                     <gs,, as,>1 \< \p
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 80
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3703,6 +3967,7 @@
                     <gs,, as,>2. \repeatTie
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 81
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3711,6 +3976,7 @@
                     <gs,, as,>1 \repeatTie
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 82
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3727,6 +3993,7 @@
                     <gs,, as,>2 \repeatTie
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 83
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3735,6 +4002,7 @@
                     <gs,, as,>1 \repeatTie \f
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 84
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3756,6 +4024,7 @@
                                         }
                                 }
                             }
+                    % measure 85
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3764,6 +4033,7 @@
                     <gs,, as,>1 \repeatTie
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 86
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3780,6 +4050,7 @@
                     <gs,, as,>2 \repeatTie
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 87
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3788,6 +4059,7 @@
                     <gs,, as,>2. \repeatTie
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 88
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3796,6 +4068,7 @@
                     <gs,, as,>2 \repeatTie
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 89
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3804,6 +4077,7 @@
                     <gs,, as,>1. \repeatTie
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 90
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3812,6 +4086,7 @@
                     <gs,, as,>2 \repeatTie
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 91
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3828,6 +4103,7 @@
                     <gs,, as,>2 \repeatTie
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 92
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3836,6 +4112,7 @@
                     <gs,, as,>2. \repeatTie
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 93
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3844,6 +4121,7 @@
                     <gs,, as,>1 \repeatTie
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 94
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3852,6 +4130,7 @@
                     <gs,, as,>1. \repeatTie
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 95
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3860,6 +4139,7 @@
                     <gs,, as,>2 \repeatTie
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 96
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3868,6 +4148,7 @@
                     <gs,, as,>2 \repeatTie
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 97
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3876,6 +4157,7 @@
                     <gs,, as,>2. \repeatTie
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 98
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3884,6 +4166,7 @@
                     <gs,, as,>1 \repeatTie
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 99
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3892,6 +4175,7 @@
                     <gs,, as,>2 \repeatTie
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 100
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3913,6 +4197,7 @@
                                         }
                                 }
                             }
+                    % measure 101
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3921,6 +4206,7 @@
                     <g,, a,>1. \repeatTie
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 102
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3929,6 +4215,7 @@
                     <g,, a,>1 \repeatTie
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 103
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3937,6 +4224,7 @@
                     <g,, a,>2. \repeatTie
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 104
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3945,7 +4233,9 @@
                     <g,, a,>2.
                         - \tweak color #red
                         ^ \markup { @ }
+                    % measure 105
                     r1
+                    % measure 106
                     \once \override TrillPitchHead.stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
                     \pitchedTrill
                     g,,2. \mp \startTrillSpan
@@ -3955,11 +4245,16 @@
                                     "Shape trill dynamics beautifully. (Thank you, Stefano.)"
                             } f
                     g,,2 \repeatTie
+                    % measure 107
                     g,,2. \repeatTie
+                    % measure 108
                     g,,1 \repeatTie
+                    % measure 109
                     g,,1 \repeatTie
+                    % measure 110
                     g,,2. \repeatTie
                     g,,2 \repeatTie
+                    % measure 111
                     r2. \stopTrillSpan
                     \bar "|"
                 }
