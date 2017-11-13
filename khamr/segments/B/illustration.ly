@@ -13,229 +13,159 @@
         \tag winds.flute.oboe.clarinet.saxophone.guitar.piano.percussion.strings.violin.viola.cello.contrabass
         \context GlobalContext = "Global Context" <<
             \context GlobalSkips = "Global Skips" {
-                {
-                    \time 2/4
-                    \tempo 4=126
-                    \mark #2
-                    s1 * 1/2
-                }
-                {
-                    s1 * 1/2
-                }
-                {
-                    \time 6/4
-                    s1 * 3/2
-                }
-                {
-                    \time 3/4
-                    s1 * 3/4
-                }
-                {
-                    \time 4/4
-                    \once \override TextSpanner.arrow-width = 0.25
-                    \once \override TextSpanner.bound-details.left-broken.padding = 0
-                    \once \override TextSpanner.bound-details.left-broken.text = \markup {
-                        \null
+                \tempo 4=126
+                \time 2/4
+                \mark #2
+                s1 * 1/2
+                \time 2/4
+                s1 * 1/2
+                \time 6/4
+                s1 * 3/2
+                \time 3/4
+                s1 * 3/4
+                \once \override TextSpanner.arrow-width = 0.25
+                \once \override TextSpanner.bound-details.left-broken.padding = 0
+                \once \override TextSpanner.bound-details.left-broken.text = \markup {
+                    \null
+                    }
+                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
+                \once \override TextSpanner.bound-details.left.text = \markup {
+                    \fontsize
+                        #-6
+                        \general-align
+                            #Y
+                            #DOWN
+                            \note-by-number
+                                #2
+                                #0
+                                #1
+                    \upright
+                        {
+                            =
+                            63
                         }
-                    \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
-                    \once \override TextSpanner.bound-details.left.text = \markup {
-                        \fontsize
-                            #-6
-                            \general-align
-                                #Y
-                                #DOWN
-                                \note-by-number
-                                    #2
-                                    #0
-                                    #1
-                        \upright
-                            {
-                                =
-                                63
-                            }
-                        \hspace
-                            #1.25
+                    \hspace
+                        #1.25
+                    }
+                \once \override TextSpanner.bound-details.right-broken.arrow = ##f
+                \once \override TextSpanner.bound-details.right-broken.padding = 0
+                \once \override TextSpanner.bound-details.right-broken.text = ##f
+                \once \override TextSpanner.bound-details.right.arrow = ##t
+                \once \override TextSpanner.bound-details.right.padding = 2
+                \once \override TextSpanner.bound-details.right.text = ##f
+                \once \override TextSpanner.dash-fraction = 0.25
+                \once \override TextSpanner.dash-period = 1.5
+                \time 4/4
+                s1 * 1 \startTextSpan
+                \time 6/8
+                s1 * 3/4
+                \time 4/4
+                s1 * 1
+                \time 5/4
+                s1 * 5/4
+                \time 4/4
+                s1 * 1
+                \time 3/4
+                s1 * 3/4 \stopTextSpan ^ \markup {
+                    \fontsize
+                        #-6
+                        \general-align
+                            #Y
+                            #DOWN
+                            \note-by-number
+                                #2
+                                #0
+                                #1
+                    \upright
+                        {
+                            =
+                            126
                         }
-                    \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-                    \once \override TextSpanner.bound-details.right-broken.padding = 0
-                    \once \override TextSpanner.bound-details.right-broken.text = ##f
-                    \once \override TextSpanner.bound-details.right.arrow = ##t
-                    \once \override TextSpanner.bound-details.right.padding = 2
-                    \once \override TextSpanner.bound-details.right.text = ##f
-                    \once \override TextSpanner.dash-fraction = 0.25
-                    \once \override TextSpanner.dash-period = 1.5
-                    s1 * 1 \startTextSpan
-                }
-                {
-                    \time 6/8
-                    s1 * 3/4
-                }
-                {
-                    \time 4/4
-                    s1 * 1
-                }
-                {
-                    \time 5/4
-                    s1 * 5/4
-                }
-                {
-                    \time 4/4
-                    s1 * 1
-                }
-                {
-                    \time 3/4
-                    s1 * 3/4 \stopTextSpan ^ \markup {
-                        \fontsize
-                            #-6
-                            \general-align
-                                #Y
-                                #DOWN
-                                \note-by-number
-                                    #2
-                                    #0
-                                    #1
-                        \upright
-                            {
-                                =
-                                126
-                            }
+                    }
+                \time 4/4
+                s1 * 1
+                \time 5/4
+                s1 * 5/4
+                \time 6/8
+                s1 * 3/4
+                \time 2/4
+                s1 * 1/2
+                \time 6/4
+                s1 * 3/2
+                \time 2/4
+                s1 * 1/2
+                \time 5/4
+                s1 * 5/4
+                \time 6/8
+                s1 * 3/4
+                \time 4/4
+                s1 * 1
+                \time 6/4
+                s1 * 3/2
+                \time 2/4
+                s1 * 1/2
+                \time 2/4
+                s1 * 1/2
+                \time 3/4
+                s1 * 3/4
+                \time 4/4
+                s1 * 1
+                \time 2/4
+                s1 * 1/2
+                \time 2/4
+                s1 * 1/2 ^ \markup {
+                    \fontsize
+                        #-6
+                        \general-align
+                            #Y
+                            #DOWN
+                            \note-by-number
+                                #2
+                                #0
+                                #1
+                    \upright
+                        {
+                            =
+                            63
                         }
-                }
-                {
-                    \time 4/4
-                    s1 * 1
-                }
-                {
-                    \time 5/4
-                    s1 * 5/4
-                }
-                {
-                    \time 6/8
-                    s1 * 3/4
-                }
-                {
-                    \time 2/4
-                    s1 * 1/2
-                }
-                {
-                    \time 6/4
-                    s1 * 3/2
-                }
-                {
-                    \time 2/4
-                    s1 * 1/2
-                }
-                {
-                    \time 5/4
-                    s1 * 5/4
-                }
-                {
-                    \time 6/8
-                    s1 * 3/4
-                }
-                {
-                    \time 4/4
-                    s1 * 1
-                }
-                {
-                    \time 6/4
-                    s1 * 3/2
-                }
-                {
-                    \time 2/4
-                    s1 * 1/2
-                }
-                {
-                    s1 * 1/2
-                }
-                {
-                    \time 3/4
-                    s1 * 3/4
-                }
-                {
-                    \time 4/4
-                    s1 * 1
-                }
-                {
-                    \time 2/4
-                    s1 * 1/2
-                }
-                {
-                    s1 * 1/2 ^ \markup {
-                        \fontsize
-                            #-6
-                            \general-align
-                                #Y
-                                #DOWN
-                                \note-by-number
-                                    #2
-                                    #0
-                                    #1
-                        \upright
-                            {
-                                =
-                                63
-                            }
+                    }
+                \time 6/4
+                s1 * 3/2
+                \time 4/4
+                s1 * 1
+                \time 3/4
+                s1 * 3/4
+                \time 6/8
+                s1 * 3/4 ^ \markup {
+                    \fontsize
+                        #-6
+                        \general-align
+                            #Y
+                            #DOWN
+                            \note-by-number
+                                #2
+                                #0
+                                #1
+                    \upright
+                        {
+                            =
+                            42
                         }
-                }
-                {
-                    \time 6/4
-                    s1 * 3/2
-                }
-                {
-                    \time 4/4
-                    s1 * 1
-                }
-                {
-                    \time 3/4
-                    s1 * 3/4
-                }
-                {
-                    \time 6/8
-                    s1 * 3/4 ^ \markup {
-                        \fontsize
-                            #-6
-                            \general-align
-                                #Y
-                                #DOWN
-                                \note-by-number
-                                    #2
-                                    #0
-                                    #1
-                        \upright
-                            {
-                                =
-                                42
-                            }
-                        }
-                }
-                {
-                    \time 4/4
-                    s1 * 1
-                }
-                {
-                    \time 5/4
-                    s1 * 5/4
-                }
-                {
-                    \time 3/4
-                    s1 * 3/4
-                }
-                {
-                    \time 4/4
-                    s1 * 1
-                }
-                {
-                    s1 * 1
-                }
-                {
-                    \time 5/4
-                    s1 * 5/4
-                }
-                {
-                    \time 6/8
-                    s1 * 3/4
-                }
+                    }
+                \time 4/4
+                s1 * 1
+                \time 5/4
+                s1 * 5/4
+                \time 3/4
+                s1 * 3/4
+                \time 4/4
+                s1 * 1
+                \time 4/4
+                s1 * 1
+                \time 5/4
+                s1 * 5/4
+                \time 6/8
+                s1 * 3/4
             }
         >>
         \context WindSectionStaffGroup = "Wind Section Staff Group" <<
