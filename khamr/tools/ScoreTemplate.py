@@ -263,7 +263,7 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         Returns score.
         '''
-        time_signature_context = self._make_time_signature_context()
+        global_context = self._make_global_context()
         instrument_tags = (
             'winds',
             'flute',
@@ -280,7 +280,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             'contrabass',
             )
         tag_string = '.'.join(instrument_tags)
-        self._attach_tag(tag_string, time_signature_context)
+        self._attach_tag(tag_string, global_context)
         # FLUTE
         flute_music_voice = abjad.Voice(
             context_name='FluteMusicVoice',
@@ -492,7 +492,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         # SCORE
         score = abjad.Score(
             [
-                time_signature_context,
+                global_context,
                 wind_section_staff_group,
                 percussion_section_staff_group,
                 string_section_staff_group,
