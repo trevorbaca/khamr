@@ -83,7 +83,7 @@ instruments = abjad.InstrumentDictionary([
     (
         'piano',
         abjad.Piano(
-            context=abjad.Staff,
+            context='Staff',
             name_markup=baca.markup.instrument('Piano'),
             short_name_markup=baca.markup.short_instrument('Pf.'),
             ),
