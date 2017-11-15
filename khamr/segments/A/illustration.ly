@@ -227,7 +227,7 @@
                     r2.
                     r2
                     % measure 53
-                    s1 * 21/4
+                    R1 * 21/4
                     % measure 59
                     \set FluteMusicStaff.instrumentName = \markup {
                         \hcenter-in
@@ -318,7 +318,7 @@
                     <e'' b''>4. \repeatTie
                     r8
                     % measure 53
-                    s1 * 21/4
+                    R1 * 21/4
                     % measure 59
                     ds'1. -\fff
                     % measure 60
@@ -461,7 +461,7 @@
                     <d'' eqs''>4. \repeatTie
                     r8
                     % measure 53
-                    s1 * 21/4
+                    R1 * 21/4
                     % measure 59
                     es'1. -\fff
                     % measure 60

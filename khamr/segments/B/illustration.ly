@@ -215,7 +215,7 @@
                     % measure 76
                     b'''2 :32 \repeatTie
                     % measure 77
-                    s1 * 29/4
+                    R1 * 29/4
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 7/8 {
                         % measure 84
@@ -683,7 +683,7 @@
                         cs'''16 ]
                     }
                     % measure 104
-                    s1 * 15/4
+                    R1 * 15/4
                     % measure 108
                     bf'1 \pp
                         ^ \markup {
@@ -725,7 +725,7 @@
                     % measure 76
                     ds'2 \repeatTie
                     % measure 77
-                    s1 * 29/4
+                    R1 * 29/4
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/6 {
                         % measure 84
@@ -1260,7 +1260,7 @@
                         f'''16 ]
                     }
                     % measure 104
-                    s1 * 15/4
+                    R1 * 15/4
                     % measure 108
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
@@ -1296,7 +1296,7 @@
                     % measure 76
                     gs2 \repeatTie
                     % measure 77
-                    s1 * 29/4
+                    R1 * 29/4
                     \times 8/9 {
                         % measure 84
                         \set ClarinetMusicStaff.instrumentName = \markup {
@@ -1715,7 +1715,7 @@
                         d'''16 ]
                     }
                     % measure 104
-                    s1 * 7/4
+                    R1 * 7/4
                     % measure 106
                     \set ClarinetMusicStaff.instrumentName = \markup {
                         \hcenter-in
@@ -1766,7 +1766,7 @@
                     % measure 76
                     es'2 \repeatTie
                     % measure 77
-                    s1 * 29/4
+                    R1 * 29/4
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         % measure 84
@@ -2275,7 +2275,7 @@
                         b''16 ]
                     }
                     % measure 104
-                    s1 * 15/4
+                    R1 * 15/4
                     % measure 108
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
@@ -2315,7 +2315,7 @@
                     % measure 76
                     g'2 \repeatTie
                     % measure 77
-                    s1 * 29/4
+                    R1 * 29/4
                     % measure 84
                     af''2. :32 \fff
                     % measure 85
@@ -2359,7 +2359,7 @@
                     % measure 103
                     af''2. :32 \repeatTie
                     % measure 104
-                    s1 * 31/4
+                    R1 * 31/4
                     \bar "|"
                 }
             }
@@ -3008,7 +3008,7 @@
                         c'''16 ]
                     }
                     % measure 104
-                    s1 * 31/4
+                    R1 * 31/4
                     \bar "|"
                 }
             }
@@ -3017,7 +3017,7 @@
                 \context PercussionMusicVoice = "Percussion Music Voice" {
                     % measure 75
                     \clef "treble"
-                    s1 * 13/4
+                    R1 * 13/4
                     % measure 79
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
@@ -3679,7 +3679,7 @@
                         \revert NoteHead.style
                     }
                     % measure 104
-                    s1 * 31/4
+                    R1 * 31/4
                     \bar "|"
                 }
             }
@@ -3801,7 +3801,7 @@
                     ff'4
                     \revert NoteHead.style
                     % measure 104
-                    s1 * 31/4
+                    R1 * 31/4
                     \bar "|"
                 }
             }
@@ -3919,7 +3919,7 @@
                     ff'2.
                     \revert NoteHead.style
                     % measure 104
-                    s1 * 31/4
+                    R1 * 31/4
                     \bar "|"
                 }
             }
