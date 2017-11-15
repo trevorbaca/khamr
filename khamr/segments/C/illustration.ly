@@ -174,7 +174,7 @@
                     bf''8. \repeatTie
                     r16
                     % measure 127
-                    s1 * 5
+                    R1 * 5
                     \bar "|."
                 }
             }
@@ -235,7 +235,7 @@
                     \revert RepeatTie.direction
                     r16
                     % measure 127
-                    s1 * 5
+                    R1 * 5
                     \bar "|."
                 }
             }
@@ -276,7 +276,7 @@
                     % measure 126
                     a1. \repeatTie
                     % measure 127
-                    s1 * 5
+                    R1 * 5
                     \bar "|."
                 }
             }
@@ -338,7 +338,7 @@
                     \revert RepeatTie.direction
                     r16
                     % measure 127
-                    s1 * 5
+                    R1 * 5
                     \bar "|."
                 }
             }
@@ -593,7 +593,7 @@
                     % measure 116
                     r1
                     % measure 117
-                    s1 * 7/4
+                    R1 * 7/4
                     % measure 119
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
@@ -661,7 +661,7 @@
                     \once \override Stem.color = #blue
                     c'1. :32 \repeatTie
                     % measure 127
-                    s1 * 5
+                    R1 * 5
                     \bar "|."
                 }
             }
@@ -717,7 +717,7 @@
                     % measure 126
                     c'1. \repeatTie \ppp
                     % measure 127
-                    s1 * 5
+                    R1 * 5
                     \bar "|."
                 }
             }
@@ -771,7 +771,7 @@
                     c'1 \repeatTie
                     c'2 -\upbow \ppp
                     % measure 127
-                    s1 * 5
+                    R1 * 5
                     \bar "|."
                 }
             }
@@ -827,7 +827,7 @@
                     c'2 \repeatTie
                     c'4 -\upbow \ppp
                     % measure 127
-                    s1 * 5
+                    R1 * 5
                     \bar "|."
                 }
             }
@@ -881,7 +881,7 @@
                     c''2 \repeatTie
                     c''1 -\upbow \ppp
                     % measure 127
-                    s1 * 5
+                    R1 * 5
                     \bar "|."
                 }
             }
