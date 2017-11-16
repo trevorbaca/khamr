@@ -237,6 +237,7 @@
                         }
                     \clef "treble"
                     \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    \once \override FluteMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     b''2 :32
                     % measure 76
                     b''2 :32 \repeatTie
@@ -763,6 +764,7 @@
                         }
                     \clef "treble"
                     \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    \once \override OboeMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     ds'2
                     % measure 76
                     ds'2 \repeatTie
@@ -1353,6 +1355,7 @@
                         }
                     \clef "treble"
                     \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     gs2
                     % measure 76
                     gs2 \repeatTie
@@ -1842,6 +1845,7 @@
                         }
                     \clef "treble"
                     \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     es'2
                     % measure 76
                     es'2 \repeatTie
@@ -2402,6 +2406,7 @@
                         }
                     \clef "treble"
                     \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     g'2
                     % measure 76
                     g'2 \repeatTie
@@ -2475,6 +2480,7 @@
                             }
                         \clef "treble"
                         \once \override PianoMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                        \once \override PianoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         df''''16 \fff [
                         d''''16
                         f''''16
@@ -3133,6 +3139,7 @@
                         }
                     \clef "treble"
                     \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    \once \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     R1 * 13/4
                     % measure 79
                     \once \override Beam.color = #blue
@@ -3693,6 +3700,7 @@
                         }
                     \clef "treble"
                     \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    \once \override ViolinMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     a'2
                     % measure 76
                     a'2 \repeatTie
@@ -3826,6 +3834,7 @@
                         }
                     \clef "alto"
                     \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     gs'2
                     % measure 76
                     gs'2 \repeatTie
@@ -3959,6 +3968,7 @@
                         }
                     \clef "bass"
                     \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    \once \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     g2
                     % measure 76
                     g2 \repeatTie
@@ -4088,6 +4098,7 @@
                         }
                     \clef "bass"
                     \once \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    \once \override ContrabassMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     <g,, a,>2
                     % measure 76
                     <g,, a,>2 \repeatTie
