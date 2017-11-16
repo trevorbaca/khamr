@@ -225,10 +225,21 @@
             \context FluteMusicStaff = "Flute Music Staff" {
                 \context FluteMusicVoice = "Flute Music Voice" {
                     % measure 75
+                    \set FluteMusicStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Flute
+                        }
+                    \set FluteMusicStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Fl.
+                        }
                     \clef "treble"
-                    b'''2 :32
+                    \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    b''2 :32
                     % measure 76
-                    b'''2 :32 \repeatTie
+                    b''2 :32 \repeatTie
                     % measure 77
                     R1 * 29/4
                     \tweak text #tuplet-number::calc-fraction-text
@@ -245,12 +256,6 @@
                                 Fl.
                             }
                         d'''16 -\accent \fff [
-                            ^ \markup {
-                                \override
-                                    #'(box-padding . 0.75)
-                                    \box
-                                        "to flute"
-                                }
                         e'''16
                         fs'''16
                         c'''16
@@ -738,7 +743,26 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
+                    \set OboeMusicStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    English
+                                    horn
+                                }
+                        }
+                    \set OboeMusicStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Eng.
+                                    hn.
+                                }
+                        }
                     \clef "treble"
+                    \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     ds'2
                     % measure 76
                     ds'2 \repeatTie
@@ -1309,7 +1333,26 @@
             \context ClarinetMusicStaff = "Clarinet Music Staff" {
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
                     % measure 75
+                    \set ClarinetMusicStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Bass
+                                    clarinet
+                                }
+                        }
+                    \set ClarinetMusicStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Bass
+                                    cl.
+                                }
+                        }
                     \clef "treble"
+                    \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     gs2
                     % measure 76
                     gs2 \repeatTie
@@ -1779,7 +1822,26 @@
             \context SaxophoneMusicStaff = "Saxophone Music Staff" {
                 \context SaxophoneMusicVoice = "Saxophone Music Voice" {
                     % measure 75
+                    \set SaxophoneMusicStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Baritone
+                                    saxophone
+                                }
+                        }
+                    \set SaxophoneMusicStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Bar.
+                                    sax.
+                                }
+                        }
                     \clef "treble"
+                    \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     es'2
                     % measure 76
                     es'2 \repeatTie
@@ -2328,7 +2390,18 @@
             \context GuitarMusicStaff = "Guitar Music Staff" {
                 \context GuitarMusicVoice = "Guitar Music Voice" {
                     % measure 75
+                    \set GuitarMusicStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Guitar
+                        }
+                    \set GuitarMusicStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Gt.
+                        }
                     \clef "treble"
+                    \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     g'2
                     % measure 76
                     g'2 \repeatTie
@@ -2390,7 +2463,18 @@
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
                         \ottava #1
+                        \set PianoMusicStaff.instrumentName = \markup {
+                            \hcenter-in
+                                #16
+                                Piano
+                            }
+                        \set PianoMusicStaff.shortInstrumentName = \markup {
+                            \hcenter-in
+                                #10
+                                Pf.
+                            }
                         \clef "treble"
+                        \once \override PianoMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                         df''''16 \fff [
                         d''''16
                         f''''16
@@ -3037,7 +3121,18 @@
             \context PercussionMusicStaff = "Percussion Staff" {
                 \context PercussionMusicVoice = "Percussion Music Voice" {
                     % measure 75
+                    \set PercussionMusicStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Percussion
+                        }
+                    \set PercussionMusicStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Perc.
+                        }
                     \clef "treble"
+                    \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     R1 * 13/4
                     % measure 79
                     \once \override Beam.color = #blue
@@ -3586,7 +3681,18 @@
             \context ViolinMusicStaff = "Violin Music Staff" {
                 \context ViolinMusicVoice = "Violin Music Voice" {
                     % measure 75
+                    \set ViolinMusicStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Violin
+                        }
+                    \set ViolinMusicStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Vn.
+                        }
                     \clef "treble"
+                    \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     a'2
                     % measure 76
                     a'2 \repeatTie
@@ -3708,7 +3814,18 @@
             \context ViolaMusicStaff = "Viola Music Staff" {
                 \context ViolaMusicVoice = "Viola Music Voice" {
                     % measure 75
+                    \set ViolaMusicStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Viola
+                        }
+                    \set ViolaMusicStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Va.
+                        }
                     \clef "alto"
+                    \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     gs'2
                     % measure 76
                     gs'2 \repeatTie
@@ -3830,7 +3947,18 @@
             \context CelloMusicStaff = "Cello Music Staff" {
                 \context CelloMusicVoice = "Cello Music Voice" {
                     % measure 75
+                    \set CelloMusicStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Cello
+                        }
+                    \set CelloMusicStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Vc.
+                        }
                     \clef "bass"
+                    \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     g2
                     % measure 76
                     g2 \repeatTie
@@ -3948,7 +4076,18 @@
             \context ContrabassMusicStaff = "Contrabass Music Staff" {
                 \context ContrabassMusicVoice = "Contrabass Music Voice" {
                     % measure 75
+                    \set ContrabassMusicStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Contrabass
+                        }
+                    \set ContrabassMusicStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Cb.
+                        }
                     \clef "bass"
+                    \once \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     <g,, a,>2
                     % measure 76
                     <g,, a,>2 \repeatTie
