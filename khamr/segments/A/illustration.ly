@@ -297,6 +297,9 @@
             \context OboeMusicStaff = "Oboe Music Staff" {
                 \context OboeMusicVoice = "Oboe Music Voice" {
                     % measure 45
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
                     \clef "treble"
                     <e'' b''>2 -\flageolet
                     % measure 46

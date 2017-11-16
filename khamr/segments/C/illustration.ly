@@ -470,6 +470,9 @@
             \context PianoMusicStaff = "Piano Music Staff" {
                 \context PianoMusicVoice = "Piano Music Voice" {
                     % measure 112
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 1
+                    \startStaff
                     \clef "treble"
                     r2
                     % measure 113

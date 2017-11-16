@@ -735,6 +735,9 @@
             \context OboeMusicStaff = "Oboe Music Staff" {
                 \context OboeMusicVoice = "Oboe Music Voice" {
                     % measure 75
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
                     \clef "treble"
                     ds'2
                     % measure 76
@@ -2383,6 +2386,9 @@
                 \context PianoMusicVoice = "Piano Music Voice" {
                     {
                         % measure 75
+                        \stopStaff
+                        \once \override Staff.StaffSymbol.line-count = 1
+                        \startStaff
                         \ottava #1
                         \clef "treble"
                         df''''16 \fff [

@@ -45,6 +45,7 @@ metadata = abjad.TypedOrderedDict(
             abjad.TypedOrderedDict(
                 [
                     ('Oboe Music Staff', 1),
+                    ('Piano Music Staff', 1),
                     ('Saxophone Music Staff', 1),
                     ]
                 ),
