@@ -15,4 +15,5 @@
             (ly:grob-set-property! grob 'long-text 
             (ly:grob-property grob 'text)))
     }
+    indent = 0
 }
