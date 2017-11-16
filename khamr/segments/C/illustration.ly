@@ -133,60 +133,71 @@
             \context FluteMusicStaff = "Flute Music Staff" {
                 \context FluteMusicVoice = "Flute Music Voice" {
                     % measure 112
+                    \set FluteMusicStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Flute
+                        }
+                    \set FluteMusicStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Fl.
+                        }
                     \clef "treble"
-                    bf''2
+                    \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    bf'2
                     % measure 113
-                    bf''2 \repeatTie
+                    bf'2 \repeatTie
                     % measure 114
-                    bf''2. \repeatTie
-                    bf''2 \repeatTie
-                    bf''8. \repeatTie
+                    bf'2. \repeatTie
+                    bf'2 \repeatTie
+                    bf'8. \repeatTie
                     r16
                     % measure 115
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    bf''2.
+                    bf'2.
                     % measure 116
-                    bf''1 \repeatTie
+                    bf'1 \repeatTie
                     % measure 117
-                    bf''4 \repeatTie
-                    bf''16 \repeatTie
+                    bf'4 \repeatTie
+                    bf'16 \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    bf''4.
+                    bf'4.
                     % measure 118
-                    bf''1 \repeatTie
+                    bf'1 \repeatTie
                     % measure 119
-                    bf''2 \repeatTie
-                    bf''8. \repeatTie
+                    bf'2 \repeatTie
+                    bf'8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    bf''2
+                    bf'2
                     % measure 120
-                    bf''1 \repeatTie
+                    bf'1 \repeatTie
                     % measure 121
-                    bf''4.. \repeatTie
+                    bf'4.. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    bf''4
+                    bf'4
                     % measure 122
-                    bf''1 \repeatTie
+                    bf'1 \repeatTie
                     % measure 123
-                    bf''2 \repeatTie
-                    bf''8. \repeatTie
+                    bf'2 \repeatTie
+                    bf'8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    bf''2
+                    bf'2
                     % measure 124
-                    bf''2. \repeatTie
+                    bf'2. \repeatTie
                     % measure 125
-                    bf''2 \repeatTie
+                    bf'2 \repeatTie
                     % measure 126
-                    bf''2 \repeatTie
-                    bf''8. \repeatTie
+                    bf'2 \repeatTie
+                    bf'8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    bf''2
-                    bf''8. \repeatTie
+                    bf'2
+                    bf'8. \repeatTie
                     r16
                     % measure 127
                     R1 * 5
@@ -200,53 +211,64 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
+                    \set OboeMusicStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Oboe
+                        }
+                    \set OboeMusicStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Ob.
+                        }
                     \clef "percussion"
                     \override RepeatTie.direction = #up
-                    g'2
+                    \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    c'2
                     % measure 113
-                    g'2 \repeatTie
+                    c'2 \repeatTie
                     % measure 114
-                    g'1. \repeatTie
+                    c'1. \repeatTie
                     % measure 115
-                    g'4.. \repeatTie
+                    c'4.. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    g'4
+                    c'4
                     % measure 116
-                    g'1 \repeatTie
+                    c'1 \repeatTie
                     % measure 117
-                    g'2. \repeatTie
+                    c'2. \repeatTie
                     % measure 118
-                    g'2 \repeatTie
-                    g'8. \repeatTie
+                    c'2 \repeatTie
+                    c'8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    g'4
+                    c'4
                     % measure 119
-                    g'2. \repeatTie
-                    g'2 \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
                     % measure 120
-                    g'2... \repeatTie
+                    c'2... \repeatTie
                     r16
                     % measure 121
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    g'2.
+                    c'2.
                     % measure 122
-                    g'1 \repeatTie
+                    c'1 \repeatTie
                     % measure 123
-                    g'2 \repeatTie
-                    g'8. \repeatTie
+                    c'2 \repeatTie
+                    c'8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    g'2
+                    c'2
                     % measure 124
-                    g'2. \repeatTie
+                    c'2. \repeatTie
                     % measure 125
-                    g'2 \repeatTie
+                    c'2 \repeatTie
                     % measure 126
-                    g'2. \repeatTie
-                    g'2 \repeatTie
-                    g'8. \repeatTie
+                    c'2. \repeatTie
+                    c'2 \repeatTie
+                    c'8. \repeatTie
                     \revert RepeatTie.direction
                     r16
                     % measure 127
@@ -258,7 +280,26 @@
             \context ClarinetMusicStaff = "Clarinet Music Staff" {
                 \context ClarinetMusicVoice = "Clarinet Music Voice" {
                     % measure 112
+                    \set ClarinetMusicStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Bass
+                                    clarinet
+                                }
+                        }
+                    \set ClarinetMusicStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Bass
+                                    cl.
+                                }
+                        }
                     \clef "treble"
+                    \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     a2
                     % measure 113
                     a2 \repeatTie
@@ -302,54 +343,73 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
+                    \set SaxophoneMusicStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            \center-column
+                                {
+                                    Sopranino
+                                    saxophone
+                                }
+                        }
+                    \set SaxophoneMusicStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            \center-column
+                                {
+                                    Sopr.
+                                    sax.
+                                }
+                        }
                     \clef "percussion"
                     \override RepeatTie.direction = #up
-                    a''2
+                    \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    a2
                     % measure 113
-                    a''2 \repeatTie
+                    a2 \repeatTie
                     % measure 114
-                    a''1. \repeatTie
+                    a1. \repeatTie
                     % measure 115
-                    a''2. \repeatTie
+                    a2. \repeatTie
                     % measure 116
-                    a''8. \repeatTie
+                    a8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    a''2.
+                    a2.
                     % measure 117
-                    a''2. \repeatTie
+                    a2. \repeatTie
                     % measure 118
-                    a''1 \repeatTie
+                    a1 \repeatTie
                     % measure 119
-                    a''2 \repeatTie
-                    a''8. \repeatTie
+                    a2 \repeatTie
+                    a8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    a''2
+                    a2
                     % measure 120
-                    a''1 \repeatTie
+                    a1 \repeatTie
                     % measure 121
-                    a''2. \repeatTie
+                    a2. \repeatTie
                     % measure 122
-                    a''2 \repeatTie
-                    a''8. \repeatTie
+                    a2 \repeatTie
+                    a8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    a''4
+                    a4
                     % measure 123
-                    a''2. \repeatTie
-                    a''2 \repeatTie
+                    a2. \repeatTie
+                    a2 \repeatTie
                     % measure 124
-                    a''2. \repeatTie
+                    a2. \repeatTie
                     % measure 125
-                    a''2 \repeatTie
+                    a2 \repeatTie
                     % measure 126
-                    a''2 \repeatTie
-                    a''8. \repeatTie
+                    a2 \repeatTie
+                    a8. \repeatTie
                     r16
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
-                    a''2
-                    a''8. \repeatTie
+                    a2
+                    a8. \repeatTie
                     \revert RepeatTie.direction
                     r16
                     % measure 127
@@ -363,7 +423,18 @@
             \context GuitarMusicStaff = "Guitar Music Staff" {
                 \context GuitarMusicVoice = "Guitar Music Voice" {
                     % measure 112
+                    \set GuitarMusicStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Guitar
+                        }
+                    \set GuitarMusicStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Gt.
+                        }
                     \clef "treble"
+                    \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     r2
                     % measure 113
                     r2
@@ -473,7 +544,18 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
+                    \set PianoMusicStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Piano
+                        }
+                    \set PianoMusicStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Pf.
+                        }
                     \clef "treble"
+                    \once \override PianoMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     r2
                     % measure 113
                     r2
@@ -585,7 +667,18 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
+                    \set PercussionMusicStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Percussion
+                        }
+                    \set PercussionMusicStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Perc.
+                        }
                     \clef "percussion"
+                    \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     c'2 :32 \> \pp
                     % measure 113
                     \once \override Beam.color = #blue
@@ -692,7 +785,18 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
+                    \set ViolinMusicStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Violin
+                        }
+                    \set ViolinMusicStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Vn.
+                        }
                     \clef "percussion"
+                    \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     c'2 -\downbow \p
                         ^ \markup {
                             \whiteout
@@ -746,7 +850,18 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
+                    \set ViolaMusicStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Viola
+                        }
+                    \set ViolaMusicStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Va.
+                        }
                     \clef "percussion"
+                    \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     c'2 -\downbow \p
                         ^ \markup {
                             \whiteout
@@ -800,7 +915,18 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
+                    \set CelloMusicStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Cello
+                        }
+                    \set CelloMusicStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Vc.
+                        }
                     \clef "percussion"
+                    \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     c'2 -\downbow \p
                         ^ \markup {
                             \whiteout
@@ -856,7 +982,18 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
+                    \set ContrabassMusicStaff.instrumentName = \markup {
+                        \hcenter-in
+                            #16
+                            Contrabass
+                        }
+                    \set ContrabassMusicStaff.shortInstrumentName = \markup {
+                        \hcenter-in
+                            #10
+                            Cb.
+                        }
                     \clef "percussion"
+                    \once \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     c''2 -\downbow \p
                         ^ \markup {
                             \whiteout
