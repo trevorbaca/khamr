@@ -495,8 +495,19 @@
                     r2
                     r2
                     % measure 37
+                    \stopStaff
+                    \once \override Staff.StaffSymbol.line-count = 5
+                    \startStaff
                     \clef "treble"
                     r2.
+                        ^ \markup {
+                            \whiteout
+                                \upright
+                                    \override
+                                        #'(box-padding . 0.5)
+                                        \box
+                                            "put reed back in"
+                            }
                     % measure 38
                     <e'' b''>2
                     % measure 39
