@@ -13,79 +13,81 @@ class MarkupLibrary(abjad.AbjadObject):
 
     ### PUBLIC METHODS ###
 
-    def airtone_without_reed():
+    def airtone_without_reed(selector=baca.pleaf(0)):
         string = 'airtone without reed: mix inhales and exhales ad lib.'
-        return baca.markup(string)
+        return baca.markup(string, selector=selector)
 
-    def covered_flute_airtone():
+    def covered_flute_airtone( selector=baca.pleaf(0)):
         first_line = abjad.MarkupList(
             ['airtone with lips covering mouthplate']).line()
         second_line = abjad.MarkupList(['(sounds major 7th lower)']).line()
-        covered_flute_air_tone = abjad.Markup.column(
+        markup = abjad.Markup.column(
             [first_line, second_line],
-            direction=Up,
+            direction=abjad.Up,
             )
-        return baca.markup(covered_flute_air_tone)
+        return baca.markup(markup, selector=selector)
 
-    def emphasize_multiphonics():
+    def emphasize_multiphonics(selector=baca.pleaf(0)):
         string = 'emphasize multiphonics and unstable harmonics'
         string += ' prominently throughout'
-        return baca.markup(string)
+        return baca.markup(string, selector=selector)
 
-    def guitar_with_screw():
+    def guitar_with_screw(selector=baca.pleaf(0)):
         string = 'draw metal screw back and forth slowly across string;'
         first_line = abjad.MarkupList([string]).line()
         second_line = abjad.MarkupList(['continuous loud sound']).line()
-        guitar_with_screw = abjad.MarkupList(
-            [first_line, second_line]).column(direction=Up)
-        return baca.markup(guitar_with_screw)
+        markup = abjad.MarkupList([first_line, second_line])
+        markup = markup.column(direction=Up)
+        return baca.markup(markup, selector=selector)
 
-    def half_harmonics_explanation():
+    def half_harmonics_explanation(selector=baca.pleaf(0)):
         string = 'cross noteheads indicate half-harmonics'
-        return baca.markup(string)
+        return baca.markup(string, selector=selector)
 
-    def match_guitar_dynamic_levels():
+    def match_guitar_dynamic_levels(selector=baca.pleaf(0)):
         string = 'match dynamic levels of guitar'
-        return baca.markup(string)
+        return baca.markup(string, selector=selector)
 
-    def move_towards_the_bridge():
+    def move_towards_the_bridge(selector=baca.pleaf(0)):
         string = 'move towards (and then back away from) the bridge'
         string += ' at the center of each accelerando'
-        return baca.markup(string)
+        return baca.markup(string, selector=selector)
 
-    def scodanibbio():
+    def scodanibbio(selector=baca.pleaf(0)):
         string = 'Shape trill dynamics beautifully. (Thank you, Stefano.)'
-        return baca.markup(string)
+        return baca.markup(string, selector=selector)
 
-    def sparse_cello_clicks():
+    def sparse_cello_clicks(selector=baca.pleaf(0)):
         string = 'sparse, individual clicks with extremely slow bow'
         first_line = abjad.MarkupList([string]).line()
         second_line = abjad.MarkupList(
             ['(1-2/sec. in irregular rhythm)']).line()
-        sparse_cello_clicks = abjad.MarkupList(
-            [first_line, second_line]).column(direction=Up)
-        return baca.markup(sparse_cello_clicks)
+        markup = abjad.MarkupList([first_line, second_line])
+        markup = markup.column(direction=abjad.Up)
+        return baca.markup(markup, selector=selector)
 
-    def sparse_guitar_clicks():
-        string = 'sparse, individual clicks with nail or pick laterally up string'
+    def sparse_guitar_clicks(selector=baca.pleaf(0)):
+        string = 'sparse, individual clicks'
+        string += ' with nail or pick laterally up string'
         first_line = abjad.MarkupList([string]).line()
         second_line = abjad.MarkupList(
             ['(1-2/sec. in irregular rhythm)']).line()
-        sparse_guitar_clicks = abjad.MarkupList(
-            [first_line, second_line]).column(direction=Up)
-        return baca.markup(sparse_guitar_clicks)
+        markup = abjad.MarkupList([first_line, second_line])
+        markup = markup.column(direction=abjad.Up)
+        return baca.markup(markup, selector=selector)
 
-    def sparse_piano_clicks():
+    def sparse_piano_clicks(selector=baca.pleaf(0)):
         string = r'sparse, individual clicks with credit card'
-        string += r' on C \hspace #-0.5 \raise #1 \sharp \hspace #-0.5 1 string'
+        string += r' on C \hspace #-0.5 \raise #1 \sharp'
+        string += ' \hspace #-0.5 1 string'
         first_line = abjad.MarkupList([string]).line()
         string = ' (1-2/sec. in irregular rhythm)'
         second_line = abjad.MarkupList([string]).line()
-        sparse_piano_clicks = abjad.MarkupList(
-            [first_line, second_line]).column(direction=Up)
-        return baca.markup(sparse_piano_clicks)
+        markup = abjad.MarkupList([first_line, second_line])
+        markup = markup.column(direction=abjad.Up)
+        return baca.markup(markup, selector=selector)
 
-    def strike_lowest_strings():
+    def strike_lowest_strings(selector=baca.pleaf(0)):
         string = 'tamburo: strike lowest strings with palm inside piano'
         string += ' and let vibrate (pedal down throughout)'
-        return baca.markup(string)
+        return baca.markup(string, selector=selector)

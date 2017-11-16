@@ -525,6 +525,7 @@ maker(
     baca.flageolets(),
     baca.markup.put_reed_back_in(),
     baca.pitches('<A4 E5>'),
+    baca.staff_lines(5),
     )
 
 ### CLARINET ###

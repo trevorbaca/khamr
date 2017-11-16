@@ -40,6 +40,19 @@ metadata = abjad.TypedOrderedDict(
                 ),
             ),
         ('end_metronome_mark', '84'),
+        (
+            'end_staff_lines_by_staff',
+            abjad.TypedOrderedDict(
+                [
+                    ('Cello Music Staff', 1),
+                    ('Contrabass Music Staff', 1),
+                    ('Oboe Music Staff', 1),
+                    ('Saxophone Music Staff', 1),
+                    ('Viola Music Staff', 1),
+                    ('Violin Music Staff', 1),
+                    ]
+                ),
+            ),
         ('end_time_signature', '6/4'),
         ('first_bar_number', 112),
         ('measure_count', 20),
