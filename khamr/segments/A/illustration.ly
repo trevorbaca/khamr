@@ -231,12 +231,12 @@
                 
             }
         >>
-        \context WindSectionStaffGroup = "Wind Section Staff Group" <<
+        \context WindSectionStaffGroup = "WindSectionStaffGroup" <<
             \tag winds.flute
-            \context FluteMusicStaff = "Flute Music Staff" {
-                \context FluteMusicVoice = "Flute Music Voice" {
+            \context FluteMusicStaff = "FluteMusicStaff" {
+                \context FluteMusicVoice = "FluteMusicVoice" {
                     
-                    %%% Flute Music Voice [measure 45] %%%
+                    %%% FluteMusicVoice [measure 45] %%%
                     \set FluteMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -260,41 +260,41 @@
                     \once \override FluteMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     bf''2 \> \mp \startTrillSpan
                     
-                    %%% Flute Music Voice [measure 46] %%%
+                    %%% FluteMusicVoice [measure 46] %%%
                     bf''2 \repeatTie
                     
-                    %%% Flute Music Voice [measure 47] %%%
+                    %%% FluteMusicVoice [measure 47] %%%
                     bf''1. \repeatTie
                     
-                    %%% Flute Music Voice [measure 48] %%%
+                    %%% FluteMusicVoice [measure 48] %%%
                     bf''4. \repeatTie
                     
                     r8 \stopTrillSpan
                     
                     bf''4 \startTrillSpan
                     
-                    %%% Flute Music Voice [measure 49] %%%
+                    %%% FluteMusicVoice [measure 49] %%%
                     bf''1 \repeatTie
                     
-                    %%% Flute Music Voice [measure 50] %%%
+                    %%% FluteMusicVoice [measure 50] %%%
                     bf''2. \repeatTie
                     
-                    %%% Flute Music Voice [measure 51] %%%
+                    %%% FluteMusicVoice [measure 51] %%%
                     bf''2 \repeatTie
                     
                     bf''8 \repeatTie \pp
                     
                     r4. \stopTrillSpan
                     
-                    %%% Flute Music Voice [measure 52] %%%
+                    %%% FluteMusicVoice [measure 52] %%%
                     r2.
                     
                     r2
                     
-                    %%% Flute Music Voice [measure 53] %%%
+                    %%% FluteMusicVoice [measure 53] %%%
                     R1 * 21/4
                     
-                    %%% Flute Music Voice [measure 59] %%%
+                    %%% FluteMusicVoice [measure 59] %%%
                     \set FluteMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -325,63 +325,63 @@
                                 }
                             }
                     
-                    %%% Flute Music Voice [measure 60] %%%
+                    %%% FluteMusicVoice [measure 60] %%%
                     r2
                     
-                    %%% Flute Music Voice [measure 61] %%%
+                    %%% FluteMusicVoice [measure 61] %%%
                     b''2. :32 -\fff
                     
                     b''2 :32 \repeatTie
                     
-                    %%% Flute Music Voice [measure 62] %%%
+                    %%% FluteMusicVoice [measure 62] %%%
                     r2.
                     
-                    %%% Flute Music Voice [measure 63] %%%
+                    %%% FluteMusicVoice [measure 63] %%%
                     b''1 :32 -\fff
                     
-                    %%% Flute Music Voice [measure 64] %%%
+                    %%% FluteMusicVoice [measure 64] %%%
                     r1.
                     
-                    %%% Flute Music Voice [measure 65] %%%
+                    %%% FluteMusicVoice [measure 65] %%%
                     r4
                     
                     b''4 :32 -\fff
                     
-                    %%% Flute Music Voice [measure 66] %%%
+                    %%% FluteMusicVoice [measure 66] %%%
                     b''2 :32 \repeatTie
                     
-                    %%% Flute Music Voice [measure 67] %%%
+                    %%% FluteMusicVoice [measure 67] %%%
                     b''2. :32 \repeatTie
                     
-                    %%% Flute Music Voice [measure 68] %%%
+                    %%% FluteMusicVoice [measure 68] %%%
                     b''1 :32 \repeatTie
                     
-                    %%% Flute Music Voice [measure 69] %%%
+                    %%% FluteMusicVoice [measure 69] %%%
                     b''2 :32 \repeatTie
                     
-                    %%% Flute Music Voice [measure 70] %%%
+                    %%% FluteMusicVoice [measure 70] %%%
                     b''2 :32 \repeatTie
                     
-                    %%% Flute Music Voice [measure 71] %%%
+                    %%% FluteMusicVoice [measure 71] %%%
                     b''1. :32 \repeatTie
                     
-                    %%% Flute Music Voice [measure 72] %%%
+                    %%% FluteMusicVoice [measure 72] %%%
                     b''1 :32 \repeatTie
                     
-                    %%% Flute Music Voice [measure 73] %%%
+                    %%% FluteMusicVoice [measure 73] %%%
                     b''2. :32 \repeatTie
                     
-                    %%% Flute Music Voice [measure 74] %%%
+                    %%% FluteMusicVoice [measure 74] %%%
                     b''2. :32 \repeatTie
                     \bar "|"
                     
                 }
             }
             \tag winds.oboe
-            \context OboeMusicStaff = "Oboe Music Staff" {
-                \context OboeMusicVoice = "Oboe Music Voice" {
+            \context OboeMusicStaff = "OboeMusicStaff" {
+                \context OboeMusicVoice = "OboeMusicVoice" {
                     
-                    %%% Oboe Music Voice [measure 45] %%%
+                    %%% OboeMusicVoice [measure 45] %%%
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
@@ -409,98 +409,98 @@
                     \once \override OboeMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     <e'' b''>2 -\flageolet
                     
-                    %%% Oboe Music Voice [measure 46] %%%
+                    %%% OboeMusicVoice [measure 46] %%%
                     <e'' b''>2 \repeatTie
                     
-                    %%% Oboe Music Voice [measure 47] %%%
+                    %%% OboeMusicVoice [measure 47] %%%
                     <e'' b''>1. \repeatTie
                     
-                    %%% Oboe Music Voice [measure 48] %%%
+                    %%% OboeMusicVoice [measure 48] %%%
                     <e'' b''>2. \repeatTie
                     
-                    %%% Oboe Music Voice [measure 49] %%%
+                    %%% OboeMusicVoice [measure 49] %%%
                     <e'' b''>8 \repeatTie
                     
                     r2..
                     
-                    %%% Oboe Music Voice [measure 50] %%%
+                    %%% OboeMusicVoice [measure 50] %%%
                     r2.
                     
-                    %%% Oboe Music Voice [measure 51] %%%
+                    %%% OboeMusicVoice [measure 51] %%%
                     r4
                     
                     <e'' b''>2. -\flageolet
                     
-                    %%% Oboe Music Voice [measure 52] %%%
+                    %%% OboeMusicVoice [measure 52] %%%
                     <e'' b''>2. \repeatTie
                     
                     <e'' b''>4. \repeatTie
                     
                     r8
                     
-                    %%% Oboe Music Voice [measure 53] %%%
+                    %%% OboeMusicVoice [measure 53] %%%
                     R1 * 21/4
                     
-                    %%% Oboe Music Voice [measure 59] %%%
+                    %%% OboeMusicVoice [measure 59] %%%
                     ds'1. -\fff
                     
-                    %%% Oboe Music Voice [measure 60] %%%
+                    %%% OboeMusicVoice [measure 60] %%%
                     r2
                     
-                    %%% Oboe Music Voice [measure 61] %%%
+                    %%% OboeMusicVoice [measure 61] %%%
                     ds'2. -\fff
                     
                     ds'2 \repeatTie
                     
-                    %%% Oboe Music Voice [measure 62] %%%
+                    %%% OboeMusicVoice [measure 62] %%%
                     r2.
                     
-                    %%% Oboe Music Voice [measure 63] %%%
+                    %%% OboeMusicVoice [measure 63] %%%
                     ds'1 -\fff
                     
-                    %%% Oboe Music Voice [measure 64] %%%
+                    %%% OboeMusicVoice [measure 64] %%%
                     r1.
                     
-                    %%% Oboe Music Voice [measure 65] %%%
+                    %%% OboeMusicVoice [measure 65] %%%
                     r4
                     
                     ds'4 -\fff
                     
-                    %%% Oboe Music Voice [measure 66] %%%
+                    %%% OboeMusicVoice [measure 66] %%%
                     ds'2 \repeatTie
                     
-                    %%% Oboe Music Voice [measure 67] %%%
+                    %%% OboeMusicVoice [measure 67] %%%
                     ds'2. \repeatTie
                     
-                    %%% Oboe Music Voice [measure 68] %%%
+                    %%% OboeMusicVoice [measure 68] %%%
                     ds'1 \repeatTie
                     
-                    %%% Oboe Music Voice [measure 69] %%%
+                    %%% OboeMusicVoice [measure 69] %%%
                     ds'2 \repeatTie
                     
-                    %%% Oboe Music Voice [measure 70] %%%
+                    %%% OboeMusicVoice [measure 70] %%%
                     ds'2 \repeatTie
                     
-                    %%% Oboe Music Voice [measure 71] %%%
+                    %%% OboeMusicVoice [measure 71] %%%
                     ds'1. \repeatTie
                     
-                    %%% Oboe Music Voice [measure 72] %%%
+                    %%% OboeMusicVoice [measure 72] %%%
                     ds'1 \repeatTie
                     
-                    %%% Oboe Music Voice [measure 73] %%%
+                    %%% OboeMusicVoice [measure 73] %%%
                     ds'2. \repeatTie
                     
-                    %%% Oboe Music Voice [measure 74] %%%
+                    %%% OboeMusicVoice [measure 74] %%%
                     ds'2. \repeatTie
                     \bar "|"
                     
                 }
             }
             \tag winds.clarinet
-            \context ClarinetMusicStaff = "Clarinet Music Staff" {
-                \context ClarinetMusicVoice = "Clarinet Music Voice" {
+            \context ClarinetMusicStaff = "ClarinetMusicStaff" {
+                \context ClarinetMusicVoice = "ClarinetMusicVoice" {
                     
-                    %%% Clarinet Music Voice [measure 45] %%%
+                    %%% ClarinetMusicVoice [measure 45] %%%
                     \set ClarinetMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -524,10 +524,10 @@
                     \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     a2
                     
-                    %%% Clarinet Music Voice [measure 46] %%%
+                    %%% ClarinetMusicVoice [measure 46] %%%
                     a2 \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 47] %%%
+                    %%% ClarinetMusicVoice [measure 47] %%%
                     a2. \repeatTie
                     
                     a2 \repeatTie
@@ -536,21 +536,21 @@
                     
                     r8
                     
-                    %%% Clarinet Music Voice [measure 48] %%%
+                    %%% ClarinetMusicVoice [measure 48] %%%
                     r2.
                     
-                    %%% Clarinet Music Voice [measure 49] %%%
+                    %%% ClarinetMusicVoice [measure 49] %%%
                     r2.
                     
                     a4
                     
-                    %%% Clarinet Music Voice [measure 50] %%%
+                    %%% ClarinetMusicVoice [measure 50] %%%
                     a2. \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 51] %%%
+                    %%% ClarinetMusicVoice [measure 51] %%%
                     a1 \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 52] %%%
+                    %%% ClarinetMusicVoice [measure 52] %%%
                     a2 \repeatTie
                     
                     a8 \repeatTie
@@ -559,16 +559,16 @@
                     
                     r2
                     
-                    %%% Clarinet Music Voice [measure 53] %%%
+                    %%% ClarinetMusicVoice [measure 53] %%%
                     r1
                     
-                    %%% Clarinet Music Voice [measure 54] %%%
+                    %%% ClarinetMusicVoice [measure 54] %%%
                     a2.
                     
-                    %%% Clarinet Music Voice [measure 55] %%%
+                    %%% ClarinetMusicVoice [measure 55] %%%
                     a1 \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 56] %%%
+                    %%% ClarinetMusicVoice [measure 56] %%%
                     a2 \repeatTie
                     
                     a8 \repeatTie
@@ -577,72 +577,72 @@
                     
                     r2
                     
-                    %%% Clarinet Music Voice [measure 57] %%%
+                    %%% ClarinetMusicVoice [measure 57] %%%
                     r2.
                     
-                    %%% Clarinet Music Voice [measure 58] %%%
+                    %%% ClarinetMusicVoice [measure 58] %%%
                     r2
                     
-                    %%% Clarinet Music Voice [measure 59] %%%
+                    %%% ClarinetMusicVoice [measure 59] %%%
                     gs1. -\fff
                     
-                    %%% Clarinet Music Voice [measure 60] %%%
+                    %%% ClarinetMusicVoice [measure 60] %%%
                     r2
                     
-                    %%% Clarinet Music Voice [measure 61] %%%
+                    %%% ClarinetMusicVoice [measure 61] %%%
                     gs2. -\fff
                     
                     gs2 \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 62] %%%
+                    %%% ClarinetMusicVoice [measure 62] %%%
                     r2.
                     
-                    %%% Clarinet Music Voice [measure 63] %%%
+                    %%% ClarinetMusicVoice [measure 63] %%%
                     gs1 -\fff
                     
-                    %%% Clarinet Music Voice [measure 64] %%%
+                    %%% ClarinetMusicVoice [measure 64] %%%
                     r1.
                     
-                    %%% Clarinet Music Voice [measure 65] %%%
+                    %%% ClarinetMusicVoice [measure 65] %%%
                     r4
                     
                     gs4 -\fff
                     
-                    %%% Clarinet Music Voice [measure 66] %%%
+                    %%% ClarinetMusicVoice [measure 66] %%%
                     gs2 \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 67] %%%
+                    %%% ClarinetMusicVoice [measure 67] %%%
                     gs2. \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 68] %%%
+                    %%% ClarinetMusicVoice [measure 68] %%%
                     gs1 \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 69] %%%
+                    %%% ClarinetMusicVoice [measure 69] %%%
                     gs2 \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 70] %%%
+                    %%% ClarinetMusicVoice [measure 70] %%%
                     gs2 \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 71] %%%
+                    %%% ClarinetMusicVoice [measure 71] %%%
                     gs1. \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 72] %%%
+                    %%% ClarinetMusicVoice [measure 72] %%%
                     gs1 \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 73] %%%
+                    %%% ClarinetMusicVoice [measure 73] %%%
                     gs2. \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 74] %%%
+                    %%% ClarinetMusicVoice [measure 74] %%%
                     gs2. \repeatTie
                     \bar "|"
                     
                 }
             }
             \tag winds.saxophone
-            \context SaxophoneMusicStaff = "Saxophone Music Staff" {
-                \context SaxophoneMusicVoice = "Saxophone Music Voice" {
+            \context SaxophoneMusicStaff = "SaxophoneMusicStaff" {
+                \context SaxophoneMusicVoice = "SaxophoneMusicVoice" {
                     
-                    %%% Saxophone Music Voice [measure 45] %%%
+                    %%% SaxophoneMusicVoice [measure 45] %%%
                     \set SaxophoneMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -666,103 +666,103 @@
                     \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     <d'' eqs''>2
                     
-                    %%% Saxophone Music Voice [measure 46] %%%
+                    %%% SaxophoneMusicVoice [measure 46] %%%
                     <d'' eqs''>2 \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 47] %%%
+                    %%% SaxophoneMusicVoice [measure 47] %%%
                     <d'' eqs''>1. \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 48] %%%
+                    %%% SaxophoneMusicVoice [measure 48] %%%
                     <d'' eqs''>2. \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 49] %%%
+                    %%% SaxophoneMusicVoice [measure 49] %%%
                     <d'' eqs''>2 \repeatTie
                     
                     <d'' eqs''>8 \repeatTie
                     
                     r4.
                     
-                    %%% Saxophone Music Voice [measure 50] %%%
+                    %%% SaxophoneMusicVoice [measure 50] %%%
                     r2.
                     
-                    %%% Saxophone Music Voice [measure 51] %%%
+                    %%% SaxophoneMusicVoice [measure 51] %%%
                     r2.
                     
                     <d'' eqs''>4
                     
-                    %%% Saxophone Music Voice [measure 52] %%%
+                    %%% SaxophoneMusicVoice [measure 52] %%%
                     <d'' eqs''>2. \repeatTie
                     
                     <d'' eqs''>4. \repeatTie
                     
                     r8
                     
-                    %%% Saxophone Music Voice [measure 53] %%%
+                    %%% SaxophoneMusicVoice [measure 53] %%%
                     R1 * 21/4
                     
-                    %%% Saxophone Music Voice [measure 59] %%%
+                    %%% SaxophoneMusicVoice [measure 59] %%%
                     es'1. -\fff
                     
-                    %%% Saxophone Music Voice [measure 60] %%%
+                    %%% SaxophoneMusicVoice [measure 60] %%%
                     r2
                     
-                    %%% Saxophone Music Voice [measure 61] %%%
+                    %%% SaxophoneMusicVoice [measure 61] %%%
                     es'2. -\fff
                     
                     es'2 \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 62] %%%
+                    %%% SaxophoneMusicVoice [measure 62] %%%
                     r2.
                     
-                    %%% Saxophone Music Voice [measure 63] %%%
+                    %%% SaxophoneMusicVoice [measure 63] %%%
                     es'1 -\fff
                     
-                    %%% Saxophone Music Voice [measure 64] %%%
+                    %%% SaxophoneMusicVoice [measure 64] %%%
                     r1.
                     
-                    %%% Saxophone Music Voice [measure 65] %%%
+                    %%% SaxophoneMusicVoice [measure 65] %%%
                     r4
                     
                     es'4 -\fff
                     
-                    %%% Saxophone Music Voice [measure 66] %%%
+                    %%% SaxophoneMusicVoice [measure 66] %%%
                     es'2 \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 67] %%%
+                    %%% SaxophoneMusicVoice [measure 67] %%%
                     es'2. \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 68] %%%
+                    %%% SaxophoneMusicVoice [measure 68] %%%
                     es'1 \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 69] %%%
+                    %%% SaxophoneMusicVoice [measure 69] %%%
                     es'2 \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 70] %%%
+                    %%% SaxophoneMusicVoice [measure 70] %%%
                     es'2 \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 71] %%%
+                    %%% SaxophoneMusicVoice [measure 71] %%%
                     es'1. \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 72] %%%
+                    %%% SaxophoneMusicVoice [measure 72] %%%
                     es'1 \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 73] %%%
+                    %%% SaxophoneMusicVoice [measure 73] %%%
                     es'2. \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 74] %%%
+                    %%% SaxophoneMusicVoice [measure 74] %%%
                     es'2. \repeatTie
                     \bar "|"
                     
                 }
             }
         >>
-        \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
+        \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup" <<
             \tag guitar
-            \context GuitarMusicStaff = "Guitar Music Staff" {
-                \context GuitarMusicVoice = "Guitar Music Voice" {
+            \context GuitarMusicStaff = "GuitarMusicStaff" {
+                \context GuitarMusicVoice = "GuitarMusicVoice" {
                     \times 2/3 {
                         
-                        %%% Guitar Music Voice [measure 45] %%%
+                        %%% GuitarMusicVoice [measure 45] %%%
                         \set GuitarMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -786,13 +786,13 @@
                     
                     r4
                     
-                    %%% Guitar Music Voice [measure 46] %%%
+                    %%% GuitarMusicVoice [measure 46] %%%
                     r4
                     
                     r4
                     \times 2/3 {
                         
-                        %%% Guitar Music Voice [measure 47] %%%
+                        %%% GuitarMusicVoice [measure 47] %%%
                         r8
                         
                         fs''4
@@ -815,14 +815,14 @@
                         r8
                     }
                     
-                    %%% Guitar Music Voice [measure 48] %%%
+                    %%% GuitarMusicVoice [measure 48] %%%
                     r4
                     
                     r4
                     
                     r4
                     
-                    %%% Guitar Music Voice [measure 49] %%%
+                    %%% GuitarMusicVoice [measure 49] %%%
                     fs1 \mf
                         ^ \markup {
                             \whiteout
@@ -840,38 +840,38 @@
                                         }
                             }
                     
-                    %%% Guitar Music Voice [measure 50] %%%
+                    %%% GuitarMusicVoice [measure 50] %%%
                     fs2. \repeatTie
                     
-                    %%% Guitar Music Voice [measure 51] %%%
+                    %%% GuitarMusicVoice [measure 51] %%%
                     fs1 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 52] %%%
+                    %%% GuitarMusicVoice [measure 52] %%%
                     fs2. \repeatTie
                     
                     fs2 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 53] %%%
+                    %%% GuitarMusicVoice [measure 53] %%%
                     fs1 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 54] %%%
+                    %%% GuitarMusicVoice [measure 54] %%%
                     fs2. \repeatTie
                     
-                    %%% Guitar Music Voice [measure 55] %%%
+                    %%% GuitarMusicVoice [measure 55] %%%
                     fs1 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 56] %%%
+                    %%% GuitarMusicVoice [measure 56] %%%
                     fs2. \repeatTie
                     
                     fs2 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 57] %%%
+                    %%% GuitarMusicVoice [measure 57] %%%
                     fs2. \repeatTie
                     
-                    %%% Guitar Music Voice [measure 58] %%%
+                    %%% GuitarMusicVoice [measure 58] %%%
                     r2
                     
-                    %%% Guitar Music Voice [measure 59] %%%
+                    %%% GuitarMusicVoice [measure 59] %%%
                     g1. \ff
                         ^ \markup {
                             \whiteout
@@ -889,63 +889,63 @@
                                         }
                             }
                     
-                    %%% Guitar Music Voice [measure 60] %%%
+                    %%% GuitarMusicVoice [measure 60] %%%
                     r2
                     
-                    %%% Guitar Music Voice [measure 61] %%%
+                    %%% GuitarMusicVoice [measure 61] %%%
                     g2.
                     
                     g2 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 62] %%%
+                    %%% GuitarMusicVoice [measure 62] %%%
                     r2.
                     
-                    %%% Guitar Music Voice [measure 63] %%%
+                    %%% GuitarMusicVoice [measure 63] %%%
                     g1
                     
-                    %%% Guitar Music Voice [measure 64] %%%
+                    %%% GuitarMusicVoice [measure 64] %%%
                     r1.
                     
-                    %%% Guitar Music Voice [measure 65] %%%
+                    %%% GuitarMusicVoice [measure 65] %%%
                     r4
                     
                     g4
                     
-                    %%% Guitar Music Voice [measure 66] %%%
+                    %%% GuitarMusicVoice [measure 66] %%%
                     g2 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 67] %%%
+                    %%% GuitarMusicVoice [measure 67] %%%
                     g2. \repeatTie
                     
-                    %%% Guitar Music Voice [measure 68] %%%
+                    %%% GuitarMusicVoice [measure 68] %%%
                     g1 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 69] %%%
+                    %%% GuitarMusicVoice [measure 69] %%%
                     g2 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 70] %%%
+                    %%% GuitarMusicVoice [measure 70] %%%
                     g2 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 71] %%%
+                    %%% GuitarMusicVoice [measure 71] %%%
                     g1. \repeatTie
                     
-                    %%% Guitar Music Voice [measure 72] %%%
+                    %%% GuitarMusicVoice [measure 72] %%%
                     g1 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 73] %%%
+                    %%% GuitarMusicVoice [measure 73] %%%
                     g2. \repeatTie
                     
-                    %%% Guitar Music Voice [measure 74] %%%
+                    %%% GuitarMusicVoice [measure 74] %%%
                     g2. \repeatTie
                     \bar "|"
                     
                 }
             }
             \tag piano
-            \context PianoMusicStaff = "Piano Music Staff" {
-                \context PianoMusicVoice = "Piano Music Voice" {
+            \context PianoMusicStaff = "PianoMusicStaff" {
+                \context PianoMusicVoice = "PianoMusicVoice" {
                     
-                    %%% Piano Music Voice [measure 45] %%%
+                    %%% PianoMusicVoice [measure 45] %%%
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
@@ -965,58 +965,58 @@
                     \once \override PianoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     c'2
                     
-                    %%% Piano Music Voice [measure 46] %%%
+                    %%% PianoMusicVoice [measure 46] %%%
                     c'2 \repeatTie
                     
-                    %%% Piano Music Voice [measure 47] %%%
+                    %%% PianoMusicVoice [measure 47] %%%
                     c'1. \repeatTie
                     
-                    %%% Piano Music Voice [measure 48] %%%
+                    %%% PianoMusicVoice [measure 48] %%%
                     c'2. \repeatTie
                     
-                    %%% Piano Music Voice [measure 49] %%%
+                    %%% PianoMusicVoice [measure 49] %%%
                     c'1 \repeatTie
                     
-                    %%% Piano Music Voice [measure 50] %%%
+                    %%% PianoMusicVoice [measure 50] %%%
                     c'2. \repeatTie
                     
-                    %%% Piano Music Voice [measure 51] %%%
+                    %%% PianoMusicVoice [measure 51] %%%
                     c'1 \repeatTie
                     
-                    %%% Piano Music Voice [measure 52] %%%
+                    %%% PianoMusicVoice [measure 52] %%%
                     c'2. \repeatTie
                     
                     c'2 \repeatTie
                     
-                    %%% Piano Music Voice [measure 53] %%%
+                    %%% PianoMusicVoice [measure 53] %%%
                     c'1 \repeatTie
                     
-                    %%% Piano Music Voice [measure 54] %%%
+                    %%% PianoMusicVoice [measure 54] %%%
                     c'2. \repeatTie
                     
-                    %%% Piano Music Voice [measure 55] %%%
+                    %%% PianoMusicVoice [measure 55] %%%
                     c'1 \repeatTie
                     
-                    %%% Piano Music Voice [measure 56] %%%
+                    %%% PianoMusicVoice [measure 56] %%%
                     c'2. \repeatTie
                     
                     c'2 \repeatTie
                     
-                    %%% Piano Music Voice [measure 57] %%%
+                    %%% PianoMusicVoice [measure 57] %%%
                     c'2. \repeatTie
                     \revert RepeatTie.direction
                     
-                    %%% Piano Music Voice [measure 58] %%%
+                    %%% PianoMusicVoice [measure 58] %%%
                     r2
                     
-                    %%% Piano Music Voice [measure 59] %%%
+                    %%% PianoMusicVoice [measure 59] %%%
                     \ottava #-1
                     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1. :32 -\fff
                     
-                    %%% Piano Music Voice [measure 60] %%%
+                    %%% PianoMusicVoice [measure 60] %%%
                     r2
                     
-                    %%% Piano Music Voice [measure 61] %%%
+                    %%% PianoMusicVoice [measure 61] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -1035,17 +1035,17 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Piano Music Voice [measure 62] %%%
+                    %%% PianoMusicVoice [measure 62] %%%
                     r2.
                     
-                    %%% Piano Music Voice [measure 63] %%%
+                    %%% PianoMusicVoice [measure 63] %%%
                     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1 :32 -\fff
                     \ottava #0
                     
-                    %%% Piano Music Voice [measure 64] %%%
+                    %%% PianoMusicVoice [measure 64] %%%
                     r1.
                     
-                    %%% Piano Music Voice [measure 65] %%%
+                    %%% PianoMusicVoice [measure 65] %%%
                     \clef "treble"
                     r4
                     \times 2/3 {
@@ -1058,7 +1058,7 @@
                         ef''''8 ]
                     }
                     
-                    %%% Piano Music Voice [measure 66] %%%
+                    %%% PianoMusicVoice [measure 66] %%%
                     r4
                     {
                         
@@ -1071,7 +1071,7 @@
                         d''''16 ]
                     }
                     
-                    %%% Piano Music Voice [measure 67] %%%
+                    %%% PianoMusicVoice [measure 67] %%%
                     r2
                     {
                         
@@ -1084,7 +1084,7 @@
                         df''''16 ]
                     }
                     
-                    %%% Piano Music Voice [measure 68] %%%
+                    %%% PianoMusicVoice [measure 68] %%%
                     r2.
                     \times 2/3 {
                         
@@ -1095,7 +1095,7 @@
                         e''''8 ]
                     }
                     
-                    %%% Piano Music Voice [measure 69] %%%
+                    %%% PianoMusicVoice [measure 69] %%%
                     r4
                     {
                         
@@ -1108,7 +1108,7 @@
                         gf'''16 ]
                     }
                     
-                    %%% Piano Music Voice [measure 70] %%%
+                    %%% PianoMusicVoice [measure 70] %%%
                     r4
                     \times 4/5 {
                         
@@ -1123,7 +1123,7 @@
                         cf''''16 ]
                     }
                     
-                    %%% Piano Music Voice [measure 71] %%%
+                    %%% PianoMusicVoice [measure 71] %%%
                     r2.
                     
                     r4.
@@ -1138,7 +1138,7 @@
                         e''''16. ]
                     }
                     
-                    %%% Piano Music Voice [measure 72] %%%
+                    %%% PianoMusicVoice [measure 72] %%%
                     r2.
                     \times 2/3 {
                         
@@ -1149,7 +1149,7 @@
                         cf''''8 ]
                     }
                     
-                    %%% Piano Music Voice [measure 73] %%%
+                    %%% PianoMusicVoice [measure 73] %%%
                     r2
                     \times 2/3 {
                         
@@ -1160,7 +1160,7 @@
                         df''''8 ]
                     }
                     
-                    %%% Piano Music Voice [measure 74] %%%
+                    %%% PianoMusicVoice [measure 74] %%%
                     r4.
                     {
                         
@@ -1178,10 +1178,10 @@
                 }
             }
             \tag percussion
-            \context PercussionMusicStaff = "Percussion Staff" {
-                \context PercussionMusicVoice = "Percussion Music Voice" {
+            \context PercussionMusicStaff = "PercussionStaff" {
+                \context PercussionMusicVoice = "PercussionMusicVoice" {
                     
-                    %%% Percussion Music Voice [measure 45] %%%
+                    %%% PercussionMusicVoice [measure 45] %%%
                     \override Stem.direction = #down
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
@@ -1205,7 +1205,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Percussion Music Voice [measure 46] %%%
+                    %%% PercussionMusicVoice [measure 46] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -1215,7 +1215,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Percussion Music Voice [measure 47] %%%
+                    %%% PercussionMusicVoice [measure 47] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -1225,7 +1225,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Percussion Music Voice [measure 48] %%%
+                    %%% PercussionMusicVoice [measure 48] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -1235,7 +1235,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Percussion Music Voice [measure 49] %%%
+                    %%% PercussionMusicVoice [measure 49] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -1245,7 +1245,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Percussion Music Voice [measure 50] %%%
+                    %%% PercussionMusicVoice [measure 50] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -1255,7 +1255,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Percussion Music Voice [measure 51] %%%
+                    %%% PercussionMusicVoice [measure 51] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -1265,7 +1265,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Percussion Music Voice [measure 52] %%%
+                    %%% PercussionMusicVoice [measure 52] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -1284,7 +1284,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Percussion Music Voice [measure 53] %%%
+                    %%% PercussionMusicVoice [measure 53] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -1300,7 +1300,7 @@
                     \clef "treble"
                     af''2 -\marcato \sfz
                     
-                    %%% Percussion Music Voice [measure 54] %%%
+                    %%% PercussionMusicVoice [measure 54] %%%
                     af''2 \repeatTie
                     \stopStaff
                     \startStaff
@@ -1308,25 +1308,25 @@
                     \clef "percussion"
                     c'4 -\accent
                     
-                    %%% Percussion Music Voice [measure 55] %%%
+                    %%% PercussionMusicVoice [measure 55] %%%
                     c'1 \repeatTie
                     
-                    %%% Percussion Music Voice [measure 56] %%%
+                    %%% PercussionMusicVoice [measure 56] %%%
                     c'2. \repeatTie
                     
                     c'2 \repeatTie
                     
-                    %%% Percussion Music Voice [measure 57] %%%
+                    %%% PercussionMusicVoice [measure 57] %%%
                     c'2. \repeatTie
                     
-                    %%% Percussion Music Voice [measure 58] %%%
+                    %%% PercussionMusicVoice [measure 58] %%%
                     c'2 \repeatTie
                     \revert Stem.direction
                     
-                    %%% Percussion Music Voice [measure 59] %%%
+                    %%% PercussionMusicVoice [measure 59] %%%
                     r1.
                     
-                    %%% Percussion Music Voice [measure 60] %%%
+                    %%% PercussionMusicVoice [measure 60] %%%
                     \override Stem.direction = #down
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
@@ -1339,12 +1339,12 @@
                     \clef "percussion"
                     r4
                     
-                    %%% Percussion Music Voice [measure 61] %%%
+                    %%% PercussionMusicVoice [measure 61] %%%
                     r2.
                     
                     r2
                     
-                    %%% Percussion Music Voice [measure 62] %%%
+                    %%% PercussionMusicVoice [measure 62] %%%
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
@@ -1356,10 +1356,10 @@
                     \clef "percussion"
                     r4.
                     
-                    %%% Percussion Music Voice [measure 63] %%%
+                    %%% PercussionMusicVoice [measure 63] %%%
                     r1
                     
-                    %%% Percussion Music Voice [measure 64] %%%
+                    %%% PercussionMusicVoice [measure 64] %%%
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
@@ -1373,7 +1373,7 @@
                     
                     r2.
                     
-                    %%% Percussion Music Voice [measure 65] %%%
+                    %%% PercussionMusicVoice [measure 65] %%%
                     r4
                     
                     \stopStaff
@@ -1384,7 +1384,7 @@
                     \stopStaff
                     \startStaff
                     
-                    %%% Percussion Music Voice [measure 66] %%%
+                    %%% PercussionMusicVoice [measure 66] %%%
                     \clef "percussion"
                     r4
                     
@@ -1396,7 +1396,7 @@
                     \stopStaff
                     \startStaff
                     
-                    %%% Percussion Music Voice [measure 67] %%%
+                    %%% PercussionMusicVoice [measure 67] %%%
                     \clef "percussion"
                     r4
                     
@@ -1410,7 +1410,7 @@
                     \stopStaff
                     \startStaff
                     
-                    %%% Percussion Music Voice [measure 68] %%%
+                    %%% PercussionMusicVoice [measure 68] %%%
                     \clef "percussion"
                     r4
                     
@@ -1426,7 +1426,7 @@
                     \stopStaff
                     \startStaff
                     
-                    %%% Percussion Music Voice [measure 69] %%%
+                    %%% PercussionMusicVoice [measure 69] %%%
                     \clef "percussion"
                     r4
                     
@@ -1438,7 +1438,7 @@
                     \stopStaff
                     \startStaff
                     
-                    %%% Percussion Music Voice [measure 70] %%%
+                    %%% PercussionMusicVoice [measure 70] %%%
                     \clef "percussion"
                     r4
                     
@@ -1450,7 +1450,7 @@
                     \stopStaff
                     \startStaff
                     
-                    %%% Percussion Music Voice [measure 71] %%%
+                    %%% PercussionMusicVoice [measure 71] %%%
                     \clef "percussion"
                     r4.
                     
@@ -1466,7 +1466,7 @@
                     \stopStaff
                     \startStaff
                     
-                    %%% Percussion Music Voice [measure 72] %%%
+                    %%% PercussionMusicVoice [measure 72] %%%
                     \clef "percussion"
                     r4
                     
@@ -1482,7 +1482,7 @@
                     \stopStaff
                     \startStaff
                     
-                    %%% Percussion Music Voice [measure 73] %%%
+                    %%% PercussionMusicVoice [measure 73] %%%
                     \clef "percussion"
                     r4
                     
@@ -1496,7 +1496,7 @@
                     \stopStaff
                     \startStaff
                     
-                    %%% Percussion Music Voice [measure 74] %%%
+                    %%% PercussionMusicVoice [measure 74] %%%
                     \clef "percussion"
                     r4.
                     
@@ -1513,12 +1513,12 @@
                 }
             }
         >>
-        \context StringSectionStaffGroup = "String Section Staff Group" <<
+        \context StringSectionStaffGroup = "StringSectionStaffGroup" <<
             \tag strings.violin
-            \context ViolinMusicStaff = "Violin Music Staff" {
-                \context ViolinMusicVoice = "Violin Music Voice" {
+            \context ViolinMusicStaff = "ViolinMusicStaff" {
+                \context ViolinMusicVoice = "ViolinMusicVoice" {
                     
-                    %%% Violin Music Voice [measure 45] %%%
+                    %%% ViolinMusicVoice [measure 45] %%%
                     \set ViolinMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -1536,7 +1536,7 @@
                     gf'2 -\accent \startTrillSpan aff'
                     \times 4/5 {
                         
-                        %%% Violin Music Voice [measure 46] %%%
+                        %%% ViolinMusicVoice [measure 46] %%%
                         gf'16 \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -1546,7 +1546,7 @@
                     
                     g'4 \repeatTie
                     
-                    %%% Violin Music Voice [measure 47] %%%
+                    %%% ViolinMusicVoice [measure 47] %%%
                     g'4 \repeatTie
                     \times 4/5 {
                         
@@ -1571,7 +1571,7 @@
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     gf'4 \repeatTie
                     
-                    %%% Violin Music Voice [measure 48] %%%
+                    %%% ViolinMusicVoice [measure 48] %%%
                     gf'4 \repeatTie
                     \times 4/5 {
                         
@@ -1584,7 +1584,7 @@
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     gqf'4 \repeatTie
                     
-                    %%% Violin Music Voice [measure 49] %%%
+                    %%% ViolinMusicVoice [measure 49] %%%
                     gqf'4 \repeatTie
                     \times 4/5 {
                         
@@ -1598,7 +1598,7 @@
                     g'2 \repeatTie
                     \times 4/5 {
                         
-                        %%% Violin Music Voice [measure 50] %%%
+                        %%% ViolinMusicVoice [measure 50] %%%
                         g'16 \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -1609,7 +1609,7 @@
                     gs'2 \repeatTie
                     \times 4/5 {
                         
-                        %%% Violin Music Voice [measure 51] %%%
+                        %%% ViolinMusicVoice [measure 51] %%%
                         gs'8 \repeatTie [
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -1626,7 +1626,7 @@
                         g'8 -\accent ] \stopTrillSpan \startTrillSpan af'
                     }
                     
-                    %%% Violin Music Voice [measure 52] %%%
+                    %%% ViolinMusicVoice [measure 52] %%%
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     g'2 \repeatTie
                     \times 4/5 {
@@ -1641,7 +1641,7 @@
                     gqs'2 \repeatTie
                     \times 4/5 {
                         
-                        %%% Violin Music Voice [measure 53] %%%
+                        %%% ViolinMusicVoice [measure 53] %%%
                         gqs'16 \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -1659,7 +1659,7 @@
                         a'4 -\accent \stopTrillSpan \startTrillSpan bf'
                     }
                     
-                    %%% Violin Music Voice [measure 54] %%%
+                    %%% ViolinMusicVoice [measure 54] %%%
                     a'2 \repeatTie
                     \times 4/5 {
                         
@@ -1670,7 +1670,7 @@
                         aqf'8. -\accent ] \stopTrillSpan \startTrillSpan btqf'
                     }
                     
-                    %%% Violin Music Voice [measure 55] %%%
+                    %%% ViolinMusicVoice [measure 55] %%%
                     aqf'2 \repeatTie
                     \times 4/5 {
                         
@@ -1683,7 +1683,7 @@
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     af'4 \repeatTie
                     
-                    %%% Violin Music Voice [measure 56] %%%
+                    %%% ViolinMusicVoice [measure 56] %%%
                     af'4 \repeatTie
                     \times 4/5 {
                         
@@ -1706,7 +1706,7 @@
                         af'4 -\accent \stopTrillSpan \startTrillSpan bff'
                     }
                     
-                    %%% Violin Music Voice [measure 57] %%%
+                    %%% ViolinMusicVoice [measure 57] %%%
                     af'2 \repeatTie
                     \times 4/5 {
                         
@@ -1716,10 +1716,10 @@
                         g'4 -\accent \stopTrillSpan \startTrillSpan af'
                     }
                     
-                    %%% Violin Music Voice [measure 58] %%%
+                    %%% ViolinMusicVoice [measure 58] %%%
                     r2 \stopTrillSpan
                     
-                    %%% Violin Music Voice [measure 59] %%%
+                    %%% ViolinMusicVoice [measure 59] %%%
                     a'1. -\fff
                         ^ \markup {
                             \whiteout
@@ -1727,63 +1727,63 @@
                                     "arco ordinario"
                             }
                     
-                    %%% Violin Music Voice [measure 60] %%%
+                    %%% ViolinMusicVoice [measure 60] %%%
                     r2
                     
-                    %%% Violin Music Voice [measure 61] %%%
+                    %%% ViolinMusicVoice [measure 61] %%%
                     a'2. -\fff
                     
                     a'2 \repeatTie
                     
-                    %%% Violin Music Voice [measure 62] %%%
+                    %%% ViolinMusicVoice [measure 62] %%%
                     r2.
                     
-                    %%% Violin Music Voice [measure 63] %%%
+                    %%% ViolinMusicVoice [measure 63] %%%
                     a'1 -\fff
                     
-                    %%% Violin Music Voice [measure 64] %%%
+                    %%% ViolinMusicVoice [measure 64] %%%
                     r1.
                     
-                    %%% Violin Music Voice [measure 65] %%%
+                    %%% ViolinMusicVoice [measure 65] %%%
                     r4
                     
                     a'4 -\fff
                     
-                    %%% Violin Music Voice [measure 66] %%%
+                    %%% ViolinMusicVoice [measure 66] %%%
                     a'2 \repeatTie
                     
-                    %%% Violin Music Voice [measure 67] %%%
+                    %%% ViolinMusicVoice [measure 67] %%%
                     a'2. \repeatTie
                     
-                    %%% Violin Music Voice [measure 68] %%%
+                    %%% ViolinMusicVoice [measure 68] %%%
                     a'1 \repeatTie
                     
-                    %%% Violin Music Voice [measure 69] %%%
+                    %%% ViolinMusicVoice [measure 69] %%%
                     a'2 \repeatTie
                     
-                    %%% Violin Music Voice [measure 70] %%%
+                    %%% ViolinMusicVoice [measure 70] %%%
                     a'2 \repeatTie
                     
-                    %%% Violin Music Voice [measure 71] %%%
+                    %%% ViolinMusicVoice [measure 71] %%%
                     a'1. \repeatTie
                     
-                    %%% Violin Music Voice [measure 72] %%%
+                    %%% ViolinMusicVoice [measure 72] %%%
                     a'1 \repeatTie
                     
-                    %%% Violin Music Voice [measure 73] %%%
+                    %%% ViolinMusicVoice [measure 73] %%%
                     a'2. \repeatTie
                     
-                    %%% Violin Music Voice [measure 74] %%%
+                    %%% ViolinMusicVoice [measure 74] %%%
                     a'2. \repeatTie
                     \bar "|"
                     
                 }
             }
             \tag strings.viola
-            \context ViolaMusicStaff = "Viola Music Staff" {
-                \context ViolaMusicVoice = "Viola Music Voice" {
+            \context ViolaMusicStaff = "ViolaMusicStaff" {
+                \context ViolaMusicVoice = "ViolaMusicVoice" {
                     
-                    %%% Viola Music Voice [measure 45] %%%
+                    %%% ViolaMusicVoice [measure 45] %%%
                     \set ViolaMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -1800,7 +1800,7 @@
                     \pitchedTrill
                     f'2 -\accent \startTrillSpan gf'
                     
-                    %%% Viola Music Voice [measure 46] %%%
+                    %%% ViolaMusicVoice [measure 46] %%%
                     f'4 \repeatTie
                     \times 4/5 {
                         
@@ -1811,7 +1811,7 @@
                         fs'4 -\accent \stopTrillSpan \startTrillSpan g'
                     }
                     
-                    %%% Viola Music Voice [measure 47] %%%
+                    %%% ViolaMusicVoice [measure 47] %%%
                     fs'2. \repeatTie
                     \times 4/5 {
                         
@@ -1824,7 +1824,7 @@
                     
                     fqs'2 \repeatTie
                     
-                    %%% Viola Music Voice [measure 48] %%%
+                    %%% ViolaMusicVoice [measure 48] %%%
                     fqs'4 \repeatTie
                     \times 4/5 {
                         
@@ -1837,7 +1837,7 @@
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     f'4 \repeatTie
                     
-                    %%% Viola Music Voice [measure 49] %%%
+                    %%% ViolaMusicVoice [measure 49] %%%
                     f'2 \repeatTie
                     \times 4/5 {
                         
@@ -1850,7 +1850,7 @@
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     gf'4 \repeatTie
                     
-                    %%% Viola Music Voice [measure 50] %%%
+                    %%% ViolaMusicVoice [measure 50] %%%
                     gf'2 \repeatTie
                     \times 4/5 {
                         
@@ -1861,7 +1861,7 @@
                         g'4 -\accent \stopTrillSpan \startTrillSpan af'
                     }
                     
-                    %%% Viola Music Voice [measure 51] %%%
+                    %%% ViolaMusicVoice [measure 51] %%%
                     g'2. \repeatTie
                     \times 4/5 {
                         
@@ -1872,7 +1872,7 @@
                         gqf'4 -\accent \stopTrillSpan \startTrillSpan atqf'
                     }
                     
-                    %%% Viola Music Voice [measure 52] %%%
+                    %%% ViolaMusicVoice [measure 52] %%%
                     gqf'2. \repeatTie
                     \times 4/5 {
                         
@@ -1885,7 +1885,7 @@
                     
                     gf'4 \repeatTie
                     
-                    %%% Viola Music Voice [measure 53] %%%
+                    %%% ViolaMusicVoice [measure 53] %%%
                     gf'2 \repeatTie
                     \times 4/5 {
                         
@@ -1898,7 +1898,7 @@
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     g'4 \repeatTie
                     
-                    %%% Viola Music Voice [measure 54] %%%
+                    %%% ViolaMusicVoice [measure 54] %%%
                     g'2 \repeatTie
                     \times 4/5 {
                         
@@ -1908,7 +1908,7 @@
                         gs'16 -\accent \stopTrillSpan \startTrillSpan a'
                     }
                     
-                    %%% Viola Music Voice [measure 55] %%%
+                    %%% ViolaMusicVoice [measure 55] %%%
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     gs'2. \repeatTie
                     \times 4/5 {
@@ -1920,7 +1920,7 @@
                         gqs'4 -\accent \stopTrillSpan \startTrillSpan aqf'
                     }
                     
-                    %%% Viola Music Voice [measure 56] %%%
+                    %%% ViolaMusicVoice [measure 56] %%%
                     gqs'2. \repeatTie
                     \times 4/5 {
                         
@@ -1933,7 +1933,7 @@
                     
                     g'4 \repeatTie
                     
-                    %%% Viola Music Voice [measure 57] %%%
+                    %%% ViolaMusicVoice [measure 57] %%%
                     g'2 \repeatTie
                     \times 4/5 {
                         
@@ -1943,10 +1943,10 @@
                         gqs'8. -\accent ] \stopTrillSpan \startTrillSpan aqf'
                     }
                     
-                    %%% Viola Music Voice [measure 58] %%%
+                    %%% ViolaMusicVoice [measure 58] %%%
                     r2 \stopTrillSpan
                     
-                    %%% Viola Music Voice [measure 59] %%%
+                    %%% ViolaMusicVoice [measure 59] %%%
                     gs'1. -\fff
                         ^ \markup {
                             \whiteout
@@ -1954,63 +1954,63 @@
                                     "arco ordinario"
                             }
                     
-                    %%% Viola Music Voice [measure 60] %%%
+                    %%% ViolaMusicVoice [measure 60] %%%
                     r2
                     
-                    %%% Viola Music Voice [measure 61] %%%
+                    %%% ViolaMusicVoice [measure 61] %%%
                     gs'2. -\fff
                     
                     gs'2 \repeatTie
                     
-                    %%% Viola Music Voice [measure 62] %%%
+                    %%% ViolaMusicVoice [measure 62] %%%
                     r2.
                     
-                    %%% Viola Music Voice [measure 63] %%%
+                    %%% ViolaMusicVoice [measure 63] %%%
                     gs'1 -\fff
                     
-                    %%% Viola Music Voice [measure 64] %%%
+                    %%% ViolaMusicVoice [measure 64] %%%
                     r1.
                     
-                    %%% Viola Music Voice [measure 65] %%%
+                    %%% ViolaMusicVoice [measure 65] %%%
                     r4
                     
                     gs'4 -\fff
                     
-                    %%% Viola Music Voice [measure 66] %%%
+                    %%% ViolaMusicVoice [measure 66] %%%
                     gs'2 \repeatTie
                     
-                    %%% Viola Music Voice [measure 67] %%%
+                    %%% ViolaMusicVoice [measure 67] %%%
                     gs'2. \repeatTie
                     
-                    %%% Viola Music Voice [measure 68] %%%
+                    %%% ViolaMusicVoice [measure 68] %%%
                     gs'1 \repeatTie
                     
-                    %%% Viola Music Voice [measure 69] %%%
+                    %%% ViolaMusicVoice [measure 69] %%%
                     gs'2 \repeatTie
                     
-                    %%% Viola Music Voice [measure 70] %%%
+                    %%% ViolaMusicVoice [measure 70] %%%
                     gs'2 \repeatTie
                     
-                    %%% Viola Music Voice [measure 71] %%%
+                    %%% ViolaMusicVoice [measure 71] %%%
                     gs'1. \repeatTie
                     
-                    %%% Viola Music Voice [measure 72] %%%
+                    %%% ViolaMusicVoice [measure 72] %%%
                     gs'1 \repeatTie
                     
-                    %%% Viola Music Voice [measure 73] %%%
+                    %%% ViolaMusicVoice [measure 73] %%%
                     gs'2. \repeatTie
                     
-                    %%% Viola Music Voice [measure 74] %%%
+                    %%% ViolaMusicVoice [measure 74] %%%
                     gs'2. \repeatTie
                     \bar "|"
                     
                 }
             }
             \tag strings.cello
-            \context CelloMusicStaff = "Cello Music Staff" {
-                \context CelloMusicVoice = "Cello Music Voice" {
+            \context CelloMusicStaff = "CelloMusicStaff" {
+                \context CelloMusicVoice = "CelloMusicVoice" {
                     
-                    %%% Cello Music Voice [measure 45] %%%
+                    %%% CelloMusicVoice [measure 45] %%%
                     \set CelloMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -2027,11 +2027,11 @@
                     \pitchedTrill
                     f'2 -\accent \startTrillSpan gf'
                     
-                    %%% Cello Music Voice [measure 46] %%%
+                    %%% CelloMusicVoice [measure 46] %%%
                     f'2 \repeatTie
                     \times 4/5 {
                         
-                        %%% Cello Music Voice [measure 47] %%%
+                        %%% CelloMusicVoice [measure 47] %%%
                         f'16 \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -2051,10 +2051,10 @@
                         fqs'8. -\accent ] \stopTrillSpan \startTrillSpan gqf'
                     }
                     
-                    %%% Cello Music Voice [measure 48] %%%
+                    %%% CelloMusicVoice [measure 48] %%%
                     fqs'2. \repeatTie
                     
-                    %%% Cello Music Voice [measure 49] %%%
+                    %%% CelloMusicVoice [measure 49] %%%
                     fqs'4 \repeatTie
                     \times 4/5 {
                         
@@ -2067,7 +2067,7 @@
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     f'2 \repeatTie
                     
-                    %%% Cello Music Voice [measure 50] %%%
+                    %%% CelloMusicVoice [measure 50] %%%
                     f'2 \repeatTie
                     \times 4/5 {
                         
@@ -2077,12 +2077,12 @@
                         fqs'16 -\accent \stopTrillSpan \startTrillSpan gqf'
                     }
                     
-                    %%% Cello Music Voice [measure 51] %%%
+                    %%% CelloMusicVoice [measure 51] %%%
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     fqs'1 \repeatTie
                     \times 4/5 {
                         
-                        %%% Cello Music Voice [measure 52] %%%
+                        %%% CelloMusicVoice [measure 52] %%%
                         fqs'16 \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
@@ -2094,7 +2094,7 @@
                     
                     r2 \stopTrillSpan
                     
-                    %%% Cello Music Voice [measure 53] %%%
+                    %%% CelloMusicVoice [measure 53] %%%
                     fs1 \mf
                         ^ \markup {
                             \whiteout
@@ -2112,24 +2112,24 @@
                                         }
                             }
                     
-                    %%% Cello Music Voice [measure 54] %%%
+                    %%% CelloMusicVoice [measure 54] %%%
                     fs2. \repeatTie
                     
-                    %%% Cello Music Voice [measure 55] %%%
+                    %%% CelloMusicVoice [measure 55] %%%
                     fs1 \repeatTie
                     
-                    %%% Cello Music Voice [measure 56] %%%
+                    %%% CelloMusicVoice [measure 56] %%%
                     fs2. \repeatTie
                     
                     fs2 \repeatTie
                     
-                    %%% Cello Music Voice [measure 57] %%%
+                    %%% CelloMusicVoice [measure 57] %%%
                     fs2. \repeatTie
                     
-                    %%% Cello Music Voice [measure 58] %%%
+                    %%% CelloMusicVoice [measure 58] %%%
                     r2
                     
-                    %%% Cello Music Voice [measure 59] %%%
+                    %%% CelloMusicVoice [measure 59] %%%
                     g1. -\fff
                         ^ \markup {
                             \whiteout
@@ -2137,63 +2137,63 @@
                                     "arco ordinario"
                             }
                     
-                    %%% Cello Music Voice [measure 60] %%%
+                    %%% CelloMusicVoice [measure 60] %%%
                     r2
                     
-                    %%% Cello Music Voice [measure 61] %%%
+                    %%% CelloMusicVoice [measure 61] %%%
                     g2. -\fff
                     
                     g2 \repeatTie
                     
-                    %%% Cello Music Voice [measure 62] %%%
+                    %%% CelloMusicVoice [measure 62] %%%
                     r2.
                     
-                    %%% Cello Music Voice [measure 63] %%%
+                    %%% CelloMusicVoice [measure 63] %%%
                     g1 -\fff
                     
-                    %%% Cello Music Voice [measure 64] %%%
+                    %%% CelloMusicVoice [measure 64] %%%
                     r1.
                     
-                    %%% Cello Music Voice [measure 65] %%%
+                    %%% CelloMusicVoice [measure 65] %%%
                     r4
                     
                     g4 -\fff
                     
-                    %%% Cello Music Voice [measure 66] %%%
+                    %%% CelloMusicVoice [measure 66] %%%
                     g2 \repeatTie
                     
-                    %%% Cello Music Voice [measure 67] %%%
+                    %%% CelloMusicVoice [measure 67] %%%
                     g2. \repeatTie
                     
-                    %%% Cello Music Voice [measure 68] %%%
+                    %%% CelloMusicVoice [measure 68] %%%
                     g1 \repeatTie
                     
-                    %%% Cello Music Voice [measure 69] %%%
+                    %%% CelloMusicVoice [measure 69] %%%
                     g2 \repeatTie
                     
-                    %%% Cello Music Voice [measure 70] %%%
+                    %%% CelloMusicVoice [measure 70] %%%
                     g2 \repeatTie
                     
-                    %%% Cello Music Voice [measure 71] %%%
+                    %%% CelloMusicVoice [measure 71] %%%
                     g1. \repeatTie
                     
-                    %%% Cello Music Voice [measure 72] %%%
+                    %%% CelloMusicVoice [measure 72] %%%
                     g1 \repeatTie
                     
-                    %%% Cello Music Voice [measure 73] %%%
+                    %%% CelloMusicVoice [measure 73] %%%
                     g2. \repeatTie
                     
-                    %%% Cello Music Voice [measure 74] %%%
+                    %%% CelloMusicVoice [measure 74] %%%
                     g2. \repeatTie
                     \bar "|"
                     
                 }
             }
             \tag strings.contrabass
-            \context ContrabassMusicStaff = "Contrabass Music Staff" {
-                \context ContrabassMusicVoice = "Contrabass Music Voice" {
+            \context ContrabassMusicStaff = "ContrabassMusicStaff" {
+                \context ContrabassMusicVoice = "ContrabassMusicVoice" {
                     
-                    %%% Contrabass Music Voice [measure 45] %%%
+                    %%% ContrabassMusicVoice [measure 45] %%%
                     \set ContrabassMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -2209,123 +2209,123 @@
                     \once \override ContrabassMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     <g, a>2
                     
-                    %%% Contrabass Music Voice [measure 46] %%%
+                    %%% ContrabassMusicVoice [measure 46] %%%
                     <g, a>2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         
-                        %%% Contrabass Music Voice [measure 47] %%%
+                        %%% ContrabassMusicVoice [measure 47] %%%
                         <g, a>1. \repeatTie \glissando
                         
                         <af, bf>4
                     }
                     \times 4/5 {
                         
-                        %%% Contrabass Music Voice [measure 48] %%%
+                        %%% ContrabassMusicVoice [measure 48] %%%
                         <af, bf>2. \repeatTie \glissando
                         
                         <gqs, aqs>8.
                     }
                     
-                    %%% Contrabass Music Voice [measure 49] %%%
+                    %%% ContrabassMusicVoice [measure 49] %%%
                     <gqs, aqs>1 \repeatTie
                     \times 4/5 {
                         
-                        %%% Contrabass Music Voice [measure 50] %%%
+                        %%% ContrabassMusicVoice [measure 50] %%%
                         <gqs, aqs>2. \repeatTie \glissando
                         
                         <a, b>8.
                     }
                     
-                    %%% Contrabass Music Voice [measure 51] %%%
+                    %%% ContrabassMusicVoice [measure 51] %%%
                     <a, b>1 \repeatTie
                     
-                    %%% Contrabass Music Voice [measure 52] %%%
+                    %%% ContrabassMusicVoice [measure 52] %%%
                     <a, b>2. \repeatTie
                     
                     <a, b>2 \repeatTie
                     
-                    %%% Contrabass Music Voice [measure 53] %%%
+                    %%% ContrabassMusicVoice [measure 53] %%%
                     <a, b>1 \repeatTie
                     
-                    %%% Contrabass Music Voice [measure 54] %%%
+                    %%% ContrabassMusicVoice [measure 54] %%%
                     <a, b>2 \repeatTie \glissando
                     
                     <bqf, cqs'>4
                     \times 2/3 {
                         
-                        %%% Contrabass Music Voice [measure 55] %%%
+                        %%% ContrabassMusicVoice [measure 55] %%%
                         <bqf, cqs'>1 \repeatTie \glissando
                         
                         <af, bf>2
                     }
                     
-                    %%% Contrabass Music Voice [measure 56] %%%
+                    %%% ContrabassMusicVoice [measure 56] %%%
                     <af, bf>2. \repeatTie
                     
                     <af, bf>2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         
-                        %%% Contrabass Music Voice [measure 57] %%%
+                        %%% ContrabassMusicVoice [measure 57] %%%
                         <af, bf>2. \repeatTie \glissando
                         
                         <gqs, aqs>8
                     }
                     
-                    %%% Contrabass Music Voice [measure 58] %%%
+                    %%% ContrabassMusicVoice [measure 58] %%%
                     r2
                     
-                    %%% Contrabass Music Voice [measure 59] %%%
+                    %%% ContrabassMusicVoice [measure 59] %%%
                     <g,, a,>1. -\fff
                     
-                    %%% Contrabass Music Voice [measure 60] %%%
+                    %%% ContrabassMusicVoice [measure 60] %%%
                     r2
                     
-                    %%% Contrabass Music Voice [measure 61] %%%
+                    %%% ContrabassMusicVoice [measure 61] %%%
                     <g,, a,>2. -\fff
                     
                     <g,, a,>2 \repeatTie
                     
-                    %%% Contrabass Music Voice [measure 62] %%%
+                    %%% ContrabassMusicVoice [measure 62] %%%
                     r2.
                     
-                    %%% Contrabass Music Voice [measure 63] %%%
+                    %%% ContrabassMusicVoice [measure 63] %%%
                     <g,, a,>1 -\fff
                     
-                    %%% Contrabass Music Voice [measure 64] %%%
+                    %%% ContrabassMusicVoice [measure 64] %%%
                     r1.
                     
-                    %%% Contrabass Music Voice [measure 65] %%%
+                    %%% ContrabassMusicVoice [measure 65] %%%
                     r4
                     
                     <g,, a,>4 -\fff
                     
-                    %%% Contrabass Music Voice [measure 66] %%%
+                    %%% ContrabassMusicVoice [measure 66] %%%
                     <g,, a,>2 \repeatTie
                     
-                    %%% Contrabass Music Voice [measure 67] %%%
+                    %%% ContrabassMusicVoice [measure 67] %%%
                     <g,, a,>2. \repeatTie
                     
-                    %%% Contrabass Music Voice [measure 68] %%%
+                    %%% ContrabassMusicVoice [measure 68] %%%
                     <g,, a,>1 \repeatTie
                     
-                    %%% Contrabass Music Voice [measure 69] %%%
+                    %%% ContrabassMusicVoice [measure 69] %%%
                     <g,, a,>2 \repeatTie
                     
-                    %%% Contrabass Music Voice [measure 70] %%%
+                    %%% ContrabassMusicVoice [measure 70] %%%
                     <g,, a,>2 \repeatTie
                     
-                    %%% Contrabass Music Voice [measure 71] %%%
+                    %%% ContrabassMusicVoice [measure 71] %%%
                     <g,, a,>1. \repeatTie
                     
-                    %%% Contrabass Music Voice [measure 72] %%%
+                    %%% ContrabassMusicVoice [measure 72] %%%
                     <g,, a,>1 \repeatTie
                     
-                    %%% Contrabass Music Voice [measure 73] %%%
+                    %%% ContrabassMusicVoice [measure 73] %%%
                     <g,, a,>2. \repeatTie
                     
-                    %%% Contrabass Music Voice [measure 74] %%%
+                    %%% ContrabassMusicVoice [measure 74] %%%
                     <g,, a,>2. \repeatTie
                     \bar "|"
                     

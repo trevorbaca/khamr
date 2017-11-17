@@ -149,12 +149,12 @@
                 
             }
         >>
-        \context WindSectionStaffGroup = "Wind Section Staff Group" <<
+        \context WindSectionStaffGroup = "WindSectionStaffGroup" <<
             \tag winds.flute
-            \context FluteMusicStaff = "Flute Music Staff" {
-                \context FluteMusicVoice = "Flute Music Voice" {
+            \context FluteMusicStaff = "FluteMusicStaff" {
+                \context FluteMusicVoice = "FluteMusicVoice" {
                     
-                    %%% Flute Music Voice [measure 112] %%%
+                    %%% FluteMusicVoice [measure 112] %%%
                     \set FluteMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -170,10 +170,10 @@
                     \once \override FluteMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     bf'2
                     
-                    %%% Flute Music Voice [measure 113] %%%
+                    %%% FluteMusicVoice [measure 113] %%%
                     bf'2 \repeatTie
                     
-                    %%% Flute Music Voice [measure 114] %%%
+                    %%% FluteMusicVoice [measure 114] %%%
                     bf'2. \repeatTie
                     
                     bf'2 \repeatTie
@@ -182,14 +182,14 @@
                     
                     r16
                     
-                    %%% Flute Music Voice [measure 115] %%%
+                    %%% FluteMusicVoice [measure 115] %%%
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     bf'2.
                     
-                    %%% Flute Music Voice [measure 116] %%%
+                    %%% FluteMusicVoice [measure 116] %%%
                     bf'1 \repeatTie
                     
-                    %%% Flute Music Voice [measure 117] %%%
+                    %%% FluteMusicVoice [measure 117] %%%
                     bf'4 \repeatTie
                     
                     bf'16 \repeatTie
@@ -199,10 +199,10 @@
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     bf'4.
                     
-                    %%% Flute Music Voice [measure 118] %%%
+                    %%% FluteMusicVoice [measure 118] %%%
                     bf'1 \repeatTie
                     
-                    %%% Flute Music Voice [measure 119] %%%
+                    %%% FluteMusicVoice [measure 119] %%%
                     bf'2 \repeatTie
                     
                     bf'8. \repeatTie
@@ -212,10 +212,10 @@
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     bf'2
                     
-                    %%% Flute Music Voice [measure 120] %%%
+                    %%% FluteMusicVoice [measure 120] %%%
                     bf'1 \repeatTie
                     
-                    %%% Flute Music Voice [measure 121] %%%
+                    %%% FluteMusicVoice [measure 121] %%%
                     bf'4.. \repeatTie
                     
                     r16
@@ -223,10 +223,10 @@
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     bf'4
                     
-                    %%% Flute Music Voice [measure 122] %%%
+                    %%% FluteMusicVoice [measure 122] %%%
                     bf'1 \repeatTie
                     
-                    %%% Flute Music Voice [measure 123] %%%
+                    %%% FluteMusicVoice [measure 123] %%%
                     bf'2 \repeatTie
                     
                     bf'8. \repeatTie
@@ -236,13 +236,13 @@
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     bf'2
                     
-                    %%% Flute Music Voice [measure 124] %%%
+                    %%% FluteMusicVoice [measure 124] %%%
                     bf'2. \repeatTie
                     
-                    %%% Flute Music Voice [measure 125] %%%
+                    %%% FluteMusicVoice [measure 125] %%%
                     bf'2 \repeatTie
                     
-                    %%% Flute Music Voice [measure 126] %%%
+                    %%% FluteMusicVoice [measure 126] %%%
                     bf'2 \repeatTie
                     
                     bf'8. \repeatTie
@@ -256,17 +256,17 @@
                     
                     r16
                     
-                    %%% Flute Music Voice [measure 127] %%%
+                    %%% FluteMusicVoice [measure 127] %%%
                     R1 * 5
                     \bar "|."
                     
                 }
             }
             \tag winds.oboe
-            \context OboeMusicStaff = "Oboe Music Staff" {
-                \context OboeMusicVoice = "Oboe Music Voice" {
+            \context OboeMusicStaff = "OboeMusicStaff" {
+                \context OboeMusicVoice = "OboeMusicVoice" {
                     
-                    %%% Oboe Music Voice [measure 112] %%%
+                    %%% OboeMusicVoice [measure 112] %%%
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
@@ -286,13 +286,13 @@
                     \once \override OboeMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     c'2
                     
-                    %%% Oboe Music Voice [measure 113] %%%
+                    %%% OboeMusicVoice [measure 113] %%%
                     c'2 \repeatTie
                     
-                    %%% Oboe Music Voice [measure 114] %%%
+                    %%% OboeMusicVoice [measure 114] %%%
                     c'1. \repeatTie
                     
-                    %%% Oboe Music Voice [measure 115] %%%
+                    %%% OboeMusicVoice [measure 115] %%%
                     c'4.. \repeatTie
                     
                     r16
@@ -300,13 +300,13 @@
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     c'4
                     
-                    %%% Oboe Music Voice [measure 116] %%%
+                    %%% OboeMusicVoice [measure 116] %%%
                     c'1 \repeatTie
                     
-                    %%% Oboe Music Voice [measure 117] %%%
+                    %%% OboeMusicVoice [measure 117] %%%
                     c'2. \repeatTie
                     
-                    %%% Oboe Music Voice [measure 118] %%%
+                    %%% OboeMusicVoice [measure 118] %%%
                     c'2 \repeatTie
                     
                     c'8. \repeatTie
@@ -316,24 +316,24 @@
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     c'4
                     
-                    %%% Oboe Music Voice [measure 119] %%%
+                    %%% OboeMusicVoice [measure 119] %%%
                     c'2. \repeatTie
                     
                     c'2 \repeatTie
                     
-                    %%% Oboe Music Voice [measure 120] %%%
+                    %%% OboeMusicVoice [measure 120] %%%
                     c'2... \repeatTie
                     
                     r16
                     
-                    %%% Oboe Music Voice [measure 121] %%%
+                    %%% OboeMusicVoice [measure 121] %%%
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     c'2.
                     
-                    %%% Oboe Music Voice [measure 122] %%%
+                    %%% OboeMusicVoice [measure 122] %%%
                     c'1 \repeatTie
                     
-                    %%% Oboe Music Voice [measure 123] %%%
+                    %%% OboeMusicVoice [measure 123] %%%
                     c'2 \repeatTie
                     
                     c'8. \repeatTie
@@ -343,13 +343,13 @@
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     c'2
                     
-                    %%% Oboe Music Voice [measure 124] %%%
+                    %%% OboeMusicVoice [measure 124] %%%
                     c'2. \repeatTie
                     
-                    %%% Oboe Music Voice [measure 125] %%%
+                    %%% OboeMusicVoice [measure 125] %%%
                     c'2 \repeatTie
                     
-                    %%% Oboe Music Voice [measure 126] %%%
+                    %%% OboeMusicVoice [measure 126] %%%
                     c'2. \repeatTie
                     
                     c'2 \repeatTie
@@ -359,17 +359,17 @@
                     
                     r16
                     
-                    %%% Oboe Music Voice [measure 127] %%%
+                    %%% OboeMusicVoice [measure 127] %%%
                     R1 * 5
                     \bar "|."
                     
                 }
             }
             \tag winds.clarinet
-            \context ClarinetMusicStaff = "Clarinet Music Staff" {
-                \context ClarinetMusicVoice = "Clarinet Music Voice" {
+            \context ClarinetMusicStaff = "ClarinetMusicStaff" {
+                \context ClarinetMusicVoice = "ClarinetMusicVoice" {
                     
-                    %%% Clarinet Music Voice [measure 112] %%%
+                    %%% ClarinetMusicVoice [measure 112] %%%
                     \set ClarinetMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -393,63 +393,63 @@
                     \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     a2
                     
-                    %%% Clarinet Music Voice [measure 113] %%%
+                    %%% ClarinetMusicVoice [measure 113] %%%
                     a2 \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 114] %%%
+                    %%% ClarinetMusicVoice [measure 114] %%%
                     a1. \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 115] %%%
+                    %%% ClarinetMusicVoice [measure 115] %%%
                     a2. \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 116] %%%
+                    %%% ClarinetMusicVoice [measure 116] %%%
                     a1 \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 117] %%%
+                    %%% ClarinetMusicVoice [measure 117] %%%
                     a2. \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 118] %%%
+                    %%% ClarinetMusicVoice [measure 118] %%%
                     a1 \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 119] %%%
+                    %%% ClarinetMusicVoice [measure 119] %%%
                     a2. \repeatTie
                     
                     a2 \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 120] %%%
+                    %%% ClarinetMusicVoice [measure 120] %%%
                     a1 \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 121] %%%
+                    %%% ClarinetMusicVoice [measure 121] %%%
                     a2. \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 122] %%%
+                    %%% ClarinetMusicVoice [measure 122] %%%
                     a1 \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 123] %%%
+                    %%% ClarinetMusicVoice [measure 123] %%%
                     a2. \repeatTie
                     
                     a2 \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 124] %%%
+                    %%% ClarinetMusicVoice [measure 124] %%%
                     a2. \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 125] %%%
+                    %%% ClarinetMusicVoice [measure 125] %%%
                     a2 \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 126] %%%
+                    %%% ClarinetMusicVoice [measure 126] %%%
                     a1. \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 127] %%%
+                    %%% ClarinetMusicVoice [measure 127] %%%
                     R1 * 5
                     \bar "|."
                     
                 }
             }
             \tag winds.saxophone
-            \context SaxophoneMusicStaff = "Saxophone Music Staff" {
-                \context SaxophoneMusicVoice = "Saxophone Music Voice" {
+            \context SaxophoneMusicStaff = "SaxophoneMusicStaff" {
+                \context SaxophoneMusicVoice = "SaxophoneMusicVoice" {
                     
-                    %%% Saxophone Music Voice [measure 112] %%%
+                    %%% SaxophoneMusicVoice [measure 112] %%%
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
@@ -477,16 +477,16 @@
                     \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     a2
                     
-                    %%% Saxophone Music Voice [measure 113] %%%
+                    %%% SaxophoneMusicVoice [measure 113] %%%
                     a2 \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 114] %%%
+                    %%% SaxophoneMusicVoice [measure 114] %%%
                     a1. \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 115] %%%
+                    %%% SaxophoneMusicVoice [measure 115] %%%
                     a2. \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 116] %%%
+                    %%% SaxophoneMusicVoice [measure 116] %%%
                     a8. \repeatTie
                     
                     r16
@@ -494,13 +494,13 @@
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     a2.
                     
-                    %%% Saxophone Music Voice [measure 117] %%%
+                    %%% SaxophoneMusicVoice [measure 117] %%%
                     a2. \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 118] %%%
+                    %%% SaxophoneMusicVoice [measure 118] %%%
                     a1 \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 119] %%%
+                    %%% SaxophoneMusicVoice [measure 119] %%%
                     a2 \repeatTie
                     
                     a8. \repeatTie
@@ -510,13 +510,13 @@
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     a2
                     
-                    %%% Saxophone Music Voice [measure 120] %%%
+                    %%% SaxophoneMusicVoice [measure 120] %%%
                     a1 \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 121] %%%
+                    %%% SaxophoneMusicVoice [measure 121] %%%
                     a2. \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 122] %%%
+                    %%% SaxophoneMusicVoice [measure 122] %%%
                     a2 \repeatTie
                     
                     a8. \repeatTie
@@ -526,18 +526,18 @@
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     a4
                     
-                    %%% Saxophone Music Voice [measure 123] %%%
+                    %%% SaxophoneMusicVoice [measure 123] %%%
                     a2. \repeatTie
                     
                     a2 \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 124] %%%
+                    %%% SaxophoneMusicVoice [measure 124] %%%
                     a2. \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 125] %%%
+                    %%% SaxophoneMusicVoice [measure 125] %%%
                     a2 \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 126] %%%
+                    %%% SaxophoneMusicVoice [measure 126] %%%
                     a2 \repeatTie
                     
                     a8. \repeatTie
@@ -552,19 +552,19 @@
                     
                     r16
                     
-                    %%% Saxophone Music Voice [measure 127] %%%
+                    %%% SaxophoneMusicVoice [measure 127] %%%
                     R1 * 5
                     \bar "|."
                     
                 }
             }
         >>
-        \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
+        \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup" <<
             \tag guitar
-            \context GuitarMusicStaff = "Guitar Music Staff" {
-                \context GuitarMusicVoice = "Guitar Music Voice" {
+            \context GuitarMusicStaff = "GuitarMusicStaff" {
+                \context GuitarMusicVoice = "GuitarMusicVoice" {
                     
-                    %%% Guitar Music Voice [measure 112] %%%
+                    %%% GuitarMusicVoice [measure 112] %%%
                     \set GuitarMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -580,22 +580,22 @@
                     \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     r2
                     
-                    %%% Guitar Music Voice [measure 113] %%%
+                    %%% GuitarMusicVoice [measure 113] %%%
                     r2
                     
-                    %%% Guitar Music Voice [measure 114] %%%
+                    %%% GuitarMusicVoice [measure 114] %%%
                     r1.
                     
-                    %%% Guitar Music Voice [measure 115] %%%
+                    %%% GuitarMusicVoice [measure 115] %%%
                     r2.
                     
-                    %%% Guitar Music Voice [measure 116] %%%
+                    %%% GuitarMusicVoice [measure 116] %%%
                     r1
                     
-                    %%% Guitar Music Voice [measure 117] %%%
+                    %%% GuitarMusicVoice [measure 117] %%%
                     r2.
                     
-                    %%% Guitar Music Voice [measure 118] %%%
+                    %%% GuitarMusicVoice [measure 118] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -605,7 +605,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Guitar Music Voice [measure 119] %%%
+                    %%% GuitarMusicVoice [measure 119] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -624,33 +624,33 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Guitar Music Voice [measure 120] %%%
+                    %%% GuitarMusicVoice [measure 120] %%%
                     r1
                     
-                    %%% Guitar Music Voice [measure 121] %%%
+                    %%% GuitarMusicVoice [measure 121] %%%
                     r2.
                     
-                    %%% Guitar Music Voice [measure 122] %%%
+                    %%% GuitarMusicVoice [measure 122] %%%
                     r1
                     
-                    %%% Guitar Music Voice [measure 123] %%%
+                    %%% GuitarMusicVoice [measure 123] %%%
                     r2.
                     
                     r2
                     
-                    %%% Guitar Music Voice [measure 124] %%%
+                    %%% GuitarMusicVoice [measure 124] %%%
                     r2.
                     
-                    %%% Guitar Music Voice [measure 125] %%%
+                    %%% GuitarMusicVoice [measure 125] %%%
                     r2
                     
-                    %%% Guitar Music Voice [measure 126] %%%
+                    %%% GuitarMusicVoice [measure 126] %%%
                     r1.
                     
-                    %%% Guitar Music Voice [measure 127] %%%
+                    %%% GuitarMusicVoice [measure 127] %%%
                     r2
                     
-                    %%% Guitar Music Voice [measure 128] %%%
+                    %%% GuitarMusicVoice [measure 128] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -669,7 +669,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Guitar Music Voice [measure 129] %%%
+                    %%% GuitarMusicVoice [measure 129] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -679,7 +679,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Guitar Music Voice [measure 130] %%%
+                    %%% GuitarMusicVoice [measure 130] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -689,7 +689,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Guitar Music Voice [measure 131] %%%
+                    %%% GuitarMusicVoice [measure 131] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -705,10 +705,10 @@
                 }
             }
             \tag piano
-            \context PianoMusicStaff = "Piano Music Staff" {
-                \context PianoMusicVoice = "Piano Music Voice" {
+            \context PianoMusicStaff = "PianoMusicStaff" {
+                \context PianoMusicVoice = "PianoMusicVoice" {
                     
-                    %%% Piano Music Voice [measure 112] %%%
+                    %%% PianoMusicVoice [measure 112] %%%
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
@@ -728,22 +728,22 @@
                     \once \override PianoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     r2
                     
-                    %%% Piano Music Voice [measure 113] %%%
+                    %%% PianoMusicVoice [measure 113] %%%
                     r2
                     
-                    %%% Piano Music Voice [measure 114] %%%
+                    %%% PianoMusicVoice [measure 114] %%%
                     r1.
                     
-                    %%% Piano Music Voice [measure 115] %%%
+                    %%% PianoMusicVoice [measure 115] %%%
                     r2.
                     
-                    %%% Piano Music Voice [measure 116] %%%
+                    %%% PianoMusicVoice [measure 116] %%%
                     r1
                     
-                    %%% Piano Music Voice [measure 117] %%%
+                    %%% PianoMusicVoice [measure 117] %%%
                     r2.
                     
-                    %%% Piano Music Voice [measure 118] %%%
+                    %%% PianoMusicVoice [measure 118] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -753,7 +753,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Piano Music Voice [measure 119] %%%
+                    %%% PianoMusicVoice [measure 119] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -772,33 +772,33 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Piano Music Voice [measure 120] %%%
+                    %%% PianoMusicVoice [measure 120] %%%
                     r1
                     
-                    %%% Piano Music Voice [measure 121] %%%
+                    %%% PianoMusicVoice [measure 121] %%%
                     r2.
                     
-                    %%% Piano Music Voice [measure 122] %%%
+                    %%% PianoMusicVoice [measure 122] %%%
                     r1
                     
-                    %%% Piano Music Voice [measure 123] %%%
+                    %%% PianoMusicVoice [measure 123] %%%
                     r2.
                     
                     r2
                     
-                    %%% Piano Music Voice [measure 124] %%%
+                    %%% PianoMusicVoice [measure 124] %%%
                     r2.
                     
-                    %%% Piano Music Voice [measure 125] %%%
+                    %%% PianoMusicVoice [measure 125] %%%
                     r2
                     
-                    %%% Piano Music Voice [measure 126] %%%
+                    %%% PianoMusicVoice [measure 126] %%%
                     r1.
                     
-                    %%% Piano Music Voice [measure 127] %%%
+                    %%% PianoMusicVoice [measure 127] %%%
                     r2
                     
-                    %%% Piano Music Voice [measure 128] %%%
+                    %%% PianoMusicVoice [measure 128] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -817,7 +817,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Piano Music Voice [measure 129] %%%
+                    %%% PianoMusicVoice [measure 129] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -827,7 +827,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Piano Music Voice [measure 130] %%%
+                    %%% PianoMusicVoice [measure 130] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -837,7 +837,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Piano Music Voice [measure 131] %%%
+                    %%% PianoMusicVoice [measure 131] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -853,10 +853,10 @@
                 }
             }
             \tag percussion
-            \context PercussionMusicStaff = "Percussion Staff" {
-                \context PercussionMusicVoice = "Percussion Music Voice" {
+            \context PercussionMusicStaff = "PercussionStaff" {
+                \context PercussionMusicVoice = "PercussionMusicVoice" {
                     
-                    %%% Percussion Music Voice [measure 112] %%%
+                    %%% PercussionMusicVoice [measure 112] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -877,7 +877,7 @@
                     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     c'2 :32 \> \pp
                     
-                    %%% Percussion Music Voice [measure 113] %%%
+                    %%% PercussionMusicVoice [measure 113] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -885,7 +885,7 @@
                     \once \override Stem.color = #blue
                     c'2 :32 \repeatTie
                     
-                    %%% Percussion Music Voice [measure 114] %%%
+                    %%% PercussionMusicVoice [measure 114] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -893,7 +893,7 @@
                     \once \override Stem.color = #blue
                     c'1. :32 \repeatTie
                     
-                    %%% Percussion Music Voice [measure 115] %%%
+                    %%% PercussionMusicVoice [measure 115] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -901,13 +901,13 @@
                     \once \override Stem.color = #blue
                     c'2. :32 \repeatTie \ppp
                     
-                    %%% Percussion Music Voice [measure 116] %%%
+                    %%% PercussionMusicVoice [measure 116] %%%
                     r1
                     
-                    %%% Percussion Music Voice [measure 117] %%%
+                    %%% PercussionMusicVoice [measure 117] %%%
                     R1 * 7/4
                     
-                    %%% Percussion Music Voice [measure 119] %%%
+                    %%% PercussionMusicVoice [measure 119] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -925,7 +925,7 @@
                     
                     c'2 :32 \repeatTie
                     
-                    %%% Percussion Music Voice [measure 120] %%%
+                    %%% PercussionMusicVoice [measure 120] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -933,7 +933,7 @@
                     \once \override Stem.color = #blue
                     c'1 :32 \repeatTie
                     
-                    %%% Percussion Music Voice [measure 121] %%%
+                    %%% PercussionMusicVoice [measure 121] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -941,7 +941,7 @@
                     \once \override Stem.color = #blue
                     c'2. :32 \repeatTie
                     
-                    %%% Percussion Music Voice [measure 122] %%%
+                    %%% PercussionMusicVoice [measure 122] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -949,7 +949,7 @@
                     \once \override Stem.color = #blue
                     c'1 :32 \repeatTie
                     
-                    %%% Percussion Music Voice [measure 123] %%%
+                    %%% PercussionMusicVoice [measure 123] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -959,7 +959,7 @@
                     
                     c'2 :32 \repeatTie
                     
-                    %%% Percussion Music Voice [measure 124] %%%
+                    %%% PercussionMusicVoice [measure 124] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -967,7 +967,7 @@
                     \once \override Stem.color = #blue
                     c'2. :32 \repeatTie
                     
-                    %%% Percussion Music Voice [measure 125] %%%
+                    %%% PercussionMusicVoice [measure 125] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -975,7 +975,7 @@
                     \once \override Stem.color = #blue
                     c'2 :32 \repeatTie
                     
-                    %%% Percussion Music Voice [measure 126] %%%
+                    %%% PercussionMusicVoice [measure 126] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -983,19 +983,19 @@
                     \once \override Stem.color = #blue
                     c'1. :32 \repeatTie
                     
-                    %%% Percussion Music Voice [measure 127] %%%
+                    %%% PercussionMusicVoice [measure 127] %%%
                     R1 * 5
                     \bar "|."
                     
                 }
             }
         >>
-        \context StringSectionStaffGroup = "String Section Staff Group" <<
+        \context StringSectionStaffGroup = "StringSectionStaffGroup" <<
             \tag strings.violin
-            \context ViolinMusicStaff = "Violin Music Staff" {
-                \context ViolinMusicVoice = "Violin Music Voice" {
+            \context ViolinMusicStaff = "ViolinMusicStaff" {
+                \context ViolinMusicVoice = "ViolinMusicVoice" {
                     
-                    %%% Violin Music Voice [measure 112] %%%
+                    %%% ViolinMusicVoice [measure 112] %%%
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
@@ -1018,73 +1018,73 @@
                                     "bow on wooden mute"
                             }
                     
-                    %%% Violin Music Voice [measure 113] %%%
+                    %%% ViolinMusicVoice [measure 113] %%%
                     c'2 \repeatTie
                     
-                    %%% Violin Music Voice [measure 114] %%%
+                    %%% ViolinMusicVoice [measure 114] %%%
                     c'2. \repeatTie
                     
                     c'2. -\upbow
                     
-                    %%% Violin Music Voice [measure 115] %%%
+                    %%% ViolinMusicVoice [measure 115] %%%
                     c'2. \repeatTie
                     
-                    %%% Violin Music Voice [measure 116] %%%
+                    %%% ViolinMusicVoice [measure 116] %%%
                     c'4 \repeatTie
                     
                     c'2. -\downbow
                     
-                    %%% Violin Music Voice [measure 117] %%%
+                    %%% ViolinMusicVoice [measure 117] %%%
                     c'2. \repeatTie
                     
-                    %%% Violin Music Voice [measure 118] %%%
+                    %%% ViolinMusicVoice [measure 118] %%%
                     c'4 \repeatTie
                     
                     c'2. -\upbow
                     
-                    %%% Violin Music Voice [measure 119] %%%
+                    %%% ViolinMusicVoice [measure 119] %%%
                     c'1 \repeatTie \> \p
                     
                     c'4 -\downbow
                     
-                    %%% Violin Music Voice [measure 120] %%%
+                    %%% ViolinMusicVoice [measure 120] %%%
                     c'1 \repeatTie
                     
-                    %%% Violin Music Voice [measure 121] %%%
+                    %%% ViolinMusicVoice [measure 121] %%%
                     c'2 \repeatTie
                     
                     c'4 -\upbow
                     
-                    %%% Violin Music Voice [measure 122] %%%
+                    %%% ViolinMusicVoice [measure 122] %%%
                     c'1 \repeatTie
                     
-                    %%% Violin Music Voice [measure 123] %%%
+                    %%% ViolinMusicVoice [measure 123] %%%
                     c'2 \repeatTie
                     
                     c'2. -\downbow
                     
-                    %%% Violin Music Voice [measure 124] %%%
+                    %%% ViolinMusicVoice [measure 124] %%%
                     c'2. \repeatTie
                     
-                    %%% Violin Music Voice [measure 125] %%%
+                    %%% ViolinMusicVoice [measure 125] %%%
                     c'4 \repeatTie
                     
                     c'4 -\upbow
                     
-                    %%% Violin Music Voice [measure 126] %%%
+                    %%% ViolinMusicVoice [measure 126] %%%
                     c'1. \repeatTie \ppp
                     
-                    %%% Violin Music Voice [measure 127] %%%
+                    %%% ViolinMusicVoice [measure 127] %%%
                     R1 * 5
                     \bar "|."
                     
                 }
             }
             \tag strings.viola
-            \context ViolaMusicStaff = "Viola Music Staff" {
-                \context ViolaMusicVoice = "Viola Music Voice" {
+            \context ViolaMusicStaff = "ViolaMusicStaff" {
+                \context ViolaMusicVoice = "ViolaMusicVoice" {
                     
-                    %%% Viola Music Voice [measure 112] %%%
+                    %%% ViolaMusicVoice [measure 112] %%%
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
@@ -1107,73 +1107,73 @@
                                     "bow on wooden mute"
                             }
                     
-                    %%% Viola Music Voice [measure 113] %%%
+                    %%% ViolaMusicVoice [measure 113] %%%
                     c'2 \repeatTie
                     
-                    %%% Viola Music Voice [measure 114] %%%
+                    %%% ViolaMusicVoice [measure 114] %%%
                     c'2 \repeatTie
                     
                     c'1 -\upbow
                     
-                    %%% Viola Music Voice [measure 115] %%%
+                    %%% ViolaMusicVoice [measure 115] %%%
                     c'2 \repeatTie
                     
                     c'4 -\downbow
                     
-                    %%% Viola Music Voice [measure 116] %%%
+                    %%% ViolaMusicVoice [measure 116] %%%
                     c'1 \repeatTie
                     
-                    %%% Viola Music Voice [measure 117] %%%
+                    %%% ViolaMusicVoice [measure 117] %%%
                     c'4 \repeatTie
                     
                     c'2 -\upbow
                     
-                    %%% Viola Music Voice [measure 118] %%%
+                    %%% ViolaMusicVoice [measure 118] %%%
                     c'1 \repeatTie
                     
-                    %%% Viola Music Voice [measure 119] %%%
+                    %%% ViolaMusicVoice [measure 119] %%%
                     c'2. -\downbow \> \p
                     
                     c'2 \repeatTie
                     
-                    %%% Viola Music Voice [measure 120] %%%
+                    %%% ViolaMusicVoice [measure 120] %%%
                     c'4 \repeatTie
                     
                     c'2. -\upbow
                     
-                    %%% Viola Music Voice [measure 121] %%%
+                    %%% ViolaMusicVoice [measure 121] %%%
                     c'2. \repeatTie
                     
-                    %%% Viola Music Voice [measure 122] %%%
+                    %%% ViolaMusicVoice [measure 122] %%%
                     c'1 -\downbow
                     
-                    %%% Viola Music Voice [measure 123] %%%
+                    %%% ViolaMusicVoice [measure 123] %%%
                     c'2 \repeatTie
                     
                     c'2. -\upbow
                     
-                    %%% Viola Music Voice [measure 124] %%%
+                    %%% ViolaMusicVoice [measure 124] %%%
                     c'2. \repeatTie
                     
-                    %%% Viola Music Voice [measure 125] %%%
+                    %%% ViolaMusicVoice [measure 125] %%%
                     c'2 -\downbow
                     
-                    %%% Viola Music Voice [measure 126] %%%
+                    %%% ViolaMusicVoice [measure 126] %%%
                     c'1 \repeatTie
                     
                     c'2 -\upbow \ppp
                     
-                    %%% Viola Music Voice [measure 127] %%%
+                    %%% ViolaMusicVoice [measure 127] %%%
                     R1 * 5
                     \bar "|."
                     
                 }
             }
             \tag strings.cello
-            \context CelloMusicStaff = "Cello Music Staff" {
-                \context CelloMusicVoice = "Cello Music Voice" {
+            \context CelloMusicStaff = "CelloMusicStaff" {
+                \context CelloMusicVoice = "CelloMusicVoice" {
                     
-                    %%% Cello Music Voice [measure 112] %%%
+                    %%% CelloMusicVoice [measure 112] %%%
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
@@ -1196,77 +1196,77 @@
                                     "bow on tailpiece"
                             }
                     
-                    %%% Cello Music Voice [measure 113] %%%
+                    %%% CelloMusicVoice [measure 113] %%%
                     c'2 \repeatTie
                     
-                    %%% Cello Music Voice [measure 114] %%%
+                    %%% CelloMusicVoice [measure 114] %%%
                     c'4 \repeatTie
                     
                     c'2 -\upbow
                     
                     c'2. \repeatTie
                     
-                    %%% Cello Music Voice [measure 115] %%%
+                    %%% CelloMusicVoice [measure 115] %%%
                     c'2. -\downbow
                     
-                    %%% Cello Music Voice [measure 116] %%%
+                    %%% CelloMusicVoice [measure 116] %%%
                     c'2 \repeatTie
                     
                     c'2 -\upbow
                     
-                    %%% Cello Music Voice [measure 117] %%%
+                    %%% CelloMusicVoice [measure 117] %%%
                     c'2. \repeatTie
                     
-                    %%% Cello Music Voice [measure 118] %%%
+                    %%% CelloMusicVoice [measure 118] %%%
                     c'1 -\downbow
                     
-                    %%% Cello Music Voice [measure 119] %%%
+                    %%% CelloMusicVoice [measure 119] %%%
                     c'4 \repeatTie \> \p
                     
                     c'1 -\upbow
                     
-                    %%% Cello Music Voice [measure 120] %%%
+                    %%% CelloMusicVoice [measure 120] %%%
                     c'4 \repeatTie
                     
                     c'2. -\downbow
                     
-                    %%% Cello Music Voice [measure 121] %%%
+                    %%% CelloMusicVoice [measure 121] %%%
                     c'2 \repeatTie
                     
                     c'4 -\upbow
                     
-                    %%% Cello Music Voice [measure 122] %%%
+                    %%% CelloMusicVoice [measure 122] %%%
                     c'1 \repeatTie
                     
-                    %%% Cello Music Voice [measure 123] %%%
+                    %%% CelloMusicVoice [measure 123] %%%
                     c'2. -\downbow
                     
                     c'2 \repeatTie
                     
-                    %%% Cello Music Voice [measure 124] %%%
+                    %%% CelloMusicVoice [measure 124] %%%
                     c'2. -\upbow
                     
-                    %%% Cello Music Voice [measure 125] %%%
+                    %%% CelloMusicVoice [measure 125] %%%
                     c'2 \repeatTie
                     
-                    %%% Cello Music Voice [measure 126] %%%
+                    %%% CelloMusicVoice [measure 126] %%%
                     c'2. -\downbow
                     
                     c'2 \repeatTie
                     
                     c'4 -\upbow \ppp
                     
-                    %%% Cello Music Voice [measure 127] %%%
+                    %%% CelloMusicVoice [measure 127] %%%
                     R1 * 5
                     \bar "|."
                     
                 }
             }
             \tag strings.contrabass
-            \context ContrabassMusicStaff = "Contrabass Music Staff" {
-                \context ContrabassMusicVoice = "Contrabass Music Voice" {
+            \context ContrabassMusicStaff = "ContrabassMusicStaff" {
+                \context ContrabassMusicVoice = "ContrabassMusicVoice" {
                     
-                    %%% Contrabass Music Voice [measure 112] %%%
+                    %%% ContrabassMusicVoice [measure 112] %%%
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
@@ -1289,63 +1289,63 @@
                                     "bow on tailpiece"
                             }
                     
-                    %%% Contrabass Music Voice [measure 113] %%%
+                    %%% ContrabassMusicVoice [measure 113] %%%
                     c''2 \repeatTie
                     
-                    %%% Contrabass Music Voice [measure 114] %%%
+                    %%% ContrabassMusicVoice [measure 114] %%%
                     c''1 -\upbow
                     
                     c''2 -\downbow
                     
-                    %%% Contrabass Music Voice [measure 115] %%%
+                    %%% ContrabassMusicVoice [measure 115] %%%
                     c''2 \repeatTie
                     
                     c''4 -\upbow
                     
-                    %%% Contrabass Music Voice [measure 116] %%%
+                    %%% ContrabassMusicVoice [measure 116] %%%
                     c''2. \repeatTie
                     
                     c''4 -\downbow
                     
-                    %%% Contrabass Music Voice [measure 117] %%%
+                    %%% ContrabassMusicVoice [measure 117] %%%
                     c''2. \repeatTie
                     
-                    %%% Contrabass Music Voice [measure 118] %%%
+                    %%% ContrabassMusicVoice [measure 118] %%%
                     c''1 -\upbow
                     
-                    %%% Contrabass Music Voice [measure 119] %%%
+                    %%% ContrabassMusicVoice [measure 119] %%%
                     c''1 -\downbow \> \p
                     
                     c''4 -\upbow
                     
-                    %%% Contrabass Music Voice [measure 120] %%%
+                    %%% ContrabassMusicVoice [measure 120] %%%
                     c''2. \repeatTie
                     
                     c''4 -\downbow
                     
-                    %%% Contrabass Music Voice [measure 121] %%%
+                    %%% ContrabassMusicVoice [measure 121] %%%
                     c''2. \repeatTie
                     
-                    %%% Contrabass Music Voice [measure 122] %%%
+                    %%% ContrabassMusicVoice [measure 122] %%%
                     c''1 -\upbow
                     
-                    %%% Contrabass Music Voice [measure 123] %%%
+                    %%% ContrabassMusicVoice [measure 123] %%%
                     c''1 -\downbow
                     
                     c''4 -\upbow
                     
-                    %%% Contrabass Music Voice [measure 124] %%%
+                    %%% ContrabassMusicVoice [measure 124] %%%
                     c''2. \repeatTie
                     
-                    %%% Contrabass Music Voice [measure 125] %%%
+                    %%% ContrabassMusicVoice [measure 125] %%%
                     c''2 -\downbow
                     
-                    %%% Contrabass Music Voice [measure 126] %%%
+                    %%% ContrabassMusicVoice [measure 126] %%%
                     c''2 \repeatTie
                     
                     c''1 -\upbow \ppp
                     
-                    %%% Contrabass Music Voice [measure 127] %%%
+                    %%% ContrabassMusicVoice [measure 127] %%%
                     R1 * 5
                     \bar "|."
                     

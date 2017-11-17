@@ -204,10 +204,10 @@
             }
         }
     >>
-    \context WindSectionStaffGroup = "Wind Section Staff Group" <<
+    \context WindSectionStaffGroup = "WindSectionStaffGroup" <<
         \tag winds.flute
-        \context FluteMusicStaff = "Flute Music Staff" {
-            \context FluteMusicVoice = "Flute Music Voice" {
+        \context FluteMusicStaff = "FluteMusicStaff" {
+            \context FluteMusicVoice = "FluteMusicVoice" {
                 bf''2
                 bf''2 \repeatTie
                 bf''2. \repeatTie
@@ -253,8 +253,8 @@
             }
         }
         \tag winds.oboe
-        \context OboeMusicStaff = "Oboe Music Staff" {
-            \context OboeMusicVoice = "Oboe Music Voice" {
+        \context OboeMusicStaff = "OboeMusicStaff" {
+            \context OboeMusicVoice = "OboeMusicVoice" {
                 \stopStaff
                 \once \override Staff.StaffSymbol.line-count = 1
                 \startStaff
@@ -299,8 +299,8 @@
             }
         }
         \tag winds.clarinet
-        \context ClarinetMusicStaff = "Clarinet Music Staff" {
-            \context ClarinetMusicVoice = "Clarinet Music Voice" {
+        \context ClarinetMusicStaff = "ClarinetMusicStaff" {
+            \context ClarinetMusicVoice = "ClarinetMusicVoice" {
                 a2
                 a2 \repeatTie
                 a1. \repeatTie
@@ -323,8 +323,8 @@
             }
         }
         \tag winds.saxophone
-        \context SaxophoneMusicStaff = "Saxophone Music Staff" {
-            \context SaxophoneMusicVoice = "Saxophone Music Voice" {
+        \context SaxophoneMusicStaff = "SaxophoneMusicStaff" {
+            \context SaxophoneMusicVoice = "SaxophoneMusicVoice" {
                 \stopStaff
                 \once \override Staff.StaffSymbol.line-count = 1
                 \startStaff
@@ -370,10 +370,10 @@
             }
         }
     >>
-    \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
+    \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup" <<
         \tag guitar
-        \context GuitarMusicStaff = "Guitar Music Staff" {
-            \context GuitarMusicVoice = "Guitar Music Voice" {
+        \context GuitarMusicStaff = "GuitarMusicStaff" {
+            \context GuitarMusicVoice = "GuitarMusicVoice" {
                 r2
                 r2
                 r1.
@@ -402,8 +402,8 @@
             }
         }
         \tag piano
-        \context PianoMusicStaff = "Piano Music Staff" {
-            \context PianoMusicVoice = "Piano Music Voice" {
+        \context PianoMusicStaff = "PianoMusicStaff" {
+            \context PianoMusicVoice = "PianoMusicVoice" {
                 r2
                 r2
                 r1.
@@ -432,8 +432,8 @@
             }
         }
         \tag percussion
-        \context PercussionMusicStaff = "Percussion Staff" {
-            \context PercussionMusicVoice = "Percussion Music Voice" {
+        \context PercussionMusicStaff = "PercussionStaff" {
+            \context PercussionMusicVoice = "PercussionMusicVoice" {
                 \once \override Beam.color = #blue
                 \once \override Dots.color = #blue
                 \once \override Flag.color = #blue
@@ -522,10 +522,10 @@
             }
         }
     >>
-    \context StringSectionStaffGroup = "String Section Staff Group" <<
+    \context StringSectionStaffGroup = "StringSectionStaffGroup" <<
         \tag strings.violin
-        \context ViolinMusicStaff = "Violin Music Staff" {
-            \context ViolinMusicVoice = "Violin Music Voice" {
+        \context ViolinMusicStaff = "ViolinMusicStaff" {
+            \context ViolinMusicVoice = "ViolinMusicVoice" {
                 \stopStaff
                 \once \override Staff.StaffSymbol.line-count = 1
                 \startStaff
@@ -564,8 +564,8 @@
             }
         }
         \tag strings.viola
-        \context ViolaMusicStaff = "Viola Music Staff" {
-            \context ViolaMusicVoice = "Viola Music Voice" {
+        \context ViolaMusicStaff = "ViolaMusicStaff" {
+            \context ViolaMusicVoice = "ViolaMusicVoice" {
                 \stopStaff
                 \once \override Staff.StaffSymbol.line-count = 1
                 \startStaff
@@ -604,8 +604,8 @@
             }
         }
         \tag strings.cello
-        \context CelloMusicStaff = "Cello Music Staff" {
-            \context CelloMusicVoice = "Cello Music Voice" {
+        \context CelloMusicStaff = "CelloMusicStaff" {
+            \context CelloMusicVoice = "CelloMusicVoice" {
                 \stopStaff
                 \once \override Staff.StaffSymbol.line-count = 1
                 \startStaff
@@ -646,8 +646,8 @@
             }
         }
         \tag strings.contrabass
-        \context ContrabassMusicStaff = "Contrabass Music Staff" {
-            \context ContrabassMusicVoice = "Contrabass Music Voice" {
+        \context ContrabassMusicStaff = "ContrabassMusicStaff" {
+            \context ContrabassMusicVoice = "ContrabassMusicVoice" {
                 \stopStaff
                 \once \override Staff.StaffSymbol.line-count = 1
                 \startStaff

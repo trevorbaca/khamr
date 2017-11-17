@@ -337,10 +337,10 @@
             }
         }
     >>
-    \context WindSectionStaffGroup = "Wind Section Staff Group" <<
+    \context WindSectionStaffGroup = "WindSectionStaffGroup" <<
         \tag winds.flute
-        \context FluteMusicStaff = "Flute Music Staff" {
-            \context FluteMusicVoice = "Flute Music Voice" {
+        \context FluteMusicStaff = "FluteMusicStaff" {
+            \context FluteMusicVoice = "FluteMusicVoice" {
                 bf''2 \> \mp \startTrillSpan
                 bf''2 \repeatTie
                 bf''1. \repeatTie
@@ -405,8 +405,8 @@
             }
         }
         \tag winds.oboe
-        \context OboeMusicStaff = "Oboe Music Staff" {
-            \context OboeMusicVoice = "Oboe Music Voice" {
+        \context OboeMusicStaff = "OboeMusicStaff" {
+            \context OboeMusicVoice = "OboeMusicVoice" {
                 <e'' b''>2 -\flageolet
                 <e'' b''>2 \repeatTie
                 <e'' b''>1. \repeatTie
@@ -442,8 +442,8 @@
             }
         }
         \tag winds.clarinet
-        \context ClarinetMusicStaff = "Clarinet Music Staff" {
-            \context ClarinetMusicVoice = "Clarinet Music Voice" {
+        \context ClarinetMusicStaff = "ClarinetMusicStaff" {
+            \context ClarinetMusicVoice = "ClarinetMusicVoice" {
                 a2
                 a2 \repeatTie
                 a2. \repeatTie
@@ -490,8 +490,8 @@
             }
         }
         \tag winds.saxophone
-        \context SaxophoneMusicStaff = "Saxophone Music Staff" {
-            \context SaxophoneMusicVoice = "Saxophone Music Voice" {
+        \context SaxophoneMusicStaff = "SaxophoneMusicStaff" {
+            \context SaxophoneMusicVoice = "SaxophoneMusicVoice" {
                 <d'' eqs''>2
                 <d'' eqs''>2 \repeatTie
                 <d'' eqs''>1. \repeatTie
@@ -528,10 +528,10 @@
             }
         }
     >>
-    \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
+    \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup" <<
         \tag guitar
-        \context GuitarMusicStaff = "Guitar Music Staff" {
-            \context GuitarMusicVoice = "Guitar Music Voice" {
+        \context GuitarMusicStaff = "GuitarMusicStaff" {
+            \context GuitarMusicVoice = "GuitarMusicVoice" {
                 \times 2/3 {
                     r8
                     \override NoteHead.style = #'cross
@@ -618,8 +618,8 @@
             }
         }
         \tag piano
-        \context PianoMusicStaff = "Piano Music Staff" {
-            \context PianoMusicVoice = "Piano Music Voice" {
+        \context PianoMusicStaff = "PianoMusicStaff" {
+            \context PianoMusicVoice = "PianoMusicVoice" {
                 \stopStaff
                 \once \override Staff.StaffSymbol.line-count = 1
                 \startStaff
@@ -727,8 +727,8 @@
             }
         }
         \tag percussion
-        \context PercussionMusicStaff = "Percussion Staff" {
-            \context PercussionMusicVoice = "Percussion Music Voice" {
+        \context PercussionMusicStaff = "PercussionStaff" {
+            \context PercussionMusicVoice = "PercussionMusicVoice" {
                 \override Stem.direction = #down
                 c'2 -\accent
                 c'2 \repeatTie
@@ -794,10 +794,10 @@
             }
         }
     >>
-    \context StringSectionStaffGroup = "String Section Staff Group" <<
+    \context StringSectionStaffGroup = "StringSectionStaffGroup" <<
         \tag strings.violin
-        \context ViolinMusicStaff = "Violin Music Staff" {
-            \context ViolinMusicVoice = "Violin Music Voice" {
+        \context ViolinMusicStaff = "ViolinMusicStaff" {
+            \context ViolinMusicVoice = "ViolinMusicVoice" {
                 \pitchedTrill
                 gf'2 -\accent \startTrillSpan aff'
                 \times 4/5 {
@@ -944,8 +944,8 @@
             }
         }
         \tag strings.viola
-        \context ViolaMusicStaff = "Viola Music Staff" {
-            \context ViolaMusicVoice = "Viola Music Voice" {
+        \context ViolaMusicStaff = "ViolaMusicStaff" {
+            \context ViolaMusicVoice = "ViolaMusicVoice" {
                 \pitchedTrill
                 f'2 -\accent \startTrillSpan gf'
                 f'4 \repeatTie
@@ -1065,8 +1065,8 @@
             }
         }
         \tag strings.cello
-        \context CelloMusicStaff = "Cello Music Staff" {
-            \context CelloMusicVoice = "Cello Music Voice" {
+        \context CelloMusicStaff = "CelloMusicStaff" {
+            \context CelloMusicVoice = "CelloMusicVoice" {
                 \pitchedTrill
                 f'2 -\accent \startTrillSpan gf'
                 f'2 \repeatTie
@@ -1156,8 +1156,8 @@
             }
         }
         \tag strings.contrabass
-        \context ContrabassMusicStaff = "Contrabass Music Staff" {
-            \context ContrabassMusicVoice = "Contrabass Music Voice" {
+        \context ContrabassMusicStaff = "ContrabassMusicStaff" {
+            \context ContrabassMusicVoice = "ContrabassMusicVoice" {
                 <g, a>2
                 <g, a>2 \repeatTie
                 \tweak text #tuplet-number::calc-fraction-text
