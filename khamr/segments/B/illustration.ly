@@ -1144,7 +1144,8 @@
                     \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override OboeMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    ds'2
+                    \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    ds'2 \p
                     
                     %%% OboeMusicVoice [measure 76] %%%
                     ds'2 \repeatTie
@@ -2089,7 +2090,8 @@
                     \clef "treble"
                     \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    gs2
+                    \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    gs2 \pp
                     
                     %%% ClarinetMusicVoice [measure 76] %%%
                     gs2 \repeatTie
@@ -2912,7 +2914,8 @@
                     \clef "treble"
                     \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    es'2
+                    \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    es'2 \pp
                     
                     %%% SaxophoneMusicVoice [measure 76] %%%
                     es'2 \repeatTie
@@ -3819,7 +3822,8 @@
                     \clef "treble"
                     \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    g'2
+                    \once \override GuitarMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    g'2 \ff
                     
                     %%% GuitarMusicVoice [measure 76] %%%
                     g'2 \repeatTie
@@ -5052,7 +5056,8 @@
                     \clef "treble"
                     \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    R1 * 13/4
+                    \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    R1 * 13/4 \sfz
                     
                     %%% PercussionMusicVoice [measure 79] %%%
                     \once \override Beam.color = #blue
@@ -5700,7 +5705,8 @@
                     \clef "treble"
                     \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override ViolinMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    a'2
+                    \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    a'2 \ppp
                     
                     %%% ViolinMusicVoice [measure 76] %%%
                     a'2 \repeatTie
@@ -5881,7 +5887,8 @@
                     \clef "alto"
                     \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    gs'2
+                    \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    gs'2 \ppp
                     
                     %%% ViolaMusicVoice [measure 76] %%%
                     gs'2 \repeatTie
@@ -6062,7 +6069,8 @@
                     \clef "bass"
                     \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    g2
+                    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    g2 \mf
                     
                     %%% CelloMusicVoice [measure 76] %%%
                     g2 \repeatTie
@@ -6240,7 +6248,8 @@
                     \clef "bass"
                     \once \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override ContrabassMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    <g,, a,>2
+                    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    <g,, a,>2 \f
                     
                     %%% ContrabassMusicVoice [measure 76] %%%
                     <g,, a,>2 \repeatTie
