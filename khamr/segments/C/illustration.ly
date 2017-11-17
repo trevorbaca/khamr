@@ -168,7 +168,8 @@
                     \clef "treble"
                     \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override FluteMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    bf'2
+                    \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    bf'2 \pp
                     
                     %%% FluteMusicVoice [measure 113] %%%
                     bf'2 \repeatTie
@@ -284,7 +285,8 @@
                     \clef "percussion"
                     \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override OboeMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    c'2
+                    \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    c'2 \pp
                     
                     %%% OboeMusicVoice [measure 113] %%%
                     c'2 \repeatTie
@@ -391,7 +393,8 @@
                     \clef "treble"
                     \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    a2
+                    \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    a2 \ppp
                     
                     %%% ClarinetMusicVoice [measure 113] %%%
                     a2 \repeatTie
@@ -475,7 +478,8 @@
                     \clef "percussion"
                     \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    a2
+                    \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    a2 \pp
                     
                     %%% SaxophoneMusicVoice [measure 113] %%%
                     a2 \repeatTie
@@ -578,7 +582,8 @@
                     \clef "treble"
                     \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    r2
+                    \once \override GuitarMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    r2 \fff
                     
                     %%% GuitarMusicVoice [measure 113] %%%
                     r2
@@ -726,7 +731,8 @@
                     \once \override PianoMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override PianoMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override PianoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    r2
+                    \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    r2 \fff
                     
                     %%% PianoMusicVoice [measure 113] %%%
                     r2
@@ -875,7 +881,8 @@
                     \clef "percussion"
                     \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    c'2 :32 \> \pp
+                    \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
+                    c'2 :32 \ppp \> \pp
                     
                     %%% PercussionMusicVoice [measure 113] %%%
                     \once \override Beam.color = #blue
