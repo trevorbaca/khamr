@@ -258,12 +258,12 @@
                 
             }
         >>
-        \context WindSectionStaffGroup = "Wind Section Staff Group" <<
+        \context WindSectionStaffGroup = "WindSectionStaffGroup" <<
             \tag winds.flute
-            \context FluteMusicStaff = "Flute Music Staff" {
-                \context FluteMusicVoice = "Flute Music Voice" {
+            \context FluteMusicStaff = "FluteMusicStaff" {
+                \context FluteMusicVoice = "FluteMusicVoice" {
                     
-                    %%% Flute Music Voice [measure 75] %%%
+                    %%% FluteMusicVoice [measure 75] %%%
                     \set FluteMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -279,15 +279,15 @@
                     \once \override FluteMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     b''2 :32
                     
-                    %%% Flute Music Voice [measure 76] %%%
+                    %%% FluteMusicVoice [measure 76] %%%
                     b''2 :32 \repeatTie
                     
-                    %%% Flute Music Voice [measure 77] %%%
+                    %%% FluteMusicVoice [measure 77] %%%
                     R1 * 29/4
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 7/8 {
                         
-                        %%% Flute Music Voice [measure 84] %%%
+                        %%% FluteMusicVoice [measure 84] %%%
                         \set FluteMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -374,7 +374,7 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 7/8 {
                         
-                        %%% Flute Music Voice [measure 86] %%%
+                        %%% FluteMusicVoice [measure 86] %%%
                         d'''16 -\accent [
                         
                         e'''16
@@ -907,7 +907,7 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 7/8 {
                         
-                        %%% Flute Music Voice [measure 100] %%%
+                        %%% FluteMusicVoice [measure 100] %%%
                         d'''16 -\accent [
                         
                         e'''16
@@ -1070,10 +1070,10 @@
                         cs'''16 ]
                     }
                     
-                    %%% Flute Music Voice [measure 104] %%%
+                    %%% FluteMusicVoice [measure 104] %%%
                     R1 * 15/4
                     
-                    %%% Flute Music Voice [measure 108] %%%
+                    %%% FluteMusicVoice [measure 108] %%%
                     bf'1 \pp
                         ^ \markup {
                             \whiteout
@@ -1091,18 +1091,18 @@
                                         }
                             }
                     
-                    %%% Flute Music Voice [measure 109] %%%
+                    %%% FluteMusicVoice [measure 109] %%%
                     bf'2... \repeatTie
                     
                     r16
                     
-                    %%% Flute Music Voice [measure 110] %%%
+                    %%% FluteMusicVoice [measure 110] %%%
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     bf'2.
                     
                     bf'2 \repeatTie
                     
-                    %%% Flute Music Voice [measure 111] %%%
+                    %%% FluteMusicVoice [measure 111] %%%
                     bf'4. \repeatTie
                     
                     bf'4 \repeatTie
@@ -1115,10 +1115,10 @@
                 }
             }
             \tag winds.oboe
-            \context OboeMusicStaff = "Oboe Music Staff" {
-                \context OboeMusicVoice = "Oboe Music Voice" {
+            \context OboeMusicStaff = "OboeMusicStaff" {
+                \context OboeMusicVoice = "OboeMusicVoice" {
                     
-                    %%% Oboe Music Voice [measure 75] %%%
+                    %%% OboeMusicVoice [measure 75] %%%
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
@@ -1146,15 +1146,15 @@
                     \once \override OboeMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     ds'2
                     
-                    %%% Oboe Music Voice [measure 76] %%%
+                    %%% OboeMusicVoice [measure 76] %%%
                     ds'2 \repeatTie
                     
-                    %%% Oboe Music Voice [measure 77] %%%
+                    %%% OboeMusicVoice [measure 77] %%%
                     R1 * 29/4
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/6 {
                         
-                        %%% Oboe Music Voice [measure 84] %%%
+                        %%% OboeMusicVoice [measure 84] %%%
                         \set OboeMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -1351,7 +1351,7 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/6 {
                         
-                        %%% Oboe Music Voice [measure 88] %%%
+                        %%% OboeMusicVoice [measure 88] %%%
                         c'''16 -\accent [
                         
                         cs'''16
@@ -1472,7 +1472,7 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/6 {
                         
-                        %%% Oboe Music Voice [measure 91] %%%
+                        %%% OboeMusicVoice [measure 91] %%%
                         c'''16 -\accent [
                         
                         cs'''16
@@ -1533,82 +1533,7 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/6 {
                         
-                        %%% Oboe Music Voice [measure 92] %%%
-                        c'''16 -\accent [
-                        
-                        cs'''16
-                        
-                        ds'''16
-                        
-                        e'''16
-                        
-                        f'''16
-                        
-                        fs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
-                        
-                        c'''16 -\accent [
-                        
-                        cs'''16
-                        
-                        ds'''16
-                        
-                        e'''16
-                        
-                        f'''16
-                        
-                        fs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
-                        
-                        c'''16 -\accent [
-                        
-                        cs'''16
-                        
-                        ds'''16
-                        
-                        e'''16
-                        
-                        f'''16
-                        
-                        fs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
-                        
-                        c'''16 -\accent [
-                        
-                        cs'''16
-                        
-                        ds'''16
-                        
-                        e'''16
-                        
-                        f'''16
-                        
-                        fs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
-                        
-                        c'''16 -\accent [
-                        
-                        cs'''16
-                        
-                        ds'''16
-                        
-                        e'''16
-                        
-                        f'''16
-                        
-                        fs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 5/6 {
-                        
+                        %%% OboeMusicVoice [measure 92] %%%
                         c'''16 -\accent [
                         
                         cs'''16
@@ -1714,7 +1639,6 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/6 {
                         
-                        %%% Oboe Music Voice [measure 96] %%%
                         c'''16 -\accent [
                         
                         cs'''16
@@ -1775,7 +1699,83 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/6 {
                         
-                        %%% Oboe Music Voice [measure 98] %%%
+                        c'''16 -\accent [
+                        
+                        cs'''16
+                        
+                        ds'''16
+                        
+                        e'''16
+                        
+                        f'''16
+                        
+                        fs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        
+                        %%% OboeMusicVoice [measure 96] %%%
+                        c'''16 -\accent [
+                        
+                        cs'''16
+                        
+                        ds'''16
+                        
+                        e'''16
+                        
+                        f'''16
+                        
+                        fs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        
+                        c'''16 -\accent [
+                        
+                        cs'''16
+                        
+                        ds'''16
+                        
+                        e'''16
+                        
+                        f'''16
+                        
+                        fs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        
+                        c'''16 -\accent [
+                        
+                        cs'''16
+                        
+                        ds'''16
+                        
+                        e'''16
+                        
+                        f'''16
+                        
+                        fs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        
+                        c'''16 -\accent [
+                        
+                        cs'''16
+                        
+                        ds'''16
+                        
+                        e'''16
+                        
+                        f'''16
+                        
+                        fs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 5/6 {
+                        
+                        %%% OboeMusicVoice [measure 98] %%%
                         c'''16 -\accent [
                         
                         cs'''16
@@ -2026,20 +2026,20 @@
                         f'''16 ]
                     }
                     
-                    %%% Oboe Music Voice [measure 104] %%%
+                    %%% OboeMusicVoice [measure 104] %%%
                     R1 * 15/4
                     
-                    %%% Oboe Music Voice [measure 108] %%%
+                    %%% OboeMusicVoice [measure 108] %%%
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
                     \clef "percussion"
                     r1
                     
-                    %%% Oboe Music Voice [measure 109] %%%
+                    %%% OboeMusicVoice [measure 109] %%%
                     r1
                     
-                    %%% Oboe Music Voice [measure 110] %%%
+                    %%% OboeMusicVoice [measure 110] %%%
                     r2
                     
                     \override RepeatTie.direction = #up
@@ -2050,7 +2050,7 @@
                                     "airtone without reed: mix inhales and exhales ad lib."
                             }
                     
-                    %%% Oboe Music Voice [measure 111] %%%
+                    %%% OboeMusicVoice [measure 111] %%%
                     c'4. \repeatTie
                     
                     c'4 \repeatTie
@@ -2064,10 +2064,10 @@
                 }
             }
             \tag winds.clarinet
-            \context ClarinetMusicStaff = "Clarinet Music Staff" {
-                \context ClarinetMusicVoice = "Clarinet Music Voice" {
+            \context ClarinetMusicStaff = "ClarinetMusicStaff" {
+                \context ClarinetMusicVoice = "ClarinetMusicVoice" {
                     
-                    %%% Clarinet Music Voice [measure 75] %%%
+                    %%% ClarinetMusicVoice [measure 75] %%%
                     \set ClarinetMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -2091,14 +2091,14 @@
                     \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     gs2
                     
-                    %%% Clarinet Music Voice [measure 76] %%%
+                    %%% ClarinetMusicVoice [measure 76] %%%
                     gs2 \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 77] %%%
+                    %%% ClarinetMusicVoice [measure 77] %%%
                     R1 * 29/4
                     \times 8/9 {
                         
-                        %%% Clarinet Music Voice [measure 84] %%%
+                        %%% ClarinetMusicVoice [measure 84] %%%
                         \set ClarinetMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -2235,7 +2235,7 @@
                     }
                     \times 8/9 {
                         
-                        %%% Clarinet Music Voice [measure 87] %%%
+                        %%% ClarinetMusicVoice [measure 87] %%%
                         e'''16 -\accent [
                         
                         es'''16
@@ -2416,7 +2416,7 @@
                     }
                     \times 8/9 {
                         
-                        %%% Clarinet Music Voice [measure 92] %%%
+                        %%% ClarinetMusicVoice [measure 92] %%%
                         e'''16 -\accent [
                         
                         es'''16
@@ -2617,7 +2617,7 @@
                     }
                     \times 8/9 {
                         
-                        %%% Clarinet Music Voice [measure 98] %%%
+                        %%% ClarinetMusicVoice [measure 98] %%%
                         e'''16 -\accent [
                         
                         es'''16
@@ -2658,7 +2658,7 @@
                     }
                     \times 8/9 {
                         
-                        %%% Clarinet Music Voice [measure 99] %%%
+                        %%% ClarinetMusicVoice [measure 99] %%%
                         e'''16 -\accent [
                         
                         es'''16
@@ -2679,7 +2679,7 @@
                     }
                     \times 8/9 {
                         
-                        %%% Clarinet Music Voice [measure 100] %%%
+                        %%% ClarinetMusicVoice [measure 100] %%%
                         e'''16 -\accent [
                         
                         es'''16
@@ -2700,68 +2700,7 @@
                     }
                     \times 8/9 {
                         
-                        %%% Clarinet Music Voice [measure 101] %%%
-                        e'''16 -\accent [
-                        
-                        es'''16
-                        
-                        g'''16
-                        
-                        gs'''16
-                        
-                        d'''16
-                        
-                        ds'''16
-                        
-                        es'''16
-                        
-                        fs'''16
-                        
-                        g'''16 ]
-                    }
-                    \times 8/9 {
-                        
-                        e'''16 -\accent [
-                        
-                        es'''16
-                        
-                        g'''16
-                        
-                        gs'''16
-                        
-                        d'''16
-                        
-                        ds'''16
-                        
-                        es'''16
-                        
-                        fs'''16
-                        
-                        g'''16 ]
-                    }
-                    \times 8/9 {
-                        
-                        e'''16 -\accent [
-                        
-                        es'''16
-                        
-                        g'''16
-                        
-                        gs'''16
-                        
-                        d'''16
-                        
-                        ds'''16
-                        
-                        es'''16
-                        
-                        fs'''16
-                        
-                        g'''16 ]
-                    }
-                    \times 8/9 {
-                        
-                        %%% Clarinet Music Voice [measure 102] %%%
+                        %%% ClarinetMusicVoice [measure 101] %%%
                         e'''16 -\accent [
                         
                         es'''16
@@ -2802,7 +2741,68 @@
                     }
                     \times 8/9 {
                         
-                        %%% Clarinet Music Voice [measure 103] %%%
+                        e'''16 -\accent [
+                        
+                        es'''16
+                        
+                        g'''16
+                        
+                        gs'''16
+                        
+                        d'''16
+                        
+                        ds'''16
+                        
+                        es'''16
+                        
+                        fs'''16
+                        
+                        g'''16 ]
+                    }
+                    \times 8/9 {
+                        
+                        %%% ClarinetMusicVoice [measure 102] %%%
+                        e'''16 -\accent [
+                        
+                        es'''16
+                        
+                        g'''16
+                        
+                        gs'''16
+                        
+                        d'''16
+                        
+                        ds'''16
+                        
+                        es'''16
+                        
+                        fs'''16
+                        
+                        g'''16 ]
+                    }
+                    \times 8/9 {
+                        
+                        e'''16 -\accent [
+                        
+                        es'''16
+                        
+                        g'''16
+                        
+                        gs'''16
+                        
+                        d'''16
+                        
+                        ds'''16
+                        
+                        es'''16
+                        
+                        fs'''16
+                        
+                        g'''16 ]
+                    }
+                    \times 8/9 {
+                        
+                        %%% ClarinetMusicVoice [measure 103] %%%
                         e'''16 -\accent [
                         
                         es'''16
@@ -2834,10 +2834,10 @@
                         d'''16 ]
                     }
                     
-                    %%% Clarinet Music Voice [measure 104] %%%
+                    %%% ClarinetMusicVoice [measure 104] %%%
                     R1 * 7/4
                     
-                    %%% Clarinet Music Voice [measure 106] %%%
+                    %%% ClarinetMusicVoice [measure 106] %%%
                     \set ClarinetMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -2866,31 +2866,31 @@
                     
                     a4 \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 107] %%%
+                    %%% ClarinetMusicVoice [measure 107] %%%
                     a2. \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 108] %%%
+                    %%% ClarinetMusicVoice [measure 108] %%%
                     a1 \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 109] %%%
+                    %%% ClarinetMusicVoice [measure 109] %%%
                     a1 \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 110] %%%
+                    %%% ClarinetMusicVoice [measure 110] %%%
                     a1 \repeatTie
                     
                     a4 \repeatTie
                     
-                    %%% Clarinet Music Voice [measure 111] %%%
+                    %%% ClarinetMusicVoice [measure 111] %%%
                     r2.
                     \bar "|"
                     
                 }
             }
             \tag winds.saxophone
-            \context SaxophoneMusicStaff = "Saxophone Music Staff" {
-                \context SaxophoneMusicVoice = "Saxophone Music Voice" {
+            \context SaxophoneMusicStaff = "SaxophoneMusicStaff" {
+                \context SaxophoneMusicVoice = "SaxophoneMusicVoice" {
                     
-                    %%% Saxophone Music Voice [measure 75] %%%
+                    %%% SaxophoneMusicVoice [measure 75] %%%
                     \set SaxophoneMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -2914,15 +2914,15 @@
                     \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     es'2
                     
-                    %%% Saxophone Music Voice [measure 76] %%%
+                    %%% SaxophoneMusicVoice [measure 76] %%%
                     es'2 \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 77] %%%
+                    %%% SaxophoneMusicVoice [measure 77] %%%
                     R1 * 29/4
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         
-                        %%% Saxophone Music Voice [measure 84] %%%
+                        %%% SaxophoneMusicVoice [measure 84] %%%
                         \set SaxophoneMusicStaff.instrumentName = \markup {
                             \hcenter-in
                                 #16
@@ -2981,7 +2981,7 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         
-                        %%% Saxophone Music Voice [measure 85] %%%
+                        %%% SaxophoneMusicVoice [measure 85] %%%
                         a''16 -\accent [
                         
                         as''16
@@ -3084,7 +3084,7 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         
-                        %%% Saxophone Music Voice [measure 87] %%%
+                        %%% SaxophoneMusicVoice [measure 87] %%%
                         a''16 -\accent [
                         
                         as''16
@@ -3119,213 +3119,7 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         
-                        %%% Saxophone Music Voice [measure 88] %%%
-                        a''16 -\accent [
-                        
-                        as''16
-                        
-                        b''16
-                        
-                        d'''16
-                        
-                        ds'''16
-                        
-                        bs''16
-                        
-                        cs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        
-                        a''16 -\accent [
-                        
-                        as''16
-                        
-                        b''16
-                        
-                        d'''16
-                        
-                        ds'''16
-                        
-                        bs''16
-                        
-                        cs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        
-                        a''16 -\accent [
-                        
-                        as''16
-                        
-                        b''16
-                        
-                        d'''16
-                        
-                        ds'''16
-                        
-                        bs''16
-                        
-                        cs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        
-                        a''16 -\accent [
-                        
-                        as''16
-                        
-                        b''16
-                        
-                        d'''16
-                        
-                        ds'''16
-                        
-                        bs''16
-                        
-                        cs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        
-                        a''16 -\accent [
-                        
-                        as''16
-                        
-                        b''16
-                        
-                        d'''16
-                        
-                        ds'''16
-                        
-                        bs''16
-                        
-                        cs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        
-                        a''16 -\accent [
-                        
-                        as''16
-                        
-                        b''16
-                        
-                        d'''16
-                        
-                        ds'''16
-                        
-                        bs''16
-                        
-                        cs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        
-                        a''16 -\accent [
-                        
-                        as''16
-                        
-                        b''16
-                        
-                        d'''16
-                        
-                        ds'''16
-                        
-                        bs''16
-                        
-                        cs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        
-                        a''16 -\accent [
-                        
-                        as''16
-                        
-                        b''16
-                        
-                        d'''16
-                        
-                        ds'''16
-                        
-                        bs''16
-                        
-                        cs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        
-                        a''16 -\accent [
-                        
-                        as''16
-                        
-                        b''16
-                        
-                        d'''16
-                        
-                        ds'''16
-                        
-                        bs''16
-                        
-                        cs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        
-                        a''16 -\accent [
-                        
-                        as''16
-                        
-                        b''16
-                        
-                        d'''16
-                        
-                        ds'''16
-                        
-                        bs''16
-                        
-                        cs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        
-                        %%% Saxophone Music Voice [measure 92] %%%
-                        a''16 -\accent [
-                        
-                        as''16
-                        
-                        b''16
-                        
-                        d'''16
-                        
-                        ds'''16
-                        
-                        bs''16
-                        
-                        cs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        
-                        a''16 -\accent [
-                        
-                        as''16
-                        
-                        b''16
-                        
-                        d'''16
-                        
-                        ds'''16
-                        
-                        bs''16
-                        
-                        cs'''16 ]
-                    }
-                    \tweak text #tuplet-number::calc-fraction-text
-                    \times 6/7 {
-                        
-                        %%% Saxophone Music Voice [measure 93] %%%
+                        %%% SaxophoneMusicVoice [measure 88] %%%
                         a''16 -\accent [
                         
                         as''16
@@ -3462,7 +3256,76 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         
-                        %%% Saxophone Music Voice [measure 96] %%%
+                        a''16 -\accent [
+                        
+                        as''16
+                        
+                        b''16
+                        
+                        d'''16
+                        
+                        ds'''16
+                        
+                        bs''16
+                        
+                        cs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        
+                        a''16 -\accent [
+                        
+                        as''16
+                        
+                        b''16
+                        
+                        d'''16
+                        
+                        ds'''16
+                        
+                        bs''16
+                        
+                        cs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        
+                        %%% SaxophoneMusicVoice [measure 92] %%%
+                        a''16 -\accent [
+                        
+                        as''16
+                        
+                        b''16
+                        
+                        d'''16
+                        
+                        ds'''16
+                        
+                        bs''16
+                        
+                        cs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        
+                        a''16 -\accent [
+                        
+                        as''16
+                        
+                        b''16
+                        
+                        d'''16
+                        
+                        ds'''16
+                        
+                        bs''16
+                        
+                        cs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        
+                        %%% SaxophoneMusicVoice [measure 93] %%%
                         a''16 -\accent [
                         
                         as''16
@@ -3565,7 +3428,144 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         
-                        %%% Saxophone Music Voice [measure 99] %%%
+                        a''16 -\accent [
+                        
+                        as''16
+                        
+                        b''16
+                        
+                        d'''16
+                        
+                        ds'''16
+                        
+                        bs''16
+                        
+                        cs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        
+                        a''16 -\accent [
+                        
+                        as''16
+                        
+                        b''16
+                        
+                        d'''16
+                        
+                        ds'''16
+                        
+                        bs''16
+                        
+                        cs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        
+                        %%% SaxophoneMusicVoice [measure 96] %%%
+                        a''16 -\accent [
+                        
+                        as''16
+                        
+                        b''16
+                        
+                        d'''16
+                        
+                        ds'''16
+                        
+                        bs''16
+                        
+                        cs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        
+                        a''16 -\accent [
+                        
+                        as''16
+                        
+                        b''16
+                        
+                        d'''16
+                        
+                        ds'''16
+                        
+                        bs''16
+                        
+                        cs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        
+                        a''16 -\accent [
+                        
+                        as''16
+                        
+                        b''16
+                        
+                        d'''16
+                        
+                        ds'''16
+                        
+                        bs''16
+                        
+                        cs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        
+                        a''16 -\accent [
+                        
+                        as''16
+                        
+                        b''16
+                        
+                        d'''16
+                        
+                        ds'''16
+                        
+                        bs''16
+                        
+                        cs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        
+                        a''16 -\accent [
+                        
+                        as''16
+                        
+                        b''16
+                        
+                        d'''16
+                        
+                        ds'''16
+                        
+                        bs''16
+                        
+                        cs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        
+                        a''16 -\accent [
+                        
+                        as''16
+                        
+                        b''16
+                        
+                        d'''16
+                        
+                        ds'''16
+                        
+                        bs''16
+                        
+                        cs'''16 ]
+                    }
+                    \tweak text #tuplet-number::calc-fraction-text
+                    \times 6/7 {
+                        
+                        %%% SaxophoneMusicVoice [measure 99] %%%
                         a''16 -\accent [
                         
                         as''16
@@ -3759,10 +3759,10 @@
                         b''16 ]
                     }
                     
-                    %%% Saxophone Music Voice [measure 104] %%%
+                    %%% SaxophoneMusicVoice [measure 104] %%%
                     R1 * 15/4
                     
-                    %%% Saxophone Music Voice [measure 108] %%%
+                    %%% SaxophoneMusicVoice [measure 108] %%%
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
@@ -3775,10 +3775,10 @@
                                     airtone
                             }
                     
-                    %%% Saxophone Music Voice [measure 109] %%%
+                    %%% SaxophoneMusicVoice [measure 109] %%%
                     a1 \repeatTie
                     
-                    %%% Saxophone Music Voice [measure 110] %%%
+                    %%% SaxophoneMusicVoice [measure 110] %%%
                     a2... \repeatTie
                     
                     r16
@@ -3786,7 +3786,7 @@
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     a4
                     
-                    %%% Saxophone Music Voice [measure 111] %%%
+                    %%% SaxophoneMusicVoice [measure 111] %%%
                     a4. \repeatTie
                     
                     a4 \repeatTie
@@ -3800,12 +3800,12 @@
                 }
             }
         >>
-        \context PercussionSectionStaffGroup = "Percussion Section Staff Group" <<
+        \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup" <<
             \tag guitar
-            \context GuitarMusicStaff = "Guitar Music Staff" {
-                \context GuitarMusicVoice = "Guitar Music Voice" {
+            \context GuitarMusicStaff = "GuitarMusicStaff" {
+                \context GuitarMusicVoice = "GuitarMusicVoice" {
                     
-                    %%% Guitar Music Voice [measure 75] %%%
+                    %%% GuitarMusicVoice [measure 75] %%%
                     \set GuitarMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -3821,88 +3821,88 @@
                     \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     g'2
                     
-                    %%% Guitar Music Voice [measure 76] %%%
+                    %%% GuitarMusicVoice [measure 76] %%%
                     g'2 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 77] %%%
+                    %%% GuitarMusicVoice [measure 77] %%%
                     R1 * 29/4
                     
-                    %%% Guitar Music Voice [measure 84] %%%
+                    %%% GuitarMusicVoice [measure 84] %%%
                     af''2. :32 \fff
                     
-                    %%% Guitar Music Voice [measure 85] %%%
+                    %%% GuitarMusicVoice [measure 85] %%%
                     af''1 :32 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 86] %%%
+                    %%% GuitarMusicVoice [measure 86] %%%
                     af''2. :32 \repeatTie
                     
                     af''2 :32 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 87] %%%
+                    %%% GuitarMusicVoice [measure 87] %%%
                     af''2. :32 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 88] %%%
+                    %%% GuitarMusicVoice [measure 88] %%%
                     af''2 :32 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 89] %%%
+                    %%% GuitarMusicVoice [measure 89] %%%
                     af''1. :32 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 90] %%%
+                    %%% GuitarMusicVoice [measure 90] %%%
                     af''2 :32 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 91] %%%
+                    %%% GuitarMusicVoice [measure 91] %%%
                     af''2. :32 \repeatTie
                     
                     af''2 :32 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 92] %%%
+                    %%% GuitarMusicVoice [measure 92] %%%
                     af''2. :32 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 93] %%%
+                    %%% GuitarMusicVoice [measure 93] %%%
                     af''1 :32 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 94] %%%
+                    %%% GuitarMusicVoice [measure 94] %%%
                     af''1. :32 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 95] %%%
+                    %%% GuitarMusicVoice [measure 95] %%%
                     af''2 :32 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 96] %%%
+                    %%% GuitarMusicVoice [measure 96] %%%
                     af''2 :32 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 97] %%%
+                    %%% GuitarMusicVoice [measure 97] %%%
                     af''2. :32 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 98] %%%
+                    %%% GuitarMusicVoice [measure 98] %%%
                     af''1 :32 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 99] %%%
+                    %%% GuitarMusicVoice [measure 99] %%%
                     af''2 :32 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 100] %%%
+                    %%% GuitarMusicVoice [measure 100] %%%
                     af''2 :32 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 101] %%%
+                    %%% GuitarMusicVoice [measure 101] %%%
                     af''1. :32 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 102] %%%
+                    %%% GuitarMusicVoice [measure 102] %%%
                     af''1 :32 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 103] %%%
+                    %%% GuitarMusicVoice [measure 103] %%%
                     af''2. :32 \repeatTie
                     
-                    %%% Guitar Music Voice [measure 104] %%%
+                    %%% GuitarMusicVoice [measure 104] %%%
                     R1 * 31/4
                     \bar "|"
                     
                 }
             }
             \tag piano
-            \context PianoMusicStaff = "Piano Music Staff" {
-                \context PianoMusicVoice = "Piano Music Voice" {
+            \context PianoMusicStaff = "PianoMusicStaff" {
+                \context PianoMusicVoice = "PianoMusicVoice" {
                     {
                         
-                        %%% Piano Music Voice [measure 75] %%%
+                        %%% PianoMusicVoice [measure 75] %%%
                         \stopStaff
                         \once \override Staff.StaffSymbol.line-count = 1
                         \startStaff
@@ -3941,7 +3941,7 @@
                     }
                     {
                         
-                        %%% Piano Music Voice [measure 76] %%%
+                        %%% PianoMusicVoice [measure 76] %%%
                         b'''16 [
                         
                         df''''16
@@ -3960,7 +3960,7 @@
                     }
                     \times 4/5 {
                         
-                        %%% Piano Music Voice [measure 77] %%%
+                        %%% PianoMusicVoice [measure 77] %%%
                         a'''16. [
                         
                         c''''16.
@@ -4005,7 +4005,7 @@
                     }
                     \times 2/3 {
                         
-                        %%% Piano Music Voice [measure 78] %%%
+                        %%% PianoMusicVoice [measure 78] %%%
                         f''''8 [
                         
                         b'''8
@@ -4034,7 +4034,7 @@
                     }
                     \times 2/3 {
                         
-                        %%% Piano Music Voice [measure 79] %%%
+                        %%% PianoMusicVoice [measure 79] %%%
                         e''''8 \ffff [
                         
                         c''''8
@@ -4075,7 +4075,7 @@
                     }
                     \times 4/5 {
                         
-                        %%% Piano Music Voice [measure 80] %%%
+                        %%% PianoMusicVoice [measure 80] %%%
                         df''''16. [
                         
                         ef''''16.
@@ -4100,7 +4100,7 @@
                     }
                     \times 4/5 {
                         
-                        %%% Piano Music Voice [measure 81] %%%
+                        %%% PianoMusicVoice [measure 81] %%%
                         e''''16 [
                         
                         c''''16
@@ -4143,7 +4143,7 @@
                     }
                     \times 2/3 {
                         
-                        %%% Piano Music Voice [measure 82] %%%
+                        %%% PianoMusicVoice [measure 82] %%%
                         ef''''8 [
                         
                         a'''8
@@ -4196,7 +4196,7 @@
                     }
                     \times 2/3 {
                         
-                        %%% Piano Music Voice [measure 83] %%%
+                        %%% PianoMusicVoice [measure 83] %%%
                         e''''8 [
                         
                         c''''8
@@ -4235,7 +4235,7 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 9/11 {
                         
-                        %%% Piano Music Voice [measure 84] %%%
+                        %%% PianoMusicVoice [measure 84] %%%
                         c'''16 -\accent \fff [
                         
                         d'''16
@@ -4736,7 +4736,7 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 9/11 {
                         
-                        %%% Piano Music Voice [measure 96] %%%
+                        %%% PianoMusicVoice [measure 96] %%%
                         c'''16 -\accent [
                         
                         d'''16
@@ -4837,7 +4837,7 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 9/11 {
                         
-                        %%% Piano Music Voice [measure 99] %%%
+                        %%% PianoMusicVoice [measure 99] %%%
                         c'''16 -\accent [
                         
                         d'''16
@@ -5028,17 +5028,17 @@
                         c'''16 ]
                     }
                     
-                    %%% Piano Music Voice [measure 104] %%%
+                    %%% PianoMusicVoice [measure 104] %%%
                     R1 * 31/4
                     \bar "|"
                     
                 }
             }
             \tag percussion
-            \context PercussionMusicStaff = "Percussion Staff" {
-                \context PercussionMusicVoice = "Percussion Music Voice" {
+            \context PercussionMusicStaff = "PercussionStaff" {
+                \context PercussionMusicVoice = "PercussionMusicVoice" {
                     
-                    %%% Percussion Music Voice [measure 75] %%%
+                    %%% PercussionMusicVoice [measure 75] %%%
                     \set PercussionMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -5054,7 +5054,7 @@
                     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     R1 * 13/4
                     
-                    %%% Percussion Music Voice [measure 79] %%%
+                    %%% PercussionMusicVoice [measure 79] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5071,7 +5071,7 @@
                                             "bass drum"
                             }
                     
-                    %%% Percussion Music Voice [measure 80] %%%
+                    %%% PercussionMusicVoice [measure 80] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5079,7 +5079,7 @@
                     \once \override Stem.color = #blue
                     c'2. :32 \repeatTie
                     
-                    %%% Percussion Music Voice [measure 81] %%%
+                    %%% PercussionMusicVoice [measure 81] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5087,7 +5087,7 @@
                     \once \override Stem.color = #blue
                     c'1 :32 \repeatTie
                     
-                    %%% Percussion Music Voice [measure 82] %%%
+                    %%% PercussionMusicVoice [measure 82] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5097,7 +5097,7 @@
                     
                     c'2 :32 \repeatTie
                     
-                    %%% Percussion Music Voice [measure 83] %%%
+                    %%% PercussionMusicVoice [measure 83] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5105,7 +5105,7 @@
                     \once \override Stem.color = #blue
                     c'1 :32 \repeatTie
                     
-                    %%% Percussion Music Voice [measure 84] %%%
+                    %%% PercussionMusicVoice [measure 84] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5135,7 +5135,7 @@
                     \once \override Stem.color = #blue
                     c'4 -\staccato -\tongue #2
                     
-                    %%% Percussion Music Voice [measure 85] %%%
+                    %%% PercussionMusicVoice [measure 85] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5164,80 +5164,7 @@
                     \once \override Stem.color = #blue
                     c'4 -\staccato -\tongue #2
                     
-                    %%% Percussion Music Voice [measure 86] %%%
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    %%% Percussion Music Voice [measure 87] %%%
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    %%% Percussion Music Voice [measure 88] %%%
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    %%% Percussion Music Voice [measure 89] %%%
+                    %%% PercussionMusicVoice [measure 86] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5273,29 +5200,7 @@
                     \once \override Stem.color = #blue
                     c'4 -\staccato -\tongue #2
                     
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    %%% Percussion Music Voice [measure 90] %%%
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    %%% Percussion Music Voice [measure 91] %%%
+                    %%% PercussionMusicVoice [measure 87] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5317,6 +5222,7 @@
                     \once \override Stem.color = #blue
                     c'4 -\staccato -\tongue #2
                     
+                    %%% PercussionMusicVoice [measure 88] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5331,58 +5237,7 @@
                     \once \override Stem.color = #blue
                     c'4 -\staccato -\tongue #2
                     
-                    %%% Percussion Music Voice [measure 92] %%%
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    %%% Percussion Music Voice [measure 93] %%%
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    %%% Percussion Music Voice [measure 94] %%%
+                    %%% PercussionMusicVoice [measure 89] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5425,7 +5280,7 @@
                     \once \override Stem.color = #blue
                     c'4 -\staccato -\tongue #2
                     
-                    %%% Percussion Music Voice [measure 95] %%%
+                    %%% PercussionMusicVoice [measure 90] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5440,44 +5295,7 @@
                     \once \override Stem.color = #blue
                     c'4 -\staccato -\tongue #2
                     
-                    %%% Percussion Music Voice [measure 96] %%%
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    %%% Percussion Music Voice [measure 97] %%%
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    \once \override Beam.color = #blue
-                    \once \override Dots.color = #blue
-                    \once \override Flag.color = #blue
-                    \once \override NoteHead.color = #blue
-                    \once \override Stem.color = #blue
-                    c'4 -\staccato -\tongue #2
-                    
-                    %%% Percussion Music Voice [measure 98] %%%
+                    %%% PercussionMusicVoice [measure 91] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5506,7 +5324,14 @@
                     \once \override Stem.color = #blue
                     c'4 -\staccato -\tongue #2
                     
-                    %%% Percussion Music Voice [measure 99] %%%
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    %%% PercussionMusicVoice [measure 92] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5521,7 +5346,182 @@
                     \once \override Stem.color = #blue
                     c'4 -\staccato -\tongue #2
                     
-                    %%% Percussion Music Voice [measure 100] %%%
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    %%% PercussionMusicVoice [measure 93] %%%
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    %%% PercussionMusicVoice [measure 94] %%%
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    %%% PercussionMusicVoice [measure 95] %%%
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    %%% PercussionMusicVoice [measure 96] %%%
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    %%% PercussionMusicVoice [measure 97] %%%
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    %%% PercussionMusicVoice [measure 98] %%%
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    %%% PercussionMusicVoice [measure 99] %%%
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    \once \override Beam.color = #blue
+                    \once \override Dots.color = #blue
+                    \once \override Flag.color = #blue
+                    \once \override NoteHead.color = #blue
+                    \once \override Stem.color = #blue
+                    c'4 -\staccato -\tongue #2
+                    
+                    %%% PercussionMusicVoice [measure 100] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5536,7 +5536,7 @@
                     \once \override Stem.color = #blue
                     c'8 -\staccato -\tongue #2 ~
                     
-                    %%% Percussion Music Voice [measure 101] %%%
+                    %%% PercussionMusicVoice [measure 101] %%%
                     c'4
                     
                     \once \override Beam.color = #blue
@@ -5569,7 +5569,7 @@
                     \once \override Stem.color = #blue
                     c'8 -\staccato -\tongue #2 ~
                     
-                    %%% Percussion Music Voice [measure 102] %%%
+                    %%% PercussionMusicVoice [measure 102] %%%
                     c'4
                     
                     \once \override Beam.color = #blue
@@ -5586,7 +5586,7 @@
                     \once \override Stem.color = #blue
                     c'4. -\staccato -\tongue #2
                     
-                    %%% Percussion Music Voice [measure 103] %%%
+                    %%% PercussionMusicVoice [measure 103] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5601,7 +5601,7 @@
                     \once \override Stem.color = #blue
                     c'4. -\staccato -\tongue #2
                     
-                    %%% Percussion Music Voice [measure 104] %%%
+                    %%% PercussionMusicVoice [measure 104] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5617,7 +5617,7 @@
                                             "bass drum"
                             }
                     
-                    %%% Percussion Music Voice [measure 105] %%%
+                    %%% PercussionMusicVoice [measure 105] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5625,7 +5625,7 @@
                     \once \override Stem.color = #blue
                     c'1 :32 \repeatTie
                     
-                    %%% Percussion Music Voice [measure 106] %%%
+                    %%% PercussionMusicVoice [measure 106] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5635,7 +5635,7 @@
                     
                     c'2 :32 \repeatTie
                     
-                    %%% Percussion Music Voice [measure 107] %%%
+                    %%% PercussionMusicVoice [measure 107] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5643,7 +5643,7 @@
                     \once \override Stem.color = #blue
                     c'2. :32 \repeatTie
                     
-                    %%% Percussion Music Voice [measure 108] %%%
+                    %%% PercussionMusicVoice [measure 108] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5651,7 +5651,7 @@
                     \once \override Stem.color = #blue
                     c'1 :32 \repeatTie
                     
-                    %%% Percussion Music Voice [measure 109] %%%
+                    %%% PercussionMusicVoice [measure 109] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5659,7 +5659,7 @@
                     \once \override Stem.color = #blue
                     c'1 :32 \repeatTie
                     
-                    %%% Percussion Music Voice [measure 110] %%%
+                    %%% PercussionMusicVoice [measure 110] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5669,7 +5669,7 @@
                     
                     c'2 :32 \repeatTie
                     
-                    %%% Percussion Music Voice [measure 111] %%%
+                    %%% PercussionMusicVoice [measure 111] %%%
                     \once \override Beam.color = #blue
                     \once \override Dots.color = #blue
                     \once \override Flag.color = #blue
@@ -5681,12 +5681,12 @@
                 }
             }
         >>
-        \context StringSectionStaffGroup = "String Section Staff Group" <<
+        \context StringSectionStaffGroup = "StringSectionStaffGroup" <<
             \tag strings.violin
-            \context ViolinMusicStaff = "Violin Music Staff" {
-                \context ViolinMusicVoice = "Violin Music Voice" {
+            \context ViolinMusicStaff = "ViolinMusicStaff" {
+                \context ViolinMusicVoice = "ViolinMusicVoice" {
                     
-                    %%% Violin Music Voice [measure 75] %%%
+                    %%% ViolinMusicVoice [measure 75] %%%
                     \set ViolinMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -5702,10 +5702,10 @@
                     \once \override ViolinMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     a'2
                     
-                    %%% Violin Music Voice [measure 76] %%%
+                    %%% ViolinMusicVoice [measure 76] %%%
                     a'2 \repeatTie
                     
-                    %%% Violin Music Voice [measure 77] %%%
+                    %%% ViolinMusicVoice [measure 77] %%%
                     \override NoteHead.style = #'harmonic
                     gff'1. \p \glissando
                         ^ \markup {
@@ -5714,21 +5714,21 @@
                                     "estr. sul pont."
                             }
                     
-                    %%% Violin Music Voice [measure 78] %%%
+                    %%% ViolinMusicVoice [measure 78] %%%
                     gf'2. \glissando
                     \times 4/5 {
                         
-                        %%% Violin Music Voice [measure 79] %%%
+                        %%% ViolinMusicVoice [measure 79] %%%
                         bff'2. \glissando \< \pp
                         
                         ff'2 \glissando
                     }
                     
-                    %%% Violin Music Voice [measure 80] %%%
+                    %%% ViolinMusicVoice [measure 80] %%%
                     dff'2. \glissando
                     \times 2/3 {
                         
-                        %%% Violin Music Voice [measure 81] %%%
+                        %%% ViolinMusicVoice [measure 81] %%%
                         cf'1 \glissando
                         
                         af'2 \glissando
@@ -5736,35 +5736,35 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/9 {
                         
-                        %%% Violin Music Voice [measure 82] %%%
+                        %%% ViolinMusicVoice [measure 82] %%%
                         ff'2. \glissando
                         
                         ef'1. \glissando
                     }
                     \times 4/7 {
                         
-                        %%% Violin Music Voice [measure 83] %%%
+                        %%% ViolinMusicVoice [measure 83] %%%
                         gff'1 \glissando
                         
                         aff'2. \f \glissando
                     }
                     
-                    %%% Violin Music Voice [measure 84] %%%
+                    %%% ViolinMusicVoice [measure 84] %%%
                     bff'2. \fff \glissando
                     
-                    %%% Violin Music Voice [measure 85] %%%
+                    %%% ViolinMusicVoice [measure 85] %%%
                     af'1 \glissando
                     
-                    %%% Violin Music Voice [measure 86] %%%
+                    %%% ViolinMusicVoice [measure 86] %%%
                     bf2 \glissando
                     
                     eff'2. \glissando
                     
-                    %%% Violin Music Voice [measure 87] %%%
+                    %%% ViolinMusicVoice [measure 87] %%%
                     df'2. \glissando
                     \times 2/3 {
                         
-                        %%% Violin Music Voice [measure 88] %%%
+                        %%% ViolinMusicVoice [measure 88] %%%
                         ff'4 \glissando
                         
                         dff'2 \glissando
@@ -5772,46 +5772,46 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         
-                        %%% Violin Music Voice [measure 89] %%%
+                        %%% ViolinMusicVoice [measure 89] %%%
                         cf'1 \glissando
                         
                         af'2. \glissando
                     }
                     \times 4/7 {
                         
-                        %%% Violin Music Voice [measure 90] %%%
+                        %%% ViolinMusicVoice [measure 90] %%%
                         bff'4. \glissando
                         
                         ef'2 \glissando
                     }
                     
-                    %%% Violin Music Voice [measure 91] %%%
+                    %%% ViolinMusicVoice [measure 91] %%%
                     gff'2.
                     
                     gff'2 \repeatTie \glissando
                     
-                    %%% Violin Music Voice [measure 92] %%%
+                    %%% ViolinMusicVoice [measure 92] %%%
                     aff'2. \glissando
                     \times 2/3 {
                         
-                        %%% Violin Music Voice [measure 93] %%%
+                        %%% ViolinMusicVoice [measure 93] %%%
                         df'1 \glissando
                         
                         af'2 \glissando
                     }
                     
-                    %%% Violin Music Voice [measure 94] %%%
+                    %%% ViolinMusicVoice [measure 94] %%%
                     bf1. \glissando
                     \times 4/7 {
                         
-                        %%% Violin Music Voice [measure 95] %%%
+                        %%% ViolinMusicVoice [measure 95] %%%
                         eff'2 \glissando
                         
                         ff'4. \glissando
                     }
                     \times 4/7 {
                         
-                        %%% Violin Music Voice [measure 96] %%%
+                        %%% ViolinMusicVoice [measure 96] %%%
                         gff'4. \glissando
                         
                         gf'2 \glissando
@@ -5819,30 +5819,30 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
                         
-                        %%% Violin Music Voice [measure 97] %%%
+                        %%% ViolinMusicVoice [measure 97] %%%
                         bff'2. \glissando
                         
                         aff'2 \glissando
                     }
                     
-                    %%% Violin Music Voice [measure 98] %%%
+                    %%% ViolinMusicVoice [measure 98] %%%
                     bff'1 \glissando
                     
-                    %%% Violin Music Voice [measure 99] %%%
+                    %%% ViolinMusicVoice [measure 99] %%%
                     ef'2 \glissando
                     \times 2/3 {
                         
-                        %%% Violin Music Voice [measure 100] %%%
+                        %%% ViolinMusicVoice [measure 100] %%%
                         gff'4 \glissando
                         
                         eff'2 \glissando
                     }
                     
-                    %%% Violin Music Voice [measure 101] %%%
+                    %%% ViolinMusicVoice [measure 101] %%%
                     df'1. \glissando
                     \times 4/7 {
                         
-                        %%% Violin Music Voice [measure 102] %%%
+                        %%% ViolinMusicVoice [measure 102] %%%
                         af'2. \glissando
                         
                         bf1 \glissando
@@ -5850,24 +5850,24 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
                         
-                        %%% Violin Music Voice [measure 103] %%%
+                        %%% ViolinMusicVoice [measure 103] %%%
                         bff'2. \glissando
                         
                         ff'2
                         \revert NoteHead.style
                     }
                     
-                    %%% Violin Music Voice [measure 104] %%%
+                    %%% ViolinMusicVoice [measure 104] %%%
                     R1 * 31/4
                     \bar "|"
                     
                 }
             }
             \tag strings.viola
-            \context ViolaMusicStaff = "Viola Music Staff" {
-                \context ViolaMusicVoice = "Viola Music Voice" {
+            \context ViolaMusicStaff = "ViolaMusicStaff" {
+                \context ViolaMusicVoice = "ViolaMusicVoice" {
                     
-                    %%% Viola Music Voice [measure 75] %%%
+                    %%% ViolaMusicVoice [measure 75] %%%
                     \set ViolaMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -5883,12 +5883,12 @@
                     \once \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     gs'2
                     
-                    %%% Viola Music Voice [measure 76] %%%
+                    %%% ViolaMusicVoice [measure 76] %%%
                     gs'2 \repeatTie
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
                         
-                        %%% Viola Music Voice [measure 77] %%%
+                        %%% ViolaMusicVoice [measure 77] %%%
                         \override NoteHead.style = #'harmonic
                         gff'1. \p \glissando
                             ^ \markup {
@@ -5900,30 +5900,30 @@
                         gf'1 \glissando
                     }
                     
-                    %%% Viola Music Voice [measure 78] %%%
+                    %%% ViolaMusicVoice [measure 78] %%%
                     bff'2. \glissando
                     
-                    %%% Viola Music Voice [measure 79] %%%
+                    %%% ViolaMusicVoice [measure 79] %%%
                     ff'1 \glissando \< \pp
                     
-                    %%% Viola Music Voice [measure 80] %%%
+                    %%% ViolaMusicVoice [measure 80] %%%
                     dff'4 \glissando
                     
                     cf'2 \glissando
                     
-                    %%% Viola Music Voice [measure 81] %%%
+                    %%% ViolaMusicVoice [measure 81] %%%
                     af'1 \glissando
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/7 {
                         
-                        %%% Viola Music Voice [measure 82] %%%
+                        %%% ViolaMusicVoice [measure 82] %%%
                         ff'2. \glissando
                         
                         ef'1 \glissando
                     }
                     \times 4/5 {
                         
-                        %%% Viola Music Voice [measure 83] %%%
+                        %%% ViolaMusicVoice [measure 83] %%%
                         gff'2. \glissando
                         
                         aff'2 \f \glissando
@@ -5931,41 +5931,41 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
                         
-                        %%% Viola Music Voice [measure 84] %%%
+                        %%% ViolaMusicVoice [measure 84] %%%
                         bff'2 \fff \glissando
                         
                         af'2. \glissando
                     }
                     
-                    %%% Viola Music Voice [measure 85] %%%
+                    %%% ViolaMusicVoice [measure 85] %%%
                     bf1 \glissando
                     
-                    %%% Viola Music Voice [measure 86] %%%
+                    %%% ViolaMusicVoice [measure 86] %%%
                     eff'2.
                     
                     eff'2 \repeatTie \glissando
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         
-                        %%% Viola Music Voice [measure 87] %%%
+                        %%% ViolaMusicVoice [measure 87] %%%
                         df'2 \glissando
                         
                         ff'4. \glissando
                     }
                     
-                    %%% Viola Music Voice [measure 88] %%%
+                    %%% ViolaMusicVoice [measure 88] %%%
                     dff'2 \glissando
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
                         
-                        %%% Viola Music Voice [measure 89] %%%
+                        %%% ViolaMusicVoice [measure 89] %%%
                         cf'1. \glissando
                         
                         af'1 \glissando
                     }
                     \times 4/5 {
                         
-                        %%% Viola Music Voice [measure 90] %%%
+                        %%% ViolaMusicVoice [measure 90] %%%
                         bff'4 \glissando
                         
                         ef'4. \glissando
@@ -5973,82 +5973,82 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/9 {
                         
-                        %%% Viola Music Voice [measure 91] %%%
+                        %%% ViolaMusicVoice [measure 91] %%%
                         gff'1. \glissando
                         
                         aff'2. \glissando
                     }
                     
-                    %%% Viola Music Voice [measure 92] %%%
+                    %%% ViolaMusicVoice [measure 92] %%%
                     df'2. \glissando
                     
-                    %%% Viola Music Voice [measure 93] %%%
+                    %%% ViolaMusicVoice [measure 93] %%%
                     af'1 \glissando
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         
-                        %%% Viola Music Voice [measure 94] %%%
+                        %%% ViolaMusicVoice [measure 94] %%%
                         bf2. \glissando
                         
                         eff'1 \glissando
                     }
                     
-                    %%% Viola Music Voice [measure 95] %%%
+                    %%% ViolaMusicVoice [measure 95] %%%
                     ff'2 \glissando
                     \times 4/5 {
                         
-                        %%% Viola Music Voice [measure 96] %%%
+                        %%% ViolaMusicVoice [measure 96] %%%
                         gff'4 \glissando
                         
                         gf'4. \glissando
                     }
                     
-                    %%% Viola Music Voice [measure 97] %%%
+                    %%% ViolaMusicVoice [measure 97] %%%
                     bff'2 \glissando
                     
                     aff'4 \glissando
                     \times 2/3 {
                         
-                        %%% Viola Music Voice [measure 98] %%%
+                        %%% ViolaMusicVoice [measure 98] %%%
                         bff'2 \glissando
                         
                         ef'1 \glissando
                     }
                     
-                    %%% Viola Music Voice [measure 99] %%%
+                    %%% ViolaMusicVoice [measure 99] %%%
                     gff'2 \glissando
                     
-                    %%% Viola Music Voice [measure 100] %%%
+                    %%% ViolaMusicVoice [measure 100] %%%
                     eff'2 \glissando
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
                         
-                        %%% Viola Music Voice [measure 101] %%%
+                        %%% ViolaMusicVoice [measure 101] %%%
                         df'1. \glissando
                         
                         af'1 \glissando
                     }
                     
-                    %%% Viola Music Voice [measure 102] %%%
+                    %%% ViolaMusicVoice [measure 102] %%%
                     bf1 \glissando
                     
-                    %%% Viola Music Voice [measure 103] %%%
+                    %%% ViolaMusicVoice [measure 103] %%%
                     bff'2 \glissando
                     
                     ff'4
                     \revert NoteHead.style
                     
-                    %%% Viola Music Voice [measure 104] %%%
+                    %%% ViolaMusicVoice [measure 104] %%%
                     R1 * 31/4
                     \bar "|"
                     
                 }
             }
             \tag strings.cello
-            \context CelloMusicStaff = "Cello Music Staff" {
-                \context CelloMusicVoice = "Cello Music Voice" {
+            \context CelloMusicStaff = "CelloMusicStaff" {
+                \context CelloMusicVoice = "CelloMusicVoice" {
                     
-                    %%% Cello Music Voice [measure 75] %%%
+                    %%% CelloMusicVoice [measure 75] %%%
                     \set CelloMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -6064,10 +6064,10 @@
                     \once \override CelloMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     g2
                     
-                    %%% Cello Music Voice [measure 76] %%%
+                    %%% CelloMusicVoice [measure 76] %%%
                     g2 \repeatTie
                     
-                    %%% Cello Music Voice [measure 77] %%%
+                    %%% CelloMusicVoice [measure 77] %%%
                     \override NoteHead.style = #'harmonic
                     gff'1 \p \glissando
                         ^ \markup {
@@ -6078,68 +6078,68 @@
                     
                     gf'2 \glissando
                     
-                    %%% Cello Music Voice [measure 78] %%%
+                    %%% CelloMusicVoice [measure 78] %%%
                     bff'4 \glissando
                     
                     ff'2 \glissando
                     
-                    %%% Cello Music Voice [measure 79] %%%
+                    %%% CelloMusicVoice [measure 79] %%%
                     dff'1 \glissando \< \pp
                     
-                    %%% Cello Music Voice [measure 80] %%%
+                    %%% CelloMusicVoice [measure 80] %%%
                     cf'2. \glissando
                     \times 4/5 {
                         
-                        %%% Cello Music Voice [measure 81] %%%
+                        %%% CelloMusicVoice [measure 81] %%%
                         af'2. \glissando
                         
                         ff'2 \glissando
                     }
                     
-                    %%% Cello Music Voice [measure 82] %%%
+                    %%% CelloMusicVoice [measure 82] %%%
                     ef'2.
                     
                     ef'2 \repeatTie \glissando
                     \times 2/3 {
                         
-                        %%% Cello Music Voice [measure 83] %%%
+                        %%% CelloMusicVoice [measure 83] %%%
                         gff'1 \glissando
                         
                         aff'2 \f \glissando
                     }
                     
-                    %%% Cello Music Voice [measure 84] %%%
+                    %%% CelloMusicVoice [measure 84] %%%
                     bff'4 \fff \glissando
                     
                     af'2 \glissando
                     \times 4/7 {
                         
-                        %%% Cello Music Voice [measure 85] %%%
+                        %%% CelloMusicVoice [measure 85] %%%
                         bf1 \glissando
                         
                         eff'2. \glissando
                     }
                     
-                    %%% Cello Music Voice [measure 86] %%%
+                    %%% CelloMusicVoice [measure 86] %%%
                     df'2.
                     
                     df'2 \repeatTie \glissando
                     
-                    %%% Cello Music Voice [measure 87] %%%
+                    %%% CelloMusicVoice [measure 87] %%%
                     ff'2. \glissando
                     \times 4/5 {
                         
-                        %%% Cello Music Voice [measure 88] %%%
+                        %%% CelloMusicVoice [measure 88] %%%
                         dff'4 \glissando
                         
                         cf'4. \glissando
                     }
                     
-                    %%% Cello Music Voice [measure 89] %%%
+                    %%% CelloMusicVoice [measure 89] %%%
                     af'1. \glissando
                     \times 2/3 {
                         
-                        %%% Cello Music Voice [measure 90] %%%
+                        %%% CelloMusicVoice [measure 90] %%%
                         bff'4 \glissando
                         
                         ef'2 \glissando
@@ -6147,7 +6147,7 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/7 {
                         
-                        %%% Cello Music Voice [measure 91] %%%
+                        %%% CelloMusicVoice [measure 91] %%%
                         gff'1 \glissando
                         
                         aff'2. \glissando
@@ -6155,78 +6155,78 @@
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         
-                        %%% Cello Music Voice [measure 92] %%%
+                        %%% CelloMusicVoice [measure 92] %%%
                         df'4. \glissando
                         
                         af'2 \glissando
                     }
                     
-                    %%% Cello Music Voice [measure 93] %%%
+                    %%% CelloMusicVoice [measure 93] %%%
                     bf1 \glissando
                     
-                    %%% Cello Music Voice [measure 94] %%%
+                    %%% CelloMusicVoice [measure 94] %%%
                     eff'1. \glissando
                     \times 2/3 {
                         
-                        %%% Cello Music Voice [measure 95] %%%
+                        %%% CelloMusicVoice [measure 95] %%%
                         ff'2 \glissando
                         
                         gff'4 \glissando
                     }
                     
-                    %%% Cello Music Voice [measure 96] %%%
+                    %%% CelloMusicVoice [measure 96] %%%
                     gf'2 \glissando
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         
-                        %%% Cello Music Voice [measure 97] %%%
+                        %%% CelloMusicVoice [measure 97] %%%
                         bff'2 \glissando
                         
                         aff'4. \glissando
                     }
                     \times 4/7 {
                         
-                        %%% Cello Music Voice [measure 98] %%%
+                        %%% CelloMusicVoice [measure 98] %%%
                         bff'2. \glissando
                         
                         ef'1 \glissando
                     }
                     \times 4/5 {
                         
-                        %%% Cello Music Voice [measure 99] %%%
+                        %%% CelloMusicVoice [measure 99] %%%
                         gff'4. \glissando
                         
                         eff'4 \glissando
                     }
                     
-                    %%% Cello Music Voice [measure 100] %%%
+                    %%% CelloMusicVoice [measure 100] %%%
                     df'2 \glissando
                     
-                    %%% Cello Music Voice [measure 101] %%%
+                    %%% CelloMusicVoice [measure 101] %%%
                     af'1. \glissando
                     \times 2/3 {
                         
-                        %%% Cello Music Voice [measure 102] %%%
+                        %%% CelloMusicVoice [measure 102] %%%
                         bf2 \glissando
                         
                         bff'1 \glissando
                     }
                     
-                    %%% Cello Music Voice [measure 103] %%%
+                    %%% CelloMusicVoice [measure 103] %%%
                     ff'2.
                     \revert NoteHead.style
                     
-                    %%% Cello Music Voice [measure 104] %%%
+                    %%% CelloMusicVoice [measure 104] %%%
                     R1 * 31/4
                     \bar "|"
                     
                 }
             }
             \tag strings.contrabass
-            \context ContrabassMusicStaff = "Contrabass Music Staff" {
-                \context ContrabassMusicVoice = "Contrabass Music Voice" {
+            \context ContrabassMusicStaff = "ContrabassMusicStaff" {
+                \context ContrabassMusicVoice = "ContrabassMusicVoice" {
                     
-                    %%% Contrabass Music Voice [measure 75] %%%
+                    %%% ContrabassMusicVoice [measure 75] %%%
                     \set ContrabassMusicStaff.instrumentName = \markup {
                         \hcenter-in
                             #16
@@ -6242,10 +6242,10 @@
                     \once \override ContrabassMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     <g,, a,>2
                     
-                    %%% Contrabass Music Voice [measure 76] %%%
+                    %%% ContrabassMusicVoice [measure 76] %%%
                     <g,, a,>2 \repeatTie
                     
-                    %%% Contrabass Music Voice [measure 77] %%%
+                    %%% ContrabassMusicVoice [measure 77] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6255,7 +6255,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 78] %%%
+                    %%% ContrabassMusicVoice [measure 78] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6265,7 +6265,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 79] %%%
+                    %%% ContrabassMusicVoice [measure 79] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6275,7 +6275,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 80] %%%
+                    %%% ContrabassMusicVoice [measure 80] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6285,7 +6285,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 81] %%%
+                    %%% ContrabassMusicVoice [measure 81] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6295,7 +6295,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 82] %%%
+                    %%% ContrabassMusicVoice [measure 82] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6314,7 +6314,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 83] %%%
+                    %%% ContrabassMusicVoice [measure 83] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6324,7 +6324,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 84] %%%
+                    %%% ContrabassMusicVoice [measure 84] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6347,7 +6347,7 @@
                                 }
                             }
                     
-                    %%% Contrabass Music Voice [measure 85] %%%
+                    %%% ContrabassMusicVoice [measure 85] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6357,7 +6357,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 86] %%%
+                    %%% ContrabassMusicVoice [measure 86] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6376,7 +6376,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 87] %%%
+                    %%% ContrabassMusicVoice [measure 87] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6386,7 +6386,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 88] %%%
+                    %%% ContrabassMusicVoice [measure 88] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6396,7 +6396,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 89] %%%
+                    %%% ContrabassMusicVoice [measure 89] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6406,7 +6406,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 90] %%%
+                    %%% ContrabassMusicVoice [measure 90] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6416,7 +6416,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 91] %%%
+                    %%% ContrabassMusicVoice [measure 91] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6435,7 +6435,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 92] %%%
+                    %%% ContrabassMusicVoice [measure 92] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6445,7 +6445,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 93] %%%
+                    %%% ContrabassMusicVoice [measure 93] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6455,7 +6455,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 94] %%%
+                    %%% ContrabassMusicVoice [measure 94] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6465,7 +6465,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 95] %%%
+                    %%% ContrabassMusicVoice [measure 95] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6475,7 +6475,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 96] %%%
+                    %%% ContrabassMusicVoice [measure 96] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6485,7 +6485,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 97] %%%
+                    %%% ContrabassMusicVoice [measure 97] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6495,7 +6495,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 98] %%%
+                    %%% ContrabassMusicVoice [measure 98] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6505,7 +6505,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 99] %%%
+                    %%% ContrabassMusicVoice [measure 99] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6515,7 +6515,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 100] %%%
+                    %%% ContrabassMusicVoice [measure 100] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6538,7 +6538,7 @@
                                 }
                             }
                     
-                    %%% Contrabass Music Voice [measure 101] %%%
+                    %%% ContrabassMusicVoice [measure 101] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6548,7 +6548,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 102] %%%
+                    %%% ContrabassMusicVoice [measure 102] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6558,7 +6558,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 103] %%%
+                    %%% ContrabassMusicVoice [measure 103] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6568,7 +6568,7 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 104] %%%
+                    %%% ContrabassMusicVoice [measure 104] %%%
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -6578,10 +6578,10 @@
                         - \tweak color #red
                         ^ \markup { @ }
                     
-                    %%% Contrabass Music Voice [measure 105] %%%
+                    %%% ContrabassMusicVoice [measure 105] %%%
                     r1
                     
-                    %%% Contrabass Music Voice [measure 106] %%%
+                    %%% ContrabassMusicVoice [measure 106] %%%
                     \once \override TrillPitchHead.stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
                     \pitchedTrill
                     g,,2. \mp \startTrillSpan
@@ -6593,21 +6593,21 @@
                     
                     g,,2 \repeatTie
                     
-                    %%% Contrabass Music Voice [measure 107] %%%
+                    %%% ContrabassMusicVoice [measure 107] %%%
                     g,,2. \repeatTie
                     
-                    %%% Contrabass Music Voice [measure 108] %%%
+                    %%% ContrabassMusicVoice [measure 108] %%%
                     g,,1 \repeatTie
                     
-                    %%% Contrabass Music Voice [measure 109] %%%
+                    %%% ContrabassMusicVoice [measure 109] %%%
                     g,,1 \repeatTie
                     
-                    %%% Contrabass Music Voice [measure 110] %%%
+                    %%% ContrabassMusicVoice [measure 110] %%%
                     g,,2. \repeatTie
                     
                     g,,2 \repeatTie
                     
-                    %%% Contrabass Music Voice [measure 111] %%%
+                    %%% ContrabassMusicVoice [measure 111] %%%
                     r2. \stopTrillSpan
                     \bar "|"
                     

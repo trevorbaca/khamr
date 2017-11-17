@@ -69,7 +69,7 @@ guitar_ritardando = guitar_accelerando.reverse()
 ### FLUTE ###
 
 maker(
-    baca.scope('Flute Music Voice', 1, 2),
+    baca.scope('FluteMusicVoice', 1, 2),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
@@ -95,7 +95,7 @@ maker(
     )
 
 maker(
-    baca.scope('Flute Music Voice', 4),
+    baca.scope('FluteMusicVoice', 4),
     baca.RhythmCommand(
         rewrite_meter=True,
         rhythm_maker=rhythmos.NoteRhythmMaker(
@@ -111,7 +111,7 @@ maker(
     )
 
 maker(
-    baca.scope('Flute Music Voice', 5),
+    baca.scope('FluteMusicVoice', 5),
     baca.RhythmCommand(
         rewrite_meter=True,
         division_maker=khamr.beat_divisions(),
@@ -130,7 +130,7 @@ maker(
 ### OBOE ##
 
 maker(
-    baca.scope('Oboe Music Voice', 1, 2),
+    baca.scope('OboeMusicVoice', 1, 2),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
@@ -156,19 +156,19 @@ maker(
     )
 
 maker.copy_rhythm(
-    baca.scope('Flute Music Voice', 4),
-    baca.scope('Oboe Music Voice', 4),
+    baca.scope('FluteMusicVoice', 4),
+    baca.scope('OboeMusicVoice', 4),
     )
 
 maker.copy_rhythm(
-    baca.scope('Flute Music Voice', 5),
-    baca.scope('Oboe Music Voice', 5),
+    baca.scope('FluteMusicVoice', 5),
+    baca.scope('OboeMusicVoice', 5),
     )
 
 ### CLARINET ###
 
 maker(
-    baca.scope('Clarinet Music Voice', 1, 3),
+    baca.scope('ClarinetMusicVoice', 1, 3),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
@@ -195,19 +195,19 @@ maker(
     )
 
 maker.copy_rhythm(
-    baca.scope('Flute Music Voice', 4),
-    baca.scope('Clarinet Music Voice', 4),
+    baca.scope('FluteMusicVoice', 4),
+    baca.scope('ClarinetMusicVoice', 4),
     )
 
 maker.copy_rhythm(
-    baca.scope('Flute Music Voice', 5),
-    baca.scope('Clarinet Music Voice', 5),
+    baca.scope('FluteMusicVoice', 5),
+    baca.scope('ClarinetMusicVoice', 5),
     )
 
 ### SAXOPHONE ###
 
 maker(
-    baca.scope('Saxophone Music Voice', 1, 2),
+    baca.scope('SaxophoneMusicVoice', 1, 2),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
@@ -233,19 +233,19 @@ maker(
     )
 
 maker.copy_rhythm(
-    baca.scope('Flute Music Voice', 4),
-    baca.scope('Saxophone Music Voice', 4),
+    baca.scope('FluteMusicVoice', 4),
+    baca.scope('SaxophoneMusicVoice', 4),
     )
 
 maker.copy_rhythm(
-    baca.scope('Flute Music Voice', 5),
-    baca.scope('Saxophone Music Voice', 5),
+    baca.scope('FluteMusicVoice', 5),
+    baca.scope('SaxophoneMusicVoice', 5),
     )
 
 ### GUITAR ###
 
 maker(
-    baca.scope('Guitar Music Voice', 1),
+    baca.scope('GuitarMusicVoice', 1),
     baca.RhythmCommand(
         division_maker=baca.DivisionMaker()
             .split_by_durations(
@@ -264,7 +264,7 @@ maker(
     )
 
 maker(
-    baca.scope('Guitar Music Voice', 2, 3),
+    baca.scope('GuitarMusicVoice', 2, 3),
     baca.RhythmCommand(
         rewrite_meter=True,
         rhythm_maker=rhythmos.NoteRhythmMaker(
@@ -280,19 +280,19 @@ maker(
     )
 
 maker.copy_rhythm(
-    baca.scope('Flute Music Voice', 4),
-    baca.scope('Guitar Music Voice', 4),
+    baca.scope('FluteMusicVoice', 4),
+    baca.scope('GuitarMusicVoice', 4),
     )
 
 maker.copy_rhythm(
-    baca.scope('Flute Music Voice', 5),
-    baca.scope('Guitar Music Voice', 5),
+    baca.scope('FluteMusicVoice', 5),
+    baca.scope('GuitarMusicVoice', 5),
     )
 
 ### PIANO ###
 
 maker(
-    baca.scope('Piano Music Voice', 1, 3),
+    baca.scope('PianoMusicVoice', 1, 3),
     baca.RhythmCommand(
         rewrite_meter=True,
         rhythm_maker=rhythmos.NoteRhythmMaker(
@@ -308,15 +308,15 @@ maker(
     )
 
 maker.copy_rhythm(
-    baca.scope('Flute Music Voice', 4),
-    baca.scope('Piano Music Voice', 4),
+    baca.scope('FluteMusicVoice', 4),
+    baca.scope('PianoMusicVoice', 4),
     rhythm_maker__tie_specifier=rhythmos.TieSpecifier(
         strip_ties=True,
         ),
     )
 
 maker(
-    baca.scope('Piano Music Voice', 5),
+    baca.scope('PianoMusicVoice', 5),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions(),
         rewrite_meter=True,
@@ -334,7 +334,7 @@ maker(
 ### PERCUSSION ###
 
 maker(
-    baca.scope('Percussion Music Voice', 1, 3),
+    baca.scope('PercussionMusicVoice', 1, 3),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
@@ -350,7 +350,7 @@ maker(
     )
 
 maker(
-    baca.scope('Percussion Music Voice', 4),
+    baca.scope('PercussionMusicVoice', 4),
     baca.RhythmCommand(
         division_maker=baca.DivisionMaker()
             .split_by_durations(
@@ -380,7 +380,7 @@ maker(
     )
 
 maker(
-    baca.scope('Percussion Music Voice', 5),
+    baca.scope('PercussionMusicVoice', 5),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions(),
         rhythm_maker=rhythmos.NoteRhythmMaker(
@@ -394,7 +394,7 @@ maker(
 ### VIOLIN ###
 
 maker(
-    baca.scope('Violin Music Voice', 1, 3),
+    baca.scope('ViolinMusicVoice', 1, 3),
     baca.RhythmCommand(
         division_maker=khamr.quarter_divisions(),
         rewrite_meter=True,
@@ -413,19 +413,19 @@ maker(
     )
 
 maker.copy_rhythm(
-    baca.scope('Flute Music Voice', 4),
-    baca.scope('Violin Music Voice', 4),
+    baca.scope('FluteMusicVoice', 4),
+    baca.scope('ViolinMusicVoice', 4),
     )
 
 maker.copy_rhythm(
-    baca.scope('Flute Music Voice', 5),
-    baca.scope('Violin Music Voice', 5),
+    baca.scope('FluteMusicVoice', 5),
+    baca.scope('ViolinMusicVoice', 5),
     )
 
 ### VIOLA ###
 
 maker(
-    baca.scope('Viola Music Voice', 1, 3),
+    baca.scope('ViolaMusicVoice', 1, 3),
     baca.RhythmCommand(
         division_maker=khamr.quarter_divisions(),
         rewrite_meter=True,
@@ -444,19 +444,19 @@ maker(
     )
 
 maker.copy_rhythm(
-    baca.scope('Violin Music Voice', 4),
-    baca.scope('Viola Music Voice', 4),
+    baca.scope('ViolinMusicVoice', 4),
+    baca.scope('ViolaMusicVoice', 4),
     )
 
 maker.copy_rhythm(
-    baca.scope('Violin Music Voice', 5),
-    baca.scope('Viola Music Voice', 5),
+    baca.scope('ViolinMusicVoice', 5),
+    baca.scope('ViolaMusicVoice', 5),
     )
 
 ### CELLO ###
 
 maker(
-    baca.scope('Cello Music Voice', 1, 2),
+    baca.scope('CelloMusicVoice', 1, 2),
     baca.RhythmCommand(
         division_maker=khamr.quarter_divisions(),
         rewrite_meter=True,
@@ -475,7 +475,7 @@ maker(
     )
 
 maker(
-    baca.scope('Cello Music Voice', 3),
+    baca.scope('CelloMusicVoice', 3),
     baca.RhythmCommand(
         rewrite_meter=True,
         rhythm_maker=rhythmos.NoteRhythmMaker(
@@ -491,19 +491,19 @@ maker(
     )
 
 maker.copy_rhythm(
-    baca.scope('Flute Music Voice', 4),
-    baca.scope('Cello Music Voice', 4),
+    baca.scope('FluteMusicVoice', 4),
+    baca.scope('CelloMusicVoice', 4),
     )
 
 maker.copy_rhythm(
-    baca.scope('Flute Music Voice', 5),
-    baca.scope('Cello Music Voice', 5),
+    baca.scope('FluteMusicVoice', 5),
+    baca.scope('CelloMusicVoice', 5),
     )
 
 ### CONTRABASS ###
 
 maker(
-    baca.scope('Contrabass Music Voice', 1, 3),
+    baca.scope('ContrabassMusicVoice', 1, 3),
     baca.RhythmCommand(
         rewrite_meter=True,
         rhythm_maker=rhythmos.TupletRhythmMaker(
@@ -527,13 +527,13 @@ maker(
     )
 
 maker.copy_rhythm(
-    baca.scope('Flute Music Voice', 4),
-    baca.scope('Contrabass Music Voice', 4),
+    baca.scope('FluteMusicVoice', 4),
+    baca.scope('ContrabassMusicVoice', 4),
     )
 
 maker.copy_rhythm(
-    baca.scope('Flute Music Voice', 5),
-    baca.scope('Contrabass Music Voice', 5),
+    baca.scope('FluteMusicVoice', 5),
+    baca.scope('ContrabassMusicVoice', 5),
     )
 
 ###############################################################################
@@ -543,14 +543,14 @@ maker.copy_rhythm(
 ### FLUTE ###
 
 maker(
-    baca.scope('Flute Music Voice', 1, 2),
+    baca.scope('FluteMusicVoice', 1, 2),
     baca.hairpin('mp > pp'),
     baca.map(baca.trill(), baca.qruns()),
     baca.pitches('Bb4'),
     )
 
 maker(
-    baca.scope('Flute Music Voice', 4, 5),
+    baca.scope('FluteMusicVoice', 4, 5),
     baca.reiterated_dynamic('fff'),
     baca.pitches('B5'),
     baca.stem_tremolo(),
@@ -561,13 +561,13 @@ maker(
 ### OBOE ###
 
 maker(
-    baca.scope('Oboe Music Voice', 1, 2),
+    baca.scope('OboeMusicVoice', 1, 2),
     baca.pitches('<A4 E5>'),
     baca.flageolets(),
     )
 
 maker(
-    baca.scope('Oboe Music Voice', 4, 5),
+    baca.scope('OboeMusicVoice', 4, 5),
     baca.reiterated_dynamic('fff'),
     baca.pitches('G#3'),
     )
@@ -575,12 +575,12 @@ maker(
 ### CLARINET ###
 
 maker(
-    baca.scope('Clarinet Music Voice', 1, 3),
+    baca.scope('ClarinetMusicVoice', 1, 3),
     baca.pitches('G2'),
     )
 
 maker(
-    baca.scope('Clarinet Music Voice', 4, 5),
+    baca.scope('ClarinetMusicVoice', 4, 5),
     baca.reiterated_dynamic('fff'),
     baca.pitches('F#2'),
     )
@@ -588,12 +588,12 @@ maker(
 ### SAXOPHONE ###
 
 maker(
-    baca.scope('Saxophone Music Voice', 1, 2),
+    baca.scope('SaxophoneMusicVoice', 1, 2),
     baca.pitches('<F3 G+3>'),
     )
 
 maker(
-    baca.scope('Saxophone Music Voice', 4, 5),
+    baca.scope('SaxophoneMusicVoice', 4, 5),
     baca.reiterated_dynamic('fff'),
     baca.pitches('G#2'),
     )
@@ -601,20 +601,20 @@ maker(
 ### GUITAR ###
 
 maker(
-    baca.scope('Guitar Music Voice', 1),
+    baca.scope('GuitarMusicVoice', 1),
     baca.pitches(khamr.rose_pitch_classes.rotate(-16)),
     baca.cross_note_heads(),
     )
 
 maker(
-    baca.scope('Guitar Music Voice', 2, 3),
+    baca.scope('GuitarMusicVoice', 2, 3),
     baca.dynamic('mf'),
     baca.pitches('F#2'),
     khamr.markup.sparse_guitar_clicks(),
     )
 
 maker(
-    baca.scope('Guitar Music Voice', 4, 5),
+    baca.scope('GuitarMusicVoice', 4, 5),
     baca.dynamic('ff'),
     baca.pitches('G2'),
     khamr.markup.guitar_with_screw(),
@@ -623,14 +623,14 @@ maker(
 ### PIANO ###
 
 maker(
-    baca.scope('Piano Music Voice', 1, 3),
+    baca.scope('PianoMusicVoice', 1, 3),
     baca.repeat_ties_up(),
     baca.staff_lines(1),
     baca.staff_positions([0]),
     )
 
 maker(
-    baca.scope('Piano Music Voice', 4),
+    baca.scope('PianoMusicVoice', 4),
     baca.clef('bass'),
     baca.ottava_bassa(),
     baca.pitches('<A0 B0 C1 D1 E1 F1 G1 A1>'),
@@ -639,7 +639,7 @@ maker(
     )
 
 maker(
-    baca.scope('Piano Music Voice', 5),
+    baca.scope('PianoMusicVoice', 5),
     baca.clef('treble'),
     baca.dynamic('fff'),
     baca.ottava(),
@@ -650,7 +650,7 @@ maker(
 ### PERCUSSION ###
 
 maker(
-    baca.scope('Percussion Music Voice', 1, 3),
+    baca.scope('PercussionMusicVoice', 1, 3),
     baca.accents(),
     baca.pitches('C4 C4 Ab5 C4 C4 C4'),
     baca.stems_down(),
@@ -658,7 +658,7 @@ maker(
     )
 
 maker(
-    baca.scope('Percussion Music Voice', 4, 5),
+    baca.scope('PercussionMusicVoice', 4, 5),
     baca.pitches('Ab5'),
     baca.stems_down(),
     khamr.MarimbaHitCommand([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
@@ -667,28 +667,28 @@ maker(
 ### VIOLIN ###
 
 maker(
-    baca.scope('Violin Music Voice', 1),
+    baca.scope('ViolinMusicVoice', 1),
     baca.pitches(khamr.color_trill_pitches.transpose(1)),
     )
 
 maker(
-    baca.scope('Violin Music Voice', 2),
+    baca.scope('ViolinMusicVoice', 2),
     baca.pitches(khamr.color_trill_pitches.transpose(2)),
     )
 
 maker(
-    baca.scope('Violin Music Voice', 3),
+    baca.scope('ViolinMusicVoice', 3),
     baca.pitches(khamr.color_trill_pitches.transpose(3)),
     )
 
 maker(
-    baca.scope('Violin Music Voice', 1, 3),
+    baca.scope('ViolinMusicVoice', 1, 3),
     baca.accents(),
     baca.map(baca.trill('m2'), baca.plts()),
     )
 
 maker(
-    baca.scope('Violin Music Voice', 4, 5),
+    baca.scope('ViolinMusicVoice', 4, 5),
     baca.markup.arco_ordinario(),
     baca.pitches('A4'),
     baca.reiterated_dynamic('fff'),
@@ -697,28 +697,28 @@ maker(
 ### VIOLA ###
 
 maker(
-    baca.scope('Viola Music Voice', 1),
+    baca.scope('ViolaMusicVoice', 1),
     baca.pitches(khamr.color_trill_pitches),
     )
 
 maker(
-    baca.scope('Viola Music Voice', 2),
+    baca.scope('ViolaMusicVoice', 2),
     baca.pitches(khamr.color_trill_pitches.transpose(1)),
     )
 
 maker(
-    baca.scope('Viola Music Voice', 3),
+    baca.scope('ViolaMusicVoice', 3),
     baca.pitches(khamr.color_trill_pitches.transpose(2)),
     )
 
 maker(
-    baca.scope('Viola Music Voice', 1, 3),
+    baca.scope('ViolaMusicVoice', 1, 3),
     baca.accents(),
     baca.map(baca.trill('m2'), baca.plts()),
     )
 
 maker(
-    baca.scope('Viola Music Voice', 4, 5),
+    baca.scope('ViolaMusicVoice', 4, 5),
     baca.markup.arco_ordinario(),
     baca.pitches('G#4'),
     baca.reiterated_dynamic('fff'),
@@ -727,21 +727,21 @@ maker(
 ### CELLO ###
 
 maker(
-    baca.scope('Cello Music Voice', 1, 2),
+    baca.scope('CelloMusicVoice', 1, 2),
     baca.accents(),
     baca.map(baca.trill('m2'), baca.plts()),
     baca.pitches(khamr.color_trill_pitches),
     )
 
 maker(
-    baca.scope('Cello Music Voice', 3),
+    baca.scope('CelloMusicVoice', 3),
     baca.dynamic('mf'),
     baca.pitches('F#3'),
     khamr.markup.sparse_cello_clicks(),
     )
 
 maker(
-    baca.scope('Cello Music Voice', 4, 5),
+    baca.scope('CelloMusicVoice', 4, 5),
     baca.markup.arco_ordinario(),
     baca.pitches('G3'),
     baca.reiterated_dynamic('fff'),
@@ -750,7 +750,7 @@ maker(
 ### CONTRABASS ###
 
 maker(
-    baca.scope('Contrabass Music Voice', 1, 3),
+    baca.scope('ContrabassMusicVoice', 1, 3),
     baca.dynamic('mf'),
     baca.glissando(),
     baca.markup.string_numbers([3, 4]),
@@ -759,7 +759,7 @@ maker(
     )
 
 maker(
-    baca.scope('Contrabass Music Voice', 4, 5),
+    baca.scope('ContrabassMusicVoice', 4, 5),
     baca.markup.arco_ordinario(),
     baca.pitches('<G0 A1>'),
     baca.reiterated_dynamic('fff'),
