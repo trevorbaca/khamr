@@ -18,7 +18,8 @@
                 \time 2/4
                 \mark #3
                 \once \override TextScript.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                s1 * 1/2 ^ \markup {
+                s1 * 1/2
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -82,7 +83,8 @@
                 \once \override TextSpanner.dash-fraction = 0.25
                 \once \override TextSpanner.dash-period = 1.5
                 \time 5/4
-                s1 * 5/4 \startTextSpan
+                s1 * 5/4
+                \startTextSpan
                 
                 %%% GlobalSkips [measure 120] %%%
                 \time 4/4
@@ -114,7 +116,9 @@
                 
                 %%% GlobalSkips [measure 127] %%%
                 \time 2/4
-                s1 * 1/2 \stopTextSpan ^ \markup {
+                s1 * 1/2
+                \stopTextSpan
+                ^ \markup {
                     \fontsize
                         #-6
                         \general-align
@@ -169,17 +173,22 @@
                     \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override FluteMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    bf'2 \pp
+                    bf'2
+                    \pp
                     
                     %%% FluteMusicVoice [measure 113] %%%
-                    bf'2 \repeatTie
+                    bf'2
+                    \repeatTie
                     
                     %%% FluteMusicVoice [measure 114] %%%
-                    bf'2. \repeatTie
+                    bf'2.
+                    \repeatTie
                     
-                    bf'2 \repeatTie
+                    bf'2
+                    \repeatTie
                     
-                    bf'8. \repeatTie
+                    bf'8.
+                    \repeatTie
                     
                     r16
                     
@@ -188,12 +197,15 @@
                     bf'2.
                     
                     %%% FluteMusicVoice [measure 116] %%%
-                    bf'1 \repeatTie
+                    bf'1
+                    \repeatTie
                     
                     %%% FluteMusicVoice [measure 117] %%%
-                    bf'4 \repeatTie
+                    bf'4
+                    \repeatTie
                     
-                    bf'16 \repeatTie
+                    bf'16
+                    \repeatTie
                     
                     r16
                     
@@ -201,12 +213,15 @@
                     bf'4.
                     
                     %%% FluteMusicVoice [measure 118] %%%
-                    bf'1 \repeatTie
+                    bf'1
+                    \repeatTie
                     
                     %%% FluteMusicVoice [measure 119] %%%
-                    bf'2 \repeatTie
+                    bf'2
+                    \repeatTie
                     
-                    bf'8. \repeatTie
+                    bf'8.
+                    \repeatTie
                     
                     r16
                     
@@ -214,10 +229,12 @@
                     bf'2
                     
                     %%% FluteMusicVoice [measure 120] %%%
-                    bf'1 \repeatTie
+                    bf'1
+                    \repeatTie
                     
                     %%% FluteMusicVoice [measure 121] %%%
-                    bf'4.. \repeatTie
+                    bf'4..
+                    \repeatTie
                     
                     r16
                     
@@ -225,12 +242,15 @@
                     bf'4
                     
                     %%% FluteMusicVoice [measure 122] %%%
-                    bf'1 \repeatTie
+                    bf'1
+                    \repeatTie
                     
                     %%% FluteMusicVoice [measure 123] %%%
-                    bf'2 \repeatTie
+                    bf'2
+                    \repeatTie
                     
-                    bf'8. \repeatTie
+                    bf'8.
+                    \repeatTie
                     
                     r16
                     
@@ -238,22 +258,27 @@
                     bf'2
                     
                     %%% FluteMusicVoice [measure 124] %%%
-                    bf'2. \repeatTie
+                    bf'2.
+                    \repeatTie
                     
                     %%% FluteMusicVoice [measure 125] %%%
-                    bf'2 \repeatTie
+                    bf'2
+                    \repeatTie
                     
                     %%% FluteMusicVoice [measure 126] %%%
-                    bf'2 \repeatTie
+                    bf'2
+                    \repeatTie
                     
-                    bf'8. \repeatTie
+                    bf'8.
+                    \repeatTie
                     
                     r16
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     bf'2
                     
-                    bf'8. \repeatTie
+                    bf'8.
+                    \repeatTie
                     
                     r16
                     
@@ -286,16 +311,20 @@
                     \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override OboeMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    c'2 \pp
+                    c'2
+                    \pp
                     
                     %%% OboeMusicVoice [measure 113] %%%
-                    c'2 \repeatTie
+                    c'2
+                    \repeatTie
                     
                     %%% OboeMusicVoice [measure 114] %%%
-                    c'1. \repeatTie
+                    c'1.
+                    \repeatTie
                     
                     %%% OboeMusicVoice [measure 115] %%%
-                    c'4.. \repeatTie
+                    c'4..
+                    \repeatTie
                     
                     r16
                     
@@ -303,15 +332,19 @@
                     c'4
                     
                     %%% OboeMusicVoice [measure 116] %%%
-                    c'1 \repeatTie
+                    c'1
+                    \repeatTie
                     
                     %%% OboeMusicVoice [measure 117] %%%
-                    c'2. \repeatTie
+                    c'2.
+                    \repeatTie
                     
                     %%% OboeMusicVoice [measure 118] %%%
-                    c'2 \repeatTie
+                    c'2
+                    \repeatTie
                     
-                    c'8. \repeatTie
+                    c'8.
+                    \repeatTie
                     
                     r16
                     
@@ -319,12 +352,15 @@
                     c'4
                     
                     %%% OboeMusicVoice [measure 119] %%%
-                    c'2. \repeatTie
+                    c'2.
+                    \repeatTie
                     
-                    c'2 \repeatTie
+                    c'2
+                    \repeatTie
                     
                     %%% OboeMusicVoice [measure 120] %%%
-                    c'2... \repeatTie
+                    c'2...
+                    \repeatTie
                     
                     r16
                     
@@ -333,12 +369,15 @@
                     c'2.
                     
                     %%% OboeMusicVoice [measure 122] %%%
-                    c'1 \repeatTie
+                    c'1
+                    \repeatTie
                     
                     %%% OboeMusicVoice [measure 123] %%%
-                    c'2 \repeatTie
+                    c'2
+                    \repeatTie
                     
-                    c'8. \repeatTie
+                    c'8.
+                    \repeatTie
                     
                     r16
                     
@@ -346,17 +385,22 @@
                     c'2
                     
                     %%% OboeMusicVoice [measure 124] %%%
-                    c'2. \repeatTie
+                    c'2.
+                    \repeatTie
                     
                     %%% OboeMusicVoice [measure 125] %%%
-                    c'2 \repeatTie
+                    c'2
+                    \repeatTie
                     
                     %%% OboeMusicVoice [measure 126] %%%
-                    c'2. \repeatTie
+                    c'2.
+                    \repeatTie
                     
-                    c'2 \repeatTie
+                    c'2
+                    \repeatTie
                     
-                    c'8. \repeatTie
+                    c'8.
+                    \repeatTie
                     \revert RepeatTie.direction
                     
                     r16
@@ -394,53 +438,70 @@
                     \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    a2 \ppp
+                    a2
+                    \ppp
                     
                     %%% ClarinetMusicVoice [measure 113] %%%
-                    a2 \repeatTie
+                    a2
+                    \repeatTie
                     
                     %%% ClarinetMusicVoice [measure 114] %%%
-                    a1. \repeatTie
+                    a1.
+                    \repeatTie
                     
                     %%% ClarinetMusicVoice [measure 115] %%%
-                    a2. \repeatTie
+                    a2.
+                    \repeatTie
                     
                     %%% ClarinetMusicVoice [measure 116] %%%
-                    a1 \repeatTie
+                    a1
+                    \repeatTie
                     
                     %%% ClarinetMusicVoice [measure 117] %%%
-                    a2. \repeatTie
+                    a2.
+                    \repeatTie
                     
                     %%% ClarinetMusicVoice [measure 118] %%%
-                    a1 \repeatTie
+                    a1
+                    \repeatTie
                     
                     %%% ClarinetMusicVoice [measure 119] %%%
-                    a2. \repeatTie
+                    a2.
+                    \repeatTie
                     
-                    a2 \repeatTie
+                    a2
+                    \repeatTie
                     
                     %%% ClarinetMusicVoice [measure 120] %%%
-                    a1 \repeatTie
+                    a1
+                    \repeatTie
                     
                     %%% ClarinetMusicVoice [measure 121] %%%
-                    a2. \repeatTie
+                    a2.
+                    \repeatTie
                     
                     %%% ClarinetMusicVoice [measure 122] %%%
-                    a1 \repeatTie
+                    a1
+                    \repeatTie
                     
                     %%% ClarinetMusicVoice [measure 123] %%%
-                    a2. \repeatTie
+                    a2.
+                    \repeatTie
                     
-                    a2 \repeatTie
+                    a2
+                    \repeatTie
                     
                     %%% ClarinetMusicVoice [measure 124] %%%
-                    a2. \repeatTie
+                    a2.
+                    \repeatTie
                     
                     %%% ClarinetMusicVoice [measure 125] %%%
-                    a2 \repeatTie
+                    a2
+                    \repeatTie
                     
                     %%% ClarinetMusicVoice [measure 126] %%%
-                    a1. \repeatTie
+                    a1.
+                    \repeatTie
                     
                     %%% ClarinetMusicVoice [measure 127] %%%
                     R1 * 5
@@ -479,19 +540,24 @@
                     \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    a2 \pp
+                    a2
+                    \pp
                     
                     %%% SaxophoneMusicVoice [measure 113] %%%
-                    a2 \repeatTie
+                    a2
+                    \repeatTie
                     
                     %%% SaxophoneMusicVoice [measure 114] %%%
-                    a1. \repeatTie
+                    a1.
+                    \repeatTie
                     
                     %%% SaxophoneMusicVoice [measure 115] %%%
-                    a2. \repeatTie
+                    a2.
+                    \repeatTie
                     
                     %%% SaxophoneMusicVoice [measure 116] %%%
-                    a8. \repeatTie
+                    a8.
+                    \repeatTie
                     
                     r16
                     
@@ -499,15 +565,19 @@
                     a2.
                     
                     %%% SaxophoneMusicVoice [measure 117] %%%
-                    a2. \repeatTie
+                    a2.
+                    \repeatTie
                     
                     %%% SaxophoneMusicVoice [measure 118] %%%
-                    a1 \repeatTie
+                    a1
+                    \repeatTie
                     
                     %%% SaxophoneMusicVoice [measure 119] %%%
-                    a2 \repeatTie
+                    a2
+                    \repeatTie
                     
-                    a8. \repeatTie
+                    a8.
+                    \repeatTie
                     
                     r16
                     
@@ -515,15 +585,19 @@
                     a2
                     
                     %%% SaxophoneMusicVoice [measure 120] %%%
-                    a1 \repeatTie
+                    a1
+                    \repeatTie
                     
                     %%% SaxophoneMusicVoice [measure 121] %%%
-                    a2. \repeatTie
+                    a2.
+                    \repeatTie
                     
                     %%% SaxophoneMusicVoice [measure 122] %%%
-                    a2 \repeatTie
+                    a2
+                    \repeatTie
                     
-                    a8. \repeatTie
+                    a8.
+                    \repeatTie
                     
                     r16
                     
@@ -531,27 +605,34 @@
                     a4
                     
                     %%% SaxophoneMusicVoice [measure 123] %%%
-                    a2. \repeatTie
+                    a2.
+                    \repeatTie
                     
-                    a2 \repeatTie
+                    a2
+                    \repeatTie
                     
                     %%% SaxophoneMusicVoice [measure 124] %%%
-                    a2. \repeatTie
+                    a2.
+                    \repeatTie
                     
                     %%% SaxophoneMusicVoice [measure 125] %%%
-                    a2 \repeatTie
+                    a2
+                    \repeatTie
                     
                     %%% SaxophoneMusicVoice [measure 126] %%%
-                    a2 \repeatTie
+                    a2
+                    \repeatTie
                     
-                    a8. \repeatTie
+                    a8.
+                    \repeatTie
                     
                     r16
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie
                     a2
                     
-                    a8. \repeatTie
+                    a8.
+                    \repeatTie
                     \revert RepeatTie.direction
                     
                     r16
@@ -583,7 +664,8 @@
                     \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override GuitarMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    r2 \fff
+                    r2
+                    \fff
                     
                     %%% GuitarMusicVoice [measure 113] %%%
                     r2
@@ -606,9 +688,12 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    c''1 -\accent -\flageolet -\mf
-                        - \tweak color #red
-                        ^ \markup { @ }
+                    c''1
+                    -\accent
+                    -\flageolet
+                    -\mf
+                    - \tweak color #red
+                    ^ \markup { @ }
                     
                     %%% GuitarMusicVoice [measure 119] %%%
                     \once \override Accidental.color = #red
@@ -616,18 +701,22 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    c''2. -\accent -\flageolet -\mf
-                        - \tweak color #red
-                        ^ \markup { @ }
+                    c''2.
+                    -\accent
+                    -\flageolet
+                    -\mf
+                    - \tweak color #red
+                    ^ \markup { @ }
                     
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    c''2 \repeatTie
-                        - \tweak color #red
-                        ^ \markup { @ }
+                    c''2
+                    \repeatTie
+                    - \tweak color #red
+                    ^ \markup { @ }
                     
                     %%% GuitarMusicVoice [measure 120] %%%
                     r1
@@ -661,18 +750,24 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    c''1 -\accent -\flageolet -\mf
-                        - \tweak color #red
-                        ^ \markup { @ }
+                    c''1
+                    -\accent
+                    -\flageolet
+                    -\mf
+                    - \tweak color #red
+                    ^ \markup { @ }
                     
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    c''4 -\accent -\flageolet -\mf
-                        - \tweak color #red
-                        ^ \markup { @ }
+                    c''4
+                    -\accent
+                    -\flageolet
+                    -\mf
+                    - \tweak color #red
+                    ^ \markup { @ }
                     
                     %%% GuitarMusicVoice [measure 129] %%%
                     \once \override Accidental.color = #red
@@ -680,9 +775,10 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    c''2. \repeatTie
-                        - \tweak color #red
-                        ^ \markup { @ }
+                    c''2.
+                    \repeatTie
+                    - \tweak color #red
+                    ^ \markup { @ }
                     
                     %%% GuitarMusicVoice [measure 130] %%%
                     \once \override Accidental.color = #red
@@ -690,9 +786,10 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    c''1 \repeatTie
-                        - \tweak color #red
-                        ^ \markup { @ }
+                    c''1
+                    \repeatTie
+                    - \tweak color #red
+                    ^ \markup { @ }
                     
                     %%% GuitarMusicVoice [measure 131] %%%
                     \once \override Accidental.color = #red
@@ -700,9 +797,10 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    c''1 \repeatTie
-                        - \tweak color #red
-                        ^ \markup { @ }
+                    c''1
+                    \repeatTie
+                    - \tweak color #red
+                    ^ \markup { @ }
                     
                     r2
                     \bar "|."
@@ -732,7 +830,8 @@
                     \once \override PianoMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override PianoMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    r2 \fff
+                    r2
+                    \fff
                     
                     %%% PianoMusicVoice [measure 113] %%%
                     r2
@@ -755,9 +854,11 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    as'1 -\accent -\mf
-                        - \tweak color #red
-                        ^ \markup { @ }
+                    as'1
+                    -\accent
+                    -\mf
+                    - \tweak color #red
+                    ^ \markup { @ }
                     
                     %%% PianoMusicVoice [measure 119] %%%
                     \once \override Accidental.color = #red
@@ -765,18 +866,21 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    as'2. -\accent -\mf
-                        - \tweak color #red
-                        ^ \markup { @ }
+                    as'2.
+                    -\accent
+                    -\mf
+                    - \tweak color #red
+                    ^ \markup { @ }
                     
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    as'2 \repeatTie
-                        - \tweak color #red
-                        ^ \markup { @ }
+                    as'2
+                    \repeatTie
+                    - \tweak color #red
+                    ^ \markup { @ }
                     
                     %%% PianoMusicVoice [measure 120] %%%
                     r1
@@ -810,18 +914,22 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    as'1 -\accent -\mf
-                        - \tweak color #red
-                        ^ \markup { @ }
+                    as'1
+                    -\accent
+                    -\mf
+                    - \tweak color #red
+                    ^ \markup { @ }
                     
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    as'4 -\accent -\mf
-                        - \tweak color #red
-                        ^ \markup { @ }
+                    as'4
+                    -\accent
+                    -\mf
+                    - \tweak color #red
+                    ^ \markup { @ }
                     
                     %%% PianoMusicVoice [measure 129] %%%
                     \once \override Accidental.color = #red
@@ -829,9 +937,10 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    as'2. \repeatTie
-                        - \tweak color #red
-                        ^ \markup { @ }
+                    as'2.
+                    \repeatTie
+                    - \tweak color #red
+                    ^ \markup { @ }
                     
                     %%% PianoMusicVoice [measure 130] %%%
                     \once \override Accidental.color = #red
@@ -839,9 +948,10 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    as'1 \repeatTie
-                        - \tweak color #red
-                        ^ \markup { @ }
+                    as'1
+                    \repeatTie
+                    - \tweak color #red
+                    ^ \markup { @ }
                     
                     %%% PianoMusicVoice [measure 131] %%%
                     \once \override Accidental.color = #red
@@ -849,9 +959,10 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    as'1 \repeatTie
-                        - \tweak color #red
-                        ^ \markup { @ }
+                    as'1
+                    \repeatTie
+                    - \tweak color #red
+                    ^ \markup { @ }
                     
                     r2
                     \bar "|."
@@ -882,7 +993,11 @@
                     \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
                     \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    c'2 :32 \ppp \> \pp
+                    c'2
+                    :32
+                    \ppp
+                    \>
+                    \pp
                     
                     %%% PercussionMusicVoice [measure 113] %%%
                     \once \override Beam.color = #blue
@@ -890,7 +1005,9 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
-                    c'2 :32 \repeatTie
+                    c'2
+                    :32
+                    \repeatTie
                     
                     %%% PercussionMusicVoice [measure 114] %%%
                     \once \override Beam.color = #blue
@@ -898,7 +1015,9 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
-                    c'1. :32 \repeatTie
+                    c'1.
+                    :32
+                    \repeatTie
                     
                     %%% PercussionMusicVoice [measure 115] %%%
                     \once \override Beam.color = #blue
@@ -906,7 +1025,10 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
-                    c'2. :32 \repeatTie \ppp
+                    c'2.
+                    :32
+                    \repeatTie
+                    \ppp
                     
                     %%% PercussionMusicVoice [measure 116] %%%
                     r1
@@ -920,17 +1042,21 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
-                    c'2. :32 \fff
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    \override
-                                        #'(box-padding . 0.5)
-                                        \box
-                                            "snare drum"
-                            }
+                    c'2.
+                    :32
+                    \fff
+                    ^ \markup {
+                        \whiteout
+                            \upright
+                                \override
+                                    #'(box-padding . 0.5)
+                                    \box
+                                        "snare drum"
+                        }
                     
-                    c'2 :32 \repeatTie
+                    c'2
+                    :32
+                    \repeatTie
                     
                     %%% PercussionMusicVoice [measure 120] %%%
                     \once \override Beam.color = #blue
@@ -938,7 +1064,9 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
-                    c'1 :32 \repeatTie
+                    c'1
+                    :32
+                    \repeatTie
                     
                     %%% PercussionMusicVoice [measure 121] %%%
                     \once \override Beam.color = #blue
@@ -946,7 +1074,9 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
-                    c'2. :32 \repeatTie
+                    c'2.
+                    :32
+                    \repeatTie
                     
                     %%% PercussionMusicVoice [measure 122] %%%
                     \once \override Beam.color = #blue
@@ -954,7 +1084,9 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
-                    c'1 :32 \repeatTie
+                    c'1
+                    :32
+                    \repeatTie
                     
                     %%% PercussionMusicVoice [measure 123] %%%
                     \once \override Beam.color = #blue
@@ -962,9 +1094,13 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
-                    c'2. :32 \repeatTie
+                    c'2.
+                    :32
+                    \repeatTie
                     
-                    c'2 :32 \repeatTie
+                    c'2
+                    :32
+                    \repeatTie
                     
                     %%% PercussionMusicVoice [measure 124] %%%
                     \once \override Beam.color = #blue
@@ -972,7 +1108,9 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
-                    c'2. :32 \repeatTie
+                    c'2.
+                    :32
+                    \repeatTie
                     
                     %%% PercussionMusicVoice [measure 125] %%%
                     \once \override Beam.color = #blue
@@ -980,7 +1118,9 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
-                    c'2 :32 \repeatTie
+                    c'2
+                    :32
+                    \repeatTie
                     
                     %%% PercussionMusicVoice [measure 126] %%%
                     \once \override Beam.color = #blue
@@ -988,7 +1128,9 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
-                    c'1. :32 \repeatTie
+                    c'1.
+                    :32
+                    \repeatTie
                     
                     %%% PercussionMusicVoice [measure 127] %%%
                     R1 * 5
@@ -1018,68 +1160,94 @@
                         }
                     \clef "percussion"
                     \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    c'2 -\downbow \p
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    "bow on wooden mute"
-                            }
+                    c'2
+                    -\downbow
+                    \p
+                    ^ \markup {
+                        \whiteout
+                            \upright
+                                "bow on wooden mute"
+                        }
                     
                     %%% ViolinMusicVoice [measure 113] %%%
-                    c'2 \repeatTie
+                    c'2
+                    \repeatTie
                     
                     %%% ViolinMusicVoice [measure 114] %%%
-                    c'2. \repeatTie
+                    c'2.
+                    \repeatTie
                     
-                    c'2. -\upbow
+                    c'2.
+                    -\upbow
                     
                     %%% ViolinMusicVoice [measure 115] %%%
-                    c'2. \repeatTie
+                    c'2.
+                    \repeatTie
                     
                     %%% ViolinMusicVoice [measure 116] %%%
-                    c'4 \repeatTie
+                    c'4
+                    \repeatTie
                     
-                    c'2. -\downbow
+                    c'2.
+                    -\downbow
                     
                     %%% ViolinMusicVoice [measure 117] %%%
-                    c'2. \repeatTie
+                    c'2.
+                    \repeatTie
                     
                     %%% ViolinMusicVoice [measure 118] %%%
-                    c'4 \repeatTie
+                    c'4
+                    \repeatTie
                     
-                    c'2. -\upbow
+                    c'2.
+                    -\upbow
                     
                     %%% ViolinMusicVoice [measure 119] %%%
-                    c'1 \repeatTie \> \p
+                    c'1
+                    \repeatTie
+                    \>
+                    \p
                     
-                    c'4 -\downbow
+                    c'4
+                    -\downbow
                     
                     %%% ViolinMusicVoice [measure 120] %%%
-                    c'1 \repeatTie
+                    c'1
+                    \repeatTie
                     
                     %%% ViolinMusicVoice [measure 121] %%%
-                    c'2 \repeatTie
+                    c'2
+                    \repeatTie
                     
-                    c'4 -\upbow
+                    c'4
+                    -\upbow
                     
                     %%% ViolinMusicVoice [measure 122] %%%
-                    c'1 \repeatTie
+                    c'1
+                    \repeatTie
                     
                     %%% ViolinMusicVoice [measure 123] %%%
-                    c'2 \repeatTie
+                    c'2
+                    \repeatTie
                     
-                    c'2. -\downbow
+                    c'2.
+                    -\downbow
                     
                     %%% ViolinMusicVoice [measure 124] %%%
-                    c'2. \repeatTie
+                    c'2.
+                    \repeatTie
                     
                     %%% ViolinMusicVoice [measure 125] %%%
-                    c'4 \repeatTie
+                    c'4
+                    \repeatTie
                     
-                    c'4 -\upbow
+                    c'4
+                    -\upbow
                     
                     %%% ViolinMusicVoice [measure 126] %%%
-                    c'1. \repeatTie \ppp
+                    c'1.
+                    \repeatTie
+                    \ppp
                     
                     %%% ViolinMusicVoice [measure 127] %%%
                     R1 * 5
@@ -1107,68 +1275,94 @@
                         }
                     \clef "percussion"
                     \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    c'2 -\downbow \p
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    "bow on wooden mute"
-                            }
+                    c'2
+                    -\downbow
+                    \p
+                    ^ \markup {
+                        \whiteout
+                            \upright
+                                "bow on wooden mute"
+                        }
                     
                     %%% ViolaMusicVoice [measure 113] %%%
-                    c'2 \repeatTie
+                    c'2
+                    \repeatTie
                     
                     %%% ViolaMusicVoice [measure 114] %%%
-                    c'2 \repeatTie
+                    c'2
+                    \repeatTie
                     
-                    c'1 -\upbow
+                    c'1
+                    -\upbow
                     
                     %%% ViolaMusicVoice [measure 115] %%%
-                    c'2 \repeatTie
+                    c'2
+                    \repeatTie
                     
-                    c'4 -\downbow
+                    c'4
+                    -\downbow
                     
                     %%% ViolaMusicVoice [measure 116] %%%
-                    c'1 \repeatTie
+                    c'1
+                    \repeatTie
                     
                     %%% ViolaMusicVoice [measure 117] %%%
-                    c'4 \repeatTie
+                    c'4
+                    \repeatTie
                     
-                    c'2 -\upbow
+                    c'2
+                    -\upbow
                     
                     %%% ViolaMusicVoice [measure 118] %%%
-                    c'1 \repeatTie
+                    c'1
+                    \repeatTie
                     
                     %%% ViolaMusicVoice [measure 119] %%%
-                    c'2. -\downbow \> \p
+                    c'2.
+                    -\downbow
+                    \>
+                    \p
                     
-                    c'2 \repeatTie
+                    c'2
+                    \repeatTie
                     
                     %%% ViolaMusicVoice [measure 120] %%%
-                    c'4 \repeatTie
+                    c'4
+                    \repeatTie
                     
-                    c'2. -\upbow
+                    c'2.
+                    -\upbow
                     
                     %%% ViolaMusicVoice [measure 121] %%%
-                    c'2. \repeatTie
+                    c'2.
+                    \repeatTie
                     
                     %%% ViolaMusicVoice [measure 122] %%%
-                    c'1 -\downbow
+                    c'1
+                    -\downbow
                     
                     %%% ViolaMusicVoice [measure 123] %%%
-                    c'2 \repeatTie
+                    c'2
+                    \repeatTie
                     
-                    c'2. -\upbow
+                    c'2.
+                    -\upbow
                     
                     %%% ViolaMusicVoice [measure 124] %%%
-                    c'2. \repeatTie
+                    c'2.
+                    \repeatTie
                     
                     %%% ViolaMusicVoice [measure 125] %%%
-                    c'2 -\downbow
+                    c'2
+                    -\downbow
                     
                     %%% ViolaMusicVoice [measure 126] %%%
-                    c'1 \repeatTie
+                    c'1
+                    \repeatTie
                     
-                    c'2 -\upbow \ppp
+                    c'2
+                    -\upbow
+                    \ppp
                     
                     %%% ViolaMusicVoice [measure 127] %%%
                     R1 * 5
@@ -1196,72 +1390,100 @@
                         }
                     \clef "percussion"
                     \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    c'2 -\downbow \p
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    "bow on tailpiece"
-                            }
+                    c'2
+                    -\downbow
+                    \p
+                    ^ \markup {
+                        \whiteout
+                            \upright
+                                "bow on tailpiece"
+                        }
                     
                     %%% CelloMusicVoice [measure 113] %%%
-                    c'2 \repeatTie
+                    c'2
+                    \repeatTie
                     
                     %%% CelloMusicVoice [measure 114] %%%
-                    c'4 \repeatTie
+                    c'4
+                    \repeatTie
                     
-                    c'2 -\upbow
+                    c'2
+                    -\upbow
                     
-                    c'2. \repeatTie
+                    c'2.
+                    \repeatTie
                     
                     %%% CelloMusicVoice [measure 115] %%%
-                    c'2. -\downbow
+                    c'2.
+                    -\downbow
                     
                     %%% CelloMusicVoice [measure 116] %%%
-                    c'2 \repeatTie
+                    c'2
+                    \repeatTie
                     
-                    c'2 -\upbow
+                    c'2
+                    -\upbow
                     
                     %%% CelloMusicVoice [measure 117] %%%
-                    c'2. \repeatTie
+                    c'2.
+                    \repeatTie
                     
                     %%% CelloMusicVoice [measure 118] %%%
-                    c'1 -\downbow
+                    c'1
+                    -\downbow
                     
                     %%% CelloMusicVoice [measure 119] %%%
-                    c'4 \repeatTie \> \p
+                    c'4
+                    \repeatTie
+                    \>
+                    \p
                     
-                    c'1 -\upbow
+                    c'1
+                    -\upbow
                     
                     %%% CelloMusicVoice [measure 120] %%%
-                    c'4 \repeatTie
+                    c'4
+                    \repeatTie
                     
-                    c'2. -\downbow
+                    c'2.
+                    -\downbow
                     
                     %%% CelloMusicVoice [measure 121] %%%
-                    c'2 \repeatTie
+                    c'2
+                    \repeatTie
                     
-                    c'4 -\upbow
+                    c'4
+                    -\upbow
                     
                     %%% CelloMusicVoice [measure 122] %%%
-                    c'1 \repeatTie
+                    c'1
+                    \repeatTie
                     
                     %%% CelloMusicVoice [measure 123] %%%
-                    c'2. -\downbow
+                    c'2.
+                    -\downbow
                     
-                    c'2 \repeatTie
+                    c'2
+                    \repeatTie
                     
                     %%% CelloMusicVoice [measure 124] %%%
-                    c'2. -\upbow
+                    c'2.
+                    -\upbow
                     
                     %%% CelloMusicVoice [measure 125] %%%
-                    c'2 \repeatTie
+                    c'2
+                    \repeatTie
                     
                     %%% CelloMusicVoice [measure 126] %%%
-                    c'2. -\downbow
+                    c'2.
+                    -\downbow
                     
-                    c'2 \repeatTie
+                    c'2
+                    \repeatTie
                     
-                    c'4 -\upbow \ppp
+                    c'4
+                    -\upbow
+                    \ppp
                     
                     %%% CelloMusicVoice [measure 127] %%%
                     R1 * 5
@@ -1289,68 +1511,94 @@
                         }
                     \clef "percussion"
                     \once \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) % FROM PREVIOUS SEGMENT
-                    c''2 -\downbow \p
-                        ^ \markup {
-                            \whiteout
-                                \upright
-                                    "bow on tailpiece"
-                            }
+                    c''2
+                    -\downbow
+                    \p
+                    ^ \markup {
+                        \whiteout
+                            \upright
+                                "bow on tailpiece"
+                        }
                     
                     %%% ContrabassMusicVoice [measure 113] %%%
-                    c''2 \repeatTie
+                    c''2
+                    \repeatTie
                     
                     %%% ContrabassMusicVoice [measure 114] %%%
-                    c''1 -\upbow
+                    c''1
+                    -\upbow
                     
-                    c''2 -\downbow
+                    c''2
+                    -\downbow
                     
                     %%% ContrabassMusicVoice [measure 115] %%%
-                    c''2 \repeatTie
+                    c''2
+                    \repeatTie
                     
-                    c''4 -\upbow
+                    c''4
+                    -\upbow
                     
                     %%% ContrabassMusicVoice [measure 116] %%%
-                    c''2. \repeatTie
+                    c''2.
+                    \repeatTie
                     
-                    c''4 -\downbow
+                    c''4
+                    -\downbow
                     
                     %%% ContrabassMusicVoice [measure 117] %%%
-                    c''2. \repeatTie
+                    c''2.
+                    \repeatTie
                     
                     %%% ContrabassMusicVoice [measure 118] %%%
-                    c''1 -\upbow
+                    c''1
+                    -\upbow
                     
                     %%% ContrabassMusicVoice [measure 119] %%%
-                    c''1 -\downbow \> \p
+                    c''1
+                    -\downbow
+                    \>
+                    \p
                     
-                    c''4 -\upbow
+                    c''4
+                    -\upbow
                     
                     %%% ContrabassMusicVoice [measure 120] %%%
-                    c''2. \repeatTie
+                    c''2.
+                    \repeatTie
                     
-                    c''4 -\downbow
+                    c''4
+                    -\downbow
                     
                     %%% ContrabassMusicVoice [measure 121] %%%
-                    c''2. \repeatTie
+                    c''2.
+                    \repeatTie
                     
                     %%% ContrabassMusicVoice [measure 122] %%%
-                    c''1 -\upbow
+                    c''1
+                    -\upbow
                     
                     %%% ContrabassMusicVoice [measure 123] %%%
-                    c''1 -\downbow
+                    c''1
+                    -\downbow
                     
-                    c''4 -\upbow
+                    c''4
+                    -\upbow
                     
                     %%% ContrabassMusicVoice [measure 124] %%%
-                    c''2. \repeatTie
+                    c''2.
+                    \repeatTie
                     
                     %%% ContrabassMusicVoice [measure 125] %%%
-                    c''2 -\downbow
+                    c''2
+                    -\downbow
                     
                     %%% ContrabassMusicVoice [measure 126] %%%
-                    c''2 \repeatTie
+                    c''2
+                    \repeatTie
                     
-                    c''1 -\upbow \ppp
+                    c''1
+                    -\upbow
+                    \ppp
                     
                     %%% ContrabassMusicVoice [measure 127] %%%
                     R1 * 5
