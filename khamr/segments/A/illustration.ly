@@ -313,7 +313,22 @@
                     r2
                     
                     %%% FluteMusicVoice [measure 53] %%%
-                    R1 * 21/4
+                    R1 * 1
+                    
+                    %%% FluteMusicVoice [measure 54] %%%
+                    R1 * 3/4
+                    
+                    %%% FluteMusicVoice [measure 55] %%%
+                    R1 * 1
+                    
+                    %%% FluteMusicVoice [measure 56] %%%
+                    R1 * 5/4
+                    
+                    %%% FluteMusicVoice [measure 57] %%%
+                    R1 * 3/4
+                    
+                    %%% FluteMusicVoice [measure 58] %%%
+                    R1 * 1/2
                     
                     %%% FluteMusicVoice [measure 59] %%%
                     \set FluteMusicStaff.instrumentName = \markup {
@@ -498,7 +513,22 @@
                     r8
                     
                     %%% OboeMusicVoice [measure 53] %%%
-                    R1 * 21/4
+                    R1 * 1
+                    
+                    %%% OboeMusicVoice [measure 54] %%%
+                    R1 * 3/4
+                    
+                    %%% OboeMusicVoice [measure 55] %%%
+                    R1 * 1
+                    
+                    %%% OboeMusicVoice [measure 56] %%%
+                    R1 * 5/4
+                    
+                    %%% OboeMusicVoice [measure 57] %%%
+                    R1 * 3/4
+                    
+                    %%% OboeMusicVoice [measure 58] %%%
+                    R1 * 1/2
                     
                     %%% OboeMusicVoice [measure 59] %%%
                     ds'1.
@@ -807,7 +837,22 @@
                     r8
                     
                     %%% SaxophoneMusicVoice [measure 53] %%%
-                    R1 * 21/4
+                    R1 * 1
+                    
+                    %%% SaxophoneMusicVoice [measure 54] %%%
+                    R1 * 3/4
+                    
+                    %%% SaxophoneMusicVoice [measure 55] %%%
+                    R1 * 1
+                    
+                    %%% SaxophoneMusicVoice [measure 56] %%%
+                    R1 * 5/4
+                    
+                    %%% SaxophoneMusicVoice [measure 57] %%%
+                    R1 * 3/4
+                    
+                    %%% SaxophoneMusicVoice [measure 58] %%%
+                    R1 * 1/2
                     
                     %%% SaxophoneMusicVoice [measure 59] %%%
                     es'1.
