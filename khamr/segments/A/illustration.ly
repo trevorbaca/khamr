@@ -49,7 +49,7 @@
                 \once \override TextSpanner.dash-period = 1.5
                 \time 2/4
                 \mark #1
-                \bar "" % SEGMENT
+                \bar "" % SEGMENT:EMPTY-BAR
                 s1 * 1/2
                 \startTextSpan
                 
