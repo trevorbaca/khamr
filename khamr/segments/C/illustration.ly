@@ -284,7 +284,19 @@
                     r16
                     
                     %%% FluteMusicVoice [measure 127] %%%
-                    R1 * 5
+                    R1 * 1/2
+                    
+                    %%% FluteMusicVoice [measure 128] %%%
+                    R1 * 5/4
+                    
+                    %%% FluteMusicVoice [measure 129] %%%
+                    R1 * 3/4
+                    
+                    %%% FluteMusicVoice [measure 130] %%%
+                    R1 * 1
+                    
+                    %%% FluteMusicVoice [measure 131] %%%
+                    R1 * 3/2
                     \bar "|."
                     
                 }
@@ -407,7 +419,19 @@
                     r16
                     
                     %%% OboeMusicVoice [measure 127] %%%
-                    R1 * 5
+                    R1 * 1/2
+                    
+                    %%% OboeMusicVoice [measure 128] %%%
+                    R1 * 5/4
+                    
+                    %%% OboeMusicVoice [measure 129] %%%
+                    R1 * 3/4
+                    
+                    %%% OboeMusicVoice [measure 130] %%%
+                    R1 * 1
+                    
+                    %%% OboeMusicVoice [measure 131] %%%
+                    R1 * 3/2
                     \bar "|."
                     
                 }
@@ -505,7 +529,19 @@
                     \repeatTie
                     
                     %%% ClarinetMusicVoice [measure 127] %%%
-                    R1 * 5
+                    R1 * 1/2
+                    
+                    %%% ClarinetMusicVoice [measure 128] %%%
+                    R1 * 5/4
+                    
+                    %%% ClarinetMusicVoice [measure 129] %%%
+                    R1 * 3/4
+                    
+                    %%% ClarinetMusicVoice [measure 130] %%%
+                    R1 * 1
+                    
+                    %%% ClarinetMusicVoice [measure 131] %%%
+                    R1 * 3/2
                     \bar "|."
                     
                 }
@@ -639,7 +675,19 @@
                     r16
                     
                     %%% SaxophoneMusicVoice [measure 127] %%%
-                    R1 * 5
+                    R1 * 1/2
+                    
+                    %%% SaxophoneMusicVoice [measure 128] %%%
+                    R1 * 5/4
+                    
+                    %%% SaxophoneMusicVoice [measure 129] %%%
+                    R1 * 3/4
+                    
+                    %%% SaxophoneMusicVoice [measure 130] %%%
+                    R1 * 1
+                    
+                    %%% SaxophoneMusicVoice [measure 131] %%%
+                    R1 * 3/2
                     \bar "|."
                     
                 }
@@ -1035,7 +1083,10 @@
                     r1
                     
                     %%% PercussionMusicVoice [measure 117] %%%
-                    R1 * 7/4
+                    R1 * 3/4
+                    
+                    %%% PercussionMusicVoice [measure 118] %%%
+                    R1 * 1
                     
                     %%% PercussionMusicVoice [measure 119] %%%
                     \once \override Beam.color = #blue
@@ -1134,7 +1185,19 @@
                     \repeatTie
                     
                     %%% PercussionMusicVoice [measure 127] %%%
-                    R1 * 5
+                    R1 * 1/2
+                    
+                    %%% PercussionMusicVoice [measure 128] %%%
+                    R1 * 5/4
+                    
+                    %%% PercussionMusicVoice [measure 129] %%%
+                    R1 * 3/4
+                    
+                    %%% PercussionMusicVoice [measure 130] %%%
+                    R1 * 1
+                    
+                    %%% PercussionMusicVoice [measure 131] %%%
+                    R1 * 3/2
                     \bar "|."
                     
                 }
@@ -1251,7 +1314,19 @@
                     \ppp
                     
                     %%% ViolinMusicVoice [measure 127] %%%
-                    R1 * 5
+                    R1 * 1/2
+                    
+                    %%% ViolinMusicVoice [measure 128] %%%
+                    R1 * 5/4
+                    
+                    %%% ViolinMusicVoice [measure 129] %%%
+                    R1 * 3/4
+                    
+                    %%% ViolinMusicVoice [measure 130] %%%
+                    R1 * 1
+                    
+                    %%% ViolinMusicVoice [measure 131] %%%
+                    R1 * 3/2
                     \bar "|."
                     
                 }
@@ -1366,7 +1441,19 @@
                     \ppp
                     
                     %%% ViolaMusicVoice [measure 127] %%%
-                    R1 * 5
+                    R1 * 1/2
+                    
+                    %%% ViolaMusicVoice [measure 128] %%%
+                    R1 * 5/4
+                    
+                    %%% ViolaMusicVoice [measure 129] %%%
+                    R1 * 3/4
+                    
+                    %%% ViolaMusicVoice [measure 130] %%%
+                    R1 * 1
+                    
+                    %%% ViolaMusicVoice [measure 131] %%%
+                    R1 * 3/2
                     \bar "|."
                     
                 }
@@ -1487,7 +1574,19 @@
                     \ppp
                     
                     %%% CelloMusicVoice [measure 127] %%%
-                    R1 * 5
+                    R1 * 1/2
+                    
+                    %%% CelloMusicVoice [measure 128] %%%
+                    R1 * 5/4
+                    
+                    %%% CelloMusicVoice [measure 129] %%%
+                    R1 * 3/4
+                    
+                    %%% CelloMusicVoice [measure 130] %%%
+                    R1 * 1
+                    
+                    %%% CelloMusicVoice [measure 131] %%%
+                    R1 * 3/2
                     \bar "|."
                     
                 }
@@ -1602,7 +1701,19 @@
                     \ppp
                     
                     %%% ContrabassMusicVoice [measure 127] %%%
-                    R1 * 5
+                    R1 * 1/2
+                    
+                    %%% ContrabassMusicVoice [measure 128] %%%
+                    R1 * 5/4
+                    
+                    %%% ContrabassMusicVoice [measure 129] %%%
+                    R1 * 3/4
+                    
+                    %%% ContrabassMusicVoice [measure 130] %%%
+                    R1 * 1
+                    
+                    %%% ContrabassMusicVoice [measure 131] %%%
+                    R1 * 3/2
                     \bar "|."
                     
                 }
