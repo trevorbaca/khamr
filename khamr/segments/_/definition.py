@@ -29,8 +29,8 @@ maker = baca.SegmentMaker(
     transpose_score=True,
     )
 
-assert maker.measure_count == 44
-assert maker.stage_count == 7
+maker.validate_measure_count(44)
+maker.validate_stage_count(7)
 maker.validate_measures_per_stage()
 
 ###############################################################################
