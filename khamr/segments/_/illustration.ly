@@ -282,7 +282,8 @@
                                     fl.
                                 }
                         }
-                    \clef "treble"
+                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                     <g' g''>2
                     ^ \markup {
                         \whiteout
@@ -569,7 +570,8 @@
                                     hn.
                                 }
                         }
-                    \clef "percussion"
+                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                     g'2
                     \p
                     ^ \markup {
@@ -756,7 +758,8 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble"
+                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                     r2.
                     ^ \markup {
                         \whiteout
@@ -828,7 +831,8 @@
                                     cl.
                                 }
                         }
-                    \clef "treble"
+                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                     b2
                     \pp
                     
@@ -1096,7 +1100,8 @@
                                     sax.
                                 }
                         }
-                    \clef "treble"
+                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                     e''2
                     \pp
                     
@@ -1349,7 +1354,8 @@
                             #10
                             Gt.
                         }
-                    \clef "treble"
+                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                     cs'4
                     \f
                     ^ \markup {
@@ -2172,7 +2178,8 @@
                             #10
                             Pf.
                         }
-                    \clef "percussion"
+                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                     c'2
                     -\accent
                     \mf
@@ -2331,7 +2338,8 @@
                         %%% PianoMusicVoice [measure 25] %%%
                         \ottava #1
                         \once \override Beam.grow-direction = #right
-                        \clef "treble"
+                        \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                         cs''''16 * 247/32
                         \mf
                         [
@@ -2634,7 +2642,8 @@
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
                     \override RepeatTie.direction = #up
-                    \clef "percussion"
+                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                     c'1
                     \mp
                     ^ \markup {
@@ -2709,7 +2718,8 @@
                             #10
                             Perc.
                         }
-                    \clef "percussion"
+                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                     c'2
                     -\accent
                     \mp
@@ -2929,7 +2939,8 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble"
+                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                     af''2.
                     -\marcato
                     \sfz
@@ -2953,7 +2964,8 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    \clef "percussion"
+                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                     c'2.
                     -\accent
                     - \tweak color #red
@@ -3147,7 +3159,8 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble"
+                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                     af''1
                     -\marcato
                     \sfz
@@ -3160,7 +3173,8 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    \clef "percussion"
+                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                     c'2.
                     -\accent
                     - \tweak color #red
@@ -3329,7 +3343,8 @@
                             #10
                             Vn.
                         }
-                    \clef "treble"
+                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                     g'2
                     \>
                     \pp
@@ -3825,7 +3840,8 @@
                             #10
                             Va.
                         }
-                    \clef "alto"
+                    \clef "alto" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                     g'4.
                     \glissando
                     \pp
@@ -4273,7 +4289,8 @@
                             #10
                             Vc.
                         }
-                    \clef "bass"
+                    \clef "bass" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                     g2
                     \>
                     \pp
@@ -4712,7 +4729,8 @@
                             #10
                             Cb.
                         }
-                    \clef "bass"
+                    \clef "bass" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR
                     a2
                     \f
                     ^ \markup {
