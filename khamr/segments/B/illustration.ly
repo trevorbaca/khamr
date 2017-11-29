@@ -2404,8 +2404,8 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
-                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     r1
                     
                     %%% OboeMusicVoice [measure 109] %%%
@@ -4460,8 +4460,8 @@
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
                     \override RepeatTie.direction = #up
-                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     a1
                     \pp
                     ^ \markup {
@@ -6040,8 +6040,8 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
-                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     c'1
                     :32
                     \pp
