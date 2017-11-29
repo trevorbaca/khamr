@@ -1269,8 +1269,8 @@
                     r1.
                     
                     %%% PianoMusicVoice [measure 65] %%%
-                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     r4
                     \times 2/3 {
                         
@@ -1555,8 +1555,8 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     af''2
                     -\marcato
                     \sfz
@@ -1567,8 +1567,8 @@
                     \stopStaff
                     \startStaff
                     
-                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     c'4
                     -\accent
                     
@@ -1600,16 +1600,16 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     af''4
                     -\marcato
                     \sfz
                     \stopStaff
                     \startStaff
                     
-                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     r4
                     
                     %%% PercussionMusicVoice [measure 61] %%%
@@ -1621,16 +1621,16 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     af''4.
                     -\marcato
                     \sfz
                     \stopStaff
                     \startStaff
                     
-                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     r4.
                     
                     %%% PercussionMusicVoice [measure 63] %%%
@@ -1640,16 +1640,16 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     af''4.
                     -\marcato
                     \sfz
                     \stopStaff
                     \startStaff
                     
-                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     r4.
                     
                     r2.
@@ -1660,8 +1660,8 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     af''4
                     -\marcato
                     \sfz
@@ -1669,15 +1669,15 @@
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 66] %%%
-                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     r4
                     
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     af''4
                     -\marcato
                     \sfz
@@ -1685,8 +1685,8 @@
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 67] %%%
-                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     r4
                     
                     r4
@@ -1694,8 +1694,8 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     af''4
                     -\marcato
                     \sfz
@@ -1703,8 +1703,8 @@
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 68] %%%
-                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     r4
                     
                     r4
@@ -1714,8 +1714,8 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     af''4
                     -\marcato
                     \sfz
@@ -1723,15 +1723,15 @@
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 69] %%%
-                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     r4
                     
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     af''4
                     -\marcato
                     \sfz
@@ -1739,15 +1739,15 @@
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 70] %%%
-                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     r4
                     
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     af''4
                     -\marcato
                     \sfz
@@ -1755,8 +1755,8 @@
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 71] %%%
-                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     r4.
                     
                     r4.
@@ -1766,8 +1766,8 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     af''4.
                     -\marcato
                     \sfz
@@ -1775,8 +1775,8 @@
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 72] %%%
-                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     r4
                     
                     r4
@@ -1786,8 +1786,8 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     af''4
                     -\marcato
                     \sfz
@@ -1795,8 +1795,8 @@
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 73] %%%
-                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     r4
                     
                     r4
@@ -1804,8 +1804,8 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     af''4
                     -\marcato
                     \sfz
@@ -1813,15 +1813,15 @@
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 74] %%%
-                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     r4.
                     
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
                     af''4.
                     -\marcato
                     \sfz

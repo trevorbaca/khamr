@@ -1231,9 +1231,9 @@
                             #10 % SEGMENT:RESTATED-INSTRUMENT:2
                             Vn. % SEGMENT:RESTATED-INSTRUMENT:2
                         } % SEGMENT:RESTATED-INSTRUMENT:2
-                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:4
+                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:4
                     \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-INSTRUMENT:1
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:3
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:3
                     c'2
                     -\downbow
                     \p
@@ -1359,9 +1359,9 @@
                             #10 % SEGMENT:RESTATED-INSTRUMENT:2
                             Va. % SEGMENT:RESTATED-INSTRUMENT:2
                         } % SEGMENT:RESTATED-INSTRUMENT:2
-                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:4
+                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:4
                     \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-INSTRUMENT:1
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:3
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:3
                     c'2
                     -\downbow
                     \p
@@ -1487,9 +1487,9 @@
                             #10 % SEGMENT:RESTATED-INSTRUMENT:2
                             Vc. % SEGMENT:RESTATED-INSTRUMENT:2
                         } % SEGMENT:RESTATED-INSTRUMENT:2
-                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:4
+                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:4
                     \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-INSTRUMENT:1
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:3
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:3
                     c'2
                     -\downbow
                     \p
@@ -1621,9 +1621,9 @@
                             #10 % SEGMENT:RESTATED-INSTRUMENT:2
                             Cb. % SEGMENT:RESTATED-INSTRUMENT:2
                         } % SEGMENT:RESTATED-INSTRUMENT:2
-                    \clef "percussion" % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:4
+                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:4
                     \once \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'ForestGreen) % SEGMENT:RESTATED-INSTRUMENT:1
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CONTEXTED-INDICATOR:3
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:3
                     c''2
                     -\downbow
                     \p
