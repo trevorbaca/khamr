@@ -11,7 +11,6 @@ from abjad import rhythmmakertools as rhythmos
 maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     instruments=khamr.instruments,
-    label_stages=False,
     measures_per_stage=[
         2, 2,       # 1-2 (126)
         3, 2,       # 3-4 (63->126)
