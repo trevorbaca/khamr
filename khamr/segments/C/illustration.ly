@@ -17,7 +17,7 @@
                 %%% GlobalSkips [measure 112] %%%
                 \time 2/4
                 \mark #3
-                \bar "" % SEGMENT:EMPTY_BAR:1
+                \bar "" % SEGMENT:EMPTY_START_BAR:1
                 \once \override TextScript.color = #(x11-color 'DarkCyan) % SEGMENT:REMINDER-METRONOME-MARK:3
                 s1 * 1/2
                 %%% ^ \markup { % CLOCK_TIME:5
