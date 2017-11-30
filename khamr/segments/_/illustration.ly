@@ -551,8 +551,8 @@
                                     fl.
                                 }
                         }
-                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT_CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                     <g' g''>2
                     ^ \markup {
                         \whiteout
@@ -839,8 +839,8 @@
                                     hn.
                                 }
                         }
-                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                    \clef "percussion" % SEGMENT:EXPLICIT_CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                     g'2
                     \p
                     ^ \markup {
@@ -1027,8 +1027,8 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT_CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                     r2.
                     ^ \markup {
                         \whiteout
@@ -1100,8 +1100,8 @@
                                     cl.
                                 }
                         }
-                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT_CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                     b2
                     \pp
                     
@@ -1369,8 +1369,8 @@
                                     sax.
                                 }
                         }
-                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT_CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                     e''2
                     \pp
                     
@@ -1623,8 +1623,8 @@
                             #10
                             Gt.
                         }
-                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT_CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                     cs'4
                     \f
                     ^ \markup {
@@ -2447,8 +2447,8 @@
                             #10
                             Pf.
                         }
-                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                    \clef "percussion" % SEGMENT:EXPLICIT_CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                     c'2
                     -\accent
                     \mf
@@ -2607,8 +2607,8 @@
                         %%% PianoMusicVoice [measure 25] %%%
                         \ottava #1
                         \once \override Beam.grow-direction = #right
-                        \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
-                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                        \clef "treble" % SEGMENT:EXPLICIT_CLEF:2
+                        \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                         cs''''16 * 247/32
                         \mf
                         [
@@ -2911,8 +2911,8 @@
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
                     \override RepeatTie.direction = #up
-                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                    \clef "percussion" % SEGMENT:EXPLICIT_CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                     c'1
                     \mp
                     ^ \markup {
@@ -2987,8 +2987,8 @@
                             #10
                             Perc.
                         }
-                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                    \clef "percussion" % SEGMENT:EXPLICIT_CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                     c'2
                     -\accent
                     \mp
@@ -3208,8 +3208,8 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT_CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                     af''2.
                     -\marcato
                     \sfz
@@ -3233,8 +3233,8 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                    \clef "percussion" % SEGMENT:EXPLICIT_CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                     c'2.
                     -\accent
                     - \tweak color #red
@@ -3428,8 +3428,8 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT_CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                     af''1
                     -\marcato
                     \sfz
@@ -3442,8 +3442,8 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    \clef "percussion" % SEGMENT:EXPLICIT-CLEF:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                    \clef "percussion" % SEGMENT:EXPLICIT_CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                     c'2.
                     -\accent
                     - \tweak color #red
@@ -3612,8 +3612,8 @@
                             #10
                             Vn.
                         }
-                    \clef "treble" % SEGMENT:EXPLICIT-CLEF:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                    \clef "treble" % SEGMENT:EXPLICIT_CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                     g'2
                     \>
                     \pp
@@ -4109,8 +4109,8 @@
                             #10
                             Va.
                         }
-                    \clef "alto" % SEGMENT:EXPLICIT-CLEF:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                    \clef "alto" % SEGMENT:EXPLICIT_CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                     g'4.
                     \glissando
                     \pp
@@ -4558,8 +4558,8 @@
                             #10
                             Vc.
                         }
-                    \clef "bass" % SEGMENT:EXPLICIT-CLEF:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                    \clef "bass" % SEGMENT:EXPLICIT_CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                     g2
                     \>
                     \pp
@@ -4998,8 +4998,8 @@
                             #10
                             Cb.
                         }
-                    \clef "bass" % SEGMENT:EXPLICIT-CLEF:2
-                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT-CLEF:COLOR:1
+                    \clef "bass" % SEGMENT:EXPLICIT_CLEF:2
+                    \override Staff.Clef.color = #(x11-color 'black) % SEGMENT:EXPLICIT_CLEF:COLOR:1
                     a2
                     \f
                     ^ \markup {
