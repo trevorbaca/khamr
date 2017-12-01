@@ -49,48 +49,48 @@
                 \once \override TextSpanner.dash-period = 1.5
                 \time 2/4
                 \mark #1
-                \bar "" % SEGMENT:EMPTY_START_BAR:1
+                \bar "" %! SEGMENT:EMPTY_START_BAR:1
                 s1 * 1/2
                 \startTextSpan
-                %%% ^ \markup { % CLOCK_TIME:3
-                    %%% \fontsize % CLOCK_TIME:3
-                        %%% #-2 % CLOCK_TIME:3
-                        %%% 1'46'' % CLOCK_TIME:3
-                    %%% } % CLOCK_TIME:3
-                %%% - \markup { % STAGE_NUMBER:2
-                    %%% \fontsize % STAGE_NUMBER:2
-                        %%% #-3 % STAGE_NUMBER:2
-                        %%% \with-color % STAGE_NUMBER:2
-                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:2
-                            %%% [A.1] % STAGE_NUMBER:2
-                    %%% } % STAGE_NUMBER:2
+                %%% ^ \markup { %! CLOCK_TIME:3
+                    %%% \fontsize %! CLOCK_TIME:3
+                        %%% #-2 %! CLOCK_TIME:3
+                        %%% 1'46'' %! CLOCK_TIME:3
+                    %%% } %! CLOCK_TIME:3
+                %%% - \markup { %! STAGE_NUMBER:2
+                    %%% \fontsize %! STAGE_NUMBER:2
+                        %%% #-3 %! STAGE_NUMBER:2
+                        %%% \with-color %! STAGE_NUMBER:2
+                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER:2
+                            %%% [A.1] %! STAGE_NUMBER:2
+                    %%% } %! STAGE_NUMBER:2
                 
                 %%% GlobalSkips [measure 46] %%%
                 \time 2/4
                 s1 * 1/2
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 1'48'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 1'48'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 47] %%%
                 \time 6/4
                 s1 * 3/2
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 1'51'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 1'51'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 48] %%%
                 \time 3/4
                 s1 * 3/4
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 2'00'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 2'00'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 49] %%%
                 \once \override TextSpanner.arrow-width = 0.25
@@ -129,62 +129,62 @@
                 s1 * 1
                 \stopTextSpan
                 \startTextSpan
-                %%% ^ \markup { % CLOCK_TIME:2
-                    %%% \fontsize % CLOCK_TIME:2
-                        %%% #-2 % CLOCK_TIME:2
-                        %%% 2'04'' % CLOCK_TIME:2
-                    %%% } % CLOCK_TIME:2
-                %%% - \markup { % STAGE_NUMBER:1
-                    %%% \fontsize % STAGE_NUMBER:1
-                        %%% #-3 % STAGE_NUMBER:1
-                        %%% \with-color % STAGE_NUMBER:1
-                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
-                            %%% [A.2] % STAGE_NUMBER:1
-                    %%% } % STAGE_NUMBER:1
+                %%% ^ \markup { %! CLOCK_TIME:2
+                    %%% \fontsize %! CLOCK_TIME:2
+                        %%% #-2 %! CLOCK_TIME:2
+                        %%% 2'04'' %! CLOCK_TIME:2
+                    %%% } %! CLOCK_TIME:2
+                %%% - \markup { %! STAGE_NUMBER:1
+                    %%% \fontsize %! STAGE_NUMBER:1
+                        %%% #-3 %! STAGE_NUMBER:1
+                        %%% \with-color %! STAGE_NUMBER:1
+                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER:1
+                            %%% [A.2] %! STAGE_NUMBER:1
+                    %%% } %! STAGE_NUMBER:1
                 
                 %%% GlobalSkips [measure 50] %%%
                 \time 6/8
                 s1 * 3/4
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 2'07'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 2'07'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 51] %%%
                 \time 4/4
                 s1 * 1
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 2'09'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 2'09'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 52] %%%
                 \time 5/4
                 s1 * 5/4
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 2'12'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 2'12'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 53] %%%
                 \time 4/4
                 s1 * 1
                 \stopTextSpan
-                %%% ^ \markup { % CLOCK_TIME:2
-                    %%% \fontsize % CLOCK_TIME:2
-                        %%% #-2 % CLOCK_TIME:2
-                        %%% 2'16'' % CLOCK_TIME:2
-                    %%% } % CLOCK_TIME:2
-                %%% - \markup { % STAGE_NUMBER:1
-                    %%% \fontsize % STAGE_NUMBER:1
-                        %%% #-3 % STAGE_NUMBER:1
-                        %%% \with-color % STAGE_NUMBER:1
-                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
-                            %%% [A.3] % STAGE_NUMBER:1
-                    %%% } % STAGE_NUMBER:1
+                %%% ^ \markup { %! CLOCK_TIME:2
+                    %%% \fontsize %! CLOCK_TIME:2
+                        %%% #-2 %! CLOCK_TIME:2
+                        %%% 2'16'' %! CLOCK_TIME:2
+                    %%% } %! CLOCK_TIME:2
+                %%% - \markup { %! STAGE_NUMBER:1
+                    %%% \fontsize %! STAGE_NUMBER:1
+                        %%% #-3 %! STAGE_NUMBER:1
+                        %%% \with-color %! STAGE_NUMBER:1
+                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER:1
+                            %%% [A.3] %! STAGE_NUMBER:1
+                    %%% } %! STAGE_NUMBER:1
                 ^ \markup {
                     \fontsize
                         #-6
@@ -205,124 +205,124 @@
                 %%% GlobalSkips [measure 54] %%%
                 \time 3/4
                 s1 * 3/4
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 2'21'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 2'21'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 55] %%%
                 \time 4/4
                 s1 * 1
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 2'26'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 2'26'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 56] %%%
                 \time 5/4
                 s1 * 5/4
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 2'31'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 2'31'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 57] %%%
                 \time 6/8
                 s1 * 3/4
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 2'38'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 2'38'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 58] %%%
                 \time 2/4
                 s1 * 1/2
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 2'43'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 2'43'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 59] %%%
                 \time 6/4
                 s1 * 3/2
-                %%% ^ \markup { % CLOCK_TIME:2
-                    %%% \fontsize % CLOCK_TIME:2
-                        %%% #-2 % CLOCK_TIME:2
-                        %%% 2'46'' % CLOCK_TIME:2
-                    %%% } % CLOCK_TIME:2
-                %%% - \markup { % STAGE_NUMBER:1
-                    %%% \fontsize % STAGE_NUMBER:1
-                        %%% #-3 % STAGE_NUMBER:1
-                        %%% \with-color % STAGE_NUMBER:1
-                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
-                            %%% [A.4] % STAGE_NUMBER:1
-                    %%% } % STAGE_NUMBER:1
+                %%% ^ \markup { %! CLOCK_TIME:2
+                    %%% \fontsize %! CLOCK_TIME:2
+                        %%% #-2 %! CLOCK_TIME:2
+                        %%% 2'46'' %! CLOCK_TIME:2
+                    %%% } %! CLOCK_TIME:2
+                %%% - \markup { %! STAGE_NUMBER:1
+                    %%% \fontsize %! STAGE_NUMBER:1
+                        %%% #-3 %! STAGE_NUMBER:1
+                        %%% \with-color %! STAGE_NUMBER:1
+                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER:1
+                            %%% [A.4] %! STAGE_NUMBER:1
+                    %%% } %! STAGE_NUMBER:1
                 
                 %%% GlobalSkips [measure 60] %%%
                 \time 2/4
                 s1 * 1/2
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 2'54'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 2'54'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 61] %%%
                 \time 5/4
                 s1 * 5/4
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 2'57'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 2'57'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 62] %%%
                 \time 6/8
                 s1 * 3/4
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 3'04'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 3'04'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 63] %%%
                 \time 4/4
                 s1 * 1
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 3'08'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 3'08'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 64] %%%
                 \time 6/4
                 s1 * 3/2
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 3'14'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 3'14'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 65] %%%
                 \time 2/4
                 s1 * 1/2
-                %%% ^ \markup { % CLOCK_TIME:2
-                    %%% \fontsize % CLOCK_TIME:2
-                        %%% #-2 % CLOCK_TIME:2
-                        %%% 3'23'' % CLOCK_TIME:2
-                    %%% } % CLOCK_TIME:2
-                %%% - \markup { % STAGE_NUMBER:1
-                    %%% \fontsize % STAGE_NUMBER:1
-                        %%% #-3 % STAGE_NUMBER:1
-                        %%% \with-color % STAGE_NUMBER:1
-                            %%% #(x11-color 'DarkCyan) % STAGE_NUMBER:1
-                            %%% [A.5] % STAGE_NUMBER:1
-                    %%% } % STAGE_NUMBER:1
+                %%% ^ \markup { %! CLOCK_TIME:2
+                    %%% \fontsize %! CLOCK_TIME:2
+                        %%% #-2 %! CLOCK_TIME:2
+                        %%% 3'23'' %! CLOCK_TIME:2
+                    %%% } %! CLOCK_TIME:2
+                %%% - \markup { %! STAGE_NUMBER:1
+                    %%% \fontsize %! STAGE_NUMBER:1
+                        %%% #-3 %! STAGE_NUMBER:1
+                        %%% \with-color %! STAGE_NUMBER:1
+                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER:1
+                            %%% [A.5] %! STAGE_NUMBER:1
+                    %%% } %! STAGE_NUMBER:1
                 ^ \markup {
                     \fontsize
                         #-6
@@ -343,83 +343,83 @@
                 %%% GlobalSkips [measure 66] %%%
                 \time 2/4
                 s1 * 1/2
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 3'24'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 3'24'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 67] %%%
                 \time 3/4
                 s1 * 3/4
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 3'25'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 3'25'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 68] %%%
                 \time 4/4
                 s1 * 1
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 3'26'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 3'26'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 69] %%%
                 \time 2/4
                 s1 * 1/2
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 3'28'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 3'28'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 70] %%%
                 \time 2/4
                 s1 * 1/2
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 3'29'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 3'29'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 71] %%%
                 \time 6/4
                 s1 * 3/2
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 3'30'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 3'30'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 72] %%%
                 \time 4/4
                 s1 * 1
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 3'33'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 3'33'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 73] %%%
                 \time 3/4
                 s1 * 3/4
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 3'35'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 3'35'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
                 %%% GlobalSkips [measure 74] %%%
                 \time 6/8
                 s1 * 3/4
-                %%% ^ \markup { % CLOCK_TIME:1
-                    %%% \fontsize % CLOCK_TIME:1
-                        %%% #-2 % CLOCK_TIME:1
-                        %%% 3'36'' % CLOCK_TIME:1
-                    %%% } % CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME:1
+                    %%% \fontsize %! CLOCK_TIME:1
+                        %%% #-2 %! CLOCK_TIME:1
+                        %%% 3'36'' %! CLOCK_TIME:1
+                    %%% } %! CLOCK_TIME:1
                 
             }
         >>
@@ -429,33 +429,33 @@
                 \context FluteMusicVoice = "FluteMusicVoice" {
                     
                     %%% FluteMusicVoice [measure 45] %%%
-                    \set FluteMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
-                        \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
-                            #16 % SEGMENT:RESTATED_INSTRUMENT:2
-                            \center-column % SEGMENT:RESTATED_INSTRUMENT:2
-                                { % SEGMENT:RESTATED_INSTRUMENT:2
-                                    Bass % SEGMENT:RESTATED_INSTRUMENT:2
-                                    flute % SEGMENT:RESTATED_INSTRUMENT:2
-                                } % SEGMENT:RESTATED_INSTRUMENT:2
-                        } % SEGMENT:RESTATED_INSTRUMENT:2
-                    \set FluteMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
-                        \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
-                            #10 % SEGMENT:RESTATED_INSTRUMENT:2
-                            \center-column % SEGMENT:RESTATED_INSTRUMENT:2
-                                { % SEGMENT:RESTATED_INSTRUMENT:2
-                                    Bass % SEGMENT:RESTATED_INSTRUMENT:2
-                                    fl. % SEGMENT:RESTATED_INSTRUMENT:2
-                                } % SEGMENT:RESTATED_INSTRUMENT:2
-                        } % SEGMENT:RESTATED_INSTRUMENT:2
-                    \clef "treble" % SEGMENT:RESTATED_CLEF_COMMAND:4
-                    \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'green) % SEGMENT:RESTATED_INSTRUMENT:1
-                    \once \override FluteMusicStaff.Clef.color = #(x11-color 'green) % SEGMENT:RESTATED_CLEF_COLOR:3
-                    \set FluteMusicStaff.forceClef = ##t % SEGMENT:RESTATED_CLEF_COMMAND:5
+                    \set FluteMusicStaff.instrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
+                        \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:2
+                            #16 %! SEGMENT:RESTATED_INSTRUMENT:2
+                            \center-column %! SEGMENT:RESTATED_INSTRUMENT:2
+                                { %! SEGMENT:RESTATED_INSTRUMENT:2
+                                    Bass %! SEGMENT:RESTATED_INSTRUMENT:2
+                                    flute %! SEGMENT:RESTATED_INSTRUMENT:2
+                                } %! SEGMENT:RESTATED_INSTRUMENT:2
+                        } %! SEGMENT:RESTATED_INSTRUMENT:2
+                    \set FluteMusicStaff.shortInstrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
+                        \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:2
+                            #10 %! SEGMENT:RESTATED_INSTRUMENT:2
+                            \center-column %! SEGMENT:RESTATED_INSTRUMENT:2
+                                { %! SEGMENT:RESTATED_INSTRUMENT:2
+                                    Bass %! SEGMENT:RESTATED_INSTRUMENT:2
+                                    fl. %! SEGMENT:RESTATED_INSTRUMENT:2
+                                } %! SEGMENT:RESTATED_INSTRUMENT:2
+                        } %! SEGMENT:RESTATED_INSTRUMENT:2
+                    \clef "treble" %! SEGMENT:RESTATED_CLEF_COMMAND:4
+                    \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:RESTATED_INSTRUMENT:1
+                    \once \override FluteMusicStaff.Clef.color = #(x11-color 'green) %! SEGMENT:RESTATED_CLEF_COLOR:3
+                    \set FluteMusicStaff.forceClef = ##t %! SEGMENT:RESTATED_CLEF_COMMAND:5
                     bf''2
                     \>
                     \mp
                     \startTrillSpan
-                    \override FluteMusicStaff.Clef.color = #(x11-color 'DarkGreen) % SEGMENT:RESTATED_CLEF_SHADOW:6
+                    \override FluteMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! SEGMENT:RESTATED_CLEF_SHADOW:6
                     
                     %%% FluteMusicVoice [measure 46] %%%
                     bf''2
@@ -633,37 +633,37 @@
                 \context OboeMusicVoice = "OboeMusicVoice" {
                     
                     %%% OboeMusicVoice [measure 45] %%%
-                    \stopStaff % SEGMENT:REAPPLIED_STAFF_LINES:4
-                    \once \override Staff.StaffSymbol.line-count = 5 % SEGMENT:REAPPLIED_STAFF_LINES:4
-                    \startStaff % SEGMENT:REAPPLIED_STAFF_LINES:4
-                    \set OboeMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
-                        \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
-                            #16 % SEGMENT:RESTATED_INSTRUMENT:2
-                            \center-column % SEGMENT:RESTATED_INSTRUMENT:2
-                                { % SEGMENT:RESTATED_INSTRUMENT:2
-                                    English % SEGMENT:RESTATED_INSTRUMENT:2
-                                    horn % SEGMENT:RESTATED_INSTRUMENT:2
-                                } % SEGMENT:RESTATED_INSTRUMENT:2
-                        } % SEGMENT:RESTATED_INSTRUMENT:2
-                    \set OboeMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
-                        \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
-                            #10 % SEGMENT:RESTATED_INSTRUMENT:2
-                            \center-column % SEGMENT:RESTATED_INSTRUMENT:2
-                                { % SEGMENT:RESTATED_INSTRUMENT:2
-                                    Eng. % SEGMENT:RESTATED_INSTRUMENT:2
-                                    hn. % SEGMENT:RESTATED_INSTRUMENT:2
-                                } % SEGMENT:RESTATED_INSTRUMENT:2
-                        } % SEGMENT:RESTATED_INSTRUMENT:2
-                    \clef "treble" % SEGMENT:RESTATED_CLEF_COMMAND:6
-                    \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'green) % SEGMENT:RESTATED_INSTRUMENT:1
-                    \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'DarkBlue) % SEGMENT:REAPPLIED_STAFF_LINES:3
-                    \once \override OboeMusicStaff.Clef.color = #(x11-color 'green) % SEGMENT:RESTATED_CLEF_COLOR:5
-                    \set OboeMusicStaff.forceClef = ##t % SEGMENT:RESTATED_CLEF_COMMAND:7
-                    \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) % SEGMENT:REMINDER_DYNAMIC:9
+                    \stopStaff %! SEGMENT:REAPPLIED_STAFF_LINES:4
+                    \once \override Staff.StaffSymbol.line-count = 5 %! SEGMENT:REAPPLIED_STAFF_LINES:4
+                    \startStaff %! SEGMENT:REAPPLIED_STAFF_LINES:4
+                    \set OboeMusicStaff.instrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
+                        \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:2
+                            #16 %! SEGMENT:RESTATED_INSTRUMENT:2
+                            \center-column %! SEGMENT:RESTATED_INSTRUMENT:2
+                                { %! SEGMENT:RESTATED_INSTRUMENT:2
+                                    English %! SEGMENT:RESTATED_INSTRUMENT:2
+                                    horn %! SEGMENT:RESTATED_INSTRUMENT:2
+                                } %! SEGMENT:RESTATED_INSTRUMENT:2
+                        } %! SEGMENT:RESTATED_INSTRUMENT:2
+                    \set OboeMusicStaff.shortInstrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
+                        \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:2
+                            #10 %! SEGMENT:RESTATED_INSTRUMENT:2
+                            \center-column %! SEGMENT:RESTATED_INSTRUMENT:2
+                                { %! SEGMENT:RESTATED_INSTRUMENT:2
+                                    Eng. %! SEGMENT:RESTATED_INSTRUMENT:2
+                                    hn. %! SEGMENT:RESTATED_INSTRUMENT:2
+                                } %! SEGMENT:RESTATED_INSTRUMENT:2
+                        } %! SEGMENT:RESTATED_INSTRUMENT:2
+                    \clef "treble" %! SEGMENT:RESTATED_CLEF_COMMAND:6
+                    \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:RESTATED_INSTRUMENT:1
+                    \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'DarkBlue) %! SEGMENT:REAPPLIED_STAFF_LINES:3
+                    \once \override OboeMusicStaff.Clef.color = #(x11-color 'green) %! SEGMENT:RESTATED_CLEF_COLOR:5
+                    \set OboeMusicStaff.forceClef = ##t %! SEGMENT:RESTATED_CLEF_COMMAND:7
+                    \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:9
                     <e'' b''>2
                     -\flageolet
-                    \p % SEGMENT:REMINDER_DYNAMIC:10
-                    \override OboeMusicStaff.Clef.color = #(x11-color 'DarkGreen) % SEGMENT:RESTATED_CLEF_SHADOW:8
+                    \p %! SEGMENT:REMINDER_DYNAMIC:10
+                    \override OboeMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! SEGMENT:RESTATED_CLEF_SHADOW:8
                     
                     %%% OboeMusicVoice [measure 46] %%%
                     <e'' b''>2
@@ -793,32 +793,32 @@
                 \context ClarinetMusicVoice = "ClarinetMusicVoice" {
                     
                     %%% ClarinetMusicVoice [measure 45] %%%
-                    \set ClarinetMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
-                        \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
-                            #16 % SEGMENT:RESTATED_INSTRUMENT:2
-                            \center-column % SEGMENT:RESTATED_INSTRUMENT:2
-                                { % SEGMENT:RESTATED_INSTRUMENT:2
-                                    Bass % SEGMENT:RESTATED_INSTRUMENT:2
-                                    clarinet % SEGMENT:RESTATED_INSTRUMENT:2
-                                } % SEGMENT:RESTATED_INSTRUMENT:2
-                        } % SEGMENT:RESTATED_INSTRUMENT:2
-                    \set ClarinetMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
-                        \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
-                            #10 % SEGMENT:RESTATED_INSTRUMENT:2
-                            \center-column % SEGMENT:RESTATED_INSTRUMENT:2
-                                { % SEGMENT:RESTATED_INSTRUMENT:2
-                                    Bass % SEGMENT:RESTATED_INSTRUMENT:2
-                                    cl. % SEGMENT:RESTATED_INSTRUMENT:2
-                                } % SEGMENT:RESTATED_INSTRUMENT:2
-                        } % SEGMENT:RESTATED_INSTRUMENT:2
-                    \clef "treble" % SEGMENT:RESTATED_CLEF_COMMAND:4
-                    \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'green) % SEGMENT:RESTATED_INSTRUMENT:1
-                    \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'green) % SEGMENT:RESTATED_CLEF_COLOR:3
-                    \set ClarinetMusicStaff.forceClef = ##t % SEGMENT:RESTATED_CLEF_COMMAND:5
-                    \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) % SEGMENT:REMINDER_DYNAMIC:7
+                    \set ClarinetMusicStaff.instrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
+                        \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:2
+                            #16 %! SEGMENT:RESTATED_INSTRUMENT:2
+                            \center-column %! SEGMENT:RESTATED_INSTRUMENT:2
+                                { %! SEGMENT:RESTATED_INSTRUMENT:2
+                                    Bass %! SEGMENT:RESTATED_INSTRUMENT:2
+                                    clarinet %! SEGMENT:RESTATED_INSTRUMENT:2
+                                } %! SEGMENT:RESTATED_INSTRUMENT:2
+                        } %! SEGMENT:RESTATED_INSTRUMENT:2
+                    \set ClarinetMusicStaff.shortInstrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
+                        \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:2
+                            #10 %! SEGMENT:RESTATED_INSTRUMENT:2
+                            \center-column %! SEGMENT:RESTATED_INSTRUMENT:2
+                                { %! SEGMENT:RESTATED_INSTRUMENT:2
+                                    Bass %! SEGMENT:RESTATED_INSTRUMENT:2
+                                    cl. %! SEGMENT:RESTATED_INSTRUMENT:2
+                                } %! SEGMENT:RESTATED_INSTRUMENT:2
+                        } %! SEGMENT:RESTATED_INSTRUMENT:2
+                    \clef "treble" %! SEGMENT:RESTATED_CLEF_COMMAND:4
+                    \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:RESTATED_INSTRUMENT:1
+                    \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'green) %! SEGMENT:RESTATED_CLEF_COLOR:3
+                    \set ClarinetMusicStaff.forceClef = ##t %! SEGMENT:RESTATED_CLEF_COMMAND:5
+                    \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:7
                     a2
-                    \pp % SEGMENT:REMINDER_DYNAMIC:8
-                    \override ClarinetMusicStaff.Clef.color = #(x11-color 'DarkGreen) % SEGMENT:RESTATED_CLEF_SHADOW:6
+                    \pp %! SEGMENT:REMINDER_DYNAMIC:8
+                    \override ClarinetMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! SEGMENT:RESTATED_CLEF_SHADOW:6
                     
                     %%% ClarinetMusicVoice [measure 46] %%%
                     a2
@@ -964,32 +964,32 @@
                 \context SaxophoneMusicVoice = "SaxophoneMusicVoice" {
                     
                     %%% SaxophoneMusicVoice [measure 45] %%%
-                    \set SaxophoneMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
-                        \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
-                            #16 % SEGMENT:RESTATED_INSTRUMENT:2
-                            \center-column % SEGMENT:RESTATED_INSTRUMENT:2
-                                { % SEGMENT:RESTATED_INSTRUMENT:2
-                                    Baritone % SEGMENT:RESTATED_INSTRUMENT:2
-                                    saxophone % SEGMENT:RESTATED_INSTRUMENT:2
-                                } % SEGMENT:RESTATED_INSTRUMENT:2
-                        } % SEGMENT:RESTATED_INSTRUMENT:2
-                    \set SaxophoneMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
-                        \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
-                            #10 % SEGMENT:RESTATED_INSTRUMENT:2
-                            \center-column % SEGMENT:RESTATED_INSTRUMENT:2
-                                { % SEGMENT:RESTATED_INSTRUMENT:2
-                                    Bar. % SEGMENT:RESTATED_INSTRUMENT:2
-                                    sax. % SEGMENT:RESTATED_INSTRUMENT:2
-                                } % SEGMENT:RESTATED_INSTRUMENT:2
-                        } % SEGMENT:RESTATED_INSTRUMENT:2
-                    \clef "treble" % SEGMENT:RESTATED_CLEF_COMMAND:4
-                    \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'green) % SEGMENT:RESTATED_INSTRUMENT:1
-                    \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'green) % SEGMENT:RESTATED_CLEF_COLOR:3
-                    \set SaxophoneMusicStaff.forceClef = ##t % SEGMENT:RESTATED_CLEF_COMMAND:5
-                    \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) % SEGMENT:REMINDER_DYNAMIC:7
+                    \set SaxophoneMusicStaff.instrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
+                        \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:2
+                            #16 %! SEGMENT:RESTATED_INSTRUMENT:2
+                            \center-column %! SEGMENT:RESTATED_INSTRUMENT:2
+                                { %! SEGMENT:RESTATED_INSTRUMENT:2
+                                    Baritone %! SEGMENT:RESTATED_INSTRUMENT:2
+                                    saxophone %! SEGMENT:RESTATED_INSTRUMENT:2
+                                } %! SEGMENT:RESTATED_INSTRUMENT:2
+                        } %! SEGMENT:RESTATED_INSTRUMENT:2
+                    \set SaxophoneMusicStaff.shortInstrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
+                        \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:2
+                            #10 %! SEGMENT:RESTATED_INSTRUMENT:2
+                            \center-column %! SEGMENT:RESTATED_INSTRUMENT:2
+                                { %! SEGMENT:RESTATED_INSTRUMENT:2
+                                    Bar. %! SEGMENT:RESTATED_INSTRUMENT:2
+                                    sax. %! SEGMENT:RESTATED_INSTRUMENT:2
+                                } %! SEGMENT:RESTATED_INSTRUMENT:2
+                        } %! SEGMENT:RESTATED_INSTRUMENT:2
+                    \clef "treble" %! SEGMENT:RESTATED_CLEF_COMMAND:4
+                    \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:RESTATED_INSTRUMENT:1
+                    \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'green) %! SEGMENT:RESTATED_CLEF_COLOR:3
+                    \set SaxophoneMusicStaff.forceClef = ##t %! SEGMENT:RESTATED_CLEF_COMMAND:5
+                    \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:7
                     <d'' eqs''>2
-                    \pp % SEGMENT:REMINDER_DYNAMIC:8
-                    \override SaxophoneMusicStaff.Clef.color = #(x11-color 'DarkGreen) % SEGMENT:RESTATED_CLEF_SHADOW:6
+                    \pp %! SEGMENT:REMINDER_DYNAMIC:8
+                    \override SaxophoneMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! SEGMENT:RESTATED_CLEF_SHADOW:6
                     
                     %%% SaxophoneMusicVoice [measure 46] %%%
                     <d'' eqs''>2
@@ -1124,24 +1124,24 @@
                     \times 2/3 {
                         
                         %%% GuitarMusicVoice [measure 45] %%%
-                        \set GuitarMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
-                            \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
-                                #16 % SEGMENT:RESTATED_INSTRUMENT:2
-                                Guitar % SEGMENT:RESTATED_INSTRUMENT:2
-                            } % SEGMENT:RESTATED_INSTRUMENT:2
-                        \set GuitarMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
-                            \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
-                                #10 % SEGMENT:RESTATED_INSTRUMENT:2
-                                Gt. % SEGMENT:RESTATED_INSTRUMENT:2
-                            } % SEGMENT:RESTATED_INSTRUMENT:2
-                        \clef "treble" % SEGMENT:RESTATED_CLEF_COMMAND:4
-                        \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green) % SEGMENT:RESTATED_INSTRUMENT:1
-                        \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green) % SEGMENT:RESTATED_CLEF_COLOR:3
-                        \set GuitarMusicStaff.forceClef = ##t % SEGMENT:RESTATED_CLEF_COMMAND:5
-                        \once \override GuitarMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) % SEGMENT:REMINDER_DYNAMIC:7
+                        \set GuitarMusicStaff.instrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
+                            \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:2
+                                #16 %! SEGMENT:RESTATED_INSTRUMENT:2
+                                Guitar %! SEGMENT:RESTATED_INSTRUMENT:2
+                            } %! SEGMENT:RESTATED_INSTRUMENT:2
+                        \set GuitarMusicStaff.shortInstrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
+                            \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:2
+                                #10 %! SEGMENT:RESTATED_INSTRUMENT:2
+                                Gt. %! SEGMENT:RESTATED_INSTRUMENT:2
+                            } %! SEGMENT:RESTATED_INSTRUMENT:2
+                        \clef "treble" %! SEGMENT:RESTATED_CLEF_COMMAND:4
+                        \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:RESTATED_INSTRUMENT:1
+                        \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green) %! SEGMENT:RESTATED_CLEF_COLOR:3
+                        \set GuitarMusicStaff.forceClef = ##t %! SEGMENT:RESTATED_CLEF_COMMAND:5
+                        \once \override GuitarMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:7
                         r8
-                        \f % SEGMENT:REMINDER_DYNAMIC:8
-                        \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) % SEGMENT:RESTATED_CLEF_SHADOW:6
+                        \f %! SEGMENT:REMINDER_DYNAMIC:8
+                        \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! SEGMENT:RESTATED_CLEF_SHADOW:6
                         
                         \override NoteHead.style = #'cross
                         d''8
@@ -1337,25 +1337,25 @@
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
                     \override RepeatTie.direction = #up
-                    \set PianoMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
-                        \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
-                            #16 % SEGMENT:RESTATED_INSTRUMENT:2
-                            Piano % SEGMENT:RESTATED_INSTRUMENT:2
-                        } % SEGMENT:RESTATED_INSTRUMENT:2
-                    \set PianoMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
-                        \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
-                            #10 % SEGMENT:RESTATED_INSTRUMENT:2
-                            Pf. % SEGMENT:RESTATED_INSTRUMENT:2
-                        } % SEGMENT:RESTATED_INSTRUMENT:2
-                    \clef "percussion" % SEGMENT:RESTATED_CLEF_COMMAND:5
-                    \once \override PianoMusicStaff.InstrumentName.color = #(x11-color 'green) % SEGMENT:RESTATED_INSTRUMENT:1
-                    \once \override PianoMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) % SEGMENT:DUPLICATE_STAFF_LINES:3
-                    \once \override PianoMusicStaff.Clef.color = #(x11-color 'green) % SEGMENT:RESTATED_CLEF_COLOR:4
-                    \set PianoMusicStaff.forceClef = ##t % SEGMENT:RESTATED_CLEF_COMMAND:6
-                    \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) % SEGMENT:REMINDER_DYNAMIC:8
+                    \set PianoMusicStaff.instrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
+                        \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:2
+                            #16 %! SEGMENT:RESTATED_INSTRUMENT:2
+                            Piano %! SEGMENT:RESTATED_INSTRUMENT:2
+                        } %! SEGMENT:RESTATED_INSTRUMENT:2
+                    \set PianoMusicStaff.shortInstrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
+                        \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:2
+                            #10 %! SEGMENT:RESTATED_INSTRUMENT:2
+                            Pf. %! SEGMENT:RESTATED_INSTRUMENT:2
+                        } %! SEGMENT:RESTATED_INSTRUMENT:2
+                    \clef "percussion" %! SEGMENT:RESTATED_CLEF_COMMAND:5
+                    \once \override PianoMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:RESTATED_INSTRUMENT:1
+                    \once \override PianoMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! SEGMENT:DUPLICATE_STAFF_LINES:3
+                    \once \override PianoMusicStaff.Clef.color = #(x11-color 'green) %! SEGMENT:RESTATED_CLEF_COLOR:4
+                    \set PianoMusicStaff.forceClef = ##t %! SEGMENT:RESTATED_CLEF_COMMAND:6
+                    \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:8
                     c'2
-                    \mp % SEGMENT:REMINDER_DYNAMIC:9
-                    \override PianoMusicStaff.Clef.color = #(x11-color 'DarkGreen) % SEGMENT:RESTATED_CLEF_SHADOW:7
+                    \mp %! SEGMENT:REMINDER_DYNAMIC:9
+                    \override PianoMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! SEGMENT:RESTATED_CLEF_SHADOW:7
                     
                     %%% PianoMusicVoice [measure 46] %%%
                     c'2
@@ -1460,10 +1460,10 @@
                     r1.
                     
                     %%% PianoMusicVoice [measure 65] %%%
-                    \clef "treble" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     r4
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     \times 2/3 {
                         
                         \ottava #1
@@ -1625,27 +1625,27 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    \set PercussionMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
-                        \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
-                            #16 % SEGMENT:RESTATED_INSTRUMENT:2
-                            Percussion % SEGMENT:RESTATED_INSTRUMENT:2
-                        } % SEGMENT:RESTATED_INSTRUMENT:2
-                    \set PercussionMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
-                        \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
-                            #10 % SEGMENT:RESTATED_INSTRUMENT:2
-                            Perc. % SEGMENT:RESTATED_INSTRUMENT:2
-                        } % SEGMENT:RESTATED_INSTRUMENT:2
-                    \clef "percussion" % SEGMENT:RESTATED_CLEF_COMMAND:4
-                    \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'green) % SEGMENT:RESTATED_INSTRUMENT:1
-                    \once \override PercussionMusicStaff.Clef.color = #(x11-color 'green) % SEGMENT:RESTATED_CLEF_COLOR:3
-                    \set PercussionMusicStaff.forceClef = ##t % SEGMENT:RESTATED_CLEF_COMMAND:5
-                    \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) % SEGMENT:REMINDER_DYNAMIC:7
+                    \set PercussionMusicStaff.instrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
+                        \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:2
+                            #16 %! SEGMENT:RESTATED_INSTRUMENT:2
+                            Percussion %! SEGMENT:RESTATED_INSTRUMENT:2
+                        } %! SEGMENT:RESTATED_INSTRUMENT:2
+                    \set PercussionMusicStaff.shortInstrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
+                        \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:2
+                            #10 %! SEGMENT:RESTATED_INSTRUMENT:2
+                            Perc. %! SEGMENT:RESTATED_INSTRUMENT:2
+                        } %! SEGMENT:RESTATED_INSTRUMENT:2
+                    \clef "percussion" %! SEGMENT:RESTATED_CLEF_COMMAND:4
+                    \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:RESTATED_INSTRUMENT:1
+                    \once \override PercussionMusicStaff.Clef.color = #(x11-color 'green) %! SEGMENT:RESTATED_CLEF_COLOR:3
+                    \set PercussionMusicStaff.forceClef = ##t %! SEGMENT:RESTATED_CLEF_COMMAND:5
+                    \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:7
                     c'2
                     -\accent
-                    \sfz % SEGMENT:REMINDER_DYNAMIC:8
+                    \sfz %! SEGMENT:REMINDER_DYNAMIC:8
                     - \tweak color #red
                     ^ \markup { @ }
-                    \override PercussionMusicStaff.Clef.color = #(x11-color 'DarkGreen) % SEGMENT:RESTATED_CLEF_SHADOW:6
+                    \override PercussionMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! SEGMENT:RESTATED_CLEF_SHADOW:6
                     
                     %%% PercussionMusicVoice [measure 46] %%%
                     \once \override Accidental.color = #red
@@ -1748,12 +1748,12 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     af''2
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     
                     %%% PercussionMusicVoice [measure 54] %%%
                     af''2
@@ -1761,11 +1761,11 @@
                     \stopStaff
                     \startStaff
                     
-                    \clef "percussion" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     c'4
                     -\accent
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     
                     %%% PercussionMusicVoice [measure 55] %%%
                     c'1
@@ -1795,19 +1795,19 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     af''4
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     \stopStaff
                     \startStaff
                     
-                    \clef "percussion" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     r4
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     
                     %%% PercussionMusicVoice [measure 61] %%%
                     r2.
@@ -1818,19 +1818,19 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     af''4.
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     \stopStaff
                     \startStaff
                     
-                    \clef "percussion" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     r4.
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     
                     %%% PercussionMusicVoice [measure 63] %%%
                     r1
@@ -1839,19 +1839,19 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     af''4.
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     \stopStaff
                     \startStaff
                     
-                    \clef "percussion" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     r4.
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     
                     r2.
                     
@@ -1861,58 +1861,58 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     af''4
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     \stopStaff
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 66] %%%
-                    \clef "percussion" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     r4
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     af''4
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     \stopStaff
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 67] %%%
-                    \clef "percussion" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     r4
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     
                     r4
                     
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     af''4
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     \stopStaff
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 68] %%%
-                    \clef "percussion" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     r4
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     
                     r4
                     
@@ -1921,56 +1921,56 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     af''4
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     \stopStaff
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 69] %%%
-                    \clef "percussion" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     r4
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     af''4
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     \stopStaff
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 70] %%%
-                    \clef "percussion" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     r4
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     af''4
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     \stopStaff
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 71] %%%
-                    \clef "percussion" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     r4.
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     
                     r4.
                     
@@ -1979,20 +1979,20 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     af''4.
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     \stopStaff
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 72] %%%
-                    \clef "percussion" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     r4
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     
                     r4
                     
@@ -2001,52 +2001,52 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     af''4
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     \stopStaff
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 73] %%%
-                    \clef "percussion" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     r4
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     
                     r4
                     
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     af''4
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     \stopStaff
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 74] %%%
-                    \clef "percussion" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     r4.
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" % EXPLICIT_CLEF_COMMAND:2
-                    \once \override Staff.Clef.color = #(x11-color 'blue) % EXPLICIT_CLEF_COLOR:1
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:2
+                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     af''4.
                     -\marcato
                     \sfz
                     \bar "|"
                     \revert Stem.direction
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) % EXPLICIT_CLEF_SHADOW:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:3
                     \stopStaff
                     \startStaff
                     
@@ -2059,27 +2059,27 @@
                 \context ViolinMusicVoice = "ViolinMusicVoice" {
                     
                     %%% ViolinMusicVoice [measure 45] %%%
-                    \set ViolinMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
-                        \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
-                            #16 % SEGMENT:RESTATED_INSTRUMENT:2
-                            Violin % SEGMENT:RESTATED_INSTRUMENT:2
-                        } % SEGMENT:RESTATED_INSTRUMENT:2
-                    \set ViolinMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
-                        \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
-                            #10 % SEGMENT:RESTATED_INSTRUMENT:2
-                            Vn. % SEGMENT:RESTATED_INSTRUMENT:2
-                        } % SEGMENT:RESTATED_INSTRUMENT:2
-                    \clef "treble" % SEGMENT:RESTATED_CLEF_COMMAND:4
-                    \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'green) % SEGMENT:RESTATED_INSTRUMENT:1
-                    \once \override ViolinMusicStaff.Clef.color = #(x11-color 'green) % SEGMENT:RESTATED_CLEF_COLOR:3
-                    \set ViolinMusicStaff.forceClef = ##t % SEGMENT:RESTATED_CLEF_COMMAND:5
-                    \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) % SEGMENT:REMINDER_DYNAMIC:7
+                    \set ViolinMusicStaff.instrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
+                        \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:2
+                            #16 %! SEGMENT:RESTATED_INSTRUMENT:2
+                            Violin %! SEGMENT:RESTATED_INSTRUMENT:2
+                        } %! SEGMENT:RESTATED_INSTRUMENT:2
+                    \set ViolinMusicStaff.shortInstrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
+                        \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:2
+                            #10 %! SEGMENT:RESTATED_INSTRUMENT:2
+                            Vn. %! SEGMENT:RESTATED_INSTRUMENT:2
+                        } %! SEGMENT:RESTATED_INSTRUMENT:2
+                    \clef "treble" %! SEGMENT:RESTATED_CLEF_COMMAND:4
+                    \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:RESTATED_INSTRUMENT:1
+                    \once \override ViolinMusicStaff.Clef.color = #(x11-color 'green) %! SEGMENT:RESTATED_CLEF_COLOR:3
+                    \set ViolinMusicStaff.forceClef = ##t %! SEGMENT:RESTATED_CLEF_COMMAND:5
+                    \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:7
                     \pitchedTrill
                     gf'2
                     -\accent
-                    \ppp % SEGMENT:REMINDER_DYNAMIC:8
+                    \ppp %! SEGMENT:REMINDER_DYNAMIC:8
                     \startTrillSpan aff'
-                    \override ViolinMusicStaff.Clef.color = #(x11-color 'DarkGreen) % SEGMENT:RESTATED_CLEF_SHADOW:6
+                    \override ViolinMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! SEGMENT:RESTATED_CLEF_SHADOW:6
                     \times 4/5 {
                         
                         %%% ViolinMusicVoice [measure 46] %%%
@@ -2442,27 +2442,27 @@
                 \context ViolaMusicVoice = "ViolaMusicVoice" {
                     
                     %%% ViolaMusicVoice [measure 45] %%%
-                    \set ViolaMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
-                        \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
-                            #16 % SEGMENT:RESTATED_INSTRUMENT:2
-                            Viola % SEGMENT:RESTATED_INSTRUMENT:2
-                        } % SEGMENT:RESTATED_INSTRUMENT:2
-                    \set ViolaMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
-                        \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
-                            #10 % SEGMENT:RESTATED_INSTRUMENT:2
-                            Va. % SEGMENT:RESTATED_INSTRUMENT:2
-                        } % SEGMENT:RESTATED_INSTRUMENT:2
-                    \clef "alto" % SEGMENT:RESTATED_CLEF_COMMAND:4
-                    \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green) % SEGMENT:RESTATED_INSTRUMENT:1
-                    \once \override ViolaMusicStaff.Clef.color = #(x11-color 'green) % SEGMENT:RESTATED_CLEF_COLOR:3
-                    \set ViolaMusicStaff.forceClef = ##t % SEGMENT:RESTATED_CLEF_COMMAND:5
-                    \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) % SEGMENT:REMINDER_DYNAMIC:7
+                    \set ViolaMusicStaff.instrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
+                        \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:2
+                            #16 %! SEGMENT:RESTATED_INSTRUMENT:2
+                            Viola %! SEGMENT:RESTATED_INSTRUMENT:2
+                        } %! SEGMENT:RESTATED_INSTRUMENT:2
+                    \set ViolaMusicStaff.shortInstrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
+                        \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:2
+                            #10 %! SEGMENT:RESTATED_INSTRUMENT:2
+                            Va. %! SEGMENT:RESTATED_INSTRUMENT:2
+                        } %! SEGMENT:RESTATED_INSTRUMENT:2
+                    \clef "alto" %! SEGMENT:RESTATED_CLEF_COMMAND:4
+                    \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:RESTATED_INSTRUMENT:1
+                    \once \override ViolaMusicStaff.Clef.color = #(x11-color 'green) %! SEGMENT:RESTATED_CLEF_COLOR:3
+                    \set ViolaMusicStaff.forceClef = ##t %! SEGMENT:RESTATED_CLEF_COMMAND:5
+                    \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:7
                     \pitchedTrill
                     f'2
                     -\accent
-                    \ppp % SEGMENT:REMINDER_DYNAMIC:8
+                    \ppp %! SEGMENT:REMINDER_DYNAMIC:8
                     \startTrillSpan gf'
-                    \override ViolaMusicStaff.Clef.color = #(x11-color 'DarkGreen) % SEGMENT:RESTATED_CLEF_SHADOW:6
+                    \override ViolaMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! SEGMENT:RESTATED_CLEF_SHADOW:6
                     
                     %%% ViolaMusicVoice [measure 46] %%%
                     f'4
@@ -2766,27 +2766,27 @@
                 \context CelloMusicVoice = "CelloMusicVoice" {
                     
                     %%% CelloMusicVoice [measure 45] %%%
-                    \set CelloMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
-                        \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
-                            #16 % SEGMENT:RESTATED_INSTRUMENT:2
-                            Cello % SEGMENT:RESTATED_INSTRUMENT:2
-                        } % SEGMENT:RESTATED_INSTRUMENT:2
-                    \set CelloMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
-                        \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
-                            #10 % SEGMENT:RESTATED_INSTRUMENT:2
-                            Vc. % SEGMENT:RESTATED_INSTRUMENT:2
-                        } % SEGMENT:RESTATED_INSTRUMENT:2
-                    \clef "bass" % SEGMENT:RESTATED_CLEF_COMMAND:4
-                    \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green) % SEGMENT:RESTATED_INSTRUMENT:1
-                    \once \override CelloMusicStaff.Clef.color = #(x11-color 'green) % SEGMENT:RESTATED_CLEF_COLOR:3
-                    \set CelloMusicStaff.forceClef = ##t % SEGMENT:RESTATED_CLEF_COMMAND:5
-                    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) % SEGMENT:REMINDER_DYNAMIC:7
+                    \set CelloMusicStaff.instrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
+                        \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:2
+                            #16 %! SEGMENT:RESTATED_INSTRUMENT:2
+                            Cello %! SEGMENT:RESTATED_INSTRUMENT:2
+                        } %! SEGMENT:RESTATED_INSTRUMENT:2
+                    \set CelloMusicStaff.shortInstrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
+                        \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:2
+                            #10 %! SEGMENT:RESTATED_INSTRUMENT:2
+                            Vc. %! SEGMENT:RESTATED_INSTRUMENT:2
+                        } %! SEGMENT:RESTATED_INSTRUMENT:2
+                    \clef "bass" %! SEGMENT:RESTATED_CLEF_COMMAND:4
+                    \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:RESTATED_INSTRUMENT:1
+                    \once \override CelloMusicStaff.Clef.color = #(x11-color 'green) %! SEGMENT:RESTATED_CLEF_COLOR:3
+                    \set CelloMusicStaff.forceClef = ##t %! SEGMENT:RESTATED_CLEF_COMMAND:5
+                    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:7
                     \pitchedTrill
                     f'2
                     -\accent
-                    \ppp % SEGMENT:REMINDER_DYNAMIC:8
+                    \ppp %! SEGMENT:REMINDER_DYNAMIC:8
                     \startTrillSpan gf'
-                    \override CelloMusicStaff.Clef.color = #(x11-color 'DarkGreen) % SEGMENT:RESTATED_CLEF_SHADOW:6
+                    \override CelloMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! SEGMENT:RESTATED_CLEF_SHADOW:6
                     
                     %%% CelloMusicVoice [measure 46] %%%
                     f'2
@@ -3009,24 +3009,24 @@
                 \context ContrabassMusicVoice = "ContrabassMusicVoice" {
                     
                     %%% ContrabassMusicVoice [measure 45] %%%
-                    \set ContrabassMusicStaff.instrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
-                        \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
-                            #16 % SEGMENT:RESTATED_INSTRUMENT:2
-                            Contrabass % SEGMENT:RESTATED_INSTRUMENT:2
-                        } % SEGMENT:RESTATED_INSTRUMENT:2
-                    \set ContrabassMusicStaff.shortInstrumentName = \markup { % SEGMENT:RESTATED_INSTRUMENT:2
-                        \hcenter-in % SEGMENT:RESTATED_INSTRUMENT:2
-                            #10 % SEGMENT:RESTATED_INSTRUMENT:2
-                            Cb. % SEGMENT:RESTATED_INSTRUMENT:2
-                        } % SEGMENT:RESTATED_INSTRUMENT:2
-                    \clef "bass" % SEGMENT:RESTATED_CLEF_COMMAND:4
-                    \once \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'green) % SEGMENT:RESTATED_INSTRUMENT:1
-                    \once \override ContrabassMusicStaff.Clef.color = #(x11-color 'green) % SEGMENT:RESTATED_CLEF_COLOR:3
-                    \set ContrabassMusicStaff.forceClef = ##t % SEGMENT:RESTATED_CLEF_COMMAND:5
-                    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) % SEGMENT:REMINDER_DYNAMIC:7
+                    \set ContrabassMusicStaff.instrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
+                        \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:2
+                            #16 %! SEGMENT:RESTATED_INSTRUMENT:2
+                            Contrabass %! SEGMENT:RESTATED_INSTRUMENT:2
+                        } %! SEGMENT:RESTATED_INSTRUMENT:2
+                    \set ContrabassMusicStaff.shortInstrumentName = \markup { %! SEGMENT:RESTATED_INSTRUMENT:2
+                        \hcenter-in %! SEGMENT:RESTATED_INSTRUMENT:2
+                            #10 %! SEGMENT:RESTATED_INSTRUMENT:2
+                            Cb. %! SEGMENT:RESTATED_INSTRUMENT:2
+                        } %! SEGMENT:RESTATED_INSTRUMENT:2
+                    \clef "bass" %! SEGMENT:RESTATED_CLEF_COMMAND:4
+                    \once \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:RESTATED_INSTRUMENT:1
+                    \once \override ContrabassMusicStaff.Clef.color = #(x11-color 'green) %! SEGMENT:RESTATED_CLEF_COLOR:3
+                    \set ContrabassMusicStaff.forceClef = ##t %! SEGMENT:RESTATED_CLEF_COMMAND:5
+                    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:7
                     <g, a>2
-                    \f % SEGMENT:REMINDER_DYNAMIC:8
-                    \override ContrabassMusicStaff.Clef.color = #(x11-color 'DarkGreen) % SEGMENT:RESTATED_CLEF_SHADOW:6
+                    \f %! SEGMENT:REMINDER_DYNAMIC:8
+                    \override ContrabassMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! SEGMENT:RESTATED_CLEF_SHADOW:6
                     
                     %%% ContrabassMusicVoice [measure 46] %%%
                     <g, a>2
