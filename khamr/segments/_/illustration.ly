@@ -553,7 +553,7 @@
                         }
                     \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
-                    \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                     <g' g''>2
                     ^ \markup {
                         \whiteout
@@ -843,7 +843,7 @@
                         }
                     \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
-                    \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                     g'2
                     \p
                     ^ \markup {
@@ -1033,7 +1033,7 @@
                     \startStaff
                     \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
-                    \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                     r2.
                     ^ \markup {
                         \whiteout
@@ -1108,7 +1108,7 @@
                         }
                     \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
-                    \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                     b2
                     \pp
                     \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
@@ -1379,7 +1379,7 @@
                         }
                     \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
-                    \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                     e''2
                     \pp
                     \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
@@ -1635,7 +1635,7 @@
                         }
                     \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
-                    \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                     cs'4
                     \f
                     ^ \markup {
@@ -2461,7 +2461,7 @@
                         }
                     \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
-                    \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                     c'2
                     -\accent
                     \mf
@@ -2623,7 +2623,7 @@
                         \once \override Beam.grow-direction = #right
                         \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                         \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
-                        \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                        %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                         cs''''16 * 247/32
                         \mf
                         [
@@ -2929,7 +2929,7 @@
                     \override RepeatTie.direction = #up
                     \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
-                    \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                     c'1
                     \mp
                     ^ \markup {
@@ -3007,7 +3007,7 @@
                         }
                     \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
-                    \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                     c'2
                     -\accent
                     \mp
@@ -3230,7 +3230,7 @@
                     \startStaff
                     \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
-                    \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                     af''2.
                     -\marcato
                     \sfz
@@ -3257,7 +3257,7 @@
                     \once \override Stem.color = #red
                     \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
-                    \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                     c'2.
                     -\accent
                     - \tweak color #red
@@ -3454,7 +3454,7 @@
                     \startStaff
                     \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
-                    \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                     af''1
                     -\marcato
                     \sfz
@@ -3470,7 +3470,7 @@
                     \once \override Stem.color = #red
                     \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
-                    \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                     c'2.
                     -\accent
                     - \tweak color #red
@@ -3642,7 +3642,7 @@
                         }
                     \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
-                    \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                     g'2
                     \>
                     \pp
@@ -4141,7 +4141,7 @@
                         }
                     \clef "alto" %! EXPLICIT_CLEF_COMMAND:3
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
-                    \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                     g'4.
                     \glissando
                     \pp
@@ -4592,7 +4592,7 @@
                         }
                     \clef "bass" %! EXPLICIT_CLEF_COMMAND:3
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
-                    \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                     g2
                     \>
                     \pp
@@ -5034,7 +5034,7 @@
                         }
                     \clef "bass" %! EXPLICIT_CLEF_COMMAND:3
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
-                    \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
                     a2
                     \f
                     ^ \markup {
