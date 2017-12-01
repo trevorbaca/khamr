@@ -17,18 +17,18 @@
                 \time 2/4
                 \bar "" %! SEGMENT:EMPTY_START_BAR:1
                 s1 * 1/2
-                %%% ^ \markup { %! CLOCK_TIME:3
-                    %%% \fontsize %! CLOCK_TIME:3
-                        %%% #-2 %! CLOCK_TIME:3
-                        %%% 0'00'' %! CLOCK_TIME:3
-                    %%% } %! CLOCK_TIME:3
-                %%% - \markup { %! STAGE_NUMBER:2
-                    %%% \fontsize %! STAGE_NUMBER:2
-                        %%% #-3 %! STAGE_NUMBER:2
-                        %%% \with-color %! STAGE_NUMBER:2
-                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER:2
-                            %%% [1] %! STAGE_NUMBER:2
-                    %%% } %! STAGE_NUMBER:2
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:3
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:3
+                        %%% #-2 %! CLOCK_TIME_MARKUP:3
+                        %%% 0'00'' %! CLOCK_TIME_MARKUP:3
+                    %%% } %! CLOCK_TIME_MARKUP:3
+                %%% - \markup { %! STAGE_NUMBER_MARKUP:2
+                    %%% \fontsize %! STAGE_NUMBER_MARKUP:2
+                        %%% #-3 %! STAGE_NUMBER_MARKUP:2
+                        %%% \with-color %! STAGE_NUMBER_MARKUP:2
+                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER_MARKUP:2
+                            %%% [1] %! STAGE_NUMBER_MARKUP:2
+                    %%% } %! STAGE_NUMBER_MARKUP:2
                 ^ \markup {
                     \fontsize
                         #-6
@@ -49,223 +49,223 @@
                 %%% GlobalSkips [measure 2] %%%
                 \time 2/4
                 s1 * 1/2
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'00'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'00'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 3] %%%
                 \time 6/4
                 s1 * 3/2
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'01'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'01'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 4] %%%
                 \time 3/4
                 s1 * 3/4
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'04'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'04'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 5] %%%
                 \time 4/4
                 s1 * 1
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'06'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'06'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 6] %%%
                 \time 6/8
                 s1 * 3/4
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'08'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'08'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 7] %%%
                 \time 4/4
                 s1 * 1
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'09'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'09'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 8] %%%
                 \time 5/4
                 s1 * 5/4
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'11'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'11'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 9] %%%
                 \time 4/4
                 s1 * 1
-                %%% ^ \markup { %! CLOCK_TIME:2
-                    %%% \fontsize %! CLOCK_TIME:2
-                        %%% #-2 %! CLOCK_TIME:2
-                        %%% 0'13'' %! CLOCK_TIME:2
-                    %%% } %! CLOCK_TIME:2
-                %%% - \markup { %! STAGE_NUMBER:1
-                    %%% \fontsize %! STAGE_NUMBER:1
-                        %%% #-3 %! STAGE_NUMBER:1
-                        %%% \with-color %! STAGE_NUMBER:1
-                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER:1
-                            %%% [2] %! STAGE_NUMBER:1
-                    %%% } %! STAGE_NUMBER:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:2
+                        %%% #-2 %! CLOCK_TIME_MARKUP:2
+                        %%% 0'13'' %! CLOCK_TIME_MARKUP:2
+                    %%% } %! CLOCK_TIME_MARKUP:2
+                %%% - \markup { %! STAGE_NUMBER_MARKUP:1
+                    %%% \fontsize %! STAGE_NUMBER_MARKUP:1
+                        %%% #-3 %! STAGE_NUMBER_MARKUP:1
+                        %%% \with-color %! STAGE_NUMBER_MARKUP:1
+                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER_MARKUP:1
+                            %%% [2] %! STAGE_NUMBER_MARKUP:1
+                    %%% } %! STAGE_NUMBER_MARKUP:1
                 
                 %%% GlobalSkips [measure 10] %%%
                 \time 3/4
                 s1 * 3/4
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'15'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'15'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 11] %%%
                 \time 4/4
                 s1 * 1
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'17'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'17'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 12] %%%
                 \time 5/4
                 s1 * 5/4
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'19'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'19'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 13] %%%
                 \time 6/8
                 s1 * 3/4
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'21'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'21'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 14] %%%
                 \time 2/4
                 s1 * 1/2
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'22'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'22'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 15] %%%
                 \time 6/4
                 s1 * 3/2
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'23'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'23'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 16] %%%
                 \time 2/4
                 s1 * 1/2
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'26'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'26'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 17] %%%
                 \time 5/4
                 s1 * 5/4
-                %%% ^ \markup { %! CLOCK_TIME:2
-                    %%% \fontsize %! CLOCK_TIME:2
-                        %%% #-2 %! CLOCK_TIME:2
-                        %%% 0'27'' %! CLOCK_TIME:2
-                    %%% } %! CLOCK_TIME:2
-                %%% - \markup { %! STAGE_NUMBER:1
-                    %%% \fontsize %! STAGE_NUMBER:1
-                        %%% #-3 %! STAGE_NUMBER:1
-                        %%% \with-color %! STAGE_NUMBER:1
-                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER:1
-                            %%% [3] %! STAGE_NUMBER:1
-                    %%% } %! STAGE_NUMBER:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:2
+                        %%% #-2 %! CLOCK_TIME_MARKUP:2
+                        %%% 0'27'' %! CLOCK_TIME_MARKUP:2
+                    %%% } %! CLOCK_TIME_MARKUP:2
+                %%% - \markup { %! STAGE_NUMBER_MARKUP:1
+                    %%% \fontsize %! STAGE_NUMBER_MARKUP:1
+                        %%% #-3 %! STAGE_NUMBER_MARKUP:1
+                        %%% \with-color %! STAGE_NUMBER_MARKUP:1
+                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER_MARKUP:1
+                            %%% [3] %! STAGE_NUMBER_MARKUP:1
+                    %%% } %! STAGE_NUMBER_MARKUP:1
                 
                 %%% GlobalSkips [measure 18] %%%
                 \time 6/8
                 s1 * 3/4
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'30'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'30'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 19] %%%
                 \time 4/4
                 s1 * 1
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'31'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'31'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 20] %%%
                 \time 6/4
                 s1 * 3/2
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'33'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'33'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 21] %%%
                 \time 2/4
                 s1 * 1/2
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'36'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'36'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 22] %%%
                 \time 2/4
                 s1 * 1/2
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'37'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'37'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 23] %%%
                 \time 3/4
                 s1 * 3/4
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'38'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'38'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 24] %%%
                 \time 4/4
                 s1 * 1
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'39'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'39'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 25] %%%
                 \once \override TextSpanner.arrow-width = 0.25
@@ -303,141 +303,141 @@
                 \time 2/4
                 s1 * 1/2
                 \startTextSpan
-                %%% ^ \markup { %! CLOCK_TIME:2
-                    %%% \fontsize %! CLOCK_TIME:2
-                        %%% #-2 %! CLOCK_TIME:2
-                        %%% 0'41'' %! CLOCK_TIME:2
-                    %%% } %! CLOCK_TIME:2
-                %%% - \markup { %! STAGE_NUMBER:1
-                    %%% \fontsize %! STAGE_NUMBER:1
-                        %%% #-3 %! STAGE_NUMBER:1
-                        %%% \with-color %! STAGE_NUMBER:1
-                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER:1
-                            %%% [4] %! STAGE_NUMBER:1
-                    %%% } %! STAGE_NUMBER:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:2
+                        %%% #-2 %! CLOCK_TIME_MARKUP:2
+                        %%% 0'41'' %! CLOCK_TIME_MARKUP:2
+                    %%% } %! CLOCK_TIME_MARKUP:2
+                %%% - \markup { %! STAGE_NUMBER_MARKUP:1
+                    %%% \fontsize %! STAGE_NUMBER_MARKUP:1
+                        %%% #-3 %! STAGE_NUMBER_MARKUP:1
+                        %%% \with-color %! STAGE_NUMBER_MARKUP:1
+                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER_MARKUP:1
+                            %%% [4] %! STAGE_NUMBER_MARKUP:1
+                    %%% } %! STAGE_NUMBER_MARKUP:1
                 
                 %%% GlobalSkips [measure 26] %%%
                 \time 2/4
                 s1 * 1/2
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'43'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'43'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 27] %%%
                 \time 6/4
                 s1 * 3/2
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'45'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'45'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 28] %%%
                 \time 4/4
                 s1 * 1
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'50'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'50'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 29] %%%
                 \time 3/4
                 s1 * 3/4
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'54'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'54'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 30] %%%
                 \time 6/8
                 s1 * 3/4
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 0'57'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 0'57'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 31] %%%
                 \time 4/4
                 s1 * 1
-                %%% ^ \markup { %! CLOCK_TIME:2
-                    %%% \fontsize %! CLOCK_TIME:2
-                        %%% #-2 %! CLOCK_TIME:2
-                        %%% 1'00'' %! CLOCK_TIME:2
-                    %%% } %! CLOCK_TIME:2
-                %%% - \markup { %! STAGE_NUMBER:1
-                    %%% \fontsize %! STAGE_NUMBER:1
-                        %%% #-3 %! STAGE_NUMBER:1
-                        %%% \with-color %! STAGE_NUMBER:1
-                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER:1
-                            %%% [5] %! STAGE_NUMBER:1
-                    %%% } %! STAGE_NUMBER:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:2
+                        %%% #-2 %! CLOCK_TIME_MARKUP:2
+                        %%% 1'00'' %! CLOCK_TIME_MARKUP:2
+                    %%% } %! CLOCK_TIME_MARKUP:2
+                %%% - \markup { %! STAGE_NUMBER_MARKUP:1
+                    %%% \fontsize %! STAGE_NUMBER_MARKUP:1
+                        %%% #-3 %! STAGE_NUMBER_MARKUP:1
+                        %%% \with-color %! STAGE_NUMBER_MARKUP:1
+                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER_MARKUP:1
+                            %%% [5] %! STAGE_NUMBER_MARKUP:1
+                    %%% } %! STAGE_NUMBER_MARKUP:1
                 
                 %%% GlobalSkips [measure 32] %%%
                 \time 5/4
                 s1 * 5/4
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 1'04'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 1'04'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 33] %%%
                 \time 3/4
                 s1 * 3/4
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 1'09'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 1'09'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 34] %%%
                 \time 4/4
                 s1 * 1
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 1'11'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 1'11'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 35] %%%
                 \time 4/4
                 s1 * 1
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 1'15'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 1'15'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 36] %%%
                 \time 5/4
                 s1 * 5/4
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 1'19'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 1'19'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 37] %%%
                 \time 6/8
                 s1 * 3/4
                 \stopTextSpan
-                %%% ^ \markup { %! CLOCK_TIME:2
-                    %%% \fontsize %! CLOCK_TIME:2
-                        %%% #-2 %! CLOCK_TIME:2
-                        %%% 1'24'' %! CLOCK_TIME:2
-                    %%% } %! CLOCK_TIME:2
-                %%% - \markup { %! STAGE_NUMBER:1
-                    %%% \fontsize %! STAGE_NUMBER:1
-                        %%% #-3 %! STAGE_NUMBER:1
-                        %%% \with-color %! STAGE_NUMBER:1
-                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER:1
-                            %%% [6] %! STAGE_NUMBER:1
-                    %%% } %! STAGE_NUMBER:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:2
+                        %%% #-2 %! CLOCK_TIME_MARKUP:2
+                        %%% 1'24'' %! CLOCK_TIME_MARKUP:2
+                    %%% } %! CLOCK_TIME_MARKUP:2
+                %%% - \markup { %! STAGE_NUMBER_MARKUP:1
+                    %%% \fontsize %! STAGE_NUMBER_MARKUP:1
+                        %%% #-3 %! STAGE_NUMBER_MARKUP:1
+                        %%% \with-color %! STAGE_NUMBER_MARKUP:1
+                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER_MARKUP:1
+                            %%% [6] %! STAGE_NUMBER_MARKUP:1
+                    %%% } %! STAGE_NUMBER_MARKUP:1
                 ^ \markup {
                     \fontsize
                         #-6
@@ -458,72 +458,72 @@
                 %%% GlobalSkips [measure 38] %%%
                 \time 2/4
                 s1 * 1/2
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 1'26'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 1'26'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 39] %%%
                 \time 6/4
                 s1 * 3/2
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 1'27'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 1'27'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 40] %%%
                 \time 2/4
                 s1 * 1/2
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 1'32'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 1'32'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 41] %%%
                 \time 5/4
                 s1 * 5/4
-                %%% ^ \markup { %! CLOCK_TIME:2
-                    %%% \fontsize %! CLOCK_TIME:2
-                        %%% #-2 %! CLOCK_TIME:2
-                        %%% 1'33'' %! CLOCK_TIME:2
-                    %%% } %! CLOCK_TIME:2
-                %%% - \markup { %! STAGE_NUMBER:1
-                    %%% \fontsize %! STAGE_NUMBER:1
-                        %%% #-3 %! STAGE_NUMBER:1
-                        %%% \with-color %! STAGE_NUMBER:1
-                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER:1
-                            %%% [7] %! STAGE_NUMBER:1
-                    %%% } %! STAGE_NUMBER:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:2
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:2
+                        %%% #-2 %! CLOCK_TIME_MARKUP:2
+                        %%% 1'33'' %! CLOCK_TIME_MARKUP:2
+                    %%% } %! CLOCK_TIME_MARKUP:2
+                %%% - \markup { %! STAGE_NUMBER_MARKUP:1
+                    %%% \fontsize %! STAGE_NUMBER_MARKUP:1
+                        %%% #-3 %! STAGE_NUMBER_MARKUP:1
+                        %%% \with-color %! STAGE_NUMBER_MARKUP:1
+                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER_MARKUP:1
+                            %%% [7] %! STAGE_NUMBER_MARKUP:1
+                    %%% } %! STAGE_NUMBER_MARKUP:1
                 
                 %%% GlobalSkips [measure 42] %%%
                 \time 6/8
                 s1 * 3/4
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 1'37'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 1'37'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 43] %%%
                 \time 4/4
                 s1 * 1
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 1'39'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 1'39'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
                 %%% GlobalSkips [measure 44] %%%
                 \time 6/4
                 s1 * 3/2
-                %%% ^ \markup { %! CLOCK_TIME:1
-                    %%% \fontsize %! CLOCK_TIME:1
-                        %%% #-2 %! CLOCK_TIME:1
-                        %%% 1'42'' %! CLOCK_TIME:1
-                    %%% } %! CLOCK_TIME:1
+                %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
+                    %%% \fontsize %! CLOCK_TIME_MARKUP:1
+                        %%% #-2 %! CLOCK_TIME_MARKUP:1
+                        %%% 1'42'' %! CLOCK_TIME_MARKUP:1
+                    %%% } %! CLOCK_TIME_MARKUP:1
                 
             }
         >>
