@@ -1354,7 +1354,7 @@
                         } %! SEGMENT:REAPPLIED_INSTRUMENT:2
                     \clef "percussion" %! SEGMENT:REAPPLIED_CLEF_COMMAND:6
                     \once \override PianoMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:REAPPLIED_INSTRUMENT:1
-                    \once \override PianoMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! SEGMENT:DUPLICATE_STAFF_LINES:3
+                    \once \override PianoMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! SEGMENT:REDUNDANT_STAFF_LINES:3
                     \once \override PianoMusicStaff.Clef.color = #(x11-color 'green) %! SEGMENT:REAPPLIED_CLEF_COLOR:4
                     %%% \override PianoMusicStaff.Clef.color = ##f %! SEGMENT:REAPPLIED_CLEF_UNCOLOR:5
                     \set PianoMusicStaff.forceClef = ##t %! SEGMENT:REAPPLIED_CLEF_COMMAND:7

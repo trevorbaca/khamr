@@ -481,7 +481,7 @@
                         } %! SEGMENT:REAPPLIED_INSTRUMENT:2
                     \clef "percussion" %! SEGMENT:REAPPLIED_CLEF_COMMAND:6
                     \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:REAPPLIED_INSTRUMENT:1
-                    \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! SEGMENT:DUPLICATE_STAFF_LINES:3
+                    \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! SEGMENT:REDUNDANT_STAFF_LINES:3
                     \once \override OboeMusicStaff.Clef.color = #(x11-color 'green) %! SEGMENT:REAPPLIED_CLEF_COLOR:4
                     %%% \override OboeMusicStaff.Clef.color = ##f %! SEGMENT:REAPPLIED_CLEF_UNCOLOR:5
                     \set OboeMusicStaff.forceClef = ##t %! SEGMENT:REAPPLIED_CLEF_COMMAND:7
@@ -741,7 +741,7 @@
                         } %! SEGMENT:REAPPLIED_INSTRUMENT:2
                     \clef "percussion" %! SEGMENT:REAPPLIED_CLEF_COMMAND:6
                     \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'green) %! SEGMENT:REAPPLIED_INSTRUMENT:1
-                    \once \override SaxophoneMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! SEGMENT:DUPLICATE_STAFF_LINES:3
+                    \once \override SaxophoneMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! SEGMENT:REDUNDANT_STAFF_LINES:3
                     \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'green) %! SEGMENT:REAPPLIED_CLEF_COLOR:4
                     %%% \override SaxophoneMusicStaff.Clef.color = ##f %! SEGMENT:REAPPLIED_CLEF_UNCOLOR:5
                     \set SaxophoneMusicStaff.forceClef = ##t %! SEGMENT:REAPPLIED_CLEF_COMMAND:7
