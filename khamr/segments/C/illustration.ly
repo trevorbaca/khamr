@@ -18,7 +18,7 @@
                 \time 2/4
                 \mark #3
                 \bar "" %! SEGMENT:EMPTY_START_BAR:1
-                \once \override TextScript.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_METRONOME_MARK:3
+                \once \override TextScript.color = #(x11-color 'DarkCyan) %! REMINDER_METRONOME_MARK:3
                 s1 * 1/2
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:5
                     %%% \fontsize %! CLOCK_TIME_MARKUP:5
@@ -32,22 +32,22 @@
                             %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER_MARKUP:2
                             %%% [C.1] %! STAGE_NUMBER_MARKUP:2
                     %%% } %! STAGE_NUMBER_MARKUP:2
-                ^ \markup { % SEGMENT:REMINDER_METRONOME_MARK:4
-                    \fontsize % SEGMENT:REMINDER_METRONOME_MARK:4
-                        #-6 % SEGMENT:REMINDER_METRONOME_MARK:4
-                        \general-align % SEGMENT:REMINDER_METRONOME_MARK:4
-                            #Y % SEGMENT:REMINDER_METRONOME_MARK:4
-                            #DOWN % SEGMENT:REMINDER_METRONOME_MARK:4
-                            \note-by-number % SEGMENT:REMINDER_METRONOME_MARK:4
-                                #2 % SEGMENT:REMINDER_METRONOME_MARK:4
-                                #0 % SEGMENT:REMINDER_METRONOME_MARK:4
-                                #1 % SEGMENT:REMINDER_METRONOME_MARK:4
-                    \upright % SEGMENT:REMINDER_METRONOME_MARK:4
-                        { % SEGMENT:REMINDER_METRONOME_MARK:4
-                            = % SEGMENT:REMINDER_METRONOME_MARK:4
-                            42 % SEGMENT:REMINDER_METRONOME_MARK:4
-                        } % SEGMENT:REMINDER_METRONOME_MARK:4
-                    } % SEGMENT:REMINDER_METRONOME_MARK:4
+                ^ \markup { % REMINDER_METRONOME_MARK:4
+                    \fontsize % REMINDER_METRONOME_MARK:4
+                        #-6 % REMINDER_METRONOME_MARK:4
+                        \general-align % REMINDER_METRONOME_MARK:4
+                            #Y % REMINDER_METRONOME_MARK:4
+                            #DOWN % REMINDER_METRONOME_MARK:4
+                            \note-by-number % REMINDER_METRONOME_MARK:4
+                                #2 % REMINDER_METRONOME_MARK:4
+                                #0 % REMINDER_METRONOME_MARK:4
+                                #1 % REMINDER_METRONOME_MARK:4
+                    \upright % REMINDER_METRONOME_MARK:4
+                        { % REMINDER_METRONOME_MARK:4
+                            = % REMINDER_METRONOME_MARK:4
+                            42 % REMINDER_METRONOME_MARK:4
+                        } % REMINDER_METRONOME_MARK:4
+                    } % REMINDER_METRONOME_MARK:4
                 
                 %%% GlobalSkips [measure 113] %%%
                 \time 2/4
@@ -331,9 +331,9 @@
                     \once \override FluteMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:3
                     %%% \override FluteMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:4
                     \set FluteMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:6
-                    \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:8
+                    \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! REMINDER_DYNAMIC:8
                     bf'2
-                    \pp %! SEGMENT:REMINDER_DYNAMIC:9
+                    \pp %! REMINDER_DYNAMIC:9
                     \override FluteMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:7
                     
                     %%% FluteMusicVoice [measure 113] %%%
@@ -481,13 +481,13 @@
                         } %! REAPPLIED_INSTRUMENT:2
                     \clef "percussion" %! REAPPLIED_CLEF_COMMAND:6
                     \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT:1
-                    \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! SEGMENT:REDUNDANT_STAFF_LINES:3
+                    \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES:3
                     \once \override OboeMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:4
                     %%% \override OboeMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:5
                     \set OboeMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:7
-                    \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:9
+                    \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! REMINDER_DYNAMIC:9
                     c'2
-                    \pp %! SEGMENT:REMINDER_DYNAMIC:10
+                    \pp %! REMINDER_DYNAMIC:10
                     \override OboeMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:8
                     
                     %%% OboeMusicVoice [measure 113] %%%
@@ -627,9 +627,9 @@
                     \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:3
                     %%% \override ClarinetMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:4
                     \set ClarinetMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:6
-                    \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:8
+                    \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! REMINDER_DYNAMIC:8
                     a2
-                    \ppp %! SEGMENT:REMINDER_DYNAMIC:9
+                    \ppp %! REMINDER_DYNAMIC:9
                     \override ClarinetMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:7
                     
                     %%% ClarinetMusicVoice [measure 113] %%%
@@ -741,13 +741,13 @@
                         } %! REAPPLIED_INSTRUMENT:2
                     \clef "percussion" %! REAPPLIED_CLEF_COMMAND:6
                     \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT:1
-                    \once \override SaxophoneMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! SEGMENT:REDUNDANT_STAFF_LINES:3
+                    \once \override SaxophoneMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES:3
                     \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:4
                     %%% \override SaxophoneMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:5
                     \set SaxophoneMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:7
-                    \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:9
+                    \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! REMINDER_DYNAMIC:9
                     a2
-                    \pp %! SEGMENT:REMINDER_DYNAMIC:10
+                    \pp %! REMINDER_DYNAMIC:10
                     \override SaxophoneMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:8
                     
                     %%% SaxophoneMusicVoice [measure 113] %%%
@@ -884,9 +884,9 @@
                     \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:3
                     %%% \override GuitarMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:4
                     \set GuitarMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:6
-                    \once \override GuitarMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:8
+                    \once \override GuitarMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! REMINDER_DYNAMIC:8
                     r2
-                    \fff %! SEGMENT:REMINDER_DYNAMIC:9
+                    \fff %! REMINDER_DYNAMIC:9
                     \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:7
                     
                     %%% GuitarMusicVoice [measure 113] %%%
@@ -1053,9 +1053,9 @@
                     \once \override PianoMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:5
                     %%% \override PianoMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:6
                     \set PianoMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:8
-                    \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:10
+                    \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! REMINDER_DYNAMIC:10
                     r2
-                    \fff %! SEGMENT:REMINDER_DYNAMIC:11
+                    \fff %! REMINDER_DYNAMIC:11
                     \override PianoMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:9
                     
                     %%% PianoMusicVoice [measure 113] %%%
@@ -1219,10 +1219,10 @@
                     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:3
                     %%% \override PercussionMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:4
                     \set PercussionMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:6
-                    \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! SEGMENT:REMINDER_DYNAMIC:8
+                    \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! REMINDER_DYNAMIC:8
                     c'2
                     :32
-                    \ppp %! SEGMENT:REMINDER_DYNAMIC:9
+                    \ppp %! REMINDER_DYNAMIC:9
                     \>
                     \pp
                     \override PercussionMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:7
