@@ -1401,10 +1401,11 @@
                             #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
                             Vn. %! REAPPLIED_INSTRUMENT_COMMAND:2
                         } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:5
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:6
                     \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:3
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:4
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:5
                     c'2
                     -\downbow
                     \p
@@ -1413,7 +1414,7 @@
                             \upright
                                 "bow on wooden mute"
                         }
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:6
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:7
                     
                     %%% ViolinMusicVoice [measure 113] %%%
                     c'2
@@ -1531,10 +1532,11 @@
                             #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
                             Va. %! REAPPLIED_INSTRUMENT_COMMAND:2
                         } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:5
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:6
                     \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:3
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:4
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:5
                     c'2
                     -\downbow
                     \p
@@ -1543,7 +1545,7 @@
                             \upright
                                 "bow on wooden mute"
                         }
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:6
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:7
                     
                     %%% ViolaMusicVoice [measure 113] %%%
                     c'2
@@ -1661,10 +1663,11 @@
                             #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
                             Vc. %! REAPPLIED_INSTRUMENT_COMMAND:2
                         } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:5
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:6
                     \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:3
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:4
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:5
                     c'2
                     -\downbow
                     \p
@@ -1673,7 +1676,7 @@
                             \upright
                                 "bow on tailpiece"
                         }
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:6
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:7
                     
                     %%% CelloMusicVoice [measure 113] %%%
                     c'2
@@ -1797,10 +1800,11 @@
                             #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
                             Cb. %! REAPPLIED_INSTRUMENT_COMMAND:2
                         } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:5
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:6
                     \once \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:3
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:4
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:5
                     c''2
                     -\downbow
                     \p
@@ -1809,7 +1813,7 @@
                             \upright
                                 "bow on tailpiece"
                         }
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:6
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:7
                     
                     %%% ContrabassMusicVoice [measure 113] %%%
                     c''2
