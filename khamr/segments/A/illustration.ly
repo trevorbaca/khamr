@@ -1466,11 +1466,12 @@
                     r1.
                     
                     %%% PianoMusicVoice [measure 65] %%%
-                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     r4
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     \times 2/3 {
                         
                         \ottava #1
@@ -1756,13 +1757,14 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     af''2
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     
                     %%% PercussionMusicVoice [measure 54] %%%
                     af''2
@@ -1770,12 +1772,13 @@
                     \stopStaff
                     \startStaff
                     
-                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     c'4
                     -\accent
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     
                     %%% PercussionMusicVoice [measure 55] %%%
                     c'1
@@ -1805,21 +1808,23 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     af''4
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     \stopStaff
                     \startStaff
                     
-                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     r4
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     
                     %%% PercussionMusicVoice [measure 61] %%%
                     r2.
@@ -1830,21 +1835,23 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     af''4.
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     \stopStaff
                     \startStaff
                     
-                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     r4.
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     
                     %%% PercussionMusicVoice [measure 63] %%%
                     r1
@@ -1853,21 +1860,23 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     af''4.
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     \stopStaff
                     \startStaff
                     
-                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     r4.
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     
                     r2.
                     
@@ -1877,64 +1886,70 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     af''4
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     \stopStaff
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 66] %%%
-                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     r4
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     af''4
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     \stopStaff
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 67] %%%
-                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     r4
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     
                     r4
                     
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     af''4
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     \stopStaff
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 68] %%%
-                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     r4
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     
                     r4
                     
@@ -1943,62 +1958,68 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     af''4
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     \stopStaff
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 69] %%%
-                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     r4
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     af''4
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     \stopStaff
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 70] %%%
-                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     r4
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     af''4
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     \stopStaff
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 71] %%%
-                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     r4.
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     
                     r4.
                     
@@ -2007,22 +2028,24 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     af''4.
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     \stopStaff
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 72] %%%
-                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     r4
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     
                     r4
                     
@@ -2031,57 +2054,62 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     af''4
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     \stopStaff
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 73] %%%
-                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     r4
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     
                     r4
                     
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     af''4
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     \stopStaff
                     \startStaff
                     
                     %%% PercussionMusicVoice [measure 74] %%%
-                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     r4.
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
-                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "treble" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     af''4.
                     -\marcato
                     \sfz
                     \bar "|"
                     \revert Stem.direction
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     \stopStaff
                     \startStaff
                     

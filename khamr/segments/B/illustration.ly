@@ -2656,11 +2656,12 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
-                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     r1
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     
                     %%% OboeMusicVoice [measure 109] %%%
                     r1
@@ -4718,9 +4719,10 @@
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
                     \override RepeatTie.direction = #up
-                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     a1
                     \pp
                     ^ \markup {
@@ -4728,7 +4730,7 @@
                             \upright
                                 airtone
                         }
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     
                     %%% SaxophoneMusicVoice [measure 109] %%%
                     a1
@@ -6306,9 +6308,10 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
-                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:3
+                    \clef "percussion" %! EXPLICIT_CLEF_COMMAND:4
                     \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:1
                     %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:2
+                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:3
                     c'1
                     :32
                     \pp
@@ -6320,7 +6323,7 @@
                                     \box
                                         "bass drum"
                         }
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:4
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
                     
                     %%% PercussionMusicVoice [measure 80] %%%
                     \once \override Beam.color = #blue
