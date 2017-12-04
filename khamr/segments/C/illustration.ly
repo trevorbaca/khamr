@@ -465,9 +465,9 @@
                 \context OboeMusicVoice = "OboeMusicVoice" {
                     
                     %%% OboeMusicVoice [measure 112] %%%
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
+                    \stopStaff %! REDUNDANT_STAFF_LINES_COMMAND:4
+                    \once \override Staff.StaffSymbol.line-count = 1 %! REDUNDANT_STAFF_LINES_COMMAND:4
+                    \startStaff %! REDUNDANT_STAFF_LINES_COMMAND:4
                     \override RepeatTie.direction = #up
                     \set OboeMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
                         \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
@@ -479,16 +479,16 @@
                             #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
                             Ob. %! REAPPLIED_INSTRUMENT_COMMAND:2
                         } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                    \clef "percussion" %! REAPPLIED_CLEF_COMMAND:7
+                    \clef "percussion" %! REAPPLIED_CLEF_COMMAND:8
                     \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
                     \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:3
-                    \once \override OboeMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:4
-                    %%% \override OboeMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:5
-                    \set OboeMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:6
-                    \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! REMINDER_DYNAMIC_COLOR:9
+                    \once \override OboeMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:5
+                    %%% \override OboeMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:6
+                    \set OboeMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:7
+                    \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! REMINDER_DYNAMIC_COLOR:10
                     c'2
-                    \pp %! REMINDER_DYNAMIC_COMMAND:10
-                    \override OboeMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:8
+                    \pp %! REMINDER_DYNAMIC_COMMAND:11
+                    \override OboeMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:9
                     
                     %%% OboeMusicVoice [measure 113] %%%
                     c'2
@@ -717,9 +717,9 @@
                 \context SaxophoneMusicVoice = "SaxophoneMusicVoice" {
                     
                     %%% SaxophoneMusicVoice [measure 112] %%%
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
+                    \stopStaff %! REDUNDANT_STAFF_LINES_COMMAND:4
+                    \once \override Staff.StaffSymbol.line-count = 1 %! REDUNDANT_STAFF_LINES_COMMAND:4
+                    \startStaff %! REDUNDANT_STAFF_LINES_COMMAND:4
                     \override RepeatTie.direction = #up
                     \set SaxophoneMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
                         \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
@@ -739,16 +739,16 @@
                                     sax. %! REAPPLIED_INSTRUMENT_COMMAND:2
                                 } %! REAPPLIED_INSTRUMENT_COMMAND:2
                         } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                    \clef "percussion" %! REAPPLIED_CLEF_COMMAND:7
+                    \clef "percussion" %! REAPPLIED_CLEF_COMMAND:8
                     \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
                     \once \override SaxophoneMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:3
-                    \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:4
-                    %%% \override SaxophoneMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:5
-                    \set SaxophoneMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:6
-                    \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! REMINDER_DYNAMIC_COLOR:9
+                    \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:5
+                    %%% \override SaxophoneMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:6
+                    \set SaxophoneMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:7
+                    \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! REMINDER_DYNAMIC_COLOR:10
                     a2
-                    \pp %! REMINDER_DYNAMIC_COMMAND:10
-                    \override SaxophoneMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:8
+                    \pp %! REMINDER_DYNAMIC_COMMAND:11
+                    \override SaxophoneMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:9
                     
                     %%% SaxophoneMusicVoice [measure 113] %%%
                     a2

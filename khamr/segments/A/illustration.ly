@@ -1338,9 +1338,9 @@
                 \context PianoMusicVoice = "PianoMusicVoice" {
                     
                     %%% PianoMusicVoice [measure 45] %%%
-                    \stopStaff
-                    \once \override Staff.StaffSymbol.line-count = 1
-                    \startStaff
+                    \stopStaff %! REDUNDANT_STAFF_LINES_COMMAND:4
+                    \once \override Staff.StaffSymbol.line-count = 1 %! REDUNDANT_STAFF_LINES_COMMAND:4
+                    \startStaff %! REDUNDANT_STAFF_LINES_COMMAND:4
                     \override RepeatTie.direction = #up
                     \set PianoMusicStaff.instrumentName = \markup { %! REAPPLIED_INSTRUMENT_COMMAND:2
                         \hcenter-in %! REAPPLIED_INSTRUMENT_COMMAND:2
@@ -1352,16 +1352,16 @@
                             #10 %! REAPPLIED_INSTRUMENT_COMMAND:2
                             Pf. %! REAPPLIED_INSTRUMENT_COMMAND:2
                         } %! REAPPLIED_INSTRUMENT_COMMAND:2
-                    \clef "percussion" %! REAPPLIED_CLEF_COMMAND:7
+                    \clef "percussion" %! REAPPLIED_CLEF_COMMAND:8
                     \once \override PianoMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
                     \once \override PianoMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:3
-                    \once \override PianoMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:4
-                    %%% \override PianoMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:5
-                    \set PianoMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:6
-                    \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! REMINDER_DYNAMIC_COLOR:9
+                    \once \override PianoMusicStaff.Clef.color = #(x11-color 'green) %! REAPPLIED_CLEF_COLOR:5
+                    %%% \override PianoMusicStaff.Clef.color = ##f %! REAPPLIED_CLEF_UNCOLOR:6
+                    \set PianoMusicStaff.forceClef = ##t %! REAPPLIED_CLEF_COMMAND:7
+                    \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'DarkCyan) %! REMINDER_DYNAMIC_COLOR:10
                     c'2
-                    \mp %! REMINDER_DYNAMIC_COMMAND:10
-                    \override PianoMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:8
+                    \mp %! REMINDER_DYNAMIC_COMMAND:11
+                    \override PianoMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! REAPPLIED_CLEF_SHADOW:9
                     
                     %%% PianoMusicVoice [measure 46] %%%
                     c'2
