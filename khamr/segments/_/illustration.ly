@@ -583,8 +583,8 @@
                                     fl. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                 } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                         } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                    \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW:3
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:9
+                    \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                     
                     %%% FluteMusicVoice [measure 2] %%%
                     <g' g''>2
@@ -892,8 +892,8 @@
                                     hn. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                 } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                         } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                    \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW:3
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:9
+                    \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                     
                     %%% OboeMusicVoice [measure 2] %%%
                     g'2
@@ -1086,7 +1086,7 @@
                                     \box
                                         "put reed back in"
                         }
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:5
                     
                     %%% OboeMusicVoice [measure 38] %%%
                     <e'' b''>2
@@ -1174,8 +1174,8 @@
                                     cl. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                 } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                         } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                    \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW:3
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:9
+                    \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                     
                     %%% ClarinetMusicVoice [measure 2] %%%
                     b2
@@ -1466,8 +1466,8 @@
                                     sax. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                                 } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                         } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                    \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW:3
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:9
+                    \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                     
                     %%% SaxophoneMusicVoice [measure 2] %%%
                     e''2
@@ -1740,8 +1740,8 @@
                             #10 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                             Gt. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                         } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                    \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW:3
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:9
+                    \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                     
                     r4
                     
@@ -2580,8 +2580,8 @@
                             #10 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                             Pf. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                         } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                    \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW:3
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:9
+                    \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                     
                     %%% PianoMusicVoice [measure 2] %%%
                     c'2
@@ -2744,7 +2744,7 @@
                                 \upright
                                     "match dynamic levels of guitar"
                             }
-                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
+                        \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:5
                         
                         c''''16 * 459/64
                         
@@ -3076,7 +3076,7 @@
                                             }
                                     }
                         }
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:5
                     
                     c'4
                     \repeatTie
@@ -3154,8 +3154,8 @@
                             #10 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                             Perc. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                         } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                    \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW:3
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:9
+                    \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                     
                     %%% PercussionMusicVoice [measure 2] %%%
                     \once \override Accidental.color = #red
@@ -3368,7 +3368,7 @@
                                 \box
                                     "marimba + woodblock"
                         }
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:5
                     
                     %%% PercussionMusicVoice [measure 16] %%%
                     af''2
@@ -3390,7 +3390,7 @@
                     -\accent
                     - \tweak color #red
                     ^ \markup { @ }
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:5
                     
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
@@ -3587,7 +3587,7 @@
                     af''1
                     -\marcato
                     \sfz
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:5
                     \stopStaff
                     \startStaff
                     
@@ -3605,7 +3605,7 @@
                     -\accent
                     - \tweak color #red
                     ^ \markup { @ }
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:5
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:5
                     
                     %%% PercussionMusicVoice [measure 34] %%%
                     \once \override Accidental.color = #red
@@ -3798,8 +3798,8 @@
                             #10 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                             Vn. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                         } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                    \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW:3
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:9
+                    \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                     
                     %%% ViolinMusicVoice [measure 2] %%%
                     g'2
@@ -4310,8 +4310,8 @@
                             #10 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                             Va. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                         } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                    \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW:3
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:9
+                    \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                     
                     af'8
                     \<
@@ -4774,8 +4774,8 @@
                             #10 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                             Vc. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                         } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                    \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW:3
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:9
+                    \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                     \times 2/3 {
                         
                         %%% CelloMusicVoice [measure 2] %%%
@@ -5228,8 +5228,8 @@
                             #10 %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                             Cb. %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
                         } %! EXPLICIT_INSTRUMENT_SHADOW_COMMAND:4
-                    \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW:3
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW:9
+                    \override Staff.InstrumentName.color = #(x11-color 'DarkCyan) %! EXPLICIT_INSTRUMENT_SHADOW_COLOR:3
+                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:9
                     
                     %%% ContrabassMusicVoice [measure 2] %%%
                     a2
