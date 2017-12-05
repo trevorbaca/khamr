@@ -567,16 +567,17 @@
                     \times 7/8 {
                         
                         %%% FluteMusicVoice [measure 84] %%%
-                        \set FluteMusicStaff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                Flute
-                            }
-                        \set FluteMusicStaff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                Fl.
-                            }
+                        \set FluteMusicStaff.instrumentName = \markup { %! REDUNDANT_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! REDUNDANT_INSTRUMENT_COMMAND:2
+                                #16 %! REDUNDANT_INSTRUMENT_COMMAND:2
+                                Flute %! REDUNDANT_INSTRUMENT_COMMAND:2
+                            } %! REDUNDANT_INSTRUMENT_COMMAND:2
+                        \set FluteMusicStaff.shortInstrumentName = \markup { %! REDUNDANT_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! REDUNDANT_INSTRUMENT_COMMAND:2
+                                #10 %! REDUNDANT_INSTRUMENT_COMMAND:2
+                                Fl. %! REDUNDANT_INSTRUMENT_COMMAND:2
+                            } %! REDUNDANT_INSTRUMENT_COMMAND:2
+                        \once \override Staff.InstrumentName.color = #(x11-color 'DeepPink1) %! REDUNDANT_INSTRUMENT_COLOR:1
                         d'''16
                         -\accent
                         \fff
@@ -1597,16 +1598,17 @@
                     \times 5/6 {
                         
                         %%% OboeMusicVoice [measure 84] %%%
-                        \set OboeMusicStaff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                Oboe
-                            }
-                        \set OboeMusicStaff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                Ob.
-                            }
+                        \set OboeMusicStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                Oboe %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        \set OboeMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                #10 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                Ob. %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:1
                         c'''16
                         -\accent
                         \fff
@@ -2754,16 +2756,17 @@
                     \times 8/9 {
                         
                         %%% ClarinetMusicVoice [measure 84] %%%
-                        \set ClarinetMusicStaff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                Clarinet
-                            }
-                        \set ClarinetMusicStaff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                Cl.
-                            }
+                        \set ClarinetMusicStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                Clarinet %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        \set ClarinetMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                #10 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                Cl. %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:1
                         e'''16
                         -\accent
                         \fff
@@ -3605,24 +3608,25 @@
                     R1 * 1
                     
                     %%% ClarinetMusicVoice [measure 106] %%%
-                    \set ClarinetMusicStaff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            \center-column
-                                {
-                                    Bass
-                                    clarinet
-                                }
-                        }
-                    \set ClarinetMusicStaff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            \center-column
-                                {
-                                    Bass
-                                    cl.
-                                }
-                        }
+                    \set ClarinetMusicStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            \center-column %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                    Bass %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                    clarinet %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                    \set ClarinetMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            #10 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            \center-column %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                    Bass %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                    cl. %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                    \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:1
                     a1
                     \ppp
                     ^ \markup {
@@ -3721,24 +3725,25 @@
                     \times 6/7 {
                         
                         %%% SaxophoneMusicVoice [measure 84] %%%
-                        \set SaxophoneMusicStaff.instrumentName = \markup {
-                            \hcenter-in
-                                #16
-                                \center-column
-                                    {
-                                        Sopranino
-                                        saxophone
-                                    }
-                            }
-                        \set SaxophoneMusicStaff.shortInstrumentName = \markup {
-                            \hcenter-in
-                                #10
-                                \center-column
-                                    {
-                                        Sopr.
-                                        sax.
-                                    }
-                            }
+                        \set SaxophoneMusicStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                \center-column %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                    { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                        Sopranino %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                        saxophone %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                    } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        \set SaxophoneMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                #10 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                \center-column %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                    { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                        Sopr. %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                        sax. %! EXPLICIT_INSTRUMENT_COMMAND:2
+                                    } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:1
                         a''16
                         -\accent
                         \fff

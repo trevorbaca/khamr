@@ -519,16 +519,17 @@
                     R1 * 1/2
                     
                     %%% FluteMusicVoice [measure 59] %%%
-                    \set FluteMusicStaff.instrumentName = \markup {
-                        \hcenter-in
-                            #16
-                            Flute
-                        }
-                    \set FluteMusicStaff.shortInstrumentName = \markup {
-                        \hcenter-in
-                            #10
-                            Fl.
-                        }
+                    \set FluteMusicStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            #16 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            Flute %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                    \set FluteMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        \hcenter-in %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            #10 %! EXPLICIT_INSTRUMENT_COMMAND:2
+                            Fl. %! EXPLICIT_INSTRUMENT_COMMAND:2
+                        } %! EXPLICIT_INSTRUMENT_COMMAND:2
+                    \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:1
                     b''1.
                     :32
                     -\fff
