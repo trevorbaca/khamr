@@ -256,6 +256,10 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     '''
 
+    ### CLASS VARIABLES ###
+
+    __documentation_section__ = None
+
     ### SPECIAL METHODS ###
 
     def __call__(self):
@@ -263,6 +267,8 @@ class ScoreTemplate(baca.ScoreTemplate):
 
         Returns score.
         '''
+
+        # GLOBAL CONTEXT
         global_context = self._make_global_context()
         instrument_tags = (
             'winds',
@@ -281,6 +287,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
         tag_string = '.'.join(instrument_tags)
         self._attach_tag(tag_string, global_context)
+
         # FLUTE
         flute_music_voice = abjad.Voice(
             context_name='FluteMusicVoice',
@@ -297,6 +304,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             khamr.instruments['bass flute'],
             )
         self._attach_tag('winds.flute', flute_music_staff)
+
         # OBOE
         oboe_music_voice = abjad.Voice(
             context_name='OboeMusicVoice',
@@ -313,6 +321,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             khamr.instruments['English horn'],
             )
         self._attach_tag('winds.oboe', oboe_music_staff)
+
         # CLARINET
         clarinet_music_voice = abjad.Voice(
             context_name='ClarinetMusicVoice',
@@ -329,6 +338,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             khamr.instruments['bass clarinet'],
             )
         self._attach_tag('winds.clarinet', clarinet_music_staff)
+
         # SAXOPHONE
         saxophone_music_voice = abjad.Voice(
             context_name='SaxophoneMusicVoice',
@@ -345,6 +355,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             khamr.instruments['baritone saxophone'],
             )
         self._attach_tag('winds.saxophone', saxophone_music_staff)
+
         # GUITAR
         guitar_music_voice = abjad.Voice(
             context_name='GuitarMusicVoice',
@@ -361,6 +372,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             khamr.instruments['guitar'],
             )
         self._attach_tag('guitar', guitar_music_staff)
+
         # PIANO
         piano_music_voice = abjad.Voice(
             context_name='PianoMusicVoice',
@@ -377,6 +389,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             khamr.instruments['piano'],
             )
         self._attach_tag('piano', piano_music_staff)
+
         # PERCUSSION
         percussion_music_voice = abjad.Voice(
             context_name='PercussionMusicVoice',
@@ -393,6 +406,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             khamr.instruments['percussion'],
             )
         self._attach_tag('percussion', percussion_music_staff)
+
         # VIOLIN
         violin_music_voice = abjad.Voice(
             context_name='ViolinMusicVoice',
@@ -409,6 +423,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             khamr.instruments['violin'],
             )
         self._attach_tag('strings.violin', violin_music_staff)
+
         # VIOLA
         viola_music_voice = abjad.Voice(
             context_name='ViolaMusicVoice',
@@ -425,6 +440,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             khamr.instruments['viola'],
             )
         self._attach_tag('strings.viola', viola_music_staff)
+
         # CELLO
         cello_music_voice = abjad.Voice(
             context_name='CelloMusicVoice',
@@ -441,6 +457,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             khamr.instruments['cello'],
             )
         self._attach_tag('strings.cello', cello_music_staff)
+
         # CONTRABASS
         contrabass_music_voice = abjad.Voice(
             context_name='ContrabassMusicVoice',
@@ -457,6 +474,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             khamr.instruments['contrabass'],
             )
         self._attach_tag('strings.contrabass', contrabass_music_staff)
+
         # WIND SECTION
         wind_section_staff_group = abjad.StaffGroup(
             [
@@ -468,6 +486,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             context_name='WindSectionStaffGroup',
             name='WindSectionStaffGroup',
             )
+
         # PERCUSSION SECTION
         percussion_section_staff_group = abjad.StaffGroup(
             [
@@ -478,6 +497,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             context_name='PercussionSectionStaffGroup',
             name='PercussionSectionStaffGroup',
             )
+
         # STRING SECTION
         string_section_staff_group = abjad.StaffGroup(
             [
@@ -489,6 +509,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             context_name='StringSectionStaffGroup',
             name='StringSectionStaffGroup',
             )
+
         # SCORE
         score = abjad.Score(
             [
@@ -499,4 +520,5 @@ class ScoreTemplate(baca.ScoreTemplate):
                 ],
             name='Score',
             )
+
         return score
