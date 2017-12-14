@@ -1,7 +1,14 @@
-import abjad
-
-
-abjad.ImportManager.import_structured_package(
-    __path__[0],
-    globals(),
-    )
+from .MarimbaHitCommand import MarimbaHitCommand
+from .MarkupLibrary import MarkupLibrary
+from .ScoreTemplate import ScoreTemplate
+from .beat_divisions import beat_divisions
+from .halo_hairpins import halo_hairpins
+from .levine_multiphonic import levine_multiphonic
+from .narrow_fourth_octave import narrow_fourth_octave
+from .narrow_sixth_octave import narrow_sixth_octave
+from .quarter_divisions import quarter_divisions
+from .sixth_octave import sixth_octave
+from .string_tuplet_ratios import string_tuplet_ratios
+from .tuplet_spelling import tuplet_spelling
+from .weiss_multiphonic import weiss_multiphonic
+from .wide_third_octave import wide_third_octave
