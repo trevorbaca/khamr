@@ -32,7 +32,7 @@ metadata = abjad.TypedOrderedDict(
                         ('percussion', 'OboeMusicVoice'),
                         ),
                     (
-                        'PercussionStaff',
+                        'PercussionMusicStaff',
                         ('percussion', 'PercussionMusicVoice'),
                         ),
                     (
@@ -83,7 +83,7 @@ metadata = abjad.TypedOrderedDict(
                     ('FluteMusicStaff', 'flute'),
                     ('GuitarMusicStaff', 'guitar'),
                     ('OboeMusicStaff', 'oboe'),
-                    ('PercussionStaff', 'percussion'),
+                    ('PercussionMusicStaff', 'percussion'),
                     ('PianoMusicStaff', 'piano'),
                     ('SaxophoneMusicStaff', 'sopranino saxophone'),
                     ('ViolaMusicStaff', 'viola'),

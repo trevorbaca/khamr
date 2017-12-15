@@ -6642,7 +6642,7 @@
                 }
             }
             \tag percussion
-            \context PercussionMusicStaff = "PercussionStaff" {
+            \context PercussionMusicStaff = "PercussionMusicStaff" {
                 \context PercussionMusicVoice = "PercussionMusicVoice" {
                     
                     %%% PercussionMusicVoice [measure 75] %%%
