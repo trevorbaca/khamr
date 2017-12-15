@@ -9,7 +9,7 @@
     \context Score = "Score" \with {
         currentBarNumber = #1
     } <<
-        \tag winds.flute.oboe.clarinet.saxophone.guitar.piano.percussion.strings.violin.viola.cello.contrabass
+        \tag Flute.Oboe.Clarinet.Saxophone.Guitar.Piano.Percussion.Violin.Viola.Cello.Contrabass
         \context GlobalContext = "GlobalContext" <<
             \context GlobalSkips = "GlobalSkips" {
                 
@@ -528,7 +528,7 @@
             }
         >>
         \context WindSectionStaffGroup = "WindSectionStaffGroup" <<
-            \tag winds.flute
+            \tag Flute
             \context FluteMusicStaff = "FluteMusicStaff" {
                 \context FluteMusicVoice = "FluteMusicVoice" {
                     
@@ -835,7 +835,7 @@
                     
                 }
             }
-            \tag winds.oboe
+            \tag Oboe
             \context OboeMusicStaff = "OboeMusicStaff" {
                 \context OboeMusicVoice = "OboeMusicVoice" {
                     
@@ -1126,7 +1126,7 @@
                     
                 }
             }
-            \tag winds.clarinet
+            \tag Clarinet
             \context ClarinetMusicStaff = "ClarinetMusicStaff" {
                 \context ClarinetMusicVoice = "ClarinetMusicVoice" {
                     
@@ -1418,7 +1418,7 @@
                     
                 }
             }
-            \tag winds.saxophone
+            \tag Saxophone
             \context SaxophoneMusicStaff = "SaxophoneMusicStaff" {
                 \context SaxophoneMusicVoice = "SaxophoneMusicVoice" {
                     
@@ -1702,7 +1702,7 @@
             }
         >>
         \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup" <<
-            \tag guitar
+            \tag Guitar
             \context GuitarMusicStaff = "GuitarMusicStaff" {
                 \context GuitarMusicVoice = "GuitarMusicVoice" {
                     
@@ -2538,7 +2538,7 @@
                     
                 }
             }
-            \tag piano
+            \tag Piano
             \context PianoMusicStaff = "PianoMusicStaff" {
                 \context PianoMusicVoice = "PianoMusicVoice" {
                     
@@ -3097,7 +3097,7 @@
                     
                 }
             }
-            \tag percussion
+            \tag Percussion
             \context PercussionMusicStaff = "PercussionMusicStaff" {
                 \context PercussionMusicVoice = "PercussionMusicVoice" {
                     
@@ -3754,7 +3754,7 @@
             }
         >>
         \context StringSectionStaffGroup = "StringSectionStaffGroup" <<
-            \tag strings.violin
+            \tag Violin
             \context ViolinMusicStaff = "ViolinMusicStaff" {
                 \context ViolinMusicVoice = "ViolinMusicVoice" {
                     
@@ -4266,7 +4266,7 @@
                     
                 }
             }
-            \tag strings.viola
+            \tag Viola
             \context ViolaMusicStaff = "ViolaMusicStaff" {
                 \context ViolaMusicVoice = "ViolaMusicVoice" {
                     
@@ -4730,7 +4730,7 @@
                     
                 }
             }
-            \tag strings.cello
+            \tag Cello
             \context CelloMusicStaff = "CelloMusicStaff" {
                 \context CelloMusicVoice = "CelloMusicVoice" {
                     
@@ -5185,7 +5185,7 @@
                     
                 }
             }
-            \tag strings.contrabass
+            \tag Contrabass
             \context ContrabassMusicStaff = "ContrabassMusicStaff" {
                 \context ContrabassMusicVoice = "ContrabassMusicVoice" {
                     
