@@ -165,7 +165,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                     }
                 }
                 \tag percussion
-                \context PercussionMusicStaff = "PercussionStaff" {
+                \context PercussionMusicStaff = "PercussionMusicStaff" {
                     \context PercussionMusicVoice = "PercussionMusicVoice" {
                         \set PercussionMusicStaff.instrumentName = \markup {
                             \hcenter-in
@@ -398,7 +398,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         percussion_music_staff = abjad.Staff(
             [percussion_music_voice],
             context_name='PercussionMusicStaff',
-            name='PercussionStaff',
+            name='PercussionMusicStaff',
             )
         abjad.annotate(
             percussion_music_staff,
@@ -520,5 +520,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                 ],
             name='Score',
             )
-
+        self._assert_lilypond_identifiers(score)
+        self._assert_unique_context_names(score)
+        self._assert_matching_custom_context_names(score)
         return score
