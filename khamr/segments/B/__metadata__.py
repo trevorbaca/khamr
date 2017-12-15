@@ -7,17 +7,50 @@ metadata = abjad.TypedOrderedDict(
             'end_clefs_by_context',
             abjad.TypedOrderedDict(
                 [
-                    ('CelloMusicStaff', 'bass'),
-                    ('ClarinetMusicStaff', 'treble'),
-                    ('ContrabassMusicStaff', 'bass'),
-                    ('FluteMusicStaff', 'treble'),
-                    ('GuitarMusicStaff', 'treble'),
-                    ('OboeMusicStaff', 'percussion'),
-                    ('PercussionStaff', 'percussion'),
-                    ('PianoMusicStaff', 'treble'),
-                    ('SaxophoneMusicStaff', 'percussion'),
-                    ('ViolaMusicStaff', 'alto'),
-                    ('ViolinMusicStaff', 'treble'),
+                    (
+                        'CelloMusicStaff',
+                        ('bass', 'CelloMusicVoice'),
+                        ),
+                    (
+                        'ClarinetMusicStaff',
+                        ('treble', 'ClarinetMusicVoice'),
+                        ),
+                    (
+                        'ContrabassMusicStaff',
+                        ('bass', 'ContrabassMusicVoice'),
+                        ),
+                    (
+                        'FluteMusicStaff',
+                        ('treble', 'FluteMusicVoice'),
+                        ),
+                    (
+                        'GuitarMusicStaff',
+                        ('treble', 'GuitarMusicVoice'),
+                        ),
+                    (
+                        'OboeMusicStaff',
+                        ('percussion', 'OboeMusicVoice'),
+                        ),
+                    (
+                        'PercussionStaff',
+                        ('percussion', 'PercussionMusicVoice'),
+                        ),
+                    (
+                        'PianoMusicStaff',
+                        ('treble', 'PianoMusicVoice'),
+                        ),
+                    (
+                        'SaxophoneMusicStaff',
+                        ('percussion', 'SaxophoneMusicVoice'),
+                        ),
+                    (
+                        'ViolaMusicStaff',
+                        ('alto', 'ViolaMusicVoice'),
+                        ),
+                    (
+                        'ViolinMusicStaff',
+                        ('treble', 'ViolinMusicVoice'),
+                        ),
                     ]
                 ),
             ),
