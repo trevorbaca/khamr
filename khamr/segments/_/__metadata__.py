@@ -76,28 +76,77 @@ metadata = abjad.TypedOrderedDict(
             'end_instruments',
             abjad.TypedOrderedDict(
                 [
-                    ('CelloMusicStaff', 'cello'),
-                    ('ClarinetMusicStaff', 'bass clarinet'),
-                    ('ContrabassMusicStaff', 'contrabass'),
-                    ('FluteMusicStaff', 'bass flute'),
-                    ('GuitarMusicStaff', 'guitar'),
-                    ('OboeMusicStaff', 'English horn'),
-                    ('PercussionMusicStaff', 'percussion'),
-                    ('PianoMusicStaff', 'piano'),
-                    ('SaxophoneMusicStaff', 'baritone saxophone'),
-                    ('ViolaMusicStaff', 'viola'),
-                    ('ViolinMusicStaff', 'violin'),
+                    (
+                        'CelloMusicStaff',
+                        ('cello', 'CelloMusicVoice'),
+                        ),
+                    (
+                        'ClarinetMusicStaff',
+                        ('bass clarinet', 'ClarinetMusicVoice'),
+                        ),
+                    (
+                        'ContrabassMusicStaff',
+                        ('contrabass', 'ContrabassMusicVoice'),
+                        ),
+                    (
+                        'FluteMusicStaff',
+                        ('bass flute', 'FluteMusicVoice'),
+                        ),
+                    (
+                        'GuitarMusicStaff',
+                        ('guitar', 'GuitarMusicVoice'),
+                        ),
+                    (
+                        'OboeMusicStaff',
+                        ('English horn', 'OboeMusicVoice'),
+                        ),
+                    (
+                        'PercussionMusicStaff',
+                        ('percussion', 'PercussionMusicVoice'),
+                        ),
+                    (
+                        'PianoMusicStaff',
+                        ('piano', 'PianoMusicVoice'),
+                        ),
+                    (
+                        'SaxophoneMusicStaff',
+                        ('baritone saxophone', 'SaxophoneMusicVoice'),
+                        ),
+                    (
+                        'ViolaMusicStaff',
+                        ('viola', 'ViolaMusicVoice'),
+                        ),
+                    (
+                        'ViolinMusicStaff',
+                        ('violin', 'ViolinMusicVoice'),
+                        ),
                     ]
                 ),
             ),
         ('end_margin_markup', None),
-        ('end_metronome_mark', '84'),
+        (
+            'end_metronome_marks',
+            abjad.TypedOrderedDict(
+                [
+                    (
+                        'Score',
+                        ('84', 'GlobalSkips'),
+                        ),
+                    ]
+                ),
+            ),
         (
             'end_staff_lines',
             abjad.TypedOrderedDict(
                 [
-                    ('OboeMusicStaff', 5),
-                    ('PianoMusicStaff', 1),
+                    (
+                        'OboeMusicStaff',
+                        (5, 'OboeMusicVoice'),
+                        ),
+                    (
+                        'PianoMusicStaff',
+                        (1, 'PianoMusicVoice'),
+                        ),
                     ]
                 ),
             ),

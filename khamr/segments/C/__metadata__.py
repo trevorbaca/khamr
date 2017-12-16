@@ -77,33 +77,97 @@ metadata = abjad.TypedOrderedDict(
             'end_instruments',
             abjad.TypedOrderedDict(
                 [
-                    ('CelloMusicStaff', 'cello'),
-                    ('ClarinetMusicStaff', 'bass clarinet'),
-                    ('ContrabassMusicStaff', 'contrabass'),
-                    ('FluteMusicStaff', 'flute'),
-                    ('GuitarMusicStaff', 'guitar'),
-                    ('OboeMusicStaff', 'oboe'),
-                    ('PercussionMusicStaff', 'percussion'),
-                    ('PianoMusicStaff', 'piano'),
-                    ('SaxophoneMusicStaff', 'sopranino saxophone'),
-                    ('ViolaMusicStaff', 'viola'),
-                    ('ViolinMusicStaff', 'violin'),
+                    (
+                        'CelloMusicStaff',
+                        ('cello', 'CelloMusicVoice'),
+                        ),
+                    (
+                        'ClarinetMusicStaff',
+                        ('bass clarinet', 'ClarinetMusicVoice'),
+                        ),
+                    (
+                        'ContrabassMusicStaff',
+                        ('contrabass', 'ContrabassMusicVoice'),
+                        ),
+                    (
+                        'FluteMusicStaff',
+                        ('flute', 'FluteMusicVoice'),
+                        ),
+                    (
+                        'GuitarMusicStaff',
+                        ('guitar', 'GuitarMusicVoice'),
+                        ),
+                    (
+                        'OboeMusicStaff',
+                        ('oboe', 'OboeMusicVoice'),
+                        ),
+                    (
+                        'PercussionMusicStaff',
+                        ('percussion', 'PercussionMusicVoice'),
+                        ),
+                    (
+                        'PianoMusicStaff',
+                        ('piano', 'PianoMusicVoice'),
+                        ),
+                    (
+                        'SaxophoneMusicStaff',
+                        ('sopranino saxophone', 'SaxophoneMusicVoice'),
+                        ),
+                    (
+                        'ViolaMusicStaff',
+                        ('viola', 'ViolaMusicVoice'),
+                        ),
+                    (
+                        'ViolinMusicStaff',
+                        ('violin', 'ViolinMusicVoice'),
+                        ),
                     ]
                 ),
             ),
         ('end_margin_markup', None),
-        ('end_metronome_mark', '84'),
+        (
+            'end_metronome_marks',
+            abjad.TypedOrderedDict(
+                [
+                    (
+                        'Score',
+                        ('84', 'GlobalSkips'),
+                        ),
+                    ]
+                ),
+            ),
         (
             'end_staff_lines',
             abjad.TypedOrderedDict(
                 [
-                    ('CelloMusicStaff', 1),
-                    ('ContrabassMusicStaff', 1),
-                    ('OboeMusicStaff', 1),
-                    ('PianoMusicStaff', 1),
-                    ('SaxophoneMusicStaff', 1),
-                    ('ViolaMusicStaff', 1),
-                    ('ViolinMusicStaff', 1),
+                    (
+                        'CelloMusicStaff',
+                        (1, 'CelloMusicVoice'),
+                        ),
+                    (
+                        'ContrabassMusicStaff',
+                        (1, 'ContrabassMusicVoice'),
+                        ),
+                    (
+                        'OboeMusicStaff',
+                        (1, 'OboeMusicVoice'),
+                        ),
+                    (
+                        'PianoMusicStaff',
+                        (1, 'PianoMusicVoice'),
+                        ),
+                    (
+                        'SaxophoneMusicStaff',
+                        (1, 'SaxophoneMusicVoice'),
+                        ),
+                    (
+                        'ViolaMusicStaff',
+                        (1, 'ViolaMusicVoice'),
+                        ),
+                    (
+                        'ViolinMusicStaff',
+                        (1, 'ViolinMusicVoice'),
+                        ),
                     ]
                 ),
             ),
