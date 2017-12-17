@@ -46,7 +46,7 @@ class MarimbaHitCommand(baca.Command):
                 abjad.attach(markup, plt.head)
                 found_first = True
             abjad.detach(abjad.Articulation, plt.head)
-            abjad.attach(abjad.Dynamic('sfz'), plt.head)
+            abjad.attach(abjad.Dynamic('sfz'), plt.head, context='Voice')
             abjad.attach(abjad.Articulation('marcato'), plt.head)
             abjad.detach(abjad.Clef, plt.head)
             abjad.attach(abjad.Clef('treble'), plt.head)

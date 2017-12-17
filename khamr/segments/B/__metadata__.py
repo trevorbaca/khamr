@@ -59,17 +59,50 @@ metadata = abjad.TypedOrderedDict(
             'end_dynamics',
             abjad.TypedOrderedDict(
                 [
-                    ('CelloMusicVoice', 'fff'),
-                    ('ClarinetMusicVoice', 'ppp'),
-                    ('ContrabassMusicVoice', 'mp'),
-                    ('FluteMusicVoice', 'pp'),
-                    ('GuitarMusicVoice', 'fff'),
-                    ('OboeMusicVoice', 'pp'),
-                    ('PercussionMusicVoice', 'ppp'),
-                    ('PianoMusicVoice', 'fff'),
-                    ('SaxophoneMusicVoice', 'pp'),
-                    ('ViolaMusicVoice', 'fff'),
-                    ('ViolinMusicVoice', 'fff'),
+                    (
+                        'CelloMusicVoice',
+                        ('fff', 'CelloMusicVoice'),
+                        ),
+                    (
+                        'ClarinetMusicVoice',
+                        ('ppp', 'ClarinetMusicVoice'),
+                        ),
+                    (
+                        'ContrabassMusicVoice',
+                        ('mp', 'ContrabassMusicVoice'),
+                        ),
+                    (
+                        'FluteMusicVoice',
+                        ('pp', 'FluteMusicVoice'),
+                        ),
+                    (
+                        'GuitarMusicVoice',
+                        ('fff', 'GuitarMusicVoice'),
+                        ),
+                    (
+                        'OboeMusicVoice',
+                        ('pp', 'OboeMusicVoice'),
+                        ),
+                    (
+                        'PercussionMusicVoice',
+                        ('ppp', 'PercussionMusicVoice'),
+                        ),
+                    (
+                        'PianoMusicVoice',
+                        ('fff', 'PianoMusicVoice'),
+                        ),
+                    (
+                        'SaxophoneMusicVoice',
+                        ('pp', 'SaxophoneMusicVoice'),
+                        ),
+                    (
+                        'ViolaMusicVoice',
+                        ('fff', 'ViolaMusicVoice'),
+                        ),
+                    (
+                        'ViolinMusicVoice',
+                        ('fff', 'ViolinMusicVoice'),
+                        ),
                     ]
                 ),
             ),
