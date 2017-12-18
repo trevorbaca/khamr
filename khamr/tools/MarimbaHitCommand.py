@@ -40,7 +40,7 @@ class MarimbaHitCommand(baca.Command):
             abjad.attach(spanner, plt)
             if self.attach_first_markup and not found_first:
                 string = 'marimba + woodblock'
-                markup = abjad.Markup(string, direction=Up)
+                markup = abjad.Markup(string, direction=abjad.Up)
                 markup = markup.box().override(('box-padding', 0.75))
                 markup = markup.larger()
                 abjad.attach(markup, plt.head)

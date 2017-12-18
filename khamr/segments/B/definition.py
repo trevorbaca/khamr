@@ -305,7 +305,7 @@ maker(
                 )
             .split_by_durations(
                 durations=[(3, 8)],
-                remainder=Left,
+                remainder=abjad.Left,
                 ),
         rewrite_meter=True,
         rhythm_maker=rhythmos.NoteRhythmMaker(),
