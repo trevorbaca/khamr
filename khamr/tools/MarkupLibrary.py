@@ -37,7 +37,7 @@ class MarkupLibrary(abjad.AbjadObject):
         first_line = abjad.MarkupList([string]).line()
         second_line = abjad.MarkupList(['continuous loud sound']).line()
         markup = abjad.MarkupList([first_line, second_line])
-        markup = markup.column(direction=Up)
+        markup = markup.column(direction=abjad.Up)
         return baca.markup(markup, selector=selector)
 
     def half_harmonics_explanation(selector=baca.pleaf(0)):
