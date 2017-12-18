@@ -1643,9 +1643,9 @@
                         } %! REAPPLIED_INSTRUMENT_COMMAND:2
                     \clef "percussion" %! EXPLICIT_CLEF_COMMAND:10
                     \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
-                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:7
-                    %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:8
-                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:9
+                    \once \override ViolinMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:7
+                    %%% \override ViolinMusicStaff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:8
+                    \set ViolinMusicStaff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:9
                     c'2
                     -\downbow
                     \p
@@ -1687,7 +1687,7 @@
                             Vn. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                         } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                     \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:11
+                    \override ViolinMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:11
                     
                     %%% ViolinMusicVoice [measure 113] %%%
                     c'2
@@ -1807,9 +1807,9 @@
                         } %! REAPPLIED_INSTRUMENT_COMMAND:2
                     \clef "percussion" %! EXPLICIT_CLEF_COMMAND:10
                     \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
-                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:7
-                    %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:8
-                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:9
+                    \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:7
+                    %%% \override ViolaMusicStaff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:8
+                    \set ViolaMusicStaff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:9
                     c'2
                     -\downbow
                     \p
@@ -1851,7 +1851,7 @@
                             Va. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                         } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                     \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:11
+                    \override ViolaMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:11
                     
                     %%% ViolaMusicVoice [measure 113] %%%
                     c'2
@@ -1971,9 +1971,9 @@
                         } %! REAPPLIED_INSTRUMENT_COMMAND:2
                     \clef "percussion" %! EXPLICIT_CLEF_COMMAND:10
                     \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
-                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:7
-                    %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:8
-                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:9
+                    \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:7
+                    %%% \override CelloMusicStaff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:8
+                    \set CelloMusicStaff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:9
                     c'2
                     -\downbow
                     \p
@@ -2015,7 +2015,7 @@
                             Vc. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                         } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                     \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:11
+                    \override CelloMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:11
                     
                     %%% CelloMusicVoice [measure 113] %%%
                     c'2
@@ -2141,9 +2141,9 @@
                         } %! REAPPLIED_INSTRUMENT_COMMAND:2
                     \clef "percussion" %! EXPLICIT_CLEF_COMMAND:10
                     \once \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'green) %! REAPPLIED_INSTRUMENT_COLOR:1
-                    \once \override Staff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:7
-                    %%% \override Staff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:8
-                    \set Staff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:9
+                    \once \override ContrabassMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:7
+                    %%% \override ContrabassMusicStaff.Clef.color = ##f %! EXPLICIT_CLEF_UNCOLOR:8
+                    \set ContrabassMusicStaff.forceClef = ##t %! EXPLICIT_CLEF_COMMAND:9
                     c''2
                     -\downbow
                     \p
@@ -2185,7 +2185,7 @@
                             Cb. %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                         } %! REAPPLIED_INSTRUMENT_SHADOW_COMMAND:4
                     \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! REAPPLIED_INSTRUMENT_SHADOW_COLOR:3
-                    \override Staff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:11
+                    \override ContrabassMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:11
                     
                     %%% ContrabassMusicVoice [measure 113] %%%
                     c''2
