@@ -48,7 +48,7 @@ guitar_ritardando = guitar_accelerando.reverse()
 
 maker(
     baca.scope('FluteMusicVoice', 1, 7),
-    baca.instrument(khamr.instruments['bass flute']),
+    baca.instrument(khamr.instruments['BassFlute']),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
@@ -77,7 +77,7 @@ maker(
 
 maker(
     baca.scope('OboeMusicVoice', 1, 7),
-    baca.instrument(khamr.instruments['English horn']),
+    baca.instrument(khamr.instruments['EnglishHorn']),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
@@ -106,7 +106,7 @@ maker(
 
 maker(
     baca.scope('ClarinetMusicVoice', 1, 7),
-    baca.instrument(khamr.instruments['bass clarinet']),
+    baca.instrument(khamr.instruments['BassClarinet']),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
@@ -135,7 +135,7 @@ maker(
 
 maker(
     baca.scope('SaxophoneMusicVoice', 1, 7),
-    baca.instrument(khamr.instruments['baritone saxophone']),
+    baca.instrument(khamr.instruments['BaritoneSaxophone']),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
@@ -231,7 +231,7 @@ maker.copy_rhythm(
 
 maker(
     baca.scope('PianoMusicVoice', 1, 3),
-    #baca.instrument(khamr.instruments['piano']),
+    #baca.instrument(khamr.instruments['Piano']),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
