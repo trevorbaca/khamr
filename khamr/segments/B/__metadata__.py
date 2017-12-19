@@ -166,6 +166,11 @@ metadata = abjad.TypedOrderedDict(
                                 prototype='abjad.Instrument',
                                 value='Oboe',
                                 ),
+                            abjad.Momento(
+                                context='OboeMusicVoice',
+                                prototype='baca.StaffLines',
+                                value=1,
+                                ),
                             ],
                         ),
                     (
@@ -216,6 +221,11 @@ metadata = abjad.TypedOrderedDict(
                                 prototype='abjad.Instrument',
                                 value='Piano',
                                 ),
+                            abjad.Momento(
+                                context='PianoMusicVoice',
+                                prototype='baca.StaffLines',
+                                value=1,
+                                ),
                             ],
                         ),
                     (
@@ -240,6 +250,11 @@ metadata = abjad.TypedOrderedDict(
                                 context='SaxophoneMusicVoice',
                                 prototype='abjad.Instrument',
                                 value='SopraninoSaxophone',
+                                ),
+                            abjad.Momento(
+                                context='SaxophoneMusicVoice',
+                                prototype='baca.StaffLines',
+                                value=1,
                                 ),
                             ],
                         ),
