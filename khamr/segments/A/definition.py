@@ -554,7 +554,7 @@ maker(
     baca.pitches('B5'),
     baca.stem_tremolo(),
     baca.markup.fluttertongue(),
-    baca.instrument(khamr.instruments['flute']),
+    baca.instrument(khamr.instruments['Flute']),
     )
 
 ### OBOE ###

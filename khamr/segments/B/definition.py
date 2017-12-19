@@ -49,7 +49,7 @@ maker(
 
 maker(
     baca.scope('FluteMusicVoice', 5, 6),
-    baca.instrument(khamr.instruments['flute']),
+    baca.instrument(khamr.instruments['Flute']),
     baca.RhythmCommand(
         division_maker=baca.DivisionMaker()
             .fuse_by_counts(
@@ -97,7 +97,7 @@ maker(
 
 maker(
     baca.scope('OboeMusicVoice', 5, 6),
-    baca.instrument(khamr.instruments['oboe']),
+    baca.instrument(khamr.instruments['Oboe']),
     baca.RhythmCommand(
         division_maker=baca.DivisionMaker()
             .fuse_by_counts(
@@ -148,7 +148,7 @@ maker(
 
 maker(
     baca.scope('ClarinetMusicVoice', 5, 6),
-    baca.instrument(khamr.instruments['clarinet in B-flat']),
+    baca.instrument(khamr.instruments['Clarinet']),
     baca.RhythmCommand(
         division_maker=baca.DivisionMaker()
             .fuse_by_counts(
@@ -166,7 +166,7 @@ maker(
 
 maker(
     baca.scope('ClarinetMusicVoice', 8, 9),
-    baca.instrument(khamr.instruments['bass clarinet']),
+    baca.instrument(khamr.instruments['BassClarinet']),
     baca.RhythmCommand(
         rhythm_maker=rhythmos.NoteRhythmMaker(
             division_masks=[
@@ -189,7 +189,7 @@ maker(
 
 maker(
     baca.scope('SaxophoneMusicVoice', 5, 6),
-    baca.instrument(khamr.instruments['sopranino saxophone']),
+    baca.instrument(khamr.instruments['SopraninoSaxophone']),
     baca.RhythmCommand(
         division_maker=baca.DivisionMaker()
             .fuse_by_counts(
