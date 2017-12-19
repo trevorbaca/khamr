@@ -152,6 +152,11 @@ metadata = abjad.TypedOrderedDict(
                                 prototype='abjad.Instrument',
                                 value='EnglishHorn',
                                 ),
+                            abjad.Momento(
+                                context='OboeMusicVoice',
+                                prototype='baca.StaffLines',
+                                value=5,
+                                ),
                             ],
                         ),
                     (
@@ -201,6 +206,11 @@ metadata = abjad.TypedOrderedDict(
                                 context='PianoMusicVoice',
                                 prototype='abjad.Instrument',
                                 value='Piano',
+                                ),
+                            abjad.Momento(
+                                context='PianoMusicVoice',
+                                prototype='baca.StaffLines',
+                                value=1,
                                 ),
                             ],
                         ),
