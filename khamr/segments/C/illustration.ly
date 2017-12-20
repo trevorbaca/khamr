@@ -50,7 +50,6 @@
                     } % REAPPLIED_METRONOME_MARK:4
                 
                 %%% GlobalSkips [measure 113] %%%
-                \time 2/4
                 s1 * 1/2
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:1
                     %%% \fontsize %! CLOCK_TIME_MARKUP:1
