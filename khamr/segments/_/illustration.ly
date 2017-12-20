@@ -567,22 +567,22 @@
                                                     \box
                                                         L.17
                                     }
-                                %%% \line %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%     { %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%         \override %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%             \box %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%                 "bass flute" %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%     } %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                \line %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                    { %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                        \with-color %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            \override %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \box %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    "bass flute" %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                    } %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                %%% \line %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%     { %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%         \override %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%             \box %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%                 "bass flute" %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%     } %! EXPLICIT_INSTRUMENT_ALERT:7
+                                \line %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                        \with-color %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            \override %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                \box %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    "bass flute" %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
                             }
                         }
                     \set FluteMusicStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_REDRAW:11
@@ -898,22 +898,22 @@
                                             \upright
                                                 "airtone without reed: mix inhales and exhales ad lib."
                                     }
-                                %%% \line %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%     { %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%         \override %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%             \box %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%                 "English horn" %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%     } %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                \line %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                    { %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                        \with-color %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            \override %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \box %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    "English horn" %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                    } %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                %%% \line %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%     { %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%         \override %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%             \box %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%                 "English horn" %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%     } %! EXPLICIT_INSTRUMENT_ALERT:7
+                                \line %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                        \with-color %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            \override %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                \box %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    "English horn" %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
                             }
                         }
                     \set OboeMusicStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_REDRAW:11
@@ -1201,22 +1201,22 @@
                     ^ \markup {
                         \column
                             {
-                                %%% \line %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%     { %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%         \override %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%             \box %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%                 "bass clarinet" %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%     } %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                \line %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                    { %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                        \with-color %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            \override %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \box %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    "bass clarinet" %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                    } %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                %%% \line %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%     { %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%         \override %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%             \box %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%                 "bass clarinet" %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%     } %! EXPLICIT_INSTRUMENT_ALERT:7
+                                \line %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                        \with-color %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            \override %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                \box %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    "bass clarinet" %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
                             }
                         }
                     \set ClarinetMusicStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_REDRAW:11
@@ -1514,22 +1514,22 @@
                     ^ \markup {
                         \column
                             {
-                                %%% \line %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%     { %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%         \override %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%             \box %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%                 "baritone saxophone" %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%     } %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                \line %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                    { %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                        \with-color %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            \override %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \box %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    "baritone saxophone" %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                    } %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                %%% \line %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%     { %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%         \override %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%             \box %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%                 "baritone saxophone" %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%     } %! EXPLICIT_INSTRUMENT_ALERT:7
+                                \line %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                        \with-color %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            \override %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                \box %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    "baritone saxophone" %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
                             }
                         }
                     \set SaxophoneMusicStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_REDRAW:11
@@ -1818,22 +1818,22 @@
                                             \upright
                                                 "cross noteheads indicate half-harmonics"
                                     }
-                                %%% \line %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%     { %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%         \override %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%             \box %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%                 guitar %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%     } %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                \line %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                    { %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                        \with-color %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            \override %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \box %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    guitar %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                    } %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                %%% \line %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%     { %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%         \override %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%             \box %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%                 guitar %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%     } %! EXPLICIT_INSTRUMENT_ALERT:7
+                                \line %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                        \with-color %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            \override %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                \box %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    guitar %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
                             }
                         }
                     \set GuitarMusicStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_REDRAW:11
@@ -2680,22 +2680,22 @@
                                             \upright
                                                 "tamburo: strike lowest strings with palm inside piano and let vibrate (pedal down throughout)"
                                     }
-                                %%% \line %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%     { %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%         \override %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%             \box %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%                 piano %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%     } %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                \line %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                    { %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                        \with-color %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            \override %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \box %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    piano %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                    } %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                %%% \line %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%     { %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%         \override %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%             \box %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%                 piano %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%     } %! EXPLICIT_INSTRUMENT_ALERT:7
+                                \line %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                        \with-color %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            \override %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                \box %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    piano %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
                             }
                         }
                     \set PianoMusicStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT_REDRAW:11
@@ -3266,22 +3266,22 @@
                                                     \box
                                                         "XL tam-tam"
                                     }
-                                %%% \line %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%     { %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%         \override %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%             \box %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%                 percussion %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%     } %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                \line %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                    { %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                        \with-color %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            \override %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \box %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    percussion %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                    } %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                %%% \line %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%     { %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%         \override %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%             \box %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%                 percussion %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%     } %! EXPLICIT_INSTRUMENT_ALERT:7
+                                \line %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                        \with-color %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            \override %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                \box %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    percussion %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
                                 \line
                                     {
                                         @
@@ -3931,22 +3931,22 @@
                                             \upright
                                                 "emphasize multiphonics and unstable harmonics prominently throughout"
                                     }
-                                %%% \line %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%     { %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%         \override %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%             \box %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%                 violin %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%     } %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                \line %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                    { %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                        \with-color %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            \override %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \box %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    violin %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                    } %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                %%% \line %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%     { %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%         \override %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%             \box %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%                 violin %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%     } %! EXPLICIT_INSTRUMENT_ALERT:7
+                                \line %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                        \with-color %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            \override %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                \box %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    violin %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
                             }
                         }
                     _ \markup {
@@ -4465,22 +4465,22 @@
                                             \upright
                                                 "emphasize multiphonics and unstable harmonics prominently throughout"
                                     }
-                                %%% \line %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%     { %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%         \override %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%             \box %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%                 viola %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%     } %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                \line %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                    { %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                        \with-color %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            \override %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \box %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    viola %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                    } %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                %%% \line %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%     { %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%         \override %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%             \box %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%                 viola %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%     } %! EXPLICIT_INSTRUMENT_ALERT:7
+                                \line %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                        \with-color %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            \override %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                \box %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    viola %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
                             }
                         }
                     _ \markup {
@@ -4951,22 +4951,22 @@
                                             \upright
                                                 "emphasize multiphonics and unstable harmonics prominently throughout"
                                     }
-                                %%% \line %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%     { %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%         \override %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%             \box %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%                 cello %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%     } %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                \line %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                    { %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                        \with-color %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            \override %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \box %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    cello %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                    } %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                %%% \line %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%     { %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%         \override %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%             \box %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%                 cello %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%     } %! EXPLICIT_INSTRUMENT_ALERT:7
+                                \line %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                        \with-color %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            \override %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                \box %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    cello %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
                             }
                         }
                     _ \markup {
@@ -5427,22 +5427,22 @@
                                             \upright
                                                 "emphasize multiphonics and unstable harmonics prominently throughout"
                                     }
-                                %%% \line %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%     { %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%         \override %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%             \box %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%                 contrabass %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                %%%     } %! EXPLICIT_INSTRUMENT_CHANGE_MARKUP:7
-                                \line %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                    { %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                        \with-color %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                            \override %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                \box %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                                    contrabass %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
-                                    } %! EXPLICIT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                %%% \line %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%     { %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%         \override %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%             #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%             \box %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%                 contrabass %! EXPLICIT_INSTRUMENT_ALERT:7
+                                %%%     } %! EXPLICIT_INSTRUMENT_ALERT:7
+                                \line %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                        \with-color %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                            \override %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                #'(box-padding . 0.75) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                \box %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                                    contrabass %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
                             }
                         }
                     _ \markup {
