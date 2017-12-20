@@ -316,16 +316,16 @@
                 \context FluteMusicVoice = "FluteMusicVoice" {
                     
                     %%% FluteMusicVoice [measure 112] %%%
-                    \set FluteMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            Flute %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:7
-                    \set FluteMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            #10 %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            Fl. %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:7
+                    \set FluteMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            Flute %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:9
+                    \set FluteMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            #10 %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            Fl. %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:9
                     \clef "treble" %! PERSISTENT_CLEF_COMMAND:4
                     \once \override FluteMusicStaff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
                     %%% \override FluteMusicStaff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
@@ -337,36 +337,36 @@
                     ^ \markup {
                         \column
                             {
-                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%                 flute %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    flute %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%                 flute %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    flute %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                             }
                         }
-                    \set FluteMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            Flute %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                    \set FluteMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            Fl. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
+                    \set FluteMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            Flute %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                    \set FluteMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            Fl. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
                     \override FluteMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
-                    \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:8
+                    \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:10
                     
                     %%% FluteMusicVoice [measure 113] %%%
                     bf'2
@@ -501,16 +501,16 @@
                     \once \override Staff.StaffSymbol.line-count = 1 %! REDUNDANT_STAFF_LINES_COMMAND:13
                     \startStaff %! REDUNDANT_STAFF_LINES_COMMAND:13
                     \override RepeatTie.direction = #up
-                    \set OboeMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            Oboe %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:7
-                    \set OboeMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            #10 %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            Ob. %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:7
+                    \set OboeMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            Oboe %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:9
+                    \set OboeMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            #10 %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            Ob. %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:9
                     \clef "percussion" %! PERSISTENT_CLEF_COMMAND:4
                     \once \override OboeMusicStaff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
                     %%% \override OboeMusicStaff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
@@ -523,36 +523,36 @@
                     ^ \markup {
                         \column
                             {
-                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%                 oboe %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    oboe %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%                 oboe %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    oboe %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                             }
                         }
-                    \set OboeMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            Oboe %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                    \set OboeMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            Ob. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
+                    \set OboeMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            Oboe %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                    \set OboeMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            Ob. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
                     \override OboeMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
-                    \override OboeMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:8
+                    \override OboeMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:10
                     
                     %%% OboeMusicVoice [measure 113] %%%
                     c'2
@@ -668,24 +668,24 @@
                 \context ClarinetMusicVoice = "ClarinetMusicVoice" {
                     
                     %%% ClarinetMusicVoice [measure 112] %%%
-                    \set ClarinetMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            \center-column %! PERSISTENT_INSTRUMENT_COMMAND:7
-                                { %! PERSISTENT_INSTRUMENT_COMMAND:7
-                                    Bass %! PERSISTENT_INSTRUMENT_COMMAND:7
-                                    clarinet %! PERSISTENT_INSTRUMENT_COMMAND:7
-                                } %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:7
-                    \set ClarinetMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            #10 %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            \center-column %! PERSISTENT_INSTRUMENT_COMMAND:7
-                                { %! PERSISTENT_INSTRUMENT_COMMAND:7
-                                    Bass %! PERSISTENT_INSTRUMENT_COMMAND:7
-                                    cl. %! PERSISTENT_INSTRUMENT_COMMAND:7
-                                } %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:7
+                    \set ClarinetMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            \center-column %! PERSISTENT_INSTRUMENT_COMMAND:9
+                                { %! PERSISTENT_INSTRUMENT_COMMAND:9
+                                    Bass %! PERSISTENT_INSTRUMENT_COMMAND:9
+                                    clarinet %! PERSISTENT_INSTRUMENT_COMMAND:9
+                                } %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:9
+                    \set ClarinetMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            #10 %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            \center-column %! PERSISTENT_INSTRUMENT_COMMAND:9
+                                { %! PERSISTENT_INSTRUMENT_COMMAND:9
+                                    Bass %! PERSISTENT_INSTRUMENT_COMMAND:9
+                                    cl. %! PERSISTENT_INSTRUMENT_COMMAND:9
+                                } %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:9
                     \clef "treble" %! PERSISTENT_CLEF_COMMAND:4
                     \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
                     %%% \override ClarinetMusicStaff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
@@ -697,44 +697,44 @@
                     ^ \markup {
                         \column
                             {
-                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%                 "bass clarinet" %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    "bass clarinet" %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%                 "bass clarinet" %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    "bass clarinet" %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                             }
                         }
-                    \set ClarinetMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            \center-column %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                                { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                                    Bass %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                                    clarinet %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                                } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                    \set ClarinetMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            \center-column %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                                { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                                    Bass %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                                    cl. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                                } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
+                    \set ClarinetMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            \center-column %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                                { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                                    Bass %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                                    clarinet %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                                } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                    \set ClarinetMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            \center-column %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                                { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                                    Bass %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                                    cl. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                                } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
                     \override ClarinetMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
-                    \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:8
+                    \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:10
                     
                     %%% ClarinetMusicVoice [measure 113] %%%
                     a2
@@ -825,24 +825,24 @@
                     \once \override Staff.StaffSymbol.line-count = 1 %! REDUNDANT_STAFF_LINES_COMMAND:13
                     \startStaff %! REDUNDANT_STAFF_LINES_COMMAND:13
                     \override RepeatTie.direction = #up
-                    \set SaxophoneMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            \center-column %! PERSISTENT_INSTRUMENT_COMMAND:7
-                                { %! PERSISTENT_INSTRUMENT_COMMAND:7
-                                    Sopranino %! PERSISTENT_INSTRUMENT_COMMAND:7
-                                    saxophone %! PERSISTENT_INSTRUMENT_COMMAND:7
-                                } %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:7
-                    \set SaxophoneMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            #10 %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            \center-column %! PERSISTENT_INSTRUMENT_COMMAND:7
-                                { %! PERSISTENT_INSTRUMENT_COMMAND:7
-                                    Sopr. %! PERSISTENT_INSTRUMENT_COMMAND:7
-                                    sax. %! PERSISTENT_INSTRUMENT_COMMAND:7
-                                } %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:7
+                    \set SaxophoneMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            \center-column %! PERSISTENT_INSTRUMENT_COMMAND:9
+                                { %! PERSISTENT_INSTRUMENT_COMMAND:9
+                                    Sopranino %! PERSISTENT_INSTRUMENT_COMMAND:9
+                                    saxophone %! PERSISTENT_INSTRUMENT_COMMAND:9
+                                } %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:9
+                    \set SaxophoneMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            #10 %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            \center-column %! PERSISTENT_INSTRUMENT_COMMAND:9
+                                { %! PERSISTENT_INSTRUMENT_COMMAND:9
+                                    Sopr. %! PERSISTENT_INSTRUMENT_COMMAND:9
+                                    sax. %! PERSISTENT_INSTRUMENT_COMMAND:9
+                                } %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:9
                     \clef "percussion" %! PERSISTENT_CLEF_COMMAND:4
                     \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
                     %%% \override SaxophoneMusicStaff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
@@ -855,44 +855,44 @@
                     ^ \markup {
                         \column
                             {
-                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%                 "sopranino saxophone" %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    "sopranino saxophone" %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%                 "sopranino saxophone" %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    "sopranino saxophone" %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                             }
                         }
-                    \set SaxophoneMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            \center-column %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                                { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                                    Sopranino %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                                    saxophone %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                                } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                    \set SaxophoneMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            \center-column %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                                { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                                    Sopr. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                                    sax. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                                } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
+                    \set SaxophoneMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            \center-column %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                                { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                                    Sopranino %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                                    saxophone %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                                } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                    \set SaxophoneMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            \center-column %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                                { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                                    Sopr. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                                    sax. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                                } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
                     \override SaxophoneMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
-                    \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:8
+                    \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:10
                     
                     %%% SaxophoneMusicVoice [measure 113] %%%
                     a2
@@ -1013,16 +1013,16 @@
                 \context GuitarMusicVoice = "GuitarMusicVoice" {
                     
                     %%% GuitarMusicVoice [measure 112] %%%
-                    \set GuitarMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            Guitar %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:7
-                    \set GuitarMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            #10 %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            Gt. %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:7
+                    \set GuitarMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            Guitar %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:9
+                    \set GuitarMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            #10 %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            Gt. %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:9
                     \clef "treble" %! PERSISTENT_CLEF_COMMAND:4
                     \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
                     %%% \override GuitarMusicStaff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
@@ -1034,36 +1034,36 @@
                     ^ \markup {
                         \column
                             {
-                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%                 guitar %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    guitar %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%                 guitar %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    guitar %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                             }
                         }
-                    \set GuitarMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            Guitar %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                    \set GuitarMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            Gt. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
+                    \set GuitarMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            Guitar %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                    \set GuitarMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            Gt. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
                     \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
-                    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:8
+                    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:10
                     
                     %%% GuitarMusicVoice [measure 113] %%%
                     r2
@@ -1213,16 +1213,16 @@
                     \stopStaff %! PERSISTENT_STAFF_LINES_COMMAND:13
                     \once \override Staff.StaffSymbol.line-count = 1 %! PERSISTENT_STAFF_LINES_COMMAND:13
                     \startStaff %! PERSISTENT_STAFF_LINES_COMMAND:13
-                    \set PianoMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            Piano %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:7
-                    \set PianoMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            #10 %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            Pf. %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:7
+                    \set PianoMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            Piano %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:9
+                    \set PianoMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            #10 %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            Pf. %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:9
                     \clef "treble" %! PERSISTENT_CLEF_COMMAND:4
                     \once \override PianoMusicStaff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
                     %%% \override PianoMusicStaff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
@@ -1235,36 +1235,36 @@
                     ^ \markup {
                         \column
                             {
-                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%                 piano %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    piano %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%                 piano %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    piano %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                             }
                         }
-                    \set PianoMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            Piano %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                    \set PianoMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            Pf. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
+                    \set PianoMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            Piano %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                    \set PianoMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            Pf. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
                     \override PianoMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
-                    \override PianoMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:8
+                    \override PianoMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:10
                     
                     %%% PianoMusicVoice [measure 113] %%%
                     r2
@@ -1412,16 +1412,16 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
-                    \set PercussionMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            Percussion %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:7
-                    \set PercussionMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            #10 %! PERSISTENT_INSTRUMENT_COMMAND:7
-                            Perc. %! PERSISTENT_INSTRUMENT_COMMAND:7
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:7
+                    \set PercussionMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            Percussion %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:9
+                    \set PercussionMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            #10 %! PERSISTENT_INSTRUMENT_COMMAND:9
+                            Perc. %! PERSISTENT_INSTRUMENT_COMMAND:9
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:9
                     \clef "percussion" %! PERSISTENT_CLEF_COMMAND:4
                     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'green) %! PERSISTENT_CLEF_COLOR:1
                     %%% \override PercussionMusicStaff.Clef.color = ##f %! PERSISTENT_CLEF_UNCOLOR:2
@@ -1436,36 +1436,36 @@
                     ^ \markup {
                         \column
                             {
-                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%                 percussion %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:10
-                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                                    percussion %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
-                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:11
+                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%                 percussion %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:7
+                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                                    percussion %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
+                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:8
                             }
                         }
-                    \set PercussionMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            Percussion %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                    \set PercussionMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                            Perc. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:9
+                    \set PercussionMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            Percussion %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                    \set PercussionMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                            Perc. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:11
                     \override PercussionMusicStaff.Clef.color = #(x11-color 'DarkGreen) %! PERSISTENT_CLEF_SHADOW_COLOR:5
-                    \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:8
+                    \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:10
                     
                     %%% PercussionMusicVoice [measure 113] %%%
                     \once \override Beam.color = #blue
@@ -1631,16 +1631,16 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
-                    \set ViolinMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:2
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:2
-                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:2
-                            Violin %! PERSISTENT_INSTRUMENT_COMMAND:2
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:2
-                    \set ViolinMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:2
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:2
-                            #10 %! PERSISTENT_INSTRUMENT_COMMAND:2
-                            Vn. %! PERSISTENT_INSTRUMENT_COMMAND:2
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:2
+                    \set ViolinMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:4
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:4
+                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:4
+                            Violin %! PERSISTENT_INSTRUMENT_COMMAND:4
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:4
+                    \set ViolinMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:4
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:4
+                            #10 %! PERSISTENT_INSTRUMENT_COMMAND:4
+                            Vn. %! PERSISTENT_INSTRUMENT_COMMAND:4
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:4
                     \clef "percussion" %! EXPLICIT_CLEF_COMMAND:10
                     \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:1
                     \once \override ViolinMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:7
@@ -1658,35 +1658,35 @@
                                             \upright
                                                 "bow on wooden mute"
                                     }
-                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%                 violin %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                    violin %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%                 violin %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                                    violin %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
                             }
                         }
-                    \set ViolinMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                            Violin %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                    \set ViolinMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                            #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                            Vn. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                    \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:3
+                    \set ViolinMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                            Violin %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                    \set ViolinMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                            #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                            Vn. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                    \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:5
                     \override ViolinMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:11
                     
                     %%% ViolinMusicVoice [measure 113] %%%
@@ -1795,16 +1795,16 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
-                    \set ViolaMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:2
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:2
-                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:2
-                            Viola %! PERSISTENT_INSTRUMENT_COMMAND:2
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:2
-                    \set ViolaMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:2
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:2
-                            #10 %! PERSISTENT_INSTRUMENT_COMMAND:2
-                            Va. %! PERSISTENT_INSTRUMENT_COMMAND:2
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:2
+                    \set ViolaMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:4
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:4
+                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:4
+                            Viola %! PERSISTENT_INSTRUMENT_COMMAND:4
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:4
+                    \set ViolaMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:4
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:4
+                            #10 %! PERSISTENT_INSTRUMENT_COMMAND:4
+                            Va. %! PERSISTENT_INSTRUMENT_COMMAND:4
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:4
                     \clef "percussion" %! EXPLICIT_CLEF_COMMAND:10
                     \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:1
                     \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:7
@@ -1822,35 +1822,35 @@
                                             \upright
                                                 "bow on wooden mute"
                                     }
-                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%                 viola %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                    viola %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%                 viola %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                                    viola %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
                             }
                         }
-                    \set ViolaMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                            Viola %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                    \set ViolaMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                            #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                            Va. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                    \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:3
+                    \set ViolaMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                            Viola %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                    \set ViolaMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                            #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                            Va. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                    \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:5
                     \override ViolaMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:11
                     
                     %%% ViolaMusicVoice [measure 113] %%%
@@ -1959,16 +1959,16 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
-                    \set CelloMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:2
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:2
-                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:2
-                            Cello %! PERSISTENT_INSTRUMENT_COMMAND:2
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:2
-                    \set CelloMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:2
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:2
-                            #10 %! PERSISTENT_INSTRUMENT_COMMAND:2
-                            Vc. %! PERSISTENT_INSTRUMENT_COMMAND:2
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:2
+                    \set CelloMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:4
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:4
+                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:4
+                            Cello %! PERSISTENT_INSTRUMENT_COMMAND:4
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:4
+                    \set CelloMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:4
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:4
+                            #10 %! PERSISTENT_INSTRUMENT_COMMAND:4
+                            Vc. %! PERSISTENT_INSTRUMENT_COMMAND:4
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:4
                     \clef "percussion" %! EXPLICIT_CLEF_COMMAND:10
                     \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:1
                     \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:7
@@ -1986,35 +1986,35 @@
                                             \upright
                                                 "bow on tailpiece"
                                     }
-                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%                 cello %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                    cello %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%                 cello %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                                    cello %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
                             }
                         }
-                    \set CelloMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                            Cello %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                    \set CelloMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                            #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                            Vc. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                    \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:3
+                    \set CelloMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                            Cello %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                    \set CelloMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                            #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                            Vc. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                    \override CelloMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:5
                     \override CelloMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:11
                     
                     %%% CelloMusicVoice [measure 113] %%%
@@ -2129,16 +2129,16 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
-                    \set ContrabassMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:2
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:2
-                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:2
-                            Contrabass %! PERSISTENT_INSTRUMENT_COMMAND:2
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:2
-                    \set ContrabassMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:2
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:2
-                            #10 %! PERSISTENT_INSTRUMENT_COMMAND:2
-                            Cb. %! PERSISTENT_INSTRUMENT_COMMAND:2
-                        } %! PERSISTENT_INSTRUMENT_COMMAND:2
+                    \set ContrabassMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:4
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:4
+                            #16 %! PERSISTENT_INSTRUMENT_COMMAND:4
+                            Contrabass %! PERSISTENT_INSTRUMENT_COMMAND:4
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:4
+                    \set ContrabassMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_COMMAND:4
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_COMMAND:4
+                            #10 %! PERSISTENT_INSTRUMENT_COMMAND:4
+                            Cb. %! PERSISTENT_INSTRUMENT_COMMAND:4
+                        } %! PERSISTENT_INSTRUMENT_COMMAND:4
                     \clef "percussion" %! EXPLICIT_CLEF_COMMAND:10
                     \once \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'green) %! PERSISTENT_INSTRUMENT_COLOR:1
                     \once \override ContrabassMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:7
@@ -2156,35 +2156,35 @@
                                             \upright
                                                 "bow on tailpiece"
                                     }
-                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%                 contrabass %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:5
-                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                                    contrabass %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
-                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:6
+                                %%% \line %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%     { %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%         \override %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%             #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%             \box %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%                 contrabass %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                %%%     } %! PERSISTENT_INSTRUMENT_CHANGE_MARKUP:2
+                                \line %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                    { %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                        \with-color %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                            #(x11-color 'green) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                            \override %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                                #'(box-padding . 0.75) %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                                \box %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                                    contrabass %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
+                                    } %! PERSISTENT_INSTRUMENT_CHANGE_COLORED_MARKUP:3
                             }
                         }
-                    \set ContrabassMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                            Contrabass %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                    \set ContrabassMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                            #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                            Cb. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:4
-                    \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:3
+                    \set ContrabassMusicStaff.instrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                            #16 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                            Contrabass %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                    \set ContrabassMusicStaff.shortInstrumentName = \markup { %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                        \hcenter-in %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                            #10 %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                            Cb. %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                        } %! PERSISTENT_INSTRUMENT_SHADOW_COMMAND:6
+                    \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'DarkGreen) %! PERSISTENT_INSTRUMENT_SHADOW_COLOR:5
                     \override ContrabassMusicStaff.Clef.color = #(x11-color 'DarkCyan) %! EXPLICIT_CLEF_SHADOW_COLOR:11
                     
                     %%% ContrabassMusicVoice [measure 113] %%%
