@@ -545,11 +545,7 @@
                                     fl. %! TEMPLATE_INSTRUMENT:4
                                 } %! TEMPLATE_INSTRUMENT:4
                         } %! TEMPLATE_INSTRUMENT:4
-                    \clef "treble" %! TEMPLATE_CLEF:10
                     \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_INSTRUMENT_COLOR:1
-                    \once \override FluteMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! TEMPLATE_CLEF_COLOR:7
-                    %%% \override FluteMusicStaff.Clef.color = ##f %! TEMPLATE_CLEF_UNCOLOR:8
-                    \set FluteMusicStaff.forceClef = ##t %! TEMPLATE_CLEF:9
                     <g' g''>2
                     ^ \markup {
                         \column
@@ -640,7 +636,6 @@
                                 } %! TEMPLATE_REDRAW_INSTRUMENT:6
                         } %! TEMPLATE_REDRAW_INSTRUMENT:6
                     \override FluteMusicStaff.InstrumentName.color = #(x11-color 'violet) %! TEMPLATE_REDRAW_INSTRUMENT_COLOR:5
-                    \override FluteMusicStaff.Clef.color = #(x11-color 'violet) %! TEMPLATE_CLEF_COLOR_REDRAW:11
                     
                     %%% FluteMusicVoice [measure 2] %%%
                     <g' g''>2
@@ -1249,112 +1244,107 @@
                 \context ClarinetMusicVoice = "ClarinetMusicVoice" {
                     
                     %%% ClarinetMusicVoice [measure 1] %%%
-                    \set ClarinetMusicStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT:9
-                        \hcenter-in %! EXPLICIT_INSTRUMENT:9
-                            #16 %! EXPLICIT_INSTRUMENT:9
-                            \center-column %! EXPLICIT_INSTRUMENT:9
-                                { %! EXPLICIT_INSTRUMENT:9
-                                    Bass %! EXPLICIT_INSTRUMENT:9
-                                    clarinet %! EXPLICIT_INSTRUMENT:9
-                                } %! EXPLICIT_INSTRUMENT:9
-                        } %! EXPLICIT_INSTRUMENT:9
-                    \set ClarinetMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT:9
-                        \hcenter-in %! EXPLICIT_INSTRUMENT:9
-                            #10 %! EXPLICIT_INSTRUMENT:9
-                            \center-column %! EXPLICIT_INSTRUMENT:9
-                                { %! EXPLICIT_INSTRUMENT:9
-                                    Bass %! EXPLICIT_INSTRUMENT:9
-                                    cl. %! EXPLICIT_INSTRUMENT:9
-                                } %! EXPLICIT_INSTRUMENT:9
-                        } %! EXPLICIT_INSTRUMENT:9
-                    \clef "treble" %! TEMPLATE_CLEF:4
-                    \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! TEMPLATE_CLEF_COLOR:1
-                    %%% \override ClarinetMusicStaff.Clef.color = ##f %! TEMPLATE_CLEF_UNCOLOR:2
-                    \set ClarinetMusicStaff.forceClef = ##t %! TEMPLATE_CLEF:3
-                    \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:6
+                    \set ClarinetMusicStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT:4
+                        \hcenter-in %! EXPLICIT_INSTRUMENT:4
+                            #16 %! EXPLICIT_INSTRUMENT:4
+                            \center-column %! EXPLICIT_INSTRUMENT:4
+                                { %! EXPLICIT_INSTRUMENT:4
+                                    Bass %! EXPLICIT_INSTRUMENT:4
+                                    clarinet %! EXPLICIT_INSTRUMENT:4
+                                } %! EXPLICIT_INSTRUMENT:4
+                        } %! EXPLICIT_INSTRUMENT:4
+                    \set ClarinetMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT:4
+                        \hcenter-in %! EXPLICIT_INSTRUMENT:4
+                            #10 %! EXPLICIT_INSTRUMENT:4
+                            \center-column %! EXPLICIT_INSTRUMENT:4
+                                { %! EXPLICIT_INSTRUMENT:4
+                                    Bass %! EXPLICIT_INSTRUMENT:4
+                                    cl. %! EXPLICIT_INSTRUMENT:4
+                                } %! EXPLICIT_INSTRUMENT:4
+                        } %! EXPLICIT_INSTRUMENT:4
+                    \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:1
                     b2
                     \pp
                     ^ \markup {
                         \column
                             {
-                                %%% \line %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%     { %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%         \vcenter %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%             (“BassClarinet” %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%         \vcenter %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%             \hcenter-in %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                 #16 %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                 \center-column %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                     { %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                         Bass %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                         clarinet %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                     } %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%         \concat %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%             { %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                 \vcenter %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                     \hcenter-in %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                         #10 %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                         \center-column %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                             { %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                                 Bass %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                                 cl. %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                             } %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                 \vcenter %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                     ) %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%             } %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%     } %! EXPLICIT_INSTRUMENT_ALERT:7
-                                \line %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                        \with-color %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                            { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                \vcenter %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                    (“BassClarinet” %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                \vcenter %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                    \hcenter-in %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                        #16 %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                        \center-column %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                            { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                                Bass %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                                clarinet %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                            } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                \concat %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                        \vcenter %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                            \hcenter-in %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                                #10 %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                                \center-column %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                                        Bass %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                                        cl. %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                        \vcenter %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                            ) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                            } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                %%% \line %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%     { %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%         \vcenter %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%             (“BassClarinet” %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%         \vcenter %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%             \hcenter-in %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                 #16 %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                 \center-column %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                     { %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                         Bass %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                         clarinet %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                     } %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%         \concat %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%             { %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                 \vcenter %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                     \hcenter-in %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                         #10 %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                         \center-column %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                             { %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                                 Bass %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                                 cl. %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                             } %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                 \vcenter %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                     ) %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%             } %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%     } %! EXPLICIT_INSTRUMENT_ALERT:2
+                                \line %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                        \with-color %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                            { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                \vcenter %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                    (“BassClarinet” %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                \vcenter %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                    \hcenter-in %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                        #16 %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                        \center-column %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                            { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                                Bass %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                                clarinet %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                            } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                \concat %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                        \vcenter %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                            \hcenter-in %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                                #10 %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                                \center-column %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                                        Bass %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                                        cl. %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                        \vcenter %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                            ) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                            } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
                             }
                         }
-                    \set ClarinetMusicStaff.instrumentName = \markup { %! EXPLICIT_REDRAW_INSTRUMENT:11
-                        \hcenter-in %! EXPLICIT_REDRAW_INSTRUMENT:11
-                            #16 %! EXPLICIT_REDRAW_INSTRUMENT:11
-                            \center-column %! EXPLICIT_REDRAW_INSTRUMENT:11
-                                { %! EXPLICIT_REDRAW_INSTRUMENT:11
-                                    Bass %! EXPLICIT_REDRAW_INSTRUMENT:11
-                                    clarinet %! EXPLICIT_REDRAW_INSTRUMENT:11
-                                } %! EXPLICIT_REDRAW_INSTRUMENT:11
-                        } %! EXPLICIT_REDRAW_INSTRUMENT:11
-                    \set ClarinetMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_REDRAW_INSTRUMENT:11
-                        \hcenter-in %! EXPLICIT_REDRAW_INSTRUMENT:11
-                            #10 %! EXPLICIT_REDRAW_INSTRUMENT:11
-                            \center-column %! EXPLICIT_REDRAW_INSTRUMENT:11
-                                { %! EXPLICIT_REDRAW_INSTRUMENT:11
-                                    Bass %! EXPLICIT_REDRAW_INSTRUMENT:11
-                                    cl. %! EXPLICIT_REDRAW_INSTRUMENT:11
-                                } %! EXPLICIT_REDRAW_INSTRUMENT:11
-                        } %! EXPLICIT_REDRAW_INSTRUMENT:11
-                    \override ClarinetMusicStaff.Clef.color = #(x11-color 'violet) %! TEMPLATE_CLEF_COLOR_REDRAW:5
-                    \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_REDRAW_INSTRUMENT_COLOR:10
+                    \set ClarinetMusicStaff.instrumentName = \markup { %! EXPLICIT_REDRAW_INSTRUMENT:6
+                        \hcenter-in %! EXPLICIT_REDRAW_INSTRUMENT:6
+                            #16 %! EXPLICIT_REDRAW_INSTRUMENT:6
+                            \center-column %! EXPLICIT_REDRAW_INSTRUMENT:6
+                                { %! EXPLICIT_REDRAW_INSTRUMENT:6
+                                    Bass %! EXPLICIT_REDRAW_INSTRUMENT:6
+                                    clarinet %! EXPLICIT_REDRAW_INSTRUMENT:6
+                                } %! EXPLICIT_REDRAW_INSTRUMENT:6
+                        } %! EXPLICIT_REDRAW_INSTRUMENT:6
+                    \set ClarinetMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_REDRAW_INSTRUMENT:6
+                        \hcenter-in %! EXPLICIT_REDRAW_INSTRUMENT:6
+                            #10 %! EXPLICIT_REDRAW_INSTRUMENT:6
+                            \center-column %! EXPLICIT_REDRAW_INSTRUMENT:6
+                                { %! EXPLICIT_REDRAW_INSTRUMENT:6
+                                    Bass %! EXPLICIT_REDRAW_INSTRUMENT:6
+                                    cl. %! EXPLICIT_REDRAW_INSTRUMENT:6
+                                } %! EXPLICIT_REDRAW_INSTRUMENT:6
+                        } %! EXPLICIT_REDRAW_INSTRUMENT:6
+                    \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_REDRAW_INSTRUMENT_COLOR:5
                     
                     %%% ClarinetMusicVoice [measure 2] %%%
                     b2
@@ -1602,112 +1592,107 @@
                 \context SaxophoneMusicVoice = "SaxophoneMusicVoice" {
                     
                     %%% SaxophoneMusicVoice [measure 1] %%%
-                    \set SaxophoneMusicStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT:9
-                        \hcenter-in %! EXPLICIT_INSTRUMENT:9
-                            #16 %! EXPLICIT_INSTRUMENT:9
-                            \center-column %! EXPLICIT_INSTRUMENT:9
-                                { %! EXPLICIT_INSTRUMENT:9
-                                    Baritone %! EXPLICIT_INSTRUMENT:9
-                                    saxophone %! EXPLICIT_INSTRUMENT:9
-                                } %! EXPLICIT_INSTRUMENT:9
-                        } %! EXPLICIT_INSTRUMENT:9
-                    \set SaxophoneMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT:9
-                        \hcenter-in %! EXPLICIT_INSTRUMENT:9
-                            #10 %! EXPLICIT_INSTRUMENT:9
-                            \center-column %! EXPLICIT_INSTRUMENT:9
-                                { %! EXPLICIT_INSTRUMENT:9
-                                    Bar. %! EXPLICIT_INSTRUMENT:9
-                                    sax. %! EXPLICIT_INSTRUMENT:9
-                                } %! EXPLICIT_INSTRUMENT:9
-                        } %! EXPLICIT_INSTRUMENT:9
-                    \clef "treble" %! TEMPLATE_CLEF:4
-                    \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! TEMPLATE_CLEF_COLOR:1
-                    %%% \override SaxophoneMusicStaff.Clef.color = ##f %! TEMPLATE_CLEF_UNCOLOR:2
-                    \set SaxophoneMusicStaff.forceClef = ##t %! TEMPLATE_CLEF:3
-                    \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:6
+                    \set SaxophoneMusicStaff.instrumentName = \markup { %! EXPLICIT_INSTRUMENT:4
+                        \hcenter-in %! EXPLICIT_INSTRUMENT:4
+                            #16 %! EXPLICIT_INSTRUMENT:4
+                            \center-column %! EXPLICIT_INSTRUMENT:4
+                                { %! EXPLICIT_INSTRUMENT:4
+                                    Baritone %! EXPLICIT_INSTRUMENT:4
+                                    saxophone %! EXPLICIT_INSTRUMENT:4
+                                } %! EXPLICIT_INSTRUMENT:4
+                        } %! EXPLICIT_INSTRUMENT:4
+                    \set SaxophoneMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT:4
+                        \hcenter-in %! EXPLICIT_INSTRUMENT:4
+                            #10 %! EXPLICIT_INSTRUMENT:4
+                            \center-column %! EXPLICIT_INSTRUMENT:4
+                                { %! EXPLICIT_INSTRUMENT:4
+                                    Bar. %! EXPLICIT_INSTRUMENT:4
+                                    sax. %! EXPLICIT_INSTRUMENT:4
+                                } %! EXPLICIT_INSTRUMENT:4
+                        } %! EXPLICIT_INSTRUMENT:4
+                    \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:1
                     e''2
                     \pp
                     ^ \markup {
                         \column
                             {
-                                %%% \line %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%     { %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%         \vcenter %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%             (“BaritoneSaxophone” %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%         \vcenter %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%             \hcenter-in %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                 #16 %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                 \center-column %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                     { %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                         Baritone %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                         saxophone %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                     } %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%         \concat %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%             { %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                 \vcenter %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                     \hcenter-in %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                         #10 %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                         \center-column %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                             { %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                                 Bar. %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                                 sax. %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                             } %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                 \vcenter %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%                     ) %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%             } %! EXPLICIT_INSTRUMENT_ALERT:7
-                                %%%     } %! EXPLICIT_INSTRUMENT_ALERT:7
-                                \line %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                        \with-color %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                            { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                \vcenter %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                    (“BaritoneSaxophone” %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                \vcenter %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                    \hcenter-in %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                        #16 %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                        \center-column %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                            { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                                Baritone %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                                saxophone %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                            } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                \concat %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                        \vcenter %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                            \hcenter-in %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                                #10 %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                                \center-column %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                                        Bar. %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                                        sax. %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                        \vcenter %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                            ) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                            } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
-                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:8
+                                %%% \line %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%     { %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%         \vcenter %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%             (“BaritoneSaxophone” %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%         \vcenter %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%             \hcenter-in %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                 #16 %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                 \center-column %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                     { %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                         Baritone %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                         saxophone %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                     } %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%         \concat %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%             { %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                 \vcenter %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                     \hcenter-in %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                         #10 %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                         \center-column %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                             { %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                                 Bar. %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                                 sax. %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                             } %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                 \vcenter %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%                     ) %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%             } %! EXPLICIT_INSTRUMENT_ALERT:2
+                                %%%     } %! EXPLICIT_INSTRUMENT_ALERT:2
+                                \line %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                        \with-color %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                            #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                            { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                \vcenter %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                    (“BaritoneSaxophone” %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                \vcenter %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                    \hcenter-in %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                        #16 %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                        \center-column %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                            { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                                Baritone %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                                saxophone %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                            } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                \concat %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                        \vcenter %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                            \hcenter-in %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                                #10 %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                                \center-column %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                                    { %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                                        Bar. %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                                        sax. %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                        \vcenter %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                            ) %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                            } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
+                                    } %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:3
                             }
                         }
-                    \set SaxophoneMusicStaff.instrumentName = \markup { %! EXPLICIT_REDRAW_INSTRUMENT:11
-                        \hcenter-in %! EXPLICIT_REDRAW_INSTRUMENT:11
-                            #16 %! EXPLICIT_REDRAW_INSTRUMENT:11
-                            \center-column %! EXPLICIT_REDRAW_INSTRUMENT:11
-                                { %! EXPLICIT_REDRAW_INSTRUMENT:11
-                                    Baritone %! EXPLICIT_REDRAW_INSTRUMENT:11
-                                    saxophone %! EXPLICIT_REDRAW_INSTRUMENT:11
-                                } %! EXPLICIT_REDRAW_INSTRUMENT:11
-                        } %! EXPLICIT_REDRAW_INSTRUMENT:11
-                    \set SaxophoneMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_REDRAW_INSTRUMENT:11
-                        \hcenter-in %! EXPLICIT_REDRAW_INSTRUMENT:11
-                            #10 %! EXPLICIT_REDRAW_INSTRUMENT:11
-                            \center-column %! EXPLICIT_REDRAW_INSTRUMENT:11
-                                { %! EXPLICIT_REDRAW_INSTRUMENT:11
-                                    Bar. %! EXPLICIT_REDRAW_INSTRUMENT:11
-                                    sax. %! EXPLICIT_REDRAW_INSTRUMENT:11
-                                } %! EXPLICIT_REDRAW_INSTRUMENT:11
-                        } %! EXPLICIT_REDRAW_INSTRUMENT:11
-                    \override SaxophoneMusicStaff.Clef.color = #(x11-color 'violet) %! TEMPLATE_CLEF_COLOR_REDRAW:5
-                    \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_REDRAW_INSTRUMENT_COLOR:10
+                    \set SaxophoneMusicStaff.instrumentName = \markup { %! EXPLICIT_REDRAW_INSTRUMENT:6
+                        \hcenter-in %! EXPLICIT_REDRAW_INSTRUMENT:6
+                            #16 %! EXPLICIT_REDRAW_INSTRUMENT:6
+                            \center-column %! EXPLICIT_REDRAW_INSTRUMENT:6
+                                { %! EXPLICIT_REDRAW_INSTRUMENT:6
+                                    Baritone %! EXPLICIT_REDRAW_INSTRUMENT:6
+                                    saxophone %! EXPLICIT_REDRAW_INSTRUMENT:6
+                                } %! EXPLICIT_REDRAW_INSTRUMENT:6
+                        } %! EXPLICIT_REDRAW_INSTRUMENT:6
+                    \set SaxophoneMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_REDRAW_INSTRUMENT:6
+                        \hcenter-in %! EXPLICIT_REDRAW_INSTRUMENT:6
+                            #10 %! EXPLICIT_REDRAW_INSTRUMENT:6
+                            \center-column %! EXPLICIT_REDRAW_INSTRUMENT:6
+                                { %! EXPLICIT_REDRAW_INSTRUMENT:6
+                                    Bar. %! EXPLICIT_REDRAW_INSTRUMENT:6
+                                    sax. %! EXPLICIT_REDRAW_INSTRUMENT:6
+                                } %! EXPLICIT_REDRAW_INSTRUMENT:6
+                        } %! EXPLICIT_REDRAW_INSTRUMENT:6
+                    \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_REDRAW_INSTRUMENT_COLOR:5
                     
                     %%% SaxophoneMusicVoice [measure 2] %%%
                     e''2
@@ -1958,11 +1943,7 @@
                             #10 %! TEMPLATE_INSTRUMENT:4
                             Gt. %! TEMPLATE_INSTRUMENT:4
                         } %! TEMPLATE_INSTRUMENT:4
-                    \clef "treble" %! TEMPLATE_CLEF:10
                     \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_INSTRUMENT_COLOR:1
-                    \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! TEMPLATE_CLEF_COLOR:7
-                    %%% \override GuitarMusicStaff.Clef.color = ##f %! TEMPLATE_CLEF_UNCOLOR:8
-                    \set GuitarMusicStaff.forceClef = ##t %! TEMPLATE_CLEF:9
                     cs'4
                     \f
                     ^ \markup {
@@ -2027,7 +2008,6 @@
                             Gt. %! TEMPLATE_REDRAW_INSTRUMENT:6
                         } %! TEMPLATE_REDRAW_INSTRUMENT:6
                     \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'violet) %! TEMPLATE_REDRAW_INSTRUMENT_COLOR:5
-                    \override GuitarMusicStaff.Clef.color = #(x11-color 'violet) %! TEMPLATE_CLEF_COLOR_REDRAW:11
                     
                     r4
                     
@@ -3450,11 +3430,7 @@
                             #10 %! TEMPLATE_INSTRUMENT:4
                             Perc. %! TEMPLATE_INSTRUMENT:4
                         } %! TEMPLATE_INSTRUMENT:4
-                    \clef "percussion" %! TEMPLATE_CLEF:10
                     \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_INSTRUMENT_COLOR:1
-                    \once \override PercussionMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! TEMPLATE_CLEF_COLOR:7
-                    %%% \override PercussionMusicStaff.Clef.color = ##f %! TEMPLATE_CLEF_UNCOLOR:8
-                    \set PercussionMusicStaff.forceClef = ##t %! TEMPLATE_CLEF:9
                     c'2
                     -\accent
                     \mp
@@ -3527,7 +3503,6 @@
                             Perc. %! TEMPLATE_REDRAW_INSTRUMENT:6
                         } %! TEMPLATE_REDRAW_INSTRUMENT:6
                     \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'violet) %! TEMPLATE_REDRAW_INSTRUMENT_COLOR:5
-                    \override PercussionMusicStaff.Clef.color = #(x11-color 'violet) %! TEMPLATE_CLEF_COLOR_REDRAW:11
                     
                     %%% PercussionMusicVoice [measure 2] %%%
                     \once \override Accidental.color = #red
@@ -4142,11 +4117,7 @@
                             #10 %! TEMPLATE_INSTRUMENT:4
                             Vn. %! TEMPLATE_INSTRUMENT:4
                         } %! TEMPLATE_INSTRUMENT:4
-                    \clef "treble" %! TEMPLATE_CLEF:10
                     \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! TEMPLATE_INSTRUMENT_COLOR:1
-                    \once \override ViolinMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! TEMPLATE_CLEF_COLOR:7
-                    %%% \override ViolinMusicStaff.Clef.color = ##f %! TEMPLATE_CLEF_UNCOLOR:8
-                    \set ViolinMusicStaff.forceClef = ##t %! TEMPLATE_CLEF:9
                     g'2
                     \>
                     \pp
@@ -4217,7 +4188,6 @@
                             Vn. %! TEMPLATE_REDRAW_INSTRUMENT:6
                         } %! TEMPLATE_REDRAW_INSTRUMENT:6
                     \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'violet) %! TEMPLATE_REDRAW_INSTRUMENT_COLOR:5
-                    \override ViolinMusicStaff.Clef.color = #(x11-color 'violet) %! TEMPLATE_CLEF_COLOR_REDRAW:11
                     
                     %%% ViolinMusicVoice [measure 2] %%%
                     g'2
