@@ -49,7 +49,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         fl.
                                     }
                             }
-                        \clef "treble"
                         s1
                     }
                 }
@@ -74,7 +73,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         hn.
                                     }
                             }
-                        \clef "treble"
                         s1
                     }
                 }
@@ -99,7 +97,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         cl.
                                     }
                             }
-                        \clef "treble"
                         s1
                     }
                 }
@@ -124,7 +121,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                                         sax.
                                     }
                             }
-                        \clef "treble"
                         s1
                     }
                 }
@@ -143,7 +139,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 #10
                                 Gt.
                             }
-                        \clef "treble"
                         s1
                     }
                 }
@@ -160,7 +155,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 #10
                                 Pf.
                             }
-                        \clef "treble"
                         s1
                     }
                 }
@@ -177,7 +171,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 #10
                                 Perc.
                             }
-                        \clef "percussion"
                         s1
                     }
                 }
@@ -196,7 +189,6 @@ class ScoreTemplate(baca.ScoreTemplate):
                                 #10
                                 Vn.
                             }
-                        \clef "treble"
                         s1
                     }
                 }
@@ -437,6 +429,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             'default_instrument',
             khamr.instruments['Viola'],
             )
+        abjad.annotate(
+            viola_music_staff,
+            'default_clef',
+            abjad.Clef('alto'),
+            )
         self._attach_tag('Viola', viola_music_staff)
 
         # CELLO
@@ -453,6 +450,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             cello_music_staff,
             'default_instrument',
             khamr.instruments['Cello'],
+            )
+        abjad.annotate(
+            cello_music_staff,
+            'default_clef',
+            abjad.Clef('bass'),
             )
         self._attach_tag('Cello', cello_music_staff)
 
@@ -471,9 +473,14 @@ class ScoreTemplate(baca.ScoreTemplate):
             'default_instrument',
             khamr.instruments['Contrabass'],
             )
+        abjad.annotate(
+            contrabass_music_staff,
+            'default_clef',
+            abjad.Clef('bass'),
+            )
         self._attach_tag('Contrabass', contrabass_music_staff)
 
-        # WIND SECTION
+        # WIND SECTION STAFF GROUP
         wind_section_staff_group = abjad.StaffGroup(
             [
                 flute_music_staff,
@@ -485,7 +492,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='WindSectionStaffGroup',
             )
 
-        # PERCUSSION SECTION
+        # PERCUSSION SECTION STAFF GROUP
         percussion_section_staff_group = abjad.StaffGroup(
             [
                 guitar_music_staff,
@@ -496,7 +503,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='PercussionSectionStaffGroup',
             )
 
-        # STRING SECTION
+        # STRING SECTION STAFF GROUP
         string_section_staff_group = abjad.StaffGroup(
             [
                 violin_music_staff,
