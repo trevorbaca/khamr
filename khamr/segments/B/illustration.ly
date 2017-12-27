@@ -18,36 +18,62 @@
                 \time 2/4
                 \mark #2
                 \bar "" %! EMPTY_START_BAR:1
-                \once \override TextScript.color = #(x11-color 'green4) %! REAPPLIED_METRONOME_MARK_COLOR:3
                 s1 * 1/2
                 %%% ^ \markup { %! CLOCK_TIME_MARKUP:5
                     %%% \fontsize %! CLOCK_TIME_MARKUP:5
                         %%% #-2 %! CLOCK_TIME_MARKUP:5
                         %%% 3'37'' %! CLOCK_TIME_MARKUP:5
                     %%% } %! CLOCK_TIME_MARKUP:5
-                %%% - \markup { %! STAGE_NUMBER_MARKUP:2
-                    %%% \fontsize %! STAGE_NUMBER_MARKUP:2
-                        %%% #-3 %! STAGE_NUMBER_MARKUP:2
-                        %%% \with-color %! STAGE_NUMBER_MARKUP:2
-                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER_MARKUP:2
-                            %%% [B.1] %! STAGE_NUMBER_MARKUP:2
-                    %%% } %! STAGE_NUMBER_MARKUP:2
-                ^ \markup { % REAPPLIED_METRONOME_MARK:4
-                    \fontsize % REAPPLIED_METRONOME_MARK:4
-                        #-6 % REAPPLIED_METRONOME_MARK:4
-                        \general-align % REAPPLIED_METRONOME_MARK:4
-                            #Y % REAPPLIED_METRONOME_MARK:4
-                            #DOWN % REAPPLIED_METRONOME_MARK:4
-                            \note-by-number % REAPPLIED_METRONOME_MARK:4
-                                #2 % REAPPLIED_METRONOME_MARK:4
-                                #0 % REAPPLIED_METRONOME_MARK:4
-                                #1 % REAPPLIED_METRONOME_MARK:4
-                    \upright % REAPPLIED_METRONOME_MARK:4
-                        { % REAPPLIED_METRONOME_MARK:4
-                            = % REAPPLIED_METRONOME_MARK:4
-                            126 % REAPPLIED_METRONOME_MARK:4
-                        } % REAPPLIED_METRONOME_MARK:4
-                    } % REAPPLIED_METRONOME_MARK:4
+                - \markup {
+                    \column
+                        {
+                            %%% \line %! STAGE_NUMBER_MARKUP:2
+                                %%% { %! STAGE_NUMBER_MARKUP:2
+                                    %%% \fontsize %! STAGE_NUMBER_MARKUP:2
+                                        %%% #-3 %! STAGE_NUMBER_MARKUP:2
+                                        %%% \with-color %! STAGE_NUMBER_MARKUP:2
+                                            %%% #(x11-color 'DarkCyan) %! STAGE_NUMBER_MARKUP:2
+                                            %%% [B.1] %! STAGE_NUMBER_MARKUP:2
+                                %%% } %! STAGE_NUMBER_MARKUP:2
+                            \line %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                { %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                    \with-color %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                        #(x11-color 'green4) %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                        { %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                            \fontsize %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                #-6 %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                \general-align %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                    #Y %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                    #DOWN %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                    \note-by-number %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                        #2 %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                        #0 %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                        #1 %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                            \upright %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                { %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                    = %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                    126 %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                                } %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                        } %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                                } %! REAPPLIED_METRONOME_MARK_WITH_COLOR:3
+                        }
+                    }
+                %%% ^ \markup { %! REAPPLIED_METRONOME_MARK:4
+                %%%     \fontsize %! REAPPLIED_METRONOME_MARK:4
+                %%%         #-6 %! REAPPLIED_METRONOME_MARK:4
+                %%%         \general-align %! REAPPLIED_METRONOME_MARK:4
+                %%%             #Y %! REAPPLIED_METRONOME_MARK:4
+                %%%             #DOWN %! REAPPLIED_METRONOME_MARK:4
+                %%%             \note-by-number %! REAPPLIED_METRONOME_MARK:4
+                %%%                 #2 %! REAPPLIED_METRONOME_MARK:4
+                %%%                 #0 %! REAPPLIED_METRONOME_MARK:4
+                %%%                 #1 %! REAPPLIED_METRONOME_MARK:4
+                %%%     \upright %! REAPPLIED_METRONOME_MARK:4
+                %%%         { %! REAPPLIED_METRONOME_MARK:4
+                %%%             = %! REAPPLIED_METRONOME_MARK:4
+                %%%             126 %! REAPPLIED_METRONOME_MARK:4
+                %%%         } %! REAPPLIED_METRONOME_MARK:4
+                %%%     } %! REAPPLIED_METRONOME_MARK:4
                 
                 %%% GlobalSkips [measure 76] %%%
                 s1 * 1/2
