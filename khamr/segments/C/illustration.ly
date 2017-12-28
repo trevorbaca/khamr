@@ -403,6 +403,8 @@
                 %%%         #-2                                                %! CLOCK_TIME_MARKUP
                 %%%         6'57''                                             %! CLOCK_TIME_MARKUP
                 %%%     }                                                      %! CLOCK_TIME_MARKUP
+                \override Score.BarLine.transparent = ##f                      %! SM5
+                \bar "|."                                                      %! SM5
                 
             }
         >>
@@ -412,20 +414,20 @@
                 \context FluteMusicVoice = "FluteMusicVoice" {
                     
                     % FluteMusicVoice [measure 112]                            %! SM4
-                    \set FluteMusicStaff.instrumentName = \markup {            %! REAPPLIED_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT
-                            #16                                                %! REAPPLIED_INSTRUMENT
-                            Flute                                              %! REAPPLIED_INSTRUMENT
-                        }                                                      %! REAPPLIED_INSTRUMENT
-                    \set FluteMusicStaff.shortInstrumentName = \markup {       %! REAPPLIED_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT
-                            #10                                                %! REAPPLIED_INSTRUMENT
-                            Fl.                                                %! REAPPLIED_INSTRUMENT
-                        }                                                      %! REAPPLIED_INSTRUMENT
-                    \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR
-                    \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR
+                    \set FluteMusicStaff.instrumentName = \markup {            %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT:SM8
+                            #16                                                %! REAPPLIED_INSTRUMENT:SM8
+                            Flute                                              %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_INSTRUMENT:SM8
+                    \set FluteMusicStaff.shortInstrumentName = \markup {       %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT:SM8
+                            #10                                                %! REAPPLIED_INSTRUMENT:SM8
+                            Fl.                                                %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_INSTRUMENT:SM8
+                    \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                    \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                     bf'2
-                    \pp                                                        %! REAPPLIED_DYNAMIC
+                    \pp                                                        %! REAPPLIED_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
@@ -471,17 +473,17 @@
                                     }                                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
                             }
                         }
-                    \set FluteMusicStaff.instrumentName = \markup {            %! REAPPLIED_REDRAW_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT
-                            #16                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                            Flute                                              %! REAPPLIED_REDRAW_INSTRUMENT
-                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                    \set FluteMusicStaff.shortInstrumentName = \markup {       %! REAPPLIED_REDRAW_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT
-                            #10                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                            Fl.                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                    \override FluteMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR
+                    \set FluteMusicStaff.instrumentName = \markup {            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            #16                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            Flute                                              %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                    \set FluteMusicStaff.shortInstrumentName = \markup {       %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            #10                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            Fl.                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                    \override FluteMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
                     
                     % FluteMusicVoice [measure 113]                            %! SM4
                     bf'2
@@ -603,7 +605,6 @@
                     
                     % FluteMusicVoice [measure 131]                            %! SM4
                     R1 * 3/2
-                    \bar "|."
                     
                 }
             }
@@ -612,29 +613,29 @@
                 \context OboeMusicVoice = "OboeMusicVoice" {
                     
                     % OboeMusicVoice [measure 112]                             %! SM4
-                    \stopStaff                                                 %! REDUNDANT_STAFF_LINES
-                    \once \override Staff.StaffSymbol.line-count = 1           %! REDUNDANT_STAFF_LINES
-                    \startStaff                                                %! REDUNDANT_STAFF_LINES
+                    \stopStaff                                                 %! REDUNDANT_STAFF_LINES:SM8
+                    \once \override Staff.StaffSymbol.line-count = 1           %! REDUNDANT_STAFF_LINES:SM8
+                    \startStaff                                                %! REDUNDANT_STAFF_LINES:SM8
                     \override RepeatTie.direction = #up
-                    \set OboeMusicStaff.instrumentName = \markup {             %! REAPPLIED_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT
-                            #16                                                %! REAPPLIED_INSTRUMENT
-                            Oboe                                               %! REAPPLIED_INSTRUMENT
-                        }                                                      %! REAPPLIED_INSTRUMENT
-                    \set OboeMusicStaff.shortInstrumentName = \markup {        %! REAPPLIED_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT
-                            #10                                                %! REAPPLIED_INSTRUMENT
-                            Ob.                                                %! REAPPLIED_INSTRUMENT
-                        }                                                      %! REAPPLIED_INSTRUMENT
-                    \set OboeMusicStaff.forceClef = ##t                        %! REAPPLIED_CLEF
-                    \clef "percussion"                                         %! REAPPLIED_CLEF
-                    \once \override OboeMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR
-                    %%% \override OboeMusicStaff.Clef.color = ##f              %! REAPPLIED_CLEF_UNCOLOR
-                    \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR
-                    \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR
-                    \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR
+                    \set OboeMusicStaff.instrumentName = \markup {             %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT:SM8
+                            #16                                                %! REAPPLIED_INSTRUMENT:SM8
+                            Oboe                                               %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_INSTRUMENT:SM8
+                    \set OboeMusicStaff.shortInstrumentName = \markup {        %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT:SM8
+                            #10                                                %! REAPPLIED_INSTRUMENT:SM8
+                            Ob.                                                %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_INSTRUMENT:SM8
+                    \set OboeMusicStaff.forceClef = ##t                        %! REAPPLIED_CLEF:SM8
+                    \clef "percussion"                                         %! REAPPLIED_CLEF:SM8
+                    \once \override OboeMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
+                    %%% \override OboeMusicStaff.Clef.color = ##f              %! REAPPLIED_CLEF_UNCOLOR:SM7
+                    \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                    \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
+                    \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                     c'2
-                    \pp                                                        %! REAPPLIED_DYNAMIC
+                    \pp                                                        %! REAPPLIED_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
@@ -680,18 +681,18 @@
                                     }                                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
                             }
                         }
-                    \set OboeMusicStaff.instrumentName = \markup {             %! REAPPLIED_REDRAW_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT
-                            #16                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                            Oboe                                               %! REAPPLIED_REDRAW_INSTRUMENT
-                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                    \set OboeMusicStaff.shortInstrumentName = \markup {        %! REAPPLIED_REDRAW_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT
-                            #10                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                            Ob.                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                    \override OboeMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW
-                    \override OboeMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR
+                    \set OboeMusicStaff.instrumentName = \markup {             %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            #16                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            Oboe                                               %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                    \set OboeMusicStaff.shortInstrumentName = \markup {        %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            #10                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            Ob.                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                    \override OboeMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW:SM6
+                    \override OboeMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
                     
                     % OboeMusicVoice [measure 113]                             %! SM4
                     c'2
@@ -798,7 +799,6 @@
                     
                     % OboeMusicVoice [measure 131]                             %! SM4
                     R1 * 3/2
-                    \bar "|."
                     
                 }
             }
@@ -807,28 +807,28 @@
                 \context ClarinetMusicVoice = "ClarinetMusicVoice" {
                     
                     % ClarinetMusicVoice [measure 112]                         %! SM4
-                    \set ClarinetMusicStaff.instrumentName = \markup {         %! REAPPLIED_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT
-                            #16                                                %! REAPPLIED_INSTRUMENT
-                            \center-column                                     %! REAPPLIED_INSTRUMENT
-                                {                                              %! REAPPLIED_INSTRUMENT
-                                    Bass                                       %! REAPPLIED_INSTRUMENT
-                                    clarinet                                   %! REAPPLIED_INSTRUMENT
-                                }                                              %! REAPPLIED_INSTRUMENT
-                        }                                                      %! REAPPLIED_INSTRUMENT
-                    \set ClarinetMusicStaff.shortInstrumentName = \markup {    %! REAPPLIED_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT
-                            #10                                                %! REAPPLIED_INSTRUMENT
-                            \center-column                                     %! REAPPLIED_INSTRUMENT
-                                {                                              %! REAPPLIED_INSTRUMENT
-                                    Bass                                       %! REAPPLIED_INSTRUMENT
-                                    cl.                                        %! REAPPLIED_INSTRUMENT
-                                }                                              %! REAPPLIED_INSTRUMENT
-                        }                                                      %! REAPPLIED_INSTRUMENT
-                    \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR
-                    \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR
+                    \set ClarinetMusicStaff.instrumentName = \markup {         %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT:SM8
+                            #16                                                %! REAPPLIED_INSTRUMENT:SM8
+                            \center-column                                     %! REAPPLIED_INSTRUMENT:SM8
+                                {                                              %! REAPPLIED_INSTRUMENT:SM8
+                                    Bass                                       %! REAPPLIED_INSTRUMENT:SM8
+                                    clarinet                                   %! REAPPLIED_INSTRUMENT:SM8
+                                }                                              %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_INSTRUMENT:SM8
+                    \set ClarinetMusicStaff.shortInstrumentName = \markup {    %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT:SM8
+                            #10                                                %! REAPPLIED_INSTRUMENT:SM8
+                            \center-column                                     %! REAPPLIED_INSTRUMENT:SM8
+                                {                                              %! REAPPLIED_INSTRUMENT:SM8
+                                    Bass                                       %! REAPPLIED_INSTRUMENT:SM8
+                                    cl.                                        %! REAPPLIED_INSTRUMENT:SM8
+                                }                                              %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_INSTRUMENT:SM8
+                    \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                    \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                     a2
-                    \ppp                                                       %! REAPPLIED_DYNAMIC
+                    \ppp                                                       %! REAPPLIED_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
@@ -890,25 +890,25 @@
                                     }                                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
                             }
                         }
-                    \set ClarinetMusicStaff.instrumentName = \markup {         %! REAPPLIED_REDRAW_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT
-                            #16                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                            \center-column                                     %! REAPPLIED_REDRAW_INSTRUMENT
-                                {                                              %! REAPPLIED_REDRAW_INSTRUMENT
-                                    Bass                                       %! REAPPLIED_REDRAW_INSTRUMENT
-                                    clarinet                                   %! REAPPLIED_REDRAW_INSTRUMENT
-                                }                                              %! REAPPLIED_REDRAW_INSTRUMENT
-                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                    \set ClarinetMusicStaff.shortInstrumentName = \markup {    %! REAPPLIED_REDRAW_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT
-                            #10                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                            \center-column                                     %! REAPPLIED_REDRAW_INSTRUMENT
-                                {                                              %! REAPPLIED_REDRAW_INSTRUMENT
-                                    Bass                                       %! REAPPLIED_REDRAW_INSTRUMENT
-                                    cl.                                        %! REAPPLIED_REDRAW_INSTRUMENT
-                                }                                              %! REAPPLIED_REDRAW_INSTRUMENT
-                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                    \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR
+                    \set ClarinetMusicStaff.instrumentName = \markup {         %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            #16                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            \center-column                                     %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                                {                                              %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                                    Bass                                       %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                                    clarinet                                   %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                                }                                              %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                    \set ClarinetMusicStaff.shortInstrumentName = \markup {    %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            #10                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            \center-column                                     %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                                {                                              %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                                    Bass                                       %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                                    cl.                                        %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                                }                                              %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                    \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
                     
                     % ClarinetMusicVoice [measure 113]                         %! SM4
                     a2
@@ -986,7 +986,6 @@
                     
                     % ClarinetMusicVoice [measure 131]                         %! SM4
                     R1 * 3/2
-                    \bar "|."
                     
                 }
             }
@@ -995,37 +994,37 @@
                 \context SaxophoneMusicVoice = "SaxophoneMusicVoice" {
                     
                     % SaxophoneMusicVoice [measure 112]                        %! SM4
-                    \stopStaff                                                 %! REDUNDANT_STAFF_LINES
-                    \once \override Staff.StaffSymbol.line-count = 1           %! REDUNDANT_STAFF_LINES
-                    \startStaff                                                %! REDUNDANT_STAFF_LINES
+                    \stopStaff                                                 %! REDUNDANT_STAFF_LINES:SM8
+                    \once \override Staff.StaffSymbol.line-count = 1           %! REDUNDANT_STAFF_LINES:SM8
+                    \startStaff                                                %! REDUNDANT_STAFF_LINES:SM8
                     \override RepeatTie.direction = #up
-                    \set SaxophoneMusicStaff.instrumentName = \markup {        %! REAPPLIED_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT
-                            #16                                                %! REAPPLIED_INSTRUMENT
-                            \center-column                                     %! REAPPLIED_INSTRUMENT
-                                {                                              %! REAPPLIED_INSTRUMENT
-                                    Sopranino                                  %! REAPPLIED_INSTRUMENT
-                                    saxophone                                  %! REAPPLIED_INSTRUMENT
-                                }                                              %! REAPPLIED_INSTRUMENT
-                        }                                                      %! REAPPLIED_INSTRUMENT
-                    \set SaxophoneMusicStaff.shortInstrumentName = \markup {   %! REAPPLIED_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT
-                            #10                                                %! REAPPLIED_INSTRUMENT
-                            \center-column                                     %! REAPPLIED_INSTRUMENT
-                                {                                              %! REAPPLIED_INSTRUMENT
-                                    Sopr.                                      %! REAPPLIED_INSTRUMENT
-                                    sax.                                       %! REAPPLIED_INSTRUMENT
-                                }                                              %! REAPPLIED_INSTRUMENT
-                        }                                                      %! REAPPLIED_INSTRUMENT
-                    \set SaxophoneMusicStaff.forceClef = ##t                   %! REAPPLIED_CLEF
-                    \clef "percussion"                                         %! REAPPLIED_CLEF
-                    \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR
-                    %%% \override SaxophoneMusicStaff.Clef.color = ##f         %! REAPPLIED_CLEF_UNCOLOR
-                    \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR
-                    \once \override SaxophoneMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR
-                    \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR
+                    \set SaxophoneMusicStaff.instrumentName = \markup {        %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT:SM8
+                            #16                                                %! REAPPLIED_INSTRUMENT:SM8
+                            \center-column                                     %! REAPPLIED_INSTRUMENT:SM8
+                                {                                              %! REAPPLIED_INSTRUMENT:SM8
+                                    Sopranino                                  %! REAPPLIED_INSTRUMENT:SM8
+                                    saxophone                                  %! REAPPLIED_INSTRUMENT:SM8
+                                }                                              %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_INSTRUMENT:SM8
+                    \set SaxophoneMusicStaff.shortInstrumentName = \markup {   %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT:SM8
+                            #10                                                %! REAPPLIED_INSTRUMENT:SM8
+                            \center-column                                     %! REAPPLIED_INSTRUMENT:SM8
+                                {                                              %! REAPPLIED_INSTRUMENT:SM8
+                                    Sopr.                                      %! REAPPLIED_INSTRUMENT:SM8
+                                    sax.                                       %! REAPPLIED_INSTRUMENT:SM8
+                                }                                              %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_INSTRUMENT:SM8
+                    \set SaxophoneMusicStaff.forceClef = ##t                   %! REAPPLIED_CLEF:SM8
+                    \clef "percussion"                                         %! REAPPLIED_CLEF:SM8
+                    \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
+                    %%% \override SaxophoneMusicStaff.Clef.color = ##f         %! REAPPLIED_CLEF_UNCOLOR:SM7
+                    \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                    \once \override SaxophoneMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
+                    \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                     a2
-                    \pp                                                        %! REAPPLIED_DYNAMIC
+                    \pp                                                        %! REAPPLIED_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
@@ -1087,26 +1086,26 @@
                                     }                                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
                             }
                         }
-                    \set SaxophoneMusicStaff.instrumentName = \markup {        %! REAPPLIED_REDRAW_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT
-                            #16                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                            \center-column                                     %! REAPPLIED_REDRAW_INSTRUMENT
-                                {                                              %! REAPPLIED_REDRAW_INSTRUMENT
-                                    Sopranino                                  %! REAPPLIED_REDRAW_INSTRUMENT
-                                    saxophone                                  %! REAPPLIED_REDRAW_INSTRUMENT
-                                }                                              %! REAPPLIED_REDRAW_INSTRUMENT
-                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                    \set SaxophoneMusicStaff.shortInstrumentName = \markup {   %! REAPPLIED_REDRAW_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT
-                            #10                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                            \center-column                                     %! REAPPLIED_REDRAW_INSTRUMENT
-                                {                                              %! REAPPLIED_REDRAW_INSTRUMENT
-                                    Sopr.                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                                    sax.                                       %! REAPPLIED_REDRAW_INSTRUMENT
-                                }                                              %! REAPPLIED_REDRAW_INSTRUMENT
-                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                    \override SaxophoneMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW
-                    \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR
+                    \set SaxophoneMusicStaff.instrumentName = \markup {        %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            #16                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            \center-column                                     %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                                {                                              %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                                    Sopranino                                  %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                                    saxophone                                  %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                                }                                              %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                    \set SaxophoneMusicStaff.shortInstrumentName = \markup {   %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            #10                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            \center-column                                     %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                                {                                              %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                                    Sopr.                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                                    sax.                                       %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                                }                                              %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                    \override SaxophoneMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW:SM6
+                    \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
                     
                     % SaxophoneMusicVoice [measure 113]                        %! SM4
                     a2
@@ -1216,7 +1215,6 @@
                     
                     % SaxophoneMusicVoice [measure 131]                        %! SM4
                     R1 * 3/2
-                    \bar "|."
                     
                 }
             }
@@ -1227,20 +1225,20 @@
                 \context GuitarMusicVoice = "GuitarMusicVoice" {
                     
                     % GuitarMusicVoice [measure 112]                           %! SM4
-                    \set GuitarMusicStaff.instrumentName = \markup {           %! REAPPLIED_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT
-                            #16                                                %! REAPPLIED_INSTRUMENT
-                            Guitar                                             %! REAPPLIED_INSTRUMENT
-                        }                                                      %! REAPPLIED_INSTRUMENT
-                    \set GuitarMusicStaff.shortInstrumentName = \markup {      %! REAPPLIED_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT
-                            #10                                                %! REAPPLIED_INSTRUMENT
-                            Gt.                                                %! REAPPLIED_INSTRUMENT
-                        }                                                      %! REAPPLIED_INSTRUMENT
-                    \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR
-                    \once \override GuitarMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR
+                    \set GuitarMusicStaff.instrumentName = \markup {           %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT:SM8
+                            #16                                                %! REAPPLIED_INSTRUMENT:SM8
+                            Guitar                                             %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_INSTRUMENT:SM8
+                    \set GuitarMusicStaff.shortInstrumentName = \markup {      %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT:SM8
+                            #10                                                %! REAPPLIED_INSTRUMENT:SM8
+                            Gt.                                                %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_INSTRUMENT:SM8
+                    \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                    \once \override GuitarMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                     r2
-                    \fff                                                       %! REAPPLIED_DYNAMIC
+                    \fff                                                       %! REAPPLIED_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
@@ -1286,17 +1284,17 @@
                                     }                                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
                             }
                         }
-                    \set GuitarMusicStaff.instrumentName = \markup {           %! REAPPLIED_REDRAW_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT
-                            #16                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                            Guitar                                             %! REAPPLIED_REDRAW_INSTRUMENT
-                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                    \set GuitarMusicStaff.shortInstrumentName = \markup {      %! REAPPLIED_REDRAW_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT
-                            #10                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                            Gt.                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR
+                    \set GuitarMusicStaff.instrumentName = \markup {           %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            #16                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            Guitar                                             %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                    \set GuitarMusicStaff.shortInstrumentName = \markup {      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            #10                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            Gt.                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
                     
                     % GuitarMusicVoice [measure 113]                           %! SM4
                     r2
@@ -1434,7 +1432,6 @@
                     ^ \markup { @ }
                     
                     r2
-                    \bar "|."
                     
                 }
             }
@@ -1443,28 +1440,28 @@
                 \context PianoMusicVoice = "PianoMusicVoice" {
                     
                     % PianoMusicVoice [measure 112]                            %! SM4
-                    \stopStaff                                                 %! REAPPLIED_STAFF_LINES
-                    \once \override Staff.StaffSymbol.line-count = 1           %! REAPPLIED_STAFF_LINES
-                    \startStaff                                                %! REAPPLIED_STAFF_LINES
-                    \set PianoMusicStaff.instrumentName = \markup {            %! REAPPLIED_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT
-                            #16                                                %! REAPPLIED_INSTRUMENT
-                            Piano                                              %! REAPPLIED_INSTRUMENT
-                        }                                                      %! REAPPLIED_INSTRUMENT
-                    \set PianoMusicStaff.shortInstrumentName = \markup {       %! REAPPLIED_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT
-                            #10                                                %! REAPPLIED_INSTRUMENT
-                            Pf.                                                %! REAPPLIED_INSTRUMENT
-                        }                                                      %! REAPPLIED_INSTRUMENT
-                    \set PianoMusicStaff.forceClef = ##t                       %! REAPPLIED_CLEF
-                    \clef "treble"                                             %! REAPPLIED_CLEF
-                    \once \override PianoMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR
-                    %%% \override PianoMusicStaff.Clef.color = ##f             %! REAPPLIED_CLEF_UNCOLOR
-                    \once \override PianoMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR
-                    \once \override PianoMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR
-                    \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR
+                    \stopStaff                                                 %! REAPPLIED_STAFF_LINES:SM8
+                    \once \override Staff.StaffSymbol.line-count = 1           %! REAPPLIED_STAFF_LINES:SM8
+                    \startStaff                                                %! REAPPLIED_STAFF_LINES:SM8
+                    \set PianoMusicStaff.instrumentName = \markup {            %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT:SM8
+                            #16                                                %! REAPPLIED_INSTRUMENT:SM8
+                            Piano                                              %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_INSTRUMENT:SM8
+                    \set PianoMusicStaff.shortInstrumentName = \markup {       %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT:SM8
+                            #10                                                %! REAPPLIED_INSTRUMENT:SM8
+                            Pf.                                                %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_INSTRUMENT:SM8
+                    \set PianoMusicStaff.forceClef = ##t                       %! REAPPLIED_CLEF:SM8
+                    \clef "treble"                                             %! REAPPLIED_CLEF:SM8
+                    \once \override PianoMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
+                    %%% \override PianoMusicStaff.Clef.color = ##f             %! REAPPLIED_CLEF_UNCOLOR:SM7
+                    \once \override PianoMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                    \once \override PianoMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
+                    \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                     r2
-                    \fff                                                       %! REAPPLIED_DYNAMIC
+                    \fff                                                       %! REAPPLIED_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
@@ -1510,18 +1507,18 @@
                                     }                                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
                             }
                         }
-                    \set PianoMusicStaff.instrumentName = \markup {            %! REAPPLIED_REDRAW_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT
-                            #16                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                            Piano                                              %! REAPPLIED_REDRAW_INSTRUMENT
-                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                    \set PianoMusicStaff.shortInstrumentName = \markup {       %! REAPPLIED_REDRAW_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT
-                            #10                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                            Pf.                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                    \override PianoMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW
-                    \override PianoMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR
+                    \set PianoMusicStaff.instrumentName = \markup {            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            #16                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            Piano                                              %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                    \set PianoMusicStaff.shortInstrumentName = \markup {       %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            #10                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            Pf.                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                    \override PianoMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW:SM6
+                    \override PianoMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
                     
                     % PianoMusicVoice [measure 113]                            %! SM4
                     r2
@@ -1655,7 +1652,6 @@
                     ^ \markup { @ }
                     
                     r2
-                    \bar "|."
                     
                 }
             }
@@ -1669,25 +1665,25 @@
                     \once \override Flag.color = #blue
                     \once \override NoteHead.color = #blue
                     \once \override Stem.color = #blue
-                    \set PercussionMusicStaff.instrumentName = \markup {       %! REAPPLIED_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT
-                            #16                                                %! REAPPLIED_INSTRUMENT
-                            Percussion                                         %! REAPPLIED_INSTRUMENT
-                        }                                                      %! REAPPLIED_INSTRUMENT
-                    \set PercussionMusicStaff.shortInstrumentName = \markup {  %! REAPPLIED_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT
-                            #10                                                %! REAPPLIED_INSTRUMENT
-                            Perc.                                              %! REAPPLIED_INSTRUMENT
-                        }                                                      %! REAPPLIED_INSTRUMENT
-                    \set PercussionMusicStaff.forceClef = ##t                  %! REAPPLIED_CLEF
-                    \clef "percussion"                                         %! REAPPLIED_CLEF
-                    \once \override PercussionMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR
-                    %%% \override PercussionMusicStaff.Clef.color = ##f        %! REAPPLIED_CLEF_UNCOLOR
-                    \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR
-                    \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR
+                    \set PercussionMusicStaff.instrumentName = \markup {       %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT:SM8
+                            #16                                                %! REAPPLIED_INSTRUMENT:SM8
+                            Percussion                                         %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_INSTRUMENT:SM8
+                    \set PercussionMusicStaff.shortInstrumentName = \markup {  %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT:SM8
+                            #10                                                %! REAPPLIED_INSTRUMENT:SM8
+                            Perc.                                              %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_INSTRUMENT:SM8
+                    \set PercussionMusicStaff.forceClef = ##t                  %! REAPPLIED_CLEF:SM8
+                    \clef "percussion"                                         %! REAPPLIED_CLEF:SM8
+                    \once \override PercussionMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
+                    %%% \override PercussionMusicStaff.Clef.color = ##f        %! REAPPLIED_CLEF_UNCOLOR:SM7
+                    \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                    \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                     c'2
                     :32
-                    \ppp                                                       %! REAPPLIED_DYNAMIC
+                    \ppp                                                       %! REAPPLIED_DYNAMIC:SM8
                     \>
                     \pp
                     ^ \markup {
@@ -1735,18 +1731,18 @@
                                     }                                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
                             }
                         }
-                    \set PercussionMusicStaff.instrumentName = \markup {       %! REAPPLIED_REDRAW_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT
-                            #16                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                            Percussion                                         %! REAPPLIED_REDRAW_INSTRUMENT
-                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                    \set PercussionMusicStaff.shortInstrumentName = \markup {  %! REAPPLIED_REDRAW_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT
-                            #10                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                            Perc.                                              %! REAPPLIED_REDRAW_INSTRUMENT
-                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                    \override PercussionMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW
-                    \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR
+                    \set PercussionMusicStaff.instrumentName = \markup {       %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            #16                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            Percussion                                         %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                    \set PercussionMusicStaff.shortInstrumentName = \markup {  %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            #10                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            Perc.                                              %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                    \override PercussionMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_COLOR_REDRAW:SM6
+                    \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
                     
                     % PercussionMusicVoice [measure 113]                       %! SM4
                     \once \override Beam.color = #blue
@@ -1898,7 +1894,6 @@
                     
                     % PercussionMusicVoice [measure 131]                       %! SM4
                     R1 * 3/2
-                    \bar "|."
                     
                 }
             }
@@ -1912,21 +1907,21 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
-                    \set ViolinMusicStaff.instrumentName = \markup {           %! REAPPLIED_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT
-                            #16                                                %! REAPPLIED_INSTRUMENT
-                            Violin                                             %! REAPPLIED_INSTRUMENT
-                        }                                                      %! REAPPLIED_INSTRUMENT
-                    \set ViolinMusicStaff.shortInstrumentName = \markup {      %! REAPPLIED_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT
-                            #10                                                %! REAPPLIED_INSTRUMENT
-                            Vn.                                                %! REAPPLIED_INSTRUMENT
-                        }                                                      %! REAPPLIED_INSTRUMENT
-                    \set ViolinMusicStaff.forceClef = ##t                      %! EXPLICIT_CLEF
-                    \clef "percussion"                                         %! EXPLICIT_CLEF
-                    \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR
-                    \once \override ViolinMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR
-                    %%% \override ViolinMusicStaff.Clef.color = ##f            %! EXPLICIT_CLEF_UNCOLOR
+                    \set ViolinMusicStaff.instrumentName = \markup {           %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT:SM8
+                            #16                                                %! REAPPLIED_INSTRUMENT:SM8
+                            Violin                                             %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_INSTRUMENT:SM8
+                    \set ViolinMusicStaff.shortInstrumentName = \markup {      %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT:SM8
+                            #10                                                %! REAPPLIED_INSTRUMENT:SM8
+                            Vn.                                                %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_INSTRUMENT:SM8
+                    \set ViolinMusicStaff.forceClef = ##t                      %! EXPLICIT_CLEF:SM8
+                    \clef "percussion"                                         %! EXPLICIT_CLEF:SM8
+                    \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                    \once \override ViolinMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
+                    %%% \override ViolinMusicStaff.Clef.color = ##f            %! EXPLICIT_CLEF_UNCOLOR:SM7
                     c'2
                     -\downbow
                     \p
@@ -1981,18 +1976,18 @@
                                     }                                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
                             }
                         }
-                    \set ViolinMusicStaff.instrumentName = \markup {           %! REAPPLIED_REDRAW_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT
-                            #16                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                            Violin                                             %! REAPPLIED_REDRAW_INSTRUMENT
-                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                    \set ViolinMusicStaff.shortInstrumentName = \markup {      %! REAPPLIED_REDRAW_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT
-                            #10                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                            Vn.                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                    \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR
-                    \override ViolinMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_COLOR_REDRAW
+                    \set ViolinMusicStaff.instrumentName = \markup {           %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            #16                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            Violin                                             %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                    \set ViolinMusicStaff.shortInstrumentName = \markup {      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            #10                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            Vn.                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                    \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
+                    \override ViolinMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_COLOR_REDRAW:SM6
                     
                     % ViolinMusicVoice [measure 113]                           %! SM4
                     c'2
@@ -2088,7 +2083,6 @@
                     
                     % ViolinMusicVoice [measure 131]                           %! SM4
                     R1 * 3/2
-                    \bar "|."
                     
                 }
             }
@@ -2100,21 +2094,21 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
-                    \set ViolaMusicStaff.instrumentName = \markup {            %! REAPPLIED_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT
-                            #16                                                %! REAPPLIED_INSTRUMENT
-                            Viola                                              %! REAPPLIED_INSTRUMENT
-                        }                                                      %! REAPPLIED_INSTRUMENT
-                    \set ViolaMusicStaff.shortInstrumentName = \markup {       %! REAPPLIED_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT
-                            #10                                                %! REAPPLIED_INSTRUMENT
-                            Va.                                                %! REAPPLIED_INSTRUMENT
-                        }                                                      %! REAPPLIED_INSTRUMENT
-                    \set ViolaMusicStaff.forceClef = ##t                       %! EXPLICIT_CLEF
-                    \clef "percussion"                                         %! EXPLICIT_CLEF
-                    \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR
-                    \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR
-                    %%% \override ViolaMusicStaff.Clef.color = ##f             %! EXPLICIT_CLEF_UNCOLOR
+                    \set ViolaMusicStaff.instrumentName = \markup {            %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT:SM8
+                            #16                                                %! REAPPLIED_INSTRUMENT:SM8
+                            Viola                                              %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_INSTRUMENT:SM8
+                    \set ViolaMusicStaff.shortInstrumentName = \markup {       %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT:SM8
+                            #10                                                %! REAPPLIED_INSTRUMENT:SM8
+                            Va.                                                %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_INSTRUMENT:SM8
+                    \set ViolaMusicStaff.forceClef = ##t                       %! EXPLICIT_CLEF:SM8
+                    \clef "percussion"                                         %! EXPLICIT_CLEF:SM8
+                    \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                    \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
+                    %%% \override ViolaMusicStaff.Clef.color = ##f             %! EXPLICIT_CLEF_UNCOLOR:SM7
                     c'2
                     -\downbow
                     \p
@@ -2169,18 +2163,18 @@
                                     }                                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
                             }
                         }
-                    \set ViolaMusicStaff.instrumentName = \markup {            %! REAPPLIED_REDRAW_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT
-                            #16                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                            Viola                                              %! REAPPLIED_REDRAW_INSTRUMENT
-                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                    \set ViolaMusicStaff.shortInstrumentName = \markup {       %! REAPPLIED_REDRAW_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT
-                            #10                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                            Va.                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                    \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR
-                    \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_COLOR_REDRAW
+                    \set ViolaMusicStaff.instrumentName = \markup {            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            #16                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            Viola                                              %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                    \set ViolaMusicStaff.shortInstrumentName = \markup {       %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            #10                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            Va.                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                    \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
+                    \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_COLOR_REDRAW:SM6
                     
                     % ViolaMusicVoice [measure 113]                            %! SM4
                     c'2
@@ -2276,7 +2270,6 @@
                     
                     % ViolaMusicVoice [measure 131]                            %! SM4
                     R1 * 3/2
-                    \bar "|."
                     
                 }
             }
@@ -2288,21 +2281,21 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
-                    \set CelloMusicStaff.instrumentName = \markup {            %! REAPPLIED_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT
-                            #16                                                %! REAPPLIED_INSTRUMENT
-                            Cello                                              %! REAPPLIED_INSTRUMENT
-                        }                                                      %! REAPPLIED_INSTRUMENT
-                    \set CelloMusicStaff.shortInstrumentName = \markup {       %! REAPPLIED_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT
-                            #10                                                %! REAPPLIED_INSTRUMENT
-                            Vc.                                                %! REAPPLIED_INSTRUMENT
-                        }                                                      %! REAPPLIED_INSTRUMENT
-                    \set CelloMusicStaff.forceClef = ##t                       %! EXPLICIT_CLEF
-                    \clef "percussion"                                         %! EXPLICIT_CLEF
-                    \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR
-                    \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR
-                    %%% \override CelloMusicStaff.Clef.color = ##f             %! EXPLICIT_CLEF_UNCOLOR
+                    \set CelloMusicStaff.instrumentName = \markup {            %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT:SM8
+                            #16                                                %! REAPPLIED_INSTRUMENT:SM8
+                            Cello                                              %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_INSTRUMENT:SM8
+                    \set CelloMusicStaff.shortInstrumentName = \markup {       %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT:SM8
+                            #10                                                %! REAPPLIED_INSTRUMENT:SM8
+                            Vc.                                                %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_INSTRUMENT:SM8
+                    \set CelloMusicStaff.forceClef = ##t                       %! EXPLICIT_CLEF:SM8
+                    \clef "percussion"                                         %! EXPLICIT_CLEF:SM8
+                    \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                    \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
+                    %%% \override CelloMusicStaff.Clef.color = ##f             %! EXPLICIT_CLEF_UNCOLOR:SM7
                     c'2
                     -\downbow
                     \p
@@ -2357,18 +2350,18 @@
                                     }                                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
                             }
                         }
-                    \set CelloMusicStaff.instrumentName = \markup {            %! REAPPLIED_REDRAW_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT
-                            #16                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                            Cello                                              %! REAPPLIED_REDRAW_INSTRUMENT
-                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                    \set CelloMusicStaff.shortInstrumentName = \markup {       %! REAPPLIED_REDRAW_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT
-                            #10                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                            Vc.                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                    \override CelloMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR
-                    \override CelloMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_COLOR_REDRAW
+                    \set CelloMusicStaff.instrumentName = \markup {            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            #16                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            Cello                                              %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                    \set CelloMusicStaff.shortInstrumentName = \markup {       %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            #10                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            Vc.                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                    \override CelloMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
+                    \override CelloMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_COLOR_REDRAW:SM6
                     
                     % CelloMusicVoice [measure 113]                            %! SM4
                     c'2
@@ -2470,7 +2463,6 @@
                     
                     % CelloMusicVoice [measure 131]                            %! SM4
                     R1 * 3/2
-                    \bar "|."
                     
                 }
             }
@@ -2482,21 +2474,21 @@
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 1
                     \startStaff
-                    \set ContrabassMusicStaff.instrumentName = \markup {       %! REAPPLIED_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT
-                            #16                                                %! REAPPLIED_INSTRUMENT
-                            Contrabass                                         %! REAPPLIED_INSTRUMENT
-                        }                                                      %! REAPPLIED_INSTRUMENT
-                    \set ContrabassMusicStaff.shortInstrumentName = \markup {  %! REAPPLIED_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT
-                            #10                                                %! REAPPLIED_INSTRUMENT
-                            Cb.                                                %! REAPPLIED_INSTRUMENT
-                        }                                                      %! REAPPLIED_INSTRUMENT
-                    \set ContrabassMusicStaff.forceClef = ##t                  %! EXPLICIT_CLEF
-                    \clef "percussion"                                         %! EXPLICIT_CLEF
-                    \once \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR
-                    \once \override ContrabassMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR
-                    %%% \override ContrabassMusicStaff.Clef.color = ##f        %! EXPLICIT_CLEF_UNCOLOR
+                    \set ContrabassMusicStaff.instrumentName = \markup {       %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT:SM8
+                            #16                                                %! REAPPLIED_INSTRUMENT:SM8
+                            Contrabass                                         %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_INSTRUMENT:SM8
+                    \set ContrabassMusicStaff.shortInstrumentName = \markup {  %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_INSTRUMENT:SM8
+                            #10                                                %! REAPPLIED_INSTRUMENT:SM8
+                            Cb.                                                %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_INSTRUMENT:SM8
+                    \set ContrabassMusicStaff.forceClef = ##t                  %! EXPLICIT_CLEF:SM8
+                    \clef "percussion"                                         %! EXPLICIT_CLEF:SM8
+                    \once \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                    \once \override ContrabassMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
+                    %%% \override ContrabassMusicStaff.Clef.color = ##f        %! EXPLICIT_CLEF_UNCOLOR:SM7
                     c''2
                     -\downbow
                     \p
@@ -2551,18 +2543,18 @@
                                     }                                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR
                             }
                         }
-                    \set ContrabassMusicStaff.instrumentName = \markup {       %! REAPPLIED_REDRAW_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT
-                            #16                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                            Contrabass                                         %! REAPPLIED_REDRAW_INSTRUMENT
-                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                    \set ContrabassMusicStaff.shortInstrumentName = \markup {  %! REAPPLIED_REDRAW_INSTRUMENT
-                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT
-                            #10                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                            Cb.                                                %! REAPPLIED_REDRAW_INSTRUMENT
-                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT
-                    \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR
-                    \override ContrabassMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_COLOR_REDRAW
+                    \set ContrabassMusicStaff.instrumentName = \markup {       %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            #16                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            Contrabass                                         %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                    \set ContrabassMusicStaff.shortInstrumentName = \markup {  %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        \hcenter-in                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            #10                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                            Cb.                                                %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                        }                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
+                    \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
+                    \override ContrabassMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_COLOR_REDRAW:SM6
                     
                     % ContrabassMusicVoice [measure 113]                       %! SM4
                     c''2
@@ -2658,7 +2650,6 @@
                     
                     % ContrabassMusicVoice [measure 131]                       %! SM4
                     R1 * 3/2
-                    \bar "|."
                     
                 }
             }
