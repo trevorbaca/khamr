@@ -724,17 +724,17 @@
                         }                                                                %! EXPLICIT_INSTRUMENT:SM8
                     \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:SM6
                     b''1.
-                    :32                                                                  %! IC1
-                    -\fff                                                                %! IC1
+                    :32                                                                  %! IC
+                    -\fff                                                                %! IC
                     ^ \markup {
                         \column
                             {
-                                \line                                                    %! IC1
-                                    {                                                    %! IC1
-                                        \whiteout                                        %! IC1
-                                            \upright                                     %! IC1
-                                                fluttertongue                            %! IC1
-                                    }                                                    %! IC1
+                                \line                                                    %! IC
+                                    {                                                    %! IC
+                                        \whiteout                                        %! IC
+                                            \upright                                     %! IC
+                                                fluttertongue                            %! IC
+                                    }                                                    %! IC
                                 %%% \line                                                %! EXPLICIT_INSTRUMENT_ALERT:SM10
                                 %%%     {                                                %! EXPLICIT_INSTRUMENT_ALERT:SM10
                                 %%%         \vcenter                                     %! EXPLICIT_INSTRUMENT_ALERT:SM10
@@ -794,11 +794,11 @@
                     
                     % FluteMusicVoice [measure 61]                                       %! SM4
                     b''2.
-                    :32                                                                  %! IC1
-                    -\fff                                                                %! IC1
+                    :32                                                                  %! IC
+                    -\fff                                                                %! IC
                     
                     b''2
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \repeatTie
                     
                     % FluteMusicVoice [measure 62]                                       %! SM4
@@ -806,8 +806,8 @@
                     
                     % FluteMusicVoice [measure 63]                                       %! SM4
                     b''1
-                    :32                                                                  %! IC1
-                    -\fff                                                                %! IC1
+                    :32                                                                  %! IC
+                    -\fff                                                                %! IC
                     
                     % FluteMusicVoice [measure 64]                                       %! SM4
                     r1.
@@ -816,52 +816,52 @@
                     r4
                     
                     b''4
-                    :32                                                                  %! IC1
-                    -\fff                                                                %! IC1
+                    :32                                                                  %! IC
+                    -\fff                                                                %! IC
                     
                     % FluteMusicVoice [measure 66]                                       %! SM4
                     b''2
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \repeatTie
                     
                     % FluteMusicVoice [measure 67]                                       %! SM4
                     b''2.
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \repeatTie
                     
                     % FluteMusicVoice [measure 68]                                       %! SM4
                     b''1
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \repeatTie
                     
                     % FluteMusicVoice [measure 69]                                       %! SM4
                     b''2
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \repeatTie
                     
                     % FluteMusicVoice [measure 70]                                       %! SM4
                     b''2
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \repeatTie
                     
                     % FluteMusicVoice [measure 71]                                       %! SM4
                     b''1.
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \repeatTie
                     
                     % FluteMusicVoice [measure 72]                                       %! SM4
                     b''1
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \repeatTie
                     
                     % FluteMusicVoice [measure 73]                                       %! SM4
                     b''2.
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \repeatTie
                     
                     % FluteMusicVoice [measure 74]                                       %! SM4
                     b''2.
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \repeatTie
                     
                 }
@@ -900,7 +900,7 @@
                     \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
                     \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                     <e'' b''>2
-                    -\flageolet                                                          %! IC1
+                    -\flageolet                                                          %! IC
                     \p                                                                   %! REAPPLIED_DYNAMIC:SM8
                     ^ \markup {
                         \column
@@ -1009,7 +1009,7 @@
                     r4
                     
                     <e'' b''>2.
-                    -\flageolet                                                          %! IC1
+                    -\flageolet                                                          %! IC
                     
                     % OboeMusicVoice [measure 52]                                        %! SM4
                     <e'' b''>2.
@@ -1040,14 +1040,14 @@
                     
                     % OboeMusicVoice [measure 59]                                        %! SM4
                     ds'1.
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     % OboeMusicVoice [measure 60]                                        %! SM4
                     r2
                     
                     % OboeMusicVoice [measure 61]                                        %! SM4
                     ds'2.
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     ds'2
                     \repeatTie
@@ -1057,7 +1057,7 @@
                     
                     % OboeMusicVoice [measure 63]                                        %! SM4
                     ds'1
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     % OboeMusicVoice [measure 64]                                        %! SM4
                     r1.
@@ -1066,7 +1066,7 @@
                     r4
                     
                     ds'4
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     % OboeMusicVoice [measure 66]                                        %! SM4
                     ds'2
@@ -1286,14 +1286,14 @@
                     
                     % ClarinetMusicVoice [measure 59]                                    %! SM4
                     gs1.
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     % ClarinetMusicVoice [measure 60]                                    %! SM4
                     r2
                     
                     % ClarinetMusicVoice [measure 61]                                    %! SM4
                     gs2.
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     gs2
                     \repeatTie
@@ -1303,7 +1303,7 @@
                     
                     % ClarinetMusicVoice [measure 63]                                    %! SM4
                     gs1
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     % ClarinetMusicVoice [measure 64]                                    %! SM4
                     r1.
@@ -1312,7 +1312,7 @@
                     r4
                     
                     gs4
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     % ClarinetMusicVoice [measure 66]                                    %! SM4
                     gs2
@@ -1518,14 +1518,14 @@
                     
                     % SaxophoneMusicVoice [measure 59]                                   %! SM4
                     es'1.
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     % SaxophoneMusicVoice [measure 60]                                   %! SM4
                     r2
                     
                     % SaxophoneMusicVoice [measure 61]                                   %! SM4
                     es'2.
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     es'2
                     \repeatTie
@@ -1535,7 +1535,7 @@
                     
                     % SaxophoneMusicVoice [measure 63]                                   %! SM4
                     es'1
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     % SaxophoneMusicVoice [measure 64]                                   %! SM4
                     r1.
@@ -1544,7 +1544,7 @@
                     r4
                     
                     es'4
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     % SaxophoneMusicVoice [measure 66]                                   %! SM4
                     es'2
@@ -1663,7 +1663,7 @@
                             }                                                            %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                         \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REAPPLIED_REDRAW_INSTRUMENT_COLOR:SM6
                         
-                        \override NoteHead.style = #'cross
+                        \override NoteHead.style = #'cross                               %! OC
                         d''8
                         
                         r8
@@ -1695,7 +1695,7 @@
                         r8
                         
                         g''8
-                        \revert NoteHead.style
+                        \revert NoteHead.style                                           %! OC
                         
                         r8
                     }
@@ -1709,22 +1709,22 @@
                     
                     % GuitarMusicVoice [measure 49]                                      %! SM4
                     fs1
-                    \mf                                                                  %! IC1
-                    ^ \markup {                                                          %! IC1
-                        \whiteout                                                        %! IC1
-                            \upright                                                     %! IC1
-                                \column                                                  %! IC1
-                                    {                                                    %! IC1
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                "sparse, individual clicks with nail or pick laterally up string" %! IC1
-                                            }                                            %! IC1
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                "(1-2/sec. in irregular rhythm)"         %! IC1
-                                            }                                            %! IC1
-                                    }                                                    %! IC1
-                        }                                                                %! IC1
+                    \mf                                                                  %! IC
+                    ^ \markup {                                                          %! IC
+                        \whiteout                                                        %! IC
+                            \upright                                                     %! IC
+                                \column                                                  %! IC
+                                    {                                                    %! IC
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                "sparse, individual clicks with nail or pick laterally up string" %! IC
+                                            }                                            %! IC
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                "(1-2/sec. in irregular rhythm)"         %! IC
+                                            }                                            %! IC
+                                    }                                                    %! IC
+                        }                                                                %! IC
                     
                     % GuitarMusicVoice [measure 50]                                      %! SM4
                     fs2.
@@ -1769,22 +1769,22 @@
                     
                     % GuitarMusicVoice [measure 59]                                      %! SM4
                     g1.
-                    \ff                                                                  %! IC1
-                    ^ \markup {                                                          %! IC1
-                        \whiteout                                                        %! IC1
-                            \upright                                                     %! IC1
-                                \column                                                  %! IC1
-                                    {                                                    %! IC1
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                "draw metal screw back and forth slowly across string;" %! IC1
-                                            }                                            %! IC1
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                "continuous loud sound"                  %! IC1
-                                            }                                            %! IC1
-                                    }                                                    %! IC1
-                        }                                                                %! IC1
+                    \ff                                                                  %! IC
+                    ^ \markup {                                                          %! IC
+                        \whiteout                                                        %! IC
+                            \upright                                                     %! IC
+                                \column                                                  %! IC
+                                    {                                                    %! IC
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                "draw metal screw back and forth slowly across string;" %! IC
+                                            }                                            %! IC
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                "continuous loud sound"                  %! IC
+                                            }                                            %! IC
+                                    }                                                    %! IC
+                        }                                                                %! IC
                     
                     % GuitarMusicVoice [measure 60]                                      %! SM4
                     r2
@@ -1855,7 +1855,7 @@
                     \stopStaff                                                           %! REDUNDANT_STAFF_LINES:SM8
                     \once \override PianoMusicStaff.StaffSymbol.line-count = 1           %! REDUNDANT_STAFF_LINES:SM8
                     \startStaff                                                          %! REDUNDANT_STAFF_LINES:SM8
-                    \override RepeatTie.direction = #up
+                    \override RepeatTie.direction = #up                                  %! OC
                     \set PianoMusicStaff.instrumentName = \markup {                      %! REAPPLIED_INSTRUMENT:SM8
                         \hcenter-in                                                      %! REAPPLIED_INSTRUMENT:SM8
                             #16                                                          %! REAPPLIED_INSTRUMENT:SM8
@@ -1986,7 +1986,7 @@
                     % PianoMusicVoice [measure 57]                                       %! SM4
                     c'2.
                     \repeatTie
-                    \revert RepeatTie.direction
+                    \revert RepeatTie.direction                                          %! OC
                     
                     % PianoMusicVoice [measure 58]                                       %! SM4
                     r2
@@ -1994,8 +1994,8 @@
                     % PianoMusicVoice [measure 59]                                       %! SM4
                     \ottava #-1
                     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1.
-                    :32                                                                  %! IC1
-                    -\fff                                                                %! IC1
+                    :32                                                                  %! IC
+                    -\fff                                                                %! IC
                     
                     % PianoMusicVoice [measure 60]                                       %! SM4
                     r2
@@ -2007,8 +2007,8 @@
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
                     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1
-                    :32                                                                  %! IC1
-                    -\fff                                                                %! IC1
+                    :32                                                                  %! IC
+                    -\fff                                                                %! IC
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
                     
@@ -2018,8 +2018,8 @@
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
                     <a,,, b,,, c,, d,, e,, f,, g,, a,,>4
-                    :32                                                                  %! IC1
-                    -\fff                                                                %! IC1
+                    :32                                                                  %! IC
+                    -\fff                                                                %! IC
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
                     
@@ -2028,8 +2028,8 @@
                     
                     % PianoMusicVoice [measure 63]                                       %! SM4
                     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1
-                    :32                                                                  %! IC1
-                    -\fff                                                                %! IC1
+                    :32                                                                  %! IC
+                    -\fff                                                                %! IC
                     \ottava #0
                     
                     % PianoMusicVoice [measure 64]                                       %! SM4
@@ -2046,7 +2046,7 @@
                         
                         \ottava #1
                         cf''''8
-                        \fff                                                             %! IC1
+                        \fff                                                             %! IC
                         [
                         
                         c''''8
@@ -2196,7 +2196,7 @@
                 \context PercussionMusicVoice = "PercussionMusicVoice" {
                     
                     % PercussionMusicVoice [measure 45]                                  %! SM4
-                    \override Stem.direction = #down
+                    \override Stem.direction = #down                                     %! OC
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -2219,7 +2219,7 @@
                     \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                     \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                     c'2
-                    -\accent                                                             %! IC1
+                    -\accent                                                             %! IC
                     \sfz                                                                 %! REAPPLIED_DYNAMIC:SM8
                     ^ \markup {
                         \column
@@ -2312,7 +2312,7 @@
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
                     c'2.
-                    -\accent                                                             %! IC1
+                    -\accent                                                             %! IC
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
                     
@@ -2404,7 +2404,7 @@
                     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
                     %%% \override PercussionMusicStaff.Clef.color = ##f                  %! EXPLICIT_CLEF_UNCOLOR:SM7
                     c'4
-                    -\accent                                                             %! IC1
+                    -\accent                                                             %! IC
                     \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_COLOR_REDRAW:SM6
                     
                     % PercussionMusicVoice [measure 55]                                  %! SM4
@@ -2425,13 +2425,13 @@
                     % PercussionMusicVoice [measure 58]                                  %! SM4
                     c'2
                     \repeatTie
-                    \revert Stem.direction
+                    \revert Stem.direction                                               %! OC
                     
                     % PercussionMusicVoice [measure 59]                                  %! SM4
                     r1.
                     
                     % PercussionMusicVoice [measure 60]                                  %! SM4
-                    \override Stem.direction = #down
+                    \override Stem.direction = #down                                     %! OC
                     \stopStaff
                     \once \override Staff.StaffSymbol.line-count = 5
                     \startStaff
@@ -2734,7 +2734,7 @@
                     af''4.
                     -\marcato
                     \sfz
-                    \revert Stem.direction
+                    \revert Stem.direction                                               %! OC
                     \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_COLOR_REDRAW:SM6
                     \stopStaff
                     \startStaff
@@ -2762,9 +2762,9 @@
                     \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                     \pitchedTrill
                     gf'2
-                    -\accent                                                             %! IC1
+                    -\accent                                                             %! IC
                     \ppp                                                                 %! REAPPLIED_DYNAMIC:SM8
-                    \startTrillSpan
+                    \startTrillSpan aff'
                     ^ \markup {
                         \column
                             {
@@ -2809,7 +2809,7 @@
                                             }                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                     }                                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                             }
-                        } aff'
+                        }
                     \set ViolinMusicStaff.instrumentName = \markup {                     %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                         \hcenter-in                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                             #16                                                          %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -2830,7 +2830,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         \pitchedTrill
                         g'4
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         \stopTrillSpan
                         \startTrillSpan af'
                     }
@@ -2850,7 +2850,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         \pitchedTrill
                         gqf'8.
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         ]
                         \stopTrillSpan
                         \startTrillSpan atqf'
@@ -2869,7 +2869,7 @@
                         
                         \pitchedTrill
                         gf'8
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         ]
                         \stopTrillSpan
                         \startTrillSpan aff'
@@ -2889,7 +2889,7 @@
                         
                         \pitchedTrill
                         gqf'16
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         \stopTrillSpan
                         \startTrillSpan atqf'
                     }
@@ -2909,7 +2909,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         \pitchedTrill
                         g'4
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         \stopTrillSpan
                         \startTrillSpan af'
                     }
@@ -2925,7 +2925,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         \pitchedTrill
                         gs'4
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         \stopTrillSpan
                         \startTrillSpan a'
                     }
@@ -2942,7 +2942,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         \pitchedTrill
                         gqs'8.
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         ]
                         \stopTrillSpan
                         \startTrillSpan aqf'
@@ -2958,7 +2958,7 @@
                         
                         \pitchedTrill
                         g'8
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         ]
                         \stopTrillSpan
                         \startTrillSpan af'
@@ -2975,7 +2975,7 @@
                         
                         \pitchedTrill
                         gqs'16
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         \stopTrillSpan
                         \startTrillSpan aqf'
                     }
@@ -2992,7 +2992,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         \pitchedTrill
                         af'4
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         \stopTrillSpan
                         \startTrillSpan bff'
                     }
@@ -3007,7 +3007,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         \pitchedTrill
                         a'4
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         \stopTrillSpan
                         \startTrillSpan bf'
                     }
@@ -3024,7 +3024,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         \pitchedTrill
                         aqf'8.
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         ]
                         \stopTrillSpan
                         \startTrillSpan btqf'
@@ -3041,7 +3041,7 @@
                         
                         \pitchedTrill
                         af'8
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         ]
                         \stopTrillSpan
                         \startTrillSpan bff'
@@ -3061,7 +3061,7 @@
                         
                         \pitchedTrill
                         aqf'16
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         \stopTrillSpan
                         \startTrillSpan btqf'
                     }
@@ -3080,7 +3080,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         \pitchedTrill
                         af'4
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         \stopTrillSpan
                         \startTrillSpan bff'
                     }
@@ -3095,7 +3095,7 @@
                         
                         \pitchedTrill
                         g'4
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         \stopTrillSpan
                         \startTrillSpan af'
                     }
@@ -3106,19 +3106,19 @@
                     
                     % ViolinMusicVoice [measure 59]                                      %! SM4
                     a'1.
-                    -\fff                                                                %! IC1
-                    ^ \markup {                                                          %! IC1
-                        \whiteout                                                        %! IC1
-                            \upright                                                     %! IC1
-                                "arco ordinario"                                         %! IC1
-                        }                                                                %! IC1
+                    -\fff                                                                %! IC
+                    ^ \markup {                                                          %! IC
+                        \whiteout                                                        %! IC
+                            \upright                                                     %! IC
+                                "arco ordinario"                                         %! IC
+                        }                                                                %! IC
                     
                     % ViolinMusicVoice [measure 60]                                      %! SM4
                     r2
                     
                     % ViolinMusicVoice [measure 61]                                      %! SM4
                     a'2.
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     a'2
                     \repeatTie
@@ -3128,7 +3128,7 @@
                     
                     % ViolinMusicVoice [measure 63]                                      %! SM4
                     a'1
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     % ViolinMusicVoice [measure 64]                                      %! SM4
                     r1.
@@ -3137,7 +3137,7 @@
                     r4
                     
                     a'4
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     % ViolinMusicVoice [measure 66]                                      %! SM4
                     a'2
@@ -3200,9 +3200,9 @@
                     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                     \pitchedTrill
                     f'2
-                    -\accent                                                             %! IC1
+                    -\accent                                                             %! IC
                     \ppp                                                                 %! REAPPLIED_DYNAMIC:SM8
-                    \startTrillSpan
+                    \startTrillSpan gf'
                     ^ \markup {
                         \column
                             {
@@ -3247,7 +3247,7 @@
                                             }                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                     }                                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                             }
-                        } gf'
+                        }
                     \set ViolaMusicStaff.instrumentName = \markup {                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                         \hcenter-in                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                             #16                                                          %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -3272,7 +3272,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         \pitchedTrill
                         fs'4
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         \stopTrillSpan
                         \startTrillSpan g'
                     }
@@ -3289,7 +3289,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         \pitchedTrill
                         fqs'8.
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         ]
                         \stopTrillSpan
                         \startTrillSpan gqf'
@@ -3309,7 +3309,7 @@
                         
                         \pitchedTrill
                         f'8
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         ]
                         \stopTrillSpan
                         \startTrillSpan gf'
@@ -3329,7 +3329,7 @@
                         
                         \pitchedTrill
                         gf'16
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         \stopTrillSpan
                         \startTrillSpan aff'
                     }
@@ -3349,7 +3349,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         \pitchedTrill
                         g'4
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         \stopTrillSpan
                         \startTrillSpan af'
                     }
@@ -3365,7 +3365,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         \pitchedTrill
                         gqf'4
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         \stopTrillSpan
                         \startTrillSpan atqf'
                     }
@@ -3382,7 +3382,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         \pitchedTrill
                         gf'8.
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         ]
                         \stopTrillSpan
                         \startTrillSpan aff'
@@ -3402,7 +3402,7 @@
                         
                         \pitchedTrill
                         g'8
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         ]
                         \stopTrillSpan
                         \startTrillSpan af'
@@ -3422,7 +3422,7 @@
                         
                         \pitchedTrill
                         gs'16
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         \stopTrillSpan
                         \startTrillSpan a'
                     }
@@ -3439,7 +3439,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         \pitchedTrill
                         gqs'4
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         \stopTrillSpan
                         \startTrillSpan aqf'
                     }
@@ -3455,7 +3455,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         \pitchedTrill
                         g'4
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         \stopTrillSpan
                         \startTrillSpan af'
                     }
@@ -3474,7 +3474,7 @@
                         
                         \pitchedTrill
                         gqs'8.
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         ]
                         \stopTrillSpan
                         \startTrillSpan aqf'
@@ -3486,19 +3486,19 @@
                     
                     % ViolaMusicVoice [measure 59]                                       %! SM4
                     gs'1.
-                    -\fff                                                                %! IC1
-                    ^ \markup {                                                          %! IC1
-                        \whiteout                                                        %! IC1
-                            \upright                                                     %! IC1
-                                "arco ordinario"                                         %! IC1
-                        }                                                                %! IC1
+                    -\fff                                                                %! IC
+                    ^ \markup {                                                          %! IC
+                        \whiteout                                                        %! IC
+                            \upright                                                     %! IC
+                                "arco ordinario"                                         %! IC
+                        }                                                                %! IC
                     
                     % ViolaMusicVoice [measure 60]                                       %! SM4
                     r2
                     
                     % ViolaMusicVoice [measure 61]                                       %! SM4
                     gs'2.
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     gs'2
                     \repeatTie
@@ -3508,7 +3508,7 @@
                     
                     % ViolaMusicVoice [measure 63]                                       %! SM4
                     gs'1
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     % ViolaMusicVoice [measure 64]                                       %! SM4
                     r1.
@@ -3517,7 +3517,7 @@
                     r4
                     
                     gs'4
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     % ViolaMusicVoice [measure 66]                                       %! SM4
                     gs'2
@@ -3580,9 +3580,9 @@
                     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                     \pitchedTrill
                     f'2
-                    -\accent                                                             %! IC1
+                    -\accent                                                             %! IC
                     \ppp                                                                 %! REAPPLIED_DYNAMIC:SM8
-                    \startTrillSpan
+                    \startTrillSpan gf'
                     ^ \markup {
                         \column
                             {
@@ -3627,7 +3627,7 @@
                                             }                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                     }                                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                             }
-                        } gf'
+                        }
                     \set CelloMusicStaff.instrumentName = \markup {                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                         \hcenter-in                                                      %! REAPPLIED_REDRAW_INSTRUMENT:SM8
                             #16                                                          %! REAPPLIED_REDRAW_INSTRUMENT:SM8
@@ -3653,7 +3653,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         \pitchedTrill
                         fs'4
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         \stopTrillSpan
                         \startTrillSpan g'
                     }
@@ -3672,7 +3672,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         \pitchedTrill
                         fqs'8.
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         ]
                         \stopTrillSpan
                         \startTrillSpan gqf'
@@ -3693,7 +3693,7 @@
                         
                         \pitchedTrill
                         f'8
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         ]
                         \stopTrillSpan
                         \startTrillSpan gf'
@@ -3713,7 +3713,7 @@
                         
                         \pitchedTrill
                         fqs'16
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         \stopTrillSpan
                         \startTrillSpan gqf'
                     }
@@ -3731,7 +3731,7 @@
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
                         \pitchedTrill
                         f'4
-                        -\accent                                                         %! IC1
+                        -\accent                                                         %! IC
                         \stopTrillSpan
                         \startTrillSpan gf'
                     }
@@ -3744,22 +3744,22 @@
                     
                     % CelloMusicVoice [measure 53]                                       %! SM4
                     fs1
-                    \mf                                                                  %! IC1
-                    ^ \markup {                                                          %! IC1
-                        \whiteout                                                        %! IC1
-                            \upright                                                     %! IC1
-                                \column                                                  %! IC1
-                                    {                                                    %! IC1
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                "sparse, individual clicks with extremely slow bow" %! IC1
-                                            }                                            %! IC1
-                                        \line                                            %! IC1
-                                            {                                            %! IC1
-                                                "(1-2/sec. in irregular rhythm)"         %! IC1
-                                            }                                            %! IC1
-                                    }                                                    %! IC1
-                        }                                                                %! IC1
+                    \mf                                                                  %! IC
+                    ^ \markup {                                                          %! IC
+                        \whiteout                                                        %! IC
+                            \upright                                                     %! IC
+                                \column                                                  %! IC
+                                    {                                                    %! IC
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                "sparse, individual clicks with extremely slow bow" %! IC
+                                            }                                            %! IC
+                                        \line                                            %! IC
+                                            {                                            %! IC
+                                                "(1-2/sec. in irregular rhythm)"         %! IC
+                                            }                                            %! IC
+                                    }                                                    %! IC
+                        }                                                                %! IC
                     
                     % CelloMusicVoice [measure 54]                                       %! SM4
                     fs2.
@@ -3785,19 +3785,19 @@
                     
                     % CelloMusicVoice [measure 59]                                       %! SM4
                     g1.
-                    -\fff                                                                %! IC1
-                    ^ \markup {                                                          %! IC1
-                        \whiteout                                                        %! IC1
-                            \upright                                                     %! IC1
-                                "arco ordinario"                                         %! IC1
-                        }                                                                %! IC1
+                    -\fff                                                                %! IC
+                    ^ \markup {                                                          %! IC
+                        \whiteout                                                        %! IC
+                            \upright                                                     %! IC
+                                "arco ordinario"                                         %! IC
+                        }                                                                %! IC
                     
                     % CelloMusicVoice [measure 60]                                       %! SM4
                     r2
                     
                     % CelloMusicVoice [measure 61]                                       %! SM4
                     g2.
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     g2
                     \repeatTie
@@ -3807,7 +3807,7 @@
                     
                     % CelloMusicVoice [measure 63]                                       %! SM4
                     g1
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     % CelloMusicVoice [measure 64]                                       %! SM4
                     r1.
@@ -3816,7 +3816,7 @@
                     r4
                     
                     g4
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     % CelloMusicVoice [measure 66]                                       %! SM4
                     g2
@@ -4026,14 +4026,14 @@
                     
                     % ContrabassMusicVoice [measure 59]                                  %! SM4
                     <g,, a,>1.
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     % ContrabassMusicVoice [measure 60]                                  %! SM4
                     r2
                     
                     % ContrabassMusicVoice [measure 61]                                  %! SM4
                     <g,, a,>2.
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     <g,, a,>2
                     \repeatTie
@@ -4043,7 +4043,7 @@
                     
                     % ContrabassMusicVoice [measure 63]                                  %! SM4
                     <g,, a,>1
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     % ContrabassMusicVoice [measure 64]                                  %! SM4
                     r1.
@@ -4052,7 +4052,7 @@
                     r4
                     
                     <g,, a,>4
-                    -\fff                                                                %! IC1
+                    -\fff                                                                %! IC
                     
                     % ContrabassMusicVoice [measure 66]                                  %! SM4
                     <g,, a,>2
