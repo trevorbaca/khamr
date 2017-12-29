@@ -616,7 +616,7 @@
                     \stopStaff                                                           %! REDUNDANT_STAFF_LINES:SM8
                     \once \override OboeMusicStaff.StaffSymbol.line-count = 1            %! REDUNDANT_STAFF_LINES:SM8
                     \startStaff                                                          %! REDUNDANT_STAFF_LINES:SM8
-                    \override RepeatTie.direction = #up
+                    \override RepeatTie.direction = #up                                  %! OC
                     \set OboeMusicStaff.instrumentName = \markup {                       %! REAPPLIED_INSTRUMENT:SM8
                         \hcenter-in                                                      %! REAPPLIED_INSTRUMENT:SM8
                             #16                                                          %! REAPPLIED_INSTRUMENT:SM8
@@ -781,7 +781,7 @@
                     
                     c'8.
                     \repeatTie
-                    \revert RepeatTie.direction
+                    \revert RepeatTie.direction                                          %! OC
                     
                     r16
                     
@@ -997,7 +997,7 @@
                     \stopStaff                                                           %! REDUNDANT_STAFF_LINES:SM8
                     \once \override SaxophoneMusicStaff.StaffSymbol.line-count = 1       %! REDUNDANT_STAFF_LINES:SM8
                     \startStaff                                                          %! REDUNDANT_STAFF_LINES:SM8
-                    \override RepeatTie.direction = #up
+                    \override RepeatTie.direction = #up                                  %! OC
                     \set SaxophoneMusicStaff.instrumentName = \markup {                  %! REAPPLIED_INSTRUMENT:SM8
                         \hcenter-in                                                      %! REAPPLIED_INSTRUMENT:SM8
                             #16                                                          %! REAPPLIED_INSTRUMENT:SM8
@@ -1197,7 +1197,7 @@
                     
                     a8.
                     \repeatTie
-                    \revert RepeatTie.direction
+                    \revert RepeatTie.direction                                          %! OC
                     
                     r16
                     
@@ -1318,9 +1318,9 @@
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
                     c''1
-                    -\accent                                                             %! IC1
-                    -\flageolet                                                          %! IC1
-                    -\mf                                                                 %! IC1
+                    -\accent                                                             %! IC
+                    -\flageolet                                                          %! IC
+                    -\mf                                                                 %! IC
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
                     
@@ -1331,9 +1331,9 @@
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
                     c''2.
-                    -\accent                                                             %! IC1
-                    -\flageolet                                                          %! IC1
-                    -\mf                                                                 %! IC1
+                    -\accent                                                             %! IC
+                    -\flageolet                                                          %! IC
+                    -\mf                                                                 %! IC
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
                     
@@ -1380,9 +1380,9 @@
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
                     c''1
-                    -\accent                                                             %! IC1
-                    -\flageolet                                                          %! IC1
-                    -\mf                                                                 %! IC1
+                    -\accent                                                             %! IC
+                    -\flageolet                                                          %! IC
+                    -\mf                                                                 %! IC
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
                     
@@ -1392,9 +1392,9 @@
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
                     c''4
-                    -\accent                                                             %! IC1
-                    -\flageolet                                                          %! IC1
-                    -\mf                                                                 %! IC1
+                    -\accent                                                             %! IC
+                    -\flageolet                                                          %! IC
+                    -\mf                                                                 %! IC
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
                     
@@ -1542,8 +1542,8 @@
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
                     as'1
-                    -\accent                                                             %! IC1
-                    -\mf                                                                 %! IC1
+                    -\accent                                                             %! IC
+                    -\mf                                                                 %! IC
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
                     
@@ -1554,8 +1554,8 @@
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
                     as'2.
-                    -\accent                                                             %! IC1
-                    -\mf                                                                 %! IC1
+                    -\accent                                                             %! IC
+                    -\mf                                                                 %! IC
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
                     
@@ -1602,8 +1602,8 @@
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
                     as'1
-                    -\accent                                                             %! IC1
-                    -\mf                                                                 %! IC1
+                    -\accent                                                             %! IC
+                    -\mf                                                                 %! IC
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
                     
@@ -1613,8 +1613,8 @@
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
                     as'4
-                    -\accent                                                             %! IC1
-                    -\mf                                                                 %! IC1
+                    -\accent                                                             %! IC
+                    -\mf                                                                 %! IC
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
                     
@@ -1683,7 +1683,7 @@
                     \once \override NoteHead.color = #blue                               %! SM24
                     \once \override Stem.color = #blue                                   %! SM24
                     c'2
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \ppp                                                                 %! REAPPLIED_DYNAMIC:SM8
                     \>
                     \pp
@@ -1753,7 +1753,7 @@
                     \once \override NoteHead.color = #blue                               %! SM24
                     \once \override Stem.color = #blue                                   %! SM24
                     c'2
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \repeatTie
                     
                     % PercussionMusicVoice [measure 114]                                 %! SM4
@@ -1764,7 +1764,7 @@
                     \once \override NoteHead.color = #blue                               %! SM24
                     \once \override Stem.color = #blue                                   %! SM24
                     c'1.
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \repeatTie
                     
                     % PercussionMusicVoice [measure 115]                                 %! SM4
@@ -1775,7 +1775,7 @@
                     \once \override NoteHead.color = #blue                               %! SM24
                     \once \override Stem.color = #blue                                   %! SM24
                     c'2.
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \repeatTie
                     \ppp
                     
@@ -1796,19 +1796,19 @@
                     \once \override NoteHead.color = #blue                               %! SM24
                     \once \override Stem.color = #blue                                   %! SM24
                     c'2.
-                    :32                                                                  %! IC1
-                    \fff                                                                 %! IC1
-                    ^ \markup {                                                          %! IC1
-                        \whiteout                                                        %! IC1
-                            \upright                                                     %! IC1
-                                \override                                                %! IC1
-                                    #'(box-padding . 0.5)                                %! IC1
-                                    \box                                                 %! IC1
-                                        "snare drum"                                     %! IC1
-                        }                                                                %! IC1
+                    :32                                                                  %! IC
+                    \fff                                                                 %! IC
+                    ^ \markup {                                                          %! IC
+                        \whiteout                                                        %! IC
+                            \upright                                                     %! IC
+                                \override                                                %! IC
+                                    #'(box-padding . 0.5)                                %! IC
+                                    \box                                                 %! IC
+                                        "snare drum"                                     %! IC
+                        }                                                                %! IC
                     
                     c'2
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \repeatTie
                     
                     % PercussionMusicVoice [measure 120]                                 %! SM4
@@ -1819,7 +1819,7 @@
                     \once \override NoteHead.color = #blue                               %! SM24
                     \once \override Stem.color = #blue                                   %! SM24
                     c'1
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \repeatTie
                     
                     % PercussionMusicVoice [measure 121]                                 %! SM4
@@ -1830,7 +1830,7 @@
                     \once \override NoteHead.color = #blue                               %! SM24
                     \once \override Stem.color = #blue                                   %! SM24
                     c'2.
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \repeatTie
                     
                     % PercussionMusicVoice [measure 122]                                 %! SM4
@@ -1841,7 +1841,7 @@
                     \once \override NoteHead.color = #blue                               %! SM24
                     \once \override Stem.color = #blue                                   %! SM24
                     c'1
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \repeatTie
                     
                     % PercussionMusicVoice [measure 123]                                 %! SM4
@@ -1852,11 +1852,11 @@
                     \once \override NoteHead.color = #blue                               %! SM24
                     \once \override Stem.color = #blue                                   %! SM24
                     c'2.
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \repeatTie
                     
                     c'2
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \repeatTie
                     
                     % PercussionMusicVoice [measure 124]                                 %! SM4
@@ -1867,7 +1867,7 @@
                     \once \override NoteHead.color = #blue                               %! SM24
                     \once \override Stem.color = #blue                                   %! SM24
                     c'2.
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \repeatTie
                     
                     % PercussionMusicVoice [measure 125]                                 %! SM4
@@ -1878,7 +1878,7 @@
                     \once \override NoteHead.color = #blue                               %! SM24
                     \once \override Stem.color = #blue                                   %! SM24
                     c'2
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \repeatTie
                     
                     % PercussionMusicVoice [measure 126]                                 %! SM4
@@ -1889,7 +1889,7 @@
                     \once \override NoteHead.color = #blue                               %! SM24
                     \once \override Stem.color = #blue                                   %! SM24
                     c'1.
-                    :32                                                                  %! IC1
+                    :32                                                                  %! IC
                     \repeatTie
                     
                     % PercussionMusicVoice [measure 127]                                 %! SM4
@@ -1916,9 +1916,9 @@
                 \context ViolinMusicVoice = "ViolinMusicVoice" {
                     
                     % ViolinMusicVoice [measure 112]                                     %! SM4
-                    \stopStaff                                                           %! IC1
-                    \once \override ViolinMusicStaff.StaffSymbol.line-count = 1          %! IC1
-                    \startStaff                                                          %! IC1
+                    \stopStaff                                                           %! IC
+                    \once \override ViolinMusicStaff.StaffSymbol.line-count = 1          %! IC
+                    \startStaff                                                          %! IC
                     \set ViolinMusicStaff.instrumentName = \markup {                     %! REAPPLIED_INSTRUMENT:SM8
                         \hcenter-in                                                      %! REAPPLIED_INSTRUMENT:SM8
                             #16                                                          %! REAPPLIED_INSTRUMENT:SM8
@@ -1935,17 +1935,17 @@
                     \once \override ViolinMusicStaff.Clef.color = #(x11-color 'blue)     %! EXPLICIT_CLEF_COLOR:SM6
                     %%% \override ViolinMusicStaff.Clef.color = ##f                      %! EXPLICIT_CLEF_UNCOLOR:SM7
                     c'2
-                    -\downbow                                                            %! IC1
-                    \p                                                                   %! IC1
+                    -\downbow                                                            %! IC
+                    \p                                                                   %! IC
                     ^ \markup {
                         \column
                             {
-                                \line                                                    %! IC1
-                                    {                                                    %! IC1
-                                        \whiteout                                        %! IC1
-                                            \upright                                     %! IC1
-                                                "bow on wooden mute"                     %! IC1
-                                    }                                                    %! IC1
+                                \line                                                    %! IC
+                                    {                                                    %! IC
+                                        \whiteout                                        %! IC
+                                            \upright                                     %! IC
+                                                "bow on wooden mute"                     %! IC
+                                    }                                                    %! IC
                                 %%% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                 %%%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                 %%%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -2010,7 +2010,7 @@
                     \repeatTie
                     
                     c'2.
-                    -\upbow                                                              %! IC1
+                    -\upbow                                                              %! IC
                     
                     % ViolinMusicVoice [measure 115]                                     %! SM4
                     c'2.
@@ -2021,7 +2021,7 @@
                     \repeatTie
                     
                     c'2.
-                    -\downbow                                                            %! IC1
+                    -\downbow                                                            %! IC
                     
                     % ViolinMusicVoice [measure 117]                                     %! SM4
                     c'2.
@@ -2032,7 +2032,7 @@
                     \repeatTie
                     
                     c'2.
-                    -\upbow                                                              %! IC1
+                    -\upbow                                                              %! IC
                     
                     % ViolinMusicVoice [measure 119]                                     %! SM4
                     c'1
@@ -2041,7 +2041,7 @@
                     \p
                     
                     c'4
-                    -\downbow                                                            %! IC1
+                    -\downbow                                                            %! IC
                     
                     % ViolinMusicVoice [measure 120]                                     %! SM4
                     c'1
@@ -2052,7 +2052,7 @@
                     \repeatTie
                     
                     c'4
-                    -\upbow                                                              %! IC1
+                    -\upbow                                                              %! IC
                     
                     % ViolinMusicVoice [measure 122]                                     %! SM4
                     c'1
@@ -2063,7 +2063,7 @@
                     \repeatTie
                     
                     c'2.
-                    -\downbow                                                            %! IC1
+                    -\downbow                                                            %! IC
                     
                     % ViolinMusicVoice [measure 124]                                     %! SM4
                     c'2.
@@ -2074,7 +2074,7 @@
                     \repeatTie
                     
                     c'4
-                    -\upbow                                                              %! IC1
+                    -\upbow                                                              %! IC
                     
                     % ViolinMusicVoice [measure 126]                                     %! SM4
                     c'1.
@@ -2103,9 +2103,9 @@
                 \context ViolaMusicVoice = "ViolaMusicVoice" {
                     
                     % ViolaMusicVoice [measure 112]                                      %! SM4
-                    \stopStaff                                                           %! IC1
-                    \once \override ViolaMusicStaff.StaffSymbol.line-count = 1           %! IC1
-                    \startStaff                                                          %! IC1
+                    \stopStaff                                                           %! IC
+                    \once \override ViolaMusicStaff.StaffSymbol.line-count = 1           %! IC
+                    \startStaff                                                          %! IC
                     \set ViolaMusicStaff.instrumentName = \markup {                      %! REAPPLIED_INSTRUMENT:SM8
                         \hcenter-in                                                      %! REAPPLIED_INSTRUMENT:SM8
                             #16                                                          %! REAPPLIED_INSTRUMENT:SM8
@@ -2122,17 +2122,17 @@
                     \once \override ViolaMusicStaff.Clef.color = #(x11-color 'blue)      %! EXPLICIT_CLEF_COLOR:SM6
                     %%% \override ViolaMusicStaff.Clef.color = ##f                       %! EXPLICIT_CLEF_UNCOLOR:SM7
                     c'2
-                    -\downbow                                                            %! IC1
-                    \p                                                                   %! IC1
+                    -\downbow                                                            %! IC
+                    \p                                                                   %! IC
                     ^ \markup {
                         \column
                             {
-                                \line                                                    %! IC1
-                                    {                                                    %! IC1
-                                        \whiteout                                        %! IC1
-                                            \upright                                     %! IC1
-                                                "bow on wooden mute"                     %! IC1
-                                    }                                                    %! IC1
+                                \line                                                    %! IC
+                                    {                                                    %! IC
+                                        \whiteout                                        %! IC
+                                            \upright                                     %! IC
+                                                "bow on wooden mute"                     %! IC
+                                    }                                                    %! IC
                                 %%% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                 %%%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                 %%%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -2197,14 +2197,14 @@
                     \repeatTie
                     
                     c'1
-                    -\upbow                                                              %! IC1
+                    -\upbow                                                              %! IC
                     
                     % ViolaMusicVoice [measure 115]                                      %! SM4
                     c'2
                     \repeatTie
                     
                     c'4
-                    -\downbow                                                            %! IC1
+                    -\downbow                                                            %! IC
                     
                     % ViolaMusicVoice [measure 116]                                      %! SM4
                     c'1
@@ -2215,7 +2215,7 @@
                     \repeatTie
                     
                     c'2
-                    -\upbow                                                              %! IC1
+                    -\upbow                                                              %! IC
                     
                     % ViolaMusicVoice [measure 118]                                      %! SM4
                     c'1
@@ -2223,7 +2223,7 @@
                     
                     % ViolaMusicVoice [measure 119]                                      %! SM4
                     c'2.
-                    -\downbow                                                            %! IC1
+                    -\downbow                                                            %! IC
                     \>
                     \p
                     
@@ -2235,7 +2235,7 @@
                     \repeatTie
                     
                     c'2.
-                    -\upbow                                                              %! IC1
+                    -\upbow                                                              %! IC
                     
                     % ViolaMusicVoice [measure 121]                                      %! SM4
                     c'2.
@@ -2243,14 +2243,14 @@
                     
                     % ViolaMusicVoice [measure 122]                                      %! SM4
                     c'1
-                    -\downbow                                                            %! IC1
+                    -\downbow                                                            %! IC
                     
                     % ViolaMusicVoice [measure 123]                                      %! SM4
                     c'2
                     \repeatTie
                     
                     c'2.
-                    -\upbow                                                              %! IC1
+                    -\upbow                                                              %! IC
                     
                     % ViolaMusicVoice [measure 124]                                      %! SM4
                     c'2.
@@ -2258,14 +2258,14 @@
                     
                     % ViolaMusicVoice [measure 125]                                      %! SM4
                     c'2
-                    -\downbow                                                            %! IC1
+                    -\downbow                                                            %! IC
                     
                     % ViolaMusicVoice [measure 126]                                      %! SM4
                     c'1
                     \repeatTie
                     
                     c'2
-                    -\upbow                                                              %! IC1
+                    -\upbow                                                              %! IC
                     \ppp
                     
                     % ViolaMusicVoice [measure 127]                                      %! SM4
@@ -2290,9 +2290,9 @@
                 \context CelloMusicVoice = "CelloMusicVoice" {
                     
                     % CelloMusicVoice [measure 112]                                      %! SM4
-                    \stopStaff                                                           %! IC1
-                    \once \override CelloMusicStaff.StaffSymbol.line-count = 1           %! IC1
-                    \startStaff                                                          %! IC1
+                    \stopStaff                                                           %! IC
+                    \once \override CelloMusicStaff.StaffSymbol.line-count = 1           %! IC
+                    \startStaff                                                          %! IC
                     \set CelloMusicStaff.instrumentName = \markup {                      %! REAPPLIED_INSTRUMENT:SM8
                         \hcenter-in                                                      %! REAPPLIED_INSTRUMENT:SM8
                             #16                                                          %! REAPPLIED_INSTRUMENT:SM8
@@ -2309,17 +2309,17 @@
                     \once \override CelloMusicStaff.Clef.color = #(x11-color 'blue)      %! EXPLICIT_CLEF_COLOR:SM6
                     %%% \override CelloMusicStaff.Clef.color = ##f                       %! EXPLICIT_CLEF_UNCOLOR:SM7
                     c'2
-                    -\downbow                                                            %! IC1
-                    \p                                                                   %! IC1
+                    -\downbow                                                            %! IC
+                    \p                                                                   %! IC
                     ^ \markup {
                         \column
                             {
-                                \line                                                    %! IC1
-                                    {                                                    %! IC1
-                                        \whiteout                                        %! IC1
-                                            \upright                                     %! IC1
-                                                "bow on tailpiece"                       %! IC1
-                                    }                                                    %! IC1
+                                \line                                                    %! IC
+                                    {                                                    %! IC
+                                        \whiteout                                        %! IC
+                                            \upright                                     %! IC
+                                                "bow on tailpiece"                       %! IC
+                                    }                                                    %! IC
                                 %%% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                 %%%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                 %%%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -2384,21 +2384,21 @@
                     \repeatTie
                     
                     c'2
-                    -\upbow                                                              %! IC1
+                    -\upbow                                                              %! IC
                     
                     c'2.
                     \repeatTie
                     
                     % CelloMusicVoice [measure 115]                                      %! SM4
                     c'2.
-                    -\downbow                                                            %! IC1
+                    -\downbow                                                            %! IC
                     
                     % CelloMusicVoice [measure 116]                                      %! SM4
                     c'2
                     \repeatTie
                     
                     c'2
-                    -\upbow                                                              %! IC1
+                    -\upbow                                                              %! IC
                     
                     % CelloMusicVoice [measure 117]                                      %! SM4
                     c'2.
@@ -2406,7 +2406,7 @@
                     
                     % CelloMusicVoice [measure 118]                                      %! SM4
                     c'1
-                    -\downbow                                                            %! IC1
+                    -\downbow                                                            %! IC
                     
                     % CelloMusicVoice [measure 119]                                      %! SM4
                     c'4
@@ -2415,21 +2415,21 @@
                     \p
                     
                     c'1
-                    -\upbow                                                              %! IC1
+                    -\upbow                                                              %! IC
                     
                     % CelloMusicVoice [measure 120]                                      %! SM4
                     c'4
                     \repeatTie
                     
                     c'2.
-                    -\downbow                                                            %! IC1
+                    -\downbow                                                            %! IC
                     
                     % CelloMusicVoice [measure 121]                                      %! SM4
                     c'2
                     \repeatTie
                     
                     c'4
-                    -\upbow                                                              %! IC1
+                    -\upbow                                                              %! IC
                     
                     % CelloMusicVoice [measure 122]                                      %! SM4
                     c'1
@@ -2437,14 +2437,14 @@
                     
                     % CelloMusicVoice [measure 123]                                      %! SM4
                     c'2.
-                    -\downbow                                                            %! IC1
+                    -\downbow                                                            %! IC
                     
                     c'2
                     \repeatTie
                     
                     % CelloMusicVoice [measure 124]                                      %! SM4
                     c'2.
-                    -\upbow                                                              %! IC1
+                    -\upbow                                                              %! IC
                     
                     % CelloMusicVoice [measure 125]                                      %! SM4
                     c'2
@@ -2452,13 +2452,13 @@
                     
                     % CelloMusicVoice [measure 126]                                      %! SM4
                     c'2.
-                    -\downbow                                                            %! IC1
+                    -\downbow                                                            %! IC
                     
                     c'2
                     \repeatTie
                     
                     c'4
-                    -\upbow                                                              %! IC1
+                    -\upbow                                                              %! IC
                     \ppp
                     
                     % CelloMusicVoice [measure 127]                                      %! SM4
@@ -2483,9 +2483,9 @@
                 \context ContrabassMusicVoice = "ContrabassMusicVoice" {
                     
                     % ContrabassMusicVoice [measure 112]                                 %! SM4
-                    \stopStaff                                                           %! IC1
-                    \once \override ContrabassMusicStaff.StaffSymbol.line-count = 1      %! IC1
-                    \startStaff                                                          %! IC1
+                    \stopStaff                                                           %! IC
+                    \once \override ContrabassMusicStaff.StaffSymbol.line-count = 1      %! IC
+                    \startStaff                                                          %! IC
                     \set ContrabassMusicStaff.instrumentName = \markup {                 %! REAPPLIED_INSTRUMENT:SM8
                         \hcenter-in                                                      %! REAPPLIED_INSTRUMENT:SM8
                             #16                                                          %! REAPPLIED_INSTRUMENT:SM8
@@ -2502,17 +2502,17 @@
                     \once \override ContrabassMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
                     %%% \override ContrabassMusicStaff.Clef.color = ##f                  %! EXPLICIT_CLEF_UNCOLOR:SM7
                     c''2
-                    -\downbow                                                            %! IC1
-                    \p                                                                   %! IC1
+                    -\downbow                                                            %! IC
+                    \p                                                                   %! IC
                     ^ \markup {
                         \column
                             {
-                                \line                                                    %! IC1
-                                    {                                                    %! IC1
-                                        \whiteout                                        %! IC1
-                                            \upright                                     %! IC1
-                                                "bow on tailpiece"                       %! IC1
-                                    }                                                    %! IC1
+                                \line                                                    %! IC
+                                    {                                                    %! IC
+                                        \whiteout                                        %! IC
+                                            \upright                                     %! IC
+                                                "bow on tailpiece"                       %! IC
+                                    }                                                    %! IC
                                 %%% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                 %%%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                 %%%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -2574,24 +2574,24 @@
                     
                     % ContrabassMusicVoice [measure 114]                                 %! SM4
                     c''1
-                    -\upbow                                                              %! IC1
+                    -\upbow                                                              %! IC
                     
                     c''2
-                    -\downbow                                                            %! IC1
+                    -\downbow                                                            %! IC
                     
                     % ContrabassMusicVoice [measure 115]                                 %! SM4
                     c''2
                     \repeatTie
                     
                     c''4
-                    -\upbow                                                              %! IC1
+                    -\upbow                                                              %! IC
                     
                     % ContrabassMusicVoice [measure 116]                                 %! SM4
                     c''2.
                     \repeatTie
                     
                     c''4
-                    -\downbow                                                            %! IC1
+                    -\downbow                                                            %! IC
                     
                     % ContrabassMusicVoice [measure 117]                                 %! SM4
                     c''2.
@@ -2599,23 +2599,23 @@
                     
                     % ContrabassMusicVoice [measure 118]                                 %! SM4
                     c''1
-                    -\upbow                                                              %! IC1
+                    -\upbow                                                              %! IC
                     
                     % ContrabassMusicVoice [measure 119]                                 %! SM4
                     c''1
-                    -\downbow                                                            %! IC1
+                    -\downbow                                                            %! IC
                     \>
                     \p
                     
                     c''4
-                    -\upbow                                                              %! IC1
+                    -\upbow                                                              %! IC
                     
                     % ContrabassMusicVoice [measure 120]                                 %! SM4
                     c''2.
                     \repeatTie
                     
                     c''4
-                    -\downbow                                                            %! IC1
+                    -\downbow                                                            %! IC
                     
                     % ContrabassMusicVoice [measure 121]                                 %! SM4
                     c''2.
@@ -2623,14 +2623,14 @@
                     
                     % ContrabassMusicVoice [measure 122]                                 %! SM4
                     c''1
-                    -\upbow                                                              %! IC1
+                    -\upbow                                                              %! IC
                     
                     % ContrabassMusicVoice [measure 123]                                 %! SM4
                     c''1
-                    -\downbow                                                            %! IC1
+                    -\downbow                                                            %! IC
                     
                     c''4
-                    -\upbow                                                              %! IC1
+                    -\upbow                                                              %! IC
                     
                     % ContrabassMusicVoice [measure 124]                                 %! SM4
                     c''2.
@@ -2638,14 +2638,14 @@
                     
                     % ContrabassMusicVoice [measure 125]                                 %! SM4
                     c''2
-                    -\downbow                                                            %! IC1
+                    -\downbow                                                            %! IC
                     
                     % ContrabassMusicVoice [measure 126]                                 %! SM4
                     c''2
                     \repeatTie
                     
                     c''1
-                    -\upbow                                                              %! IC1
+                    -\upbow                                                              %! IC
                     \ppp
                     
                     % ContrabassMusicVoice [measure 127]                                 %! SM4
