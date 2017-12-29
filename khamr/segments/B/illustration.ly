@@ -7129,6 +7129,9 @@
                 \context PercussionMusicVoice = "PercussionMusicVoice" {
                     
                     % PercussionMusicVoice [measure 75]                                  %! SM4
+                    \stopStaff                                                           %! REAPPLIED_STAFF_LINES:SM8
+                    \once \override PercussionMusicStaff.StaffSymbol.line-count = 5      %! REAPPLIED_STAFF_LINES:SM8
+                    \startStaff                                                          %! REAPPLIED_STAFF_LINES:SM8
                     \set PercussionMusicStaff.instrumentName = \markup {                 %! REAPPLIED_INSTRUMENT:SM8
                         \hcenter-in                                                      %! REAPPLIED_INSTRUMENT:SM8
                             #16                                                          %! REAPPLIED_INSTRUMENT:SM8
@@ -7144,6 +7147,7 @@
                     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
                     %%% \override PercussionMusicStaff.Clef.color = ##f                  %! REAPPLIED_CLEF_UNCOLOR:SM7
                     \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                    \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
                     \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                     R1 * 1/2
                     \sfz                                                                 %! REAPPLIED_DYNAMIC:SM8

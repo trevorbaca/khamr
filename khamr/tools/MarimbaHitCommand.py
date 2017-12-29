@@ -36,23 +36,49 @@ class MarimbaHitCommand(baca.Command):
         for i, plt in enumerate(baca.select(argument).plts()):
             if i not in self.indices:
                 continue
-            spanner = abjad.StaffLinesSpanner(lines=5)
-            abjad.attach(spanner, plt)
+            staff_lines = baca.StaffLines(line_count=5)
+            abjad.attach(
+                baca.StaffLines(5),
+                plt.head,
+                site='MHC',
+                )
             if self.attach_first_markup and not found_first:
                 string = 'marimba + woodblock'
                 markup = abjad.Markup(string, direction=abjad.Up)
                 markup = markup.box().override(('box-padding', 0.75))
                 markup = markup.larger()
-                abjad.attach(markup, plt.head)
+                abjad.attach(markup, plt.head, site='MHC')
                 found_first = True
             abjad.detach(abjad.Articulation, plt.head)
-            abjad.attach(abjad.Dynamic('sfz'), plt.head, context='Voice')
-            abjad.attach(abjad.Articulation('marcato'), plt.head)
+            abjad.attach(
+                abjad.Dynamic('sfz'),
+                plt.head,
+                context='Voice',
+                site='MHC',
+                )
+            abjad.attach(
+                abjad.Articulation('marcato'),
+                plt.head,
+                site='MHC',
+                )
             abjad.detach(abjad.Clef, plt.head)
-            abjad.attach(abjad.Clef('treble'), plt.head)
+            abjad.attach(
+                abjad.Clef('treble'),
+                plt.head,
+                site='MHC',
+                )
             next_leaf = abjad.inspect(plt.tail).get_leaf(1)
             if next_leaf is not None:
-                abjad.attach(abjad.Clef('percussion'), next_leaf)
+                abjad.attach(
+                    baca.StaffLines(1),
+                    next_leaf,
+                    site='MHC',
+                    )
+                abjad.attach(
+                    abjad.Clef('percussion'),
+                    next_leaf,
+                    site='MHC',
+                    )
 
     ### PUBLIC PROPERTIES ###
 
