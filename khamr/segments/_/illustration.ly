@@ -398,6 +398,14 @@
                                                 }                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                                         }                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                                 }                                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                            \line                                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                {                                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                    \with-color                                          %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        #(x11-color 'blue)                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                        \large                                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                            \upright                                     %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                                accel.                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                                }                                                        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
                             %%% \line                                                    %! CLOCK_TIME_MARKUP:SM28
                             %%%     {                                                    %! CLOCK_TIME_MARKUP:SM28
                             %%%         \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
@@ -1048,9 +1056,9 @@
                 \context OboeMusicVoice = "OboeMusicVoice" {
                     
                     % OboeMusicVoice [measure 1]                                         %! SM4
-                    \stopStaff                                                           %! IC
-                    \once \override OboeMusicStaff.StaffSymbol.line-count = 1            %! IC
-                    \startStaff                                                          %! IC
+                    \stopStaff                                                           %! EXPLICIT_STAFF_LINES:SM8
+                    \once \override OboeMusicStaff.StaffSymbol.line-count = 1            %! EXPLICIT_STAFF_LINES:SM8
+                    \startStaff                                                          %! EXPLICIT_STAFF_LINES:SM8
                     \override RepeatTie.direction = #up                                  %! OC
                     \set OboeMusicStaff.instrumentName = \markup {                       %! EXPLICIT_INSTRUMENT:SM8
                         \hcenter-in                                                      %! EXPLICIT_INSTRUMENT:SM8
@@ -1072,11 +1080,13 @@
                         }                                                                %! EXPLICIT_INSTRUMENT:SM8
                     \set OboeMusicStaff.forceClef = ##t                                  %! EXPLICIT_CLEF:SM8
                     \clef "percussion"                                                   %! EXPLICIT_CLEF:SM8
+                    \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:SM6
                     \once \override OboeMusicStaff.Clef.color = #(x11-color 'blue)       %! EXPLICIT_CLEF_COLOR:SM6
                     %%% \override OboeMusicStaff.Clef.color = ##f                        %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
-                    \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:SM6
+                    \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                    \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
                     g'2
-                    \p                                                                   %! IC
+                    \p                                                                   %! EXPLICIT_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
@@ -1162,8 +1172,8 @@
                                     hn.                                                  %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
                                 }                                                        %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
                         }                                                                %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                    \override OboeMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2)     %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                     \override OboeMusicStaff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! REDRAWN_EXPLICIT_INSTRUMENT_COLOR:SM6
+                    \override OboeMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2)     %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                     
                     % OboeMusicVoice [measure 2]                                         %! SM4
                     g'2
@@ -1340,13 +1350,14 @@
                     r2
                     
                     % OboeMusicVoice [measure 37]                                        %! SM4
-                    \stopStaff                                                           %! IC
-                    \once \override OboeMusicStaff.StaffSymbol.line-count = 5            %! IC
-                    \startStaff                                                          %! IC
+                    \stopStaff                                                           %! EXPLICIT_STAFF_LINES:SM8
+                    \once \override OboeMusicStaff.StaffSymbol.line-count = 5            %! EXPLICIT_STAFF_LINES:SM8
+                    \startStaff                                                          %! EXPLICIT_STAFF_LINES:SM8
                     \set OboeMusicStaff.forceClef = ##t                                  %! EXPLICIT_CLEF:SM8
                     \clef "treble"                                                       %! EXPLICIT_CLEF:SM8
                     \once \override OboeMusicStaff.Clef.color = #(x11-color 'blue)       %! EXPLICIT_CLEF_COLOR:SM6
                     %%% \override OboeMusicStaff.Clef.color = ##f                        %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                    \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
                     r2.
                     ^ \markup {                                                          %! IC
                         \whiteout                                                        %! IC
@@ -1419,8 +1430,9 @@
                                 }                                                        %! EXPLICIT_INSTRUMENT:SM8
                         }                                                                %! EXPLICIT_INSTRUMENT:SM8
                     \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:SM6
+                    \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     b2
-                    \pp                                                                  %! IC
+                    \pp                                                                  %! EXPLICIT_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
@@ -1766,8 +1778,9 @@
                                 }                                                        %! EXPLICIT_INSTRUMENT:SM8
                         }                                                                %! EXPLICIT_INSTRUMENT:SM8
                     \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:SM6
+                    \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     e''2
-                    \pp                                                                  %! IC
+                    \pp                                                                  %! EXPLICIT_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
@@ -2098,8 +2111,9 @@
                             Gt.                                                          %! DEFAULT_INSTRUMENT:SM8
                         }                                                                %! DEFAULT_INSTRUMENT:SM8
                     \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
+                    \once \override GuitarMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     cs'4
-                    \f                                                                   %! IC
+                    \f                                                                   %! EXPLICIT_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
@@ -2962,9 +2976,9 @@
                 \context PianoMusicVoice = "PianoMusicVoice" {
                     
                     % PianoMusicVoice [measure 1]                                        %! SM4
-                    \stopStaff                                                           %! IC
-                    \once \override PianoMusicStaff.StaffSymbol.line-count = 1           %! IC
-                    \startStaff                                                          %! IC
+                    \stopStaff                                                           %! EXPLICIT_STAFF_LINES:SM8
+                    \once \override PianoMusicStaff.StaffSymbol.line-count = 1           %! EXPLICIT_STAFF_LINES:SM8
+                    \startStaff                                                          %! EXPLICIT_STAFF_LINES:SM8
                     \override RepeatTie.direction = #up                                  %! OC
                     \set PianoMusicStaff.instrumentName = \markup {                      %! DEFAULT_INSTRUMENT:SM8
                         \hcenter-in                                                      %! DEFAULT_INSTRUMENT:SM8
@@ -2981,9 +2995,11 @@
                     \once \override PianoMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
                     \once \override PianoMusicStaff.Clef.color = #(x11-color 'blue)      %! EXPLICIT_CLEF_COLOR:SM6
                     %%% \override PianoMusicStaff.Clef.color = ##f                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                    \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                    \once \override PianoMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
                     c'2
                     -\accent                                                             %! IC
-                    \mf                                                                  %! IC
+                    \mf                                                                  %! EXPLICIT_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
@@ -3201,8 +3217,9 @@
                         \clef "treble"                                                   %! EXPLICIT_CLEF:SM8
                         \once \override PianoMusicStaff.Clef.color = #(x11-color 'blue)  %! EXPLICIT_CLEF_COLOR:SM6
                         %%% \override PianoMusicStaff.Clef.color = ##f                   %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                        \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         cs''''16 * 247/32
-                        \mf                                                              %! IC
+                        \mf                                                              %! REDUNDANT_DYNAMIC:SM8
                         [
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
@@ -3500,16 +3517,18 @@
                     r2
                     
                     % PianoMusicVoice [measure 41]                                       %! SM4
-                    \stopStaff                                                           %! IC
-                    \once \override PianoMusicStaff.StaffSymbol.line-count = 1           %! IC
-                    \startStaff                                                          %! IC
+                    \stopStaff                                                           %! REDUNDANT_STAFF_LINES:SM8
+                    \once \override PianoMusicStaff.StaffSymbol.line-count = 1           %! REDUNDANT_STAFF_LINES:SM8
+                    \startStaff                                                          %! REDUNDANT_STAFF_LINES:SM8
                     \override RepeatTie.direction = #up                                  %! OC
                     \set PianoMusicStaff.forceClef = ##t                                 %! EXPLICIT_CLEF:SM8
                     \clef "percussion"                                                   %! EXPLICIT_CLEF:SM8
                     \once \override PianoMusicStaff.Clef.color = #(x11-color 'blue)      %! EXPLICIT_CLEF_COLOR:SM6
                     %%% \override PianoMusicStaff.Clef.color = ##f                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                    \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                    \once \override PianoMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
                     c'1
-                    \mp                                                                  %! IC
+                    \mp                                                                  %! EXPLICIT_DYNAMIC:SM8
                     ^ \markup {                                                          %! IC
                         \whiteout                                                        %! IC
                             \upright                                                     %! IC
@@ -3583,9 +3602,10 @@
                             Perc.                                                        %! DEFAULT_INSTRUMENT:SM8
                         }                                                                %! DEFAULT_INSTRUMENT:SM8
                     \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
+                    \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     c'2
                     -\accent                                                             %! IC
-                    \mp                                                                  %! IC
+                    \mp                                                                  %! EXPLICIT_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
@@ -3850,16 +3870,18 @@
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
                     
-                    \stopStaff                                                           %! MHC
-                    \once \override PercussionMusicStaff.StaffSymbol.line-count = 5      %! MHC
-                    \startStaff                                                          %! MHC
+                    \stopStaff                                                           %! EXPLICIT_STAFF_LINES:SM8
+                    \once \override PercussionMusicStaff.StaffSymbol.line-count = 5      %! EXPLICIT_STAFF_LINES:SM8
+                    \startStaff                                                          %! EXPLICIT_STAFF_LINES:SM8
                     \set PercussionMusicStaff.forceClef = ##t                            %! EXPLICIT_CLEF:SM8
                     \clef "treble"                                                       %! EXPLICIT_CLEF:SM8
+                    \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
+                    \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
                     %%% \override PercussionMusicStaff.Clef.color = ##f                  %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
                     af''2.
                     -\marcato                                                            %! MHC
-                    \sfz                                                                 %! MHC
+                    \sfz                                                                 %! EXPLICIT_DYNAMIC:SM8
                     ^ \markup {                                                          %! MHC
                         \larger                                                          %! MHC
                             \override                                                    %! MHC
@@ -3874,9 +3896,9 @@
                     \repeatTie
                     
                     % PercussionMusicVoice [measure 17]                                  %! SM4
-                    \stopStaff                                                           %! MHC
-                    \once \override PercussionMusicStaff.StaffSymbol.line-count = 1      %! MHC
-                    \startStaff                                                          %! MHC
+                    \stopStaff                                                           %! EXPLICIT_STAFF_LINES:SM8
+                    \once \override PercussionMusicStaff.StaffSymbol.line-count = 1      %! EXPLICIT_STAFF_LINES:SM8
+                    \startStaff                                                          %! EXPLICIT_STAFF_LINES:SM8
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -3884,6 +3906,7 @@
                     \once \override Stem.color = #red
                     \set PercussionMusicStaff.forceClef = ##t                            %! EXPLICIT_CLEF:SM8
                     \clef "percussion"                                                   %! EXPLICIT_CLEF:SM8
+                    \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
                     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
                     %%% \override PercussionMusicStaff.Clef.color = ##f                  %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
                     c'2.
@@ -4077,22 +4100,24 @@
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
                     
-                    \stopStaff                                                           %! MHC
-                    \once \override PercussionMusicStaff.StaffSymbol.line-count = 5      %! MHC
-                    \startStaff                                                          %! MHC
+                    \stopStaff                                                           %! EXPLICIT_STAFF_LINES:SM8
+                    \once \override PercussionMusicStaff.StaffSymbol.line-count = 5      %! EXPLICIT_STAFF_LINES:SM8
+                    \startStaff                                                          %! EXPLICIT_STAFF_LINES:SM8
                     \set PercussionMusicStaff.forceClef = ##t                            %! EXPLICIT_CLEF:SM8
                     \clef "treble"                                                       %! EXPLICIT_CLEF:SM8
+                    \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
+                    \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
                     %%% \override PercussionMusicStaff.Clef.color = ##f                  %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
                     af''1
                     -\marcato                                                            %! MHC
-                    \sfz                                                                 %! MHC
+                    \sfz                                                                 %! REDUNDANT_DYNAMIC:SM8
                     \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                     
                     % PercussionMusicVoice [measure 33]                                  %! SM4
-                    \stopStaff                                                           %! MHC
-                    \once \override PercussionMusicStaff.StaffSymbol.line-count = 1      %! MHC
-                    \startStaff                                                          %! MHC
+                    \stopStaff                                                           %! EXPLICIT_STAFF_LINES:SM8
+                    \once \override PercussionMusicStaff.StaffSymbol.line-count = 1      %! EXPLICIT_STAFF_LINES:SM8
+                    \startStaff                                                          %! EXPLICIT_STAFF_LINES:SM8
                     \once \override Accidental.color = #red
                     \once \override Beam.color = #red
                     \once \override Dots.color = #red
@@ -4100,6 +4125,7 @@
                     \once \override Stem.color = #red
                     \set PercussionMusicStaff.forceClef = ##t                            %! EXPLICIT_CLEF:SM8
                     \clef "percussion"                                                   %! EXPLICIT_CLEF:SM8
+                    \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
                     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
                     %%% \override PercussionMusicStaff.Clef.color = ##f                  %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
                     c'2.
@@ -4615,10 +4641,11 @@
                     \revert NoteHead.style                                               %! OC
                     
                     % ViolinMusicVoice [measure 37]                                      %! SM4
+                    \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     \pitchedTrill
                     f'2
                     -\accent                                                             %! IC
-                    \ppp                                                                 %! IC
+                    \ppp                                                                 %! EXPLICIT_DYNAMIC:SM8
                     \startTrillSpan gf'
                     ^ \markup {                                                          %! IC
                         \whiteout                                                        %! IC
@@ -5168,10 +5195,11 @@
                     \revert NoteHead.style                                               %! OC
                     
                     % ViolaMusicVoice [measure 37]                                       %! SM4
+                    \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     \pitchedTrill
                     f'2.
                     -\accent                                                             %! IC
-                    \ppp                                                                 %! IC
+                    \ppp                                                                 %! EXPLICIT_DYNAMIC:SM8
                     \startTrillSpan gf'
                     ^ \markup {                                                          %! IC
                         \whiteout                                                        %! IC
@@ -5685,10 +5713,11 @@
                     \revert NoteHead.style                                               %! OC
                     
                     % CelloMusicVoice [measure 37]                                       %! SM4
+                    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     \pitchedTrill
                     f'2.
                     -\accent                                                             %! IC
-                    \ppp                                                                 %! IC
+                    \ppp                                                                 %! EXPLICIT_DYNAMIC:SM8
                     \startTrillSpan gf'
                     ^ \markup {                                                          %! IC
                         \whiteout                                                        %! IC
@@ -5836,8 +5865,9 @@
                     \once \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
                     \once \override ContrabassMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
                     %%% \override ContrabassMusicStaff.Clef.color = ##f                  %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
+                    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     a2
-                    \f                                                                   %! IC
+                    \f                                                                   %! EXPLICIT_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
