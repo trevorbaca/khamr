@@ -593,141 +593,42 @@
                 \context FluteMusicVoice = "FluteMusicVoice" {
                     
                     % FluteMusicVoice [measure 45]                                       %! SM4
-                    \set FluteMusicStaff.instrumentName = \markup {                      %! REAPPLIED_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! REAPPLIED_INSTRUMENT:SM8
-                            #16                                                          %! REAPPLIED_INSTRUMENT:SM8
-                            \center-column                                               %! REAPPLIED_INSTRUMENT:SM8
-                                {                                                        %! REAPPLIED_INSTRUMENT:SM8
-                                    Bass                                                 %! REAPPLIED_INSTRUMENT:SM8
-                                    flute                                                %! REAPPLIED_INSTRUMENT:SM8
-                                }                                                        %! REAPPLIED_INSTRUMENT:SM8
-                        }                                                                %! REAPPLIED_INSTRUMENT:SM8
-                    \set FluteMusicStaff.shortInstrumentName = \markup {                 %! REAPPLIED_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! REAPPLIED_INSTRUMENT:SM8
-                            #10                                                          %! REAPPLIED_INSTRUMENT:SM8
-                            \center-column                                               %! REAPPLIED_INSTRUMENT:SM8
-                                {                                                        %! REAPPLIED_INSTRUMENT:SM8
-                                    Bass                                                 %! REAPPLIED_INSTRUMENT:SM8
-                                    fl.                                                  %! REAPPLIED_INSTRUMENT:SM8
-                                }                                                        %! REAPPLIED_INSTRUMENT:SM8
-                        }                                                                %! REAPPLIED_INSTRUMENT:SM8
-                    \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
-                    bf''2
+                    bf'2
                     \>
                     \mp
                     \startTrillSpan
-                    ^ \markup {
-                        \column
-                            {
-                                %%% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%             (“BassFlute”                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%             \hcenter-in                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                 #16                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                 \center-column                       %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                     {                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                         Bass                         %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                         flute                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                     }                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%         \concat                                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%             {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                     \hcenter-in                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                         #10                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                         \center-column               %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                             {                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                                 Bass                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                                 fl.                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                             }                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                     )                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%             }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%     }                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                \line                                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                    {                                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                        \with-color                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                            #(x11-color 'green4)                         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                            {                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    (“BassFlute”                         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    \hcenter-in                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        #16                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \center-column                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            {                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                Bass                     %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                flute                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            }                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                \concat                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    {                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \vcenter                         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            \hcenter-in                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                #10                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                \center-column           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                    {                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                        Bass             %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                        fl.              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                    }                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \vcenter                         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            )                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    }                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                            }                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                    }                                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                            }
-                        }
-                    \set FluteMusicStaff.instrumentName = \markup {                      %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                            #16                                                          %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                            \center-column                                               %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                                {                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                                    Bass                                                 %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                                    flute                                                %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                                }                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                        }                                                                %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                    \set FluteMusicStaff.shortInstrumentName = \markup {                 %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                            #10                                                          %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                            \center-column                                               %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                                {                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                                    Bass                                                 %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                                    fl.                                                  %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                                }                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                        }                                                                %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                    \override FluteMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                     
                     % FluteMusicVoice [measure 46]                                       %! SM4
-                    bf''2
+                    bf'2
                     \repeatTie
                     
                     % FluteMusicVoice [measure 47]                                       %! SM4
-                    bf''1.
+                    bf'1.
                     \repeatTie
                     
                     % FluteMusicVoice [measure 48]                                       %! SM4
-                    bf''4.
+                    bf'4.
                     \repeatTie
                     
                     r8
                     \stopTrillSpan
                     
-                    bf''4
+                    bf'4
                     \startTrillSpan
                     
                     % FluteMusicVoice [measure 49]                                       %! SM4
-                    bf''1
+                    bf'1
                     \repeatTie
                     
                     % FluteMusicVoice [measure 50]                                       %! SM4
-                    bf''2.
+                    bf'2.
                     \repeatTie
                     
                     % FluteMusicVoice [measure 51]                                       %! SM4
-                    bf''2
+                    bf'2
                     \repeatTie
                     
-                    bf''8
+                    bf'8
                     \repeatTie
                     \pp
                     
