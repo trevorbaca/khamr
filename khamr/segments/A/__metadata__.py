@@ -55,31 +55,6 @@ metadata = abjad.TypedOrderedDict(
                             ],
                         ),
                     (
-                        'ContrabassMusicStaff',
-                        [
-                            abjad.Momento(
-                                context='ContrabassMusicVoice',
-                                prototype='abjad.Clef',
-                                value='bass',
-                                ),
-                            abjad.Momento(
-                                context='ContrabassMusicVoice',
-                                prototype='abjad.Instrument',
-                                value='Contrabass',
-                                ),
-                            ],
-                        ),
-                    (
-                        'ContrabassMusicVoice',
-                        [
-                            abjad.Momento(
-                                context='ContrabassMusicVoice',
-                                prototype='abjad.Dynamic',
-                                value='f',
-                                ),
-                            ],
-                        ),
-                    (
                         'FluteMusicStaff',
                         [
                             abjad.Momento(
@@ -106,36 +81,6 @@ metadata = abjad.TypedOrderedDict(
                                 context='GuitarMusicVoice',
                                 prototype='abjad.Dynamic',
                                 value='ff',
-                                ),
-                            ],
-                        ),
-                    (
-                        'OboeMusicStaff',
-                        [
-                            abjad.Momento(
-                                context='OboeMusicVoice',
-                                prototype='abjad.Clef',
-                                value='treble',
-                                ),
-                            abjad.Momento(
-                                context='OboeMusicVoice',
-                                prototype='abjad.Instrument',
-                                value='EnglishHorn',
-                                ),
-                            abjad.Momento(
-                                context='OboeMusicVoice',
-                                prototype='baca.StaffLines',
-                                value=5,
-                                ),
-                            ],
-                        ),
-                    (
-                        'OboeMusicVoice',
-                        [
-                            abjad.Momento(
-                                context='OboeMusicVoice',
-                                prototype='abjad.Dynamic',
-                                value='p',
                                 ),
                             ],
                         ),
@@ -196,26 +141,6 @@ metadata = abjad.TypedOrderedDict(
                                 context='PianoMusicVoice',
                                 prototype='abjad.Dynamic',
                                 value='fff',
-                                ),
-                            ],
-                        ),
-                    (
-                        'SaxophoneMusicStaff',
-                        [
-                            abjad.Momento(
-                                context='SaxophoneMusicVoice',
-                                prototype='abjad.Instrument',
-                                value='BaritoneSaxophone',
-                                ),
-                            ],
-                        ),
-                    (
-                        'SaxophoneMusicVoice',
-                        [
-                            abjad.Momento(
-                                context='SaxophoneMusicVoice',
-                                prototype='abjad.Dynamic',
-                                value='pp',
                                 ),
                             ],
                         ),
