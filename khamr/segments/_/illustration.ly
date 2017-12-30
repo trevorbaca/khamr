@@ -1085,7 +1085,7 @@
                     %%% \override OboeMusicStaff.Clef.color = ##f                        %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
                     \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
-                    g'2
+                    c'2
                     \p                                                                   %! EXPLICIT_DYNAMIC:SM8
                     ^ \markup {
                         \column
@@ -1176,19 +1176,19 @@
                     \override OboeMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2)     %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                     
                     % OboeMusicVoice [measure 2]                                         %! SM4
-                    g'2
+                    c'2
                     \repeatTie
                     
                     % OboeMusicVoice [measure 3]                                         %! SM4
-                    g'1.
+                    c'1.
                     \repeatTie
                     
                     % OboeMusicVoice [measure 4]                                         %! SM4
-                    g'2.
+                    c'2.
                     \repeatTie
                     
                     % OboeMusicVoice [measure 5]                                         %! SM4
-                    g'8
+                    c'8
                     \repeatTie
                     
                     r2..
@@ -1199,33 +1199,33 @@
                     % OboeMusicVoice [measure 7]                                         %! SM4
                     r4
                     
-                    g'2.
+                    c'2.
                     
                     % OboeMusicVoice [measure 8]                                         %! SM4
-                    g'2.
+                    c'2.
                     \repeatTie
                     
-                    g'2
+                    c'2
                     \repeatTie
                     
                     % OboeMusicVoice [measure 9]                                         %! SM4
-                    g'4.
+                    c'4.
                     \repeatTie
                     
                     r8
                     
-                    g'2
+                    c'2
                     
                     % OboeMusicVoice [measure 10]                                        %! SM4
-                    g'2.
+                    c'2.
                     \repeatTie
                     
                     % OboeMusicVoice [measure 11]                                        %! SM4
-                    g'1
+                    c'1
                     \repeatTie
                     
                     % OboeMusicVoice [measure 12]                                        %! SM4
-                    g'8
+                    c'8
                     \repeatTie
                     
                     r8
@@ -1238,34 +1238,34 @@
                     r2.
                     
                     % OboeMusicVoice [measure 14]                                        %! SM4
-                    g'2
+                    c'2
                     
                     % OboeMusicVoice [measure 15]                                        %! SM4
-                    g'1.
+                    c'1.
                     \repeatTie
                     
                     % OboeMusicVoice [measure 16]                                        %! SM4
-                    g'4.
+                    c'4.
                     \repeatTie
                     
                     r8
                     
                     % OboeMusicVoice [measure 17]                                        %! SM4
-                    g'2.
+                    c'2.
                     
-                    g'2
+                    c'2
                     \repeatTie
                     
                     % OboeMusicVoice [measure 18]                                        %! SM4
-                    g'2.
+                    c'2.
                     \repeatTie
                     
                     % OboeMusicVoice [measure 19]                                        %! SM4
-                    g'1
+                    c'1
                     \repeatTie
                     
                     % OboeMusicVoice [measure 20]                                        %! SM4
-                    g'4
+                    c'4
                     \repeatTie
                     
                     r2
@@ -1278,31 +1278,31 @@
                     % OboeMusicVoice [measure 22]                                        %! SM4
                     r4
                     
-                    g'4
+                    c'4
                     
                     % OboeMusicVoice [measure 23]                                        %! SM4
-                    g'2.
+                    c'2.
                     \repeatTie
                     
                     % OboeMusicVoice [measure 24]                                        %! SM4
-                    g'1
+                    c'1
                     \repeatTie
                     
                     % OboeMusicVoice [measure 25]                                        %! SM4
-                    g'4.
+                    c'4.
                     \repeatTie
                     
                     r8
                     
                     % OboeMusicVoice [measure 26]                                        %! SM4
-                    g'2
+                    c'2
                     
                     % OboeMusicVoice [measure 27]                                        %! SM4
-                    g'1.
+                    c'1.
                     \repeatTie
                     
                     % OboeMusicVoice [measure 28]                                        %! SM4
-                    g'2..
+                    c'2..
                     \repeatTie
                     
                     r8
@@ -1316,30 +1316,30 @@
                     % OboeMusicVoice [measure 31]                                        %! SM4
                     r4
                     
-                    g'2.
+                    c'2.
                     
                     % OboeMusicVoice [measure 32]                                        %! SM4
-                    g'2.
+                    c'2.
                     \repeatTie
                     
-                    g'4.
+                    c'4.
                     \repeatTie
                     
                     r8
                     
                     % OboeMusicVoice [measure 33]                                        %! SM4
-                    g'2.
+                    c'2.
                     
                     % OboeMusicVoice [measure 34]                                        %! SM4
-                    g'1
+                    c'1
                     \repeatTie
                     
                     % OboeMusicVoice [measure 35]                                        %! SM4
-                    g'1
+                    c'1
                     \repeatTie
                     
                     % OboeMusicVoice [measure 36]                                        %! SM4
-                    g'8
+                    c'8
                     \repeatTie
                     \revert RepeatTie.direction                                          %! OC
                     
