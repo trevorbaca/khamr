@@ -80,16 +80,6 @@ metadata = abjad.TypedOrderedDict(
                             ],
                         ),
                     (
-                        'FluteMusicStaff',
-                        [
-                            abjad.Momento(
-                                context='FluteMusicVoice',
-                                prototype='abjad.Instrument',
-                                value='BassFlute',
-                                ),
-                            ],
-                        ),
-                    (
                         'GuitarMusicStaff',
                         [
                             abjad.Momento(

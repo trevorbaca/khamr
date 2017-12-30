@@ -693,145 +693,45 @@
                 \context FluteMusicVoice = "FluteMusicVoice" {
                     
                     % FluteMusicVoice [measure 1]                                        %! SM4
-                    \set FluteMusicStaff.instrumentName = \markup {                      %! DEFAULT_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! DEFAULT_INSTRUMENT:SM8
-                            #16                                                          %! DEFAULT_INSTRUMENT:SM8
-                            \center-column                                               %! DEFAULT_INSTRUMENT:SM8
-                                {                                                        %! DEFAULT_INSTRUMENT:SM8
-                                    Bass                                                 %! DEFAULT_INSTRUMENT:SM8
-                                    flute                                                %! DEFAULT_INSTRUMENT:SM8
-                                }                                                        %! DEFAULT_INSTRUMENT:SM8
-                        }                                                                %! DEFAULT_INSTRUMENT:SM8
-                    \set FluteMusicStaff.shortInstrumentName = \markup {                 %! DEFAULT_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! DEFAULT_INSTRUMENT:SM8
-                            #10                                                          %! DEFAULT_INSTRUMENT:SM8
-                            \center-column                                               %! DEFAULT_INSTRUMENT:SM8
-                                {                                                        %! DEFAULT_INSTRUMENT:SM8
-                                    Bass                                                 %! DEFAULT_INSTRUMENT:SM8
-                                    fl.                                                  %! DEFAULT_INSTRUMENT:SM8
-                                }                                                        %! DEFAULT_INSTRUMENT:SM8
-                        }                                                                %! DEFAULT_INSTRUMENT:SM8
-                    \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
-                    <g' g''>2
-                    ^ \markup {
-                        \column
-                            {
-                                \line                                                    %! IC
-                                    {                                                    %! IC
-                                        \whiteout                                        %! IC
-                                            \upright                                     %! IC
-                                                \override                                %! IC
-                                                    #'(box-padding . 0.5)                %! IC
-                                                    \box                                 %! IC
-                                                        L.17                             %! IC
-                                    }                                                    %! IC
-                                %%% \line                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%     {                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%             (“BassFlute”                             %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%             \hcenter-in                              %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%                 #16                                  %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%                 \center-column                       %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%                     {                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%                         Bass                         %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%                         flute                        %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%                     }                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%         \concat                                      %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%             {                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%                 \vcenter                             %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%                     \hcenter-in                      %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%                         #10                          %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%                         \center-column               %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%                             {                        %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%                                 Bass                 %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%                                 fl.                  %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%                             }                        %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%                 \vcenter                             %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%                     )                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%             }                                        %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                %%%     }                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
-                                \line                                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                    {                                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                        \with-color                                      %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                            #(x11-color 'DarkViolet)                     %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                            {                                            %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                \vcenter                                 %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    (“BassFlute”                         %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                \vcenter                                 %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    \hcenter-in                          %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        #16                              %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \center-column                   %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            {                            %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                Bass                     %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                flute                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            }                            %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                \concat                                  %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    {                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \vcenter                         %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            \hcenter-in                  %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                #10                      %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                \center-column           %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                    {                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                        Bass             %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                        fl.              %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                    }                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \vcenter                         %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            )                            %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    }                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                            }                                            %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                    }                                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                            }
-                        }
-                    \set FluteMusicStaff.instrumentName = \markup {                      %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-                            #16                                                          %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-                            \center-column                                               %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-                                {                                                        %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-                                    Bass                                                 %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-                                    flute                                                %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-                                }                                                        %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-                        }                                                                %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-                    \set FluteMusicStaff.shortInstrumentName = \markup {                 %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-                            #10                                                          %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-                            \center-column                                               %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-                                {                                                        %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-                                    Bass                                                 %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-                                    fl.                                                  %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-                                }                                                        %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-                        }                                                                %! REDRAWN_DEFAULT_INSTRUMENT:SM8
-                    \override FluteMusicStaff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
+                    <g g'>2
+                    ^ \markup {                                                          %! IC
+                        \whiteout                                                        %! IC
+                            \upright                                                     %! IC
+                                \override                                                %! IC
+                                    #'(box-padding . 0.5)                                %! IC
+                                    \box                                                 %! IC
+                                        L.17                                             %! IC
+                        }                                                                %! IC
                     
                     % FluteMusicVoice [measure 2]                                        %! SM4
-                    <g' g''>2
+                    <g g'>2
                     \repeatTie
                     
                     % FluteMusicVoice [measure 3]                                        %! SM4
-                    <g' g''>1.
+                    <g g'>1.
                     \repeatTie
                     
                     % FluteMusicVoice [measure 4]                                        %! SM4
-                    <g' g''>4.
+                    <g g'>4.
                     \repeatTie
                     
                     r8
                     
-                    <g' g''>4
+                    <g g'>4
                     
                     % FluteMusicVoice [measure 5]                                        %! SM4
-                    <g' g''>1
+                    <g g'>1
                     \repeatTie
                     
                     % FluteMusicVoice [measure 6]                                        %! SM4
-                    <g' g''>2.
+                    <g g'>2.
                     \repeatTie
                     
                     % FluteMusicVoice [measure 7]                                        %! SM4
-                    <g' g''>2
+                    <g g'>2
                     \repeatTie
                     
-                    <g' g''>8
+                    <g g'>8
                     \repeatTie
                     
                     r4.
@@ -842,35 +742,35 @@
                     r2
                     
                     % FluteMusicVoice [measure 9]                                        %! SM4
-                    <g' g''>1
+                    <g g'>1
                     
                     % FluteMusicVoice [measure 10]                                       %! SM4
-                    <g' g''>2.
+                    <g g'>2.
                     \repeatTie
                     
                     % FluteMusicVoice [measure 11]                                       %! SM4
-                    <g' g''>2
+                    <g g'>2
                     \repeatTie
                     
-                    <g' g''>8
+                    <g g'>8
                     \repeatTie
                     
                     r8
                     
-                    <g' g''>4
+                    <g g'>4
                     
                     % FluteMusicVoice [measure 12]                                       %! SM4
-                    <g' g''>2.
+                    <g g'>2.
                     \repeatTie
                     
-                    <g' g''>2
+                    <g g'>2
                     \repeatTie
                     
                     % FluteMusicVoice [measure 13]                                       %! SM4
-                    <g' g''>4.
+                    <g g'>4.
                     \repeatTie
                     
-                    <g' g''>4
+                    <g g'>4
                     \repeatTie
                     
                     r8
@@ -882,26 +782,26 @@
                     r1.
                     
                     % FluteMusicVoice [measure 16]                                       %! SM4
-                    <g' g''>2
+                    <g g'>2
                     
                     % FluteMusicVoice [measure 17]                                       %! SM4
-                    <g' g''>2.
+                    <g g'>2.
                     \repeatTie
                     
-                    <g' g''>2
+                    <g g'>2
                     \repeatTie
                     
                     % FluteMusicVoice [measure 18]                                       %! SM4
-                    <g' g''>2.
+                    <g g'>2.
                     \repeatTie
                     
                     % FluteMusicVoice [measure 19]                                       %! SM4
-                    <g' g''>8
+                    <g g'>8
                     \repeatTie
                     
                     r8
                     
-                    <gs' gs''>2.
+                    <gs gs'>2.
                     ^ \markup {                                                          %! IC
                         \whiteout                                                        %! IC
                             \upright                                                     %! IC
@@ -912,15 +812,15 @@
                         }                                                                %! IC
                     
                     % FluteMusicVoice [measure 20]                                       %! SM4
-                    <gs' gs''>1.
+                    <gs gs'>1.
                     \repeatTie
                     
                     % FluteMusicVoice [measure 21]                                       %! SM4
-                    <gs' gs''>2
+                    <gs gs'>2
                     \repeatTie
                     
                     % FluteMusicVoice [measure 22]                                       %! SM4
-                    <gs' gs''>8
+                    <gs gs'>8
                     \repeatTie
                     
                     r4.
@@ -931,37 +831,37 @@
                     % FluteMusicVoice [measure 24]                                       %! SM4
                     r2
                     
-                    <gs' gs''>2
+                    <gs gs'>2
                     
                     % FluteMusicVoice [measure 25]                                       %! SM4
-                    <gs' gs''>2
+                    <gs gs'>2
                     \repeatTie
                     
                     % FluteMusicVoice [measure 26]                                       %! SM4
-                    <gs' gs''>2
+                    <gs gs'>2
                     \repeatTie
                     
                     % FluteMusicVoice [measure 27]                                       %! SM4
-                    <gs' gs''>2.
+                    <gs gs'>2.
                     \repeatTie
                     
-                    <gs' gs''>2
+                    <gs gs'>2
                     \repeatTie
                     
-                    <gs' gs''>8
+                    <gs gs'>8
                     \repeatTie
                     
                     r8
                     
                     % FluteMusicVoice [measure 28]                                       %! SM4
-                    <gs' gs''>1
+                    <gs gs'>1
                     
                     % FluteMusicVoice [measure 29]                                       %! SM4
-                    <gs' gs''>2.
+                    <gs gs'>2.
                     \repeatTie
                     
                     % FluteMusicVoice [measure 30]                                       %! SM4
-                    <gs' gs''>4
+                    <gs gs'>4
                     \repeatTie
                     
                     r2
@@ -972,32 +872,32 @@
                     % FluteMusicVoice [measure 32]                                       %! SM4
                     r4
                     
-                    <gs' gs''>1
+                    <gs gs'>1
                     
                     % FluteMusicVoice [measure 33]                                       %! SM4
-                    <gs' gs''>2.
+                    <gs gs'>2.
                     \repeatTie
                     
                     % FluteMusicVoice [measure 34]                                       %! SM4
-                    <gs' gs''>2
+                    <gs gs'>2
                     \repeatTie
                     
-                    <gs' gs''>8
+                    <gs gs'>8
                     \repeatTie
                     
                     r8
                     
-                    <gs' gs''>4
+                    <gs gs'>4
                     
                     % FluteMusicVoice [measure 35]                                       %! SM4
-                    <gs' gs''>1
+                    <gs gs'>1
                     \repeatTie
                     
                     % FluteMusicVoice [measure 36]                                       %! SM4
-                    <gs' gs''>2.
+                    <gs gs'>2.
                     \repeatTie
                     
-                    <gs' gs''>4.
+                    <gs gs'>4.
                     \repeatTie
                     
                     r8
@@ -1011,38 +911,38 @@
                     % FluteMusicVoice [measure 39]                                       %! SM4
                     r2.
                     
-                    a''2.
+                    a'2.
                     \>
                     \mp
                     \startTrillSpan
                     
                     % FluteMusicVoice [measure 40]                                       %! SM4
-                    a''2
+                    a'2
                     \repeatTie
                     
                     % FluteMusicVoice [measure 41]                                       %! SM4
-                    a''2.
+                    a'2.
                     \repeatTie
                     
-                    a''2
+                    a'2
                     \repeatTie
                     
                     % FluteMusicVoice [measure 42]                                       %! SM4
-                    a''4
+                    a'4
                     \repeatTie
                     
                     r8
                     \stopTrillSpan
                     
-                    a''4.
+                    a'4.
                     \startTrillSpan
                     
                     % FluteMusicVoice [measure 43]                                       %! SM4
-                    a''1
+                    a'1
                     \repeatTie
                     
                     % FluteMusicVoice [measure 44]                                       %! SM4
-                    a''1
+                    a'1
                     \repeatTie
                     \pp
                     
@@ -1060,27 +960,27 @@
                     \once \override OboeMusicStaff.StaffSymbol.line-count = 1            %! EXPLICIT_STAFF_LINES:SM8
                     \startStaff                                                          %! EXPLICIT_STAFF_LINES:SM8
                     \override RepeatTie.direction = #up                                  %! OC
-                    \set OboeMusicStaff.instrumentName = \markup {                       %! EXPLICIT_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! EXPLICIT_INSTRUMENT:SM8
-                            #16                                                          %! EXPLICIT_INSTRUMENT:SM8
-                            \center-column                                               %! EXPLICIT_INSTRUMENT:SM8
-                                {                                                        %! EXPLICIT_INSTRUMENT:SM8
-                                    English                                              %! EXPLICIT_INSTRUMENT:SM8
-                                    horn                                                 %! EXPLICIT_INSTRUMENT:SM8
-                                }                                                        %! EXPLICIT_INSTRUMENT:SM8
-                        }                                                                %! EXPLICIT_INSTRUMENT:SM8
-                    \set OboeMusicStaff.shortInstrumentName = \markup {                  %! EXPLICIT_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! EXPLICIT_INSTRUMENT:SM8
-                            #10                                                          %! EXPLICIT_INSTRUMENT:SM8
-                            \center-column                                               %! EXPLICIT_INSTRUMENT:SM8
-                                {                                                        %! EXPLICIT_INSTRUMENT:SM8
-                                    Eng.                                                 %! EXPLICIT_INSTRUMENT:SM8
-                                    hn.                                                  %! EXPLICIT_INSTRUMENT:SM8
-                                }                                                        %! EXPLICIT_INSTRUMENT:SM8
-                        }                                                                %! EXPLICIT_INSTRUMENT:SM8
+                    \set OboeMusicStaff.instrumentName = \markup {                       %! REDUNDANT_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REDUNDANT_INSTRUMENT:SM8
+                            #16                                                          %! REDUNDANT_INSTRUMENT:SM8
+                            \center-column                                               %! REDUNDANT_INSTRUMENT:SM8
+                                {                                                        %! REDUNDANT_INSTRUMENT:SM8
+                                    English                                              %! REDUNDANT_INSTRUMENT:SM8
+                                    horn                                                 %! REDUNDANT_INSTRUMENT:SM8
+                                }                                                        %! REDUNDANT_INSTRUMENT:SM8
+                        }                                                                %! REDUNDANT_INSTRUMENT:SM8
+                    \set OboeMusicStaff.shortInstrumentName = \markup {                  %! REDUNDANT_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REDUNDANT_INSTRUMENT:SM8
+                            #10                                                          %! REDUNDANT_INSTRUMENT:SM8
+                            \center-column                                               %! REDUNDANT_INSTRUMENT:SM8
+                                {                                                        %! REDUNDANT_INSTRUMENT:SM8
+                                    Eng.                                                 %! REDUNDANT_INSTRUMENT:SM8
+                                    hn.                                                  %! REDUNDANT_INSTRUMENT:SM8
+                                }                                                        %! REDUNDANT_INSTRUMENT:SM8
+                        }                                                                %! REDUNDANT_INSTRUMENT:SM8
                     \set OboeMusicStaff.forceClef = ##t                                  %! EXPLICIT_CLEF:SM8
                     \clef "percussion"                                                   %! EXPLICIT_CLEF:SM8
-                    \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:SM6
+                    \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) %! REDUNDANT_INSTRUMENT_COLOR:SM6
                     \once \override OboeMusicStaff.Clef.color = #(x11-color 'blue)       %! EXPLICIT_CLEF_COLOR:SM6
                     %%% \override OboeMusicStaff.Clef.color = ##f                        %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
                     \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -1090,89 +990,89 @@
                     ^ \markup {
                         \column
                             {
+                                %%% \line                                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%     {                                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%         \vcenter                                     %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%             (“EnglishHorn”                           %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%         \vcenter                                     %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%             \hcenter-in                              %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                 #16                                  %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                 \center-column                       %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                     {                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                         English                      %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                         horn                         %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                     }                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%         \concat                                      %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%             {                                        %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                 \vcenter                             %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                     \hcenter-in                      %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                         #10                          %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                         \center-column               %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                             {                        %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                                 Eng.                 %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                                 hn.                  %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                             }                        %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                 \vcenter                             %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                     )                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%             }                                        %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%     }                                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                \line                                                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                    {                                                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        \with-color                                      %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            #(x11-color 'DeepPink1)                      %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            {                                            %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \vcenter                                 %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    (“EnglishHorn”                       %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \vcenter                                 %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \hcenter-in                          %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        #16                              %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \center-column                   %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            {                            %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                English                  %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                horn                     %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            }                            %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \concat                                  %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    {                                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \vcenter                         %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            \hcenter-in                  %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                #10                      %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                \center-column           %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    {                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                        Eng.             %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                        hn.              %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    }                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \vcenter                         %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            )                            %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    }                                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            }                                            %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                    }                                                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                 \line                                                    %! IC
                                     {                                                    %! IC
                                         \whiteout                                        %! IC
                                             \upright                                     %! IC
                                                 "airtone without reed: mix inhales and exhales ad lib." %! IC
                                     }                                                    %! IC
-                                %%% \line                                                %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%     {                                                %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%         \vcenter                                     %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%             (“EnglishHorn”                           %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%         \vcenter                                     %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%             \hcenter-in                              %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                 #16                                  %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                 \center-column                       %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                     {                                %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                         English                      %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                         horn                         %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                     }                                %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%         \concat                                      %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%             {                                        %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                 \vcenter                             %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                     \hcenter-in                      %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                         #10                          %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                         \center-column               %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                             {                        %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                                 Eng.                 %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                                 hn.                  %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                             }                        %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                 \vcenter                             %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                     )                                %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%             }                                        %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%     }                                                %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                \line                                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                    {                                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                        \with-color                                      %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                            #(x11-color 'blue)                           %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                            {                                            %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                \vcenter                                 %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    (“EnglishHorn”                       %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                \vcenter                                 %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    \hcenter-in                          %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        #16                              %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \center-column                   %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            {                            %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                English                  %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                horn                     %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            }                            %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                \concat                                  %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    {                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \vcenter                         %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            \hcenter-in                  %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                #10                      %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                \center-column           %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                    {                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                        Eng.             %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                        hn.              %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                    }                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \vcenter                         %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            )                            %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    }                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                            }                                            %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                    }                                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                             }
                         }
-                    \set OboeMusicStaff.instrumentName = \markup {                       %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                            #16                                                          %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                            \center-column                                               %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                {                                                        %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                    English                                              %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                    horn                                                 %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                }                                                        %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                        }                                                                %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                    \set OboeMusicStaff.shortInstrumentName = \markup {                  %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                            #10                                                          %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                            \center-column                                               %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                {                                                        %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                    Eng.                                                 %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                    hn.                                                  %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                }                                                        %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                        }                                                                %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                    \override OboeMusicStaff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! REDRAWN_EXPLICIT_INSTRUMENT_COLOR:SM6
+                    \set OboeMusicStaff.instrumentName = \markup {                       %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                            #16                                                          %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                            \center-column                                               %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                {                                                        %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                    English                                              %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                    horn                                                 %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                }                                                        %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                        }                                                                %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                    \set OboeMusicStaff.shortInstrumentName = \markup {                  %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                            #10                                                          %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                            \center-column                                               %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                {                                                        %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                    Eng.                                                 %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                    hn.                                                  %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                }                                                        %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                        }                                                                %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                    \override OboeMusicStaff.InstrumentName.color = #(x11-color 'DeepPink4) %! REDRAWN_REDUNDANT_INSTRUMENT_COLOR:SM6
                     \override OboeMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2)     %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                     
                     % OboeMusicVoice [measure 2]                                         %! SM4
@@ -1411,108 +1311,108 @@
                 \context ClarinetMusicVoice = "ClarinetMusicVoice" {
                     
                     % ClarinetMusicVoice [measure 1]                                     %! SM4
-                    \set ClarinetMusicStaff.instrumentName = \markup {                   %! EXPLICIT_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! EXPLICIT_INSTRUMENT:SM8
-                            #16                                                          %! EXPLICIT_INSTRUMENT:SM8
-                            \center-column                                               %! EXPLICIT_INSTRUMENT:SM8
-                                {                                                        %! EXPLICIT_INSTRUMENT:SM8
-                                    Bass                                                 %! EXPLICIT_INSTRUMENT:SM8
-                                    clarinet                                             %! EXPLICIT_INSTRUMENT:SM8
-                                }                                                        %! EXPLICIT_INSTRUMENT:SM8
-                        }                                                                %! EXPLICIT_INSTRUMENT:SM8
-                    \set ClarinetMusicStaff.shortInstrumentName = \markup {              %! EXPLICIT_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! EXPLICIT_INSTRUMENT:SM8
-                            #10                                                          %! EXPLICIT_INSTRUMENT:SM8
-                            \center-column                                               %! EXPLICIT_INSTRUMENT:SM8
-                                {                                                        %! EXPLICIT_INSTRUMENT:SM8
-                                    Bass                                                 %! EXPLICIT_INSTRUMENT:SM8
-                                    cl.                                                  %! EXPLICIT_INSTRUMENT:SM8
-                                }                                                        %! EXPLICIT_INSTRUMENT:SM8
-                        }                                                                %! EXPLICIT_INSTRUMENT:SM8
-                    \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:SM6
+                    \set ClarinetMusicStaff.instrumentName = \markup {                   %! REDUNDANT_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REDUNDANT_INSTRUMENT:SM8
+                            #16                                                          %! REDUNDANT_INSTRUMENT:SM8
+                            \center-column                                               %! REDUNDANT_INSTRUMENT:SM8
+                                {                                                        %! REDUNDANT_INSTRUMENT:SM8
+                                    Bass                                                 %! REDUNDANT_INSTRUMENT:SM8
+                                    clarinet                                             %! REDUNDANT_INSTRUMENT:SM8
+                                }                                                        %! REDUNDANT_INSTRUMENT:SM8
+                        }                                                                %! REDUNDANT_INSTRUMENT:SM8
+                    \set ClarinetMusicStaff.shortInstrumentName = \markup {              %! REDUNDANT_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REDUNDANT_INSTRUMENT:SM8
+                            #10                                                          %! REDUNDANT_INSTRUMENT:SM8
+                            \center-column                                               %! REDUNDANT_INSTRUMENT:SM8
+                                {                                                        %! REDUNDANT_INSTRUMENT:SM8
+                                    Bass                                                 %! REDUNDANT_INSTRUMENT:SM8
+                                    cl.                                                  %! REDUNDANT_INSTRUMENT:SM8
+                                }                                                        %! REDUNDANT_INSTRUMENT:SM8
+                        }                                                                %! REDUNDANT_INSTRUMENT:SM8
+                    \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) %! REDUNDANT_INSTRUMENT_COLOR:SM6
                     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     b2
                     \pp                                                                  %! EXPLICIT_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
-                                %%% \line                                                %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%     {                                                %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%         \vcenter                                     %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%             (“BassClarinet”                          %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%         \vcenter                                     %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%             \hcenter-in                              %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                 #16                                  %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                 \center-column                       %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                     {                                %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                         Bass                         %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                         clarinet                     %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                     }                                %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%         \concat                                      %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%             {                                        %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                 \vcenter                             %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                     \hcenter-in                      %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                         #10                          %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                         \center-column               %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                             {                        %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                                 Bass                 %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                                 cl.                  %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                             }                        %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                 \vcenter                             %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                     )                                %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%             }                                        %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%     }                                                %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                \line                                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                    {                                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                        \with-color                                      %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                            #(x11-color 'blue)                           %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                            {                                            %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                \vcenter                                 %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    (“BassClarinet”                      %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                \vcenter                                 %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    \hcenter-in                          %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        #16                              %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \center-column                   %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            {                            %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                Bass                     %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                clarinet                 %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            }                            %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                \concat                                  %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    {                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \vcenter                         %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            \hcenter-in                  %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                #10                      %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                \center-column           %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                    {                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                        Bass             %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                        cl.              %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                    }                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \vcenter                         %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            )                            %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    }                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                            }                                            %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                    }                                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                %%% \line                                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%     {                                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%         \vcenter                                     %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%             (“BassClarinet”                          %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%         \vcenter                                     %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%             \hcenter-in                              %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                 #16                                  %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                 \center-column                       %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                     {                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                         Bass                         %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                         clarinet                     %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                     }                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%         \concat                                      %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%             {                                        %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                 \vcenter                             %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                     \hcenter-in                      %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                         #10                          %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                         \center-column               %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                             {                        %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                                 Bass                 %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                                 cl.                  %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                             }                        %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                 \vcenter                             %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                     )                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%             }                                        %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%     }                                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                \line                                                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                    {                                                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        \with-color                                      %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            #(x11-color 'DeepPink1)                      %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            {                                            %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \vcenter                                 %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    (“BassClarinet”                      %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \vcenter                                 %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \hcenter-in                          %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        #16                              %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \center-column                   %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            {                            %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                Bass                     %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                clarinet                 %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            }                            %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \concat                                  %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    {                                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \vcenter                         %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            \hcenter-in                  %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                #10                      %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                \center-column           %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    {                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                        Bass             %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                        cl.              %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    }                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \vcenter                         %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            )                            %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    }                                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            }                                            %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                    }                                                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                             }
                         }
-                    \set ClarinetMusicStaff.instrumentName = \markup {                   %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                            #16                                                          %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                            \center-column                                               %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                {                                                        %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                    Bass                                                 %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                    clarinet                                             %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                }                                                        %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                        }                                                                %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                    \set ClarinetMusicStaff.shortInstrumentName = \markup {              %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                            #10                                                          %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                            \center-column                                               %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                {                                                        %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                    Bass                                                 %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                    cl.                                                  %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                }                                                        %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                        }                                                                %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                    \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! REDRAWN_EXPLICIT_INSTRUMENT_COLOR:SM6
+                    \set ClarinetMusicStaff.instrumentName = \markup {                   %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                            #16                                                          %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                            \center-column                                               %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                {                                                        %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                    Bass                                                 %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                    clarinet                                             %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                }                                                        %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                        }                                                                %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                    \set ClarinetMusicStaff.shortInstrumentName = \markup {              %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                            #10                                                          %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                            \center-column                                               %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                {                                                        %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                    Bass                                                 %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                    cl.                                                  %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                }                                                        %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                        }                                                                %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                    \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepPink4) %! REDRAWN_REDUNDANT_INSTRUMENT_COLOR:SM6
                     
                     % ClarinetMusicVoice [measure 2]                                     %! SM4
                     b2
@@ -1759,108 +1659,108 @@
                 \context SaxophoneMusicVoice = "SaxophoneMusicVoice" {
                     
                     % SaxophoneMusicVoice [measure 1]                                    %! SM4
-                    \set SaxophoneMusicStaff.instrumentName = \markup {                  %! EXPLICIT_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! EXPLICIT_INSTRUMENT:SM8
-                            #16                                                          %! EXPLICIT_INSTRUMENT:SM8
-                            \center-column                                               %! EXPLICIT_INSTRUMENT:SM8
-                                {                                                        %! EXPLICIT_INSTRUMENT:SM8
-                                    Baritone                                             %! EXPLICIT_INSTRUMENT:SM8
-                                    saxophone                                            %! EXPLICIT_INSTRUMENT:SM8
-                                }                                                        %! EXPLICIT_INSTRUMENT:SM8
-                        }                                                                %! EXPLICIT_INSTRUMENT:SM8
-                    \set SaxophoneMusicStaff.shortInstrumentName = \markup {             %! EXPLICIT_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! EXPLICIT_INSTRUMENT:SM8
-                            #10                                                          %! EXPLICIT_INSTRUMENT:SM8
-                            \center-column                                               %! EXPLICIT_INSTRUMENT:SM8
-                                {                                                        %! EXPLICIT_INSTRUMENT:SM8
-                                    Bar.                                                 %! EXPLICIT_INSTRUMENT:SM8
-                                    sax.                                                 %! EXPLICIT_INSTRUMENT:SM8
-                                }                                                        %! EXPLICIT_INSTRUMENT:SM8
-                        }                                                                %! EXPLICIT_INSTRUMENT:SM8
-                    \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:SM6
+                    \set SaxophoneMusicStaff.instrumentName = \markup {                  %! REDUNDANT_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REDUNDANT_INSTRUMENT:SM8
+                            #16                                                          %! REDUNDANT_INSTRUMENT:SM8
+                            \center-column                                               %! REDUNDANT_INSTRUMENT:SM8
+                                {                                                        %! REDUNDANT_INSTRUMENT:SM8
+                                    Baritone                                             %! REDUNDANT_INSTRUMENT:SM8
+                                    saxophone                                            %! REDUNDANT_INSTRUMENT:SM8
+                                }                                                        %! REDUNDANT_INSTRUMENT:SM8
+                        }                                                                %! REDUNDANT_INSTRUMENT:SM8
+                    \set SaxophoneMusicStaff.shortInstrumentName = \markup {             %! REDUNDANT_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REDUNDANT_INSTRUMENT:SM8
+                            #10                                                          %! REDUNDANT_INSTRUMENT:SM8
+                            \center-column                                               %! REDUNDANT_INSTRUMENT:SM8
+                                {                                                        %! REDUNDANT_INSTRUMENT:SM8
+                                    Bar.                                                 %! REDUNDANT_INSTRUMENT:SM8
+                                    sax.                                                 %! REDUNDANT_INSTRUMENT:SM8
+                                }                                                        %! REDUNDANT_INSTRUMENT:SM8
+                        }                                                                %! REDUNDANT_INSTRUMENT:SM8
+                    \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) %! REDUNDANT_INSTRUMENT_COLOR:SM6
                     \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     e''2
                     \pp                                                                  %! EXPLICIT_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
-                                %%% \line                                                %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%     {                                                %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%         \vcenter                                     %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%             (“BaritoneSaxophone”                     %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%         \vcenter                                     %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%             \hcenter-in                              %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                 #16                                  %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                 \center-column                       %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                     {                                %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                         Baritone                     %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                         saxophone                    %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                     }                                %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%         \concat                                      %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%             {                                        %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                 \vcenter                             %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                     \hcenter-in                      %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                         #10                          %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                         \center-column               %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                             {                        %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                                 Bar.                 %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                                 sax.                 %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                             }                        %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                 \vcenter                             %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%                     )                                %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%             }                                        %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                %%%     }                                                %! EXPLICIT_INSTRUMENT_ALERT:SM10
-                                \line                                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                    {                                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                        \with-color                                      %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                            #(x11-color 'blue)                           %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                            {                                            %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                \vcenter                                 %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    (“BaritoneSaxophone”                 %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                \vcenter                                 %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    \hcenter-in                          %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        #16                              %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \center-column                   %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            {                            %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                Baritone                 %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                saxophone                %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            }                            %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                \concat                                  %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    {                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \vcenter                         %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            \hcenter-in                  %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                #10                      %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                \center-column           %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                    {                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                        Bar.             %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                        sax.             %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                    }                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \vcenter                         %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            )                            %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    }                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                            }                                            %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                    }                                                    %! EXPLICIT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                %%% \line                                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%     {                                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%         \vcenter                                     %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%             (“BaritoneSaxophone”                     %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%         \vcenter                                     %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%             \hcenter-in                              %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                 #16                                  %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                 \center-column                       %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                     {                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                         Baritone                     %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                         saxophone                    %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                     }                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%         \concat                                      %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%             {                                        %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                 \vcenter                             %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                     \hcenter-in                      %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                         #10                          %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                         \center-column               %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                             {                        %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                                 Bar.                 %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                                 sax.                 %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                             }                        %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                 \vcenter                             %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                     )                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%             }                                        %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%     }                                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                \line                                                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                    {                                                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        \with-color                                      %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            #(x11-color 'DeepPink1)                      %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            {                                            %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \vcenter                                 %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    (“BaritoneSaxophone”                 %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \vcenter                                 %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \hcenter-in                          %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        #16                              %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \center-column                   %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            {                            %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                Baritone                 %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                saxophone                %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            }                            %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \concat                                  %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    {                                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \vcenter                         %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            \hcenter-in                  %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                #10                      %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                \center-column           %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    {                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                        Bar.             %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                        sax.             %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    }                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \vcenter                         %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            )                            %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    }                                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            }                                            %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                    }                                                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                             }
                         }
-                    \set SaxophoneMusicStaff.instrumentName = \markup {                  %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                            #16                                                          %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                            \center-column                                               %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                {                                                        %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                    Baritone                                             %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                    saxophone                                            %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                }                                                        %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                        }                                                                %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                    \set SaxophoneMusicStaff.shortInstrumentName = \markup {             %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                            #10                                                          %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                            \center-column                                               %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                {                                                        %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                    Bar.                                                 %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                    sax.                                                 %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                                }                                                        %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                        }                                                                %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                    \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! REDRAWN_EXPLICIT_INSTRUMENT_COLOR:SM6
+                    \set SaxophoneMusicStaff.instrumentName = \markup {                  %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                            #16                                                          %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                            \center-column                                               %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                {                                                        %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                    Baritone                                             %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                    saxophone                                            %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                }                                                        %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                        }                                                                %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                    \set SaxophoneMusicStaff.shortInstrumentName = \markup {             %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                            #10                                                          %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                            \center-column                                               %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                {                                                        %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                    Bar.                                                 %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                    sax.                                                 %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                }                                                        %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                        }                                                                %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                    \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink4) %! REDRAWN_REDUNDANT_INSTRUMENT_COLOR:SM6
                     
                     % SaxophoneMusicVoice [measure 2]                                    %! SM4
                     e''2
@@ -2117,12 +2017,6 @@
                     ^ \markup {
                         \column
                             {
-                                \line                                                    %! IC
-                                    {                                                    %! IC
-                                        \whiteout                                        %! IC
-                                            \upright                                     %! IC
-                                                "cross noteheads indicate half-harmonics" %! IC
-                                    }                                                    %! IC
                                 %%% \line                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
                                 %%%     {                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
                                 %%%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
@@ -2163,6 +2057,12 @@
                                                     }                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             }                                            %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                     }                                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                \line                                                    %! IC
+                                    {                                                    %! IC
+                                        \whiteout                                        %! IC
+                                            \upright                                     %! IC
+                                                "cross noteheads indicate half-harmonics" %! IC
+                                    }                                                    %! IC
                             }
                         }
                     \set GuitarMusicStaff.instrumentName = \markup {                     %! REDRAWN_DEFAULT_INSTRUMENT:SM8
@@ -3003,12 +2903,6 @@
                     ^ \markup {
                         \column
                             {
-                                \line                                                    %! IC
-                                    {                                                    %! IC
-                                        \whiteout                                        %! IC
-                                            \upright                                     %! IC
-                                                "tamburo: strike lowest strings with palm inside piano and let vibrate (pedal down throughout)" %! IC
-                                    }                                                    %! IC
                                 %%% \line                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
                                 %%%     {                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
                                 %%%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
@@ -3049,6 +2943,12 @@
                                                     }                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             }                                            %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                     }                                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                \line                                                    %! IC
+                                    {                                                    %! IC
+                                        \whiteout                                        %! IC
+                                            \upright                                     %! IC
+                                                "tamburo: strike lowest strings with palm inside piano and let vibrate (pedal down throughout)" %! IC
+                                    }                                                    %! IC
                             }
                         }
                     \set PianoMusicStaff.instrumentName = \markup {                      %! REDRAWN_DEFAULT_INSTRUMENT:SM8
@@ -3609,15 +3509,6 @@
                     ^ \markup {
                         \column
                             {
-                                \line                                                    %! IC
-                                    {                                                    %! IC
-                                        \whiteout                                        %! IC
-                                            \upright                                     %! IC
-                                                \override                                %! IC
-                                                    #'(box-padding . 0.5)                %! IC
-                                                    \box                                 %! IC
-                                                        "XL tam-tam"                     %! IC
-                                    }                                                    %! IC
                                 %%% \line                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
                                 %%%     {                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
                                 %%%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
@@ -3658,6 +3549,15 @@
                                                     }                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             }                                            %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                     }                                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                \line                                                    %! IC
+                                    {                                                    %! IC
+                                        \whiteout                                        %! IC
+                                            \upright                                     %! IC
+                                                \override                                %! IC
+                                                    #'(box-padding . 0.5)                %! IC
+                                                    \box                                 %! IC
+                                                        "XL tam-tam"                     %! IC
+                                    }                                                    %! IC
                                 \line                                                    %! SM14
                                     {                                                    %! SM14
                                         @                                                %! SM14
@@ -4303,12 +4203,6 @@
                     ^ \markup {
                         \column
                             {
-                                \line                                                    %! IC
-                                    {                                                    %! IC
-                                        \whiteout                                        %! IC
-                                            \upright                                     %! IC
-                                                "emphasize multiphonics and unstable harmonics prominently throughout" %! IC
-                                    }                                                    %! IC
                                 %%% \line                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
                                 %%%     {                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
                                 %%%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
@@ -4349,6 +4243,12 @@
                                                     }                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             }                                            %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                     }                                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                \line                                                    %! IC
+                                    {                                                    %! IC
+                                        \whiteout                                        %! IC
+                                            \upright                                     %! IC
+                                                "emphasize multiphonics and unstable harmonics prominently throughout" %! IC
+                                    }                                                    %! IC
                             }
                         }
                     _ \markup {                                                          %! IC
@@ -4860,12 +4760,6 @@
                     ^ \markup {
                         \column
                             {
-                                \line                                                    %! IC
-                                    {                                                    %! IC
-                                        \whiteout                                        %! IC
-                                            \upright                                     %! IC
-                                                "emphasize multiphonics and unstable harmonics prominently throughout" %! IC
-                                    }                                                    %! IC
                                 %%% \line                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
                                 %%%     {                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
                                 %%%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
@@ -4906,6 +4800,12 @@
                                                     }                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             }                                            %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                     }                                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                \line                                                    %! IC
+                                    {                                                    %! IC
+                                        \whiteout                                        %! IC
+                                            \upright                                     %! IC
+                                                "emphasize multiphonics and unstable harmonics prominently throughout" %! IC
+                                    }                                                    %! IC
                             }
                         }
                     _ \markup {                                                          %! IC
@@ -5370,12 +5270,6 @@
                     ^ \markup {
                         \column
                             {
-                                \line                                                    %! IC
-                                    {                                                    %! IC
-                                        \whiteout                                        %! IC
-                                            \upright                                     %! IC
-                                                "emphasize multiphonics and unstable harmonics prominently throughout" %! IC
-                                    }                                                    %! IC
                                 %%% \line                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
                                 %%%     {                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
                                 %%%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
@@ -5416,6 +5310,12 @@
                                                     }                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             }                                            %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                     }                                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                \line                                                    %! IC
+                                    {                                                    %! IC
+                                        \whiteout                                        %! IC
+                                            \upright                                     %! IC
+                                                "emphasize multiphonics and unstable harmonics prominently throughout" %! IC
+                                    }                                                    %! IC
                             }
                         }
                     _ \markup {                                                          %! IC
@@ -5871,12 +5771,6 @@
                     ^ \markup {
                         \column
                             {
-                                \line                                                    %! IC
-                                    {                                                    %! IC
-                                        \whiteout                                        %! IC
-                                            \upright                                     %! IC
-                                                "emphasize multiphonics and unstable harmonics prominently throughout" %! IC
-                                    }                                                    %! IC
                                 %%% \line                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
                                 %%%     {                                                %! DEFAULT_INSTRUMENT_ALERT:SM10
                                 %%%         \vcenter                                     %! DEFAULT_INSTRUMENT_ALERT:SM10
@@ -5917,6 +5811,12 @@
                                                     }                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             }                                            %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                     }                                                    %! DEFAULT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                \line                                                    %! IC
+                                    {                                                    %! IC
+                                        \whiteout                                        %! IC
+                                            \upright                                     %! IC
+                                                "emphasize multiphonics and unstable harmonics prominently throughout" %! IC
+                                    }                                                    %! IC
                             }
                         }
                     _ \markup {                                                          %! IC
