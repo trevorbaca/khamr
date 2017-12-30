@@ -1921,7 +1921,7 @@
                     \once \override PianoMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                     \once \override PianoMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
                     \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                    c'2
+                    b'2
                     \mp                                                                  %! REAPPLIED_DYNAMIC:SM8
                     ^ \markup {
                         \column
@@ -1982,57 +1982,57 @@
                     \override PianoMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                     
                     % PianoMusicVoice [measure 46]                                       %! SM4
-                    c'2
+                    b'2
                     \repeatTie
                     
                     % PianoMusicVoice [measure 47]                                       %! SM4
-                    c'1.
+                    b'1.
                     \repeatTie
                     
                     % PianoMusicVoice [measure 48]                                       %! SM4
-                    c'2.
+                    b'2.
                     \repeatTie
                     
                     % PianoMusicVoice [measure 49]                                       %! SM4
-                    c'1
+                    b'1
                     \repeatTie
                     
                     % PianoMusicVoice [measure 50]                                       %! SM4
-                    c'2.
+                    b'2.
                     \repeatTie
                     
                     % PianoMusicVoice [measure 51]                                       %! SM4
-                    c'1
+                    b'1
                     \repeatTie
                     
                     % PianoMusicVoice [measure 52]                                       %! SM4
-                    c'2.
+                    b'2.
                     \repeatTie
                     
-                    c'2
+                    b'2
                     \repeatTie
                     
                     % PianoMusicVoice [measure 53]                                       %! SM4
-                    c'1
+                    b'1
                     \repeatTie
                     
                     % PianoMusicVoice [measure 54]                                       %! SM4
-                    c'2.
+                    b'2.
                     \repeatTie
                     
                     % PianoMusicVoice [measure 55]                                       %! SM4
-                    c'1
+                    b'1
                     \repeatTie
                     
                     % PianoMusicVoice [measure 56]                                       %! SM4
-                    c'2.
+                    b'2.
                     \repeatTie
                     
-                    c'2
+                    b'2
                     \repeatTie
                     
                     % PianoMusicVoice [measure 57]                                       %! SM4
-                    c'2.
+                    b'2.
                     \repeatTie
                     \revert RepeatTie.direction                                          %! OC
                     

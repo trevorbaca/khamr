@@ -662,7 +662,7 @@
                     \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                     \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
                     \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                    c'2
+                    b'2
                     \pp                                                                  %! REAPPLIED_DYNAMIC:SM8
                     ^ \markup {
                         \column
@@ -723,91 +723,91 @@
                     \override OboeMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                     
                     % OboeMusicVoice [measure 113]                                       %! SM4
-                    c'2
+                    b'2
                     \repeatTie
                     
                     % OboeMusicVoice [measure 114]                                       %! SM4
-                    c'1.
+                    b'1.
                     \repeatTie
                     
                     % OboeMusicVoice [measure 115]                                       %! SM4
-                    c'4..
+                    b'4..
                     \repeatTie
                     
                     r16
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
-                    c'4
+                    b'4
                     
                     % OboeMusicVoice [measure 116]                                       %! SM4
-                    c'1
+                    b'1
                     \repeatTie
                     
                     % OboeMusicVoice [measure 117]                                       %! SM4
-                    c'2.
+                    b'2.
                     \repeatTie
                     
                     % OboeMusicVoice [measure 118]                                       %! SM4
-                    c'2
+                    b'2
                     \repeatTie
                     
-                    c'8.
+                    b'8.
                     \repeatTie
                     
                     r16
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
-                    c'4
+                    b'4
                     
                     % OboeMusicVoice [measure 119]                                       %! SM4
-                    c'2.
+                    b'2.
                     \repeatTie
                     
-                    c'2
+                    b'2
                     \repeatTie
                     
                     % OboeMusicVoice [measure 120]                                       %! SM4
-                    c'2...
+                    b'2...
                     \repeatTie
                     
                     r16
                     
                     % OboeMusicVoice [measure 121]                                       %! SM4
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
-                    c'2.
+                    b'2.
                     
                     % OboeMusicVoice [measure 122]                                       %! SM4
-                    c'1
+                    b'1
                     \repeatTie
                     
                     % OboeMusicVoice [measure 123]                                       %! SM4
-                    c'2
+                    b'2
                     \repeatTie
                     
-                    c'8.
+                    b'8.
                     \repeatTie
                     
                     r16
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
-                    c'2
+                    b'2
                     
                     % OboeMusicVoice [measure 124]                                       %! SM4
-                    c'2.
+                    b'2.
                     \repeatTie
                     
                     % OboeMusicVoice [measure 125]                                       %! SM4
-                    c'2
+                    b'2
                     \repeatTie
                     
                     % OboeMusicVoice [measure 126]                                       %! SM4
-                    c'2.
+                    b'2.
                     \repeatTie
                     
-                    c'2
+                    b'2
                     \repeatTie
                     
-                    c'8.
+                    b'8.
                     \repeatTie
                     \revert RepeatTie.direction                                          %! OC
                     
@@ -1051,7 +1051,7 @@
                     \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                     \once \override SaxophoneMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
                     \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                    a2
+                    gs'2
                     \pp                                                                  %! REAPPLIED_DYNAMIC:SM8
                     ^ \markup {
                         \column
@@ -1136,94 +1136,94 @@
                     \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                     
                     % SaxophoneMusicVoice [measure 113]                                  %! SM4
-                    a2
+                    gs'2
                     \repeatTie
                     
                     % SaxophoneMusicVoice [measure 114]                                  %! SM4
-                    a1.
+                    gs'1.
                     \repeatTie
                     
                     % SaxophoneMusicVoice [measure 115]                                  %! SM4
-                    a2.
+                    gs'2.
                     \repeatTie
                     
                     % SaxophoneMusicVoice [measure 116]                                  %! SM4
-                    a8.
+                    gs'8.
                     \repeatTie
                     
                     r16
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
-                    a2.
+                    gs'2.
                     
                     % SaxophoneMusicVoice [measure 117]                                  %! SM4
-                    a2.
+                    gs'2.
                     \repeatTie
                     
                     % SaxophoneMusicVoice [measure 118]                                  %! SM4
-                    a1
+                    gs'1
                     \repeatTie
                     
                     % SaxophoneMusicVoice [measure 119]                                  %! SM4
-                    a2
+                    gs'2
                     \repeatTie
                     
-                    a8.
+                    gs'8.
                     \repeatTie
                     
                     r16
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
-                    a2
+                    gs'2
                     
                     % SaxophoneMusicVoice [measure 120]                                  %! SM4
-                    a1
+                    gs'1
                     \repeatTie
                     
                     % SaxophoneMusicVoice [measure 121]                                  %! SM4
-                    a2.
+                    gs'2.
                     \repeatTie
                     
                     % SaxophoneMusicVoice [measure 122]                                  %! SM4
-                    a2
+                    gs'2
                     \repeatTie
                     
-                    a8.
+                    gs'8.
                     \repeatTie
                     
                     r16
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
-                    a4
+                    gs'4
                     
                     % SaxophoneMusicVoice [measure 123]                                  %! SM4
-                    a2.
+                    gs'2.
                     \repeatTie
                     
-                    a2
+                    gs'2
                     \repeatTie
                     
                     % SaxophoneMusicVoice [measure 124]                                  %! SM4
-                    a2.
+                    gs'2.
                     \repeatTie
                     
                     % SaxophoneMusicVoice [measure 125]                                  %! SM4
-                    a2
+                    gs'2
                     \repeatTie
                     
                     % SaxophoneMusicVoice [measure 126]                                  %! SM4
-                    a2
+                    gs'2
                     \repeatTie
                     
-                    a8.
+                    gs'8.
                     \repeatTie
                     
                     r16
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
-                    a2
+                    gs'2
                     
-                    a8.
+                    gs'8.
                     \repeatTie
                     \revert RepeatTie.direction                                          %! OC
                     
