@@ -660,9 +660,9 @@
                     \once \override OboeMusicStaff.Clef.color = #(x11-color 'green4)     %! REAPPLIED_CLEF_COLOR:SM6
                     %%% \override OboeMusicStaff.Clef.color = ##f                        %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                     \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
-                    \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
                     \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                    b'2
+                    \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
+                    c'2
                     \pp                                                                  %! REAPPLIED_DYNAMIC:SM8
                     ^ \markup {
                         \column
@@ -723,91 +723,91 @@
                     \override OboeMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                     
                     % OboeMusicVoice [measure 113]                                       %! SM4
-                    b'2
+                    c'2
                     \repeatTie
                     
                     % OboeMusicVoice [measure 114]                                       %! SM4
-                    b'1.
+                    c'1.
                     \repeatTie
                     
                     % OboeMusicVoice [measure 115]                                       %! SM4
-                    b'4..
+                    c'4..
                     \repeatTie
                     
                     r16
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
-                    b'4
+                    c'4
                     
                     % OboeMusicVoice [measure 116]                                       %! SM4
-                    b'1
+                    c'1
                     \repeatTie
                     
                     % OboeMusicVoice [measure 117]                                       %! SM4
-                    b'2.
+                    c'2.
                     \repeatTie
                     
                     % OboeMusicVoice [measure 118]                                       %! SM4
-                    b'2
+                    c'2
                     \repeatTie
                     
-                    b'8.
+                    c'8.
                     \repeatTie
                     
                     r16
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
-                    b'4
+                    c'4
                     
                     % OboeMusicVoice [measure 119]                                       %! SM4
-                    b'2.
+                    c'2.
                     \repeatTie
                     
-                    b'2
+                    c'2
                     \repeatTie
                     
                     % OboeMusicVoice [measure 120]                                       %! SM4
-                    b'2...
+                    c'2...
                     \repeatTie
                     
                     r16
                     
                     % OboeMusicVoice [measure 121]                                       %! SM4
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
-                    b'2.
+                    c'2.
                     
                     % OboeMusicVoice [measure 122]                                       %! SM4
-                    b'1
+                    c'1
                     \repeatTie
                     
                     % OboeMusicVoice [measure 123]                                       %! SM4
-                    b'2
+                    c'2
                     \repeatTie
                     
-                    b'8.
+                    c'8.
                     \repeatTie
                     
                     r16
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
-                    b'2
+                    c'2
                     
                     % OboeMusicVoice [measure 124]                                       %! SM4
-                    b'2.
+                    c'2.
                     \repeatTie
                     
                     % OboeMusicVoice [measure 125]                                       %! SM4
-                    b'2
+                    c'2
                     \repeatTie
                     
                     % OboeMusicVoice [measure 126]                                       %! SM4
-                    b'2.
+                    c'2.
                     \repeatTie
                     
-                    b'2
+                    c'2
                     \repeatTie
                     
-                    b'8.
+                    c'8.
                     \repeatTie
                     \revert RepeatTie.direction                                          %! OC
                     
@@ -1049,9 +1049,9 @@
                     \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
                     %%% \override SaxophoneMusicStaff.Clef.color = ##f                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                     \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
-                    \once \override SaxophoneMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
                     \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                    gs'2
+                    \once \override SaxophoneMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! REDUNDANT_STAFF_LINES_COLOR:SM6
+                    c'2
                     \pp                                                                  %! REAPPLIED_DYNAMIC:SM8
                     ^ \markup {
                         \column
@@ -1136,94 +1136,94 @@
                     \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                     
                     % SaxophoneMusicVoice [measure 113]                                  %! SM4
-                    gs'2
+                    c'2
                     \repeatTie
                     
                     % SaxophoneMusicVoice [measure 114]                                  %! SM4
-                    gs'1.
+                    c'1.
                     \repeatTie
                     
                     % SaxophoneMusicVoice [measure 115]                                  %! SM4
-                    gs'2.
+                    c'2.
                     \repeatTie
                     
                     % SaxophoneMusicVoice [measure 116]                                  %! SM4
-                    gs'8.
+                    c'8.
                     \repeatTie
                     
                     r16
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
-                    gs'2.
+                    c'2.
                     
                     % SaxophoneMusicVoice [measure 117]                                  %! SM4
-                    gs'2.
+                    c'2.
                     \repeatTie
                     
                     % SaxophoneMusicVoice [measure 118]                                  %! SM4
-                    gs'1
+                    c'1
                     \repeatTie
                     
                     % SaxophoneMusicVoice [measure 119]                                  %! SM4
-                    gs'2
+                    c'2
                     \repeatTie
                     
-                    gs'8.
+                    c'8.
                     \repeatTie
                     
                     r16
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
-                    gs'2
+                    c'2
                     
                     % SaxophoneMusicVoice [measure 120]                                  %! SM4
-                    gs'1
+                    c'1
                     \repeatTie
                     
                     % SaxophoneMusicVoice [measure 121]                                  %! SM4
-                    gs'2.
+                    c'2.
                     \repeatTie
                     
                     % SaxophoneMusicVoice [measure 122]                                  %! SM4
-                    gs'2
+                    c'2
                     \repeatTie
                     
-                    gs'8.
+                    c'8.
                     \repeatTie
                     
                     r16
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
-                    gs'4
+                    c'4
                     
                     % SaxophoneMusicVoice [measure 123]                                  %! SM4
-                    gs'2.
+                    c'2.
                     \repeatTie
                     
-                    gs'2
+                    c'2
                     \repeatTie
                     
                     % SaxophoneMusicVoice [measure 124]                                  %! SM4
-                    gs'2.
+                    c'2.
                     \repeatTie
                     
                     % SaxophoneMusicVoice [measure 125]                                  %! SM4
-                    gs'2
+                    c'2
                     \repeatTie
                     
                     % SaxophoneMusicVoice [measure 126]                                  %! SM4
-                    gs'2
+                    c'2
                     \repeatTie
                     
-                    gs'8.
+                    c'8.
                     \repeatTie
                     
                     r16
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
-                    gs'2
+                    c'2
                     
-                    gs'8.
+                    c'8.
                     \repeatTie
                     \revert RepeatTie.direction                                          %! OC
                     
@@ -1975,12 +1975,6 @@
                     ^ \markup {
                         \column
                             {
-                                \line                                                    %! IC
-                                    {                                                    %! IC
-                                        \whiteout                                        %! IC
-                                            \upright                                     %! IC
-                                                "bow on wooden mute"                     %! IC
-                                    }                                                    %! IC
                                 %%% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                 %%%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                 %%%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -2021,6 +2015,12 @@
                                                     }                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             }                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                     }                                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                \line                                                    %! IC
+                                    {                                                    %! IC
+                                        \whiteout                                        %! IC
+                                            \upright                                     %! IC
+                                                "bow on wooden mute"                     %! IC
+                                    }                                                    %! IC
                             }
                         }
                     \set ViolinMusicStaff.instrumentName = \markup {                     %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
@@ -2164,12 +2164,6 @@
                     ^ \markup {
                         \column
                             {
-                                \line                                                    %! IC
-                                    {                                                    %! IC
-                                        \whiteout                                        %! IC
-                                            \upright                                     %! IC
-                                                "bow on wooden mute"                     %! IC
-                                    }                                                    %! IC
                                 %%% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                 %%%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                 %%%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -2210,6 +2204,12 @@
                                                     }                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             }                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                     }                                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                \line                                                    %! IC
+                                    {                                                    %! IC
+                                        \whiteout                                        %! IC
+                                            \upright                                     %! IC
+                                                "bow on wooden mute"                     %! IC
+                                    }                                                    %! IC
                             }
                         }
                     \set ViolaMusicStaff.instrumentName = \markup {                      %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
@@ -2353,12 +2353,6 @@
                     ^ \markup {
                         \column
                             {
-                                \line                                                    %! IC
-                                    {                                                    %! IC
-                                        \whiteout                                        %! IC
-                                            \upright                                     %! IC
-                                                "bow on tailpiece"                       %! IC
-                                    }                                                    %! IC
                                 %%% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                 %%%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
                                 %%%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
@@ -2399,6 +2393,12 @@
                                                     }                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                             }                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
                                     }                                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                \line                                                    %! IC
+                                    {                                                    %! IC
+                                        \whiteout                                        %! IC
+                                            \upright                                     %! IC
+                                                "bow on tailpiece"                       %! IC
+                                    }                                                    %! IC
                             }
                         }
                     \set CelloMusicStaff.instrumentName = \markup {                      %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
@@ -2525,167 +2525,99 @@
                     \stopStaff                                                           %! EXPLICIT_STAFF_LINES:SM8
                     \once \override ContrabassMusicStaff.StaffSymbol.line-count = 1      %! EXPLICIT_STAFF_LINES:SM8
                     \startStaff                                                          %! EXPLICIT_STAFF_LINES:SM8
-                    \set ContrabassMusicStaff.instrumentName = \markup {                 %! REAPPLIED_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! REAPPLIED_INSTRUMENT:SM8
-                            #16                                                          %! REAPPLIED_INSTRUMENT:SM8
-                            Contrabass                                                   %! REAPPLIED_INSTRUMENT:SM8
-                        }                                                                %! REAPPLIED_INSTRUMENT:SM8
-                    \set ContrabassMusicStaff.shortInstrumentName = \markup {            %! REAPPLIED_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! REAPPLIED_INSTRUMENT:SM8
-                            #10                                                          %! REAPPLIED_INSTRUMENT:SM8
-                            Cb.                                                          %! REAPPLIED_INSTRUMENT:SM8
-                        }                                                                %! REAPPLIED_INSTRUMENT:SM8
                     \set ContrabassMusicStaff.forceClef = ##t                            %! EXPLICIT_CLEF:SM8
                     \clef "percussion"                                                   %! EXPLICIT_CLEF:SM8
-                    \once \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                     \once \override ContrabassMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
                     %%% \override ContrabassMusicStaff.Clef.color = ##f                  %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
                     \once \override ContrabassMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
                     \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                    c''2
+                    c'2
                     -\downbow                                                            %! IC
                     \p                                                                   %! EXPLICIT_DYNAMIC:SM8
-                    ^ \markup {
-                        \column
-                            {
-                                \line                                                    %! IC
-                                    {                                                    %! IC
-                                        \whiteout                                        %! IC
-                                            \upright                                     %! IC
-                                                "bow on tailpiece"                       %! IC
-                                    }                                                    %! IC
-                                %%% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%             (“Contrabass”                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%             \hcenter-in                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                 #16                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                 Contrabass                           %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%         \concat                                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%             {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                     \hcenter-in                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                         #10                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                         Cb.                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%                     )                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%             }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                %%%     }                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
-                                \line                                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                    {                                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                        \with-color                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                            #(x11-color 'green4)                         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                            {                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    (“Contrabass”                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    \hcenter-in                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        #16                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        Contrabass                       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                \concat                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    {                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \vcenter                         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            \hcenter-in                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                #10                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                                Cb.                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                        \vcenter                         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                            )                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                                    }                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                            }                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                                    }                                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
-                            }
-                        }
-                    \set ContrabassMusicStaff.instrumentName = \markup {                 %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                            #16                                                          %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                            Contrabass                                                   %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                        }                                                                %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                    \set ContrabassMusicStaff.shortInstrumentName = \markup {            %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                        \hcenter-in                                                      %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                            #10                                                          %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                            Cb.                                                          %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                        }                                                                %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
-                    \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
+                    ^ \markup {                                                          %! IC
+                        \whiteout                                                        %! IC
+                            \upright                                                     %! IC
+                                "bow on tailpiece"                                       %! IC
+                        }                                                                %! IC
                     \override ContrabassMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                     
                     % ContrabassMusicVoice [measure 113]                                 %! SM4
-                    c''2
+                    c'2
                     \repeatTie
                     
                     % ContrabassMusicVoice [measure 114]                                 %! SM4
-                    c''1
+                    c'1
                     -\upbow                                                              %! IC
                     
-                    c''2
+                    c'2
                     -\downbow                                                            %! IC
                     
                     % ContrabassMusicVoice [measure 115]                                 %! SM4
-                    c''2
+                    c'2
                     \repeatTie
                     
-                    c''4
+                    c'4
                     -\upbow                                                              %! IC
                     
                     % ContrabassMusicVoice [measure 116]                                 %! SM4
-                    c''2.
+                    c'2.
                     \repeatTie
                     
-                    c''4
+                    c'4
                     -\downbow                                                            %! IC
                     
                     % ContrabassMusicVoice [measure 117]                                 %! SM4
-                    c''2.
+                    c'2.
                     \repeatTie
                     
                     % ContrabassMusicVoice [measure 118]                                 %! SM4
-                    c''1
+                    c'1
                     -\upbow                                                              %! IC
                     
                     % ContrabassMusicVoice [measure 119]                                 %! SM4
-                    c''1
+                    c'1
                     -\downbow                                                            %! IC
                     \>
                     \p
                     
-                    c''4
+                    c'4
                     -\upbow                                                              %! IC
                     
                     % ContrabassMusicVoice [measure 120]                                 %! SM4
-                    c''2.
+                    c'2.
                     \repeatTie
                     
-                    c''4
+                    c'4
                     -\downbow                                                            %! IC
                     
                     % ContrabassMusicVoice [measure 121]                                 %! SM4
-                    c''2.
+                    c'2.
                     \repeatTie
                     
                     % ContrabassMusicVoice [measure 122]                                 %! SM4
-                    c''1
+                    c'1
                     -\upbow                                                              %! IC
                     
                     % ContrabassMusicVoice [measure 123]                                 %! SM4
-                    c''1
+                    c'1
                     -\downbow                                                            %! IC
                     
-                    c''4
+                    c'4
                     -\upbow                                                              %! IC
                     
                     % ContrabassMusicVoice [measure 124]                                 %! SM4
-                    c''2.
+                    c'2.
                     \repeatTie
                     
                     % ContrabassMusicVoice [measure 125]                                 %! SM4
-                    c''2
+                    c'2
                     -\downbow                                                            %! IC
                     
                     % ContrabassMusicVoice [measure 126]                                 %! SM4
-                    c''2
+                    c'2
                     \repeatTie
                     
-                    c''1
+                    c'1
                     -\upbow                                                              %! IC
                     \ppp
                     
