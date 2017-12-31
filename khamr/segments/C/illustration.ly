@@ -2078,7 +2078,7 @@
                     -\upbow                                                              %! IC
                     
                     % ViolinMusicVoice [measure 119]                                     %! SM4
-                    \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                    \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     c'1
                     \repeatTie
                     \>
@@ -2269,7 +2269,7 @@
                     \repeatTie
                     
                     % ViolaMusicVoice [measure 119]                                      %! SM4
-                    \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                    \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     c'2.
                     -\downbow                                                            %! IC
                     \>
@@ -2460,7 +2460,7 @@
                     -\downbow                                                            %! IC
                     
                     % CelloMusicVoice [measure 119]                                      %! SM4
-                    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     c'4
                     \repeatTie
                     \>
@@ -2657,7 +2657,7 @@
                     -\upbow                                                              %! IC
                     
                     % ContrabassMusicVoice [measure 119]                                 %! SM4
-                    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+                    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     c'1
                     -\downbow                                                            %! IC
                     \>
