@@ -55,6 +55,21 @@ metadata = abjad.TypedOrderedDict(
                             ],
                         ),
                     (
+                        'ContrabassMusicStaff',
+                        [
+                            abjad.Momento(
+                                context='ContrabassMusicVoice',
+                                prototype='abjad.Clef',
+                                value='bass',
+                                ),
+                            abjad.Momento(
+                                context='ContrabassMusicVoice',
+                                prototype='abjad.Instrument',
+                                value='Contrabass',
+                                ),
+                            ],
+                        ),
+                    (
                         'ContrabassMusicVoice',
                         [
                             abjad.Momento(

@@ -693,45 +693,147 @@
                 \context FluteMusicVoice = "FluteMusicVoice" {
                     
                     % FluteMusicVoice [measure 1]                                        %! SM4
-                    <g g'>2
-                    ^ \markup {                                                          %! IC
-                        \whiteout                                                        %! IC
-                            \upright                                                     %! IC
-                                \override                                                %! IC
-                                    #'(box-padding . 0.5)                                %! IC
-                                    \box                                                 %! IC
-                                        L.17                                             %! IC
-                        }                                                                %! IC
+                    \set FluteMusicStaff.instrumentName = \markup {                      %! REDUNDANT_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REDUNDANT_INSTRUMENT:SM8
+                            #16                                                          %! REDUNDANT_INSTRUMENT:SM8
+                            \center-column                                               %! REDUNDANT_INSTRUMENT:SM8
+                                {                                                        %! REDUNDANT_INSTRUMENT:SM8
+                                    Bass                                                 %! REDUNDANT_INSTRUMENT:SM8
+                                    flute                                                %! REDUNDANT_INSTRUMENT:SM8
+                                }                                                        %! REDUNDANT_INSTRUMENT:SM8
+                        }                                                                %! REDUNDANT_INSTRUMENT:SM8
+                    \set FluteMusicStaff.shortInstrumentName = \markup {                 %! REDUNDANT_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REDUNDANT_INSTRUMENT:SM8
+                            #10                                                          %! REDUNDANT_INSTRUMENT:SM8
+                            \center-column                                               %! REDUNDANT_INSTRUMENT:SM8
+                                {                                                        %! REDUNDANT_INSTRUMENT:SM8
+                                    Bass                                                 %! REDUNDANT_INSTRUMENT:SM8
+                                    fl.                                                  %! REDUNDANT_INSTRUMENT:SM8
+                                }                                                        %! REDUNDANT_INSTRUMENT:SM8
+                        }                                                                %! REDUNDANT_INSTRUMENT:SM8
+                    \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) %! REDUNDANT_INSTRUMENT_COLOR:SM6
+                    \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                    <g' g''>2
+                    \mp                                                                  %! EXPLICIT_DYNAMIC:SM8
+                    ^ \markup {
+                        \column
+                            {
+                                %%% \line                                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%     {                                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%         \vcenter                                     %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%             (“BassFlute”                             %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%         \vcenter                                     %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%             \hcenter-in                              %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                 #16                                  %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                 \center-column                       %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                     {                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                         Bass                         %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                         flute                        %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                     }                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%         \concat                                      %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%             {                                        %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                 \vcenter                             %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                     \hcenter-in                      %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                         #10                          %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                         \center-column               %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                             {                        %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                                 Bass                 %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                                 fl.                  %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                             }                        %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                 \vcenter                             %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%                     )                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%             }                                        %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                %%%     }                                                %! REDUNDANT_INSTRUMENT_ALERT:SM10
+                                \line                                                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                    {                                                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        \with-color                                      %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            #(x11-color 'DeepPink1)                      %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            {                                            %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \vcenter                                 %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    (“BassFlute”                         %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \vcenter                                 %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \hcenter-in                          %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        #16                              %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \center-column                   %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            {                            %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                Bass                     %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                flute                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            }                            %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \concat                                  %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    {                                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \vcenter                         %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            \hcenter-in                  %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                #10                      %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                \center-column           %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    {                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                        Bass             %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                        fl.              %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    }                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \vcenter                         %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            )                            %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    }                                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            }                                            %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                    }                                                    %! REDUNDANT_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                \line                                                    %! IC
+                                    {                                                    %! IC
+                                        \whiteout                                        %! IC
+                                            \upright                                     %! IC
+                                                \override                                %! IC
+                                                    #'(box-padding . 0.5)                %! IC
+                                                    \box                                 %! IC
+                                                        L.17                             %! IC
+                                    }                                                    %! IC
+                            }
+                        }
+                    \set FluteMusicStaff.instrumentName = \markup {                      %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                            #16                                                          %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                            \center-column                                               %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                {                                                        %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                    Bass                                                 %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                    flute                                                %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                }                                                        %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                        }                                                                %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                    \set FluteMusicStaff.shortInstrumentName = \markup {                 %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                            #10                                                          %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                            \center-column                                               %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                {                                                        %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                    Bass                                                 %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                    fl.                                                  %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                                }                                                        %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                        }                                                                %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                    \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink4) %! REDRAWN_REDUNDANT_INSTRUMENT_COLOR:SM6
                     
                     % FluteMusicVoice [measure 2]                                        %! SM4
-                    <g g'>2
+                    <g' g''>2
                     \repeatTie
                     
                     % FluteMusicVoice [measure 3]                                        %! SM4
-                    <g g'>1.
+                    <g' g''>1.
                     \repeatTie
                     
                     % FluteMusicVoice [measure 4]                                        %! SM4
-                    <g g'>4.
+                    <g' g''>4.
                     \repeatTie
                     
                     r8
                     
-                    <g g'>4
+                    <g' g''>4
                     
                     % FluteMusicVoice [measure 5]                                        %! SM4
-                    <g g'>1
+                    <g' g''>1
                     \repeatTie
                     
                     % FluteMusicVoice [measure 6]                                        %! SM4
-                    <g g'>2.
+                    <g' g''>2.
                     \repeatTie
                     
                     % FluteMusicVoice [measure 7]                                        %! SM4
-                    <g g'>2
+                    <g' g''>2
                     \repeatTie
                     
-                    <g g'>8
+                    <g' g''>8
                     \repeatTie
                     
                     r4.
@@ -742,35 +844,35 @@
                     r2
                     
                     % FluteMusicVoice [measure 9]                                        %! SM4
-                    <g g'>1
+                    <g' g''>1
                     
                     % FluteMusicVoice [measure 10]                                       %! SM4
-                    <g g'>2.
+                    <g' g''>2.
                     \repeatTie
                     
                     % FluteMusicVoice [measure 11]                                       %! SM4
-                    <g g'>2
+                    <g' g''>2
                     \repeatTie
                     
-                    <g g'>8
+                    <g' g''>8
                     \repeatTie
                     
                     r8
                     
-                    <g g'>4
+                    <g' g''>4
                     
                     % FluteMusicVoice [measure 12]                                       %! SM4
-                    <g g'>2.
+                    <g' g''>2.
                     \repeatTie
                     
-                    <g g'>2
+                    <g' g''>2
                     \repeatTie
                     
                     % FluteMusicVoice [measure 13]                                       %! SM4
-                    <g g'>4.
+                    <g' g''>4.
                     \repeatTie
                     
-                    <g g'>4
+                    <g' g''>4
                     \repeatTie
                     
                     r8
@@ -782,26 +884,26 @@
                     r1.
                     
                     % FluteMusicVoice [measure 16]                                       %! SM4
-                    <g g'>2
+                    <g' g''>2
                     
                     % FluteMusicVoice [measure 17]                                       %! SM4
-                    <g g'>2.
+                    <g' g''>2.
                     \repeatTie
                     
-                    <g g'>2
+                    <g' g''>2
                     \repeatTie
                     
                     % FluteMusicVoice [measure 18]                                       %! SM4
-                    <g g'>2.
+                    <g' g''>2.
                     \repeatTie
                     
                     % FluteMusicVoice [measure 19]                                       %! SM4
-                    <g g'>8
+                    <g' g''>8
                     \repeatTie
                     
                     r8
                     
-                    <gs gs'>2.
+                    <gs' gs''>2.
                     ^ \markup {                                                          %! IC
                         \whiteout                                                        %! IC
                             \upright                                                     %! IC
@@ -812,15 +914,15 @@
                         }                                                                %! IC
                     
                     % FluteMusicVoice [measure 20]                                       %! SM4
-                    <gs gs'>1.
+                    <gs' gs''>1.
                     \repeatTie
                     
                     % FluteMusicVoice [measure 21]                                       %! SM4
-                    <gs gs'>2
+                    <gs' gs''>2
                     \repeatTie
                     
                     % FluteMusicVoice [measure 22]                                       %! SM4
-                    <gs gs'>8
+                    <gs' gs''>8
                     \repeatTie
                     
                     r4.
@@ -831,37 +933,37 @@
                     % FluteMusicVoice [measure 24]                                       %! SM4
                     r2
                     
-                    <gs gs'>2
+                    <gs' gs''>2
                     
                     % FluteMusicVoice [measure 25]                                       %! SM4
-                    <gs gs'>2
+                    <gs' gs''>2
                     \repeatTie
                     
                     % FluteMusicVoice [measure 26]                                       %! SM4
-                    <gs gs'>2
+                    <gs' gs''>2
                     \repeatTie
                     
                     % FluteMusicVoice [measure 27]                                       %! SM4
-                    <gs gs'>2.
+                    <gs' gs''>2.
                     \repeatTie
                     
-                    <gs gs'>2
+                    <gs' gs''>2
                     \repeatTie
                     
-                    <gs gs'>8
+                    <gs' gs''>8
                     \repeatTie
                     
                     r8
                     
                     % FluteMusicVoice [measure 28]                                       %! SM4
-                    <gs gs'>1
+                    <gs' gs''>1
                     
                     % FluteMusicVoice [measure 29]                                       %! SM4
-                    <gs gs'>2.
+                    <gs' gs''>2.
                     \repeatTie
                     
                     % FluteMusicVoice [measure 30]                                       %! SM4
-                    <gs gs'>4
+                    <gs' gs''>4
                     \repeatTie
                     
                     r2
@@ -872,32 +974,32 @@
                     % FluteMusicVoice [measure 32]                                       %! SM4
                     r4
                     
-                    <gs gs'>1
+                    <gs' gs''>1
                     
                     % FluteMusicVoice [measure 33]                                       %! SM4
-                    <gs gs'>2.
+                    <gs' gs''>2.
                     \repeatTie
                     
                     % FluteMusicVoice [measure 34]                                       %! SM4
-                    <gs gs'>2
+                    <gs' gs''>2
                     \repeatTie
                     
-                    <gs gs'>8
+                    <gs' gs''>8
                     \repeatTie
                     
                     r8
                     
-                    <gs gs'>4
+                    <gs' gs''>4
                     
                     % FluteMusicVoice [measure 35]                                       %! SM4
-                    <gs gs'>1
+                    <gs' gs''>1
                     \repeatTie
                     
                     % FluteMusicVoice [measure 36]                                       %! SM4
-                    <gs gs'>2.
+                    <gs' gs''>2.
                     \repeatTie
                     
-                    <gs gs'>4.
+                    <gs' gs''>4.
                     \repeatTie
                     
                     r8
@@ -911,38 +1013,38 @@
                     % FluteMusicVoice [measure 39]                                       %! SM4
                     r2.
                     
-                    a'2.
+                    a''2.
                     \>
                     \mp
                     \startTrillSpan
                     
                     % FluteMusicVoice [measure 40]                                       %! SM4
-                    a'2
+                    a''2
                     \repeatTie
                     
                     % FluteMusicVoice [measure 41]                                       %! SM4
-                    a'2.
+                    a''2.
                     \repeatTie
                     
-                    a'2
+                    a''2
                     \repeatTie
                     
                     % FluteMusicVoice [measure 42]                                       %! SM4
-                    a'4
+                    a''4
                     \repeatTie
                     
                     r8
                     \stopTrillSpan
                     
-                    a'4.
+                    a''4.
                     \startTrillSpan
                     
                     % FluteMusicVoice [measure 43]                                       %! SM4
-                    a'1
+                    a''1
                     \repeatTie
                     
                     % FluteMusicVoice [measure 44]                                       %! SM4
-                    a'1
+                    a''1
                     \repeatTie
                     \pp
                     
@@ -1270,7 +1372,10 @@
                     \override OboeMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2)     %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                     
                     % OboeMusicVoice [measure 38]                                        %! SM4
+                    \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     <e'' b''>2
+                    -\flageolet                                                          %! IC
+                    \pp                                                                  %! EXPLICIT_DYNAMIC:SM8
                     
                     % OboeMusicVoice [measure 39]                                        %! SM4
                     <e'' b''>1.
@@ -1287,6 +1392,7 @@
                     r8
                     
                     <e'' b''>2.
+                    -\flageolet                                                          %! IC
                     
                     % OboeMusicVoice [measure 42]                                        %! SM4
                     <e'' b''>2.
@@ -1949,7 +2055,9 @@
                     r1.
                     
                     % SaxophoneMusicVoice [measure 40]                                   %! SM4
+                    \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     <d'' eqs''>2
+                    \p                                                                   %! EXPLICIT_DYNAMIC:SM8
                     ^ \markup {                                                          %! IC
                         \whiteout                                                        %! IC
                             \upright                                                     %! IC
