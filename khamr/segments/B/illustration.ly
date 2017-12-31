@@ -740,8 +740,10 @@
                             Fl.                                                          %! REAPPLIED_INSTRUMENT:SM8
                         }                                                                %! REAPPLIED_INSTRUMENT:SM8
                     \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                    \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                     b''2
                     :32                                                                  %! IC
+                    \mp                                                                  %! REAPPLIED_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
@@ -1856,10 +1858,120 @@
                 \context OboeMusicVoice = "OboeMusicVoice" {
                     
                     % OboeMusicVoice [measure 75]                                        %! SM4
-                    gs2
+                    \stopStaff                                                           %! REAPPLIED_STAFF_LINES:SM8
+                    \once \override OboeMusicStaff.StaffSymbol.line-count = 5            %! REAPPLIED_STAFF_LINES:SM8
+                    \startStaff                                                          %! REAPPLIED_STAFF_LINES:SM8
+                    \set OboeMusicStaff.instrumentName = \markup {                       %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REAPPLIED_INSTRUMENT:SM8
+                            #16                                                          %! REAPPLIED_INSTRUMENT:SM8
+                            \center-column                                               %! REAPPLIED_INSTRUMENT:SM8
+                                {                                                        %! REAPPLIED_INSTRUMENT:SM8
+                                    English                                              %! REAPPLIED_INSTRUMENT:SM8
+                                    horn                                                 %! REAPPLIED_INSTRUMENT:SM8
+                                }                                                        %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                                %! REAPPLIED_INSTRUMENT:SM8
+                    \set OboeMusicStaff.shortInstrumentName = \markup {                  %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REAPPLIED_INSTRUMENT:SM8
+                            #10                                                          %! REAPPLIED_INSTRUMENT:SM8
+                            \center-column                                               %! REAPPLIED_INSTRUMENT:SM8
+                                {                                                        %! REAPPLIED_INSTRUMENT:SM8
+                                    Eng.                                                 %! REAPPLIED_INSTRUMENT:SM8
+                                    hn.                                                  %! REAPPLIED_INSTRUMENT:SM8
+                                }                                                        %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                                %! REAPPLIED_INSTRUMENT:SM8
+                    \set OboeMusicStaff.forceClef = ##t                                  %! REAPPLIED_CLEF:SM8
+                    \clef "treble"                                                       %! REAPPLIED_CLEF:SM8
+                    \once \override OboeMusicStaff.Clef.color = #(x11-color 'green4)     %! REAPPLIED_CLEF_COLOR:SM6
+                    %%% \override OboeMusicStaff.Clef.color = ##f                        %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+                    \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                    \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
+                    \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
+                    ds'2
+                    \pp                                                                  %! REAPPLIED_DYNAMIC:SM8
+                    ^ \markup {
+                        \column
+                            {
+                                %%% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%             (“EnglishHorn”                           %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%             \hcenter-in                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                 #16                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                 \center-column                       %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                     {                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                         English                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                         horn                         %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                     }                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%         \concat                                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%             {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                     \hcenter-in                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                         #10                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                         \center-column               %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                             {                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                                 Eng.                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                                 hn.                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                             }                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                     )                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%             }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%     }                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                \line                                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                    {                                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        \with-color                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            #(x11-color 'green4)                         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            {                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    (“EnglishHorn”                       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \hcenter-in                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        #16                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \center-column                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            {                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                English                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                horn                     %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            }                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \concat                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    {                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \vcenter                         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            \hcenter-in                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                #10                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                \center-column           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    {                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                        Eng.             %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                        hn.              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    }                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \vcenter                         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            )                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    }                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            }                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                    }                                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                            }
+                        }
+                    \set OboeMusicStaff.instrumentName = \markup {                       %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                            #16                                                          %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                            \center-column                                               %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                {                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                    English                                              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                    horn                                                 %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                }                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                        }                                                                %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                    \set OboeMusicStaff.shortInstrumentName = \markup {                  %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                            #10                                                          %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                            \center-column                                               %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                {                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                    Eng.                                                 %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                    hn.                                                  %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                }                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                        }                                                                %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                    \override OboeMusicStaff.Clef.color = #(x11-color 'OliveDrab)        %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
+                    \override OboeMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                     
                     % OboeMusicVoice [measure 76]                                        %! SM4
-                    gs2
+                    ds'2
                     \repeatTie
                     
                     % OboeMusicVoice [measure 77]                                        %! SM4
@@ -4209,10 +4321,111 @@
                 \context SaxophoneMusicVoice = "SaxophoneMusicVoice" {
                     
                     % SaxophoneMusicVoice [measure 75]                                   %! SM4
-                    gs,2
+                    \set SaxophoneMusicStaff.instrumentName = \markup {                  %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REAPPLIED_INSTRUMENT:SM8
+                            #16                                                          %! REAPPLIED_INSTRUMENT:SM8
+                            \center-column                                               %! REAPPLIED_INSTRUMENT:SM8
+                                {                                                        %! REAPPLIED_INSTRUMENT:SM8
+                                    Baritone                                             %! REAPPLIED_INSTRUMENT:SM8
+                                    saxophone                                            %! REAPPLIED_INSTRUMENT:SM8
+                                }                                                        %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                                %! REAPPLIED_INSTRUMENT:SM8
+                    \set SaxophoneMusicStaff.shortInstrumentName = \markup {             %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REAPPLIED_INSTRUMENT:SM8
+                            #10                                                          %! REAPPLIED_INSTRUMENT:SM8
+                            \center-column                                               %! REAPPLIED_INSTRUMENT:SM8
+                                {                                                        %! REAPPLIED_INSTRUMENT:SM8
+                                    Bar.                                                 %! REAPPLIED_INSTRUMENT:SM8
+                                    sax.                                                 %! REAPPLIED_INSTRUMENT:SM8
+                                }                                                        %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                                %! REAPPLIED_INSTRUMENT:SM8
+                    \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                    \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
+                    es'2
+                    \p                                                                   %! REAPPLIED_DYNAMIC:SM8
+                    ^ \markup {
+                        \column
+                            {
+                                %%% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%             (“BaritoneSaxophone”                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%             \hcenter-in                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                 #16                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                 \center-column                       %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                     {                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                         Baritone                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                         saxophone                    %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                     }                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%         \concat                                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%             {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                     \hcenter-in                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                         #10                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                         \center-column               %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                             {                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                                 Bar.                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                                 sax.                 %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                             }                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                     )                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%             }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%     }                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                \line                                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                    {                                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        \with-color                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            #(x11-color 'green4)                         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            {                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    (“BaritoneSaxophone”                 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \hcenter-in                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        #16                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \center-column                   %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            {                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                Baritone                 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                saxophone                %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            }                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \concat                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    {                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \vcenter                         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            \hcenter-in                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                #10                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                \center-column           %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    {                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                        Bar.             %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                        sax.             %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                    }                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \vcenter                         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            )                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    }                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            }                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                    }                                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                            }
+                        }
+                    \set SaxophoneMusicStaff.instrumentName = \markup {                  %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                            #16                                                          %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                            \center-column                                               %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                {                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                    Baritone                                             %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                    saxophone                                            %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                }                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                        }                                                                %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                    \set SaxophoneMusicStaff.shortInstrumentName = \markup {             %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                            #10                                                          %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                            \center-column                                               %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                {                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                    Bar.                                                 %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                    sax.                                                 %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                                }                                                        %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                        }                                                                %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                    \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                     
                     % SaxophoneMusicVoice [measure 76]                                   %! SM4
-                    gs,2
+                    es'2
                     \repeatTie
                     
                     % SaxophoneMusicVoice [measure 77]                                   %! SM4
@@ -8881,10 +9094,84 @@
                 \context ContrabassMusicVoice = "ContrabassMusicVoice" {
                     
                     % ContrabassMusicVoice [measure 75]                                  %! SM4
-                    <g,,, a,,>2
+                    \set ContrabassMusicStaff.instrumentName = \markup {                 %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REAPPLIED_INSTRUMENT:SM8
+                            #16                                                          %! REAPPLIED_INSTRUMENT:SM8
+                            Contrabass                                                   %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                                %! REAPPLIED_INSTRUMENT:SM8
+                    \set ContrabassMusicStaff.shortInstrumentName = \markup {            %! REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REAPPLIED_INSTRUMENT:SM8
+                            #10                                                          %! REAPPLIED_INSTRUMENT:SM8
+                            Cb.                                                          %! REAPPLIED_INSTRUMENT:SM8
+                        }                                                                %! REAPPLIED_INSTRUMENT:SM8
+                    \set ContrabassMusicStaff.forceClef = ##t                            %! REAPPLIED_CLEF:SM8
+                    \clef "bass"                                                         %! REAPPLIED_CLEF:SM8
+                    \once \override ContrabassMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
+                    %%% \override ContrabassMusicStaff.Clef.color = ##f                  %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+                    \once \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
+                    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
+                    <g,, a,>2
+                    \mf                                                                  %! REAPPLIED_DYNAMIC:SM8
+                    ^ \markup {
+                        \column
+                            {
+                                %%% \line                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%     {                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%             (“Contrabass”                            %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%         \vcenter                                     %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%             \hcenter-in                              %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                 #16                                  %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                 Contrabass                           %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%         \concat                                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%             {                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                     \hcenter-in                      %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                         #10                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                         Cb.                          %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                 \vcenter                             %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%                     )                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%             }                                        %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                %%%     }                                                %! REAPPLIED_INSTRUMENT_ALERT:SM10
+                                \line                                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                    {                                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                        \with-color                                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            #(x11-color 'green4)                         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            {                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    (“Contrabass”                        %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \vcenter                                 %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    \hcenter-in                          %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        #16                              %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        Contrabass                       %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                \concat                                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    {                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \vcenter                         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            \hcenter-in                  %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                #10                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                                Cb.                      %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                        \vcenter                         %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                            )                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                                    }                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                            }                                            %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                                    }                                                    %! REAPPLIED_INSTRUMENT_ALERT_WITH_COLOR:SM11
+                            }
+                        }
+                    \set ContrabassMusicStaff.instrumentName = \markup {                 %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                            #16                                                          %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                            Contrabass                                                   %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                        }                                                                %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                    \set ContrabassMusicStaff.shortInstrumentName = \markup {            %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                        \hcenter-in                                                      %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                            #10                                                          %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                            Cb.                                                          %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                        }                                                                %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
+                    \override ContrabassMusicStaff.Clef.color = #(x11-color 'OliveDrab)  %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
+                    \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                     
                     % ContrabassMusicVoice [measure 76]                                  %! SM4
-                    <g,,, a,,>2
+                    <g,, a,>2
                     \repeatTie
                     
                     % ContrabassMusicVoice [measure 77]                                  %! SM4
@@ -8894,7 +9181,7 @@
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
                     \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                    <gs,,, as,,>1.
+                    <gs,, as,>1.
                     \p                                                                   %! EXPLICIT_DYNAMIC:SM8
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -8905,7 +9192,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>2.
+                    <gs,, as,>2.
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -8916,7 +9203,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>1
+                    <gs,, as,>1
                     \<
                     \p
                     - \tweak color #red                                                  %! SM14
@@ -8928,7 +9215,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>2.
+                    <gs,, as,>2.
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -8939,7 +9226,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>1
+                    <gs,, as,>1
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -8950,7 +9237,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>2.
+                    <gs,, as,>2.
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
                     
@@ -8959,7 +9246,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>2
+                    <gs,, as,>2
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -8970,7 +9257,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>1
+                    <gs,, as,>1
                     \repeatTie
                     \f
                     - \tweak color #red                                                  %! SM14
@@ -8983,7 +9270,7 @@
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
                     \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                    <gs,,, as,,>2.
+                    <gs,, as,>2.
                     \fff                                                                 %! EXPLICIT_DYNAMIC:SM8
                     ^ \markup {
                         \column
@@ -9007,7 +9294,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>1
+                    <gs,, as,>1
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -9018,7 +9305,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>2.
+                    <gs,, as,>2.
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -9028,7 +9315,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>2
+                    <gs,, as,>2
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -9039,7 +9326,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>2.
+                    <gs,, as,>2.
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -9050,7 +9337,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>2
+                    <gs,, as,>2
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -9061,7 +9348,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>1.
+                    <gs,, as,>1.
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -9072,7 +9359,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>2
+                    <gs,, as,>2
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -9083,7 +9370,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>2.
+                    <gs,, as,>2.
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -9093,7 +9380,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>2
+                    <gs,, as,>2
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -9104,7 +9391,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>2.
+                    <gs,, as,>2.
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -9115,7 +9402,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>1
+                    <gs,, as,>1
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -9126,7 +9413,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>1.
+                    <gs,, as,>1.
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -9137,7 +9424,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>2
+                    <gs,, as,>2
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -9148,7 +9435,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>2
+                    <gs,, as,>2
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -9159,7 +9446,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>2.
+                    <gs,, as,>2.
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -9170,7 +9457,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>1
+                    <gs,, as,>1
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -9181,7 +9468,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <gs,,, as,,>2
+                    <gs,, as,>2
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -9192,7 +9479,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <g,,, a,,>2
+                    <g,, a,>2
                     ^ \markup {
                         \column
                             {
@@ -9215,7 +9502,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <g,,, a,,>1.
+                    <g,, a,>1.
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -9226,7 +9513,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <g,,, a,,>1
+                    <g,, a,>1
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -9237,7 +9524,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <g,,, a,,>2.
+                    <g,, a,>2.
                     \repeatTie
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
@@ -9248,7 +9535,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
-                    <g,,, a,,>2.
+                    <g,, a,>2.
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
                     
@@ -9259,7 +9546,7 @@
                     \once \override TrillPitchHead.stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
                     \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     \pitchedTrill
-                    g,,,2.
+                    g,,2.
                     \mp                                                                  %! EXPLICIT_DYNAMIC:SM8
                     \startTrillSpan f
                     ^ \markup {                                                          %! IC
@@ -9268,26 +9555,26 @@
                                 "Shape trill dynamics beautifully. (Thank you, Stefano.)" %! IC
                         }                                                                %! IC
                     
-                    g,,,2
+                    g,,2
                     \repeatTie
                     
                     % ContrabassMusicVoice [measure 107]                                 %! SM4
-                    g,,,2.
+                    g,,2.
                     \repeatTie
                     
                     % ContrabassMusicVoice [measure 108]                                 %! SM4
-                    g,,,1
+                    g,,1
                     \repeatTie
                     
                     % ContrabassMusicVoice [measure 109]                                 %! SM4
-                    g,,,1
+                    g,,1
                     \repeatTie
                     
                     % ContrabassMusicVoice [measure 110]                                 %! SM4
-                    g,,,2.
+                    g,,2.
                     \repeatTie
                     
-                    g,,,2
+                    g,,2
                     \repeatTie
                     
                     % ContrabassMusicVoice [measure 111]                                 %! SM4

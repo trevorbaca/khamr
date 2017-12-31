@@ -80,6 +80,26 @@ metadata = abjad.TypedOrderedDict(
                             ],
                         ),
                     (
+                        'FluteMusicStaff',
+                        [
+                            abjad.Momento(
+                                context='FluteMusicVoice',
+                                prototype='abjad.Instrument',
+                                value='BassFlute',
+                                ),
+                            ],
+                        ),
+                    (
+                        'FluteMusicVoice',
+                        [
+                            abjad.Momento(
+                                context='FluteMusicVoice',
+                                prototype='abjad.Dynamic',
+                                value='mp',
+                                ),
+                            ],
+                        ),
+                    (
                         'GuitarMusicStaff',
                         [
                             abjad.Momento(
@@ -125,7 +145,7 @@ metadata = abjad.TypedOrderedDict(
                             abjad.Momento(
                                 context='OboeMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='p',
+                                value='pp',
                                 ),
                             ],
                         ),
@@ -205,7 +225,7 @@ metadata = abjad.TypedOrderedDict(
                             abjad.Momento(
                                 context='SaxophoneMusicVoice',
                                 prototype='abjad.Dynamic',
-                                value='pp',
+                                value='p',
                                 ),
                             ],
                         ),
