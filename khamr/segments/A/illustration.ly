@@ -612,9 +612,8 @@
                                 }                                                        %! REAPPLIED_INSTRUMENT:SM8
                         }                                                                %! REAPPLIED_INSTRUMENT:SM8
                     \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
-                    \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
+                    \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     bf''2
-                    \mp                                                                  %! REAPPLIED_DYNAMIC:SM8
                     \>
                     \mp
                     \startTrillSpan
@@ -729,6 +728,7 @@
                     bf''2
                     \repeatTie
                     
+                    \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     bf''8
                     \repeatTie
                     \pp
@@ -770,10 +770,11 @@
                             #10                                                          %! EXPLICIT_INSTRUMENT:SM8
                             Fl.                                                          %! EXPLICIT_INSTRUMENT:SM8
                         }                                                                %! EXPLICIT_INSTRUMENT:SM8
+                    \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:SM6
                     b''1.
                     :32                                                                  %! IC
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! EXPLICIT_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
@@ -841,9 +842,10 @@
                     r2
                     
                     % FluteMusicVoice [measure 61]                                       %! SM4
+                    \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     b''2.
                     :32                                                                  %! IC
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     b''2
                     :32                                                                  %! IC
@@ -853,9 +855,10 @@
                     r2.
                     
                     % FluteMusicVoice [measure 63]                                       %! SM4
+                    \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     b''1
                     :32                                                                  %! IC
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     % FluteMusicVoice [measure 64]                                       %! SM4
                     r1.
@@ -863,9 +866,10 @@
                     % FluteMusicVoice [measure 65]                                       %! SM4
                     r4
                     
+                    \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     b''4
                     :32                                                                  %! IC
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     % FluteMusicVoice [measure 66]                                       %! SM4
                     b''2
@@ -1087,15 +1091,17 @@
                     R1 * 1/2
                     
                     % OboeMusicVoice [measure 59]                                        %! SM4
+                    \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     ds'1.
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! EXPLICIT_DYNAMIC:SM8
                     
                     % OboeMusicVoice [measure 60]                                        %! SM4
                     r2
                     
                     % OboeMusicVoice [measure 61]                                        %! SM4
+                    \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     ds'2.
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     ds'2
                     \repeatTie
@@ -1104,8 +1110,9 @@
                     r2.
                     
                     % OboeMusicVoice [measure 63]                                        %! SM4
+                    \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     ds'1
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     % OboeMusicVoice [measure 64]                                        %! SM4
                     r1.
@@ -1113,8 +1120,9 @@
                     % OboeMusicVoice [measure 65]                                        %! SM4
                     r4
                     
+                    \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     ds'4
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     % OboeMusicVoice [measure 66]                                        %! SM4
                     ds'2
@@ -1333,15 +1341,17 @@
                     r2
                     
                     % ClarinetMusicVoice [measure 59]                                    %! SM4
+                    \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     gs1.
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! EXPLICIT_DYNAMIC:SM8
                     
                     % ClarinetMusicVoice [measure 60]                                    %! SM4
                     r2
                     
                     % ClarinetMusicVoice [measure 61]                                    %! SM4
+                    \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     gs2.
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     gs2
                     \repeatTie
@@ -1350,8 +1360,9 @@
                     r2.
                     
                     % ClarinetMusicVoice [measure 63]                                    %! SM4
+                    \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     gs1
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     % ClarinetMusicVoice [measure 64]                                    %! SM4
                     r1.
@@ -1359,8 +1370,9 @@
                     % ClarinetMusicVoice [measure 65]                                    %! SM4
                     r4
                     
+                    \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     gs4
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     % ClarinetMusicVoice [measure 66]                                    %! SM4
                     gs2
@@ -1565,15 +1577,17 @@
                     R1 * 1/2
                     
                     % SaxophoneMusicVoice [measure 59]                                   %! SM4
+                    \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     es'1.
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! EXPLICIT_DYNAMIC:SM8
                     
                     % SaxophoneMusicVoice [measure 60]                                   %! SM4
                     r2
                     
                     % SaxophoneMusicVoice [measure 61]                                   %! SM4
+                    \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     es'2.
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     es'2
                     \repeatTie
@@ -1582,8 +1596,9 @@
                     r2.
                     
                     % SaxophoneMusicVoice [measure 63]                                   %! SM4
+                    \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     es'1
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     % SaxophoneMusicVoice [measure 64]                                   %! SM4
                     r1.
@@ -1591,8 +1606,9 @@
                     % SaxophoneMusicVoice [measure 65]                                   %! SM4
                     r4
                     
+                    \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     es'4
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     % SaxophoneMusicVoice [measure 66]                                   %! SM4
                     es'2
@@ -2047,9 +2063,10 @@
                     \clef "bass"                                                         %! EXPLICIT_CLEF:SM8
                     \once \override PianoMusicStaff.Clef.color = #(x11-color 'blue)      %! EXPLICIT_CLEF_COLOR:SM6
                     %%% \override PianoMusicStaff.Clef.color = ##f                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+                    \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1.
                     :32                                                                  %! IC
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! EXPLICIT_DYNAMIC:SM8
                     \override PianoMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2)    %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                     
                     % PianoMusicVoice [measure 60]                                       %! SM4
@@ -2061,9 +2078,10 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
+                    \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1
                     :32                                                                  %! IC
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
                     
@@ -2072,9 +2090,10 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
+                    \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     <a,,, b,,, c,, d,, e,, f,, g,, a,,>4
                     :32                                                                  %! IC
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     - \tweak color #red                                                  %! SM14
                     ^ \markup { @ }                                                      %! SM14
                     
@@ -2082,9 +2101,10 @@
                     r2.
                     
                     % PianoMusicVoice [measure 63]                                       %! SM4
+                    \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1
                     :32                                                                  %! IC
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     \ottava #0
                     
                     % PianoMusicVoice [measure 64]                                       %! SM4
@@ -2100,9 +2120,9 @@
                     \times 2/3 {
                         
                         \ottava #1
-                        \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                        \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         cf''''8
-                        \fff                                                             %! EXPLICIT_DYNAMIC:SM8
+                        \fff                                                             %! REDUNDANT_DYNAMIC:SM8
                         [
                         
                         c''''8
@@ -3217,8 +3237,9 @@
                     \stopTrillSpan
                     
                     % ViolinMusicVoice [measure 59]                                      %! SM4
+                    \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     a'1.
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! EXPLICIT_DYNAMIC:SM8
                     ^ \markup {                                                          %! IC
                         \whiteout                                                        %! IC
                             \upright                                                     %! IC
@@ -3229,8 +3250,9 @@
                     r2
                     
                     % ViolinMusicVoice [measure 61]                                      %! SM4
+                    \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     a'2.
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     a'2
                     \repeatTie
@@ -3239,8 +3261,9 @@
                     r2.
                     
                     % ViolinMusicVoice [measure 63]                                      %! SM4
+                    \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     a'1
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     % ViolinMusicVoice [measure 64]                                      %! SM4
                     r1.
@@ -3248,8 +3271,9 @@
                     % ViolinMusicVoice [measure 65]                                      %! SM4
                     r4
                     
+                    \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     a'4
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     % ViolinMusicVoice [measure 66]                                      %! SM4
                     a'2
@@ -3597,8 +3621,9 @@
                     \stopTrillSpan
                     
                     % ViolaMusicVoice [measure 59]                                       %! SM4
+                    \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     gs'1.
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! EXPLICIT_DYNAMIC:SM8
                     ^ \markup {                                                          %! IC
                         \whiteout                                                        %! IC
                             \upright                                                     %! IC
@@ -3609,8 +3634,9 @@
                     r2
                     
                     % ViolaMusicVoice [measure 61]                                       %! SM4
+                    \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     gs'2.
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     gs'2
                     \repeatTie
@@ -3619,8 +3645,9 @@
                     r2.
                     
                     % ViolaMusicVoice [measure 63]                                       %! SM4
+                    \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     gs'1
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     % ViolaMusicVoice [measure 64]                                       %! SM4
                     r1.
@@ -3628,8 +3655,9 @@
                     % ViolaMusicVoice [measure 65]                                       %! SM4
                     r4
                     
+                    \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     gs'4
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     % ViolaMusicVoice [measure 66]                                       %! SM4
                     gs'2
@@ -3897,8 +3925,9 @@
                     r2
                     
                     % CelloMusicVoice [measure 59]                                       %! SM4
+                    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     g1.
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! EXPLICIT_DYNAMIC:SM8
                     ^ \markup {                                                          %! IC
                         \whiteout                                                        %! IC
                             \upright                                                     %! IC
@@ -3909,8 +3938,9 @@
                     r2
                     
                     % CelloMusicVoice [measure 61]                                       %! SM4
+                    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     g2.
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     g2
                     \repeatTie
@@ -3919,8 +3949,9 @@
                     r2.
                     
                     % CelloMusicVoice [measure 63]                                       %! SM4
+                    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     g1
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     % CelloMusicVoice [measure 64]                                       %! SM4
                     r1.
@@ -3928,8 +3959,9 @@
                     % CelloMusicVoice [measure 65]                                       %! SM4
                     r4
                     
+                    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     g4
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     % CelloMusicVoice [measure 66]                                       %! SM4
                     g2
@@ -4145,8 +4177,9 @@
                     r2
                     
                     % ContrabassMusicVoice [measure 59]                                  %! SM4
+                    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     <g,, a,>1.
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! EXPLICIT_DYNAMIC:SM8
                     ^ \markup {                                                          %! IC
                         \whiteout                                                        %! IC
                             \upright                                                     %! IC
@@ -4157,8 +4190,9 @@
                     r2
                     
                     % ContrabassMusicVoice [measure 61]                                  %! SM4
+                    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     <g,, a,>2.
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     <g,, a,>2
                     \repeatTie
@@ -4167,8 +4201,9 @@
                     r2.
                     
                     % ContrabassMusicVoice [measure 63]                                  %! SM4
+                    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     <g,, a,>1
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     % ContrabassMusicVoice [measure 64]                                  %! SM4
                     r1.
@@ -4176,8 +4211,9 @@
                     % ContrabassMusicVoice [measure 65]                                  %! SM4
                     r4
                     
+                    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     <g,, a,>4
-                    -\fff                                                                %! IC
+                    \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
                     
                     % ContrabassMusicVoice [measure 66]                                  %! SM4
                     <g,, a,>2

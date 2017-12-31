@@ -743,7 +743,7 @@
                     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                     b''2
                     :32                                                                  %! IC
-                    \mp                                                                  %! REAPPLIED_DYNAMIC:SM8
+                    \fff                                                                 %! REAPPLIED_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
@@ -841,10 +841,10 @@
                                 Fl.                                                      %! REDUNDANT_INSTRUMENT:SM8
                             }                                                            %! REDUNDANT_INSTRUMENT:SM8
                         \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) %! REDUNDANT_INSTRUMENT_COLOR:SM6
-                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         d'''16
                         -\accent                                                         %! IC
-                        \fff                                                             %! EXPLICIT_DYNAMIC:SM8
+                        \fff                                                             %! REDUNDANT_DYNAMIC:SM8
                         [
                         ^ \markup {
                             \column
@@ -1887,7 +1887,7 @@
                     \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
                     \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                     ds'2
-                    \pp                                                                  %! REAPPLIED_DYNAMIC:SM8
+                    \fff                                                                 %! REAPPLIED_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
@@ -2009,10 +2009,10 @@
                                 Ob.                                                      %! EXPLICIT_INSTRUMENT:SM8
                             }                                                            %! EXPLICIT_INSTRUMENT:SM8
                         \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:SM6
-                        \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                        \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         c'''16
                         -\accent                                                         %! IC
-                        \fff                                                             %! EXPLICIT_DYNAMIC:SM8
+                        \fff                                                             %! REDUNDANT_DYNAMIC:SM8
                         [
                         ^ \markup {
                             \column
@@ -3174,7 +3174,7 @@
                     \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                     gs2
-                    \pp                                                                  %! REAPPLIED_DYNAMIC:SM8
+                    \fff                                                                 %! REAPPLIED_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
@@ -3294,10 +3294,10 @@
                                 Cl.                                                      %! EXPLICIT_INSTRUMENT:SM8
                             }                                                            %! EXPLICIT_INSTRUMENT:SM8
                         \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:SM6
-                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         e'''16
                         -\accent                                                         %! IC
-                        \fff                                                             %! EXPLICIT_DYNAMIC:SM8
+                        \fff                                                             %! REDUNDANT_DYNAMIC:SM8
                         [
                         ^ \markup {
                             \column
@@ -4342,7 +4342,7 @@
                     \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                     \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                     es'2
-                    \p                                                                   %! REAPPLIED_DYNAMIC:SM8
+                    \fff                                                                 %! REAPPLIED_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
@@ -4471,10 +4471,10 @@
                                     }                                                    %! EXPLICIT_INSTRUMENT:SM8
                             }                                                            %! EXPLICIT_INSTRUMENT:SM8
                         \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:SM6
-                        \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+                        \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         a''16
                         -\accent                                                         %! IC
-                        \fff                                                             %! EXPLICIT_DYNAMIC:SM8
+                        \fff                                                             %! REDUNDANT_DYNAMIC:SM8
                         [
                         ^ \markup {
                             \column
@@ -8178,7 +8178,7 @@
                     \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                     \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                     a'2
-                    \ppp                                                                 %! REAPPLIED_DYNAMIC:SM8
+                    \fff                                                                 %! REAPPLIED_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
@@ -8258,6 +8258,7 @@
                     \times 4/5 {
                         
                         % ViolinMusicVoice [measure 79]                                  %! SM4
+                        \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         bff'2.
                         \glissando
                         \<
@@ -8295,6 +8296,7 @@
                         gff'1
                         \glissando
                         
+                        \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         aff'2.
                         \f
                         \glissando
@@ -8489,7 +8491,7 @@
                     \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                     gs'2
-                    \ppp                                                                 %! REAPPLIED_DYNAMIC:SM8
+                    \fff                                                                 %! REAPPLIED_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
@@ -8575,6 +8577,7 @@
                     \glissando
                     
                     % ViolaMusicVoice [measure 79]                                       %! SM4
+                    \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     ff'1
                     \glissando
                     \<
@@ -8606,6 +8609,7 @@
                         gff'2.
                         \glissando
                         
+                        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         aff'2
                         \f
                         \glissando
@@ -8801,7 +8805,7 @@
                     \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                     g2
-                    \mf                                                                  %! REAPPLIED_DYNAMIC:SM8
+                    \fff                                                                 %! REAPPLIED_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
@@ -8887,6 +8891,7 @@
                     \glissando
                     
                     % CelloMusicVoice [measure 79]                                       %! SM4
+                    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     dff'1
                     \glissando
                     \<
@@ -8917,6 +8922,7 @@
                         gff'1
                         \glissando
                         
+                        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         aff'2
                         \f
                         \glissando
@@ -9111,7 +9117,7 @@
                     \once \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                     \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
                     <g,, a,>2
-                    \mf                                                                  %! REAPPLIED_DYNAMIC:SM8
+                    \fff                                                                 %! REAPPLIED_DYNAMIC:SM8
                     ^ \markup {
                         \column
                             {
@@ -9203,6 +9209,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
+                    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                     <gs,, as,>1
                     \<
                     \p
@@ -9257,6 +9264,7 @@
                     \once \override Dots.color = #red
                     \once \override NoteHead.color = #red
                     \once \override Stem.color = #red
+                    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     <gs,, as,>1
                     \repeatTie
                     \f
