@@ -75,7 +75,7 @@
                 %%%             =                                                        %! REAPPLIED_METRONOME_MARK:SM27
                 %%%             126                                                      %! REAPPLIED_METRONOME_MARK:SM27
                 %%%         }                                                            %! REAPPLIED_METRONOME_MARK:SM27
-                %%%     }                                                                %! REAPPLIED_METRONOME_MARK:SM27
+                %%%     }                                                                %! REAPPLIED_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 76]                                               %! SM4
                 \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -121,12 +121,12 @@
                 %%%     }                                                                %! CLOCK_TIME_MARKUP:SM28
                 
                 % GlobalSkips [measure 79]                                               %! SM4
-                \once \override TextSpanner.arrow-width = 0.25
-                \once \override TextSpanner.bound-details.left-broken.padding = 0
+                \once \override TextSpanner.arrow-width = 0.25                           %! SM29
+                \once \override TextSpanner.bound-details.left-broken.padding = 0        %! SM29
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
                     \null
-                    }
-                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
+                    }                                                                    %! SM29
+                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5 %! SM29
                 \once \override TextSpanner.bound-details.left.text = \markup {
                     \fontsize
                         #-6
@@ -144,19 +144,19 @@
                         }
                     \hspace
                         #1.25
-                    }
-                \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-                \once \override TextSpanner.bound-details.right-broken.padding = 0
-                \once \override TextSpanner.bound-details.right-broken.text = ##f
-                \once \override TextSpanner.bound-details.right.arrow = ##t
-                \once \override TextSpanner.bound-details.right.padding = 2
-                \once \override TextSpanner.bound-details.right.text = ##f
-                \once \override TextSpanner.dash-fraction = 0.25
-                \once \override TextSpanner.dash-period = 1.5
+                    }                                                                    %! SM29
+                \once \override TextSpanner.bound-details.right-broken.arrow = ##f       %! SM29
+                \once \override TextSpanner.bound-details.right-broken.padding = 0       %! SM29
+                \once \override TextSpanner.bound-details.right-broken.text = ##f        %! SM29
+                \once \override TextSpanner.bound-details.right.arrow = ##t              %! SM29
+                \once \override TextSpanner.bound-details.right.padding = 2              %! SM29
+                \once \override TextSpanner.bound-details.right.text = ##f               %! SM29
+                \once \override TextSpanner.dash-fraction = 0.25                         %! SM29
+                \once \override TextSpanner.dash-period = 1.5                            %! SM29
                 \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
                 \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
-                \startTextSpan
+                \startTextSpan                                                           %! SM29
                 ^ \markup {
                     \column
                         {
@@ -264,7 +264,7 @@
                 \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
                 \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
-                \stopTextSpan
+                \stopTextSpan                                                            %! SM29
                 ^ \markup {
                     \column
                         {
@@ -320,7 +320,7 @@
                 %%%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
                 %%%             126                                                      %! EXPLICIT_METRONOME_MARK:SM27
                 %%%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 85]                                               %! SM4
                 \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -529,7 +529,7 @@
                 %%%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
                 %%%             63                                                       %! EXPLICIT_METRONOME_MARK:SM27
                 %%%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 101]                                              %! SM4
                 \time 6/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -620,7 +620,7 @@
                 %%%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
                 %%%             42                                                       %! EXPLICIT_METRONOME_MARK:SM27
                 %%%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 105]                                              %! SM4
                 \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -5816,7 +5816,7 @@
                         \stopStaff                                                       %! REAPPLIED_STAFF_LINES:SM8
                         \once \override PianoMusicStaff.StaffSymbol.line-count = 1       %! REAPPLIED_STAFF_LINES:SM8
                         \startStaff                                                      %! REAPPLIED_STAFF_LINES:SM8
-                        \ottava #1
+                        \ottava #1                                                       %! SC
                         \set PianoMusicStaff.instrumentName = \markup {                  %! REAPPLIED_INSTRUMENT:SM8
                             \hcenter-in                                                  %! REAPPLIED_INSTRUMENT:SM8
                                 #16                                                      %! REAPPLIED_INSTRUMENT:SM8
@@ -6263,7 +6263,7 @@
                         
                         e''''8
                         ]
-                        \ottava #0
+                        \ottava #0                                                       %! SC
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 9/11 {
@@ -8245,7 +8245,7 @@
                     \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     gff'1.
                     \p                                                                   %! EXPLICIT_DYNAMIC:SM8
-                    \glissando
+                    \glissando                                                           %! SC
                     ^ \markup {                                                          %! IC
                         \whiteout                                                        %! IC
                             \upright                                                     %! IC
@@ -8254,101 +8254,101 @@
                     
                     % ViolinMusicVoice [measure 78]                                      %! SM4
                     gf'2.
-                    \glissando
+                    \glissando                                                           %! SC
                     \times 4/5 {
                         
                         % ViolinMusicVoice [measure 79]                                  %! SM4
                         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         bff'2.
-                        \glissando
+                        \glissando                                                       %! SC
                         \<
                         \pp
                         
                         ff'2
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     
                     % ViolinMusicVoice [measure 80]                                      %! SM4
                     dff'2.
-                    \glissando
+                    \glissando                                                           %! SC
                     \times 2/3 {
                         
                         % ViolinMusicVoice [measure 81]                                  %! SM4
                         cf'1
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         af'2
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/9 {
                         
                         % ViolinMusicVoice [measure 82]                                  %! SM4
                         ff'2.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         ef'1.
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     \times 4/7 {
                         
                         % ViolinMusicVoice [measure 83]                                  %! SM4
                         gff'1
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         aff'2.
                         \f
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     
                     % ViolinMusicVoice [measure 84]                                      %! SM4
                     \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     bff'2.
                     \fff                                                                 %! EXPLICIT_DYNAMIC:SM8
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     % ViolinMusicVoice [measure 85]                                      %! SM4
                     af'1
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     % ViolinMusicVoice [measure 86]                                      %! SM4
                     bf2
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     eff'2.
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     % ViolinMusicVoice [measure 87]                                      %! SM4
                     df'2.
-                    \glissando
+                    \glissando                                                           %! SC
                     \times 2/3 {
                         
                         % ViolinMusicVoice [measure 88]                                  %! SM4
                         ff'4
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         dff'2
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         
                         % ViolinMusicVoice [measure 89]                                  %! SM4
                         cf'1
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         af'2.
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     \times 4/7 {
                         
                         % ViolinMusicVoice [measure 90]                                  %! SM4
                         bff'4.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         ef'2
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     
                     % ViolinMusicVoice [measure 91]                                      %! SM4
@@ -8356,88 +8356,88 @@
                     
                     gff'2
                     \repeatTie
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     % ViolinMusicVoice [measure 92]                                      %! SM4
                     aff'2.
-                    \glissando
+                    \glissando                                                           %! SC
                     \times 2/3 {
                         
                         % ViolinMusicVoice [measure 93]                                  %! SM4
                         df'1
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         af'2
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     
                     % ViolinMusicVoice [measure 94]                                      %! SM4
                     bf1.
-                    \glissando
+                    \glissando                                                           %! SC
                     \times 4/7 {
                         
                         % ViolinMusicVoice [measure 95]                                  %! SM4
                         eff'2
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         ff'4.
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     \times 4/7 {
                         
                         % ViolinMusicVoice [measure 96]                                  %! SM4
                         gff'4.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         gf'2
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
                         
                         % ViolinMusicVoice [measure 97]                                  %! SM4
                         bff'2.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         aff'2
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     
                     % ViolinMusicVoice [measure 98]                                      %! SM4
                     bff'1
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     % ViolinMusicVoice [measure 99]                                      %! SM4
                     ef'2
-                    \glissando
+                    \glissando                                                           %! SC
                     \times 2/3 {
                         
                         % ViolinMusicVoice [measure 100]                                 %! SM4
                         gff'4
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         eff'2
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     
                     % ViolinMusicVoice [measure 101]                                     %! SM4
                     df'1.
-                    \glissando
+                    \glissando                                                           %! SC
                     \times 4/7 {
                         
                         % ViolinMusicVoice [measure 102]                                 %! SM4
                         af'2.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         bf1
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
                         
                         % ViolinMusicVoice [measure 103]                                 %! SM4
                         bff'2.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         ff'2
                         \revert NoteHead.style                                           %! OC
@@ -8561,7 +8561,7 @@
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         gff'1.
                         \p                                                               %! EXPLICIT_DYNAMIC:SM8
-                        \glissando
+                        \glissando                                                       %! SC
                         ^ \markup {                                                      %! IC
                             \whiteout                                                    %! IC
                                 \upright                                                 %! IC
@@ -8569,50 +8569,50 @@
                             }                                                            %! IC
                         
                         gf'1
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     
                     % ViolaMusicVoice [measure 78]                                       %! SM4
                     bff'2.
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     % ViolaMusicVoice [measure 79]                                       %! SM4
                     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     ff'1
-                    \glissando
+                    \glissando                                                           %! SC
                     \<
                     \pp
                     
                     % ViolaMusicVoice [measure 80]                                       %! SM4
                     dff'4
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     cf'2
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     % ViolaMusicVoice [measure 81]                                       %! SM4
                     af'1
-                    \glissando
+                    \glissando                                                           %! SC
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/7 {
                         
                         % ViolaMusicVoice [measure 82]                                   %! SM4
                         ff'2.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         ef'1
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     \times 4/5 {
                         
                         % ViolaMusicVoice [measure 83]                                   %! SM4
                         gff'2.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         aff'2
                         \f
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
@@ -8621,138 +8621,138 @@
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         bff'2
                         \fff                                                             %! EXPLICIT_DYNAMIC:SM8
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         af'2.
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     
                     % ViolaMusicVoice [measure 85]                                       %! SM4
                     bf1
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     % ViolaMusicVoice [measure 86]                                       %! SM4
                     eff'2.
                     
                     eff'2
                     \repeatTie
-                    \glissando
+                    \glissando                                                           %! SC
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         
                         % ViolaMusicVoice [measure 87]                                   %! SM4
                         df'2
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         ff'4.
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     
                     % ViolaMusicVoice [measure 88]                                       %! SM4
                     dff'2
-                    \glissando
+                    \glissando                                                           %! SC
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
                         
                         % ViolaMusicVoice [measure 89]                                   %! SM4
                         cf'1.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         af'1
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     \times 4/5 {
                         
                         % ViolaMusicVoice [measure 90]                                   %! SM4
                         bff'4
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         ef'4.
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/9 {
                         
                         % ViolaMusicVoice [measure 91]                                   %! SM4
                         gff'1.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         aff'2.
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     
                     % ViolaMusicVoice [measure 92]                                       %! SM4
                     df'2.
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     % ViolaMusicVoice [measure 93]                                       %! SM4
                     af'1
-                    \glissando
+                    \glissando                                                           %! SC
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         
                         % ViolaMusicVoice [measure 94]                                   %! SM4
                         bf2.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         eff'1
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     
                     % ViolaMusicVoice [measure 95]                                       %! SM4
                     ff'2
-                    \glissando
+                    \glissando                                                           %! SC
                     \times 4/5 {
                         
                         % ViolaMusicVoice [measure 96]                                   %! SM4
                         gff'4
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         gf'4.
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     
                     % ViolaMusicVoice [measure 97]                                       %! SM4
                     bff'2
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     aff'4
-                    \glissando
+                    \glissando                                                           %! SC
                     \times 2/3 {
                         
                         % ViolaMusicVoice [measure 98]                                   %! SM4
                         bff'2
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         ef'1
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     
                     % ViolaMusicVoice [measure 99]                                       %! SM4
                     gff'2
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     % ViolaMusicVoice [measure 100]                                      %! SM4
                     eff'2
-                    \glissando
+                    \glissando                                                           %! SC
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 3/5 {
                         
                         % ViolaMusicVoice [measure 101]                                  %! SM4
                         df'1.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         af'1
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     
                     % ViolaMusicVoice [measure 102]                                      %! SM4
                     bf1
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     % ViolaMusicVoice [measure 103]                                      %! SM4
                     bff'2
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     ff'4
                     \revert NoteHead.style                                               %! OC
@@ -8873,7 +8873,7 @@
                     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     gff'1
                     \p                                                                   %! EXPLICIT_DYNAMIC:SM8
-                    \glissando
+                    \glissando                                                           %! SC
                     ^ \markup {                                                          %! IC
                         \whiteout                                                        %! IC
                             \upright                                                     %! IC
@@ -8881,33 +8881,33 @@
                         }                                                                %! IC
                     
                     gf'2
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     % CelloMusicVoice [measure 78]                                       %! SM4
                     bff'4
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     ff'2
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     % CelloMusicVoice [measure 79]                                       %! SM4
                     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     dff'1
-                    \glissando
+                    \glissando                                                           %! SC
                     \<
                     \pp
                     
                     % CelloMusicVoice [measure 80]                                       %! SM4
                     cf'2.
-                    \glissando
+                    \glissando                                                           %! SC
                     \times 4/5 {
                         
                         % CelloMusicVoice [measure 81]                                   %! SM4
                         af'2.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         ff'2
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     
                     % CelloMusicVoice [measure 82]                                       %! SM4
@@ -8915,35 +8915,35 @@
                     
                     ef'2
                     \repeatTie
-                    \glissando
+                    \glissando                                                           %! SC
                     \times 2/3 {
                         
                         % CelloMusicVoice [measure 83]                                   %! SM4
                         gff'1
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         aff'2
                         \f
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     
                     % CelloMusicVoice [measure 84]                                       %! SM4
                     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     bff'4
                     \fff                                                                 %! EXPLICIT_DYNAMIC:SM8
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     af'2
-                    \glissando
+                    \glissando                                                           %! SC
                     \times 4/7 {
                         
                         % CelloMusicVoice [measure 85]                                   %! SM4
                         bf1
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         eff'2.
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     
                     % CelloMusicVoice [measure 86]                                       %! SM4
@@ -8951,118 +8951,118 @@
                     
                     df'2
                     \repeatTie
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     % CelloMusicVoice [measure 87]                                       %! SM4
                     ff'2.
-                    \glissando
+                    \glissando                                                           %! SC
                     \times 4/5 {
                         
                         % CelloMusicVoice [measure 88]                                   %! SM4
                         dff'4
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         cf'4.
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     
                     % CelloMusicVoice [measure 89]                                       %! SM4
                     af'1.
-                    \glissando
+                    \glissando                                                           %! SC
                     \times 2/3 {
                         
                         % CelloMusicVoice [measure 90]                                   %! SM4
                         bff'4
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         ef'2
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 5/7 {
                         
                         % CelloMusicVoice [measure 91]                                   %! SM4
                         gff'1
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         aff'2.
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         
                         % CelloMusicVoice [measure 92]                                   %! SM4
                         df'4.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         af'2
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     
                     % CelloMusicVoice [measure 93]                                       %! SM4
                     bf1
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     % CelloMusicVoice [measure 94]                                       %! SM4
                     eff'1.
-                    \glissando
+                    \glissando                                                           %! SC
                     \times 2/3 {
                         
                         % CelloMusicVoice [measure 95]                                   %! SM4
                         ff'2
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         gff'4
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     
                     % CelloMusicVoice [measure 96]                                       %! SM4
                     gf'2
-                    \glissando
+                    \glissando                                                           %! SC
                     \tweak text #tuplet-number::calc-fraction-text
                     \times 6/7 {
                         
                         % CelloMusicVoice [measure 97]                                   %! SM4
                         bff'2
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         aff'4.
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     \times 4/7 {
                         
                         % CelloMusicVoice [measure 98]                                   %! SM4
                         bff'2.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         ef'1
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     \times 4/5 {
                         
                         % CelloMusicVoice [measure 99]                                   %! SM4
                         gff'4.
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         eff'4
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     
                     % CelloMusicVoice [measure 100]                                      %! SM4
                     df'2
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     % CelloMusicVoice [measure 101]                                      %! SM4
                     af'1.
-                    \glissando
+                    \glissando                                                           %! SC
                     \times 2/3 {
                         
                         % CelloMusicVoice [measure 102]                                  %! SM4
                         bf2
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         bff'1
-                        \glissando
+                        \glissando                                                       %! SC
                     }
                     
                     % CelloMusicVoice [measure 103]                                      %! SM4
@@ -9553,10 +9553,10 @@
                     % ContrabassMusicVoice [measure 106]                                 %! SM4
                     \once \override TrillPitchHead.stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
                     \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                    \pitchedTrill
+                    \pitchedTrill                                                        %! SC
                     g,,2.
                     \mp                                                                  %! EXPLICIT_DYNAMIC:SM8
-                    \startTrillSpan f
+                    \startTrillSpan f                                                    %! SC
                     ^ \markup {                                                          %! IC
                         \whiteout                                                        %! IC
                             \upright                                                     %! IC
@@ -9587,7 +9587,7 @@
                     
                     % ContrabassMusicVoice [measure 111]                                 %! SM4
                     r2.
-                    \stopTrillSpan
+                    \stopTrillSpan                                                       %! SC
                     
                 }
             }

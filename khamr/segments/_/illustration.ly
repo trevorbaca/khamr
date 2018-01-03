@@ -71,7 +71,7 @@
                 %%%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
                 %%%             126                                                      %! EXPLICIT_METRONOME_MARK:SM27
                 %%%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 2]                                                %! SM4
                 \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -330,12 +330,12 @@
                 %%%     }                                                                %! CLOCK_TIME_MARKUP:SM28
                 
                 % GlobalSkips [measure 25]                                               %! SM4
-                \once \override TextSpanner.arrow-width = 0.25
-                \once \override TextSpanner.bound-details.left-broken.padding = 0
+                \once \override TextSpanner.arrow-width = 0.25                           %! SM29
+                \once \override TextSpanner.bound-details.left-broken.padding = 0        %! SM29
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
                     \null
-                    }
-                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
+                    }                                                                    %! SM29
+                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5 %! SM29
                 \once \override TextSpanner.bound-details.left.text = \markup {
                     \fontsize
                         #-6
@@ -353,19 +353,19 @@
                         }
                     \hspace
                         #1.25
-                    }
-                \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-                \once \override TextSpanner.bound-details.right-broken.padding = 0
-                \once \override TextSpanner.bound-details.right-broken.text = ##f
-                \once \override TextSpanner.bound-details.right.arrow = ##t
-                \once \override TextSpanner.bound-details.right.padding = 2
-                \once \override TextSpanner.bound-details.right.text = ##f
-                \once \override TextSpanner.dash-fraction = 0.25
-                \once \override TextSpanner.dash-period = 1.5
+                    }                                                                    %! SM29
+                \once \override TextSpanner.bound-details.right-broken.arrow = ##f       %! SM29
+                \once \override TextSpanner.bound-details.right-broken.padding = 0       %! SM29
+                \once \override TextSpanner.bound-details.right-broken.text = ##f        %! SM29
+                \once \override TextSpanner.bound-details.right.arrow = ##t              %! SM29
+                \once \override TextSpanner.bound-details.right.padding = 2              %! SM29
+                \once \override TextSpanner.bound-details.right.text = ##f               %! SM29
+                \once \override TextSpanner.dash-fraction = 0.25                         %! SM29
+                \once \override TextSpanner.dash-period = 1.5                            %! SM29
                 \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
                 \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
-                \startTextSpan
+                \startTextSpan                                                           %! SM29
                 ^ \markup {
                     \column
                         {
@@ -541,7 +541,7 @@
                 \time 6/8                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
                 \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 3/4
-                \stopTextSpan
+                \stopTextSpan                                                            %! SM29
                 ^ \markup {
                     \column
                         {
@@ -597,7 +597,7 @@
                 %%%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
                 %%%             84                                                       %! EXPLICIT_METRONOME_MARK:SM27
                 %%%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 38]                                               %! SM4
                 \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -1017,7 +1017,7 @@
                     a''2.
                     \>
                     \mp
-                    \startTrillSpan
+                    \startTrillSpan                                                      %! SC
                     
                     % FluteMusicVoice [measure 40]                                       %! SM4
                     a''2
@@ -1035,10 +1035,10 @@
                     \repeatTie
                     
                     r8
-                    \stopTrillSpan
+                    \stopTrillSpan                                                       %! SC
                     
                     a''4.
-                    \startTrillSpan
+                    \startTrillSpan                                                      %! SC
                     
                     % FluteMusicVoice [measure 43]                                       %! SM4
                     a''1
@@ -1051,7 +1051,7 @@
                     \pp
                     
                     r2
-                    \stopTrillSpan
+                    \stopTrillSpan                                                       %! SC
                     
                 }
             }
@@ -3221,7 +3221,7 @@
                     \times 1/1 {
                         
                         % PianoMusicVoice [measure 25]                                   %! SM4
-                        \ottava #1
+                        \ottava #1                                                       %! SC
                         \once \override Beam.grow-direction = #right
                         \set PianoMusicStaff.forceClef = ##t                             %! EXPLICIT_CLEF:SM8
                         \clef "treble"                                                   %! EXPLICIT_CLEF:SM8
@@ -3516,7 +3516,7 @@
                         r8
                         
                         d''''8
-                        \ottava #0
+                        \ottava #0                                                       %! SC
                         
                         r8
                     }
@@ -4394,7 +4394,7 @@
                         g'2.
                         \repeatTie
                         \ppp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         af'4
@@ -4407,7 +4407,7 @@
                     af'2.
                     \repeatTie
                     \pp
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     gqs'4
@@ -4424,7 +4424,7 @@
                         gqs'1
                         \repeatTie
                         \ppp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a'2
@@ -4453,7 +4453,7 @@
                         a'1.
                         \repeatTie
                         \pp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         bqf'4
@@ -4468,7 +4468,7 @@
                         bqf'1.
                         \repeatTie
                         \p
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         af'4
@@ -4486,7 +4486,7 @@
                         af'2
                         \repeatTie
                         \pp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         gqs'8
@@ -4517,7 +4517,7 @@
                         gqs'2.
                         \repeatTie
                         \p
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a'4
@@ -4531,7 +4531,7 @@
                         a'1
                         \repeatTie
                         \ppp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g'2
@@ -4549,7 +4549,7 @@
                         g'2
                         \repeatTie
                         \pp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a'4
@@ -4575,7 +4575,7 @@
                         a'2
                         \repeatTie
                         \ppp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         b'8
@@ -4590,7 +4590,7 @@
                         b'2
                         \repeatTie
                         \pp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         aqs'8
@@ -4608,7 +4608,7 @@
                     aqs'2.
                     \repeatTie
                     \ppp
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     bf'4
@@ -4634,7 +4634,7 @@
                         bf'1.
                         \repeatTie
                         \pp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g'2.
@@ -4647,7 +4647,7 @@
                     g'2
                     \repeatTie
                     \p
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     a'4
@@ -4664,7 +4664,7 @@
                         a'1.
                         \repeatTie
                         \pp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         b'4
@@ -4684,11 +4684,11 @@
                     
                     % ViolinMusicVoice [measure 37]                                      %! SM4
                     \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                    \pitchedTrill
+                    \pitchedTrill                                                        %! SC
                     f'2
                     -\accent                                                             %! IC
                     \ppp                                                                 %! EXPLICIT_DYNAMIC:SM8
-                    \startTrillSpan gf'
+                    \startTrillSpan gf'                                                  %! SC
                     ^ \markup {                                                          %! IC
                         \whiteout                                                        %! IC
                             \upright                                                     %! IC
@@ -4700,11 +4700,11 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         fs'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan g'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan g'                                               %! SC
                     }
                     
                     % ViolinMusicVoice [measure 38]                                      %! SM4
@@ -4718,12 +4718,12 @@
                         [
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         fqs'8.
                         -\accent                                                         %! IC
                         ]
-                        \stopTrillSpan
-                        \startTrillSpan gqf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan gqf'                                             %! SC
                     }
                     
                     fqs'2
@@ -4734,12 +4734,12 @@
                         \repeatTie
                         [
                         
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         f'8
                         -\accent                                                         %! IC
                         ]
-                        \stopTrillSpan
-                        \startTrillSpan gf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan gf'                                              %! SC
                     }
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
@@ -4751,11 +4751,11 @@
                         f'4
                         \repeatTie
                         
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         fqs'16
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan gqf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan gqf'                                             %! SC
                     }
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
@@ -4771,11 +4771,11 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         f'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan gf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan gf'                                              %! SC
                     }
                     
                     f'4
@@ -4789,11 +4789,11 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         e'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan f'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan f'                                               %! SC
                     }
                     
                     % ViolinMusicVoice [measure 42]                                      %! SM4
@@ -4806,12 +4806,12 @@
                         [
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         eqs'8.
                         -\accent                                                         %! IC
                         ]
-                        \stopTrillSpan
-                        \startTrillSpan fqs'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan fqs'                                             %! SC
                     }
                     
                     % ViolinMusicVoice [measure 43]                                      %! SM4
@@ -4823,12 +4823,12 @@
                         \repeatTie
                         [
                         
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         e'8
                         -\accent                                                         %! IC
                         ]
-                        \stopTrillSpan
-                        \startTrillSpan f'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan f'                                               %! SC
                     }
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
@@ -4843,11 +4843,11 @@
                         e'4
                         \repeatTie
                         
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         eqs'16
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan fqs'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan fqs'                                             %! SC
                     }
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
@@ -4862,16 +4862,16 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         f'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan gf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan gf'                                              %! SC
                     }
                     
                     f'4
                     \repeatTie
-                    \stopTrillSpan
+                    \stopTrillSpan                                                       %! SC
                     
                 }
             }
@@ -4898,7 +4898,7 @@
                     %%% \override ViolaMusicStaff.Clef.color = ##f                       %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     g'4.
-                    \glissando
+                    \glissando                                                           %! SC
                     \pp
                     ^ \markup {
                         \column
@@ -4992,7 +4992,7 @@
                         af'1
                         \repeatTie
                         \pp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         gqs'2
@@ -5005,7 +5005,7 @@
                     gqs'2
                     \repeatTie
                     \ppp
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     a'4
@@ -5023,7 +5023,7 @@
                         a'1.
                         \repeatTie
                         \pp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         bqf'4
@@ -5048,7 +5048,7 @@
                     bqf'1
                     \repeatTie
                     \p
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     af'4
@@ -5062,7 +5062,7 @@
                         af'2.
                         \repeatTie
                         \pp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         gqs'4
@@ -5081,7 +5081,7 @@
                         gqs'1.
                         \repeatTie
                         \p
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a'2
@@ -5110,7 +5110,7 @@
                         a'1.
                         \repeatTie
                         \ppp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g'4
@@ -5125,7 +5125,7 @@
                         g'1.
                         \repeatTie
                         \pp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a'4
@@ -5143,7 +5143,7 @@
                         a'2
                         \repeatTie
                         \ppp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         b'8
@@ -5169,7 +5169,7 @@
                     b'4.
                     \repeatTie
                     \pp
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     aqs'8
@@ -5183,7 +5183,7 @@
                         aqs'1.
                         \repeatTie
                         \ppp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         bf'2
@@ -5200,7 +5200,7 @@
                     bf'2
                     \repeatTie
                     \pp
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     g'4
@@ -5229,7 +5229,7 @@
                         g'2.
                         \repeatTie
                         \p
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a'8
@@ -5244,7 +5244,7 @@
                         a'1
                         \repeatTie
                         \pp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         b'4
@@ -5261,7 +5261,7 @@
                     b'1
                     \repeatTie
                     \p
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     aqs'4
@@ -5270,11 +5270,11 @@
                     
                     % ViolaMusicVoice [measure 37]                                       %! SM4
                     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                    \pitchedTrill
+                    \pitchedTrill                                                        %! SC
                     f'2.
                     -\accent                                                             %! IC
                     \ppp                                                                 %! EXPLICIT_DYNAMIC:SM8
-                    \startTrillSpan gf'
+                    \startTrillSpan gf'                                                  %! SC
                     ^ \markup {                                                          %! IC
                         \whiteout                                                        %! IC
                             \upright                                                     %! IC
@@ -5287,11 +5287,11 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         fs'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan g'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan g'                                               %! SC
                     }
                     
                     fs'4
@@ -5307,12 +5307,12 @@
                         [
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         fqs'8.
                         -\accent                                                         %! IC
                         ]
-                        \stopTrillSpan
-                        \startTrillSpan gqf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan gqf'                                             %! SC
                     }
                     
                     fqs'2.
@@ -5324,12 +5324,12 @@
                         \repeatTie
                         [
                         
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         f'8
                         -\accent                                                         %! IC
                         ]
-                        \stopTrillSpan
-                        \startTrillSpan gf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan gf'                                              %! SC
                     }
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
@@ -5344,11 +5344,11 @@
                         f'4
                         \repeatTie
                         
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         fqs'16
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan gqf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan gqf'                                             %! SC
                     }
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
@@ -5364,11 +5364,11 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         f'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan gf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan gf'                                              %! SC
                     }
                     
                     f'4
@@ -5383,11 +5383,11 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         e'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan f'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan f'                                               %! SC
                     }
                     
                     e'4
@@ -5403,17 +5403,17 @@
                         [
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         eqs'8.
                         -\accent                                                         %! IC
                         ]
-                        \stopTrillSpan
-                        \startTrillSpan fqs'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan fqs'                                             %! SC
                     }
                     
                     eqs'2.
                     \repeatTie
-                    \stopTrillSpan
+                    \stopTrillSpan                                                       %! SC
                     
                 }
             }
@@ -5517,7 +5517,7 @@
                         g2
                         \repeatTie
                         \ppp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         af4
@@ -5544,7 +5544,7 @@
                         af2.
                         \repeatTie
                         \pp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         gqs8
@@ -5559,7 +5559,7 @@
                         gqs1
                         \repeatTie
                         \ppp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a4
@@ -5580,7 +5580,7 @@
                         a1
                         \repeatTie
                         \pp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         bqf4
@@ -5608,7 +5608,7 @@
                     bqf2
                     \repeatTie
                     \p
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     af4
@@ -5621,7 +5621,7 @@
                         af2
                         \repeatTie
                         \pp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         gqs4
@@ -5639,7 +5639,7 @@
                         gqs2.
                         \repeatTie
                         \p
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a8
@@ -5669,7 +5669,7 @@
                         a1.
                         \repeatTie
                         \ppp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g4.
@@ -5683,7 +5683,7 @@
                         g2
                         \repeatTie
                         \pp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a8
@@ -5703,7 +5703,7 @@
                         a2.
                         \repeatTie
                         \ppp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         b4
@@ -5728,7 +5728,7 @@
                     b1
                     \repeatTie
                     \pp
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     aqs2
@@ -5741,7 +5741,7 @@
                         aqs1.
                         \repeatTie
                         \ppp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         bf4
@@ -5760,7 +5760,7 @@
                         bf2.
                         \repeatTie
                         \pp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         g8
@@ -5789,7 +5789,7 @@
                     g2.
                     \repeatTie
                     \p
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     a4
@@ -5801,7 +5801,7 @@
                     a2.
                     \repeatTie
                     \pp
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     b4
@@ -5820,11 +5820,11 @@
                     
                     % CelloMusicVoice [measure 37]                                       %! SM4
                     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                    \pitchedTrill
+                    \pitchedTrill                                                        %! SC
                     f'2.
                     -\accent                                                             %! IC
                     \ppp                                                                 %! EXPLICIT_DYNAMIC:SM8
-                    \startTrillSpan gf'
+                    \startTrillSpan gf'                                                  %! SC
                     ^ \markup {                                                          %! IC
                         \whiteout                                                        %! IC
                             \upright                                                     %! IC
@@ -5840,11 +5840,11 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         fs'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan g'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan g'                                               %! SC
                     }
                     
                     % CelloMusicVoice [measure 39]                                       %! SM4
@@ -5857,12 +5857,12 @@
                         [
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         fqs'8.
                         -\accent                                                         %! IC
                         ]
-                        \stopTrillSpan
-                        \startTrillSpan gqf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan gqf'                                             %! SC
                     }
                     
                     fqs'4
@@ -5881,12 +5881,12 @@
                         \repeatTie
                         [
                         
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         f'8
                         -\accent                                                         %! IC
                         ]
-                        \stopTrillSpan
-                        \startTrillSpan gf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan gf'                                              %! SC
                     }
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
@@ -5901,11 +5901,11 @@
                         f'4
                         \repeatTie
                         
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         fqs'16
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan gqf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan gqf'                                             %! SC
                     }
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
@@ -5921,11 +5921,11 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         f'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan gf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan gf'                                              %! SC
                     }
                     
                     % CelloMusicVoice [measure 44]                                       %! SM4
@@ -5937,16 +5937,16 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         e'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan f'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan f'                                               %! SC
                     }
                     
                     e'4
                     \repeatTie
-                    \stopTrillSpan
+                    \stopTrillSpan                                                       %! SC
                     
                 }
             }
@@ -6052,7 +6052,7 @@
                         % ContrabassMusicVoice [measure 3]                               %! SM4
                         a1.
                         \repeatTie
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         bf4
                     }
@@ -6061,7 +6061,7 @@
                         % ContrabassMusicVoice [measure 4]                               %! SM4
                         bf2.
                         \repeatTie
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         aqs8.
                     }
@@ -6074,7 +6074,7 @@
                         % ContrabassMusicVoice [measure 6]                               %! SM4
                         aqs2.
                         \repeatTie
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         b8.
                     }
@@ -6097,7 +6097,7 @@
                     % ContrabassMusicVoice [measure 10]                                  %! SM4
                     b2
                     \repeatTie
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     cqs'4
@@ -6110,7 +6110,7 @@
                         cqs'1
                         \repeatTie
                         \ppp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         bf2
@@ -6132,7 +6132,7 @@
                         bf2.
                         \repeatTie
                         \pp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         aqs8
@@ -6158,7 +6158,7 @@
                     aqs1
                     \repeatTie
                     \ppp
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     b4
@@ -6171,7 +6171,7 @@
                         b2.
                         \repeatTie
                         \pp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         a8.
@@ -6190,7 +6190,7 @@
                         a1.
                         \repeatTie
                         \p
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         b2
@@ -6216,7 +6216,7 @@
                         b1
                         \repeatTie
                         \pp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         cs'2
@@ -6230,7 +6230,7 @@
                         cs'2.
                         \repeatTie
                         \p
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         bqs8
@@ -6250,7 +6250,7 @@
                         bqs1.
                         \repeatTie
                         \ppp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         c'4
@@ -6275,7 +6275,7 @@
                     c'2.
                     \repeatTie
                     \pp
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     a4
@@ -6289,7 +6289,7 @@
                         a1.
                         \repeatTie
                         \ppp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         b2
@@ -6307,7 +6307,7 @@
                         b1
                         \repeatTie
                         \pp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         cs'2
@@ -6336,7 +6336,7 @@
                         cs'2.
                         \repeatTie
                         \ppp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         bqs8
@@ -6352,7 +6352,7 @@
                         bqs1.
                         \repeatTie
                         \pp
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                         dqf'4
@@ -6369,7 +6369,7 @@
                     dqf'1
                     \repeatTie
                     \p
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                     c'4
