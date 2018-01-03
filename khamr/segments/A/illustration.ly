@@ -15,12 +15,12 @@
             \context GlobalSkips = "GlobalSkips" {
                 
                 % GlobalSkips [measure 45]                                               %! SM4
-                \once \override TextSpanner.arrow-width = 0.25
-                \once \override TextSpanner.bound-details.left-broken.padding = 0
+                \once \override TextSpanner.arrow-width = 0.25                           %! SM29
+                \once \override TextSpanner.bound-details.left-broken.padding = 0        %! SM29
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
                     \null
-                    }
-                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
+                    }                                                                    %! SM29
+                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5 %! SM29
                 \once \override TextSpanner.bound-details.left.text = \markup {
                     \fontsize
                         #-6
@@ -38,21 +38,21 @@
                         }
                     \hspace
                         #1.25
-                    }
-                \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-                \once \override TextSpanner.bound-details.right-broken.padding = 0
-                \once \override TextSpanner.bound-details.right-broken.text = ##f
-                \once \override TextSpanner.bound-details.right.arrow = ##t
-                \once \override TextSpanner.bound-details.right.padding = 2
-                \once \override TextSpanner.bound-details.right.text = ##f
-                \once \override TextSpanner.dash-fraction = 0.25
-                \once \override TextSpanner.dash-period = 1.5
+                    }                                                                    %! SM29
+                \once \override TextSpanner.bound-details.right-broken.arrow = ##f       %! SM29
+                \once \override TextSpanner.bound-details.right-broken.padding = 0       %! SM29
+                \once \override TextSpanner.bound-details.right-broken.text = ##f        %! SM29
+                \once \override TextSpanner.bound-details.right.arrow = ##t              %! SM29
+                \once \override TextSpanner.bound-details.right.padding = 2              %! SM29
+                \once \override TextSpanner.bound-details.right.text = ##f               %! SM29
+                \once \override TextSpanner.dash-fraction = 0.25                         %! SM29
+                \once \override TextSpanner.dash-period = 1.5                            %! SM29
                 \time 2/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
                 \mark #1                                                                 %! SM9
                 \bar ""                                                                  %! EMPTY_START_BAR:SM2
                 \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1/2
-                \startTextSpan
+                \startTextSpan                                                           %! SM29
                 ^ \markup {
                     \column
                         {
@@ -132,12 +132,12 @@
                 %%%     }                                                                %! CLOCK_TIME_MARKUP:SM28
                 
                 % GlobalSkips [measure 49]                                               %! SM4
-                \once \override TextSpanner.arrow-width = 0.25
-                \once \override TextSpanner.bound-details.left-broken.padding = 0
+                \once \override TextSpanner.arrow-width = 0.25                           %! SM29
+                \once \override TextSpanner.bound-details.left-broken.padding = 0        %! SM29
                 \once \override TextSpanner.bound-details.left-broken.text = \markup {
                     \null
-                    }
-                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5
+                    }                                                                    %! SM29
+                \once \override TextSpanner.bound-details.left.stencil-align-dir-y = -0.5 %! SM29
                 \once \override TextSpanner.bound-details.left.text = \markup {
                     \fontsize
                         #-6
@@ -155,20 +155,20 @@
                         }
                     \hspace
                         #1.25
-                    }
-                \once \override TextSpanner.bound-details.right-broken.arrow = ##f
-                \once \override TextSpanner.bound-details.right-broken.padding = 0
-                \once \override TextSpanner.bound-details.right-broken.text = ##f
-                \once \override TextSpanner.bound-details.right.arrow = ##t
-                \once \override TextSpanner.bound-details.right.padding = 2
-                \once \override TextSpanner.bound-details.right.text = ##f
-                \once \override TextSpanner.dash-fraction = 0.25
-                \once \override TextSpanner.dash-period = 1.5
+                    }                                                                    %! SM29
+                \once \override TextSpanner.bound-details.right-broken.arrow = ##f       %! SM29
+                \once \override TextSpanner.bound-details.right-broken.padding = 0       %! SM29
+                \once \override TextSpanner.bound-details.right-broken.text = ##f        %! SM29
+                \once \override TextSpanner.bound-details.right.arrow = ##t              %! SM29
+                \once \override TextSpanner.bound-details.right.padding = 2              %! SM29
+                \once \override TextSpanner.bound-details.right.text = ##f               %! SM29
+                \once \override TextSpanner.dash-fraction = 0.25                         %! SM29
+                \once \override TextSpanner.dash-period = 1.5                            %! SM29
                 \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
                 \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
-                \stopTextSpan
-                \startTextSpan
+                \stopTextSpan                                                            %! SM29
+                \startTextSpan                                                           %! SM29
                 ^ \markup {
                     \column
                         {
@@ -252,7 +252,7 @@
                 \time 4/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
                 \once \override Score.TimeSignature.color = #(x11-color 'blue)           %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                 s1 * 1
-                \stopTextSpan
+                \stopTextSpan                                                            %! SM29
                 ^ \markup {
                     \column
                         {
@@ -308,7 +308,7 @@
                 %%%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
                 %%%             42                                                       %! EXPLICIT_METRONOME_MARK:SM27
                 %%%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 54]                                               %! SM4
                 \time 3/4                                                                %! EXPLICIT_TIME_SIGNATURE:SM8
@@ -493,7 +493,7 @@
                 %%%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
                 %%%             126                                                      %! EXPLICIT_METRONOME_MARK:SM27
                 %%%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27
+                %%%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! SM29
                 
                 % GlobalSkips [measure 66]                                               %! SM4
                 \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)      %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
@@ -616,7 +616,7 @@
                     bf''2
                     \>
                     \mp
-                    \startTrillSpan
+                    \startTrillSpan                                                      %! SC
                     ^ \markup {
                         \column
                             {
@@ -711,10 +711,10 @@
                     \repeatTie
                     
                     r8
-                    \stopTrillSpan
+                    \stopTrillSpan                                                       %! SC
                     
                     bf''4
-                    \startTrillSpan
+                    \startTrillSpan                                                      %! SC
                     
                     % FluteMusicVoice [measure 49]                                       %! SM4
                     bf''1
@@ -734,7 +734,7 @@
                     \pp
                     
                     r4.
-                    \stopTrillSpan
+                    \stopTrillSpan                                                       %! SC
                     
                     % FluteMusicVoice [measure 52]                                       %! SM4
                     r2.
@@ -2058,7 +2058,7 @@
                     r2
                     
                     % PianoMusicVoice [measure 59]                                       %! SM4
-                    \ottava #-1
+                    \ottava #-1                                                          %! SC
                     \set PianoMusicStaff.forceClef = ##t                                 %! EXPLICIT_CLEF:SM8
                     \clef "bass"                                                         %! EXPLICIT_CLEF:SM8
                     \once \override PianoMusicStaff.Clef.color = #(x11-color 'blue)      %! EXPLICIT_CLEF_COLOR:SM6
@@ -2105,7 +2105,7 @@
                     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1
                     :32                                                                  %! IC
                     \fff                                                                 %! REDUNDANT_DYNAMIC:SM8
-                    \ottava #0
+                    \ottava #0                                                           %! SC
                     
                     % PianoMusicVoice [measure 64]                                       %! SM4
                     r1.
@@ -2119,7 +2119,7 @@
                     \override PianoMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2)    %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                     \times 2/3 {
                         
-                        \ottava #1
+                        \ottava #1                                                       %! SC
                         \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
                         cf''''8
                         \fff                                                             %! REDUNDANT_DYNAMIC:SM8
@@ -2262,7 +2262,7 @@
                         
                         af'''16.
                         ]
-                        \ottava #0
+                        \ottava #0                                                       %! SC
                         
                     }
                 }
@@ -2892,11 +2892,11 @@
                         }                                                                %! REAPPLIED_INSTRUMENT:SM8
                     \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                     \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                    \pitchedTrill
+                    \pitchedTrill                                                        %! SC
                     gf'2
                     -\accent                                                             %! IC
                     \ppp                                                                 %! REAPPLIED_DYNAMIC:SM8
-                    \startTrillSpan aff'
+                    \startTrillSpan aff'                                                 %! SC
                     ^ \markup {
                         \column
                             {
@@ -2960,11 +2960,11 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         g'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan af'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan af'                                              %! SC
                     }
                     
                     g'4
@@ -2980,12 +2980,12 @@
                         [
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         gqf'8.
                         -\accent                                                         %! IC
                         ]
-                        \stopTrillSpan
-                        \startTrillSpan atqf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan atqf'                                            %! SC
                     }
                     
                     gqf'4
@@ -2999,12 +2999,12 @@
                         \repeatTie
                         [
                         
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         gf'8
                         -\accent                                                         %! IC
                         ]
-                        \stopTrillSpan
-                        \startTrillSpan aff'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan aff'                                             %! SC
                     }
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
@@ -3019,11 +3019,11 @@
                         gf'4
                         \repeatTie
                         
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         gqf'16
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan atqf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan atqf'                                            %! SC
                     }
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
@@ -3039,11 +3039,11 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         g'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan af'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan af'                                              %! SC
                     }
                     
                     g'2
@@ -3055,11 +3055,11 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         gs'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan a'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan a'                                               %! SC
                     }
                     
                     gs'2
@@ -3072,12 +3072,12 @@
                         [
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         gqs'8.
                         -\accent                                                         %! IC
                         ]
-                        \stopTrillSpan
-                        \startTrillSpan aqf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan aqf'                                             %! SC
                     }
                     
                     gqs'2
@@ -3088,12 +3088,12 @@
                         \repeatTie
                         [
                         
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         g'8
                         -\accent                                                         %! IC
                         ]
-                        \stopTrillSpan
-                        \startTrillSpan af'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan af'                                              %! SC
                     }
                     
                     % ViolinMusicVoice [measure 52]                                      %! SM4
@@ -3105,11 +3105,11 @@
                         g'4
                         \repeatTie
                         
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         gqs'16
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan aqf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan aqf'                                             %! SC
                     }
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
@@ -3122,11 +3122,11 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         af'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan bff'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan bff'                                             %! SC
                     }
                     
                     af'2
@@ -3137,11 +3137,11 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         a'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan bf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan bf'                                              %! SC
                     }
                     
                     % ViolinMusicVoice [measure 54]                                      %! SM4
@@ -3154,12 +3154,12 @@
                         [
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         aqf'8.
                         -\accent                                                         %! IC
                         ]
-                        \stopTrillSpan
-                        \startTrillSpan btqf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan btqf'                                            %! SC
                     }
                     
                     % ViolinMusicVoice [measure 55]                                      %! SM4
@@ -3171,12 +3171,12 @@
                         \repeatTie
                         [
                         
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         af'8
                         -\accent                                                         %! IC
                         ]
-                        \stopTrillSpan
-                        \startTrillSpan bff'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan bff'                                             %! SC
                     }
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
@@ -3191,11 +3191,11 @@
                         af'4
                         \repeatTie
                         
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         aqf'16
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan btqf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan btqf'                                            %! SC
                     }
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
@@ -3210,11 +3210,11 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         af'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan bff'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan bff'                                             %! SC
                     }
                     
                     % ViolinMusicVoice [measure 57]                                      %! SM4
@@ -3225,16 +3225,16 @@
                         af'16
                         \repeatTie
                         
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         g'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan af'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan af'                                              %! SC
                     }
                     
                     % ViolinMusicVoice [measure 58]                                      %! SM4
                     r2
-                    \stopTrillSpan
+                    \stopTrillSpan                                                       %! SC
                     
                     % ViolinMusicVoice [measure 59]                                      %! SM4
                     \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -3334,11 +3334,11 @@
                     %%% \override ViolaMusicStaff.Clef.color = ##f                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                     \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                    \pitchedTrill
+                    \pitchedTrill                                                        %! SC
                     f'2
                     -\accent                                                             %! IC
                     \ppp                                                                 %! REAPPLIED_DYNAMIC:SM8
-                    \startTrillSpan gf'
+                    \startTrillSpan gf'                                                  %! SC
                     ^ \markup {
                         \column
                             {
@@ -3406,11 +3406,11 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         fs'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan g'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan g'                                               %! SC
                     }
                     
                     % ViolaMusicVoice [measure 47]                                       %! SM4
@@ -3423,12 +3423,12 @@
                         [
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         fqs'8.
                         -\accent                                                         %! IC
                         ]
-                        \stopTrillSpan
-                        \startTrillSpan gqf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan gqf'                                             %! SC
                     }
                     
                     fqs'2
@@ -3443,12 +3443,12 @@
                         \repeatTie
                         [
                         
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         f'8
                         -\accent                                                         %! IC
                         ]
-                        \stopTrillSpan
-                        \startTrillSpan gf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan gf'                                              %! SC
                     }
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
@@ -3463,11 +3463,11 @@
                         f'4
                         \repeatTie
                         
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         gf'16
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan aff'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan aff'                                             %! SC
                     }
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
@@ -3483,11 +3483,11 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         g'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan af'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan af'                                              %! SC
                     }
                     
                     % ViolaMusicVoice [measure 51]                                       %! SM4
@@ -3499,11 +3499,11 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         gqf'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan atqf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan atqf'                                            %! SC
                     }
                     
                     % ViolaMusicVoice [measure 52]                                       %! SM4
@@ -3516,12 +3516,12 @@
                         [
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         gf'8.
                         -\accent                                                         %! IC
                         ]
-                        \stopTrillSpan
-                        \startTrillSpan aff'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan aff'                                             %! SC
                     }
                     
                     gf'4
@@ -3536,12 +3536,12 @@
                         \repeatTie
                         [
                         
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         g'8
                         -\accent                                                         %! IC
                         ]
-                        \stopTrillSpan
-                        \startTrillSpan af'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan af'                                              %! SC
                     }
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
@@ -3556,11 +3556,11 @@
                         g'4
                         \repeatTie
                         
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         gs'16
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan a'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan a'                                               %! SC
                     }
                     
                     % ViolaMusicVoice [measure 55]                                       %! SM4
@@ -3573,11 +3573,11 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         gqs'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan aqf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan aqf'                                             %! SC
                     }
                     
                     % ViolaMusicVoice [measure 56]                                       %! SM4
@@ -3589,11 +3589,11 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         g'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan af'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan af'                                              %! SC
                     }
                     
                     g'4
@@ -3608,17 +3608,17 @@
                         \repeatTie
                         [
                         
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         gqs'8.
                         -\accent                                                         %! IC
                         ]
-                        \stopTrillSpan
-                        \startTrillSpan aqf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan aqf'                                             %! SC
                     }
                     
                     % ViolaMusicVoice [measure 58]                                       %! SM4
                     r2
-                    \stopTrillSpan
+                    \stopTrillSpan                                                       %! SC
                     
                     % ViolaMusicVoice [measure 59]                                       %! SM4
                     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -3718,11 +3718,11 @@
                     %%% \override CelloMusicStaff.Clef.color = ##f                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
                     \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
-                    \pitchedTrill
+                    \pitchedTrill                                                        %! SC
                     f'2
                     -\accent                                                             %! IC
                     \ppp                                                                 %! REAPPLIED_DYNAMIC:SM8
-                    \startTrillSpan gf'
+                    \startTrillSpan gf'                                                  %! SC
                     ^ \markup {
                         \column
                             {
@@ -3791,11 +3791,11 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         fs'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan g'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan g'                                               %! SC
                     }
                     
                     fs'2
@@ -3810,12 +3810,12 @@
                         [
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         fqs'8.
                         -\accent                                                         %! IC
                         ]
-                        \stopTrillSpan
-                        \startTrillSpan gqf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan gqf'                                             %! SC
                     }
                     
                     % CelloMusicVoice [measure 48]                                       %! SM4
@@ -3831,12 +3831,12 @@
                         \repeatTie
                         [
                         
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         f'8
                         -\accent                                                         %! IC
                         ]
-                        \stopTrillSpan
-                        \startTrillSpan gf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan gf'                                              %! SC
                     }
                     
                     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie               %! SM26
@@ -3851,11 +3851,11 @@
                         f'4
                         \repeatTie
                         
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         fqs'16
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan gqf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan gqf'                                             %! SC
                     }
                     
                     % CelloMusicVoice [measure 51]                                       %! SM4
@@ -3869,18 +3869,18 @@
                         \repeatTie
                         
                         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie           %! SM26
-                        \pitchedTrill
+                        \pitchedTrill                                                    %! SC
                         f'4
                         -\accent                                                         %! IC
-                        \stopTrillSpan
-                        \startTrillSpan gf'
+                        \stopTrillSpan                                                   %! SC
+                        \startTrillSpan gf'                                              %! SC
                     }
                     
                     f'2
                     \repeatTie
                     
                     r2
-                    \stopTrillSpan
+                    \stopTrillSpan                                                       %! SC
                     
                     % CelloMusicVoice [measure 53]                                       %! SM4
                     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
@@ -4097,7 +4097,7 @@
                         % ContrabassMusicVoice [measure 47]                              %! SM4
                         <g, a>1.
                         \repeatTie
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         <af, bf>4
                     }
@@ -4106,7 +4106,7 @@
                         % ContrabassMusicVoice [measure 48]                              %! SM4
                         <af, bf>2.
                         \repeatTie
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         <gqs, aqs>8.
                     }
@@ -4119,7 +4119,7 @@
                         % ContrabassMusicVoice [measure 50]                              %! SM4
                         <gqs, aqs>2.
                         \repeatTie
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         <a, b>8.
                     }
@@ -4142,7 +4142,7 @@
                     % ContrabassMusicVoice [measure 54]                                  %! SM4
                     <a, b>2
                     \repeatTie
-                    \glissando
+                    \glissando                                                           %! SC
                     
                     <bqf, cqs'>4
                     \times 2/3 {
@@ -4150,7 +4150,7 @@
                         % ContrabassMusicVoice [measure 55]                              %! SM4
                         <bqf, cqs'>1
                         \repeatTie
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         <af, bf>2
                     }
@@ -4167,7 +4167,7 @@
                         % ContrabassMusicVoice [measure 57]                              %! SM4
                         <af, bf>2.
                         \repeatTie
-                        \glissando
+                        \glissando                                                       %! SC
                         
                         <gqs, aqs>8
                         \revert NoteHead.style                                           %! OC
