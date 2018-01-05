@@ -2,44 +2,59 @@
 
 
 \layout {
+
+    % GLOBAL SKIPS
+    \context {
+        \name GlobalSkips
+        \type Engraver_group
+        \consists Staff_symbol_engraver
+        \consists Script_engraver
+        \consists Text_engraver
+        \consists Text_spanner_engraver
+        \override StaffSymbol.stencil = ##f
+        \override TextScript.font-size = 6
+        \override TextScript.outside-staff-priority = 600
+        \override TextScript.staff-padding = 3
+        \override TextSpanner.bound-details.right.attach-dir = #LEFT
+        \override TextSpanner.font-size = 6
+        \override TextSpanner.staff-padding = 8
+        }
+
+    % GLOBAL RESTS
+    \context {
+        \name GlobalRests
+        \type Engraver_group
+        \consists Multi_measure_rest_engraver
+        \override MultiMeasureRest.transparent = ##t
+        \override MultiMeasureRestText.font-size = 3
+        \override MultiMeasureRestText.outside-staff-priority = 0
+        \override MultiMeasureRestText.padding = 0
+        }
+
+    % GLOBAL CONTEXT
     \context {
         \name GlobalContext
         \type Engraver_group
         \consists Axis_group_engraver
         \consists Bar_number_engraver
         \consists Mark_engraver
-        \consists Metronome_mark_engraver
-        \consists Script_engraver
-        \consists Text_engraver
-        \consists Text_spanner_engraver
         \consists Time_signature_engraver
-        \override BarNumber.Y-extent = ##f
-        \override BarNumber.extra-offset = #'(-6 . -4)
+        \accepts GlobalSkips
+        \accepts GlobalRests
+        \accepts PageLayout
+        \override BarNumber.extra-offset = #'(-4 . -4)
         \override BarNumber.font-size = 1
-        \override BarNumber.padding = 4
-        \override MetronomeMark.X-extent = #'(0 . 0)
-        \override MetronomeMark.Y-extent = #'(0 . 0)
-        \override MetronomeMark.break-align-symbols = #'(left-edge)
-        \override MetronomeMark.extra-offset = #'(0 . 4)
-        \override MetronomeMark.font-size = 3
-        \override RehearsalMark.X-extent = #'(0 . 0)
-        \override RehearsalMark.Y-offset = -2.25
-        \override RehearsalMark.X-offset = 6
+        \override RehearsalMark.X-extent = ##f
+        \override RehearsalMark.Y-extent = ##f
         \override RehearsalMark.break-align-symbols = #'(time-signature)
         \override RehearsalMark.break-visibility = #end-of-line-invisible
         \override RehearsalMark.font-name = "Didot"
         \override RehearsalMark.font-size = 10
-        \override RehearsalMark.outside-staff-priority = 500
+        \override RehearsalMark.outside-staff-priority = 200
         \override RehearsalMark.self-alignment-X = #center
-        \override Script.font-size = 6
-        \override Script.extra-offset = #'(4 . -9)
-        \override TextScript.font-size = 6
-        \override TextScript.outside-staff-priority = 600
-        \override TextScript.padding = 8
-        \override TextSpanner.bound-details.right.attach-dir = #LEFT
-        \override TextSpanner.font-size = 6
-        \override TextSpanner.Y-extent = #'(-6 . 6)
-        \override TimeSignature.X-extent = #'(0 . 0)
+        % prevents StaffSymbol from starting too early after cut-away measures:
+        %\override TimeSignature.X-extent = #'(0 . 0)
+        \override TimeSignature.X-extent = ##f
         \override TimeSignature.break-align-symbol = #'left-edge
         \override TimeSignature.break-visibility = #end-of-line-invisible
         \override TimeSignature.font-size = 3
@@ -47,20 +62,26 @@
         \override TimeSignature.style = #'numbered
         \override VerticalAxisGroup.default-staff-staff-spacing = #'(
             (basic-distance . 0)
-            (minimum-distance . 14)
+            (minimum-distance . 12) % distance below time signature context
             (padding . 0)
             (stretchability . 0)
         )
-        \override VerticalAxisGroup.minimum-Y-extent = #'(-20 . 20)
+        \override VerticalAxisGroup.minimum-Y-extent = #'(-4 . 4)
     }
+
+    % STAFF
     \context {
         \Staff
         \remove Time_signature_engraver
     }
+
+    % VOICE
     \context {
         \Voice
         \remove Forbid_line_break_engraver
     }
+
+    % FLUTE
     \context {
         \Voice
         \name FluteMusicVoice
@@ -75,6 +96,8 @@
         \accepts FluteMusicVoice
         \override DynamicLineSpanner.staff-padding = 4
     }
+
+    % OBOE
     \context {
         \Voice
         \name OboeMusicVoice
@@ -89,6 +112,8 @@
         \accepts OboeMusicVoice
         \override DynamicLineSpanner.staff-padding = 4
     }
+
+    % CLARINET
     \context {
         \Voice
         \name ClarinetMusicVoice
@@ -103,6 +128,8 @@
         \accepts ClarinetMusicVoice
         \override DynamicLineSpanner.staff-padding = 4
     }
+
+    % SAXOPHONE
     \context {
         \Voice
         \name SaxophoneMusicVoice
@@ -117,6 +144,8 @@
         \accepts SaxophoneMusicVoice
         \override DynamicLineSpanner.staff-padding = 4
     }
+
+    % WIND SECTION STAFF GROUP
     \context {
         \StaffGroup
         \name WindSectionStaffGroup
@@ -129,6 +158,8 @@
         \override StaffGrouper.staff-staff-spacing.minimum-distance = 32
         \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 42
     }
+
+    % GUITAR
     \context {
         \Voice
         \name GuitarMusicVoice
@@ -143,6 +174,8 @@
         \accepts GuitarMusicVoice
         \override Beam.positions = #'(-4 . -4)
     }
+
+    % PIANO
     \context {
         \Voice
         \name PianoMusicVoice
@@ -156,6 +189,8 @@
         \alias Staff
         \accepts PianoMusicVoice
     }
+
+    % PERCUSSION
     \context {
         \Voice
         \name PercussionMusicVoice
@@ -171,6 +206,8 @@
         \override RepeatTie.direction = #up
         \override StaffSymbol.line-count = 1
     }
+
+    % PERCUSSION SECTION STAFF GROUP
     \context {
         \StaffGroup
         \name PercussionSectionStaffGroup
@@ -182,6 +219,8 @@
         \override StaffGrouper.staff-staff-spacing.minimum-distance = 32
         \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 42
     }
+
+    % VIOLIN
     \context {
         \Voice
         \name ViolinMusicVoice
@@ -196,6 +235,8 @@
         \accepts ViolinMusicVoice
         \override DynamicLineSpanner.staff-padding = 6
     }
+
+    % VIOLA
     \context {
         \Voice
         \name ViolaMusicVoice
@@ -210,6 +251,8 @@
         \accepts ViolaMusicVoice
         \override DynamicLineSpanner.staff-padding = 6
     }
+
+    % CELLO
     \context {
         \Voice
         \name CelloMusicVoice
@@ -224,6 +267,8 @@
         \accepts CelloMusicVoice
         \override DynamicLineSpanner.staff-padding = 6
     }
+
+    % CONTRABASS
     \context {
         \Voice
         \name ContrabassMusicVoice
@@ -238,6 +283,8 @@
         \accepts ContrabassMusicVoice
         \override DynamicLineSpanner.staff-padding = 6
     }
+
+    % STRING SECTION STAFF GROUP
     \context {
         \StaffGroup
         \name StringSectionStaffGroup
@@ -250,15 +297,27 @@
         \override StaffGrouper.staff-staff-spacing.minimum-distance = 32
         \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 42
     }
+
+    % MUSIC CONTEXT
     \context {
-        \Score
-        \accepts GlobalContext
+        \ChoirStaff
+        \name MusicContext
+        \type Engraver_group
+        \alias ChoirStaff
         \accepts WindSectionStaffGroup
         \accepts PercussionSectionStaffGroup
         \accepts StringSectionStaffGroup
+        systemStartDelimiter = #'SystemStartBar
+    }
+
+    % SCORE
+    \context {
+        \Score
+        \accepts GlobalContext
+        \accepts MusicContext
         \remove Bar_number_engraver
         \remove Mark_engraver
-        \remove Metronome_mark_engraver
+        \remove System_start_delimiter_engraver
         \override BarLine.hair-thickness = 0.5
         \override BarLine.space-alist = #'(
             (time-signature extra-space . 0.0)
