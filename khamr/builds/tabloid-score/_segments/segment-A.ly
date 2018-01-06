@@ -40,7 +40,7 @@
             \once \override TextSpanner.dash-period = 1.5
             \time 2/4                                                                %! SM1
             \mark #1                                                                 %! SM9
-            %%% \bar ""                                                              %! EMPTY_START_BAR:SM2
+            %%% \bar ""                                                              %! SEGMENT_EMPTY_START_BAR:SM2
             s1 * 1/2
             \startTextSpan
             ^ \markup {
