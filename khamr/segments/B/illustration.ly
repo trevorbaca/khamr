@@ -88,7 +88,7 @@
                         %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #3                                               %! CLOCK_TIME_MARKUP:SM28
                         %%%             3'37''                                           %! CLOCK_TIME_MARKUP:SM28
                         %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
@@ -99,7 +99,7 @@
                 s1 * 1/2
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         3'37''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -121,7 +121,7 @@
                         %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #3                                               %! CLOCK_TIME_MARKUP:SM28
                         %%%             3'38''                                           %! CLOCK_TIME_MARKUP:SM28
                         %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
@@ -133,7 +133,7 @@
                 s1 * 3/4
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         3'41''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -214,7 +214,7 @@
                         %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #3                                               %! CLOCK_TIME_MARKUP:SM28
                         %%%             3'43''                                           %! CLOCK_TIME_MARKUP:SM28
                         %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
@@ -226,7 +226,7 @@
                 s1 * 3/4
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         3'47''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -236,7 +236,7 @@
                 s1 * 1
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         3'49''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -258,7 +258,7 @@
                         %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #3                                               %! CLOCK_TIME_MARKUP:SM28
                         %%%             3'53''                                           %! CLOCK_TIME_MARKUP:SM28
                         %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
@@ -270,7 +270,7 @@
                 s1 * 1
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         3'58''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -347,7 +347,7 @@
                         %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #3                                               %! CLOCK_TIME_MARKUP:SM28
                         %%%             4'02''                                           %! CLOCK_TIME_MARKUP:SM28
                         %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
@@ -359,7 +359,7 @@
                 s1 * 1
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         4'03''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -369,7 +369,7 @@
                 s1 * 5/4
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         4'05''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -379,7 +379,7 @@
                 s1 * 3/4
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         4'07''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -389,7 +389,7 @@
                 s1 * 1/2
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         4'09''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -399,7 +399,7 @@
                 s1 * 3/2
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         4'10''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -409,7 +409,7 @@
                 s1 * 1/2
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         4'13''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -419,7 +419,7 @@
                 s1 * 5/4
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         4'14''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -429,7 +429,7 @@
                 s1 * 3/4
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         4'16''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -439,7 +439,7 @@
                 s1 * 1
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         4'17''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -449,7 +449,7 @@
                 s1 * 3/2
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         4'19''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -459,7 +459,7 @@
                 s1 * 1/2
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         4'22''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -468,7 +468,7 @@
                 s1 * 1/2
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         4'23''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -478,7 +478,7 @@
                 s1 * 3/4
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         4'24''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -488,7 +488,7 @@
                 s1 * 1
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         4'26''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -498,7 +498,7 @@
                 s1 * 1/2
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         4'27''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -574,7 +574,7 @@
                         %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #3                                               %! CLOCK_TIME_MARKUP:SM28
                         %%%             4'28''                                           %! CLOCK_TIME_MARKUP:SM28
                         %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
@@ -586,7 +586,7 @@
                 s1 * 3/2
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         4'30''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -596,7 +596,7 @@
                 s1 * 1
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         4'36''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -606,7 +606,7 @@
                 s1 * 3/4
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         4'40''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -683,7 +683,7 @@
                         %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #3                                               %! CLOCK_TIME_MARKUP:SM28
                         %%%             4'43''                                           %! CLOCK_TIME_MARKUP:SM28
                         %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
@@ -695,7 +695,7 @@
                 s1 * 1
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         4'47''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -717,7 +717,7 @@
                         %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #3                                               %! CLOCK_TIME_MARKUP:SM28
                         %%%             4'53''                                           %! CLOCK_TIME_MARKUP:SM28
                         %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
@@ -729,7 +729,7 @@
                 s1 * 3/4
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         5'00''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -751,7 +751,7 @@
                         %%% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%     {                                                        %! CLOCK_TIME_MARKUP:SM28
                         %%%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %%%             #-2                                              %! CLOCK_TIME_MARKUP:SM28
+                        %%%             #3                                               %! CLOCK_TIME_MARKUP:SM28
                         %%%             5'04''                                           %! CLOCK_TIME_MARKUP:SM28
                         %%%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
@@ -762,7 +762,7 @@
                 s1 * 1
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         5'10''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -772,7 +772,7 @@
                 s1 * 5/4
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         5'16''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 
@@ -783,7 +783,7 @@
                 \stopTextSpan                                                            %! SM29
             %%% ^ \markup {                                                              %! CLOCK_TIME_MARKUP:SM28
             %%%     \fontsize                                                            %! CLOCK_TIME_MARKUP:SM28
-            %%%         #-2                                                              %! CLOCK_TIME_MARKUP:SM28
+            %%%         #3                                                               %! CLOCK_TIME_MARKUP:SM28
             %%%         5'23''                                                           %! CLOCK_TIME_MARKUP:SM28
             %%%     }                                                                    %! CLOCK_TIME_MARKUP:SM28
                 \override Score.BarLine.transparent = ##f                                %! SM5
