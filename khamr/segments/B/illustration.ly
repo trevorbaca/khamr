@@ -83,7 +83,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m0                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [00]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -95,9 +95,11 @@
                         %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             3'37''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [3'37'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -114,13 +116,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m1                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [01]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             3'37''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [3'37'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -138,7 +142,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m2                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [02]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -150,9 +154,11 @@
                         %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             3'38''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [3'38'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -170,13 +176,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m3                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [03]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             3'41''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [3'41'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -253,7 +261,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m4                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [04]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -265,9 +273,11 @@
                         %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             3'43''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [3'43'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -285,13 +295,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m5                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [05]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             3'47''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [3'47'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -309,13 +321,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m6                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [06]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             3'49''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [3'49'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -333,7 +347,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m7                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [07]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -345,9 +359,11 @@
                         %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             3'53''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [3'53'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -365,13 +381,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m8                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [08]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             3'58''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [3'58'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -444,7 +462,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m9                                           %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [09]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -456,9 +474,11 @@
                         %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'02''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'02'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -476,13 +496,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m10                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [10]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'03''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'03'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -500,13 +522,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m11                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [11]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'05''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'05'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -524,13 +548,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m12                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [12]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'07''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'07'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -548,13 +574,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m13                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [13]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'09''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'09'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -572,13 +600,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m14                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [14]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'10''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'10'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -596,13 +626,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m15                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [15]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'13''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'13'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -620,13 +652,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m16                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [16]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'14''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'14'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -644,13 +678,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m17                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [17]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'16''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'16'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -668,13 +704,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m18                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [18]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'17''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'17'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -692,13 +730,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m19                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [19]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'19''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'19'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -716,13 +756,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m20                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [20]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'22''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'22'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -739,13 +781,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m21                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [21]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'23''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'23'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -763,13 +807,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m22                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [22]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'24''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'24'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -787,13 +833,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m23                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [23]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'26''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'26'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -811,13 +859,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m24                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [24]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'27''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'27'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -889,7 +939,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m25                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [25]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -901,9 +951,11 @@
                         %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'28''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'28'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -921,13 +973,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m26                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [26]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'30''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'30'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -945,13 +999,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m27                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [27]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'36''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'36'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -969,13 +1025,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m28                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [28]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'40''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'40'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -1048,7 +1106,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m29                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [29]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -1060,9 +1118,11 @@
                         %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'43''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'43'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -1080,13 +1140,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m30                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [30]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'47''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'47'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -1104,7 +1166,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m31                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [31]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -1116,9 +1178,11 @@
                         %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             4'53''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [4'53'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -1136,13 +1200,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m32                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [32]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             5'00''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [5'00'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -1160,7 +1226,7 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m33                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [33]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@%     {                                                        %! STAGE_NUMBER_MARKUP:SM3
@@ -1172,9 +1238,11 @@
                         %@%     }                                                        %! STAGE_NUMBER_MARKUP:SM3
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             5'04''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [5'04'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -1191,13 +1259,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m34                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [34]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             5'10''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [5'10'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -1215,13 +1285,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m35                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [35]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             5'16''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [5'16'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
@@ -1240,13 +1312,15 @@
                         %@%             #3                                               %! MEASURE_INDEX_MARKUP:SM31
                         %@%             \with-color                                      %! MEASURE_INDEX_MARKUP:SM31
                         %@%                 #(x11-color 'DarkCyan)                       %! MEASURE_INDEX_MARKUP:SM31
-                        %@%                 m36                                          %! MEASURE_INDEX_MARKUP:SM31
+                        %@%                 [36]                                         %! MEASURE_INDEX_MARKUP:SM31
                         %@%     }                                                        %! MEASURE_INDEX_MARKUP:SM31
                         %@% \line                                                        %! CLOCK_TIME_MARKUP:SM28
                         %@%     {                                                        %! CLOCK_TIME_MARKUP:SM28
-                        %@%         \fontsize                                            %! CLOCK_TIME_MARKUP:SM28
-                        %@%             #3                                               %! CLOCK_TIME_MARKUP:SM28
-                        %@%             5'23''                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%         \with-color                                          %! CLOCK_TIME_MARKUP:SM28
+                        %@%             #(x11-color 'DarkCyan)                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%             \fontsize                                        %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 #3                                           %! CLOCK_TIME_MARKUP:SM28
+                        %@%                 [5'23'']                                     %! CLOCK_TIME_MARKUP:SM28
                         %@%     }                                                        %! CLOCK_TIME_MARKUP:SM28
                         }
                     }
