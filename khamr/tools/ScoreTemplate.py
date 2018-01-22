@@ -50,6 +50,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                             fl.                                  %! ST1
                                         }                                        %! ST1
                                 }                                                %! ST1
+                            \clef "treble" %! ST3
                             s1
                         }
                     }
@@ -74,6 +75,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                             hn.                                 %! ST1
                                         }                                       %! ST1
                                 }                                               %! ST1
+                            \clef "treble" %! ST3
                             s1
                         }
                     }
@@ -98,6 +100,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                             cl.                                     %! ST1
                                         }                                           %! ST1
                                 }                                                   %! ST1
+                            \clef "treble" %! ST3
                             s1
                         }
                     }
@@ -122,6 +125,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                             sax.                                     %! ST1
                                         }                                            %! ST1
                                 }                                                    %! ST1
+                            \clef "treble" %! ST3
                             s1
                         }
                     }
@@ -140,6 +144,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     #10                                           %! ST1
                                     Gt.                                           %! ST1
                                 }                                                 %! ST1
+                            \clef "treble" %! ST3
                             s1
                         }
                     }
@@ -156,6 +161,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     #10                                          %! ST1
                                     Pf.                                          %! ST1
                                 }                                                %! ST1
+                            \clef "treble" %! ST3
                             s1
                         }
                     }
@@ -172,6 +178,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     #10                                               %! ST1
                                     Perc.                                             %! ST1
                                 }                                                     %! ST1
+                            \clef "percussion" %! ST3
                             s1
                         }
                     }
@@ -190,6 +197,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                                     #10                                           %! ST1
                                     Vn.                                           %! ST1
                                 }                                                 %! ST1
+                            \clef "treble" %! ST3
                             s1
                         }
                     }
@@ -295,6 +303,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             'default_instrument',
             khamr.instruments['BassFlute'],
             )
+        abjad.annotate(
+            flute_music_staff,
+            'default_clef',
+            abjad.Clef('treble'),
+            )
         self._attach_tag('Flute', flute_music_staff)
 
         # OBOE
@@ -311,6 +324,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             oboe_music_staff,
             'default_instrument',
             khamr.instruments['EnglishHorn'],
+            )
+        abjad.annotate(
+            oboe_music_staff,
+            'default_clef',
+            abjad.Clef('treble'),
             )
         self._attach_tag('Oboe', oboe_music_staff)
 
@@ -329,6 +347,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             'default_instrument',
             khamr.instruments['BassClarinet'],
             )
+        abjad.annotate(
+            clarinet_music_staff,
+            'default_clef',
+            abjad.Clef('treble'),
+            )
         self._attach_tag('Clarinet', clarinet_music_staff)
 
         # SAXOPHONE
@@ -345,6 +368,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             saxophone_music_staff,
             'default_instrument',
             khamr.instruments['BaritoneSaxophone'],
+            )
+        abjad.annotate(
+            saxophone_music_staff,
+            'default_clef',
+            abjad.Clef('treble'),
             )
         self._attach_tag('Saxophone', saxophone_music_staff)
 
@@ -363,6 +391,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             'default_instrument',
             khamr.instruments['Guitar'],
             )
+        abjad.annotate(
+            guitar_music_staff,
+            'default_clef',
+            abjad.Clef('treble'),
+            )
         self._attach_tag('Guitar', guitar_music_staff)
 
         # PIANO
@@ -379,6 +412,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             piano_music_staff,
             'default_instrument',
             khamr.instruments['Piano'],
+            )
+        abjad.annotate(
+            piano_music_staff,
+            'default_clef',
+            abjad.Clef('treble'),
             )
         self._attach_tag('Piano', piano_music_staff)
 
@@ -397,6 +435,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             'default_instrument',
             khamr.instruments['Percussion'],
             )
+        abjad.annotate(
+            percussion_music_staff,
+            'default_clef',
+            abjad.Clef('percussion'),
+            )
         self._attach_tag('Percussion', percussion_music_staff)
 
         # VIOLIN
@@ -413,6 +456,11 @@ class ScoreTemplate(baca.ScoreTemplate):
             violin_music_staff,
             'default_instrument',
             khamr.instruments['Violin'],
+            )
+        abjad.annotate(
+            violin_music_staff,
+            'default_clef',
+            abjad.Clef('treble'),
             )
         self._attach_tag('Violin', violin_music_staff)
 

@@ -1409,6 +1409,10 @@
                                             fl.                                          %! REDUNDANT_INSTRUMENT:SM8
                                         }                                                %! REDUNDANT_INSTRUMENT:SM8
                                 }                                                        %! REDUNDANT_INSTRUMENT:SM8
+                            \set FluteMusicStaff.forceClef = ##t                         %! DEFAULT_CLEF:SM8
+                            \clef "treble"                                               %! DEFAULT_CLEF:SM8
+                            \once \override FluteMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
+                        %@% \override FluteMusicStaff.Clef.color = ##f                   %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                             \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) %! REDUNDANT_INSTRUMENT_COLOR:SM6
                             \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             <g' g''>2
@@ -1501,6 +1505,7 @@
                                             fl.                                          %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
                                         }                                                %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
                                 }                                                        %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                            \override FluteMusicStaff.Clef.color = #(x11-color 'violet)  %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                             \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink4) %! REDRAWN_REDUNDANT_INSTRUMENT_COLOR:SM6
                             
                             % FluteMusicVoice [measure 2]                                %! SM4
@@ -2135,6 +2140,10 @@
                                             cl.                                          %! REDUNDANT_INSTRUMENT:SM8
                                         }                                                %! REDUNDANT_INSTRUMENT:SM8
                                 }                                                        %! REDUNDANT_INSTRUMENT:SM8
+                            \set ClarinetMusicStaff.forceClef = ##t                      %! DEFAULT_CLEF:SM8
+                            \clef "treble"                                               %! DEFAULT_CLEF:SM8
+                            \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
+                        %@% \override ClarinetMusicStaff.Clef.color = ##f                %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                             \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) %! REDUNDANT_INSTRUMENT_COLOR:SM6
                             \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             b2
@@ -2218,6 +2227,7 @@
                                             cl.                                          %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
                                         }                                                %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
                                 }                                                        %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                            \override ClarinetMusicStaff.Clef.color = #(x11-color 'violet) %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                             \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepPink4) %! REDRAWN_REDUNDANT_INSTRUMENT_COLOR:SM6
                             
                             % ClarinetMusicVoice [measure 2]                             %! SM4
@@ -2483,6 +2493,10 @@
                                             sax.                                         %! REDUNDANT_INSTRUMENT:SM8
                                         }                                                %! REDUNDANT_INSTRUMENT:SM8
                                 }                                                        %! REDUNDANT_INSTRUMENT:SM8
+                            \set SaxophoneMusicStaff.forceClef = ##t                     %! DEFAULT_CLEF:SM8
+                            \clef "treble"                                               %! DEFAULT_CLEF:SM8
+                            \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
+                        %@% \override SaxophoneMusicStaff.Clef.color = ##f               %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                             \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) %! REDUNDANT_INSTRUMENT_COLOR:SM6
                             \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             e''2
@@ -2566,6 +2580,7 @@
                                             sax.                                         %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
                                         }                                                %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
                                 }                                                        %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                            \override SaxophoneMusicStaff.Clef.color = #(x11-color 'violet) %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                             \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'DeepPink4) %! REDRAWN_REDUNDANT_INSTRUMENT_COLOR:SM6
                             
                             % SaxophoneMusicVoice [measure 2]                            %! SM4
@@ -2818,7 +2833,11 @@
                                     #10                                                  %! DEFAULT_INSTRUMENT:SM8
                                     Gt.                                                  %! DEFAULT_INSTRUMENT:SM8
                                 }                                                        %! DEFAULT_INSTRUMENT:SM8
+                            \set GuitarMusicStaff.forceClef = ##t                        %! DEFAULT_CLEF:SM8
+                            \clef "treble"                                               %! DEFAULT_CLEF:SM8
                             \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
+                            \once \override GuitarMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
+                        %@% \override GuitarMusicStaff.Clef.color = ##f                  %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                             \once \override GuitarMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             cs'4
                             \f                                                           %! EXPLICIT_DYNAMIC:SM8
@@ -2884,6 +2903,7 @@
                                     Gt.                                                  %! REDRAWN_DEFAULT_INSTRUMENT:SM8
                                 }                                                        %! REDRAWN_DEFAULT_INSTRUMENT:SM8
                             \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
+                            \override GuitarMusicStaff.Clef.color = #(x11-color 'violet) %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                             
                             r4
                             
@@ -4309,7 +4329,11 @@
                                     #10                                                  %! DEFAULT_INSTRUMENT:SM8
                                     Perc.                                                %! DEFAULT_INSTRUMENT:SM8
                                 }                                                        %! DEFAULT_INSTRUMENT:SM8
+                            \set PercussionMusicStaff.forceClef = ##t                    %! DEFAULT_CLEF:SM8
+                            \clef "percussion"                                           %! DEFAULT_CLEF:SM8
                             \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
+                            \once \override PercussionMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
+                        %@% \override PercussionMusicStaff.Clef.color = ##f              %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                             \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             c'2
                             -\accent                                                     %! IC
@@ -4383,6 +4407,7 @@
                                     Perc.                                                %! REDRAWN_DEFAULT_INSTRUMENT:SM8
                                 }                                                        %! REDRAWN_DEFAULT_INSTRUMENT:SM8
                             \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
+                            \override PercussionMusicStaff.Clef.color = #(x11-color 'violet) %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                             
                             % PercussionMusicVoice [measure 2]                           %! SM4
                             \once \override Accidental.color = #red
@@ -5004,7 +5029,11 @@
                                     #10                                                  %! DEFAULT_INSTRUMENT:SM8
                                     Vn.                                                  %! DEFAULT_INSTRUMENT:SM8
                                 }                                                        %! DEFAULT_INSTRUMENT:SM8
+                            \set ViolinMusicStaff.forceClef = ##t                        %! DEFAULT_CLEF:SM8
+                            \clef "treble"                                               %! DEFAULT_CLEF:SM8
                             \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! DEFAULT_INSTRUMENT_COLOR:SM6
+                            \once \override ViolinMusicStaff.Clef.color = #(x11-color 'DarkViolet) %! DEFAULT_CLEF_COLOR:SM6
+                        %@% \override ViolinMusicStaff.Clef.color = ##f                  %! DEFAULT_CLEF_COLOR_CANCELLATION:SM7
                             \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             g'2
                             \>
@@ -5076,6 +5105,7 @@
                                     Vn.                                                  %! REDRAWN_DEFAULT_INSTRUMENT:SM8
                                 }                                                        %! REDRAWN_DEFAULT_INSTRUMENT:SM8
                             \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'violet) %! REDRAWN_DEFAULT_INSTRUMENT_COLOR:SM6
+                            \override ViolinMusicStaff.Clef.color = #(x11-color 'violet) %! DEFAULT_CLEF_REDRAW_COLOR:SM6
                             
                             % ViolinMusicVoice [measure 2]                               %! SM4
                             g'2
