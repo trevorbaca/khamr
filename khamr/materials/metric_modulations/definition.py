@@ -1,7 +1,7 @@
 import abjad
 
 
-metric_modulations = abjad.TypedOrderedDict([
+metric_modulations = abjad.OrderedDict([
     (
         '3:2(4)=4',
         abjad.MetricModulation(
