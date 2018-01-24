@@ -2636,7 +2636,8 @@
                             
                             % PianoMusicVoice [measure 66]                               %! SM4
                             r4
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 bf'''16
                                 [
@@ -2651,7 +2652,8 @@
                             
                             % PianoMusicVoice [measure 67]                               %! SM4
                             r2
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 bf'''16
                                 [
@@ -2679,7 +2681,8 @@
                             
                             % PianoMusicVoice [measure 69]                               %! SM4
                             r4
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 af'''16
                                 [
@@ -2713,7 +2716,8 @@
                             r2.
                             
                             r4.
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 df''''16.
                                 [
@@ -2754,7 +2758,8 @@
                             
                             % PianoMusicVoice [measure 74]                               %! SM4
                             r4.
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 ef''''16.
                                 [

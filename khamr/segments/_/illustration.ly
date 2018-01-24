@@ -2915,7 +2915,8 @@
                             
                             % GuitarMusicVoice [measure 4]                               %! SM4
                             r2.
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % GuitarMusicVoice [measure 5]                           %! SM4
                                 r8
@@ -2929,7 +2930,8 @@
                             
                             % GuitarMusicVoice [measure 6]                               %! SM4
                             r4
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r16
                                 
@@ -2942,7 +2944,8 @@
                             
                             % GuitarMusicVoice [measure 7]                               %! SM4
                             r2
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -3001,7 +3004,8 @@
                             }
                             
                             r1
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % GuitarMusicVoice [measure 13]                          %! SM4
                                 r8
@@ -3026,7 +3030,8 @@
                             
                             % GuitarMusicVoice [measure 15]                              %! SM4
                             r1
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -3039,7 +3044,8 @@
                             
                             % GuitarMusicVoice [measure 16]                              %! SM4
                             r2
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % GuitarMusicVoice [measure 17]                          %! SM4
                                 r16
@@ -3115,7 +3121,8 @@
                             
                             % GuitarMusicVoice [measure 24]                              %! SM4
                             r2
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 
@@ -3640,7 +3647,8 @@
                                 ]
                             }
                             \revert TupletNumber.text
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % GuitarMusicVoice [measure 40]                          %! SM4
                                 bf''2
@@ -3684,7 +3692,8 @@
                             
                             % GuitarMusicVoice [measure 44]                              %! SM4
                             r4
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 r8
                                 

@@ -6441,7 +6441,8 @@
                     \tag Piano                                                           %! ST4
                     \context PianoMusicStaff = "PianoMusicStaff" {
                         \context PianoMusicVoice = "PianoMusicVoice" {
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PianoMusicVoice [measure 75]                           %! SM4
                                 \stopStaff                                               %! REAPPLIED_STAFF_LINES:SM8
@@ -6533,7 +6534,8 @@
                                 c''''16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 af'''16
                                 [
@@ -6545,7 +6547,8 @@
                                 c''''16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 % PianoMusicVoice [measure 76]                           %! SM4
                                 b'''16
@@ -6611,7 +6614,8 @@
                                 df''''16.
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 d''''8
                                 [
@@ -6632,7 +6636,8 @@
                                 df''''8
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 bf'''16
                                 [
@@ -6644,7 +6649,8 @@
                                 fs'''16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 f''''16
                                 [
@@ -6751,7 +6757,8 @@
                                 ef''''16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 f''''16
                                 [
@@ -6763,7 +6770,8 @@
                                 bf'''16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 a'''16
                                 [
@@ -6775,7 +6783,8 @@
                                 g'''16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 e''''16
                                 [
@@ -6861,7 +6870,8 @@
                                 af'''8
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 g'''16
                                 [
@@ -6873,7 +6883,8 @@
                                 a'''16
                                 ]
                             }
-                            {
+                            \tweak text #tuplet-number::calc-fraction-text
+                            \times 1/1 {
                                 
                                 e''''16
                                 [
