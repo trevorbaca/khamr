@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-percussion_instruments = abjad.TypedOrderedDict([
+percussion_instruments = abjad.OrderedDict([
     (
         'almglocken',
         abjad.Percussion(
