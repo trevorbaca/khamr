@@ -18,8 +18,6 @@ maker = baca.SegmentMaker(
         4,          # 6 (63)
         2, 2, 4,    # 7-9 (42)
         ],
-    metronome_marks=khamr.metronome_marks,
-    score_template=khamr.ScoreTemplate(),
     metronome_mark_measure_map=[
         #(1, khamr.metronome_marks['126']),
         (3, khamr.metronome_marks['63']),
@@ -28,6 +26,9 @@ maker = baca.SegmentMaker(
         (6, khamr.metronome_marks['63']),
         (7, khamr.metronome_marks['42']),
         ],
+    metronome_marks=khamr.metronome_marks,
+    rehearsal_mark='B',
+    score_template=khamr.ScoreTemplate(),
     time_signatures=khamr.time_signatures[:37],
     transpose_score=True,
     validate_measure_count=37,
