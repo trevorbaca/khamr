@@ -12,8 +12,6 @@ maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     instruments=khamr.instruments,
     measures_per_stage=[4, 4, 6, 6, 10],
-    metronome_marks=khamr.metronome_marks,
-    score_template=khamr.ScoreTemplate(),
     metronome_mark_measure_map=[
         (1, khamr.metronome_marks['42']),
         (1, abjad.Accelerando()),
@@ -22,6 +20,9 @@ maker = baca.SegmentMaker(
         (3, khamr.metronome_marks['42']),
         (5, khamr.metronome_marks['126']),
         ],
+    metronome_marks=khamr.metronome_marks,
+    rehearsal_mark='A',
+    score_template=khamr.ScoreTemplate(),
     time_signatures=khamr.time_signatures[:30],
     transpose_score=True,
     validate_measure_count=30,

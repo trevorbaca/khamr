@@ -16,12 +16,13 @@ maker = baca.SegmentMaker(
         3, 2, 2, 2, 2, 2, 2, 5,     # stages 1-8
         ],
     metronome_marks=khamr.metronome_marks,
-    score_template=khamr.ScoreTemplate(),
     metronome_mark_measure_map=[
         #(1, khamr.metronome_marks['42']),
         (4, abjad.Accelerando()),
         (8, khamr.metronome_marks['84']),
         ],
+    rehearsal_mark='C',
+    score_template=khamr.ScoreTemplate(),
     time_signatures=khamr.time_signatures[:20],
     transpose_score=True,
     validate_measure_count=20,
