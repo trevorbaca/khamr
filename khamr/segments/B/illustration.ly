@@ -10074,12 +10074,12 @@
                             \pitchedTrill                                                %! SC
                             g,,2.
                             \mp                                                          %! EXPLICIT_DYNAMIC:SM8
-                            \startTrillSpan f                                            %! SC
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
                                     \upright                                             %! IC
                                         "Shape trill dynamics beautifully. (Thank you, Stefano.)" %! IC
                                 }                                                        %! IC
+                            \startTrillSpan f                                            %! SC
                             
                             g,,2
                             \repeatTie

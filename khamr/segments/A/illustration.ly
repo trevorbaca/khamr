@@ -1342,7 +1342,6 @@
                             bf''2
                             \>
                             \mp
-                            \startTrillSpan                                              %! SC
                             ^ \markup {                                                  %! REAPPLIED_INSTRUMENT_ALERT:SM11
                                 \with-color                                              %! REAPPLIED_INSTRUMENT_ALERT:SM11
                                     #(x11-color 'green4)                                 %! REAPPLIED_INSTRUMENT_ALERT:SM11
@@ -1372,6 +1371,7 @@
                                             }                                            %! REAPPLIED_INSTRUMENT_ALERT:SM11
                                     }                                                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
                                 }                                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            \startTrillSpan                                              %! SC
                             \set FluteMusicStaff.instrumentName = \markup {              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
                                 \hcenter-in                                              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
                                     #16                                                  %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
@@ -3435,7 +3435,6 @@
                             gf'2
                             -\accent                                                     %! IC
                             \ppp                                                         %! REAPPLIED_DYNAMIC:SM8
-                            \startTrillSpan aff'                                         %! SC
                             ^ \markup {                                                  %! REAPPLIED_INSTRUMENT_ALERT:SM11
                                 \with-color                                              %! REAPPLIED_INSTRUMENT_ALERT:SM11
                                     #(x11-color 'green4)                                 %! REAPPLIED_INSTRUMENT_ALERT:SM11
@@ -3457,6 +3456,7 @@
                                             }                                            %! REAPPLIED_INSTRUMENT_ALERT:SM11
                                     }                                                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
                                 }                                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            \startTrillSpan aff'                                         %! SC
                             \set ViolinMusicStaff.instrumentName = \markup {             %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
                                 \hcenter-in                                              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
                                     #16                                                  %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
@@ -3854,7 +3854,6 @@
                             f'2
                             -\accent                                                     %! IC
                             \ppp                                                         %! REAPPLIED_DYNAMIC:SM8
-                            \startTrillSpan gf'                                          %! SC
                             ^ \markup {                                                  %! REAPPLIED_INSTRUMENT_ALERT:SM11
                                 \with-color                                              %! REAPPLIED_INSTRUMENT_ALERT:SM11
                                     #(x11-color 'green4)                                 %! REAPPLIED_INSTRUMENT_ALERT:SM11
@@ -3876,6 +3875,7 @@
                                             }                                            %! REAPPLIED_INSTRUMENT_ALERT:SM11
                                     }                                                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
                                 }                                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            \startTrillSpan gf'                                          %! SC
                             \set ViolaMusicStaff.instrumentName = \markup {              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
                                 \hcenter-in                                              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
                                     #16                                                  %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
@@ -4214,7 +4214,6 @@
                             f'2
                             -\accent                                                     %! IC
                             \ppp                                                         %! REAPPLIED_DYNAMIC:SM8
-                            \startTrillSpan gf'                                          %! SC
                             ^ \markup {                                                  %! REAPPLIED_INSTRUMENT_ALERT:SM11
                                 \with-color                                              %! REAPPLIED_INSTRUMENT_ALERT:SM11
                                     #(x11-color 'green4)                                 %! REAPPLIED_INSTRUMENT_ALERT:SM11
@@ -4236,6 +4235,7 @@
                                             }                                            %! REAPPLIED_INSTRUMENT_ALERT:SM11
                                     }                                                    %! REAPPLIED_INSTRUMENT_ALERT:SM11
                                 }                                                        %! REAPPLIED_INSTRUMENT_ALERT:SM11
+                            \startTrillSpan gf'                                          %! SC
                             \set CelloMusicStaff.instrumentName = \markup {              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
                                 \hcenter-in                                              %! REDRAWN_REAPPLIED_INSTRUMENT:SM8
                                     #16                                                  %! REDRAWN_REAPPLIED_INSTRUMENT:SM8

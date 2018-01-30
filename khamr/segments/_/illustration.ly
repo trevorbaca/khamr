@@ -5588,12 +5588,12 @@
                             f'2
                             -\accent                                                     %! IC
                             \ppp                                                         %! EXPLICIT_DYNAMIC:SM8
-                            \startTrillSpan gf'                                          %! SC
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
                                     \upright                                             %! IC
                                         "molto flautando ed estr. sul pont."             %! IC
                                 }                                                        %! IC
+                            \startTrillSpan gf'                                          %! SC
                             \times 4/5 {
                                 
                                 f'16
@@ -6156,12 +6156,12 @@
                             f'2.
                             -\accent                                                     %! IC
                             \ppp                                                         %! EXPLICIT_DYNAMIC:SM8
-                            \startTrillSpan gf'                                          %! SC
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
                                     \upright                                             %! IC
                                         "molto flautando ed estr. sul pont."             %! IC
                                 }                                                        %! IC
+                            \startTrillSpan gf'                                          %! SC
                             \times 4/5 {
                                 
                                 % ViolaMusicVoice [measure 38]                           %! SM4
@@ -6688,12 +6688,12 @@
                             f'2.
                             -\accent                                                     %! IC
                             \ppp                                                         %! EXPLICIT_DYNAMIC:SM8
-                            \startTrillSpan gf'                                          %! SC
                             ^ \markup {                                                  %! IC
                                 \whiteout                                                %! IC
                                     \upright                                             %! IC
                                         "molto flautando ed estr. sul pont."             %! IC
                                 }                                                        %! IC
+                            \startTrillSpan gf'                                          %! SC
                             
                             % CelloMusicVoice [measure 38]                               %! SM4
                             f'4
