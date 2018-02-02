@@ -17,7 +17,7 @@
             \context GlobalContext = "GlobalContext" <<
                 \context GlobalSkips = "GlobalSkips" {
                     
-                    % [GlobalSkips measure 112]                                          %! SM4
+                    % [C GlobalSkips measure 112]                                        %! SM4
                 %@% \once \override TextSpanner.bound-details.left.text =                %! REAPPLIED_METRONOME_MARK:SM27
                 %@% \markup {                                                            %! REAPPLIED_METRONOME_MARK:SM27
                 %@%     \fontsize                                                        %! REAPPLIED_METRONOME_MARK:SM27
@@ -115,7 +115,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 113]                                          %! SM4
+                    % [C GlobalSkips measure 113]                                        %! SM4
                     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 1/2
                     ^ \markup {
@@ -148,7 +148,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 114]                                          %! SM4
+                    % [C GlobalSkips measure 114]                                        %! SM4
                     \time 6/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
                     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 3/2
@@ -182,7 +182,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 115]                                          %! SM4
+                    % [C GlobalSkips measure 115]                                        %! SM4
                     \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
                     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 3/4
@@ -224,7 +224,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 116]                                          %! SM4
+                    % [C GlobalSkips measure 116]                                        %! SM4
                     \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
                     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 1
@@ -258,7 +258,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 117]                                          %! SM4
+                    % [C GlobalSkips measure 117]                                        %! SM4
                     \time 6/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
                     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 3/4
@@ -300,7 +300,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 118]                                          %! SM4
+                    % [C GlobalSkips measure 118]                                        %! SM4
                     \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
                     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 1
@@ -334,7 +334,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 119]                                          %! SM4
+                    % [C GlobalSkips measure 119]                                        %! SM4
                     \once \override TextSpanner.Y-extent = ##f                           %! SM29
                     \once \override TextSpanner.arrow-width = 0.25                       %! SM29
                     \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29
@@ -400,7 +400,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 120]                                          %! SM4
+                    % [C GlobalSkips measure 120]                                        %! SM4
                     \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
                     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 1
@@ -434,7 +434,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 121]                                          %! SM4
+                    % [C GlobalSkips measure 121]                                        %! SM4
                     \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
                     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 3/4
@@ -476,7 +476,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 122]                                          %! SM4
+                    % [C GlobalSkips measure 122]                                        %! SM4
                     \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
                     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 1
@@ -510,7 +510,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 123]                                          %! SM4
+                    % [C GlobalSkips measure 123]                                        %! SM4
                     \time 5/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
                     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 5/4
@@ -552,7 +552,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 124]                                          %! SM4
+                    % [C GlobalSkips measure 124]                                        %! SM4
                     \time 6/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
                     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 3/4
@@ -586,7 +586,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 125]                                          %! SM4
+                    % [C GlobalSkips measure 125]                                        %! SM4
                     \time 2/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
                     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 1/2
@@ -628,7 +628,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 126]                                          %! SM4
+                    % [C GlobalSkips measure 126]                                        %! SM4
                     \time 6/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
                     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 3/2
@@ -662,7 +662,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 127]                                          %! SM4
+                    % [C GlobalSkips measure 127]                                        %! SM4
                 %@% \once \override TextSpanner.bound-details.left.text =                %! EXPLICIT_METRONOME_MARK:SM27
                 %@% \markup {                                                            %! EXPLICIT_METRONOME_MARK:SM27
                 %@%     \fontsize                                                        %! EXPLICIT_METRONOME_MARK:SM27
@@ -759,7 +759,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 128]                                          %! SM4
+                    % [C GlobalSkips measure 128]                                        %! SM4
                     \time 5/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
                     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 5/4
@@ -793,7 +793,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 129]                                          %! SM4
+                    % [C GlobalSkips measure 129]                                        %! SM4
                     \time 6/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
                     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 3/4
@@ -827,7 +827,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 130]                                          %! SM4
+                    % [C GlobalSkips measure 130]                                        %! SM4
                     \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
                     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 1
@@ -861,7 +861,7 @@
                             }
                         }
                     
-                    % [GlobalSkips measure 131]                                          %! SM4
+                    % [C GlobalSkips measure 131]                                        %! SM4
                     \time 6/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
                     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
                     s1 * 3/2
@@ -906,7 +906,7 @@
                     \context FluteMusicStaff = "FluteMusicStaff" {
                         \context FluteMusicVoice = "FluteMusicVoice" {
                             
-                            % [FluteMusicVoice measure 112]                              %! SM4
+                            % [C FluteMusicVoice measure 112]                            %! SM4
                             \set FluteMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
                                 \hcenter-in                                              %! REAPPLIED_INSTRUMENT:SM8
                                     #16                                                  %! REAPPLIED_INSTRUMENT:SM8
@@ -959,11 +959,11 @@
                             \override FluteMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override FluteMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
-                            % [FluteMusicVoice measure 113]                              %! SM4
+                            % [C FluteMusicVoice measure 113]                            %! SM4
                             bf'2
                             \repeatTie
                             
-                            % [FluteMusicVoice measure 114]                              %! SM4
+                            % [C FluteMusicVoice measure 114]                            %! SM4
                             bf'2.
                             \repeatTie
                             
@@ -975,15 +975,15 @@
                             
                             r16
                             
-                            % [FluteMusicVoice measure 115]                              %! SM4
+                            % [C FluteMusicVoice measure 115]                            %! SM4
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
                             bf'2.
                             
-                            % [FluteMusicVoice measure 116]                              %! SM4
+                            % [C FluteMusicVoice measure 116]                            %! SM4
                             bf'1
                             \repeatTie
                             
-                            % [FluteMusicVoice measure 117]                              %! SM4
+                            % [C FluteMusicVoice measure 117]                            %! SM4
                             bf'4
                             \repeatTie
                             
@@ -995,11 +995,11 @@
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
                             bf'4.
                             
-                            % [FluteMusicVoice measure 118]                              %! SM4
+                            % [C FluteMusicVoice measure 118]                            %! SM4
                             bf'1
                             \repeatTie
                             
-                            % [FluteMusicVoice measure 119]                              %! SM4
+                            % [C FluteMusicVoice measure 119]                            %! SM4
                             bf'2
                             \repeatTie
                             
@@ -1011,11 +1011,11 @@
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
                             bf'2
                             
-                            % [FluteMusicVoice measure 120]                              %! SM4
+                            % [C FluteMusicVoice measure 120]                            %! SM4
                             bf'1
                             \repeatTie
                             
-                            % [FluteMusicVoice measure 121]                              %! SM4
+                            % [C FluteMusicVoice measure 121]                            %! SM4
                             bf'4..
                             \repeatTie
                             
@@ -1024,11 +1024,11 @@
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
                             bf'4
                             
-                            % [FluteMusicVoice measure 122]                              %! SM4
+                            % [C FluteMusicVoice measure 122]                            %! SM4
                             bf'1
                             \repeatTie
                             
-                            % [FluteMusicVoice measure 123]                              %! SM4
+                            % [C FluteMusicVoice measure 123]                            %! SM4
                             bf'2
                             \repeatTie
                             
@@ -1040,15 +1040,15 @@
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
                             bf'2
                             
-                            % [FluteMusicVoice measure 124]                              %! SM4
+                            % [C FluteMusicVoice measure 124]                            %! SM4
                             bf'2.
                             \repeatTie
                             
-                            % [FluteMusicVoice measure 125]                              %! SM4
+                            % [C FluteMusicVoice measure 125]                            %! SM4
                             bf'2
                             \repeatTie
                             
-                            % [FluteMusicVoice measure 126]                              %! SM4
+                            % [C FluteMusicVoice measure 126]                            %! SM4
                             bf'2
                             \repeatTie
                             
@@ -1065,19 +1065,19 @@
                             
                             r16
                             
-                            % [FluteMusicVoice measure 127]                              %! SM4
+                            % [C FluteMusicVoice measure 127]                            %! SM4
                             R1 * 1/2
                             
-                            % [FluteMusicVoice measure 128]                              %! SM4
+                            % [C FluteMusicVoice measure 128]                            %! SM4
                             R1 * 5/4
                             
-                            % [FluteMusicVoice measure 129]                              %! SM4
+                            % [C FluteMusicVoice measure 129]                            %! SM4
                             R1 * 3/4
                             
-                            % [FluteMusicVoice measure 130]                              %! SM4
+                            % [C FluteMusicVoice measure 130]                            %! SM4
                             R1 * 1
                             
-                            % [FluteMusicVoice measure 131]                              %! SM4
+                            % [C FluteMusicVoice measure 131]                            %! SM4
                             R1 * 3/2
                             
                         }
@@ -1086,7 +1086,7 @@
                     \context OboeMusicStaff = "OboeMusicStaff" {
                         \context OboeMusicVoice = "OboeMusicVoice" {
                             
-                            % [OboeMusicVoice measure 112]                               %! SM4
+                            % [C OboeMusicVoice measure 112]                             %! SM4
                             \stopStaff                                                   %! REDUNDANT_STAFF_LINES:SM8
                             \once \override OboeMusicStaff.StaffSymbol.line-count = 1    %! REDUNDANT_STAFF_LINES:SM8
                             \startStaff                                                  %! REDUNDANT_STAFF_LINES:SM8
@@ -1144,15 +1144,15 @@
                             \override OboeMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override OboeMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
-                            % [OboeMusicVoice measure 113]                               %! SM4
+                            % [C OboeMusicVoice measure 113]                             %! SM4
                             c'2
                             \repeatTie
                             
-                            % [OboeMusicVoice measure 114]                               %! SM4
+                            % [C OboeMusicVoice measure 114]                             %! SM4
                             c'1.
                             \repeatTie
                             
-                            % [OboeMusicVoice measure 115]                               %! SM4
+                            % [C OboeMusicVoice measure 115]                             %! SM4
                             c'4..
                             \repeatTie
                             
@@ -1161,15 +1161,15 @@
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
                             c'4
                             
-                            % [OboeMusicVoice measure 116]                               %! SM4
+                            % [C OboeMusicVoice measure 116]                             %! SM4
                             c'1
                             \repeatTie
                             
-                            % [OboeMusicVoice measure 117]                               %! SM4
+                            % [C OboeMusicVoice measure 117]                             %! SM4
                             c'2.
                             \repeatTie
                             
-                            % [OboeMusicVoice measure 118]                               %! SM4
+                            % [C OboeMusicVoice measure 118]                             %! SM4
                             c'2
                             \repeatTie
                             
@@ -1181,28 +1181,28 @@
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
                             c'4
                             
-                            % [OboeMusicVoice measure 119]                               %! SM4
+                            % [C OboeMusicVoice measure 119]                             %! SM4
                             c'2.
                             \repeatTie
                             
                             c'2
                             \repeatTie
                             
-                            % [OboeMusicVoice measure 120]                               %! SM4
+                            % [C OboeMusicVoice measure 120]                             %! SM4
                             c'2...
                             \repeatTie
                             
                             r16
                             
-                            % [OboeMusicVoice measure 121]                               %! SM4
+                            % [C OboeMusicVoice measure 121]                             %! SM4
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
                             c'2.
                             
-                            % [OboeMusicVoice measure 122]                               %! SM4
+                            % [C OboeMusicVoice measure 122]                             %! SM4
                             c'1
                             \repeatTie
                             
-                            % [OboeMusicVoice measure 123]                               %! SM4
+                            % [C OboeMusicVoice measure 123]                             %! SM4
                             c'2
                             \repeatTie
                             
@@ -1214,15 +1214,15 @@
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
                             c'2
                             
-                            % [OboeMusicVoice measure 124]                               %! SM4
+                            % [C OboeMusicVoice measure 124]                             %! SM4
                             c'2.
                             \repeatTie
                             
-                            % [OboeMusicVoice measure 125]                               %! SM4
+                            % [C OboeMusicVoice measure 125]                             %! SM4
                             c'2
                             \repeatTie
                             
-                            % [OboeMusicVoice measure 126]                               %! SM4
+                            % [C OboeMusicVoice measure 126]                             %! SM4
                             c'2.
                             \repeatTie
                             
@@ -1235,19 +1235,19 @@
                             
                             r16
                             
-                            % [OboeMusicVoice measure 127]                               %! SM4
+                            % [C OboeMusicVoice measure 127]                             %! SM4
                             R1 * 1/2
                             
-                            % [OboeMusicVoice measure 128]                               %! SM4
+                            % [C OboeMusicVoice measure 128]                             %! SM4
                             R1 * 5/4
                             
-                            % [OboeMusicVoice measure 129]                               %! SM4
+                            % [C OboeMusicVoice measure 129]                             %! SM4
                             R1 * 3/4
                             
-                            % [OboeMusicVoice measure 130]                               %! SM4
+                            % [C OboeMusicVoice measure 130]                             %! SM4
                             R1 * 1
                             
-                            % [OboeMusicVoice measure 131]                               %! SM4
+                            % [C OboeMusicVoice measure 131]                             %! SM4
                             R1 * 3/2
                             
                         }
@@ -1256,7 +1256,7 @@
                     \context ClarinetMusicStaff = "ClarinetMusicStaff" {
                         \context ClarinetMusicVoice = "ClarinetMusicVoice" {
                             
-                            % [ClarinetMusicVoice measure 112]                           %! SM4
+                            % [C ClarinetMusicVoice measure 112]                         %! SM4
                             \set ClarinetMusicStaff.instrumentName = \markup {           %! REAPPLIED_INSTRUMENT:SM8
                                 \hcenter-in                                              %! REAPPLIED_INSTRUMENT:SM8
                                     #16                                                  %! REAPPLIED_INSTRUMENT:SM8
@@ -1333,81 +1333,81 @@
                             \override ClarinetMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
-                            % [ClarinetMusicVoice measure 113]                           %! SM4
+                            % [C ClarinetMusicVoice measure 113]                         %! SM4
                             a2
                             \repeatTie
                             
-                            % [ClarinetMusicVoice measure 114]                           %! SM4
+                            % [C ClarinetMusicVoice measure 114]                         %! SM4
                             a1.
                             \repeatTie
                             
-                            % [ClarinetMusicVoice measure 115]                           %! SM4
+                            % [C ClarinetMusicVoice measure 115]                         %! SM4
                             a2.
                             \repeatTie
                             
-                            % [ClarinetMusicVoice measure 116]                           %! SM4
+                            % [C ClarinetMusicVoice measure 116]                         %! SM4
                             a1
                             \repeatTie
                             
-                            % [ClarinetMusicVoice measure 117]                           %! SM4
+                            % [C ClarinetMusicVoice measure 117]                         %! SM4
                             a2.
                             \repeatTie
                             
-                            % [ClarinetMusicVoice measure 118]                           %! SM4
+                            % [C ClarinetMusicVoice measure 118]                         %! SM4
                             a1
                             \repeatTie
                             
-                            % [ClarinetMusicVoice measure 119]                           %! SM4
+                            % [C ClarinetMusicVoice measure 119]                         %! SM4
                             a2.
                             \repeatTie
                             
                             a2
                             \repeatTie
                             
-                            % [ClarinetMusicVoice measure 120]                           %! SM4
+                            % [C ClarinetMusicVoice measure 120]                         %! SM4
                             a1
                             \repeatTie
                             
-                            % [ClarinetMusicVoice measure 121]                           %! SM4
+                            % [C ClarinetMusicVoice measure 121]                         %! SM4
                             a2.
                             \repeatTie
                             
-                            % [ClarinetMusicVoice measure 122]                           %! SM4
+                            % [C ClarinetMusicVoice measure 122]                         %! SM4
                             a1
                             \repeatTie
                             
-                            % [ClarinetMusicVoice measure 123]                           %! SM4
+                            % [C ClarinetMusicVoice measure 123]                         %! SM4
                             a2.
                             \repeatTie
                             
                             a2
                             \repeatTie
                             
-                            % [ClarinetMusicVoice measure 124]                           %! SM4
+                            % [C ClarinetMusicVoice measure 124]                         %! SM4
                             a2.
                             \repeatTie
                             
-                            % [ClarinetMusicVoice measure 125]                           %! SM4
+                            % [C ClarinetMusicVoice measure 125]                         %! SM4
                             a2
                             \repeatTie
                             
-                            % [ClarinetMusicVoice measure 126]                           %! SM4
+                            % [C ClarinetMusicVoice measure 126]                         %! SM4
                             a1.
                             \repeatTie
                             
-                            % [ClarinetMusicVoice measure 127]                           %! SM4
+                            % [C ClarinetMusicVoice measure 127]                         %! SM4
                             R1 * 1/2
                             
-                            % [ClarinetMusicVoice measure 128]                           %! SM4
+                            % [C ClarinetMusicVoice measure 128]                         %! SM4
                             R1 * 5/4
                             
-                            % [ClarinetMusicVoice measure 129]                           %! SM4
+                            % [C ClarinetMusicVoice measure 129]                         %! SM4
                             R1 * 3/4
                             
-                            % [ClarinetMusicVoice measure 130]                           %! SM4
+                            % [C ClarinetMusicVoice measure 130]                         %! SM4
                             R1 * 1
                             
-                            % [ClarinetMusicVoice measure 131]                           %! SM4
+                            % [C ClarinetMusicVoice measure 131]                         %! SM4
                             R1 * 3/2
                             
                         }
@@ -1416,7 +1416,7 @@
                     \context SaxophoneMusicStaff = "SaxophoneMusicStaff" {
                         \context SaxophoneMusicVoice = "SaxophoneMusicVoice" {
                             
-                            % [SaxophoneMusicVoice measure 112]                          %! SM4
+                            % [C SaxophoneMusicVoice measure 112]                        %! SM4
                             \stopStaff                                                   %! REDUNDANT_STAFF_LINES:SM8
                             \once \override SaxophoneMusicStaff.StaffSymbol.line-count = 1 %! REDUNDANT_STAFF_LINES:SM8
                             \startStaff                                                  %! REDUNDANT_STAFF_LINES:SM8
@@ -1498,19 +1498,19 @@
                             \override SaxophoneMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
-                            % [SaxophoneMusicVoice measure 113]                          %! SM4
+                            % [C SaxophoneMusicVoice measure 113]                        %! SM4
                             c'2
                             \repeatTie
                             
-                            % [SaxophoneMusicVoice measure 114]                          %! SM4
+                            % [C SaxophoneMusicVoice measure 114]                        %! SM4
                             c'1.
                             \repeatTie
                             
-                            % [SaxophoneMusicVoice measure 115]                          %! SM4
+                            % [C SaxophoneMusicVoice measure 115]                        %! SM4
                             c'2.
                             \repeatTie
                             
-                            % [SaxophoneMusicVoice measure 116]                          %! SM4
+                            % [C SaxophoneMusicVoice measure 116]                        %! SM4
                             c'8.
                             \repeatTie
                             
@@ -1519,15 +1519,15 @@
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
                             c'2.
                             
-                            % [SaxophoneMusicVoice measure 117]                          %! SM4
+                            % [C SaxophoneMusicVoice measure 117]                        %! SM4
                             c'2.
                             \repeatTie
                             
-                            % [SaxophoneMusicVoice measure 118]                          %! SM4
+                            % [C SaxophoneMusicVoice measure 118]                        %! SM4
                             c'1
                             \repeatTie
                             
-                            % [SaxophoneMusicVoice measure 119]                          %! SM4
+                            % [C SaxophoneMusicVoice measure 119]                        %! SM4
                             c'2
                             \repeatTie
                             
@@ -1539,15 +1539,15 @@
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
                             c'2
                             
-                            % [SaxophoneMusicVoice measure 120]                          %! SM4
+                            % [C SaxophoneMusicVoice measure 120]                        %! SM4
                             c'1
                             \repeatTie
                             
-                            % [SaxophoneMusicVoice measure 121]                          %! SM4
+                            % [C SaxophoneMusicVoice measure 121]                        %! SM4
                             c'2.
                             \repeatTie
                             
-                            % [SaxophoneMusicVoice measure 122]                          %! SM4
+                            % [C SaxophoneMusicVoice measure 122]                        %! SM4
                             c'2
                             \repeatTie
                             
@@ -1559,22 +1559,22 @@
                             \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
                             c'4
                             
-                            % [SaxophoneMusicVoice measure 123]                          %! SM4
+                            % [C SaxophoneMusicVoice measure 123]                        %! SM4
                             c'2.
                             \repeatTie
                             
                             c'2
                             \repeatTie
                             
-                            % [SaxophoneMusicVoice measure 124]                          %! SM4
+                            % [C SaxophoneMusicVoice measure 124]                        %! SM4
                             c'2.
                             \repeatTie
                             
-                            % [SaxophoneMusicVoice measure 125]                          %! SM4
+                            % [C SaxophoneMusicVoice measure 125]                        %! SM4
                             c'2
                             \repeatTie
                             
-                            % [SaxophoneMusicVoice measure 126]                          %! SM4
+                            % [C SaxophoneMusicVoice measure 126]                        %! SM4
                             c'2
                             \repeatTie
                             
@@ -1592,19 +1592,19 @@
                             
                             r16
                             
-                            % [SaxophoneMusicVoice measure 127]                          %! SM4
+                            % [C SaxophoneMusicVoice measure 127]                        %! SM4
                             R1 * 1/2
                             
-                            % [SaxophoneMusicVoice measure 128]                          %! SM4
+                            % [C SaxophoneMusicVoice measure 128]                        %! SM4
                             R1 * 5/4
                             
-                            % [SaxophoneMusicVoice measure 129]                          %! SM4
+                            % [C SaxophoneMusicVoice measure 129]                        %! SM4
                             R1 * 3/4
                             
-                            % [SaxophoneMusicVoice measure 130]                          %! SM4
+                            % [C SaxophoneMusicVoice measure 130]                        %! SM4
                             R1 * 1
                             
-                            % [SaxophoneMusicVoice measure 131]                          %! SM4
+                            % [C SaxophoneMusicVoice measure 131]                        %! SM4
                             R1 * 3/2
                             
                         }
@@ -1615,7 +1615,7 @@
                     \context GuitarMusicStaff = "GuitarMusicStaff" {
                         \context GuitarMusicVoice = "GuitarMusicVoice" {
                             
-                            % [GuitarMusicVoice measure 112]                             %! SM4
+                            % [C GuitarMusicVoice measure 112]                           %! SM4
                             \set GuitarMusicStaff.instrumentName = \markup {             %! REAPPLIED_INSTRUMENT:SM8
                                 \hcenter-in                                              %! REAPPLIED_INSTRUMENT:SM8
                                     #16                                                  %! REAPPLIED_INSTRUMENT:SM8
@@ -1668,22 +1668,22 @@
                             \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
-                            % [GuitarMusicVoice measure 113]                             %! SM4
+                            % [C GuitarMusicVoice measure 113]                           %! SM4
                             r2
                             
-                            % [GuitarMusicVoice measure 114]                             %! SM4
+                            % [C GuitarMusicVoice measure 114]                           %! SM4
                             r1.
                             
-                            % [GuitarMusicVoice measure 115]                             %! SM4
+                            % [C GuitarMusicVoice measure 115]                           %! SM4
                             r2.
                             
-                            % [GuitarMusicVoice measure 116]                             %! SM4
+                            % [C GuitarMusicVoice measure 116]                           %! SM4
                             r1
                             
-                            % [GuitarMusicVoice measure 117]                             %! SM4
+                            % [C GuitarMusicVoice measure 117]                           %! SM4
                             r2.
                             
-                            % [GuitarMusicVoice measure 118]                             %! SM4
+                            % [C GuitarMusicVoice measure 118]                           %! SM4
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1697,7 +1697,7 @@
                             - \tweak color #red                                          %! SM14
                             ^ \markup { @ }                                              %! SM14
                             
-                            % [GuitarMusicVoice measure 119]                             %! SM4
+                            % [C GuitarMusicVoice measure 119]                           %! SM4
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1721,33 +1721,33 @@
                             - \tweak color #red                                          %! SM14
                             ^ \markup { @ }                                              %! SM14
                             
-                            % [GuitarMusicVoice measure 120]                             %! SM4
+                            % [C GuitarMusicVoice measure 120]                           %! SM4
                             r1
                             
-                            % [GuitarMusicVoice measure 121]                             %! SM4
+                            % [C GuitarMusicVoice measure 121]                           %! SM4
                             r2.
                             
-                            % [GuitarMusicVoice measure 122]                             %! SM4
+                            % [C GuitarMusicVoice measure 122]                           %! SM4
                             r1
                             
-                            % [GuitarMusicVoice measure 123]                             %! SM4
+                            % [C GuitarMusicVoice measure 123]                           %! SM4
                             r2.
                             
                             r2
                             
-                            % [GuitarMusicVoice measure 124]                             %! SM4
+                            % [C GuitarMusicVoice measure 124]                           %! SM4
                             r2.
                             
-                            % [GuitarMusicVoice measure 125]                             %! SM4
+                            % [C GuitarMusicVoice measure 125]                           %! SM4
                             r2
                             
-                            % [GuitarMusicVoice measure 126]                             %! SM4
+                            % [C GuitarMusicVoice measure 126]                           %! SM4
                             r1.
                             
-                            % [GuitarMusicVoice measure 127]                             %! SM4
+                            % [C GuitarMusicVoice measure 127]                           %! SM4
                             r2
                             
-                            % [GuitarMusicVoice measure 128]                             %! SM4
+                            % [C GuitarMusicVoice measure 128]                           %! SM4
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1774,7 +1774,7 @@
                             - \tweak color #red                                          %! SM14
                             ^ \markup { @ }                                              %! SM14
                             
-                            % [GuitarMusicVoice measure 129]                             %! SM4
+                            % [C GuitarMusicVoice measure 129]                           %! SM4
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1785,7 +1785,7 @@
                             - \tweak color #red                                          %! SM14
                             ^ \markup { @ }                                              %! SM14
                             
-                            % [GuitarMusicVoice measure 130]                             %! SM4
+                            % [C GuitarMusicVoice measure 130]                           %! SM4
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1796,7 +1796,7 @@
                             - \tweak color #red                                          %! SM14
                             ^ \markup { @ }                                              %! SM14
                             
-                            % [GuitarMusicVoice measure 131]                             %! SM4
+                            % [C GuitarMusicVoice measure 131]                           %! SM4
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1815,7 +1815,7 @@
                     \context PianoMusicStaff = "PianoMusicStaff" {
                         \context PianoMusicVoice = "PianoMusicVoice" {
                             
-                            % [PianoMusicVoice measure 112]                              %! SM4
+                            % [C PianoMusicVoice measure 112]                            %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
                             \once \override PianoMusicStaff.StaffSymbol.line-count = 1   %! REAPPLIED_STAFF_LINES:SM8
                             \startStaff                                                  %! REAPPLIED_STAFF_LINES:SM8
@@ -1872,22 +1872,22 @@
                             \override PianoMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override PianoMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
-                            % [PianoMusicVoice measure 113]                              %! SM4
+                            % [C PianoMusicVoice measure 113]                            %! SM4
                             r2
                             
-                            % [PianoMusicVoice measure 114]                              %! SM4
+                            % [C PianoMusicVoice measure 114]                            %! SM4
                             r1.
                             
-                            % [PianoMusicVoice measure 115]                              %! SM4
+                            % [C PianoMusicVoice measure 115]                            %! SM4
                             r2.
                             
-                            % [PianoMusicVoice measure 116]                              %! SM4
+                            % [C PianoMusicVoice measure 116]                            %! SM4
                             r1
                             
-                            % [PianoMusicVoice measure 117]                              %! SM4
+                            % [C PianoMusicVoice measure 117]                            %! SM4
                             r2.
                             
-                            % [PianoMusicVoice measure 118]                              %! SM4
+                            % [C PianoMusicVoice measure 118]                            %! SM4
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1900,7 +1900,7 @@
                             - \tweak color #red                                          %! SM14
                             ^ \markup { @ }                                              %! SM14
                             
-                            % [PianoMusicVoice measure 119]                              %! SM4
+                            % [C PianoMusicVoice measure 119]                            %! SM4
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1923,33 +1923,33 @@
                             - \tweak color #red                                          %! SM14
                             ^ \markup { @ }                                              %! SM14
                             
-                            % [PianoMusicVoice measure 120]                              %! SM4
+                            % [C PianoMusicVoice measure 120]                            %! SM4
                             r1
                             
-                            % [PianoMusicVoice measure 121]                              %! SM4
+                            % [C PianoMusicVoice measure 121]                            %! SM4
                             r2.
                             
-                            % [PianoMusicVoice measure 122]                              %! SM4
+                            % [C PianoMusicVoice measure 122]                            %! SM4
                             r1
                             
-                            % [PianoMusicVoice measure 123]                              %! SM4
+                            % [C PianoMusicVoice measure 123]                            %! SM4
                             r2.
                             
                             r2
                             
-                            % [PianoMusicVoice measure 124]                              %! SM4
+                            % [C PianoMusicVoice measure 124]                            %! SM4
                             r2.
                             
-                            % [PianoMusicVoice measure 125]                              %! SM4
+                            % [C PianoMusicVoice measure 125]                            %! SM4
                             r2
                             
-                            % [PianoMusicVoice measure 126]                              %! SM4
+                            % [C PianoMusicVoice measure 126]                            %! SM4
                             r1.
                             
-                            % [PianoMusicVoice measure 127]                              %! SM4
+                            % [C PianoMusicVoice measure 127]                            %! SM4
                             r2
                             
-                            % [PianoMusicVoice measure 128]                              %! SM4
+                            % [C PianoMusicVoice measure 128]                            %! SM4
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1974,7 +1974,7 @@
                             - \tweak color #red                                          %! SM14
                             ^ \markup { @ }                                              %! SM14
                             
-                            % [PianoMusicVoice measure 129]                              %! SM4
+                            % [C PianoMusicVoice measure 129]                            %! SM4
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1985,7 +1985,7 @@
                             - \tweak color #red                                          %! SM14
                             ^ \markup { @ }                                              %! SM14
                             
-                            % [PianoMusicVoice measure 130]                              %! SM4
+                            % [C PianoMusicVoice measure 130]                            %! SM4
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -1996,7 +1996,7 @@
                             - \tweak color #red                                          %! SM14
                             ^ \markup { @ }                                              %! SM14
                             
-                            % [PianoMusicVoice measure 131]                              %! SM4
+                            % [C PianoMusicVoice measure 131]                            %! SM4
                             \once \override Accidental.color = #red
                             \once \override Beam.color = #red
                             \once \override Dots.color = #red
@@ -2015,7 +2015,7 @@
                     \context PercussionMusicStaff = "PercussionMusicStaff" {
                         \context PercussionMusicVoice = "PercussionMusicVoice" {
                             
-                            % [PercussionMusicVoice measure 112]                         %! SM4
+                            % [C PercussionMusicVoice measure 112]                       %! SM4
                             \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
                             \once \override PercussionMusicStaff.StaffSymbol.line-count = 5 %! REAPPLIED_STAFF_LINES:SM8
                             \startStaff                                                  %! REAPPLIED_STAFF_LINES:SM8
@@ -2036,12 +2036,7 @@
                             \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
                             \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
                             \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'2
                             :32                                                          %! IC
                             \>
@@ -2080,58 +2075,38 @@
                             \override PercussionMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! REAPPLIED_CLEF_REDRAW_COLOR:SM6
                             \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             
-                            % [PercussionMusicVoice measure 113]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [C PercussionMusicVoice measure 113]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2
                             :32                                                          %! IC
                             \repeatTie
                             
-                            % [PercussionMusicVoice measure 114]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [C PercussionMusicVoice measure 114]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1.
                             :32                                                          %! IC
                             \repeatTie
                             
-                            % [PercussionMusicVoice measure 115]                         %! SM4
+                            % [C PercussionMusicVoice measure 115]                       %! SM4
                             \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'2.
                             :32                                                          %! IC
                             \repeatTie
                             \ppp
                             
-                            % [PercussionMusicVoice measure 116]                         %! SM4
+                            % [C PercussionMusicVoice measure 116]                       %! SM4
                             r1
                             
-                            % [PercussionMusicVoice measure 117]                         %! SM4
+                            % [C PercussionMusicVoice measure 117]                       %! SM4
                             R1 * 3/4
                             
-                            % [PercussionMusicVoice measure 118]                         %! SM4
+                            % [C PercussionMusicVoice measure 118]                       %! SM4
                             R1 * 1
                             
-                            % [PercussionMusicVoice measure 119]                         %! SM4
+                            % [C PercussionMusicVoice measure 119]                       %! SM4
                             \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            \makeBlue                                                    %! SM24
                             c'2.
                             :32                                                          %! IC
                             \fff                                                         %! EXPLICIT_DYNAMIC:SM8
@@ -2148,46 +2123,26 @@
                             :32                                                          %! IC
                             \repeatTie
                             
-                            % [PercussionMusicVoice measure 120]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [C PercussionMusicVoice measure 120]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             :32                                                          %! IC
                             \repeatTie
                             
-                            % [PercussionMusicVoice measure 121]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [C PercussionMusicVoice measure 121]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             :32                                                          %! IC
                             \repeatTie
                             
-                            % [PercussionMusicVoice measure 122]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [C PercussionMusicVoice measure 122]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1
                             :32                                                          %! IC
                             \repeatTie
                             
-                            % [PercussionMusicVoice measure 123]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [C PercussionMusicVoice measure 123]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             :32                                                          %! IC
                             \repeatTie
@@ -2196,52 +2151,37 @@
                             :32                                                          %! IC
                             \repeatTie
                             
-                            % [PercussionMusicVoice measure 124]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [C PercussionMusicVoice measure 124]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2.
                             :32                                                          %! IC
                             \repeatTie
                             
-                            % [PercussionMusicVoice measure 125]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [C PercussionMusicVoice measure 125]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'2
                             :32                                                          %! IC
                             \repeatTie
                             
-                            % [PercussionMusicVoice measure 126]                         %! SM4
-                            \once \override Accidental.color = #blue                     %! SM24
-                            \once \override Beam.color = #blue                           %! SM24
-                            \once \override Dots.color = #blue                           %! SM24
-                            \once \override Flag.color = #blue                           %! SM24
-                            \once \override NoteHead.color = #blue                       %! SM24
-                            \once \override Stem.color = #blue                           %! SM24
+                            % [C PercussionMusicVoice measure 126]                       %! SM4
+                            \makeBlue                                                    %! SM24
                             c'1.
                             :32                                                          %! IC
                             \repeatTie
                             
-                            % [PercussionMusicVoice measure 127]                         %! SM4
+                            % [C PercussionMusicVoice measure 127]                       %! SM4
                             R1 * 1/2
                             
-                            % [PercussionMusicVoice measure 128]                         %! SM4
+                            % [C PercussionMusicVoice measure 128]                       %! SM4
                             R1 * 5/4
                             
-                            % [PercussionMusicVoice measure 129]                         %! SM4
+                            % [C PercussionMusicVoice measure 129]                       %! SM4
                             R1 * 3/4
                             
-                            % [PercussionMusicVoice measure 130]                         %! SM4
+                            % [C PercussionMusicVoice measure 130]                       %! SM4
                             R1 * 1
                             
-                            % [PercussionMusicVoice measure 131]                         %! SM4
+                            % [C PercussionMusicVoice measure 131]                       %! SM4
                             R1 * 3/2
                             
                         }
@@ -2252,7 +2192,7 @@
                     \context ViolinMusicStaff = "ViolinMusicStaff" {
                         \context ViolinMusicVoice = "ViolinMusicVoice" {
                             
-                            % [ViolinMusicVoice measure 112]                             %! SM4
+                            % [C ViolinMusicVoice measure 112]                           %! SM4
                             \stopStaff                                                   %! EXPLICIT_STAFF_LINES:SM8
                             \once \override ViolinMusicStaff.StaffSymbol.line-count = 1  %! EXPLICIT_STAFF_LINES:SM8
                             \startStaff                                                  %! EXPLICIT_STAFF_LINES:SM8
@@ -2322,40 +2262,40 @@
                             \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             \override ViolinMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                             
-                            % [ViolinMusicVoice measure 113]                             %! SM4
+                            % [C ViolinMusicVoice measure 113]                           %! SM4
                             c'2
                             \repeatTie
                             
-                            % [ViolinMusicVoice measure 114]                             %! SM4
+                            % [C ViolinMusicVoice measure 114]                           %! SM4
                             c'2.
                             \repeatTie
                             
                             c'2.
                             -\upbow                                                      %! IC
                             
-                            % [ViolinMusicVoice measure 115]                             %! SM4
+                            % [C ViolinMusicVoice measure 115]                           %! SM4
                             c'2.
                             \repeatTie
                             
-                            % [ViolinMusicVoice measure 116]                             %! SM4
+                            % [C ViolinMusicVoice measure 116]                           %! SM4
                             c'4
                             \repeatTie
                             
                             c'2.
                             -\downbow                                                    %! IC
                             
-                            % [ViolinMusicVoice measure 117]                             %! SM4
+                            % [C ViolinMusicVoice measure 117]                           %! SM4
                             c'2.
                             \repeatTie
                             
-                            % [ViolinMusicVoice measure 118]                             %! SM4
+                            % [C ViolinMusicVoice measure 118]                           %! SM4
                             c'4
                             \repeatTie
                             
                             c'2.
                             -\upbow                                                      %! IC
                             
-                            % [ViolinMusicVoice measure 119]                             %! SM4
+                            % [C ViolinMusicVoice measure 119]                           %! SM4
                             \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             c'1
                             \repeatTie
@@ -2365,58 +2305,58 @@
                             c'4
                             -\downbow                                                    %! IC
                             
-                            % [ViolinMusicVoice measure 120]                             %! SM4
+                            % [C ViolinMusicVoice measure 120]                           %! SM4
                             c'1
                             \repeatTie
                             
-                            % [ViolinMusicVoice measure 121]                             %! SM4
+                            % [C ViolinMusicVoice measure 121]                           %! SM4
                             c'2
                             \repeatTie
                             
                             c'4
                             -\upbow                                                      %! IC
                             
-                            % [ViolinMusicVoice measure 122]                             %! SM4
+                            % [C ViolinMusicVoice measure 122]                           %! SM4
                             c'1
                             \repeatTie
                             
-                            % [ViolinMusicVoice measure 123]                             %! SM4
+                            % [C ViolinMusicVoice measure 123]                           %! SM4
                             c'2
                             \repeatTie
                             
                             c'2.
                             -\downbow                                                    %! IC
                             
-                            % [ViolinMusicVoice measure 124]                             %! SM4
+                            % [C ViolinMusicVoice measure 124]                           %! SM4
                             c'2.
                             \repeatTie
                             
-                            % [ViolinMusicVoice measure 125]                             %! SM4
+                            % [C ViolinMusicVoice measure 125]                           %! SM4
                             c'4
                             \repeatTie
                             
                             c'4
                             -\upbow                                                      %! IC
                             
-                            % [ViolinMusicVoice measure 126]                             %! SM4
+                            % [C ViolinMusicVoice measure 126]                           %! SM4
                             \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             c'1.
                             \repeatTie
                             \ppp
                             
-                            % [ViolinMusicVoice measure 127]                             %! SM4
+                            % [C ViolinMusicVoice measure 127]                           %! SM4
                             R1 * 1/2
                             
-                            % [ViolinMusicVoice measure 128]                             %! SM4
+                            % [C ViolinMusicVoice measure 128]                           %! SM4
                             R1 * 5/4
                             
-                            % [ViolinMusicVoice measure 129]                             %! SM4
+                            % [C ViolinMusicVoice measure 129]                           %! SM4
                             R1 * 3/4
                             
-                            % [ViolinMusicVoice measure 130]                             %! SM4
+                            % [C ViolinMusicVoice measure 130]                           %! SM4
                             R1 * 1
                             
-                            % [ViolinMusicVoice measure 131]                             %! SM4
+                            % [C ViolinMusicVoice measure 131]                           %! SM4
                             R1 * 3/2
                             
                         }
@@ -2425,7 +2365,7 @@
                     \context ViolaMusicStaff = "ViolaMusicStaff" {
                         \context ViolaMusicVoice = "ViolaMusicVoice" {
                             
-                            % [ViolaMusicVoice measure 112]                              %! SM4
+                            % [C ViolaMusicVoice measure 112]                            %! SM4
                             \stopStaff                                                   %! EXPLICIT_STAFF_LINES:SM8
                             \once \override ViolaMusicStaff.StaffSymbol.line-count = 1   %! EXPLICIT_STAFF_LINES:SM8
                             \startStaff                                                  %! EXPLICIT_STAFF_LINES:SM8
@@ -2495,40 +2435,40 @@
                             \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             \override ViolaMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                             
-                            % [ViolaMusicVoice measure 113]                              %! SM4
+                            % [C ViolaMusicVoice measure 113]                            %! SM4
                             c'2
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 114]                              %! SM4
+                            % [C ViolaMusicVoice measure 114]                            %! SM4
                             c'2
                             \repeatTie
                             
                             c'1
                             -\upbow                                                      %! IC
                             
-                            % [ViolaMusicVoice measure 115]                              %! SM4
+                            % [C ViolaMusicVoice measure 115]                            %! SM4
                             c'2
                             \repeatTie
                             
                             c'4
                             -\downbow                                                    %! IC
                             
-                            % [ViolaMusicVoice measure 116]                              %! SM4
+                            % [C ViolaMusicVoice measure 116]                            %! SM4
                             c'1
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 117]                              %! SM4
+                            % [C ViolaMusicVoice measure 117]                            %! SM4
                             c'4
                             \repeatTie
                             
                             c'2
                             -\upbow                                                      %! IC
                             
-                            % [ViolaMusicVoice measure 118]                              %! SM4
+                            % [C ViolaMusicVoice measure 118]                            %! SM4
                             c'1
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 119]                              %! SM4
+                            % [C ViolaMusicVoice measure 119]                            %! SM4
                             \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             c'2.
                             -\downbow                                                    %! IC
@@ -2538,37 +2478,37 @@
                             c'2
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 120]                              %! SM4
+                            % [C ViolaMusicVoice measure 120]                            %! SM4
                             c'4
                             \repeatTie
                             
                             c'2.
                             -\upbow                                                      %! IC
                             
-                            % [ViolaMusicVoice measure 121]                              %! SM4
+                            % [C ViolaMusicVoice measure 121]                            %! SM4
                             c'2.
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 122]                              %! SM4
+                            % [C ViolaMusicVoice measure 122]                            %! SM4
                             c'1
                             -\downbow                                                    %! IC
                             
-                            % [ViolaMusicVoice measure 123]                              %! SM4
+                            % [C ViolaMusicVoice measure 123]                            %! SM4
                             c'2
                             \repeatTie
                             
                             c'2.
                             -\upbow                                                      %! IC
                             
-                            % [ViolaMusicVoice measure 124]                              %! SM4
+                            % [C ViolaMusicVoice measure 124]                            %! SM4
                             c'2.
                             \repeatTie
                             
-                            % [ViolaMusicVoice measure 125]                              %! SM4
+                            % [C ViolaMusicVoice measure 125]                            %! SM4
                             c'2
                             -\downbow                                                    %! IC
                             
-                            % [ViolaMusicVoice measure 126]                              %! SM4
+                            % [C ViolaMusicVoice measure 126]                            %! SM4
                             c'1
                             \repeatTie
                             
@@ -2577,19 +2517,19 @@
                             -\upbow                                                      %! IC
                             \ppp
                             
-                            % [ViolaMusicVoice measure 127]                              %! SM4
+                            % [C ViolaMusicVoice measure 127]                            %! SM4
                             R1 * 1/2
                             
-                            % [ViolaMusicVoice measure 128]                              %! SM4
+                            % [C ViolaMusicVoice measure 128]                            %! SM4
                             R1 * 5/4
                             
-                            % [ViolaMusicVoice measure 129]                              %! SM4
+                            % [C ViolaMusicVoice measure 129]                            %! SM4
                             R1 * 3/4
                             
-                            % [ViolaMusicVoice measure 130]                              %! SM4
+                            % [C ViolaMusicVoice measure 130]                            %! SM4
                             R1 * 1
                             
-                            % [ViolaMusicVoice measure 131]                              %! SM4
+                            % [C ViolaMusicVoice measure 131]                            %! SM4
                             R1 * 3/2
                             
                         }
@@ -2598,7 +2538,7 @@
                     \context CelloMusicStaff = "CelloMusicStaff" {
                         \context CelloMusicVoice = "CelloMusicVoice" {
                             
-                            % [CelloMusicVoice measure 112]                              %! SM4
+                            % [C CelloMusicVoice measure 112]                            %! SM4
                             \stopStaff                                                   %! EXPLICIT_STAFF_LINES:SM8
                             \once \override CelloMusicStaff.StaffSymbol.line-count = 1   %! EXPLICIT_STAFF_LINES:SM8
                             \startStaff                                                  %! EXPLICIT_STAFF_LINES:SM8
@@ -2668,11 +2608,11 @@
                             \override CelloMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             \override CelloMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                             
-                            % [CelloMusicVoice measure 113]                              %! SM4
+                            % [C CelloMusicVoice measure 113]                            %! SM4
                             c'2
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 114]                              %! SM4
+                            % [C CelloMusicVoice measure 114]                            %! SM4
                             c'4
                             \repeatTie
                             
@@ -2682,26 +2622,26 @@
                             c'2.
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 115]                              %! SM4
+                            % [C CelloMusicVoice measure 115]                            %! SM4
                             c'2.
                             -\downbow                                                    %! IC
                             
-                            % [CelloMusicVoice measure 116]                              %! SM4
+                            % [C CelloMusicVoice measure 116]                            %! SM4
                             c'2
                             \repeatTie
                             
                             c'2
                             -\upbow                                                      %! IC
                             
-                            % [CelloMusicVoice measure 117]                              %! SM4
+                            % [C CelloMusicVoice measure 117]                            %! SM4
                             c'2.
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 118]                              %! SM4
+                            % [C CelloMusicVoice measure 118]                            %! SM4
                             c'1
                             -\downbow                                                    %! IC
                             
-                            % [CelloMusicVoice measure 119]                              %! SM4
+                            % [C CelloMusicVoice measure 119]                            %! SM4
                             \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             c'4
                             \repeatTie
@@ -2711,40 +2651,40 @@
                             c'1
                             -\upbow                                                      %! IC
                             
-                            % [CelloMusicVoice measure 120]                              %! SM4
+                            % [C CelloMusicVoice measure 120]                            %! SM4
                             c'4
                             \repeatTie
                             
                             c'2.
                             -\downbow                                                    %! IC
                             
-                            % [CelloMusicVoice measure 121]                              %! SM4
+                            % [C CelloMusicVoice measure 121]                            %! SM4
                             c'2
                             \repeatTie
                             
                             c'4
                             -\upbow                                                      %! IC
                             
-                            % [CelloMusicVoice measure 122]                              %! SM4
+                            % [C CelloMusicVoice measure 122]                            %! SM4
                             c'1
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 123]                              %! SM4
+                            % [C CelloMusicVoice measure 123]                            %! SM4
                             c'2.
                             -\downbow                                                    %! IC
                             
                             c'2
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 124]                              %! SM4
+                            % [C CelloMusicVoice measure 124]                            %! SM4
                             c'2.
                             -\upbow                                                      %! IC
                             
-                            % [CelloMusicVoice measure 125]                              %! SM4
+                            % [C CelloMusicVoice measure 125]                            %! SM4
                             c'2
                             \repeatTie
                             
-                            % [CelloMusicVoice measure 126]                              %! SM4
+                            % [C CelloMusicVoice measure 126]                            %! SM4
                             c'2.
                             -\downbow                                                    %! IC
                             
@@ -2756,19 +2696,19 @@
                             -\upbow                                                      %! IC
                             \ppp
                             
-                            % [CelloMusicVoice measure 127]                              %! SM4
+                            % [C CelloMusicVoice measure 127]                            %! SM4
                             R1 * 1/2
                             
-                            % [CelloMusicVoice measure 128]                              %! SM4
+                            % [C CelloMusicVoice measure 128]                            %! SM4
                             R1 * 5/4
                             
-                            % [CelloMusicVoice measure 129]                              %! SM4
+                            % [C CelloMusicVoice measure 129]                            %! SM4
                             R1 * 3/4
                             
-                            % [CelloMusicVoice measure 130]                              %! SM4
+                            % [C CelloMusicVoice measure 130]                            %! SM4
                             R1 * 1
                             
-                            % [CelloMusicVoice measure 131]                              %! SM4
+                            % [C CelloMusicVoice measure 131]                            %! SM4
                             R1 * 3/2
                             
                         }
@@ -2777,7 +2717,7 @@
                     \context ContrabassMusicStaff = "ContrabassMusicStaff" {
                         \context ContrabassMusicVoice = "ContrabassMusicVoice" {
                             
-                            % [ContrabassMusicVoice measure 112]                         %! SM4
+                            % [C ContrabassMusicVoice measure 112]                       %! SM4
                             \stopStaff                                                   %! EXPLICIT_STAFF_LINES:SM8
                             \once \override ContrabassMusicStaff.StaffSymbol.line-count = 1 %! EXPLICIT_STAFF_LINES:SM8
                             \startStaff                                                  %! EXPLICIT_STAFF_LINES:SM8
@@ -2847,40 +2787,40 @@
                             \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM6
                             \override ContrabassMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
                             
-                            % [ContrabassMusicVoice measure 113]                         %! SM4
+                            % [C ContrabassMusicVoice measure 113]                       %! SM4
                             c'2
                             \repeatTie
                             
-                            % [ContrabassMusicVoice measure 114]                         %! SM4
+                            % [C ContrabassMusicVoice measure 114]                       %! SM4
                             c'1
                             -\upbow                                                      %! IC
                             
                             c'2
                             -\downbow                                                    %! IC
                             
-                            % [ContrabassMusicVoice measure 115]                         %! SM4
+                            % [C ContrabassMusicVoice measure 115]                       %! SM4
                             c'2
                             \repeatTie
                             
                             c'4
                             -\upbow                                                      %! IC
                             
-                            % [ContrabassMusicVoice measure 116]                         %! SM4
+                            % [C ContrabassMusicVoice measure 116]                       %! SM4
                             c'2.
                             \repeatTie
                             
                             c'4
                             -\downbow                                                    %! IC
                             
-                            % [ContrabassMusicVoice measure 117]                         %! SM4
+                            % [C ContrabassMusicVoice measure 117]                       %! SM4
                             c'2.
                             \repeatTie
                             
-                            % [ContrabassMusicVoice measure 118]                         %! SM4
+                            % [C ContrabassMusicVoice measure 118]                       %! SM4
                             c'1
                             -\upbow                                                      %! IC
                             
-                            % [ContrabassMusicVoice measure 119]                         %! SM4
+                            % [C ContrabassMusicVoice measure 119]                       %! SM4
                             \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
                             c'1
                             -\downbow                                                    %! IC
@@ -2890,37 +2830,37 @@
                             c'4
                             -\upbow                                                      %! IC
                             
-                            % [ContrabassMusicVoice measure 120]                         %! SM4
+                            % [C ContrabassMusicVoice measure 120]                       %! SM4
                             c'2.
                             \repeatTie
                             
                             c'4
                             -\downbow                                                    %! IC
                             
-                            % [ContrabassMusicVoice measure 121]                         %! SM4
+                            % [C ContrabassMusicVoice measure 121]                       %! SM4
                             c'2.
                             \repeatTie
                             
-                            % [ContrabassMusicVoice measure 122]                         %! SM4
+                            % [C ContrabassMusicVoice measure 122]                       %! SM4
                             c'1
                             -\upbow                                                      %! IC
                             
-                            % [ContrabassMusicVoice measure 123]                         %! SM4
+                            % [C ContrabassMusicVoice measure 123]                       %! SM4
                             c'1
                             -\downbow                                                    %! IC
                             
                             c'4
                             -\upbow                                                      %! IC
                             
-                            % [ContrabassMusicVoice measure 124]                         %! SM4
+                            % [C ContrabassMusicVoice measure 124]                       %! SM4
                             c'2.
                             \repeatTie
                             
-                            % [ContrabassMusicVoice measure 125]                         %! SM4
+                            % [C ContrabassMusicVoice measure 125]                       %! SM4
                             c'2
                             -\downbow                                                    %! IC
                             
-                            % [ContrabassMusicVoice measure 126]                         %! SM4
+                            % [C ContrabassMusicVoice measure 126]                       %! SM4
                             c'2
                             \repeatTie
                             
@@ -2929,19 +2869,19 @@
                             -\upbow                                                      %! IC
                             \ppp
                             
-                            % [ContrabassMusicVoice measure 127]                         %! SM4
+                            % [C ContrabassMusicVoice measure 127]                       %! SM4
                             R1 * 1/2
                             
-                            % [ContrabassMusicVoice measure 128]                         %! SM4
+                            % [C ContrabassMusicVoice measure 128]                       %! SM4
                             R1 * 5/4
                             
-                            % [ContrabassMusicVoice measure 129]                         %! SM4
+                            % [C ContrabassMusicVoice measure 129]                       %! SM4
                             R1 * 3/4
                             
-                            % [ContrabassMusicVoice measure 130]                         %! SM4
+                            % [C ContrabassMusicVoice measure 130]                       %! SM4
                             R1 * 1
                             
-                            % [ContrabassMusicVoice measure 131]                         %! SM4
+                            % [C ContrabassMusicVoice measure 131]                       %! SM4
                             R1 * 3/2
                             
                         }
