@@ -1,4 +1,4 @@
-CGlobalSkips = {
+C_GlobalSkips = {
     
     % [C GlobalSkips measure 112]                                        %! SM4
 %@% \once \override TextSpanner.bound-details.left.text =                %! REAPPLIED_METRONOME_MARK:SM27
@@ -884,7 +884,7 @@ CGlobalSkips = {
 }
 
 
-CFluteMusicVoice = {
+C_FluteMusicVoice = {
     
     % [C FluteMusicVoice measure 112]                            %! SM4
     \set FluteMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
@@ -1063,7 +1063,7 @@ CFluteMusicVoice = {
 }
 
 
-COboeMusicVoice = {
+C_OboeMusicVoice = {
     
     % [C OboeMusicVoice measure 112]                             %! SM4
     \stopStaff                                                   %! REDUNDANT_STAFF_LINES:SM8
@@ -1232,7 +1232,7 @@ COboeMusicVoice = {
 }
 
 
-CClarinetMusicVoice = {
+C_ClarinetMusicVoice = {
     
     % [C ClarinetMusicVoice measure 112]                         %! SM4
     \set ClarinetMusicStaff.instrumentName = \markup {           %! REAPPLIED_INSTRUMENT:SM8
@@ -1391,7 +1391,7 @@ CClarinetMusicVoice = {
 }
 
 
-CSaxophoneMusicVoice = {
+C_SaxophoneMusicVoice = {
     
     % [C SaxophoneMusicVoice measure 112]                        %! SM4
     \stopStaff                                                   %! REDUNDANT_STAFF_LINES:SM8
@@ -1587,7 +1587,7 @@ CSaxophoneMusicVoice = {
 }
 
 
-CGuitarMusicVoice = {
+C_GuitarMusicVoice = {
     
     % [C GuitarMusicVoice measure 112]                           %! SM4
     \set GuitarMusicStaff.instrumentName = \markup {             %! REAPPLIED_INSTRUMENT:SM8
@@ -1786,7 +1786,7 @@ CGuitarMusicVoice = {
 }
 
 
-CPianoMusicVoice = {
+C_PianoMusicVoice = {
     
     % [C PianoMusicVoice measure 112]                            %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -1985,7 +1985,7 @@ CPianoMusicVoice = {
 }
 
 
-CPercussionMusicVoice = {
+C_PercussionMusicVoice = {
     
     % [C PercussionMusicVoice measure 112]                       %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -2159,7 +2159,7 @@ CPercussionMusicVoice = {
 }
 
 
-CViolinMusicVoice = {
+C_ViolinMusicVoice = {
     
     % [C ViolinMusicVoice measure 112]                           %! SM4
     \stopStaff                                                   %! EXPLICIT_STAFF_LINES:SM8
@@ -2331,7 +2331,7 @@ CViolinMusicVoice = {
 }
 
 
-CViolaMusicVoice = {
+C_ViolaMusicVoice = {
     
     % [C ViolaMusicVoice measure 112]                            %! SM4
     \stopStaff                                                   %! EXPLICIT_STAFF_LINES:SM8
@@ -2503,7 +2503,7 @@ CViolaMusicVoice = {
 }
 
 
-CCelloMusicVoice = {
+C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 112]                            %! SM4
     \stopStaff                                                   %! EXPLICIT_STAFF_LINES:SM8
@@ -2681,7 +2681,7 @@ CCelloMusicVoice = {
 }
 
 
-CContrabassMusicVoice = {
+C_ContrabassMusicVoice = {
     
     % [C ContrabassMusicVoice measure 112]                       %! SM4
     \stopStaff                                                   %! EXPLICIT_STAFF_LINES:SM8
