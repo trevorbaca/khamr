@@ -1,4 +1,4 @@
-iGlobalSkips = {
+i_GlobalSkips = {
     
     % [_ GlobalSkips measure 1]                                          %! SM4
 %@% \once \override TextSpanner.bound-details.left.text =                %! EXPLICIT_METRONOME_MARK:SM27
@@ -1722,7 +1722,7 @@ iGlobalSkips = {
 }
 
 
-iFluteMusicVoice = {
+i_FluteMusicVoice = {
     
     % [_ FluteMusicVoice measure 1]                              %! SM4
     \set FluteMusicStaff.instrumentName = \markup {              %! REDUNDANT_INSTRUMENT:SM8
@@ -2067,7 +2067,7 @@ iFluteMusicVoice = {
 }
 
 
-iOboeMusicVoice = {
+i_OboeMusicVoice = {
     
     % [_ OboeMusicVoice measure 1]                               %! SM4
     \stopStaff                                                   %! EXPLICIT_STAFF_LINES:SM8
@@ -2399,7 +2399,7 @@ iOboeMusicVoice = {
 }
 
 
-iClarinetMusicVoice = {
+i_ClarinetMusicVoice = {
     
     % [_ ClarinetMusicVoice measure 1]                           %! SM4
     \set ClarinetMusicStaff.instrumentName = \markup {           %! REDUNDANT_INSTRUMENT:SM8
@@ -2719,7 +2719,7 @@ iClarinetMusicVoice = {
 }
 
 
-iSaxophoneMusicVoice = {
+i_SaxophoneMusicVoice = {
     
     % [_ SaxophoneMusicVoice measure 1]                          %! SM4
     \set SaxophoneMusicStaff.instrumentName = \markup {          %! REDUNDANT_INSTRUMENT:SM8
@@ -3031,7 +3031,7 @@ iSaxophoneMusicVoice = {
 }
 
 
-iGuitarMusicVoice = {
+i_GuitarMusicVoice = {
     
     % [_ GuitarMusicVoice measure 1]                             %! SM4
     \override NoteHead.style = #'cross                           %! OC
@@ -3963,7 +3963,7 @@ iGuitarMusicVoice = {
 }
 
 
-iPianoMusicVoice = {
+i_PianoMusicVoice = {
     
     % [_ PianoMusicVoice measure 1]                              %! SM4
     \stopStaff                                                   %! EXPLICIT_STAFF_LINES:SM8
@@ -4583,7 +4583,7 @@ iPianoMusicVoice = {
 }
 
 
-iPercussionMusicVoice = {
+i_PercussionMusicVoice = {
     
     % [_ PercussionMusicVoice measure 1]                         %! SM4
     \override Stem.direction = #down                             %! OC
@@ -5267,7 +5267,7 @@ iPercussionMusicVoice = {
 }
 
 
-iViolinMusicVoice = {
+i_ViolinMusicVoice = {
     
     % [_ ViolinMusicVoice measure 1]                             %! SM4
     \override NoteHead.style = #'harmonic                        %! OC
@@ -5838,7 +5838,7 @@ iViolinMusicVoice = {
 }
 
 
-iViolaMusicVoice = {
+i_ViolaMusicVoice = {
     
     % [_ ViolaMusicVoice measure 1]                              %! SM4
     \override NoteHead.style = #'harmonic                        %! OC
@@ -6361,7 +6361,7 @@ iViolaMusicVoice = {
 }
 
 
-iCelloMusicVoice = {
+i_CelloMusicVoice = {
     
     % [_ CelloMusicVoice measure 1]                              %! SM4
     \override NoteHead.style = #'harmonic                        %! OC
@@ -6875,7 +6875,7 @@ iCelloMusicVoice = {
 }
 
 
-iContrabassMusicVoice = {
+i_ContrabassMusicVoice = {
     
     % [_ ContrabassMusicVoice measure 1]                         %! SM4
     \override NoteHead.style = #'harmonic                        %! OC

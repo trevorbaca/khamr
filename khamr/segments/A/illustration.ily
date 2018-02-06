@@ -1,4 +1,4 @@
-AGlobalSkips = {
+A_GlobalSkips = {
     
     % [A GlobalSkips measure 45]                                         %! SM4
 %@% \once \override TextSpanner.bound-details.left.text =                %! EXPLICIT_METRONOME_MARK:SM27
@@ -1292,7 +1292,7 @@ AGlobalSkips = {
 }
 
 
-AFluteMusicVoice = {
+A_FluteMusicVoice = {
     
     % [A FluteMusicVoice measure 45]                             %! SM4
     \set FluteMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
@@ -1576,7 +1576,7 @@ AFluteMusicVoice = {
 }
 
 
-AOboeMusicVoice = {
+A_OboeMusicVoice = {
     
     % [A OboeMusicVoice measure 45]                              %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -1787,7 +1787,7 @@ AOboeMusicVoice = {
 }
 
 
-AClarinetMusicVoice = {
+A_ClarinetMusicVoice = {
     
     % [A ClarinetMusicVoice measure 45]                          %! SM4
     \set ClarinetMusicStaff.instrumentName = \markup {           %! REAPPLIED_INSTRUMENT:SM8
@@ -2009,7 +2009,7 @@ AClarinetMusicVoice = {
 }
 
 
-ASaxophoneMusicVoice = {
+A_SaxophoneMusicVoice = {
     
     % [A SaxophoneMusicVoice measure 45]                         %! SM4
     \set SaxophoneMusicStaff.instrumentName = \markup {          %! REAPPLIED_INSTRUMENT:SM8
@@ -2217,7 +2217,7 @@ ASaxophoneMusicVoice = {
 }
 
 
-AGuitarMusicVoice = {
+A_GuitarMusicVoice = {
     \times 2/3 {
         
         % [A GuitarMusicVoice measure 45]                        %! SM4
@@ -2460,7 +2460,7 @@ AGuitarMusicVoice = {
 }
 
 
-APianoMusicVoice = {
+A_PianoMusicVoice = {
     
     % [A PianoMusicVoice measure 45]                             %! SM4
     \stopStaff                                                   %! REDUNDANT_STAFF_LINES:SM8
@@ -2794,7 +2794,7 @@ APianoMusicVoice = {
 }
 
 
-APercussionMusicVoice = {
+A_PercussionMusicVoice = {
     
     % [A PercussionMusicVoice measure 45]                        %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -3381,7 +3381,7 @@ APercussionMusicVoice = {
 }
 
 
-AViolinMusicVoice = {
+A_ViolinMusicVoice = {
     
     % [A ViolinMusicVoice measure 45]                            %! SM4
     \set ViolinMusicStaff.instrumentName = \markup {             %! REAPPLIED_INSTRUMENT:SM8
@@ -3799,7 +3799,7 @@ AViolinMusicVoice = {
 }
 
 
-AViolaMusicVoice = {
+A_ViolaMusicVoice = {
     
     % [A ViolaMusicVoice measure 45]                             %! SM4
     \set ViolaMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
@@ -4158,7 +4158,7 @@ AViolaMusicVoice = {
 }
 
 
-ACelloMusicVoice = {
+A_CelloMusicVoice = {
     
     % [A CelloMusicVoice measure 45]                             %! SM4
     \set CelloMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
@@ -4437,7 +4437,7 @@ ACelloMusicVoice = {
 }
 
 
-AContrabassMusicVoice = {
+A_ContrabassMusicVoice = {
     
     % [A ContrabassMusicVoice measure 45]                        %! SM4
     \override NoteHead.style = #'harmonic                        %! OC

@@ -1,4 +1,4 @@
-BGlobalSkips = {
+B_GlobalSkips = {
     
     % [B GlobalSkips measure 75]                                         %! SM4
 %@% \once \override TextSpanner.bound-details.left.text =                %! REAPPLIED_METRONOME_MARK:SM27
@@ -1612,7 +1612,7 @@ BGlobalSkips = {
 }
 
 
-BFluteMusicVoice = {
+B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 75]                             %! SM4
     \set FluteMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
@@ -2697,7 +2697,7 @@ BFluteMusicVoice = {
 }
 
 
-BOboeMusicVoice = {
+B_OboeMusicVoice = {
     
     % [B OboeMusicVoice measure 75]                              %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -3935,7 +3935,7 @@ BOboeMusicVoice = {
 }
 
 
-BClarinetMusicVoice = {
+B_ClarinetMusicVoice = {
     
     % [B ClarinetMusicVoice measure 75]                          %! SM4
     \set ClarinetMusicStaff.instrumentName = \markup {           %! REAPPLIED_INSTRUMENT:SM8
@@ -5019,7 +5019,7 @@ BClarinetMusicVoice = {
 }
 
 
-BSaxophoneMusicVoice = {
+B_SaxophoneMusicVoice = {
     
     % [B SaxophoneMusicVoice measure 75]                         %! SM4
     \set SaxophoneMusicStaff.instrumentName = \markup {          %! REAPPLIED_INSTRUMENT:SM8
@@ -6212,7 +6212,7 @@ BSaxophoneMusicVoice = {
 }
 
 
-BGuitarMusicVoice = {
+B_GuitarMusicVoice = {
     
     % [B GuitarMusicVoice measure 75]                            %! SM4
     \set GuitarMusicStaff.instrumentName = \markup {             %! REAPPLIED_INSTRUMENT:SM8
@@ -6428,7 +6428,7 @@ BGuitarMusicVoice = {
 }
 
 
-BPianoMusicVoice = {
+B_PianoMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
@@ -7792,7 +7792,7 @@ BPianoMusicVoice = {
 }
 
 
-BPercussionMusicVoice = {
+B_PercussionMusicVoice = {
     
     % [B PercussionMusicVoice measure 75]                        %! SM4
     \stopStaff                                                   %! REAPPLIED_STAFF_LINES:SM8
@@ -8345,7 +8345,7 @@ BPercussionMusicVoice = {
 }
 
 
-BViolinMusicVoice = {
+B_ViolinMusicVoice = {
     
     % [B ViolinMusicVoice measure 75]                            %! SM4
     \set ViolinMusicStaff.instrumentName = \markup {             %! REAPPLIED_INSTRUMENT:SM8
@@ -8634,7 +8634,7 @@ BViolinMusicVoice = {
 }
 
 
-BViolaMusicVoice = {
+B_ViolaMusicVoice = {
     
     % [B ViolaMusicVoice measure 75]                             %! SM4
     \set ViolaMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
@@ -8923,7 +8923,7 @@ BViolaMusicVoice = {
 }
 
 
-BCelloMusicVoice = {
+B_CelloMusicVoice = {
     
     % [B CelloMusicVoice measure 75]                             %! SM4
     \set CelloMusicStaff.instrumentName = \markup {              %! REAPPLIED_INSTRUMENT:SM8
@@ -9210,7 +9210,7 @@ BCelloMusicVoice = {
 }
 
 
-BContrabassMusicVoice = {
+B_ContrabassMusicVoice = {
     
     % [B ContrabassMusicVoice measure 75]                        %! SM4
     \set ContrabassMusicStaff.instrumentName = \markup {         %! REAPPLIED_INSTRUMENT:SM8
