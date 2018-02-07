@@ -54,10 +54,10 @@ B_GlobalSkips = {
     \once \override TextSpanner.bound-details.right.padding = 0          %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.dash-period = 0                          %! METRONOME_MARK_SPANNER:SM29
-    \time 2/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
+    \time 2/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
     \mark #2                                                             %! SM9
     \bar ""                                                              %! +SEGMENT:EMPTY_START_BAR:SM2
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1/2
     \startTextSpan                                                       %! METRONOME_MARK_SPANNER:SM29
     ^ \markup {
@@ -99,7 +99,7 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 76]                                         %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM1:REDUNDANT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1/2
     ^ \markup {
         \column
@@ -132,8 +132,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 77]                                         %! SM4
-    \time 6/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 6/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 3/2
     ^ \markup {
         \column
@@ -174,8 +174,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 78]                                         %! SM4
-    \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 3/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 3/4
     ^ \markup {
         \column
@@ -208,25 +208,25 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 79]                                         %! SM4
-%@% \once \override TextSpanner.bound-details.left.text =                %! EXPLICIT_METRONOME_MARK:SM27
-%@% \markup {                                                            %! EXPLICIT_METRONOME_MARK:SM27
-%@%     \fontsize                                                        %! EXPLICIT_METRONOME_MARK:SM27
-%@%         #-6                                                          %! EXPLICIT_METRONOME_MARK:SM27
-%@%         \general-align                                               %! EXPLICIT_METRONOME_MARK:SM27
-%@%             #Y                                                       %! EXPLICIT_METRONOME_MARK:SM27
-%@%             #DOWN                                                    %! EXPLICIT_METRONOME_MARK:SM27
-%@%             \note-by-number                                          %! EXPLICIT_METRONOME_MARK:SM27
-%@%                 #2                                                   %! EXPLICIT_METRONOME_MARK:SM27
-%@%                 #0                                                   %! EXPLICIT_METRONOME_MARK:SM27
-%@%                 #1.5                                                 %! EXPLICIT_METRONOME_MARK:SM27
-%@%     \upright                                                         %! EXPLICIT_METRONOME_MARK:SM27
-%@%         {                                                            %! EXPLICIT_METRONOME_MARK:SM27
-%@%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
-%@%             63                                                       %! EXPLICIT_METRONOME_MARK:SM27
-%@%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-%@%     \hspace                                                          %! EXPLICIT_METRONOME_MARK:SM27
-%@%         #1                                                           %! EXPLICIT_METRONOME_MARK:SM27
-%@%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! METRONOME_MARK_SPANNER:SM29
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@% \markup {                                                            %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%     \fontsize                                                        %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%         #-6                                                          %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%         \general-align                                               %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%             #Y                                                       %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%             #DOWN                                                    %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%             \note-by-number                                          %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%                 #2                                                   %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%                 #0                                                   %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%                 #1.5                                                 %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%     \upright                                                         %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%         {                                                            %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%             =                                                        %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%             63                                                       %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%         }                                                            %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%     \hspace                                                          %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%         #1                                                           %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%     }                                                                %! SM30:EXPLICIT_METRONOME_MARK:SM27 %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.Y-extent = ##f                           %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.arrow-width = 0.25                       %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.left-broken.text = ##f     %! METRONOME_MARK_SPANNER:SM29
@@ -234,29 +234,29 @@ B_GlobalSkips = {
         \null
         }                                                                %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! METRONOME_MARK_SPANNER:SM29
-    \once \override TextSpanner.bound-details.left.text =                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-    \markup {                                                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-        \with-color                                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-            #(x11-color 'blue)                                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-            {                                                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                \fontsize                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    #-6                                                  %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    \general-align                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        #Y                                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        #DOWN                                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        \note-by-number                                  %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                            #2                                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                            #0                                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                            #1.5                                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                \upright                                                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    {                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        =                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        63                                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    }                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                \hspace                                                  %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    #1                                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-            }                                                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-        }                                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! METRONOME_MARK_SPANNER:SM29
+    \once \override TextSpanner.bound-details.left.text =                %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+    \markup {                                                            %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+        \with-color                                                      %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+            #(x11-color 'blue)                                           %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+            {                                                            %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                \fontsize                                                %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    #-6                                                  %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    \general-align                                       %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        #Y                                               %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        #DOWN                                            %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        \note-by-number                                  %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                            #2                                           %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                            #0                                           %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                            #1.5                                         %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                \upright                                                 %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    {                                                    %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        =                                                %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        63                                               %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    }                                                    %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                \hspace                                                  %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    #1                                                   %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+            }                                                            %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+        }                                                                %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right-broken.arrow = ##f   %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right-broken.padding = 0   %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right-broken.text = ##f    %! METRONOME_MARK_SPANNER:SM29
@@ -265,8 +265,8 @@ B_GlobalSkips = {
     \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.dash-fraction = 0.25                     %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.dash-period = 1.5                        %! METRONOME_MARK_SPANNER:SM29
-    \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 4/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1
     \stopTextSpan                                                        %! METRONOME_MARK_SPANNER:SM29
     \startTextSpan                                                       %! METRONOME_MARK_SPANNER:SM29
@@ -309,8 +309,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 80]                                         %! SM4
-    \time 6/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 6/8                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 3/4
     ^ \markup {
         \column
@@ -343,8 +343,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 81]                                         %! SM4
-    \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 4/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1
     ^ \markup {
         \column
@@ -377,8 +377,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 82]                                         %! SM4
-    \time 5/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 5/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 5/4
     ^ \markup {
         \column
@@ -419,8 +419,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 83]                                         %! SM4
-    \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 4/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1
     ^ \markup {
         \column
@@ -453,61 +453,61 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 84]                                         %! SM4
-%@% \once \override TextSpanner.bound-details.left.text =                %! EXPLICIT_METRONOME_MARK:SM27
-%@% \markup {                                                            %! EXPLICIT_METRONOME_MARK:SM27
-%@%     \fontsize                                                        %! EXPLICIT_METRONOME_MARK:SM27
-%@%         #-6                                                          %! EXPLICIT_METRONOME_MARK:SM27
-%@%         \general-align                                               %! EXPLICIT_METRONOME_MARK:SM27
-%@%             #Y                                                       %! EXPLICIT_METRONOME_MARK:SM27
-%@%             #DOWN                                                    %! EXPLICIT_METRONOME_MARK:SM27
-%@%             \note-by-number                                          %! EXPLICIT_METRONOME_MARK:SM27
-%@%                 #2                                                   %! EXPLICIT_METRONOME_MARK:SM27
-%@%                 #0                                                   %! EXPLICIT_METRONOME_MARK:SM27
-%@%                 #1.5                                                 %! EXPLICIT_METRONOME_MARK:SM27
-%@%     \upright                                                         %! EXPLICIT_METRONOME_MARK:SM27
-%@%         {                                                            %! EXPLICIT_METRONOME_MARK:SM27
-%@%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
-%@%             126                                                      %! EXPLICIT_METRONOME_MARK:SM27
-%@%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-%@%     \hspace                                                          %! EXPLICIT_METRONOME_MARK:SM27
-%@%         #1                                                           %! EXPLICIT_METRONOME_MARK:SM27
-%@%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! METRONOME_MARK_SPANNER:SM29
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@% \markup {                                                            %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%     \fontsize                                                        %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%         #-6                                                          %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%         \general-align                                               %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%             #Y                                                       %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%             #DOWN                                                    %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%             \note-by-number                                          %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%                 #2                                                   %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%                 #0                                                   %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%                 #1.5                                                 %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%     \upright                                                         %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%         {                                                            %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%             =                                                        %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%             126                                                      %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%         }                                                            %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%     \hspace                                                          %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%         #1                                                           %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%     }                                                                %! SM30:EXPLICIT_METRONOME_MARK:SM27 %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.Y-extent = ##f                           %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.left-broken.text = ##f     %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.left-broken.text = \markup {
         \null
         }                                                                %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! METRONOME_MARK_SPANNER:SM29
-    \once \override TextSpanner.bound-details.left.text =                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-    \markup {                                                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-        \with-color                                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-            #(x11-color 'blue)                                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-            {                                                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                \fontsize                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    #-6                                                  %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    \general-align                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        #Y                                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        #DOWN                                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        \note-by-number                                  %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                            #2                                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                            #0                                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                            #1.5                                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                \upright                                                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    {                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        =                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        126                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    }                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                \hspace                                                  %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    #1                                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-            }                                                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-        }                                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! METRONOME_MARK_SPANNER:SM29
+    \once \override TextSpanner.bound-details.left.text =                %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+    \markup {                                                            %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+        \with-color                                                      %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+            #(x11-color 'blue)                                           %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+            {                                                            %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                \fontsize                                                %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    #-6                                                  %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    \general-align                                       %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        #Y                                               %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        #DOWN                                            %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        \note-by-number                                  %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                            #2                                           %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                            #0                                           %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                            #1.5                                         %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                \upright                                                 %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    {                                                    %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        =                                                %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        126                                              %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    }                                                    %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                \hspace                                                  %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    #1                                                   %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+            }                                                            %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+        }                                                                %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right-broken.padding = 0   %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right-broken.text = ##f    %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right.padding = 0          %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.dash-period = 0                          %! METRONOME_MARK_SPANNER:SM29
-    \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 3/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 3/4
     \stopTextSpan                                                        %! METRONOME_MARK_SPANNER:SM29
     \startTextSpan                                                       %! METRONOME_MARK_SPANNER:SM29
@@ -550,8 +550,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 85]                                         %! SM4
-    \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 4/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1
     ^ \markup {
         \column
@@ -584,8 +584,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 86]                                         %! SM4
-    \time 5/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 5/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 5/4
     ^ \markup {
         \column
@@ -618,8 +618,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 87]                                         %! SM4
-    \time 6/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 6/8                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 3/4
     ^ \markup {
         \column
@@ -652,8 +652,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 88]                                         %! SM4
-    \time 2/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 2/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1/2
     ^ \markup {
         \column
@@ -686,8 +686,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 89]                                         %! SM4
-    \time 6/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 6/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 3/2
     ^ \markup {
         \column
@@ -720,8 +720,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 90]                                         %! SM4
-    \time 2/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 2/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1/2
     ^ \markup {
         \column
@@ -754,8 +754,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 91]                                         %! SM4
-    \time 5/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 5/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 5/4
     ^ \markup {
         \column
@@ -788,8 +788,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 92]                                         %! SM4
-    \time 6/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 6/8                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 3/4
     ^ \markup {
         \column
@@ -822,8 +822,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 93]                                         %! SM4
-    \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 4/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1
     ^ \markup {
         \column
@@ -856,8 +856,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 94]                                         %! SM4
-    \time 6/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 6/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 3/2
     ^ \markup {
         \column
@@ -890,8 +890,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 95]                                         %! SM4
-    \time 2/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 2/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1/2
     ^ \markup {
         \column
@@ -924,7 +924,7 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 96]                                         %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM1:REDUNDANT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1/2
     ^ \markup {
         \column
@@ -957,8 +957,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 97]                                         %! SM4
-    \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 3/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 3/4
     ^ \markup {
         \column
@@ -991,8 +991,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 98]                                         %! SM4
-    \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 4/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1
     ^ \markup {
         \column
@@ -1025,8 +1025,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 99]                                         %! SM4
-    \time 2/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 2/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1/2
     ^ \markup {
         \column
@@ -1059,60 +1059,60 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 100]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text =                %! EXPLICIT_METRONOME_MARK:SM27
-%@% \markup {                                                            %! EXPLICIT_METRONOME_MARK:SM27
-%@%     \fontsize                                                        %! EXPLICIT_METRONOME_MARK:SM27
-%@%         #-6                                                          %! EXPLICIT_METRONOME_MARK:SM27
-%@%         \general-align                                               %! EXPLICIT_METRONOME_MARK:SM27
-%@%             #Y                                                       %! EXPLICIT_METRONOME_MARK:SM27
-%@%             #DOWN                                                    %! EXPLICIT_METRONOME_MARK:SM27
-%@%             \note-by-number                                          %! EXPLICIT_METRONOME_MARK:SM27
-%@%                 #2                                                   %! EXPLICIT_METRONOME_MARK:SM27
-%@%                 #0                                                   %! EXPLICIT_METRONOME_MARK:SM27
-%@%                 #1.5                                                 %! EXPLICIT_METRONOME_MARK:SM27
-%@%     \upright                                                         %! EXPLICIT_METRONOME_MARK:SM27
-%@%         {                                                            %! EXPLICIT_METRONOME_MARK:SM27
-%@%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
-%@%             63                                                       %! EXPLICIT_METRONOME_MARK:SM27
-%@%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-%@%     \hspace                                                          %! EXPLICIT_METRONOME_MARK:SM27
-%@%         #1                                                           %! EXPLICIT_METRONOME_MARK:SM27
-%@%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! METRONOME_MARK_SPANNER:SM29
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@% \markup {                                                            %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%     \fontsize                                                        %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%         #-6                                                          %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%         \general-align                                               %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%             #Y                                                       %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%             #DOWN                                                    %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%             \note-by-number                                          %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%                 #2                                                   %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%                 #0                                                   %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%                 #1.5                                                 %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%     \upright                                                         %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%         {                                                            %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%             =                                                        %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%             63                                                       %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%         }                                                            %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%     \hspace                                                          %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%         #1                                                           %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%     }                                                                %! SM30:EXPLICIT_METRONOME_MARK:SM27 %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.Y-extent = ##f                           %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.left-broken.text = ##f     %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.left-broken.text = \markup {
         \null
         }                                                                %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! METRONOME_MARK_SPANNER:SM29
-    \once \override TextSpanner.bound-details.left.text =                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-    \markup {                                                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-        \with-color                                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-            #(x11-color 'blue)                                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-            {                                                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                \fontsize                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    #-6                                                  %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    \general-align                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        #Y                                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        #DOWN                                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        \note-by-number                                  %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                            #2                                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                            #0                                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                            #1.5                                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                \upright                                                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    {                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        =                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        63                                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    }                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                \hspace                                                  %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    #1                                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-            }                                                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-        }                                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! METRONOME_MARK_SPANNER:SM29
+    \once \override TextSpanner.bound-details.left.text =                %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+    \markup {                                                            %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+        \with-color                                                      %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+            #(x11-color 'blue)                                           %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+            {                                                            %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                \fontsize                                                %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    #-6                                                  %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    \general-align                                       %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        #Y                                               %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        #DOWN                                            %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        \note-by-number                                  %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                            #2                                           %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                            #0                                           %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                            #1.5                                         %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                \upright                                                 %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    {                                                    %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        =                                                %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        63                                               %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    }                                                    %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                \hspace                                                  %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    #1                                                   %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+            }                                                            %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+        }                                                                %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right-broken.padding = 0   %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right-broken.text = ##f    %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right.padding = 0          %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.dash-period = 0                          %! METRONOME_MARK_SPANNER:SM29
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM1:REDUNDANT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1/2
     \stopTextSpan                                                        %! METRONOME_MARK_SPANNER:SM29
     \startTextSpan                                                       %! METRONOME_MARK_SPANNER:SM29
@@ -1155,8 +1155,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 101]                                        %! SM4
-    \time 6/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 6/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 3/2
     ^ \markup {
         \column
@@ -1189,8 +1189,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 102]                                        %! SM4
-    \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 4/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1
     ^ \markup {
         \column
@@ -1223,8 +1223,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 103]                                        %! SM4
-    \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 3/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 3/4
     ^ \markup {
         \column
@@ -1257,61 +1257,61 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 104]                                        %! SM4
-%@% \once \override TextSpanner.bound-details.left.text =                %! EXPLICIT_METRONOME_MARK:SM27
-%@% \markup {                                                            %! EXPLICIT_METRONOME_MARK:SM27
-%@%     \fontsize                                                        %! EXPLICIT_METRONOME_MARK:SM27
-%@%         #-6                                                          %! EXPLICIT_METRONOME_MARK:SM27
-%@%         \general-align                                               %! EXPLICIT_METRONOME_MARK:SM27
-%@%             #Y                                                       %! EXPLICIT_METRONOME_MARK:SM27
-%@%             #DOWN                                                    %! EXPLICIT_METRONOME_MARK:SM27
-%@%             \note-by-number                                          %! EXPLICIT_METRONOME_MARK:SM27
-%@%                 #2                                                   %! EXPLICIT_METRONOME_MARK:SM27
-%@%                 #0                                                   %! EXPLICIT_METRONOME_MARK:SM27
-%@%                 #1.5                                                 %! EXPLICIT_METRONOME_MARK:SM27
-%@%     \upright                                                         %! EXPLICIT_METRONOME_MARK:SM27
-%@%         {                                                            %! EXPLICIT_METRONOME_MARK:SM27
-%@%             =                                                        %! EXPLICIT_METRONOME_MARK:SM27
-%@%             42                                                       %! EXPLICIT_METRONOME_MARK:SM27
-%@%         }                                                            %! EXPLICIT_METRONOME_MARK:SM27
-%@%     \hspace                                                          %! EXPLICIT_METRONOME_MARK:SM27
-%@%         #1                                                           %! EXPLICIT_METRONOME_MARK:SM27
-%@%     }                                                                %! EXPLICIT_METRONOME_MARK:SM27 %! METRONOME_MARK_SPANNER:SM29
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@% \markup {                                                            %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%     \fontsize                                                        %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%         #-6                                                          %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%         \general-align                                               %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%             #Y                                                       %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%             #DOWN                                                    %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%             \note-by-number                                          %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%                 #2                                                   %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%                 #0                                                   %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%                 #1.5                                                 %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%     \upright                                                         %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%         {                                                            %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%             =                                                        %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%             42                                                       %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%         }                                                            %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%     \hspace                                                          %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%         #1                                                           %! SM30:EXPLICIT_METRONOME_MARK:SM27
+%@%     }                                                                %! SM30:EXPLICIT_METRONOME_MARK:SM27 %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.Y-extent = ##f                           %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.left-broken.text = ##f     %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.left-broken.text = \markup {
         \null
         }                                                                %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! METRONOME_MARK_SPANNER:SM29
-    \once \override TextSpanner.bound-details.left.text =                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-    \markup {                                                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-        \with-color                                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-            #(x11-color 'blue)                                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-            {                                                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                \fontsize                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    #-6                                                  %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    \general-align                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        #Y                                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        #DOWN                                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        \note-by-number                                  %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                            #2                                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                            #0                                           %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                            #1.5                                         %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                \upright                                                 %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    {                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        =                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                        42                                               %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    }                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                \hspace                                                  %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-                    #1                                                   %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-            }                                                            %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
-        }                                                                %! EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! METRONOME_MARK_SPANNER:SM29
+    \once \override TextSpanner.bound-details.left.text =                %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+    \markup {                                                            %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+        \with-color                                                      %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+            #(x11-color 'blue)                                           %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+            {                                                            %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                \fontsize                                                %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    #-6                                                  %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    \general-align                                       %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        #Y                                               %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        #DOWN                                            %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        \note-by-number                                  %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                            #2                                           %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                            #0                                           %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                            #1.5                                         %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                \upright                                                 %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    {                                                    %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        =                                                %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                        42                                               %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    }                                                    %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                \hspace                                                  %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+                    #1                                                   %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+            }                                                            %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15
+        }                                                                %! SM30:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM15 %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right-broken.padding = 0   %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right-broken.text = ##f    %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right.padding = 0          %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! METRONOME_MARK_SPANNER:SM29
     \once \override TextSpanner.dash-period = 0                          %! METRONOME_MARK_SPANNER:SM29
-    \time 6/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 6/8                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 3/4
     \stopTextSpan                                                        %! METRONOME_MARK_SPANNER:SM29
     \startTextSpan                                                       %! METRONOME_MARK_SPANNER:SM29
@@ -1354,8 +1354,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 105]                                        %! SM4
-    \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 4/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1
     ^ \markup {
         \column
@@ -1388,8 +1388,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 106]                                        %! SM4
-    \time 5/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 5/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 5/4
     ^ \markup {
         \column
@@ -1430,8 +1430,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 107]                                        %! SM4
-    \time 3/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 3/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 3/4
     ^ \markup {
         \column
@@ -1464,8 +1464,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 108]                                        %! SM4
-    \time 4/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 4/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1
     ^ \markup {
         \column
@@ -1506,7 +1506,7 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 109]                                        %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! REDUNDANT_TIME_SIGNATURE_COLOR:SM6
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM1:REDUNDANT_TIME_SIGNATURE_COLOR:SM6
     s1 * 1
     ^ \markup {
         \column
@@ -1539,8 +1539,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 110]                                        %! SM4
-    \time 5/4                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 5/4                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 5/4
     ^ \markup {
         \column
@@ -1573,8 +1573,8 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 111]                                        %! SM4
-    \time 6/8                                                            %! EXPLICIT_TIME_SIGNATURE:SM8
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! EXPLICIT_TIME_SIGNATURE_COLOR:SM6
+    \time 6/8                                                            %! SM1:EXPLICIT_TIME_SIGNATURE:SM8
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM1:EXPLICIT_TIME_SIGNATURE_COLOR:SM6
     s1 * 3/4
     \stopTextSpan                                                        %! METRONOME_MARK_SPANNER:SM29
     ^ \markup {
@@ -1681,38 +1681,38 @@ B_FluteMusicVoice = {
     \times 7/8 {
         
         % [B FluteMusicVoice measure 84]                         %! SM4
-        \set FluteMusicStaff.instrumentName = \markup {          %! REDUNDANT_INSTRUMENT:SM8
-            \hcenter-in                                          %! REDUNDANT_INSTRUMENT:SM8
-                #16                                              %! REDUNDANT_INSTRUMENT:SM8
-                Flute                                            %! REDUNDANT_INSTRUMENT:SM8
-            }                                                    %! REDUNDANT_INSTRUMENT:SM8
-        \set FluteMusicStaff.shortInstrumentName = \markup {     %! REDUNDANT_INSTRUMENT:SM8
-            \hcenter-in                                          %! REDUNDANT_INSTRUMENT:SM8
-                #10                                              %! REDUNDANT_INSTRUMENT:SM8
-                Fl.                                              %! REDUNDANT_INSTRUMENT:SM8
-            }                                                    %! REDUNDANT_INSTRUMENT:SM8
-        \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) %! REDUNDANT_INSTRUMENT_COLOR:SM6
-        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+        \set FluteMusicStaff.instrumentName = \markup {          %! IC:REDUNDANT_INSTRUMENT:SM8
+            \hcenter-in                                          %! IC:REDUNDANT_INSTRUMENT:SM8
+                #16                                              %! IC:REDUNDANT_INSTRUMENT:SM8
+                Flute                                            %! IC:REDUNDANT_INSTRUMENT:SM8
+            }                                                    %! IC:REDUNDANT_INSTRUMENT:SM8
+        \set FluteMusicStaff.shortInstrumentName = \markup {     %! IC:REDUNDANT_INSTRUMENT:SM8
+            \hcenter-in                                          %! IC:REDUNDANT_INSTRUMENT:SM8
+                #10                                              %! IC:REDUNDANT_INSTRUMENT:SM8
+                Fl.                                              %! IC:REDUNDANT_INSTRUMENT:SM8
+            }                                                    %! IC:REDUNDANT_INSTRUMENT:SM8
+        \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) %! IC:REDUNDANT_INSTRUMENT_COLOR:SM6
+        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! IC:REDUNDANT_DYNAMIC_COLOR:SM6
         d'''16
         -\accent                                                 %! IC
-        \fff                                                     %! REDUNDANT_DYNAMIC:SM8
+        \fff                                                     %! IC:REDUNDANT_DYNAMIC:SM8
         [
-        ^ \markup {                                              %! REDUNDANT_INSTRUMENT_ALERT:SM11
-            \with-color                                          %! REDUNDANT_INSTRUMENT_ALERT:SM11
-                #(x11-color 'DeepPink1)                          %! REDUNDANT_INSTRUMENT_ALERT:SM11
-                (“Flute”)                                        %! REDUNDANT_INSTRUMENT_ALERT:SM11
-            }                                                    %! REDUNDANT_INSTRUMENT_ALERT:SM11
-        \set FluteMusicStaff.instrumentName = \markup {          %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
-            \hcenter-in                                          %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
-                #16                                              %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
-                Flute                                            %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
-            }                                                    %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
-        \set FluteMusicStaff.shortInstrumentName = \markup {     %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
-            \hcenter-in                                          %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
-                #10                                              %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
-                Fl.                                              %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
-            }                                                    %! REDRAWN_REDUNDANT_INSTRUMENT:SM8
-        \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink4) %! REDRAWN_REDUNDANT_INSTRUMENT_COLOR:SM6
+        ^ \markup {                                              %! IC:REDUNDANT_INSTRUMENT_ALERT:SM11
+            \with-color                                          %! IC:REDUNDANT_INSTRUMENT_ALERT:SM11
+                #(x11-color 'DeepPink1)                          %! IC:REDUNDANT_INSTRUMENT_ALERT:SM11
+                (“Flute”)                                        %! IC:REDUNDANT_INSTRUMENT_ALERT:SM11
+            }                                                    %! IC:REDUNDANT_INSTRUMENT_ALERT:SM11
+        \set FluteMusicStaff.instrumentName = \markup {          %! IC:REDRAWN_REDUNDANT_INSTRUMENT:SM8
+            \hcenter-in                                          %! IC:REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                #16                                              %! IC:REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                Flute                                            %! IC:REDRAWN_REDUNDANT_INSTRUMENT:SM8
+            }                                                    %! IC:REDRAWN_REDUNDANT_INSTRUMENT:SM8
+        \set FluteMusicStaff.shortInstrumentName = \markup {     %! IC:REDRAWN_REDUNDANT_INSTRUMENT:SM8
+            \hcenter-in                                          %! IC:REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                #10                                              %! IC:REDRAWN_REDUNDANT_INSTRUMENT:SM8
+                Fl.                                              %! IC:REDRAWN_REDUNDANT_INSTRUMENT:SM8
+            }                                                    %! IC:REDRAWN_REDUNDANT_INSTRUMENT:SM8
+        \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink4) %! IC:REDRAWN_REDUNDANT_INSTRUMENT_COLOR:SM6
         
         e'''16
         
@@ -2618,9 +2618,9 @@ B_FluteMusicVoice = {
     R1 * 3/4
     
     % [B FluteMusicVoice measure 108]                            %! SM4
-    \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     bf'1
-    \pp                                                          %! EXPLICIT_DYNAMIC:SM8
+    \pp                                                          %! IC:EXPLICIT_DYNAMIC:SM8
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
@@ -2752,38 +2752,38 @@ B_OboeMusicVoice = {
     \times 5/6 {
         
         % [B OboeMusicVoice measure 84]                          %! SM4
-        \set OboeMusicStaff.instrumentName = \markup {           %! EXPLICIT_INSTRUMENT:SM8
-            \hcenter-in                                          %! EXPLICIT_INSTRUMENT:SM8
-                #16                                              %! EXPLICIT_INSTRUMENT:SM8
-                Oboe                                             %! EXPLICIT_INSTRUMENT:SM8
-            }                                                    %! EXPLICIT_INSTRUMENT:SM8
-        \set OboeMusicStaff.shortInstrumentName = \markup {      %! EXPLICIT_INSTRUMENT:SM8
-            \hcenter-in                                          %! EXPLICIT_INSTRUMENT:SM8
-                #10                                              %! EXPLICIT_INSTRUMENT:SM8
-                Ob.                                              %! EXPLICIT_INSTRUMENT:SM8
-            }                                                    %! EXPLICIT_INSTRUMENT:SM8
-        \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:SM6
-        \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+        \set OboeMusicStaff.instrumentName = \markup {           %! IC:EXPLICIT_INSTRUMENT:SM8
+            \hcenter-in                                          %! IC:EXPLICIT_INSTRUMENT:SM8
+                #16                                              %! IC:EXPLICIT_INSTRUMENT:SM8
+                Oboe                                             %! IC:EXPLICIT_INSTRUMENT:SM8
+            }                                                    %! IC:EXPLICIT_INSTRUMENT:SM8
+        \set OboeMusicStaff.shortInstrumentName = \markup {      %! IC:EXPLICIT_INSTRUMENT:SM8
+            \hcenter-in                                          %! IC:EXPLICIT_INSTRUMENT:SM8
+                #10                                              %! IC:EXPLICIT_INSTRUMENT:SM8
+                Ob.                                              %! IC:EXPLICIT_INSTRUMENT:SM8
+            }                                                    %! IC:EXPLICIT_INSTRUMENT:SM8
+        \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'blue) %! IC:EXPLICIT_INSTRUMENT_COLOR:SM6
+        \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! IC:REDUNDANT_DYNAMIC_COLOR:SM6
         c'''16
         -\accent                                                 %! IC
-        \fff                                                     %! REDUNDANT_DYNAMIC:SM8
+        \fff                                                     %! IC:REDUNDANT_DYNAMIC:SM8
         [
-        ^ \markup {                                              %! EXPLICIT_INSTRUMENT_ALERT:SM11
-            \with-color                                          %! EXPLICIT_INSTRUMENT_ALERT:SM11
-                #(x11-color 'blue)                               %! EXPLICIT_INSTRUMENT_ALERT:SM11
-                (“Oboe”)                                         %! EXPLICIT_INSTRUMENT_ALERT:SM11
-            }                                                    %! EXPLICIT_INSTRUMENT_ALERT:SM11
-        \set OboeMusicStaff.instrumentName = \markup {           %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-            \hcenter-in                                          %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                #16                                              %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                Oboe                                             %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-            }                                                    %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-        \set OboeMusicStaff.shortInstrumentName = \markup {      %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-            \hcenter-in                                          %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                #10                                              %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                Ob.                                              %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-            }                                                    %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-        \override OboeMusicStaff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! REDRAWN_EXPLICIT_INSTRUMENT_COLOR:SM6
+        ^ \markup {                                              %! IC:EXPLICIT_INSTRUMENT_ALERT:SM11
+            \with-color                                          %! IC:EXPLICIT_INSTRUMENT_ALERT:SM11
+                #(x11-color 'blue)                               %! IC:EXPLICIT_INSTRUMENT_ALERT:SM11
+                (“Oboe”)                                         %! IC:EXPLICIT_INSTRUMENT_ALERT:SM11
+            }                                                    %! IC:EXPLICIT_INSTRUMENT_ALERT:SM11
+        \set OboeMusicStaff.instrumentName = \markup {           %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+            \hcenter-in                                          %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                #16                                              %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                Oboe                                             %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+            }                                                    %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+        \set OboeMusicStaff.shortInstrumentName = \markup {      %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+            \hcenter-in                                          %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                #10                                              %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                Ob.                                              %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+            }                                                    %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+        \override OboeMusicStaff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! IC:REDRAWN_EXPLICIT_INSTRUMENT_COLOR:SM6
         
         cs'''16
         
@@ -3820,16 +3820,16 @@ B_OboeMusicVoice = {
     R1 * 3/4
     
     % [B OboeMusicVoice measure 108]                             %! SM4
-    \stopStaff                                                   %! EXPLICIT_STAFF_LINES:SM8
-    \once \override OboeMusicStaff.StaffSymbol.line-count = 1    %! EXPLICIT_STAFF_LINES:SM8
-    \startStaff                                                  %! EXPLICIT_STAFF_LINES:SM8
-    \set OboeMusicStaff.forceClef = ##t                          %! EXPLICIT_CLEF:SM8
-    \clef "percussion"                                           %! EXPLICIT_CLEF:SM8
-    \once \override OboeMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
-%@% \override OboeMusicStaff.Clef.color = ##f                    %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
-    \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
+    \stopStaff                                                   %! IC:EXPLICIT_STAFF_LINES:SM8
+    \once \override OboeMusicStaff.StaffSymbol.line-count = 1    %! IC:EXPLICIT_STAFF_LINES:SM8
+    \startStaff                                                  %! IC:EXPLICIT_STAFF_LINES:SM8
+    \set OboeMusicStaff.forceClef = ##t                          %! IC:EXPLICIT_CLEF:SM8
+    \clef "percussion"                                           %! IC:EXPLICIT_CLEF:SM8
+    \once \override OboeMusicStaff.Clef.color = #(x11-color 'blue) %! IC:EXPLICIT_CLEF_COLOR:SM6
+%@% \override OboeMusicStaff.Clef.color = ##f                    %! IC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! IC:EXPLICIT_STAFF_LINES_COLOR:SM6
     r1
-    \override OboeMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
+    \override OboeMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! IC:EXPLICIT_CLEF_REDRAW_COLOR:SM6
     
     % [B OboeMusicVoice measure 109]                             %! SM4
     r1
@@ -3838,9 +3838,9 @@ B_OboeMusicVoice = {
     r2
     
     \override RepeatTie.direction = #up                          %! OC
-    \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     c'2.
-    \pp                                                          %! EXPLICIT_DYNAMIC:SM8
+    \pp                                                          %! IC:EXPLICIT_DYNAMIC:SM8
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
@@ -3945,38 +3945,38 @@ B_ClarinetMusicVoice = {
     \times 8/9 {
         
         % [B ClarinetMusicVoice measure 84]                      %! SM4
-        \set ClarinetMusicStaff.instrumentName = \markup {       %! EXPLICIT_INSTRUMENT:SM8
-            \hcenter-in                                          %! EXPLICIT_INSTRUMENT:SM8
-                #16                                              %! EXPLICIT_INSTRUMENT:SM8
-                Clarinet                                         %! EXPLICIT_INSTRUMENT:SM8
-            }                                                    %! EXPLICIT_INSTRUMENT:SM8
-        \set ClarinetMusicStaff.shortInstrumentName = \markup {  %! EXPLICIT_INSTRUMENT:SM8
-            \hcenter-in                                          %! EXPLICIT_INSTRUMENT:SM8
-                #10                                              %! EXPLICIT_INSTRUMENT:SM8
-                Cl.                                              %! EXPLICIT_INSTRUMENT:SM8
-            }                                                    %! EXPLICIT_INSTRUMENT:SM8
-        \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:SM6
-        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+        \set ClarinetMusicStaff.instrumentName = \markup {       %! IC:EXPLICIT_INSTRUMENT:SM8
+            \hcenter-in                                          %! IC:EXPLICIT_INSTRUMENT:SM8
+                #16                                              %! IC:EXPLICIT_INSTRUMENT:SM8
+                Clarinet                                         %! IC:EXPLICIT_INSTRUMENT:SM8
+            }                                                    %! IC:EXPLICIT_INSTRUMENT:SM8
+        \set ClarinetMusicStaff.shortInstrumentName = \markup {  %! IC:EXPLICIT_INSTRUMENT:SM8
+            \hcenter-in                                          %! IC:EXPLICIT_INSTRUMENT:SM8
+                #10                                              %! IC:EXPLICIT_INSTRUMENT:SM8
+                Cl.                                              %! IC:EXPLICIT_INSTRUMENT:SM8
+            }                                                    %! IC:EXPLICIT_INSTRUMENT:SM8
+        \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'blue) %! IC:EXPLICIT_INSTRUMENT_COLOR:SM6
+        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! IC:REDUNDANT_DYNAMIC_COLOR:SM6
         e'''16
         -\accent                                                 %! IC
-        \fff                                                     %! REDUNDANT_DYNAMIC:SM8
+        \fff                                                     %! IC:REDUNDANT_DYNAMIC:SM8
         [
-        ^ \markup {                                              %! EXPLICIT_INSTRUMENT_ALERT:SM11
-            \with-color                                          %! EXPLICIT_INSTRUMENT_ALERT:SM11
-                #(x11-color 'blue)                               %! EXPLICIT_INSTRUMENT_ALERT:SM11
-                (“Clarinet”)                                     %! EXPLICIT_INSTRUMENT_ALERT:SM11
-            }                                                    %! EXPLICIT_INSTRUMENT_ALERT:SM11
-        \set ClarinetMusicStaff.instrumentName = \markup {       %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-            \hcenter-in                                          %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                #16                                              %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                Clarinet                                         %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-            }                                                    %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-        \set ClarinetMusicStaff.shortInstrumentName = \markup {  %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-            \hcenter-in                                          %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                #10                                              %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                Cl.                                              %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-            }                                                    %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-        \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! REDRAWN_EXPLICIT_INSTRUMENT_COLOR:SM6
+        ^ \markup {                                              %! IC:EXPLICIT_INSTRUMENT_ALERT:SM11
+            \with-color                                          %! IC:EXPLICIT_INSTRUMENT_ALERT:SM11
+                #(x11-color 'blue)                               %! IC:EXPLICIT_INSTRUMENT_ALERT:SM11
+                (“Clarinet”)                                     %! IC:EXPLICIT_INSTRUMENT_ALERT:SM11
+            }                                                    %! IC:EXPLICIT_INSTRUMENT_ALERT:SM11
+        \set ClarinetMusicStaff.instrumentName = \markup {       %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+            \hcenter-in                                          %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                #16                                              %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                Clarinet                                         %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+            }                                                    %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+        \set ClarinetMusicStaff.shortInstrumentName = \markup {  %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+            \hcenter-in                                          %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                #10                                              %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                Cl.                                              %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+            }                                                    %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+        \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! IC:REDRAWN_EXPLICIT_INSTRUMENT_COLOR:SM6
         
         es'''16
         
@@ -4808,52 +4808,52 @@ B_ClarinetMusicVoice = {
     R1 * 1
     
     % [B ClarinetMusicVoice measure 106]                         %! SM4
-    \set ClarinetMusicStaff.instrumentName = \markup {           %! EXPLICIT_INSTRUMENT:SM8
-        \hcenter-in                                              %! EXPLICIT_INSTRUMENT:SM8
-            #16                                                  %! EXPLICIT_INSTRUMENT:SM8
-            \center-column                                       %! EXPLICIT_INSTRUMENT:SM8
-                {                                                %! EXPLICIT_INSTRUMENT:SM8
-                    Bass                                         %! EXPLICIT_INSTRUMENT:SM8
-                    clarinet                                     %! EXPLICIT_INSTRUMENT:SM8
-                }                                                %! EXPLICIT_INSTRUMENT:SM8
-        }                                                        %! EXPLICIT_INSTRUMENT:SM8
-    \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! EXPLICIT_INSTRUMENT:SM8
-        \hcenter-in                                              %! EXPLICIT_INSTRUMENT:SM8
-            #10                                                  %! EXPLICIT_INSTRUMENT:SM8
-            \center-column                                       %! EXPLICIT_INSTRUMENT:SM8
-                {                                                %! EXPLICIT_INSTRUMENT:SM8
-                    Bass                                         %! EXPLICIT_INSTRUMENT:SM8
-                    cl.                                          %! EXPLICIT_INSTRUMENT:SM8
-                }                                                %! EXPLICIT_INSTRUMENT:SM8
-        }                                                        %! EXPLICIT_INSTRUMENT:SM8
-    \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:SM6
-    \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \set ClarinetMusicStaff.instrumentName = \markup {           %! IC:EXPLICIT_INSTRUMENT:SM8
+        \hcenter-in                                              %! IC:EXPLICIT_INSTRUMENT:SM8
+            #16                                                  %! IC:EXPLICIT_INSTRUMENT:SM8
+            \center-column                                       %! IC:EXPLICIT_INSTRUMENT:SM8
+                {                                                %! IC:EXPLICIT_INSTRUMENT:SM8
+                    Bass                                         %! IC:EXPLICIT_INSTRUMENT:SM8
+                    clarinet                                     %! IC:EXPLICIT_INSTRUMENT:SM8
+                }                                                %! IC:EXPLICIT_INSTRUMENT:SM8
+        }                                                        %! IC:EXPLICIT_INSTRUMENT:SM8
+    \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! IC:EXPLICIT_INSTRUMENT:SM8
+        \hcenter-in                                              %! IC:EXPLICIT_INSTRUMENT:SM8
+            #10                                                  %! IC:EXPLICIT_INSTRUMENT:SM8
+            \center-column                                       %! IC:EXPLICIT_INSTRUMENT:SM8
+                {                                                %! IC:EXPLICIT_INSTRUMENT:SM8
+                    Bass                                         %! IC:EXPLICIT_INSTRUMENT:SM8
+                    cl.                                          %! IC:EXPLICIT_INSTRUMENT:SM8
+                }                                                %! IC:EXPLICIT_INSTRUMENT:SM8
+        }                                                        %! IC:EXPLICIT_INSTRUMENT:SM8
+    \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'blue) %! IC:EXPLICIT_INSTRUMENT_COLOR:SM6
+    \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     a1
-    \ppp                                                         %! EXPLICIT_DYNAMIC:SM8
-    ^ \markup {                                                  %! EXPLICIT_INSTRUMENT_ALERT:SM11
-        \with-color                                              %! EXPLICIT_INSTRUMENT_ALERT:SM11
-            #(x11-color 'blue)                                   %! EXPLICIT_INSTRUMENT_ALERT:SM11
-            (“BassClarinet”)                                     %! EXPLICIT_INSTRUMENT_ALERT:SM11
-        }                                                        %! EXPLICIT_INSTRUMENT_ALERT:SM11
-    \set ClarinetMusicStaff.instrumentName = \markup {           %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-        \hcenter-in                                              %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-            #16                                                  %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-            \center-column                                       %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                {                                                %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                    Bass                                         %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                    clarinet                                     %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                }                                                %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-        }                                                        %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-    \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-        \hcenter-in                                              %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-            #10                                                  %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-            \center-column                                       %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                {                                                %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                    Bass                                         %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                    cl.                                          %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                }                                                %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-        }                                                        %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-    \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! REDRAWN_EXPLICIT_INSTRUMENT_COLOR:SM6
+    \ppp                                                         %! IC:EXPLICIT_DYNAMIC:SM8
+    ^ \markup {                                                  %! IC:EXPLICIT_INSTRUMENT_ALERT:SM11
+        \with-color                                              %! IC:EXPLICIT_INSTRUMENT_ALERT:SM11
+            #(x11-color 'blue)                                   %! IC:EXPLICIT_INSTRUMENT_ALERT:SM11
+            (“BassClarinet”)                                     %! IC:EXPLICIT_INSTRUMENT_ALERT:SM11
+        }                                                        %! IC:EXPLICIT_INSTRUMENT_ALERT:SM11
+    \set ClarinetMusicStaff.instrumentName = \markup {           %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+        \hcenter-in                                              %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+            #16                                                  %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+            \center-column                                       %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                {                                                %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                    Bass                                         %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                    clarinet                                     %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                }                                                %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+        }                                                        %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+    \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+        \hcenter-in                                              %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+            #10                                                  %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+            \center-column                                       %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                {                                                %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                    Bass                                         %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                    cl.                                          %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                }                                                %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+        }                                                        %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+    \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! IC:REDRAWN_EXPLICIT_INSTRUMENT_COLOR:SM6
     
     a4
     \repeatTie
@@ -4966,54 +4966,54 @@ B_SaxophoneMusicVoice = {
     \times 6/7 {
         
         % [B SaxophoneMusicVoice measure 84]                     %! SM4
-        \set SaxophoneMusicStaff.instrumentName = \markup {      %! EXPLICIT_INSTRUMENT:SM8
-            \hcenter-in                                          %! EXPLICIT_INSTRUMENT:SM8
-                #16                                              %! EXPLICIT_INSTRUMENT:SM8
-                \center-column                                   %! EXPLICIT_INSTRUMENT:SM8
-                    {                                            %! EXPLICIT_INSTRUMENT:SM8
-                        Sopranino                                %! EXPLICIT_INSTRUMENT:SM8
-                        saxophone                                %! EXPLICIT_INSTRUMENT:SM8
-                    }                                            %! EXPLICIT_INSTRUMENT:SM8
-            }                                                    %! EXPLICIT_INSTRUMENT:SM8
-        \set SaxophoneMusicStaff.shortInstrumentName = \markup { %! EXPLICIT_INSTRUMENT:SM8
-            \hcenter-in                                          %! EXPLICIT_INSTRUMENT:SM8
-                #10                                              %! EXPLICIT_INSTRUMENT:SM8
-                \center-column                                   %! EXPLICIT_INSTRUMENT:SM8
-                    {                                            %! EXPLICIT_INSTRUMENT:SM8
-                        Sopr.                                    %! EXPLICIT_INSTRUMENT:SM8
-                        sax.                                     %! EXPLICIT_INSTRUMENT:SM8
-                    }                                            %! EXPLICIT_INSTRUMENT:SM8
-            }                                                    %! EXPLICIT_INSTRUMENT:SM8
-        \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'blue) %! EXPLICIT_INSTRUMENT_COLOR:SM6
-        \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+        \set SaxophoneMusicStaff.instrumentName = \markup {      %! IC:EXPLICIT_INSTRUMENT:SM8
+            \hcenter-in                                          %! IC:EXPLICIT_INSTRUMENT:SM8
+                #16                                              %! IC:EXPLICIT_INSTRUMENT:SM8
+                \center-column                                   %! IC:EXPLICIT_INSTRUMENT:SM8
+                    {                                            %! IC:EXPLICIT_INSTRUMENT:SM8
+                        Sopranino                                %! IC:EXPLICIT_INSTRUMENT:SM8
+                        saxophone                                %! IC:EXPLICIT_INSTRUMENT:SM8
+                    }                                            %! IC:EXPLICIT_INSTRUMENT:SM8
+            }                                                    %! IC:EXPLICIT_INSTRUMENT:SM8
+        \set SaxophoneMusicStaff.shortInstrumentName = \markup { %! IC:EXPLICIT_INSTRUMENT:SM8
+            \hcenter-in                                          %! IC:EXPLICIT_INSTRUMENT:SM8
+                #10                                              %! IC:EXPLICIT_INSTRUMENT:SM8
+                \center-column                                   %! IC:EXPLICIT_INSTRUMENT:SM8
+                    {                                            %! IC:EXPLICIT_INSTRUMENT:SM8
+                        Sopr.                                    %! IC:EXPLICIT_INSTRUMENT:SM8
+                        sax.                                     %! IC:EXPLICIT_INSTRUMENT:SM8
+                    }                                            %! IC:EXPLICIT_INSTRUMENT:SM8
+            }                                                    %! IC:EXPLICIT_INSTRUMENT:SM8
+        \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'blue) %! IC:EXPLICIT_INSTRUMENT_COLOR:SM6
+        \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! IC:REDUNDANT_DYNAMIC_COLOR:SM6
         a''16
         -\accent                                                 %! IC
-        \fff                                                     %! REDUNDANT_DYNAMIC:SM8
+        \fff                                                     %! IC:REDUNDANT_DYNAMIC:SM8
         [
-        ^ \markup {                                              %! EXPLICIT_INSTRUMENT_ALERT:SM11
-            \with-color                                          %! EXPLICIT_INSTRUMENT_ALERT:SM11
-                #(x11-color 'blue)                               %! EXPLICIT_INSTRUMENT_ALERT:SM11
-                (“SopraninoSaxophone”)                           %! EXPLICIT_INSTRUMENT_ALERT:SM11
-            }                                                    %! EXPLICIT_INSTRUMENT_ALERT:SM11
-        \set SaxophoneMusicStaff.instrumentName = \markup {      %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-            \hcenter-in                                          %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                #16                                              %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                \center-column                                   %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                    {                                            %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                        Sopranino                                %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                        saxophone                                %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                    }                                            %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-            }                                                    %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-        \set SaxophoneMusicStaff.shortInstrumentName = \markup { %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-            \hcenter-in                                          %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                #10                                              %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                \center-column                                   %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                    {                                            %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                        Sopr.                                    %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                        sax.                                     %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-                    }                                            %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-            }                                                    %! REDRAWN_EXPLICIT_INSTRUMENT:SM8
-        \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! REDRAWN_EXPLICIT_INSTRUMENT_COLOR:SM6
+        ^ \markup {                                              %! IC:EXPLICIT_INSTRUMENT_ALERT:SM11
+            \with-color                                          %! IC:EXPLICIT_INSTRUMENT_ALERT:SM11
+                #(x11-color 'blue)                               %! IC:EXPLICIT_INSTRUMENT_ALERT:SM11
+                (“SopraninoSaxophone”)                           %! IC:EXPLICIT_INSTRUMENT_ALERT:SM11
+            }                                                    %! IC:EXPLICIT_INSTRUMENT_ALERT:SM11
+        \set SaxophoneMusicStaff.instrumentName = \markup {      %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+            \hcenter-in                                          %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                #16                                              %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                \center-column                                   %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                    {                                            %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                        Sopranino                                %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                        saxophone                                %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                    }                                            %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+            }                                                    %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+        \set SaxophoneMusicStaff.shortInstrumentName = \markup { %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+            \hcenter-in                                          %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                #10                                              %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                \center-column                                   %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                    {                                            %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                        Sopr.                                    %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                        sax.                                     %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+                    }                                            %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+            }                                                    %! IC:REDRAWN_EXPLICIT_INSTRUMENT:SM8
+        \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! IC:REDRAWN_EXPLICIT_INSTRUMENT_COLOR:SM6
         
         as''16
         
@@ -5980,24 +5980,24 @@ B_SaxophoneMusicVoice = {
     R1 * 3/4
     
     % [B SaxophoneMusicVoice measure 108]                        %! SM4
-    \stopStaff                                                   %! EXPLICIT_STAFF_LINES:SM8
-    \once \override SaxophoneMusicStaff.StaffSymbol.line-count = 1 %! EXPLICIT_STAFF_LINES:SM8
-    \startStaff                                                  %! EXPLICIT_STAFF_LINES:SM8
+    \stopStaff                                                   %! IC:EXPLICIT_STAFF_LINES:SM8
+    \once \override SaxophoneMusicStaff.StaffSymbol.line-count = 1 %! IC:EXPLICIT_STAFF_LINES:SM8
+    \startStaff                                                  %! IC:EXPLICIT_STAFF_LINES:SM8
     \override RepeatTie.direction = #up                          %! OC
-    \set SaxophoneMusicStaff.forceClef = ##t                     %! EXPLICIT_CLEF:SM8
-    \clef "percussion"                                           %! EXPLICIT_CLEF:SM8
-    \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
-%@% \override SaxophoneMusicStaff.Clef.color = ##f               %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
-    \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
-    \once \override SaxophoneMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! EXPLICIT_STAFF_LINES_COLOR:SM6
+    \set SaxophoneMusicStaff.forceClef = ##t                     %! IC:EXPLICIT_CLEF:SM8
+    \clef "percussion"                                           %! IC:EXPLICIT_CLEF:SM8
+    \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'blue) %! IC:EXPLICIT_CLEF_COLOR:SM6
+%@% \override SaxophoneMusicStaff.Clef.color = ##f               %! IC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override SaxophoneMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! IC:EXPLICIT_STAFF_LINES_COLOR:SM6
     c'1
-    \pp                                                          %! EXPLICIT_DYNAMIC:SM8
+    \pp                                                          %! IC:EXPLICIT_DYNAMIC:SM8
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
                 airtone                                          %! IC
         }                                                        %! IC
-    \override SaxophoneMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
+    \override SaxophoneMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! IC:EXPLICIT_CLEF_REDRAW_COLOR:SM6
     
     % [B SaxophoneMusicVoice measure 109]                        %! SM4
     c'1
@@ -6093,10 +6093,10 @@ B_GuitarMusicVoice = {
     R1 * 1
     
     % [B GuitarMusicVoice measure 84]                            %! SM4
-    \once \override GuitarMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override GuitarMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     af''2.
     :32                                                          %! IC
-    \fff                                                         %! EXPLICIT_DYNAMIC:SM8
+    \fff                                                         %! IC:EXPLICIT_DYNAMIC:SM8
     
     % [B GuitarMusicVoice measure 85]                            %! SM4
     af''1
@@ -6413,9 +6413,9 @@ B_PianoMusicVoice = {
     \times 2/3 {
         
         % [B PianoMusicVoice measure 79]                         %! SM4
-        \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+        \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
         e''''8
-        \ffff                                                    %! EXPLICIT_DYNAMIC:SM8
+        \ffff                                                    %! IC:EXPLICIT_DYNAMIC:SM8
         [
         
         c''''8
@@ -6659,10 +6659,10 @@ B_PianoMusicVoice = {
     \times 9/11 {
         
         % [B PianoMusicVoice measure 84]                         %! SM4
-        \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+        \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
         c'''16
         -\accent                                                 %! IC
-        \fff                                                     %! EXPLICIT_DYNAMIC:SM8
+        \fff                                                     %! IC:EXPLICIT_DYNAMIC:SM8
         [
         
         d'''16
@@ -7629,15 +7629,15 @@ B_PercussionMusicVoice = {
     R1 * 3/4
     
     % [B PercussionMusicVoice measure 79]                        %! SM4
-    \set PercussionMusicStaff.forceClef = ##t                    %! EXPLICIT_CLEF:SM8
-    \clef "percussion"                                           %! EXPLICIT_CLEF:SM8
-    \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! EXPLICIT_CLEF_COLOR:SM6
-%@% \override PercussionMusicStaff.Clef.color = ##f              %! EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
-    \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \set PercussionMusicStaff.forceClef = ##t                    %! IC:EXPLICIT_CLEF:SM8
+    \clef "percussion"                                           %! IC:EXPLICIT_CLEF:SM8
+    \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! IC:EXPLICIT_CLEF_COLOR:SM6
+%@% \override PercussionMusicStaff.Clef.color = ##f              %! IC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \makeBlue                                                    %! SM24
     c'1
     :32                                                          %! IC
-    \pp                                                          %! EXPLICIT_DYNAMIC:SM8
+    \pp                                                          %! IC:EXPLICIT_DYNAMIC:SM8
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
@@ -7646,7 +7646,7 @@ B_PercussionMusicVoice = {
                     \box                                         %! IC
                         "bass drum"                              %! IC
         }                                                        %! IC
-    \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! EXPLICIT_CLEF_REDRAW_COLOR:SM6
+    \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! IC:EXPLICIT_CLEF_REDRAW_COLOR:SM6
     
     % [B PercussionMusicVoice measure 80]                        %! SM4
     \makeBlue                                                    %! SM24
@@ -7677,12 +7677,12 @@ B_PercussionMusicVoice = {
     \repeatTie
     
     % [B PercussionMusicVoice measure 84]                        %! SM4
-    \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \makeBlue                                                    %! SM24
     c'4
     -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
-    \fff                                                         %! EXPLICIT_DYNAMIC:SM8
+    \fff                                                         %! IC:EXPLICIT_DYNAMIC:SM8
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
@@ -8046,11 +8046,11 @@ B_PercussionMusicVoice = {
     -\tongue #2                                                  %! IC
     
     % [B PercussionMusicVoice measure 104]                       %! SM4
-    \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \makeBlue                                                    %! SM24
     c'2.
     :32                                                          %! IC
-    \ppp                                                         %! EXPLICIT_DYNAMIC:SM8
+    \ppp                                                         %! IC:EXPLICIT_DYNAMIC:SM8
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
@@ -8158,9 +8158,9 @@ B_ViolinMusicVoice = {
     
     % [B ViolinMusicVoice measure 77]                            %! SM4
     \override NoteHead.style = #'harmonic                        %! OC
-    \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     gff'1.
-    \p                                                           %! EXPLICIT_DYNAMIC:SM8
+    \p                                                           %! IC:EXPLICIT_DYNAMIC:SM8
     \glissando                                                   %! SC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -8174,7 +8174,7 @@ B_ViolinMusicVoice = {
     \times 4/5 {
         
         % [B ViolinMusicVoice measure 79]                        %! SM4
-        \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+        \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
         bff'2.
         \glissando                                               %! SC
         \<
@@ -8212,16 +8212,16 @@ B_ViolinMusicVoice = {
         gff'1
         \glissando                                               %! SC
         
-        \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+        \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
         aff'2.
         \f
         \glissando                                               %! SC
     }
     
     % [B ViolinMusicVoice measure 84]                            %! SM4
-    \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     bff'2.
-    \fff                                                         %! EXPLICIT_DYNAMIC:SM8
+    \fff                                                         %! IC:EXPLICIT_DYNAMIC:SM8
     \glissando                                                   %! SC
     
     % [B ViolinMusicVoice measure 85]                            %! SM4
@@ -8433,9 +8433,9 @@ B_ViolaMusicVoice = {
         
         % [B ViolaMusicVoice measure 77]                         %! SM4
         \override NoteHead.style = #'harmonic                    %! OC
-        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
         gff'1.
-        \p                                                       %! EXPLICIT_DYNAMIC:SM8
+        \p                                                       %! IC:EXPLICIT_DYNAMIC:SM8
         \glissando                                               %! SC
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -8452,7 +8452,7 @@ B_ViolaMusicVoice = {
     \glissando                                                   %! SC
     
     % [B ViolaMusicVoice measure 79]                             %! SM4
-    \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     ff'1
     \glissando                                                   %! SC
     \<
@@ -8484,7 +8484,7 @@ B_ViolaMusicVoice = {
         gff'2.
         \glissando                                               %! SC
         
-        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
         aff'2
         \f
         \glissando                                               %! SC
@@ -8493,9 +8493,9 @@ B_ViolaMusicVoice = {
     \times 3/5 {
         
         % [B ViolaMusicVoice measure 84]                         %! SM4
-        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
         bff'2
-        \fff                                                     %! EXPLICIT_DYNAMIC:SM8
+        \fff                                                     %! IC:EXPLICIT_DYNAMIC:SM8
         \glissando                                               %! SC
         
         af'2.
@@ -8704,9 +8704,9 @@ B_CelloMusicVoice = {
     
     % [B CelloMusicVoice measure 77]                             %! SM4
     \override NoteHead.style = #'harmonic                        %! OC
-    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     gff'1
-    \p                                                           %! EXPLICIT_DYNAMIC:SM8
+    \p                                                           %! IC:EXPLICIT_DYNAMIC:SM8
     \glissando                                                   %! SC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -8725,7 +8725,7 @@ B_CelloMusicVoice = {
     \glissando                                                   %! SC
     
     % [B CelloMusicVoice measure 79]                             %! SM4
-    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     dff'1
     \glissando                                                   %! SC
     \<
@@ -8756,16 +8756,16 @@ B_CelloMusicVoice = {
         gff'1
         \glissando                                               %! SC
         
-        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
         aff'2
         \f
         \glissando                                               %! SC
     }
     
     % [B CelloMusicVoice measure 84]                             %! SM4
-    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     bff'4
-    \fff                                                         %! EXPLICIT_DYNAMIC:SM8
+    \fff                                                         %! IC:EXPLICIT_DYNAMIC:SM8
     \glissando                                                   %! SC
     
     af'2
@@ -8979,9 +8979,9 @@ B_ContrabassMusicVoice = {
     \once \override Dots.color = #red
     \once \override NoteHead.color = #red
     \once \override Stem.color = #red
-    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     <gs,, as,>1.
-    \p                                                           %! EXPLICIT_DYNAMIC:SM8
+    \p                                                           %! IC:EXPLICIT_DYNAMIC:SM8
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     
@@ -9002,7 +9002,7 @@ B_ContrabassMusicVoice = {
     \once \override Dots.color = #red
     \once \override NoteHead.color = #red
     \once \override Stem.color = #red
-    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     <gs,, as,>1
     \<
     \p
@@ -9057,7 +9057,7 @@ B_ContrabassMusicVoice = {
     \once \override Dots.color = #red
     \once \override NoteHead.color = #red
     \once \override Stem.color = #red
-    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     <gs,, as,>1
     \repeatTie
     \f
@@ -9070,9 +9070,9 @@ B_ContrabassMusicVoice = {
     \once \override Dots.color = #red
     \once \override NoteHead.color = #red
     \once \override Stem.color = #red
-    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     <gs,, as,>2.
-    \fff                                                         %! EXPLICIT_DYNAMIC:SM8
+    \fff                                                         %! IC:EXPLICIT_DYNAMIC:SM8
     ^ \markup {
         \column
             {
@@ -9345,10 +9345,10 @@ B_ContrabassMusicVoice = {
     
     % [B ContrabassMusicVoice measure 106]                       %! SM4
     \once \override TrillPitchHead.stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
-    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! EXPLICIT_DYNAMIC_COLOR:SM6
+    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     \pitchedTrill                                                %! SC
     g,,2.
-    \mp                                                          %! EXPLICIT_DYNAMIC:SM8
+    \mp                                                          %! IC:EXPLICIT_DYNAMIC:SM8
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
