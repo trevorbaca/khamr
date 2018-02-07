@@ -40,44 +40,44 @@ class MarimbaHitCommand(baca.Command):
             abjad.attach(
                 baca.StaffLines(5),
                 plt.head,
-                site='MHC',
+                tag='MHC',
                 )
             if self.attach_first_markup and not found_first:
                 string = 'marimba + woodblock'
                 markup = abjad.Markup(string, direction=abjad.Up)
                 markup = markup.box().override(('box-padding', 0.75))
                 markup = markup.larger()
-                abjad.attach(markup, plt.head, site='MHC')
+                abjad.attach(markup, plt.head, tag='MHC')
                 found_first = True
             abjad.detach(abjad.Articulation, plt.head)
             abjad.attach(
                 abjad.Dynamic('sfz'),
                 plt.head,
                 context='Voice',
-                site='MHC',
+                tag='MHC',
                 )
             abjad.attach(
                 abjad.Articulation('marcato'),
                 plt.head,
-                site='MHC',
+                tag='MHC',
                 )
             abjad.detach(abjad.Clef, plt.head)
             abjad.attach(
                 abjad.Clef('treble'),
                 plt.head,
-                site='MHC',
+                tag='MHC',
                 )
             next_leaf = abjad.inspect(plt.tail).get_leaf(1)
             if next_leaf is not None:
                 abjad.attach(
                     baca.StaffLines(1),
                     next_leaf,
-                    site='MHC',
+                    tag='MHC',
                     )
                 abjad.attach(
                     abjad.Clef('percussion'),
                     next_leaf,
-                    site='MHC',
+                    tag='MHC',
                     )
 
     ### PUBLIC PROPERTIES ###
