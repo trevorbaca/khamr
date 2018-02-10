@@ -1536,6 +1536,12 @@ A_FluteMusicVoice = {
 }
 
 
+A_FluteMusicStaff = {
+    \context FluteMusicVoice = "FluteMusicVoice"
+    \A_FluteMusicVoice
+}
+
+
 A_OboeMusicVoice = {
     
     % [A OboeMusicVoice measure 45]                              %! SM4
@@ -1720,6 +1726,12 @@ A_OboeMusicVoice = {
     ds'2.
     \repeatTie
     
+}
+
+
+A_OboeMusicStaff = {
+    \context OboeMusicVoice = "OboeMusicVoice"
+    \A_OboeMusicVoice
 }
 
 
@@ -1921,6 +1933,12 @@ A_ClarinetMusicVoice = {
 }
 
 
+A_ClarinetMusicStaff = {
+    \context ClarinetMusicVoice = "ClarinetMusicVoice"
+    \A_ClarinetMusicVoice
+}
+
+
 A_SaxophoneMusicVoice = {
     
     % [A SaxophoneMusicVoice measure 45]                         %! SM4
@@ -2102,6 +2120,12 @@ A_SaxophoneMusicVoice = {
     es'2.
     \repeatTie
     
+}
+
+
+A_SaxophoneMusicStaff = {
+    \context SaxophoneMusicVoice = "SaxophoneMusicVoice"
+    \A_SaxophoneMusicVoice
 }
 
 
@@ -2329,6 +2353,12 @@ A_GuitarMusicVoice = {
     g2.
     \repeatTie
     
+}
+
+
+A_GuitarMusicStaff = {
+    \context GuitarMusicVoice = "GuitarMusicVoice"
+    \A_GuitarMusicVoice
 }
 
 
@@ -2647,6 +2677,12 @@ A_PianoMusicVoice = {
         \ottava #0                                               %! SC
         
     }
+}
+
+
+A_PianoMusicStaff = {
+    \context PianoMusicVoice = "PianoMusicVoice"
+    \A_PianoMusicVoice
 }
 
 
@@ -3221,6 +3257,12 @@ A_PercussionMusicVoice = {
 }
 
 
+A_PercussionMusicStaff = {
+    \context PercussionMusicVoice = "PercussionMusicVoice"
+    \A_PercussionMusicVoice
+}
+
+
 A_ViolinMusicVoice = {
     
     % [A ViolinMusicVoice measure 45]                            %! SM4
@@ -3623,6 +3665,12 @@ A_ViolinMusicVoice = {
 }
 
 
+A_ViolinMusicStaff = {
+    \context ViolinMusicVoice = "ViolinMusicVoice"
+    \A_ViolinMusicVoice
+}
+
+
 A_ViolaMusicVoice = {
     
     % [A ViolaMusicVoice measure 45]                             %! SM4
@@ -3966,6 +4014,12 @@ A_ViolaMusicVoice = {
 }
 
 
+A_ViolaMusicStaff = {
+    \context ViolaMusicVoice = "ViolaMusicVoice"
+    \A_ViolaMusicVoice
+}
+
+
 A_CelloMusicVoice = {
     
     % [A CelloMusicVoice measure 45]                             %! SM4
@@ -4229,6 +4283,12 @@ A_CelloMusicVoice = {
 }
 
 
+A_CelloMusicStaff = {
+    \context CelloMusicVoice = "CelloMusicVoice"
+    \A_CelloMusicVoice
+}
+
+
 A_ContrabassMusicVoice = {
     
     % [A ContrabassMusicVoice measure 45]                        %! SM4
@@ -4437,4 +4497,10 @@ A_ContrabassMusicVoice = {
     <g,, a,>2.
     \repeatTie
     
+}
+
+
+A_ContrabassMusicStaff = {
+    \context ContrabassMusicVoice = "ContrabassMusicVoice"
+    \A_ContrabassMusicVoice
 }
