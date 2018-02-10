@@ -2665,6 +2665,12 @@ B_FluteMusicVoice = {
 }
 
 
+B_FluteMusicStaff = {
+    \context FluteMusicVoice = "FluteMusicVoice"
+    \B_FluteMusicVoice
+}
+
+
 B_OboeMusicVoice = {
     
     % [B OboeMusicVoice measure 75]                              %! SM4
@@ -3863,6 +3869,12 @@ B_OboeMusicVoice = {
 }
 
 
+B_OboeMusicStaff = {
+    \context OboeMusicVoice = "OboeMusicVoice"
+    \B_OboeMusicVoice
+}
+
+
 B_ClarinetMusicVoice = {
     
     % [B ClarinetMusicVoice measure 75]                          %! SM4
@@ -4880,6 +4892,12 @@ B_ClarinetMusicVoice = {
     % [B ClarinetMusicVoice measure 111]                         %! SM4
     r2.
     
+}
+
+
+B_ClarinetMusicStaff = {
+    \context ClarinetMusicVoice = "ClarinetMusicVoice"
+    \B_ClarinetMusicVoice
 }
 
 
@@ -6028,6 +6046,12 @@ B_SaxophoneMusicVoice = {
 }
 
 
+B_SaxophoneMusicStaff = {
+    \context SaxophoneMusicVoice = "SaxophoneMusicVoice"
+    \B_SaxophoneMusicVoice
+}
+
+
 B_GuitarMusicVoice = {
     
     % [B GuitarMusicVoice measure 75]                            %! SM4
@@ -6225,6 +6249,12 @@ B_GuitarMusicVoice = {
     % [B GuitarMusicVoice measure 111]                           %! SM4
     R1 * 3/4
     
+}
+
+
+B_GuitarMusicStaff = {
+    \context GuitarMusicVoice = "GuitarMusicVoice"
+    \B_GuitarMusicVoice
 }
 
 
@@ -7576,6 +7606,12 @@ B_PianoMusicVoice = {
 }
 
 
+B_PianoMusicStaff = {
+    \context PianoMusicVoice = "PianoMusicVoice"
+    \B_PianoMusicVoice
+}
+
+
 B_PercussionMusicVoice = {
     
     % [B PercussionMusicVoice measure 75]                        %! SM4
@@ -8113,6 +8149,12 @@ B_PercussionMusicVoice = {
 }
 
 
+B_PercussionMusicStaff = {
+    \context PercussionMusicVoice = "PercussionMusicVoice"
+    \B_PercussionMusicVoice
+}
+
+
 B_ViolinMusicVoice = {
     
     % [B ViolinMusicVoice measure 75]                            %! SM4
@@ -8383,6 +8425,12 @@ B_ViolinMusicVoice = {
     % [B ViolinMusicVoice measure 111]                           %! SM4
     R1 * 3/4
     
+}
+
+
+B_ViolinMusicStaff = {
+    \context ViolinMusicVoice = "ViolinMusicVoice"
+    \B_ViolinMusicVoice
 }
 
 
@@ -8659,6 +8707,12 @@ B_ViolaMusicVoice = {
 }
 
 
+B_ViolaMusicStaff = {
+    \context ViolaMusicVoice = "ViolaMusicVoice"
+    \B_ViolaMusicVoice
+}
+
+
 B_CelloMusicVoice = {
     
     % [B CelloMusicVoice measure 75]                             %! SM4
@@ -8927,6 +8981,12 @@ B_CelloMusicVoice = {
     % [B CelloMusicVoice measure 111]                            %! SM4
     R1 * 3/4
     
+}
+
+
+B_CelloMusicStaff = {
+    \context CelloMusicVoice = "CelloMusicVoice"
+    \B_CelloMusicVoice
 }
 
 
@@ -9382,4 +9442,10 @@ B_ContrabassMusicVoice = {
     r2.
     \stopTrillSpan                                               %! SC
     
+}
+
+
+B_ContrabassMusicStaff = {
+    \context ContrabassMusicVoice = "ContrabassMusicVoice"
+    \B_ContrabassMusicVoice
 }

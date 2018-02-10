@@ -2043,6 +2043,12 @@ i_FluteMusicVoice = {
 }
 
 
+i_FluteMusicStaff = {
+    \context FluteMusicVoice = "FluteMusicVoice"
+    \i_FluteMusicVoice
+}
+
+
 i_OboeMusicVoice = {
     
     % [_ OboeMusicVoice measure 1]                               %! SM4
@@ -2351,6 +2357,12 @@ i_OboeMusicVoice = {
 }
 
 
+i_OboeMusicStaff = {
+    \context OboeMusicVoice = "OboeMusicVoice"
+    \i_OboeMusicVoice
+}
+
+
 i_ClarinetMusicVoice = {
     
     % [_ ClarinetMusicVoice measure 1]                           %! SM4
@@ -2647,6 +2659,12 @@ i_ClarinetMusicVoice = {
 }
 
 
+i_ClarinetMusicStaff = {
+    \context ClarinetMusicVoice = "ClarinetMusicVoice"
+    \i_ClarinetMusicVoice
+}
+
+
 i_SaxophoneMusicVoice = {
     
     % [_ SaxophoneMusicVoice measure 1]                          %! SM4
@@ -2932,6 +2950,12 @@ i_SaxophoneMusicVoice = {
     
     r8
     
+}
+
+
+i_SaxophoneMusicStaff = {
+    \context SaxophoneMusicVoice = "SaxophoneMusicVoice"
+    \i_SaxophoneMusicVoice
 }
 
 
@@ -3851,6 +3875,12 @@ i_GuitarMusicVoice = {
 }
 
 
+i_GuitarMusicStaff = {
+    \context GuitarMusicVoice = "GuitarMusicVoice"
+    \i_GuitarMusicVoice
+}
+
+
 i_PianoMusicVoice = {
     
     % [_ PianoMusicVoice measure 1]                              %! SM4
@@ -4452,6 +4482,12 @@ i_PianoMusicVoice = {
     \repeatTie
     \revert RepeatTie.direction                                  %! OC
     
+}
+
+
+i_PianoMusicStaff = {
+    \context PianoMusicVoice = "PianoMusicVoice"
+    \i_PianoMusicVoice
 }
 
 
@@ -5123,6 +5159,12 @@ i_PercussionMusicVoice = {
 }
 
 
+i_PercussionMusicStaff = {
+    \context PercussionMusicVoice = "PercussionMusicVoice"
+    \i_PercussionMusicVoice
+}
+
+
 i_ViolinMusicVoice = {
     
     % [_ ViolinMusicVoice measure 1]                             %! SM4
@@ -5678,6 +5720,12 @@ i_ViolinMusicVoice = {
 }
 
 
+i_ViolinMusicStaff = {
+    \context ViolinMusicVoice = "ViolinMusicVoice"
+    \i_ViolinMusicVoice
+}
+
+
 i_ViolaMusicVoice = {
     
     % [_ ViolaMusicVoice measure 1]                              %! SM4
@@ -6185,6 +6233,12 @@ i_ViolaMusicVoice = {
 }
 
 
+i_ViolaMusicStaff = {
+    \context ViolaMusicVoice = "ViolaMusicVoice"
+    \i_ViolaMusicVoice
+}
+
+
 i_CelloMusicVoice = {
     
     % [_ CelloMusicVoice measure 1]                              %! SM4
@@ -6683,6 +6737,12 @@ i_CelloMusicVoice = {
 }
 
 
+i_CelloMusicStaff = {
+    \context CelloMusicVoice = "CelloMusicVoice"
+    \i_CelloMusicVoice
+}
+
+
 i_ContrabassMusicVoice = {
     
     % [_ ContrabassMusicVoice measure 1]                         %! SM4
@@ -7088,4 +7148,10 @@ i_ContrabassMusicVoice = {
     \pp
     \revert NoteHead.style                                       %! OC
     
+}
+
+
+i_ContrabassMusicStaff = {
+    \context ContrabassMusicVoice = "ContrabassMusicVoice"
+    \i_ContrabassMusicVoice
 }
