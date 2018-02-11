@@ -6283,9 +6283,9 @@ B_PianoMusicVoice = {
     %@% \override PianoMusicStaff.Clef.color = ##f               %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
         \once \override PianoMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
         \once \override PianoMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
-        \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! REDUNDANT_DYNAMIC_COLOR:SM6
+        \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! IC:REDUNDANT_DYNAMIC_COLOR:SM6
         df''''16
-        \fff                                                     %! REDUNDANT_DYNAMIC:SM8
+        \fff                                                     %! IC:REDUNDANT_DYNAMIC:SM8
         [
         ^ \markup {                                              %! REAPPLIED_INSTRUMENT_ALERT:SM11
             \with-color                                          %! REAPPLIED_INSTRUMENT_ALERT:SM11
