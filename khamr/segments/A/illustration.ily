@@ -1313,10 +1313,10 @@ A_FluteMusicVoice = {
                     fl.                                          %! REAPPLIED_INSTRUMENT:SM8
                 }                                                %! REAPPLIED_INSTRUMENT:SM8
         }                                                        %! REAPPLIED_INSTRUMENT:SM8
-    \set FluteMusicStaff.forceClef = ##t                         %! REAPPLIED_CLEF:SM8
     \clef "treble"                                               %! REAPPLIED_CLEF:SM8
     \once \override FluteMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override FluteMusicStaff.Clef.color = ##f                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set FluteMusicStaff.forceClef = ##t                         %! REAPPLIED_CLEF:SM8
     \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC:EXPLICIT_DYNAMIC_COLOR:SM6
     bf''2
@@ -1566,10 +1566,10 @@ A_OboeMusicVoice = {
                     hn.                                          %! REAPPLIED_INSTRUMENT:SM8
                 }                                                %! REAPPLIED_INSTRUMENT:SM8
         }                                                        %! REAPPLIED_INSTRUMENT:SM8
-    \set OboeMusicStaff.forceClef = ##t                          %! REAPPLIED_CLEF:SM8
     \clef "treble"                                               %! REAPPLIED_CLEF:SM8
     \once \override OboeMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override OboeMusicStaff.Clef.color = ##f                    %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set OboeMusicStaff.forceClef = ##t                          %! REAPPLIED_CLEF:SM8
     \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
     \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
     \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
@@ -1756,10 +1756,10 @@ A_ClarinetMusicVoice = {
                     cl.                                          %! REAPPLIED_INSTRUMENT:SM8
                 }                                                %! REAPPLIED_INSTRUMENT:SM8
         }                                                        %! REAPPLIED_INSTRUMENT:SM8
-    \set ClarinetMusicStaff.forceClef = ##t                      %! REAPPLIED_CLEF:SM8
     \clef "treble"                                               %! REAPPLIED_CLEF:SM8
     \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override ClarinetMusicStaff.Clef.color = ##f                %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set ClarinetMusicStaff.forceClef = ##t                      %! REAPPLIED_CLEF:SM8
     \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
     a2
@@ -1960,10 +1960,10 @@ A_SaxophoneMusicVoice = {
                     sax.                                         %! REAPPLIED_INSTRUMENT:SM8
                 }                                                %! REAPPLIED_INSTRUMENT:SM8
         }                                                        %! REAPPLIED_INSTRUMENT:SM8
-    \set SaxophoneMusicStaff.forceClef = ##t                     %! REAPPLIED_CLEF:SM8
     \clef "treble"                                               %! REAPPLIED_CLEF:SM8
     \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override SaxophoneMusicStaff.Clef.color = ##f               %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set SaxophoneMusicStaff.forceClef = ##t                     %! REAPPLIED_CLEF:SM8
     \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
     \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
     <d'' eqs''>2
@@ -2143,10 +2143,10 @@ A_GuitarMusicVoice = {
                 #10                                              %! REAPPLIED_INSTRUMENT:SM8
                 Gt.                                              %! REAPPLIED_INSTRUMENT:SM8
             }                                                    %! REAPPLIED_INSTRUMENT:SM8
-        \set GuitarMusicStaff.forceClef = ##t                    %! REAPPLIED_CLEF:SM8
         \clef "treble"                                           %! REAPPLIED_CLEF:SM8
         \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
     %@% \override GuitarMusicStaff.Clef.color = ##f              %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+        \set GuitarMusicStaff.forceClef = ##t                    %! REAPPLIED_CLEF:SM8
         \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
         \once \override GuitarMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
         r8
@@ -2379,10 +2379,10 @@ A_PianoMusicVoice = {
             #10                                                  %! REAPPLIED_INSTRUMENT:SM8
             Pf.                                                  %! REAPPLIED_INSTRUMENT:SM8
         }                                                        %! REAPPLIED_INSTRUMENT:SM8
-    \set PianoMusicStaff.forceClef = ##t                         %! REAPPLIED_CLEF:SM8
     \clef "percussion"                                           %! REAPPLIED_CLEF:SM8
     \once \override PianoMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override PianoMusicStaff.Clef.color = ##f                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set PianoMusicStaff.forceClef = ##t                         %! REAPPLIED_CLEF:SM8
     \once \override PianoMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
     \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
     \once \override PianoMusicStaff.StaffSymbol.color = #(x11-color 'DeepPink1) %! IC:REDUNDANT_STAFF_LINES_COLOR:SM6
@@ -2466,10 +2466,10 @@ A_PianoMusicVoice = {
     
     % [A PianoMusicVoice measure 59]                             %! SM4
     \ottava #-1                                                  %! SC
-    \set PianoMusicStaff.forceClef = ##t                         %! IC:EXPLICIT_CLEF:SM8
     \clef "bass"                                                 %! IC:EXPLICIT_CLEF:SM8
     \once \override PianoMusicStaff.Clef.color = #(x11-color 'blue) %! IC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PianoMusicStaff.Clef.color = ##f                   %! IC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PianoMusicStaff.forceClef = ##t                         %! IC:EXPLICIT_CLEF:SM8
     \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1.
     :32                                                          %! IC
@@ -2518,10 +2518,10 @@ A_PianoMusicVoice = {
     r1.
     
     % [A PianoMusicVoice measure 65]                             %! SM4
-    \set PianoMusicStaff.forceClef = ##t                         %! IC:EXPLICIT_CLEF:SM8
     \clef "treble"                                               %! IC:EXPLICIT_CLEF:SM8
     \once \override PianoMusicStaff.Clef.color = #(x11-color 'blue) %! IC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PianoMusicStaff.Clef.color = ##f                   %! IC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PianoMusicStaff.forceClef = ##t                         %! IC:EXPLICIT_CLEF:SM8
     r4
     \override PianoMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! IC:EXPLICIT_CLEF_REDRAW_COLOR:SM6
     \times 2/3 {
@@ -2708,10 +2708,10 @@ A_PercussionMusicVoice = {
             #10                                                  %! REAPPLIED_INSTRUMENT:SM8
             Perc.                                                %! REAPPLIED_INSTRUMENT:SM8
         }                                                        %! REAPPLIED_INSTRUMENT:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! REAPPLIED_CLEF:SM8
     \clef "percussion"                                           %! REAPPLIED_CLEF:SM8
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! REAPPLIED_CLEF:SM8
     \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! REAPPLIED_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
@@ -2847,12 +2847,12 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 5 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "treble"                                               %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! MHC:EXPLICIT_DYNAMIC_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     af''2
     -\marcato                                                    %! MHC
     \sfz                                                         %! MHC:EXPLICIT_DYNAMIC:SM8
@@ -2865,11 +2865,11 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 1 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "percussion"                                           %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     c'4
     -\accent                                                     %! IC
     \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! MHC:EXPLICIT_CLEF_REDRAW_COLOR:SM6
@@ -2902,12 +2902,12 @@ A_PercussionMusicVoice = {
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 5 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
     \override Stem.direction = #down                             %! OC
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "treble"                                               %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! MHC:EXPLICIT_DYNAMIC_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     af''4
     -\marcato                                                    %! MHC
     \sfz                                                         %! MHC:EXPLICIT_DYNAMIC:SM8
@@ -2916,11 +2916,11 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 1 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "percussion"                                           %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     r4
     \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! MHC:EXPLICIT_CLEF_REDRAW_COLOR:SM6
     
@@ -2933,12 +2933,12 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 5 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "treble"                                               %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! MHC:EXPLICIT_DYNAMIC_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     af''4.
     -\marcato                                                    %! MHC
     \sfz                                                         %! MHC:EXPLICIT_DYNAMIC:SM8
@@ -2947,11 +2947,11 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 1 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "percussion"                                           %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     r4.
     \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! MHC:EXPLICIT_CLEF_REDRAW_COLOR:SM6
     
@@ -2962,12 +2962,12 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 5 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "treble"                                               %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! MHC:EXPLICIT_DYNAMIC_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     af''4.
     -\marcato                                                    %! MHC
     \sfz                                                         %! MHC:EXPLICIT_DYNAMIC:SM8
@@ -2976,11 +2976,11 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 1 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "percussion"                                           %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     r4.
     \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! MHC:EXPLICIT_CLEF_REDRAW_COLOR:SM6
     
@@ -2992,12 +2992,12 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 5 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "treble"                                               %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! MHC:EXPLICIT_DYNAMIC_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     af''4
     -\marcato                                                    %! MHC
     \sfz                                                         %! MHC:EXPLICIT_DYNAMIC:SM8
@@ -3007,23 +3007,23 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 1 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "percussion"                                           %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     r4
     \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! MHC:EXPLICIT_CLEF_REDRAW_COLOR:SM6
     
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 5 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "treble"                                               %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! MHC:EXPLICIT_DYNAMIC_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     af''4
     -\marcato                                                    %! MHC
     \sfz                                                         %! MHC:EXPLICIT_DYNAMIC:SM8
@@ -3033,11 +3033,11 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 1 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "percussion"                                           %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     r4
     \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! MHC:EXPLICIT_CLEF_REDRAW_COLOR:SM6
     
@@ -3046,12 +3046,12 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 5 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "treble"                                               %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! MHC:EXPLICIT_DYNAMIC_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     af''4
     -\marcato                                                    %! MHC
     \sfz                                                         %! MHC:EXPLICIT_DYNAMIC:SM8
@@ -3061,11 +3061,11 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 1 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "percussion"                                           %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     r4
     \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! MHC:EXPLICIT_CLEF_REDRAW_COLOR:SM6
     
@@ -3076,12 +3076,12 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 5 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "treble"                                               %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! MHC:EXPLICIT_DYNAMIC_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     af''4
     -\marcato                                                    %! MHC
     \sfz                                                         %! MHC:EXPLICIT_DYNAMIC:SM8
@@ -3091,23 +3091,23 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 1 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "percussion"                                           %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     r4
     \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! MHC:EXPLICIT_CLEF_REDRAW_COLOR:SM6
     
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 5 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "treble"                                               %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! MHC:EXPLICIT_DYNAMIC_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     af''4
     -\marcato                                                    %! MHC
     \sfz                                                         %! MHC:EXPLICIT_DYNAMIC:SM8
@@ -3117,23 +3117,23 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 1 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "percussion"                                           %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     r4
     \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! MHC:EXPLICIT_CLEF_REDRAW_COLOR:SM6
     
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 5 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "treble"                                               %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! MHC:EXPLICIT_DYNAMIC_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     af''4
     -\marcato                                                    %! MHC
     \sfz                                                         %! MHC:EXPLICIT_DYNAMIC:SM8
@@ -3143,11 +3143,11 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 1 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "percussion"                                           %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     r4.
     \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! MHC:EXPLICIT_CLEF_REDRAW_COLOR:SM6
     
@@ -3158,12 +3158,12 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 5 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "treble"                                               %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! MHC:EXPLICIT_DYNAMIC_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     af''4.
     -\marcato                                                    %! MHC
     \sfz                                                         %! MHC:EXPLICIT_DYNAMIC:SM8
@@ -3173,11 +3173,11 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 1 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "percussion"                                           %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     r4
     \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! MHC:EXPLICIT_CLEF_REDRAW_COLOR:SM6
     
@@ -3188,12 +3188,12 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 5 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "treble"                                               %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! MHC:EXPLICIT_DYNAMIC_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     af''4
     -\marcato                                                    %! MHC
     \sfz                                                         %! MHC:EXPLICIT_DYNAMIC:SM8
@@ -3203,11 +3203,11 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 1 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "percussion"                                           %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     r4
     \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! MHC:EXPLICIT_CLEF_REDRAW_COLOR:SM6
     
@@ -3216,12 +3216,12 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 5 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "treble"                                               %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! MHC:EXPLICIT_DYNAMIC_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     af''4
     -\marcato                                                    %! MHC
     \sfz                                                         %! MHC:EXPLICIT_DYNAMIC:SM8
@@ -3231,23 +3231,23 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 1 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "percussion"                                           %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     r4.
     \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! MHC:EXPLICIT_CLEF_REDRAW_COLOR:SM6
     
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 5 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     \clef "treble"                                               %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! MHC:EXPLICIT_DYNAMIC_COLOR:SM6
     \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! MHC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PercussionMusicStaff.Clef.color = ##f              %! MHC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
+    \set PercussionMusicStaff.forceClef = ##t                    %! MHC:EXPLICIT_CLEF:SM8
     af''4.
     -\marcato                                                    %! MHC
     \sfz                                                         %! MHC:EXPLICIT_DYNAMIC:SM8
@@ -3276,10 +3276,10 @@ A_ViolinMusicVoice = {
             #10                                                  %! REAPPLIED_INSTRUMENT:SM8
             Vn.                                                  %! REAPPLIED_INSTRUMENT:SM8
         }                                                        %! REAPPLIED_INSTRUMENT:SM8
-    \set ViolinMusicStaff.forceClef = ##t                        %! REAPPLIED_CLEF:SM8
     \clef "treble"                                               %! REAPPLIED_CLEF:SM8
     \once \override ViolinMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override ViolinMusicStaff.Clef.color = ##f                  %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set ViolinMusicStaff.forceClef = ##t                        %! REAPPLIED_CLEF:SM8
     \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
     \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
     \pitchedTrill                                                %! SC
@@ -3684,10 +3684,10 @@ A_ViolaMusicVoice = {
             #10                                                  %! REAPPLIED_INSTRUMENT:SM8
             Va.                                                  %! REAPPLIED_INSTRUMENT:SM8
         }                                                        %! REAPPLIED_INSTRUMENT:SM8
-    \set ViolaMusicStaff.forceClef = ##t                         %! REAPPLIED_CLEF:SM8
     \clef "alto"                                                 %! REAPPLIED_CLEF:SM8
     \once \override ViolaMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override ViolaMusicStaff.Clef.color = ##f                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set ViolaMusicStaff.forceClef = ##t                         %! REAPPLIED_CLEF:SM8
     \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
     \pitchedTrill                                                %! SC
@@ -4033,10 +4033,10 @@ A_CelloMusicVoice = {
             #10                                                  %! REAPPLIED_INSTRUMENT:SM8
             Vc.                                                  %! REAPPLIED_INSTRUMENT:SM8
         }                                                        %! REAPPLIED_INSTRUMENT:SM8
-    \set CelloMusicStaff.forceClef = ##t                         %! REAPPLIED_CLEF:SM8
     \clef "bass"                                                 %! REAPPLIED_CLEF:SM8
     \once \override CelloMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override CelloMusicStaff.Clef.color = ##f                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set CelloMusicStaff.forceClef = ##t                         %! REAPPLIED_CLEF:SM8
     \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'green4) %! REAPPLIED_DYNAMIC_COLOR:SM6
     \pitchedTrill                                                %! SC
@@ -4303,10 +4303,10 @@ A_ContrabassMusicVoice = {
             #10                                                  %! REAPPLIED_INSTRUMENT:SM8
             Cb.                                                  %! REAPPLIED_INSTRUMENT:SM8
         }                                                        %! REAPPLIED_INSTRUMENT:SM8
-    \set ContrabassMusicStaff.forceClef = ##t                    %! REAPPLIED_CLEF:SM8
     \clef "bass"                                                 %! REAPPLIED_CLEF:SM8
     \once \override ContrabassMusicStaff.Clef.color = #(x11-color 'green4) %! REAPPLIED_CLEF_COLOR:SM6
 %@% \override ContrabassMusicStaff.Clef.color = ##f              %! REAPPLIED_CLEF_COLOR_CANCELLATION:SM7
+    \set ContrabassMusicStaff.forceClef = ##t                    %! REAPPLIED_CLEF:SM8
     \once \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_INSTRUMENT_COLOR:SM6
     \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     <g, a>2
