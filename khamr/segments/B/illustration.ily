@@ -3843,7 +3843,7 @@ B_OboeMusicVoice = {
     % [B OboeMusicVoice measure 110]                             %! SM4
     r2
     
-    \override RepeatTie.direction = #up                          %! OC
+    \override RepeatTie.direction = #up                          %! OC1
     \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     c'2.
     \pp                                                          %! IC:EXPLICIT_DYNAMIC:SM8
@@ -3862,7 +3862,7 @@ B_OboeMusicVoice = {
     
     c'16
     \repeatTie
-    \revert RepeatTie.direction                                  %! OC
+    \revert RepeatTie.direction                                  %! OC2
     
     r16
     
@@ -6001,7 +6001,7 @@ B_SaxophoneMusicVoice = {
     \stopStaff                                                   %! IC:EXPLICIT_STAFF_LINES:SM8
     \once \override SaxophoneMusicStaff.StaffSymbol.line-count = 1 %! IC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! IC:EXPLICIT_STAFF_LINES:SM8
-    \override RepeatTie.direction = #up                          %! OC
+    \override RepeatTie.direction = #up                          %! OC1
     \clef "percussion"                                           %! IC:EXPLICIT_CLEF:SM8
     \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'blue) %! IC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override SaxophoneMusicStaff.Clef.color = ##f               %! IC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
@@ -6039,7 +6039,7 @@ B_SaxophoneMusicVoice = {
     
     c'16
     \repeatTie
-    \revert RepeatTie.direction                                  %! OC
+    \revert RepeatTie.direction                                  %! OC2
     
     r16
     
@@ -8199,7 +8199,7 @@ B_ViolinMusicVoice = {
     \repeatTie
     
     % [B ViolinMusicVoice measure 77]                            %! SM4
-    \override NoteHead.style = #'harmonic                        %! OC
+    \override NoteHead.style = #'harmonic                        %! OC1
     \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     gff'1.
     \p                                                           %! IC:EXPLICIT_DYNAMIC:SM8
@@ -8398,7 +8398,7 @@ B_ViolinMusicVoice = {
         \glissando                                               %! SC
         
         ff'2
-        \revert NoteHead.style                                   %! OC
+        \revert NoteHead.style                                   %! OC2
     }
     
     % [B ViolinMusicVoice measure 104]                           %! SM4
@@ -8480,7 +8480,7 @@ B_ViolaMusicVoice = {
     \times 3/5 {
         
         % [B ViolaMusicVoice measure 77]                         %! SM4
-        \override NoteHead.style = #'harmonic                    %! OC
+        \override NoteHead.style = #'harmonic                    %! OC1
         \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
         gff'1.
         \p                                                       %! IC:EXPLICIT_DYNAMIC:SM8
@@ -8678,7 +8678,7 @@ B_ViolaMusicVoice = {
     \glissando                                                   %! SC
     
     ff'4
-    \revert NoteHead.style                                       %! OC
+    \revert NoteHead.style                                       %! OC2
     
     % [B ViolaMusicVoice measure 104]                            %! SM4
     R1 * 3/4
@@ -8757,7 +8757,7 @@ B_CelloMusicVoice = {
     \repeatTie
     
     % [B CelloMusicVoice measure 77]                             %! SM4
-    \override NoteHead.style = #'harmonic                        %! OC
+    \override NoteHead.style = #'harmonic                        %! OC1
     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
     gff'1
     \p                                                           %! IC:EXPLICIT_DYNAMIC:SM8
@@ -8955,7 +8955,7 @@ B_CelloMusicVoice = {
     
     % [B CelloMusicVoice measure 103]                            %! SM4
     ff'2.
-    \revert NoteHead.style                                       %! OC
+    \revert NoteHead.style                                       %! OC2
     
     % [B CelloMusicVoice measure 104]                            %! SM4
     R1 * 3/4

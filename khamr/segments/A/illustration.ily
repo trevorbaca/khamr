@@ -2169,7 +2169,7 @@ A_GuitarMusicVoice = {
                 Gt.                                              %! SM37:SM34:REDRAWN_REAPPLIED_INSTRUMENT:SM8
             }                                                    %! SM37:SM34:REDRAWN_REAPPLIED_INSTRUMENT:SM8
         
-        \override NoteHead.style = #'cross                       %! OC
+        \override NoteHead.style = #'cross                       %! OC1
         d''8
         
         r8
@@ -2201,7 +2201,7 @@ A_GuitarMusicVoice = {
         r8
         
         g''8
-        \revert NoteHead.style                                   %! OC
+        \revert NoteHead.style                                   %! OC2
         
         r8
     }
@@ -2368,7 +2368,7 @@ A_PianoMusicVoice = {
     \stopStaff                                                   %! IC:REDUNDANT_STAFF_LINES:SM8
     \once \override PianoMusicStaff.StaffSymbol.line-count = 1   %! IC:REDUNDANT_STAFF_LINES:SM8
     \startStaff                                                  %! IC:REDUNDANT_STAFF_LINES:SM8
-    \override RepeatTie.direction = #up                          %! OC
+    \override RepeatTie.direction = #up                          %! OC1
     \set PianoMusicStaff.instrumentName = \markup {              %! SM37:REAPPLIED_INSTRUMENT:SM8
         \hcenter-in                                              %! SM37:REAPPLIED_INSTRUMENT:SM8
             #16                                                  %! SM37:REAPPLIED_INSTRUMENT:SM8
@@ -2459,7 +2459,7 @@ A_PianoMusicVoice = {
     % [A PianoMusicVoice measure 57]                             %! SM4
     c'2.
     \repeatTie
-    \revert RepeatTie.direction                                  %! OC
+    \revert RepeatTie.direction                                  %! OC2
     
     % [A PianoMusicVoice measure 58]                             %! SM4
     r2
@@ -2692,7 +2692,7 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! SM37:REAPPLIED_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 1 %! SM37:REAPPLIED_STAFF_LINES:SM8
     \startStaff                                                  %! SM37:REAPPLIED_STAFF_LINES:SM8
-    \override Stem.direction = #down                             %! OC
+    \override Stem.direction = #down                             %! OC1
     \once \override Accidental.color = #red
     \once \override Beam.color = #red
     \once \override Dots.color = #red
@@ -2892,7 +2892,7 @@ A_PercussionMusicVoice = {
     % [A PercussionMusicVoice measure 58]                        %! SM4
     c'2
     \repeatTie
-    \revert Stem.direction                                       %! OC
+    \revert Stem.direction                                       %! OC2
     
     % [A PercussionMusicVoice measure 59]                        %! SM4
     r1.
@@ -2901,7 +2901,7 @@ A_PercussionMusicVoice = {
     \stopStaff                                                   %! MHC:EXPLICIT_STAFF_LINES:SM8
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 5 %! MHC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! MHC:EXPLICIT_STAFF_LINES:SM8
-    \override Stem.direction = #down                             %! OC
+    \override Stem.direction = #down                             %! OC1
     \clef "treble"                                               %! MHC:EXPLICIT_CLEF:SM8
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! MHC:EXPLICIT_STAFF_LINES_COLOR:SM6
     \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! MHC:EXPLICIT_DYNAMIC_COLOR:SM6
@@ -3251,7 +3251,7 @@ A_PercussionMusicVoice = {
     af''4.
     -\marcato                                                    %! MHC
     \sfz                                                         %! MHC:EXPLICIT_DYNAMIC:SM8
-    \revert Stem.direction                                       %! OC
+    \revert Stem.direction                                       %! OC2
     \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! MHC:EXPLICIT_CLEF_REDRAW_COLOR:SM6
     
 }
@@ -4292,7 +4292,7 @@ A_CelloMusicStaff = {
 A_ContrabassMusicVoice = {
     
     % [A ContrabassMusicVoice measure 45]                        %! SM4
-    \override NoteHead.style = #'harmonic                        %! OC
+    \override NoteHead.style = #'harmonic                        %! OC1
     \set ContrabassMusicStaff.instrumentName = \markup {         %! SM37:REAPPLIED_INSTRUMENT:SM8
         \hcenter-in                                              %! SM37:REAPPLIED_INSTRUMENT:SM8
             #16                                                  %! SM37:REAPPLIED_INSTRUMENT:SM8
@@ -4416,7 +4416,7 @@ A_ContrabassMusicVoice = {
         \glissando                                               %! SC
         
         <gqs, aqs>8
-        \revert NoteHead.style                                   %! OC
+        \revert NoteHead.style                                   %! OC2
     }
     
     % [A ContrabassMusicVoice measure 58]                        %! SM4
