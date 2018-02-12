@@ -1059,7 +1059,7 @@ C_OboeMusicVoice = {
     \stopStaff                                                   %! IC:REDUNDANT_STAFF_LINES:SM8
     \once \override OboeMusicStaff.StaffSymbol.line-count = 1    %! IC:REDUNDANT_STAFF_LINES:SM8
     \startStaff                                                  %! IC:REDUNDANT_STAFF_LINES:SM8
-    \override RepeatTie.direction = #up                          %! OC
+    \override RepeatTie.direction = #up                          %! OC1
     \set OboeMusicStaff.instrumentName = \markup {               %! SM37:REAPPLIED_INSTRUMENT:SM8
         \hcenter-in                                              %! SM37:REAPPLIED_INSTRUMENT:SM8
             #16                                                  %! SM37:REAPPLIED_INSTRUMENT:SM8
@@ -1184,7 +1184,7 @@ C_OboeMusicVoice = {
     
     c'8.
     \repeatTie
-    \revert RepeatTie.direction                                  %! OC
+    \revert RepeatTie.direction                                  %! OC2
     
     r16
     
@@ -1359,7 +1359,7 @@ C_SaxophoneMusicVoice = {
     \stopStaff                                                   %! IC:REDUNDANT_STAFF_LINES:SM8
     \once \override SaxophoneMusicStaff.StaffSymbol.line-count = 1 %! IC:REDUNDANT_STAFF_LINES:SM8
     \startStaff                                                  %! IC:REDUNDANT_STAFF_LINES:SM8
-    \override RepeatTie.direction = #up                          %! OC
+    \override RepeatTie.direction = #up                          %! OC1
     \set SaxophoneMusicStaff.instrumentName = \markup {          %! SM37:REAPPLIED_INSTRUMENT:SM8
         \hcenter-in                                              %! SM37:REAPPLIED_INSTRUMENT:SM8
             #16                                                  %! SM37:REAPPLIED_INSTRUMENT:SM8
@@ -1503,7 +1503,7 @@ C_SaxophoneMusicVoice = {
     
     c'8.
     \repeatTie
-    \revert RepeatTie.direction                                  %! OC
+    \revert RepeatTie.direction                                  %! OC2
     
     r16
     

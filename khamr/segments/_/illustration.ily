@@ -2055,7 +2055,7 @@ i_OboeMusicVoice = {
     \stopStaff                                                   %! IC:EXPLICIT_STAFF_LINES:SM8
     \once \override OboeMusicStaff.StaffSymbol.line-count = 1    %! IC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! IC:EXPLICIT_STAFF_LINES:SM8
-    \override RepeatTie.direction = #up                          %! OC
+    \override RepeatTie.direction = #up                          %! OC1
     \set OboeMusicStaff.instrumentName = \markup {               %! IC:REDUNDANT_INSTRUMENT:SM8
         \hcenter-in                                              %! IC:REDUNDANT_INSTRUMENT:SM8
             #16                                                  %! IC:REDUNDANT_INSTRUMENT:SM8
@@ -2287,7 +2287,7 @@ i_OboeMusicVoice = {
     % [_ OboeMusicVoice measure 36]                              %! SM4
     c'8
     \repeatTie
-    \revert RepeatTie.direction                                  %! OC
+    \revert RepeatTie.direction                                  %! OC2
     
     r8
     
@@ -2962,7 +2962,7 @@ i_SaxophoneMusicStaff = {
 i_GuitarMusicVoice = {
     
     % [_ GuitarMusicVoice measure 1]                             %! SM4
-    \override NoteHead.style = #'cross                           %! OC
+    \override NoteHead.style = #'cross                           %! OC1
     \set GuitarMusicStaff.instrumentName = \markup {             %! ST1:DEFAULT_INSTRUMENT:SM8
         \hcenter-in                                              %! ST1:DEFAULT_INSTRUMENT:SM8
             #16                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
@@ -3277,7 +3277,7 @@ i_GuitarMusicVoice = {
     \times 1/1 {
         
         % [_ GuitarMusicVoice measure 25]                        %! SM4
-        \override TupletBracket.staff-padding = #4               %! OC
+        \override TupletBracket.staff-padding = #4               %! OC1
         \once \override Beam.grow-direction = #right
         cs''16 * 117/16
         [
@@ -3864,13 +3864,13 @@ i_GuitarMusicVoice = {
         r8
         
         cs''16
-        \revert NoteHead.style                                   %! OC
+        \revert NoteHead.style                                   %! OC2
         
         r16
     }
     
     r1
-    \revert TupletBracket.staff-padding                          %! OC
+    \revert TupletBracket.staff-padding                          %! OC2
     
 }
 
@@ -3887,7 +3887,7 @@ i_PianoMusicVoice = {
     \stopStaff                                                   %! IC:EXPLICIT_STAFF_LINES:SM8
     \once \override PianoMusicStaff.StaffSymbol.line-count = 1   %! IC:EXPLICIT_STAFF_LINES:SM8
     \startStaff                                                  %! IC:EXPLICIT_STAFF_LINES:SM8
-    \override RepeatTie.direction = #up                          %! OC
+    \override RepeatTie.direction = #up                          %! OC1
     \set PianoMusicStaff.instrumentName = \markup {              %! ST1:DEFAULT_INSTRUMENT:SM8
         \hcenter-in                                              %! ST1:DEFAULT_INSTRUMENT:SM8
             #16                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
@@ -4050,7 +4050,7 @@ i_PianoMusicVoice = {
     % [_ PianoMusicVoice measure 24]                             %! SM4
     c'1
     \repeatTie
-    \revert RepeatTie.direction                                  %! OC
+    \revert RepeatTie.direction                                  %! OC2
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -4424,7 +4424,7 @@ i_PianoMusicVoice = {
     \stopStaff                                                   %! IC:REDUNDANT_STAFF_LINES:SM8
     \once \override PianoMusicStaff.StaffSymbol.line-count = 1   %! IC:REDUNDANT_STAFF_LINES:SM8
     \startStaff                                                  %! IC:REDUNDANT_STAFF_LINES:SM8
-    \override RepeatTie.direction = #up                          %! OC
+    \override RepeatTie.direction = #up                          %! OC1
     \clef "percussion"                                           %! IC:EXPLICIT_CLEF:SM8
     \once \override PianoMusicStaff.Clef.color = #(x11-color 'blue) %! IC:EXPLICIT_CLEF_COLOR:SM6
 %@% \override PianoMusicStaff.Clef.color = ##f                   %! IC:EXPLICIT_CLEF_COLOR_CANCELLATION:SM7
@@ -4480,7 +4480,7 @@ i_PianoMusicVoice = {
     % [_ PianoMusicVoice measure 44]                             %! SM4
     c'1.
     \repeatTie
-    \revert RepeatTie.direction                                  %! OC
+    \revert RepeatTie.direction                                  %! OC2
     
 }
 
@@ -4494,7 +4494,7 @@ i_PianoMusicStaff = {
 i_PercussionMusicVoice = {
     
     % [_ PercussionMusicVoice measure 1]                         %! SM4
-    \override Stem.direction = #down                             %! OC
+    \override Stem.direction = #down                             %! OC1
     \once \override Accidental.color = #red
     \once \override Beam.color = #red
     \once \override Dots.color = #red
@@ -5154,7 +5154,7 @@ i_PercussionMusicVoice = {
     \repeatTie
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
-    \revert Stem.direction                                       %! OC
+    \revert Stem.direction                                       %! OC2
     
 }
 
@@ -5168,7 +5168,7 @@ i_PercussionMusicStaff = {
 i_ViolinMusicVoice = {
     
     % [_ ViolinMusicVoice measure 1]                             %! SM4
-    \override NoteHead.style = #'harmonic                        %! OC
+    \override NoteHead.style = #'harmonic                        %! OC1
     \set ViolinMusicStaff.instrumentName = \markup {             %! ST1:DEFAULT_INSTRUMENT:SM8
         \hcenter-in                                              %! ST1:DEFAULT_INSTRUMENT:SM8
             #16                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
@@ -5524,7 +5524,7 @@ i_ViolinMusicVoice = {
     b'2
     \repeatTie
     \p                                                           %! HC1
-    \revert NoteHead.style                                       %! OC
+    \revert NoteHead.style                                       %! OC2
     
     % [_ ViolinMusicVoice measure 37]                            %! SM4
     \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
@@ -5729,7 +5729,7 @@ i_ViolinMusicStaff = {
 i_ViolaMusicVoice = {
     
     % [_ ViolaMusicVoice measure 1]                              %! SM4
-    \override NoteHead.style = #'harmonic                        %! OC
+    \override NoteHead.style = #'harmonic                        %! OC1
     \set ViolaMusicStaff.instrumentName = \markup {              %! ST1:DEFAULT_INSTRUMENT:SM8
         \hcenter-in                                              %! ST1:DEFAULT_INSTRUMENT:SM8
             #16                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
@@ -6081,7 +6081,7 @@ i_ViolaMusicVoice = {
     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! HC2:EXPLICIT_DYNAMIC_COLOR:SM6
     aqs'4
     \p                                                           %! HC1
-    \revert NoteHead.style                                       %! OC
+    \revert NoteHead.style                                       %! OC2
     
     % [_ ViolaMusicVoice measure 37]                             %! SM4
     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
@@ -6242,7 +6242,7 @@ i_ViolaMusicStaff = {
 i_CelloMusicVoice = {
     
     % [_ CelloMusicVoice measure 1]                              %! SM4
-    \override NoteHead.style = #'harmonic                        %! OC
+    \override NoteHead.style = #'harmonic                        %! OC1
     \set CelloMusicStaff.instrumentName = \markup {              %! ST1:DEFAULT_INSTRUMENT:SM8
         \hcenter-in                                              %! ST1:DEFAULT_INSTRUMENT:SM8
             #16                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
@@ -6602,7 +6602,7 @@ i_CelloMusicVoice = {
     b2
     \repeatTie
     \p                                                           %! HC1
-    \revert NoteHead.style                                       %! OC
+    \revert NoteHead.style                                       %! OC2
     
     % [_ CelloMusicVoice measure 37]                             %! SM4
     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! IC:EXPLICIT_DYNAMIC_COLOR:SM6
@@ -6746,7 +6746,7 @@ i_CelloMusicStaff = {
 i_ContrabassMusicVoice = {
     
     % [_ ContrabassMusicVoice measure 1]                         %! SM4
-    \override NoteHead.style = #'harmonic                        %! OC
+    \override NoteHead.style = #'harmonic                        %! OC1
     \set ContrabassMusicStaff.instrumentName = \markup {         %! ST1:DEFAULT_INSTRUMENT:SM8
         \hcenter-in                                              %! ST1:DEFAULT_INSTRUMENT:SM8
             #16                                                  %! ST1:DEFAULT_INSTRUMENT:SM8
@@ -7146,7 +7146,7 @@ i_ContrabassMusicVoice = {
     c'1.
     \repeatTie
     \pp                                                          %! HC1
-    \revert NoteHead.style                                       %! OC
+    \revert NoteHead.style                                       %! OC2
     
 }
 
