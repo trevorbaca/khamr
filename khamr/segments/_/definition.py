@@ -499,7 +499,7 @@ maker(
 maker(
     baca.scope('FluteMusicVoice', 6, 7),
     baca.hairpin('mp > pp'),
-    baca.map(baca.trill(), baca.qruns()),
+    baca.map(baca.trill_spanner(), baca.qruns()),
     baca.pitches('A4'),
     )
 
@@ -633,7 +633,7 @@ maker(
 maker(
     baca.scope('ViolinMusicVoice', 6, 7),
     baca.dynamic('ppp'),
-    baca.map(baca.trill('m2'), baca.plts()),
+    baca.map(baca.trill_spanner('m2'), baca.plts()),
     baca.markup.molto_flautando_e_pont(),
     baca.pitches(khamr.color_trill_pitches),
     )
@@ -652,7 +652,7 @@ maker(
 maker(
     baca.scope('ViolaMusicVoice', 6, 7),
     baca.dynamic('ppp'),
-    baca.map(baca.trill('m2'), baca.plts()),
+    baca.map(baca.trill_spanner('m2'), baca.plts()),
     baca.markup.molto_flautando_e_pont(),
     baca.pitches(khamr.color_trill_pitches),
     )
@@ -671,7 +671,7 @@ maker(
 maker(
     baca.scope('CelloMusicVoice', 6, 7),
     baca.dynamic('ppp'),
-    baca.map(baca.trill('m2'), baca.plts()),
+    baca.map(baca.trill_spanner('m2'), baca.plts()),
     baca.markup.molto_flautando_e_pont(),
     baca.pitches(khamr.color_trill_pitches),
     )
