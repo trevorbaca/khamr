@@ -719,7 +719,7 @@ maker(
 maker(
     baca.scope('ContrabassMusicVoice', 8, 9),
     baca.dynamic('mp'),
-    baca.trill('F3', harmonic=True),
+    baca.trill_spanner('F3', harmonic=True),
     baca.pitches('G0'),
     khamr.markup.scodanibbio(),
     )

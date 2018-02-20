@@ -543,7 +543,7 @@ maker.copy_rhythm(
 maker(
     baca.scope('FluteMusicVoice', 1, 2),
     baca.hairpin('mp > pp'),
-    baca.map(baca.trill(), baca.qruns()),
+    baca.map(baca.trill_spanner(), baca.qruns()),
     baca.pitches('Bb4'),
     )
 
@@ -682,7 +682,7 @@ maker(
 maker(
     baca.scope('ViolinMusicVoice', 1, 3),
     baca.accents(),
-    baca.map(baca.trill('m2'), baca.plts()),
+    baca.map(baca.trill_spanner('m2'), baca.plts()),
     )
 
 maker(
@@ -712,7 +712,7 @@ maker(
 maker(
     baca.scope('ViolaMusicVoice', 1, 3),
     baca.accents(),
-    baca.map(baca.trill('m2'), baca.plts()),
+    baca.map(baca.trill_spanner('m2'), baca.plts()),
     )
 
 maker(
@@ -727,7 +727,7 @@ maker(
 maker(
     baca.scope('CelloMusicVoice', 1, 2),
     baca.accents(),
-    baca.map(baca.trill('m2'), baca.plts()),
+    baca.map(baca.trill_spanner('m2'), baca.plts()),
     baca.pitches(khamr.color_trill_pitches),
     )
 
