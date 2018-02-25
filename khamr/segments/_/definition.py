@@ -46,7 +46,6 @@ guitar_ritardando = guitar_accelerando.reverse()
 
 maker(
     baca.scope('FluteMusicVoice', (1, 7)),
-    baca.instrument(khamr.instruments['BassFlute']),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
@@ -75,7 +74,6 @@ maker(
 
 maker(
     baca.scope('OboeMusicVoice', (1, 7)),
-    baca.instrument(khamr.instruments['EnglishHorn']),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
@@ -104,7 +102,6 @@ maker(
 
 maker(
     baca.scope('ClarinetMusicVoice', (1, 7)),
-    baca.instrument(khamr.instruments['BassClarinet']),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
@@ -133,7 +130,6 @@ maker(
 
 maker(
     baca.scope('SaxophoneMusicVoice', (1, 7)),
-    baca.instrument(khamr.instruments['BaritoneSaxophone']),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
@@ -162,74 +158,23 @@ maker(
 
 maker(
     baca.scope('GuitarMusicVoice', (1, 3)),
-    baca.RhythmCommand(
-        division_maker=baca.DivisionMaker()
-            .split_by_durations(
-                durations=[(1, 4)],
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.TupletRhythmMaker(
-            division_masks=[
-                abjad.silence([1, 2, 3, 5, 6, 7, 8], 9),
-                abjad.silence([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]),
-                abjad.sustain([0]),
-                ],
-            tuplet_ratios=[
-                (-1, 1, -1), (-1, 1, -1), (-1, 1, -2), (-3, 1, -1),
-                (-1, 2), (-2, 1, -1), (-2, 1, -1), (-3, 1, -1),
-                ],
-            ),
-        ),
+    khamr.guitar_isolata(),
     )
 
 maker(
     baca.scope('GuitarMusicVoice', (4, 6)),
-    baca.RhythmCommand(
-        division_maker=baca.DivisionMaker()
-            .fuse_by_counts(
-                counts=[2, 1],
-                )
-            .flatten(depth=-1),
-        rhythm_maker=rhythmos.AccelerandoRhythmMaker(
-            beam_specifier=rhythmos.BeamSpecifier(
-                use_feather_beams=True,
-                ),
-            interpolation_specifiers=[
-                rhythmos.InterpolationSpecifier(
-                    start_duration=abjad.Duration(1, 2),
-                    stop_duration=abjad.Duration(1, 8),
-                    written_duration=abjad.Duration(1, 16),
-                    ),
-                rhythmos.InterpolationSpecifier(
-                    start_duration=abjad.Duration(1, 8),
-                    stop_duration=abjad.Duration(1, 2),
-                    written_duration=abjad.Duration(1, 16),
-                    ),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True,
-                ),
-            tuplet_specifier=rhythmos.TupletSpecifier(
-                use_note_duration_bracket=True,
-                ),
-            ),
-        ),
+    khamr.guitar_accelerandi(),
     )
 
-maker.copy_rhythm(
-    baca.scope('GuitarMusicVoice', 1),
+maker(
     baca.scope('GuitarMusicVoice', 7),
-    rhythm_maker__division_masks=[
-        abjad.silence([1, 2, 3, 5, 6, 7, 8], 9),
-        ],
+    khamr.guitar_isolata([abjad.silence([1, 2, 3, 5, 6, 7, 8], 9)]),
     )
 
 ### PIANO ###
 
 maker(
     baca.scope('PianoMusicVoice', (1, 3)),
-    #baca.instrument(khamr.instruments['Piano']),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
