@@ -1,6 +1,7 @@
 from .MarimbaHitCommand import MarimbaHitCommand
 from .MarkupLibrary import MarkupLibrary
 from .ScoreTemplate import ScoreTemplate
+from .alternate_divisions import alternate_divisions
 from .beat_divisions import beat_divisions
 from .guitar_accelerandi import guitar_accelerandi
 from .guitar_isolata import guitar_isolata
@@ -9,6 +10,7 @@ from .levine_multiphonic import levine_multiphonic
 from .narrow_fourth_octave import narrow_fourth_octave
 from .narrow_sixth_octave import narrow_sixth_octave
 from .quarter_divisions import quarter_divisions
+from .silent_first_division import silent_first_division
 from .sixth_octave import sixth_octave
 from .string_tuplet_ratios import string_tuplet_ratios
 from .tuplet_spelling import tuplet_spelling
