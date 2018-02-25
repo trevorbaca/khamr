@@ -2,6 +2,8 @@ from .MarimbaHitCommand import MarimbaHitCommand
 from .MarkupLibrary import MarkupLibrary
 from .ScoreTemplate import ScoreTemplate
 from .beat_divisions import beat_divisions
+from .guitar_accelerandi import guitar_accelerandi
+from .guitar_isolata import guitar_isolata
 from .halo_hairpins import halo_hairpins
 from .levine_multiphonic import levine_multiphonic
 from .narrow_fourth_octave import narrow_fourth_octave
