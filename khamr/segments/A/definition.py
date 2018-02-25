@@ -92,39 +92,6 @@ maker(
         ),
     )
 
-maker(
-    baca.scope('FluteMusicVoice', 4),
-    baca.RhythmCommand(
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            division_masks=[
-                abjad.silence([1], 2),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True,
-                ),
-            ),
-        ),
-    )
-
-maker(
-    baca.scope('FluteMusicVoice', 5),
-    baca.RhythmCommand(
-        rewrite_meter=True,
-        division_maker=khamr.beat_divisions(),
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            division_masks=[
-                abjad.silence([0]),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True,
-                ),
-            ),
-        ),
-    )
-
 ### OBOE ##
 
 maker(
@@ -151,16 +118,6 @@ maker(
                 ),
             ),
         ),
-    )
-
-maker.copy_rhythm(
-    baca.scope('FluteMusicVoice', 4),
-    baca.scope('OboeMusicVoice', 4),
-    )
-
-maker.copy_rhythm(
-    baca.scope('FluteMusicVoice', 5),
-    baca.scope('OboeMusicVoice', 5),
     )
 
 ### CLARINET ###
@@ -192,16 +149,6 @@ maker(
         ),
     )
 
-maker.copy_rhythm(
-    baca.scope('FluteMusicVoice', 4),
-    baca.scope('ClarinetMusicVoice', 4),
-    )
-
-maker.copy_rhythm(
-    baca.scope('FluteMusicVoice', 5),
-    baca.scope('ClarinetMusicVoice', 5),
-    )
-
 ### SAXOPHONE ###
 
 maker(
@@ -228,16 +175,6 @@ maker(
                 ),
             ),
         ),
-    )
-
-maker.copy_rhythm(
-    baca.scope('FluteMusicVoice', 4),
-    baca.scope('SaxophoneMusicVoice', 4),
-    )
-
-maker.copy_rhythm(
-    baca.scope('FluteMusicVoice', 5),
-    baca.scope('SaxophoneMusicVoice', 5),
     )
 
 ### GUITAR ###
@@ -277,16 +214,6 @@ maker(
         ),
     )
 
-maker.copy_rhythm(
-    baca.scope('FluteMusicVoice', 4),
-    baca.scope('GuitarMusicVoice', 4),
-    )
-
-maker.copy_rhythm(
-    baca.scope('FluteMusicVoice', 5),
-    baca.scope('GuitarMusicVoice', 5),
-    )
-
 ### PIANO ###
 
 maker(
@@ -305,12 +232,9 @@ maker(
         ),
     )
 
-maker.copy_rhythm(
-    baca.scope('FluteMusicVoice', 4),
+maker(
     baca.scope('PianoMusicVoice', 4),
-    rhythm_maker__tie_specifier=rhythmos.TieSpecifier(
-        strip_ties=True,
-        ),
+    khamr.alternate_divisions(strip_ties=True),
     )
 
 maker(
@@ -410,16 +334,6 @@ maker(
         ),
     )
 
-maker.copy_rhythm(
-    baca.scope('FluteMusicVoice', 4),
-    baca.scope('ViolinMusicVoice', 4),
-    )
-
-maker.copy_rhythm(
-    baca.scope('FluteMusicVoice', 5),
-    baca.scope('ViolinMusicVoice', 5),
-    )
-
 ### VIOLA ###
 
 maker(
@@ -439,16 +353,6 @@ maker(
             tuplet_specifier=khamr.tuplet_spelling(),
             ),
         ),
-    )
-
-maker.copy_rhythm(
-    baca.scope('ViolinMusicVoice', 4),
-    baca.scope('ViolaMusicVoice', 4),
-    )
-
-maker.copy_rhythm(
-    baca.scope('ViolinMusicVoice', 5),
-    baca.scope('ViolaMusicVoice', 5),
     )
 
 ### CELLO ###
@@ -488,16 +392,6 @@ maker(
         ),
     )
 
-maker.copy_rhythm(
-    baca.scope('FluteMusicVoice', 4),
-    baca.scope('CelloMusicVoice', 4),
-    )
-
-maker.copy_rhythm(
-    baca.scope('FluteMusicVoice', 5),
-    baca.scope('CelloMusicVoice', 5),
-    )
-
 ### CONTRABASS ###
 
 maker(
@@ -524,14 +418,26 @@ maker(
         ),
     )
 
-maker.copy_rhythm(
-    baca.scope('FluteMusicVoice', 4),
-    baca.scope('ContrabassMusicVoice', 4),
+winds_guitar_strings = [
+    'FluteMusicVoice',
+    'OboeMusicVoice',
+    'ClarinetMusicVoice',
+    'SaxophoneMusicVoice',
+    'GuitarMusicVoice',
+    'ViolinMusicVoice',
+    'ViolaMusicVoice',
+    'CelloMusicVoice',
+    'ContrabassMusicVoice',
+    ]
+
+maker(
+    baca.make_scopes(winds_guitar_strings, [4]),
+    khamr.alternate_divisions(),
     )
 
-maker.copy_rhythm(
-    baca.scope('FluteMusicVoice', 5),
-    baca.scope('ContrabassMusicVoice', 5),
+maker(
+    baca.make_scopes(winds_guitar_strings, [5]),
+    khamr.silent_first_division(),
     )
 
 ###############################################################################
