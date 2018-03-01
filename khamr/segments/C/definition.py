@@ -87,7 +87,7 @@ maker(
 
 maker(
     baca.scope('ClarinetMusicVoice', (1, 7)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 ### SAXOPHONE ###
@@ -247,7 +247,7 @@ maker(
 
 maker(
     baca.scope('PercussionMusicVoice', (4, 7)),
-    baca.make_tied_notes(repeat_ties=True),
+    baca.make_repeat_tied_notes(),
     )
 
 ### VIOLIN ###
