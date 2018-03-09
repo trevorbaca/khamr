@@ -42,20 +42,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                             \set FluteMusicStaff.instrumentName = \markup {      %! ST1
                                 \hcenter-in                                      %! ST1
                                     #16                                          %! ST1
-                                    \center-column                               %! ST1
-                                        {                                        %! ST1
-                                            Bass                                 %! ST1
-                                            flute                                %! ST1
-                                        }                                        %! ST1
+                                    "Bass flute"                                 %! ST1
                                 }                                                %! ST1
                             \set FluteMusicStaff.shortInstrumentName = \markup { %! ST1
                                 \hcenter-in                                      %! ST1
                                     #10                                          %! ST1
-                                    \center-column                               %! ST1
-                                        {                                        %! ST1
-                                            Bass                                 %! ST1
-                                            fl.                                  %! ST1
-                                        }                                        %! ST1
+                                    "Bass fl."                                   %! ST1
                                 }                                                %! ST1
                             \clef "treble" %! ST3
                             s1
@@ -69,20 +61,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                             \set OboeMusicStaff.instrumentName = \markup {      %! ST1
                                 \hcenter-in                                     %! ST1
                                     #16                                         %! ST1
-                                    \center-column                              %! ST1
-                                        {                                       %! ST1
-                                            English                             %! ST1
-                                            horn                                %! ST1
-                                        }                                       %! ST1
+                                    "English horn"                              %! ST1
                                 }                                               %! ST1
                             \set OboeMusicStaff.shortInstrumentName = \markup { %! ST1
                                 \hcenter-in                                     %! ST1
                                     #10                                         %! ST1
-                                    \center-column                              %! ST1
-                                        {                                       %! ST1
-                                            Eng.                                %! ST1
-                                            hn.                                 %! ST1
-                                        }                                       %! ST1
+                                    "Eng. hn."                                  %! ST1
                                 }                                               %! ST1
                             \clef "treble" %! ST3
                             s1
@@ -96,20 +80,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                             \set ClarinetMusicStaff.instrumentName = \markup {      %! ST1
                                 \hcenter-in                                         %! ST1
                                     #16                                             %! ST1
-                                    \center-column                                  %! ST1
-                                        {                                           %! ST1
-                                            Bass                                    %! ST1
-                                            clarinet                                %! ST1
-                                        }                                           %! ST1
+                                    "Bass clarinet"                                 %! ST1
                                 }                                                   %! ST1
                             \set ClarinetMusicStaff.shortInstrumentName = \markup { %! ST1
                                 \hcenter-in                                         %! ST1
                                     #10                                             %! ST1
-                                    \center-column                                  %! ST1
-                                        {                                           %! ST1
-                                            Bass                                    %! ST1
-                                            cl.                                     %! ST1
-                                        }                                           %! ST1
+                                    "Bass cl."                                      %! ST1
                                 }                                                   %! ST1
                             \clef "treble" %! ST3
                             s1
@@ -123,20 +99,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                             \set SaxophoneMusicStaff.instrumentName = \markup {      %! ST1
                                 \hcenter-in                                          %! ST1
                                     #16                                              %! ST1
-                                    \center-column                                   %! ST1
-                                        {                                            %! ST1
-                                            Baritone                                 %! ST1
-                                            saxophone                                %! ST1
-                                        }                                            %! ST1
+                                    "Baritone saxophone"                             %! ST1
                                 }                                                    %! ST1
                             \set SaxophoneMusicStaff.shortInstrumentName = \markup { %! ST1
                                 \hcenter-in                                          %! ST1
                                     #10                                              %! ST1
-                                    \center-column                                   %! ST1
-                                        {                                            %! ST1
-                                            Bar.                                     %! ST1
-                                            sax.                                     %! ST1
-                                        }                                            %! ST1
+                                    "Bar. sax."                                      %! ST1
                                 }                                                    %! ST1
                             \clef "treble" %! ST3
                             s1

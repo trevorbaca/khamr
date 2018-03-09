@@ -2665,20 +2665,12 @@ B_OboeMusicVoice = {
     \set OboeMusicStaff.instrumentName = \markup {               %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
-            \center-column                                       %! SM8:REAPPLIED_INSTRUMENT:SM37
-                {                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    English                                      %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    horn                                         %! SM8:REAPPLIED_INSTRUMENT:SM37
-                }                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
+            "English horn"                                       %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \set OboeMusicStaff.shortInstrumentName = \markup {          %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
-            \center-column                                       %! SM8:REAPPLIED_INSTRUMENT:SM37
-                {                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    Eng.                                         %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    hn.                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
-                }                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
+            "Eng. hn."                                           %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
     \once \override OboeMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
@@ -2699,20 +2691,12 @@ B_OboeMusicVoice = {
     \set OboeMusicStaff.instrumentName = \markup {               %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            \center-column                                       %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                {                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    English                                      %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    horn                                         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                }                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+            "English horn"                                       %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     \set OboeMusicStaff.shortInstrumentName = \markup {          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            \center-column                                       %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                {                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    Eng.                                         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    hn.                                          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                }                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+            "Eng. hn."                                           %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
     % [B OboeMusicVoice measure 76]                              %! SM4
@@ -3866,20 +3850,12 @@ B_ClarinetMusicVoice = {
     \set ClarinetMusicStaff.instrumentName = \markup {           %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
-            \center-column                                       %! SM8:REAPPLIED_INSTRUMENT:SM37
-                {                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    Bass                                         %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    clarinet                                     %! SM8:REAPPLIED_INSTRUMENT:SM37
-                }                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
+            "Bass clarinet"                                      %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
-            \center-column                                       %! SM8:REAPPLIED_INSTRUMENT:SM37
-                {                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    Bass                                         %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    cl.                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
-                }                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
+            "Bass cl."                                           %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
     \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
@@ -3899,20 +3875,12 @@ B_ClarinetMusicVoice = {
     \set ClarinetMusicStaff.instrumentName = \markup {           %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            \center-column                                       %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                {                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    Bass                                         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    clarinet                                     %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                }                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+            "Bass clarinet"                                      %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            \center-column                                       %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                {                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    Bass                                         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    cl.                                          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                }                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+            "Bass cl."                                           %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
     % [B ClarinetMusicVoice measure 76]                          %! SM4
@@ -4808,20 +4776,12 @@ B_ClarinetMusicVoice = {
     \set ClarinetMusicStaff.instrumentName = \markup {           %! SM8:EXPLICIT_INSTRUMENT:IC
         \hcenter-in                                              %! SM8:EXPLICIT_INSTRUMENT:IC
             #16                                                  %! SM8:EXPLICIT_INSTRUMENT:IC
-            \center-column                                       %! SM8:EXPLICIT_INSTRUMENT:IC
-                {                                                %! SM8:EXPLICIT_INSTRUMENT:IC
-                    Bass                                         %! SM8:EXPLICIT_INSTRUMENT:IC
-                    clarinet                                     %! SM8:EXPLICIT_INSTRUMENT:IC
-                }                                                %! SM8:EXPLICIT_INSTRUMENT:IC
+            "Bass clarinet"                                      %! SM8:EXPLICIT_INSTRUMENT:IC
         }                                                        %! SM8:EXPLICIT_INSTRUMENT:IC
     \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! SM8:EXPLICIT_INSTRUMENT:IC
         \hcenter-in                                              %! SM8:EXPLICIT_INSTRUMENT:IC
             #10                                                  %! SM8:EXPLICIT_INSTRUMENT:IC
-            \center-column                                       %! SM8:EXPLICIT_INSTRUMENT:IC
-                {                                                %! SM8:EXPLICIT_INSTRUMENT:IC
-                    Bass                                         %! SM8:EXPLICIT_INSTRUMENT:IC
-                    cl.                                          %! SM8:EXPLICIT_INSTRUMENT:IC
-                }                                                %! SM8:EXPLICIT_INSTRUMENT:IC
+            "Bass cl."                                           %! SM8:EXPLICIT_INSTRUMENT:IC
         }                                                        %! SM8:EXPLICIT_INSTRUMENT:IC
     \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_INSTRUMENT_COLOR:IC
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -4836,20 +4796,12 @@ B_ClarinetMusicVoice = {
     \set ClarinetMusicStaff.instrumentName = \markup {           %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
         \hcenter-in                                              %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
             #16                                                  %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-            \center-column                                       %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-                {                                                %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-                    Bass                                         %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-                    clarinet                                     %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-                }                                                %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
+            "Bass clarinet"                                      %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
         }                                                        %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
     \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
         \hcenter-in                                              %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
             #10                                                  %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-            \center-column                                       %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-                {                                                %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-                    Bass                                         %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-                    cl.                                          %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-                }                                                %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
+            "Bass cl."                                           %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
         }                                                        %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
     
     a4
@@ -4892,20 +4844,12 @@ B_SaxophoneMusicVoice = {
     \set SaxophoneMusicStaff.instrumentName = \markup {          %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
-            \center-column                                       %! SM8:REAPPLIED_INSTRUMENT:SM37
-                {                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    Baritone                                     %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    saxophone                                    %! SM8:REAPPLIED_INSTRUMENT:SM37
-                }                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
+            "Baritone saxophone"                                 %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \set SaxophoneMusicStaff.shortInstrumentName = \markup {     %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
-            \center-column                                       %! SM8:REAPPLIED_INSTRUMENT:SM37
-                {                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    Bar.                                         %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    sax.                                         %! SM8:REAPPLIED_INSTRUMENT:SM37
-                }                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
+            "Bar. sax."                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
     \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
@@ -4925,20 +4869,12 @@ B_SaxophoneMusicVoice = {
     \set SaxophoneMusicStaff.instrumentName = \markup {          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            \center-column                                       %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                {                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    Baritone                                     %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    saxophone                                    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                }                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+            "Baritone saxophone"                                 %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     \set SaxophoneMusicStaff.shortInstrumentName = \markup {     %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            \center-column                                       %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                {                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    Bar.                                         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    sax.                                         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                }                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+            "Bar. sax."                                          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
     % [B SaxophoneMusicVoice measure 76]                         %! SM4
@@ -4972,20 +4908,12 @@ B_SaxophoneMusicVoice = {
         \set SaxophoneMusicStaff.instrumentName = \markup {      %! SM8:EXPLICIT_INSTRUMENT:IC
             \hcenter-in                                          %! SM8:EXPLICIT_INSTRUMENT:IC
                 #16                                              %! SM8:EXPLICIT_INSTRUMENT:IC
-                \center-column                                   %! SM8:EXPLICIT_INSTRUMENT:IC
-                    {                                            %! SM8:EXPLICIT_INSTRUMENT:IC
-                        Sopranino                                %! SM8:EXPLICIT_INSTRUMENT:IC
-                        saxophone                                %! SM8:EXPLICIT_INSTRUMENT:IC
-                    }                                            %! SM8:EXPLICIT_INSTRUMENT:IC
+                "Sopranino saxophone"                            %! SM8:EXPLICIT_INSTRUMENT:IC
             }                                                    %! SM8:EXPLICIT_INSTRUMENT:IC
         \set SaxophoneMusicStaff.shortInstrumentName = \markup { %! SM8:EXPLICIT_INSTRUMENT:IC
             \hcenter-in                                          %! SM8:EXPLICIT_INSTRUMENT:IC
                 #10                                              %! SM8:EXPLICIT_INSTRUMENT:IC
-                \center-column                                   %! SM8:EXPLICIT_INSTRUMENT:IC
-                    {                                            %! SM8:EXPLICIT_INSTRUMENT:IC
-                        Sopr.                                    %! SM8:EXPLICIT_INSTRUMENT:IC
-                        sax.                                     %! SM8:EXPLICIT_INSTRUMENT:IC
-                    }                                            %! SM8:EXPLICIT_INSTRUMENT:IC
+                "Sopr. sax."                                     %! SM8:EXPLICIT_INSTRUMENT:IC
             }                                                    %! SM8:EXPLICIT_INSTRUMENT:IC
         \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_INSTRUMENT_COLOR:IC
         \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
@@ -5002,20 +4930,12 @@ B_SaxophoneMusicVoice = {
         \set SaxophoneMusicStaff.instrumentName = \markup {      %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
             \hcenter-in                                          %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
                 #16                                              %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-                \center-column                                   %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-                    {                                            %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-                        Sopranino                                %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-                        saxophone                                %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-                    }                                            %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
+                "Sopranino saxophone"                            %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
             }                                                    %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
         \set SaxophoneMusicStaff.shortInstrumentName = \markup { %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
             \hcenter-in                                          %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
                 #10                                              %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-                \center-column                                   %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-                    {                                            %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-                        Sopr.                                    %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-                        sax.                                     %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-                    }                                            %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
+                "Sopr. sax."                                     %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
             }                                                    %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
         
         as''16
