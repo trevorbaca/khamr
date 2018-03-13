@@ -10,15 +10,20 @@
 \paper {}
 
 \score {
-    \new Score \with {
+    \new Score
+    \with
+    {
         \override BarLine.stencil = ##f
         \override BarNumber.transparent = ##t
         \override Rest.transparent = ##t
         \override SpanBar.stencil = ##f
         \override TimeSignature.stencil = ##f
-    } <<
-        \new PianoStaff <<
-            \context Staff = "Treble Staff" {
+    }
+    <<
+        \new PianoStaff
+        <<
+            \context Staff = "Treble Staff"
+            {
                 \clef "treble"
                 f'1 * 1/8
                 fs'1 * 1/8
@@ -39,7 +44,8 @@
                 fs'1 * 1/8
                 eqs'1 * 1/8
             }
-            \context Staff = "Bass Staff" {
+            \context Staff = "Bass Staff"
+            {
                 \clef "bass"
                 r1 * 1/8
                 r1 * 1/8
