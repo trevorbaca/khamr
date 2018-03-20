@@ -27,7 +27,6 @@ maker = baca.SegmentMaker(
         (7, khamr.metronome_marks['42']),
         ],
     metronome_marks=khamr.metronome_marks,
-    rehearsal_mark='B',
     score_template=khamr.ScoreTemplate(),
     time_signatures=khamr.time_signatures[:37],
     transpose_score=True,
@@ -35,9 +34,10 @@ maker = baca.SegmentMaker(
     validate_stage_count=9,
     )
 
-###############################################################################
-##################################### TIME ####################################
-###############################################################################
+maker(
+    baca.scope('GlobalSkips', (1, -1)),
+    baca.rehearsal_mark('B'),
+    )
 
 ### FLUTE ###
 
