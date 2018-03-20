@@ -10,17 +10,14 @@ from abjad import rhythmmakertools as rhythmos
 
 maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
-    instruments=khamr.instruments,
     last_segment=True,
     measures_per_stage=[
         3, 2, 2, 2, 2, 2, 2, 5,     # stages 1-8
         ],
-    metronome_marks=khamr.metronome_marks,
     metronome_mark_measure_map=[
         (4, abjad.Accelerando()),
         (8, khamr.metronome_marks['84']),
         ],
-    score_template=khamr.ScoreTemplate(),
     time_signatures=khamr.time_signatures[:20],
     transpose_score=True,
     validate_measure_count=20,
