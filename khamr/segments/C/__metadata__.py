@@ -114,6 +114,17 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='ContrabassMusicVoice',
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    after=True,
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(0, 2),
+                                    ),
+                                ),
+                            abjad.Momento(
+                                context='ContrabassMusicVoice',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -224,8 +235,19 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='PercussionMusicVoice',
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    after=True,
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(0, 2),
+                                    ),
+                                ),
+                            abjad.Momento(
+                                context='PercussionMusicVoice',
                                 prototype='baca.StaffLines',
-                                value=5,
+                                value=1,
                                 ),
                             ],
                         ),
@@ -255,7 +277,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='PianoMusicVoice',
                                 prototype='baca.StaffLines',
-                                value=1,
+                                value=5,
                                 ),
                             ],
                         ),
@@ -281,6 +303,17 @@ metadata = abjad.OrderedDict(
                                 context='SaxophoneMusicVoice',
                                 prototype='abjad.Instrument',
                                 value='SopraninoSaxophone',
+                                ),
+                            abjad.Momento(
+                                context='SaxophoneMusicVoice',
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    after=True,
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(0, 2),
+                                    ),
                                 ),
                             abjad.Momento(
                                 context='SaxophoneMusicVoice',
@@ -356,6 +389,17 @@ metadata = abjad.OrderedDict(
                                 context='ViolinMusicVoice',
                                 prototype='abjad.Instrument',
                                 value='Violin',
+                                ),
+                            abjad.Momento(
+                                context='ViolinMusicVoice',
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    after=True,
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(-2, 0),
+                                    ),
                                 ),
                             abjad.Momento(
                                 context='ViolinMusicVoice',

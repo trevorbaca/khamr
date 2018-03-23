@@ -11,13 +11,12 @@ from abjad import rhythmmakertools as rhythmos
 maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     last_segment=True,
-    measures_per_stage=[
-        3, 2, 2, 2, 2, 2, 2, 5,     # stages 1-8
-        ],
+    measures_per_stage=[3, 2, 2, 2, 2, 2, 2, 5],
     metronome_mark_measure_map=[
         (4, abjad.Accelerando()),
         (8, khamr.metronome_marks['84']),
         ],
+    metronome_mark_stem_height=1.25,
     time_signatures=khamr.time_signatures[:20],
     transpose_score=True,
     validate_measure_count=20,
@@ -29,7 +28,7 @@ maker(
     baca.rehearsal_mark('C'),
     )
 
-### FLUTE ###
+# flute
 
 maker(
     ('FluteMusicVoice', (1, 7)),
@@ -54,7 +53,7 @@ maker(
         ),
     )
 
-### OBOE ###
+# oboe
 
 maker(
     ('OboeMusicVoice', (1, 7)),
@@ -79,14 +78,14 @@ maker(
         ),
     )
 
-### CLARINET ###
+# clarinet
 
 maker(
     ('ClarinetMusicVoice', (1, 7)),
     baca.make_repeat_tied_notes(),
     )
 
-### SAXOPHONE ###
+# saxophone
 
 maker(
     ('SaxophoneMusicVoice', (1, 7)),
@@ -111,7 +110,7 @@ maker(
         ),
     )
 
-### GUITAR ###
+# guitar
 
 maker(
     ('GuitarMusicVoice', (1, 3)),
@@ -167,7 +166,7 @@ maker(
             ),),
     )
 
-### PIANO ###
+# piano
 
 maker(
     ('PianoMusicVoice', (1, 3)),
@@ -224,7 +223,7 @@ maker(
         ),
     )
 
-### PERCUSSION ###
+# percussion
 
 maker(
     ('PercussionMusicVoice', (1, 2)),
@@ -246,7 +245,7 @@ maker(
     baca.make_repeat_tied_notes(),
     )
 
-### VIOLIN ###
+# violin
 
 maker(
     ('ViolinMusicVoice', (1, 7)),
@@ -268,7 +267,7 @@ maker(
         ),
     )
 
-### VIOLA ###
+# viola
 
 maker(
     ('ViolaMusicVoice', (1, 7)),
@@ -290,7 +289,7 @@ maker(
         ),
     )
 
-### CELLO ###
+# cello
 
 maker(
     ('CelloMusicVoice', (1, 7)),
@@ -312,7 +311,7 @@ maker(
         ),
     )
 
-### CONTRABASS ###
+# contrabass
 
 maker(
     ('ContrabassMusicVoice', (1, 7)),
@@ -334,62 +333,56 @@ maker(
         ),
     )
 
-###############################################################################
-#################################### COLOR ####################################
-###############################################################################
-
-### FLUTE ###
+# flute
 
 maker(
     ('FluteMusicVoice', (1, 7)),
-    baca.pitches('Bb4'), # (sounds B3)
+    baca.pitch('Bb4'), # (sounds B3)
     )
 
-### OBOE ###
+# oboe
 
 maker(
     ('OboeMusicVoice', (1, 7)),
     baca.repeat_ties_up(),
-    baca.staff_lines(1),
-    baca.staff_positions([0]),
+    baca.staff_position(0),
     )
 
-### CLARINET ###
+# clarinet
 
 maker(
     ('ClarinetMusicVoice', (1, 7)),
-    baca.pitches('G2'),
+    baca.pitch('G2'),
     )
 
-### SAXOPHONE ###
+# saxophone
 
 maker(
     ('SaxophoneMusicVoice', (1, 7)),
     baca.repeat_ties_up(),
-    baca.staff_lines(1),
-    baca.staff_positions([0]),
+    baca.staff_position(0),
     )
 
-### GUITAR ##
+# guitar
 
 maker(
     ('GuitarMusicVoice', (1, 8)),
     baca.accents(),
     baca.flageolets(),
-    baca.pitches('C4'),
-    baca.reiterated_dynamic('mf'),
+    baca.pitch('C4'),
+    baca.dynamic('mf'),
     )
 
-### PIANO ###
+# piano
 
 maker(
     ('PianoMusicVoice', (1, 8)),
     baca.accents(),
-    baca.pitches('A#4'),
-    baca.reiterated_dynamic('mf'),
+    baca.pitch('A#4'),
+    baca.dynamic('mf'),
     )
 
-### PERCUSSION ###
+# percussion
 
 maker(
     ('PercussionMusicVoice', (1, 2)),
@@ -404,19 +397,29 @@ maker(
     baca.stem_tremolo(),
     )
 
-### STRINGS ###
+# strings
+
+maker(
+    ('ViolinMusicVoice', 1),
+    baca.bar_extent_persistent((-2, 0)),
+    )
+
+maker(
+    ('ContrabassMusicVoice', 1),
+    baca.bar_extent_persistent((0, 2)),
+    )
 
 maker(
     baca.make_scopes(
         ['ViolinMusicVoice', 'ViolaMusicVoice', 'CelloMusicVoice'],
         [(1, 7)],
         ),
-    baca.staff_positions([0]),
+    baca.staff_position(0),
     )
 
 maker(
     ('ContrabassMusicVoice', (1, 7)),
-    baca.staff_positions([0]),
+    baca.staff_position(0),
     )
 
 maker(
