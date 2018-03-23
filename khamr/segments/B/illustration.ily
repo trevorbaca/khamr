@@ -11,7 +11,7 @@ B_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:REAPPLIED_METRONOME_MARK:SM36
 %@%                 #2                                                   %! SM27:REAPPLIED_METRONOME_MARK:SM36
 %@%                 #0                                                   %! SM27:REAPPLIED_METRONOME_MARK:SM36
-%@%                 #1                                                   %! SM27:REAPPLIED_METRONOME_MARK:SM36
+%@%                 #1.25                                                %! SM27:REAPPLIED_METRONOME_MARK:SM36
 %@%     \upright                                                         %! SM27:REAPPLIED_METRONOME_MARK:SM36
 %@%         {                                                            %! SM27:REAPPLIED_METRONOME_MARK:SM36
 %@%             =                                                        %! SM27:REAPPLIED_METRONOME_MARK:SM36
@@ -36,7 +36,7 @@ B_GlobalSkips = {
                         \note-by-number                                  %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
                             #2                                           %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
                             #0                                           %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
-                            #1                                           %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
+                            #1.25                                        %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
                 \upright                                                 %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
                     {                                                    %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
                         =                                                %! SM15:REAPPLIED_METRONOME_MARK_WITH_COLOR:SM36
@@ -193,7 +193,7 @@ B_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%                 #1                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #1.25                                                %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
@@ -219,7 +219,7 @@ B_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                            #1                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #1.25                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
@@ -409,7 +409,7 @@ B_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%                 #1                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #1.25                                                %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
@@ -434,7 +434,7 @@ B_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                            #1                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #1.25                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
@@ -945,7 +945,7 @@ B_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%                 #1                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #1.25                                                %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
@@ -970,7 +970,7 @@ B_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                            #1                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #1.25                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
@@ -1121,7 +1121,7 @@ B_GlobalSkips = {
 %@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%                 #1                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
+%@%                 #1.25                                                %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
 %@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
@@ -1146,7 +1146,7 @@ B_GlobalSkips = {
                         \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                             #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                             #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                            #1                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
+                            #1.25                                        %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                 \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                     {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
                         =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
@@ -1425,22 +1425,22 @@ B_GlobalSkips = {
 B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 75]                             %! SM4
-    \set FluteMusicStaff.instrumentName = \markup {              %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             Flute                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
-    \set FluteMusicStaff.shortInstrumentName = \markup {         %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             Fl.                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
-    \once \override FluteMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override FluteMusicStaff.Clef.color = ##f                   %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set FluteMusicStaff.forceClef = ##t                         %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-    \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     b''2
     :32                                                          %! IC
     \fff                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
@@ -1449,14 +1449,14 @@ B_FluteMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Flute”)                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override FluteMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override FluteMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-    \set FluteMusicStaff.instrumentName = \markup {              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Flute                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-    \set FluteMusicStaff.shortInstrumentName = \markup {         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Fl.                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
@@ -1491,38 +1491,11 @@ B_FluteMusicVoice = {
     \times 7/8 {
         
         % [B FluteMusicVoice measure 84]                         %! SM4
-        \set FluteMusicStaff.instrumentName = \markup {          %! SM8:REDUNDANT_INSTRUMENT:IC
-            \hcenter-in                                          %! SM8:REDUNDANT_INSTRUMENT:IC
-                #16                                              %! SM8:REDUNDANT_INSTRUMENT:IC
-                Flute                                            %! SM8:REDUNDANT_INSTRUMENT:IC
-            }                                                    %! SM8:REDUNDANT_INSTRUMENT:IC
-        \set FluteMusicStaff.shortInstrumentName = \markup {     %! SM8:REDUNDANT_INSTRUMENT:IC
-            \hcenter-in                                          %! SM8:REDUNDANT_INSTRUMENT:IC
-                #10                                              %! SM8:REDUNDANT_INSTRUMENT:IC
-                Fl.                                              %! SM8:REDUNDANT_INSTRUMENT:IC
-            }                                                    %! SM8:REDUNDANT_INSTRUMENT:IC
-        \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_INSTRUMENT_COLOR:IC
-        \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         d'''16
         -\accent                                                 %! IC
         \fff                                                     %! SM8:REDUNDANT_DYNAMIC:IC
         [
-        ^ \markup {                                              %! SM11:REDUNDANT_INSTRUMENT_ALERT:IC
-            \with-color                                          %! SM11:REDUNDANT_INSTRUMENT_ALERT:IC
-                #(x11-color 'DeepPink1)                          %! SM11:REDUNDANT_INSTRUMENT_ALERT:IC
-                (“Flute”)                                        %! SM11:REDUNDANT_INSTRUMENT_ALERT:IC
-            }                                                    %! SM11:REDUNDANT_INSTRUMENT_ALERT:IC
-        \override FluteMusicStaff.InstrumentName.color = #(x11-color 'DeepPink4) %! SM6:REDRAWN_REDUNDANT_INSTRUMENT_COLOR:IC
-        \set FluteMusicStaff.instrumentName = \markup {          %! SM8:REDRAWN_REDUNDANT_INSTRUMENT:SM34:IC
-            \hcenter-in                                          %! SM8:REDRAWN_REDUNDANT_INSTRUMENT:SM34:IC
-                #16                                              %! SM8:REDRAWN_REDUNDANT_INSTRUMENT:SM34:IC
-                Flute                                            %! SM8:REDRAWN_REDUNDANT_INSTRUMENT:SM34:IC
-            }                                                    %! SM8:REDRAWN_REDUNDANT_INSTRUMENT:SM34:IC
-        \set FluteMusicStaff.shortInstrumentName = \markup {     %! SM8:REDRAWN_REDUNDANT_INSTRUMENT:SM34:IC
-            \hcenter-in                                          %! SM8:REDRAWN_REDUNDANT_INSTRUMENT:SM34:IC
-                #10                                              %! SM8:REDRAWN_REDUNDANT_INSTRUMENT:SM34:IC
-                Fl.                                              %! SM8:REDRAWN_REDUNDANT_INSTRUMENT:SM34:IC
-            }                                                    %! SM8:REDRAWN_REDUNDANT_INSTRUMENT:SM34:IC
         
         e'''16
         
@@ -2428,7 +2401,7 @@ B_FluteMusicVoice = {
     R1 * 3/4
     
     % [B FluteMusicVoice measure 108]                            %! SM4
-    \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     bf'1
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
@@ -2476,7 +2449,7 @@ B_FluteMusicVoice = {
 
 
 B_FluteMusicStaff = {
-    \context FluteMusicVoice = "FluteMusicVoice"
+    \context Voice = "FluteMusicVoice"
     \B_FluteMusicVoice
 }
 
@@ -2485,25 +2458,25 @@ B_OboeMusicVoice = {
     
     % [B OboeMusicVoice measure 75]                              %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \once \override OboeMusicStaff.StaffSymbol.line-count = 5    %! SM8:REAPPLIED_STAFF_LINES:SM37
+    \once \override Staff.StaffSymbol.line-count = 5             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \set OboeMusicStaff.instrumentName = \markup {               %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             "English horn"                                       %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
-    \set OboeMusicStaff.shortInstrumentName = \markup {          %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             "Eng. hn."                                           %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
-    \once \override OboeMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override OboeMusicStaff.Clef.color = ##f                    %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set OboeMusicStaff.forceClef = ##t                          %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-    \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
-    \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     ds'2
     \fff                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2511,14 +2484,14 @@ B_OboeMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“EnglishHorn”)                                      %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override OboeMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override OboeMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-    \set OboeMusicStaff.instrumentName = \markup {               %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             "English horn"                                       %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-    \set OboeMusicStaff.shortInstrumentName = \markup {          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             "Eng. hn."                                           %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
@@ -2552,18 +2525,18 @@ B_OboeMusicVoice = {
     \times 5/6 {
         
         % [B OboeMusicVoice measure 84]                          %! SM4
-        \set OboeMusicStaff.instrumentName = \markup {           %! SM8:EXPLICIT_INSTRUMENT:IC
+        \set Staff.instrumentName = \markup {                    %! SM8:EXPLICIT_INSTRUMENT:IC
             \hcenter-in                                          %! SM8:EXPLICIT_INSTRUMENT:IC
                 #16                                              %! SM8:EXPLICIT_INSTRUMENT:IC
                 Oboe                                             %! SM8:EXPLICIT_INSTRUMENT:IC
             }                                                    %! SM8:EXPLICIT_INSTRUMENT:IC
-        \set OboeMusicStaff.shortInstrumentName = \markup {      %! SM8:EXPLICIT_INSTRUMENT:IC
+        \set Staff.shortInstrumentName = \markup {               %! SM8:EXPLICIT_INSTRUMENT:IC
             \hcenter-in                                          %! SM8:EXPLICIT_INSTRUMENT:IC
                 #10                                              %! SM8:EXPLICIT_INSTRUMENT:IC
                 Ob.                                              %! SM8:EXPLICIT_INSTRUMENT:IC
             }                                                    %! SM8:EXPLICIT_INSTRUMENT:IC
-        \once \override OboeMusicStaff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_INSTRUMENT_COLOR:IC
-        \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+        \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_INSTRUMENT_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         c'''16
         -\accent                                                 %! IC
         \fff                                                     %! SM8:REDUNDANT_DYNAMIC:IC
@@ -2573,13 +2546,13 @@ B_OboeMusicVoice = {
                 #(x11-color 'blue)                               %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
                 (“Oboe”)                                         %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
             }                                                    %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
-        \override OboeMusicStaff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_INSTRUMENT_COLOR:IC
-        \set OboeMusicStaff.instrumentName = \markup {           %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
+        \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_INSTRUMENT_COLOR:IC
+        \set Staff.instrumentName = \markup {                    %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
             \hcenter-in                                          %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
                 #16                                              %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
                 Oboe                                             %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
             }                                                    %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-        \set OboeMusicStaff.shortInstrumentName = \markup {      %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
+        \set Staff.shortInstrumentName = \markup {               %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
             \hcenter-in                                          %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
                 #10                                              %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
                 Ob.                                              %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
@@ -3621,15 +3594,15 @@ B_OboeMusicVoice = {
     
     % [B OboeMusicVoice measure 108]                             %! SM4
     \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override OboeMusicStaff.StaffSymbol.line-count = 1    %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1             %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:IC
     \clef "percussion"                                           %! SM8:EXPLICIT_CLEF:IC
-    \once \override OboeMusicStaff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
-%@% \override OboeMusicStaff.Clef.color = ##f                    %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
-    \set OboeMusicStaff.forceClef = ##t                          %! SM8:EXPLICIT_CLEF:SM33:IC
-    \once \override OboeMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     r1
-    \override OboeMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [B OboeMusicVoice measure 109]                             %! SM4
     r1
@@ -3638,7 +3611,7 @@ B_OboeMusicVoice = {
     r2
     
     \override RepeatTie.direction = #up                          %! OC1
-    \once \override OboeMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'2.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
@@ -3664,7 +3637,7 @@ B_OboeMusicVoice = {
 
 
 B_OboeMusicStaff = {
-    \context OboeMusicVoice = "OboeMusicVoice"
+    \context Voice = "OboeMusicVoice"
     \B_OboeMusicVoice
 }
 
@@ -3672,22 +3645,22 @@ B_OboeMusicStaff = {
 B_ClarinetMusicVoice = {
     
     % [B ClarinetMusicVoice measure 75]                          %! SM4
-    \set ClarinetMusicStaff.instrumentName = \markup {           %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             "Bass clarinet"                                      %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
-    \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             "Bass cl."                                           %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
-    \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override ClarinetMusicStaff.Clef.color = ##f                %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set ClarinetMusicStaff.forceClef = ##t                      %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-    \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     gs2
     \fff                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -3695,14 +3668,14 @@ B_ClarinetMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“BassClarinet”)                                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override ClarinetMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-    \set ClarinetMusicStaff.instrumentName = \markup {           %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             "Bass clarinet"                                      %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-    \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             "Bass cl."                                           %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
@@ -3735,18 +3708,18 @@ B_ClarinetMusicVoice = {
     \times 8/9 {
         
         % [B ClarinetMusicVoice measure 84]                      %! SM4
-        \set ClarinetMusicStaff.instrumentName = \markup {       %! SM8:EXPLICIT_INSTRUMENT:IC
+        \set Staff.instrumentName = \markup {                    %! SM8:EXPLICIT_INSTRUMENT:IC
             \hcenter-in                                          %! SM8:EXPLICIT_INSTRUMENT:IC
                 #16                                              %! SM8:EXPLICIT_INSTRUMENT:IC
                 Clarinet                                         %! SM8:EXPLICIT_INSTRUMENT:IC
             }                                                    %! SM8:EXPLICIT_INSTRUMENT:IC
-        \set ClarinetMusicStaff.shortInstrumentName = \markup {  %! SM8:EXPLICIT_INSTRUMENT:IC
+        \set Staff.shortInstrumentName = \markup {               %! SM8:EXPLICIT_INSTRUMENT:IC
             \hcenter-in                                          %! SM8:EXPLICIT_INSTRUMENT:IC
                 #10                                              %! SM8:EXPLICIT_INSTRUMENT:IC
                 Cl.                                              %! SM8:EXPLICIT_INSTRUMENT:IC
             }                                                    %! SM8:EXPLICIT_INSTRUMENT:IC
-        \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_INSTRUMENT_COLOR:IC
-        \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+        \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_INSTRUMENT_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         e'''16
         -\accent                                                 %! IC
         \fff                                                     %! SM8:REDUNDANT_DYNAMIC:IC
@@ -3756,13 +3729,13 @@ B_ClarinetMusicVoice = {
                 #(x11-color 'blue)                               %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
                 (“Clarinet”)                                     %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
             }                                                    %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
-        \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_INSTRUMENT_COLOR:IC
-        \set ClarinetMusicStaff.instrumentName = \markup {       %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
+        \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_INSTRUMENT_COLOR:IC
+        \set Staff.instrumentName = \markup {                    %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
             \hcenter-in                                          %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
                 #16                                              %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
                 Clarinet                                         %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
             }                                                    %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-        \set ClarinetMusicStaff.shortInstrumentName = \markup {  %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
+        \set Staff.shortInstrumentName = \markup {               %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
             \hcenter-in                                          %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
                 #10                                              %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
                 Cl.                                              %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
@@ -4598,18 +4571,18 @@ B_ClarinetMusicVoice = {
     R1 * 1
     
     % [B ClarinetMusicVoice measure 106]                         %! SM4
-    \set ClarinetMusicStaff.instrumentName = \markup {           %! SM8:EXPLICIT_INSTRUMENT:IC
+    \set Staff.instrumentName = \markup {                        %! SM8:EXPLICIT_INSTRUMENT:IC
         \hcenter-in                                              %! SM8:EXPLICIT_INSTRUMENT:IC
             #16                                                  %! SM8:EXPLICIT_INSTRUMENT:IC
             "Bass clarinet"                                      %! SM8:EXPLICIT_INSTRUMENT:IC
         }                                                        %! SM8:EXPLICIT_INSTRUMENT:IC
-    \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! SM8:EXPLICIT_INSTRUMENT:IC
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:EXPLICIT_INSTRUMENT:IC
         \hcenter-in                                              %! SM8:EXPLICIT_INSTRUMENT:IC
             #10                                                  %! SM8:EXPLICIT_INSTRUMENT:IC
             "Bass cl."                                           %! SM8:EXPLICIT_INSTRUMENT:IC
         }                                                        %! SM8:EXPLICIT_INSTRUMENT:IC
-    \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_INSTRUMENT_COLOR:IC
-    \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_INSTRUMENT_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     a1
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
@@ -4617,13 +4590,13 @@ B_ClarinetMusicVoice = {
             #(x11-color 'blue)                                   %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
             (“BassClarinet”)                                     %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
         }                                                        %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
-    \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_INSTRUMENT_COLOR:IC
-    \set ClarinetMusicStaff.instrumentName = \markup {           %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
+    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_INSTRUMENT_COLOR:IC
+    \set Staff.instrumentName = \markup {                        %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
         \hcenter-in                                              %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
             #16                                                  %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
             "Bass clarinet"                                      %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
         }                                                        %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-    \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
         \hcenter-in                                              %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
             #10                                                  %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
             "Bass cl."                                           %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
@@ -4658,7 +4631,7 @@ B_ClarinetMusicVoice = {
 
 
 B_ClarinetMusicStaff = {
-    \context ClarinetMusicVoice = "ClarinetMusicVoice"
+    \context Voice = "ClarinetMusicVoice"
     \B_ClarinetMusicVoice
 }
 
@@ -4666,22 +4639,22 @@ B_ClarinetMusicStaff = {
 B_SaxophoneMusicVoice = {
     
     % [B SaxophoneMusicVoice measure 75]                         %! SM4
-    \set SaxophoneMusicStaff.instrumentName = \markup {          %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             "Baritone saxophone"                                 %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
-    \set SaxophoneMusicStaff.shortInstrumentName = \markup {     %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             "Bar. sax."                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
-    \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override SaxophoneMusicStaff.Clef.color = ##f               %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set SaxophoneMusicStaff.forceClef = ##t                     %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-    \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     es'2
     \fff                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -4689,14 +4662,14 @@ B_SaxophoneMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“BaritoneSaxophone”)                                %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override SaxophoneMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-    \set SaxophoneMusicStaff.instrumentName = \markup {          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             "Baritone saxophone"                                 %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-    \set SaxophoneMusicStaff.shortInstrumentName = \markup {     %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             "Bar. sax."                                          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
@@ -4730,18 +4703,18 @@ B_SaxophoneMusicVoice = {
     \times 6/7 {
         
         % [B SaxophoneMusicVoice measure 84]                     %! SM4
-        \set SaxophoneMusicStaff.instrumentName = \markup {      %! SM8:EXPLICIT_INSTRUMENT:IC
+        \set Staff.instrumentName = \markup {                    %! SM8:EXPLICIT_INSTRUMENT:IC
             \hcenter-in                                          %! SM8:EXPLICIT_INSTRUMENT:IC
                 #16                                              %! SM8:EXPLICIT_INSTRUMENT:IC
                 "Sopranino saxophone"                            %! SM8:EXPLICIT_INSTRUMENT:IC
             }                                                    %! SM8:EXPLICIT_INSTRUMENT:IC
-        \set SaxophoneMusicStaff.shortInstrumentName = \markup { %! SM8:EXPLICIT_INSTRUMENT:IC
+        \set Staff.shortInstrumentName = \markup {               %! SM8:EXPLICIT_INSTRUMENT:IC
             \hcenter-in                                          %! SM8:EXPLICIT_INSTRUMENT:IC
                 #10                                              %! SM8:EXPLICIT_INSTRUMENT:IC
                 "Sopr. sax."                                     %! SM8:EXPLICIT_INSTRUMENT:IC
             }                                                    %! SM8:EXPLICIT_INSTRUMENT:IC
-        \once \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_INSTRUMENT_COLOR:IC
-        \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+        \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_INSTRUMENT_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         a''16
         -\accent                                                 %! IC
         \fff                                                     %! SM8:REDUNDANT_DYNAMIC:IC
@@ -4751,13 +4724,13 @@ B_SaxophoneMusicVoice = {
                 #(x11-color 'blue)                               %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
                 (“SopraninoSaxophone”)                           %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
             }                                                    %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
-        \override SaxophoneMusicStaff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_INSTRUMENT_COLOR:IC
-        \set SaxophoneMusicStaff.instrumentName = \markup {      %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
+        \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_INSTRUMENT_COLOR:IC
+        \set Staff.instrumentName = \markup {                    %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
             \hcenter-in                                          %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
                 #16                                              %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
                 "Sopranino saxophone"                            %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
             }                                                    %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
-        \set SaxophoneMusicStaff.shortInstrumentName = \markup { %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
+        \set Staff.shortInstrumentName = \markup {               %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
             \hcenter-in                                          %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
                 #10                                              %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
                 "Sopr. sax."                                     %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
@@ -5728,16 +5701,17 @@ B_SaxophoneMusicVoice = {
     R1 * 3/4
     
     % [B SaxophoneMusicVoice measure 108]                        %! SM4
+    \override Staff.BarLine.bar-extent = #'(0 . 2)               %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC
     \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override SaxophoneMusicStaff.StaffSymbol.line-count = 1 %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1             %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:IC
     \override RepeatTie.direction = #up                          %! OC1
     \clef "percussion"                                           %! SM8:EXPLICIT_CLEF:IC
-    \once \override SaxophoneMusicStaff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
-%@% \override SaxophoneMusicStaff.Clef.color = ##f               %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
-    \set SaxophoneMusicStaff.forceClef = ##t                     %! SM8:EXPLICIT_CLEF:SM33:IC
-    \once \override SaxophoneMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \once \override SaxophoneMusicStaff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c'1
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
@@ -5745,7 +5719,7 @@ B_SaxophoneMusicVoice = {
             \upright                                             %! IC
                 airtone                                          %! IC
         }                                                        %! IC
-    \override SaxophoneMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [B SaxophoneMusicVoice measure 109]                        %! SM4
     c'1
@@ -5777,7 +5751,7 @@ B_SaxophoneMusicVoice = {
 
 
 B_SaxophoneMusicStaff = {
-    \context SaxophoneMusicVoice = "SaxophoneMusicVoice"
+    \context Voice = "SaxophoneMusicVoice"
     \B_SaxophoneMusicVoice
 }
 
@@ -5785,22 +5759,22 @@ B_SaxophoneMusicStaff = {
 B_GuitarMusicVoice = {
     
     % [B GuitarMusicVoice measure 75]                            %! SM4
-    \set GuitarMusicStaff.instrumentName = \markup {             %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             Guitar                                               %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
-    \set GuitarMusicStaff.shortInstrumentName = \markup {        %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             Gt.                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
-    \once \override GuitarMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override GuitarMusicStaff.Clef.color = ##f                  %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set GuitarMusicStaff.forceClef = ##t                        %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-    \once \override GuitarMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     g'2
     \ff                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -5808,14 +5782,14 @@ B_GuitarMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Guitar”)                                           %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override GuitarMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override GuitarMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-    \set GuitarMusicStaff.instrumentName = \markup {             %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Guitar                                               %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-    \set GuitarMusicStaff.shortInstrumentName = \markup {        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Gt.                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
@@ -5847,7 +5821,7 @@ B_GuitarMusicVoice = {
     R1 * 1
     
     % [B GuitarMusicVoice measure 84]                            %! SM4
-    \once \override GuitarMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     af''2.
     :32                                                          %! IC
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
@@ -5983,7 +5957,7 @@ B_GuitarMusicVoice = {
 
 
 B_GuitarMusicStaff = {
-    \context GuitarMusicVoice = "GuitarMusicVoice"
+    \context Voice = "GuitarMusicVoice"
     \B_GuitarMusicVoice
 }
 
@@ -5994,26 +5968,26 @@ B_PianoMusicVoice = {
         
         % [B PianoMusicVoice measure 75]                         %! SM4
         \stopStaff                                               %! SM8:REAPPLIED_STAFF_LINES:SM37
-        \once \override PianoMusicStaff.StaffSymbol.line-count = 1 %! SM8:REAPPLIED_STAFF_LINES:SM37
+        \once \override Staff.StaffSymbol.line-count = 5         %! SM8:REAPPLIED_STAFF_LINES:SM37
         \startStaff                                              %! SM8:REAPPLIED_STAFF_LINES:SM37
         \ottava #1                                               %! SC
-        \set PianoMusicStaff.instrumentName = \markup {          %! SM8:REAPPLIED_INSTRUMENT:SM37
+        \set Staff.instrumentName = \markup {                    %! SM8:REAPPLIED_INSTRUMENT:SM37
             \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
                 #16                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
                 Piano                                            %! SM8:REAPPLIED_INSTRUMENT:SM37
             }                                                    %! SM8:REAPPLIED_INSTRUMENT:SM37
-        \set PianoMusicStaff.shortInstrumentName = \markup {     %! SM8:REAPPLIED_INSTRUMENT:SM37
+        \set Staff.shortInstrumentName = \markup {               %! SM8:REAPPLIED_INSTRUMENT:SM37
             \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
                 #10                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
                 Pf.                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             }                                                    %! SM8:REAPPLIED_INSTRUMENT:SM37
         \clef "treble"                                           %! SM8:REAPPLIED_CLEF:SM37
-        \once \override PianoMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-    %@% \override PianoMusicStaff.Clef.color = ##f               %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-        \set PianoMusicStaff.forceClef = ##t                     %! SM8:REAPPLIED_CLEF:SM33:SM37
-        \once \override PianoMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-        \once \override PianoMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
-        \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+        \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
+    %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+        \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
+        \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
+        \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         df''''16
         \fff                                                     %! SM8:REDUNDANT_DYNAMIC:IC
         [
@@ -6022,14 +5996,14 @@ B_PianoMusicVoice = {
                 #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                 (“Piano”)                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             }                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \override PianoMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-        \override PianoMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-        \set PianoMusicStaff.instrumentName = \markup {          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+        \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
+        \set Staff.instrumentName = \markup {                    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
                 #16                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
                 Piano                                            %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             }                                                    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-        \set PianoMusicStaff.shortInstrumentName = \markup {     %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+        \set Staff.shortInstrumentName = \markup {               %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
                 #10                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
                 Pf.                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
@@ -6173,7 +6147,7 @@ B_PianoMusicVoice = {
     \times 2/3 {
         
         % [B PianoMusicVoice measure 79]                         %! SM4
-        \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         e''''8
         \ffff                                                    %! SM8:EXPLICIT_DYNAMIC:IC
         [
@@ -6419,7 +6393,7 @@ B_PianoMusicVoice = {
     \times 9/11 {
         
         % [B PianoMusicVoice measure 84]                         %! SM4
-        \once \override PianoMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         c'''16
         -\accent                                                 %! IC
         \fff                                                     %! SM8:EXPLICIT_DYNAMIC:IC
@@ -7337,7 +7311,7 @@ B_PianoMusicVoice = {
 
 
 B_PianoMusicStaff = {
-    \context PianoMusicVoice = "PianoMusicVoice"
+    \context Voice = "PianoMusicVoice"
     \B_PianoMusicVoice
 }
 
@@ -7345,26 +7319,27 @@ B_PianoMusicStaff = {
 B_PercussionMusicVoice = {
     
     % [B PercussionMusicVoice measure 75]                        %! SM4
+    \override Staff.BarLine.bar-extent = #'(0 . 2)               %! SM8:REAPPLIED_PERSISTENT_OVERRIDE:SM37
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \once \override PercussionMusicStaff.StaffSymbol.line-count = 5 %! SM8:REAPPLIED_STAFF_LINES:SM37
+    \once \override Staff.StaffSymbol.line-count = 5             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \set PercussionMusicStaff.instrumentName = \markup {         %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             Percussion                                           %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
-    \set PercussionMusicStaff.shortInstrumentName = \markup {    %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             Perc.                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
-    \once \override PercussionMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override PercussionMusicStaff.Clef.color = ##f              %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set PercussionMusicStaff.forceClef = ##t                    %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-    \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
-    \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     R1 * 1/2
     \sfz                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -7372,14 +7347,14 @@ B_PercussionMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Percussion”)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override PercussionMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-    \set PercussionMusicStaff.instrumentName = \markup {         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Percussion                                           %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-    \set PercussionMusicStaff.shortInstrumentName = \markup {    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Perc.                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
@@ -7395,11 +7370,15 @@ B_PercussionMusicVoice = {
     R1 * 3/4
     
     % [B PercussionMusicVoice measure 79]                        %! SM4
+    \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 1             %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:IC
     \clef "percussion"                                           %! SM8:EXPLICIT_CLEF:IC
-    \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
-%@% \override PercussionMusicStaff.Clef.color = ##f              %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
-    \set PercussionMusicStaff.forceClef = ##t                    %! SM8:EXPLICIT_CLEF:SM33:IC
-    \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     \makeBlue                                                    %! SM24
     c'1
     :32                                                          %! IC
@@ -7412,7 +7391,7 @@ B_PercussionMusicVoice = {
                     \box                                         %! IC
                         "bass drum"                              %! IC
         }                                                        %! IC
-    \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [B PercussionMusicVoice measure 80]                        %! SM4
     \makeBlue                                                    %! SM24
@@ -7443,7 +7422,7 @@ B_PercussionMusicVoice = {
     \repeatTie
     
     % [B PercussionMusicVoice measure 84]                        %! SM4
-    \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
     c'4
     -\staccato                                                   %! IC
@@ -7812,7 +7791,7 @@ B_PercussionMusicVoice = {
     -\tongue #2                                                  %! IC
     
     % [B PercussionMusicVoice measure 104]                       %! SM4
-    \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
     c'2.
     :32                                                          %! IC
@@ -7880,7 +7859,7 @@ B_PercussionMusicVoice = {
 
 
 B_PercussionMusicStaff = {
-    \context PercussionMusicVoice = "PercussionMusicVoice"
+    \context Voice = "PercussionMusicVoice"
     \B_PercussionMusicVoice
 }
 
@@ -7888,22 +7867,22 @@ B_PercussionMusicStaff = {
 B_ViolinMusicVoice = {
     
     % [B ViolinMusicVoice measure 75]                            %! SM4
-    \set ViolinMusicStaff.instrumentName = \markup {             %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             Violin                                               %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
-    \set ViolinMusicStaff.shortInstrumentName = \markup {        %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             Vn.                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
-    \once \override ViolinMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override ViolinMusicStaff.Clef.color = ##f                  %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set ViolinMusicStaff.forceClef = ##t                        %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-    \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     a'2
     \fff                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -7911,14 +7890,14 @@ B_ViolinMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Violin”)                                           %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override ViolinMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-    \set ViolinMusicStaff.instrumentName = \markup {             %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Violin                                               %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-    \set ViolinMusicStaff.shortInstrumentName = \markup {        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Vn.                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
@@ -7930,7 +7909,7 @@ B_ViolinMusicVoice = {
     
     % [B ViolinMusicVoice measure 77]                            %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
-    \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     gff'1.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \glissando                                                   %! SC
@@ -7946,7 +7925,7 @@ B_ViolinMusicVoice = {
     \times 4/5 {
         
         % [B ViolinMusicVoice measure 79]                        %! SM4
-        \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         bff'2.
         \glissando                                               %! SC
         \<                                                       %! HC1
@@ -7984,14 +7963,14 @@ B_ViolinMusicVoice = {
         gff'1
         \glissando                                               %! SC
         
-        \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         aff'2.
         \f                                                       %! HC1
         \glissando                                               %! SC
     }
     
     % [B ViolinMusicVoice measure 84]                            %! SM4
-    \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     bff'2.
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     \glissando                                                   %! SC
@@ -8159,7 +8138,7 @@ B_ViolinMusicVoice = {
 
 
 B_ViolinMusicStaff = {
-    \context ViolinMusicVoice = "ViolinMusicVoice"
+    \context Voice = "ViolinMusicVoice"
     \B_ViolinMusicVoice
 }
 
@@ -8167,22 +8146,22 @@ B_ViolinMusicStaff = {
 B_ViolaMusicVoice = {
     
     % [B ViolaMusicVoice measure 75]                             %! SM4
-    \set ViolaMusicStaff.instrumentName = \markup {              %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             Viola                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
-    \set ViolaMusicStaff.shortInstrumentName = \markup {         %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             Va.                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "alto"                                                 %! SM8:REAPPLIED_CLEF:SM37
-    \once \override ViolaMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override ViolaMusicStaff.Clef.color = ##f                   %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set ViolaMusicStaff.forceClef = ##t                         %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-    \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     gs'2
     \fff                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -8190,14 +8169,14 @@ B_ViolaMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Viola”)                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override ViolaMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-    \set ViolaMusicStaff.instrumentName = \markup {              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Viola                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-    \set ViolaMusicStaff.shortInstrumentName = \markup {         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Va.                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
@@ -8211,7 +8190,7 @@ B_ViolaMusicVoice = {
         
         % [B ViolaMusicVoice measure 77]                         %! SM4
         \override NoteHead.style = #'harmonic                    %! OC1
-        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         gff'1.
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         \glissando                                               %! SC
@@ -8230,7 +8209,7 @@ B_ViolaMusicVoice = {
     \glissando                                                   %! SC
     
     % [B ViolaMusicVoice measure 79]                             %! SM4
-    \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ff'1
     \glissando                                                   %! SC
     \<                                                           %! HC1
@@ -8262,7 +8241,7 @@ B_ViolaMusicVoice = {
         gff'2.
         \glissando                                               %! SC
         
-        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         aff'2
         \f                                                       %! HC1
         \glissando                                               %! SC
@@ -8271,7 +8250,7 @@ B_ViolaMusicVoice = {
     \times 3/5 {
         
         % [B ViolaMusicVoice measure 84]                         %! SM4
-        \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         bff'2
         \fff                                                     %! SM8:EXPLICIT_DYNAMIC:IC
         \glissando                                               %! SC
@@ -8438,7 +8417,7 @@ B_ViolaMusicVoice = {
 
 
 B_ViolaMusicStaff = {
-    \context ViolaMusicVoice = "ViolaMusicVoice"
+    \context Voice = "ViolaMusicVoice"
     \B_ViolaMusicVoice
 }
 
@@ -8446,22 +8425,22 @@ B_ViolaMusicStaff = {
 B_CelloMusicVoice = {
     
     % [B CelloMusicVoice measure 75]                             %! SM4
-    \set CelloMusicStaff.instrumentName = \markup {              %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             Cello                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
-    \set CelloMusicStaff.shortInstrumentName = \markup {         %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             Vc.                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "bass"                                                 %! SM8:REAPPLIED_CLEF:SM37
-    \once \override CelloMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override CelloMusicStaff.Clef.color = ##f                   %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set CelloMusicStaff.forceClef = ##t                         %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     g2
     \fff                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -8469,14 +8448,14 @@ B_CelloMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Cello”)                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override CelloMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override CelloMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-    \set CelloMusicStaff.instrumentName = \markup {              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Cello                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-    \set CelloMusicStaff.shortInstrumentName = \markup {         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Vc.                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
@@ -8488,7 +8467,7 @@ B_CelloMusicVoice = {
     
     % [B CelloMusicVoice measure 77]                             %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
-    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     gff'1
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \glissando                                                   %! SC
@@ -8509,7 +8488,7 @@ B_CelloMusicVoice = {
     \glissando                                                   %! SC
     
     % [B CelloMusicVoice measure 79]                             %! SM4
-    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     dff'1
     \glissando                                                   %! SC
     \<                                                           %! HC1
@@ -8540,14 +8519,14 @@ B_CelloMusicVoice = {
         gff'1
         \glissando                                               %! SC
         
-        \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         aff'2
         \f                                                       %! HC1
         \glissando                                               %! SC
     }
     
     % [B CelloMusicVoice measure 84]                             %! SM4
-    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     bff'4
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     \glissando                                                   %! SC
@@ -8715,7 +8694,7 @@ B_CelloMusicVoice = {
 
 
 B_CelloMusicStaff = {
-    \context CelloMusicVoice = "CelloMusicVoice"
+    \context Voice = "CelloMusicVoice"
     \B_CelloMusicVoice
 }
 
@@ -8723,22 +8702,22 @@ B_CelloMusicStaff = {
 B_ContrabassMusicVoice = {
     
     % [B ContrabassMusicVoice measure 75]                        %! SM4
-    \set ContrabassMusicStaff.instrumentName = \markup {         %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             Contrabass                                           %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
-    \set ContrabassMusicStaff.shortInstrumentName = \markup {    %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             Cb.                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "bass"                                                 %! SM8:REAPPLIED_CLEF:SM37
-    \once \override ContrabassMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override ContrabassMusicStaff.Clef.color = ##f              %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set ContrabassMusicStaff.forceClef = ##t                    %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     <g,, a,>2
     \fff                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -8746,14 +8725,14 @@ B_ContrabassMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Contrabass”)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override ContrabassMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override ContrabassMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-    \set ContrabassMusicStaff.instrumentName = \markup {         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Contrabass                                           %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-    \set ContrabassMusicStaff.shortInstrumentName = \markup {    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Cb.                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
@@ -8764,378 +8743,145 @@ B_ContrabassMusicVoice = {
     \repeatTie
     
     % [B ContrabassMusicVoice measure 77]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
-    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     <gs,, as,>1.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 78]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <gs,, as,>2.
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 79]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
-    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     <gs,, as,>1
     \<                                                           %! HC1
     \p                                                           %! HC1
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 80]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <gs,, as,>2.
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 81]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <gs,, as,>1
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 82]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <gs,, as,>2.
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <gs,, as,>2
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 83]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
-    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     <gs,, as,>1
     \repeatTie
     \f                                                           %! HC1
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 84]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
-    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     <gs,, as,>2.
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-                \line                                            %! IC
-                    {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "estr. sul pont."                %! IC
-                    }                                            %! IC
-                \line                                            %! SM14
-                    {                                            %! SM14
-                        @                                        %! SM14
-                    }                                            %! SM14
-            }
-        }
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "estr. sul pont."                                %! IC
+        }                                                        %! IC
     
     % [B ContrabassMusicVoice measure 85]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <gs,, as,>1
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 86]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <gs,, as,>2.
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <gs,, as,>2
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 87]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <gs,, as,>2.
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 88]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <gs,, as,>2
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 89]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <gs,, as,>1.
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 90]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <gs,, as,>2
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 91]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <gs,, as,>2.
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <gs,, as,>2
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 92]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <gs,, as,>2.
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 93]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <gs,, as,>1
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 94]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <gs,, as,>1.
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 95]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <gs,, as,>2
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 96]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <gs,, as,>2
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 97]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <gs,, as,>2.
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 98]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <gs,, as,>1
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 99]                        %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <gs,, as,>2
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 100]                       %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <g,, a,>2
-    ^ \markup {
-        \column
-            {
-                \line                                            %! IC
-                    {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "arco ordinario"                 %! IC
-                    }                                            %! IC
-                \line                                            %! SM14
-                    {                                            %! SM14
-                        @                                        %! SM14
-                    }                                            %! SM14
-            }
-        }
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "arco ordinario"                                 %! IC
+        }                                                        %! IC
     
     % [B ContrabassMusicVoice measure 101]                       %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <g,, a,>1.
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 102]                       %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <g,, a,>1
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 103]                       %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <g,, a,>2.
     \repeatTie
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 104]                       %! SM4
-    \once \override Accidental.color = #red
-    \once \override Beam.color = #red
-    \once \override Dots.color = #red
-    \once \override NoteHead.color = #red
-    \once \override Stem.color = #red
     <g,, a,>2.
-    - \tweak color #red                                          %! SM14
-    ^ \markup { @ }                                              %! SM14
     
     % [B ContrabassMusicVoice measure 105]                       %! SM4
     r1
     
     % [B ContrabassMusicVoice measure 106]                       %! SM4
     \once \override TrillPitchHead.stencil = #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
-    \once \override ContrabassMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                                %! SC
     g,,2.
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
@@ -9176,6 +8922,6 @@ B_ContrabassMusicVoice = {
 
 
 B_ContrabassMusicStaff = {
-    \context ContrabassMusicVoice = "ContrabassMusicVoice"
+    \context Voice = "ContrabassMusicVoice"
     \B_ContrabassMusicVoice
 }

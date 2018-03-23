@@ -214,6 +214,17 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='PercussionMusicVoice',
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    after=True,
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(0, 2),
+                                    ),
+                                ),
+                            abjad.Momento(
+                                context='PercussionMusicVoice',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
