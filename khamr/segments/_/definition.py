@@ -421,13 +421,13 @@ maker(
 maker(
     ('FluteMusicVoice', (1, 2)),
     baca.dynamic('mp'),
-    baca.pitches('<G3 G4>'),
+    baca.pitch('<G3 G4>'),
     khamr.levine_multiphonic(17),
     )
 
 maker(
     ('FluteMusicVoice', (3, 5)),
-    baca.pitches('<G#3 G#4>'),
+    baca.pitch('<G#3 G#4>'),
     khamr.levine_multiphonic(22),
     )
 
@@ -435,7 +435,7 @@ maker(
     ('FluteMusicVoice', (6, 7)),
     baca.hairpin('mp > pp'),
     baca.map(baca.trill_spanner(), baca.qruns()),
-    baca.pitches('A4'),
+    baca.pitch('A4'),
     )
 
 # oboe
@@ -456,7 +456,7 @@ maker(
     baca.dynamic('pp'),
     baca.flageolets(),
     baca.markup.put_reed_back_in(),
-    baca.pitches('<A4 E5>'),
+    baca.pitch('<A4 E5>'),
     baca.staff_lines(5),
     )
 
@@ -465,7 +465,7 @@ maker(
 maker(
     ('ClarinetMusicVoice', (1, 7)),
     baca.dynamic('pp'),
-    baca.pitches('A2'),
+    baca.pitch('A2'),
     )
 
 # saxophone
@@ -473,13 +473,13 @@ maker(
 maker(
     ('SaxophoneMusicVoice', (1, 5)),
     baca.dynamic('pp'),
-    baca.pitches('G3'),
+    baca.pitch('G3'),
     )
 
 maker(
     ('SaxophoneMusicVoice', (6, 7)),
     baca.dynamic('p'),
-    baca.pitches('<F3 G+3>'),
+    baca.pitch('<F3 G+3>'),
     khamr.weiss_multiphonic(77),
     )
 
