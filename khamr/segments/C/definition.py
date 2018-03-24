@@ -410,10 +410,7 @@ maker(
     )
 
 maker(
-    baca.scopes(
-        ['ViolinMusicVoice', 'ViolaMusicVoice', 'CelloMusicVoice'],
-        [(1, 7)],
-        ),
+    (['ViolinMusicVoice', 'ViolaMusicVoice', 'CelloMusicVoice'], (1, 7)),
     baca.staff_position(0),
     )
 
@@ -423,55 +420,59 @@ maker(
     )
 
 maker(
-    baca.scopes([
+    ([
         'ViolinMusicVoice',
         'ViolaMusicVoice',
         'CelloMusicVoice',
-        'ContrabassMusicVoice'],
-        [(1, 7)],
+        'ContrabassMusicVoice',
+        ],
+        (1, 7),
         ),
     baca.staff_lines(1),
     )
 
 maker(
-    baca.scopes([
+    ([
         'ViolinMusicVoice',
         'ViolaMusicVoice',
         'CelloMusicVoice',
-        'ContrabassMusicVoice'],
-        [(1, 7)],
+        'ContrabassMusicVoice',
+        ],
+        (1, 7),
         ),
     baca.alternate_bow_strokes(),
     )
 
 maker(
-    baca.scopes(['ViolinMusicVoice', 'ViolaMusicVoice'], [(1, 7)]),
+    (['ViolinMusicVoice', 'ViolaMusicVoice'], (1, 7)),
     baca.markup.bow_on_wooden_mute(),
     )
 
 maker(
-    baca.scopes(['CelloMusicVoice', 'ContrabassMusicVoice'], [(1, 7)]),
+    (['CelloMusicVoice', 'ContrabassMusicVoice'], (1, 7)),
     baca.markup.bow_on_tailpiece(),
     )
 
 maker(
-    baca.scopes([
+    ([
         'ViolinMusicVoice',
         'ViolaMusicVoice',
         'CelloMusicVoice',
-        'ContrabassMusicVoice'],
-        [(1, 3)],
+        'ContrabassMusicVoice',
+        ],
+        (1, 3),
         ),
     baca.dynamic('p'),
     )
 
 maker(
-    baca.scopes([
+    ([
         'ViolinMusicVoice',
         'ViolaMusicVoice',
         'CelloMusicVoice',
-        'ContrabassMusicVoice'],
-        [(4, 7)],
+        'ContrabassMusicVoice',
+        ],
+        (4, 7),
         ),
     baca.hairpin('p > ppp'),
     )

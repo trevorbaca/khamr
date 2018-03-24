@@ -623,10 +623,7 @@ maker(
 # upperstrings
 
 maker(
-    baca.scopes(
-        ['ViolinMusicVoice', 'ViolaMusicVoice', 'CelloMusicVoice'],
-        [(2, 6)],
-        ),
+    (['ViolinMusicVoice', 'ViolaMusicVoice', 'CelloMusicVoice'], (2, 6)),
     baca.pitches(khamr.rose_pitch_classes.invert().transpose(6)),
     baca.glissando(),
     baca.markup.estr_sul_pont(),
@@ -635,26 +632,17 @@ maker(
     )
 
 maker(
-    baca.scopes(
-        ['ViolinMusicVoice', 'ViolaMusicVoice', 'CelloMusicVoice'],
-        [2],
-        ),
+    (['ViolinMusicVoice', 'ViolaMusicVoice', 'CelloMusicVoice'], 2),
     baca.dynamic('p'),
     )
 
 maker(
-    baca.scopes(
-        ['ViolinMusicVoice', 'ViolaMusicVoice', 'CelloMusicVoice'],
-        [5],
-        ),
+    (['ViolinMusicVoice', 'ViolaMusicVoice', 'CelloMusicVoice'], 5),
     baca.dynamic('fff'),
     )
 
 maker(
-    baca.scopes(
-        ['ViolinMusicVoice', 'ViolaMusicVoice', 'CelloMusicVoice'],
-        [(3, 4)],
-        ),
+    (['ViolinMusicVoice', 'ViolaMusicVoice', 'CelloMusicVoice'], (3, 4)),
     baca.hairpin('pp < f'),
     )
 
