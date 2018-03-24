@@ -1,6 +1,7 @@
 import abjad
 import baca
 import khamr
+import os
 from abjad import rhythmmakertools as rhythmos
 
 
@@ -20,6 +21,7 @@ maker = baca.SegmentMaker(
         (5, khamr.metronome_marks['126']),
         ],
     metronome_mark_stem_height=1.25,
+    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=khamr.time_signatures[:30],
     transpose_score=True,
     validate_measure_count=30,
@@ -65,7 +67,7 @@ guitar_ritardando = guitar_accelerando.reverse()
 # flute
 
 maker(
-    ('FluteMusicVoice', (1, 2)),
+    ('fl', (1, 2)),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
@@ -93,7 +95,7 @@ maker(
 # oboe
 
 maker(
-    ('OboeMusicVoice', (1, 2)),
+    ('ob', (1, 2)),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
@@ -121,7 +123,7 @@ maker(
 # clarinet
 
 maker(
-    ('ClarinetMusicVoice', (1, 3)),
+    ('cl', (1, 3)),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
@@ -150,7 +152,7 @@ maker(
 # saxophone
 
 maker(
-    ('SaxophoneMusicVoice', (1, 2)),
+    ('sax', (1, 2)),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
@@ -178,7 +180,7 @@ maker(
 # guitar
 
 maker(
-    ('GuitarMusicVoice', 1),
+    ('gt', 1),
     baca.RhythmCommand(
         division_maker=baca.DivisionMaker()
             .split_by_durations(
@@ -197,7 +199,7 @@ maker(
     )
 
 maker(
-    ('GuitarMusicVoice', (2, 3)),
+    ('gt', (2, 3)),
     baca.RhythmCommand(
         rewrite_meter=True,
         rhythm_maker=rhythmos.NoteRhythmMaker(
@@ -215,7 +217,7 @@ maker(
 # piano
 
 maker(
-    ('PianoMusicVoice', (1, 3)),
+    ('pf', (1, 3)),
     baca.RhythmCommand(
         rewrite_meter=True,
         rhythm_maker=rhythmos.NoteRhythmMaker(
@@ -231,12 +233,12 @@ maker(
     )
 
 maker(
-    ('PianoMusicVoice', 4),
+    ('pf', 4),
     khamr.alternate_divisions(strip_ties=True),
     )
 
 maker(
-    ('PianoMusicVoice', 5),
+    ('pf', 5),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions(),
         rewrite_meter=True,
@@ -254,7 +256,7 @@ maker(
 # percussion
 
 maker(
-    ('PercussionMusicVoice', (1, 3)),
+    ('perc', (1, 3)),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
@@ -270,7 +272,7 @@ maker(
     )
 
 maker(
-    ('PercussionMusicVoice', 4),
+    ('perc', 4),
     baca.RhythmCommand(
         division_maker=baca.DivisionMaker()
             .split_by_durations(
@@ -300,7 +302,7 @@ maker(
     )
 
 maker(
-    ('PercussionMusicVoice', 5),
+    ('perc', 5),
     baca.RhythmCommand(
         division_maker=khamr.beat_divisions(),
         rhythm_maker=rhythmos.NoteRhythmMaker(
@@ -314,7 +316,7 @@ maker(
 # violin
 
 maker(
-    ('ViolinMusicVoice', (1, 3)),
+    ('vn', (1, 3)),
     baca.RhythmCommand(
         division_maker=khamr.quarter_divisions(),
         rewrite_meter=True,
@@ -335,7 +337,7 @@ maker(
 # viola
 
 maker(
-    ('ViolaMusicVoice', (1, 3)),
+    ('va', (1, 3)),
     baca.RhythmCommand(
         division_maker=khamr.quarter_divisions(),
         rewrite_meter=True,
@@ -356,7 +358,7 @@ maker(
 # cello
 
 maker(
-    ('CelloMusicVoice', (1, 2)),
+    ('vc', (1, 2)),
     baca.RhythmCommand(
         division_maker=khamr.quarter_divisions(),
         rewrite_meter=True,
@@ -375,7 +377,7 @@ maker(
     )
 
 maker(
-    ('CelloMusicVoice', 3),
+    ('vc', 3),
     baca.RhythmCommand(
         rewrite_meter=True,
         rhythm_maker=rhythmos.NoteRhythmMaker(
@@ -393,7 +395,7 @@ maker(
 # contrabass
 
 maker(
-    ('ContrabassMusicVoice', (1, 3)),
+    ('cb', (1, 3)),
     baca.RhythmCommand(
         rewrite_meter=True,
         rhythm_maker=rhythmos.TupletRhythmMaker(
@@ -417,15 +419,15 @@ maker(
     )
 
 winds_guitar_strings = [
-    'FluteMusicVoice',
-    'OboeMusicVoice',
-    'ClarinetMusicVoice',
-    'SaxophoneMusicVoice',
-    'GuitarMusicVoice',
-    'ViolinMusicVoice',
-    'ViolaMusicVoice',
-    'CelloMusicVoice',
-    'ContrabassMusicVoice',
+    'fl',
+    'ob',
+    'cl',
+    'sax',
+    'gt',
+    'vn',
+    'va',
+    'vc',
+    'cb',
     ]
 
 maker(
@@ -441,14 +443,14 @@ maker(
 # flute
 
 maker(
-    ('FluteMusicVoice', (1, 2)),
+    ('fl', (1, 2)),
     baca.hairpin('mp > pp'),
     baca.map(baca.trill_spanner(), baca.qruns()),
     baca.pitch('Bb4'),
     )
 
 maker(
-    ('FluteMusicVoice', (4, 5)),
+    ('fl', (4, 5)),
     baca.reiterated_dynamic('fff'),
     baca.pitch('B5'),
     baca.stem_tremolo(),
@@ -459,13 +461,13 @@ maker(
 # oboe
 
 maker(
-    ('OboeMusicVoice', (1, 2)),
+    ('ob', (1, 2)),
     baca.pitch('<A4 E5>'),
     baca.flageolets(),
     )
 
 maker(
-    ('OboeMusicVoice', (4, 5)),
+    ('ob', (4, 5)),
     baca.reiterated_dynamic('fff'),
     baca.pitch('G#3'),
     )
@@ -473,12 +475,12 @@ maker(
 # clarinet
 
 maker(
-    ('ClarinetMusicVoice', (1, 3)),
+    ('cl', (1, 3)),
     baca.pitch('G2'),
     )
 
 maker(
-    ('ClarinetMusicVoice', (4, 5)),
+    ('cl', (4, 5)),
     baca.reiterated_dynamic('fff'),
     baca.pitch('F#2'),
     )
@@ -486,12 +488,12 @@ maker(
 # saxophone
 
 maker(
-    ('SaxophoneMusicVoice', (1, 2)),
+    ('sax', (1, 2)),
     baca.pitch('<F3 G+3>'),
     )
 
 maker(
-    ('SaxophoneMusicVoice', (4, 5)),
+    ('sax', (4, 5)),
     baca.reiterated_dynamic('fff'),
     baca.pitch('G#2'),
     )
@@ -499,20 +501,20 @@ maker(
 # guitar
 
 maker(
-    ('GuitarMusicVoice', 1),
+    ('gt', 1),
     baca.pitches(khamr.rose_pitch_classes.rotate(-16)),
     baca.cross_note_heads(),
     )
 
 maker(
-    ('GuitarMusicVoice', (2, 3)),
+    ('gt', (2, 3)),
     baca.dynamic('mf'),
     baca.pitch('F#2'),
     khamr.markup.sparse_guitar_clicks(),
     )
 
 maker(
-    ('GuitarMusicVoice', (4, 5)),
+    ('gt', (4, 5)),
     baca.dynamic('ff'),
     baca.pitch('G2'),
     khamr.markup.guitar_with_screw(),
@@ -521,13 +523,13 @@ maker(
 # piano
 
 maker(
-    ('PianoMusicVoice', (1, 3)),
+    ('pf', (1, 3)),
     baca.repeat_ties_up(),
     baca.staff_position(0),
     )
 
 maker(
-    ('PianoMusicVoice', 4),
+    ('pf', 4),
     baca.clef('bass'),
     baca.ottava_bassa(),
     baca.pitch('<A0 B0 C1 D1 E1 F1 G1 A1>'),
@@ -537,7 +539,7 @@ maker(
     )
 
 maker(
-    ('PianoMusicVoice', 5),
+    ('pf', 5),
     baca.clef('treble'),
     baca.dynamic('fff'),
     baca.ottava(),
@@ -548,7 +550,7 @@ maker(
 # percussion
 
 maker(
-    ('PercussionMusicVoice', (1, 3)),
+    ('perc', (1, 3)),
     baca.accents(),
     baca.pitches('C4 C4 Ab5 C4 C4 C4', allow_repeats=True),
     baca.stems_down(),
@@ -556,7 +558,7 @@ maker(
     )
 
 maker(
-    ('PercussionMusicVoice', (4, 5)),
+    ('perc', (4, 5)),
     baca.pitch('Ab5'),
     baca.stems_down(),
     khamr.MarimbaHitCommand([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
@@ -565,28 +567,28 @@ maker(
 # violin
 
 maker(
-    ('ViolinMusicVoice', 1),
+    ('vn', 1),
     baca.pitches(khamr.color_trill_pitches.transpose(1)),
     )
 
 maker(
-    ('ViolinMusicVoice', 2),
+    ('vn', 2),
     baca.pitches(khamr.color_trill_pitches.transpose(2)),
     )
 
 maker(
-    ('ViolinMusicVoice', 3),
+    ('vn', 3),
     baca.pitches(khamr.color_trill_pitches.transpose(3)),
     )
 
 maker(
-    ('ViolinMusicVoice', (1, 3)),
+    ('vn', (1, 3)),
     baca.accents(),
     baca.map(baca.trill_spanner('m2'), baca.plts()),
     )
 
 maker(
-    ('ViolinMusicVoice', (4, 5)),
+    ('vn', (4, 5)),
     baca.markup.arco_ordinario(),
     baca.pitch('A4'),
     baca.reiterated_dynamic('fff'),
@@ -595,28 +597,28 @@ maker(
 # viola
 
 maker(
-    ('ViolaMusicVoice', 1),
+    ('va', 1),
     baca.pitches(khamr.color_trill_pitches),
     )
 
 maker(
-    ('ViolaMusicVoice', 2),
+    ('va', 2),
     baca.pitches(khamr.color_trill_pitches.transpose(1)),
     )
 
 maker(
-    ('ViolaMusicVoice', 3),
+    ('va', 3),
     baca.pitches(khamr.color_trill_pitches.transpose(2)),
     )
 
 maker(
-    ('ViolaMusicVoice', (1, 3)),
+    ('va', (1, 3)),
     baca.accents(),
     baca.map(baca.trill_spanner('m2'), baca.plts()),
     )
 
 maker(
-    ('ViolaMusicVoice', (4, 5)),
+    ('va', (4, 5)),
     baca.markup.arco_ordinario(),
     baca.pitch('G#4'),
     baca.reiterated_dynamic('fff'),
@@ -625,21 +627,21 @@ maker(
 # cello
 
 maker(
-    ('CelloMusicVoice', (1, 2)),
+    ('vc', (1, 2)),
     baca.accents(),
     baca.map(baca.trill_spanner('m2'), baca.plts()),
     baca.pitches(khamr.color_trill_pitches),
     )
 
 maker(
-    ('CelloMusicVoice', 3),
+    ('vc', 3),
     baca.dynamic('mf'),
     baca.pitch('F#3'),
     khamr.markup.sparse_cello_clicks(),
     )
 
 maker(
-    ('CelloMusicVoice', (4, 5)),
+    ('vc', (4, 5)),
     baca.markup.arco_ordinario(),
     baca.pitch('G3'),
     baca.reiterated_dynamic('fff'),
@@ -648,7 +650,7 @@ maker(
 # contrabass
 
 maker(
-    ('ContrabassMusicVoice', (1, 3)),
+    ('cb', (1, 3)),
     baca.dynamic('mf'),
     baca.glissando(),
     baca.markup.string_numbers([3, 4]),
@@ -657,7 +659,7 @@ maker(
     )
 
 maker(
-    ('ContrabassMusicVoice', (4, 5)),
+    ('cb', (4, 5)),
     baca.markup.arco_ordinario(),
     baca.pitch('<G0 A1>'),
     baca.reiterated_dynamic('fff'),
