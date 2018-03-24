@@ -506,7 +506,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(['GuitarMusicVoice', 'PianoMusicVoice'], [(4, 7)]),
+    baca.scopes(['GuitarMusicVoice', 'PianoMusicVoice'], [(4, 7)]),
     baca.pitches(khamr.rose_pitch_classes),
     )
 
@@ -641,7 +641,7 @@ maker(
 # strings
 
 maker(
-    baca.make_scopes(
+    baca.scopes(
         ['ViolinMusicVoice',
         'ViolaMusicVoice',
         'CelloMusicVoice',
@@ -652,7 +652,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(
+    baca.scopes(
         ['ViolinMusicVoice',
         'ViolaMusicVoice',
         'CelloMusicVoice'],

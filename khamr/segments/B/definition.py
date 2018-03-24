@@ -623,7 +623,7 @@ maker(
 # upperstrings
 
 maker(
-    baca.make_scopes(
+    baca.scopes(
         ['ViolinMusicVoice', 'ViolaMusicVoice', 'CelloMusicVoice'],
         [(2, 6)],
         ),
@@ -635,7 +635,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(
+    baca.scopes(
         ['ViolinMusicVoice', 'ViolaMusicVoice', 'CelloMusicVoice'],
         [2],
         ),
@@ -643,7 +643,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(
+    baca.scopes(
         ['ViolinMusicVoice', 'ViolaMusicVoice', 'CelloMusicVoice'],
         [5],
         ),
@@ -651,7 +651,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(
+    baca.scopes(
         ['ViolinMusicVoice', 'ViolaMusicVoice', 'CelloMusicVoice'],
         [(3, 4)],
         ),
