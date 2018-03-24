@@ -429,12 +429,12 @@ winds_guitar_strings = [
     ]
 
 maker(
-    baca.scopes(winds_guitar_strings, [4]),
+    (winds_guitar_strings, 4),
     khamr.alternate_divisions(),
     )
 
 maker(
-    baca.scopes(winds_guitar_strings, [5]),
+    (winds_guitar_strings, 5),
     khamr.silent_first_division(),
     )
 
