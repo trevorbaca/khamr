@@ -57,110 +57,32 @@ maker(
 
 maker(
     ('gt', (4, 7)),
-    baca.RhythmCommand(
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            division_masks=[
-                abjad.silence([0], 1),
-                abjad.sustain([0]),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True,
-                ),
-            ),
-        ),
+    baca.make_repeat_tied_notes([abjad.silence([0], 1), abjad.sustain([0])]),
     )
 
 maker(
     ('gt', 8),
-    baca.RhythmCommand(
-        division_maker=baca.DivisionMaker()
-            .fuse_by_counts(
-                counts=abjad.Infinity,
-                )
-            .split_by_durations(
-                durations=[(2, 4), (4, 4), (12, 4)],
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            division_masks=[
-                abjad.silence([0]),
-                abjad.silence([-1]),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True,
-                )
-            ),),
+    khamr.closing(),
     )
 
 maker(
     ('pf', (1, 3)),
-    baca.RhythmCommand(
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            division_masks=[
-                abjad.silence([0], 1),
-                abjad.sustain([-1]),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True,
-                ),
-            ),
-        ),
+    baca.make_repeat_tied_notes([abjad.silence([0], 1), abjad.sustain([-1])]),
     )
 
 maker(
     ('pf', (4, 7)),
-    baca.RhythmCommand(
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            division_masks=[
-                abjad.silence([0], 1),
-                abjad.sustain([0]),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True,
-                ),
-            ),
-        ),
+    baca.make_repeat_tied_notes([abjad.silence([0], 1), abjad.sustain([0])]),
     )
 
 maker(
     ('pf', 8),
-    baca.RhythmCommand(
-        division_maker=baca.DivisionMaker()
-            .fuse_by_counts(
-                counts=abjad.Infinity,
-                )
-            .split_by_durations(
-                durations=[(2, 4), (4, 4), (12, 4)],
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            division_masks=[
-                abjad.silence([0]),
-                abjad.silence([-1]),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True,
-                )
-            ),
-        ),
+    khamr.closing(),
     )
 
 maker(
     ('perc', (1, 2)),
-    baca.RhythmCommand(
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            division_masks=[
-                abjad.silence([-1]),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True,
-                ),
-            )
-        ),
+    baca.make_repeat_tied_notes(abjad.silence([-1])),
     )
 
 maker(
