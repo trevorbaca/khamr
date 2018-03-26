@@ -30,104 +30,29 @@ maker(
     baca.rehearsal_mark('C'),
     )
 
-# flute
-
 maker(
     ('fl', (1, 7)),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions()
-            .fuse_by_counts(
-                counts=[8],
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.IncisedRhythmMaker(
-            incise_specifier=rhythmos.InciseSpecifier(
-                prefix_talea=[-1],
-                prefix_counts=[0],
-                suffix_talea=[-1],
-                suffix_counts=[1],
-                talea_denominator=16,
-                ),
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True
-                ),
-            ),
-        ),
+    khamr.fused_wind([8], None, 16),
     )
-
-# oboe
 
 maker(
     ('ob', (1, 7)),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions()
-            .fuse_by_counts(
-                counts=[10],
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.IncisedRhythmMaker(
-            incise_specifier=rhythmos.InciseSpecifier(
-                prefix_talea=[-1],
-                prefix_counts=[0],
-                suffix_talea=[-1],
-                suffix_counts=[1],
-                talea_denominator=16,
-                ),
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True
-                ),
-            ),
-        ),
+    khamr.fused_wind([10], None, 16),
     )
-
-# clarinet
 
 maker(
     ('cl', (1, 7)),
     baca.make_repeat_tied_notes(),
     )
 
-# saxophone
-
 maker(
     ('sax', (1, 7)),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions()
-            .fuse_by_counts(
-                counts=[12],
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.IncisedRhythmMaker(
-            incise_specifier=rhythmos.InciseSpecifier(
-                prefix_talea=[-1],
-                prefix_counts=[0],
-                suffix_talea=[-1],
-                suffix_counts=[1],
-                talea_denominator=16,
-                ),
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True
-                ),
-            ),
-        ),
+    khamr.fused_wind([12], None, 16),
     )
-
-# guitar
 
 maker(
     ('gt', (1, 3)),
-    baca.RhythmCommand(
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            division_masks=[
-                abjad.silence([0], 1),
-                abjad.sustain([-1]),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True,
-                ),
-            ),
-        ),
+    baca.make_repeat_tied_notes([abjad.silence([0], 1), abjad.sustain([-1])]),
     )
 
 maker(
@@ -167,8 +92,6 @@ maker(
                 )
             ),),
     )
-
-# piano
 
 maker(
     ('pf', (1, 3)),
@@ -225,8 +148,6 @@ maker(
         ),
     )
 
-# percussion
-
 maker(
     ('perc', (1, 2)),
     baca.RhythmCommand(
@@ -246,8 +167,6 @@ maker(
     ('perc', (4, 7)),
     baca.make_repeat_tied_notes(),
     )
-
-# violin
 
 maker(
     ('vn', (1, 7)),
@@ -269,8 +188,6 @@ maker(
         ),
     )
 
-# viola
-
 maker(
     ('va', (1, 7)),
     baca.clef('percussion'),
@@ -290,8 +207,6 @@ maker(
             ),
         ),
     )
-
-# cello
 
 maker(
     ('vc', (1, 7)),
@@ -313,8 +228,6 @@ maker(
         ),
     )
 
-# contrabass
-
 maker(
     ('cb', (1, 7)),
     baca.clef('percussion'),
@@ -335,14 +248,10 @@ maker(
         ),
     )
 
-# flute
-
 maker(
     ('fl', (1, 7)),
     baca.pitch('Bb4'), # (sounds B3)
     )
-
-# oboe
 
 maker(
     ('ob', (1, 7)),
@@ -350,22 +259,16 @@ maker(
     baca.staff_position(0),
     )
 
-# clarinet
-
 maker(
     ('cl', (1, 7)),
     baca.pitch('G2'),
     )
-
-# saxophone
 
 maker(
     ('sax', (1, 7)),
     baca.repeat_ties_up(),
     baca.staff_position(0),
     )
-
-# guitar
 
 maker(
     ('gt', (1, 8)),
@@ -375,16 +278,12 @@ maker(
     baca.dynamic('mf'),
     )
 
-# piano
-
 maker(
     ('pf', (1, 8)),
     baca.accents(),
     baca.pitch('A#4'),
     baca.dynamic('mf'),
     )
-
-# percussion
 
 maker(
     ('perc', (1, 2)),
@@ -398,8 +297,6 @@ maker(
     baca.markup.boxed('snare drum'),
     baca.stem_tremolo(),
     )
-
-# strings
 
 maker(
     ('vn', 1),
