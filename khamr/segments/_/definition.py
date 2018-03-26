@@ -30,35 +30,25 @@ maker = baca.SegmentMaker(
     validate_stage_count=7,
     )
 
-# flute
-
 maker(
     ('fl', (1, 7)),
     khamr.fused_wind([10, 10, 6, 10, 8, 6], abjad.silence([2, 5], 6)),
     )
-
-# oboe
 
 maker(
     ('ob', (1, 7)),
     khamr.fused_wind([12, 6, 10, 10, 6, 8], abjad.silence([1, 4], 6)),
     )
 
-# clarinet
-
 maker(
     ('cl', (1, 7)),
     khamr.fused_wind([8, 6, 10, 6, 10, 8], abjad.silence([1, 3], 6)),
     )
 
-# sax
-
 maker(
     ('sax', (1, 7)),
     khamr.fused_wind([14, 6, 10, 6, 10, 8], abjad.silence([1, 3], 6)),
     )
-
-# guitar
 
 maker(
     ('gt', (1, 3)),
@@ -75,22 +65,9 @@ maker(
     khamr.guitar_isolata([abjad.silence([1, 2, 3, 5, 6, 7, 8], 9)]),
     )
 
-# piano
-
 maker(
     ('pf', (1, 3)),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions()
-            .fuse_by_counts(
-                counts=[20, 8, 20, 4],
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True,
-                )
-            ),
-        ),
+    khamr.fused_expanse([20, 8, 20, 4]),
     )
 
 maker(
@@ -105,35 +82,13 @@ maker(
 
 maker(
     ('pf', 7),
-    baca.RhythmCommand(
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            tie_specifier=rhythmos.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True,
-                )
-            ),
-        ),
+    baca.make_repeat_tied_notes(),
     )
-
-# percussion
 
 maker(
     ('perc', (1, 7)),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions()
-            .fuse_by_counts(
-                counts=[20, 8, 20, 4],
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True,
-                )
-            ),
-        ),
+    khamr.fused_expanse([20, 8, 20, 4]),
     )
-
-# violin
 
 maker(
     ('vn', (1, 5)),
@@ -174,8 +129,6 @@ maker(
         ),
     )
 
-# viola
-
 maker(
     ('va', (1, 5)),
     baca.RhythmCommand(
@@ -215,8 +168,6 @@ maker(
         ),
     )
 
-# cello
-
 maker(
     ('vc', (1, 5)),
     baca.RhythmCommand(
@@ -255,8 +206,6 @@ maker(
             ),
         ),
     )
-
-# contrabass
 
 maker(
     ('cb', (1, 7)),
