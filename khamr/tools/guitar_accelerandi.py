@@ -3,13 +3,13 @@ import baca
 from abjad import rhythmmakertools as rhythmos
 
 
-def guitar_accelerandi(division_masks=None):
+def guitar_accelerandi(fuse_by_counts, division_masks=None):
     r'''Makes guitar accelerandi.
     '''
     return baca.RhythmCommand(
         division_maker=baca.DivisionMaker()
             .fuse_by_counts(
-                counts=[2, 1],
+                counts=fuse_by_counts,
                 )
             .flatten(depth=-1),
         rhythm_maker=rhythmos.AccelerandoRhythmMaker(
