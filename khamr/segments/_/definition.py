@@ -34,112 +34,28 @@ maker = baca.SegmentMaker(
 
 maker(
     ('fl', (1, 7)),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions()
-            .fuse_by_counts(
-                counts=[10, 10, 6, 10, 8, 6],
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.IncisedRhythmMaker(
-            incise_specifier=rhythmos.InciseSpecifier(
-                prefix_talea=[-1],
-                prefix_counts=[0],
-                suffix_talea=[-1],
-                suffix_counts=[1],
-                talea_denominator=8,
-                ),
-            division_masks=[
-                abjad.silence([2, 5], 6),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True,
-                ),
-            ),
-        ),
+    khamr.fused_wind([10, 10, 6, 10, 8, 6], abjad.silence([2, 5], 6)),
     )
 
 # oboe
 
 maker(
     ('ob', (1, 7)),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions()
-            .fuse_by_counts(
-                counts=[12, 6, 10, 10, 6, 8],
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.IncisedRhythmMaker(
-            incise_specifier=rhythmos.InciseSpecifier(
-                prefix_talea=[-1],
-                prefix_counts=[0],
-                suffix_talea=[-1],
-                suffix_counts=[1],
-                talea_denominator=8,
-                ),
-            division_masks=[
-                abjad.silence([1, 4], 6),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True,
-                ),
-            ),
-        ),
+    khamr.fused_wind([12, 6, 10, 10, 6, 8], abjad.silence([1, 4], 6)),
     )
 
 # clarinet
 
 maker(
     ('cl', (1, 7)),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions()
-            .fuse_by_counts(
-                counts=[8, 6, 10, 6, 10, 8],
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.IncisedRhythmMaker(
-            incise_specifier=rhythmos.InciseSpecifier(
-                prefix_talea=[-1],
-                prefix_counts=[0],
-                suffix_talea=[-1],
-                suffix_counts=[1],
-                talea_denominator=8,
-                ),
-            division_masks=[
-                abjad.silence([1, 3], 6),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True,
-                ),
-            ),
-        ),
+    khamr.fused_wind([8, 6, 10, 6, 10, 8], abjad.silence([1, 3], 6)),
     )
 
 # sax
 
 maker(
     ('sax', (1, 7)),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions()
-            .fuse_by_counts(
-                counts=[14, 6, 10, 6, 10, 8],
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.IncisedRhythmMaker(
-            incise_specifier=rhythmos.InciseSpecifier(
-                prefix_talea=[-1],
-                prefix_counts=[0],
-                suffix_talea=[-1],
-                suffix_counts=[1],
-                talea_denominator=8,
-                ),
-            division_masks=[
-                abjad.silence([1, 3], 6),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True,
-                ),
-            ),
-        ),
+    khamr.fused_wind([14, 6, 10, 6, 10, 8], abjad.silence([1, 3], 6)),
     )
 
 # guitar
