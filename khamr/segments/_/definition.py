@@ -151,7 +151,7 @@ maker(
 
 maker(
     ('gt', (4, 6)),
-    khamr.guitar_accelerandi(),
+    khamr.guitar_accelerandi([2, 1]),
     )
 
 maker(
@@ -179,37 +179,7 @@ maker(
 
 maker(
     ('pf', (4, 5)),
-    baca.RhythmCommand(
-        division_maker=baca.DivisionMaker()
-            .fuse_by_counts(
-                counts=[3, 2],
-                )
-            .flatten(depth=-1),
-        rhythm_maker=rhythmos.AccelerandoRhythmMaker(
-            beam_specifier=rhythmos.BeamSpecifier(
-                use_feather_beams=True,
-                ),
-            interpolation_specifiers=[
-                rhythmos.InterpolationSpecifier(
-                    start_duration=abjad.Duration(1, 2),
-                    stop_duration=abjad.Duration(1, 8),
-                    written_duration=abjad.Duration(1, 16),
-                    ),
-                rhythmos.InterpolationSpecifier(
-                    start_duration=abjad.Duration(1, 8),
-                    stop_duration=abjad.Duration(1, 2),
-                    written_duration=abjad.Duration(1, 16),
-                    ),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True,
-                ),
-            tuplet_specifier=rhythmos.TupletSpecifier(
-                use_note_duration_bracket=True,
-                ),
-            ),
-        ),
+    khamr.guitar_accelerandi([3,  2]),
     )
 
 maker(
