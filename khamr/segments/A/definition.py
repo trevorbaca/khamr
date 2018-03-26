@@ -2,7 +2,6 @@ import abjad
 import baca
 import khamr
 import os
-from abjad import rhythmmakertools as rhythmos
 
 
 ###############################################################################
