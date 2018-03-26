@@ -2,6 +2,7 @@ from .MarimbaHitCommand import MarimbaHitCommand
 from .MarkupLibrary import MarkupLibrary
 from .ScoreTemplate import ScoreTemplate
 from .alternate_divisions import alternate_divisions
+from .aviary import aviary
 from .beat_divisions import beat_divisions
 from .current import current
 from .fused_expanse import fused_expanse
