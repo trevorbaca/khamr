@@ -4,7 +4,7 @@ import khamr
 from abjad import rhythmmakertools as rhythmos
 
 
-def fused_wind(fuse_by_counts, division_mask):
+def fused_wind(fuse_by_counts, division_mask, denominator=8):
     r'''Makes fused wind rhythm.
     '''
     if division_mask is None:
@@ -25,7 +25,7 @@ def fused_wind(fuse_by_counts, division_mask):
                 prefix_counts=[0],
                 suffix_talea=[-1],
                 suffix_counts=[1],
-                talea_denominator=8,
+                talea_denominator=denominator,
                 ),
             division_masks=division_masks,
             tie_specifier=rhythmos.TieSpecifier(
