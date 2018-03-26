@@ -62,7 +62,7 @@ maker(
 
 maker(
     ('gt', 7),
-    khamr.guitar_isolata([abjad.silence([1, 2, 3, 5, 6, 7, 8], 9)]),
+    khamr.guitar_isolata(abjad.silence([1, 2, 3, 5, 6, 7, 8], 9)),
     )
 
 maker(
@@ -77,7 +77,7 @@ maker(
 
 maker(
     ('pf', 6),
-    khamr.guitar_isolata([abjad.silence([1, 2, 3, 5, 6, 7, 8], 9)]),
+    khamr.guitar_isolata(abjad.silence([1, 2, 3, 5, 6, 7, 8], 9)),
     )
 
 maker(

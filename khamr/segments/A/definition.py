@@ -84,53 +84,17 @@ maker(
 
 maker(
     ('gt', 1),
-    baca.RhythmCommand(
-        division_maker=baca.DivisionMaker()
-            .split_by_durations(
-                durations=[(1, 4)],
-                ),
-        rhythm_maker=rhythmos.TupletRhythmMaker(
-            division_masks=[
-                abjad.silence([1, 2, 3, 5, 6, 7, 8], 9),
-                ],
-            tuplet_ratios=[
-                (-1, 1, -1), (-1, 1, -1), (-1, 1, -2), (-3, 1, -1),
-                (-1, 2), (-2, 1, -1), (-2, 1, -1), (-3, 1, -1),
-                ],
-            ),
-        ),
+    khamr.guitar_isolata(abjad.silence([1, 2, 3, 5, 6, 7, 8], 9)),
     )
 
 maker(
     ('gt', (2, 3)),
-    baca.RhythmCommand(
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            division_masks=[
-                abjad.silence([-1]),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True,
-                ),
-            ),
-        ),
+    baca.make_repeat_tied_notes(abjad.silence([-1])),
     )
 
 maker(
     ('pf', (1, 3)),
-    baca.RhythmCommand(
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            division_masks=[
-                abjad.silence([-1]),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True,
-                ),
-            ),
-        ),
+    baca.make_repeat_tied_notes(abjad.silence([-1])),
     )
 
 maker(
@@ -140,34 +104,12 @@ maker(
 
 maker(
     ('pf', 5),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions(),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.TupletRhythmMaker(
-            division_masks=[
-                stage_5_silence_mask,
-                ],
-            tuplet_ratios=[
-                (1, 1, 1, 1), (1, 1, 1), (1, 1, 1, 1, 1),
-                ],
-            ),
-        ),
+    khamr.current(stage_5_silence_mask),
     )
 
 maker(
     ('perc', (1, 3)),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions()
-            .fuse_by_counts(
-                counts=[8, 20, 4, 20],
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True,
-                )
-            ),
-        ),
+    khamr.fused_expanse([8, 20, 4, 20]),
     )
 
 maker(
