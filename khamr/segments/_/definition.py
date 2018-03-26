@@ -30,14 +30,6 @@ maker = baca.SegmentMaker(
     validate_stage_count=7,
     )
 
-guitar_accelerando = rhythmos.InterpolationSpecifier(
-    start_duration=abjad.Duration(1, 4),
-    stop_duration=abjad.Duration(1, 8),
-    written_duration=abjad.Duration(1, 16),
-    )
-
-guitar_ritardando = guitar_accelerando.reverse()
-
 # flute
 
 maker(
@@ -623,9 +615,9 @@ maker(
     ('cb', (1, 7)),
     baca.dynamic('f'),
     baca.glissando(),
+    baca.markup.string_number(3),
     baca.natural_harmonics(),
     baca.pitches(khamr.contrabass_halo_pitches),
-    baca.markup.string_number(3),
     )
 
 hairpins = [
