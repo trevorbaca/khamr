@@ -73,11 +73,11 @@ i_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((1))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-                \line                                                    %! SM3:STAGE_NUMBER_MARKUP %@%
-                    {                                                    %! SM3:STAGE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP %@%
-                            [_.1]                                        %! SM3:STAGE_NUMBER_MARKUP %@%
-                    }                                                    %! SM3:STAGE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [_.1]                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -317,11 +317,11 @@ i_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((9))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-                \line                                                    %! SM3:STAGE_NUMBER_MARKUP %@%
-                    {                                                    %! SM3:STAGE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP %@%
-                            [_.2]                                        %! SM3:STAGE_NUMBER_MARKUP %@%
-                    }                                                    %! SM3:STAGE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [_.2]                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -562,11 +562,11 @@ i_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((17))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-                \line                                                    %! SM3:STAGE_NUMBER_MARKUP %@%
-                    {                                                    %! SM3:STAGE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP %@%
-                            [_.3]                                        %! SM3:STAGE_NUMBER_MARKUP %@%
-                    }                                                    %! SM3:STAGE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [_.3]                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -862,11 +862,11 @@ i_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((25))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-                \line                                                    %! SM3:STAGE_NUMBER_MARKUP %@%
-                    {                                                    %! SM3:STAGE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP %@%
-                            [_.4]                                        %! SM3:STAGE_NUMBER_MARKUP %@%
-                    }                                                    %! SM3:STAGE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [_.4]                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1046,11 +1046,11 @@ i_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((31))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-                \line                                                    %! SM3:STAGE_NUMBER_MARKUP %@%
-                    {                                                    %! SM3:STAGE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP %@%
-                            [_.5]                                        %! SM3:STAGE_NUMBER_MARKUP %@%
-                    }                                                    %! SM3:STAGE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [_.5]                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1282,11 +1282,11 @@ i_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((37))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-                \line                                                    %! SM3:STAGE_NUMBER_MARKUP %@%
-                    {                                                    %! SM3:STAGE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP %@%
-                            [_.6]                                        %! SM3:STAGE_NUMBER_MARKUP %@%
-                    }                                                    %! SM3:STAGE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [_.6]                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
@@ -1407,11 +1407,11 @@ i_GlobalSkips = {
             %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((41))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-                \line                                                    %! SM3:STAGE_NUMBER_MARKUP %@%
-                    {                                                    %! SM3:STAGE_NUMBER_MARKUP %@%
-                        \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP %@%
-                            [_.7]                                        %! SM3:STAGE_NUMBER_MARKUP %@%
-                    }                                                    %! SM3:STAGE_NUMBER_MARKUP %@%
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%             [_.7]                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
