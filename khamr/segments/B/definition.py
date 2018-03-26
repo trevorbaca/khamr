@@ -149,26 +149,7 @@ maker(
 
 maker(
     ('vn', (2, 6)),
-    baca.RhythmCommand(
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.TupletRhythmMaker(
-            division_masks=[
-                abjad.sustain([0, 1, 3], 7),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True,
-                ),
-            tuplet_ratios=[
-                (4, 3), (3, 4),
-                (3, 2), (2, 3),
-                (2, 1), (1, 2),
-                ],
-            tuplet_specifier=rhythmos.TupletSpecifier(
-                extract_trivial=True,
-                trivialize=True,
-                ),
-            ),
-        ),
+    khamr.continuous_glissandi(0, abjad.sustain([0, 1, 3], 7)),
     )
 
 maker(
@@ -178,26 +159,7 @@ maker(
 
 maker(
     ('va', (2, 6)),
-    baca.RhythmCommand(
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.TupletRhythmMaker(
-            division_masks=[
-                abjad.sustain([1, 2, 4], 7),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True,
-                ),
-            tuplet_ratios=[
-                (3, 2), (2, 3),
-                (2, 1), (1, 2),
-                (4, 3), (3, 4),
-                ],
-            tuplet_specifier=rhythmos.TupletSpecifier(
-                extract_trivial=True,
-                trivialize=True,
-                ),
-            ),
-        ),
+    khamr.continuous_glissandi(-1, abjad.sustain([1, 2, 4], 7)),
     )
 
 maker(
@@ -207,26 +169,7 @@ maker(
 
 maker(
     ('vc', (2, 6)),
-    baca.RhythmCommand(
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.TupletRhythmMaker(
-            division_masks=[
-                abjad.sustain([2, 3, 5], 7),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True,
-                ),
-            tuplet_ratios=[
-                (2, 1), (1, 2),
-                (4, 3), (3, 4),
-                (3, 2), (2, 3),
-                ],
-            tuplet_specifier=rhythmos.TupletSpecifier(
-                extract_trivial=True,
-                trivialize=True,
-                ),
-            ),
-        ),
+    khamr.continuous_glissandi(-2, abjad.sustain([2, 3, 5], 7)),
     )
 
 maker(
@@ -235,35 +178,8 @@ maker(
     )
 
 maker(
-    ('cb', 7),
-    baca.RhythmCommand(
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            division_masks=[
-                abjad.silence([-1]),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True,
-                ),
-            )
-        ),
-    )
-
-maker(
-    ('cb', (8, 9)),
-    baca.RhythmCommand(
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            division_masks=[
-                abjad.silence([-1]),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True
-                ),
-            ),
-        ),
+    ('cb', [7, (8, 9)]),
+    baca.make_repeat_tied_notes(abjad.silence([-1])),
     )
 
 maker(

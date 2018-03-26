@@ -4,6 +4,7 @@ from .ScoreTemplate import ScoreTemplate
 from .alternate_divisions import alternate_divisions
 from .aviary import aviary
 from .beat_divisions import beat_divisions
+from .continuous_glissandi import continuous_glissandi
 from .current import current
 from .fused_expanse import fused_expanse
 from .fused_wind import fused_wind
