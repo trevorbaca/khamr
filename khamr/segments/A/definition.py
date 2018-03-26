@@ -33,28 +33,12 @@ maker(
     baca.rehearsal_mark('A'),
     )
 
-stage_4_silence_mask = rhythmos.SilenceMask(
-    pattern=abjad.index([
-        4, 5,
-        11, 12,
-        17, 18, 19, 20,
-        ]),
-    )
+stage_4_silence_mask = abjad.silence([4, 5, 11, 12, 17, 18, 19, 20])
 
-stage_5_silence_mask = rhythmos.SilenceMask(
-    pattern=abjad.index([
-        0,
-        2,
-        4, 5,
-        7, 8, 9,
-        11,
-        13,
-        15, 16, 17,
-        19, 20, 21,
-        23, 24,
-        26,
-        ]),
-    )
+stage_5_silence_mask = abjad.silence([
+    0, 2, 4, 5, 7, 8, 9, 11, 13,
+    15, 16, 17, 19, 20, 21, 23, 24, 26,
+    ])
 
 maker(
     ('fl', (1, 2)),
@@ -144,18 +128,7 @@ maker(
 
 maker(
     ('vc', 3),
-    baca.RhythmCommand(
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            division_masks=[
-                abjad.silence([-1]),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True,
-                ),
-            ),
-        ),
+    baca.make_repeat_tied_notes(abjad.silence([-1])),
     )
 
 maker(
@@ -166,17 +139,7 @@ maker(
         ),
     )
 
-winds_guitar_strings = [
-    'fl',
-    'ob',
-    'cl',
-    'sax',
-    'gt',
-    'vn',
-    'va',
-    'vc',
-    'cb',
-    ]
+winds_guitar_strings = ['fl', 'ob', 'cl', 'sax', 'gt', 'vn', 'va', 'vc', 'cb']
 
 maker(
     (winds_guitar_strings, 4),
