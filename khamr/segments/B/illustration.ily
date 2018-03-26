@@ -4583,7 +4583,7 @@ B_ClarinetMusicVoice = {
         }                                                        %! SM8:EXPLICIT_INSTRUMENT:IC
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_INSTRUMENT_COLOR:IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    a1
+    a2.
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
         \with-color                                              %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
@@ -4602,7 +4602,7 @@ B_ClarinetMusicVoice = {
             "Bass cl."                                           %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
         }                                                        %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
     
-    a4
+    a2
     \repeatTie
     
     % [B ClarinetMusicVoice measure 107]                         %! SM4
@@ -4618,10 +4618,10 @@ B_ClarinetMusicVoice = {
     \repeatTie
     
     % [B ClarinetMusicVoice measure 110]                         %! SM4
-    a1
+    a2.
     \repeatTie
     
-    a4
+    a2
     \repeatTie
     
     % [B ClarinetMusicVoice measure 111]                         %! SM4

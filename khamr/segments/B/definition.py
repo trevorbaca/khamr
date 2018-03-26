@@ -50,25 +50,7 @@ maker(
 
 maker(
     ('fl', 9),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions()
-            .fuse_by_counts(
-                counts=[8],
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.IncisedRhythmMaker(
-            incise_specifier=rhythmos.InciseSpecifier(
-                prefix_talea=[-1],
-                prefix_counts=[0],
-                suffix_talea=[-1],
-                suffix_counts=[1],
-                talea_denominator=16,
-                ),
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True
-                ),
-            ),
-        ),
+    khamr.fused_wind([8], None, 16),
     )
 
 maker(
@@ -84,28 +66,7 @@ maker(
 
 maker(
     ('ob', 9),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions()
-            .fuse_by_counts(
-                counts=[10],
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.IncisedRhythmMaker(
-            incise_specifier=rhythmos.InciseSpecifier(
-                prefix_talea=[-1],
-                prefix_counts=[0],
-                suffix_talea=[-1],
-                suffix_counts=[1],
-                talea_denominator=16,
-                ),
-            division_masks=[
-                abjad.silence([0]),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True
-                ),
-            ),
-        ),
+    khamr.fused_wind([10], abjad.silence([0]), 16),
     )
 
 maker(
@@ -122,17 +83,7 @@ maker(
 maker(
     ('cl', (8, 9)),
     baca.instrument(khamr.instruments['BassClarinet']),
-    baca.RhythmCommand(
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            division_masks=[
-                abjad.silence([-1]),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True
-                ),
-            ),
-        ),
+    baca.make_repeat_tied_notes(abjad.silence([-1])),
     )
 
 maker(
@@ -148,25 +99,7 @@ maker(
 
 maker(
     ('sax', 9),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions()
-            .fuse_by_counts(
-                counts=[12],
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.IncisedRhythmMaker(
-            incise_specifier=rhythmos.InciseSpecifier(
-                prefix_talea=[-1],
-                prefix_counts=[0],
-                suffix_talea=[-1],
-                suffix_counts=[1],
-                talea_denominator=16,
-                ),
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True
-                ),
-            ),
-        ),
+    khamr.fused_wind([12], None, 16),
     )
 
 maker(
