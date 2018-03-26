@@ -93,81 +93,25 @@ maker(
 maker(
     ('vn', (1, 7)),
     baca.clef('percussion'),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions()
-            .fuse_by_counts(
-                counts=abjad.Infinity,
-                )
-            .split_by_durations(
-                durations=[(7, 4)]
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True
-                ),
-            ),
-        ),
+    baca.make_repeated_duration_notes([(7, 4)]),
     )
 
 maker(
     ('va', (1, 7)),
     baca.clef('percussion'),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions()
-            .fuse_by_counts(
-                counts=abjad.Infinity,
-                )
-            .split_by_durations(
-                durations=[(6, 4)]
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True
-                ),
-            ),
-        ),
+    baca.make_repeated_duration_notes([(6, 4)]),
     )
 
 maker(
     ('vc', (1, 7)),
     baca.clef('percussion'),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions()
-            .fuse_by_counts(
-                counts=abjad.Infinity,
-                )
-            .split_by_durations(
-                durations=[(5, 4)]
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True
-                ),
-            ),
-        ),
+    baca.make_repeated_duration_notes([(5, 4)]),
     )
 
 maker(
     ('cb', (1, 7)),
     baca.clef('percussion'),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions()
-            .fuse_by_counts(
-                counts=abjad.Infinity,
-                )
-            .split_by_durations(
-                durations=[(4, 4)]
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True
-                ),
-            ),
-        ),
+    baca.make_repeated_duration_notes([(4, 4)]),
     )
 
 maker(
