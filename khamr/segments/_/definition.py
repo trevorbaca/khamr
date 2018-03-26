@@ -184,22 +184,7 @@ maker(
 
 maker(
     ('pf', 6),
-    baca.RhythmCommand(
-        division_maker=baca.DivisionMaker()
-            .split_by_durations(
-                durations=[(1, 4)],
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.TupletRhythmMaker(
-            division_masks=[
-                abjad.silence([1, 2, 3, 5, 6, 7, 8], 9),
-                ],
-            tuplet_ratios=[
-                (-1, 1, -1), (-1, 1, -1), (-1, 1, -2), (-3, 1, -1),
-                (-1, 2), (-2, 1, -1), (-2, 1, -1), (-3, 1, -1),
-                ],
-            ),
-        ),
+    khamr.guitar_isolata([abjad.silence([1, 2, 3, 5, 6, 7, 8], 9)]),
     )
 
 maker(
