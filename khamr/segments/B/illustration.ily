@@ -7734,13 +7734,9 @@ B_PercussionMusicVoice = {
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
-    c'8
+    c'4.
     -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
-    ~
-    
-    % [B PercussionMusicVoice measure 101]                       %! SM4
-    c'4
     
     \makeBlue                                                    %! SM24
     c'4.
@@ -7748,12 +7744,9 @@ B_PercussionMusicVoice = {
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
-    c'8
+    c'4.
     -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
-    ~
-    
-    c'4
     
     \makeBlue                                                    %! SM24
     c'4.
@@ -7761,13 +7754,9 @@ B_PercussionMusicVoice = {
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
-    c'8
+    c'4.
     -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
-    ~
-    
-    % [B PercussionMusicVoice measure 102]                       %! SM4
-    c'4
     
     \makeBlue                                                    %! SM24
     c'4.

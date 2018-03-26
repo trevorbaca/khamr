@@ -114,41 +114,12 @@ maker(
 
 maker(
     ('pf', (1, 4)),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions(),
-        rhythm_maker=rhythmos.TupletRhythmMaker(
-            tuplet_ratios=[
-                (1, 1, 1, 1), (1, 1, 1, 1), (1, 1, 1, 1), (1, 1, 1),
-
-                (1, 1, 1, 1, 1), (1, 1, 1, 1, 1), (1, 1, 1, 1, 1),
-                (1, 1, 1), (1, 1, 1),
-
-                (1, 1, 1, 1), (1, 1, 1, 1), (1, 1, 1), (1, 1, 1),
-
-                (1, 1, 1, 1, 1), (1, 1, 1, 1, 1),
-                (1, 1, 1, 1, 1), (1, 1, 1, 1, 1),
-                (1, 1, 1, 1, 1),
-
-                ],
-            ),
-        ),
+    khamr.current([4, 4, 4, 3, 5, 5, 5, 3, 3, 4, 4, 3, 3, 5, 5, 5, 5, 5]),
     )
 
 maker(
     ('pf', (5, 6)),
-    baca.RhythmCommand(
-        division_maker=baca.DivisionMaker()
-            .fuse_by_counts(
-                counts=abjad.Infinity,
-                )
-            .split_by_durations(
-                durations=[(9, 16)],
-                ),
-        rhythm_maker=rhythmos.EvenDivisionRhythmMaker(
-            denominators=[16],
-            extra_counts_per_division=[2],
-            ),
-        ),
+    khamr.aviary((9, 16), [2]),
     )
 
 maker(
@@ -158,26 +129,12 @@ maker(
 
 maker(
     ('perc', 5),
-    baca.RhythmCommand(
-        division_maker=khamr.quarter_divisions(),
-        rhythm_maker=rhythmos.NoteRhythmMaker(),
-        ),
+    baca.make_repeated_duration_notes([(1, 4)], rewrite_meter=False),
     )
 
 maker(
     ('perc', 6),
-    baca.RhythmCommand(
-        division_maker=baca.DivisionMaker()
-            .fuse_by_counts(
-                counts=abjad.Infinity,
-                )
-            .split_by_durations(
-                durations=[(3, 8)],
-                remainder=abjad.Left,
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(),
-        ),
+    baca.make_repeated_duration_notes([(3, 8)], rewrite_meter=False),
     )
 
 maker(

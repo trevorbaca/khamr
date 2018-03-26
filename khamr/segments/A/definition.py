@@ -88,7 +88,7 @@ maker(
 
 maker(
     ('pf', 5),
-    khamr.current(stage_5_silence_mask),
+    khamr.current([4, 3, 5], stage_5_silence_mask),
     )
 
 maker(

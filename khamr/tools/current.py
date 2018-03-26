@@ -4,20 +4,19 @@ import khamr
 from abjad import rhythmmakertools as rhythmos
 
 
-def current(division_mask):
+def current(counts, division_mask=None):
     r'''Makes current rhythm.
     '''
     if division_mask is None:
         division_masks = None
     else:
         division_masks = [division_mask]
+    tuplet_ratios = [_ * (1,) for _ in counts]
     return baca.RhythmCommand(
         division_maker=khamr.beat_divisions(),
         rewrite_meter=True,
         rhythm_maker=rhythmos.TupletRhythmMaker(
             division_masks=division_masks,
-            tuplet_ratios=[
-                (1, 1, 1, 1), (1, 1, 1), (1, 1, 1, 1, 1),
-                ],
+            tuplet_ratios=tuplet_ratios,
             ),
         )
