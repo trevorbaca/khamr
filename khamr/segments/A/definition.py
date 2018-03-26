@@ -144,14 +144,7 @@ maker(
 
 maker(
     ('perc', 5),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions(),
-        rhythm_maker=rhythmos.NoteRhythmMaker(
-            division_masks=[
-                stage_5_silence_mask,
-                ],
-            ),
-        ),
+    khamr.fused_expanse(None, stage_5_silence_mask),
     )
 
 maker(
