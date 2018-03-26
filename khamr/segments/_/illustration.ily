@@ -2751,44 +2751,33 @@ i_GuitarMusicVoice = {
     
     % [_ GuitarMusicVoice measure 4]                             %! SM4
     r2.
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [_ GuitarMusicVoice measure 5]                         %! SM4
-        r8
-        
-        c'16
-        
-        r16
-    }
+    
+    % [_ GuitarMusicVoice measure 5]                             %! SM4
+    r8
+    
+    c'16
+    
+    r16
     
     r2.
     
     % [_ GuitarMusicVoice measure 6]                             %! SM4
     r4
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        r16
-        
-        a'16
-        
-        r8
-    }
     
-    r4
+    r16
+    
+    a'16
+    
+    r4.
     
     % [_ GuitarMusicVoice measure 7]                             %! SM4
     r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        r8
-        
-        d'16
-        
-        r16
-    }
+    
+    r8
+    
+    d'16
+    
+    r16
     
     r4
     
@@ -2840,18 +2829,15 @@ i_GuitarMusicVoice = {
     }
     
     r1
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [_ GuitarMusicVoice measure 13]                        %! SM4
-        r8
-        
-        ef'16
-        
-        r16
-    }
     
-    r2
+    % [_ GuitarMusicVoice measure 13]                            %! SM4
+    r8
+    
+    ef'16
+    
+    r8.
+    
+    r4.
     
     % [_ GuitarMusicVoice measure 14]                            %! SM4
     r4
@@ -2865,33 +2851,29 @@ i_GuitarMusicVoice = {
     }
     
     % [_ GuitarMusicVoice measure 15]                            %! SM4
-    r1
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        r8
-        
-        b'16
-        
-        r16
-    }
+    r2.
+    
+    r4.
+    
+    b'16
+    
+    r16
     
     r4
     
     % [_ GuitarMusicVoice measure 16]                            %! SM4
     r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [_ GuitarMusicVoice measure 17]                        %! SM4
-        r16
-        
-        a'16
-        
-        r8
-    }
     
-    r1
+    % [_ GuitarMusicVoice measure 17]                            %! SM4
+    r16
+    
+    a'16
+    
+    r8
+    
+    r2
+    
+    r2
     \times 4/5 {
         
         % [_ GuitarMusicVoice measure 18]                        %! SM4
@@ -2957,15 +2939,12 @@ i_GuitarMusicVoice = {
     
     % [_ GuitarMusicVoice measure 24]                            %! SM4
     r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        r8
-        
-        fs'16
-        
-        r16
-    }
+    
+    r8
+    
+    fs'16
+    
+    r16
     
     r4
     \override TupletNumber.text = \markup {
@@ -3587,19 +3566,16 @@ i_GuitarMusicVoice = {
     r2
     
     % [_ GuitarMusicVoice measure 44]                            %! SM4
-    r4
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        r8
-        
-        cs''16
-        \revert NoteHead.style                                   %! OC2
-        
-        r16
-    }
+    r4.
     
-    r1
+    cs''16
+    \revert NoteHead.style                                       %! OC2
+    
+    r16
+    
+    r4
+    
+    r2.
     \revert TupletBracket.staff-padding                          %! OC2
     
 }
