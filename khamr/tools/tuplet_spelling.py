@@ -6,4 +6,5 @@ def tuplet_spelling():
     '''
     return rhythmos.TupletSpecifier(
         extract_trivial=True,
+        trivialize=True,
         )
