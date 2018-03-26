@@ -1967,9 +1967,7 @@ A_GuitarMusicVoice = {
     r4
     
     % [A GuitarMusicVoice measure 46]                            %! SM4
-    r4
-    
-    r4
+    r2
     \times 2/3 {
         
         % [A GuitarMusicVoice measure 47]                        %! SM4
@@ -1978,13 +1976,9 @@ A_GuitarMusicVoice = {
         fs''4
     }
     
-    r4
+    r2
     
-    r4
-    
-    r4
-    
-    r4
+    r2
     \times 2/3 {
         
         r8
@@ -1996,11 +1990,7 @@ A_GuitarMusicVoice = {
     }
     
     % [A GuitarMusicVoice measure 48]                            %! SM4
-    r4
-    
-    r4
-    
-    r4
+    r2.
     
     % [A GuitarMusicVoice measure 49]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
