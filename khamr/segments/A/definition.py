@@ -160,23 +160,23 @@ maker(
 
 maker(
     ('fl', (4, 5)),
-    baca.reiterated_dynamic('fff'),
-    baca.pitch('B5'),
-    baca.stem_tremolo(),
-    baca.markup.fluttertongue(),
     baca.instrument(khamr.instruments['Flute']),
+    baca.markup.fluttertongue(),
+    baca.pitch('B5'),
+    baca.reiterated_dynamic('fff'),
+    baca.stem_tremolo(),
     )
 
 maker(
     ('ob', (1, 2)),
-    baca.pitch('<A4 E5>'),
     baca.flageolets(),
+    baca.pitch('<A4 E5>'),
     )
 
 maker(
     ('ob', (4, 5)),
-    baca.reiterated_dynamic('fff'),
     baca.pitch('G#3'),
+    baca.reiterated_dynamic('fff'),
     )
 
 maker(
@@ -186,8 +186,8 @@ maker(
 
 maker(
     ('cl', (4, 5)),
-    baca.reiterated_dynamic('fff'),
     baca.pitch('F#2'),
+    baca.reiterated_dynamic('fff'),
     )
 
 maker(
@@ -197,14 +197,14 @@ maker(
 
 maker(
     ('sax', (4, 5)),
-    baca.reiterated_dynamic('fff'),
     baca.pitch('G#2'),
+    baca.reiterated_dynamic('fff'),
     )
 
 maker(
     ('gt', 1),
-    baca.pitches(khamr.rose_pitch_classes.rotate(-16)),
     baca.cross_note_heads(),
+    baca.pitches(khamr.rose_pitch_classes.rotate(-16)),
     )
 
 maker(
