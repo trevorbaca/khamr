@@ -106,7 +106,10 @@ maker(
                 repeat_ties=True,
                 ),
             tuplet_ratios=khamr.string_tuplet_ratios(4),
-            tuplet_specifier=khamr.tuplet_spelling(),
+            tuplet_specifier=rhythmos.TupletSpecifier(
+                extract_trivial=True,
+                trivialize=True,
+                ),
             ),
         ),
     )
@@ -127,7 +130,10 @@ maker(
                 repeat_ties=True,
                 ),
             tuplet_ratios=khamr.string_tuplet_ratios(3),
-            tuplet_specifier=khamr.tuplet_spelling(),
+            tuplet_specifier=rhythmos.TupletSpecifier(
+                extract_trivial=True,
+                trivialize=True,
+                ),
             ),
         ),
     )
@@ -148,7 +154,10 @@ maker(
                 repeat_ties=True,
                 ),
             tuplet_ratios=khamr.string_tuplet_ratios(2),
-            tuplet_specifier=khamr.tuplet_spelling(),
+            tuplet_specifier=rhythmos.TupletSpecifier(
+                extract_trivial=True,
+                trivialize=True,
+                ),
             ),
         ),
     )

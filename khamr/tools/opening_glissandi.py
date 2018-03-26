@@ -21,7 +21,10 @@ def opening_glissandi(tuplet_ratio_rotation, division_mask):
         rhythm_maker=rhythmos.TupletRhythmMaker(
             division_masks=division_masks,
             tuplet_ratios=tuplet_ratios,
-            tuplet_specifier=khamr.tuplet_spelling(),
+            tuplet_specifier=rhythmos.TupletSpecifier(
+                extract_trivial=True,
+                trivialize=True,
+                ),
             tie_specifier=rhythmos.TieSpecifier(
                 tie_across_divisions=True,
                 repeat_ties=True,

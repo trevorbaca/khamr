@@ -337,7 +337,10 @@ maker(
                 (3, 2), (2, 3),
                 (2, 1), (1, 2),
                 ],
-            tuplet_specifier=khamr.tuplet_spelling(),
+            tuplet_specifier=rhythmos.TupletSpecifier(
+                extract_trivial=True,
+                trivialize=True,
+                ),
             ),
         ),
     )
@@ -365,7 +368,10 @@ maker(
                 (2, 1), (1, 2),
                 (4, 3), (3, 4),
                 ],
-            tuplet_specifier=khamr.tuplet_spelling(),
+            tuplet_specifier=rhythmos.TupletSpecifier(
+                extract_trivial=True,
+                trivialize=True,
+                ),
             ),
         ),
     )
@@ -393,7 +399,10 @@ maker(
                 (4, 3), (3, 4),
                 (3, 2), (2, 3),
                 ],
-            tuplet_specifier=khamr.tuplet_spelling(),
+            tuplet_specifier=rhythmos.TupletSpecifier(
+                extract_trivial=True,
+                trivialize=True,
+                ),
             ),
         ),
     )
