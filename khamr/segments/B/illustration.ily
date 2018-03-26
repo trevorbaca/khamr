@@ -5963,86 +5963,77 @@ B_GuitarMusicStaff = {
 
 
 B_PianoMusicVoice = {
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [B PianoMusicVoice measure 75]                         %! SM4
-        \stopStaff                                               %! SM8:REAPPLIED_STAFF_LINES:SM37
-        \once \override Staff.StaffSymbol.line-count = 5         %! SM8:REAPPLIED_STAFF_LINES:SM37
-        \startStaff                                              %! SM8:REAPPLIED_STAFF_LINES:SM37
-        \ottava #1                                               %! SC
-        \set Staff.instrumentName = \markup {                    %! SM8:REAPPLIED_INSTRUMENT:SM37
-            \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
-                #16                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
-                Piano                                            %! SM8:REAPPLIED_INSTRUMENT:SM37
-            }                                                    %! SM8:REAPPLIED_INSTRUMENT:SM37
-        \set Staff.shortInstrumentName = \markup {               %! SM8:REAPPLIED_INSTRUMENT:SM37
-            \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
-                #10                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
-                Pf.                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
-            }                                                    %! SM8:REAPPLIED_INSTRUMENT:SM37
-        \clef "treble"                                           %! SM8:REAPPLIED_CLEF:SM37
-        \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
-    %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-        \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
-        \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-        \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
-        df''''16
-        \fff                                                     %! SM8:REDUNDANT_DYNAMIC:IC
-        [
-        ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-                (“Piano”)                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            }                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-        \set Staff.instrumentName = \markup {                    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                #16                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                Piano                                            %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            }                                                    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-        \set Staff.shortInstrumentName = \markup {               %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                #10                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                Pf.                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            }                                                    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-        
-        d''''16
-        
-        f''''16
-        
-        c''''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        af'''16
-        [
-        
-        g'''16
-        
-        e''''16
-        
-        c''''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [B PianoMusicVoice measure 76]                         %! SM4
-        b'''16
-        [
-        
-        df''''16
-        
-        ef''''16
-        
-        f''''16
-        ]
-    }
+    
+    % [B PianoMusicVoice measure 75]                             %! SM4
+    \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
+    \once \override Staff.StaffSymbol.line-count = 5             %! SM8:REAPPLIED_STAFF_LINES:SM37
+    \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
+    \ottava #1                                                   %! SC
+    \set Staff.instrumentName = \markup {                        %! SM8:REAPPLIED_INSTRUMENT:SM37
+        \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
+            #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
+            Piano                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
+        }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REAPPLIED_INSTRUMENT:SM37
+        \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
+            #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
+            Pf.                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
+        }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    df''''16
+    \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
+    [
+    ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Piano”)                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+        \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+            #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+            Piano                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+        }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+        \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+            #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+            Pf.                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+        }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    
+    d''''16
+    
+    f''''16
+    
+    c''''16
+    ]
+    
+    af'''16
+    [
+    
+    g'''16
+    
+    e''''16
+    
+    c''''16
+    ]
+    
+    % [B PianoMusicVoice measure 76]                             %! SM4
+    b'''16
+    [
+    
+    df''''16
+    
+    ef''''16
+    
+    f''''16
+    ]
     \times 2/3 {
         
         e''''8
@@ -6096,17 +6087,14 @@ B_PianoMusicVoice = {
         df''''16.
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        d''''8
-        [
-        
-        f''''8
-        
-        ef''''8
-        ]
-    }
+    
+    d''''8
+    [
+    
+    f''''8
+    
+    ef''''8
+    ]
     \times 2/3 {
         
         % [B PianoMusicVoice measure 78]                         %! SM4
@@ -6118,32 +6106,26 @@ B_PianoMusicVoice = {
         df''''8
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        bf'''16
-        [
-        
-        a'''16
-        
-        e''''16
-        
-        fs'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        f''''16
-        [
-        
-        c''''16
-        
-        df''''16
-        
-        d''''16
-        ]
-    }
+    
+    bf'''16
+    [
+    
+    a'''16
+    
+    e''''16
+    
+    fs'''16
+    ]
+    
+    f''''16
+    [
+    
+    c''''16
+    
+    df''''16
+    
+    d''''16
+    ]
     \times 2/3 {
         
         % [B PianoMusicVoice measure 79]                         %! SM4
@@ -6239,45 +6221,36 @@ B_PianoMusicVoice = {
         ef''''16
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        f''''16
-        [
-        
-        e''''16
-        
-        fs'''16
-        
-        bf'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        a'''16
-        [
-        
-        c''''16
-        
-        af'''16
-        
-        g'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        e''''16
-        [
-        
-        f''''16
-        
-        b'''16
-        
-        df''''16
-        ]
-    }
+    
+    f''''16
+    [
+    
+    e''''16
+    
+    fs'''16
+    
+    bf'''16
+    ]
+    
+    a'''16
+    [
+    
+    c''''16
+    
+    af'''16
+    
+    g'''16
+    ]
+    
+    e''''16
+    [
+    
+    f''''16
+    
+    b'''16
+    
+    df''''16
+    ]
     \times 2/3 {
         
         % [B PianoMusicVoice measure 82]                         %! SM4
@@ -6352,32 +6325,26 @@ B_PianoMusicVoice = {
         af'''8
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        g'''16
-        [
-        
-        fs'''16
-        
-        bf'''16
-        
-        a'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        e''''16
-        [
-        
-        d''''16
-        
-        f''''16
-        
-        c''''16
-        ]
-    }
+    
+    g'''16
+    [
+    
+    fs'''16
+    
+    bf'''16
+    
+    a'''16
+    ]
+    
+    e''''16
+    [
+    
+    d''''16
+    
+    f''''16
+    
+    c''''16
+    ]
     \times 2/3 {
         
         df''''8
