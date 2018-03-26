@@ -2,7 +2,6 @@ import abjad
 import baca
 import khamr
 import os
-from abjad import rhythmmakertools as rhythmos
 
 
 ###############################################################################
@@ -139,16 +138,16 @@ maker(
 maker(
     ('gt', (1, 8)),
     baca.accents(),
+    baca.dynamic('mf'),
     baca.flageolets(),
     baca.pitch('C4'),
-    baca.dynamic('mf'),
     )
 
 maker(
     ('pf', (1, 8)),
     baca.accents(),
-    baca.pitch('A#4'),
     baca.dynamic('mf'),
+    baca.pitch('A#4'),
     )
 
 maker(

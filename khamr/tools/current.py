@@ -18,5 +18,9 @@ def current(counts, division_mask=None):
         rhythm_maker=rhythmos.TupletRhythmMaker(
             division_masks=division_masks,
             tuplet_ratios=tuplet_ratios,
+            tuplet_specifier=rhythmos.TupletSpecifier(
+                extract_trivial=True,
+                trivialize=True,
+                ),
             ),
         )

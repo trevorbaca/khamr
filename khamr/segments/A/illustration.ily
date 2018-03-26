@@ -2309,35 +2309,29 @@ A_PianoMusicVoice = {
     
     % [A PianoMusicVoice measure 66]                             %! SM4
     r4
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        bf'''16
-        [
-        
-        gf'''16
-        
-        f''''16
-        
-        d''''16
-        ]
-    }
+    
+    bf'''16
+    [
+    
+    gf'''16
+    
+    f''''16
+    
+    d''''16
+    ]
     
     % [A PianoMusicVoice measure 67]                             %! SM4
     r2
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        bf'''16
-        [
-        
-        a'''16
-        
-        cf''''16
-        
-        df''''16
-        ]
-    }
+    
+    bf'''16
+    [
+    
+    a'''16
+    
+    cf''''16
+    
+    df''''16
+    ]
     
     % [A PianoMusicVoice measure 68]                             %! SM4
     r2.
@@ -2354,19 +2348,16 @@ A_PianoMusicVoice = {
     
     % [A PianoMusicVoice measure 69]                             %! SM4
     r4
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        af'''16
-        [
-        
-        g'''16
-        
-        bf'''16
-        
-        gf'''16
-        ]
-    }
+    
+    af'''16
+    [
+    
+    g'''16
+    
+    bf'''16
+    
+    gf'''16
+    ]
     
     % [A PianoMusicVoice measure 70]                             %! SM4
     r4
@@ -2389,19 +2380,22 @@ A_PianoMusicVoice = {
     r2.
     
     r4.
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        df''''16.
-        [
-        
-        g'''16.
-        
-        d''''16.
-        
-        e''''16.
-        ]
-    }
+    
+    df''''16.
+    [
+    
+    g'''32
+    ~
+    
+    g'''16
+    
+    d''''16
+    ~
+    
+    d''''32
+    
+    e''''16.
+    ]
     
     % [A PianoMusicVoice measure 72]                             %! SM4
     r2.
@@ -2431,21 +2425,24 @@ A_PianoMusicVoice = {
     
     % [A PianoMusicVoice measure 74]                             %! SM4
     r4.
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        ef''''16.
-        [
-        
-        a'''16.
-        
-        cf''''16.
-        
-        af'''16.
-        ]
-        \ottava #0                                               %! SC
-        
-    }
+    
+    ef''''16.
+    [
+    
+    a'''32
+    ~
+    
+    a'''16
+    
+    cf''''16
+    ~
+    
+    cf''''32
+    
+    af'''16.
+    ]
+    \ottava #0                                                   %! SC
+    
 }
 
 
