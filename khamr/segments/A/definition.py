@@ -56,120 +56,31 @@ stage_5_silence_mask = rhythmos.SilenceMask(
         ]),
     )
 
-# flute
-
 maker(
     ('fl', (1, 2)),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions()
-            .fuse_by_counts(
-                counts=[10, 10, 6, 10, 8, 6],
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.IncisedRhythmMaker(
-            incise_specifier=rhythmos.InciseSpecifier(
-                prefix_talea=[-1],
-                prefix_counts=[0],
-                suffix_talea=[-1],
-                suffix_counts=[1],
-                talea_denominator=8,
-                ),
-            division_masks=[
-                abjad.silence([2, 5], 6),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True,
-                ),
-            ),
-        ),
+    khamr.fused_wind([10, 10, 6, 8, 6], abjad.silence([2, 5], 6)),
     )
-
-# oboe
 
 maker(
     ('ob', (1, 2)),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions()
-            .fuse_by_counts(
-                counts=[12, 6, 10, 10, 6, 8],
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.IncisedRhythmMaker(
-            incise_specifier=rhythmos.InciseSpecifier(
-                prefix_talea=[-1],
-                prefix_counts=[0],
-                suffix_talea=[-1],
-                suffix_counts=[1],
-                talea_denominator=8,
-                ),
-            division_masks=[
-                abjad.silence([1, 4], 6),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True,
-                ),
-            ),
-        ),
+    khamr.fused_wind([12, 6, 10, 10, 6, 8], abjad.silence([1, 4], 6)),
     )
-
-# clarinet
 
 maker(
     ('cl', (1, 3)),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions()
-            .fuse_by_counts(
-                counts=[8, 6, 10, 6, 10, 8],
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.IncisedRhythmMaker(
-            incise_specifier=rhythmos.InciseSpecifier(
-                prefix_talea=[-1],
-                prefix_counts=[0],
-                suffix_talea=[-1],
-                suffix_counts=[1],
-                talea_denominator=8,
-                ),
-            division_masks=[
-                abjad.silence([1, 3], 6),
-                abjad.silence([-1]),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True,
-                ),
-            ),
+    khamr.fused_wind(
+        [8, 6, 10, 6, 10, 8],
+        [abjad.silence([1, 3], 6), abjad.silence([-1])],
         ),
     )
-
-# saxophone
 
 maker(
     ('sax', (1, 2)),
-    baca.RhythmCommand(
-        division_maker=khamr.beat_divisions()
-            .fuse_by_counts(
-                counts=[14, 6, 10, 6, 10, 8],
-                ),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.IncisedRhythmMaker(
-            incise_specifier=rhythmos.InciseSpecifier(
-                prefix_talea=[-1],
-                prefix_counts=[0],
-                suffix_talea=[-1],
-                suffix_counts=[1],
-                talea_denominator=8,
-                ),
-            division_masks=[
-                abjad.silence([1, 3], 6),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                repeat_ties=True,
-                ),
-            ),
+    khamr.fused_wind(
+        [14, 6, 10, 6, 10, 8],
+        abjad.silence([1, 3], 6),
         ),
     )
-
-# guitar
 
 maker(
     ('gt', 1),
@@ -205,8 +116,6 @@ maker(
             ),
         ),
     )
-
-# piano
 
 maker(
     ('pf', (1, 3)),
@@ -244,8 +153,6 @@ maker(
             ),
         ),
     )
-
-# percussion
 
 maker(
     ('perc', (1, 3)),
@@ -305,8 +212,6 @@ maker(
         ),
     )
 
-# violin
-
 maker(
     ('vn', (1, 3)),
     baca.RhythmCommand(
@@ -329,8 +234,6 @@ maker(
         ),
     )
 
-# viola
-
 maker(
     ('va', (1, 3)),
     baca.RhythmCommand(
@@ -352,8 +255,6 @@ maker(
             ),
         ),
     )
-
-# cello
 
 maker(
     ('vc', (1, 2)),
@@ -392,8 +293,6 @@ maker(
             ),
         ),
     )
-
-# contrabass
 
 maker(
     ('cb', (1, 3)),
@@ -444,8 +343,6 @@ maker(
     khamr.silent_first_division(),
     )
 
-# flute
-
 maker(
     ('fl', (1, 2)),
     baca.hairpin('mp > pp'),
@@ -462,8 +359,6 @@ maker(
     baca.instrument(khamr.instruments['Flute']),
     )
 
-# oboe
-
 maker(
     ('ob', (1, 2)),
     baca.pitch('<A4 E5>'),
@@ -476,8 +371,6 @@ maker(
     baca.pitch('G#3'),
     )
 
-# clarinet
-
 maker(
     ('cl', (1, 3)),
     baca.pitch('G2'),
@@ -489,8 +382,6 @@ maker(
     baca.pitch('F#2'),
     )
 
-# saxophone
-
 maker(
     ('sax', (1, 2)),
     baca.pitch('<F3 G+3>'),
@@ -501,8 +392,6 @@ maker(
     baca.reiterated_dynamic('fff'),
     baca.pitch('G#2'),
     )
-
-# guitar
 
 maker(
     ('gt', 1),
@@ -523,8 +412,6 @@ maker(
     baca.pitch('G2'),
     khamr.markup.guitar_with_screw(),
     )
-
-# piano
 
 maker(
     ('pf', (1, 3)),
@@ -551,8 +438,6 @@ maker(
     khamr.sixth_octave(),
     )
 
-# percussion
-
 maker(
     ('perc', (1, 3)),
     baca.accents(),
@@ -567,8 +452,6 @@ maker(
     baca.stems_down(),
     khamr.MarimbaHitCommand([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
     )
-
-# violin
 
 maker(
     ('vn', 1),
@@ -598,8 +481,6 @@ maker(
     baca.reiterated_dynamic('fff'),
     )
 
-# viola
-
 maker(
     ('va', 1),
     baca.pitches(khamr.color_trill_pitches),
@@ -628,8 +509,6 @@ maker(
     baca.reiterated_dynamic('fff'),
     )
 
-# cello
-
 maker(
     ('vc', (1, 2)),
     baca.accents(),
@@ -650,8 +529,6 @@ maker(
     baca.pitch('G3'),
     baca.reiterated_dynamic('fff'),
     )
-
-# contrabass
 
 maker(
     ('cb', (1, 3)),
