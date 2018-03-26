@@ -11,6 +11,7 @@ from .halo_hairpins import halo_hairpins
 from .levine_multiphonic import levine_multiphonic
 from .narrow_fourth_octave import narrow_fourth_octave
 from .narrow_sixth_octave import narrow_sixth_octave
+from .opening_glissandi import opening_glissandi
 from .quarter_divisions import quarter_divisions
 from .silent_first_division import silent_first_division
 from .sixth_octave import sixth_octave
