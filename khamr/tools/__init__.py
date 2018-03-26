@@ -3,6 +3,7 @@ from .MarkupLibrary import MarkupLibrary
 from .ScoreTemplate import ScoreTemplate
 from .alternate_divisions import alternate_divisions
 from .beat_divisions import beat_divisions
+from .fused_wind import fused_wind
 from .guitar_accelerandi import guitar_accelerandi
 from .guitar_isolata import guitar_isolata
 from .halo_hairpins import halo_hairpins
