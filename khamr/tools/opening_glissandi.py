@@ -15,7 +15,10 @@ def opening_glissandi(tuplet_ratio_rotation, division_mask):
         ])
     tuplet_ratio_rotation *= 3
     tuplet_ratios = tuplet_ratios.rotate(n=tuplet_ratio_rotation)
-    division_masks = [division_mask]
+    if isinstance(division_mask, list):
+        division_masks = division_mask[:]
+    else:
+        division_masks = [division_mask]
     return baca.RhythmCommand(
         rewrite_meter=True,
         rhythm_maker=rhythmos.TupletRhythmMaker(

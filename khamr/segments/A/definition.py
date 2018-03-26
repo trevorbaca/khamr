@@ -149,68 +149,17 @@ maker(
 
 maker(
     ('vn', (1, 3)),
-    baca.RhythmCommand(
-        division_maker=khamr.quarter_divisions(),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.TupletRhythmMaker(
-            division_masks=[
-                abjad.silence([-2, -1]),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True,
-                ),
-            tuplet_ratios=khamr.string_tuplet_ratios(4),
-            tuplet_specifier=rhythmos.TupletSpecifier(
-                extract_trivial=True,
-                trivialize=True,
-                ),
-            ),
-        ),
+    khamr.trill_tuplets(4, abjad.silence([-2, -1])),
     )
 
 maker(
     ('va', (1, 3)),
-    baca.RhythmCommand(
-        division_maker=khamr.quarter_divisions(),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.TupletRhythmMaker(
-            division_masks=[
-                abjad.silence([-2, -1]),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True,
-                ),
-            tuplet_ratios=khamr.string_tuplet_ratios(3),
-            tuplet_specifier=rhythmos.TupletSpecifier(
-                extract_trivial=True,
-                trivialize=True,
-                ),
-            ),
-        ),
+    khamr.trill_tuplets(3, abjad.silence([-2, -1])),
     )
 
 maker(
     ('vc', (1, 2)),
-    baca.RhythmCommand(
-        division_maker=khamr.quarter_divisions(),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.TupletRhythmMaker(
-            division_masks=[
-                abjad.silence([-2, -1]),
-                ],
-            tie_specifier=rhythmos.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True,
-                ),
-            tuplet_ratios=khamr.string_tuplet_ratios(2),
-            tuplet_specifier=rhythmos.TupletSpecifier(
-                extract_trivial=True,
-                trivialize=True,
-                ),
-            ),
-        ),
+    khamr.trill_tuplets(2, abjad.silence([-2, -1])),
     )
 
 maker(
@@ -231,28 +180,9 @@ maker(
 
 maker(
     ('cb', (1, 3)),
-    baca.RhythmCommand(
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.TupletRhythmMaker(
-            division_masks=[
-                abjad.sustain([0, 1, 4, 6], 7),
-                abjad.silence([-1]),
-                ],
-            tuplet_ratios=[
-                (6, 1), (6, 1), (6, 1),
-                (4, 1), (4, 1), (4, 1),
-                (3, 1), (3, 1), (3, 1),
-                (2, 1), (2, 1), (2, 1),
-                ],
-            tuplet_specifier=rhythmos.TupletSpecifier(
-                extract_trivial=True,
-                trivialize=True,
-                ),
-            tie_specifier=rhythmos.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True,
-                )
-            ),
+    khamr.opening_glissandi(
+        -3,
+        [abjad.sustain([0, 1, 4, 6], 7), abjad.silence([-1])],
         ),
     )
 
