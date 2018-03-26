@@ -26,5 +26,9 @@ def guitar_isolata(division_masks=None):
                 (-1, 1, -1), (-1, 1, -1), (-1, 1, -2), (-3, 1, -1),
                 (-1, 2), (-2, 1, -1), (-2, 1, -1), (-3, 1, -1),
                 ],
+            tuplet_specifier=rhythmos.TupletSpecifier(
+                extract_trivial=True,
+                trivialize=True,
+                ),
             ),
         )
