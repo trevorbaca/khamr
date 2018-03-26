@@ -16,5 +16,6 @@ from .quarter_divisions import quarter_divisions
 from .silent_first_division import silent_first_division
 from .sixth_octave import sixth_octave
 from .string_tuplet_ratios import string_tuplet_ratios
+from .trill_tuplets import trill_tuplets
 from .weiss_multiphonic import weiss_multiphonic
 from .wide_third_octave import wide_third_octave

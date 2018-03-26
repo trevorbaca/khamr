@@ -97,21 +97,7 @@ maker(
 
 maker(
     ('vn', (6, 7)),
-    baca.RhythmCommand(
-        division_maker=khamr.quarter_divisions(),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.TupletRhythmMaker(
-            tie_specifier=rhythmos.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True,
-                ),
-            tuplet_ratios=khamr.string_tuplet_ratios(4),
-            tuplet_specifier=rhythmos.TupletSpecifier(
-                extract_trivial=True,
-                trivialize=True,
-                ),
-            ),
-        ),
+    khamr.trill_tuplets(4),
     )
 
 maker(
@@ -121,21 +107,7 @@ maker(
 
 maker(
     ('va', (6, 7)),
-    baca.RhythmCommand(
-        division_maker=khamr.quarter_divisions(),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.TupletRhythmMaker(
-            tie_specifier=rhythmos.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True,
-                ),
-            tuplet_ratios=khamr.string_tuplet_ratios(3),
-            tuplet_specifier=rhythmos.TupletSpecifier(
-                extract_trivial=True,
-                trivialize=True,
-                ),
-            ),
-        ),
+    khamr.trill_tuplets(3),
     )
 
 maker(
@@ -145,29 +117,13 @@ maker(
 
 maker(
     ('vc', (6, 7)),
-    baca.RhythmCommand(
-        division_maker=khamr.quarter_divisions(),
-        rewrite_meter=True,
-        rhythm_maker=rhythmos.TupletRhythmMaker(
-            tie_specifier=rhythmos.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True,
-                ),
-            tuplet_ratios=khamr.string_tuplet_ratios(2),
-            tuplet_specifier=rhythmos.TupletSpecifier(
-                extract_trivial=True,
-                trivialize=True,
-                ),
-            ),
-        ),
+    khamr.trill_tuplets(2),
     )
 
 maker(
     ('cb', (1, 7)),
     khamr.opening_glissandi(-3, abjad.sustain([0, 1, 4, 6], 7)),
     )
-
-# flute
 
 maker(
     ('fl', (1, 2)),
@@ -189,8 +145,6 @@ maker(
     baca.pitch('A4'),
     )
 
-# oboe
-
 maker(
     ('ob', (1, 5)),
     baca.clef('percussion'),
@@ -211,15 +165,11 @@ maker(
     baca.staff_lines(5),
     )
 
-# clarinet
-
 maker(
     ('cl', (1, 7)),
     baca.dynamic('pp'),
     baca.pitch('A2'),
     )
-
-# saxophone
 
 maker(
     ('sax', (1, 5)),
@@ -233,8 +183,6 @@ maker(
     baca.pitch('<F3 G+3>'),
     khamr.weiss_multiphonic(77),
     )
-
-# guitar
 
 maker(
     ('gt', (1, 3)),
@@ -260,8 +208,6 @@ maker(
     (['gt', 'pf'], (4, 7)),
     baca.pitches(khamr.rose_pitch_classes),
     )
-
-# piano
 
 maker(
     ('pf', (1, 3)),
@@ -294,8 +240,6 @@ maker(
     khamr.markup.sparse_piano_clicks(),
     )
 
-# percussion
-
 maker(
     ('perc', (1, 7)),
     baca.accents(),
@@ -308,8 +252,6 @@ maker(
     baca.stems_down(),
     khamr.MarimbaHitCommand([3, 7], attach_first_markup=True),
     )
-
-# violin
 
 maker(
     ('vn', (1, 5)),
@@ -328,8 +270,6 @@ maker(
     baca.pitches(khamr.color_trill_pitches),
     )
 
-# viola
-
 maker(
     ('va', (1, 5)),
     baca.glissando(),
@@ -347,8 +287,6 @@ maker(
     baca.pitches(khamr.color_trill_pitches),
     )
 
-# cello
-
 maker(
     ('vc', (1, 5)),
     baca.glissando(),
@@ -365,8 +303,6 @@ maker(
     baca.markup.molto_flautando_e_pont(),
     baca.pitches(khamr.color_trill_pitches),
     )
-
-# contrabass
 
 maker(
     ('cb', (1, 7)),
@@ -388,8 +324,6 @@ maker(
         baca.plts(),
         ),
     )
-
-# strings
 
 maker(
     (['vn', 'va', 'vc', 'cb'], (1, 7)),
