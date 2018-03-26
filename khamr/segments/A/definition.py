@@ -56,14 +56,6 @@ stage_5_silence_mask = rhythmos.SilenceMask(
         ]),
     )
 
-guitar_accelerando = rhythmos.InterpolationSpecifier(
-    start_duration=abjad.Duration(1, 4),
-    stop_duration=abjad.Duration(1, 8),
-    written_duration=abjad.Duration(1, 16),
-    )
-
-guitar_ritardando = guitar_accelerando.reverse()
-
 # flute
 
 maker(
