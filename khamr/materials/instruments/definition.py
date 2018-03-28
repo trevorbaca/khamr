@@ -6,6 +6,7 @@ instruments = abjad.OrderedDict([
     (
         'BaritoneSaxophone',
         abjad.BaritoneSaxophone(
+            hide=True,
             markup=baca.markup.instrument('Baritone saxophone'),
             short_markup=baca.markup.short_instrument('Bar. sax.'),
             )
@@ -13,6 +14,7 @@ instruments = abjad.OrderedDict([
     (
         'BassClarinet',
         abjad.BassClarinet(
+            hide=True,
             markup=baca.markup.instrument('Bass clarinet'),
             short_markup=baca.markup.short_instrument('Bass cl.'),
             )
@@ -20,6 +22,7 @@ instruments = abjad.OrderedDict([
     (
         'BassFlute',
         abjad.BassFlute(
+            hide=True,
             markup=baca.markup.instrument('Bass flute'),
             short_markup=baca.markup.short_instrument('Bass fl.'),
             )
@@ -27,6 +30,7 @@ instruments = abjad.OrderedDict([
     (
         'Cello',
         abjad.Cello(
+            hide=True,
             markup=baca.markup.instrument('Cello'),
             short_markup=baca.markup.short_instrument('Vc.'),
             )
@@ -34,6 +38,7 @@ instruments = abjad.OrderedDict([
     (
         'Clarinet',
         abjad.ClarinetInBFlat(
+            hide=True,
             markup=baca.markup.instrument('Clarinet'),
             short_markup=baca.markup.short_instrument('Cl.'),
             )
@@ -41,6 +46,7 @@ instruments = abjad.OrderedDict([
     (
         'Contrabass',
         abjad.Contrabass(
+            hide=True,
             markup=baca.markup.instrument('Contrabass'),
             short_markup=baca.markup.short_instrument('Cb.'),
             )
@@ -48,6 +54,7 @@ instruments = abjad.OrderedDict([
     (
         'EnglishHorn',
         abjad.EnglishHorn(
+            hide=True,
             markup=baca.markup.instrument('English horn'),
             short_markup=baca.markup.short_instrument('Eng. hn.'),
             )
@@ -55,6 +62,7 @@ instruments = abjad.OrderedDict([
     (
         'Flute',
         abjad.Flute(
+            hide=True,
             markup=baca.markup.instrument('Flute'),
             short_markup=baca.markup.short_instrument('Fl.'),
             )
@@ -62,6 +70,7 @@ instruments = abjad.OrderedDict([
     (
         'Guitar',
         abjad.Guitar(
+            hide=True,
             markup=baca.markup.instrument('Guitar'),
             short_markup=baca.markup.short_instrument('Gt.'),
             )
@@ -69,6 +78,7 @@ instruments = abjad.OrderedDict([
     (
         'Oboe',
         abjad.Oboe(
+            hide=True,
             markup=baca.markup.instrument('Oboe'),
             short_markup=baca.markup.short_instrument('Ob.'),
             )
@@ -76,6 +86,7 @@ instruments = abjad.OrderedDict([
     (
         'Percussion',
         abjad.Percussion(
+            hide=True,
             markup=baca.markup.instrument('Percussion'),
             short_markup=baca.markup.short_instrument('Perc.'),
             )
@@ -83,6 +94,7 @@ instruments = abjad.OrderedDict([
     (
         'Piano',
         abjad.Piano(
+            hide=True,
             context='Staff',
             markup=baca.markup.instrument('Piano'),
             short_markup=baca.markup.short_instrument('Pf.'),
@@ -91,6 +103,7 @@ instruments = abjad.OrderedDict([
     (
         'Piccolo',
         abjad.Piccolo(
+            hide=True,
             markup=baca.markup.instrument('Piccolo'),
             short_markup=baca.markup.short_instrument('Picc.'),
             )
@@ -98,6 +111,7 @@ instruments = abjad.OrderedDict([
     (
         'SopraninoSaxophone',
         abjad.SopraninoSaxophone(
+            hide=True,
             markup=baca.markup.instrument('Sopranino saxophone'),
             short_markup=baca.markup.short_instrument('Sopr. sax.'),
             )
@@ -105,6 +119,7 @@ instruments = abjad.OrderedDict([
     (
         'Viola',
         abjad.Viola(
+            hide=True,
             markup=baca.markup.instrument('Viola'),
             short_markup=baca.markup.short_instrument('Va.'),
             )
@@ -112,6 +127,7 @@ instruments = abjad.OrderedDict([
     (
         'Violin',
         abjad.Violin(
+            hide=True,
             markup=baca.markup.instrument('Violin'),
             short_markup=baca.markup.short_instrument('Vn.'),
             )
