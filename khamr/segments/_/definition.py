@@ -2,7 +2,6 @@ import abjad
 import baca
 import khamr
 import os
-from abjad import rhythmmakertools as rhythmos
 
 
 ###############################################################################
@@ -28,6 +27,94 @@ maker = baca.SegmentMaker(
     transpose_score=True,
     validate_measure_count=44,
     validate_stage_count=7,
+    )
+
+maker(
+    'fl',
+    baca.suite([
+        khamr.margin_markup('B. fl.'),
+        baca.start_markup(['Bass', 'flute'], hcenter_in=16),
+        ]),
+    )
+
+maker(
+    'ob',
+    baca.suite([
+        khamr.margin_markup('Eng. hn.'),
+        baca.start_markup(['English', 'horn'], hcenter_in=16),
+        ]),
+    )
+
+maker(
+    'cl',
+    baca.suite([
+        khamr.margin_markup('B. cl.'),
+        baca.start_markup(['Bass', 'clarinet'], hcenter_in=16),
+        ]),
+    )
+
+maker(
+    'sax',
+    baca.suite([
+        khamr.margin_markup('Bar. sax.'),
+        baca.start_markup(['Baritone', 'saxophone'], hcenter_in=16),
+        ]),
+    )
+
+maker(
+    'gt',
+    baca.suite([
+        khamr.margin_markup('Gt.'),
+        baca.start_markup('Guitar', hcenter_in=16),
+        ]),
+    )
+
+maker(
+    'pf',
+    baca.suite([
+        khamr.margin_markup('Pf.'),
+        baca.start_markup('Piano', hcenter_in=16),
+        ]),
+    )
+
+maker(
+    'perc',
+    baca.suite([
+        khamr.margin_markup('Perc.'),
+        baca.start_markup('Percussion', hcenter_in=16),
+        ]),
+    )
+
+maker(
+    'vn',
+    baca.suite([
+        khamr.margin_markup('Vn.'),
+        baca.start_markup('Violin', hcenter_in=16),
+        ]),
+    )
+
+maker(
+    'va',
+    baca.suite([
+        khamr.margin_markup('Va.'),
+        baca.start_markup('Viola', hcenter_in=16),
+        ]),
+    )
+
+maker(
+    'vc',
+    baca.suite([
+        khamr.margin_markup('Vc.'),
+        baca.start_markup('Cello', hcenter_in=16),
+        ]),
+    )
+
+maker(
+    'cb',
+    baca.suite([
+        khamr.margin_markup('Cb.'),
+        baca.start_markup('Contrabass', hcenter_in=16),
+        ]),
     )
 
 maker(
