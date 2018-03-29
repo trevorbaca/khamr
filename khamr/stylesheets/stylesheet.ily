@@ -82,7 +82,7 @@
 }
 
 \layout {
-    \accidentalStyle forget
+    \accidentalStyle neo-modern
     indent = 5
     ragged-bottom = ##t
     ragged-last = ##t
