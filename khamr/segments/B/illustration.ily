@@ -3401,75 +3401,46 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 108]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                                     %! SM12
     bf'1
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-                \line                                            %! IC
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                \column                                          %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                \column                          %! IC
-                                    {                            %! IC
-                                        \line                    %! IC
-                                            {                    %! IC
-                                                "airtone with lips covering mouthplate" %! IC
-                                            }                    %! IC
-                                        \line                    %! IC
-                                            {                    %! IC
-                                                "(sounds major 7th lower)" %! IC
-                                            }                    %! IC
-                                    }                            %! IC
+                        \line                                    %! IC
+                            {                                    %! IC
+                                "airtone with lips covering mouthplate" %! IC
+                            }                                    %! IC
+                        \line                                    %! IC
+                            {                                    %! IC
+                                "(sounds major 7th lower)"       %! IC
+                            }                                    %! IC
                     }                                            %! IC
-                \line                                            %! SM12
-                    {                                            %! SM12
-                        OCTAVE                                   %! SM12
-                    }                                            %! SM12
-            }
-        }
+        }                                                        %! IC
     
     % [B FluteMusicVoice measure 109]                            %! SM4
-    \makeRed                                                     %! SM12
     bf'2...
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r16
     
     % [B FluteMusicVoice measure 110]                            %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \makeRed                                                     %! SM12
     bf'2.
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     bf'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [B FluteMusicVoice measure 111]                            %! SM4
-    \makeRed                                                     %! SM12
     bf'4.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     bf'4
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     bf'16
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r16
     
@@ -5673,43 +5644,23 @@ B_OboeMusicVoice = {
     
     \override RepeatTie.direction = #up                          %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \makeRed                                                     %! SM12
     c'2.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-                \line                                            %! IC
-                    {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "airtone without reed: mix inhales and exhales ad lib." %! IC
-                    }                                            %! IC
-                \line                                            %! SM12
-                    {                                            %! SM12
-                        OCTAVE                                   %! SM12
-                    }                                            %! SM12
-            }
-        }
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                "airtone without reed: mix inhales and exhales ad lib." %! IC
+        }                                                        %! IC
     
     % [B OboeMusicVoice measure 111]                             %! SM4
-    \makeRed                                                     %! SM12
     c'4.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     c'4
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     c'16
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     \revert RepeatTie.direction                                  %! OC2
     
     r16
@@ -7639,31 +7590,19 @@ B_ClarinetMusicVoice = {
     \repeatTie
     
     % [B ClarinetMusicVoice measure 108]                         %! SM4
-    \makeRed                                                     %! SM12
     a1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [B ClarinetMusicVoice measure 109]                         %! SM4
-    \makeRed                                                     %! SM12
     a1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [B ClarinetMusicVoice measure 110]                         %! SM4
-    \makeRed                                                     %! SM12
     a2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     a2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [B ClarinetMusicVoice measure 111]                         %! SM4
     r2.
@@ -9759,66 +9698,37 @@ B_SaxophoneMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    \makeRed                                                     %! SM12
     c'1
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-                \line                                            %! IC
-                    {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                airtone                          %! IC
-                    }                                            %! IC
-                \line                                            %! SM12
-                    {                                            %! SM12
-                        OCTAVE                                   %! SM12
-                    }                                            %! SM12
-            }
-        }
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                airtone                                          %! IC
+        }                                                        %! IC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [B SaxophoneMusicVoice measure 109]                        %! SM4
-    \makeRed                                                     %! SM12
     c'1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [B SaxophoneMusicVoice measure 110]                        %! SM4
-    \makeRed                                                     %! SM12
     c'2...
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r16
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \makeRed                                                     %! SM12
     c'4
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [B SaxophoneMusicVoice measure 111]                        %! SM4
-    \makeRed                                                     %! SM12
     c'4.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     c'4
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     c'16
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     \revert RepeatTie.direction                                  %! OC2
     
     r16
@@ -13582,46 +13492,31 @@ B_PercussionMusicVoice = {
     
     % [B PercussionMusicVoice measure 108]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'1
     :32                                                          %! IC
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [B PercussionMusicVoice measure 109]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'1
     :32                                                          %! IC
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [B PercussionMusicVoice measure 110]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
     :32                                                          %! IC
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     c'2
     :32                                                          %! IC
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [B PercussionMusicVoice measure 111]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
     :32                                                          %! IC
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
 }
 
@@ -15281,31 +15176,19 @@ B_ContrabassMusicVoice = {
     \repeatTie
     
     % [B ContrabassMusicVoice measure 108]                       %! SM4
-    \makeRed                                                     %! SM12
     g,,1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [B ContrabassMusicVoice measure 109]                       %! SM4
-    \makeRed                                                     %! SM12
     g,,1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [B ContrabassMusicVoice measure 110]                       %! SM4
-    \makeRed                                                     %! SM12
     g,,2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     g,,2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [B ContrabassMusicVoice measure 111]                       %! SM4
     r2.
