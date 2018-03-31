@@ -2049,7 +2049,6 @@ i_OboeMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    \makeRed                                                     %! SM12
     c'2
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
@@ -2073,10 +2072,6 @@ i_OboeMusicVoice = {
                             #(x11-color 'blue)                   %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                             "[“Eng. hn.”]"                       %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                     }                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-                \line                                            %! SM12
-                    {                                            %! SM12
-                        OCTAVE                                   %! SM12
-                    }                                            %! SM12
             }
         }
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
@@ -2095,32 +2090,20 @@ i_OboeMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [_ OboeMusicVoice measure 2]                               %! SM4
-    \makeRed                                                     %! SM12
     c'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ OboeMusicVoice measure 3]                               %! SM4
-    \makeRed                                                     %! SM12
     c'1.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ OboeMusicVoice measure 4]                               %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ OboeMusicVoice measure 5]                               %! SM4
-    \makeRed                                                     %! SM12
     c'8
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r2..
     
@@ -2130,58 +2113,34 @@ i_OboeMusicVoice = {
     % [_ OboeMusicVoice measure 7]                               %! SM4
     r4
     
-    \makeRed                                                     %! SM12
     c'2.
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ OboeMusicVoice measure 8]                               %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     c'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ OboeMusicVoice measure 9]                               %! SM4
-    \makeRed                                                     %! SM12
     c'4.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r8
     
-    \makeRed                                                     %! SM12
     c'2
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ OboeMusicVoice measure 10]                              %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ OboeMusicVoice measure 11]                              %! SM4
-    \makeRed                                                     %! SM12
     c'1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ OboeMusicVoice measure 12]                              %! SM4
-    \makeRed                                                     %! SM12
     c'8
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r8
     
@@ -2193,59 +2152,35 @@ i_OboeMusicVoice = {
     r2.
     
     % [_ OboeMusicVoice measure 14]                              %! SM4
-    \makeRed                                                     %! SM12
     c'2
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ OboeMusicVoice measure 15]                              %! SM4
-    \makeRed                                                     %! SM12
     c'1.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ OboeMusicVoice measure 16]                              %! SM4
-    \makeRed                                                     %! SM12
     c'4.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r8
     
     % [_ OboeMusicVoice measure 17]                              %! SM4
-    \makeRed                                                     %! SM12
     c'2.
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     c'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ OboeMusicVoice measure 18]                              %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ OboeMusicVoice measure 19]                              %! SM4
-    \makeRed                                                     %! SM12
     c'1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ OboeMusicVoice measure 20]                              %! SM4
-    \makeRed                                                     %! SM12
     c'4
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r2
     
@@ -2257,53 +2192,32 @@ i_OboeMusicVoice = {
     % [_ OboeMusicVoice measure 22]                              %! SM4
     r4
     
-    \makeRed                                                     %! SM12
     c'4
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ OboeMusicVoice measure 23]                              %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ OboeMusicVoice measure 24]                              %! SM4
-    \makeRed                                                     %! SM12
     c'1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ OboeMusicVoice measure 25]                              %! SM4
-    \makeRed                                                     %! SM12
     c'4.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r8
     
     % [_ OboeMusicVoice measure 26]                              %! SM4
-    \makeRed                                                     %! SM12
     c'2
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ OboeMusicVoice measure 27]                              %! SM4
-    \makeRed                                                     %! SM12
     c'1.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ OboeMusicVoice measure 28]                              %! SM4
-    \makeRed                                                     %! SM12
     c'2..
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r8
     
@@ -2316,52 +2230,31 @@ i_OboeMusicVoice = {
     % [_ OboeMusicVoice measure 31]                              %! SM4
     r4
     
-    \makeRed                                                     %! SM12
     c'2.
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ OboeMusicVoice measure 32]                              %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     c'4.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r8
     
     % [_ OboeMusicVoice measure 33]                              %! SM4
-    \makeRed                                                     %! SM12
     c'2.
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ OboeMusicVoice measure 34]                              %! SM4
-    \makeRed                                                     %! SM12
     c'1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ OboeMusicVoice measure 35]                              %! SM4
-    \makeRed                                                     %! SM12
     c'1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ OboeMusicVoice measure 36]                              %! SM4
-    \makeRed                                                     %! SM12
     c'8
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     \revert RepeatTie.direction                                  %! OC2
     
     r8
@@ -4598,7 +4491,6 @@ i_PianoMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    \makeRed                                                     %! SM12
     c'2
     -\accent                                                     %! IC
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
@@ -4623,10 +4515,6 @@ i_PianoMusicVoice = {
                             #(x11-color 'blue)                   %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                             [“Pf.”]                              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                     }                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
-                \line                                            %! SM12
-                    {                                            %! SM12
-                        OCTAVE                                   %! SM12
-                    }                                            %! SM12
             }
         }
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
@@ -4645,207 +4533,117 @@ i_PianoMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [_ PianoMusicVoice measure 2]                              %! SM4
-    \makeRed                                                     %! SM12
     c'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 3]                              %! SM4
-    \makeRed                                                     %! SM12
     c'1.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 4]                              %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 5]                              %! SM4
-    \makeRed                                                     %! SM12
     c'1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 6]                              %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 7]                              %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     c'4
     -\accent                                                     %! IC
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 8]                              %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     c'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 9]                              %! SM4
-    \makeRed                                                     %! SM12
     c'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     c'2
     -\accent                                                     %! IC
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 10]                             %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 11]                             %! SM4
-    \makeRed                                                     %! SM12
     c'1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 12]                             %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     c'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 13]                             %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 14]                             %! SM4
-    \makeRed                                                     %! SM12
     c'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 15]                             %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     c'2.
     -\accent                                                     %! IC
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 16]                             %! SM4
-    \makeRed                                                     %! SM12
     c'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 17]                             %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     -\accent                                                     %! IC
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     c'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 18]                             %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 19]                             %! SM4
-    \makeRed                                                     %! SM12
     c'1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 20]                             %! SM4
-    \makeRed                                                     %! SM12
     c'1.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 21]                             %! SM4
-    \makeRed                                                     %! SM12
     c'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 22]                             %! SM4
-    \makeRed                                                     %! SM12
     c'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 23]                             %! SM4
-    \makeRed                                                     %! SM12
     c'4
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     c'2
     -\accent                                                     %! IC
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 24]                             %! SM4
-    \makeRed                                                     %! SM12
     c'1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     \revert RepeatTie.direction                                  %! OC2
     \override TupletNumber.text = \markup {
         \scale
@@ -5389,78 +5187,55 @@ i_PianoMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    \makeRed                                                     %! SM12
     c'2.
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-                \line                                            %! IC
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                \column                                          %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                \column                          %! IC
-                                    {                            %! IC
-                                        \line                    %! IC
-                                            {                    %! IC
-                                                sparse,          %! IC
-                                                individual       %! IC
-                                                clicks           %! IC
-                                                with             %! IC
-                                                credit           %! IC
-                                                card             %! IC
-                                                on               %! IC
-                                                C                %! IC
-                                                \hspace          %! IC
-                                                    #-0.5        %! IC
-                                                \raise           %! IC
-                                                    #1           %! IC
-                                                    \sharp       %! IC
-                                                \hspace          %! IC
-                                                    #-0.5        %! IC
-                                                1                %! IC
-                                                string           %! IC
-                                            }                    %! IC
-                                        \line                    %! IC
-                                            {                    %! IC
-                                                "(1-2/sec. in irregular rhythm)" %! IC
-                                            }                    %! IC
-                                    }                            %! IC
+                        \line                                    %! IC
+                            {                                    %! IC
+                                sparse,                          %! IC
+                                individual                       %! IC
+                                clicks                           %! IC
+                                with                             %! IC
+                                credit                           %! IC
+                                card                             %! IC
+                                on                               %! IC
+                                C                                %! IC
+                                \hspace                          %! IC
+                                    #-0.5                        %! IC
+                                \raise                           %! IC
+                                    #1                           %! IC
+                                    \sharp                       %! IC
+                                \hspace                          %! IC
+                                    #-0.5                        %! IC
+                                1                                %! IC
+                                string                           %! IC
+                            }                                    %! IC
+                        \line                                    %! IC
+                            {                                    %! IC
+                                "(1-2/sec. in irregular rhythm)" %! IC
+                            }                                    %! IC
                     }                                            %! IC
-                \line                                            %! SM12
-                    {                                            %! SM12
-                        OCTAVE                                   %! SM12
-                    }                                            %! SM12
-            }
-        }
+        }                                                        %! IC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
-    \makeRed                                                     %! SM12
     c'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 42]                             %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 43]                             %! SM4
-    \makeRed                                                     %! SM12
     c'1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [_ PianoMusicVoice measure 44]                             %! SM4
-    \makeRed                                                     %! SM12
     c'1.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     \revert RepeatTie.direction                                  %! OC2
     
 }

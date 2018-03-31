@@ -1533,11 +1533,8 @@ A_OboeMusicVoice = {
     ^ \markup { OCTAVE }                                         %! SM12
     
     % [A OboeMusicVoice measure 49]                              %! SM4
-    \makeRed                                                     %! SM12
     <e'' b''>8
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r2..
     
@@ -1801,10 +1798,7 @@ A_ClarinetMusicVoice = {
     % [A ClarinetMusicVoice measure 49]                          %! SM4
     r2.
     
-    \makeRed                                                     %! SM12
     a4
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A ClarinetMusicVoice measure 50]                          %! SM4
     \makeRed                                                     %! SM12
@@ -2623,7 +2617,6 @@ A_PianoMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    \makeRed                                                     %! SM12
     c'2
     \mp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
@@ -2641,10 +2634,6 @@ A_PianoMusicVoice = {
                             #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             [“Pf.”]                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                            %! SM12
-                    {                                            %! SM12
-                        OCTAVE                                   %! SM12
-                    }                                            %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -2663,100 +2652,58 @@ A_PianoMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [A PianoMusicVoice measure 46]                             %! SM4
-    \makeRed                                                     %! SM12
     c'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A PianoMusicVoice measure 47]                             %! SM4
-    \makeRed                                                     %! SM12
     c'1.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A PianoMusicVoice measure 48]                             %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A PianoMusicVoice measure 49]                             %! SM4
-    \makeRed                                                     %! SM12
     c'1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A PianoMusicVoice measure 50]                             %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A PianoMusicVoice measure 51]                             %! SM4
-    \makeRed                                                     %! SM12
     c'1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A PianoMusicVoice measure 52]                             %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     c'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A PianoMusicVoice measure 53]                             %! SM4
-    \makeRed                                                     %! SM12
     c'1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A PianoMusicVoice measure 54]                             %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A PianoMusicVoice measure 55]                             %! SM4
-    \makeRed                                                     %! SM12
     c'1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A PianoMusicVoice measure 56]                             %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     c'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A PianoMusicVoice measure 57]                             %! SM4
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     \revert RepeatTie.direction                                  %! OC2
     
     % [A PianoMusicVoice measure 58]                             %! SM4
@@ -3858,13 +3805,10 @@ A_ViolinMusicVoice = {
         - \tweak color #red                                      %! SM12
         ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         \pitchedTrill                                            %! SC
         gqf'16
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         \startTrillSpan atqf'                                    %! SC
     }
     
@@ -3876,18 +3820,12 @@ A_ViolinMusicVoice = {
     ^ \markup { OCTAVE }                                         %! SM12
     
     % [A ViolinMusicVoice measure 49]                            %! SM4
-    \makeRed                                                     %! SM12
     gqf'4
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     \times 4/5 {
         
-        \makeRed                                                 %! SM12
         gqf'16
         \repeatTie
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeRed                                                 %! SM12
@@ -3908,20 +3846,14 @@ A_ViolinMusicVoice = {
     \times 4/5 {
         
         % [A ViolinMusicVoice measure 50]                        %! SM4
-        \makeRed                                                 %! SM12
         g'16
         \repeatTie
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeRed                                                 %! SM12
         \pitchedTrill                                            %! SC
         gs'4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         \startTrillSpan a'                                       %! SC
     }
     
@@ -4465,14 +4397,11 @@ A_ViolaMusicVoice = {
         - \tweak color #red                                      %! SM12
         ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         \pitchedTrill                                            %! SC
         f'8
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         \startTrillSpan gf'                                      %! SC
     }
     
@@ -4497,36 +4426,24 @@ A_ViolaMusicVoice = {
         - \tweak color #red                                      %! SM12
         ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         \pitchedTrill                                            %! SC
         gf'16
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         \startTrillSpan aff'                                     %! SC
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \makeRed                                                     %! SM12
     gf'4
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [A ViolaMusicVoice measure 50]                             %! SM4
-    \makeRed                                                     %! SM12
     gf'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     \times 4/5 {
         
-        \makeRed                                                 %! SM12
         gf'16
         \repeatTie
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeRed                                                 %! SM12
@@ -5004,19 +4921,13 @@ A_CelloMusicVoice = {
     ^ \markup { OCTAVE }                                         %! SM12
     
     % [A CelloMusicVoice measure 49]                             %! SM4
-    \makeRed                                                     %! SM12
     fqs'4
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     \times 4/5 {
         
-        \makeRed                                                 %! SM12
         fqs'8.
         \repeatTie
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeRed                                                 %! SM12
         \pitchedTrill                                            %! SC
@@ -5037,11 +4948,8 @@ A_CelloMusicVoice = {
     ^ \markup { OCTAVE }                                         %! SM12
     
     % [A CelloMusicVoice measure 50]                             %! SM4
-    \makeRed                                                     %! SM12
     f'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     \times 4/5 {
         
         \makeRed                                                 %! SM12
@@ -5396,10 +5304,7 @@ A_ContrabassMusicVoice = {
         - \tweak color #red                                      %! SM12
         ^ \markup { OCTAVE }                                     %! SM12
         
-        \makeRed                                                 %! SM12
         <gqs, aqs>8.
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     % [A ContrabassMusicVoice measure 49]                        %! SM4
@@ -5411,12 +5316,9 @@ A_ContrabassMusicVoice = {
     \times 4/5 {
         
         % [A ContrabassMusicVoice measure 50]                    %! SM4
-        \makeRed                                                 %! SM12
         <gqs, aqs>2.
         \repeatTie
         \glissando                                               %! SC
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeRed                                                 %! SM12
         <a, b>8.
