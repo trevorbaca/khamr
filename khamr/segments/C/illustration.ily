@@ -880,25 +880,16 @@ C_FluteMusicVoice = {
     \repeatTie
     
     % [C FluteMusicVoice measure 119]                            %! SM4
-    \makeRed                                                     %! SM12
     bf'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     bf'8.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r16
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \makeRed                                                     %! SM12
     bf'2
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C FluteMusicVoice measure 120]                            %! SM4
     bf'1
@@ -1233,17 +1224,11 @@ C_ClarinetMusicVoice = {
     \repeatTie
     
     % [C ClarinetMusicVoice measure 119]                         %! SM4
-    \makeRed                                                     %! SM12
     a2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     a2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C ClarinetMusicVoice measure 120]                         %! SM4
     a1
@@ -1557,18 +1542,12 @@ C_GuitarMusicVoice = {
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [C GuitarMusicVoice measure 119]                           %! SM4
-    \makeRed                                                     %! SM12
     c''2.
     -\accent                                                     %! IC
     -\flageolet                                                  %! IC
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     c''2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C GuitarMusicVoice measure 120]                           %! SM4
     r1
@@ -1709,17 +1688,11 @@ C_PianoMusicVoice = {
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [C PianoMusicVoice measure 119]                            %! SM4
-    \makeRed                                                     %! SM12
     as'2.
     -\accent                                                     %! IC
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
-    \makeRed                                                     %! SM12
     as'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PianoMusicVoice measure 120]                            %! SM4
     r1
@@ -1872,35 +1845,21 @@ C_PercussionMusicVoice = {
     % [C PercussionMusicVoice measure 119]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
     :32                                                          %! IC
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {
-        \column
-            {
-                \line                                            %! IC
-                    {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                \override                        %! IC
-                                    #'(box-padding . 0.5)        %! IC
-                                    \box                         %! IC
-                                        "snare drum"             %! IC
-                    }                                            %! IC
-                \line                                            %! SM12
-                    {                                            %! SM12
-                        OCTAVE                                   %! SM12
-                    }                                            %! SM12
-            }
-        }
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                \override                                        %! IC
+                    #'(box-padding . 0.5)                        %! IC
+                    \box                                         %! IC
+                        "snare drum"                             %! IC
+        }                                                        %! IC
     
-    \makeRed                                                     %! SM12
     c'2
     :32                                                          %! IC
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 120]                       %! SM4
     \makeBlue                                                    %! SM24
