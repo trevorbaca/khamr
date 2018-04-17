@@ -805,7 +805,7 @@ C_FluteMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    bf'2
+    bf'!2
     \pp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
@@ -840,107 +840,107 @@ C_FluteMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [C FluteMusicVoice measure 113]                            %! SM4
-    bf'2
+    bf'!2
     \repeatTie
     
     % [C FluteMusicVoice measure 114]                            %! SM4
-    bf'2.
+    bf'!2.
     \repeatTie
     
-    bf'2
+    bf'!2
     \repeatTie
     
-    bf'8.
+    bf'!8.
     \repeatTie
     
     r16
     
     % [C FluteMusicVoice measure 115]                            %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    bf'2.
+    bf'!2.
     
     % [C FluteMusicVoice measure 116]                            %! SM4
-    bf'1
+    bf'!1
     \repeatTie
     
     % [C FluteMusicVoice measure 117]                            %! SM4
-    bf'4
+    bf'!4
     \repeatTie
     
-    bf'16
+    bf'!16
     \repeatTie
     
     r16
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    bf'4.
+    bf'!4.
     
     % [C FluteMusicVoice measure 118]                            %! SM4
-    bf'1
+    bf'!1
     \repeatTie
     
     % [C FluteMusicVoice measure 119]                            %! SM4
-    bf'2
+    bf'!2
     \repeatTie
     
-    bf'8.
+    bf'!8.
     \repeatTie
     
     r16
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    bf'2
+    bf'!2
     
     % [C FluteMusicVoice measure 120]                            %! SM4
-    bf'1
+    bf'!1
     \repeatTie
     
     % [C FluteMusicVoice measure 121]                            %! SM4
-    bf'4..
+    bf'!4..
     \repeatTie
     
     r16
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    bf'4
+    bf'!4
     
     % [C FluteMusicVoice measure 122]                            %! SM4
-    bf'1
+    bf'!1
     \repeatTie
     
     % [C FluteMusicVoice measure 123]                            %! SM4
-    bf'2
+    bf'!2
     \repeatTie
     
-    bf'8.
+    bf'!8.
     \repeatTie
     
     r16
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    bf'2
+    bf'!2
     
     % [C FluteMusicVoice measure 124]                            %! SM4
-    bf'2.
+    bf'!2.
     \repeatTie
     
     % [C FluteMusicVoice measure 125]                            %! SM4
-    bf'2
+    bf'!2
     \repeatTie
     
     % [C FluteMusicVoice measure 126]                            %! SM4
-    bf'2
+    bf'!2
     \repeatTie
     
-    bf'8.
+    bf'!8.
     \repeatTie
     
     r16
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    bf'2
+    bf'!2
     
-    bf'8.
+    bf'!8.
     \repeatTie
     
     r16
@@ -1683,15 +1683,15 @@ C_PianoMusicVoice = {
     
     % [C PianoMusicVoice measure 118]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    as'1
+    as'!1
     -\accent                                                     %! IC
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [C PianoMusicVoice measure 119]                            %! SM4
-    as'2.
+    as'!2.
     -\accent                                                     %! IC
     
-    as'2
+    as'!2
     \repeatTie
     
     % [C PianoMusicVoice measure 120]                            %! SM4
@@ -1721,22 +1721,22 @@ C_PianoMusicVoice = {
     r2
     
     % [C PianoMusicVoice measure 128]                            %! SM4
-    as'1
+    as'!1
     -\accent                                                     %! IC
     
-    as'4
+    as'!4
     -\accent                                                     %! IC
     
     % [C PianoMusicVoice measure 129]                            %! SM4
-    as'2.
+    as'!2.
     \repeatTie
     
     % [C PianoMusicVoice measure 130]                            %! SM4
-    as'1
+    as'!1
     \repeatTie
     
     % [C PianoMusicVoice measure 131]                            %! SM4
-    as'1
+    as'!1
     \repeatTie
     
     r2

@@ -1166,7 +1166,7 @@ A_FluteMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    bf''2
+    bf''!2
     \>                                                           %! HC1
     \mp                                                          %! HC1
     ^ \markup {
@@ -1203,37 +1203,37 @@ A_FluteMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [A FluteMusicVoice measure 46]                             %! SM4
-    bf''2
+    bf''!2
     \repeatTie
     
     % [A FluteMusicVoice measure 47]                             %! SM4
-    bf''1.
+    bf''!1.
     \repeatTie
     
     % [A FluteMusicVoice measure 48]                             %! SM4
-    bf''4.
+    bf''!4.
     \repeatTie
     
     r8
     \stopTrillSpan                                               %! SC
     
-    bf''4
+    bf''!4
     \startTrillSpan                                              %! SC
     
     % [A FluteMusicVoice measure 49]                             %! SM4
-    bf''1
+    bf''!1
     \repeatTie
     
     % [A FluteMusicVoice measure 50]                             %! SM4
-    bf''2.
+    bf''!2.
     \repeatTie
     
     % [A FluteMusicVoice measure 51]                             %! SM4
-    bf''2
+    bf''!2
     \repeatTie
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    bf''8
+    bf''!8
     \repeatTie
     \pp                                                          %! HC1
     
@@ -1489,7 +1489,7 @@ A_OboeMusicVoice = {
     
     % [A OboeMusicVoice measure 59]                              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    ds'1.
+    ds'!1.
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [A OboeMusicVoice measure 60]                              %! SM4
@@ -1497,10 +1497,10 @@ A_OboeMusicVoice = {
     
     % [A OboeMusicVoice measure 61]                              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
-    ds'2.
+    ds'!2.
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
-    ds'2
+    ds'!2
     \repeatTie
     
     % [A OboeMusicVoice measure 62]                              %! SM4
@@ -1508,7 +1508,7 @@ A_OboeMusicVoice = {
     
     % [A OboeMusicVoice measure 63]                              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
-    ds'1
+    ds'!1
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
     % [A OboeMusicVoice measure 64]                              %! SM4
@@ -1518,43 +1518,43 @@ A_OboeMusicVoice = {
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
-    ds'4
+    ds'!4
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
     % [A OboeMusicVoice measure 66]                              %! SM4
-    ds'2
+    ds'!2
     \repeatTie
     
     % [A OboeMusicVoice measure 67]                              %! SM4
-    ds'2.
+    ds'!2.
     \repeatTie
     
     % [A OboeMusicVoice measure 68]                              %! SM4
-    ds'1
+    ds'!1
     \repeatTie
     
     % [A OboeMusicVoice measure 69]                              %! SM4
-    ds'2
+    ds'!2
     \repeatTie
     
     % [A OboeMusicVoice measure 70]                              %! SM4
-    ds'2
+    ds'!2
     \repeatTie
     
     % [A OboeMusicVoice measure 71]                              %! SM4
-    ds'1.
+    ds'!1.
     \repeatTie
     
     % [A OboeMusicVoice measure 72]                              %! SM4
-    ds'1
+    ds'!1
     \repeatTie
     
     % [A OboeMusicVoice measure 73]                              %! SM4
-    ds'2.
+    ds'!2.
     \repeatTie
     
     % [A OboeMusicVoice measure 74]                              %! SM4
-    ds'2.
+    ds'!2.
     \repeatTie
     
 }
@@ -1693,7 +1693,7 @@ A_ClarinetMusicVoice = {
     
     % [A ClarinetMusicVoice measure 59]                          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    gs1.
+    gs!1.
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [A ClarinetMusicVoice measure 60]                          %! SM4
@@ -1701,10 +1701,10 @@ A_ClarinetMusicVoice = {
     
     % [A ClarinetMusicVoice measure 61]                          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
-    gs2.
+    gs!2.
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
-    gs2
+    gs!2
     \repeatTie
     
     % [A ClarinetMusicVoice measure 62]                          %! SM4
@@ -1712,7 +1712,7 @@ A_ClarinetMusicVoice = {
     
     % [A ClarinetMusicVoice measure 63]                          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
-    gs1
+    gs!1
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
     % [A ClarinetMusicVoice measure 64]                          %! SM4
@@ -1722,43 +1722,43 @@ A_ClarinetMusicVoice = {
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
-    gs4
+    gs!4
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
     % [A ClarinetMusicVoice measure 66]                          %! SM4
-    gs2
+    gs!2
     \repeatTie
     
     % [A ClarinetMusicVoice measure 67]                          %! SM4
-    gs2.
+    gs!2.
     \repeatTie
     
     % [A ClarinetMusicVoice measure 68]                          %! SM4
-    gs1
+    gs!1
     \repeatTie
     
     % [A ClarinetMusicVoice measure 69]                          %! SM4
-    gs2
+    gs!2
     \repeatTie
     
     % [A ClarinetMusicVoice measure 70]                          %! SM4
-    gs2
+    gs!2
     \repeatTie
     
     % [A ClarinetMusicVoice measure 71]                          %! SM4
-    gs1.
+    gs!1.
     \repeatTie
     
     % [A ClarinetMusicVoice measure 72]                          %! SM4
-    gs1
+    gs!1
     \repeatTie
     
     % [A ClarinetMusicVoice measure 73]                          %! SM4
-    gs2.
+    gs!2.
     \repeatTie
     
     % [A ClarinetMusicVoice measure 74]                          %! SM4
-    gs2.
+    gs!2.
     \repeatTie
     
 }
@@ -1791,7 +1791,7 @@ A_SaxophoneMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    <d'' eqs''>2
+    <d'' eqs''!>2
     \p                                                           %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
@@ -1826,22 +1826,22 @@ A_SaxophoneMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [A SaxophoneMusicVoice measure 46]                         %! SM4
-    <d'' eqs''>2
+    <d'' eqs''!>2
     \repeatTie
     
     % [A SaxophoneMusicVoice measure 47]                         %! SM4
-    <d'' eqs''>1.
+    <d'' eqs''!>1.
     \repeatTie
     
     % [A SaxophoneMusicVoice measure 48]                         %! SM4
-    <d'' eqs''>2.
+    <d'' eqs''!>2.
     \repeatTie
     
     % [A SaxophoneMusicVoice measure 49]                         %! SM4
-    <d'' eqs''>2
+    <d'' eqs''!>2
     \repeatTie
     
-    <d'' eqs''>8
+    <d'' eqs''!>8
     \repeatTie
     
     r4.
@@ -1852,13 +1852,13 @@ A_SaxophoneMusicVoice = {
     % [A SaxophoneMusicVoice measure 51]                         %! SM4
     r2.
     
-    <d'' eqs''>4
+    <d'' eqs''!>4
     
     % [A SaxophoneMusicVoice measure 52]                         %! SM4
-    <d'' eqs''>2.
+    <d'' eqs''!>2.
     \repeatTie
     
-    <d'' eqs''>4.
+    <d'' eqs''!>4.
     \repeatTie
     
     r8
@@ -1883,7 +1883,7 @@ A_SaxophoneMusicVoice = {
     
     % [A SaxophoneMusicVoice measure 59]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    es'1.
+    es'!1.
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [A SaxophoneMusicVoice measure 60]                         %! SM4
@@ -1891,10 +1891,10 @@ A_SaxophoneMusicVoice = {
     
     % [A SaxophoneMusicVoice measure 61]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
-    es'2.
+    es'!2.
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
-    es'2
+    es'!2
     \repeatTie
     
     % [A SaxophoneMusicVoice measure 62]                         %! SM4
@@ -1902,7 +1902,7 @@ A_SaxophoneMusicVoice = {
     
     % [A SaxophoneMusicVoice measure 63]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
-    es'1
+    es'!1
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
     % [A SaxophoneMusicVoice measure 64]                         %! SM4
@@ -1912,43 +1912,43 @@ A_SaxophoneMusicVoice = {
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
-    es'4
+    es'!4
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
     % [A SaxophoneMusicVoice measure 66]                         %! SM4
-    es'2
+    es'!2
     \repeatTie
     
     % [A SaxophoneMusicVoice measure 67]                         %! SM4
-    es'2.
+    es'!2.
     \repeatTie
     
     % [A SaxophoneMusicVoice measure 68]                         %! SM4
-    es'1
+    es'!1
     \repeatTie
     
     % [A SaxophoneMusicVoice measure 69]                         %! SM4
-    es'2
+    es'!2
     \repeatTie
     
     % [A SaxophoneMusicVoice measure 70]                         %! SM4
-    es'2
+    es'!2
     \repeatTie
     
     % [A SaxophoneMusicVoice measure 71]                         %! SM4
-    es'1.
+    es'!1.
     \repeatTie
     
     % [A SaxophoneMusicVoice measure 72]                         %! SM4
-    es'1
+    es'!1
     \repeatTie
     
     % [A SaxophoneMusicVoice measure 73]                         %! SM4
-    es'2.
+    es'!2.
     \repeatTie
     
     % [A SaxophoneMusicVoice measure 74]                         %! SM4
-    es'2.
+    es'!2.
     \repeatTie
     
 }
@@ -2031,7 +2031,7 @@ A_GuitarMusicVoice = {
         % [A GuitarMusicVoice measure 47]                        %! SM4
         r8
         
-        fs''4
+        fs''!4
     }
     
     r2
@@ -2052,7 +2052,7 @@ A_GuitarMusicVoice = {
     
     % [A GuitarMusicVoice measure 49]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    fs1
+    fs!1
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -2071,41 +2071,41 @@ A_GuitarMusicVoice = {
         }                                                        %! IC
     
     % [A GuitarMusicVoice measure 50]                            %! SM4
-    fs2.
+    fs!2.
     \repeatTie
     
     % [A GuitarMusicVoice measure 51]                            %! SM4
-    fs1
+    fs!1
     \repeatTie
     
     % [A GuitarMusicVoice measure 52]                            %! SM4
-    fs2.
+    fs!2.
     \repeatTie
     
-    fs2
+    fs!2
     \repeatTie
     
     % [A GuitarMusicVoice measure 53]                            %! SM4
-    fs1
+    fs!1
     \repeatTie
     
     % [A GuitarMusicVoice measure 54]                            %! SM4
-    fs2.
+    fs!2.
     \repeatTie
     
     % [A GuitarMusicVoice measure 55]                            %! SM4
-    fs1
+    fs!1
     \repeatTie
     
     % [A GuitarMusicVoice measure 56]                            %! SM4
-    fs2.
+    fs!2.
     \repeatTie
     
-    fs2
+    fs!2
     \repeatTie
     
     % [A GuitarMusicVoice measure 57]                            %! SM4
-    fs2.
+    fs!2.
     \repeatTie
     
     % [A GuitarMusicVoice measure 58]                            %! SM4
@@ -2371,23 +2371,23 @@ A_PianoMusicVoice = {
         
         \ottava #1                                               %! SC
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
-        cf''''8
+        cf''''!8
         \fff                                                     %! SM8:REDUNDANT_DYNAMIC:IC
         [
         
         c''''8
         
-        ef''''8
+        ef''''!8
         ]
     }
     
     % [A PianoMusicVoice measure 66]                             %! SM4
     r4
     
-    bf'''16
+    bf'''!16
     [
     
-    gf'''16
+    gf'''!16
     
     f''''16
     
@@ -2397,21 +2397,21 @@ A_PianoMusicVoice = {
     % [A PianoMusicVoice measure 67]                             %! SM4
     r2
     
-    bf'''16
+    bf'''!16
     [
     
     a'''16
     
-    cf''''16
+    cf''''!16
     
-    df''''16
+    df''''!16
     ]
     
     % [A PianoMusicVoice measure 68]                             %! SM4
     r2.
     \times 2/3 {
         
-        ef''''8
+        ef''''!8
         [
         
         d''''8
@@ -2423,14 +2423,14 @@ A_PianoMusicVoice = {
     % [A PianoMusicVoice measure 69]                             %! SM4
     r4
     
-    af'''16
+    af'''!16
     [
     
     g'''16
     
-    bf'''16
+    bf'''!16
     
-    gf'''16
+    gf'''!16
     ]
     
     % [A PianoMusicVoice measure 70]                             %! SM4
@@ -2442,11 +2442,11 @@ A_PianoMusicVoice = {
         
         d''''16
         
-        ef''''16
+        ef''''!16
         
         a'''16
         
-        cf''''16
+        cf''''!16
         ]
     }
     
@@ -2455,7 +2455,7 @@ A_PianoMusicVoice = {
     
     r4.
     
-    df''''16.
+    df''''!16.
     [
     
     g'''32
@@ -2475,12 +2475,12 @@ A_PianoMusicVoice = {
     r2.
     \times 2/3 {
         
-        af'''8
+        af'''!8
         [
         
-        bf'''8
+        bf'''!8
         
-        cf''''8
+        cf''''!8
         ]
     }
     
@@ -2491,16 +2491,16 @@ A_PianoMusicVoice = {
         c''''8
         [
         
-        ef''''8
+        ef''''!8
         
-        df''''8
+        df''''!8
         ]
     }
     
     % [A PianoMusicVoice measure 74]                             %! SM4
     r4.
     
-    ef''''16.
+    ef''''!16.
     [
     
     a'''32
@@ -2508,12 +2508,12 @@ A_PianoMusicVoice = {
     
     a'''16
     
-    cf''''16
+    cf''''!16
     ~
     
-    cf''''32
+    cf''''!32
     
-    af'''16.
+    af'''!16.
     ]
     \ottava #0                                                   %! SC
     
@@ -2632,13 +2632,13 @@ A_PercussionMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:MHC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:MHC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:MHC
-    af''2
+    af''!2
     -\marcato                                                    %! MHC
     \sfz                                                         %! SM8:EXPLICIT_DYNAMIC:MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
     
     % [A PercussionMusicVoice measure 54]                        %! SM4
-    af''2
+    af''!2
     \repeatTie
     
     \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:MHC
@@ -2687,7 +2687,7 @@ A_PercussionMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:MHC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:MHC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:MHC
-    af''4
+    af''!4
     -\marcato                                                    %! MHC
     \sfz                                                         %! SM8:EXPLICIT_DYNAMIC:MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
@@ -2718,7 +2718,7 @@ A_PercussionMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:MHC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:MHC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:MHC
-    af''4.
+    af''!4.
     -\marcato                                                    %! MHC
     \sfz                                                         %! SM8:EXPLICIT_DYNAMIC:MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
@@ -2747,7 +2747,7 @@ A_PercussionMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:MHC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:MHC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:MHC
-    af''4.
+    af''!4.
     -\marcato                                                    %! MHC
     \sfz                                                         %! SM8:EXPLICIT_DYNAMIC:MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
@@ -2777,7 +2777,7 @@ A_PercussionMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:MHC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:MHC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:MHC
-    af''4
+    af''!4
     -\marcato                                                    %! MHC
     \sfz                                                         %! SM8:EXPLICIT_DYNAMIC:MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
@@ -2803,7 +2803,7 @@ A_PercussionMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:MHC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:MHC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:MHC
-    af''4
+    af''!4
     -\marcato                                                    %! MHC
     \sfz                                                         %! SM8:EXPLICIT_DYNAMIC:MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
@@ -2829,7 +2829,7 @@ A_PercussionMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:MHC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:MHC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:MHC
-    af''4
+    af''!4
     -\marcato                                                    %! MHC
     \sfz                                                         %! SM8:EXPLICIT_DYNAMIC:MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
@@ -2855,7 +2855,7 @@ A_PercussionMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:MHC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:MHC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:MHC
-    af''4
+    af''!4
     -\marcato                                                    %! MHC
     \sfz                                                         %! SM8:EXPLICIT_DYNAMIC:MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
@@ -2881,7 +2881,7 @@ A_PercussionMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:MHC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:MHC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:MHC
-    af''4
+    af''!4
     -\marcato                                                    %! MHC
     \sfz                                                         %! SM8:EXPLICIT_DYNAMIC:MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
@@ -2907,7 +2907,7 @@ A_PercussionMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:MHC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:MHC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:MHC
-    af''4
+    af''!4
     -\marcato                                                    %! MHC
     \sfz                                                         %! SM8:EXPLICIT_DYNAMIC:MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
@@ -2935,7 +2935,7 @@ A_PercussionMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:MHC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:MHC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:MHC
-    af''4.
+    af''!4.
     -\marcato                                                    %! MHC
     \sfz                                                         %! SM8:EXPLICIT_DYNAMIC:MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
@@ -2961,7 +2961,7 @@ A_PercussionMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:MHC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:MHC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:MHC
-    af''4
+    af''!4
     -\marcato                                                    %! MHC
     \sfz                                                         %! SM8:EXPLICIT_DYNAMIC:MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
@@ -2987,7 +2987,7 @@ A_PercussionMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:MHC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:MHC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:MHC
-    af''4
+    af''!4
     -\marcato                                                    %! MHC
     \sfz                                                         %! SM8:EXPLICIT_DYNAMIC:MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
@@ -3013,7 +3013,7 @@ A_PercussionMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:MHC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:MHC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:MHC
-    af''4.
+    af''!4.
     -\marcato                                                    %! MHC
     \sfz                                                         %! SM8:EXPLICIT_DYNAMIC:MHC
     \revert Stem.direction                                       %! OC2
@@ -3050,7 +3050,7 @@ A_ViolinMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \pitchedTrill                                                %! SC
-    gf'2
+    gf'!2
     -\accent                                                     %! IC
     \ppp                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
@@ -3088,7 +3088,7 @@ A_ViolinMusicVoice = {
     \times 4/5 {
         
         % [A ViolinMusicVoice measure 46]                        %! SM4
-        gf'16
+        gf'!16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -3113,26 +3113,26 @@ A_ViolinMusicVoice = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \pitchedTrill                                            %! SC
-        gqf'8.
+        gqf'!8.
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
         \startTrillSpan atqf'                                    %! SC
     }
     
-    gqf'4
+    gqf'!4
     \repeatTie
     
-    gqf'4
+    gqf'!4
     \repeatTie
     \times 4/5 {
         
-        gqf'8.
+        gqf'!8.
         \repeatTie
         [
         
         \pitchedTrill                                            %! SC
-        gf'8
+        gf'!8
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
@@ -3140,34 +3140,34 @@ A_ViolinMusicVoice = {
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    gf'4
+    gf'!4
     \repeatTie
     
     % [A ViolinMusicVoice measure 48]                            %! SM4
-    gf'4
+    gf'!4
     \repeatTie
     \times 4/5 {
         
-        gf'4
+        gf'!4
         \repeatTie
         
         \pitchedTrill                                            %! SC
-        gqf'16
+        gqf'!16
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
         \startTrillSpan atqf'                                    %! SC
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    gqf'4
+    gqf'!4
     \repeatTie
     
     % [A ViolinMusicVoice measure 49]                            %! SM4
-    gqf'4
+    gqf'!4
     \repeatTie
     \times 4/5 {
         
-        gqf'16
+        gqf'!16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -3188,35 +3188,35 @@ A_ViolinMusicVoice = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \pitchedTrill                                            %! SC
-        gs'4
+        gs'!4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
         \startTrillSpan a'                                       %! SC
     }
     
-    gs'2
+    gs'!2
     \repeatTie
     \times 4/5 {
         
         % [A ViolinMusicVoice measure 51]                        %! SM4
-        gs'8
+        gs'!8
         \repeatTie
         [
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \pitchedTrill                                            %! SC
-        gqs'8.
+        gqs'!8.
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
         \startTrillSpan aqf'                                     %! SC
     }
     
-    gqs'2
+    gqs'!2
     \repeatTie
     \times 4/5 {
         
-        gqs'8.
+        gqs'!8.
         \repeatTie
         [
         
@@ -3238,34 +3238,34 @@ A_ViolinMusicVoice = {
         \repeatTie
         
         \pitchedTrill                                            %! SC
-        gqs'16
+        gqs'!16
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
         \startTrillSpan aqf'                                     %! SC
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    gqs'2
+    gqs'!2
     \repeatTie
     \times 4/5 {
         
         % [A ViolinMusicVoice measure 53]                        %! SM4
-        gqs'16
+        gqs'!16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \pitchedTrill                                            %! SC
-        af'4
+        af'!4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
         \startTrillSpan bff'                                     %! SC
     }
     
-    af'2
+    af'!2
     \repeatTie
     \times 4/5 {
         
-        af'16
+        af'!16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -3287,7 +3287,7 @@ A_ViolinMusicVoice = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \pitchedTrill                                            %! SC
-        aqf'8.
+        aqf'!8.
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
@@ -3295,16 +3295,16 @@ A_ViolinMusicVoice = {
     }
     
     % [A ViolinMusicVoice measure 55]                            %! SM4
-    aqf'2
+    aqf'!2
     \repeatTie
     \times 4/5 {
         
-        aqf'8.
+        aqf'!8.
         \repeatTie
         [
         
         \pitchedTrill                                            %! SC
-        af'8
+        af'!8
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
@@ -3312,49 +3312,49 @@ A_ViolinMusicVoice = {
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    af'4
+    af'!4
     \repeatTie
     
     % [A ViolinMusicVoice measure 56]                            %! SM4
-    af'4
+    af'!4
     \repeatTie
     \times 4/5 {
         
-        af'4
+        af'!4
         \repeatTie
         
         \pitchedTrill                                            %! SC
-        aqf'16
+        aqf'!16
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
         \startTrillSpan btqf'                                    %! SC
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    aqf'4
+    aqf'!4
     \repeatTie
     
-    aqf'4
+    aqf'!4
     \repeatTie
     \times 4/5 {
         
-        aqf'16
+        aqf'!16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \pitchedTrill                                            %! SC
-        af'4
+        af'!4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
         \startTrillSpan bff'                                     %! SC
     }
     
     % [A ViolinMusicVoice measure 57]                            %! SM4
-    af'2
+    af'!2
     \repeatTie
     \times 4/5 {
         
-        af'16
+        af'!16
         \repeatTie
         
         \pitchedTrill                                            %! SC
@@ -3520,39 +3520,39 @@ A_ViolaMusicVoice = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \pitchedTrill                                            %! SC
-        fs'4
+        fs'!4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
         \startTrillSpan g'                                       %! SC
     }
     
     % [A ViolaMusicVoice measure 47]                             %! SM4
-    fs'2.
+    fs'!2.
     \repeatTie
     \times 4/5 {
         
-        fs'8
+        fs'!8
         \repeatTie
         [
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \pitchedTrill                                            %! SC
-        fqs'8.
+        fqs'!8.
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
         \startTrillSpan gqf'                                     %! SC
     }
     
-    fqs'2
+    fqs'!2
     \repeatTie
     
     % [A ViolaMusicVoice measure 48]                             %! SM4
-    fqs'4
+    fqs'!4
     \repeatTie
     \times 4/5 {
         
-        fqs'8.
+        fqs'!8.
         \repeatTie
         [
         
@@ -3577,22 +3577,22 @@ A_ViolaMusicVoice = {
         \repeatTie
         
         \pitchedTrill                                            %! SC
-        gf'16
+        gf'!16
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
         \startTrillSpan aff'                                     %! SC
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    gf'4
+    gf'!4
     \repeatTie
     
     % [A ViolaMusicVoice measure 50]                             %! SM4
-    gf'2
+    gf'!2
     \repeatTie
     \times 4/5 {
         
-        gf'16
+        gf'!16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -3613,39 +3613,39 @@ A_ViolaMusicVoice = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \pitchedTrill                                            %! SC
-        gqf'4
+        gqf'!4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
         \startTrillSpan atqf'                                    %! SC
     }
     
     % [A ViolaMusicVoice measure 52]                             %! SM4
-    gqf'2.
+    gqf'!2.
     \repeatTie
     \times 4/5 {
         
-        gqf'8
+        gqf'!8
         \repeatTie
         [
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \pitchedTrill                                            %! SC
-        gf'8.
+        gf'!8.
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
         \startTrillSpan aff'                                     %! SC
     }
     
-    gf'4
+    gf'!4
     \repeatTie
     
     % [A ViolaMusicVoice measure 53]                             %! SM4
-    gf'2
+    gf'!2
     \repeatTie
     \times 4/5 {
         
-        gf'8.
+        gf'!8.
         \repeatTie
         [
         
@@ -3670,7 +3670,7 @@ A_ViolaMusicVoice = {
         \repeatTie
         
         \pitchedTrill                                            %! SC
-        gs'16
+        gs'!16
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
         \startTrillSpan a'                                       %! SC
@@ -3678,27 +3678,27 @@ A_ViolaMusicVoice = {
     
     % [A ViolaMusicVoice measure 55]                             %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    gs'2.
+    gs'!2.
     \repeatTie
     \times 4/5 {
         
-        gs'16
+        gs'!16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \pitchedTrill                                            %! SC
-        gqs'4
+        gqs'!4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
         \startTrillSpan aqf'                                     %! SC
     }
     
     % [A ViolaMusicVoice measure 56]                             %! SM4
-    gqs'2.
+    gqs'!2.
     \repeatTie
     \times 4/5 {
         
-        gqs'16
+        gqs'!16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -3722,7 +3722,7 @@ A_ViolaMusicVoice = {
         [
         
         \pitchedTrill                                            %! SC
-        gqs'8.
+        gqs'!8.
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
@@ -3735,7 +3735,7 @@ A_ViolaMusicVoice = {
     
     % [A ViolaMusicVoice measure 59]                             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    gs'1.
+    gs'!1.
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -3748,10 +3748,10 @@ A_ViolaMusicVoice = {
     
     % [A ViolaMusicVoice measure 61]                             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
-    gs'2.
+    gs'!2.
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
-    gs'2
+    gs'!2
     \repeatTie
     
     % [A ViolaMusicVoice measure 62]                             %! SM4
@@ -3759,7 +3759,7 @@ A_ViolaMusicVoice = {
     
     % [A ViolaMusicVoice measure 63]                             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
-    gs'1
+    gs'!1
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
     % [A ViolaMusicVoice measure 64]                             %! SM4
@@ -3769,43 +3769,43 @@ A_ViolaMusicVoice = {
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
-    gs'4
+    gs'!4
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
     % [A ViolaMusicVoice measure 66]                             %! SM4
-    gs'2
+    gs'!2
     \repeatTie
     
     % [A ViolaMusicVoice measure 67]                             %! SM4
-    gs'2.
+    gs'!2.
     \repeatTie
     
     % [A ViolaMusicVoice measure 68]                             %! SM4
-    gs'1
+    gs'!1
     \repeatTie
     
     % [A ViolaMusicVoice measure 69]                             %! SM4
-    gs'2
+    gs'!2
     \repeatTie
     
     % [A ViolaMusicVoice measure 70]                             %! SM4
-    gs'2
+    gs'!2
     \repeatTie
     
     % [A ViolaMusicVoice measure 71]                             %! SM4
-    gs'1.
+    gs'!1.
     \repeatTie
     
     % [A ViolaMusicVoice measure 72]                             %! SM4
-    gs'1
+    gs'!1
     \repeatTie
     
     % [A ViolaMusicVoice measure 73]                             %! SM4
-    gs'2.
+    gs'!2.
     \repeatTie
     
     % [A ViolaMusicVoice measure 74]                             %! SM4
-    gs'2.
+    gs'!2.
     \repeatTie
     
 }
@@ -3886,26 +3886,26 @@ A_CelloMusicVoice = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \pitchedTrill                                            %! SC
-        fs'4
+        fs'!4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
         \startTrillSpan g'                                       %! SC
     }
     
-    fs'2
+    fs'!2
     \repeatTie
     
-    fs'2
+    fs'!2
     \repeatTie
     \times 4/5 {
         
-        fs'8
+        fs'!8
         \repeatTie
         [
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \pitchedTrill                                            %! SC
-        fqs'8.
+        fqs'!8.
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
@@ -3913,15 +3913,15 @@ A_CelloMusicVoice = {
     }
     
     % [A CelloMusicVoice measure 48]                             %! SM4
-    fqs'2.
+    fqs'!2.
     \repeatTie
     
     % [A CelloMusicVoice measure 49]                             %! SM4
-    fqs'4
+    fqs'!4
     \repeatTie
     \times 4/5 {
         
-        fqs'8.
+        fqs'!8.
         \repeatTie
         [
         
@@ -3946,7 +3946,7 @@ A_CelloMusicVoice = {
         \repeatTie
         
         \pitchedTrill                                            %! SC
-        fqs'16
+        fqs'!16
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
         \startTrillSpan gqf'                                     %! SC
@@ -3954,12 +3954,12 @@ A_CelloMusicVoice = {
     
     % [A CelloMusicVoice measure 51]                             %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    fqs'1
+    fqs'!1
     \repeatTie
     \times 4/5 {
         
         % [A CelloMusicVoice measure 52]                         %! SM4
-        fqs'16
+        fqs'!16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -3978,7 +3978,7 @@ A_CelloMusicVoice = {
     
     % [A CelloMusicVoice measure 53]                             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    fs1
+    fs!1
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -3997,22 +3997,22 @@ A_CelloMusicVoice = {
         }                                                        %! IC
     
     % [A CelloMusicVoice measure 54]                             %! SM4
-    fs2.
+    fs!2.
     \repeatTie
     
     % [A CelloMusicVoice measure 55]                             %! SM4
-    fs1
+    fs!1
     \repeatTie
     
     % [A CelloMusicVoice measure 56]                             %! SM4
-    fs2.
+    fs!2.
     \repeatTie
     
-    fs2
+    fs!2
     \repeatTie
     
     % [A CelloMusicVoice measure 57]                             %! SM4
-    fs2.
+    fs!2.
     \repeatTie
     
     % [A CelloMusicVoice measure 58]                             %! SM4
@@ -4174,25 +4174,25 @@ A_ContrabassMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        <af, bf>4
+        <af,! bf!>4
     }
     \times 4/5 {
         
         % [A ContrabassMusicVoice measure 48]                    %! SM4
-        <af, bf>2.
+        <af,! bf!>2.
         \repeatTie
         \glissando                                               %! SC
         
-        <gqs, aqs>8.
+        <gqs,! aqs!>8.
     }
     
     % [A ContrabassMusicVoice measure 49]                        %! SM4
-    <gqs, aqs>1
+    <gqs,! aqs!>1
     \repeatTie
     \times 4/5 {
         
         % [A ContrabassMusicVoice measure 50]                    %! SM4
-        <gqs, aqs>2.
+        <gqs,! aqs!>2.
         \repeatTie
         \glissando                                               %! SC
         
@@ -4219,32 +4219,32 @@ A_ContrabassMusicVoice = {
     \repeatTie
     \glissando                                                   %! SC
     
-    <bqf, cqs'>4
+    <bqf,! cqs'!>4
     \times 2/3 {
         
         % [A ContrabassMusicVoice measure 55]                    %! SM4
-        <bqf, cqs'>1
+        <bqf,! cqs'!>1
         \repeatTie
         \glissando                                               %! SC
         
-        <af, bf>2
+        <af,! bf!>2
     }
     
     % [A ContrabassMusicVoice measure 56]                        %! SM4
-    <af, bf>2.
+    <af,! bf!>2.
     \repeatTie
     
-    <af, bf>2
+    <af,! bf!>2
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
         % [A ContrabassMusicVoice measure 57]                    %! SM4
-        <af, bf>2.
+        <af,! bf!>2.
         \repeatTie
         \glissando                                               %! SC
         
-        <gqs, aqs>8
+        <gqs,! aqs!>8
         \revert NoteHead.style                                   %! OC2
     }
     

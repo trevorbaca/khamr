@@ -1688,7 +1688,7 @@ i_FluteMusicVoice = {
     
     r8
     
-    <gs' gs''>2.
+    <gs'! gs''!>2.
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
@@ -1699,15 +1699,15 @@ i_FluteMusicVoice = {
         }                                                        %! IC
     
     % [_ FluteMusicVoice measure 20]                             %! SM4
-    <gs' gs''>1.
+    <gs'! gs''!>1.
     \repeatTie
     
     % [_ FluteMusicVoice measure 21]                             %! SM4
-    <gs' gs''>2
+    <gs'! gs''!>2
     \repeatTie
     
     % [_ FluteMusicVoice measure 22]                             %! SM4
-    <gs' gs''>8
+    <gs'! gs''!>8
     \repeatTie
     
     r4.
@@ -1718,37 +1718,37 @@ i_FluteMusicVoice = {
     % [_ FluteMusicVoice measure 24]                             %! SM4
     r2
     
-    <gs' gs''>2
+    <gs'! gs''!>2
     
     % [_ FluteMusicVoice measure 25]                             %! SM4
-    <gs' gs''>2
+    <gs'! gs''!>2
     \repeatTie
     
     % [_ FluteMusicVoice measure 26]                             %! SM4
-    <gs' gs''>2
+    <gs'! gs''!>2
     \repeatTie
     
     % [_ FluteMusicVoice measure 27]                             %! SM4
-    <gs' gs''>2.
+    <gs'! gs''!>2.
     \repeatTie
     
-    <gs' gs''>2
+    <gs'! gs''!>2
     \repeatTie
     
-    <gs' gs''>8
+    <gs'! gs''!>8
     \repeatTie
     
     r8
     
     % [_ FluteMusicVoice measure 28]                             %! SM4
-    <gs' gs''>1
+    <gs'! gs''!>1
     
     % [_ FluteMusicVoice measure 29]                             %! SM4
-    <gs' gs''>2.
+    <gs'! gs''!>2.
     \repeatTie
     
     % [_ FluteMusicVoice measure 30]                             %! SM4
-    <gs' gs''>4
+    <gs'! gs''!>4
     \repeatTie
     
     r2
@@ -1759,32 +1759,32 @@ i_FluteMusicVoice = {
     % [_ FluteMusicVoice measure 32]                             %! SM4
     r4
     
-    <gs' gs''>1
+    <gs'! gs''!>1
     
     % [_ FluteMusicVoice measure 33]                             %! SM4
-    <gs' gs''>2.
+    <gs'! gs''!>2.
     \repeatTie
     
     % [_ FluteMusicVoice measure 34]                             %! SM4
-    <gs' gs''>2
+    <gs'! gs''!>2
     \repeatTie
     
-    <gs' gs''>8
+    <gs'! gs''!>8
     \repeatTie
     
     r8
     
-    <gs' gs''>4
+    <gs'! gs''!>4
     
     % [_ FluteMusicVoice measure 35]                             %! SM4
-    <gs' gs''>1
+    <gs'! gs''!>1
     \repeatTie
     
     % [_ FluteMusicVoice measure 36]                             %! SM4
-    <gs' gs''>2.
+    <gs'! gs''!>2.
     \repeatTie
     
-    <gs' gs''>4.
+    <gs'! gs''!>4.
     \repeatTie
     
     r8
@@ -2730,7 +2730,7 @@ i_SaxophoneMusicVoice = {
     
     % [_ SaxophoneMusicVoice measure 40]                         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    <d'' eqs''>2
+    <d'' eqs''!>2
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -2742,18 +2742,18 @@ i_SaxophoneMusicVoice = {
         }                                                        %! IC
     
     % [_ SaxophoneMusicVoice measure 41]                         %! SM4
-    <d'' eqs''>2.
+    <d'' eqs''!>2.
     \repeatTie
     
-    <d'' eqs''>2
+    <d'' eqs''!>2
     \repeatTie
     
     % [_ SaxophoneMusicVoice measure 42]                         %! SM4
-    <d'' eqs''>2.
+    <d'' eqs''!>2.
     \repeatTie
     
     % [_ SaxophoneMusicVoice measure 43]                         %! SM4
-    <d'' eqs''>8
+    <d'' eqs''!>8
     \repeatTie
     
     r2..
@@ -2763,10 +2763,10 @@ i_SaxophoneMusicVoice = {
     
     r4.
     
-    <d'' eqs''>8
+    <d'' eqs''!>8
     [
     
-    <d'' eqs''>8
+    <d'' eqs''!>8
     \repeatTie
     ]
     
@@ -2809,7 +2809,7 @@ i_GuitarMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:DEFAULT_CLEF:SM33:ST3
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    cs'4
+    cs'!4
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \column
@@ -2895,7 +2895,7 @@ i_GuitarMusicVoice = {
         
         r8.
         
-        fs'16
+        fs'!16
         
         r16
     }
@@ -2922,7 +2922,7 @@ i_GuitarMusicVoice = {
         % [_ GuitarMusicVoice measure 11]                        %! SM4
         r8
         
-        bf'4
+        bf'!4
     }
     
     r2.
@@ -2941,7 +2941,7 @@ i_GuitarMusicVoice = {
     % [_ GuitarMusicVoice measure 13]                            %! SM4
     r8
     
-    ef'16
+    ef'!16
     
     r8.
     
@@ -2953,7 +2953,7 @@ i_GuitarMusicVoice = {
         
         r8
         
-        cs'8
+        cs'!8
         
         r8
     }
@@ -2987,7 +2987,7 @@ i_GuitarMusicVoice = {
         % [_ GuitarMusicVoice measure 18]                        %! SM4
         r8.
         
-        bf'16
+        bf'!16
         
         r16
     }
@@ -3000,7 +3000,7 @@ i_GuitarMusicVoice = {
         
         r8.
         
-        af'16
+        af'!16
         
         r16
     }
@@ -3050,7 +3050,7 @@ i_GuitarMusicVoice = {
     
     r8
     
-    fs'16
+    fs'!16
     
     r16
     
@@ -3096,7 +3096,7 @@ i_GuitarMusicVoice = {
         % [_ GuitarMusicVoice measure 25]                        %! SM4
         \override TupletBracket.staff-padding = #4               %! OC1
         \once \override Beam.grow-direction = #right
-        cs''16 * 117/16
+        cs''!16 * 117/16
         [
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -3157,17 +3157,17 @@ i_GuitarMusicVoice = {
         \repeatTie
         [
         
-        fs''16 * 121/64
+        fs''!16 * 121/64
         
         g''16 * 139/64
         
-        bf''16 * 87/32
+        bf''!16 * 87/32
         
         d''16 * 117/32
         
-        ef''16 * 81/16
+        ef''!16 * 81/16
         
-        cs''16 * 429/64
+        cs''!16 * 429/64
         ]
     }
     \revert TupletNumber.text
@@ -3211,7 +3211,7 @@ i_GuitarMusicVoice = {
         
         % [_ GuitarMusicVoice measure 28]                        %! SM4
         \once \override Beam.grow-direction = #right
-        cs''16 * 487/64
+        cs''!16 * 487/64
         \repeatTie
         [
         
@@ -3219,9 +3219,9 @@ i_GuitarMusicVoice = {
         
         a''16 * 143/32
         
-        bf''16 * 197/64
+        bf''!16 * 197/64
         
-        af''16 * 19/8
+        af''!16 * 19/8
         
         e''16 * 65/32
         
@@ -3276,7 +3276,7 @@ i_GuitarMusicVoice = {
         
         d''16 * 125/64
         
-        fs''16 * 49/16
+        fs''!16 * 49/16
         
         g''16 * 343/64
         ]
@@ -3327,21 +3327,21 @@ i_GuitarMusicVoice = {
         \repeatTie
         [
         
-        bf''16 * 449/64
+        bf''!16 * 449/64
         
         a''16 * 351/64
         
-        ef''16 * 65/16
+        ef''!16 * 65/16
         
-        cs''16 * 199/64
+        cs''!16 * 199/64
         
         b''16 * 81/32
         
         f''16 * 35/16
         
-        bf''16 * 2
+        bf''!16 * 2
         
-        af''16 * 123/64
+        af''!16 * 123/64
         ]
     }
     \revert TupletNumber.text
@@ -3386,7 +3386,7 @@ i_GuitarMusicVoice = {
         % [_ GuitarMusicVoice measure 33]                        %! SM4
         \once \override Beam.grow-direction = #left
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        af''16 * 13/8
+        af''!16 * 13/8
         \repeatTie
         [
         
@@ -3394,7 +3394,7 @@ i_GuitarMusicVoice = {
         
         d''16 * 49/16
         
-        cs''16 * 343/64
+        cs''!16 * 343/64
         ]
     }
     \revert TupletNumber.text
@@ -3438,7 +3438,7 @@ i_GuitarMusicVoice = {
         
         % [_ GuitarMusicVoice measure 34]                        %! SM4
         \once \override Beam.grow-direction = #right
-        cs''16 * 245/32
+        cs''!16 * 245/32
         \repeatTie
         [
         
@@ -3450,9 +3450,9 @@ i_GuitarMusicVoice = {
         
         a''16 * 175/64
         
-        ef''16 * 9/4
+        ef''!16 * 9/4
         
-        cs''16 * 129/64
+        cs''!16 * 129/64
         
         e''16 * 61/32
         ]
@@ -3506,9 +3506,9 @@ i_GuitarMusicVoice = {
         
         f''16 * 121/64
         
-        bf''16 * 147/64
+        bf''!16 * 147/64
         
-        af''16 * 25/8
+        af''!16 * 25/8
         
         a''16 * 145/32
         
@@ -3561,11 +3561,11 @@ i_GuitarMusicVoice = {
         \repeatTie
         [
         
-        cs''16 * 353/64
+        cs''!16 * 353/64
         
         c''16 * 97/32
         
-        bf''16 * 17/8
+        bf''!16 * 17/8
         
         d''16 * 15/8
         ]
@@ -3616,17 +3616,17 @@ i_GuitarMusicVoice = {
         \repeatTie
         [
         
-        fs''16 * 121/64
+        fs''!16 * 121/64
         
         g''16 * 139/64
         
-        af''16 * 87/32
+        af''!16 * 87/32
         
         e''16 * 117/32
         
         f''16 * 81/16
         
-        bf''16 * 429/64
+        bf''!16 * 429/64
         ]
     }
     \revert TupletNumber.text
@@ -3634,7 +3634,7 @@ i_GuitarMusicVoice = {
     \times 1/1 {
         
         % [_ GuitarMusicVoice measure 40]                        %! SM4
-        bf''2
+        bf''!2
         \repeatTie
     }
     \times 2/3 {
@@ -3676,7 +3676,7 @@ i_GuitarMusicVoice = {
     % [_ GuitarMusicVoice measure 44]                            %! SM4
     r4.
     
-    cs''16
+    cs''!16
     \revert NoteHead.style                                       %! OC2
     
     r16
@@ -3932,7 +3932,7 @@ i_PianoMusicVoice = {
         \set Staff.forceClef = ##t                               %! SM8:EXPLICIT_CLEF:SM33:IC
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-        cs''''16 * 247/32
+        cs''''!16 * 247/32
         \mf                                                      %! SM8:REDUNDANT_DYNAMIC:IC
         [
         ^ \markup {                                              %! IC
@@ -3948,17 +3948,17 @@ i_PianoMusicVoice = {
         
         d''''16 * 287/64
         
-        fs'''16 * 223/64
+        fs'''!16 * 223/64
         
         g'''16 * 181/64
         
-        bf'''16 * 153/64
+        bf'''!16 * 153/64
         
         d''''16 * 137/64
         
-        ef''''16 * 2
+        ef''''!16 * 2
         
-        cs''''16 * 31/16
+        cs''''!16 * 31/16
         ]
     }
     \revert TupletNumber.text
@@ -4003,7 +4003,7 @@ i_PianoMusicVoice = {
         % [_ PianoMusicVoice measure 28]                         %! SM4
         \once \override Beam.grow-direction = #left
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        cs''''16 * 117/64
+        cs''''!16 * 117/64
         \repeatTie
         [
         
@@ -4011,9 +4011,9 @@ i_PianoMusicVoice = {
         
         a'''16 * 135/64
         
-        bf'''16 * 5/2
+        bf'''!16 * 5/2
         
-        af'''16 * 201/64
+        af'''!16 * 201/64
         
         e''''16 * 33/8
         
@@ -4067,25 +4067,25 @@ i_PianoMusicVoice = {
         \repeatTie
         [
         
-        fs'''16 * 59/8
+        fs'''!16 * 59/8
         
         g'''16 * 51/8
         
-        bf'''16 * 333/64
+        bf'''!16 * 333/64
         
         a'''16 * 67/16
         
-        ef''''16 * 219/64
+        ef''''!16 * 219/64
         
-        cs''''16 * 185/64
+        cs''''!16 * 185/64
         
         b'''16 * 5/2
         
         f''''16 * 9/4
         
-        bf'''16 * 133/64
+        bf'''!16 * 133/64
         
-        af'''16 * 127/64
+        af'''!16 * 127/64
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         e''''16 * 63/32
@@ -4139,7 +4139,7 @@ i_PianoMusicVoice = {
         
         d''''16 * 121/64
         
-        cs''''16 * 135/64
+        cs''''!16 * 135/64
         
         c''''16 * 5/2
         
@@ -4149,7 +4149,7 @@ i_PianoMusicVoice = {
         
         a'''16 * 11/2
         
-        ef''''16 * 221/32
+        ef''''!16 * 221/32
         ]
     }
     \revert TupletNumber.text
@@ -4194,25 +4194,25 @@ i_PianoMusicVoice = {
         
         % [_ PianoMusicVoice measure 35]                         %! SM4
         \once \override Beam.grow-direction = #right
-        ef''''16 * 123/16
+        ef''''!16 * 123/16
         \repeatTie
         [
         
-        cs''''16 * 449/64
+        cs''''!16 * 449/64
         
         e''''16 * 351/64
         
         f''''16 * 65/16
         
-        bf'''16 * 199/64
+        bf'''!16 * 199/64
         
-        af'''16 * 81/32
+        af'''!16 * 81/32
         
         a'''16 * 35/16
         
         d''''16 * 2
         
-        cs''''16 * 123/64
+        cs''''!16 * 123/64
         ]
     }
     \revert TupletNumber.text
@@ -4234,7 +4234,7 @@ i_PianoMusicVoice = {
         
         r8
         
-        bf'''4
+        bf'''!4
     }
     
     % [_ PianoMusicVoice measure 39]                             %! SM4
@@ -4480,7 +4480,7 @@ i_PercussionMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:MHC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:MHC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:MHC
-    af''2.
+    af''!2.
     -\marcato                                                    %! MHC
     \sfz                                                         %! SM8:EXPLICIT_DYNAMIC:MHC
     ^ \markup {                                                  %! MHC
@@ -4493,7 +4493,7 @@ i_PercussionMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
     
     % [_ PercussionMusicVoice measure 16]                        %! SM4
-    af''2
+    af''!2
     \repeatTie
     
     % [_ PercussionMusicVoice measure 17]                        %! SM4
@@ -4584,7 +4584,7 @@ i_PercussionMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:MHC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:MHC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:MHC
-    af''1
+    af''!1
     -\marcato                                                    %! MHC
     \sfz                                                         %! SM8:EXPLICIT_DYNAMIC:MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
@@ -4755,31 +4755,31 @@ i_ViolinMusicVoice = {
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        af'4
+        af'!4
         \<                                                       %! HC1
         \ppp                                                     %! HC1
     }
     
     % [_ ViolinMusicVoice measure 5]                             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    af'2.
+    af'!2.
     \repeatTie
     \pp                                                          %! HC1
     \glissando                                                   %! SC
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    gqs'4
+    gqs'!4
     \>                                                           %! HC1
     \pp                                                          %! HC1
     
     % [_ ViolinMusicVoice measure 6]                             %! SM4
-    gqs'2.
+    gqs'!2.
     \repeatTie
     \times 2/3 {
         
         % [_ ViolinMusicVoice measure 7]                         %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        gqs'1
+        gqs'!1
         \repeatTie
         \ppp                                                     %! HC1
         \glissando                                               %! SC
@@ -4814,7 +4814,7 @@ i_ViolinMusicVoice = {
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        bqf'4
+        bqf'!4
         \<                                                       %! HC1
         \pp                                                      %! HC1
     }
@@ -4823,56 +4823,56 @@ i_ViolinMusicVoice = {
         
         % [_ ViolinMusicVoice measure 12]                        %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        bqf'1.
+        bqf'!1.
         \repeatTie
         \p                                                       %! HC1
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        af'4
+        af'!4
         \>                                                       %! HC1
         \p                                                       %! HC1
     }
     
     % [_ ViolinMusicVoice measure 13]                            %! SM4
-    af'2.
+    af'!2.
     \repeatTie
     \times 4/5 {
         
         % [_ ViolinMusicVoice measure 14]                        %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        af'2
+        af'!2
         \repeatTie
         \pp                                                      %! HC1
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        gqs'8
+        gqs'!8
         \<                                                       %! HC1
         \pp                                                      %! HC1
     }
     
     % [_ ViolinMusicVoice measure 15]                            %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    gqs'1.
+    gqs'!1.
     \repeatTie
     
     % [_ ViolinMusicVoice measure 16]                            %! SM4
-    gqs'2
+    gqs'!2
     \repeatTie
     
     % [_ ViolinMusicVoice measure 17]                            %! SM4
-    gqs'2.
+    gqs'!2.
     \repeatTie
     
-    gqs'2
+    gqs'!2
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/4 {
         
         % [_ ViolinMusicVoice measure 18]                        %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        gqs'2.
+        gqs'!2.
         \repeatTie
         \p                                                       %! HC1
         \glissando                                               %! SC
@@ -4951,45 +4951,45 @@ i_ViolinMusicVoice = {
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        aqs'8
+        aqs'!8
         \>                                                       %! HC1
         \pp                                                      %! HC1
     }
     
     % [_ ViolinMusicVoice measure 27]                            %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    aqs'1.
+    aqs'!1.
     \repeatTie
     
     % [_ ViolinMusicVoice measure 28]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    aqs'2.
+    aqs'!2.
     \repeatTie
     \ppp                                                         %! HC1
     \glissando                                                   %! SC
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    bf'4
+    bf'!4
     \<                                                           %! HC1
     \ppp                                                         %! HC1
     
     % [_ ViolinMusicVoice measure 29]                            %! SM4
-    bf'2.
+    bf'!2.
     \repeatTie
     
     % [_ ViolinMusicVoice measure 30]                            %! SM4
-    bf'2.
+    bf'!2.
     \repeatTie
     
     % [_ ViolinMusicVoice measure 31]                            %! SM4
-    bf'1
+    bf'!1
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/9 {
         
         % [_ ViolinMusicVoice measure 32]                        %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        bf'1.
+        bf'!1.
         \repeatTie
         \pp                                                      %! HC1
         \glissando                                               %! SC
@@ -5059,36 +5059,36 @@ i_ViolinMusicVoice = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \pitchedTrill                                            %! SC
-        fs'4
+        fs'!4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
         \startTrillSpan g'                                       %! SC
     }
     
     % [_ ViolinMusicVoice measure 38]                            %! SM4
-    fs'2
+    fs'!2
     \repeatTie
     \times 4/5 {
         
         % [_ ViolinMusicVoice measure 39]                        %! SM4
-        fs'8
+        fs'!8
         \repeatTie
         [
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \pitchedTrill                                            %! SC
-        fqs'8.
+        fqs'!8.
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
         \startTrillSpan gqf'                                     %! SC
     }
     
-    fqs'2
+    fqs'!2
     \repeatTie
     \times 4/5 {
         
-        fqs'8.
+        fqs'!8.
         \repeatTie
         [
         
@@ -5110,22 +5110,22 @@ i_ViolinMusicVoice = {
         \repeatTie
         
         \pitchedTrill                                            %! SC
-        fqs'16
+        fqs'!16
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
         \startTrillSpan gqf'                                     %! SC
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    fqs'4
+    fqs'!4
     \repeatTie
     
     % [_ ViolinMusicVoice measure 41]                            %! SM4
-    fqs'4
+    fqs'!4
     \repeatTie
     \times 4/5 {
         
-        fqs'16
+        fqs'!16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -5165,7 +5165,7 @@ i_ViolinMusicVoice = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \pitchedTrill                                            %! SC
-        eqs'8.
+        eqs'!8.
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
@@ -5173,11 +5173,11 @@ i_ViolinMusicVoice = {
     }
     
     % [_ ViolinMusicVoice measure 43]                            %! SM4
-    eqs'2
+    eqs'!2
     \repeatTie
     \times 4/5 {
         
-        eqs'8.
+        eqs'!8.
         \repeatTie
         [
         
@@ -5202,21 +5202,21 @@ i_ViolinMusicVoice = {
         \repeatTie
         
         \pitchedTrill                                            %! SC
-        eqs'16
+        eqs'!16
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
         \startTrillSpan fqs'                                     %! SC
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    eqs'4
+    eqs'!4
     \repeatTie
     
-    eqs'4
+    eqs'!4
     \repeatTie
     \times 4/5 {
         
-        eqs'16
+        eqs'!16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -5315,39 +5315,39 @@ i_ViolaMusicVoice = {
         }                                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    af'8
+    af'!8
     \<                                                           %! HC1
     \ppp                                                         %! HC1
     
     % [_ ViolaMusicVoice measure 2]                              %! SM4
-    af'2
+    af'!2
     \repeatTie
     
     % [_ ViolaMusicVoice measure 3]                              %! SM4
-    af'1.
+    af'!1.
     \repeatTie
     
     % [_ ViolaMusicVoice measure 4]                              %! SM4
-    af'2.
+    af'!2.
     \repeatTie
     \times 2/3 {
         
         % [_ ViolaMusicVoice measure 5]                          %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        af'1
+        af'!1
         \repeatTie
         \pp                                                      %! HC1
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        gqs'2
+        gqs'!2
         \>                                                       %! HC1
         \pp                                                      %! HC1
     }
     
     % [_ ViolaMusicVoice measure 6]                              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    gqs'2
+    gqs'!2
     \repeatTie
     \ppp                                                         %! HC1
     \glissando                                                   %! SC
@@ -5371,32 +5371,32 @@ i_ViolaMusicVoice = {
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        bqf'4
+        bqf'!4
         \<                                                       %! HC1
         \pp                                                      %! HC1
     }
     
     % [_ ViolaMusicVoice measure 9]                              %! SM4
-    bqf'1
+    bqf'!1
     \repeatTie
     
     % [_ ViolaMusicVoice measure 10]                             %! SM4
-    bqf'2.
+    bqf'!2.
     \repeatTie
     
     % [_ ViolaMusicVoice measure 11]                             %! SM4
-    bqf'1
+    bqf'!1
     \repeatTie
     
     % [_ ViolaMusicVoice measure 12]                             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    bqf'1
+    bqf'!1
     \repeatTie
     \p                                                           %! HC1
     \glissando                                                   %! SC
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    af'4
+    af'!4
     \>                                                           %! HC1
     \p                                                           %! HC1
     \tweak text #tuplet-number::calc-fraction-text
@@ -5404,26 +5404,26 @@ i_ViolaMusicVoice = {
         
         % [_ ViolaMusicVoice measure 13]                         %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        af'2.
+        af'!2.
         \repeatTie
         \pp                                                      %! HC1
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        gqs'4
+        gqs'!4
         \<                                                       %! HC1
         \pp                                                      %! HC1
     }
     
     % [_ ViolaMusicVoice measure 14]                             %! SM4
-    gqs'2
+    gqs'!2
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/4 {
         
         % [_ ViolaMusicVoice measure 15]                         %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        gqs'1.
+        gqs'!1.
         \repeatTie
         \p                                                       %! HC1
         \glissando                                               %! SC
@@ -5517,7 +5517,7 @@ i_ViolaMusicVoice = {
     \glissando                                                   %! SC
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    aqs'8
+    aqs'!8
     \>                                                           %! HC1
     \pp                                                          %! HC1
     \tweak text #tuplet-number::calc-fraction-text
@@ -5525,24 +5525,24 @@ i_ViolaMusicVoice = {
         
         % [_ ViolaMusicVoice measure 27]                         %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        aqs'1.
+        aqs'!1.
         \repeatTie
         \ppp                                                     %! HC1
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        bf'2
+        bf'!2
         \<                                                       %! HC1
         \ppp                                                     %! HC1
     }
     
     % [_ ViolaMusicVoice measure 28]                             %! SM4
-    bf'1
+    bf'!1
     \repeatTie
     
     % [_ ViolaMusicVoice measure 29]                             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    bf'2
+    bf'!2
     \repeatTie
     \pp                                                          %! HC1
     \glissando                                                   %! SC
@@ -5609,7 +5609,7 @@ i_ViolaMusicVoice = {
     \glissando                                                   %! SC
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    aqs'4
+    aqs'!4
     \p                                                           %! HC1
     \revert NoteHead.style                                       %! OC2
     
@@ -5633,39 +5633,39 @@ i_ViolaMusicVoice = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \pitchedTrill                                            %! SC
-        fs'4
+        fs'!4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
         \startTrillSpan g'                                       %! SC
     }
     
-    fs'4
+    fs'!4
     \repeatTie
     
     % [_ ViolaMusicVoice measure 39]                             %! SM4
-    fs'2
+    fs'!2
     \repeatTie
     \times 4/5 {
         
-        fs'8
+        fs'!8
         \repeatTie
         [
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \pitchedTrill                                            %! SC
-        fqs'8.
+        fqs'!8.
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
         \startTrillSpan gqf'                                     %! SC
     }
     
-    fqs'2.
+    fqs'!2.
     \repeatTie
     \times 4/5 {
         
         % [_ ViolaMusicVoice measure 40]                         %! SM4
-        fqs'8.
+        fqs'!8.
         \repeatTie
         [
         
@@ -5690,22 +5690,22 @@ i_ViolaMusicVoice = {
         \repeatTie
         
         \pitchedTrill                                            %! SC
-        fqs'16
+        fqs'!16
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
         \startTrillSpan gqf'                                     %! SC
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    fqs'2
+    fqs'!2
     \repeatTie
     
     % [_ ViolaMusicVoice measure 42]                             %! SM4
-    fqs'4
+    fqs'!4
     \repeatTie
     \times 4/5 {
         
-        fqs'16
+        fqs'!16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -5749,14 +5749,14 @@ i_ViolaMusicVoice = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \pitchedTrill                                            %! SC
-        eqs'8.
+        eqs'!8.
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
         \startTrillSpan fqs'                                     %! SC
     }
     
-    eqs'2.
+    eqs'!2.
     \repeatTie
     \stopTrillSpan                                               %! SC
     
@@ -5852,34 +5852,34 @@ i_CelloMusicVoice = {
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        af4
+        af!4
         \<                                                       %! HC1
         \ppp                                                     %! HC1
     }
     
     % [_ CelloMusicVoice measure 3]                              %! SM4
-    af1.
+    af!1.
     \repeatTie
     
     % [_ CelloMusicVoice measure 4]                              %! SM4
-    af2.
+    af!2.
     \repeatTie
     
     % [_ CelloMusicVoice measure 5]                              %! SM4
-    af1
+    af!1
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
         % [_ CelloMusicVoice measure 6]                          %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        af2.
+        af!2.
         \repeatTie
         \pp                                                      %! HC1
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        gqs8
+        gqs!8
         \>                                                       %! HC1
         \pp                                                      %! HC1
     }
@@ -5888,7 +5888,7 @@ i_CelloMusicVoice = {
         % [_ CelloMusicVoice measure 7]                          %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        gqs1
+        gqs!1
         \repeatTie
         \ppp                                                     %! HC1
         \glissando                                               %! SC
@@ -5915,60 +5915,60 @@ i_CelloMusicVoice = {
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        bqf4
+        bqf!4
         \<                                                       %! HC1
         \pp                                                      %! HC1
     }
     
     % [_ CelloMusicVoice measure 10]                             %! SM4
-    bqf2.
+    bqf!2.
     \repeatTie
     
     % [_ CelloMusicVoice measure 11]                             %! SM4
-    bqf1
+    bqf!1
     \repeatTie
     
     % [_ CelloMusicVoice measure 12]                             %! SM4
-    bqf2.
+    bqf!2.
     \repeatTie
     
-    bqf2
+    bqf!2
     \repeatTie
     
     % [_ CelloMusicVoice measure 13]                             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    bqf2
+    bqf!2
     \repeatTie
     \p                                                           %! HC1
     \glissando                                                   %! SC
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    af4
+    af!4
     \>                                                           %! HC1
     \p                                                           %! HC1
     \times 2/3 {
         
         % [_ CelloMusicVoice measure 14]                         %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        af2
+        af!2
         \repeatTie
         \pp                                                      %! HC1
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        gqs4
+        gqs!4
         \<                                                       %! HC1
         \pp                                                      %! HC1
     }
     
     % [_ CelloMusicVoice measure 15]                             %! SM4
-    gqs1.
+    gqs!1.
     \repeatTie
     \times 4/7 {
         
         % [_ CelloMusicVoice measure 16]                         %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        gqs2.
+        gqs!2.
         \repeatTie
         \p                                                       %! HC1
         \glissando                                               %! SC
@@ -6063,33 +6063,33 @@ i_CelloMusicVoice = {
     \glissando                                                   %! SC
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    aqs2
+    aqs!2
     \>                                                           %! HC1
     \pp                                                          %! HC1
     \times 4/7 {
         
         % [_ CelloMusicVoice measure 28]                         %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        aqs1.
+        aqs!1.
         \repeatTie
         \ppp                                                     %! HC1
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        bf4
+        bf!4
         \<                                                       %! HC1
         \ppp                                                     %! HC1
     }
     
     % [_ CelloMusicVoice measure 29]                             %! SM4
-    bf2.
+    bf!2.
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
         % [_ CelloMusicVoice measure 30]                         %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        bf2.
+        bf!2.
         \repeatTie
         \pp                                                      %! HC1
         \glissando                                               %! SC
@@ -6173,43 +6173,43 @@ i_CelloMusicVoice = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \pitchedTrill                                            %! SC
-        fs'4
+        fs'!4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
         \startTrillSpan g'                                       %! SC
     }
     
     % [_ CelloMusicVoice measure 39]                             %! SM4
-    fs'1
+    fs'!1
     \repeatTie
     \times 4/5 {
         
-        fs'8
+        fs'!8
         \repeatTie
         [
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \pitchedTrill                                            %! SC
-        fqs'8.
+        fqs'!8.
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
         \startTrillSpan gqf'                                     %! SC
     }
     
-    fqs'4
+    fqs'!4
     \repeatTie
     
     % [_ CelloMusicVoice measure 40]                             %! SM4
-    fqs'2
+    fqs'!2
     \repeatTie
     
     % [_ CelloMusicVoice measure 41]                             %! SM4
-    fqs'4
+    fqs'!4
     \repeatTie
     \times 4/5 {
         
-        fqs'8.
+        fqs'!8.
         \repeatTie
         [
         
@@ -6234,22 +6234,22 @@ i_CelloMusicVoice = {
         \repeatTie
         
         \pitchedTrill                                            %! SC
-        fqs'16
+        fqs'!16
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
         \startTrillSpan gqf'                                     %! SC
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    fqs'4
+    fqs'!4
     \repeatTie
     
     % [_ CelloMusicVoice measure 43]                             %! SM4
-    fqs'2.
+    fqs'!2.
     \repeatTie
     \times 4/5 {
         
-        fqs'16
+        fqs'!16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -6373,25 +6373,25 @@ i_ContrabassMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        bf4
+        bf!4
     }
     \times 4/5 {
         
         % [_ ContrabassMusicVoice measure 4]                     %! SM4
-        bf2.
+        bf!2.
         \repeatTie
         \glissando                                               %! SC
         
-        aqs8.
+        aqs!8.
     }
     
     % [_ ContrabassMusicVoice measure 5]                         %! SM4
-    aqs1
+    aqs!1
     \repeatTie
     \times 4/5 {
         
         % [_ ContrabassMusicVoice measure 6]                     %! SM4
-        aqs2.
+        aqs!2.
         \repeatTie
         \glissando                                               %! SC
         
@@ -6419,62 +6419,62 @@ i_ContrabassMusicVoice = {
     \glissando                                                   %! SC
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    cqs'4
+    cqs'!4
     \>                                                           %! HC1
     \pp                                                          %! HC1
     \times 2/3 {
         
         % [_ ContrabassMusicVoice measure 11]                    %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        cqs'1
+        cqs'!1
         \repeatTie
         \ppp                                                     %! HC1
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        bf2
+        bf!2
         \<                                                       %! HC1
         \ppp                                                     %! HC1
     }
     
     % [_ ContrabassMusicVoice measure 12]                        %! SM4
-    bf2.
+    bf!2.
     \repeatTie
     
-    bf2
+    bf!2
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
         % [_ ContrabassMusicVoice measure 13]                    %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        bf2.
+        bf!2.
         \repeatTie
         \pp                                                      %! HC1
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        aqs8
+        aqs!8
         \>                                                       %! HC1
         \pp                                                      %! HC1
     }
     
     % [_ ContrabassMusicVoice measure 14]                        %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    aqs2
+    aqs!2
     \repeatTie
     
     % [_ ContrabassMusicVoice measure 15]                        %! SM4
-    aqs1.
+    aqs!1.
     \repeatTie
     
     % [_ ContrabassMusicVoice measure 16]                        %! SM4
-    aqs2
+    aqs!2
     \repeatTie
     
     % [_ ContrabassMusicVoice measure 17]                        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    aqs1
+    aqs!1
     \repeatTie
     \ppp                                                         %! HC1
     \glissando                                                   %! SC
@@ -6538,7 +6538,7 @@ i_ContrabassMusicVoice = {
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        cs'2
+        cs'!2
         \<                                                       %! HC1
         \pp                                                      %! HC1
     }
@@ -6546,27 +6546,27 @@ i_ContrabassMusicVoice = {
         
         % [_ ContrabassMusicVoice measure 25]                    %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        cs'2.
+        cs'!2.
         \repeatTie
         \p                                                       %! HC1
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        bqs8
+        bqs!8
         \>                                                       %! HC1
         \p                                                       %! HC1
     }
     
     % [_ ContrabassMusicVoice measure 26]                        %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    bqs2
+    bqs!2
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
         % [_ ContrabassMusicVoice measure 27]                    %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        bqs1.
+        bqs!1.
         \repeatTie
         \ppp                                                     %! HC1
         \glissando                                               %! SC
@@ -6629,36 +6629,36 @@ i_ContrabassMusicVoice = {
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        cs'2
+        cs'!2
         \>                                                       %! HC1
         \pp                                                      %! HC1
     }
     
     % [_ ContrabassMusicVoice measure 35]                        %! SM4
-    cs'1
+    cs'!1
     \repeatTie
     
     % [_ ContrabassMusicVoice measure 36]                        %! SM4
-    cs'2.
+    cs'!2.
     \repeatTie
     
-    cs'2
+    cs'!2
     \repeatTie
     
     % [_ ContrabassMusicVoice measure 37]                        %! SM4
-    cs'2.
+    cs'!2.
     \repeatTie
     \times 4/7 {
         
         % [_ ContrabassMusicVoice measure 38]                    %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        cs'2.
+        cs'!2.
         \repeatTie
         \ppp                                                     %! HC1
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        bqs8
+        bqs!8
         \<                                                       %! HC1
         \ppp                                                     %! HC1
     }
@@ -6668,24 +6668,24 @@ i_ContrabassMusicVoice = {
         % [_ ContrabassMusicVoice measure 39]                    %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        bqs1.
+        bqs!1.
         \repeatTie
         \pp                                                      %! HC1
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        dqf'4
+        dqf'!4
         \<                                                       %! HC1
         \pp                                                      %! HC1
     }
     
     % [_ ContrabassMusicVoice measure 40]                        %! SM4
-    dqf'2
+    dqf'!2
     \repeatTie
     
     % [_ ContrabassMusicVoice measure 41]                        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    dqf'1
+    dqf'!1
     \repeatTie
     \p                                                           %! HC1
     \glissando                                                   %! SC
