@@ -1515,15 +1515,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -1537,15 +1537,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -1559,15 +1559,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -1581,15 +1581,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -1604,15 +1604,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -1626,15 +1626,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -1648,15 +1648,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -1670,15 +1670,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -1692,15 +1692,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -1714,15 +1714,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -1736,15 +1736,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -1758,15 +1758,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -1780,15 +1780,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -1802,15 +1802,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -1824,15 +1824,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -1846,15 +1846,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -1868,15 +1868,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -1890,15 +1890,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -1912,15 +1912,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -1934,15 +1934,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -1956,15 +1956,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -1978,15 +1978,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -2000,15 +2000,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -2022,15 +2022,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -2044,15 +2044,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -2066,15 +2066,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -2088,15 +2088,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -2110,15 +2110,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -2132,15 +2132,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -2154,15 +2154,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -2176,15 +2176,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -2198,15 +2198,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -2221,15 +2221,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -2243,15 +2243,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -2265,15 +2265,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -2287,15 +2287,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -2309,15 +2309,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -2331,15 +2331,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -2353,15 +2353,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -2375,15 +2375,15 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         f'''16
         ]
@@ -2396,11 +2396,11 @@ B_FluteMusicVoice = {
         
         e'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         ]
     }
     
@@ -2418,7 +2418,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 108]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    bf'1
+    bf'!1
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -2437,26 +2437,26 @@ B_FluteMusicVoice = {
         }                                                        %! IC
     
     % [B FluteMusicVoice measure 109]                            %! SM4
-    bf'2...
+    bf'!2...
     \repeatTie
     
     r16
     
     % [B FluteMusicVoice measure 110]                            %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    bf'2.
+    bf'!2.
     
-    bf'2
+    bf'!2
     \repeatTie
     
     % [B FluteMusicVoice measure 111]                            %! SM4
-    bf'4.
+    bf'!4.
     \repeatTie
     
-    bf'4
+    bf'!4
     \repeatTie
     
-    bf'16
+    bf'!16
     \repeatTie
     
     r16
@@ -2495,7 +2495,7 @@ B_OboeMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    ds'2
+    ds'!2
     \fff                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
@@ -2530,7 +2530,7 @@ B_OboeMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [B OboeMusicVoice measure 76]                              %! SM4
-    ds'2
+    ds'!2
     \repeatTie
     
     % [B OboeMusicVoice measure 77]                              %! SM4
@@ -2568,15 +2568,15 @@ B_OboeMusicVoice = {
                 (“Oboe”)                                         %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
             }                                                    %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2586,15 +2586,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2604,15 +2604,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2622,15 +2622,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2640,15 +2640,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2658,15 +2658,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2676,15 +2676,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2694,15 +2694,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2712,15 +2712,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2730,15 +2730,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2748,15 +2748,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2766,15 +2766,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2785,15 +2785,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2803,15 +2803,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2821,15 +2821,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2839,15 +2839,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2857,15 +2857,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2875,15 +2875,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2893,15 +2893,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2911,15 +2911,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2930,15 +2930,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2948,15 +2948,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2966,15 +2966,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2984,15 +2984,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3003,15 +3003,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3021,15 +3021,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3039,15 +3039,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3057,15 +3057,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3075,15 +3075,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3093,15 +3093,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3111,15 +3111,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3129,15 +3129,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3147,15 +3147,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3165,15 +3165,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3183,15 +3183,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3201,15 +3201,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3220,15 +3220,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3238,15 +3238,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3256,15 +3256,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3274,15 +3274,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3293,15 +3293,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3311,15 +3311,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3329,15 +3329,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3347,15 +3347,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3365,15 +3365,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3383,15 +3383,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3401,15 +3401,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3419,15 +3419,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3437,15 +3437,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3455,15 +3455,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3473,15 +3473,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3491,15 +3491,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3509,15 +3509,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3527,15 +3527,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3545,15 +3545,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -3563,15 +3563,15 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         ]
     }
     \times 4/5 {
@@ -3580,9 +3580,9 @@ B_OboeMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
@@ -3673,7 +3673,7 @@ B_ClarinetMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    gs2
+    gs!2
     \fff                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
@@ -3708,7 +3708,7 @@ B_ClarinetMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [B ClarinetMusicVoice measure 76]                          %! SM4
-    gs2
+    gs!2
     \repeatTie
     
     % [B ClarinetMusicVoice measure 77]                          %! SM4
@@ -3745,19 +3745,19 @@ B_ClarinetMusicVoice = {
                 (“Clarinet”)                                     %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
             }                                                    %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -3768,19 +3768,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -3791,19 +3791,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -3814,19 +3814,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -3837,19 +3837,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -3860,19 +3860,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -3884,19 +3884,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -3907,19 +3907,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -3930,19 +3930,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -3953,19 +3953,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -3976,19 +3976,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -3999,19 +3999,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4022,19 +4022,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4045,19 +4045,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4068,19 +4068,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4092,19 +4092,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4115,19 +4115,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4138,19 +4138,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4161,19 +4161,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4184,19 +4184,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4207,19 +4207,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4230,19 +4230,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4253,19 +4253,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4276,19 +4276,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4299,19 +4299,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4323,19 +4323,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4346,19 +4346,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4370,19 +4370,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4394,19 +4394,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4418,19 +4418,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4441,19 +4441,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4464,19 +4464,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4488,19 +4488,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4511,19 +4511,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4535,19 +4535,19 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        es'''16
+        es'''!16
         
-        fs'''16
+        fs'''!16
         
         g'''16
         ]
@@ -4558,11 +4558,11 @@ B_ClarinetMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        es'''16
+        es'''!16
         
         g'''16
         
-        gs'''16
+        gs'''!16
         
         d'''16
         ]
@@ -4639,7 +4639,7 @@ B_SaxophoneMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    es'2
+    es'!2
     \fff                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
@@ -4674,7 +4674,7 @@ B_SaxophoneMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [B SaxophoneMusicVoice measure 76]                         %! SM4
-    es'2
+    es'!2
     \repeatTie
     
     % [B SaxophoneMusicVoice measure 77]                         %! SM4
@@ -4712,17 +4712,17 @@ B_SaxophoneMusicVoice = {
                 (“SopraninoSaxophone”)                           %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
             }                                                    %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -4732,17 +4732,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -4753,17 +4753,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -4773,17 +4773,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -4793,17 +4793,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -4813,17 +4813,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -4833,17 +4833,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -4853,17 +4853,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -4874,17 +4874,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -4894,17 +4894,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -4915,17 +4915,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -4935,17 +4935,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -4955,17 +4955,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -4975,17 +4975,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -4995,17 +4995,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5015,17 +5015,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5035,17 +5035,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5055,17 +5055,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5075,17 +5075,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5095,17 +5095,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5116,17 +5116,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5136,17 +5136,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5157,17 +5157,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5177,17 +5177,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5197,17 +5197,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5217,17 +5217,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5237,17 +5237,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5257,17 +5257,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5277,17 +5277,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5297,17 +5297,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5318,17 +5318,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5338,17 +5338,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5358,17 +5358,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5378,17 +5378,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5398,17 +5398,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5418,17 +5418,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5439,17 +5439,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5459,17 +5459,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5479,17 +5479,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5499,17 +5499,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5519,17 +5519,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5539,17 +5539,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5559,17 +5559,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5579,17 +5579,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5599,17 +5599,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5619,17 +5619,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5639,17 +5639,17 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
-        bs''16
+        bs''!16
         
-        cs'''16
+        cs'''!16
         ]
     }
     \times 2/3 {
@@ -5658,7 +5658,7 @@ B_SaxophoneMusicVoice = {
         -\accent                                                 %! IC
         [
         
-        as''16
+        as''!16
         
         b''16
         ]
@@ -5814,110 +5814,110 @@ B_GuitarMusicVoice = {
     
     % [B GuitarMusicVoice measure 84]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    af''2.
+    af''!2.
     :32                                                          %! IC
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B GuitarMusicVoice measure 85]                            %! SM4
-    af''1
+    af''!1
     :32                                                          %! IC
     \repeatTie
     
     % [B GuitarMusicVoice measure 86]                            %! SM4
-    af''2.
+    af''!2.
     :32                                                          %! IC
     \repeatTie
     
-    af''2
+    af''!2
     :32                                                          %! IC
     \repeatTie
     
     % [B GuitarMusicVoice measure 87]                            %! SM4
-    af''2.
+    af''!2.
     :32                                                          %! IC
     \repeatTie
     
     % [B GuitarMusicVoice measure 88]                            %! SM4
-    af''2
+    af''!2
     :32                                                          %! IC
     \repeatTie
     
     % [B GuitarMusicVoice measure 89]                            %! SM4
-    af''1.
+    af''!1.
     :32                                                          %! IC
     \repeatTie
     
     % [B GuitarMusicVoice measure 90]                            %! SM4
-    af''2
+    af''!2
     :32                                                          %! IC
     \repeatTie
     
     % [B GuitarMusicVoice measure 91]                            %! SM4
-    af''2.
+    af''!2.
     :32                                                          %! IC
     \repeatTie
     
-    af''2
+    af''!2
     :32                                                          %! IC
     \repeatTie
     
     % [B GuitarMusicVoice measure 92]                            %! SM4
-    af''2.
+    af''!2.
     :32                                                          %! IC
     \repeatTie
     
     % [B GuitarMusicVoice measure 93]                            %! SM4
-    af''1
+    af''!1
     :32                                                          %! IC
     \repeatTie
     
     % [B GuitarMusicVoice measure 94]                            %! SM4
-    af''1.
+    af''!1.
     :32                                                          %! IC
     \repeatTie
     
     % [B GuitarMusicVoice measure 95]                            %! SM4
-    af''2
+    af''!2
     :32                                                          %! IC
     \repeatTie
     
     % [B GuitarMusicVoice measure 96]                            %! SM4
-    af''2
+    af''!2
     :32                                                          %! IC
     \repeatTie
     
     % [B GuitarMusicVoice measure 97]                            %! SM4
-    af''2.
+    af''!2.
     :32                                                          %! IC
     \repeatTie
     
     % [B GuitarMusicVoice measure 98]                            %! SM4
-    af''1
+    af''!1
     :32                                                          %! IC
     \repeatTie
     
     % [B GuitarMusicVoice measure 99]                            %! SM4
-    af''2
+    af''!2
     :32                                                          %! IC
     \repeatTie
     
     % [B GuitarMusicVoice measure 100]                           %! SM4
-    af''2
+    af''!2
     :32                                                          %! IC
     \repeatTie
     
     % [B GuitarMusicVoice measure 101]                           %! SM4
-    af''1.
+    af''!1.
     :32                                                          %! IC
     \repeatTie
     
     % [B GuitarMusicVoice measure 102]                           %! SM4
-    af''1
+    af''!1
     :32                                                          %! IC
     \repeatTie
     
     % [B GuitarMusicVoice measure 103]                           %! SM4
-    af''2.
+    af''!2.
     :32                                                          %! IC
     \repeatTie
     
@@ -5980,7 +5980,7 @@ B_PianoMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
-    df''''16
+    df''''!16
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     [
     ^ \markup {
@@ -6022,7 +6022,7 @@ B_PianoMusicVoice = {
     c''''16
     ]
     
-    af'''16
+    af'''!16
     [
     
     g'''16
@@ -6036,9 +6036,9 @@ B_PianoMusicVoice = {
     b'''16
     [
     
-    df''''16
+    df''''!16
     
-    ef''''16
+    ef''''!16
     
     f''''16
     ]
@@ -6047,9 +6047,9 @@ B_PianoMusicVoice = {
         e''''8
         [
         
-        fs'''8
+        fs'''!8
         
-        bf'''8
+        bf'''!8
         ]
     }
     \times 4/5 {
@@ -6060,7 +6060,7 @@ B_PianoMusicVoice = {
         
         c''''16.
         
-        af'''16.
+        af'''!16.
         
         g'''16.
         
@@ -6074,9 +6074,9 @@ B_PianoMusicVoice = {
         
         b'''16.
         
-        df''''16.
+        df''''!16.
         
-        ef''''16.
+        ef''''!16.
         
         a'''16.
         ]
@@ -6086,13 +6086,13 @@ B_PianoMusicVoice = {
         e''''16.
         [
         
-        fs'''16.
+        fs'''!16.
         
-        bf'''16.
+        bf'''!16.
         
         c''''16.
         
-        df''''16.
+        df''''!16.
         ]
     }
     
@@ -6101,7 +6101,7 @@ B_PianoMusicVoice = {
     
     f''''8
     
-    ef''''8
+    ef''''!8
     ]
     \times 2/3 {
         
@@ -6111,18 +6111,18 @@ B_PianoMusicVoice = {
         
         b'''8
         
-        df''''8
+        df''''!8
         ]
     }
     
-    bf'''16
+    bf'''!16
     [
     
     a'''16
     
     e''''16
     
-    fs'''16
+    fs'''!16
     ]
     
     f''''16
@@ -6130,7 +6130,7 @@ B_PianoMusicVoice = {
     
     c''''16
     
-    df''''16
+    df''''!16
     
     d''''16
     ]
@@ -6144,7 +6144,7 @@ B_PianoMusicVoice = {
         
         c''''8
         
-        af'''8
+        af'''!8
         ]
     }
     \times 2/3 {
@@ -6152,9 +6152,9 @@ B_PianoMusicVoice = {
         g'''8
         [
         
-        fs'''8
+        fs'''!8
         
-        bf'''8
+        bf'''!8
         ]
     }
     \times 4/5 {
@@ -6173,7 +6173,7 @@ B_PianoMusicVoice = {
     }
     \times 4/5 {
         
-        df''''16
+        df''''!16
         [
         
         g'''16
@@ -6182,22 +6182,22 @@ B_PianoMusicVoice = {
         
         c''''16
         
-        af'''16
+        af'''!16
         ]
     }
     \times 4/5 {
         
         % [B PianoMusicVoice measure 80]                         %! SM4
-        df''''16.
+        df''''!16.
         [
         
-        ef''''16.
+        ef''''!16.
         
         f''''16.
         
         b'''16.
         
-        df''''16.
+        df''''!16.
         ]
     }
     \times 4/5 {
@@ -6209,7 +6209,7 @@ B_PianoMusicVoice = {
         
         c''''16.
         
-        af'''16.
+        af'''!16.
         
         g'''16.
         ]
@@ -6224,9 +6224,9 @@ B_PianoMusicVoice = {
         
         b'''16
         
-        df''''16
+        df''''!16
         
-        ef''''16
+        ef''''!16
         ]
     }
     
@@ -6235,9 +6235,9 @@ B_PianoMusicVoice = {
     
     e''''16
     
-    fs'''16
+    fs'''!16
     
-    bf'''16
+    bf'''!16
     ]
     
     a'''16
@@ -6245,7 +6245,7 @@ B_PianoMusicVoice = {
     
     c''''16
     
-    af'''16
+    af'''!16
     
     g'''16
     ]
@@ -6257,12 +6257,12 @@ B_PianoMusicVoice = {
     
     b'''16
     
-    df''''16
+    df''''!16
     ]
     \times 2/3 {
         
         % [B PianoMusicVoice measure 82]                         %! SM4
-        ef''''8
+        ef''''!8
         [
         
         a'''8
@@ -6272,14 +6272,14 @@ B_PianoMusicVoice = {
     }
     \times 4/5 {
         
-        fs'''16
+        fs'''!16
         [
         
-        bf'''16
+        bf'''!16
         
         c''''16
         
-        df''''16
+        df''''!16
         
         d''''16
         ]
@@ -6289,25 +6289,25 @@ B_PianoMusicVoice = {
         f''''16
         [
         
-        ef''''16
+        ef''''!16
         
         f''''16
         
         b'''16
         
-        df''''16
+        df''''!16
         ]
     }
     \times 4/5 {
         
-        bf'''16
+        bf'''!16
         [
         
         a'''16
         
         e''''16
         
-        fs'''16
+        fs'''!16
         
         f''''16
         ]
@@ -6317,7 +6317,7 @@ B_PianoMusicVoice = {
         c''''8
         [
         
-        df''''8
+        df''''!8
         
         d''''8
         ]
@@ -6330,16 +6330,16 @@ B_PianoMusicVoice = {
         
         c''''8
         
-        af'''8
+        af'''!8
         ]
     }
     
     g'''16
     [
     
-    fs'''16
+    fs'''!16
     
-    bf'''16
+    bf'''!16
     
     a'''16
     ]
@@ -6355,7 +6355,7 @@ B_PianoMusicVoice = {
     ]
     \times 2/3 {
         
-        df''''8
+        df''''!8
         [
         
         g'''8
@@ -6376,47 +6376,19 @@ B_PianoMusicVoice = {
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
-        
-        c'''16
-        -\accent                                                 %! IC
-        [
-        
-        d'''16
-        
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        
-        fs'''16
-        
-        c'''16
-        
-        cs'''16
-        
-        ds'''16
+        ds'''!16
         
         e'''16
         
@@ -6432,47 +6404,19 @@ B_PianoMusicVoice = {
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
-        
-        c'''16
-        -\accent                                                 %! IC
-        [
-        
-        d'''16
-        
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        
-        fs'''16
-        
-        c'''16
-        
-        cs'''16
-        
-        ds'''16
+        ds'''!16
         
         e'''16
         
@@ -6488,47 +6432,19 @@ B_PianoMusicVoice = {
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
-        
-        c'''16
-        -\accent                                                 %! IC
-        [
-        
-        d'''16
-        
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        
-        fs'''16
-        
-        c'''16
-        
-        cs'''16
-        
-        ds'''16
+        ds'''!16
         
         e'''16
         
@@ -6544,47 +6460,19 @@ B_PianoMusicVoice = {
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
-        
-        c'''16
-        -\accent                                                 %! IC
-        [
-        
-        d'''16
-        
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        
-        fs'''16
-        
-        c'''16
-        
-        cs'''16
-        
-        ds'''16
+        ds'''!16
         
         e'''16
         
@@ -6600,47 +6488,19 @@ B_PianoMusicVoice = {
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
-        
-        c'''16
-        -\accent                                                 %! IC
-        [
-        
-        d'''16
-        
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        
-        fs'''16
-        
-        c'''16
-        
-        cs'''16
-        
-        ds'''16
+        ds'''!16
         
         e'''16
         
@@ -6656,47 +6516,19 @@ B_PianoMusicVoice = {
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
-        
-        c'''16
-        -\accent                                                 %! IC
-        [
-        
-        d'''16
-        
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        
-        fs'''16
-        
-        c'''16
-        
-        cs'''16
-        
-        ds'''16
+        ds'''!16
         
         e'''16
         
@@ -6712,47 +6544,19 @@ B_PianoMusicVoice = {
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
-        
-        c'''16
-        -\accent                                                 %! IC
-        [
-        
-        d'''16
-        
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        
-        fs'''16
-        
-        c'''16
-        
-        cs'''16
-        
-        ds'''16
+        ds'''!16
         
         e'''16
         
@@ -6768,47 +6572,19 @@ B_PianoMusicVoice = {
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
-        
-        c'''16
-        -\accent                                                 %! IC
-        [
-        
-        d'''16
-        
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        
-        fs'''16
-        
-        c'''16
-        
-        cs'''16
-        
-        ds'''16
+        ds'''!16
         
         e'''16
         
@@ -6824,47 +6600,19 @@ B_PianoMusicVoice = {
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
-        
-        c'''16
-        -\accent                                                 %! IC
-        [
-        
-        d'''16
-        
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        
-        fs'''16
-        
-        c'''16
-        
-        cs'''16
-        
-        ds'''16
+        ds'''!16
         
         e'''16
         
@@ -6880,19 +6628,19 @@ B_PianoMusicVoice = {
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
@@ -6908,19 +6656,271 @@ B_PianoMusicVoice = {
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 9/11 {
+        
+        c'''16
+        -\accent                                                 %! IC
+        [
+        
+        d'''16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        
+        fs'''!16
+        
+        c'''16
+        
+        cs'''!16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 9/11 {
+        
+        c'''16
+        -\accent                                                 %! IC
+        [
+        
+        d'''16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        
+        fs'''!16
+        
+        c'''16
+        
+        cs'''!16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 9/11 {
+        
+        c'''16
+        -\accent                                                 %! IC
+        [
+        
+        d'''16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        
+        fs'''!16
+        
+        c'''16
+        
+        cs'''!16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 9/11 {
+        
+        c'''16
+        -\accent                                                 %! IC
+        [
+        
+        d'''16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        
+        fs'''!16
+        
+        c'''16
+        
+        cs'''!16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 9/11 {
+        
+        c'''16
+        -\accent                                                 %! IC
+        [
+        
+        d'''16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        
+        fs'''!16
+        
+        c'''16
+        
+        cs'''!16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 9/11 {
+        
+        c'''16
+        -\accent                                                 %! IC
+        [
+        
+        d'''16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        
+        fs'''!16
+        
+        c'''16
+        
+        cs'''!16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 9/11 {
+        
+        c'''16
+        -\accent                                                 %! IC
+        [
+        
+        d'''16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        
+        fs'''!16
+        
+        c'''16
+        
+        cs'''!16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 9/11 {
+        
+        c'''16
+        -\accent                                                 %! IC
+        [
+        
+        d'''16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        
+        fs'''!16
+        
+        c'''16
+        
+        cs'''!16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 9/11 {
+        
+        c'''16
+        -\accent                                                 %! IC
+        [
+        
+        d'''16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        
+        fs'''!16
+        
+        c'''16
+        
+        cs'''!16
+        
+        ds'''!16
         
         e'''16
         
@@ -6937,47 +6937,19 @@ B_PianoMusicVoice = {
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
-        
-        c'''16
-        -\accent                                                 %! IC
-        [
-        
-        d'''16
-        
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        
-        fs'''16
-        
-        c'''16
-        
-        cs'''16
-        
-        ds'''16
+        ds'''!16
         
         e'''16
         
@@ -6993,19 +6965,19 @@ B_PianoMusicVoice = {
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
@@ -7021,19 +6993,47 @@ B_PianoMusicVoice = {
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 9/11 {
+        
+        c'''16
+        -\accent                                                 %! IC
+        [
+        
+        d'''16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        
+        fs'''!16
+        
+        c'''16
+        
+        cs'''!16
+        
+        ds'''!16
         
         e'''16
         
@@ -7050,47 +7050,19 @@ B_PianoMusicVoice = {
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
-        
-        c'''16
-        -\accent                                                 %! IC
-        [
-        
-        d'''16
-        
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        
-        fs'''16
-        
-        c'''16
-        
-        cs'''16
-        
-        ds'''16
+        ds'''!16
         
         e'''16
         
@@ -7106,47 +7078,19 @@ B_PianoMusicVoice = {
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
-        
-        c'''16
-        -\accent                                                 %! IC
-        [
-        
-        d'''16
-        
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        
-        fs'''16
-        
-        c'''16
-        
-        cs'''16
-        
-        ds'''16
+        ds'''!16
         
         e'''16
         
@@ -7162,47 +7106,19 @@ B_PianoMusicVoice = {
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
-        
-        c'''16
-        -\accent                                                 %! IC
-        [
-        
-        d'''16
-        
-        ds'''16
-        
-        e'''16
-        
-        f'''16
-        
-        fs'''16
-        
-        c'''16
-        
-        cs'''16
-        
-        ds'''16
+        ds'''!16
         
         e'''16
         
@@ -7218,19 +7134,103 @@ B_PianoMusicVoice = {
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         
-        cs'''16
+        cs'''!16
         
-        ds'''16
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 9/11 {
+        
+        c'''16
+        -\accent                                                 %! IC
+        [
+        
+        d'''16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        
+        fs'''!16
+        
+        c'''16
+        
+        cs'''!16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 9/11 {
+        
+        c'''16
+        -\accent                                                 %! IC
+        [
+        
+        d'''16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        
+        fs'''!16
+        
+        c'''16
+        
+        cs'''!16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 9/11 {
+        
+        c'''16
+        -\accent                                                 %! IC
+        [
+        
+        d'''16
+        
+        ds'''!16
+        
+        e'''16
+        
+        f'''16
+        
+        fs'''!16
+        
+        c'''16
+        
+        cs'''!16
+        
+        ds'''!16
         
         e'''16
         
@@ -7246,13 +7246,13 @@ B_PianoMusicVoice = {
         
         d'''16
         
-        ds'''16
+        ds'''!16
         
         e'''16
         
         f'''16
         
-        fs'''16
+        fs'''!16
         
         c'''16
         ]
@@ -7906,7 +7906,7 @@ B_ViolinMusicVoice = {
     % [B ViolinMusicVoice measure 77]                            %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    gff'1.
+    gff'!1.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \glissando                                                   %! SC
     ^ \markup {                                                  %! IC
@@ -7916,193 +7916,193 @@ B_ViolinMusicVoice = {
         }                                                        %! IC
     
     % [B ViolinMusicVoice measure 78]                            %! SM4
-    gf'2.
+    gf'!2.
     \glissando                                                   %! SC
     \times 4/5 {
         
         % [B ViolinMusicVoice measure 79]                        %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        bff'2.
+        bff'!2.
         \glissando                                               %! SC
         \<                                                       %! HC1
         \pp                                                      %! HC1
         
-        ff'2
+        ff'!2
         \glissando                                               %! SC
     }
     
     % [B ViolinMusicVoice measure 80]                            %! SM4
-    dff'2.
+    dff'!2.
     \glissando                                                   %! SC
     \times 2/3 {
         
         % [B ViolinMusicVoice measure 81]                        %! SM4
-        cf'1
+        cf'!1
         \glissando                                               %! SC
         
-        af'2
+        af'!2
         \glissando                                               %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/9 {
         
         % [B ViolinMusicVoice measure 82]                        %! SM4
-        ff'2.
+        ff'!2.
         \glissando                                               %! SC
         
-        ef'1.
+        ef'!1.
         \glissando                                               %! SC
     }
     \times 4/7 {
         
         % [B ViolinMusicVoice measure 83]                        %! SM4
-        gff'1
+        gff'!1
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        aff'2.
+        aff'!2.
         \f                                                       %! HC1
         \glissando                                               %! SC
     }
     
     % [B ViolinMusicVoice measure 84]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    bff'2.
+    bff'!2.
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     \glissando                                                   %! SC
     
     % [B ViolinMusicVoice measure 85]                            %! SM4
-    af'1
+    af'!1
     \glissando                                                   %! SC
     
     % [B ViolinMusicVoice measure 86]                            %! SM4
-    bf2
+    bf!2
     \glissando                                                   %! SC
     
-    eff'2.
+    eff'!2.
     \glissando                                                   %! SC
     
     % [B ViolinMusicVoice measure 87]                            %! SM4
-    df'2.
+    df'!2.
     \glissando                                                   %! SC
     \times 2/3 {
         
         % [B ViolinMusicVoice measure 88]                        %! SM4
-        ff'4
+        ff'!4
         \glissando                                               %! SC
         
-        dff'2
+        dff'!2
         \glissando                                               %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
         % [B ViolinMusicVoice measure 89]                        %! SM4
-        cf'1
+        cf'!1
         \glissando                                               %! SC
         
-        af'2.
+        af'!2.
         \glissando                                               %! SC
     }
     \times 4/7 {
         
         % [B ViolinMusicVoice measure 90]                        %! SM4
-        bff'4.
+        bff'!4.
         \glissando                                               %! SC
         
-        ef'2
+        ef'!2
         \glissando                                               %! SC
     }
     
     % [B ViolinMusicVoice measure 91]                            %! SM4
-    gff'2.
+    gff'!2.
     
-    gff'2
+    gff'!2
     \repeatTie
     \glissando                                                   %! SC
     
     % [B ViolinMusicVoice measure 92]                            %! SM4
-    aff'2.
+    aff'!2.
     \glissando                                                   %! SC
     \times 2/3 {
         
         % [B ViolinMusicVoice measure 93]                        %! SM4
-        df'1
+        df'!1
         \glissando                                               %! SC
         
-        af'2
+        af'!2
         \glissando                                               %! SC
     }
     
     % [B ViolinMusicVoice measure 94]                            %! SM4
-    bf1.
+    bf!1.
     \glissando                                                   %! SC
     \times 4/7 {
         
         % [B ViolinMusicVoice measure 95]                        %! SM4
-        eff'2
+        eff'!2
         \glissando                                               %! SC
         
-        ff'4.
+        ff'!4.
         \glissando                                               %! SC
     }
     \times 4/7 {
         
         % [B ViolinMusicVoice measure 96]                        %! SM4
-        gff'4.
+        gff'!4.
         \glissando                                               %! SC
         
-        gf'2
+        gf'!2
         \glissando                                               %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
         % [B ViolinMusicVoice measure 97]                        %! SM4
-        bff'2.
+        bff'!2.
         \glissando                                               %! SC
         
-        aff'2
+        aff'!2
         \glissando                                               %! SC
     }
     
     % [B ViolinMusicVoice measure 98]                            %! SM4
-    bff'1
+    bff'!1
     \glissando                                                   %! SC
     
     % [B ViolinMusicVoice measure 99]                            %! SM4
-    ef'2
+    ef'!2
     \glissando                                                   %! SC
     \times 2/3 {
         
         % [B ViolinMusicVoice measure 100]                       %! SM4
-        gff'4
+        gff'!4
         \glissando                                               %! SC
         
-        eff'2
+        eff'!2
         \glissando                                               %! SC
     }
     
     % [B ViolinMusicVoice measure 101]                           %! SM4
-    df'1.
+    df'!1.
     \glissando                                                   %! SC
     \times 4/7 {
         
         % [B ViolinMusicVoice measure 102]                       %! SM4
-        af'2.
+        af'!2.
         \glissando                                               %! SC
         
-        bf1
+        bf!1
         \glissando                                               %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
         % [B ViolinMusicVoice measure 103]                       %! SM4
-        bff'2.
+        bff'!2.
         \glissando                                               %! SC
         
-        ff'2
+        ff'!2
         \revert NoteHead.style                                   %! OC2
     }
     
@@ -8160,7 +8160,7 @@ B_ViolaMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    gs'2
+    gs'!2
     \fff                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
@@ -8195,7 +8195,7 @@ B_ViolaMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [B ViolaMusicVoice measure 76]                             %! SM4
-    gs'2
+    gs'!2
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
@@ -8203,7 +8203,7 @@ B_ViolaMusicVoice = {
         % [B ViolaMusicVoice measure 77]                         %! SM4
         \override NoteHead.style = #'harmonic                    %! OC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        gff'1.
+        gff'!1.
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         \glissando                                               %! SC
         ^ \markup {                                              %! IC
@@ -8212,49 +8212,49 @@ B_ViolaMusicVoice = {
                     "estr. sul pont."                            %! IC
             }                                                    %! IC
         
-        gf'1
+        gf'!1
         \glissando                                               %! SC
     }
     
     % [B ViolaMusicVoice measure 78]                             %! SM4
-    bff'2.
+    bff'!2.
     \glissando                                                   %! SC
     
     % [B ViolaMusicVoice measure 79]                             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    ff'1
+    ff'!1
     \glissando                                                   %! SC
     \<                                                           %! HC1
     \pp                                                          %! HC1
     
     % [B ViolaMusicVoice measure 80]                             %! SM4
-    dff'4
+    dff'!4
     \glissando                                                   %! SC
     
-    cf'2
+    cf'!2
     \glissando                                                   %! SC
     
     % [B ViolaMusicVoice measure 81]                             %! SM4
-    af'1
+    af'!1
     \glissando                                                   %! SC
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/7 {
         
         % [B ViolaMusicVoice measure 82]                         %! SM4
-        ff'2.
+        ff'!2.
         \glissando                                               %! SC
         
-        ef'1
+        ef'!1
         \glissando                                               %! SC
     }
     \times 4/5 {
         
         % [B ViolaMusicVoice measure 83]                         %! SM4
-        gff'2.
+        gff'!2.
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        aff'2
+        aff'!2
         \f                                                       %! HC1
         \glissando                                               %! SC
     }
@@ -8263,142 +8263,142 @@ B_ViolaMusicVoice = {
         
         % [B ViolaMusicVoice measure 84]                         %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        bff'2
+        bff'!2
         \fff                                                     %! SM8:EXPLICIT_DYNAMIC:IC
         \glissando                                               %! SC
         
-        af'2.
+        af'!2.
         \glissando                                               %! SC
     }
     
     % [B ViolaMusicVoice measure 85]                             %! SM4
-    bf1
+    bf!1
     \glissando                                                   %! SC
     
     % [B ViolaMusicVoice measure 86]                             %! SM4
-    eff'2.
+    eff'!2.
     
-    eff'2
+    eff'!2
     \repeatTie
     \glissando                                                   %! SC
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
         % [B ViolaMusicVoice measure 87]                         %! SM4
-        df'2
+        df'!2
         \glissando                                               %! SC
         
-        ff'4.
+        ff'!4.
         \glissando                                               %! SC
     }
     
     % [B ViolaMusicVoice measure 88]                             %! SM4
-    dff'2
+    dff'!2
     \glissando                                                   %! SC
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
         % [B ViolaMusicVoice measure 89]                         %! SM4
-        cf'1.
+        cf'!1.
         \glissando                                               %! SC
         
-        af'1
+        af'!1
         \glissando                                               %! SC
     }
     \times 4/5 {
         
         % [B ViolaMusicVoice measure 90]                         %! SM4
-        bff'4
+        bff'!4
         \glissando                                               %! SC
         
-        ef'4.
+        ef'!4.
         \glissando                                               %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/9 {
         
         % [B ViolaMusicVoice measure 91]                         %! SM4
-        gff'1.
+        gff'!1.
         \glissando                                               %! SC
         
-        aff'2.
+        aff'!2.
         \glissando                                               %! SC
     }
     
     % [B ViolaMusicVoice measure 92]                             %! SM4
-    df'2.
+    df'!2.
     \glissando                                                   %! SC
     
     % [B ViolaMusicVoice measure 93]                             %! SM4
-    af'1
+    af'!1
     \glissando                                                   %! SC
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
         % [B ViolaMusicVoice measure 94]                         %! SM4
-        bf2.
+        bf!2.
         \glissando                                               %! SC
         
-        eff'1
+        eff'!1
         \glissando                                               %! SC
     }
     
     % [B ViolaMusicVoice measure 95]                             %! SM4
-    ff'2
+    ff'!2
     \glissando                                                   %! SC
     \times 4/5 {
         
         % [B ViolaMusicVoice measure 96]                         %! SM4
-        gff'4
+        gff'!4
         \glissando                                               %! SC
         
-        gf'4.
+        gf'!4.
         \glissando                                               %! SC
     }
     
     % [B ViolaMusicVoice measure 97]                             %! SM4
-    bff'2
+    bff'!2
     \glissando                                                   %! SC
     
-    aff'4
+    aff'!4
     \glissando                                                   %! SC
     \times 2/3 {
         
         % [B ViolaMusicVoice measure 98]                         %! SM4
-        bff'2
+        bff'!2
         \glissando                                               %! SC
         
-        ef'1
+        ef'!1
         \glissando                                               %! SC
     }
     
     % [B ViolaMusicVoice measure 99]                             %! SM4
-    gff'2
+    gff'!2
     \glissando                                                   %! SC
     
     % [B ViolaMusicVoice measure 100]                            %! SM4
-    eff'2
+    eff'!2
     \glissando                                                   %! SC
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
         % [B ViolaMusicVoice measure 101]                        %! SM4
-        df'1.
+        df'!1.
         \glissando                                               %! SC
         
-        af'1
+        af'!1
         \glissando                                               %! SC
     }
     
     % [B ViolaMusicVoice measure 102]                            %! SM4
-    bf1
+    bf!1
     \glissando                                                   %! SC
     
     % [B ViolaMusicVoice measure 103]                            %! SM4
-    bff'2
+    bff'!2
     \glissando                                                   %! SC
     
-    ff'4
+    ff'!4
     \revert NoteHead.style                                       %! OC2
     
     % [B ViolaMusicVoice measure 104]                            %! SM4
@@ -8496,7 +8496,7 @@ B_CelloMusicVoice = {
     % [B CelloMusicVoice measure 77]                             %! SM4
     \override NoteHead.style = #'harmonic                        %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    gff'1
+    gff'!1
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \glissando                                                   %! SC
     ^ \markup {                                                  %! IC
@@ -8505,193 +8505,193 @@ B_CelloMusicVoice = {
                 "estr. sul pont."                                %! IC
         }                                                        %! IC
     
-    gf'2
+    gf'!2
     \glissando                                                   %! SC
     
     % [B CelloMusicVoice measure 78]                             %! SM4
-    bff'4
+    bff'!4
     \glissando                                                   %! SC
     
-    ff'2
+    ff'!2
     \glissando                                                   %! SC
     
     % [B CelloMusicVoice measure 79]                             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    dff'1
+    dff'!1
     \glissando                                                   %! SC
     \<                                                           %! HC1
     \pp                                                          %! HC1
     
     % [B CelloMusicVoice measure 80]                             %! SM4
-    cf'2.
+    cf'!2.
     \glissando                                                   %! SC
     \times 4/5 {
         
         % [B CelloMusicVoice measure 81]                         %! SM4
-        af'2.
+        af'!2.
         \glissando                                               %! SC
         
-        ff'2
+        ff'!2
         \glissando                                               %! SC
     }
     
     % [B CelloMusicVoice measure 82]                             %! SM4
-    ef'2.
+    ef'!2.
     
-    ef'2
+    ef'!2
     \repeatTie
     \glissando                                                   %! SC
     \times 2/3 {
         
         % [B CelloMusicVoice measure 83]                         %! SM4
-        gff'1
+        gff'!1
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        aff'2
+        aff'!2
         \f                                                       %! HC1
         \glissando                                               %! SC
     }
     
     % [B CelloMusicVoice measure 84]                             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    bff'4
+    bff'!4
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     \glissando                                                   %! SC
     
-    af'2
+    af'!2
     \glissando                                                   %! SC
     \times 4/7 {
         
         % [B CelloMusicVoice measure 85]                         %! SM4
-        bf1
+        bf!1
         \glissando                                               %! SC
         
-        eff'2.
+        eff'!2.
         \glissando                                               %! SC
     }
     
     % [B CelloMusicVoice measure 86]                             %! SM4
-    df'2.
+    df'!2.
     
-    df'2
+    df'!2
     \repeatTie
     \glissando                                                   %! SC
     
     % [B CelloMusicVoice measure 87]                             %! SM4
-    ff'2.
+    ff'!2.
     \glissando                                                   %! SC
     \times 4/5 {
         
         % [B CelloMusicVoice measure 88]                         %! SM4
-        dff'4
+        dff'!4
         \glissando                                               %! SC
         
-        cf'4.
+        cf'!4.
         \glissando                                               %! SC
     }
     
     % [B CelloMusicVoice measure 89]                             %! SM4
-    af'1.
+    af'!1.
     \glissando                                                   %! SC
     \times 2/3 {
         
         % [B CelloMusicVoice measure 90]                         %! SM4
-        bff'4
+        bff'!4
         \glissando                                               %! SC
         
-        ef'2
+        ef'!2
         \glissando                                               %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/7 {
         
         % [B CelloMusicVoice measure 91]                         %! SM4
-        gff'1
+        gff'!1
         \glissando                                               %! SC
         
-        aff'2.
+        aff'!2.
         \glissando                                               %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
         % [B CelloMusicVoice measure 92]                         %! SM4
-        df'4.
+        df'!4.
         \glissando                                               %! SC
         
-        af'2
+        af'!2
         \glissando                                               %! SC
     }
     
     % [B CelloMusicVoice measure 93]                             %! SM4
-    bf1
+    bf!1
     \glissando                                                   %! SC
     
     % [B CelloMusicVoice measure 94]                             %! SM4
-    eff'1.
+    eff'!1.
     \glissando                                                   %! SC
     \times 2/3 {
         
         % [B CelloMusicVoice measure 95]                         %! SM4
-        ff'2
+        ff'!2
         \glissando                                               %! SC
         
-        gff'4
+        gff'!4
         \glissando                                               %! SC
     }
     
     % [B CelloMusicVoice measure 96]                             %! SM4
-    gf'2
+    gf'!2
     \glissando                                                   %! SC
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
         % [B CelloMusicVoice measure 97]                         %! SM4
-        bff'2
+        bff'!2
         \glissando                                               %! SC
         
-        aff'4.
+        aff'!4.
         \glissando                                               %! SC
     }
     \times 4/7 {
         
         % [B CelloMusicVoice measure 98]                         %! SM4
-        bff'2.
+        bff'!2.
         \glissando                                               %! SC
         
-        ef'1
+        ef'!1
         \glissando                                               %! SC
     }
     \times 4/5 {
         
         % [B CelloMusicVoice measure 99]                         %! SM4
-        gff'4.
+        gff'!4.
         \glissando                                               %! SC
         
-        eff'4
+        eff'!4
         \glissando                                               %! SC
     }
     
     % [B CelloMusicVoice measure 100]                            %! SM4
-    df'2
+    df'!2
     \glissando                                                   %! SC
     
     % [B CelloMusicVoice measure 101]                            %! SM4
-    af'1.
+    af'!1.
     \glissando                                                   %! SC
     \times 2/3 {
         
         % [B CelloMusicVoice measure 102]                        %! SM4
-        bf2
+        bf!2
         \glissando                                               %! SC
         
-        bff'1
+        bff'!1
         \glissando                                               %! SC
     }
     
     % [B CelloMusicVoice measure 103]                            %! SM4
-    ff'2.
+    ff'!2.
     \revert NoteHead.style                                       %! OC2
     
     % [B CelloMusicVoice measure 104]                            %! SM4
@@ -8788,42 +8788,42 @@ B_ContrabassMusicVoice = {
     
     % [B ContrabassMusicVoice measure 77]                        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    <gs,, as,>1.
+    <gs,,! as,!>1.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B ContrabassMusicVoice measure 78]                        %! SM4
-    <gs,, as,>2.
+    <gs,,! as,!>2.
     \repeatTie
     
     % [B ContrabassMusicVoice measure 79]                        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    <gs,, as,>1
+    <gs,,! as,!>1
     \<                                                           %! HC1
     \p                                                           %! HC1
     
     % [B ContrabassMusicVoice measure 80]                        %! SM4
-    <gs,, as,>2.
+    <gs,,! as,!>2.
     \repeatTie
     
     % [B ContrabassMusicVoice measure 81]                        %! SM4
-    <gs,, as,>1
+    <gs,,! as,!>1
     \repeatTie
     
     % [B ContrabassMusicVoice measure 82]                        %! SM4
-    <gs,, as,>2.
+    <gs,,! as,!>2.
     
-    <gs,, as,>2
+    <gs,,! as,!>2
     \repeatTie
     
     % [B ContrabassMusicVoice measure 83]                        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    <gs,, as,>1
+    <gs,,! as,!>1
     \repeatTie
     \f                                                           %! HC1
     
     % [B ContrabassMusicVoice measure 84]                        %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    <gs,, as,>2.
+    <gs,,! as,!>2.
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -8832,69 +8832,69 @@ B_ContrabassMusicVoice = {
         }                                                        %! IC
     
     % [B ContrabassMusicVoice measure 85]                        %! SM4
-    <gs,, as,>1
+    <gs,,! as,!>1
     \repeatTie
     
     % [B ContrabassMusicVoice measure 86]                        %! SM4
-    <gs,, as,>2.
+    <gs,,! as,!>2.
     \repeatTie
     
-    <gs,, as,>2
+    <gs,,! as,!>2
     \repeatTie
     
     % [B ContrabassMusicVoice measure 87]                        %! SM4
-    <gs,, as,>2.
+    <gs,,! as,!>2.
     \repeatTie
     
     % [B ContrabassMusicVoice measure 88]                        %! SM4
-    <gs,, as,>2
+    <gs,,! as,!>2
     \repeatTie
     
     % [B ContrabassMusicVoice measure 89]                        %! SM4
-    <gs,, as,>1.
+    <gs,,! as,!>1.
     \repeatTie
     
     % [B ContrabassMusicVoice measure 90]                        %! SM4
-    <gs,, as,>2
+    <gs,,! as,!>2
     \repeatTie
     
     % [B ContrabassMusicVoice measure 91]                        %! SM4
-    <gs,, as,>2.
+    <gs,,! as,!>2.
     \repeatTie
     
-    <gs,, as,>2
+    <gs,,! as,!>2
     \repeatTie
     
     % [B ContrabassMusicVoice measure 92]                        %! SM4
-    <gs,, as,>2.
+    <gs,,! as,!>2.
     \repeatTie
     
     % [B ContrabassMusicVoice measure 93]                        %! SM4
-    <gs,, as,>1
+    <gs,,! as,!>1
     \repeatTie
     
     % [B ContrabassMusicVoice measure 94]                        %! SM4
-    <gs,, as,>1.
+    <gs,,! as,!>1.
     \repeatTie
     
     % [B ContrabassMusicVoice measure 95]                        %! SM4
-    <gs,, as,>2
+    <gs,,! as,!>2
     \repeatTie
     
     % [B ContrabassMusicVoice measure 96]                        %! SM4
-    <gs,, as,>2
+    <gs,,! as,!>2
     \repeatTie
     
     % [B ContrabassMusicVoice measure 97]                        %! SM4
-    <gs,, as,>2.
+    <gs,,! as,!>2.
     \repeatTie
     
     % [B ContrabassMusicVoice measure 98]                        %! SM4
-    <gs,, as,>1
+    <gs,,! as,!>1
     \repeatTie
     
     % [B ContrabassMusicVoice measure 99]                        %! SM4
-    <gs,, as,>2
+    <gs,,! as,!>2
     \repeatTie
     
     % [B ContrabassMusicVoice measure 100]                       %! SM4
