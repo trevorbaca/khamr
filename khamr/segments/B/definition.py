@@ -128,12 +128,12 @@ maker(
 
 maker(
     ('perc', 5),
-    baca.make_repeated_duration_notes([(1, 4)], rewrite_meter=False),
+    baca.make_repeated_duration_notes([(1, 4)], do_not_rewrite_meter=True),
     )
 
 maker(
     ('perc', 6),
-    baca.make_repeated_duration_notes([(3, 8)], rewrite_meter=False),
+    baca.make_repeated_duration_notes([(3, 8)], do_not_rewrite_meter=True),
     )
 
 maker(
