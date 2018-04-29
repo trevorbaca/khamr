@@ -120,7 +120,7 @@ maker(
 
 maker(
     ('ob', (1, 7)),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     baca.staff_position(0),
     )
 
@@ -131,21 +131,21 @@ maker(
 
 maker(
     ('sax', (1, 7)),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     baca.staff_position(0),
     )
 
 maker(
     ('gt', (1, 8)),
-    baca.accents(),
+    baca.accent(),
     baca.dynamic('mf'),
-    baca.flageolets(),
+    baca.flageolet(),
     baca.pitch('C4'),
     )
 
 maker(
     ('pf', (1, 8)),
-    baca.accents(),
+    baca.accent(),
     baca.dynamic('mf'),
     baca.pitch('A#4'),
     )

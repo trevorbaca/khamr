@@ -238,7 +238,7 @@ maker(
     baca.dynamic('p'),
     baca.staff_lines(1),
     baca.staff_position(0),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     khamr.markup.airtone_without_reed(),
     )
 
@@ -246,7 +246,7 @@ maker(
     ('ob', (6, 7)),
     baca.clef('treble'),
     baca.dynamic('pp'),
-    baca.flageolets(),
+    baca.flageolet(),
     baca.markup.put_reed_back_in(),
     baca.pitch('<A4 E5>'),
     baca.staff_lines(5),
@@ -288,7 +288,7 @@ maker(
 
 maker(
     ('gt', (1, 7)),
-    baca.cross_note_heads(),
+    baca.note_head_style_cross(),
     )
 
 maker(
@@ -298,10 +298,10 @@ maker(
 
 maker(
     ('pf', (1, 3)),
-    baca.accents(),
+    baca.accent(),
     baca.clef('percussion'),
     baca.dynamic('mf'),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
     khamr.markup.strike_lowest_strings(),
@@ -321,7 +321,7 @@ maker(
     ('pf', 7),
     baca.clef('percussion'),
     baca.dynamic('mp'),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
     khamr.markup.sparse_piano_clicks(),
@@ -329,14 +329,14 @@ maker(
 
 maker(
     ('perc', (1, 7)),
-    baca.accents(),
+    baca.accent(),
     baca.bar_extent_persistent((0, 2)),
     baca.dynamic('mp'),
     baca.markup.boxed('XL tam-tam'),
     baca.pitches('C4 C4 C4 Ab5', allow_repeats=True),
     baca.staff_lines(1),
-    baca.repeat_ties_up(),
-    baca.stems_down(),
+    baca.repeat_tie_up(),
+    baca.stem_down(),
     khamr.MarimbaHitCommand([3, 7], attach_first_markup=True),
     )
 
@@ -344,7 +344,7 @@ maker(
     ('vn', (1, 5)),
     baca.glissando(),
     baca.markup.string_number(4),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     baca.pitches(khamr.violin_halo_pitches),
     khamr.halo_hairpins(),
     )
@@ -362,7 +362,7 @@ maker(
     baca.glissando(),
     baca.markup.string_number(3),
     baca.pitches(khamr.violin_halo_pitches),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     khamr.halo_hairpins(),
     )
 
@@ -378,7 +378,7 @@ maker(
     ('vc', (1, 5)),
     baca.glissando(),
     baca.markup.string_number(3),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     baca.pitches(khamr.cello_halo_pitches),
     khamr.halo_hairpins(),
     )
@@ -396,7 +396,7 @@ maker(
     baca.dynamic('f'),
     baca.glissando(),
     baca.markup.string_number(3),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     baca.pitches(khamr.contrabass_halo_pitches),
     )
 
@@ -419,5 +419,5 @@ maker(
 
 maker(
     (['vn', 'va', 'vc'], (6, 7)),
-    baca.accents(),
+    baca.accent(),
     )

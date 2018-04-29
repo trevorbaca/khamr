@@ -189,7 +189,7 @@ maker(
 
 maker(
     ('fl', (5, 6)),
-    baca.accents(baca.top().tuplets().map(baca.leaf(0))),
+    baca.accent(baca.top().tuplets().map(baca.leaf(0))),
     baca.dynamic('fff'),
     baca.pitches('D6 E6 F#6 C6 C#6 D6 D#6 F6'),
     )
@@ -208,7 +208,7 @@ maker(
 
 maker(
     ('ob', (5, 6)),
-    baca.accents(baca.top().tuplets().map(baca.leaf(0))),
+    baca.accent(baca.top().tuplets().map(baca.leaf(0))),
     baca.dynamic('fff'),
     baca.pitches('C6 C#6 D#6 E6 F6 F#6'),
     )
@@ -217,7 +217,7 @@ maker(
     ('ob', 9),
     baca.clef('percussion'),
     baca.dynamic('pp'),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
     khamr.markup.airtone_without_reed(),
@@ -230,7 +230,7 @@ maker(
 
 maker(
     ('cl', (5, 6)),
-    baca.accents(baca.top().tuplets().map(baca.leaf(0))),
+    baca.accent(baca.top().tuplets().map(baca.leaf(0))),
     baca.dynamic('fff'),
     baca.pitches('D6 D#6 F6 F#6 C6 C#6 D#6 E6 F6'),
     )
@@ -248,7 +248,7 @@ maker(
 
 maker(
     ('sax', (5, 6)),
-    baca.accents(baca.top().tuplets().map(baca.leaf(0))),
+    baca.accent(baca.top().tuplets().map(baca.leaf(0))),
     baca.dynamic('fff'),
     baca.pitches('C6 C#6 D6 F6 F#6 D#6 E6'),
     )
@@ -259,7 +259,7 @@ maker(
     baca.clef('percussion'),
     baca.dynamic('pp'),
     baca.markup.airtone(),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
     )
@@ -291,7 +291,7 @@ maker(
 
 maker(
     ('pf', (5, 6)),
-    baca.accents(baca.top().tuplets().map(baca.leaf(0))),
+    baca.accent(baca.top().tuplets().map(baca.leaf(0))),
     baca.dynamic('fff'),
     baca.pitches('C6 D6 D#6 E6 F6 F#6 C6 C#6 D#6 E6 F6'),
     )
@@ -307,10 +307,10 @@ maker(
 
 maker(
     ('perc', (5, 6)),
-    baca.double_tonguing(),
+    baca.double_staccato(),
     baca.dynamic('fff'),
     baca.markup.boxed('castanets'),
-    baca.staccati(),
+    baca.staccato(),
     )
 
 maker(
@@ -330,7 +330,7 @@ maker(
     baca.pitches(khamr.rose_pitch_classes.invert().transpose(6)),
     baca.glissando(),
     baca.markup.estr_sul_pont(),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     khamr.narrow_fourth_octave(),
     )
 
