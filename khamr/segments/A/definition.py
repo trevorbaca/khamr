@@ -168,7 +168,7 @@ maker(
 
 maker(
     ('ob', (1, 2)),
-    baca.flageolets(),
+    baca.flageolet(),
     baca.pitch('<A4 E5>'),
     )
 
@@ -202,7 +202,7 @@ maker(
 
 maker(
     ('gt', 1),
-    baca.cross_note_heads(),
+    baca.note_head_style_cross(),
     baca.pitches(khamr.rose_pitch_classes.rotate(-16)),
     )
 
@@ -222,7 +222,7 @@ maker(
 
 maker(
     ('pf', (1, 3)),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     baca.staff_position(0),
     )
 
@@ -247,16 +247,16 @@ maker(
 
 maker(
     ('perc', (1, 3)),
-    baca.accents(),
+    baca.accent(),
     baca.pitches('C4 C4 Ab5 C4 C4 C4', allow_repeats=True),
-    baca.stems_down(),
+    baca.stem_down(),
     khamr.MarimbaHitCommand(indices=[2]),
     )
 
 maker(
     ('perc', (4, 5)),
     baca.pitch('Ab5'),
-    baca.stems_down(),
+    baca.stem_down(),
     khamr.MarimbaHitCommand([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
     )
 
@@ -277,7 +277,7 @@ maker(
 
 maker(
     ('vn', (1, 3)),
-    baca.accents(),
+    baca.accent(),
     baca.map(baca.trill_spanner('m2'), baca.plts()),
     )
 
@@ -305,7 +305,7 @@ maker(
 
 maker(
     ('va', (1, 3)),
-    baca.accents(),
+    baca.accent(),
     baca.map(baca.trill_spanner('m2'), baca.plts()),
     )
 
@@ -318,7 +318,7 @@ maker(
 
 maker(
     ('vc', (1, 2)),
-    baca.accents(),
+    baca.accent(),
     baca.map(baca.trill_spanner('m2'), baca.plts()),
     baca.pitches(khamr.color_trill_pitches),
     )
@@ -342,7 +342,7 @@ maker(
     baca.dynamic('mf'),
     baca.glissando(),
     baca.markup.string_numbers([3, 4]),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     baca.pitches(khamr.double_stop_halo_pitches),
     )
 
