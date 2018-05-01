@@ -298,7 +298,7 @@ maker(
 
 maker(
     ('pf', (1, 3)),
-    baca.accent(),
+    baca.accent(baca.pheads()),
     baca.clef('percussion'),
     baca.dynamic('mf'),
     baca.repeat_tie_up(),
@@ -329,7 +329,7 @@ maker(
 
 maker(
     ('perc', (1, 7)),
-    baca.accent(),
+    baca.accent(baca.pheads()),
     baca.bar_extent_persistent((0, 2)),
     baca.dynamic('mp'),
     baca.markup.boxed('XL tam-tam'),
@@ -419,5 +419,5 @@ maker(
 
 maker(
     (['vn', 'va', 'vc'], (6, 7)),
-    baca.accent(),
+    baca.accent(baca.pheads()),
     )

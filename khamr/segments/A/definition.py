@@ -247,7 +247,7 @@ maker(
 
 maker(
     ('perc', (1, 3)),
-    baca.accent(),
+    baca.accent(baca.pheads()),
     baca.pitches('C4 C4 Ab5 C4 C4 C4', allow_repeats=True),
     baca.stem_down(),
     khamr.MarimbaHitCommand(indices=[2]),
@@ -277,7 +277,7 @@ maker(
 
 maker(
     ('vn', (1, 3)),
-    baca.accent(),
+    baca.accent(baca.pheads()),
     baca.map(baca.trill_spanner('m2'), baca.plts()),
     )
 
@@ -305,7 +305,7 @@ maker(
 
 maker(
     ('va', (1, 3)),
-    baca.accent(),
+    baca.accent(baca.pheads()),
     baca.map(baca.trill_spanner('m2'), baca.plts()),
     )
 
@@ -318,7 +318,7 @@ maker(
 
 maker(
     ('vc', (1, 2)),
-    baca.accent(),
+    baca.accent(baca.pheads()),
     baca.map(baca.trill_spanner('m2'), baca.plts()),
     baca.pitches(khamr.color_trill_pitches),
     )

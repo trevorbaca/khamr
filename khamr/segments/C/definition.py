@@ -137,7 +137,7 @@ maker(
 
 maker(
     ('gt', (1, 8)),
-    baca.accent(),
+    baca.accent(baca.pheads()),
     baca.dynamic('mf'),
     baca.flageolet(),
     baca.pitch('C4'),
@@ -145,7 +145,7 @@ maker(
 
 maker(
     ('pf', (1, 8)),
-    baca.accent(),
+    baca.accent(baca.pheads()),
     baca.dynamic('mf'),
     baca.pitch('A#4'),
     )
