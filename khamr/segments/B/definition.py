@@ -307,7 +307,7 @@ maker(
 
 maker(
     ('perc', (5, 6)),
-    baca.double_staccato(),
+    baca.double_staccato(baca.pheads()),
     baca.dynamic('fff'),
     baca.markup.boxed('castanets'),
     baca.staccato(),
