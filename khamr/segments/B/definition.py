@@ -310,7 +310,6 @@ maker(
     baca.double_staccato(baca.pheads()),
     baca.dynamic('fff'),
     baca.markup.boxed('castanets'),
-    baca.staccato(),
     )
 
 maker(
