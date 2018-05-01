@@ -163,12 +163,12 @@ maker(
     baca.markup.fluttertongue(),
     baca.pitch('B5'),
     baca.reiterated_dynamic('fff'),
-    baca.stem_tremolo(),
+    baca.stem_tremolo(baca.pleaves()),
     )
 
 maker(
     ('ob', (1, 2)),
-    baca.flageolet(),
+    baca.flageolet(baca.pheads()),
     baca.pitch('<A4 E5>'),
     )
 
@@ -233,7 +233,7 @@ maker(
     baca.pitch('<A0 B0 C1 D1 E1 F1 G1 A1>'),
     baca.reiterated_dynamic('fff'),
     baca.staff_lines(5),
-    baca.stem_tremolo(),
+    baca.stem_tremolo(baca.pleaves()),
     )
 
 maker(

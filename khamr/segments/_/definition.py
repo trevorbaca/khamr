@@ -246,7 +246,7 @@ maker(
     ('ob', (6, 7)),
     baca.clef('treble'),
     baca.dynamic('pp'),
-    baca.flageolet(),
+    baca.flageolet(baca.pheads()),
     baca.markup.put_reed_back_in(),
     baca.pitch('<A4 E5>'),
     baca.staff_lines(5),

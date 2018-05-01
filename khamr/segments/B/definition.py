@@ -184,7 +184,7 @@ maker(
 maker(
     ('fl', 1),
     baca.pitch('B5'),
-    baca.stem_tremolo(),
+    baca.stem_tremolo(baca.pleaves()),
     )
 
 maker(
@@ -273,7 +273,7 @@ maker(
     ('gt', (5, 6)),
     baca.dynamic('fff'),
     baca.pitch('Ab4'),
-    baca.stem_tremolo(),
+    baca.stem_tremolo(baca.pleaves()),
     )
 
 maker(
@@ -302,7 +302,7 @@ maker(
     baca.dynamic('pp'),
     baca.markup.boxed('bass drum'),
     baca.staff_lines(1),
-    baca.stem_tremolo(),
+    baca.stem_tremolo(baca.pleaves()),
     )
 
 maker(
@@ -316,7 +316,7 @@ maker(
     ('perc', (7, 9)),
     baca.dynamic('ppp'),
     baca.markup.boxed('bass drum'),
-    baca.stem_tremolo(),
+    baca.stem_tremolo(baca.pleaves()),
     )
 
 maker(
