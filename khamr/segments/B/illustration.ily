@@ -7416,7 +7416,6 @@ B_PercussionMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
@@ -7430,344 +7429,279 @@ B_PercussionMusicVoice = {
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     % [B PercussionMusicVoice measure 85]                        %! SM4
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     % [B PercussionMusicVoice measure 86]                        %! SM4
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     % [B PercussionMusicVoice measure 87]                        %! SM4
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     % [B PercussionMusicVoice measure 88]                        %! SM4
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     % [B PercussionMusicVoice measure 89]                        %! SM4
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     % [B PercussionMusicVoice measure 90]                        %! SM4
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     % [B PercussionMusicVoice measure 91]                        %! SM4
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     % [B PercussionMusicVoice measure 92]                        %! SM4
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     % [B PercussionMusicVoice measure 93]                        %! SM4
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     % [B PercussionMusicVoice measure 94]                        %! SM4
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     % [B PercussionMusicVoice measure 95]                        %! SM4
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     % [B PercussionMusicVoice measure 96]                        %! SM4
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     % [B PercussionMusicVoice measure 97]                        %! SM4
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     % [B PercussionMusicVoice measure 98]                        %! SM4
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     % [B PercussionMusicVoice measure 99]                        %! SM4
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     % [B PercussionMusicVoice measure 100]                       %! SM4
     \makeBlue                                                    %! SM24
     c'4.
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4.
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4.
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4.
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4.
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4.
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4.
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4.
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     % [B PercussionMusicVoice measure 103]                       %! SM4
     \makeBlue                                                    %! SM24
     c'4.
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     \makeBlue                                                    %! SM24
     c'4.
-    -\staccato                                                   %! IC
     -\tongue #2                                                  %! IC
     
     % [B PercussionMusicVoice measure 104]                       %! SM4
