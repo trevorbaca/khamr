@@ -1531,9 +1531,9 @@ C_GuitarMusicVoice = {
     % [C GuitarMusicVoice measure 118]                           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c''1
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                                     %! IC
     -\flageolet                                                  %! IC
-    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [C GuitarMusicVoice measure 119]                           %! SM4
     c''2.
@@ -1678,8 +1678,8 @@ C_PianoMusicVoice = {
     % [C PianoMusicVoice measure 118]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     as'!1
-    -\accent                                                     %! IC
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    -\accent                                                     %! IC
     
     % [C PianoMusicVoice measure 119]                            %! SM4
     as'!2.
@@ -1952,8 +1952,8 @@ C_ViolinMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'2
-    -\downbow                                                    %! IC
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    -\downbow                                                    %! IC
     ^ \markup {
         \column
             {
@@ -2124,8 +2124,8 @@ C_ViolaMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'2
-    -\downbow                                                    %! IC
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    -\downbow                                                    %! IC
     ^ \markup {
         \column
             {
@@ -2296,8 +2296,8 @@ C_CelloMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'2
-    -\downbow                                                    %! IC
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    -\downbow                                                    %! IC
     ^ \markup {
         \column
             {
@@ -2475,8 +2475,8 @@ C_ContrabassMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'2
-    -\downbow                                                    %! IC
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    -\downbow                                                    %! IC
     ^ \markup {
         \column
             {
