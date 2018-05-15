@@ -2114,8 +2114,8 @@ i_OboeMusicVoice = {
     % [_ OboeMusicVoice measure 38]                              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     <e'' b''>2
-    -\flageolet                                                  %! IC
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    -\flageolet                                                  %! IC
     
     % [_ OboeMusicVoice measure 39]                              %! SM4
     <e'' b''>1.
@@ -3725,8 +3725,8 @@ i_PianoMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c'2
-    -\accent                                                     %! IC
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    -\accent                                                     %! IC
     ^ \markup {
         \column
             {
@@ -4359,8 +4359,8 @@ i_PercussionMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c'2
-    -\accent                                                     %! IC
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    -\accent                                                     %! IC
     ^ \markup {
         \column
             {
@@ -4480,8 +4480,8 @@ i_PercussionMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:MHC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:MHC
     af''!2.
-    -\marcato                                                    %! MHC
     \sfz                                                         %! SM8:EXPLICIT_DYNAMIC:MHC
+    -\marcato                                                    %! MHC
     ^ \markup {                                                  %! MHC
         \larger                                                  %! MHC
             \override                                            %! MHC
@@ -4584,8 +4584,8 @@ i_PercussionMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:MHC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:MHC
     af''!1
-    -\marcato                                                    %! MHC
     \sfz                                                         %! SM8:EXPLICIT_DYNAMIC:MHC
+    -\marcato                                                    %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
     
     % [_ PercussionMusicVoice measure 33]                        %! SM4
@@ -5043,8 +5043,8 @@ i_ViolinMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                                %! SC
     f'2
-    -\accent                                                     %! IC
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    -\accent                                                     %! IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
@@ -5616,8 +5616,8 @@ i_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                                %! SC
     f'2.
-    -\accent                                                     %! IC
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    -\accent                                                     %! IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
@@ -6153,8 +6153,8 @@ i_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \pitchedTrill                                                %! SC
     f'2.
-    -\accent                                                     %! IC
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    -\accent                                                     %! IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC

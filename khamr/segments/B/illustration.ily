@@ -1499,8 +1499,8 @@ B_FluteMusicVoice = {
         % [B FluteMusicVoice measure 84]                         %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         d'''16
-        -\accent                                                 %! IC
         \fff                                                     %! SM8:REDUNDANT_DYNAMIC:IC
+        -\accent                                                 %! IC
         [
         
         e'''16
@@ -2549,8 +2549,8 @@ B_OboeMusicVoice = {
         % [B OboeMusicVoice measure 84]                          %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         c'''16
-        -\accent                                                 %! IC
         \fff                                                     %! SM8:REDUNDANT_DYNAMIC:IC
+        -\accent                                                 %! IC
         [
         ^ \markup {                                              %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
             \with-color                                          %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
@@ -3726,8 +3726,8 @@ B_ClarinetMusicVoice = {
         % [B ClarinetMusicVoice measure 84]                      %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         e'''16
-        -\accent                                                 %! IC
         \fff                                                     %! SM8:REDUNDANT_DYNAMIC:IC
+        -\accent                                                 %! IC
         [
         ^ \markup {                                              %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
             \with-color                                          %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
@@ -4693,8 +4693,8 @@ B_SaxophoneMusicVoice = {
         % [B SaxophoneMusicVoice measure 84]                     %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         a''16
-        -\accent                                                 %! IC
         \fff                                                     %! SM8:REDUNDANT_DYNAMIC:IC
+        -\accent                                                 %! IC
         [
         ^ \markup {                                              %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
             \with-color                                          %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
@@ -6360,8 +6360,8 @@ B_PianoMusicVoice = {
         % [B PianoMusicVoice measure 84]                         %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         c'''16
-        -\accent                                                 %! IC
         \fff                                                     %! SM8:EXPLICIT_DYNAMIC:IC
+        -\accent                                                 %! IC
         [
         
         d'''16
@@ -7406,8 +7406,8 @@ B_PercussionMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \makeBlue                                                    %! SM24
     c'4
-    -\tongue #2                                                  %! IC
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    -\tongue #2                                                  %! IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
