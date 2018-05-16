@@ -4,8 +4,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def aviary(duration, extra_counts_per_division):
-    r'''Makes aviary rhythm.
-    '''
+    """
+    Makes aviary rhythm.
+    """
     return baca.RhythmCommand(
         division_maker=baca.DivisionMaker()
             .fuse_by_counts(

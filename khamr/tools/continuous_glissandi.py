@@ -5,8 +5,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def continuous_glissandi(tuplet_ratio_rotation, division_mask):
-    r'''Makes continuous glissandi rhythm.
-    '''
+    """
+    Makes continuous glissandi rhythm.
+    """
     tuplet_ratios = baca.sequence([
         (4, 3), (3, 4),
         (3, 2), (2, 3),

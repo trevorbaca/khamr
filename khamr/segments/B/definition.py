@@ -184,12 +184,12 @@ maker(
 maker(
     ('fl', 1),
     baca.pitch('B5'),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 maker(
     ('fl', (5, 6)),
-    baca.accent(baca.top().tuplets().map(baca.leaf(0))),
+    baca.accent(selector=baca.top().tuplets().map(baca.leaf(0))),
     baca.dynamic('fff'),
     baca.pitches('D6 E6 F#6 C6 C#6 D6 D#6 F6'),
     )
@@ -208,7 +208,7 @@ maker(
 
 maker(
     ('ob', (5, 6)),
-    baca.accent(baca.top().tuplets().map(baca.leaf(0))),
+    baca.accent(selector=baca.top().tuplets().map(baca.leaf(0))),
     baca.dynamic('fff'),
     baca.pitches('C6 C#6 D#6 E6 F6 F#6'),
     )
@@ -230,7 +230,7 @@ maker(
 
 maker(
     ('cl', (5, 6)),
-    baca.accent(baca.top().tuplets().map(baca.leaf(0))),
+    baca.accent(selector=baca.top().tuplets().map(baca.leaf(0))),
     baca.dynamic('fff'),
     baca.pitches('D6 D#6 F6 F#6 C6 C#6 D#6 E6 F6'),
     )
@@ -248,7 +248,7 @@ maker(
 
 maker(
     ('sax', (5, 6)),
-    baca.accent(baca.top().tuplets().map(baca.leaf(0))),
+    baca.accent(selector=baca.top().tuplets().map(baca.leaf(0))),
     baca.dynamic('fff'),
     baca.pitches('C6 C#6 D6 F6 F#6 D#6 E6'),
     )
@@ -273,7 +273,7 @@ maker(
     ('gt', (5, 6)),
     baca.dynamic('fff'),
     baca.pitch('Ab4'),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 maker(
@@ -291,7 +291,7 @@ maker(
 
 maker(
     ('pf', (5, 6)),
-    baca.accent(baca.top().tuplets().map(baca.leaf(0))),
+    baca.accent(selector=baca.top().tuplets().map(baca.leaf(0))),
     baca.dynamic('fff'),
     baca.pitches('C6 D6 D#6 E6 F6 F#6 C6 C#6 D#6 E6 F6'),
     )
@@ -302,12 +302,12 @@ maker(
     baca.dynamic('pp'),
     baca.markup.boxed('bass drum'),
     baca.staff_lines(1),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 maker(
     ('perc', (5, 6)),
-    baca.double_staccato(baca.pheads()),
+    baca.double_staccato(selector=baca.pheads()),
     baca.dynamic('fff'),
     baca.markup.boxed('castanets'),
     )
@@ -316,7 +316,7 @@ maker(
     ('perc', (7, 9)),
     baca.dynamic('ppp'),
     baca.markup.boxed('bass drum'),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 maker(
@@ -398,6 +398,6 @@ maker(
     ('cb', (8, 9)),
     baca.dynamic('mp'),
     baca.pitch('G0'),
-    baca.trill_spanner('F3', harmonic=True),
+    baca.trill_spanner(string='F3', harmonic=True),
     khamr.markup.scodanibbio(),
     )

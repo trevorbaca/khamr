@@ -4,8 +4,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def quarter_hits(division_mask=None):
-    r'''Makes quarter hits.
-    '''
+    """
+    Makes quarter hits.
+    """
     if division_mask is None:
         division_masks = None
     else:

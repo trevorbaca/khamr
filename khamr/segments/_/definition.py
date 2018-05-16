@@ -246,7 +246,7 @@ maker(
     ('ob', (6, 7)),
     baca.clef('treble'),
     baca.dynamic('pp'),
-    baca.flageolet(baca.pheads()),
+    baca.flageolet(selector=baca.pheads()),
     baca.markup.put_reed_back_in(),
     baca.pitch('<A4 E5>'),
     baca.staff_lines(5),
@@ -298,7 +298,7 @@ maker(
 
 maker(
     ('pf', (1, 3)),
-    baca.accent(baca.pheads()),
+    baca.accent(selector=baca.pheads()),
     baca.clef('percussion'),
     baca.dynamic('mf'),
     baca.repeat_tie_up(),
@@ -329,7 +329,7 @@ maker(
 
 maker(
     ('perc', (1, 7)),
-    baca.accent(baca.pheads()),
+    baca.accent(selector=baca.pheads()),
     baca.bar_extent_persistent((0, 2)),
     baca.dynamic('mp'),
     baca.markup.boxed('XL tam-tam'),
@@ -352,7 +352,7 @@ maker(
 maker(
     ('vn', (6, 7)),
     baca.dynamic('ppp'),
-    baca.map(baca.trill_spanner('m2'), baca.plts()),
+    baca.map(baca.trill_spanner(string='m2'), baca.plts()),
     baca.markup.molto_flautando_e_pont(),
     baca.pitches(khamr.color_trill_pitches),
     )
@@ -369,7 +369,7 @@ maker(
 maker(
     ('va', (6, 7)),
     baca.dynamic('ppp'),
-    baca.map(baca.trill_spanner('m2'), baca.plts()),
+    baca.map(baca.trill_spanner(string='m2'), baca.plts()),
     baca.markup.molto_flautando_e_pont(),
     baca.pitches(khamr.color_trill_pitches),
     )
@@ -386,7 +386,7 @@ maker(
 maker(
     ('vc', (6, 7)),
     baca.dynamic('ppp'),
-    baca.map(baca.trill_spanner('m2'), baca.plts()),
+    baca.map(baca.trill_spanner(string='m2'), baca.plts()),
     baca.markup.molto_flautando_e_pont(),
     baca.pitches(khamr.color_trill_pitches),
     )
@@ -419,5 +419,5 @@ maker(
 
 maker(
     (['vn', 'va', 'vc'], (6, 7)),
-    baca.accent(baca.pheads()),
+    baca.accent(selector=baca.pheads()),
     )

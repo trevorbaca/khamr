@@ -3,8 +3,9 @@ import baca
 
 
 def beat_divisions():
-    r'''Makes beat division-maker.
-    '''
+    """
+    Makes beat division-maker.
+    """
     beat_division_maker = baca.DivisionMaker()
     beat_division_maker = beat_division_maker.split_by_durations(
         compound_meter_multiplier=abjad.Multiplier(3, 2),

@@ -1,6 +1,7 @@
 def string_tuplet_ratios(number):
-    r'''Makes string tuplet ratios.
-    '''
+    """
+    Makes string tuplet ratios.
+    """
     if number == 1:
         return [
             (1,), (1,), (1,), (1,), (1,), (1, 4),

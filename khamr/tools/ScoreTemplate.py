@@ -4,7 +4,8 @@ import khamr
 
 
 class ScoreTemplate(baca.ScoreTemplate):
-    r'''Score template.
+    """
+    Score template.
 
     >>> import khamr
 
@@ -143,7 +144,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             >>
         >>
 
-    '''
+    """
 
     ### CLASS VARIABLES ###
 

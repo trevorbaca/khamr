@@ -4,8 +4,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def guitar_isolata(division_mask=None):
-    r'''Makes guitar isolata.
-    '''
+    """
+    Makes guitar isolata.
+    """
 
     if division_mask is None:
         division_masks = [

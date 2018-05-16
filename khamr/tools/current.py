@@ -5,8 +5,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def current(counts, division_mask=None):
-    r'''Makes current rhythm.
-    '''
+    """
+    Makes current rhythm.
+    """
     if division_mask is None:
         division_masks = None
     else:

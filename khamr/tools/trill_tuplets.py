@@ -5,8 +5,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def trill_tuplets(tuplet_ratios, division_mask=None):
-    r'''Makes trill tuplet rhythm.
-    '''
+    """
+    Makes trill tuplet rhythm.
+    """
     if division_mask is None:
         division_masks = None
     else:

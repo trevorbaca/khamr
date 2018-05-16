@@ -4,8 +4,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def alternate_divisions(strip_ties=None):
-    r'''Makes repeat-tied alternate divisions.
-    '''
+    """
+    Makes repeat-tied alternate divisions.
+    """
     return baca.RhythmCommand(
         rewrite_meter=True,
         rhythm_maker=rhythmos.NoteRhythmMaker(

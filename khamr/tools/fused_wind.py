@@ -5,8 +5,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def fused_wind(fuse_by_counts, division_mask, denominator=8):
-    r'''Makes fused wind rhythm.
-    '''
+    """
+    Makes fused wind rhythm.
+    """
     if division_mask is None:
         division_masks = None
     elif isinstance(division_mask, list):
