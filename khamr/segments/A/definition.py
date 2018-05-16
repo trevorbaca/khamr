@@ -163,12 +163,12 @@ maker(
     baca.markup.fluttertongue(),
     baca.pitch('B5'),
     baca.reiterated_dynamic('fff'),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 maker(
     ('ob', (1, 2)),
-    baca.flageolet(baca.pheads()),
+    baca.flageolet(selector=baca.pheads()),
     baca.pitch('<A4 E5>'),
     )
 
@@ -233,7 +233,7 @@ maker(
     baca.pitch('<A0 B0 C1 D1 E1 F1 G1 A1>'),
     baca.reiterated_dynamic('fff'),
     baca.staff_lines(5),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 maker(
@@ -247,7 +247,7 @@ maker(
 
 maker(
     ('perc', (1, 3)),
-    baca.accent(baca.pheads()),
+    baca.accent(selector=baca.pheads()),
     baca.pitches('C4 C4 Ab5 C4 C4 C4', allow_repeats=True),
     baca.stem_down(),
     khamr.MarimbaHitCommand(indices=[2]),
@@ -277,8 +277,8 @@ maker(
 
 maker(
     ('vn', (1, 3)),
-    baca.accent(baca.pheads()),
-    baca.map(baca.trill_spanner('m2'), baca.plts()),
+    baca.accent(selector=baca.pheads()),
+    baca.map(baca.trill_spanner(string='m2'), baca.plts()),
     )
 
 maker(
@@ -305,8 +305,8 @@ maker(
 
 maker(
     ('va', (1, 3)),
-    baca.accent(baca.pheads()),
-    baca.map(baca.trill_spanner('m2'), baca.plts()),
+    baca.accent(selector=baca.pheads()),
+    baca.map(baca.trill_spanner(string='m2'), baca.plts()),
     )
 
 maker(
@@ -318,8 +318,8 @@ maker(
 
 maker(
     ('vc', (1, 2)),
-    baca.accent(baca.pheads()),
-    baca.map(baca.trill_spanner('m2'), baca.plts()),
+    baca.accent(selector=baca.pheads()),
+    baca.map(baca.trill_spanner(string='m2'), baca.plts()),
     baca.pitches(khamr.color_trill_pitches),
     )
 

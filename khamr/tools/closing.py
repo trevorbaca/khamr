@@ -4,8 +4,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def closing():
-    r'''Makes closing rhythm.
-    '''
+    """
+    Makes closing rhythm.
+    """
     return baca.RhythmCommand(
         division_maker=baca.DivisionMaker()
             .fuse_by_counts(

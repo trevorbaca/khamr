@@ -3,8 +3,9 @@ import baca
 
 
 class MarkupLibrary(abjad.AbjadObject):
-    r'''Markup library.
-    '''
+    """
+    Markup library.
+    """
 
     ### CLASS VARIABLES ###
 

@@ -3,8 +3,9 @@ import baca
 
 
 class MarimbaHitCommand(baca.Command):
-    r'''Marimba hit command.
-    '''
+    """
+    Marimba hit command.
+    """
 
     ### CLASS VARIABLES ##
 

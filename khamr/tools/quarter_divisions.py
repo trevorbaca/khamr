@@ -2,8 +2,9 @@ import baca
 
 
 def quarter_divisions():
-    r'''Makes quarter division-maker.
-    '''
+    """
+    Makes quarter division-maker.
+    """
     quarter_division_maker = baca.DivisionMaker()
     quarter_division_maker = quarter_division_maker.split_by_durations(
         durations=[(1, 4)],

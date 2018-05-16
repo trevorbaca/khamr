@@ -137,15 +137,15 @@ maker(
 
 maker(
     ('gt', (1, 8)),
-    baca.accent(baca.pheads()),
+    baca.accent(selector=baca.pheads()),
     baca.dynamic('mf'),
-    baca.flageolet(baca.pheads()),
+    baca.flageolet(selector=baca.pheads()),
     baca.pitch('C4'),
     )
 
 maker(
     ('pf', (1, 8)),
-    baca.accent(baca.pheads()),
+    baca.accent(selector=baca.pheads()),
     baca.dynamic('mf'),
     baca.pitch('A#4'),
     )
@@ -153,14 +153,14 @@ maker(
 maker(
     ('perc', (1, 2)),
     baca.hairpin('pp > ppp'),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 maker(
     ('perc', (4, 7)),
     baca.dynamic('fff'),
     baca.markup.boxed('snare drum'),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 maker(

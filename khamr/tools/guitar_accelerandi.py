@@ -4,8 +4,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def guitar_accelerandi(fuse_by_counts, division_masks=None):
-    r'''Makes guitar accelerandi.
-    '''
+    """
+    Makes guitar accelerandi.
+    """
     return baca.RhythmCommand(
         division_maker=baca.DivisionMaker()
             .fuse_by_counts(

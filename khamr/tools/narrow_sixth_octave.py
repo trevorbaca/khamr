@@ -3,8 +3,9 @@ import baca
 
 
 def narrow_sixth_octave():
-    r'''Makes narrow sixth octave register command.
-    '''
+    """
+    Makes narrow sixth octave register command.
+    """
     return baca.RegisterCommand(
         registration=baca.Registration(
             [('[A0, F#4)', 22), ('[F#4, C8]', 25)],

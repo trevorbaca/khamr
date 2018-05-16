@@ -5,8 +5,9 @@ from .beat_divisions import beat_divisions
 
 
 def silent_first_division():
-    r'''Makes repeat-tied durations with silent first division.
-    '''
+    """
+    Makes repeat-tied durations with silent first division.
+    """
     return baca.RhythmCommand(
         rewrite_meter=True,
         division_maker=beat_divisions(),

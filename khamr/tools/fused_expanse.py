@@ -5,8 +5,9 @@ from abjad import rhythmmakertools as rhythmos
 
 
 def fused_expanse(fuse_by_counts, division_mask=None):
-    r'''Makes fused expanse rhythm.
-    '''
+    """
+    Makes fused expanse rhythm.
+    """
     if division_mask is None:
         division_masks = None
     else:
