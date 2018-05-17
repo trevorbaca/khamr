@@ -1,7 +1,7 @@
 import abjad
 import baca
 import khamr
-from abjad import rhythmmakertools as rhythmos
+from abjad import rhythmos
 
 
 def opening_glissandi(tuplet_ratio_rotation, division_mask):

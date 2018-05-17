@@ -1,7 +1,7 @@
 import abjad
 import baca
 import khamr
-from abjad import rhythmmakertools as rhythmos
+from abjad import rhythmos
 
 
 def fused_expanse(fuse_by_counts, division_mask=None):

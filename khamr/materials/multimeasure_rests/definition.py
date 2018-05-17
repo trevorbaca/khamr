@@ -1,5 +1,5 @@
 import abjad
-from abjad import rhythmmakertools as rhythmos
+from abjad import rhythmos
 
 
 mask = abjad.silence([0], 1, use_multimeasure_rests=True)
