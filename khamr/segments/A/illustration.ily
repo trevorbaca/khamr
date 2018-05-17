@@ -1,6 +1,6 @@
 A_GlobalSkips = {
     
-    % [A GlobalSkips measure 45]                                         %! SM4
+    % [A GlobalSkips measure 45 / measure 1]                             %! SM4
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \mark #1                                                             %! IC
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
@@ -90,7 +90,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 46]                                         %! SM4
+    % [A GlobalSkips measure 46 / measure 2]                             %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
     ^ \markup {
@@ -119,7 +119,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 47]                                         %! SM4
+    % [A GlobalSkips measure 47 / measure 3]                             %! SM4
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
@@ -149,7 +149,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 48]                                         %! SM4
+    % [A GlobalSkips measure 48 / measure 4]                             %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -179,7 +179,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 49]                                         %! SM4
+    % [A GlobalSkips measure 49 / measure 5]                             %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -268,7 +268,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 50]                                         %! SM4
+    % [A GlobalSkips measure 50 / measure 6]                             %! SM4
     \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -298,7 +298,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 51]                                         %! SM4
+    % [A GlobalSkips measure 51 / measure 7]                             %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -328,7 +328,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 52]                                         %! SM4
+    % [A GlobalSkips measure 52 / measure 8]                             %! SM4
     \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/4
@@ -358,7 +358,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 53]                                         %! SM4
+    % [A GlobalSkips measure 53 / measure 9]                             %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -443,7 +443,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 54]                                         %! SM4
+    % [A GlobalSkips measure 54 / measure 10]                            %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -473,7 +473,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 55]                                         %! SM4
+    % [A GlobalSkips measure 55 / measure 11]                            %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -503,7 +503,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 56]                                         %! SM4
+    % [A GlobalSkips measure 56 / measure 12]                            %! SM4
     \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/4
@@ -533,7 +533,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 57]                                         %! SM4
+    % [A GlobalSkips measure 57 / measure 13]                            %! SM4
     \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -563,7 +563,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 58]                                         %! SM4
+    % [A GlobalSkips measure 58 / measure 14]                            %! SM4
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -593,7 +593,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 59]                                         %! SM4
+    % [A GlobalSkips measure 59 / measure 15]                            %! SM4
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
@@ -628,7 +628,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 60]                                         %! SM4
+    % [A GlobalSkips measure 60 / measure 16]                            %! SM4
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -658,7 +658,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 61]                                         %! SM4
+    % [A GlobalSkips measure 61 / measure 17]                            %! SM4
     \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 5/4
@@ -688,7 +688,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 62]                                         %! SM4
+    % [A GlobalSkips measure 62 / measure 18]                            %! SM4
     \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -718,7 +718,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 63]                                         %! SM4
+    % [A GlobalSkips measure 63 / measure 19]                            %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -748,7 +748,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 64]                                         %! SM4
+    % [A GlobalSkips measure 64 / measure 20]                            %! SM4
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
@@ -778,7 +778,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 65]                                         %! SM4
+    % [A GlobalSkips measure 65 / measure 21]                            %! SM4
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -863,7 +863,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 66]                                         %! SM4
+    % [A GlobalSkips measure 66 / measure 22]                            %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
     ^ \markup {
@@ -892,7 +892,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 67]                                         %! SM4
+    % [A GlobalSkips measure 67 / measure 23]                            %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -922,7 +922,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 68]                                         %! SM4
+    % [A GlobalSkips measure 68 / measure 24]                            %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -952,7 +952,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 69]                                         %! SM4
+    % [A GlobalSkips measure 69 / measure 25]                            %! SM4
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
@@ -982,7 +982,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 70]                                         %! SM4
+    % [A GlobalSkips measure 70 / measure 26]                            %! SM4
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
     ^ \markup {
@@ -1011,7 +1011,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 71]                                         %! SM4
+    % [A GlobalSkips measure 71 / measure 27]                            %! SM4
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
@@ -1041,7 +1041,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 72]                                         %! SM4
+    % [A GlobalSkips measure 72 / measure 28]                            %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -1071,7 +1071,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 73]                                         %! SM4
+    % [A GlobalSkips measure 73 / measure 29]                            %! SM4
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -1101,7 +1101,7 @@ A_GlobalSkips = {
             }
         }
     
-    % [A GlobalSkips measure 74]                                         %! SM4
+    % [A GlobalSkips measure 74 / measure 30]                            %! SM4
     \time 6/8                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -1139,7 +1139,7 @@ A_GlobalSkips = {
 
 A_FluteMusicVoice = {
     
-    % [A FluteMusicVoice measure 45]                             %! SM4
+    % [A FluteMusicVoice measure 45 / measure 1]                 %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1194,15 +1194,15 @@ A_FluteMusicVoice = {
             "B. fl."                                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [A FluteMusicVoice measure 46]                             %! SM4
+    % [A FluteMusicVoice measure 46 / measure 2]                 %! SM4
     bf''!2
     \repeatTie
     
-    % [A FluteMusicVoice measure 47]                             %! SM4
+    % [A FluteMusicVoice measure 47 / measure 3]                 %! SM4
     bf''!1.
     \repeatTie
     
-    % [A FluteMusicVoice measure 48]                             %! SM4
+    % [A FluteMusicVoice measure 48 / measure 4]                 %! SM4
     bf''!4.
     \repeatTie
     
@@ -1212,15 +1212,15 @@ A_FluteMusicVoice = {
     bf''!4
     \startTrillSpan                                              %! SC
     
-    % [A FluteMusicVoice measure 49]                             %! SM4
+    % [A FluteMusicVoice measure 49 / measure 5]                 %! SM4
     bf''!1
     \repeatTie
     
-    % [A FluteMusicVoice measure 50]                             %! SM4
+    % [A FluteMusicVoice measure 50 / measure 6]                 %! SM4
     bf''!2.
     \repeatTie
     
-    % [A FluteMusicVoice measure 51]                             %! SM4
+    % [A FluteMusicVoice measure 51 / measure 7]                 %! SM4
     bf''!2
     \repeatTie
     
@@ -1232,30 +1232,30 @@ A_FluteMusicVoice = {
     r4.
     \stopTrillSpan                                               %! SC
     
-    % [A FluteMusicVoice measure 52]                             %! SM4
+    % [A FluteMusicVoice measure 52 / measure 8]                 %! SM4
     r2.
     
     r2
     
-    % [A FluteMusicVoice measure 53]                             %! SM4
+    % [A FluteMusicVoice measure 53 / measure 9]                 %! SM4
     R1 * 1
     
-    % [A FluteMusicVoice measure 54]                             %! SM4
+    % [A FluteMusicVoice measure 54 / measure 10]                %! SM4
     R1 * 3/4
     
-    % [A FluteMusicVoice measure 55]                             %! SM4
+    % [A FluteMusicVoice measure 55 / measure 11]                %! SM4
     R1 * 1
     
-    % [A FluteMusicVoice measure 56]                             %! SM4
+    % [A FluteMusicVoice measure 56 / measure 12]                %! SM4
     R1 * 5/4
     
-    % [A FluteMusicVoice measure 57]                             %! SM4
+    % [A FluteMusicVoice measure 57 / measure 13]                %! SM4
     R1 * 3/4
     
-    % [A FluteMusicVoice measure 58]                             %! SM4
+    % [A FluteMusicVoice measure 58 / measure 14]                %! SM4
     R1 * 1/2
     
-    % [A FluteMusicVoice measure 59]                             %! SM4
+    % [A FluteMusicVoice measure 59 / measure 15]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     b''1.
     :32                                                          %! IC
@@ -1278,10 +1278,10 @@ A_FluteMusicVoice = {
             }
         }
     
-    % [A FluteMusicVoice measure 60]                             %! SM4
+    % [A FluteMusicVoice measure 60 / measure 16]                %! SM4
     r2
     
-    % [A FluteMusicVoice measure 61]                             %! SM4
+    % [A FluteMusicVoice measure 61 / measure 17]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     b''2.
     :32                                                          %! IC
@@ -1291,19 +1291,19 @@ A_FluteMusicVoice = {
     :32                                                          %! IC
     \repeatTie
     
-    % [A FluteMusicVoice measure 62]                             %! SM4
+    % [A FluteMusicVoice measure 62 / measure 18]                %! SM4
     r2.
     
-    % [A FluteMusicVoice measure 63]                             %! SM4
+    % [A FluteMusicVoice measure 63 / measure 19]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     b''1
     :32                                                          %! IC
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
-    % [A FluteMusicVoice measure 64]                             %! SM4
+    % [A FluteMusicVoice measure 64 / measure 20]                %! SM4
     r1.
     
-    % [A FluteMusicVoice measure 65]                             %! SM4
+    % [A FluteMusicVoice measure 65 / measure 21]                %! SM4
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
@@ -1311,47 +1311,47 @@ A_FluteMusicVoice = {
     :32                                                          %! IC
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
-    % [A FluteMusicVoice measure 66]                             %! SM4
+    % [A FluteMusicVoice measure 66 / measure 22]                %! SM4
     b''2
     :32                                                          %! IC
     \repeatTie
     
-    % [A FluteMusicVoice measure 67]                             %! SM4
+    % [A FluteMusicVoice measure 67 / measure 23]                %! SM4
     b''2.
     :32                                                          %! IC
     \repeatTie
     
-    % [A FluteMusicVoice measure 68]                             %! SM4
+    % [A FluteMusicVoice measure 68 / measure 24]                %! SM4
     b''1
     :32                                                          %! IC
     \repeatTie
     
-    % [A FluteMusicVoice measure 69]                             %! SM4
+    % [A FluteMusicVoice measure 69 / measure 25]                %! SM4
     b''2
     :32                                                          %! IC
     \repeatTie
     
-    % [A FluteMusicVoice measure 70]                             %! SM4
+    % [A FluteMusicVoice measure 70 / measure 26]                %! SM4
     b''2
     :32                                                          %! IC
     \repeatTie
     
-    % [A FluteMusicVoice measure 71]                             %! SM4
+    % [A FluteMusicVoice measure 71 / measure 27]                %! SM4
     b''1.
     :32                                                          %! IC
     \repeatTie
     
-    % [A FluteMusicVoice measure 72]                             %! SM4
+    % [A FluteMusicVoice measure 72 / measure 28]                %! SM4
     b''1
     :32                                                          %! IC
     \repeatTie
     
-    % [A FluteMusicVoice measure 73]                             %! SM4
+    % [A FluteMusicVoice measure 73 / measure 29]                %! SM4
     b''2.
     :32                                                          %! IC
     \repeatTie
     
-    % [A FluteMusicVoice measure 74]                             %! SM4
+    % [A FluteMusicVoice measure 74 / measure 30]                %! SM4
     b''2.
     :32                                                          %! IC
     \repeatTie
@@ -1367,7 +1367,7 @@ A_FluteMusicStaff = {
 
 A_OboeMusicVoice = {
     
-    % [A OboeMusicVoice measure 45]                              %! SM4
+    % [A OboeMusicVoice measure 45 / measure 1]                  %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1425,34 +1425,34 @@ A_OboeMusicVoice = {
             "Eng. hn."                                           %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [A OboeMusicVoice measure 46]                              %! SM4
+    % [A OboeMusicVoice measure 46 / measure 2]                  %! SM4
     <e'' b''>2
     \repeatTie
     
-    % [A OboeMusicVoice measure 47]                              %! SM4
+    % [A OboeMusicVoice measure 47 / measure 3]                  %! SM4
     <e'' b''>1.
     \repeatTie
     
-    % [A OboeMusicVoice measure 48]                              %! SM4
+    % [A OboeMusicVoice measure 48 / measure 4]                  %! SM4
     <e'' b''>2.
     \repeatTie
     
-    % [A OboeMusicVoice measure 49]                              %! SM4
+    % [A OboeMusicVoice measure 49 / measure 5]                  %! SM4
     <e'' b''>8
     \repeatTie
     
     r2..
     
-    % [A OboeMusicVoice measure 50]                              %! SM4
+    % [A OboeMusicVoice measure 50 / measure 6]                  %! SM4
     r2.
     
-    % [A OboeMusicVoice measure 51]                              %! SM4
+    % [A OboeMusicVoice measure 51 / measure 7]                  %! SM4
     r4
     
     <e'' b''>2.
     -\flageolet                                                  %! IC
     
-    % [A OboeMusicVoice measure 52]                              %! SM4
+    % [A OboeMusicVoice measure 52 / measure 8]                  %! SM4
     <e'' b''>2.
     \repeatTie
     
@@ -1461,33 +1461,33 @@ A_OboeMusicVoice = {
     
     r8
     
-    % [A OboeMusicVoice measure 53]                              %! SM4
+    % [A OboeMusicVoice measure 53 / measure 9]                  %! SM4
     R1 * 1
     
-    % [A OboeMusicVoice measure 54]                              %! SM4
+    % [A OboeMusicVoice measure 54 / measure 10]                 %! SM4
     R1 * 3/4
     
-    % [A OboeMusicVoice measure 55]                              %! SM4
+    % [A OboeMusicVoice measure 55 / measure 11]                 %! SM4
     R1 * 1
     
-    % [A OboeMusicVoice measure 56]                              %! SM4
+    % [A OboeMusicVoice measure 56 / measure 12]                 %! SM4
     R1 * 5/4
     
-    % [A OboeMusicVoice measure 57]                              %! SM4
+    % [A OboeMusicVoice measure 57 / measure 13]                 %! SM4
     R1 * 3/4
     
-    % [A OboeMusicVoice measure 58]                              %! SM4
+    % [A OboeMusicVoice measure 58 / measure 14]                 %! SM4
     R1 * 1/2
     
-    % [A OboeMusicVoice measure 59]                              %! SM4
+    % [A OboeMusicVoice measure 59 / measure 15]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     ds'!1.
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     
-    % [A OboeMusicVoice measure 60]                              %! SM4
+    % [A OboeMusicVoice measure 60 / measure 16]                 %! SM4
     r2
     
-    % [A OboeMusicVoice measure 61]                              %! SM4
+    % [A OboeMusicVoice measure 61 / measure 17]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     ds'!2.
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
@@ -1495,57 +1495,57 @@ A_OboeMusicVoice = {
     ds'!2
     \repeatTie
     
-    % [A OboeMusicVoice measure 62]                              %! SM4
+    % [A OboeMusicVoice measure 62 / measure 18]                 %! SM4
     r2.
     
-    % [A OboeMusicVoice measure 63]                              %! SM4
+    % [A OboeMusicVoice measure 63 / measure 19]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     ds'!1
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
-    % [A OboeMusicVoice measure 64]                              %! SM4
+    % [A OboeMusicVoice measure 64 / measure 20]                 %! SM4
     r1.
     
-    % [A OboeMusicVoice measure 65]                              %! SM4
+    % [A OboeMusicVoice measure 65 / measure 21]                 %! SM4
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     ds'!4
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
-    % [A OboeMusicVoice measure 66]                              %! SM4
+    % [A OboeMusicVoice measure 66 / measure 22]                 %! SM4
     ds'!2
     \repeatTie
     
-    % [A OboeMusicVoice measure 67]                              %! SM4
+    % [A OboeMusicVoice measure 67 / measure 23]                 %! SM4
     ds'!2.
     \repeatTie
     
-    % [A OboeMusicVoice measure 68]                              %! SM4
+    % [A OboeMusicVoice measure 68 / measure 24]                 %! SM4
     ds'!1
     \repeatTie
     
-    % [A OboeMusicVoice measure 69]                              %! SM4
+    % [A OboeMusicVoice measure 69 / measure 25]                 %! SM4
     ds'!2
     \repeatTie
     
-    % [A OboeMusicVoice measure 70]                              %! SM4
+    % [A OboeMusicVoice measure 70 / measure 26]                 %! SM4
     ds'!2
     \repeatTie
     
-    % [A OboeMusicVoice measure 71]                              %! SM4
+    % [A OboeMusicVoice measure 71 / measure 27]                 %! SM4
     ds'!1.
     \repeatTie
     
-    % [A OboeMusicVoice measure 72]                              %! SM4
+    % [A OboeMusicVoice measure 72 / measure 28]                 %! SM4
     ds'!1
     \repeatTie
     
-    % [A OboeMusicVoice measure 73]                              %! SM4
+    % [A OboeMusicVoice measure 73 / measure 29]                 %! SM4
     ds'!2.
     \repeatTie
     
-    % [A OboeMusicVoice measure 74]                              %! SM4
+    % [A OboeMusicVoice measure 74 / measure 30]                 %! SM4
     ds'!2.
     \repeatTie
     
@@ -1560,7 +1560,7 @@ A_OboeMusicStaff = {
 
 A_ClarinetMusicVoice = {
     
-    % [A ClarinetMusicVoice measure 45]                          %! SM4
+    % [A ClarinetMusicVoice measure 45 / measure 1]              %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1613,11 +1613,11 @@ A_ClarinetMusicVoice = {
             "B. cl."                                             %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [A ClarinetMusicVoice measure 46]                          %! SM4
+    % [A ClarinetMusicVoice measure 46 / measure 2]              %! SM4
     a2
     \repeatTie
     
-    % [A ClarinetMusicVoice measure 47]                          %! SM4
+    % [A ClarinetMusicVoice measure 47 / measure 3]              %! SM4
     a2.
     \repeatTie
     
@@ -1629,23 +1629,23 @@ A_ClarinetMusicVoice = {
     
     r8
     
-    % [A ClarinetMusicVoice measure 48]                          %! SM4
+    % [A ClarinetMusicVoice measure 48 / measure 4]              %! SM4
     r2.
     
-    % [A ClarinetMusicVoice measure 49]                          %! SM4
+    % [A ClarinetMusicVoice measure 49 / measure 5]              %! SM4
     r2.
     
     a4
     
-    % [A ClarinetMusicVoice measure 50]                          %! SM4
+    % [A ClarinetMusicVoice measure 50 / measure 6]              %! SM4
     a2.
     \repeatTie
     
-    % [A ClarinetMusicVoice measure 51]                          %! SM4
+    % [A ClarinetMusicVoice measure 51 / measure 7]              %! SM4
     a1
     \repeatTie
     
-    % [A ClarinetMusicVoice measure 52]                          %! SM4
+    % [A ClarinetMusicVoice measure 52 / measure 8]              %! SM4
     a2
     \repeatTie
     
@@ -1656,17 +1656,17 @@ A_ClarinetMusicVoice = {
     
     r2
     
-    % [A ClarinetMusicVoice measure 53]                          %! SM4
+    % [A ClarinetMusicVoice measure 53 / measure 9]              %! SM4
     r1
     
-    % [A ClarinetMusicVoice measure 54]                          %! SM4
+    % [A ClarinetMusicVoice measure 54 / measure 10]             %! SM4
     a2.
     
-    % [A ClarinetMusicVoice measure 55]                          %! SM4
+    % [A ClarinetMusicVoice measure 55 / measure 11]             %! SM4
     a1
     \repeatTie
     
-    % [A ClarinetMusicVoice measure 56]                          %! SM4
+    % [A ClarinetMusicVoice measure 56 / measure 12]             %! SM4
     a2
     \repeatTie
     
@@ -1677,21 +1677,21 @@ A_ClarinetMusicVoice = {
     
     r2
     
-    % [A ClarinetMusicVoice measure 57]                          %! SM4
+    % [A ClarinetMusicVoice measure 57 / measure 13]             %! SM4
     r2.
     
-    % [A ClarinetMusicVoice measure 58]                          %! SM4
+    % [A ClarinetMusicVoice measure 58 / measure 14]             %! SM4
     r2
     
-    % [A ClarinetMusicVoice measure 59]                          %! SM4
+    % [A ClarinetMusicVoice measure 59 / measure 15]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     gs!1.
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     
-    % [A ClarinetMusicVoice measure 60]                          %! SM4
+    % [A ClarinetMusicVoice measure 60 / measure 16]             %! SM4
     r2
     
-    % [A ClarinetMusicVoice measure 61]                          %! SM4
+    % [A ClarinetMusicVoice measure 61 / measure 17]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     gs!2.
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
@@ -1699,57 +1699,57 @@ A_ClarinetMusicVoice = {
     gs!2
     \repeatTie
     
-    % [A ClarinetMusicVoice measure 62]                          %! SM4
+    % [A ClarinetMusicVoice measure 62 / measure 18]             %! SM4
     r2.
     
-    % [A ClarinetMusicVoice measure 63]                          %! SM4
+    % [A ClarinetMusicVoice measure 63 / measure 19]             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     gs!1
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
-    % [A ClarinetMusicVoice measure 64]                          %! SM4
+    % [A ClarinetMusicVoice measure 64 / measure 20]             %! SM4
     r1.
     
-    % [A ClarinetMusicVoice measure 65]                          %! SM4
+    % [A ClarinetMusicVoice measure 65 / measure 21]             %! SM4
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     gs!4
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
-    % [A ClarinetMusicVoice measure 66]                          %! SM4
+    % [A ClarinetMusicVoice measure 66 / measure 22]             %! SM4
     gs!2
     \repeatTie
     
-    % [A ClarinetMusicVoice measure 67]                          %! SM4
+    % [A ClarinetMusicVoice measure 67 / measure 23]             %! SM4
     gs!2.
     \repeatTie
     
-    % [A ClarinetMusicVoice measure 68]                          %! SM4
+    % [A ClarinetMusicVoice measure 68 / measure 24]             %! SM4
     gs!1
     \repeatTie
     
-    % [A ClarinetMusicVoice measure 69]                          %! SM4
+    % [A ClarinetMusicVoice measure 69 / measure 25]             %! SM4
     gs!2
     \repeatTie
     
-    % [A ClarinetMusicVoice measure 70]                          %! SM4
+    % [A ClarinetMusicVoice measure 70 / measure 26]             %! SM4
     gs!2
     \repeatTie
     
-    % [A ClarinetMusicVoice measure 71]                          %! SM4
+    % [A ClarinetMusicVoice measure 71 / measure 27]             %! SM4
     gs!1.
     \repeatTie
     
-    % [A ClarinetMusicVoice measure 72]                          %! SM4
+    % [A ClarinetMusicVoice measure 72 / measure 28]             %! SM4
     gs!1
     \repeatTie
     
-    % [A ClarinetMusicVoice measure 73]                          %! SM4
+    % [A ClarinetMusicVoice measure 73 / measure 29]             %! SM4
     gs!2.
     \repeatTie
     
-    % [A ClarinetMusicVoice measure 74]                          %! SM4
+    % [A ClarinetMusicVoice measure 74 / measure 30]             %! SM4
     gs!2.
     \repeatTie
     
@@ -1764,7 +1764,7 @@ A_ClarinetMusicStaff = {
 
 A_SaxophoneMusicVoice = {
     
-    % [A SaxophoneMusicVoice measure 45]                         %! SM4
+    % [A SaxophoneMusicVoice measure 45 / measure 1]             %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1817,19 +1817,19 @@ A_SaxophoneMusicVoice = {
             "Bar. sax."                                          %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [A SaxophoneMusicVoice measure 46]                         %! SM4
+    % [A SaxophoneMusicVoice measure 46 / measure 2]             %! SM4
     <d'' eqs''!>2
     \repeatTie
     
-    % [A SaxophoneMusicVoice measure 47]                         %! SM4
+    % [A SaxophoneMusicVoice measure 47 / measure 3]             %! SM4
     <d'' eqs''!>1.
     \repeatTie
     
-    % [A SaxophoneMusicVoice measure 48]                         %! SM4
+    % [A SaxophoneMusicVoice measure 48 / measure 4]             %! SM4
     <d'' eqs''!>2.
     \repeatTie
     
-    % [A SaxophoneMusicVoice measure 49]                         %! SM4
+    % [A SaxophoneMusicVoice measure 49 / measure 5]             %! SM4
     <d'' eqs''!>2
     \repeatTie
     
@@ -1838,15 +1838,15 @@ A_SaxophoneMusicVoice = {
     
     r4.
     
-    % [A SaxophoneMusicVoice measure 50]                         %! SM4
+    % [A SaxophoneMusicVoice measure 50 / measure 6]             %! SM4
     r2.
     
-    % [A SaxophoneMusicVoice measure 51]                         %! SM4
+    % [A SaxophoneMusicVoice measure 51 / measure 7]             %! SM4
     r2.
     
     <d'' eqs''!>4
     
-    % [A SaxophoneMusicVoice measure 52]                         %! SM4
+    % [A SaxophoneMusicVoice measure 52 / measure 8]             %! SM4
     <d'' eqs''!>2.
     \repeatTie
     
@@ -1855,33 +1855,33 @@ A_SaxophoneMusicVoice = {
     
     r8
     
-    % [A SaxophoneMusicVoice measure 53]                         %! SM4
+    % [A SaxophoneMusicVoice measure 53 / measure 9]             %! SM4
     R1 * 1
     
-    % [A SaxophoneMusicVoice measure 54]                         %! SM4
+    % [A SaxophoneMusicVoice measure 54 / measure 10]            %! SM4
     R1 * 3/4
     
-    % [A SaxophoneMusicVoice measure 55]                         %! SM4
+    % [A SaxophoneMusicVoice measure 55 / measure 11]            %! SM4
     R1 * 1
     
-    % [A SaxophoneMusicVoice measure 56]                         %! SM4
+    % [A SaxophoneMusicVoice measure 56 / measure 12]            %! SM4
     R1 * 5/4
     
-    % [A SaxophoneMusicVoice measure 57]                         %! SM4
+    % [A SaxophoneMusicVoice measure 57 / measure 13]            %! SM4
     R1 * 3/4
     
-    % [A SaxophoneMusicVoice measure 58]                         %! SM4
+    % [A SaxophoneMusicVoice measure 58 / measure 14]            %! SM4
     R1 * 1/2
     
-    % [A SaxophoneMusicVoice measure 59]                         %! SM4
+    % [A SaxophoneMusicVoice measure 59 / measure 15]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     es'!1.
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     
-    % [A SaxophoneMusicVoice measure 60]                         %! SM4
+    % [A SaxophoneMusicVoice measure 60 / measure 16]            %! SM4
     r2
     
-    % [A SaxophoneMusicVoice measure 61]                         %! SM4
+    % [A SaxophoneMusicVoice measure 61 / measure 17]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     es'!2.
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
@@ -1889,57 +1889,57 @@ A_SaxophoneMusicVoice = {
     es'!2
     \repeatTie
     
-    % [A SaxophoneMusicVoice measure 62]                         %! SM4
+    % [A SaxophoneMusicVoice measure 62 / measure 18]            %! SM4
     r2.
     
-    % [A SaxophoneMusicVoice measure 63]                         %! SM4
+    % [A SaxophoneMusicVoice measure 63 / measure 19]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     es'!1
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
-    % [A SaxophoneMusicVoice measure 64]                         %! SM4
+    % [A SaxophoneMusicVoice measure 64 / measure 20]            %! SM4
     r1.
     
-    % [A SaxophoneMusicVoice measure 65]                         %! SM4
+    % [A SaxophoneMusicVoice measure 65 / measure 21]            %! SM4
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     es'!4
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
-    % [A SaxophoneMusicVoice measure 66]                         %! SM4
+    % [A SaxophoneMusicVoice measure 66 / measure 22]            %! SM4
     es'!2
     \repeatTie
     
-    % [A SaxophoneMusicVoice measure 67]                         %! SM4
+    % [A SaxophoneMusicVoice measure 67 / measure 23]            %! SM4
     es'!2.
     \repeatTie
     
-    % [A SaxophoneMusicVoice measure 68]                         %! SM4
+    % [A SaxophoneMusicVoice measure 68 / measure 24]            %! SM4
     es'!1
     \repeatTie
     
-    % [A SaxophoneMusicVoice measure 69]                         %! SM4
+    % [A SaxophoneMusicVoice measure 69 / measure 25]            %! SM4
     es'!2
     \repeatTie
     
-    % [A SaxophoneMusicVoice measure 70]                         %! SM4
+    % [A SaxophoneMusicVoice measure 70 / measure 26]            %! SM4
     es'!2
     \repeatTie
     
-    % [A SaxophoneMusicVoice measure 71]                         %! SM4
+    % [A SaxophoneMusicVoice measure 71 / measure 27]            %! SM4
     es'!1.
     \repeatTie
     
-    % [A SaxophoneMusicVoice measure 72]                         %! SM4
+    % [A SaxophoneMusicVoice measure 72 / measure 28]            %! SM4
     es'!1
     \repeatTie
     
-    % [A SaxophoneMusicVoice measure 73]                         %! SM4
+    % [A SaxophoneMusicVoice measure 73 / measure 29]            %! SM4
     es'!2.
     \repeatTie
     
-    % [A SaxophoneMusicVoice measure 74]                         %! SM4
+    % [A SaxophoneMusicVoice measure 74 / measure 30]            %! SM4
     es'!2.
     \repeatTie
     
@@ -1955,7 +1955,7 @@ A_SaxophoneMusicStaff = {
 A_GuitarMusicVoice = {
     \times 2/3 {
         
-        % [A GuitarMusicVoice measure 45]                        %! SM4
+        % [A GuitarMusicVoice measure 45 / measure 1]            %! SM4
         \set Staff.instrumentName =                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2016,11 +2016,11 @@ A_GuitarMusicVoice = {
     
     r4
     
-    % [A GuitarMusicVoice measure 46]                            %! SM4
+    % [A GuitarMusicVoice measure 46 / measure 2]                %! SM4
     r2
     \times 2/3 {
         
-        % [A GuitarMusicVoice measure 47]                        %! SM4
+        % [A GuitarMusicVoice measure 47 / measure 3]            %! SM4
         r8
         
         fs''!4
@@ -2039,10 +2039,10 @@ A_GuitarMusicVoice = {
         r8
     }
     
-    % [A GuitarMusicVoice measure 48]                            %! SM4
+    % [A GuitarMusicVoice measure 48 / measure 4]                %! SM4
     r2.
     
-    % [A GuitarMusicVoice measure 49]                            %! SM4
+    % [A GuitarMusicVoice measure 49 / measure 5]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     fs!1
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
@@ -2062,48 +2062,48 @@ A_GuitarMusicVoice = {
                     }                                            %! IC
         }                                                        %! IC
     
-    % [A GuitarMusicVoice measure 50]                            %! SM4
+    % [A GuitarMusicVoice measure 50 / measure 6]                %! SM4
     fs!2.
     \repeatTie
     
-    % [A GuitarMusicVoice measure 51]                            %! SM4
+    % [A GuitarMusicVoice measure 51 / measure 7]                %! SM4
     fs!1
     \repeatTie
     
-    % [A GuitarMusicVoice measure 52]                            %! SM4
+    % [A GuitarMusicVoice measure 52 / measure 8]                %! SM4
     fs!2.
     \repeatTie
     
     fs!2
     \repeatTie
     
-    % [A GuitarMusicVoice measure 53]                            %! SM4
+    % [A GuitarMusicVoice measure 53 / measure 9]                %! SM4
     fs!1
     \repeatTie
     
-    % [A GuitarMusicVoice measure 54]                            %! SM4
+    % [A GuitarMusicVoice measure 54 / measure 10]               %! SM4
     fs!2.
     \repeatTie
     
-    % [A GuitarMusicVoice measure 55]                            %! SM4
+    % [A GuitarMusicVoice measure 55 / measure 11]               %! SM4
     fs!1
     \repeatTie
     
-    % [A GuitarMusicVoice measure 56]                            %! SM4
+    % [A GuitarMusicVoice measure 56 / measure 12]               %! SM4
     fs!2.
     \repeatTie
     
     fs!2
     \repeatTie
     
-    % [A GuitarMusicVoice measure 57]                            %! SM4
+    % [A GuitarMusicVoice measure 57 / measure 13]               %! SM4
     fs!2.
     \repeatTie
     
-    % [A GuitarMusicVoice measure 58]                            %! SM4
+    % [A GuitarMusicVoice measure 58 / measure 14]               %! SM4
     r2
     
-    % [A GuitarMusicVoice measure 59]                            %! SM4
+    % [A GuitarMusicVoice measure 59 / measure 15]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g1.
     \ff                                                          %! SM8:EXPLICIT_DYNAMIC:IC
@@ -2123,62 +2123,62 @@ A_GuitarMusicVoice = {
                     }                                            %! IC
         }                                                        %! IC
     
-    % [A GuitarMusicVoice measure 60]                            %! SM4
+    % [A GuitarMusicVoice measure 60 / measure 16]               %! SM4
     r2
     
-    % [A GuitarMusicVoice measure 61]                            %! SM4
+    % [A GuitarMusicVoice measure 61 / measure 17]               %! SM4
     g2.
     
     g2
     \repeatTie
     
-    % [A GuitarMusicVoice measure 62]                            %! SM4
+    % [A GuitarMusicVoice measure 62 / measure 18]               %! SM4
     r2.
     
-    % [A GuitarMusicVoice measure 63]                            %! SM4
+    % [A GuitarMusicVoice measure 63 / measure 19]               %! SM4
     g1
     
-    % [A GuitarMusicVoice measure 64]                            %! SM4
+    % [A GuitarMusicVoice measure 64 / measure 20]               %! SM4
     r1.
     
-    % [A GuitarMusicVoice measure 65]                            %! SM4
+    % [A GuitarMusicVoice measure 65 / measure 21]               %! SM4
     r4
     
     g4
     
-    % [A GuitarMusicVoice measure 66]                            %! SM4
+    % [A GuitarMusicVoice measure 66 / measure 22]               %! SM4
     g2
     \repeatTie
     
-    % [A GuitarMusicVoice measure 67]                            %! SM4
+    % [A GuitarMusicVoice measure 67 / measure 23]               %! SM4
     g2.
     \repeatTie
     
-    % [A GuitarMusicVoice measure 68]                            %! SM4
+    % [A GuitarMusicVoice measure 68 / measure 24]               %! SM4
     g1
     \repeatTie
     
-    % [A GuitarMusicVoice measure 69]                            %! SM4
+    % [A GuitarMusicVoice measure 69 / measure 25]               %! SM4
     g2
     \repeatTie
     
-    % [A GuitarMusicVoice measure 70]                            %! SM4
+    % [A GuitarMusicVoice measure 70 / measure 26]               %! SM4
     g2
     \repeatTie
     
-    % [A GuitarMusicVoice measure 71]                            %! SM4
+    % [A GuitarMusicVoice measure 71 / measure 27]               %! SM4
     g1.
     \repeatTie
     
-    % [A GuitarMusicVoice measure 72]                            %! SM4
+    % [A GuitarMusicVoice measure 72 / measure 28]               %! SM4
     g1
     \repeatTie
     
-    % [A GuitarMusicVoice measure 73]                            %! SM4
+    % [A GuitarMusicVoice measure 73 / measure 29]               %! SM4
     g2.
     \repeatTie
     
-    % [A GuitarMusicVoice measure 74]                            %! SM4
+    % [A GuitarMusicVoice measure 74 / measure 30]               %! SM4
     g2.
     \repeatTie
     
@@ -2193,7 +2193,7 @@ A_GuitarMusicStaff = {
 
 A_PianoMusicVoice = {
     
-    % [A PianoMusicVoice measure 45]                             %! SM4
+    % [A PianoMusicVoice measure 45 / measure 1]                 %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2251,65 +2251,65 @@ A_PianoMusicVoice = {
             Pf.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [A PianoMusicVoice measure 46]                             %! SM4
+    % [A PianoMusicVoice measure 46 / measure 2]                 %! SM4
     c'2
     \repeatTie
     
-    % [A PianoMusicVoice measure 47]                             %! SM4
+    % [A PianoMusicVoice measure 47 / measure 3]                 %! SM4
     c'1.
     \repeatTie
     
-    % [A PianoMusicVoice measure 48]                             %! SM4
+    % [A PianoMusicVoice measure 48 / measure 4]                 %! SM4
     c'2.
     \repeatTie
     
-    % [A PianoMusicVoice measure 49]                             %! SM4
+    % [A PianoMusicVoice measure 49 / measure 5]                 %! SM4
     c'1
     \repeatTie
     
-    % [A PianoMusicVoice measure 50]                             %! SM4
+    % [A PianoMusicVoice measure 50 / measure 6]                 %! SM4
     c'2.
     \repeatTie
     
-    % [A PianoMusicVoice measure 51]                             %! SM4
+    % [A PianoMusicVoice measure 51 / measure 7]                 %! SM4
     c'1
     \repeatTie
     
-    % [A PianoMusicVoice measure 52]                             %! SM4
+    % [A PianoMusicVoice measure 52 / measure 8]                 %! SM4
     c'2.
     \repeatTie
     
     c'2
     \repeatTie
     
-    % [A PianoMusicVoice measure 53]                             %! SM4
+    % [A PianoMusicVoice measure 53 / measure 9]                 %! SM4
     c'1
     \repeatTie
     
-    % [A PianoMusicVoice measure 54]                             %! SM4
+    % [A PianoMusicVoice measure 54 / measure 10]                %! SM4
     c'2.
     \repeatTie
     
-    % [A PianoMusicVoice measure 55]                             %! SM4
+    % [A PianoMusicVoice measure 55 / measure 11]                %! SM4
     c'1
     \repeatTie
     
-    % [A PianoMusicVoice measure 56]                             %! SM4
+    % [A PianoMusicVoice measure 56 / measure 12]                %! SM4
     c'2.
     \repeatTie
     
     c'2
     \repeatTie
     
-    % [A PianoMusicVoice measure 57]                             %! SM4
+    % [A PianoMusicVoice measure 57 / measure 13]                %! SM4
     c'2.
     \repeatTie
     \revert RepeatTie.direction                                  %! OC2
     
-    % [A PianoMusicVoice measure 58]                             %! SM4
+    % [A PianoMusicVoice measure 58 / measure 14]                %! SM4
     r2
     
-    % [A PianoMusicVoice measure 59]                             %! SM4
+    % [A PianoMusicVoice measure 59 / measure 15]                %! SM4
     \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 5             %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -2325,10 +2325,10 @@ A_PianoMusicVoice = {
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
-    % [A PianoMusicVoice measure 60]                             %! SM4
+    % [A PianoMusicVoice measure 60 / measure 16]                %! SM4
     r2
     
-    % [A PianoMusicVoice measure 61]                             %! SM4
+    % [A PianoMusicVoice measure 61 / measure 17]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1
     :32                                                          %! IC
@@ -2339,20 +2339,20 @@ A_PianoMusicVoice = {
     :32                                                          %! IC
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
-    % [A PianoMusicVoice measure 62]                             %! SM4
+    % [A PianoMusicVoice measure 62 / measure 18]                %! SM4
     r2.
     
-    % [A PianoMusicVoice measure 63]                             %! SM4
+    % [A PianoMusicVoice measure 63 / measure 19]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1
     :32                                                          %! IC
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     \ottava #0                                                   %! SC
     
-    % [A PianoMusicVoice measure 64]                             %! SM4
+    % [A PianoMusicVoice measure 64 / measure 20]                %! SM4
     r1.
     
-    % [A PianoMusicVoice measure 65]                             %! SM4
+    % [A PianoMusicVoice measure 65 / measure 21]                %! SM4
     \clef "treble"                                               %! SM8:EXPLICIT_CLEF:IC
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:IC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
@@ -2373,7 +2373,7 @@ A_PianoMusicVoice = {
         ]
     }
     
-    % [A PianoMusicVoice measure 66]                             %! SM4
+    % [A PianoMusicVoice measure 66 / measure 22]                %! SM4
     r4
     
     bf'''!16
@@ -2386,7 +2386,7 @@ A_PianoMusicVoice = {
     d''''16
     ]
     
-    % [A PianoMusicVoice measure 67]                             %! SM4
+    % [A PianoMusicVoice measure 67 / measure 23]                %! SM4
     r2
     
     bf'''!16
@@ -2399,7 +2399,7 @@ A_PianoMusicVoice = {
     df''''!16
     ]
     
-    % [A PianoMusicVoice measure 68]                             %! SM4
+    % [A PianoMusicVoice measure 68 / measure 24]                %! SM4
     r2.
     \times 2/3 {
         
@@ -2412,7 +2412,7 @@ A_PianoMusicVoice = {
         ]
     }
     
-    % [A PianoMusicVoice measure 69]                             %! SM4
+    % [A PianoMusicVoice measure 69 / measure 25]                %! SM4
     r4
     
     af'''!16
@@ -2425,7 +2425,7 @@ A_PianoMusicVoice = {
     gf'''!16
     ]
     
-    % [A PianoMusicVoice measure 70]                             %! SM4
+    % [A PianoMusicVoice measure 70 / measure 26]                %! SM4
     r4
     \times 4/5 {
         
@@ -2442,7 +2442,7 @@ A_PianoMusicVoice = {
         ]
     }
     
-    % [A PianoMusicVoice measure 71]                             %! SM4
+    % [A PianoMusicVoice measure 71 / measure 27]                %! SM4
     r2.
     
     r4.
@@ -2463,7 +2463,7 @@ A_PianoMusicVoice = {
     e''''16.
     ]
     
-    % [A PianoMusicVoice measure 72]                             %! SM4
+    % [A PianoMusicVoice measure 72 / measure 28]                %! SM4
     r2.
     \times 2/3 {
         
@@ -2476,7 +2476,7 @@ A_PianoMusicVoice = {
         ]
     }
     
-    % [A PianoMusicVoice measure 73]                             %! SM4
+    % [A PianoMusicVoice measure 73 / measure 29]                %! SM4
     r2
     \times 2/3 {
         
@@ -2489,7 +2489,7 @@ A_PianoMusicVoice = {
         ]
     }
     
-    % [A PianoMusicVoice measure 74]                             %! SM4
+    % [A PianoMusicVoice measure 74 / measure 30]                %! SM4
     r4.
     
     ef''''!16.
@@ -2520,7 +2520,7 @@ A_PianoMusicStaff = {
 
 A_PercussionMusicVoice = {
     
-    % [A PercussionMusicVoice measure 45]                        %! SM4
+    % [A PercussionMusicVoice measure 45 / measure 1]            %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2580,38 +2580,38 @@ A_PercussionMusicVoice = {
             Perc.                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [A PercussionMusicVoice measure 46]                        %! SM4
+    % [A PercussionMusicVoice measure 46 / measure 2]            %! SM4
     c'2
     \repeatTie
     
-    % [A PercussionMusicVoice measure 47]                        %! SM4
+    % [A PercussionMusicVoice measure 47 / measure 3]            %! SM4
     c'1.
     \repeatTie
     
-    % [A PercussionMusicVoice measure 48]                        %! SM4
+    % [A PercussionMusicVoice measure 48 / measure 4]            %! SM4
     c'2.
     -\accent                                                     %! IC
     
-    % [A PercussionMusicVoice measure 49]                        %! SM4
+    % [A PercussionMusicVoice measure 49 / measure 5]            %! SM4
     c'1
     \repeatTie
     
-    % [A PercussionMusicVoice measure 50]                        %! SM4
+    % [A PercussionMusicVoice measure 50 / measure 6]            %! SM4
     c'2.
     \repeatTie
     
-    % [A PercussionMusicVoice measure 51]                        %! SM4
+    % [A PercussionMusicVoice measure 51 / measure 7]            %! SM4
     c'1
     \repeatTie
     
-    % [A PercussionMusicVoice measure 52]                        %! SM4
+    % [A PercussionMusicVoice measure 52 / measure 8]            %! SM4
     c'2.
     \repeatTie
     
     c'2
     \repeatTie
     
-    % [A PercussionMusicVoice measure 53]                        %! SM4
+    % [A PercussionMusicVoice measure 53 / measure 9]            %! SM4
     c'2
     \repeatTie
     
@@ -2629,7 +2629,7 @@ A_PercussionMusicVoice = {
     -\marcato                                                    %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
     
-    % [A PercussionMusicVoice measure 54]                        %! SM4
+    % [A PercussionMusicVoice measure 54 / measure 10]           %! SM4
     af''!2
     \repeatTie
     
@@ -2645,30 +2645,30 @@ A_PercussionMusicVoice = {
     -\accent                                                     %! IC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
     
-    % [A PercussionMusicVoice measure 55]                        %! SM4
+    % [A PercussionMusicVoice measure 55 / measure 11]           %! SM4
     c'1
     \repeatTie
     
-    % [A PercussionMusicVoice measure 56]                        %! SM4
+    % [A PercussionMusicVoice measure 56 / measure 12]           %! SM4
     c'2.
     \repeatTie
     
     c'2
     \repeatTie
     
-    % [A PercussionMusicVoice measure 57]                        %! SM4
+    % [A PercussionMusicVoice measure 57 / measure 13]           %! SM4
     c'2.
     \repeatTie
     
-    % [A PercussionMusicVoice measure 58]                        %! SM4
+    % [A PercussionMusicVoice measure 58 / measure 14]           %! SM4
     c'2
     \repeatTie
     \revert Stem.direction                                       %! OC2
     
-    % [A PercussionMusicVoice measure 59]                        %! SM4
+    % [A PercussionMusicVoice measure 59 / measure 15]           %! SM4
     r1.
     
-    % [A PercussionMusicVoice measure 60]                        %! SM4
+    % [A PercussionMusicVoice measure 60 / measure 16]           %! SM4
     \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:MHC
     \once \override Staff.StaffSymbol.line-count = 5             %! SM8:EXPLICIT_STAFF_LINES:MHC
     \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:MHC
@@ -2695,12 +2695,12 @@ A_PercussionMusicVoice = {
     r4
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
     
-    % [A PercussionMusicVoice measure 61]                        %! SM4
+    % [A PercussionMusicVoice measure 61 / measure 17]           %! SM4
     r2.
     
     r2
     
-    % [A PercussionMusicVoice measure 62]                        %! SM4
+    % [A PercussionMusicVoice measure 62 / measure 18]           %! SM4
     \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:MHC
     \once \override Staff.StaffSymbol.line-count = 5             %! SM8:EXPLICIT_STAFF_LINES:MHC
     \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:MHC
@@ -2726,10 +2726,10 @@ A_PercussionMusicVoice = {
     r4.
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
     
-    % [A PercussionMusicVoice measure 63]                        %! SM4
+    % [A PercussionMusicVoice measure 63 / measure 19]           %! SM4
     r1
     
-    % [A PercussionMusicVoice measure 64]                        %! SM4
+    % [A PercussionMusicVoice measure 64 / measure 20]           %! SM4
     \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:MHC
     \once \override Staff.StaffSymbol.line-count = 5             %! SM8:EXPLICIT_STAFF_LINES:MHC
     \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:MHC
@@ -2757,7 +2757,7 @@ A_PercussionMusicVoice = {
     
     r2.
     
-    % [A PercussionMusicVoice measure 65]                        %! SM4
+    % [A PercussionMusicVoice measure 65 / measure 21]           %! SM4
     r4
     
     \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:MHC
@@ -2774,7 +2774,7 @@ A_PercussionMusicVoice = {
     -\marcato                                                    %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
     
-    % [A PercussionMusicVoice measure 66]                        %! SM4
+    % [A PercussionMusicVoice measure 66 / measure 22]           %! SM4
     \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:MHC
     \once \override Staff.StaffSymbol.line-count = 1             %! SM8:EXPLICIT_STAFF_LINES:MHC
     \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:MHC
@@ -2800,7 +2800,7 @@ A_PercussionMusicVoice = {
     -\marcato                                                    %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
     
-    % [A PercussionMusicVoice measure 67]                        %! SM4
+    % [A PercussionMusicVoice measure 67 / measure 23]           %! SM4
     \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:MHC
     \once \override Staff.StaffSymbol.line-count = 1             %! SM8:EXPLICIT_STAFF_LINES:MHC
     \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:MHC
@@ -2826,7 +2826,7 @@ A_PercussionMusicVoice = {
     -\marcato                                                    %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
     
-    % [A PercussionMusicVoice measure 68]                        %! SM4
+    % [A PercussionMusicVoice measure 68 / measure 24]           %! SM4
     \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:MHC
     \once \override Staff.StaffSymbol.line-count = 1             %! SM8:EXPLICIT_STAFF_LINES:MHC
     \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:MHC
@@ -2852,7 +2852,7 @@ A_PercussionMusicVoice = {
     -\marcato                                                    %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
     
-    % [A PercussionMusicVoice measure 69]                        %! SM4
+    % [A PercussionMusicVoice measure 69 / measure 25]           %! SM4
     \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:MHC
     \once \override Staff.StaffSymbol.line-count = 1             %! SM8:EXPLICIT_STAFF_LINES:MHC
     \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:MHC
@@ -2878,7 +2878,7 @@ A_PercussionMusicVoice = {
     -\marcato                                                    %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
     
-    % [A PercussionMusicVoice measure 70]                        %! SM4
+    % [A PercussionMusicVoice measure 70 / measure 26]           %! SM4
     \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:MHC
     \once \override Staff.StaffSymbol.line-count = 1             %! SM8:EXPLICIT_STAFF_LINES:MHC
     \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:MHC
@@ -2904,7 +2904,7 @@ A_PercussionMusicVoice = {
     -\marcato                                                    %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
     
-    % [A PercussionMusicVoice measure 71]                        %! SM4
+    % [A PercussionMusicVoice measure 71 / measure 27]           %! SM4
     \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:MHC
     \once \override Staff.StaffSymbol.line-count = 1             %! SM8:EXPLICIT_STAFF_LINES:MHC
     \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:MHC
@@ -2932,7 +2932,7 @@ A_PercussionMusicVoice = {
     -\marcato                                                    %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
     
-    % [A PercussionMusicVoice measure 72]                        %! SM4
+    % [A PercussionMusicVoice measure 72 / measure 28]           %! SM4
     \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:MHC
     \once \override Staff.StaffSymbol.line-count = 1             %! SM8:EXPLICIT_STAFF_LINES:MHC
     \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:MHC
@@ -2958,7 +2958,7 @@ A_PercussionMusicVoice = {
     -\marcato                                                    %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
     
-    % [A PercussionMusicVoice measure 73]                        %! SM4
+    % [A PercussionMusicVoice measure 73 / measure 29]           %! SM4
     \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:MHC
     \once \override Staff.StaffSymbol.line-count = 1             %! SM8:EXPLICIT_STAFF_LINES:MHC
     \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:MHC
@@ -2984,7 +2984,7 @@ A_PercussionMusicVoice = {
     -\marcato                                                    %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:MHC
     
-    % [A PercussionMusicVoice measure 74]                        %! SM4
+    % [A PercussionMusicVoice measure 74 / measure 30]           %! SM4
     \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:MHC
     \once \override Staff.StaffSymbol.line-count = 1             %! SM8:EXPLICIT_STAFF_LINES:MHC
     \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:MHC
@@ -3022,7 +3022,7 @@ A_PercussionMusicStaff = {
 
 A_ViolinMusicVoice = {
     
-    % [A ViolinMusicVoice measure 45]                            %! SM4
+    % [A ViolinMusicVoice measure 45 / measure 1]                %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -3079,7 +3079,7 @@ A_ViolinMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \times 4/5 {
         
-        % [A ViolinMusicVoice measure 46]                        %! SM4
+        % [A ViolinMusicVoice measure 46 / measure 2]            %! SM4
         gf'!16
         \repeatTie
         
@@ -3094,7 +3094,7 @@ A_ViolinMusicVoice = {
     g'4
     \repeatTie
     
-    % [A ViolinMusicVoice measure 47]                            %! SM4
+    % [A ViolinMusicVoice measure 47 / measure 3]                %! SM4
     g'4
     \repeatTie
     \times 4/5 {
@@ -3135,7 +3135,7 @@ A_ViolinMusicVoice = {
     gf'!4
     \repeatTie
     
-    % [A ViolinMusicVoice measure 48]                            %! SM4
+    % [A ViolinMusicVoice measure 48 / measure 4]                %! SM4
     gf'!4
     \repeatTie
     \times 4/5 {
@@ -3154,7 +3154,7 @@ A_ViolinMusicVoice = {
     gqf'!4
     \repeatTie
     
-    % [A ViolinMusicVoice measure 49]                            %! SM4
+    % [A ViolinMusicVoice measure 49 / measure 5]                %! SM4
     gqf'!4
     \repeatTie
     \times 4/5 {
@@ -3174,7 +3174,7 @@ A_ViolinMusicVoice = {
     \repeatTie
     \times 4/5 {
         
-        % [A ViolinMusicVoice measure 50]                        %! SM4
+        % [A ViolinMusicVoice measure 50 / measure 6]            %! SM4
         g'16
         \repeatTie
         
@@ -3190,7 +3190,7 @@ A_ViolinMusicVoice = {
     \repeatTie
     \times 4/5 {
         
-        % [A ViolinMusicVoice measure 51]                        %! SM4
+        % [A ViolinMusicVoice measure 51 / measure 7]            %! SM4
         gs'!8
         \repeatTie
         [
@@ -3220,7 +3220,7 @@ A_ViolinMusicVoice = {
         \startTrillSpan af'                                      %! SC
     }
     
-    % [A ViolinMusicVoice measure 52]                            %! SM4
+    % [A ViolinMusicVoice measure 52 / measure 8]                %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     g'2
     \repeatTie
@@ -3241,7 +3241,7 @@ A_ViolinMusicVoice = {
     \repeatTie
     \times 4/5 {
         
-        % [A ViolinMusicVoice measure 53]                        %! SM4
+        % [A ViolinMusicVoice measure 53 / measure 9]            %! SM4
         gqs'!16
         \repeatTie
         
@@ -3268,7 +3268,7 @@ A_ViolinMusicVoice = {
         \startTrillSpan bf'                                      %! SC
     }
     
-    % [A ViolinMusicVoice measure 54]                            %! SM4
+    % [A ViolinMusicVoice measure 54 / measure 10]               %! SM4
     a'2
     \repeatTie
     \times 4/5 {
@@ -3286,7 +3286,7 @@ A_ViolinMusicVoice = {
         \startTrillSpan btqf'                                    %! SC
     }
     
-    % [A ViolinMusicVoice measure 55]                            %! SM4
+    % [A ViolinMusicVoice measure 55 / measure 11]               %! SM4
     aqf'!2
     \repeatTie
     \times 4/5 {
@@ -3307,7 +3307,7 @@ A_ViolinMusicVoice = {
     af'!4
     \repeatTie
     
-    % [A ViolinMusicVoice measure 56]                            %! SM4
+    % [A ViolinMusicVoice measure 56 / measure 12]               %! SM4
     af'!4
     \repeatTie
     \times 4/5 {
@@ -3341,7 +3341,7 @@ A_ViolinMusicVoice = {
         \startTrillSpan bff'                                     %! SC
     }
     
-    % [A ViolinMusicVoice measure 57]                            %! SM4
+    % [A ViolinMusicVoice measure 57 / measure 13]               %! SM4
     af'!2
     \repeatTie
     \times 4/5 {
@@ -3356,11 +3356,11 @@ A_ViolinMusicVoice = {
         \startTrillSpan af'                                      %! SC
     }
     
-    % [A ViolinMusicVoice measure 58]                            %! SM4
+    % [A ViolinMusicVoice measure 58 / measure 14]               %! SM4
     r2
     \stopTrillSpan                                               %! SC
     
-    % [A ViolinMusicVoice measure 59]                            %! SM4
+    % [A ViolinMusicVoice measure 59 / measure 15]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     a'1.
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
@@ -3370,10 +3370,10 @@ A_ViolinMusicVoice = {
                 "arco ordinario"                                 %! IC
         }                                                        %! IC
     
-    % [A ViolinMusicVoice measure 60]                            %! SM4
+    % [A ViolinMusicVoice measure 60 / measure 16]               %! SM4
     r2
     
-    % [A ViolinMusicVoice measure 61]                            %! SM4
+    % [A ViolinMusicVoice measure 61 / measure 17]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     a'2.
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
@@ -3381,57 +3381,57 @@ A_ViolinMusicVoice = {
     a'2
     \repeatTie
     
-    % [A ViolinMusicVoice measure 62]                            %! SM4
+    % [A ViolinMusicVoice measure 62 / measure 18]               %! SM4
     r2.
     
-    % [A ViolinMusicVoice measure 63]                            %! SM4
+    % [A ViolinMusicVoice measure 63 / measure 19]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     a'1
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
-    % [A ViolinMusicVoice measure 64]                            %! SM4
+    % [A ViolinMusicVoice measure 64 / measure 20]               %! SM4
     r1.
     
-    % [A ViolinMusicVoice measure 65]                            %! SM4
+    % [A ViolinMusicVoice measure 65 / measure 21]               %! SM4
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     a'4
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
-    % [A ViolinMusicVoice measure 66]                            %! SM4
+    % [A ViolinMusicVoice measure 66 / measure 22]               %! SM4
     a'2
     \repeatTie
     
-    % [A ViolinMusicVoice measure 67]                            %! SM4
+    % [A ViolinMusicVoice measure 67 / measure 23]               %! SM4
     a'2.
     \repeatTie
     
-    % [A ViolinMusicVoice measure 68]                            %! SM4
+    % [A ViolinMusicVoice measure 68 / measure 24]               %! SM4
     a'1
     \repeatTie
     
-    % [A ViolinMusicVoice measure 69]                            %! SM4
+    % [A ViolinMusicVoice measure 69 / measure 25]               %! SM4
     a'2
     \repeatTie
     
-    % [A ViolinMusicVoice measure 70]                            %! SM4
+    % [A ViolinMusicVoice measure 70 / measure 26]               %! SM4
     a'2
     \repeatTie
     
-    % [A ViolinMusicVoice measure 71]                            %! SM4
+    % [A ViolinMusicVoice measure 71 / measure 27]               %! SM4
     a'1.
     \repeatTie
     
-    % [A ViolinMusicVoice measure 72]                            %! SM4
+    % [A ViolinMusicVoice measure 72 / measure 28]               %! SM4
     a'1
     \repeatTie
     
-    % [A ViolinMusicVoice measure 73]                            %! SM4
+    % [A ViolinMusicVoice measure 73 / measure 29]               %! SM4
     a'2.
     \repeatTie
     
-    % [A ViolinMusicVoice measure 74]                            %! SM4
+    % [A ViolinMusicVoice measure 74 / measure 30]               %! SM4
     a'2.
     \repeatTie
     
@@ -3446,7 +3446,7 @@ A_ViolinMusicStaff = {
 
 A_ViolaMusicVoice = {
     
-    % [A ViolaMusicVoice measure 45]                             %! SM4
+    % [A ViolaMusicVoice measure 45 / measure 1]                 %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -3502,7 +3502,7 @@ A_ViolaMusicVoice = {
             Va.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [A ViolaMusicVoice measure 46]                             %! SM4
+    % [A ViolaMusicVoice measure 46 / measure 2]                 %! SM4
     f'4
     \repeatTie
     \times 4/5 {
@@ -3518,7 +3518,7 @@ A_ViolaMusicVoice = {
         \startTrillSpan g'                                       %! SC
     }
     
-    % [A ViolaMusicVoice measure 47]                             %! SM4
+    % [A ViolaMusicVoice measure 47 / measure 3]                 %! SM4
     fs'!2.
     \repeatTie
     \times 4/5 {
@@ -3539,7 +3539,7 @@ A_ViolaMusicVoice = {
     fqs'!2
     \repeatTie
     
-    % [A ViolaMusicVoice measure 48]                             %! SM4
+    % [A ViolaMusicVoice measure 48 / measure 4]                 %! SM4
     fqs'!4
     \repeatTie
     \times 4/5 {
@@ -3560,7 +3560,7 @@ A_ViolaMusicVoice = {
     f'4
     \repeatTie
     
-    % [A ViolaMusicVoice measure 49]                             %! SM4
+    % [A ViolaMusicVoice measure 49 / measure 5]                 %! SM4
     f'2
     \repeatTie
     \times 4/5 {
@@ -3579,7 +3579,7 @@ A_ViolaMusicVoice = {
     gf'!4
     \repeatTie
     
-    % [A ViolaMusicVoice measure 50]                             %! SM4
+    % [A ViolaMusicVoice measure 50 / measure 6]                 %! SM4
     gf'!2
     \repeatTie
     \times 4/5 {
@@ -3595,7 +3595,7 @@ A_ViolaMusicVoice = {
         \startTrillSpan af'                                      %! SC
     }
     
-    % [A ViolaMusicVoice measure 51]                             %! SM4
+    % [A ViolaMusicVoice measure 51 / measure 7]                 %! SM4
     g'2.
     \repeatTie
     \times 4/5 {
@@ -3611,7 +3611,7 @@ A_ViolaMusicVoice = {
         \startTrillSpan atqf'                                    %! SC
     }
     
-    % [A ViolaMusicVoice measure 52]                             %! SM4
+    % [A ViolaMusicVoice measure 52 / measure 8]                 %! SM4
     gqf'!2.
     \repeatTie
     \times 4/5 {
@@ -3632,7 +3632,7 @@ A_ViolaMusicVoice = {
     gf'!4
     \repeatTie
     
-    % [A ViolaMusicVoice measure 53]                             %! SM4
+    % [A ViolaMusicVoice measure 53 / measure 9]                 %! SM4
     gf'!2
     \repeatTie
     \times 4/5 {
@@ -3653,7 +3653,7 @@ A_ViolaMusicVoice = {
     g'4
     \repeatTie
     
-    % [A ViolaMusicVoice measure 54]                             %! SM4
+    % [A ViolaMusicVoice measure 54 / measure 10]                %! SM4
     g'2
     \repeatTie
     \times 4/5 {
@@ -3668,7 +3668,7 @@ A_ViolaMusicVoice = {
         \startTrillSpan a'                                       %! SC
     }
     
-    % [A ViolaMusicVoice measure 55]                             %! SM4
+    % [A ViolaMusicVoice measure 55 / measure 11]                %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     gs'!2.
     \repeatTie
@@ -3685,7 +3685,7 @@ A_ViolaMusicVoice = {
         \startTrillSpan aqf'                                     %! SC
     }
     
-    % [A ViolaMusicVoice measure 56]                             %! SM4
+    % [A ViolaMusicVoice measure 56 / measure 12]                %! SM4
     gqs'!2.
     \repeatTie
     \times 4/5 {
@@ -3704,7 +3704,7 @@ A_ViolaMusicVoice = {
     g'4
     \repeatTie
     
-    % [A ViolaMusicVoice measure 57]                             %! SM4
+    % [A ViolaMusicVoice measure 57 / measure 13]                %! SM4
     g'2
     \repeatTie
     \times 4/5 {
@@ -3721,11 +3721,11 @@ A_ViolaMusicVoice = {
         \startTrillSpan aqf'                                     %! SC
     }
     
-    % [A ViolaMusicVoice measure 58]                             %! SM4
+    % [A ViolaMusicVoice measure 58 / measure 14]                %! SM4
     r2
     \stopTrillSpan                                               %! SC
     
-    % [A ViolaMusicVoice measure 59]                             %! SM4
+    % [A ViolaMusicVoice measure 59 / measure 15]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     gs'!1.
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
@@ -3735,10 +3735,10 @@ A_ViolaMusicVoice = {
                 "arco ordinario"                                 %! IC
         }                                                        %! IC
     
-    % [A ViolaMusicVoice measure 60]                             %! SM4
+    % [A ViolaMusicVoice measure 60 / measure 16]                %! SM4
     r2
     
-    % [A ViolaMusicVoice measure 61]                             %! SM4
+    % [A ViolaMusicVoice measure 61 / measure 17]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     gs'!2.
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
@@ -3746,57 +3746,57 @@ A_ViolaMusicVoice = {
     gs'!2
     \repeatTie
     
-    % [A ViolaMusicVoice measure 62]                             %! SM4
+    % [A ViolaMusicVoice measure 62 / measure 18]                %! SM4
     r2.
     
-    % [A ViolaMusicVoice measure 63]                             %! SM4
+    % [A ViolaMusicVoice measure 63 / measure 19]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     gs'!1
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
-    % [A ViolaMusicVoice measure 64]                             %! SM4
+    % [A ViolaMusicVoice measure 64 / measure 20]                %! SM4
     r1.
     
-    % [A ViolaMusicVoice measure 65]                             %! SM4
+    % [A ViolaMusicVoice measure 65 / measure 21]                %! SM4
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     gs'!4
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
-    % [A ViolaMusicVoice measure 66]                             %! SM4
+    % [A ViolaMusicVoice measure 66 / measure 22]                %! SM4
     gs'!2
     \repeatTie
     
-    % [A ViolaMusicVoice measure 67]                             %! SM4
+    % [A ViolaMusicVoice measure 67 / measure 23]                %! SM4
     gs'!2.
     \repeatTie
     
-    % [A ViolaMusicVoice measure 68]                             %! SM4
+    % [A ViolaMusicVoice measure 68 / measure 24]                %! SM4
     gs'!1
     \repeatTie
     
-    % [A ViolaMusicVoice measure 69]                             %! SM4
+    % [A ViolaMusicVoice measure 69 / measure 25]                %! SM4
     gs'!2
     \repeatTie
     
-    % [A ViolaMusicVoice measure 70]                             %! SM4
+    % [A ViolaMusicVoice measure 70 / measure 26]                %! SM4
     gs'!2
     \repeatTie
     
-    % [A ViolaMusicVoice measure 71]                             %! SM4
+    % [A ViolaMusicVoice measure 71 / measure 27]                %! SM4
     gs'!1.
     \repeatTie
     
-    % [A ViolaMusicVoice measure 72]                             %! SM4
+    % [A ViolaMusicVoice measure 72 / measure 28]                %! SM4
     gs'!1
     \repeatTie
     
-    % [A ViolaMusicVoice measure 73]                             %! SM4
+    % [A ViolaMusicVoice measure 73 / measure 29]                %! SM4
     gs'!2.
     \repeatTie
     
-    % [A ViolaMusicVoice measure 74]                             %! SM4
+    % [A ViolaMusicVoice measure 74 / measure 30]                %! SM4
     gs'!2.
     \repeatTie
     
@@ -3811,7 +3811,7 @@ A_ViolaMusicStaff = {
 
 A_CelloMusicVoice = {
     
-    % [A CelloMusicVoice measure 45]                             %! SM4
+    % [A CelloMusicVoice measure 45 / measure 1]                 %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -3867,12 +3867,12 @@ A_CelloMusicVoice = {
             Vc.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [A CelloMusicVoice measure 46]                             %! SM4
+    % [A CelloMusicVoice measure 46 / measure 2]                 %! SM4
     f'2
     \repeatTie
     \times 4/5 {
         
-        % [A CelloMusicVoice measure 47]                         %! SM4
+        % [A CelloMusicVoice measure 47 / measure 3]             %! SM4
         f'16
         \repeatTie
         
@@ -3904,11 +3904,11 @@ A_CelloMusicVoice = {
         \startTrillSpan gqf'                                     %! SC
     }
     
-    % [A CelloMusicVoice measure 48]                             %! SM4
+    % [A CelloMusicVoice measure 48 / measure 4]                 %! SM4
     fqs'!2.
     \repeatTie
     
-    % [A CelloMusicVoice measure 49]                             %! SM4
+    % [A CelloMusicVoice measure 49 / measure 5]                 %! SM4
     fqs'!4
     \repeatTie
     \times 4/5 {
@@ -3929,7 +3929,7 @@ A_CelloMusicVoice = {
     f'2
     \repeatTie
     
-    % [A CelloMusicVoice measure 50]                             %! SM4
+    % [A CelloMusicVoice measure 50 / measure 6]                 %! SM4
     f'2
     \repeatTie
     \times 4/5 {
@@ -3944,13 +3944,13 @@ A_CelloMusicVoice = {
         \startTrillSpan gqf'                                     %! SC
     }
     
-    % [A CelloMusicVoice measure 51]                             %! SM4
+    % [A CelloMusicVoice measure 51 / measure 7]                 %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     fqs'!1
     \repeatTie
     \times 4/5 {
         
-        % [A CelloMusicVoice measure 52]                         %! SM4
+        % [A CelloMusicVoice measure 52 / measure 8]             %! SM4
         fqs'!16
         \repeatTie
         
@@ -3968,7 +3968,7 @@ A_CelloMusicVoice = {
     r2
     \stopTrillSpan                                               %! SC
     
-    % [A CelloMusicVoice measure 53]                             %! SM4
+    % [A CelloMusicVoice measure 53 / measure 9]                 %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     fs!1
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
@@ -3988,29 +3988,29 @@ A_CelloMusicVoice = {
                     }                                            %! IC
         }                                                        %! IC
     
-    % [A CelloMusicVoice measure 54]                             %! SM4
+    % [A CelloMusicVoice measure 54 / measure 10]                %! SM4
     fs!2.
     \repeatTie
     
-    % [A CelloMusicVoice measure 55]                             %! SM4
+    % [A CelloMusicVoice measure 55 / measure 11]                %! SM4
     fs!1
     \repeatTie
     
-    % [A CelloMusicVoice measure 56]                             %! SM4
+    % [A CelloMusicVoice measure 56 / measure 12]                %! SM4
     fs!2.
     \repeatTie
     
     fs!2
     \repeatTie
     
-    % [A CelloMusicVoice measure 57]                             %! SM4
+    % [A CelloMusicVoice measure 57 / measure 13]                %! SM4
     fs!2.
     \repeatTie
     
-    % [A CelloMusicVoice measure 58]                             %! SM4
+    % [A CelloMusicVoice measure 58 / measure 14]                %! SM4
     r2
     
-    % [A CelloMusicVoice measure 59]                             %! SM4
+    % [A CelloMusicVoice measure 59 / measure 15]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g1.
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
@@ -4020,10 +4020,10 @@ A_CelloMusicVoice = {
                 "arco ordinario"                                 %! IC
         }                                                        %! IC
     
-    % [A CelloMusicVoice measure 60]                             %! SM4
+    % [A CelloMusicVoice measure 60 / measure 16]                %! SM4
     r2
     
-    % [A CelloMusicVoice measure 61]                             %! SM4
+    % [A CelloMusicVoice measure 61 / measure 17]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g2.
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
@@ -4031,57 +4031,57 @@ A_CelloMusicVoice = {
     g2
     \repeatTie
     
-    % [A CelloMusicVoice measure 62]                             %! SM4
+    % [A CelloMusicVoice measure 62 / measure 18]                %! SM4
     r2.
     
-    % [A CelloMusicVoice measure 63]                             %! SM4
+    % [A CelloMusicVoice measure 63 / measure 19]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g1
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
-    % [A CelloMusicVoice measure 64]                             %! SM4
+    % [A CelloMusicVoice measure 64 / measure 20]                %! SM4
     r1.
     
-    % [A CelloMusicVoice measure 65]                             %! SM4
+    % [A CelloMusicVoice measure 65 / measure 21]                %! SM4
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g4
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
-    % [A CelloMusicVoice measure 66]                             %! SM4
+    % [A CelloMusicVoice measure 66 / measure 22]                %! SM4
     g2
     \repeatTie
     
-    % [A CelloMusicVoice measure 67]                             %! SM4
+    % [A CelloMusicVoice measure 67 / measure 23]                %! SM4
     g2.
     \repeatTie
     
-    % [A CelloMusicVoice measure 68]                             %! SM4
+    % [A CelloMusicVoice measure 68 / measure 24]                %! SM4
     g1
     \repeatTie
     
-    % [A CelloMusicVoice measure 69]                             %! SM4
+    % [A CelloMusicVoice measure 69 / measure 25]                %! SM4
     g2
     \repeatTie
     
-    % [A CelloMusicVoice measure 70]                             %! SM4
+    % [A CelloMusicVoice measure 70 / measure 26]                %! SM4
     g2
     \repeatTie
     
-    % [A CelloMusicVoice measure 71]                             %! SM4
+    % [A CelloMusicVoice measure 71 / measure 27]                %! SM4
     g1.
     \repeatTie
     
-    % [A CelloMusicVoice measure 72]                             %! SM4
+    % [A CelloMusicVoice measure 72 / measure 28]                %! SM4
     g1
     \repeatTie
     
-    % [A CelloMusicVoice measure 73]                             %! SM4
+    % [A CelloMusicVoice measure 73 / measure 29]                %! SM4
     g2.
     \repeatTie
     
-    % [A CelloMusicVoice measure 74]                             %! SM4
+    % [A CelloMusicVoice measure 74 / measure 30]                %! SM4
     g2.
     \repeatTie
     
@@ -4096,7 +4096,7 @@ A_CelloMusicStaff = {
 
 A_ContrabassMusicVoice = {
     
-    % [A ContrabassMusicVoice measure 45]                        %! SM4
+    % [A ContrabassMusicVoice measure 45 / measure 1]            %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -4155,13 +4155,13 @@ A_ContrabassMusicVoice = {
             Cb.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [A ContrabassMusicVoice measure 46]                        %! SM4
+    % [A ContrabassMusicVoice measure 46 / measure 2]            %! SM4
     <g, a>2
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
-        % [A ContrabassMusicVoice measure 47]                    %! SM4
+        % [A ContrabassMusicVoice measure 47 / measure 3]        %! SM4
         <g, a>1.
         \repeatTie
         \glissando                                               %! SC
@@ -4170,7 +4170,7 @@ A_ContrabassMusicVoice = {
     }
     \times 4/5 {
         
-        % [A ContrabassMusicVoice measure 48]                    %! SM4
+        % [A ContrabassMusicVoice measure 48 / measure 4]        %! SM4
         <af,! bf!>2.
         \repeatTie
         \glissando                                               %! SC
@@ -4178,12 +4178,12 @@ A_ContrabassMusicVoice = {
         <gqs,! aqs!>8.
     }
     
-    % [A ContrabassMusicVoice measure 49]                        %! SM4
+    % [A ContrabassMusicVoice measure 49 / measure 5]            %! SM4
     <gqs,! aqs!>1
     \repeatTie
     \times 4/5 {
         
-        % [A ContrabassMusicVoice measure 50]                    %! SM4
+        % [A ContrabassMusicVoice measure 50 / measure 6]        %! SM4
         <gqs,! aqs!>2.
         \repeatTie
         \glissando                                               %! SC
@@ -4191,22 +4191,22 @@ A_ContrabassMusicVoice = {
         <a, b>8.
     }
     
-    % [A ContrabassMusicVoice measure 51]                        %! SM4
+    % [A ContrabassMusicVoice measure 51 / measure 7]            %! SM4
     <a, b>1
     \repeatTie
     
-    % [A ContrabassMusicVoice measure 52]                        %! SM4
+    % [A ContrabassMusicVoice measure 52 / measure 8]            %! SM4
     <a, b>2.
     \repeatTie
     
     <a, b>2
     \repeatTie
     
-    % [A ContrabassMusicVoice measure 53]                        %! SM4
+    % [A ContrabassMusicVoice measure 53 / measure 9]            %! SM4
     <a, b>1
     \repeatTie
     
-    % [A ContrabassMusicVoice measure 54]                        %! SM4
+    % [A ContrabassMusicVoice measure 54 / measure 10]           %! SM4
     <a, b>2
     \repeatTie
     \glissando                                                   %! SC
@@ -4214,7 +4214,7 @@ A_ContrabassMusicVoice = {
     <bqf,! cqs'!>4
     \times 2/3 {
         
-        % [A ContrabassMusicVoice measure 55]                    %! SM4
+        % [A ContrabassMusicVoice measure 55 / measure 11]       %! SM4
         <bqf,! cqs'!>1
         \repeatTie
         \glissando                                               %! SC
@@ -4222,7 +4222,7 @@ A_ContrabassMusicVoice = {
         <af,! bf!>2
     }
     
-    % [A ContrabassMusicVoice measure 56]                        %! SM4
+    % [A ContrabassMusicVoice measure 56 / measure 12]           %! SM4
     <af,! bf!>2.
     \repeatTie
     
@@ -4231,7 +4231,7 @@ A_ContrabassMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
-        % [A ContrabassMusicVoice measure 57]                    %! SM4
+        % [A ContrabassMusicVoice measure 57 / measure 13]       %! SM4
         <af,! bf!>2.
         \repeatTie
         \glissando                                               %! SC
@@ -4240,10 +4240,10 @@ A_ContrabassMusicVoice = {
         \revert NoteHead.style                                   %! OC2
     }
     
-    % [A ContrabassMusicVoice measure 58]                        %! SM4
+    % [A ContrabassMusicVoice measure 58 / measure 14]           %! SM4
     r2
     
-    % [A ContrabassMusicVoice measure 59]                        %! SM4
+    % [A ContrabassMusicVoice measure 59 / measure 15]           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     <g,, a,>1.
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
@@ -4253,10 +4253,10 @@ A_ContrabassMusicVoice = {
                 "arco ordinario"                                 %! IC
         }                                                        %! IC
     
-    % [A ContrabassMusicVoice measure 60]                        %! SM4
+    % [A ContrabassMusicVoice measure 60 / measure 16]           %! SM4
     r2
     
-    % [A ContrabassMusicVoice measure 61]                        %! SM4
+    % [A ContrabassMusicVoice measure 61 / measure 17]           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     <g,, a,>2.
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
@@ -4264,57 +4264,57 @@ A_ContrabassMusicVoice = {
     <g,, a,>2
     \repeatTie
     
-    % [A ContrabassMusicVoice measure 62]                        %! SM4
+    % [A ContrabassMusicVoice measure 62 / measure 18]           %! SM4
     r2.
     
-    % [A ContrabassMusicVoice measure 63]                        %! SM4
+    % [A ContrabassMusicVoice measure 63 / measure 19]           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     <g,, a,>1
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
-    % [A ContrabassMusicVoice measure 64]                        %! SM4
+    % [A ContrabassMusicVoice measure 64 / measure 20]           %! SM4
     r1.
     
-    % [A ContrabassMusicVoice measure 65]                        %! SM4
+    % [A ContrabassMusicVoice measure 65 / measure 21]           %! SM4
     r4
     
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     <g,, a,>4
     \fff                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     
-    % [A ContrabassMusicVoice measure 66]                        %! SM4
+    % [A ContrabassMusicVoice measure 66 / measure 22]           %! SM4
     <g,, a,>2
     \repeatTie
     
-    % [A ContrabassMusicVoice measure 67]                        %! SM4
+    % [A ContrabassMusicVoice measure 67 / measure 23]           %! SM4
     <g,, a,>2.
     \repeatTie
     
-    % [A ContrabassMusicVoice measure 68]                        %! SM4
+    % [A ContrabassMusicVoice measure 68 / measure 24]           %! SM4
     <g,, a,>1
     \repeatTie
     
-    % [A ContrabassMusicVoice measure 69]                        %! SM4
+    % [A ContrabassMusicVoice measure 69 / measure 25]           %! SM4
     <g,, a,>2
     \repeatTie
     
-    % [A ContrabassMusicVoice measure 70]                        %! SM4
+    % [A ContrabassMusicVoice measure 70 / measure 26]           %! SM4
     <g,, a,>2
     \repeatTie
     
-    % [A ContrabassMusicVoice measure 71]                        %! SM4
+    % [A ContrabassMusicVoice measure 71 / measure 27]           %! SM4
     <g,, a,>1.
     \repeatTie
     
-    % [A ContrabassMusicVoice measure 72]                        %! SM4
+    % [A ContrabassMusicVoice measure 72 / measure 28]           %! SM4
     <g,, a,>1
     \repeatTie
     
-    % [A ContrabassMusicVoice measure 73]                        %! SM4
+    % [A ContrabassMusicVoice measure 73 / measure 29]           %! SM4
     <g,, a,>2.
     \repeatTie
     
-    % [A ContrabassMusicVoice measure 74]                        %! SM4
+    % [A ContrabassMusicVoice measure 74 / measure 30]           %! SM4
     <g,, a,>2.
     \repeatTie
     
