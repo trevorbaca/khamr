@@ -17,7 +17,7 @@ def guitar_isolata(division_mask=None):
     else:
         division_masks = [division_mask]
 
-    return baca.RhythmCommand(
+    return baca.rhythm(
         division_maker=baca.DivisionMaker()
             .split_by_durations(
                 durations=[(1, 4)],

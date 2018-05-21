@@ -13,7 +13,7 @@ def current(counts, division_mask=None):
     else:
         division_masks = [division_mask]
     tuplet_ratios = [_ * (1,) for _ in counts]
-    return baca.RhythmCommand(
+    return baca.rhythm(
         division_maker=khamr.beat_divisions(),
         rewrite_meter=True,
         rhythm_maker=rhythmos.TupletRhythmMaker(

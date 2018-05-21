@@ -8,7 +8,7 @@ def silent_first_division():
     """
     Makes repeat-tied durations with silent first division.
     """
-    return baca.RhythmCommand(
+    return baca.rhythm(
         rewrite_meter=True,
         division_maker=beat_divisions(),
         rhythm_maker=rhythmos.NoteRhythmMaker(

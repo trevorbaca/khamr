@@ -7,7 +7,7 @@ def alternate_divisions(strip_ties=None):
     """
     Makes repeat-tied alternate divisions.
     """
-    return baca.RhythmCommand(
+    return baca.rhythm(
         rewrite_meter=True,
         rhythm_maker=rhythmos.NoteRhythmMaker(
             division_masks=[

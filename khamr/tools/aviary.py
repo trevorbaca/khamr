@@ -7,7 +7,7 @@ def aviary(duration, extra_counts_per_division):
     """
     Makes aviary rhythm.
     """
-    return baca.RhythmCommand(
+    return baca.rhythm(
         division_maker=baca.DivisionMaker()
             .fuse_by_counts(
                 counts=abjad.Infinity,
