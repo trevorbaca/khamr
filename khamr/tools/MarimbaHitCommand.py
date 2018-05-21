@@ -29,10 +29,11 @@ class MarimbaHitCommand(baca.Command):
     ### SPECIAL METHODS ###
 
     def __call__(self, argument=None):
-        r'''Calls command on `argument`.
+        """
+        Calls command on `argument`.
 
         Returns none.
-        '''
+        """
         found_first = False
         for i, plt in enumerate(baca.select(argument).plts()):
             if i not in self.indices:
@@ -85,21 +86,22 @@ class MarimbaHitCommand(baca.Command):
 
     @property
     def attach_first_markup(self):
-        r'''Is true when specifier should attach markup to first instance.
-        Otherwise false.
+        """
+        Is true when specifier should attach markup to first instance.
 
         Defaults to false.
 
         Set to true or false.
 
         Returns true or false.
-        '''
+        """
         return self._attach_first_markup
 
     @property
     def indices(self):
-        r'''Gets indices of marimba hit specifier.
+        """
+        Gets indices of marimba hit specifier.
 
         Set to list of integers.
-        '''
+        """
         return self._indices
