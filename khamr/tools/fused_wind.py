@@ -14,7 +14,7 @@ def fused_wind(fuse_by_counts, division_mask, denominator=8):
         division_masks = division_mask[:]
     else:
         division_masks = [division_mask]
-    return baca.RhythmCommand(
+    return baca.rhythm(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
                 counts=fuse_by_counts,

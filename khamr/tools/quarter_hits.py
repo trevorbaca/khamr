@@ -11,7 +11,7 @@ def quarter_hits(division_mask=None):
         division_masks = None
     else:
         division_masks = [division_mask]
-    return baca.RhythmCommand(
+    return baca.rhythm(
         division_maker=baca.DivisionMaker()
             .split_by_durations(
                 compound_meter_multiplier=abjad.Multiplier(3, 2),

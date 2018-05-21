@@ -7,7 +7,7 @@ def guitar_accelerandi(fuse_by_counts, division_masks=None):
     """
     Makes guitar accelerandi.
     """
-    return baca.RhythmCommand(
+    return baca.rhythm(
         division_maker=baca.DivisionMaker()
             .fuse_by_counts(
                 counts=fuse_by_counts,

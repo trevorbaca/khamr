@@ -12,7 +12,7 @@ def trill_tuplets(tuplet_ratios, division_mask=None):
         division_masks = None
     else:
         division_masks = [division_mask]
-    return baca.RhythmCommand(
+    return baca.rhythm(
         division_maker=khamr.quarter_divisions(),
         rewrite_meter=True,
         rhythm_maker=rhythmos.TupletRhythmMaker(
