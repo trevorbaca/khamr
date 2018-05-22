@@ -40,7 +40,7 @@ class MarimbaHitCommand(baca.Command):
                 continue
             staff_lines = baca.StaffLines(line_count=5)
             abjad.attach(
-                baca.StaffLines(5),
+                baca.StaffLines(line_count=5),
                 plt.head,
                 tag='MHC',
                 )
@@ -72,7 +72,7 @@ class MarimbaHitCommand(baca.Command):
             next_leaf = abjad.inspect(plt.tail).get_leaf(1)
             if next_leaf is not None:
                 abjad.attach(
-                    baca.StaffLines(1),
+                    baca.StaffLines(line_count=1),
                     next_leaf,
                     tag='MHC',
                     )
