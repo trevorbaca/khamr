@@ -1,10 +1,20 @@
+import abjad
 import baca
 
 
 def halo_hairpins():
+    """
+    Makes halo hairpins.
+    """
     hairpins = [
         'pp > ppp', 'ppp < pp', 'pp > ppp', 'ppp < pp',
         'pp < p', 'p > pp', 'pp < p', 'p > ppp', 'ppp < pp',
         ]
-    hairpins = [baca.hairpin(_) for _ in hairpins]
-    return baca.map(hairpins, baca.plts())
+    commands = []
+    for i, hairpin in enumerate(hairpins):
+        command = baca.map(
+            baca.plts()[abjad.index([i], len(hairpins))],
+            baca.hairpin(hairpin),
+            )
+        commands.append(command)
+    return commands
