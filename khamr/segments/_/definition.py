@@ -228,7 +228,10 @@ maker(
 maker(
     ('fl', (6, 7)),
     baca.hairpin('mp > pp'),
-    baca.map(baca.trill_spanner(), baca.qruns()),
+    baca.map(
+        baca.qruns(),
+        baca.trill_spanner(),
+        ),
     baca.pitch('A4'),
     )
 
@@ -352,7 +355,10 @@ maker(
 maker(
     ('vn', (6, 7)),
     baca.dynamic('ppp'),
-    baca.map(baca.trill_spanner(string='m2'), baca.plts()),
+    baca.map(
+        baca.plts(),
+        baca.trill_spanner(string='m2'),
+        ),
     baca.markup.molto_flautando_e_pont(),
     baca.pitches(khamr.color_trill_pitches),
     )
@@ -369,7 +375,10 @@ maker(
 maker(
     ('va', (6, 7)),
     baca.dynamic('ppp'),
-    baca.map(baca.trill_spanner(string='m2'), baca.plts()),
+    baca.map(
+        baca.plts(),
+        baca.trill_spanner(string='m2'),
+        ),
     baca.markup.molto_flautando_e_pont(),
     baca.pitches(khamr.color_trill_pitches),
     )
@@ -386,7 +395,10 @@ maker(
 maker(
     ('vc', (6, 7)),
     baca.dynamic('ppp'),
-    baca.map(baca.trill_spanner(string='m2'), baca.plts()),
+    baca.map(
+        baca.plts(),
+        baca.trill_spanner(string='m2'),
+        ),
     baca.markup.molto_flautando_e_pont(),
     baca.pitches(khamr.color_trill_pitches),
     )
@@ -400,18 +412,10 @@ maker(
     baca.pitches(khamr.contrabass_halo_pitches),
     )
 
-hairpins = [
-    'pp > ppp', 'ppp < pp', 'pp > ppp', 'ppp < pp',
-    'pp < p', 'p > pp', 'pp < p', 'p > ppp', 'ppp < pp',
-    ]
-for i, hairpin in enumerate(hairpins):
-    maker(
-        ('cb', (2, 7)),
-        baca.map(
-            baca.hairpin(hairpin),
-            baca.plts()[abjad.index([i], len(hairpins))],
-            ),
-        )
+maker(
+    ('cb', (2, 7)),
+    khamr.halo_hairpins(),
+    )
 
 maker(
     (['vn', 'va', 'vc', 'cb'], (1, 7)),

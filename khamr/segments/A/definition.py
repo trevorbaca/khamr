@@ -153,7 +153,10 @@ maker(
 maker(
     ('fl', (1, 2)),
     baca.hairpin('mp > pp'),
-    baca.map(baca.trill_spanner(), baca.qruns()),
+    baca.map(
+        baca.qruns(),
+        baca.trill_spanner(),
+        ),
     baca.pitch('Bb4'),
     )
 
@@ -278,7 +281,10 @@ maker(
 maker(
     ('vn', (1, 3)),
     baca.accent(selector=baca.pheads()),
-    baca.map(baca.trill_spanner(string='m2'), baca.plts()),
+    baca.map(
+        baca.plts(),
+        baca.trill_spanner(string='m2'),
+        ),
     )
 
 maker(
@@ -306,7 +312,10 @@ maker(
 maker(
     ('va', (1, 3)),
     baca.accent(selector=baca.pheads()),
-    baca.map(baca.trill_spanner(string='m2'), baca.plts()),
+    baca.map(
+        baca.plts(),
+        baca.trill_spanner(string='m2'),
+        ),
     )
 
 maker(
@@ -319,7 +328,10 @@ maker(
 maker(
     ('vc', (1, 2)),
     baca.accent(selector=baca.pheads()),
-    baca.map(baca.trill_spanner(string='m2'), baca.plts()),
+    baca.map(
+        baca.plts(),
+        baca.trill_spanner(string='m2'),
+        ),
     baca.pitches(khamr.color_trill_pitches),
     )
 
