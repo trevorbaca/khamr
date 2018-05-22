@@ -404,13 +404,14 @@ hairpins = [
     'pp > ppp', 'ppp < pp', 'pp > ppp', 'ppp < pp',
     'pp < p', 'p > pp', 'pp < p', 'p > ppp', 'ppp < pp',
     ]
-maker(
-    ('cb', (2, 7)),
-    baca.map(
-        [baca.hairpin(_) for _ in hairpins],
-        baca.plts(),
-        ),
-    )
+for i, hairpin in enumerate(hairpins):
+    maker(
+        ('cb', (2, 7)),
+        baca.map(
+            baca.hairpin(hairpin),
+            baca.plts()[abjad.index([i], len(hairpins))],
+            ),
+        )
 
 maker(
     (['vn', 'va', 'vc', 'cb'], (1, 7)),
