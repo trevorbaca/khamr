@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def closing():
@@ -16,12 +16,12 @@ def closing():
                 durations=[(2, 4), (4, 4), (12, 4)],
                 ),
         rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
+        rhythm_maker=rmakers.NoteRhythmMaker(
             division_masks=[
                 abjad.silence([0]),
                 abjad.silence([-1]),
                 ],
-            tie_specifier=rhythmos.TieSpecifier(
+            tie_specifier=rmakers.TieSpecifier(
                 repeat_ties=True,
                 )
             ),

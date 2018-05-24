@@ -1,7 +1,7 @@
 import abjad
 import baca
 import khamr
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def trill_tuplets(tuplet_ratios, division_mask=None):
@@ -15,14 +15,14 @@ def trill_tuplets(tuplet_ratios, division_mask=None):
     return baca.rhythm(
         division_maker=khamr.quarter_divisions(),
         rewrite_meter=True,
-        rhythm_maker=rhythmos.TupletRhythmMaker(
+        rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=division_masks,
-            tie_specifier=rhythmos.TieSpecifier(
+            tie_specifier=rmakers.TieSpecifier(
                 repeat_ties=True,
                 tie_across_divisions=True,
                 ),
             tuplet_ratios=khamr.string_tuplet_ratios(tuplet_ratios),
-            tuplet_specifier=rhythmos.TupletSpecifier(
+            tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True,
                 trivialize=True,
                 ),

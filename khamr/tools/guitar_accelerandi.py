@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def guitar_accelerandi(fuse_by_counts, division_masks=None):
@@ -13,28 +13,28 @@ def guitar_accelerandi(fuse_by_counts, division_masks=None):
                 counts=fuse_by_counts,
                 )
             .flatten(depth=-1),
-        rhythm_maker=rhythmos.AccelerandoRhythmMaker(
-            beam_specifier=rhythmos.BeamSpecifier(
+        rhythm_maker=rmakers.AccelerandoRhythmMaker(
+            beam_specifier=rmakers.BeamSpecifier(
                 use_feather_beams=True,
                 ),
             division_masks=division_masks,
             interpolation_specifiers=[
-                rhythmos.InterpolationSpecifier(
+                rmakers.InterpolationSpecifier(
                     start_duration=abjad.Duration(1, 2),
                     stop_duration=abjad.Duration(1, 8),
                     written_duration=abjad.Duration(1, 16),
                     ),
-                rhythmos.InterpolationSpecifier(
+                rmakers.InterpolationSpecifier(
                     start_duration=abjad.Duration(1, 8),
                     stop_duration=abjad.Duration(1, 2),
                     written_duration=abjad.Duration(1, 16),
                     ),
                 ],
-            tie_specifier=rhythmos.TieSpecifier(
+            tie_specifier=rmakers.TieSpecifier(
                 tie_across_divisions=True,
                 repeat_ties=True,
                 ),
-            tuplet_specifier=rhythmos.TupletSpecifier(
+            tuplet_specifier=rmakers.TupletSpecifier(
                 use_note_duration_bracket=True,
                 ),
             ),

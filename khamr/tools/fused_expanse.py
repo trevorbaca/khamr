@@ -1,7 +1,7 @@
 import abjad
 import baca
 import khamr
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def fused_expanse(fuse_by_counts, division_mask=None):
@@ -18,9 +18,9 @@ def fused_expanse(fuse_by_counts, division_mask=None):
                 counts=fuse_by_counts,
                 ),
         rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
+        rhythm_maker=rmakers.NoteRhythmMaker(
             division_masks=division_masks,
-            tie_specifier=rhythmos.TieSpecifier(
+            tie_specifier=rmakers.TieSpecifier(
                 repeat_ties=True,
                 )
             ),

@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def quarter_hits(division_mask=None):
@@ -19,9 +19,9 @@ def quarter_hits(division_mask=None):
                 )
             .flatten(depth=-1),
         rewrite_meter=True,
-        rhythm_maker=rhythmos.NoteRhythmMaker(
+        rhythm_maker=rmakers.NoteRhythmMaker(
             division_masks=division_masks,
-            tie_specifier=rhythmos.TieSpecifier(
+            tie_specifier=rmakers.TieSpecifier(
                 repeat_ties=True,
                 ),
             ),

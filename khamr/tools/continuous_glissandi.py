@@ -1,7 +1,7 @@
 import abjad
 import baca
 import khamr
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def continuous_glissandi(tuplet_ratio_rotation, division_mask):
@@ -21,14 +21,14 @@ def continuous_glissandi(tuplet_ratio_rotation, division_mask):
         division_masks = [division_mask]
     return baca.rhythm(
         rewrite_meter=True,
-        rhythm_maker=rhythmos.TupletRhythmMaker(
+        rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=division_masks,
             tuplet_ratios=tuplet_ratios,
-            tuplet_specifier=rhythmos.TupletSpecifier(
+            tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True,
                 trivialize=True,
                 ),
-            tie_specifier=rhythmos.TieSpecifier(
+            tie_specifier=rmakers.TieSpecifier(
                 repeat_ties=True,
                 ),
             ),
