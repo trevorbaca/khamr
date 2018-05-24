@@ -7360,7 +7360,7 @@ B_PercussionMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     :32                                                          %! IC
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
@@ -7375,19 +7375,19 @@ B_PercussionMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [B PercussionMusicVoice measure 80 / measure 6]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 81 / measure 7]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 82 / measure 8]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     :32                                                          %! IC
     \repeatTie
@@ -7397,14 +7397,14 @@ B_PercussionMusicVoice = {
     \repeatTie
     
     % [B PercussionMusicVoice measure 83 / measure 9]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 84 / measure 10]           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     -\baca_staccati #2                                           %! IC
@@ -7417,286 +7417,286 @@ B_PercussionMusicVoice = {
                         castanets                                %! IC
         }                                                        %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
     % [B PercussionMusicVoice measure 85 / measure 11]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
     % [B PercussionMusicVoice measure 86 / measure 12]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
     % [B PercussionMusicVoice measure 87 / measure 13]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
     % [B PercussionMusicVoice measure 88 / measure 14]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
     % [B PercussionMusicVoice measure 89 / measure 15]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
     % [B PercussionMusicVoice measure 90 / measure 16]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
     % [B PercussionMusicVoice measure 91 / measure 17]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
     % [B PercussionMusicVoice measure 92 / measure 18]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
     % [B PercussionMusicVoice measure 93 / measure 19]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
     % [B PercussionMusicVoice measure 94 / measure 20]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
     % [B PercussionMusicVoice measure 95 / measure 21]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
     % [B PercussionMusicVoice measure 96 / measure 22]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
     % [B PercussionMusicVoice measure 97 / measure 23]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
     % [B PercussionMusicVoice measure 98 / measure 24]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
     % [B PercussionMusicVoice measure 99 / measure 25]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     -\baca_staccati #2                                           %! IC
     
     % [B PercussionMusicVoice measure 100 / measure 26]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     -\baca_staccati #2                                           %! IC
     
     % [B PercussionMusicVoice measure 103 / measure 29]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     -\baca_staccati #2                                           %! IC
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     -\baca_staccati #2                                           %! IC
     
     % [B PercussionMusicVoice measure 104 / measure 30]          %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     :32                                                          %! IC
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
@@ -7710,13 +7710,13 @@ B_PercussionMusicVoice = {
         }                                                        %! IC
     
     % [B PercussionMusicVoice measure 105 / measure 31]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 106 / measure 32]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     :32                                                          %! IC
     \repeatTie
@@ -7726,25 +7726,25 @@ B_PercussionMusicVoice = {
     \repeatTie
     
     % [B PercussionMusicVoice measure 107 / measure 33]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 108 / measure 34]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 109 / measure 35]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 110 / measure 36]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     :32                                                          %! IC
     \repeatTie
@@ -7754,7 +7754,7 @@ B_PercussionMusicVoice = {
     \repeatTie
     
     % [B PercussionMusicVoice measure 111 / measure 37]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     :32                                                          %! IC
     \repeatTie

@@ -1770,7 +1770,7 @@ C_PercussionMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     :32                                                          %! IC
     \>                                                           %! HC1
@@ -1808,20 +1808,20 @@ C_PercussionMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [C PercussionMusicVoice measure 113 / measure 2]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     :32                                                          %! IC
     \repeatTie
     
     % [C PercussionMusicVoice measure 114 / measure 3]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1.
     :32                                                          %! IC
     \repeatTie
     
     % [C PercussionMusicVoice measure 115 / measure 4]           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     :32                                                          %! IC
     \repeatTie
@@ -1838,7 +1838,7 @@ C_PercussionMusicVoice = {
     
     % [C PercussionMusicVoice measure 119 / measure 8]           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     :32                                                          %! IC
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
@@ -1856,25 +1856,25 @@ C_PercussionMusicVoice = {
     \repeatTie
     
     % [C PercussionMusicVoice measure 120 / measure 9]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     :32                                                          %! IC
     \repeatTie
     
     % [C PercussionMusicVoice measure 121 / measure 10]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     :32                                                          %! IC
     \repeatTie
     
     % [C PercussionMusicVoice measure 122 / measure 11]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     :32                                                          %! IC
     \repeatTie
     
     % [C PercussionMusicVoice measure 123 / measure 12]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     :32                                                          %! IC
     \repeatTie
@@ -1884,19 +1884,19 @@ C_PercussionMusicVoice = {
     \repeatTie
     
     % [C PercussionMusicVoice measure 124 / measure 13]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     :32                                                          %! IC
     \repeatTie
     
     % [C PercussionMusicVoice measure 125 / measure 14]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     :32                                                          %! IC
     \repeatTie
     
     % [C PercussionMusicVoice measure 126 / measure 15]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1.
     :32                                                          %! IC
     \repeatTie
