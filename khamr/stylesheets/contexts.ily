@@ -194,7 +194,7 @@
         \override TupletNumber.text = #tuplet-number::calc-fraction-text
 
         autoBeaming = ##f
-        barNumberFormatter = #format-oval-barnumbers
+        barNumberFormatter = #baca-oval-bar-numbers
         markFormatter = #format-mark-box-alphabet
         proportionalNotationDuration = #(ly:make-moment 1 24)
         tupletFullLength = ##t
