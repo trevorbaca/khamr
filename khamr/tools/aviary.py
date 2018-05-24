@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def aviary(duration, extra_counts_per_division):
@@ -15,7 +15,7 @@ def aviary(duration, extra_counts_per_division):
             .split_by_durations(
                 durations=[duration],
                 ),
-        rhythm_maker=rhythmos.EvenDivisionRhythmMaker(
+        rhythm_maker=rmakers.EvenDivisionRhythmMaker(
             denominators=[16],
             extra_counts_per_division=extra_counts_per_division,
             ),

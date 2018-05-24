@@ -1,7 +1,7 @@
 import abjad
 import baca
 import khamr
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def fused_wind(fuse_by_counts, division_mask, denominator=8):
@@ -20,8 +20,8 @@ def fused_wind(fuse_by_counts, division_mask, denominator=8):
                 counts=fuse_by_counts,
                 ),
         rewrite_meter=True,
-        rhythm_maker=rhythmos.IncisedRhythmMaker(
-            incise_specifier=rhythmos.InciseSpecifier(
+        rhythm_maker=rmakers.IncisedRhythmMaker(
+            incise_specifier=rmakers.InciseSpecifier(
                 prefix_talea=[-1],
                 prefix_counts=[0],
                 suffix_talea=[-1],
@@ -29,7 +29,7 @@ def fused_wind(fuse_by_counts, division_mask, denominator=8):
                 talea_denominator=denominator,
                 ),
             division_masks=division_masks,
-            tie_specifier=rhythmos.TieSpecifier(
+            tie_specifier=rmakers.TieSpecifier(
                 repeat_ties=True,
                 ),
             ),

@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 from .beat_divisions import beat_divisions
 
 
@@ -11,11 +11,11 @@ def silent_first_division():
     return baca.rhythm(
         rewrite_meter=True,
         division_maker=beat_divisions(),
-        rhythm_maker=rhythmos.NoteRhythmMaker(
+        rhythm_maker=rmakers.NoteRhythmMaker(
             division_masks=[
                 abjad.silence([0]),
                 ],
-            tie_specifier=rhythmos.TieSpecifier(
+            tie_specifier=rmakers.TieSpecifier(
                 tie_across_divisions=True,
                 repeat_ties=True,
                 ),

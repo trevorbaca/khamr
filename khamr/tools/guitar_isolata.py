@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def guitar_isolata(division_mask=None):
@@ -23,13 +23,13 @@ def guitar_isolata(division_mask=None):
                 durations=[(1, 4)],
                 ),
         rewrite_meter=True,
-        rhythm_maker=rhythmos.TupletRhythmMaker(
+        rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=division_masks,
             tuplet_ratios=[
                 (-1, 1, -1), (-1, 1, -1), (-1, 1, -2), (-3, 1, -1),
                 (-1, 2), (-2, 1, -1), (-2, 1, -1), (-3, 1, -1),
                 ],
-            tuplet_specifier=rhythmos.TupletSpecifier(
+            tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True,
                 trivialize=True,
                 ),
