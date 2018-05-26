@@ -2,6 +2,7 @@ import abjad
 import baca
 import khamr
 import os
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -51,12 +52,12 @@ maker(
 
 maker(
     ('gt', (1, 3)),
-    baca.make_repeat_tied_notes([abjad.silence([0], 1), abjad.sustain([-1])]),
+    baca.make_repeat_tied_notes([rmakers.silence([0], 1), rmakers.sustain([-1])]),
     )
 
 maker(
     ('gt', (4, 7)),
-    baca.make_repeat_tied_notes([abjad.silence([0], 1), abjad.sustain([0])]),
+    baca.make_repeat_tied_notes([rmakers.silence([0], 1), rmakers.sustain([0])]),
     )
 
 maker(
@@ -66,12 +67,12 @@ maker(
 
 maker(
     ('pf', (1, 3)),
-    baca.make_repeat_tied_notes([abjad.silence([0], 1), abjad.sustain([-1])]),
+    baca.make_repeat_tied_notes([rmakers.silence([0], 1), rmakers.sustain([-1])]),
     )
 
 maker(
     ('pf', (4, 7)),
-    baca.make_repeat_tied_notes([abjad.silence([0], 1), abjad.sustain([0])]),
+    baca.make_repeat_tied_notes([rmakers.silence([0], 1), rmakers.sustain([0])]),
     )
 
 maker(
@@ -81,7 +82,7 @@ maker(
 
 maker(
     ('perc', (1, 2)),
-    baca.make_repeat_tied_notes(abjad.silence([-1])),
+    baca.make_repeat_tied_notes(rmakers.silence([-1])),
     )
 
 maker(

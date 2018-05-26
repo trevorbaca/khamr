@@ -2,6 +2,7 @@ import abjad
 import baca
 import khamr
 import os
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -32,28 +33,28 @@ maker(
     baca.rehearsal_mark('A'),
     )
 
-stage_4_silence_mask = abjad.silence([4, 5, 11, 12, 17, 18, 19, 20])
+stage_4_silence_mask = rmakers.silence([4, 5, 11, 12, 17, 18, 19, 20])
 
-stage_5_silence_mask = abjad.silence([
+stage_5_silence_mask = rmakers.silence([
     0, 2, 4, 5, 7, 8, 9, 11, 13,
     15, 16, 17, 19, 20, 21, 23, 24, 26,
     ])
 
 maker(
     ('fl', (1, 2)),
-    khamr.fused_wind([10, 10, 6, 8, 6], abjad.silence([2, 5], 6)),
+    khamr.fused_wind([10, 10, 6, 8, 6], rmakers.silence([2, 5], 6)),
     )
 
 maker(
     ('ob', (1, 2)),
-    khamr.fused_wind([12, 6, 10, 10, 6, 8], abjad.silence([1, 4], 6)),
+    khamr.fused_wind([12, 6, 10, 10, 6, 8], rmakers.silence([1, 4], 6)),
     )
 
 maker(
     ('cl', (1, 3)),
     khamr.fused_wind(
         [8, 6, 10, 6, 10, 8],
-        [abjad.silence([1, 3], 6), abjad.silence([-1])],
+        [rmakers.silence([1, 3], 6), rmakers.silence([-1])],
         ),
     )
 
@@ -61,23 +62,23 @@ maker(
     ('sax', (1, 2)),
     khamr.fused_wind(
         [14, 6, 10, 6, 10, 8],
-        abjad.silence([1, 3], 6),
+        rmakers.silence([1, 3], 6),
         ),
     )
 
 maker(
     ('gt', 1),
-    khamr.guitar_isolata(abjad.silence([1, 2, 3, 5, 6, 7, 8], 9)),
+    khamr.guitar_isolata(rmakers.silence([1, 2, 3, 5, 6, 7, 8], 9)),
     )
 
 maker(
     ('gt', (2, 3)),
-    baca.make_repeat_tied_notes(abjad.silence([-1])),
+    baca.make_repeat_tied_notes(rmakers.silence([-1])),
     )
 
 maker(
     ('pf', (1, 3)),
-    baca.make_repeat_tied_notes(abjad.silence([-1])),
+    baca.make_repeat_tied_notes(rmakers.silence([-1])),
     )
 
 maker(
@@ -98,7 +99,7 @@ maker(
 maker(
     ('perc', 4),
     khamr.quarter_hits(
-        abjad.silence([
+        rmakers.silence([
             0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 
             12, 13, 14, 15, 16, 18, 19, 20,
             ]),
@@ -112,29 +113,29 @@ maker(
 
 maker(
     ('vn', (1, 3)),
-    khamr.trill_tuplets(4, abjad.silence([-2, -1])),
+    khamr.trill_tuplets(4, rmakers.silence([-2, -1])),
     )
 
 maker(
     ('va', (1, 3)),
-    khamr.trill_tuplets(3, abjad.silence([-2, -1])),
+    khamr.trill_tuplets(3, rmakers.silence([-2, -1])),
     )
 
 maker(
     ('vc', (1, 2)),
-    khamr.trill_tuplets(2, abjad.silence([-2, -1])),
+    khamr.trill_tuplets(2, rmakers.silence([-2, -1])),
     )
 
 maker(
     ('vc', 3),
-    baca.make_repeat_tied_notes(abjad.silence([-1])),
+    baca.make_repeat_tied_notes(rmakers.silence([-1])),
     )
 
 maker(
     ('cb', (1, 3)),
     khamr.opening_glissandi(
         -3,
-        [abjad.sustain([0, 1, 4, 6], 7), abjad.silence([-1])],
+        [rmakers.sustain([0, 1, 4, 6], 7), rmakers.silence([-1])],
         ),
     )
 

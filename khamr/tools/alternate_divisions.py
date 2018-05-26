@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rmakers
+from abjadext import rmakers
 
 
 def alternate_divisions(strip_ties=None):
@@ -11,7 +11,7 @@ def alternate_divisions(strip_ties=None):
         rewrite_meter=True,
         rhythm_maker=rmakers.NoteRhythmMaker(
             division_masks=[
-                abjad.silence([1], 2),
+                rmakers.silence([1], 2),
                 ],
             tie_specifier=rmakers.TieSpecifier(
                 repeat_ties=True,

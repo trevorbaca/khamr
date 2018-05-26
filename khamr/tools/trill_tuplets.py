@@ -1,7 +1,7 @@
 import abjad
 import baca
 import khamr
-from abjad import rmakers
+from abjadext import rmakers
 
 
 def trill_tuplets(tuplet_ratios, division_mask=None):

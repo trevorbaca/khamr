@@ -1,7 +1,7 @@
 import abjad
 import baca
 import khamr
-from abjad import rmakers
+from abjadext import rmakers
 
 
 def fused_wind(fuse_by_counts, division_mask, denominator=8):

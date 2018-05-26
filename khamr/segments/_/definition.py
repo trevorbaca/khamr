@@ -2,6 +2,7 @@ import abjad
 import baca
 import khamr
 import os
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -119,22 +120,22 @@ maker(
 
 maker(
     ('fl', (1, 7)),
-    khamr.fused_wind([10, 10, 6, 10, 8, 6], abjad.silence([2, 5], 6)),
+    khamr.fused_wind([10, 10, 6, 10, 8, 6], rmakers.silence([2, 5], 6)),
     )
 
 maker(
     ('ob', (1, 7)),
-    khamr.fused_wind([12, 6, 10, 10, 6, 8], abjad.silence([1, 4], 6)),
+    khamr.fused_wind([12, 6, 10, 10, 6, 8], rmakers.silence([1, 4], 6)),
     )
 
 maker(
     ('cl', (1, 7)),
-    khamr.fused_wind([8, 6, 10, 6, 10, 8], abjad.silence([1, 3], 6)),
+    khamr.fused_wind([8, 6, 10, 6, 10, 8], rmakers.silence([1, 3], 6)),
     )
 
 maker(
     ('sax', (1, 7)),
-    khamr.fused_wind([14, 6, 10, 6, 10, 8], abjad.silence([1, 3], 6)),
+    khamr.fused_wind([14, 6, 10, 6, 10, 8], rmakers.silence([1, 3], 6)),
     )
 
 maker(
@@ -149,7 +150,7 @@ maker(
 
 maker(
     ('gt', 7),
-    khamr.guitar_isolata(abjad.silence([1, 2, 3, 5, 6, 7, 8], 9)),
+    khamr.guitar_isolata(rmakers.silence([1, 2, 3, 5, 6, 7, 8], 9)),
     )
 
 maker(
@@ -164,7 +165,7 @@ maker(
 
 maker(
     ('pf', 6),
-    khamr.guitar_isolata(abjad.silence([1, 2, 3, 5, 6, 7, 8], 9)),
+    khamr.guitar_isolata(rmakers.silence([1, 2, 3, 5, 6, 7, 8], 9)),
     )
 
 maker(
@@ -179,7 +180,7 @@ maker(
 
 maker(
     ('vn', (1, 5)),
-    khamr.opening_glissandi(0, abjad.sustain([0, 1, 2, 5], 7)),
+    khamr.opening_glissandi(0, rmakers.sustain([0, 1, 2, 5], 7)),
     )
 
 maker(
@@ -189,7 +190,7 @@ maker(
 
 maker(
     ('va', (1, 5)),
-    khamr.opening_glissandi(-1, abjad.sustain([1, 2, 3, 6], 7)),
+    khamr.opening_glissandi(-1, rmakers.sustain([1, 2, 3, 6], 7)),
     )
 
 maker(
@@ -199,7 +200,7 @@ maker(
 
 maker(
     ('vc', (1, 5)),
-    khamr.opening_glissandi(-2, abjad.sustain([0, 2, 3, 4], 7)),
+    khamr.opening_glissandi(-2, rmakers.sustain([0, 2, 3, 4], 7)),
     )
 
 maker(
@@ -209,7 +210,7 @@ maker(
 
 maker(
     ('cb', (1, 7)),
-    khamr.opening_glissandi(-3, abjad.sustain([0, 1, 4, 6], 7)),
+    khamr.opening_glissandi(-3, rmakers.sustain([0, 1, 4, 6], 7)),
     )
 
 maker(
