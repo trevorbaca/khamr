@@ -1,6 +1,6 @@
 import abjad
-from abjad import rmakers
+from abjadext import rmakers
 
 
-mask = abjad.silence([0], 1, use_multimeasure_rests=True)
+mask = rmakers.silence([0], 1, use_multimeasure_rests=True)
 multimeasure_rests = rmakers.NoteRhythmMaker(division_masks=[mask])

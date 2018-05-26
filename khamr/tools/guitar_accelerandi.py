@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rmakers
+from abjadext import rmakers
 
 
 def guitar_accelerandi(fuse_by_counts, division_masks=None):

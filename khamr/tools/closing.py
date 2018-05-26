@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rmakers
+from abjadext import rmakers
 
 
 def closing():
@@ -18,8 +18,8 @@ def closing():
         rewrite_meter=True,
         rhythm_maker=rmakers.NoteRhythmMaker(
             division_masks=[
-                abjad.silence([0]),
-                abjad.silence([-1]),
+                rmakers.silence([0]),
+                rmakers.silence([-1]),
                 ],
             tie_specifier=rmakers.TieSpecifier(
                 repeat_ties=True,

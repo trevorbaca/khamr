@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rmakers
+from abjadext import rmakers
 
 
 def guitar_isolata(division_mask=None):
@@ -10,9 +10,9 @@ def guitar_isolata(division_mask=None):
 
     if division_mask is None:
         division_masks = [
-            abjad.silence([1, 2, 3, 5, 6, 7, 8], 9),
-            abjad.silence([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]),
-            abjad.sustain([0]),
+            rmakers.silence([1, 2, 3, 5, 6, 7, 8], 9),
+            rmakers.silence([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]),
+            rmakers.sustain([0]),
             ]
     else:
         division_masks = [division_mask]

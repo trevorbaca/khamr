@@ -2,6 +2,7 @@ import abjad
 import baca
 import khamr
 import os
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -65,7 +66,7 @@ maker(
 
 maker(
     ('ob', 9),
-    khamr.fused_wind([10], abjad.silence([0]), 16),
+    khamr.fused_wind([10], rmakers.silence([0]), 16),
     )
 
 maker(
@@ -82,7 +83,7 @@ maker(
 maker(
     ('cl', (8, 9)),
     baca.instrument(khamr.instruments['BassClarinet']),
-    baca.make_repeat_tied_notes(abjad.silence([-1])),
+    baca.make_repeat_tied_notes(rmakers.silence([-1])),
     )
 
 maker(
@@ -148,7 +149,7 @@ maker(
 
 maker(
     ('vn', (2, 6)),
-    khamr.continuous_glissandi(0, abjad.sustain([0, 1, 3], 7)),
+    khamr.continuous_glissandi(0, rmakers.sustain([0, 1, 3], 7)),
     )
 
 maker(
@@ -158,7 +159,7 @@ maker(
 
 maker(
     ('va', (2, 6)),
-    khamr.continuous_glissandi(-1, abjad.sustain([1, 2, 4], 7)),
+    khamr.continuous_glissandi(-1, rmakers.sustain([1, 2, 4], 7)),
     )
 
 maker(
@@ -168,7 +169,7 @@ maker(
 
 maker(
     ('vc', (2, 6)),
-    khamr.continuous_glissandi(-2, abjad.sustain([2, 3, 5], 7)),
+    khamr.continuous_glissandi(-2, rmakers.sustain([2, 3, 5], 7)),
     )
 
 maker(
@@ -178,7 +179,7 @@ maker(
 
 maker(
     ('cb', [7, (8, 9)]),
-    baca.make_repeat_tied_notes(abjad.silence([-1])),
+    baca.make_repeat_tied_notes(rmakers.silence([-1])),
     )
 
 maker(
