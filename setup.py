@@ -23,7 +23,7 @@ if __name__ == '__main__':
         author_email='trevor.baca@gmail.com',
         install_requires=install_requires,
         keywords=keywords,
-        name='Al-kitab al-khamr',
+        name='khamr',
         packages=['khamr'],
         paltforms='Any',
         url='https://github.com/trevorbaca/khamr',
