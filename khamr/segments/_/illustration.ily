@@ -6600,17 +6600,17 @@ i_ContrabassMusicVoice = {
     \>                                                           %! HC1
     \pp                                                          %! HC1
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/8 {
+    \times 5/4 {
         
         % [_ ContrabassMusicVoice measure 32]                    %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        a1.
+        a2.
         \repeatTie
         \ppp                                                     %! HC1
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        b2
+        b4
         \<                                                       %! HC1
         \ppp                                                     %! HC1
     }
