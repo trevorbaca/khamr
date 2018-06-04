@@ -16,7 +16,7 @@ class MarkupLibrary(abjad.AbjadObject):
 
     def airtone_without_reed(selector=baca.pleaf(0)):
         string = 'airtone without reed: mix inhales and exhales ad lib.'
-        return baca.markup(string, selector=selector)
+        return baca.markup.markup(string, selector=selector)
 
     def covered_flute_airtone( selector=baca.pleaf(0)):
         first_line = abjad.MarkupList(
@@ -26,12 +26,12 @@ class MarkupLibrary(abjad.AbjadObject):
             [first_line, second_line],
             direction=abjad.Up,
             )
-        return baca.markup(markup, selector=selector)
+        return baca.markup.markup(markup, selector=selector)
 
     def emphasize_multiphonics(selector=baca.pleaf(0)):
         string = 'emphasize multiphonics and unstable harmonics'
         string += ' prominently throughout'
-        return baca.markup(string, selector=selector)
+        return baca.markup.markup(string, selector=selector)
 
     def guitar_with_screw(selector=baca.pleaf(0)):
         string = 'draw metal screw back and forth slowly across string;'
@@ -39,24 +39,24 @@ class MarkupLibrary(abjad.AbjadObject):
         second_line = abjad.MarkupList(['continuous loud sound']).line()
         markup = abjad.MarkupList([first_line, second_line])
         markup = markup.column(direction=abjad.Up)
-        return baca.markup(markup, selector=selector)
+        return baca.markup.markup(markup, selector=selector)
 
     def half_harmonics_explanation(selector=baca.pleaf(0)):
         string = 'cross noteheads indicate half-harmonics'
-        return baca.markup(string, selector=selector)
+        return baca.markup.markup(string, selector=selector)
 
     def match_guitar_dynamic_levels(selector=baca.pleaf(0)):
         string = 'match dynamic levels of guitar'
-        return baca.markup(string, selector=selector)
+        return baca.markup.markup(string, selector=selector)
 
     def move_towards_the_bridge(selector=baca.pleaf(0)):
         string = 'move towards (and then back away from) the bridge'
         string += ' at the center of each accelerando'
-        return baca.markup(string, selector=selector)
+        return baca.markup.markup(string, selector=selector)
 
     def scodanibbio(selector=baca.pleaf(0)):
         string = 'Shape trill dynamics beautifully. (Thank you, Stefano.)'
-        return baca.markup(string, selector=selector)
+        return baca.markup.markup(string, selector=selector)
 
     def sparse_cello_clicks(selector=baca.pleaf(0)):
         string = 'sparse, individual clicks with extremely slow bow'
@@ -65,7 +65,7 @@ class MarkupLibrary(abjad.AbjadObject):
             ['(1-2/sec. in irregular rhythm)']).line()
         markup = abjad.MarkupList([first_line, second_line])
         markup = markup.column(direction=abjad.Up)
-        return baca.markup(markup, selector=selector)
+        return baca.markup.markup(markup, selector=selector)
 
     def sparse_guitar_clicks(selector=baca.pleaf(0)):
         string = 'sparse, individual clicks'
@@ -75,7 +75,7 @@ class MarkupLibrary(abjad.AbjadObject):
             ['(1-2/sec. in irregular rhythm)']).line()
         markup = abjad.MarkupList([first_line, second_line])
         markup = markup.column(direction=abjad.Up)
-        return baca.markup(markup, selector=selector)
+        return baca.markup.markup(markup, selector=selector)
 
     def sparse_piano_clicks(selector=baca.pleaf(0)):
         string = r'sparse, individual clicks with credit card'
@@ -86,9 +86,9 @@ class MarkupLibrary(abjad.AbjadObject):
         second_line = abjad.MarkupList([string]).line()
         markup = abjad.MarkupList([first_line, second_line])
         markup = markup.column(direction=abjad.Up)
-        return baca.markup(markup, selector=selector)
+        return baca.markup.markup(markup, selector=selector)
 
     def strike_lowest_strings(selector=baca.pleaf(0)):
         string = 'tamburo: strike lowest strings with palm inside piano'
         string += ' and let vibrate (pedal down throughout)'
-        return baca.markup(string, selector=selector)
+        return baca.markup.markup(string, selector=selector)
