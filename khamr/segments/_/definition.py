@@ -251,7 +251,7 @@ maker(
     baca.clef('treble'),
     baca.dynamic('pp'),
     baca.flageolet(selector=baca.pheads()),
-    baca.markup.put_reed_back_in(),
+    baca.markups.put_reed_back_in(),
     baca.pitch('<A4 E5>'),
     baca.staff_lines(5),
     )
@@ -336,7 +336,7 @@ maker(
     baca.accent(selector=baca.pheads()),
     baca.bar_extent_persistent((0, 2)),
     baca.dynamic('mp'),
-    baca.markup.boxed('XL tam-tam'),
+    baca.markups.boxed('XL tam-tam'),
     baca.pitches('C4 C4 C4 Ab5', allow_repeats=True),
     baca.staff_lines(1),
     baca.repeat_tie_up(),
@@ -347,7 +347,7 @@ maker(
 maker(
     ('vn', (1, 5)),
     baca.glissando(),
-    baca.markup.string_number(4),
+    baca.markups.string_number(4),
     baca.note_head_style_harmonic(),
     baca.pitches(khamr.violin_halo_pitches),
     khamr.halo_hairpins(),
@@ -360,14 +360,14 @@ maker(
         baca.plts(),
         baca.trill_spanner(string='m2'),
         ),
-    baca.markup.molto_flautando_e_pont(),
+    baca.markups.molto_flautando_e_pont(),
     baca.pitches(khamr.color_trill_pitches),
     )
 
 maker(
     ('va', (1, 5)),
     baca.glissando(),
-    baca.markup.string_number(3),
+    baca.markups.string_number(3),
     baca.pitches(khamr.violin_halo_pitches),
     baca.note_head_style_harmonic(),
     khamr.halo_hairpins(),
@@ -380,14 +380,14 @@ maker(
         baca.plts(),
         baca.trill_spanner(string='m2'),
         ),
-    baca.markup.molto_flautando_e_pont(),
+    baca.markups.molto_flautando_e_pont(),
     baca.pitches(khamr.color_trill_pitches),
     )
 
 maker(
     ('vc', (1, 5)),
     baca.glissando(),
-    baca.markup.string_number(3),
+    baca.markups.string_number(3),
     baca.note_head_style_harmonic(),
     baca.pitches(khamr.cello_halo_pitches),
     khamr.halo_hairpins(),
@@ -400,7 +400,7 @@ maker(
         baca.plts(),
         baca.trill_spanner(string='m2'),
         ),
-    baca.markup.molto_flautando_e_pont(),
+    baca.markups.molto_flautando_e_pont(),
     baca.pitches(khamr.color_trill_pitches),
     )
 
@@ -408,7 +408,7 @@ maker(
     ('cb', (1, 7)),
     baca.dynamic('f'),
     baca.glissando(),
-    baca.markup.string_number(3),
+    baca.markups.string_number(3),
     baca.note_head_style_harmonic(),
     baca.pitches(khamr.contrabass_halo_pitches),
     )
