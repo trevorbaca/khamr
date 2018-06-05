@@ -347,7 +347,10 @@ maker(
 maker(
     ('vn', (1, 5)),
     baca.glissando(),
-    baca.markups.string_number(4),
+    baca.markup(
+        baca.markups.string_number(4),
+        direction=abjad.Down,
+        ),
     baca.note_head_style_harmonic(),
     baca.pitches(khamr.violin_halo_pitches),
     khamr.halo_hairpins(),
@@ -367,7 +370,10 @@ maker(
 maker(
     ('va', (1, 5)),
     baca.glissando(),
-    baca.markups.string_number(3),
+    baca.markup(
+        baca.markups.string_number(3),
+        direction=abjad.Down,
+        ),
     baca.pitches(khamr.violin_halo_pitches),
     baca.note_head_style_harmonic(),
     khamr.halo_hairpins(),
@@ -387,7 +393,10 @@ maker(
 maker(
     ('vc', (1, 5)),
     baca.glissando(),
-    baca.markups.string_number(3),
+    baca.markup(
+        baca.markups.string_number(3),
+        direction=abjad.Down,
+        ),
     baca.note_head_style_harmonic(),
     baca.pitches(khamr.cello_halo_pitches),
     khamr.halo_hairpins(),
@@ -408,7 +417,10 @@ maker(
     ('cb', (1, 7)),
     baca.dynamic('f'),
     baca.glissando(),
-    baca.markups.string_number(3),
+    baca.markup(
+        baca.markups.string_number(3),
+        direction=abjad.Down,
+        ),
     baca.note_head_style_harmonic(),
     baca.pitches(khamr.contrabass_halo_pitches),
     )
