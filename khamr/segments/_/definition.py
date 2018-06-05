@@ -251,7 +251,10 @@ maker(
     baca.clef('treble'),
     baca.dynamic('pp'),
     baca.flageolet(selector=baca.pheads()),
-    baca.markups.put_reed_back_in(),
+    baca.markup(
+        baca.markups.put_reed_back_in().boxed(),
+        selector=baca.leaf(0),
+        ),
     baca.pitch('<A4 E5>'),
     baca.staff_lines(5),
     )
