@@ -301,7 +301,7 @@ maker(
     ('perc', (3, 4)),
     baca.clef('percussion'),
     baca.dynamic('pp'),
-    baca.markups.boxed('bass drum'),
+    baca.markups.bass_drum().boxed(),
     baca.staff_lines(1),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
@@ -310,13 +310,13 @@ maker(
     ('perc', (5, 6)),
     baca.double_staccato(selector=baca.pheads()),
     baca.dynamic('fff'),
-    baca.markups.boxed('castanets'),
+    baca.markups.castanets().boxed(),
     )
 
 maker(
     ('perc', (7, 9)),
     baca.dynamic('ppp'),
-    baca.markups.boxed('bass drum'),
+    baca.markups.bass_drum().boxed(),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
 

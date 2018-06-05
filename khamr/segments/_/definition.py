@@ -339,12 +339,12 @@ maker(
     baca.accent(selector=baca.pheads()),
     baca.bar_extent_persistent((0, 2)),
     baca.dynamic('mp'),
-    baca.markups.boxed('XL tam-tam'),
     baca.pitches('C4 C4 C4 Ab5', allow_repeats=True),
     baca.staff_lines(1),
     baca.repeat_tie_up(),
     baca.stem_down(),
     khamr.MarimbaHitCommand([3, 7], attach_first_markup=True),
+    khamr.markup.XL_tam_tam().boxed(),
     )
 
 maker(

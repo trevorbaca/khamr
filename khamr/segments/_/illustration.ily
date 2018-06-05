@@ -1668,6 +1668,14 @@ i_FluteMusicVoice = {
     % [_ FluteMusicVoice measure 17]                             %! SM4
     <g' g''>2.
     \repeatTie
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                \override                                        %! IC
+                    #'(box-padding . 0.5)                        %! IC
+                    \box                                         %! IC
+                        L.22                                     %! IC
+        }                                                        %! IC
     
     <g' g''>2
     \repeatTie
@@ -1683,14 +1691,6 @@ i_FluteMusicVoice = {
     r8
     
     <gs'! gs''!>2.
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        L.22                                     %! IC
-        }                                                        %! IC
     
     % [_ FluteMusicVoice measure 20]                             %! SM4
     <gs'! gs''!>1.
@@ -2710,6 +2710,14 @@ i_SaxophoneMusicVoice = {
     % [_ SaxophoneMusicVoice measure 37]                         %! SM4
     e''4.
     \repeatTie
+    ^ \markup {                                                  %! IC
+        \whiteout                                                %! IC
+            \upright                                             %! IC
+                \override                                        %! IC
+                    #'(box-padding . 0.5)                        %! IC
+                    \box                                         %! IC
+                        77                                       %! IC
+        }                                                        %! IC
     
     e''4
     \repeatTie
@@ -2726,14 +2734,6 @@ i_SaxophoneMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     <d'' eqs''!>2
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        77                                       %! IC
-        }                                                        %! IC
     
     % [_ SaxophoneMusicVoice measure 41]                         %! SM4
     <d'' eqs''!>2.
