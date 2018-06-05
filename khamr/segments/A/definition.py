@@ -354,7 +354,10 @@ maker(
     ('cb', (1, 3)),
     baca.dynamic('mf'),
     baca.glissando(),
-    baca.markups.string_numbers([3, 4]),
+    baca.markup(
+        baca.markups.string_numbers([3, 4]),
+        direction=abjad.Down,
+        ),
     baca.note_head_style_harmonic(),
     baca.pitches(khamr.double_stop_halo_pitches),
     )
