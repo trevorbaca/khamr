@@ -1265,9 +1265,7 @@ A_FluteMusicVoice = {
             {
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                fluttertongue                    %! IC
+                        fluttertongue                            %! IC
                     }                                            %! IC
                 \line                                            %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
                     {                                            %! SM11:EXPLICIT_INSTRUMENT_ALERT:IC
@@ -2047,19 +2045,17 @@ A_GuitarMusicVoice = {
     fs!1
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \column                                          %! IC
+        \column                                                  %! IC
+            {                                                    %! IC
+                \line                                            %! IC
                     {                                            %! IC
-                        \line                                    %! IC
-                            {                                    %! IC
-                                "sparse, individual clicks with nail or pick laterally up string" %! IC
-                            }                                    %! IC
-                        \line                                    %! IC
-                            {                                    %! IC
-                                "(1-2/sec. in irregular rhythm)" %! IC
-                            }                                    %! IC
+                        "sparse, individual clicks with nail or pick laterally up string" %! IC
                     }                                            %! IC
+                \line                                            %! IC
+                    {                                            %! IC
+                        "(1-2/sec. in irregular rhythm)"         %! IC
+                    }                                            %! IC
+            }                                                    %! IC
         }                                                        %! IC
     
     % [A GuitarMusicVoice measure 50 / measure 6]                %! SM4
@@ -2108,19 +2104,17 @@ A_GuitarMusicVoice = {
     g1.
     \ff                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \column                                          %! IC
+        \column                                                  %! IC
+            {                                                    %! IC
+                \line                                            %! IC
                     {                                            %! IC
-                        \line                                    %! IC
-                            {                                    %! IC
-                                "draw metal screw back and forth slowly across string;" %! IC
-                            }                                    %! IC
-                        \line                                    %! IC
-                            {                                    %! IC
-                                "continuous loud sound"          %! IC
-                            }                                    %! IC
+                        "draw metal screw back and forth slowly across string;" %! IC
                     }                                            %! IC
+                \line                                            %! IC
+                    {                                            %! IC
+                        "continuous loud sound"                  %! IC
+                    }                                            %! IC
+            }                                                    %! IC
         }                                                        %! IC
     
     % [A GuitarMusicVoice measure 60 / measure 16]               %! SM4
@@ -3364,11 +3358,7 @@ A_ViolinMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     a'1.
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "arco ordinario"                                 %! IC
-        }                                                        %! IC
+    ^ \markup { "arco ordinario" }                               %! IC
     
     % [A ViolinMusicVoice measure 60 / measure 16]               %! SM4
     r2
@@ -3729,11 +3719,7 @@ A_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     gs'!1.
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "arco ordinario"                                 %! IC
-        }                                                        %! IC
+    ^ \markup { "arco ordinario" }                               %! IC
     
     % [A ViolaMusicVoice measure 60 / measure 16]                %! SM4
     r2
@@ -3973,19 +3959,17 @@ A_CelloMusicVoice = {
     fs!1
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \column                                          %! IC
+        \column                                                  %! IC
+            {                                                    %! IC
+                \line                                            %! IC
                     {                                            %! IC
-                        \line                                    %! IC
-                            {                                    %! IC
-                                "sparse, individual clicks with extremely slow bow" %! IC
-                            }                                    %! IC
-                        \line                                    %! IC
-                            {                                    %! IC
-                                "(1-2/sec. in irregular rhythm)" %! IC
-                            }                                    %! IC
+                        "sparse, individual clicks with extremely slow bow" %! IC
                     }                                            %! IC
+                \line                                            %! IC
+                    {                                            %! IC
+                        "(1-2/sec. in irregular rhythm)"         %! IC
+                    }                                            %! IC
+            }                                                    %! IC
         }                                                        %! IC
     
     % [A CelloMusicVoice measure 54 / measure 10]                %! SM4
@@ -4014,11 +3998,7 @@ A_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g1.
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "arco ordinario"                                 %! IC
-        }                                                        %! IC
+    ^ \markup { "arco ordinario" }                               %! IC
     
     % [A CelloMusicVoice measure 60 / measure 16]                %! SM4
     r2
@@ -4135,11 +4115,7 @@ A_ContrabassMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             }
         }
-    _ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                III+IV                                           %! IC
-        }                                                        %! IC
+    _ \markup { III+IV }                                         %! IC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -4247,11 +4223,7 @@ A_ContrabassMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     <g,, a,>1.
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "arco ordinario"                                 %! IC
-        }                                                        %! IC
+    ^ \markup { "arco ordinario" }                               %! IC
     
     % [A ContrabassMusicVoice measure 60 / measure 16]           %! SM4
     r2

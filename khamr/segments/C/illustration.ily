@@ -1843,12 +1843,10 @@ C_PercussionMusicVoice = {
     :32                                                          %! IC
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        "snare drum"                             %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                "snare drum"                                     %! IC
         }                                                        %! IC
     
     \baca_unpitched_music_warning                                %! SM24
@@ -1973,9 +1971,7 @@ C_ViolinMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "bow on wooden mute"             %! IC
+                        "bow on wooden mute"                     %! IC
                     }                                            %! IC
             }
         }
@@ -2145,9 +2141,7 @@ C_ViolaMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "bow on wooden mute"             %! IC
+                        "bow on wooden mute"                     %! IC
                     }                                            %! IC
             }
         }
@@ -2317,9 +2311,7 @@ C_CelloMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "bow on tailpiece"               %! IC
+                        "bow on tailpiece"                       %! IC
                     }                                            %! IC
             }
         }
@@ -2496,9 +2488,7 @@ C_ContrabassMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "bow on tailpiece"               %! IC
+                        "bow on tailpiece"                       %! IC
                     }                                            %! IC
             }
         }

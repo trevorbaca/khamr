@@ -2411,19 +2411,17 @@ B_FluteMusicVoice = {
     bf'!1
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \column                                          %! IC
+        \column                                                  %! IC
+            {                                                    %! IC
+                \line                                            %! IC
                     {                                            %! IC
-                        \line                                    %! IC
-                            {                                    %! IC
-                                "airtone with lips covering mouthplate" %! IC
-                            }                                    %! IC
-                        \line                                    %! IC
-                            {                                    %! IC
-                                "(sounds major 7th lower)"       %! IC
-                            }                                    %! IC
+                        "airtone with lips covering mouthplate"  %! IC
                     }                                            %! IC
+                \line                                            %! IC
+                    {                                            %! IC
+                        "(sounds major 7th lower)"               %! IC
+                    }                                            %! IC
+            }                                                    %! IC
         }                                                        %! IC
     
     % [B FluteMusicVoice measure 109 / measure 35]               %! SM4
@@ -3614,11 +3612,7 @@ B_OboeMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'2.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "airtone without reed: mix inhales and exhales ad lib." %! IC
-        }                                                        %! IC
+    ^ \markup { "airtone without reed: mix inhales and exhales ad lib." } %! IC
     
     % [B OboeMusicVoice measure 111 / measure 37]                %! SM4
     c'4.
@@ -5680,11 +5674,7 @@ B_SaxophoneMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     c'1
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                airtone                                          %! IC
-        }                                                        %! IC
+    ^ \markup { airtone }                                        %! IC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [B SaxophoneMusicVoice measure 109 / measure 35]           %! SM4
@@ -7365,12 +7355,10 @@ B_PercussionMusicVoice = {
     :32                                                          %! IC
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        "bass drum"                              %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                "bass drum"                                      %! IC
         }                                                        %! IC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
@@ -7410,12 +7398,10 @@ B_PercussionMusicVoice = {
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     -\baca_staccati #2                                           %! IC
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        castanets                                %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                castanets                                        %! IC
         }                                                        %! IC
     
     \baca_unpitched_music_warning                                %! SM24
@@ -7702,12 +7688,10 @@ B_PercussionMusicVoice = {
     :32                                                          %! IC
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        "bass drum"                              %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                "bass drum"                                      %! IC
         }                                                        %! IC
     
     % [B PercussionMusicVoice measure 105 / measure 31]          %! SM4
@@ -7836,11 +7820,7 @@ B_ViolinMusicVoice = {
     gff'!1.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \glissando                                                   %! SC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "estr. sul pont."                                %! IC
-        }                                                        %! IC
+    ^ \markup { "estr. sul pont." }                              %! IC
     
     % [B ViolinMusicVoice measure 78 / measure 4]                %! SM4
     gf'!2.
@@ -8133,11 +8113,7 @@ B_ViolaMusicVoice = {
         gff'!1.
         \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         \glissando                                               %! SC
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "estr. sul pont."                            %! IC
-            }                                                    %! IC
+        ^ \markup { "estr. sul pont." }                          %! IC
         
         gf'!1
         \glissando                                               %! SC
@@ -8426,11 +8402,7 @@ B_CelloMusicVoice = {
     gff'!1
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \glissando                                                   %! SC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "estr. sul pont."                                %! IC
-        }                                                        %! IC
+    ^ \markup { "estr. sul pont." }                              %! IC
     
     gf'!2
     \glissando                                                   %! SC
@@ -8752,11 +8724,7 @@ B_ContrabassMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     <gs,,! as,!>2.
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "estr. sul pont."                                %! IC
-        }                                                        %! IC
+    ^ \markup { "estr. sul pont." }                              %! IC
     
     % [B ContrabassMusicVoice measure 85 / measure 11]           %! SM4
     <gs,,! as,!>1
@@ -8826,11 +8794,7 @@ B_ContrabassMusicVoice = {
     
     % [B ContrabassMusicVoice measure 100 / measure 26]          %! SM4
     <g,, a,>2
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "arco ordinario"                                 %! IC
-        }                                                        %! IC
+    ^ \markup { "arco ordinario" }                               %! IC
     
     % [B ContrabassMusicVoice measure 101 / measure 27]          %! SM4
     <g,, a,>1.
@@ -8856,11 +8820,7 @@ B_ContrabassMusicVoice = {
     g,,2.
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     - \tweak TrillPitchHead.stencil #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #})) %! SC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "Shape trill dynamics beautifully. (Thank you, Stefano.)" %! IC
-        }                                                        %! IC
+    ^ \markup { "Shape trill dynamics beautifully. (Thank you, Stefano.)" } %! IC
     \startTrillSpan f                                            %! SC
     
     g,,2
