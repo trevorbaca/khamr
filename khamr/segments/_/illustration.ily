@@ -1554,12 +1554,10 @@ i_FluteMusicVoice = {
                     }                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                \override                        %! IC
-                                    #'(box-padding . 0.5)        %! IC
-                                    \box                         %! IC
-                                        L.17                     %! IC
+                        \override                                %! IC
+                            #'(box-padding . 0.5)                %! IC
+                            \box                                 %! IC
+                                L.17                             %! IC
                     }                                            %! IC
                 \line                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                     {                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
@@ -1669,12 +1667,10 @@ i_FluteMusicVoice = {
     <g' g''>2.
     \repeatTie
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        L.22                                     %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                L.22                                             %! IC
         }                                                        %! IC
     
     <g' g''>2
@@ -1890,9 +1886,7 @@ i_OboeMusicVoice = {
                     }                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "airtone without reed: mix inhales and exhales ad lib." %! IC
+                        "airtone without reed: mix inhales and exhales ad lib." %! IC
                     }                                            %! IC
                 \line                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                     {                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
@@ -2102,12 +2096,10 @@ i_OboeMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     r2.
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        "put reed back in"                       %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                "put reed back in"                               %! IC
         }                                                        %! IC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
@@ -2711,12 +2703,10 @@ i_SaxophoneMusicVoice = {
     e''4.
     \repeatTie
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        77                                       %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                77                                               %! IC
         }                                                        %! IC
     
     e''4
@@ -2816,9 +2806,7 @@ i_GuitarMusicVoice = {
                     }                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "cross noteheads indicate half-harmonics" %! IC
+                        "cross noteheads indicate half-harmonics" %! IC
                     }                                            %! IC
                 \line                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                     {                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
@@ -3092,11 +3080,7 @@ i_GuitarMusicVoice = {
         \once \override Beam.grow-direction = #right
         cs''!16 * 117/16
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "move towards (and then back away from) the bridge at the center of each accelerando" %! IC
-            }                                                    %! IC
+        ^ \markup { "move towards (and then back away from) the bridge at the center of each accelerando" } %! IC
         
         c''16 * 73/16
         
@@ -3738,9 +3722,7 @@ i_PianoMusicVoice = {
                     }                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "tamburo: strike lowest strings with palm inside piano and let vibrate (pedal down throughout)" %! IC
+                        "tamburo: strike lowest strings with palm inside piano and let vibrate (pedal down throughout)" %! IC
                     }                                            %! IC
                 \line                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                     {                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
@@ -3933,11 +3915,7 @@ i_PianoMusicVoice = {
         cs''''!16 * 247/32
         \mf                                                      %! SM8:REDUNDANT_DYNAMIC:IC
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "match dynamic levels of guitar"             %! IC
-            }                                                    %! IC
+        ^ \markup { "match dynamic levels of guitar" }           %! IC
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
         
         c''''16 * 459/64
@@ -4267,35 +4245,33 @@ i_PianoMusicVoice = {
     c'2.
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \column                                          %! IC
+        \column                                                  %! IC
+            {                                                    %! IC
+                \line                                            %! IC
                     {                                            %! IC
-                        \line                                    %! IC
-                            {                                    %! IC
-                                sparse,                          %! IC
-                                individual                       %! IC
-                                clicks                           %! IC
-                                with                             %! IC
-                                credit                           %! IC
-                                card                             %! IC
-                                on                               %! IC
-                                C                                %! IC
-                                \hspace                          %! IC
-                                    #-0.5                        %! IC
-                                \raise                           %! IC
-                                    #1                           %! IC
-                                    \sharp                       %! IC
-                                \hspace                          %! IC
-                                    #-0.5                        %! IC
-                                1                                %! IC
-                                string                           %! IC
-                            }                                    %! IC
-                        \line                                    %! IC
-                            {                                    %! IC
-                                "(1-2/sec. in irregular rhythm)" %! IC
-                            }                                    %! IC
+                        sparse,                                  %! IC
+                        individual                               %! IC
+                        clicks                                   %! IC
+                        with                                     %! IC
+                        credit                                   %! IC
+                        card                                     %! IC
+                        on                                       %! IC
+                        C                                        %! IC
+                        \hspace                                  %! IC
+                            #-0.5                                %! IC
+                        \raise                                   %! IC
+                            #1                                   %! IC
+                            \sharp                               %! IC
+                        \hspace                                  %! IC
+                            #-0.5                                %! IC
+                        1                                        %! IC
+                        string                                   %! IC
                     }                                            %! IC
+                \line                                            %! IC
+                    {                                            %! IC
+                        "(1-2/sec. in irregular rhythm)"         %! IC
+                    }                                            %! IC
+            }                                                    %! IC
         }                                                        %! IC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
@@ -4372,12 +4348,10 @@ i_PercussionMusicVoice = {
                     }                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                \override                        %! IC
-                                    #'(box-padding . 0.5)        %! IC
-                                    \box                         %! IC
-                                        "XL tam-tam"             %! IC
+                        \override                                %! IC
+                            #'(box-padding . 0.5)                %! IC
+                            \box                                 %! IC
+                                "XL tam-tam"                     %! IC
                     }                                            %! IC
                 \line                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                     {                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
@@ -4704,9 +4678,7 @@ i_ViolinMusicVoice = {
                     }                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "emphasize multiphonics and unstable harmonics prominently throughout" %! IC
+                        "emphasize multiphonics and unstable harmonics prominently throughout" %! IC
                     }                                            %! IC
                 \line                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                     {                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
@@ -4716,11 +4688,7 @@ i_ViolinMusicVoice = {
                     }                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
             }
         }
-    _ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                IV                                               %! IC
-        }                                                        %! IC
+    _ \markup { IV }                                             %! IC
     \override Staff.Clef.color = #(x11-color 'violet)            %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
@@ -5045,11 +5013,7 @@ i_ViolinMusicVoice = {
     f'2
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                                     %! IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "molto flautando ed estr. sul pont."             %! IC
-        }                                                        %! IC
+    ^ \markup { "molto flautando ed estr. sul pont." }           %! IC
     \startTrillSpan gf'                                          %! SC
     \times 4/5 {
         
@@ -5281,9 +5245,7 @@ i_ViolaMusicVoice = {
                     }                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "emphasize multiphonics and unstable harmonics prominently throughout" %! IC
+                        "emphasize multiphonics and unstable harmonics prominently throughout" %! IC
                     }                                            %! IC
                 \line                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                     {                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
@@ -5293,11 +5255,7 @@ i_ViolaMusicVoice = {
                     }                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
             }
         }
-    _ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                III                                              %! IC
-        }                                                        %! IC
+    _ \markup { III }                                            %! IC
     \override Staff.Clef.color = #(x11-color 'violet)            %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
@@ -5618,11 +5576,7 @@ i_ViolaMusicVoice = {
     f'2.
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                                     %! IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "molto flautando ed estr. sul pont."             %! IC
-        }                                                        %! IC
+    ^ \markup { "molto flautando ed estr. sul pont." }           %! IC
     \startTrillSpan gf'                                          %! SC
     \times 4/5 {
         
@@ -5810,9 +5764,7 @@ i_CelloMusicVoice = {
                     }                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "emphasize multiphonics and unstable harmonics prominently throughout" %! IC
+                        "emphasize multiphonics and unstable harmonics prominently throughout" %! IC
                     }                                            %! IC
                 \line                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                     {                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
@@ -5822,11 +5774,7 @@ i_CelloMusicVoice = {
                     }                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
             }
         }
-    _ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                III                                              %! IC
-        }                                                        %! IC
+    _ \markup { III }                                            %! IC
     \override Staff.Clef.color = #(x11-color 'violet)            %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
@@ -6155,11 +6103,7 @@ i_CelloMusicVoice = {
     f'2.
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                                     %! IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "molto flautando ed estr. sul pont."             %! IC
-        }                                                        %! IC
+    ^ \markup { "molto flautando ed estr. sul pont." }           %! IC
     \startTrillSpan gf'                                          %! SC
     
     % [_ CelloMusicVoice measure 38]                             %! SM4
@@ -6329,9 +6273,7 @@ i_ContrabassMusicVoice = {
                     }                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "emphasize multiphonics and unstable harmonics prominently throughout" %! IC
+                        "emphasize multiphonics and unstable harmonics prominently throughout" %! IC
                     }                                            %! IC
                 \line                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                     {                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
@@ -6341,11 +6283,7 @@ i_ContrabassMusicVoice = {
                     }                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
             }
         }
-    _ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                III                                              %! IC
-        }                                                        %! IC
+    _ \markup { III }                                            %! IC
     \override Staff.Clef.color = #(x11-color 'violet)            %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
