@@ -35,7 +35,7 @@ def guitar_accelerandi(fuse_by_counts, division_masks=None):
                 repeat_ties=True,
                 ),
             tuplet_specifier=rmakers.TupletSpecifier(
-                use_note_duration_bracket=True,
+                duration_bracket=True,
                 ),
             ),
         )
