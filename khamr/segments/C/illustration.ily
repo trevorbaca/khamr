@@ -1773,8 +1773,8 @@ C_PercussionMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2
     :32                                                          %! IC
-    \>                                                           %! HC1
     \pp                                                          %! HC1
+    \>                                                           %! HC1
     ^ \markup {
         \column
             {
@@ -2027,8 +2027,8 @@ C_ViolinMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     c'1
     \repeatTie
-    \>                                                           %! HC1
     \p                                                           %! HC1
+    \>                                                           %! HC1
     
     c'4
     -\downbow                                                    %! IC
@@ -2197,8 +2197,8 @@ C_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     c'2.
     -\downbow                                                    %! IC
-    \>                                                           %! HC1
     \p                                                           %! HC1
+    \>                                                           %! HC1
     
     c'2
     \repeatTie
@@ -2367,8 +2367,8 @@ C_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     c'4
     \repeatTie
-    \>                                                           %! HC1
     \p                                                           %! HC1
+    \>                                                           %! HC1
     
     c'1
     -\upbow                                                      %! IC
@@ -2544,8 +2544,8 @@ C_ContrabassMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     c'1
     -\downbow                                                    %! IC
-    \>                                                           %! HC1
     \p                                                           %! HC1
+    \>                                                           %! HC1
     
     c'4
     -\upbow                                                      %! IC

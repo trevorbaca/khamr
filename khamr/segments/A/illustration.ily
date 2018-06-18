@@ -1159,8 +1159,8 @@ A_FluteMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     bf''!2
-    \>                                                           %! HC1
     \mp                                                          %! HC1
+    \>                                                           %! HC1
     ^ \markup {
         \column
             {
