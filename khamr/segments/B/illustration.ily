@@ -7831,8 +7831,8 @@ B_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         bff'!2.
         \glissando                                               %! SC
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
         
         ff'!2
         \glissando                                               %! SC
@@ -8127,8 +8127,8 @@ B_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ff'!1
     \glissando                                                   %! SC
-    \<                                                           %! HC1
     \pp                                                          %! HC1
+    \<                                                           %! HC1
     
     % [B ViolaMusicVoice measure 80 / measure 6]                 %! SM4
     dff'!4
@@ -8418,8 +8418,8 @@ B_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     dff'!1
     \glissando                                                   %! SC
-    \<                                                           %! HC1
     \pp                                                          %! HC1
+    \<                                                           %! HC1
     
     % [B CelloMusicVoice measure 80 / measure 6]                 %! SM4
     cf'!2.
@@ -8697,8 +8697,8 @@ B_ContrabassMusicVoice = {
     % [B ContrabassMusicVoice measure 79 / measure 5]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     <gs,,! as,!>1
-    \<                                                           %! HC1
     \p                                                           %! HC1
+    \<                                                           %! HC1
     
     % [B ContrabassMusicVoice measure 80 / measure 6]            %! SM4
     <gs,,! as,!>2.

@@ -1790,8 +1790,8 @@ i_FluteMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a''2.
-    \>                                                           %! HC1
     \mp                                                          %! HC1
+    \>                                                           %! HC1
     \startTrillSpan                                              %! SC
     
     % [_ FluteMusicVoice measure 40]                             %! SM4
@@ -4665,8 +4665,8 @@ i_ViolinMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'2
-    \>                                                           %! HC1
     \pp                                                          %! HC1
+    \>                                                           %! HC1
     ^ \markup {
         \column
             {
@@ -4723,8 +4723,8 @@ i_ViolinMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         af'!4
-        \<                                                       %! HC1
         \ppp                                                     %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ ViolinMusicVoice measure 5]                             %! SM4
@@ -4736,8 +4736,8 @@ i_ViolinMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gqs'!4
-    \>                                                           %! HC1
     \pp                                                          %! HC1
+    \>                                                           %! HC1
     
     % [_ ViolinMusicVoice measure 6]                             %! SM4
     gqs'!2.
@@ -4753,8 +4753,8 @@ i_ViolinMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         a'2
-        \<                                                       %! HC1
         \ppp                                                     %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ ViolinMusicVoice measure 8]                             %! SM4
@@ -4782,8 +4782,8 @@ i_ViolinMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         bqf'!4
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/7 {
@@ -4797,8 +4797,8 @@ i_ViolinMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         af'!4
-        \>                                                       %! HC1
         \p                                                       %! HC1
+        \>                                                       %! HC1
     }
     
     % [_ ViolinMusicVoice measure 13]                            %! SM4
@@ -4815,8 +4815,8 @@ i_ViolinMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gqs'!8
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ ViolinMusicVoice measure 15]                            %! SM4
@@ -4846,8 +4846,8 @@ i_ViolinMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         a'4
-        \>                                                       %! HC1
         \p                                                       %! HC1
+        \>                                                       %! HC1
     }
     \times 2/3 {
         
@@ -4860,8 +4860,8 @@ i_ViolinMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g'2
-        \<                                                       %! HC1
         \ppp                                                     %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ ViolinMusicVoice measure 20]                            %! SM4
@@ -4878,8 +4878,8 @@ i_ViolinMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         a'4
-        \>                                                       %! HC1
         \pp                                                      %! HC1
+        \>                                                       %! HC1
     }
     
     % [_ ViolinMusicVoice measure 22]                            %! SM4
@@ -4904,8 +4904,8 @@ i_ViolinMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         b'8
-        \<                                                       %! HC1
         \ppp                                                     %! HC1
+        \<                                                       %! HC1
     }
     \times 4/5 {
         
@@ -4919,8 +4919,8 @@ i_ViolinMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         aqs'!8
-        \>                                                       %! HC1
         \pp                                                      %! HC1
+        \>                                                       %! HC1
     }
     
     % [_ ViolinMusicVoice measure 27]                            %! SM4
@@ -4937,8 +4937,8 @@ i_ViolinMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     bf'!4
-    \<                                                           %! HC1
     \ppp                                                         %! HC1
+    \<                                                           %! HC1
     
     % [_ ViolinMusicVoice measure 29]                            %! SM4
     bf'!2.
@@ -4963,8 +4963,8 @@ i_ViolinMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g'2.
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ ViolinMusicVoice measure 33]                            %! SM4
@@ -4976,8 +4976,8 @@ i_ViolinMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a'4
-    \>                                                           %! HC1
     \p                                                           %! HC1
+    \>                                                           %! HC1
     
     % [_ ViolinMusicVoice measure 34]                            %! SM4
     a'1
@@ -4993,8 +4993,8 @@ i_ViolinMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         b'4
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ ViolinMusicVoice measure 36]                            %! SM4
@@ -5273,8 +5273,8 @@ i_ViolaMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af'!8
-    \<                                                           %! HC1
     \ppp                                                         %! HC1
+    \<                                                           %! HC1
     
     % [_ ViolaMusicVoice measure 2]                              %! SM4
     af'!2
@@ -5298,8 +5298,8 @@ i_ViolaMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gqs'!2
-        \>                                                       %! HC1
         \pp                                                      %! HC1
+        \>                                                       %! HC1
     }
     
     % [_ ViolaMusicVoice measure 6]                              %! SM4
@@ -5311,8 +5311,8 @@ i_ViolaMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a'4
-    \<                                                           %! HC1
     \ppp                                                         %! HC1
+    \<                                                           %! HC1
     
     % [_ ViolaMusicVoice measure 7]                              %! SM4
     a'1
@@ -5329,8 +5329,8 @@ i_ViolaMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         bqf'!4
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ ViolaMusicVoice measure 9]                              %! SM4
@@ -5354,8 +5354,8 @@ i_ViolaMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af'!4
-    \>                                                           %! HC1
     \p                                                           %! HC1
+    \>                                                           %! HC1
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/4 {
         
@@ -5368,8 +5368,8 @@ i_ViolaMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gqs'!4
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ ViolaMusicVoice measure 14]                             %! SM4
@@ -5387,8 +5387,8 @@ i_ViolaMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         a'2
-        \>                                                       %! HC1
         \p                                                       %! HC1
+        \>                                                       %! HC1
     }
     
     % [_ ViolaMusicVoice measure 16]                             %! SM4
@@ -5416,8 +5416,8 @@ i_ViolaMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g'4
-        \<                                                       %! HC1
         \ppp                                                     %! HC1
+        \<                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
@@ -5431,8 +5431,8 @@ i_ViolaMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         a'4
-        \>                                                       %! HC1
         \pp                                                      %! HC1
+        \>                                                       %! HC1
     }
     
     % [_ ViolaMusicVoice measure 21]                             %! SM4
@@ -5449,8 +5449,8 @@ i_ViolaMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         b'8
-        \<                                                       %! HC1
         \ppp                                                     %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ ViolaMusicVoice measure 23]                             %! SM4
@@ -5475,8 +5475,8 @@ i_ViolaMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     aqs'!8
-    \>                                                           %! HC1
     \pp                                                          %! HC1
+    \>                                                           %! HC1
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/4 {
         
@@ -5489,8 +5489,8 @@ i_ViolaMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         bf'!2
-        \<                                                       %! HC1
         \ppp                                                     %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ ViolaMusicVoice measure 28]                             %! SM4
@@ -5506,8 +5506,8 @@ i_ViolaMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'4
-    \<                                                           %! HC1
     \pp                                                          %! HC1
+    \<                                                           %! HC1
     
     % [_ ViolaMusicVoice measure 30]                             %! SM4
     g'2.
@@ -5535,8 +5535,8 @@ i_ViolaMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         a'8
-        \>                                                       %! HC1
         \p                                                       %! HC1
+        \>                                                       %! HC1
     }
     \times 4/5 {
         
@@ -5550,8 +5550,8 @@ i_ViolaMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         b'4
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ ViolaMusicVoice measure 35]                             %! SM4
@@ -5751,8 +5751,8 @@ i_CelloMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g2
-    \>                                                           %! HC1
     \pp                                                          %! HC1
+    \>                                                           %! HC1
     ^ \markup {
         \column
             {
@@ -5800,8 +5800,8 @@ i_CelloMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         af!4
-        \<                                                       %! HC1
         \ppp                                                     %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ CelloMusicVoice measure 3]                              %! SM4
@@ -5827,8 +5827,8 @@ i_CelloMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gqs!8
-        \>                                                       %! HC1
         \pp                                                      %! HC1
+        \>                                                       %! HC1
     }
     \times 4/5 {
         
@@ -5842,8 +5842,8 @@ i_CelloMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         a4
-        \<                                                       %! HC1
         \ppp                                                     %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ CelloMusicVoice measure 8]                              %! SM4
@@ -5863,8 +5863,8 @@ i_CelloMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         bqf!4
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ CelloMusicVoice measure 10]                             %! SM4
@@ -5891,8 +5891,8 @@ i_CelloMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     af!4
-    \>                                                           %! HC1
     \p                                                           %! HC1
+    \>                                                           %! HC1
     \times 2/3 {
         
         % [_ CelloMusicVoice measure 14]                         %! SM4
@@ -5904,8 +5904,8 @@ i_CelloMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gqs!4
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ CelloMusicVoice measure 15]                             %! SM4
@@ -5922,8 +5922,8 @@ i_CelloMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         a8
-        \>                                                       %! HC1
         \p                                                       %! HC1
+        \>                                                       %! HC1
     }
     
     % [_ CelloMusicVoice measure 17]                             %! SM4
@@ -5952,8 +5952,8 @@ i_CelloMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g4.
-        \<                                                       %! HC1
         \ppp                                                     %! HC1
+        \<                                                       %! HC1
     }
     \times 4/5 {
         
@@ -5966,8 +5966,8 @@ i_CelloMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         a8
-        \>                                                       %! HC1
         \pp                                                      %! HC1
+        \>                                                       %! HC1
     }
     
     % [_ CelloMusicVoice measure 22]                             %! SM4
@@ -5986,8 +5986,8 @@ i_CelloMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         b4
-        \<                                                       %! HC1
         \ppp                                                     %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ CelloMusicVoice measure 24]                             %! SM4
@@ -6011,8 +6011,8 @@ i_CelloMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     aqs!2
-    \>                                                           %! HC1
     \pp                                                          %! HC1
+    \>                                                           %! HC1
     \times 4/7 {
         
         % [_ CelloMusicVoice measure 28]                         %! SM4
@@ -6024,8 +6024,8 @@ i_CelloMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         bf!4
-        \<                                                       %! HC1
         \ppp                                                     %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ CelloMusicVoice measure 29]                             %! SM4
@@ -6043,8 +6043,8 @@ i_CelloMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g8
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ CelloMusicVoice measure 31]                             %! SM4
@@ -6072,8 +6072,8 @@ i_CelloMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a4
-    \>                                                           %! HC1
     \p                                                           %! HC1
+    \>                                                           %! HC1
     
     % [_ CelloMusicVoice measure 35]                             %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -6084,8 +6084,8 @@ i_CelloMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b4
-    \<                                                           %! HC1
     \pp                                                          %! HC1
+    \<                                                           %! HC1
     
     % [_ CelloMusicVoice measure 36]                             %! SM4
     b2.
@@ -6357,8 +6357,8 @@ i_ContrabassMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     cqs'!4
-    \>                                                           %! HC1
     \pp                                                          %! HC1
+    \>                                                           %! HC1
     \times 2/3 {
         
         % [_ ContrabassMusicVoice measure 11]                    %! SM4
@@ -6370,8 +6370,8 @@ i_ContrabassMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         bf!2
-        \<                                                       %! HC1
         \ppp                                                     %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ ContrabassMusicVoice measure 12]                        %! SM4
@@ -6392,8 +6392,8 @@ i_ContrabassMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         aqs!8
-        \>                                                       %! HC1
         \pp                                                      %! HC1
+        \>                                                       %! HC1
     }
     
     % [_ ContrabassMusicVoice measure 14]                        %! SM4
@@ -6418,8 +6418,8 @@ i_ContrabassMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     b4
-    \<                                                           %! HC1
     \ppp                                                         %! HC1
+    \<                                                           %! HC1
     \times 4/5 {
         
         % [_ ContrabassMusicVoice measure 18]                    %! SM4
@@ -6431,8 +6431,8 @@ i_ContrabassMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         a8.
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ ContrabassMusicVoice measure 19]                        %! SM4
@@ -6450,8 +6450,8 @@ i_ContrabassMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         b2
-        \>                                                       %! HC1
         \p                                                       %! HC1
+        \>                                                       %! HC1
     }
     
     % [_ ContrabassMusicVoice measure 21]                        %! SM4
@@ -6476,8 +6476,8 @@ i_ContrabassMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         cs'!2
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
     }
     \times 4/7 {
         
@@ -6490,8 +6490,8 @@ i_ContrabassMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         bqs!8
-        \>                                                       %! HC1
         \p                                                       %! HC1
+        \>                                                       %! HC1
     }
     
     % [_ ContrabassMusicVoice measure 26]                        %! SM4
@@ -6510,8 +6510,8 @@ i_ContrabassMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         c'4
-        \<                                                       %! HC1
         \ppp                                                     %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ ContrabassMusicVoice measure 28]                        %! SM4
@@ -6535,8 +6535,8 @@ i_ContrabassMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     a4
-    \>                                                           %! HC1
     \pp                                                          %! HC1
+    \>                                                           %! HC1
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/4 {
         
@@ -6549,8 +6549,8 @@ i_ContrabassMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         b4
-        \<                                                       %! HC1
         \ppp                                                     %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ ContrabassMusicVoice measure 33]                        %! SM4
@@ -6567,8 +6567,8 @@ i_ContrabassMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         cs'!2
-        \>                                                       %! HC1
         \pp                                                      %! HC1
+        \>                                                       %! HC1
     }
     
     % [_ ContrabassMusicVoice measure 35]                        %! SM4
@@ -6596,8 +6596,8 @@ i_ContrabassMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         bqs!8
-        \<                                                       %! HC1
         \ppp                                                     %! HC1
+        \<                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
@@ -6612,8 +6612,8 @@ i_ContrabassMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         dqf'!4
-        \<                                                       %! HC1
         \pp                                                      %! HC1
+        \<                                                       %! HC1
     }
     
     % [_ ContrabassMusicVoice measure 40]                        %! SM4
@@ -6629,8 +6629,8 @@ i_ContrabassMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     c'4
-    \>                                                           %! HC1
     \p                                                           %! HC1
+    \>                                                           %! HC1
     
     % [_ ContrabassMusicVoice measure 42]                        %! SM4
     c'2.
