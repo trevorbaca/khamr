@@ -87,7 +87,6 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 76 / measure 2]                             %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
     ^ \markup {
         \column
@@ -810,7 +809,6 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 96 / measure 22]                            %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
     ^ \markup {
         \column
@@ -929,7 +927,6 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 100 / measure 26]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/2
     \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
     - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
@@ -1318,7 +1315,6 @@ B_GlobalSkips = {
         }
     
     % [B GlobalSkips measure 109 / measure 35]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
         \column
