@@ -163,10 +163,10 @@ maker(
 
 maker(
     ('fl', (4, 5)),
+    baca.dynamic('fff', selector=baca.pheads()),
     baca.instrument(khamr.instruments['Flute']),
     baca.markups.fluttertongue(),
     baca.pitch('B5'),
-    baca.reiterated_dynamic('fff'),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
 
@@ -178,8 +178,8 @@ maker(
 
 maker(
     ('ob', (4, 5)),
+    baca.dynamic('fff', selector=baca.pheads()),
     baca.pitch('G#3'),
-    baca.reiterated_dynamic('fff'),
     )
 
 maker(
@@ -189,8 +189,8 @@ maker(
 
 maker(
     ('cl', (4, 5)),
+    baca.dynamic('fff', selector=baca.pheads()),
     baca.pitch('F#2'),
-    baca.reiterated_dynamic('fff'),
     )
 
 maker(
@@ -200,8 +200,8 @@ maker(
 
 maker(
     ('sax', (4, 5)),
+    baca.dynamic('fff', selector=baca.pheads()),
     baca.pitch('G#2'),
-    baca.reiterated_dynamic('fff'),
     )
 
 maker(
@@ -233,9 +233,9 @@ maker(
 maker(
     ('pf', 4),
     baca.clef('bass'),
+    baca.dynamic('fff', selector=baca.pheads()),
     baca.ottava_bassa(),
     baca.pitch('<A0 B0 C1 D1 E1 F1 G1 A1>'),
-    baca.reiterated_dynamic('fff'),
     baca.staff_lines(5),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
@@ -290,9 +290,9 @@ maker(
 
 maker(
     ('vn', (4, 5)),
+    baca.dynamic('fff', selector=baca.pheads()),
     baca.markups.arco_ordinario(),
     baca.pitch('A4'),
-    baca.reiterated_dynamic('fff'),
     )
 
 maker(
@@ -321,9 +321,9 @@ maker(
 
 maker(
     ('va', (4, 5)),
+    baca.dynamic('fff', selector=baca.pheads()),
     baca.markups.arco_ordinario(),
     baca.pitch('G#4'),
-    baca.reiterated_dynamic('fff'),
     )
 
 maker(
@@ -345,9 +345,9 @@ maker(
 
 maker(
     ('vc', (4, 5)),
+    baca.dynamic('fff', selector=baca.pheads()),
     baca.markups.arco_ordinario(),
     baca.pitch('G3'),
-    baca.reiterated_dynamic('fff'),
     )
 
 maker(
@@ -364,7 +364,7 @@ maker(
 
 maker(
     ('cb', (4, 5)),
+    baca.dynamic('fff', selector=baca.pheads()),
     baca.markups.arco_ordinario(),
     baca.pitch('<G0 A1>'),
-    baca.reiterated_dynamic('fff'),
     )
