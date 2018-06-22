@@ -14,7 +14,7 @@ maker = baca.SegmentMaker(
     last_segment=True,
     measures_per_stage=[3, 2, 2, 2, 2, 2, 2, 5],
     metronome_mark_measure_map=[
-        (4, abjad.Accelerando()),
+        (4, baca.Accelerando()),
         (8, khamr.metronome_marks['84']),
         ],
     metronome_mark_stem_height=1.25,
