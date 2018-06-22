@@ -19,7 +19,7 @@ maker = baca.SegmentMaker(
     metronome_mark_measure_map=[
         (1, khamr.metronome_marks['126']),
         (4, khamr.metronome_marks['63']),
-        (4, abjad.Accelerando()),
+        (4, baca.Accelerando()),
         (6, khamr.metronome_marks['84']),
         ],
     metronome_mark_stem_height=1.25,
