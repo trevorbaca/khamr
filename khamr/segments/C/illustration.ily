@@ -1538,10 +1538,11 @@ C_PercussionMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     \baca_unpitched_music_warning                                %! SM24
     c'2
     :32                                                          %! IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -1552,8 +1553,7 @@ C_PercussionMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             [“Perc.”]                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    \pp                                                          %! HC1
-    \>                                                           %! HC1
+    \>                                                           %! IC:BACA_HAIRPIN
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1582,12 +1582,12 @@ C_PercussionMusicVoice = {
     \repeatTie
     
     % [C PercussionMusicVoice measure 115 / measure 4]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     :32                                                          %! IC
+    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
-    \ppp                                                         %! HC1
     
     % [C PercussionMusicVoice measure 116 / measure 5]           %! SM4
     r1
@@ -1776,11 +1776,11 @@ C_ViolinMusicVoice = {
     -\upbow                                                      %! IC
     
     % [C ViolinMusicVoice measure 119 / measure 8]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     c'1
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
-    \p                                                           %! HC1
-    \>                                                           %! HC1
+    \>                                                           %! IC:BACA_HAIRPIN
     
     c'4
     -\downbow                                                    %! IC
@@ -1819,10 +1819,10 @@ C_ViolinMusicVoice = {
     -\upbow                                                      %! IC
     
     % [C ViolinMusicVoice measure 126 / measure 15]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     c'1.
+    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
-    \ppp                                                         %! HC1
     
     % [C ViolinMusicVoice measure 127 / measure 16]              %! SM4
     R1 * 1/2
@@ -1936,11 +1936,11 @@ C_ViolaMusicVoice = {
     \repeatTie
     
     % [C ViolaMusicVoice measure 119 / measure 8]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     c'2.
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\downbow                                                    %! IC
-    \p                                                           %! HC1
-    \>                                                           %! HC1
+    \>                                                           %! IC:BACA_HAIRPIN
     
     c'2
     \repeatTie
@@ -1979,10 +1979,10 @@ C_ViolaMusicVoice = {
     c'1
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     c'2
+    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\upbow                                                      %! IC
-    \ppp                                                         %! HC1
     
     % [C ViolaMusicVoice measure 127 / measure 16]               %! SM4
     R1 * 1/2
@@ -2096,11 +2096,11 @@ C_CelloMusicVoice = {
     -\downbow                                                    %! IC
     
     % [C CelloMusicVoice measure 119 / measure 8]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     c'4
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
-    \p                                                           %! HC1
-    \>                                                           %! HC1
+    \>                                                           %! IC:BACA_HAIRPIN
     
     c'1
     -\upbow                                                      %! IC
@@ -2145,10 +2145,10 @@ C_CelloMusicVoice = {
     c'2
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     c'4
+    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\upbow                                                      %! IC
-    \ppp                                                         %! HC1
     
     % [C CelloMusicVoice measure 127 / measure 16]               %! SM4
     R1 * 1/2
@@ -2263,11 +2263,11 @@ C_ContrabassMusicVoice = {
     -\upbow                                                      %! IC
     
     % [C ContrabassMusicVoice measure 119 / measure 8]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     c'1
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     -\downbow                                                    %! IC
-    \p                                                           %! HC1
-    \>                                                           %! HC1
+    \>                                                           %! IC:BACA_HAIRPIN
     
     c'4
     -\upbow                                                      %! IC
@@ -2306,10 +2306,10 @@ C_ContrabassMusicVoice = {
     c'2
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     c'1
+    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\upbow                                                      %! IC
-    \ppp                                                         %! HC1
     
     % [C ContrabassMusicVoice measure 127 / measure 16]          %! SM4
     R1 * 1/2
