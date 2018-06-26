@@ -153,7 +153,7 @@ maker(
 
 maker(
     ('fl', (1, 2)),
-    baca.hairpin('mp > pp'),
+    baca.new_hairpin('mp > pp'),
     baca.map(
         baca.qruns(),
         baca.trill_spanner(),

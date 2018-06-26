@@ -346,7 +346,7 @@ maker(
 
 maker(
     (['vn', 'va', 'vc'], (3, 4)),
-    baca.hairpin('pp < f'),
+    baca.new_hairpin('pp < f'),
     )
 
 maker(
@@ -381,7 +381,7 @@ maker(
 
 maker(
     ('cb', (3, 4)),
-    baca.hairpin('p < f'),
+    baca.new_hairpin('p < f'),
     )
 
 maker(
