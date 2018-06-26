@@ -892,8 +892,8 @@ A_FluteMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             "[“B. fl.”]"                                         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    \startTrillSpan                                              %! SC
     \>                                                           %! IC:BACA_HAIRPIN
+    \startTrillSpan
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -925,7 +925,7 @@ A_FluteMusicVoice = {
     \stopTrillSpan                                               %! SC
     
     bf''!4
-    \startTrillSpan                                              %! SC
+    \startTrillSpan
     
     % [A FluteMusicVoice measure 49 / measure 5]                 %! SM4
     bf''!1
@@ -2713,7 +2713,7 @@ A_ViolinMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             [“Vn.”]                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    \startTrillSpan aff'                                         %! SC
+    \startTrillSpan aff'
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -2739,7 +2739,7 @@ A_ViolinMusicVoice = {
         g'4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan af'                                      %! SC
+        \startTrillSpan af'
     }
     
     g'4
@@ -2760,7 +2760,7 @@ A_ViolinMusicVoice = {
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        \startTrillSpan atqf'                                    %! SC
+        \startTrillSpan atqf'
     }
     
     gqf'!4
@@ -2779,7 +2779,7 @@ A_ViolinMusicVoice = {
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        \startTrillSpan aff'                                     %! SC
+        \startTrillSpan aff'
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
@@ -2798,7 +2798,7 @@ A_ViolinMusicVoice = {
         gqf'!16
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan atqf'                                    %! SC
+        \startTrillSpan atqf'
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
@@ -2818,7 +2818,7 @@ A_ViolinMusicVoice = {
         g'4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan af'                                      %! SC
+        \startTrillSpan af'
     }
     
     g'2
@@ -2834,7 +2834,7 @@ A_ViolinMusicVoice = {
         gs'!4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan a'                                       %! SC
+        \startTrillSpan a'
     }
     
     gs'!2
@@ -2852,7 +2852,7 @@ A_ViolinMusicVoice = {
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        \startTrillSpan aqf'                                     %! SC
+        \startTrillSpan aqf'
     }
     
     gqs'!2
@@ -2868,7 +2868,7 @@ A_ViolinMusicVoice = {
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        \startTrillSpan af'                                      %! SC
+        \startTrillSpan af'
     }
     
     % [A ViolinMusicVoice measure 52 / measure 8]                %! SM4
@@ -2884,7 +2884,7 @@ A_ViolinMusicVoice = {
         gqs'!16
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan aqf'                                     %! SC
+        \startTrillSpan aqf'
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
@@ -2901,7 +2901,7 @@ A_ViolinMusicVoice = {
         af'!4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan bff'                                     %! SC
+        \startTrillSpan bff'
     }
     
     af'!2
@@ -2916,7 +2916,7 @@ A_ViolinMusicVoice = {
         a'4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan bf'                                      %! SC
+        \startTrillSpan bf'
     }
     
     % [A ViolinMusicVoice measure 54 / measure 10]               %! SM4
@@ -2934,7 +2934,7 @@ A_ViolinMusicVoice = {
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        \startTrillSpan btqf'                                    %! SC
+        \startTrillSpan btqf'
     }
     
     % [A ViolinMusicVoice measure 55 / measure 11]               %! SM4
@@ -2951,7 +2951,7 @@ A_ViolinMusicVoice = {
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        \startTrillSpan bff'                                     %! SC
+        \startTrillSpan bff'
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
@@ -2970,7 +2970,7 @@ A_ViolinMusicVoice = {
         aqf'!16
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan btqf'                                    %! SC
+        \startTrillSpan btqf'
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
@@ -2989,7 +2989,7 @@ A_ViolinMusicVoice = {
         af'!4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan bff'                                     %! SC
+        \startTrillSpan bff'
     }
     
     % [A ViolinMusicVoice measure 57 / measure 13]               %! SM4
@@ -3004,7 +3004,7 @@ A_ViolinMusicVoice = {
         g'4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan af'                                      %! SC
+        \startTrillSpan af'
     }
     
     % [A ViolinMusicVoice measure 58 / measure 14]               %! SM4
@@ -3126,7 +3126,7 @@ A_ViolaMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             [“Va.”]                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    \startTrillSpan gf'                                          %! SC
+    \startTrillSpan gf'
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -3155,7 +3155,7 @@ A_ViolaMusicVoice = {
         fs'!4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan g'                                       %! SC
+        \startTrillSpan g'
     }
     
     % [A ViolaMusicVoice measure 47 / measure 3]                 %! SM4
@@ -3173,7 +3173,7 @@ A_ViolaMusicVoice = {
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        \startTrillSpan gqf'                                     %! SC
+        \startTrillSpan gqf'
     }
     
     fqs'!2
@@ -3193,7 +3193,7 @@ A_ViolaMusicVoice = {
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        \startTrillSpan gf'                                      %! SC
+        \startTrillSpan gf'
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
@@ -3212,7 +3212,7 @@ A_ViolaMusicVoice = {
         gf'!16
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan aff'                                     %! SC
+        \startTrillSpan aff'
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
@@ -3232,7 +3232,7 @@ A_ViolaMusicVoice = {
         g'4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan af'                                      %! SC
+        \startTrillSpan af'
     }
     
     % [A ViolaMusicVoice measure 51 / measure 7]                 %! SM4
@@ -3248,7 +3248,7 @@ A_ViolaMusicVoice = {
         gqf'!4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan atqf'                                    %! SC
+        \startTrillSpan atqf'
     }
     
     % [A ViolaMusicVoice measure 52 / measure 8]                 %! SM4
@@ -3266,7 +3266,7 @@ A_ViolaMusicVoice = {
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        \startTrillSpan aff'                                     %! SC
+        \startTrillSpan aff'
     }
     
     gf'!4
@@ -3286,7 +3286,7 @@ A_ViolaMusicVoice = {
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        \startTrillSpan af'                                      %! SC
+        \startTrillSpan af'
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
@@ -3305,7 +3305,7 @@ A_ViolaMusicVoice = {
         gs'!16
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan a'                                       %! SC
+        \startTrillSpan a'
     }
     
     % [A ViolaMusicVoice measure 55 / measure 11]                %! SM4
@@ -3322,7 +3322,7 @@ A_ViolaMusicVoice = {
         gqs'!4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan aqf'                                     %! SC
+        \startTrillSpan aqf'
     }
     
     % [A ViolaMusicVoice measure 56 / measure 12]                %! SM4
@@ -3338,7 +3338,7 @@ A_ViolaMusicVoice = {
         g'4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan af'                                      %! SC
+        \startTrillSpan af'
     }
     
     g'4
@@ -3358,7 +3358,7 @@ A_ViolaMusicVoice = {
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        \startTrillSpan aqf'                                     %! SC
+        \startTrillSpan aqf'
     }
     
     % [A ViolaMusicVoice measure 58 / measure 14]                %! SM4
@@ -3480,7 +3480,7 @@ A_CelloMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             [“Vc.”]                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    \startTrillSpan gf'                                          %! SC
+    \startTrillSpan gf'
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -3510,7 +3510,7 @@ A_CelloMusicVoice = {
         fs'!4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan g'                                       %! SC
+        \startTrillSpan g'
     }
     
     fs'!2
@@ -3530,7 +3530,7 @@ A_CelloMusicVoice = {
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        \startTrillSpan gqf'                                     %! SC
+        \startTrillSpan gqf'
     }
     
     % [A CelloMusicVoice measure 48 / measure 4]                 %! SM4
@@ -3551,7 +3551,7 @@ A_CelloMusicVoice = {
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        \startTrillSpan gf'                                      %! SC
+        \startTrillSpan gf'
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
@@ -3570,7 +3570,7 @@ A_CelloMusicVoice = {
         fqs'!16
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan gqf'                                     %! SC
+        \startTrillSpan gqf'
     }
     
     % [A CelloMusicVoice measure 51 / measure 7]                 %! SM4
@@ -3588,7 +3588,7 @@ A_CelloMusicVoice = {
         f'4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan gf'                                      %! SC
+        \startTrillSpan gf'
     }
     
     f'2

@@ -1779,8 +1779,8 @@ C_ViolinMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     c'1
     \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
-    \repeatTie
     \>                                                           %! IC:BACA_HAIRPIN
+    \repeatTie
     
     c'4
     -\downbow                                                    %! IC
@@ -2099,8 +2099,8 @@ C_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     c'4
     \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
-    \repeatTie
     \>                                                           %! IC:BACA_HAIRPIN
+    \repeatTie
     
     c'1
     -\upbow                                                      %! IC
