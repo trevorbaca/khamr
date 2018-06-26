@@ -5,66 +5,66 @@ import baca
 instruments = abjad.OrderedDict([
     (
         'BaritoneSaxophone',
-        abjad.BaritoneSaxophone(hide=True),
+        abjad.BaritoneSaxophone(),
         ),
     (
         'BassClarinet',
-        abjad.BassClarinet(hide=True),
+        abjad.BassClarinet(),
         ),
     (
         'BassFlute',
-        abjad.BassFlute(hide=True),
+        abjad.BassFlute(),
         ),
     (
         'Cello',
-        abjad.Cello(hide=True),
+        abjad.Cello(),
         ),
     (
         'Clarinet',
-        abjad.ClarinetInBFlat(hide=True),
+        abjad.ClarinetInBFlat(),
         ),
     (
         'Contrabass',
-        abjad.Contrabass(hide=True, pitch_range='[G0, +inf]'),
+        abjad.Contrabass(pitch_range='[G0, +inf]'),
         ),
     (
         'EnglishHorn',
-        abjad.EnglishHorn(hide=True),
+        abjad.EnglishHorn(),
         ),
     (
         'Flute',
-        abjad.Flute(hide=True),
+        abjad.Flute(),
         ),
     (
         'Guitar',
-        abjad.Guitar(hide=True),
+        abjad.Guitar(),
         ),
     (
         'Oboe',
-        abjad.Oboe(hide=True),
+        abjad.Oboe(),
         ),
     (
         'Percussion',
-        abjad.Percussion(hide=True),
+        abjad.Percussion(),
         ),
     (
         'Piano',
-        abjad.Piano(hide=True, context='Staff'),
+        abjad.Piano(context='Staff'),
         ),
     (
         'Piccolo',
-        abjad.Piccolo(hide=True),
+        abjad.Piccolo(),
         ),
     (
         'SopraninoSaxophone',
-        abjad.SopraninoSaxophone(hide=True),
+        abjad.SopraninoSaxophone(),
         ),
     (
         'Viola',
-        abjad.Viola(hide=True),
+        abjad.Viola(),
         ),
     (
         'Violin',
-        abjad.Violin(hide=True),
+        abjad.Violin(),
         ),
     ])
