@@ -7429,8 +7429,8 @@ B_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         bff'!2.
         \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
-        \glissando                                               %! SC
         \<                                                       %! IC:BACA_HAIRPIN
+        \glissando                                               %! SC
         
         ff'!2
         \glissando                                               %! SC
@@ -7718,8 +7718,8 @@ B_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     ff'!1
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
-    \glissando                                                   %! SC
     \<                                                           %! IC:BACA_HAIRPIN
+    \glissando                                                   %! SC
     
     % [B ViolaMusicVoice measure 80 / measure 6]                 %! SM4
     dff'!4
@@ -8002,8 +8002,8 @@ B_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     dff'!1
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
-    \glissando                                                   %! SC
     \<                                                           %! IC:BACA_HAIRPIN
+    \glissando                                                   %! SC
     
     % [B CelloMusicVoice measure 80 / measure 6]                 %! SM4
     cf'!2.
@@ -8397,8 +8397,8 @@ B_ContrabassMusicVoice = {
     g,,2.
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup { "Shape trill dynamics beautifully. (Thank you, Stefano.)" } %! IC
-    - \tweak TrillPitchHead.stencil #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #})) %! SC
-    \startTrillSpan f                                            %! SC
+    - \tweak TrillPitchHead.stencil #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
+    \startTrillSpan f
     
     g,,2
     \repeatTie

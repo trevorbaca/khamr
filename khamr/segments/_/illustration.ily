@@ -1376,8 +1376,8 @@ i_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a''2.
     \mp                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
-    \startTrillSpan                                              %! SC
     \>                                                           %! IC:BACA_HAIRPIN
+    \startTrillSpan
     
     % [_ FluteMusicVoice measure 40]                             %! SM4
     a''2
@@ -1398,7 +1398,7 @@ i_FluteMusicVoice = {
     \stopTrillSpan                                               %! SC
     
     a''4.
-    \startTrillSpan                                              %! SC
+    \startTrillSpan
     
     % [_ FluteMusicVoice measure 43]                             %! SM4
     a''1
@@ -4537,7 +4537,7 @@ i_ViolinMusicVoice = {
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                                     %! IC
     ^ \markup { "molto flautando ed estr. sul pont." }           %! IC
-    \startTrillSpan gf'                                          %! SC
+    \startTrillSpan gf'
     \times 4/5 {
         
         f'16
@@ -4548,7 +4548,7 @@ i_ViolinMusicVoice = {
         fs'!4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan g'                                       %! SC
+        \startTrillSpan g'
     }
     
     % [_ ViolinMusicVoice measure 38]                            %! SM4
@@ -4567,7 +4567,7 @@ i_ViolinMusicVoice = {
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        \startTrillSpan gqf'                                     %! SC
+        \startTrillSpan gqf'
     }
     
     fqs'!2
@@ -4583,7 +4583,7 @@ i_ViolinMusicVoice = {
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        \startTrillSpan gf'                                      %! SC
+        \startTrillSpan gf'
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
@@ -4599,7 +4599,7 @@ i_ViolinMusicVoice = {
         fqs'!16
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan gqf'                                     %! SC
+        \startTrillSpan gqf'
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
@@ -4619,7 +4619,7 @@ i_ViolinMusicVoice = {
         f'4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan gf'                                      %! SC
+        \startTrillSpan gf'
     }
     
     f'4
@@ -4637,7 +4637,7 @@ i_ViolinMusicVoice = {
         e'4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan f'                                       %! SC
+        \startTrillSpan f'
     }
     
     % [_ ViolinMusicVoice measure 42]                            %! SM4
@@ -4655,7 +4655,7 @@ i_ViolinMusicVoice = {
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        \startTrillSpan fqs'                                     %! SC
+        \startTrillSpan fqs'
     }
     
     % [_ ViolinMusicVoice measure 43]                            %! SM4
@@ -4672,7 +4672,7 @@ i_ViolinMusicVoice = {
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        \startTrillSpan f'                                       %! SC
+        \startTrillSpan f'
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
@@ -4691,7 +4691,7 @@ i_ViolinMusicVoice = {
         eqs'!16
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan fqs'                                     %! SC
+        \startTrillSpan fqs'
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
@@ -4710,7 +4710,7 @@ i_ViolinMusicVoice = {
         f'4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan gf'                                      %! SC
+        \startTrillSpan gf'
     }
     
     f'4
@@ -5090,7 +5090,7 @@ i_ViolaMusicVoice = {
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                                     %! IC
     ^ \markup { "molto flautando ed estr. sul pont." }           %! IC
-    \startTrillSpan gf'                                          %! SC
+    \startTrillSpan gf'
     \times 4/5 {
         
         % [_ ViolaMusicVoice measure 38]                         %! SM4
@@ -5102,7 +5102,7 @@ i_ViolaMusicVoice = {
         fs'!4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan g'                                       %! SC
+        \startTrillSpan g'
     }
     
     fs'!4
@@ -5123,7 +5123,7 @@ i_ViolaMusicVoice = {
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        \startTrillSpan gqf'                                     %! SC
+        \startTrillSpan gqf'
     }
     
     fqs'!2.
@@ -5140,7 +5140,7 @@ i_ViolaMusicVoice = {
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        \startTrillSpan gf'                                      %! SC
+        \startTrillSpan gf'
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
@@ -5159,7 +5159,7 @@ i_ViolaMusicVoice = {
         fqs'!16
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan gqf'                                     %! SC
+        \startTrillSpan gqf'
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
@@ -5179,7 +5179,7 @@ i_ViolaMusicVoice = {
         f'4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan gf'                                      %! SC
+        \startTrillSpan gf'
     }
     
     f'4
@@ -5198,7 +5198,7 @@ i_ViolaMusicVoice = {
         e'4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan f'                                       %! SC
+        \startTrillSpan f'
     }
     
     e'4
@@ -5219,7 +5219,7 @@ i_ViolaMusicVoice = {
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        \startTrillSpan fqs'                                     %! SC
+        \startTrillSpan fqs'
     }
     
     eqs'!2.
@@ -5607,7 +5607,7 @@ i_CelloMusicVoice = {
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                                     %! IC
     ^ \markup { "molto flautando ed estr. sul pont." }           %! IC
-    \startTrillSpan gf'                                          %! SC
+    \startTrillSpan gf'
     
     % [_ CelloMusicVoice measure 38]                             %! SM4
     f'4
@@ -5622,7 +5622,7 @@ i_CelloMusicVoice = {
         fs'!4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan g'                                       %! SC
+        \startTrillSpan g'
     }
     
     % [_ CelloMusicVoice measure 39]                             %! SM4
@@ -5640,7 +5640,7 @@ i_CelloMusicVoice = {
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        \startTrillSpan gqf'                                     %! SC
+        \startTrillSpan gqf'
     }
     
     fqs'!4
@@ -5664,7 +5664,7 @@ i_CelloMusicVoice = {
         -\accent                                                 %! IC
         ]
         \stopTrillSpan                                           %! SC
-        \startTrillSpan gf'                                      %! SC
+        \startTrillSpan gf'
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
@@ -5683,7 +5683,7 @@ i_CelloMusicVoice = {
         fqs'!16
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan gqf'                                     %! SC
+        \startTrillSpan gqf'
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
@@ -5703,7 +5703,7 @@ i_CelloMusicVoice = {
         f'4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan gf'                                      %! SC
+        \startTrillSpan gf'
     }
     
     % [_ CelloMusicVoice measure 44]                             %! SM4
@@ -5719,7 +5719,7 @@ i_CelloMusicVoice = {
         e'4
         -\accent                                                 %! IC
         \stopTrillSpan                                           %! SC
-        \startTrillSpan f'                                       %! SC
+        \startTrillSpan f'
     }
     
     e'4
