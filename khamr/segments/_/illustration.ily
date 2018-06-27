@@ -1373,9 +1373,9 @@ i_FluteMusicVoice = {
     % [_ FluteMusicVoice measure 39]                             %! SM4
     r2.
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a''2.
-    \mp                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     \startTrillSpan
     
@@ -4244,9 +4244,9 @@ i_ViolinMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         af'!4
-        \ppp                                                     %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -4257,9 +4257,9 @@ i_ViolinMusicVoice = {
     \repeatTie
     \glissando                                                   %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gqs'!4
-    \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     
     % [_ ViolinMusicVoice measure 6]                             %! SM4
@@ -4274,9 +4274,9 @@ i_ViolinMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         a'2
-        \ppp                                                     %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -4303,9 +4303,9 @@ i_ViolinMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         bqf'!4
-        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -4318,9 +4318,9 @@ i_ViolinMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         af'!4
-        \p                                                       %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -4336,9 +4336,9 @@ i_ViolinMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         gqs'!8
-        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -4367,9 +4367,9 @@ i_ViolinMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         a'4
-        \p                                                       %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
     }
     \times 2/3 {
@@ -4381,9 +4381,9 @@ i_ViolinMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         g'2
-        \ppp                                                     %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -4399,9 +4399,9 @@ i_ViolinMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         a'4
-        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -4425,9 +4425,9 @@ i_ViolinMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         b'8
-        \ppp                                                     %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     \times 4/5 {
@@ -4440,9 +4440,9 @@ i_ViolinMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         aqs'!8
-        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -4458,9 +4458,9 @@ i_ViolinMusicVoice = {
     \repeatTie
     \glissando                                                   %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     bf'!4
-    \ppp                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \<                                                           %! IC:BACA_HAIRPIN
     
     % [_ ViolinMusicVoice measure 29]                            %! SM4
@@ -4484,9 +4484,9 @@ i_ViolinMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         g'2.
-        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -4497,9 +4497,9 @@ i_ViolinMusicVoice = {
     \repeatTie
     \glissando                                                   %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a'4
-    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     
     % [_ ViolinMusicVoice measure 34]                            %! SM4
@@ -4514,9 +4514,9 @@ i_ViolinMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         b'4
-        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -4809,9 +4809,9 @@ i_ViolaMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         gqs'!2
-        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -4822,9 +4822,9 @@ i_ViolaMusicVoice = {
     \repeatTie
     \glissando                                                   %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a'4
-    \ppp                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \<                                                           %! IC:BACA_HAIRPIN
     
     % [_ ViolaMusicVoice measure 7]                              %! SM4
@@ -4840,9 +4840,9 @@ i_ViolaMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         bqf'!4
-        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -4865,9 +4865,9 @@ i_ViolaMusicVoice = {
     \repeatTie
     \glissando                                                   %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     af'!4
-    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/4 {
@@ -4879,9 +4879,9 @@ i_ViolaMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         gqs'!4
-        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -4898,9 +4898,9 @@ i_ViolaMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         a'2
-        \p                                                       %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -4927,9 +4927,9 @@ i_ViolaMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         g'4
-        \ppp                                                     %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -4942,9 +4942,9 @@ i_ViolaMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         a'4
-        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -4960,9 +4960,9 @@ i_ViolaMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         b'8
-        \ppp                                                     %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -4986,9 +4986,9 @@ i_ViolaMusicVoice = {
     \repeatTie
     \glissando                                                   %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     aqs'!8
-    \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/4 {
@@ -5000,9 +5000,9 @@ i_ViolaMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         bf'!2
-        \ppp                                                     %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -5017,9 +5017,9 @@ i_ViolaMusicVoice = {
     \repeatTie
     \glissando                                                   %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g'4
-    \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \<                                                           %! IC:BACA_HAIRPIN
     
     % [_ ViolaMusicVoice measure 30]                             %! SM4
@@ -5046,9 +5046,9 @@ i_ViolaMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         a'8
-        \p                                                       %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
     }
     \times 4/5 {
@@ -5061,9 +5061,9 @@ i_ViolaMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         b'4
-        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -5301,9 +5301,9 @@ i_CelloMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         af!4
-        \ppp                                                     %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -5328,9 +5328,9 @@ i_CelloMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         gqs!8
-        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
     }
     \times 4/5 {
@@ -5343,9 +5343,9 @@ i_CelloMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         a4
-        \ppp                                                     %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -5364,9 +5364,9 @@ i_CelloMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         bqf!4
-        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -5392,9 +5392,9 @@ i_CelloMusicVoice = {
     \repeatTie
     \glissando                                                   %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     af!4
-    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     \times 2/3 {
         
@@ -5405,9 +5405,9 @@ i_CelloMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         gqs!4
-        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -5423,9 +5423,9 @@ i_CelloMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         a8
-        \p                                                       %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -5453,9 +5453,9 @@ i_CelloMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         g4.
-        \ppp                                                     %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     \times 4/5 {
@@ -5467,9 +5467,9 @@ i_CelloMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         a8
-        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -5487,9 +5487,9 @@ i_CelloMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         b4
-        \ppp                                                     %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -5512,9 +5512,9 @@ i_CelloMusicVoice = {
     \repeatTie
     \glissando                                                   %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     aqs!2
-    \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     \times 4/7 {
         
@@ -5525,9 +5525,9 @@ i_CelloMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         bf!4
-        \ppp                                                     %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -5544,9 +5544,9 @@ i_CelloMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         g8
-        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -5573,9 +5573,9 @@ i_CelloMusicVoice = {
     \repeatTie
     \glissando                                                   %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a4
-    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     
     % [_ CelloMusicVoice measure 35]                             %! SM4
@@ -5585,9 +5585,9 @@ i_CelloMusicVoice = {
     \repeatTie
     \glissando                                                   %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     b4
-    \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \<                                                           %! IC:BACA_HAIRPIN
     
     % [_ CelloMusicVoice measure 36]                             %! SM4
@@ -5861,9 +5861,9 @@ i_ContrabassMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         bf!2
-        \ppp                                                     %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -5883,9 +5883,9 @@ i_ContrabassMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         aqs!8
-        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -5909,9 +5909,9 @@ i_ContrabassMusicVoice = {
     \repeatTie
     \glissando                                                   %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     b4
-    \ppp                                                         %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \<                                                           %! IC:BACA_HAIRPIN
     \times 4/5 {
         
@@ -5922,9 +5922,9 @@ i_ContrabassMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         a8.
-        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -5941,9 +5941,9 @@ i_ContrabassMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         b2
-        \p                                                       %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -5967,9 +5967,9 @@ i_ContrabassMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         cs'!2
-        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     \times 4/7 {
@@ -5981,9 +5981,9 @@ i_ContrabassMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         bqs!8
-        \p                                                       %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -6001,9 +6001,9 @@ i_ContrabassMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         c'4
-        \ppp                                                     %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -6026,9 +6026,9 @@ i_ContrabassMusicVoice = {
     \repeatTie
     \glissando                                                   %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     a4
-    \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/4 {
@@ -6040,9 +6040,9 @@ i_ContrabassMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         b4
-        \ppp                                                     %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -6058,9 +6058,9 @@ i_ContrabassMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         cs'!2
-        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -6087,9 +6087,9 @@ i_ContrabassMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         bqs!8
-        \ppp                                                     %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -6103,9 +6103,9 @@ i_ContrabassMusicVoice = {
         \repeatTie
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         dqf'!4
-        \pp                                                      %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         \<                                                       %! IC:BACA_HAIRPIN
     }
     
@@ -6120,9 +6120,9 @@ i_ContrabassMusicVoice = {
     \repeatTie
     \glissando                                                   %! SC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     c'4
-    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     
     % [_ ContrabassMusicVoice measure 42]                        %! SM4
