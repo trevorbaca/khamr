@@ -228,7 +228,7 @@ maker(
 
 maker(
     ('fl', (6, 7)),
-    baca.generalized_hairpin('mp > pp'),
+    baca.hairpin('mp > pp'),
     baca.map(
         baca.qruns(),
         baca.trill_spanner(),
