@@ -7426,10 +7426,10 @@ B_ViolinMusicVoice = {
     \times 4/5 {
         
         % [B ViolinMusicVoice measure 79 / measure 5]            %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         bff'!2.
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
-        \<                                                       %! IC:BACA_HAIRPIN
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                       %! PIC
         \glissando                                               %! SC
         
         ff'!2
@@ -7464,9 +7464,9 @@ B_ViolinMusicVoice = {
         gff'!1
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         aff'!2.
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
         \glissando                                               %! SC
     }
     
@@ -7715,10 +7715,10 @@ B_ViolaMusicVoice = {
     \glissando                                                   %! SC
     
     % [B ViolaMusicVoice measure 79 / measure 5]                 %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ff'!1
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
-    \<                                                           %! IC:BACA_HAIRPIN
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                           %! PIC
     \glissando                                                   %! SC
     
     % [B ViolaMusicVoice measure 80 / measure 6]                 %! SM4
@@ -7747,9 +7747,9 @@ B_ViolaMusicVoice = {
         gff'!2.
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         aff'!2
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
         \glissando                                               %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -7999,10 +7999,10 @@ B_CelloMusicVoice = {
     \glissando                                                   %! SC
     
     % [B CelloMusicVoice measure 79 / measure 5]                 %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     dff'!1
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
-    \<                                                           %! IC:BACA_HAIRPIN
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                           %! PIC
     \glissando                                                   %! SC
     
     % [B CelloMusicVoice measure 80 / measure 6]                 %! SM4
@@ -8030,9 +8030,9 @@ B_CelloMusicVoice = {
         gff'!1
         \glissando                                               %! SC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         aff'!2
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:PIC
         \glissando                                               %! SC
     }
     
@@ -8272,10 +8272,10 @@ B_ContrabassMusicVoice = {
     \repeatTie
     
     % [B ContrabassMusicVoice measure 79 / measure 5]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     <gs,,! as,!>1
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
-    \<                                                           %! IC:BACA_HAIRPIN
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                           %! PIC
     
     % [B ContrabassMusicVoice measure 80 / measure 6]            %! SM4
     <gs,,! as,!>2.
@@ -8292,9 +8292,9 @@ B_ContrabassMusicVoice = {
     \repeatTie
     
     % [B ContrabassMusicVoice measure 83 / measure 9]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     <gs,,! as,!>1
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
     % [B ContrabassMusicVoice measure 84 / measure 10]           %! SM4

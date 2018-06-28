@@ -153,7 +153,7 @@ maker(
 
 maker(
     ('perc', (1, 2)),
-    baca.hairpin('pp > ppp'),
+    baca.generalized_hairpin('pp > ppp'),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
 
@@ -211,5 +211,5 @@ maker(
 
 maker(
     (['vn', 'va', 'vc', 'cb'], (4, 7)),
-    baca.hairpin('p > ppp'),
+    baca.generalized_hairpin('p > ppp'),
     )
