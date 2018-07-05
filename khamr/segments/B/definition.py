@@ -10,7 +10,6 @@ from abjadext import rmakers
 ###############################################################################
 
 maker = baca.SegmentMaker(
-    do_not_attach_metronome_mark_spanner=True,
     ignore_repeat_pitch_classes=True,
     measures_per_stage=[
         2, 2,       # 1-2 (126)
