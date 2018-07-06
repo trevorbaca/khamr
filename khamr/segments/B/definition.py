@@ -25,7 +25,6 @@ maker = baca.SegmentMaker(
         (6, khamr.metronome_marks['63']),
         (7, khamr.metronome_marks['42']),
         ],
-    metronome_mark_stem_height=1.25,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=khamr.time_signatures[:37],
     transpose_score=True,
