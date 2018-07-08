@@ -159,7 +159,7 @@ maker(
 maker(
     ('perc', (4, 7)),
     baca.dynamic('fff'),
-    baca.markups.snare_drum().boxed(),
+    baca.markuplib.snare_drum().boxed(),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
 
@@ -195,12 +195,12 @@ maker(
 
 maker(
     (['vn', 'va'], (1, 7)),
-    baca.markups.bow_on_wooden_mute(),
+    baca.markuplib.bow_on_wooden_mute(),
     )
 
 maker(
     (['vc', 'cb'], (1, 7)),
-    baca.markups.bow_on_tailpiece(),
+    baca.markuplib.bow_on_tailpiece(),
     )
 
 maker(
