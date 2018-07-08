@@ -251,7 +251,7 @@ maker(
     baca.dynamic('pp'),
     baca.flageolet(selector=baca.pheads()),
     baca.markup(
-        baca.markups.put_reed_back_in().boxed(),
+        baca.markuplib.put_reed_back_in().boxed(),
         selector=baca.leaf(0),
         ),
     baca.pitch('<A4 E5>'),
@@ -350,7 +350,7 @@ maker(
     ('vn', (1, 5)),
     baca.glissando(),
     baca.markup(
-        baca.markups.string_number(4),
+        baca.markuplib.string_number(4),
         direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
@@ -365,7 +365,7 @@ maker(
         baca.plts(),
         baca.trill_spanner(string='m2'),
         ),
-    baca.markups.molto_flautando_e_pont(),
+    baca.markuplib.molto_flautando_e_pont(),
     baca.pitches(khamr.color_trill_pitches),
     )
 
@@ -373,7 +373,7 @@ maker(
     ('va', (1, 5)),
     baca.glissando(),
     baca.markup(
-        baca.markups.string_number(3),
+        baca.markuplib.string_number(3),
         direction=abjad.Down,
         ),
     baca.pitches(khamr.violin_halo_pitches),
@@ -388,7 +388,7 @@ maker(
         baca.plts(),
         baca.trill_spanner(string='m2'),
         ),
-    baca.markups.molto_flautando_e_pont(),
+    baca.markuplib.molto_flautando_e_pont(),
     baca.pitches(khamr.color_trill_pitches),
     )
 
@@ -396,7 +396,7 @@ maker(
     ('vc', (1, 5)),
     baca.glissando(),
     baca.markup(
-        baca.markups.string_number(3),
+        baca.markuplib.string_number(3),
         direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
@@ -411,7 +411,7 @@ maker(
         baca.plts(),
         baca.trill_spanner(string='m2'),
         ),
-    baca.markups.molto_flautando_e_pont(),
+    baca.markuplib.molto_flautando_e_pont(),
     baca.pitches(khamr.color_trill_pitches),
     )
 
@@ -420,7 +420,7 @@ maker(
     baca.dynamic('f'),
     baca.glissando(),
     baca.markup(
-        baca.markups.string_number(3),
+        baca.markuplib.string_number(3),
         direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
