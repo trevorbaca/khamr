@@ -1,7 +1,7 @@
 #(set-default-paper-size "11x17" 'portrait)
 #(set-global-staff-size 11)
 
-\include "/Users/trevorbaca/baca/baca/lilypond/baca.ily"
+\include "/Users/trevorbaca/baca/lilypond/baca.ily"
 \include "contexts.ily"
 
 \paper {
