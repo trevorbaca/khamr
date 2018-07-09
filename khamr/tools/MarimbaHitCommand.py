@@ -25,6 +25,7 @@ class MarimbaHitCommand(baca.Command):
         ):
         self._attach_first_markup = bool(attach_first_markup)
         self._indices = indices
+        self._measures = None
 
     ### SPECIAL METHODS ###
 
