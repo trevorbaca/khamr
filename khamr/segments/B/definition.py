@@ -258,7 +258,7 @@ maker(
     baca.bar_extent_persistent((0, 2)),
     baca.clef('percussion'),
     baca.dynamic('pp'),
-    baca.markuplib.airtone(),
+    baca.markups.airtone(),
     baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
@@ -300,7 +300,7 @@ maker(
     ('perc', (3, 4)),
     baca.clef('percussion'),
     baca.dynamic('pp'),
-    baca.markuplib.bass_drum().boxed(),
+    baca.markups.bass_drum().boxed(),
     baca.staff_lines(1),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
@@ -309,13 +309,13 @@ maker(
     ('perc', (5, 6)),
     baca.double_staccato(selector=baca.pheads()),
     baca.dynamic('fff'),
-    baca.markuplib.castanets().boxed(),
+    baca.markups.castanets().boxed(),
     )
 
 maker(
     ('perc', (7, 9)),
     baca.dynamic('ppp'),
-    baca.markuplib.bass_drum().boxed(),
+    baca.markups.bass_drum().boxed(),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
 
@@ -328,7 +328,7 @@ maker(
     (['vn', 'va', 'vc'], (2, 6)),
     baca.pitches(khamr.rose_pitch_classes.invert().transpose(6)),
     baca.glissando(),
-    baca.markuplib.estr_sul_pont(),
+    baca.markups.estr_sul_pont(),
     baca.note_head_style_harmonic(),
     khamr.narrow_fourth_octave(),
     )
@@ -386,12 +386,12 @@ maker(
 maker(
     ('cb', 5),
     baca.dynamic('fff'),
-    baca.markuplib.estr_sul_pont(),
+    baca.markups.estr_sul_pont(),
     )
 
 maker(
     ('cb', (6, 9)),
-    baca.markuplib.arco_ordinario(),
+    baca.markups.arco_ordinario(),
     )
 
 maker(

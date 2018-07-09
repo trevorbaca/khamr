@@ -164,7 +164,7 @@ maker(
     ('fl', (4, 5)),
     baca.dynamic('fff', selector=baca.pheads()),
     baca.instrument(khamr.instruments['Flute']),
-    baca.markuplib.fluttertongue(),
+    baca.markups.fluttertongue(),
     baca.pitch('B5'),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
@@ -290,7 +290,7 @@ maker(
 maker(
     ('vn', (4, 5)),
     baca.dynamic('fff', selector=baca.pheads()),
-    baca.markuplib.arco_ordinario(),
+    baca.markups.arco_ordinario(),
     baca.pitch('A4'),
     )
 
@@ -321,7 +321,7 @@ maker(
 maker(
     ('va', (4, 5)),
     baca.dynamic('fff', selector=baca.pheads()),
-    baca.markuplib.arco_ordinario(),
+    baca.markups.arco_ordinario(),
     baca.pitch('G#4'),
     )
 
@@ -345,7 +345,7 @@ maker(
 maker(
     ('vc', (4, 5)),
     baca.dynamic('fff', selector=baca.pheads()),
-    baca.markuplib.arco_ordinario(),
+    baca.markups.arco_ordinario(),
     baca.pitch('G3'),
     )
 
@@ -354,7 +354,7 @@ maker(
     baca.dynamic('mf'),
     baca.glissando(),
     baca.markup(
-        baca.markuplib.string_numbers([3, 4]),
+        baca.markups.string_numbers([3, 4]),
         direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
@@ -364,6 +364,6 @@ maker(
 maker(
     ('cb', (4, 5)),
     baca.dynamic('fff', selector=baca.pheads()),
-    baca.markuplib.arco_ordinario(),
+    baca.markups.arco_ordinario(),
     baca.pitch('<G0 A1>'),
     )
