@@ -251,7 +251,8 @@ maker(
     baca.dynamic('pp'),
     baca.flageolet(selector=baca.pheads()),
     baca.markup(
-        baca.markups.put_reed_back_in().boxed(),
+        'put reed back in',
+        boxed=True,
         selector=baca.leaf(0),
         ),
     baca.pitch('<A4 E5>'),
@@ -307,10 +308,10 @@ maker(
     baca.accent(selector=baca.pheads()),
     baca.clef('percussion'),
     baca.dynamic('mf'),
+    baca.markup(khamr.markup.strike_lowest_strings()),
     baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
-    khamr.markup.strike_lowest_strings(),
     )
 
 maker(
@@ -350,7 +351,7 @@ maker(
     ('vn', (1, 5)),
     baca.glissando(),
     baca.markup(
-        baca.markups.string_number(4),
+        'IV',
         direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
@@ -365,7 +366,7 @@ maker(
         baca.plts(),
         baca.trill_spanner(string='m2'),
         ),
-    baca.markups.molto_flautando_e_pont(),
+    baca.markup('molto flautando e pont.'),
     baca.pitches(khamr.color_trill_pitches),
     )
 
@@ -373,7 +374,7 @@ maker(
     ('va', (1, 5)),
     baca.glissando(),
     baca.markup(
-        baca.markups.string_number(3),
+        'III',
         direction=abjad.Down,
         ),
     baca.pitches(khamr.violin_halo_pitches),
@@ -388,7 +389,7 @@ maker(
         baca.plts(),
         baca.trill_spanner(string='m2'),
         ),
-    baca.markups.molto_flautando_e_pont(),
+    baca.markup('molto flautando e pont.'),
     baca.pitches(khamr.color_trill_pitches),
     )
 
@@ -396,7 +397,7 @@ maker(
     ('vc', (1, 5)),
     baca.glissando(),
     baca.markup(
-        baca.markups.string_number(3),
+        'III',
         direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
@@ -411,7 +412,7 @@ maker(
         baca.plts(),
         baca.trill_spanner(string='m2'),
         ),
-    baca.markups.molto_flautando_e_pont(),
+    baca.markup('molto flautando e pont.'),
     baca.pitches(khamr.color_trill_pitches),
     )
 
