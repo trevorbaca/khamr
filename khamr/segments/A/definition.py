@@ -213,14 +213,18 @@ maker(
     ('gt', (2, 3)),
     baca.dynamic('mf'),
     baca.pitch('F#2'),
-    khamr.markup.sparse_guitar_clicks(),
+    baca.markup(
+        khamr.markup.sparse_guitar_clicks(),
+        ),
     )
 
 maker(
     ('gt', (4, 5)),
     baca.dynamic('ff'),
     baca.pitch('G2'),
-    khamr.markup.guitar_with_screw(),
+    baca.markup(
+        khamr.markup.guitar_with_screw(),
+        ),
     )
 
 maker(
@@ -339,7 +343,9 @@ maker(
     ('vc', 3),
     baca.dynamic('mf'),
     baca.pitch('F#3'),
-    khamr.markup.sparse_cello_clicks(),
+    baca.markup(
+        khamr.markup.sparse_cello_clicks(),
+        ),
     )
 
 maker(

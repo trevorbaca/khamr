@@ -216,13 +216,17 @@ maker(
     ('fl', (1, 2)),
     baca.dynamic('mp'),
     baca.pitch('<G3 G4>'),
-    khamr.levine_multiphonic(17),
+    baca.markup(
+        khamr.levine_multiphonic(17),
+        ),
     )
 
 maker(
     ('fl', (3, 5)),
     baca.pitch('<G#3 G#4>'),
-    khamr.levine_multiphonic(22),
+    baca.markup(
+        khamr.levine_multiphonic(22),
+        ),
     )
 
 maker(
@@ -242,7 +246,9 @@ maker(
     baca.staff_lines(1),
     baca.staff_position(0),
     baca.repeat_tie_up(),
-    khamr.markup.airtone_without_reed(),
+    baca.markup(
+        khamr.markup.airtone_without_reed(),
+        ),
     )
 
 maker(
@@ -275,21 +281,27 @@ maker(
     ('sax', (6, 7)),
     baca.dynamic('p'),
     baca.pitch('<F3 G+3>'),
-    khamr.weiss_multiphonic(77),
+    baca.markup(
+        khamr.weiss_multiphonic(77),
+        ),
     )
 
 maker(
     ('gt', (1, 3)),
     baca.dynamic('f'),
     baca.pitches(khamr.rose_pitch_classes),
-    khamr.markup.half_harmonics_explanation(),
+    baca.markup(
+        khamr.markup.half_harmonics_explanation(),
+        ),
     khamr.wide_third_octave(),
     )
 
 maker(
     ('gt', (4, 7)),
     baca.tuplet_bracket_staff_padding(4),
-    khamr.markup.move_towards_the_bridge(),
+    baca.markup(
+        khamr.markup.move_towards_the_bridge(),
+        ),
     khamr.narrow_fourth_octave(),
     )
 
@@ -320,7 +332,9 @@ maker(
     baca.dynamic('mf'),
     baca.ottava(),
     baca.staff_lines(5),
-    khamr.markup.match_guitar_dynamic_levels(),
+    baca.markup(
+        khamr.markup.match_guitar_dynamic_levels(),
+        ),
     khamr.sixth_octave(),
     )
 
@@ -331,7 +345,9 @@ maker(
     baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
-    khamr.markup.sparse_piano_clicks(),
+    baca.markup(
+        khamr.markup.sparse_piano_clicks(),
+        ),
     )
 
 maker(
@@ -344,7 +360,7 @@ maker(
     baca.repeat_tie_up(),
     baca.stem_down(),
     khamr.MarimbaHitCommand([3, 7], attach_first_markup=True),
-    khamr.markup.XL_tam_tam().boxed(),
+    baca.markup('XL tam-tam', boxed=True),
     )
 
 maker(
@@ -435,7 +451,9 @@ maker(
 
 maker(
     (['vn', 'va', 'vc', 'cb'], (1, 7)),
-    khamr.markup.emphasize_multiphonics(),
+    baca.markup(
+        khamr.markup.emphasize_multiphonics(),
+        ),
     )
 
 maker(

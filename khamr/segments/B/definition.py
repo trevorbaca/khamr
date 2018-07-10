@@ -198,7 +198,9 @@ maker(
     ('fl', 9),
     baca.dynamic('pp'),
     baca.pitch('Bb4'), # (sounds B3)
-    khamr.markup.covered_flute_airtone(),
+    baca.markup(
+        khamr.markup.covered_flute_airtone(),
+        ),
     )
 
 maker(
@@ -220,7 +222,9 @@ maker(
     baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
-    khamr.markup.airtone_without_reed(),
+    baca.markup(
+        khamr.markup.airtone_without_reed(),
+        ),
     )
 
 maker(
@@ -399,5 +403,7 @@ maker(
     baca.dynamic('mp'),
     baca.pitch('G0'),
     baca.trill_spanner(string='F3', harmonic=True),
-    khamr.markup.scodanibbio(),
+    baca.markup(
+        khamr.markup.scodanibbio(),
+        ),
     )
