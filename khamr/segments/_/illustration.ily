@@ -4497,7 +4497,7 @@ i_ViolinMusicVoice = {
     f'2
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                                               %! IC
-    ^ \markup { "molto flautando ed estr. sul pont." }                     %! IC
+    ^ \markup { "molto flautando e pont." }                                %! IC
     \startTrillSpan gf'
     \times 4/5 {
         
@@ -5050,7 +5050,7 @@ i_ViolaMusicVoice = {
     f'2.
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                                               %! IC
-    ^ \markup { "molto flautando ed estr. sul pont." }                     %! IC
+    ^ \markup { "molto flautando e pont." }                                %! IC
     \startTrillSpan gf'
     \times 4/5 {
         
@@ -5567,7 +5567,7 @@ i_CelloMusicVoice = {
     f'2.
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                                               %! IC
-    ^ \markup { "molto flautando ed estr. sul pont." }                     %! IC
+    ^ \markup { "molto flautando e pont." }                                %! IC
     \startTrillSpan gf'
     
     % [_ CelloMusicVoice measure 38]                                       %! SM4
