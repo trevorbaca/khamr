@@ -9,21 +9,34 @@ from abjadext import rmakers
 ##################################### [B] #####################################
 ###############################################################################
 
+def stage(n):
+    return {
+        1: (1, 2),
+        2: (3, 4),
+        3: (5, 7),
+        4: (8, 9),
+        5: (10, 25),
+        6: (26, 29),
+        7: (30, 31),
+        8: (32, 33),
+        9: (34, 37),
+        }[n]
+
 maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
-    measures_per_stage=[
-        2, 2,       # 1-2 (126)
-        3, 2,       # 3-4 (63->126)
-        16,         # 5 (126)
-        4,          # 6 (63)
-        2, 2, 4,    # 7-9 (42)
-        ],
+#    measures_per_stage=[
+#        2, 2,       # 1-2 (126)
+#        3, 2,       # 3-4 (63->126)
+#        16,         # 5 (126)
+#        4,          # 6 (63)
+#        2, 2, 4,    # 7-9 (42)
+#        ],
     metronome_mark_measure_map=[
-        (3, khamr.metronome_marks['63']),
-        (3, baca.Accelerando()),
-        (5, khamr.metronome_marks['126']),
-        (6, khamr.metronome_marks['63']),
-        (7, khamr.metronome_marks['42']),
+        (5, khamr.metronome_marks['63']),
+        (5, baca.Accelerando()),
+        (10, khamr.metronome_marks['126']),
+        (26, khamr.metronome_marks['63']),
+        (30, khamr.metronome_marks['42']),
         ],
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=khamr.time_signatures[:37],
@@ -38,164 +51,164 @@ maker(
     )
 
 maker(
-    ('fl', 1),
+    ('fl', (1, 2)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('fl', (5, 6)),
+    ('fl', (10, 29)),
     khamr.aviary((7, 16), [1]),
     )
 
 maker(
-    ('fl', 9),
+    ('fl', (34, 37)),
     khamr.fused_wind([8], None, 16),
     )
 
 maker(
-    ('ob', 1),
+    ('ob', (1, 2)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('ob', (5, 6)),
+    ('ob', (10, 29)),
     baca.instrument(khamr.instruments['Oboe']),
     khamr.aviary((5, 16), [1]),
     )
 
 maker(
-    ('ob', 9),
+    ('ob', (34, 37)),
     khamr.fused_wind([10], rmakers.silence([0]), 16),
     )
 
 maker(
-    ('cl', 1),
+    ('cl', (1, 2)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('cl', (5, 6)),
+    ('cl', (10, 29)),
     baca.instrument(khamr.instruments['Clarinet']),
     khamr.aviary((8, 16), [1]),
     )
 
 maker(
-    ('cl', (8, 9)),
+    ('cl', (32, 37)),
     baca.instrument(khamr.instruments['BassClarinet']),
     baca.make_repeat_tied_notes(rmakers.silence([-1])),
     )
 
 maker(
-    ('sax', 1),
+    ('sax', (1, 2)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('sax', (5, 6)),
+    ('sax', (10, 29)),
     baca.instrument(khamr.instruments['SopraninoSaxophone']),
     khamr.aviary((6, 16), [1]),
     )
 
 maker(
-    ('sax', 9),
+    ('sax', (34, 37)),
     khamr.fused_wind([12], None, 16),
     )
 
 maker(
-    ('gt', 1),
+    ('gt', (1, 2)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('gt', (5, 6)),
+    ('gt', (10, 29)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('pf', (1, 4)),
+    ('pf', (1, 9)),
     khamr.current([4, 4, 4, 3, 5, 5, 5, 3, 3, 4, 4, 3, 3, 5, 5, 5, 5, 5]),
     )
 
 maker(
-    ('pf', (5, 6)),
+    ('pf', (10, 29)),
     khamr.aviary((9, 16), [2]),
     )
 
 maker(
-    ('perc', (3, 4)),
+    ('perc', (5, 9)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('perc', 5),
+    ('perc', (10, 25)),
     baca.make_repeated_duration_notes([(1, 4)], do_not_rewrite_meter=True),
     )
 
 maker(
-    ('perc', 6),
+    ('perc', (26, 29)),
     baca.make_repeated_duration_notes([(3, 8)], do_not_rewrite_meter=True),
     )
 
 maker(
-    ('perc', (7, 9)),
+    ('perc', (30, 37)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('vn', 1),
+    ('vn', (1, 2)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('vn', (2, 6)),
+    ('vn', (3, 29)),
     khamr.continuous_glissandi(0, rmakers.sustain([0, 1, 3], 7)),
     )
 
 maker(
-    ('va', 1),
+    ('va', (1, 2)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('va', (2, 6)),
+    ('va', (3, 29)),
     khamr.continuous_glissandi(-1, rmakers.sustain([1, 2, 4], 7)),
     )
 
 maker(
-    ('vc', 1),
+    ('vc', (1, 2)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('vc', (2, 6)),
+    ('vc', (3, 29)),
     khamr.continuous_glissandi(-2, rmakers.sustain([2, 3, 5], 7)),
     )
 
 maker(
-    ('cb', [1, 2, 3, 4, 5, 6]),
+    ('cb', [(1, 2), (3, 4), (5, 7), (8, 9), (10, 25), (26, 29)]),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('cb', [7, (8, 9)]),
+    ('cb', [(30, 31), (32, 37)]),
     baca.make_repeat_tied_notes(rmakers.silence([-1])),
     )
 
 maker(
-    ('fl', 1),
+    ('fl', (1, 2)),
     baca.pitch('B5'),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 maker(
-    ('fl', (5, 6)),
+    ('fl', (10, 29)),
     baca.accent(selector=baca.top().tuplets().map(baca.leaf(0))),
     baca.dynamic('fff'),
     baca.pitches('D6 E6 F#6 C6 C#6 D6 D#6 F6'),
     )
 
 maker(
-    ('fl', 9),
+    ('fl', (34, 37)),
     baca.dynamic('pp'),
     baca.pitch('Bb4'), # (sounds B3)
     baca.markup(
@@ -204,19 +217,19 @@ maker(
     )
 
 maker(
-    ('ob', 1),
+    ('ob', (1, 2)),
     baca.pitch('G#3'),
     )
 
 maker(
-    ('ob', (5, 6)),
+    ('ob', (10, 29)),
     baca.accent(selector=baca.top().tuplets().map(baca.leaf(0))),
     baca.dynamic('fff'),
     baca.pitches('C6 C#6 D#6 E6 F6 F#6'),
     )
 
 maker(
-    ('ob', 9),
+    ('ob', (34, 37)),
     baca.clef('percussion'),
     baca.dynamic('pp'),
     baca.repeat_tie_up(),
@@ -228,37 +241,37 @@ maker(
     )
 
 maker(
-    ('cl', 1),
+    ('cl', (1, 2)),
     baca.pitch('F#2'),
     )
 
 maker(
-    ('cl', (5, 6)),
+    ('cl', (10, 29)),
     baca.accent(selector=baca.top().tuplets().map(baca.leaf(0))),
     baca.dynamic('fff'),
     baca.pitches('D6 D#6 F6 F#6 C6 C#6 D#6 E6 F6'),
     )
 
 maker(
-    ('cl', (8, 9)),
+    ('cl', (32, 37)),
     baca.dynamic('ppp'),
     baca.pitch('G2'),
     )
 
 maker(
-    ('sax', 1),
+    ('sax', (1, 2)),
     baca.pitch('G#2'),
     )
 
 maker(
-    ('sax', (5, 6)),
+    ('sax', (10, 29)),
     baca.accent(selector=baca.top().tuplets().map(baca.leaf(0))),
     baca.dynamic('fff'),
     baca.pitches('C6 C#6 D6 F6 F#6 D#6 E6'),
     )
 
 maker(
-    ('sax', 9),
+    ('sax', (34, 37)),
     baca.bar_extent_persistent((0, 2)),
     baca.clef('percussion'),
     baca.dynamic('pp'),
@@ -269,19 +282,19 @@ maker(
     )
 
 maker(
-    ('gt', 1),
+    ('gt', (1, 2)),
     baca.pitch('G3'),
     )
 
 maker(
-    ('gt', (5, 6)),
+    ('gt', (10, 29)),
     baca.dynamic('fff'),
     baca.pitch('Ab4'),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 maker(
-    ('pf', (1, 4)),
+    ('pf', (1, 9)),
     baca.dynamic('fff'),
     baca.pitches(khamr.rose_pitch_classes.invert().transpose(2)),
     baca.ottava(),
@@ -289,19 +302,19 @@ maker(
     )
 
 maker(
-    ('pf', (3, 4)),
+    ('pf', (5, 9)),
     baca.dynamic('ffff'),
     )
 
 maker(
-    ('pf', (5, 6)),
+    ('pf', (10, 29)),
     baca.accent(selector=baca.top().tuplets().map(baca.leaf(0))),
     baca.dynamic('fff'),
     baca.pitches('C6 D6 D#6 E6 F6 F#6 C6 C#6 D#6 E6 F6'),
     )
 
 maker(
-    ('perc', (3, 4)),
+    ('perc', (5, 9)),
     baca.clef('percussion'),
     baca.dynamic('pp'),
     baca.markup('bass drum', boxed=True),
@@ -310,26 +323,26 @@ maker(
     )
 
 maker(
-    ('perc', (5, 6)),
+    ('perc', (10, 29)),
     baca.double_staccato(selector=baca.pheads()),
     baca.dynamic('fff'),
     baca.markup('castanets', boxed=True),
     )
 
 maker(
-    ('perc', (7, 9)),
+    ('perc', (30, 37)),
     baca.dynamic('ppp'),
     baca.markup('bass drum', boxed=True),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 maker(
-    ('vn', 1),
+    ('vn', (1, 2)),
     baca.pitch('A4'),
     )
 
 maker(
-    (['vn', 'va', 'vc'], (2, 6)),
+    (['vn', 'va', 'vc'], (3, 29)),
     baca.pitches(khamr.rose_pitch_classes.invert().transpose(6)),
     baca.glissando(),
     baca.markup('estr. sul pont.'),
@@ -338,68 +351,68 @@ maker(
     )
 
 maker(
-    (['vn', 'va', 'vc'], 2),
+    (['vn', 'va', 'vc'], (3, 4)),
     baca.dynamic('p'),
     )
 
 maker(
-    (['vn', 'va', 'vc'], 5),
+    (['vn', 'va', 'vc'], (10, 25)),
     baca.dynamic('fff'),
     )
 
 maker(
-    (['vn', 'va', 'vc'], (3, 4)),
+    (['vn', 'va', 'vc'], (5, 9)),
     baca.hairpin('pp < f'),
     )
 
 maker(
-    ('va', 1),
+    ('va', (1, 2)),
     baca.pitch('G#4'),
     )
 
 maker(
-    ('vc', 1),
+    ('vc', (1, 2)),
     baca.pitch('G3'),
     )
 
 maker(
-    ('cb', 1),
+    ('cb', (1, 2)),
     baca.pitch('<G0 A1>'),
     )
 
 maker(
-    ('cb', (2, 5)),
+    ('cb', (3, 25)),
     baca.pitch('<G#0 A#1>'),
     )
 
 maker(
-    ('cb', (6, 7)),
+    ('cb', (26, 31)),
     baca.pitch('<G0 A1>'),
     )
 
 maker(
-    ('cb', 2),
+    ('cb', (3, 4)),
     baca.dynamic('p'),
     )
 
 maker(
-    ('cb', (3, 4)),
+    ('cb', (5, 9)),
     baca.hairpin('p < f'),
     )
 
 maker(
-    ('cb', 5),
+    ('cb', (10, 25)),
     baca.dynamic('fff'),
     baca.markup('estr. sul pont.'),
     )
 
 maker(
-    ('cb', (6, 9)),
+    ('cb', (26, 37)),
     baca.markup('arco ordinario'),
     )
 
 maker(
-    ('cb', (8, 9)),
+    ('cb', (32, 37)),
     baca.dynamic('mp'),
     baca.pitch('G0'),
     baca.trill_spanner(string='F3', harmonic=True),
