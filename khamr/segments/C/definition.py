@@ -24,7 +24,6 @@ def stage(n):
 maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     last_segment=True,
-    #measures_per_stage=[3, 2, 2, 2, 2, 2, 2, 5],
     metronome_mark_measure_map=[
         (8, baca.Accelerando()),
         (16, khamr.metronome_marks['84']),
