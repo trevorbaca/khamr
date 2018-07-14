@@ -22,16 +22,24 @@ def stage(n):
 
 maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
-    metronome_mark_measure_map=[
-        (1, khamr.metronome_marks['126']),
-        (25, khamr.metronome_marks['63']),
-        (25, baca.Accelerando()),
-        (37, khamr.metronome_marks['84']),
-        ],
+#    metronome_mark_measure_map=[
+#        (1, khamr.metronome_marks['126']),
+#        (25, khamr.metronome_marks['63']),
+#        (25, baca.Accelerando()),
+#        (37, khamr.metronome_marks['84']),
+#        ],
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=khamr.time_signatures[:44],
     transpose_score=True,
     validate_measure_count=44,
+    )
+
+maker(
+    'GlobalSkips',
+    baca.metronome_mark('126', selector=baca.leaf(1 - 1)),
+    baca.metronome_mark('63', selector=baca.leaf(25 - 1)),
+    baca.metronome_mark(baca.Accelerando(), selector=baca.leaf(25 - 1)),
+    baca.metronome_mark('84', selector=baca.leaf(37 - 1)),
     )
 
 maker(

@@ -148,7 +148,7 @@ A_GlobalSkips = {
 %@%         [2'04'']                                                               %! SM28:CLOCK_TIME_MARKUP
 %@%     }                                                                          %! SM28:CLOCK_TIME_MARKUP
     \stopTextSpan                                                                  %! MMI1
-%@% - \abjad_dashed_line_with_arrow                                                %! MMI2
+%@% - \abjad_invisible_line                                                        %! MMI2
 %@% - \tweak bound-details.left.text \markup {                                     %! MMI2
 %@%     \concat                                                                    %! MMI2
 %@%         {                                                                      %! MMI2
@@ -158,7 +158,7 @@ A_GlobalSkips = {
 %@%         }                                                                      %! MMI2
 %@%     }                                                                          %! MMI2
 %@% \startTextSpan                                                                 %! MMI2
-    - \abjad_dashed_line_with_arrow                                                %! MMI3
+    - \abjad_invisible_line                                                        %! MMI3
     - \tweak bound-details.left.text \markup {                                     %! MMI3
         \concat                                                                    %! MMI3
             {                                                                      %! MMI3
