@@ -8,10 +8,6 @@ def fused_expanse(fuse_by_counts, dmask=None):
     """
     Makes fused expanse rhythm.
     """
-    if dmask is None:
-        division_masks = None
-    else:
-        division_masks = [dmask]
     return baca.rhythm(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
@@ -19,7 +15,7 @@ def fused_expanse(fuse_by_counts, dmask=None):
                 ),
         rewrite_meter=True,
         rhythm_maker=rmakers.NoteRhythmMaker(
-            division_masks=division_masks,
+            division_masks=dmask,
             tie_specifier=rmakers.TieSpecifier(
                 repeat_ties=True,
                 )

@@ -52,7 +52,7 @@ maker(
 
 maker(
     ('fl', (34, 37)),
-    khamr.fused_wind([8], None, 16),
+    khamr.fused_wind([8], denominator=16),
     )
 
 maker(
@@ -68,7 +68,7 @@ maker(
 
 maker(
     ('ob', (34, 37)),
-    khamr.fused_wind([10], rmakers.silence([0]), 16),
+    khamr.fused_wind([10], dmask=rmakers.silence([0]), denominator=16),
     )
 
 maker(
@@ -85,7 +85,9 @@ maker(
 maker(
     ('cl', (32, 37)),
     baca.instrument(khamr.instruments['BassClarinet']),
-    baca.make_repeat_tied_notes(rmakers.silence([-1])),
+    baca.make_repeat_tied_notes(
+        dmask=rmakers.silence([-1]),
+        ),
     )
 
 maker(
@@ -101,7 +103,7 @@ maker(
 
 maker(
     ('sax', (34, 37)),
-    khamr.fused_wind([12], None, 16),
+    khamr.fused_wind([12], denominator=16),
     )
 
 maker(
@@ -181,7 +183,9 @@ maker(
 
 maker(
     ('cb', [(30, 31), (32, 37)]),
-    baca.make_repeat_tied_notes(rmakers.silence([-1])),
+    baca.make_repeat_tied_notes(
+        dmask=rmakers.silence([-1]),
+        ),
     )
 
 maker(

@@ -39,12 +39,12 @@ maker(
 
 maker(
     ('fl', (1, 15)),
-    khamr.fused_wind([8], None, 16),
+    khamr.fused_wind([8], denominator=16),
     )
 
 maker(
     ('ob', (1, 15)),
-    khamr.fused_wind([10], None, 16),
+    khamr.fused_wind([10], denominator=16),
     )
 
 maker(
@@ -54,17 +54,21 @@ maker(
 
 maker(
     ('sax', (1, 15)),
-    khamr.fused_wind([12], None, 16),
+    khamr.fused_wind([12], denominator=16),
     )
 
 maker(
     ('gt', (1, 7)),
-    baca.make_repeat_tied_notes([rmakers.silence([0], 1), rmakers.sustain([-1])]),
+    baca.make_repeat_tied_notes(
+        dmask=[rmakers.silence([0], 1), rmakers.sustain([-1])],
+        ),
     )
 
 maker(
     ('gt', (8, 15)),
-    baca.make_repeat_tied_notes([rmakers.silence([0], 1), rmakers.sustain([0])]),
+    baca.make_repeat_tied_notes(
+        dmask=[rmakers.silence([0], 1), rmakers.sustain([0])],
+        ),
     )
 
 maker(
@@ -74,12 +78,16 @@ maker(
 
 maker(
     ('pf', (1, 7)),
-    baca.make_repeat_tied_notes([rmakers.silence([0], 1), rmakers.sustain([-1])]),
+    baca.make_repeat_tied_notes(
+        dmask=[rmakers.silence([0], 1), rmakers.sustain([-1])],
+        ),
     )
 
 maker(
     ('pf', (8, 15)),
-    baca.make_repeat_tied_notes([rmakers.silence([0], 1), rmakers.sustain([0])]),
+    baca.make_repeat_tied_notes(
+        dmask=[rmakers.silence([0], 1), rmakers.sustain([0])],
+        ),
     )
 
 maker(
@@ -89,7 +97,9 @@ maker(
 
 maker(
     ('perc', (1, 5)),
-    baca.make_repeat_tied_notes(rmakers.silence([-1])),
+    baca.make_repeat_tied_notes(
+        dmask=rmakers.silence([-1]),
+        ),
     )
 
 maker(

@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def guitar_isolata(dmask=None):
+def guitar_isolata(*, dmask=None):
     """
     Makes guitar isolata.
     """

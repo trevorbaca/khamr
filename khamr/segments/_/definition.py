@@ -126,22 +126,34 @@ maker(
 
 maker(
     'fl',
-    khamr.fused_wind([10, 10, 6, 10, 8, 6], rmakers.silence([2, 5], 6)),
+    khamr.fused_wind(
+        [10, 10, 6, 10, 8, 6],
+        dmask=rmakers.silence([2, 5], 6)
+        ),
     )
 
 maker(
     'ob',
-    khamr.fused_wind([12, 6, 10, 10, 6, 8], rmakers.silence([1, 4], 6)),
+    khamr.fused_wind(
+        [12, 6, 10, 10, 6, 8],
+        dmask=rmakers.silence([1, 4], 6),
+        ),
     )
 
 maker(
     'cl',
-    khamr.fused_wind([8, 6, 10, 6, 10, 8], rmakers.silence([1, 3], 6)),
+    khamr.fused_wind(
+        [8, 6, 10, 6, 10, 8],
+        dmask=rmakers.silence([1, 3], 6),
+        ),
     )
 
 maker(
     'sax',
-    khamr.fused_wind([14, 6, 10, 6, 10, 8], rmakers.silence([1, 3], 6)),
+    khamr.fused_wind(
+        [14, 6, 10, 6, 10, 8],
+        dmask=rmakers.silence([1, 3], 6),
+        ),
     )
 
 maker(
@@ -156,7 +168,7 @@ maker(
 
 maker(
     ('gt', (41, 44)),
-    khamr.guitar_isolata(rmakers.silence([1, 2, 3, 5, 6, 7, 8], 9)),
+    khamr.guitar_isolata(dmask=rmakers.silence([1, 2, 3, 5, 6, 7, 8], 9)),
     )
 
 maker(
@@ -171,7 +183,7 @@ maker(
 
 maker(
     ('pf', (37, 40)),
-    khamr.guitar_isolata(rmakers.silence([1, 2, 3, 5, 6, 7, 8], 9)),
+    khamr.guitar_isolata(dmask=rmakers.silence([1, 2, 3, 5, 6, 7, 8], 9)),
     )
 
 maker(
