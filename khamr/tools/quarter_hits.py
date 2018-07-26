@@ -3,14 +3,14 @@ import baca
 from abjadext import rmakers
 
 
-def quarter_hits(division_mask=None):
+def quarter_hits(dmask=None):
     """
     Makes quarter hits.
     """
-    if division_mask is None:
+    if dmask is None:
         division_masks = None
     else:
-        division_masks = [division_mask]
+        division_masks = [dmask]
     return baca.rhythm(
         division_maker=baca.DivisionMaker()
             .split_by_durations(

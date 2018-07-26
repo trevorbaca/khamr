@@ -4,7 +4,7 @@ import khamr
 from abjadext import rmakers
 
 
-def continuous_glissandi(tuplet_ratio_rotation, division_mask):
+def continuous_glissandi(tuplet_ratio_rotation, dmask):
     """
     Makes continuous glissandi rhythm.
     """
@@ -15,10 +15,10 @@ def continuous_glissandi(tuplet_ratio_rotation, division_mask):
         ])
     tuplet_ratio_rotation *= 2
     tuplet_ratios = tuplet_ratios.rotate(n=tuplet_ratio_rotation)
-    if isinstance(division_mask, list):
-        division_masks = division_mask[:]
+    if isinstance(dmask, list):
+        division_masks = dmask[:]
     else:
-        division_masks = [division_mask]
+        division_masks = [dmask]
     return baca.rhythm(
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
