@@ -4,14 +4,14 @@ import khamr
 from abjadext import rmakers
 
 
-def trill_tuplets(tuplet_ratios, division_mask=None):
+def trill_tuplets(tuplet_ratios, dmask=None):
     """
     Makes trill tuplet rhythm.
     """
-    if division_mask is None:
+    if dmask is None:
         division_masks = None
     else:
-        division_masks = [division_mask]
+        division_masks = [dmask]
     return baca.rhythm(
         division_maker=khamr.quarter_divisions(),
         rewrite_meter=True,
