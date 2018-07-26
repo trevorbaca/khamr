@@ -4,16 +4,10 @@ import khamr
 from abjadext import rmakers
 
 
-def fused_wind(fuse_by_counts, dmask, denominator=8):
+def fused_wind(fuse_by_counts, *, dmask=None, denominator=8):
     """
     Makes fused wind rhythm.
     """
-    if dmask is None:
-        division_masks = None
-    elif isinstance(dmask, list):
-        division_masks = dmask[:]
-    else:
-        division_masks = [dmask]
     return baca.rhythm(
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
@@ -28,7 +22,7 @@ def fused_wind(fuse_by_counts, dmask, denominator=8):
                 suffix_counts=[1],
                 talea_denominator=denominator,
                 ),
-            division_masks=division_masks,
+            division_masks=dmask,
             tie_specifier=rmakers.TieSpecifier(
                 repeat_ties=True,
                 ),

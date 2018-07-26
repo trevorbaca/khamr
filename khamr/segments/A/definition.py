@@ -45,19 +45,25 @@ stage_5_silence_mask = rmakers.silence([
 
 maker(
     ('fl', (1, 8)),
-    khamr.fused_wind([10, 10, 6, 8, 6], rmakers.silence([2, 5], 6)),
+    khamr.fused_wind(
+        [10, 10, 6, 8, 6],
+        dmask=rmakers.silence([2, 5], 6),
+        ),
     )
 
 maker(
     ('ob', (1, 8)),
-    khamr.fused_wind([12, 6, 10, 10, 6, 8], rmakers.silence([1, 4], 6)),
+    khamr.fused_wind(
+        [12, 6, 10, 10, 6, 8],
+        dmask=rmakers.silence([1, 4], 6),
+        ),
     )
 
 maker(
     ('cl', (1, 14)),
     khamr.fused_wind(
         [8, 6, 10, 6, 10, 8],
-        [rmakers.silence([1, 3], 6), rmakers.silence([-1])],
+        dmask=[rmakers.silence([1, 3], 6), rmakers.silence([-1])],
         ),
     )
 
@@ -65,23 +71,27 @@ maker(
     ('sax', (1, 8)),
     khamr.fused_wind(
         [14, 6, 10, 6, 10, 8],
-        rmakers.silence([1, 3], 6),
+        dmask=rmakers.silence([1, 3], 6),
         ),
     )
 
 maker(
     ('gt', (1, 4)),
-    khamr.guitar_isolata(rmakers.silence([1, 2, 3, 5, 6, 7, 8], 9)),
+    khamr.guitar_isolata(dmask=rmakers.silence([1, 2, 3, 5, 6, 7, 8], 9)),
     )
 
 maker(
     ('gt', (5, 14)),
-    baca.make_repeat_tied_notes(rmakers.silence([-1])),
+    baca.make_repeat_tied_notes(
+        dmask=rmakers.silence([-1]),
+        ),
     )
 
 maker(
     ('pf', (1, 14)),
-    baca.make_repeat_tied_notes(rmakers.silence([-1])),
+    baca.make_repeat_tied_notes(
+        dmask=rmakers.silence([-1]),
+        ),
     )
 
 maker(
@@ -102,7 +112,7 @@ maker(
 maker(
     ('perc', (15, 20)),
     khamr.quarter_hits(
-        rmakers.silence([
+        dmask=rmakers.silence([
             0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 
             12, 13, 14, 15, 16, 18, 19, 20,
             ]),
@@ -116,22 +126,24 @@ maker(
 
 maker(
     ('vn', (1, 14)),
-    khamr.trill_tuplets(4, rmakers.silence([-2, -1])),
+    khamr.trill_tuplets(4, dmask=rmakers.silence([-2, -1])),
     )
 
 maker(
     ('va', (1, 14)),
-    khamr.trill_tuplets(3, rmakers.silence([-2, -1])),
+    khamr.trill_tuplets(3, dmask=rmakers.silence([-2, -1])),
     )
 
 maker(
     ('vc', (1, 8)),
-    khamr.trill_tuplets(2, rmakers.silence([-2, -1])),
+    khamr.trill_tuplets(2, dmask=rmakers.silence([-2, -1])),
     )
 
 maker(
     ('vc', (9, 14)),
-    baca.make_repeat_tied_notes(rmakers.silence([-1])),
+    baca.make_repeat_tied_notes(
+        dmask=rmakers.silence([-1]),
+        ),
     )
 
 maker(
