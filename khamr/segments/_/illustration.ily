@@ -854,7 +854,6 @@ i_OboeMusicVoice = {
     \stopStaff                                                             %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 1                       %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                                            %! SM8:EXPLICIT_STAFF_LINES:IC
-    \override RepeatTie.direction = #up                                    %! OC1
     \clef "percussion"                                                     %! SM8:EXPLICIT_CLEF:IC
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)        %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
     \once \override Staff.Clef.color = #(x11-color 'blue)                  %! SM6:EXPLICIT_CLEF_COLOR:IC
@@ -896,6 +895,7 @@ i_OboeMusicVoice = {
     
     % [_ OboeMusicVoice measure 3]                                         %! SM4
     c'1.
+    - \tweak direction #up
     \repeatTie
     
     % [_ OboeMusicVoice measure 4]                                         %! SM4
@@ -937,6 +937,7 @@ i_OboeMusicVoice = {
     
     % [_ OboeMusicVoice measure 11]                                        %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [_ OboeMusicVoice measure 12]                                        %! SM4
@@ -957,6 +958,7 @@ i_OboeMusicVoice = {
     
     % [_ OboeMusicVoice measure 15]                                        %! SM4
     c'1.
+    - \tweak direction #up
     \repeatTie
     
     % [_ OboeMusicVoice measure 16]                                        %! SM4
@@ -977,6 +979,7 @@ i_OboeMusicVoice = {
     
     % [_ OboeMusicVoice measure 19]                                        %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [_ OboeMusicVoice measure 20]                                        %! SM4
@@ -1001,6 +1004,7 @@ i_OboeMusicVoice = {
     
     % [_ OboeMusicVoice measure 24]                                        %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [_ OboeMusicVoice measure 25]                                        %! SM4
@@ -1014,6 +1018,7 @@ i_OboeMusicVoice = {
     
     % [_ OboeMusicVoice measure 27]                                        %! SM4
     c'1.
+    - \tweak direction #up
     \repeatTie
     
     % [_ OboeMusicVoice measure 28]                                        %! SM4
@@ -1047,16 +1052,17 @@ i_OboeMusicVoice = {
     
     % [_ OboeMusicVoice measure 34]                                        %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [_ OboeMusicVoice measure 35]                                        %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [_ OboeMusicVoice measure 36]                                        %! SM4
     c'8
     \repeatTie
-    \revert RepeatTie.direction                                            %! OC2
     
     r8
     
@@ -2685,7 +2691,6 @@ i_PianoMusicVoice = {
     \stopStaff                                                             %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 1                       %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                                            %! SM8:EXPLICIT_STAFF_LINES:IC
-    \override RepeatTie.direction = #up                                    %! OC1
     \clef "percussion"                                                     %! SM8:EXPLICIT_CLEF:IC
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)        %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
     \once \override Staff.Clef.color = #(x11-color 'blue)                  %! SM6:EXPLICIT_CLEF_COLOR:IC
@@ -2728,6 +2733,7 @@ i_PianoMusicVoice = {
     
     % [_ PianoMusicVoice measure 3]                                        %! SM4
     c'1.
+    - \tweak direction #up
     \repeatTie
     
     % [_ PianoMusicVoice measure 4]                                        %! SM4
@@ -2736,6 +2742,7 @@ i_PianoMusicVoice = {
     
     % [_ PianoMusicVoice measure 5]                                        %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [_ PianoMusicVoice measure 6]                                        %! SM4
@@ -2769,6 +2776,7 @@ i_PianoMusicVoice = {
     
     % [_ PianoMusicVoice measure 11]                                       %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [_ PianoMusicVoice measure 12]                                       %! SM4
@@ -2810,10 +2818,12 @@ i_PianoMusicVoice = {
     
     % [_ PianoMusicVoice measure 19]                                       %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [_ PianoMusicVoice measure 20]                                       %! SM4
     c'1.
+    - \tweak direction #up
     \repeatTie
     
     % [_ PianoMusicVoice measure 21]                                       %! SM4
@@ -2833,8 +2843,8 @@ i_PianoMusicVoice = {
     
     % [_ PianoMusicVoice measure 24]                                       %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
-    \revert RepeatTie.direction                                            %! OC2
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3225,7 +3235,6 @@ i_PianoMusicVoice = {
     \stopStaff                                                             %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 1                       %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                                            %! SM8:EXPLICIT_STAFF_LINES:IC
-    \override RepeatTie.direction = #up                                    %! OC1
     \clef "percussion"                                                     %! SM8:EXPLICIT_CLEF:IC
     \once \override Staff.Clef.color = #(x11-color 'blue)                  %! SM6:EXPLICIT_CLEF_COLOR:IC
 %@% \override Staff.Clef.color = ##f                                       %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
@@ -3274,12 +3283,13 @@ i_PianoMusicVoice = {
     
     % [_ PianoMusicVoice measure 43]                                       %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [_ PianoMusicVoice measure 44]                                       %! SM4
     c'1.
+    - \tweak direction #up
     \repeatTie
-    \revert RepeatTie.direction                                            %! OC2
     
 }
 
@@ -3315,7 +3325,6 @@ i_PercussionMusicVoice = {
     \stopStaff                                                             %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 1                       %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                                            %! SM8:EXPLICIT_STAFF_LINES:IC
-    \override RepeatTie.direction = #up                                    %! OC1
     \override Stem.direction = #down                                       %! OC1
     \clef "percussion"                                                     %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)            %! SM6:DEFAULT_CLEF_COLOR:ST3
@@ -3364,6 +3373,7 @@ i_PercussionMusicVoice = {
     
     % [_ PercussionMusicVoice measure 3]                                   %! SM4
     c'1.
+    - \tweak direction #up
     \repeatTie
     
     % [_ PercussionMusicVoice measure 4]                                   %! SM4
@@ -3372,6 +3382,7 @@ i_PercussionMusicVoice = {
     
     % [_ PercussionMusicVoice measure 5]                                   %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [_ PercussionMusicVoice measure 6]                                   %! SM4
@@ -3405,6 +3416,7 @@ i_PercussionMusicVoice = {
     
     % [_ PercussionMusicVoice measure 11]                                  %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [_ PercussionMusicVoice measure 12]                                  %! SM4
@@ -3473,10 +3485,12 @@ i_PercussionMusicVoice = {
     
     % [_ PercussionMusicVoice measure 19]                                  %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [_ PercussionMusicVoice measure 20]                                  %! SM4
     c'1.
+    - \tweak direction #up
     \repeatTie
     
     % [_ PercussionMusicVoice measure 21]                                  %! SM4
@@ -3496,6 +3510,7 @@ i_PercussionMusicVoice = {
     
     % [_ PercussionMusicVoice measure 24]                                  %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [_ PercussionMusicVoice measure 25]                                  %! SM4
@@ -3508,10 +3523,12 @@ i_PercussionMusicVoice = {
     
     % [_ PercussionMusicVoice measure 27]                                  %! SM4
     c'1.
+    - \tweak direction #up
     \repeatTie
     
     % [_ PercussionMusicVoice measure 28]                                  %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [_ PercussionMusicVoice measure 29]                                  %! SM4
@@ -3524,6 +3541,7 @@ i_PercussionMusicVoice = {
     
     % [_ PercussionMusicVoice measure 31]                                  %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [_ PercussionMusicVoice measure 32]                                  %! SM4
@@ -3559,10 +3577,12 @@ i_PercussionMusicVoice = {
     
     % [_ PercussionMusicVoice measure 34]                                  %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [_ PercussionMusicVoice measure 35]                                  %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [_ PercussionMusicVoice measure 36]                                  %! SM4
@@ -3601,12 +3621,13 @@ i_PercussionMusicVoice = {
     
     % [_ PercussionMusicVoice measure 43]                                  %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [_ PercussionMusicVoice measure 44]                                  %! SM4
     c'1.
+    - \tweak direction #up
     \repeatTie
-    \revert RepeatTie.direction                                            %! OC2
     \revert Stem.direction                                                 %! OC2
     
 }
@@ -3764,6 +3785,7 @@ i_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         bqf'!1.
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
+        - \tweak direction #up
         \repeatTie
         \glissando                                                         %! SC
         
@@ -3922,6 +3944,7 @@ i_ViolinMusicVoice = {
     
     % [_ ViolinMusicVoice measure 31]                                      %! SM4
     bf'!1
+    - \tweak direction #up
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/9 {
@@ -3930,6 +3953,7 @@ i_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         bf'!1.
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+        - \tweak direction #up
         \repeatTie
         \glissando                                                         %! SC
         

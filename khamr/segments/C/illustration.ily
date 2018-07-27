@@ -349,6 +349,7 @@ C_FluteMusicVoice = {
     
     % [C FluteMusicVoice measure 116 / measure 5]                          %! SM4
     bf'!1
+    - \tweak direction #up
     \repeatTie
     
     % [C FluteMusicVoice measure 117 / measure 6]                          %! SM4
@@ -365,6 +366,7 @@ C_FluteMusicVoice = {
     
     % [C FluteMusicVoice measure 118 / measure 7]                          %! SM4
     bf'!1
+    - \tweak direction #up
     \repeatTie
     
     % [C FluteMusicVoice measure 119 / measure 8]                          %! SM4
@@ -381,6 +383,7 @@ C_FluteMusicVoice = {
     
     % [C FluteMusicVoice measure 120 / measure 9]                          %! SM4
     bf'!1
+    - \tweak direction #up
     \repeatTie
     
     % [C FluteMusicVoice measure 121 / measure 10]                         %! SM4
@@ -394,6 +397,7 @@ C_FluteMusicVoice = {
     
     % [C FluteMusicVoice measure 122 / measure 11]                         %! SM4
     bf'!1
+    - \tweak direction #up
     \repeatTie
     
     % [C FluteMusicVoice measure 123 / measure 12]                         %! SM4
@@ -475,7 +479,6 @@ C_OboeMusicVoice = {
     \stopStaff                                                             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1                       %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                            %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \override RepeatTie.direction = #up                                    %! OC1
     \clef "percussion"                                                     %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)                %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                                       %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -516,6 +519,7 @@ C_OboeMusicVoice = {
     
     % [C OboeMusicVoice measure 114 / measure 3]                           %! SM4
     c'1.
+    - \tweak direction #up
     \repeatTie
     
     % [C OboeMusicVoice measure 115 / measure 4]                           %! SM4
@@ -529,6 +533,7 @@ C_OboeMusicVoice = {
     
     % [C OboeMusicVoice measure 116 / measure 5]                           %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [C OboeMusicVoice measure 117 / measure 6]                           %! SM4
@@ -566,6 +571,7 @@ C_OboeMusicVoice = {
     
     % [C OboeMusicVoice measure 122 / measure 11]                          %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [C OboeMusicVoice measure 123 / measure 12]                          %! SM4
@@ -597,7 +603,6 @@ C_OboeMusicVoice = {
     
     c'8.
     \repeatTie
-    \revert RepeatTie.direction                                            %! OC2
     
     r16
     
@@ -778,7 +783,6 @@ C_SaxophoneMusicVoice = {
     \stopStaff                                                             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1                       %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                            %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \override RepeatTie.direction = #up                                    %! OC1
     \clef "percussion"                                                     %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)                %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                                       %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -819,6 +823,7 @@ C_SaxophoneMusicVoice = {
     
     % [C SaxophoneMusicVoice measure 114 / measure 3]                      %! SM4
     c'1.
+    - \tweak direction #up
     \repeatTie
     
     % [C SaxophoneMusicVoice measure 115 / measure 4]                      %! SM4
@@ -840,6 +845,7 @@ C_SaxophoneMusicVoice = {
     
     % [C SaxophoneMusicVoice measure 118 / measure 7]                      %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [C SaxophoneMusicVoice measure 119 / measure 8]                      %! SM4
@@ -856,6 +862,7 @@ C_SaxophoneMusicVoice = {
     
     % [C SaxophoneMusicVoice measure 120 / measure 9]                      %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [C SaxophoneMusicVoice measure 121 / measure 10]                     %! SM4
@@ -903,7 +910,6 @@ C_SaxophoneMusicVoice = {
     
     c'8.
     \repeatTie
-    \revert RepeatTie.direction                                            %! OC2
     
     r16
     
@@ -1269,6 +1275,7 @@ C_PercussionMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'1.
     :32                                                                    %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [C PercussionMusicVoice measure 115 / measure 4]                     %! SM4
@@ -1310,6 +1317,7 @@ C_PercussionMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'1
     :32                                                                    %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [C PercussionMusicVoice measure 121 / measure 10]                    %! SM4
@@ -1322,6 +1330,7 @@ C_PercussionMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'1
     :32                                                                    %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [C PercussionMusicVoice measure 123 / measure 12]                    %! SM4
@@ -1351,6 +1360,7 @@ C_PercussionMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'1.
     :32                                                                    %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [C PercussionMusicVoice measure 127 / measure 16]                    %! SM4
@@ -1470,6 +1480,7 @@ C_ViolinMusicVoice = {
     c'1
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! PIC
+    - \tweak direction #up
     \repeatTie
     
     c'4
@@ -1477,6 +1488,7 @@ C_ViolinMusicVoice = {
     
     % [C ViolinMusicVoice measure 120 / measure 9]                         %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [C ViolinMusicVoice measure 121 / measure 10]                        %! SM4
@@ -1488,6 +1500,7 @@ C_ViolinMusicVoice = {
     
     % [C ViolinMusicVoice measure 122 / measure 11]                        %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [C ViolinMusicVoice measure 123 / measure 12]                        %! SM4
@@ -1512,6 +1525,7 @@ C_ViolinMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     c'1.
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak direction #up
     \repeatTie
     
     % [C ViolinMusicVoice measure 127 / measure 16]                        %! SM4
@@ -1612,6 +1626,7 @@ C_ViolaMusicVoice = {
     
     % [C ViolaMusicVoice measure 116 / measure 5]                          %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [C ViolaMusicVoice measure 117 / measure 6]                          %! SM4
@@ -1623,6 +1638,7 @@ C_ViolaMusicVoice = {
     
     % [C ViolaMusicVoice measure 118 / measure 7]                          %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [C ViolaMusicVoice measure 119 / measure 8]                          %! SM4
@@ -1667,6 +1683,7 @@ C_ViolaMusicVoice = {
     
     % [C ViolaMusicVoice measure 126 / measure 15]                         %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
@@ -1811,6 +1828,7 @@ C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 122 / measure 11]                         %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [C CelloMusicVoice measure 123 / measure 12]                         %! SM4

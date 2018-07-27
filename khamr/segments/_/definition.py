@@ -267,7 +267,6 @@ maker(
     baca.dynamic('p'),
     baca.staff_lines(1),
     baca.staff_position(0),
-    baca.repeat_tie_up(),
     baca.markup(
         khamr.markup.airtone_without_reed(),
         ),
@@ -343,7 +342,6 @@ maker(
     baca.clef('percussion'),
     baca.dynamic('mf'),
     baca.markup(khamr.markup.strike_lowest_strings()),
-    baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
     )
@@ -364,7 +362,6 @@ maker(
     ('pf', (41, 44)),
     baca.clef('percussion'),
     baca.dynamic('mp'),
-    baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
     baca.markup(
@@ -379,7 +376,6 @@ maker(
     baca.dynamic('mp'),
     baca.pitches('C4 C4 C4 Ab5', allow_repeats=True),
     baca.staff_lines(1),
-    baca.repeat_tie_up(),
     baca.stem_down(),
     khamr.MarimbaHitCommand([3, 7], attach_first_markup=True),
     baca.markup('XL tam-tam', boxed=True),

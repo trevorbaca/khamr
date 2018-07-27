@@ -1416,7 +1416,6 @@ A_PianoMusicVoice = {
     \stopStaff                                                             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1                       %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                            %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \override RepeatTie.direction = #up                                    %! OC1
     \clef "percussion"                                                     %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)                %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                                       %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -1457,6 +1456,7 @@ A_PianoMusicVoice = {
     
     % [A PianoMusicVoice measure 47 / measure 3]                           %! SM4
     c'1.
+    - \tweak direction #up
     \repeatTie
     
     % [A PianoMusicVoice measure 48 / measure 4]                           %! SM4
@@ -1465,6 +1465,7 @@ A_PianoMusicVoice = {
     
     % [A PianoMusicVoice measure 49 / measure 5]                           %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [A PianoMusicVoice measure 50 / measure 6]                           %! SM4
@@ -1473,6 +1474,7 @@ A_PianoMusicVoice = {
     
     % [A PianoMusicVoice measure 51 / measure 7]                           %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [A PianoMusicVoice measure 52 / measure 8]                           %! SM4
@@ -1484,6 +1486,7 @@ A_PianoMusicVoice = {
     
     % [A PianoMusicVoice measure 53 / measure 9]                           %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [A PianoMusicVoice measure 54 / measure 10]                          %! SM4
@@ -1492,6 +1495,7 @@ A_PianoMusicVoice = {
     
     % [A PianoMusicVoice measure 55 / measure 11]                          %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [A PianoMusicVoice measure 56 / measure 12]                          %! SM4
@@ -1504,7 +1508,6 @@ A_PianoMusicVoice = {
     % [A PianoMusicVoice measure 57 / measure 13]                          %! SM4
     c'2.
     \repeatTie
-    \revert RepeatTie.direction                                            %! OC2
     
     % [A PianoMusicVoice measure 58 / measure 14]                          %! SM4
     r2
@@ -1779,6 +1782,7 @@ A_PercussionMusicVoice = {
     
     % [A PercussionMusicVoice measure 47 / measure 3]                      %! SM4
     c'1.
+    - \tweak direction #up
     \repeatTie
     
     % [A PercussionMusicVoice measure 48 / measure 4]                      %! SM4
@@ -1787,6 +1791,7 @@ A_PercussionMusicVoice = {
     
     % [A PercussionMusicVoice measure 49 / measure 5]                      %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [A PercussionMusicVoice measure 50 / measure 6]                      %! SM4
@@ -1795,6 +1800,7 @@ A_PercussionMusicVoice = {
     
     % [A PercussionMusicVoice measure 51 / measure 7]                      %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [A PercussionMusicVoice measure 52 / measure 8]                      %! SM4
@@ -1840,6 +1846,7 @@ A_PercussionMusicVoice = {
     
     % [A PercussionMusicVoice measure 55 / measure 11]                     %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [A PercussionMusicVoice measure 56 / measure 12]                     %! SM4
