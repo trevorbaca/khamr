@@ -248,7 +248,6 @@ maker(
 
 maker(
     ('pf', (1, 14)),
-    baca.repeat_tie_up(),
     baca.staff_position(0),
     )
 

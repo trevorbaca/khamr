@@ -2667,7 +2667,6 @@ B_OboeMusicVoice = {
     % [B OboeMusicVoice measure 110 / measure 36]                          %! SM4
     r2
     
-    \override RepeatTie.direction = #up                                    %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'2.
     \pp                                                                    %! SM8:EXPLICIT_DYNAMIC:IC
@@ -2682,7 +2681,6 @@ B_OboeMusicVoice = {
     
     c'16
     \repeatTie
-    \revert RepeatTie.direction                                            %! OC2
     
     r16
     
@@ -4710,7 +4708,6 @@ B_SaxophoneMusicVoice = {
     \stopStaff                                                             %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override Staff.StaffSymbol.line-count = 1                       %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                                            %! SM8:EXPLICIT_STAFF_LINES:IC
-    \override RepeatTie.direction = #up                                    %! OC1
     \clef "percussion"                                                     %! SM8:EXPLICIT_CLEF:IC
     \once \override Staff.Clef.color = #(x11-color 'blue)                  %! SM6:EXPLICIT_CLEF_COLOR:IC
 %@% \override Staff.Clef.color = ##f                                       %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
@@ -4724,6 +4721,7 @@ B_SaxophoneMusicVoice = {
     
     % [B SaxophoneMusicVoice measure 109 / measure 35]                     %! SM4
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [B SaxophoneMusicVoice measure 110 / measure 36]                     %! SM4
@@ -4744,7 +4742,6 @@ B_SaxophoneMusicVoice = {
     
     c'16
     \repeatTie
-    \revert RepeatTie.direction                                            %! OC2
     
     r16
     
@@ -6396,6 +6393,7 @@ B_PercussionMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'1
     :32                                                                    %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [B PercussionMusicVoice measure 82 / measure 8]                      %! SM4
@@ -6413,6 +6411,7 @@ B_PercussionMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'1
     :32                                                                    %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [B PercussionMusicVoice measure 84 / measure 10]                     %! SM4
@@ -6722,6 +6721,7 @@ B_PercussionMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'1
     :32                                                                    %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [B PercussionMusicVoice measure 106 / measure 32]                    %! SM4
@@ -6745,12 +6745,14 @@ B_PercussionMusicVoice = {
     \baca_unpitched_music_warning                                          %! SM24
     c'1
     :32                                                                    %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [B PercussionMusicVoice measure 109 / measure 35]                    %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
     :32                                                                    %! IC
+    - \tweak direction #up
     \repeatTie
     
     % [B PercussionMusicVoice measure 110 / measure 36]                    %! SM4

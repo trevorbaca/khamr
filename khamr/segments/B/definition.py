@@ -226,7 +226,6 @@ maker(
     ('ob', (34, 37)),
     baca.clef('percussion'),
     baca.dynamic('pp'),
-    baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
     baca.markup(
@@ -270,7 +269,6 @@ maker(
     baca.clef('percussion'),
     baca.dynamic('pp'),
     baca.markup('airtone'),
-    baca.repeat_tie_up(),
     baca.staff_lines(1),
     baca.staff_position(0),
     )

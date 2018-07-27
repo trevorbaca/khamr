@@ -138,7 +138,6 @@ maker(
 
 maker(
     ('ob', (1, 15)),
-    baca.repeat_tie_up(),
     baca.staff_position(0),
     )
 
@@ -149,7 +148,6 @@ maker(
 
 maker(
     ('sax', (1, 15)),
-    baca.repeat_tie_up(),
     baca.staff_position(0),
     )
 
