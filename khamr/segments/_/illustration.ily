@@ -780,7 +780,8 @@ i_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a''2.
     \mp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \startTrillSpan
     
     % [_ FluteMusicVoice measure 40]                                       %! SM4
@@ -3681,7 +3682,8 @@ i_ViolinMusicVoice = {
             [“Vn.”]                                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
         }                                                                  %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
     _ \markup { IV }                                                       %! IC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \override Staff.Clef.color = #(x11-color 'violet)                      %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)      %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
     \set Staff.instrumentName =                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
@@ -3717,7 +3719,8 @@ i_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         af'!4
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ViolinMusicVoice measure 5]                                       %! SM4
@@ -3730,7 +3733,8 @@ i_ViolinMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     gqs'!4
     \pp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [_ ViolinMusicVoice measure 6]                                       %! SM4
     gqs'!2.
@@ -3747,7 +3751,8 @@ i_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         a'2
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ViolinMusicVoice measure 8]                                       %! SM4
@@ -3776,7 +3781,8 @@ i_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         bqf'!4
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #'DeepPink1                                         %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/7 {
@@ -3792,7 +3798,8 @@ i_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         af'!4
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ViolinMusicVoice measure 13]                                      %! SM4
@@ -3810,7 +3817,8 @@ i_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         gqs'!8
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ViolinMusicVoice measure 15]                                      %! SM4
@@ -3841,7 +3849,8 @@ i_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         a'4
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     \times 2/3 {
         
@@ -3855,7 +3864,8 @@ i_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         g'2
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ViolinMusicVoice measure 20]                                      %! SM4
@@ -3873,7 +3883,8 @@ i_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         a'4
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ViolinMusicVoice measure 22]                                      %! SM4
@@ -3899,7 +3910,8 @@ i_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         b'8
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     \times 4/5 {
         
@@ -3914,7 +3926,8 @@ i_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         aqs'!8
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ViolinMusicVoice measure 27]                                      %! SM4
@@ -3932,7 +3945,8 @@ i_ViolinMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     bf'!4
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [_ ViolinMusicVoice measure 29]                                      %! SM4
     bf'!2.
@@ -3960,7 +3974,8 @@ i_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         g'2.
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #'DeepPink1                                         %! SM8:REDUNDANT_DYNAMIC:PIC
+        \<                                                                 %! SM8:REDUNDANT_DYNAMIC:PIC
     }
     
     % [_ ViolinMusicVoice measure 33]                                      %! SM4
@@ -3973,7 +3988,8 @@ i_ViolinMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a'4
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [_ ViolinMusicVoice measure 34]                                      %! SM4
     a'1
@@ -3990,7 +4006,8 @@ i_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         b'4
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ViolinMusicVoice measure 36]                                      %! SM4
@@ -4260,7 +4277,8 @@ i_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     af'!8
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [_ ViolaMusicVoice measure 2]                                        %! SM4
     af'!2
@@ -4285,7 +4303,8 @@ i_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         gqs'!2
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ViolaMusicVoice measure 6]                                        %! SM4
@@ -4298,7 +4317,8 @@ i_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a'4
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [_ ViolaMusicVoice measure 7]                                        %! SM4
     a'1
@@ -4316,7 +4336,8 @@ i_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         bqf'!4
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #'DeepPink1                                         %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ViolaMusicVoice measure 9]                                        %! SM4
@@ -4341,7 +4362,8 @@ i_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     af'!4
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/4 {
         
@@ -4355,7 +4377,8 @@ i_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         gqs'!4
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ViolaMusicVoice measure 14]                                       %! SM4
@@ -4374,7 +4397,8 @@ i_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         a'2
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ViolaMusicVoice measure 16]                                       %! SM4
@@ -4403,7 +4427,8 @@ i_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         g'4
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
@@ -4418,7 +4443,8 @@ i_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         a'4
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ViolaMusicVoice measure 21]                                       %! SM4
@@ -4436,7 +4462,8 @@ i_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         b'8
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ViolaMusicVoice measure 23]                                       %! SM4
@@ -4462,7 +4489,8 @@ i_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     aqs'!8
     \pp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/4 {
         
@@ -4476,7 +4504,8 @@ i_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         bf'!2
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ViolaMusicVoice measure 28]                                       %! SM4
@@ -4493,7 +4522,8 @@ i_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     g'4
     \pp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #'DeepPink1                                             %! SM8:REDUNDANT_DYNAMIC:PIC
+    \<                                                                     %! SM8:REDUNDANT_DYNAMIC:PIC
     
     % [_ ViolaMusicVoice measure 30]                                       %! SM4
     g'2.
@@ -4522,7 +4552,8 @@ i_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         a'8
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     \times 4/5 {
         
@@ -4537,7 +4568,8 @@ i_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         b'4
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ViolaMusicVoice measure 35]                                       %! SM4
@@ -4750,7 +4782,8 @@ i_CelloMusicVoice = {
             [“Vc.”]                                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
         }                                                                  %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
     _ \markup { III }                                                      %! IC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \override Staff.Clef.color = #(x11-color 'violet)                      %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)      %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
     \set Staff.instrumentName =                                            %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
@@ -4777,7 +4810,8 @@ i_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         af!4
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ CelloMusicVoice measure 3]                                        %! SM4
@@ -4804,7 +4838,8 @@ i_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         gqs!8
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     \times 4/5 {
         
@@ -4819,7 +4854,8 @@ i_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         a4
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ CelloMusicVoice measure 8]                                        %! SM4
@@ -4840,7 +4876,8 @@ i_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         bqf!4
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #'DeepPink1                                         %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ CelloMusicVoice measure 10]                                       %! SM4
@@ -4868,7 +4905,8 @@ i_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     af!4
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \times 2/3 {
         
         % [_ CelloMusicVoice measure 14]                                   %! SM4
@@ -4881,7 +4919,8 @@ i_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         gqs!4
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ CelloMusicVoice measure 15]                                       %! SM4
@@ -4899,7 +4938,8 @@ i_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         a8
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ CelloMusicVoice measure 17]                                       %! SM4
@@ -4929,7 +4969,8 @@ i_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         g4.
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     \times 4/5 {
         
@@ -4943,7 +4984,8 @@ i_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         a8
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ CelloMusicVoice measure 22]                                       %! SM4
@@ -4963,7 +5005,8 @@ i_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         b4
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ CelloMusicVoice measure 24]                                       %! SM4
@@ -4988,7 +5031,8 @@ i_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     aqs!2
     \pp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \times 4/7 {
         
         % [_ CelloMusicVoice measure 28]                                   %! SM4
@@ -5001,7 +5045,8 @@ i_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         bf!4
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ CelloMusicVoice measure 29]                                       %! SM4
@@ -5020,7 +5065,8 @@ i_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         g8
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #'DeepPink1                                         %! SM8:REDUNDANT_DYNAMIC:PIC
+        \<                                                                 %! SM8:REDUNDANT_DYNAMIC:PIC
     }
     
     % [_ CelloMusicVoice measure 31]                                       %! SM4
@@ -5049,7 +5095,8 @@ i_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a4
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [_ CelloMusicVoice measure 35]                                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
@@ -5061,7 +5108,8 @@ i_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b4
     \pp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [_ CelloMusicVoice measure 36]                                       %! SM4
     b2.
@@ -5324,7 +5372,8 @@ i_ContrabassMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     cqs'!4
     \pp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \times 2/3 {
         
         % [_ ContrabassMusicVoice measure 11]                              %! SM4
@@ -5337,7 +5386,8 @@ i_ContrabassMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         bf!2
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ContrabassMusicVoice measure 12]                                  %! SM4
@@ -5359,7 +5409,8 @@ i_ContrabassMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         aqs!8
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ContrabassMusicVoice measure 14]                                  %! SM4
@@ -5385,7 +5436,8 @@ i_ContrabassMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     b4
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    \<                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \times 4/5 {
         
         % [_ ContrabassMusicVoice measure 18]                              %! SM4
@@ -5398,7 +5450,8 @@ i_ContrabassMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         a8.
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #'DeepPink1                                         %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ContrabassMusicVoice measure 19]                                  %! SM4
@@ -5417,7 +5470,8 @@ i_ContrabassMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         b2
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ContrabassMusicVoice measure 21]                                  %! SM4
@@ -5443,7 +5497,8 @@ i_ContrabassMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         cs'!2
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     \times 4/7 {
         
@@ -5457,7 +5512,8 @@ i_ContrabassMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         bqs!8
         \p                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ContrabassMusicVoice measure 26]                                  %! SM4
@@ -5477,7 +5533,8 @@ i_ContrabassMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         c'4
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ContrabassMusicVoice measure 28]                                  %! SM4
@@ -5502,7 +5559,8 @@ i_ContrabassMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     a4
     \pp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/4 {
         
@@ -5516,7 +5574,8 @@ i_ContrabassMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         b4
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ContrabassMusicVoice measure 33]                                  %! SM4
@@ -5534,7 +5593,8 @@ i_ContrabassMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         cs'!2
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \>                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \>                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     
     % [_ ContrabassMusicVoice measure 35]                                  %! SM4
@@ -5563,7 +5623,8 @@ i_ContrabassMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         bqs!8
         \ppp                                                               %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
@@ -5579,7 +5640,8 @@ i_ContrabassMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         dqf'!4
         \pp                                                                %! SM8:EXPLICIT_DYNAMIC:PIC
-        \<                                                                 %! PIC
+        - \tweak color #'DeepPink1                                         %! SM8:REDUNDANT_DYNAMIC:PIC
+        \<                                                                 %! SM8:REDUNDANT_DYNAMIC:PIC
     }
     
     % [_ ContrabassMusicVoice measure 40]                                  %! SM4
@@ -5596,7 +5658,8 @@ i_ContrabassMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     c'4
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    \>                                                                     %! PIC
+    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [_ ContrabassMusicVoice measure 42]                                  %! SM4
     c'2.
