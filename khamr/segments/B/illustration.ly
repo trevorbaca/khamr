@@ -22,43 +22,43 @@
             <<
                 \context WindSectionStaffGroup = "WindSectionStaffGroup"
                 <<
-                    \tag Flute                                                                     %! ST4
+                    \tag Flute                                                                     %! ST_4
                     \context Staff = "FluteMusicStaff"
                     \B_FluteMusicStaff
-                    \tag Oboe                                                                      %! ST4
+                    \tag Oboe                                                                      %! ST_4
                     \context Staff = "OboeMusicStaff"
                     \B_OboeMusicStaff
-                    \tag Clarinet                                                                  %! ST4
+                    \tag Clarinet                                                                  %! ST_4
                     \context Staff = "ClarinetMusicStaff"
                     \B_ClarinetMusicStaff
-                    \tag Saxophone                                                                 %! ST4
+                    \tag Saxophone                                                                 %! ST_4
                     \context Staff = "SaxophoneMusicStaff"
                     \B_SaxophoneMusicStaff
                 >>
                 \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup"
                 <<
-                    \tag Guitar                                                                    %! ST4
+                    \tag Guitar                                                                    %! ST_4
                     \context Staff = "GuitarMusicStaff"
                     \B_GuitarMusicStaff
-                    \tag Piano                                                                     %! ST4
+                    \tag Piano                                                                     %! ST_4
                     \context Staff = "PianoMusicStaff"
                     \B_PianoMusicStaff
-                    \tag Percussion                                                                %! ST4
+                    \tag Percussion                                                                %! ST_4
                     \context Staff = "PercussionMusicStaff"
                     \B_PercussionMusicStaff
                 >>
                 \context StringSectionStaffGroup = "StringSectionStaffGroup"
                 <<
-                    \tag Violin                                                                    %! ST4
+                    \tag Violin                                                                    %! ST_4
                     \context Staff = "ViolinMusicStaff"
                     \B_ViolinMusicStaff
-                    \tag Viola                                                                     %! ST4
+                    \tag Viola                                                                     %! ST_4
                     \context Staff = "ViolaMusicStaff"
                     \B_ViolaMusicStaff
-                    \tag Cello                                                                     %! ST4
+                    \tag Cello                                                                     %! ST_4
                     \context Staff = "CelloMusicStaff"
                     \B_CelloMusicStaff
-                    \tag Contrabass                                                                %! ST4
+                    \tag Contrabass                                                                %! ST_4
                     \context Staff = "ContrabassMusicStaff"
                     \B_ContrabassMusicStaff
                 >>
