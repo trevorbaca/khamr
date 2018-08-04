@@ -499,7 +499,7 @@ B_FluteMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    b''2
+    b''2                                                                   %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \fff                                                                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“B. fl.”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -514,7 +514,7 @@ B_FluteMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [B FluteMusicVoice measure 76 / measure 2]                           %! _comment_measure_numbers
-    b''2
+    b''2                                                                   %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
@@ -1522,7 +1522,7 @@ B_OboeMusicVoice = {
     \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    ds'!2
+    ds'!2                                                                  %! baca_make_repeat_tied_notes
     \fff                                                                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Eng. hn.”]"              %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“EnglishHorn”)"           %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1536,7 +1536,7 @@ B_OboeMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [B OboeMusicVoice measure 76 / measure 2]                            %! _comment_measure_numbers
-    ds'!2
+    ds'!2                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [B OboeMusicVoice measure 77 / measure 3]                            %! _comment_measure_numbers
@@ -2663,7 +2663,7 @@ B_ClarinetMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    gs!2
+    gs!2                                                                   %! baca_make_repeat_tied_notes
     \fff                                                                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“B. cl.”]"                %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“BassClarinet”)"          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -2677,7 +2677,7 @@ B_ClarinetMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [B ClarinetMusicVoice measure 76 / measure 2]                        %! _comment_measure_numbers
-    gs!2
+    gs!2                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [B ClarinetMusicVoice measure 77 / measure 3]                        %! _comment_measure_numbers
@@ -3549,15 +3549,15 @@ B_ClarinetMusicVoice = {
     \repeatTie
     
     % [B ClarinetMusicVoice measure 107 / measure 33]                      %! _comment_measure_numbers
-    a2.
+    a2.                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [B ClarinetMusicVoice measure 108 / measure 34]                      %! _comment_measure_numbers
-    a1
+    a1                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [B ClarinetMusicVoice measure 109 / measure 35]                      %! _comment_measure_numbers
-    a1
+    a1                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [B ClarinetMusicVoice measure 110 / measure 36]                      %! _comment_measure_numbers
@@ -3594,7 +3594,7 @@ B_SaxophoneMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    es'!2
+    es'!2                                                                  %! baca_make_repeat_tied_notes
     \fff                                                                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Bar. sax.”]"             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“BaritoneSaxophone”)"     %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -3608,7 +3608,7 @@ B_SaxophoneMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [B SaxophoneMusicVoice measure 76 / measure 2]                       %! _comment_measure_numbers
-    es'!2
+    es'!2                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [B SaxophoneMusicVoice measure 77 / measure 3]                       %! _comment_measure_numbers
@@ -4672,7 +4672,7 @@ B_GuitarMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    g'2
+    g'2                                                                    %! baca_make_repeat_tied_notes
     \ff                                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Gt.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Guitar”)"                %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -4686,7 +4686,7 @@ B_GuitarMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [B GuitarMusicVoice measure 76 / measure 2]                          %! _comment_measure_numbers
-    g'2
+    g'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [B GuitarMusicVoice measure 77 / measure 3]                          %! _comment_measure_numbers
@@ -4712,12 +4712,12 @@ B_GuitarMusicVoice = {
     
     % [B GuitarMusicVoice measure 84 / measure 10]                         %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    af''!2.
+    af''!2.                                                                %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     
     % [B GuitarMusicVoice measure 85 / measure 11]                         %! _comment_measure_numbers
-    af''!1
+    af''!1                                                                 %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
@@ -4731,22 +4731,22 @@ B_GuitarMusicVoice = {
     \repeatTie
     
     % [B GuitarMusicVoice measure 87 / measure 13]                         %! _comment_measure_numbers
-    af''!2.
+    af''!2.                                                                %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [B GuitarMusicVoice measure 88 / measure 14]                         %! _comment_measure_numbers
-    af''!2
+    af''!2                                                                 %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [B GuitarMusicVoice measure 89 / measure 15]                         %! _comment_measure_numbers
-    af''!1.
+    af''!1.                                                                %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [B GuitarMusicVoice measure 90 / measure 16]                         %! _comment_measure_numbers
-    af''!2
+    af''!2                                                                 %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
@@ -4760,62 +4760,62 @@ B_GuitarMusicVoice = {
     \repeatTie
     
     % [B GuitarMusicVoice measure 92 / measure 18]                         %! _comment_measure_numbers
-    af''!2.
+    af''!2.                                                                %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [B GuitarMusicVoice measure 93 / measure 19]                         %! _comment_measure_numbers
-    af''!1
+    af''!1                                                                 %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [B GuitarMusicVoice measure 94 / measure 20]                         %! _comment_measure_numbers
-    af''!1.
+    af''!1.                                                                %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [B GuitarMusicVoice measure 95 / measure 21]                         %! _comment_measure_numbers
-    af''!2
+    af''!2                                                                 %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [B GuitarMusicVoice measure 96 / measure 22]                         %! _comment_measure_numbers
-    af''!2
+    af''!2                                                                 %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [B GuitarMusicVoice measure 97 / measure 23]                         %! _comment_measure_numbers
-    af''!2.
+    af''!2.                                                                %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [B GuitarMusicVoice measure 98 / measure 24]                         %! _comment_measure_numbers
-    af''!1
+    af''!1                                                                 %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [B GuitarMusicVoice measure 99 / measure 25]                         %! _comment_measure_numbers
-    af''!2
+    af''!2                                                                 %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [B GuitarMusicVoice measure 100 / measure 26]                        %! _comment_measure_numbers
-    af''!2
+    af''!2                                                                 %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [B GuitarMusicVoice measure 101 / measure 27]                        %! _comment_measure_numbers
-    af''!1.
+    af''!1.                                                                %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [B GuitarMusicVoice measure 102 / measure 28]                        %! _comment_measure_numbers
-    af''!1
+    af''!1                                                                 %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [B GuitarMusicVoice measure 103 / measure 29]                        %! _comment_measure_numbers
-    af''!2.
+    af''!2.                                                                %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
@@ -6215,7 +6215,7 @@ B_PercussionMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup {                                                            %! IndicatorCommand
@@ -6228,13 +6228,13 @@ B_PercussionMusicVoice = {
     
     % [B PercussionMusicVoice measure 80 / measure 6]                      %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [B PercussionMusicVoice measure 81 / measure 7]                      %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
@@ -6252,7 +6252,7 @@ B_PercussionMusicVoice = {
     
     % [B PercussionMusicVoice measure 83 / measure 9]                      %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
@@ -6260,7 +6260,7 @@ B_PercussionMusicVoice = {
     % [B PercussionMusicVoice measure 84 / measure 10]                     %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     -\baca_staccati #2                                                     %! IndicatorCommand
     ^ \markup {                                                            %! IndicatorCommand
@@ -6271,286 +6271,286 @@ B_PercussionMusicVoice = {
         }                                                                  %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     % [B PercussionMusicVoice measure 85 / measure 11]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     % [B PercussionMusicVoice measure 86 / measure 12]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     % [B PercussionMusicVoice measure 87 / measure 13]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     % [B PercussionMusicVoice measure 88 / measure 14]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     % [B PercussionMusicVoice measure 89 / measure 15]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     % [B PercussionMusicVoice measure 90 / measure 16]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     % [B PercussionMusicVoice measure 91 / measure 17]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     % [B PercussionMusicVoice measure 92 / measure 18]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     % [B PercussionMusicVoice measure 93 / measure 19]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     % [B PercussionMusicVoice measure 94 / measure 20]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     % [B PercussionMusicVoice measure 95 / measure 21]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     % [B PercussionMusicVoice measure 96 / measure 22]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     % [B PercussionMusicVoice measure 97 / measure 23]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     % [B PercussionMusicVoice measure 98 / measure 24]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     % [B PercussionMusicVoice measure 99 / measure 25]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4
+    c'4                                                                    %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     % [B PercussionMusicVoice measure 100 / measure 26]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                   %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                   %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                   %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                   %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                   %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                   %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                   %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                   %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     % [B PercussionMusicVoice measure 103 / measure 29]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                   %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                   %! baca_make_repeated_duration_notes
     -\baca_staccati #2                                                     %! IndicatorCommand
     
     % [B PercussionMusicVoice measure 104 / measure 30]                    %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup {                                                            %! IndicatorCommand
@@ -6562,7 +6562,7 @@ B_PercussionMusicVoice = {
     
     % [B PercussionMusicVoice measure 105 / measure 31]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
@@ -6580,20 +6580,20 @@ B_PercussionMusicVoice = {
     
     % [B PercussionMusicVoice measure 107 / measure 33]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [B PercussionMusicVoice measure 108 / measure 34]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
     
     % [B PercussionMusicVoice measure 109 / measure 35]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     - \tweak direction #up
     \repeatTie
@@ -6611,7 +6611,7 @@ B_PercussionMusicVoice = {
     
     % [B PercussionMusicVoice measure 111 / measure 37]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
@@ -6639,7 +6639,7 @@ B_ViolinMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    a'2
+    a'2                                                                    %! baca_make_repeat_tied_notes
     \fff                                                                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vn.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -6653,7 +6653,7 @@ B_ViolinMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [B ViolinMusicVoice measure 76 / measure 2]                          %! _comment_measure_numbers
-    a'2
+    a'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [B ViolinMusicVoice measure 77 / measure 3]                          %! _comment_measure_numbers
@@ -6904,7 +6904,7 @@ B_ViolaMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    gs'!2
+    gs'!2                                                                  %! baca_make_repeat_tied_notes
     \fff                                                                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Va.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -6918,7 +6918,7 @@ B_ViolaMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [B ViolaMusicVoice measure 76 / measure 2]                           %! _comment_measure_numbers
-    gs'!2
+    gs'!2                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
@@ -7169,7 +7169,7 @@ B_CelloMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    g2
+    g2                                                                     %! baca_make_repeat_tied_notes
     \fff                                                                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -7183,7 +7183,7 @@ B_CelloMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [B CelloMusicVoice measure 76 / measure 2]                           %! _comment_measure_numbers
-    g2
+    g2                                                                     %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [B CelloMusicVoice measure 77 / measure 3]                           %! _comment_measure_numbers
@@ -7592,15 +7592,15 @@ B_ContrabassMusicVoice = {
     \repeatTie
     
     % [B ContrabassMusicVoice measure 107 / measure 33]                    %! _comment_measure_numbers
-    g,,2.
+    g,,2.                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [B ContrabassMusicVoice measure 108 / measure 34]                    %! _comment_measure_numbers
-    g,,1
+    g,,1                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [B ContrabassMusicVoice measure 109 / measure 35]                    %! _comment_measure_numbers
-    g,,1
+    g,,1                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [B ContrabassMusicVoice measure 110 / measure 36]                    %! _comment_measure_numbers

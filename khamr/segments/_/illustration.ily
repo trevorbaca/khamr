@@ -3158,16 +3158,16 @@ i_PianoMusicVoice = {
     \repeatTie
     
     % [_ PianoMusicVoice measure 42]                                       %! _comment_measure_numbers
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [_ PianoMusicVoice measure 43]                                       %! _comment_measure_numbers
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
     % [_ PianoMusicVoice measure 44]                                       %! _comment_measure_numbers
-    c'1.
+    c'1.                                                                   %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
