@@ -601,7 +601,7 @@ A_OboeMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     <e'' b''>2
     \pp                                                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    -\flageolet                                                                                    %! IndicatorCommand
+    - \flageolet                                                                                   %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Eng. hn.”]"                                      %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“EnglishHorn”)"                                   %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -638,7 +638,7 @@ A_OboeMusicVoice = {
     r4
     
     <e'' b''>2.
-    -\flageolet                                                                                    %! IndicatorCommand
+    - \flageolet                                                                                   %! IndicatorCommand
     
     % [A OboeMusicVoice measure 52 / measure 8]                                                    %! _comment_measure_numbers
     <e'' b''>2.
@@ -1620,7 +1620,7 @@ A_PercussionMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     c'2
     \sfz                                                                                           %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Perc.”]"                                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -1643,7 +1643,7 @@ A_PercussionMusicVoice = {
     
     % [A PercussionMusicVoice measure 48 / measure 4]                                              %! _comment_measure_numbers
     c'2.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [A PercussionMusicVoice measure 49 / measure 5]                                              %! _comment_measure_numbers
     c'1
@@ -1681,7 +1681,7 @@ A_PercussionMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MHC
     af''!2
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:MHC
-    -\marcato                                                                                      %! MHC
+    - \marcato                                                                                     %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [A PercussionMusicVoice measure 54 / measure 10]                                             %! _comment_measure_numbers
@@ -1697,7 +1697,7 @@ A_PercussionMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MHC
     c'4
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [A PercussionMusicVoice measure 55 / measure 11]                                             %! _comment_measure_numbers
@@ -1737,7 +1737,7 @@ A_PercussionMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MHC
     af''!4
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:MHC
-    -\marcato                                                                                      %! MHC
+    - \marcato                                                                                     %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     \stopStaff                                                                                     %! EXPLICIT_STAFF_LINES:_set_status_tag:MHC
@@ -1768,7 +1768,7 @@ A_PercussionMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MHC
     af''!4.
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:MHC
-    -\marcato                                                                                      %! MHC
+    - \marcato                                                                                     %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     \stopStaff                                                                                     %! EXPLICIT_STAFF_LINES:_set_status_tag:MHC
@@ -1797,7 +1797,7 @@ A_PercussionMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MHC
     af''!4.
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:MHC
-    -\marcato                                                                                      %! MHC
+    - \marcato                                                                                     %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     \stopStaff                                                                                     %! EXPLICIT_STAFF_LINES:_set_status_tag:MHC
@@ -1827,7 +1827,7 @@ A_PercussionMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MHC
     af''!4
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:MHC
-    -\marcato                                                                                      %! MHC
+    - \marcato                                                                                     %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [A PercussionMusicVoice measure 66 / measure 22]                                             %! _comment_measure_numbers
@@ -1853,7 +1853,7 @@ A_PercussionMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MHC
     af''!4
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:MHC
-    -\marcato                                                                                      %! MHC
+    - \marcato                                                                                     %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [A PercussionMusicVoice measure 67 / measure 23]                                             %! _comment_measure_numbers
@@ -1879,7 +1879,7 @@ A_PercussionMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MHC
     af''!4
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:MHC
-    -\marcato                                                                                      %! MHC
+    - \marcato                                                                                     %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [A PercussionMusicVoice measure 68 / measure 24]                                             %! _comment_measure_numbers
@@ -1905,7 +1905,7 @@ A_PercussionMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MHC
     af''!4
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:MHC
-    -\marcato                                                                                      %! MHC
+    - \marcato                                                                                     %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [A PercussionMusicVoice measure 69 / measure 25]                                             %! _comment_measure_numbers
@@ -1931,7 +1931,7 @@ A_PercussionMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MHC
     af''!4
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:MHC
-    -\marcato                                                                                      %! MHC
+    - \marcato                                                                                     %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [A PercussionMusicVoice measure 70 / measure 26]                                             %! _comment_measure_numbers
@@ -1957,7 +1957,7 @@ A_PercussionMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MHC
     af''!4
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:MHC
-    -\marcato                                                                                      %! MHC
+    - \marcato                                                                                     %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [A PercussionMusicVoice measure 71 / measure 27]                                             %! _comment_measure_numbers
@@ -1985,7 +1985,7 @@ A_PercussionMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MHC
     af''!4.
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:MHC
-    -\marcato                                                                                      %! MHC
+    - \marcato                                                                                     %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [A PercussionMusicVoice measure 72 / measure 28]                                             %! _comment_measure_numbers
@@ -2011,7 +2011,7 @@ A_PercussionMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MHC
     af''!4
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:MHC
-    -\marcato                                                                                      %! MHC
+    - \marcato                                                                                     %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [A PercussionMusicVoice measure 73 / measure 29]                                             %! _comment_measure_numbers
@@ -2037,7 +2037,7 @@ A_PercussionMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MHC
     af''!4
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:MHC
-    -\marcato                                                                                      %! MHC
+    - \marcato                                                                                     %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [A PercussionMusicVoice measure 74 / measure 30]                                             %! _comment_measure_numbers
@@ -2063,7 +2063,7 @@ A_PercussionMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MHC
     af''!4.
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:MHC
-    -\marcato                                                                                      %! MHC
+    - \marcato                                                                                     %! MHC
     \revert Stem.direction                                                                         %! OverrideCommand(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
@@ -2094,7 +2094,7 @@ A_ViolinMusicVoice = {
     \pitchedTrill                                                                                  %! SpannerCommand
     gf'!2
     \ppp                                                                                           %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vn.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \startTrillSpan aff'
@@ -2115,7 +2115,7 @@ A_ViolinMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         g'4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan af'
     }
@@ -2135,7 +2135,7 @@ A_ViolinMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         gqf'!8.
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         ]
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan atqf'
@@ -2154,7 +2154,7 @@ A_ViolinMusicVoice = {
         
         \pitchedTrill                                                                              %! SpannerCommand
         gf'!8
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         ]
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan aff'
@@ -2174,7 +2174,7 @@ A_ViolinMusicVoice = {
         
         \pitchedTrill                                                                              %! SpannerCommand
         gqf'!16
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan atqf'
     }
@@ -2194,7 +2194,7 @@ A_ViolinMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         g'4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan af'
     }
@@ -2210,7 +2210,7 @@ A_ViolinMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         gs'!4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan a'
     }
@@ -2227,7 +2227,7 @@ A_ViolinMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         gqs'!8.
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         ]
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan aqf'
@@ -2243,7 +2243,7 @@ A_ViolinMusicVoice = {
         
         \pitchedTrill                                                                              %! SpannerCommand
         g'8
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         ]
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan af'
@@ -2260,7 +2260,7 @@ A_ViolinMusicVoice = {
         
         \pitchedTrill                                                                              %! SpannerCommand
         gqs'!16
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan aqf'
     }
@@ -2277,7 +2277,7 @@ A_ViolinMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         af'!4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan bff'
     }
@@ -2292,7 +2292,7 @@ A_ViolinMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         a'4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan bf'
     }
@@ -2309,7 +2309,7 @@ A_ViolinMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         aqf'!8.
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         ]
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan btqf'
@@ -2326,7 +2326,7 @@ A_ViolinMusicVoice = {
         
         \pitchedTrill                                                                              %! SpannerCommand
         af'!8
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         ]
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan bff'
@@ -2346,7 +2346,7 @@ A_ViolinMusicVoice = {
         
         \pitchedTrill                                                                              %! SpannerCommand
         aqf'!16
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan btqf'
     }
@@ -2365,7 +2365,7 @@ A_ViolinMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         af'!4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan bff'
     }
@@ -2380,7 +2380,7 @@ A_ViolinMusicVoice = {
         
         \pitchedTrill                                                                              %! SpannerCommand
         g'4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan af'
     }
@@ -2487,7 +2487,7 @@ A_ViolaMusicVoice = {
     \pitchedTrill                                                                                  %! SpannerCommand
     f'2
     \ppp                                                                                           %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Va.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \startTrillSpan gf'
@@ -2511,7 +2511,7 @@ A_ViolaMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         fs'!4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan g'
     }
@@ -2528,7 +2528,7 @@ A_ViolaMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         fqs'!8.
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         ]
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan gqf'
@@ -2548,7 +2548,7 @@ A_ViolaMusicVoice = {
         
         \pitchedTrill                                                                              %! SpannerCommand
         f'8
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         ]
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan gf'
@@ -2568,7 +2568,7 @@ A_ViolaMusicVoice = {
         
         \pitchedTrill                                                                              %! SpannerCommand
         gf'!16
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan aff'
     }
@@ -2588,7 +2588,7 @@ A_ViolaMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         g'4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan af'
     }
@@ -2604,7 +2604,7 @@ A_ViolaMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         gqf'!4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan atqf'
     }
@@ -2621,7 +2621,7 @@ A_ViolaMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         gf'!8.
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         ]
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan aff'
@@ -2641,7 +2641,7 @@ A_ViolaMusicVoice = {
         
         \pitchedTrill                                                                              %! SpannerCommand
         g'8
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         ]
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan af'
@@ -2661,7 +2661,7 @@ A_ViolaMusicVoice = {
         
         \pitchedTrill                                                                              %! SpannerCommand
         gs'!16
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan a'
     }
@@ -2678,7 +2678,7 @@ A_ViolaMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         gqs'!4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan aqf'
     }
@@ -2694,7 +2694,7 @@ A_ViolaMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         g'4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan af'
     }
@@ -2713,7 +2713,7 @@ A_ViolaMusicVoice = {
         
         \pitchedTrill                                                                              %! SpannerCommand
         gqs'!8.
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         ]
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan aqf'
@@ -2821,7 +2821,7 @@ A_CelloMusicVoice = {
     \pitchedTrill                                                                                  %! SpannerCommand
     f'2
     \ppp                                                                                           %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \startTrillSpan gf'
@@ -2846,7 +2846,7 @@ A_CelloMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         fs'!4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan g'
     }
@@ -2865,7 +2865,7 @@ A_CelloMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         fqs'!8.
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         ]
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan gqf'
@@ -2886,7 +2886,7 @@ A_CelloMusicVoice = {
         
         \pitchedTrill                                                                              %! SpannerCommand
         f'8
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         ]
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan gf'
@@ -2906,7 +2906,7 @@ A_CelloMusicVoice = {
         
         \pitchedTrill                                                                              %! SpannerCommand
         fqs'!16
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan gqf'
     }
@@ -2924,7 +2924,7 @@ A_CelloMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         f'4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan gf'
     }
