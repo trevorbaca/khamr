@@ -903,13 +903,13 @@ C_GuitarMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c''1                                                                                           %! baca_make_repeat_tied_notes
     \mf                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
-    -\flageolet                                                                                    %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
+    - \flageolet                                                                                   %! IndicatorCommand
     
     % [C GuitarMusicVoice measure 119 / measure 8]                                                 %! _comment_measure_numbers
     c''2.
-    -\accent                                                                                       %! IndicatorCommand
-    -\flageolet                                                                                    %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
+    - \flageolet                                                                                   %! IndicatorCommand
     
     c''2
     \repeatTie
@@ -942,12 +942,12 @@ C_GuitarMusicVoice = {
     
     % [C GuitarMusicVoice measure 128 / measure 17]                                                %! _comment_measure_numbers
     c''1
-    -\accent                                                                                       %! IndicatorCommand
-    -\flageolet                                                                                    %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
+    - \flageolet                                                                                   %! IndicatorCommand
     
     c''4
-    -\accent                                                                                       %! IndicatorCommand
-    -\flageolet                                                                                    %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
+    - \flageolet                                                                                   %! IndicatorCommand
     
     % [C GuitarMusicVoice measure 129 / measure 18]                                                %! _comment_measure_numbers
     c''2.
@@ -1023,11 +1023,11 @@ C_PianoMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     as'!1                                                                                          %! baca_make_repeat_tied_notes
     \mf                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [C PianoMusicVoice measure 119 / measure 8]                                                  %! _comment_measure_numbers
     as'!2.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     as'!2
     \repeatTie
@@ -1060,10 +1060,10 @@ C_PianoMusicVoice = {
     
     % [C PianoMusicVoice measure 128 / measure 17]                                                 %! _comment_measure_numbers
     as'!1
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     as'!4
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [C PianoMusicVoice measure 129 / measure 18]                                                 %! _comment_measure_numbers
     as'!2.
@@ -1269,7 +1269,7 @@ C_ViolinMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'2
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vn.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "bow on wooden mute" }                                                             %! IndicatorCommand
@@ -1291,7 +1291,7 @@ C_ViolinMusicVoice = {
     \repeatTie
     
     c'2.
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [C ViolinMusicVoice measure 115 / measure 4]                                                 %! _comment_measure_numbers
     c'2.
@@ -1302,7 +1302,7 @@ C_ViolinMusicVoice = {
     \repeatTie
     
     c'2.
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [C ViolinMusicVoice measure 117 / measure 6]                                                 %! _comment_measure_numbers
     c'2.
@@ -1313,7 +1313,7 @@ C_ViolinMusicVoice = {
     \repeatTie
     
     c'2.
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [C ViolinMusicVoice measure 119 / measure 8]                                                 %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -1325,7 +1325,7 @@ C_ViolinMusicVoice = {
     \repeatTie
     
     c'4
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [C ViolinMusicVoice measure 120 / measure 9]                                                 %! _comment_measure_numbers
     c'1
@@ -1337,7 +1337,7 @@ C_ViolinMusicVoice = {
     \repeatTie
     
     c'4
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [C ViolinMusicVoice measure 122 / measure 11]                                                %! _comment_measure_numbers
     c'1
@@ -1349,7 +1349,7 @@ C_ViolinMusicVoice = {
     \repeatTie
     
     c'2.
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [C ViolinMusicVoice measure 124 / measure 13]                                                %! _comment_measure_numbers
     c'2.
@@ -1360,7 +1360,7 @@ C_ViolinMusicVoice = {
     \repeatTie
     
     c'4
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [C ViolinMusicVoice measure 126 / measure 15]                                                %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -1414,7 +1414,7 @@ C_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'2
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Va.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "bow on wooden mute" }                                                             %! IndicatorCommand
@@ -1436,14 +1436,14 @@ C_ViolaMusicVoice = {
     \repeatTie
     
     c'1
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [C ViolaMusicVoice measure 115 / measure 4]                                                  %! _comment_measure_numbers
     c'2
     \repeatTie
     
     c'4
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [C ViolaMusicVoice measure 116 / measure 5]                                                  %! _comment_measure_numbers
     c'1
@@ -1455,7 +1455,7 @@ C_ViolaMusicVoice = {
     \repeatTie
     
     c'2
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [C ViolaMusicVoice measure 118 / measure 7]                                                  %! _comment_measure_numbers
     c'1
@@ -1466,7 +1466,7 @@ C_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'2.
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     - \tweak color #blue                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
@@ -1478,7 +1478,7 @@ C_ViolaMusicVoice = {
     \repeatTie
     
     c'2.
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [C ViolaMusicVoice measure 121 / measure 10]                                                 %! _comment_measure_numbers
     c'2.
@@ -1486,14 +1486,14 @@ C_ViolaMusicVoice = {
     
     % [C ViolaMusicVoice measure 122 / measure 11]                                                 %! _comment_measure_numbers
     c'1
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [C ViolaMusicVoice measure 123 / measure 12]                                                 %! _comment_measure_numbers
     c'2
     \repeatTie
     
     c'2.
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [C ViolaMusicVoice measure 124 / measure 13]                                                 %! _comment_measure_numbers
     c'2.
@@ -1501,7 +1501,7 @@ C_ViolaMusicVoice = {
     
     % [C ViolaMusicVoice measure 125 / measure 14]                                                 %! _comment_measure_numbers
     c'2
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [C ViolaMusicVoice measure 126 / measure 15]                                                 %! _comment_measure_numbers
     c'1
@@ -1511,7 +1511,7 @@ C_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'2                                                                                            %! baca_make_repeated_duration_notes
     \ppp                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [C ViolaMusicVoice measure 127 / measure 16]                                                 %! _comment_measure_numbers
     R1 * 1/2                                                                                       %! _make_measure_silences
@@ -1558,7 +1558,7 @@ C_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'2
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "bow on tailpiece" }                                                               %! IndicatorCommand
@@ -1580,21 +1580,21 @@ C_CelloMusicVoice = {
     \repeatTie
     
     c'2
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     c'2.
     \repeatTie
     
     % [C CelloMusicVoice measure 115 / measure 4]                                                  %! _comment_measure_numbers
     c'2.
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [C CelloMusicVoice measure 116 / measure 5]                                                  %! _comment_measure_numbers
     c'2
     \repeatTie
     
     c'2
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [C CelloMusicVoice measure 117 / measure 6]                                                  %! _comment_measure_numbers
     c'2.
@@ -1602,7 +1602,7 @@ C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 118 / measure 7]                                                  %! _comment_measure_numbers
     c'1                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [C CelloMusicVoice measure 119 / measure 8]                                                  %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -1613,21 +1613,21 @@ C_CelloMusicVoice = {
     \repeatTie
     
     c'1                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [C CelloMusicVoice measure 120 / measure 9]                                                  %! _comment_measure_numbers
     c'4                                                                                            %! baca_make_repeated_duration_notes
     \repeatTie
     
     c'2.
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [C CelloMusicVoice measure 121 / measure 10]                                                 %! _comment_measure_numbers
     c'2
     \repeatTie
     
     c'4
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [C CelloMusicVoice measure 122 / measure 11]                                                 %! _comment_measure_numbers
     c'1
@@ -1636,14 +1636,14 @@ C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 123 / measure 12]                                                 %! _comment_measure_numbers
     c'2.
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     c'2
     \repeatTie
     
     % [C CelloMusicVoice measure 124 / measure 13]                                                 %! _comment_measure_numbers
     c'2.
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [C CelloMusicVoice measure 125 / measure 14]                                                 %! _comment_measure_numbers
     c'2
@@ -1651,7 +1651,7 @@ C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 126 / measure 15]                                                 %! _comment_measure_numbers
     c'2.
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     c'2
     \repeatTie
@@ -1659,7 +1659,7 @@ C_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'4                                                                                            %! baca_make_repeated_duration_notes
     \ppp                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [C CelloMusicVoice measure 127 / measure 16]                                                 %! _comment_measure_numbers
     R1 * 1/2                                                                                       %! _make_measure_silences
@@ -1707,7 +1707,7 @@ C_ContrabassMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'2
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Cb.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Contrabass”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "bow on tailpiece" }                                                               %! IndicatorCommand
@@ -1726,24 +1726,24 @@ C_ContrabassMusicVoice = {
     
     % [C ContrabassMusicVoice measure 114 / measure 3]                                             %! _comment_measure_numbers
     c'1                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     c'2
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [C ContrabassMusicVoice measure 115 / measure 4]                                             %! _comment_measure_numbers
     c'2
     \repeatTie
     
     c'4
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [C ContrabassMusicVoice measure 116 / measure 5]                                             %! _comment_measure_numbers
     c'2.
     \repeatTie
     
     c'4
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [C ContrabassMusicVoice measure 117 / measure 6]                                             %! _comment_measure_numbers
     c'2.
@@ -1751,25 +1751,25 @@ C_ContrabassMusicVoice = {
     
     % [C ContrabassMusicVoice measure 118 / measure 7]                                             %! _comment_measure_numbers
     c'1                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [C ContrabassMusicVoice measure 119 / measure 8]                                             %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'1                                                                                            %! baca_make_repeated_duration_notes
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     - \tweak color #blue                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     
     c'4
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [C ContrabassMusicVoice measure 120 / measure 9]                                             %! _comment_measure_numbers
     c'2.
     \repeatTie
     
     c'4
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [C ContrabassMusicVoice measure 121 / measure 10]                                            %! _comment_measure_numbers
     c'2.
@@ -1777,14 +1777,14 @@ C_ContrabassMusicVoice = {
     
     % [C ContrabassMusicVoice measure 122 / measure 11]                                            %! _comment_measure_numbers
     c'1                                                                                            %! baca_make_repeated_duration_notes
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [C ContrabassMusicVoice measure 123 / measure 12]                                            %! _comment_measure_numbers
     c'1                                                                                            %! baca_make_repeated_duration_notes
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     c'4
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [C ContrabassMusicVoice measure 124 / measure 13]                                            %! _comment_measure_numbers
     c'2.
@@ -1792,7 +1792,7 @@ C_ContrabassMusicVoice = {
     
     % [C ContrabassMusicVoice measure 125 / measure 14]                                            %! _comment_measure_numbers
     c'2
-    -\downbow                                                                                      %! IndicatorCommand
+    - \downbow                                                                                     %! IndicatorCommand
     
     % [C ContrabassMusicVoice measure 126 / measure 15]                                            %! _comment_measure_numbers
     c'2
@@ -1801,7 +1801,7 @@ C_ContrabassMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'1                                                                                            %! baca_make_repeated_duration_notes
     \ppp                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    -\upbow                                                                                        %! IndicatorCommand
+    - \upbow                                                                                       %! IndicatorCommand
     
     % [C ContrabassMusicVoice measure 127 / measure 16]                                            %! _comment_measure_numbers
     R1 * 1/2                                                                                       %! _make_measure_silences

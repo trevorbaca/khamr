@@ -1052,7 +1052,7 @@ i_OboeMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     <e'' b''>2
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\flageolet                                                                                    %! IndicatorCommand
+    - \flageolet                                                                                   %! IndicatorCommand
     
     % [_ OboeMusicVoice measure 39]                                                                %! _comment_measure_numbers
     <e'' b''>1.
@@ -1069,7 +1069,7 @@ i_OboeMusicVoice = {
     r8
     
     <e'' b''>2.
-    -\flageolet                                                                                    %! IndicatorCommand
+    - \flageolet                                                                                   %! IndicatorCommand
     
     % [_ OboeMusicVoice measure 42]                                                                %! _comment_measure_numbers
     <e'' b''>2.
@@ -2594,7 +2594,7 @@ i_PianoMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)                                   %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     c'2
     \mf                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ^ \markup \baca-default-indicator-markup "(“Piano”)"                                           %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "tamburo: strike lowest strings with palm inside piano and let vibrate (pedal down throughout)" } %! IndicatorCommand
     ^ \markup \baca-explicit-indicator-markup "[“Pf.”]"                                            %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -2634,7 +2634,7 @@ i_PianoMusicVoice = {
     \repeatTie
     
     c'4
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [_ PianoMusicVoice measure 8]                                                                %! _comment_measure_numbers
     c'2.
@@ -2648,7 +2648,7 @@ i_PianoMusicVoice = {
     \repeatTie
     
     c'2
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [_ PianoMusicVoice measure 10]                                                               %! _comment_measure_numbers
     c'2.
@@ -2679,7 +2679,7 @@ i_PianoMusicVoice = {
     \repeatTie
     
     c'2.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [_ PianoMusicVoice measure 16]                                                               %! _comment_measure_numbers
     c'2
@@ -2687,7 +2687,7 @@ i_PianoMusicVoice = {
     
     % [_ PianoMusicVoice measure 17]                                                               %! _comment_measure_numbers
     c'2.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     c'2
     \repeatTie
@@ -2719,7 +2719,7 @@ i_PianoMusicVoice = {
     \repeatTie
     
     c'2
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [_ PianoMusicVoice measure 24]                                                               %! _comment_measure_numbers
     c'1
@@ -3209,7 +3209,7 @@ i_PercussionMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)                                   %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     c'2
     \mp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ^ \markup \baca-default-indicator-markup "(“Percussion”)"                                      %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup {                                                                                    %! IndicatorCommand
         \override                                                                                  %! IndicatorCommand
@@ -3254,7 +3254,7 @@ i_PercussionMusicVoice = {
     \repeatTie
     
     c'4
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [_ PercussionMusicVoice measure 8]                                                           %! _comment_measure_numbers
     c'2.
@@ -3268,7 +3268,7 @@ i_PercussionMusicVoice = {
     \repeatTie
     
     c'2
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [_ PercussionMusicVoice measure 10]                                                          %! _comment_measure_numbers
     c'2.
@@ -3309,7 +3309,7 @@ i_PercussionMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MHC
     af''!2.
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:MHC
-    -\marcato                                                                                      %! MHC
+    - \marcato                                                                                     %! MHC
     ^ \markup {                                                                                    %! MHC
         \larger                                                                                    %! MHC
             \override                                                                              %! MHC
@@ -3333,7 +3333,7 @@ i_PercussionMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MHC
     c'2.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     c'2
@@ -3366,7 +3366,7 @@ i_PercussionMusicVoice = {
     \repeatTie
     
     c'2
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [_ PercussionMusicVoice measure 24]                                                          %! _comment_measure_numbers
     c'1
@@ -3379,7 +3379,7 @@ i_PercussionMusicVoice = {
     
     % [_ PercussionMusicVoice measure 26]                                                          %! _comment_measure_numbers
     c'2
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [_ PercussionMusicVoice measure 27]                                                          %! _comment_measure_numbers
     c'1.
@@ -3419,7 +3419,7 @@ i_PercussionMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MHC
     af''!1
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:MHC
-    -\marcato                                                                                      %! MHC
+    - \marcato                                                                                     %! MHC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [_ PercussionMusicVoice measure 33]                                                          %! _comment_measure_numbers
@@ -3432,7 +3432,7 @@ i_PercussionMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                                               %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MHC
     c'2.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [_ PercussionMusicVoice measure 34]                                                          %! _comment_measure_numbers
@@ -3462,7 +3462,7 @@ i_PercussionMusicVoice = {
     
     % [_ PercussionMusicVoice measure 39]                                                          %! _comment_measure_numbers
     c'1.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [_ PercussionMusicVoice measure 40]                                                          %! _comment_measure_numbers
     c'2
@@ -3473,7 +3473,7 @@ i_PercussionMusicVoice = {
     \repeatTie
     
     c'2.
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     
     % [_ PercussionMusicVoice measure 42]                                                          %! _comment_measure_numbers
     c'2.
@@ -3864,7 +3864,7 @@ i_ViolinMusicVoice = {
     \pitchedTrill                                                                                  %! SpannerCommand
     f'2
     \ppp                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ^ \markup { "molto flautando e pont." }                                                        %! IndicatorCommand
     \startTrillSpan gf'
     \times 4/5 {
@@ -3875,7 +3875,7 @@ i_ViolinMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         fs'!4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan g'
     }
@@ -3893,7 +3893,7 @@ i_ViolinMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         fqs'!8.
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         ]
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan gqf'
@@ -3909,7 +3909,7 @@ i_ViolinMusicVoice = {
         
         \pitchedTrill                                                                              %! SpannerCommand
         f'8
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         ]
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan gf'
@@ -3926,7 +3926,7 @@ i_ViolinMusicVoice = {
         
         \pitchedTrill                                                                              %! SpannerCommand
         fqs'!16
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan gqf'
     }
@@ -3946,7 +3946,7 @@ i_ViolinMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         f'4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan gf'
     }
@@ -3964,7 +3964,7 @@ i_ViolinMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         e'4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan f'
     }
@@ -3981,7 +3981,7 @@ i_ViolinMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         eqs'!8.
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         ]
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan fqs'
@@ -3998,7 +3998,7 @@ i_ViolinMusicVoice = {
         
         \pitchedTrill                                                                              %! SpannerCommand
         e'8
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         ]
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan f'
@@ -4018,7 +4018,7 @@ i_ViolinMusicVoice = {
         
         \pitchedTrill                                                                              %! SpannerCommand
         eqs'!16
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan fqs'
     }
@@ -4037,7 +4037,7 @@ i_ViolinMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         f'4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan gf'
     }
@@ -4412,7 +4412,7 @@ i_ViolaMusicVoice = {
     \pitchedTrill                                                                                  %! SpannerCommand
     f'2.
     \ppp                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ^ \markup { "molto flautando e pont." }                                                        %! IndicatorCommand
     \startTrillSpan gf'
     \times 4/5 {
@@ -4424,7 +4424,7 @@ i_ViolaMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         fs'!4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan g'
     }
@@ -4444,7 +4444,7 @@ i_ViolaMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         fqs'!8.
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         ]
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan gqf'
@@ -4461,7 +4461,7 @@ i_ViolaMusicVoice = {
         
         \pitchedTrill                                                                              %! SpannerCommand
         f'8
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         ]
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan gf'
@@ -4481,7 +4481,7 @@ i_ViolaMusicVoice = {
         
         \pitchedTrill                                                                              %! SpannerCommand
         fqs'!16
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan gqf'
     }
@@ -4501,7 +4501,7 @@ i_ViolaMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         f'4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan gf'
     }
@@ -4520,7 +4520,7 @@ i_ViolaMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         e'4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan f'
     }
@@ -4540,7 +4540,7 @@ i_ViolaMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         eqs'!8.
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         ]
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan fqs'
@@ -4925,7 +4925,7 @@ i_CelloMusicVoice = {
     \pitchedTrill                                                                                  %! SpannerCommand
     f'2.
     \ppp                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\accent                                                                                       %! IndicatorCommand
+    - \accent                                                                                      %! IndicatorCommand
     ^ \markup { "molto flautando e pont." }                                                        %! IndicatorCommand
     \startTrillSpan gf'
     
@@ -4940,7 +4940,7 @@ i_CelloMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         fs'!4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan g'
     }
@@ -4957,7 +4957,7 @@ i_CelloMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         fqs'!8.
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         ]
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan gqf'
@@ -4981,7 +4981,7 @@ i_CelloMusicVoice = {
         
         \pitchedTrill                                                                              %! SpannerCommand
         f'8
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         ]
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan gf'
@@ -5001,7 +5001,7 @@ i_CelloMusicVoice = {
         
         \pitchedTrill                                                                              %! SpannerCommand
         fqs'!16
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan gqf'
     }
@@ -5021,7 +5021,7 @@ i_CelloMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         f'4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan gf'
     }
@@ -5037,7 +5037,7 @@ i_CelloMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \pitchedTrill                                                                              %! SpannerCommand
         e'4
-        -\accent                                                                                   %! IndicatorCommand
+        - \accent                                                                                  %! IndicatorCommand
         \stopTrillSpan                                                                             %! SpannerCommand
         \startTrillSpan f'
     }
