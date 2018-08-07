@@ -22,122 +22,122 @@ class ScoreTemplate(baca.ScoreTemplate):
         >>> abjad.f(lilypond_file[abjad.Score])
         \context Score = "Score"
         <<
-            \context GlobalContext = "GlobalContext"
-            <<
-                \context GlobalRests = "GlobalRests"
-                {
-                }
-                \context GlobalSkips = "GlobalSkips"
-                {
-                }
-            >>
+            \context GlobalContext = "GlobalContext" %! _make_global_context
+            <<                                       %! _make_global_context
+                \context GlobalRests = "GlobalRests" %! _make_global_context
+                {                                    %! _make_global_context
+                } %! _make_global_context
+                \context GlobalSkips = "GlobalSkips" %! _make_global_context
+                {                                    %! _make_global_context
+                } %! _make_global_context
+            >> %! _make_global_context
             \context MusicContext = "MusicContext"
             <<
                 \context WindSectionStaffGroup = "WindSectionStaffGroup"
                 <<
-                    \tag Flute %! ST_4
+                    \tag Flute %! ScoreTemplate(5)
                     \context Staff = "FluteMusicStaff"
                     {
                         \context Voice = "FluteMusicVoice"
                         {
-                            \clef "treble" %! ScoreTemplate(3)
-                            s1
+                            \clef "treble" %! attach_defaults
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
-                    \tag Oboe %! ST_4
+                    \tag Oboe %! ScoreTemplate(5)
                     \context Staff = "OboeMusicStaff"
                     {
                         \context Voice = "OboeMusicVoice"
                         {
-                            \clef "treble" %! ScoreTemplate(3)
-                            s1
+                            \clef "treble" %! attach_defaults
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
-                    \tag Clarinet %! ST_4
+                    \tag Clarinet %! ScoreTemplate(5)
                     \context Staff = "ClarinetMusicStaff"
                     {
                         \context Voice = "ClarinetMusicVoice"
                         {
-                            \clef "treble" %! ScoreTemplate(3)
-                            s1
+                            \clef "treble" %! attach_defaults
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
-                    \tag Saxophone %! ST_4
+                    \tag Saxophone %! ScoreTemplate(5)
                     \context Staff = "SaxophoneMusicStaff"
                     {
                         \context Voice = "SaxophoneMusicVoice"
                         {
-                            \clef "treble" %! ScoreTemplate(3)
-                            s1
+                            \clef "treble" %! attach_defaults
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                 >>
                 \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup"
                 <<
-                    \tag Guitar %! ST_4
+                    \tag Guitar %! ScoreTemplate(5)
                     \context Staff = "GuitarMusicStaff"
                     {
                         \context Voice = "GuitarMusicVoice"
                         {
-                            \clef "treble" %! ScoreTemplate(3)
-                            s1
+                            \clef "treble" %! attach_defaults
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
-                    \tag Piano %! ST_4
+                    \tag Piano %! ScoreTemplate(5)
                     \context Staff = "PianoMusicStaff"
                     {
                         \context Voice = "PianoMusicVoice"
                         {
-                            \clef "treble" %! ScoreTemplate(3)
-                            s1
+                            \clef "treble" %! attach_defaults
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
-                    \tag Percussion %! ST_4
+                    \tag Percussion %! ScoreTemplate(5)
                     \context Staff = "PercussionMusicStaff"
                     {
                         \context Voice = "PercussionMusicVoice"
                         {
-                            \clef "percussion" %! ScoreTemplate(3)
-                            s1
+                            \clef "percussion" %! attach_defaults
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                 >>
                 \context StringSectionStaffGroup = "StringSectionStaffGroup"
                 <<
-                    \tag Violin %! ST_4
+                    \tag Violin %! ScoreTemplate(5)
                     \context Staff = "ViolinMusicStaff"
                     {
                         \context Voice = "ViolinMusicVoice"
                         {
-                            \clef "treble" %! ScoreTemplate(3)
-                            s1
+                            \clef "treble" %! attach_defaults
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
-                    \tag Viola %! ST_4
+                    \tag Viola %! ScoreTemplate(5)
                     \context Staff = "ViolaMusicStaff"
                     {
                         \context Voice = "ViolaMusicVoice"
                         {
-                            \clef "alto" %! ScoreTemplate(3)
-                            s1
+                            \clef "alto" %! attach_defaults
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
-                    \tag Cello %! ST_4
+                    \tag Cello %! ScoreTemplate(5)
                     \context Staff = "CelloMusicStaff"
                     {
                         \context Voice = "CelloMusicVoice"
                         {
-                            \clef "bass" %! ScoreTemplate(3)
-                            s1
+                            \clef "bass" %! attach_defaults
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
-                    \tag Contrabass %! ST_4
+                    \tag Contrabass %! ScoreTemplate(5)
                     \context Staff = "ContrabassMusicStaff"
                     {
                         \context Voice = "ContrabassMusicVoice"
                         {
-                            \clef "bass" %! ScoreTemplate(3)
-                            s1
+                            \clef "bass" %! attach_defaults
+                            s1 %! ScoreTemplate.__illustrate__
                         }
                     }
                 >>
