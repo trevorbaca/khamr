@@ -37,6 +37,7 @@ class MarimbaHitCommand(baca.Command):
 
         Returns none.
         """
+        tag = 'MarimbaHitCommand'
         found_first = False
         for i, plt in enumerate(baca.select(argument).plts()):
             if i not in self.indices:
@@ -45,44 +46,44 @@ class MarimbaHitCommand(baca.Command):
             abjad.attach(
                 baca.StaffLines(line_count=5),
                 plt.head,
-                tag='MHC',
+                tag=tag,
                 )
             if self.attach_first_markup and not found_first:
                 string = 'marimba + woodblock'
                 markup = abjad.Markup(string, direction=abjad.Up)
                 markup = markup.box().override(('box-padding', 0.75))
                 markup = markup.larger()
-                abjad.attach(markup, plt.head, tag='MHC')
+                abjad.attach(markup, plt.head, tag=tag)
                 found_first = True
             abjad.detach(abjad.Articulation, plt.head)
             abjad.attach(
                 abjad.Dynamic('sfz'),
                 plt.head,
                 context='Voice',
-                tag='MHC',
+                tag=tag,
                 )
             abjad.attach(
                 abjad.Articulation('marcato'),
                 plt.head,
-                tag='MHC',
+                tag=tag,
                 )
             abjad.detach(abjad.Clef, plt.head)
             abjad.attach(
                 abjad.Clef('treble'),
                 plt.head,
-                tag='MHC',
+                tag=tag,
                 )
             next_leaf = abjad.inspect(plt.tail).leaf(1)
             if next_leaf is not None:
                 abjad.attach(
                     baca.StaffLines(line_count=1),
                     next_leaf,
-                    tag='MHC',
+                    tag=tag,
                     )
                 abjad.attach(
                     abjad.Clef('percussion'),
                     next_leaf,
-                    tag='MHC',
+                    tag=tag,
                     )
 
     ### PUBLIC PROPERTIES ###

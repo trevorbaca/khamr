@@ -30,6 +30,7 @@ def guitar_accelerandi(fuse_by_counts, division_masks=None):
                     written_duration=abjad.Duration(1, 16),
                     ),
                 ],
+            tag='guitar_accelerandi',
             tie_specifier=rmakers.TieSpecifier(
                 tie_across_divisions=True,
                 repeat_ties=True,

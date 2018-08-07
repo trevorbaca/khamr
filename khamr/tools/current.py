@@ -14,6 +14,7 @@ def current(counts, dmask=None):
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=dmask,
+            tag='current',
             tuplet_ratios=tuplet_ratios,
             tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True,

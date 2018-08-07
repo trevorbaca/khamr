@@ -15,6 +15,7 @@ def silent_first_division():
             division_masks=[
                 rmakers.silence([0]),
                 ],
+            tag='silent_first_division',
             tie_specifier=rmakers.TieSpecifier(
                 tie_across_divisions=True,
                 repeat_ties=True,

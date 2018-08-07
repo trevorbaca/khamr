@@ -25,6 +25,7 @@ def guitar_isolata(*, dmask=None):
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=division_masks,
+            tag='guitar_isolata',
             tuplet_ratios=[
                 (-1, 1, -1), (-1, 1, -1), (-1, 1, -2), (-3, 1, -1),
                 (-1, 2), (-2, 1, -1), (-2, 1, -1), (-3, 1, -1),

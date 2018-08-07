@@ -538,906 +538,906 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 83 / measure 9]                                                   %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
         % [B FluteMusicVoice measure 84 / measure 10]                                              %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                          %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
-        d'''16
+        d'''16                                                                                     %! aviary
         \fff                                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
         % [B FluteMusicVoice measure 86 / measure 12]                                              %! _comment_measure_numbers
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
         % [B FluteMusicVoice measure 100 / measure 26]                                             %! _comment_measure_numbers
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 7/8 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 7/8 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        f'''16
-        ]
-    }
-    \times 4/5 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 4/5 {                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
-        ]
-    }
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
     
     % [B FluteMusicVoice measure 104 / measure 30]                                                 %! _comment_measure_numbers
     R1 * 3/4                                                                                       %! _make_measure_silences
@@ -1473,7 +1473,7 @@ B_FluteMusicVoice = {
     bf'!2...
     \repeatTie
     
-    r16
+    r16                                                                                            %! fused_wind
     
     % [B FluteMusicVoice measure 110 / measure 36]                                                 %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
@@ -1492,7 +1492,7 @@ B_FluteMusicVoice = {
     bf'!16
     \repeatTie
     
-    r16
+    r16                                                                                            %! fused_wind
     
 }
 
@@ -1559,1038 +1559,1038 @@ B_OboeMusicVoice = {
     
     % [B OboeMusicVoice measure 83 / measure 9]                                                    %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
         % [B OboeMusicVoice measure 84 / measure 10]                                               %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                          %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
-        c'''16
+        c'''16                                                                                     %! aviary
         \fff                                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \accent                                                                                  %! IndicatorCommand
         ^ \markup \baca-explicit-indicator-markup "(“Oboe”)"                                       %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
         % [B OboeMusicVoice measure 88 / measure 14]                                               %! _comment_measure_numbers
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
         % [B OboeMusicVoice measure 91 / measure 17]                                               %! _comment_measure_numbers
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
         % [B OboeMusicVoice measure 92 / measure 18]                                               %! _comment_measure_numbers
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
         % [B OboeMusicVoice measure 96 / measure 22]                                               %! _comment_measure_numbers
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
         % [B OboeMusicVoice measure 98 / measure 24]                                               %! _comment_measure_numbers
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/6 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
-        ]
-    }
-    \times 4/5 {
+        fs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 4/5 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
     
     % [B OboeMusicVoice measure 104 / measure 30]                                                  %! _comment_measure_numbers
     R1 * 3/4                                                                                       %! _make_measure_silences
@@ -2620,7 +2620,7 @@ B_OboeMusicVoice = {
     r1
     
     % [B OboeMusicVoice measure 110 / measure 36]                                                  %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! fused_wind
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'2.
@@ -2637,7 +2637,7 @@ B_OboeMusicVoice = {
     c'16
     \repeatTie
     
-    r16
+    r16                                                                                            %! fused_wind
     
 }
 
@@ -2700,838 +2700,838 @@ B_ClarinetMusicVoice = {
     
     % [B ClarinetMusicVoice measure 83 / measure 9]                                                %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
-    \times 8/9 {
+    \times 8/9 {                                                                                   %! aviary
         
         % [B ClarinetMusicVoice measure 84 / measure 10]                                           %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                          %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
-        e'''16
+        e'''16                                                                                     %! aviary
         \fff                                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \accent                                                                                  %! IndicatorCommand
         ^ \markup \baca-explicit-indicator-markup "(“Clarinet”)"                                   %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
         % [B ClarinetMusicVoice measure 87 / measure 13]                                           %! _comment_measure_numbers
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
         % [B ClarinetMusicVoice measure 92 / measure 18]                                           %! _comment_measure_numbers
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
         % [B ClarinetMusicVoice measure 98 / measure 24]                                           %! _comment_measure_numbers
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
         % [B ClarinetMusicVoice measure 99 / measure 25]                                           %! _comment_measure_numbers
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
         % [B ClarinetMusicVoice measure 100 / measure 26]                                          %! _comment_measure_numbers
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
         % [B ClarinetMusicVoice measure 101 / measure 27]                                          %! _comment_measure_numbers
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
         % [B ClarinetMusicVoice measure 102 / measure 28]                                          %! _comment_measure_numbers
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 8/9 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 8/9 {                                                                                   %! aviary
         
         % [B ClarinetMusicVoice measure 103 / measure 29]                                          %! _comment_measure_numbers
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        g'''16
-        ]
-    }
-    \times 4/5 {
+        g'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 4/5 {                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        es'''!16
+        es'''!16                                                                                   %! aviary
         
-        g'''16
+        g'''16                                                                                     %! aviary
         
-        gs'''!16
+        gs'''!16                                                                                   %! aviary
         
-        d'''16
-        ]
-    }
+        d'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
     
     % [B ClarinetMusicVoice measure 104 / measure 30]                                              %! _comment_measure_numbers
     R1 * 3/4                                                                                       %! _make_measure_silences
@@ -3631,968 +3631,968 @@ B_SaxophoneMusicVoice = {
     
     % [B SaxophoneMusicVoice measure 83 / measure 9]                                               %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
         % [B SaxophoneMusicVoice measure 84 / measure 10]                                          %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                          %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
-        a''16
+        a''16                                                                                      %! aviary
         \fff                                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \accent                                                                                  %! IndicatorCommand
         ^ \markup \baca-explicit-indicator-markup "(“SopraninoSaxophone”)"                         %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
         % [B SaxophoneMusicVoice measure 85 / measure 11]                                          %! _comment_measure_numbers
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
         % [B SaxophoneMusicVoice measure 87 / measure 13]                                          %! _comment_measure_numbers
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
         % [B SaxophoneMusicVoice measure 88 / measure 14]                                          %! _comment_measure_numbers
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
         % [B SaxophoneMusicVoice measure 92 / measure 18]                                          %! _comment_measure_numbers
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
         % [B SaxophoneMusicVoice measure 93 / measure 19]                                          %! _comment_measure_numbers
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
         % [B SaxophoneMusicVoice measure 96 / measure 22]                                          %! _comment_measure_numbers
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
         % [B SaxophoneMusicVoice measure 99 / measure 25]                                          %! _comment_measure_numbers
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 6/7 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
+        b''16                                                                                      %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        bs''!16
+        bs''!16                                                                                    %! aviary
         
-        cs'''!16
-        ]
-    }
-    \times 2/3 {
+        cs'''!16                                                                                   %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \times 2/3 {                                                                                   %! aviary
         
-        a''16
+        a''16                                                                                      %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        as''!16
+        as''!16                                                                                    %! aviary
         
-        b''16
-        ]
-    }
+        b''16                                                                                      %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
     
     % [B SaxophoneMusicVoice measure 104 / measure 30]                                             %! _comment_measure_numbers
     R1 * 3/4                                                                                       %! _make_measure_silences
@@ -4628,10 +4628,10 @@ B_SaxophoneMusicVoice = {
     \repeatTie
     
     % [B SaxophoneMusicVoice measure 110 / measure 36]                                             %! _comment_measure_numbers
-    c'2...
+    c'2...                                                                                         %! fused_wind
     \repeatTie
     
-    r16
+    r16                                                                                            %! fused_wind
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     c'4
@@ -4646,7 +4646,7 @@ B_SaxophoneMusicVoice = {
     c'16
     \repeatTie
     
-    r16
+    r16                                                                                            %! fused_wind
     
 }
 
@@ -4872,11 +4872,11 @@ B_PianoMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                              %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
-    df''''!16
+    df''''!16                                                                                      %! current
     \fff                                                                                           %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Pf.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Piano”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    [
+    [                                                                                              %! current
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -4886,1248 +4886,1248 @@ B_PianoMusicVoice = {
         }                                                                                          %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
-    d''''16
+    d''''16                                                                                        %! current
     
-    f''''16
+    f''''16                                                                                        %! current
     
-    c''''16
-    ]
+    c''''16                                                                                        %! current
+    ]                                                                                              %! current
     
-    af'''!16
-    [
+    af'''!16                                                                                       %! current
+    [                                                                                              %! current
     
-    g'''16
+    g'''16                                                                                         %! current
     
-    e''''16
+    e''''16                                                                                        %! current
     
-    c''''16
-    ]
+    c''''16                                                                                        %! current
+    ]                                                                                              %! current
     
     % [B PianoMusicVoice measure 76 / measure 2]                                                   %! _comment_measure_numbers
-    b'''16
-    [
+    b'''16                                                                                         %! current
+    [                                                                                              %! current
     
-    df''''!16
+    df''''!16                                                                                      %! current
     
-    ef''''!16
+    ef''''!16                                                                                      %! current
     
-    f''''16
-    ]
-    \times 2/3 {
+    f''''16                                                                                        %! current
+    ]                                                                                              %! current
+    \times 2/3 {                                                                                   %! current
         
-        e''''8
-        [
+        e''''8                                                                                     %! current
+        [                                                                                          %! current
         
-        fs'''!8
+        fs'''!8                                                                                    %! current
         
-        bf'''!8
-        ]
-    }
-    \times 4/5 {
+        bf'''!8                                                                                    %! current
+        ]                                                                                          %! current
+    }                                                                                              %! current
+    \times 4/5 {                                                                                   %! current
         
         % [B PianoMusicVoice measure 77 / measure 3]                                               %! _comment_measure_numbers
-        a'''16.
-        [
+        a'''16.                                                                                    %! current
+        [                                                                                          %! current
         
-        c''''16.
+        c''''16.                                                                                   %! current
         
-        af'''!16.
+        af'''!16.                                                                                  %! current
         
-        g'''16.
+        g'''16.                                                                                    %! current
         
-        e''''16.
-        ]
-    }
-    \times 4/5 {
+        e''''16.                                                                                   %! current
+        ]                                                                                          %! current
+    }                                                                                              %! current
+    \times 4/5 {                                                                                   %! current
         
-        f''''16.
-        [
+        f''''16.                                                                                   %! current
+        [                                                                                          %! current
         
-        b'''16.
+        b'''16.                                                                                    %! current
         
-        df''''!16.
+        df''''!16.                                                                                 %! current
         
-        ef''''!16.
+        ef''''!16.                                                                                 %! current
         
-        a'''16.
-        ]
-    }
-    \times 4/5 {
+        a'''16.                                                                                    %! current
+        ]                                                                                          %! current
+    }                                                                                              %! current
+    \times 4/5 {                                                                                   %! current
         
-        e''''16.
-        [
+        e''''16.                                                                                   %! current
+        [                                                                                          %! current
         
-        fs'''!16.
+        fs'''!16.                                                                                  %! current
         
-        bf'''!16.
+        bf'''!16.                                                                                  %! current
         
-        c''''16.
+        c''''16.                                                                                   %! current
         
-        df''''!16.
-        ]
-    }
+        df''''!16.                                                                                 %! current
+        ]                                                                                          %! current
+    }                                                                                              %! current
     
-    d''''8
-    [
+    d''''8                                                                                         %! current
+    [                                                                                              %! current
     
-    f''''8
+    f''''8                                                                                         %! current
     
-    ef''''!8
-    ]
-    \times 2/3 {
+    ef''''!8                                                                                       %! current
+    ]                                                                                              %! current
+    \times 2/3 {                                                                                   %! current
         
         % [B PianoMusicVoice measure 78 / measure 4]                                               %! _comment_measure_numbers
-        f''''8
-        [
+        f''''8                                                                                     %! current
+        [                                                                                          %! current
         
-        b'''8
+        b'''8                                                                                      %! current
         
-        df''''!8
-        ]
-    }
+        df''''!8                                                                                   %! current
+        ]                                                                                          %! current
+    }                                                                                              %! current
     
-    bf'''!16
-    [
+    bf'''!16                                                                                       %! current
+    [                                                                                              %! current
     
-    a'''16
+    a'''16                                                                                         %! current
     
-    e''''16
+    e''''16                                                                                        %! current
     
-    fs'''!16
-    ]
+    fs'''!16                                                                                       %! current
+    ]                                                                                              %! current
     
-    f''''16
-    [
+    f''''16                                                                                        %! current
+    [                                                                                              %! current
     
-    c''''16
+    c''''16                                                                                        %! current
     
-    df''''!16
+    df''''!16                                                                                      %! current
     
-    d''''16
-    ]
-    \times 2/3 {
+    d''''16                                                                                        %! current
+    ]                                                                                              %! current
+    \times 2/3 {                                                                                   %! current
         
         % [B PianoMusicVoice measure 79 / measure 5]                                               %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        e''''8
+        e''''8                                                                                     %! current
         \ffff                                                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        [
+        [                                                                                          %! current
         
-        c''''8
+        c''''8                                                                                     %! current
         
-        af'''!8
-        ]
-    }
-    \times 2/3 {
+        af'''!8                                                                                    %! current
+        ]                                                                                          %! current
+    }                                                                                              %! current
+    \times 2/3 {                                                                                   %! current
         
-        g'''8
-        [
+        g'''8                                                                                      %! current
+        [                                                                                          %! current
         
-        fs'''!8
+        fs'''!8                                                                                    %! current
         
-        bf'''!8
-        ]
-    }
-    \times 4/5 {
+        bf'''!8                                                                                    %! current
+        ]                                                                                          %! current
+    }                                                                                              %! current
+    \times 4/5 {                                                                                   %! current
         
-        a'''16
-        [
+        a'''16                                                                                     %! current
+        [                                                                                          %! current
         
-        e''''16
+        e''''16                                                                                    %! current
         
-        d''''16
+        d''''16                                                                                    %! current
         
-        f''''16
+        f''''16                                                                                    %! current
         
-        c''''16
-        ]
-    }
-    \times 4/5 {
+        c''''16                                                                                    %! current
+        ]                                                                                          %! current
+    }                                                                                              %! current
+    \times 4/5 {                                                                                   %! current
         
-        df''''!16
-        [
+        df''''!16                                                                                  %! current
+        [                                                                                          %! current
         
-        g'''16
+        g'''16                                                                                     %! current
         
-        e''''16
+        e''''16                                                                                    %! current
         
-        c''''16
+        c''''16                                                                                    %! current
         
-        af'''!16
-        ]
-    }
-    \times 4/5 {
+        af'''!16                                                                                   %! current
+        ]                                                                                          %! current
+    }                                                                                              %! current
+    \times 4/5 {                                                                                   %! current
         
         % [B PianoMusicVoice measure 80 / measure 6]                                               %! _comment_measure_numbers
-        df''''!16.
-        [
+        df''''!16.                                                                                 %! current
+        [                                                                                          %! current
         
-        ef''''!16.
+        ef''''!16.                                                                                 %! current
         
-        f''''16.
+        f''''16.                                                                                   %! current
         
-        b'''16.
+        b'''16.                                                                                    %! current
         
-        df''''!16.
-        ]
-    }
-    \times 4/5 {
+        df''''!16.                                                                                 %! current
+        ]                                                                                          %! current
+    }                                                                                              %! current
+    \times 4/5 {                                                                                   %! current
         
-        d''''16.
-        [
+        d''''16.                                                                                   %! current
+        [                                                                                          %! current
         
-        f''''16.
+        f''''16.                                                                                   %! current
         
-        c''''16.
+        c''''16.                                                                                   %! current
         
-        af'''!16.
+        af'''!16.                                                                                  %! current
         
-        g'''16.
-        ]
-    }
-    \times 4/5 {
+        g'''16.                                                                                    %! current
+        ]                                                                                          %! current
+    }                                                                                              %! current
+    \times 4/5 {                                                                                   %! current
         
         % [B PianoMusicVoice measure 81 / measure 7]                                               %! _comment_measure_numbers
-        e''''16
-        [
+        e''''16                                                                                    %! current
+        [                                                                                          %! current
         
-        c''''16
+        c''''16                                                                                    %! current
         
-        b'''16
+        b'''16                                                                                     %! current
         
-        df''''!16
+        df''''!16                                                                                  %! current
         
-        ef''''!16
-        ]
-    }
+        ef''''!16                                                                                  %! current
+        ]                                                                                          %! current
+    }                                                                                              %! current
     
-    f''''16
-    [
+    f''''16                                                                                        %! current
+    [                                                                                              %! current
     
-    e''''16
+    e''''16                                                                                        %! current
     
-    fs'''!16
+    fs'''!16                                                                                       %! current
     
-    bf'''!16
-    ]
+    bf'''!16                                                                                       %! current
+    ]                                                                                              %! current
     
-    a'''16
-    [
+    a'''16                                                                                         %! current
+    [                                                                                              %! current
     
-    c''''16
+    c''''16                                                                                        %! current
     
-    af'''!16
+    af'''!16                                                                                       %! current
     
-    g'''16
-    ]
+    g'''16                                                                                         %! current
+    ]                                                                                              %! current
     
-    e''''16
-    [
+    e''''16                                                                                        %! current
+    [                                                                                              %! current
     
-    f''''16
+    f''''16                                                                                        %! current
     
-    b'''16
+    b'''16                                                                                         %! current
     
-    df''''!16
-    ]
-    \times 2/3 {
+    df''''!16                                                                                      %! current
+    ]                                                                                              %! current
+    \times 2/3 {                                                                                   %! current
         
         % [B PianoMusicVoice measure 82 / measure 8]                                               %! _comment_measure_numbers
-        ef''''!8
-        [
+        ef''''!8                                                                                   %! current
+        [                                                                                          %! current
         
-        a'''8
+        a'''8                                                                                      %! current
         
-        e''''8
-        ]
-    }
-    \times 4/5 {
+        e''''8                                                                                     %! current
+        ]                                                                                          %! current
+    }                                                                                              %! current
+    \times 4/5 {                                                                                   %! current
         
-        fs'''!16
-        [
+        fs'''!16                                                                                   %! current
+        [                                                                                          %! current
         
-        bf'''!16
+        bf'''!16                                                                                   %! current
         
-        c''''16
+        c''''16                                                                                    %! current
         
-        df''''!16
+        df''''!16                                                                                  %! current
         
-        d''''16
-        ]
-    }
-    \times 4/5 {
+        d''''16                                                                                    %! current
+        ]                                                                                          %! current
+    }                                                                                              %! current
+    \times 4/5 {                                                                                   %! current
         
-        f''''16
-        [
+        f''''16                                                                                    %! current
+        [                                                                                          %! current
         
-        ef''''!16
+        ef''''!16                                                                                  %! current
         
-        f''''16
+        f''''16                                                                                    %! current
         
-        b'''16
+        b'''16                                                                                     %! current
         
-        df''''!16
-        ]
-    }
-    \times 4/5 {
+        df''''!16                                                                                  %! current
+        ]                                                                                          %! current
+    }                                                                                              %! current
+    \times 4/5 {                                                                                   %! current
         
-        bf'''!16
-        [
+        bf'''!16                                                                                   %! current
+        [                                                                                          %! current
         
-        a'''16
+        a'''16                                                                                     %! current
         
-        e''''16
+        e''''16                                                                                    %! current
         
-        fs'''!16
+        fs'''!16                                                                                   %! current
         
-        f''''16
-        ]
-    }
-    \times 2/3 {
+        f''''16                                                                                    %! current
+        ]                                                                                          %! current
+    }                                                                                              %! current
+    \times 2/3 {                                                                                   %! current
         
-        c''''8
-        [
+        c''''8                                                                                     %! current
+        [                                                                                          %! current
         
-        df''''!8
+        df''''!8                                                                                   %! current
         
-        d''''8
-        ]
-    }
-    \times 2/3 {
+        d''''8                                                                                     %! current
+        ]                                                                                          %! current
+    }                                                                                              %! current
+    \times 2/3 {                                                                                   %! current
         
         % [B PianoMusicVoice measure 83 / measure 9]                                               %! _comment_measure_numbers
-        e''''8
-        [
+        e''''8                                                                                     %! current
+        [                                                                                          %! current
         
-        c''''8
+        c''''8                                                                                     %! current
         
-        af'''!8
-        ]
-    }
+        af'''!8                                                                                    %! current
+        ]                                                                                          %! current
+    }                                                                                              %! current
     
-    g'''16
-    [
+    g'''16                                                                                         %! current
+    [                                                                                              %! current
     
-    fs'''!16
+    fs'''!16                                                                                       %! current
     
-    bf'''!16
+    bf'''!16                                                                                       %! current
     
-    a'''16
-    ]
+    a'''16                                                                                         %! current
+    ]                                                                                              %! current
     
-    e''''16
-    [
+    e''''16                                                                                        %! current
+    [                                                                                              %! current
     
-    d''''16
+    d''''16                                                                                        %! current
     
-    f''''16
+    f''''16                                                                                        %! current
     
-    c''''16
-    ]
-    \times 2/3 {
+    c''''16                                                                                        %! current
+    ]                                                                                              %! current
+    \times 2/3 {                                                                                   %! current
         
-        df''''!8
-        [
+        df''''!8                                                                                   %! current
+        [                                                                                          %! current
         
-        g'''8
+        g'''8                                                                                      %! current
         
-        e''''8
-        ]
+        e''''8                                                                                     %! current
+        ]                                                                                          %! current
         \ottava #0                                                                                 %! SpannerCommand
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+    }                                                                                              %! current
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
         % [B PianoMusicVoice measure 84 / measure 10]                                              %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        c'''16
+        c'''16                                                                                     %! aviary
         \fff                                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
         % [B PianoMusicVoice measure 96 / measure 22]                                              %! _comment_measure_numbers
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
         % [B PianoMusicVoice measure 99 / measure 25]                                              %! _comment_measure_numbers
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/11 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 9/11 {                                                                                  %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         
-        cs'''!16
+        cs'''!16                                                                                   %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/7 {
+        f'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! aviary
+    \times 5/7 {                                                                                   %! aviary
         
-        c'''16
+        c'''16                                                                                     %! aviary
         - \accent                                                                                  %! IndicatorCommand
-        [
+        [                                                                                          %! aviary
         
-        d'''16
+        d'''16                                                                                     %! aviary
         
-        ds'''!16
+        ds'''!16                                                                                   %! aviary
         
-        e'''16
+        e'''16                                                                                     %! aviary
         
-        f'''16
+        f'''16                                                                                     %! aviary
         
-        fs'''!16
+        fs'''!16                                                                                   %! aviary
         
-        c'''16
-        ]
-    }
+        c'''16                                                                                     %! aviary
+        ]                                                                                          %! aviary
+    }                                                                                              %! aviary
     
     % [B PianoMusicVoice measure 104 / measure 30]                                                 %! _comment_measure_numbers
     R1 * 3/4                                                                                       %! _make_measure_silences
@@ -6659,110 +6659,110 @@ B_ViolinMusicVoice = {
     % [B ViolinMusicVoice measure 77 / measure 3]                                                  %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    gff'!1.
+    gff'!1.                                                                                        %! continuous_glissandi
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { "estr. sul pont." }                                                                %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [B ViolinMusicVoice measure 78 / measure 4]                                                  %! _comment_measure_numbers
-    gf'!2.
+    gf'!2.                                                                                         %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
-    \times 4/5 {
+    \times 4/5 {                                                                                   %! continuous_glissandi
         
         % [B ViolinMusicVoice measure 79 / measure 5]                                              %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        bff'!2.
+        bff'!2.                                                                                    %! continuous_glissandi
         \pp                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \glissando                                                                                 %! SpannerCommand
         
-        ff'!2
+        ff'!2                                                                                      %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B ViolinMusicVoice measure 80 / measure 6]                                                  %! _comment_measure_numbers
-    dff'!2.
+    dff'!2.                                                                                        %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! continuous_glissandi
         
         % [B ViolinMusicVoice measure 81 / measure 7]                                              %! _comment_measure_numbers
-        cf'!1
+        cf'!1                                                                                      %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        af'!2
+        af'!2                                                                                      %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/9 {
+    }                                                                                              %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! continuous_glissandi
+    \times 5/9 {                                                                                   %! continuous_glissandi
         
         % [B ViolinMusicVoice measure 82 / measure 8]                                              %! _comment_measure_numbers
-        ff'!2.
+        ff'!2.                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        ef'!1.
+        ef'!1.                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
-    \times 4/7 {
+    }                                                                                              %! continuous_glissandi
+    \times 4/7 {                                                                                   %! continuous_glissandi
         
         % [B ViolinMusicVoice measure 83 / measure 9]                                              %! _comment_measure_numbers
-        gff'!1
+        gff'!1                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        aff'!2.
+        aff'!2.                                                                                    %! continuous_glissandi
         \f                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         \glissando                                                                                 %! SpannerCommand
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B ViolinMusicVoice measure 84 / measure 10]                                                 %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    bff'!2.
+    bff'!2.                                                                                        %! continuous_glissandi
     \fff                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
     % [B ViolinMusicVoice measure 85 / measure 11]                                                 %! _comment_measure_numbers
-    af'!1
+    af'!1                                                                                          %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
     
     % [B ViolinMusicVoice measure 86 / measure 12]                                                 %! _comment_measure_numbers
-    bf!2
+    bf!2                                                                                           %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
     
-    eff'!2.
+    eff'!2.                                                                                        %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
     
     % [B ViolinMusicVoice measure 87 / measure 13]                                                 %! _comment_measure_numbers
-    df'!2.
+    df'!2.                                                                                         %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! continuous_glissandi
         
         % [B ViolinMusicVoice measure 88 / measure 14]                                             %! _comment_measure_numbers
-        ff'!4
+        ff'!4                                                                                      %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        dff'!2
+        dff'!2                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    }                                                                                              %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! continuous_glissandi
+    \times 6/7 {                                                                                   %! continuous_glissandi
         
         % [B ViolinMusicVoice measure 89 / measure 15]                                             %! _comment_measure_numbers
-        cf'!1
+        cf'!1                                                                                      %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        af'!2.
+        af'!2.                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
-    \times 4/7 {
+    }                                                                                              %! continuous_glissandi
+    \times 4/7 {                                                                                   %! continuous_glissandi
         
         % [B ViolinMusicVoice measure 90 / measure 16]                                             %! _comment_measure_numbers
-        bff'!4.
+        bff'!4.                                                                                    %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        ef'!2
+        ef'!2                                                                                      %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B ViolinMusicVoice measure 91 / measure 17]                                                 %! _comment_measure_numbers
     gff'!2.
@@ -6772,89 +6772,89 @@ B_ViolinMusicVoice = {
     \glissando                                                                                     %! SpannerCommand
     
     % [B ViolinMusicVoice measure 92 / measure 18]                                                 %! _comment_measure_numbers
-    aff'!2.
+    aff'!2.                                                                                        %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! continuous_glissandi
         
         % [B ViolinMusicVoice measure 93 / measure 19]                                             %! _comment_measure_numbers
-        df'!1
+        df'!1                                                                                      %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        af'!2
+        af'!2                                                                                      %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B ViolinMusicVoice measure 94 / measure 20]                                                 %! _comment_measure_numbers
-    bf!1.
+    bf!1.                                                                                          %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
-    \times 4/7 {
+    \times 4/7 {                                                                                   %! continuous_glissandi
         
         % [B ViolinMusicVoice measure 95 / measure 21]                                             %! _comment_measure_numbers
-        eff'!2
+        eff'!2                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        ff'!4.
+        ff'!4.                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
-    \times 4/7 {
+    }                                                                                              %! continuous_glissandi
+    \times 4/7 {                                                                                   %! continuous_glissandi
         
         % [B ViolinMusicVoice measure 96 / measure 22]                                             %! _comment_measure_numbers
-        gff'!4.
+        gff'!4.                                                                                    %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        gf'!2
+        gf'!2                                                                                      %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    }                                                                                              %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! continuous_glissandi
+    \times 3/5 {                                                                                   %! continuous_glissandi
         
         % [B ViolinMusicVoice measure 97 / measure 23]                                             %! _comment_measure_numbers
-        bff'!2.
+        bff'!2.                                                                                    %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        aff'!2
+        aff'!2                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B ViolinMusicVoice measure 98 / measure 24]                                                 %! _comment_measure_numbers
-    bff'!1
+    bff'!1                                                                                         %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
     
     % [B ViolinMusicVoice measure 99 / measure 25]                                                 %! _comment_measure_numbers
-    ef'!2
+    ef'!2                                                                                          %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! continuous_glissandi
         
         % [B ViolinMusicVoice measure 100 / measure 26]                                            %! _comment_measure_numbers
-        gff'!4
+        gff'!4                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        eff'!2
+        eff'!2                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B ViolinMusicVoice measure 101 / measure 27]                                                %! _comment_measure_numbers
-    df'!1.
+    df'!1.                                                                                         %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
-    \times 4/7 {
+    \times 4/7 {                                                                                   %! continuous_glissandi
         
         % [B ViolinMusicVoice measure 102 / measure 28]                                            %! _comment_measure_numbers
-        af'!2.
+        af'!2.                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        bf!1
+        bf!1                                                                                       %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    }                                                                                              %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! continuous_glissandi
+    \times 3/5 {                                                                                   %! continuous_glissandi
         
         % [B ViolinMusicVoice measure 103 / measure 29]                                            %! _comment_measure_numbers
-        bff'!2.
+        bff'!2.                                                                                    %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        ff'!2
+        ff'!2                                                                                      %! continuous_glissandi
         \revert NoteHead.style                                                                     %! OverrideCommand(2)
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B ViolinMusicVoice measure 104 / measure 30]                                                %! _comment_measure_numbers
     R1 * 3/4                                                                                       %! _make_measure_silences
@@ -6920,79 +6920,79 @@ B_ViolaMusicVoice = {
     % [B ViolaMusicVoice measure 76 / measure 2]                                                   %! _comment_measure_numbers
     gs'!2                                                                                          %! baca_make_repeat_tied_notes
     \repeatTie
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! continuous_glissandi
+    \times 3/5 {                                                                                   %! continuous_glissandi
         
         % [B ViolaMusicVoice measure 77 / measure 3]                                               %! _comment_measure_numbers
         \override NoteHead.style = #'harmonic                                                      %! OverrideCommand(1)
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        gff'!1.
+        gff'!1.                                                                                    %! continuous_glissandi
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { "estr. sul pont." }                                                            %! IndicatorCommand
         \glissando                                                                                 %! SpannerCommand
         
-        gf'!1
+        gf'!1                                                                                      %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B ViolaMusicVoice measure 78 / measure 4]                                                   %! _comment_measure_numbers
-    bff'!2.
+    bff'!2.                                                                                        %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
     
     % [B ViolaMusicVoice measure 79 / measure 5]                                                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    ff'!1
+    ff'!1                                                                                          %! continuous_glissandi
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \glissando                                                                                     %! SpannerCommand
     
     % [B ViolaMusicVoice measure 80 / measure 6]                                                   %! _comment_measure_numbers
-    dff'!4
+    dff'!4                                                                                         %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
     
-    cf'!2
+    cf'!2                                                                                          %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
     
     % [B ViolaMusicVoice measure 81 / measure 7]                                                   %! _comment_measure_numbers
-    af'!1
+    af'!1                                                                                          %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/7 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! continuous_glissandi
+    \times 5/7 {                                                                                   %! continuous_glissandi
         
         % [B ViolaMusicVoice measure 82 / measure 8]                                               %! _comment_measure_numbers
-        ff'!2.
+        ff'!2.                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        ef'!1
+        ef'!1                                                                                      %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
-    \times 4/5 {
+    }                                                                                              %! continuous_glissandi
+    \times 4/5 {                                                                                   %! continuous_glissandi
         
         % [B ViolaMusicVoice measure 83 / measure 9]                                               %! _comment_measure_numbers
-        gff'!2.
+        gff'!2.                                                                                    %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        aff'!2
+        aff'!2                                                                                     %! continuous_glissandi
         \f                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         \glissando                                                                                 %! SpannerCommand
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    }                                                                                              %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! continuous_glissandi
+    \times 3/5 {                                                                                   %! continuous_glissandi
         
         % [B ViolaMusicVoice measure 84 / measure 10]                                              %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        bff'!2
+        bff'!2                                                                                     %! continuous_glissandi
         \fff                                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         \glissando                                                                                 %! SpannerCommand
         
-        af'!2.
+        af'!2.                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B ViolaMusicVoice measure 85 / measure 11]                                                  %! _comment_measure_numbers
-    bf!1
+    bf!1                                                                                           %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
     
     % [B ViolaMusicVoice measure 86 / measure 12]                                                  %! _comment_measure_numbers
@@ -7001,124 +7001,124 @@ B_ViolaMusicVoice = {
     eff'!2
     \repeatTie
     \glissando                                                                                     %! SpannerCommand
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! continuous_glissandi
+    \times 6/7 {                                                                                   %! continuous_glissandi
         
         % [B ViolaMusicVoice measure 87 / measure 13]                                              %! _comment_measure_numbers
-        df'!2
+        df'!2                                                                                      %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        ff'!4.
+        ff'!4.                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B ViolaMusicVoice measure 88 / measure 14]                                                  %! _comment_measure_numbers
-    dff'!2
+    dff'!2                                                                                         %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! continuous_glissandi
+    \times 3/5 {                                                                                   %! continuous_glissandi
         
         % [B ViolaMusicVoice measure 89 / measure 15]                                              %! _comment_measure_numbers
-        cf'!1.
+        cf'!1.                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        af'!1
+        af'!1                                                                                      %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
-    \times 4/5 {
+    }                                                                                              %! continuous_glissandi
+    \times 4/5 {                                                                                   %! continuous_glissandi
         
         % [B ViolaMusicVoice measure 90 / measure 16]                                              %! _comment_measure_numbers
-        bff'!4
+        bff'!4                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        ef'!4.
+        ef'!4.                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/9 {
+    }                                                                                              %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! continuous_glissandi
+    \times 5/9 {                                                                                   %! continuous_glissandi
         
         % [B ViolaMusicVoice measure 91 / measure 17]                                              %! _comment_measure_numbers
-        gff'!1.
+        gff'!1.                                                                                    %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        aff'!2.
+        aff'!2.                                                                                    %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B ViolaMusicVoice measure 92 / measure 18]                                                  %! _comment_measure_numbers
-    df'!2.
+    df'!2.                                                                                         %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
     
     % [B ViolaMusicVoice measure 93 / measure 19]                                                  %! _comment_measure_numbers
-    af'!1
+    af'!1                                                                                          %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! continuous_glissandi
+    \times 6/7 {                                                                                   %! continuous_glissandi
         
         % [B ViolaMusicVoice measure 94 / measure 20]                                              %! _comment_measure_numbers
-        bf!2.
+        bf!2.                                                                                      %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        eff'!1
+        eff'!1                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B ViolaMusicVoice measure 95 / measure 21]                                                  %! _comment_measure_numbers
-    ff'!2
+    ff'!2                                                                                          %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
-    \times 4/5 {
+    \times 4/5 {                                                                                   %! continuous_glissandi
         
         % [B ViolaMusicVoice measure 96 / measure 22]                                              %! _comment_measure_numbers
-        gff'!4
+        gff'!4                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        gf'!4.
+        gf'!4.                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B ViolaMusicVoice measure 97 / measure 23]                                                  %! _comment_measure_numbers
-    bff'!2
+    bff'!2                                                                                         %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
     
-    aff'!4
+    aff'!4                                                                                         %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! continuous_glissandi
         
         % [B ViolaMusicVoice measure 98 / measure 24]                                              %! _comment_measure_numbers
-        bff'!2
+        bff'!2                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        ef'!1
+        ef'!1                                                                                      %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B ViolaMusicVoice measure 99 / measure 25]                                                  %! _comment_measure_numbers
-    gff'!2
+    gff'!2                                                                                         %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
     
     % [B ViolaMusicVoice measure 100 / measure 26]                                                 %! _comment_measure_numbers
-    eff'!2
+    eff'!2                                                                                         %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! continuous_glissandi
+    \times 3/5 {                                                                                   %! continuous_glissandi
         
         % [B ViolaMusicVoice measure 101 / measure 27]                                             %! _comment_measure_numbers
-        df'!1.
+        df'!1.                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        af'!1
+        af'!1                                                                                      %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B ViolaMusicVoice measure 102 / measure 28]                                                 %! _comment_measure_numbers
-    bf!1
+    bf!1                                                                                           %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
     
     % [B ViolaMusicVoice measure 103 / measure 29]                                                 %! _comment_measure_numbers
-    bff'!2
+    bff'!2                                                                                         %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
     
-    ff'!4
+    ff'!4                                                                                          %! continuous_glissandi
     \revert NoteHead.style                                                                         %! OverrideCommand(2)
     
     % [B ViolaMusicVoice measure 104 / measure 30]                                                 %! _comment_measure_numbers
@@ -7189,41 +7189,41 @@ B_CelloMusicVoice = {
     % [B CelloMusicVoice measure 77 / measure 3]                                                   %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    gff'!1
+    gff'!1                                                                                         %! continuous_glissandi
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { "estr. sul pont." }                                                                %! IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
-    gf'!2
+    gf'!2                                                                                          %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
     
     % [B CelloMusicVoice measure 78 / measure 4]                                                   %! _comment_measure_numbers
-    bff'!4
+    bff'!4                                                                                         %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
     
-    ff'!2
+    ff'!2                                                                                          %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
     
     % [B CelloMusicVoice measure 79 / measure 5]                                                   %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    dff'!1
+    dff'!1                                                                                         %! continuous_glissandi
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \glissando                                                                                     %! SpannerCommand
     
     % [B CelloMusicVoice measure 80 / measure 6]                                                   %! _comment_measure_numbers
-    cf'!2.
+    cf'!2.                                                                                         %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
-    \times 4/5 {
+    \times 4/5 {                                                                                   %! continuous_glissandi
         
         % [B CelloMusicVoice measure 81 / measure 7]                                               %! _comment_measure_numbers
-        af'!2.
+        af'!2.                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        ff'!2
+        ff'!2                                                                                      %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B CelloMusicVoice measure 82 / measure 8]                                                   %! _comment_measure_numbers
     ef'!2.
@@ -7231,35 +7231,35 @@ B_CelloMusicVoice = {
     ef'!2
     \repeatTie
     \glissando                                                                                     %! SpannerCommand
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! continuous_glissandi
         
         % [B CelloMusicVoice measure 83 / measure 9]                                               %! _comment_measure_numbers
-        gff'!1
+        gff'!1                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        aff'!2
+        aff'!2                                                                                     %! continuous_glissandi
         \f                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         \glissando                                                                                 %! SpannerCommand
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B CelloMusicVoice measure 84 / measure 10]                                                  %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    bff'!4
+    bff'!4                                                                                         %! continuous_glissandi
     \fff                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     \glissando                                                                                     %! SpannerCommand
     
-    af'!2
+    af'!2                                                                                          %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
-    \times 4/7 {
+    \times 4/7 {                                                                                   %! continuous_glissandi
         
         % [B CelloMusicVoice measure 85 / measure 11]                                              %! _comment_measure_numbers
-        bf!1
+        bf!1                                                                                       %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        eff'!2.
+        eff'!2.                                                                                    %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B CelloMusicVoice measure 86 / measure 12]                                                  %! _comment_measure_numbers
     df'!2.
@@ -7269,119 +7269,119 @@ B_CelloMusicVoice = {
     \glissando                                                                                     %! SpannerCommand
     
     % [B CelloMusicVoice measure 87 / measure 13]                                                  %! _comment_measure_numbers
-    ff'!2.
+    ff'!2.                                                                                         %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
-    \times 4/5 {
+    \times 4/5 {                                                                                   %! continuous_glissandi
         
         % [B CelloMusicVoice measure 88 / measure 14]                                              %! _comment_measure_numbers
-        dff'!4
+        dff'!4                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        cf'!4.
+        cf'!4.                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B CelloMusicVoice measure 89 / measure 15]                                                  %! _comment_measure_numbers
-    af'!1.
+    af'!1.                                                                                         %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! continuous_glissandi
         
         % [B CelloMusicVoice measure 90 / measure 16]                                              %! _comment_measure_numbers
-        bff'!4
+        bff'!4                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        ef'!2
+        ef'!2                                                                                      %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 5/7 {
+    }                                                                                              %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! continuous_glissandi
+    \times 5/7 {                                                                                   %! continuous_glissandi
         
         % [B CelloMusicVoice measure 91 / measure 17]                                              %! _comment_measure_numbers
-        gff'!1
+        gff'!1                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        aff'!2.
+        aff'!2.                                                                                    %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    }                                                                                              %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! continuous_glissandi
+    \times 6/7 {                                                                                   %! continuous_glissandi
         
         % [B CelloMusicVoice measure 92 / measure 18]                                              %! _comment_measure_numbers
-        df'!4.
+        df'!4.                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        af'!2
+        af'!2                                                                                      %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B CelloMusicVoice measure 93 / measure 19]                                                  %! _comment_measure_numbers
-    bf!1
+    bf!1                                                                                           %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
     
     % [B CelloMusicVoice measure 94 / measure 20]                                                  %! _comment_measure_numbers
-    eff'!1.
+    eff'!1.                                                                                        %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! continuous_glissandi
         
         % [B CelloMusicVoice measure 95 / measure 21]                                              %! _comment_measure_numbers
-        ff'!2
+        ff'!2                                                                                      %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        gff'!4
+        gff'!4                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B CelloMusicVoice measure 96 / measure 22]                                                  %! _comment_measure_numbers
-    gf'!2
+    gf'!2                                                                                          %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! continuous_glissandi
+    \times 6/7 {                                                                                   %! continuous_glissandi
         
         % [B CelloMusicVoice measure 97 / measure 23]                                              %! _comment_measure_numbers
-        bff'!2
+        bff'!2                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        aff'!4.
+        aff'!4.                                                                                    %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
-    \times 4/7 {
+    }                                                                                              %! continuous_glissandi
+    \times 4/7 {                                                                                   %! continuous_glissandi
         
         % [B CelloMusicVoice measure 98 / measure 24]                                              %! _comment_measure_numbers
-        bff'!2.
+        bff'!2.                                                                                    %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        ef'!1
+        ef'!1                                                                                      %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
-    \times 4/5 {
+    }                                                                                              %! continuous_glissandi
+    \times 4/5 {                                                                                   %! continuous_glissandi
         
         % [B CelloMusicVoice measure 99 / measure 25]                                              %! _comment_measure_numbers
-        gff'!4.
+        gff'!4.                                                                                    %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        eff'!4
+        eff'!4                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B CelloMusicVoice measure 100 / measure 26]                                                 %! _comment_measure_numbers
-    df'!2
+    df'!2                                                                                          %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
     
     % [B CelloMusicVoice measure 101 / measure 27]                                                 %! _comment_measure_numbers
-    af'!1.
+    af'!1.                                                                                         %! continuous_glissandi
     \glissando                                                                                     %! SpannerCommand
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! continuous_glissandi
         
         % [B CelloMusicVoice measure 102 / measure 28]                                             %! _comment_measure_numbers
-        bf!2
+        bf!2                                                                                       %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
         
-        bff'!1
+        bff'!1                                                                                     %! continuous_glissandi
         \glissando                                                                                 %! SpannerCommand
-    }
+    }                                                                                              %! continuous_glissandi
     
     % [B CelloMusicVoice measure 103 / measure 29]                                                 %! _comment_measure_numbers
-    ff'!2.
+    ff'!2.                                                                                         %! continuous_glissandi
     \revert NoteHead.style                                                                         %! OverrideCommand(2)
     
     % [B CelloMusicVoice measure 104 / measure 30]                                                 %! _comment_measure_numbers

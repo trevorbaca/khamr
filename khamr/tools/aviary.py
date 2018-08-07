@@ -18,5 +18,6 @@ def aviary(duration, extra_counts_per_division):
         rhythm_maker=rmakers.EvenDivisionRhythmMaker(
             denominators=[16],
             extra_counts_per_division=extra_counts_per_division,
+            tag='aviary',
             ),
         )
