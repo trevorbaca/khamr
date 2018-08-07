@@ -320,7 +320,7 @@ C_FluteMusicVoice = {
     bf'!8.
     \repeatTie
     
-    r16
+    r16                                                                                            %! fused_wind
     
     % [C FluteMusicVoice measure 115 / measure 4]                                                  %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
@@ -335,10 +335,10 @@ C_FluteMusicVoice = {
     bf'!4
     \repeatTie
     
-    bf'!16
+    bf'!16                                                                                         %! fused_wind
     \repeatTie
     
-    r16
+    r16                                                                                            %! fused_wind
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     bf'!4.
@@ -355,7 +355,7 @@ C_FluteMusicVoice = {
     bf'!8.
     \repeatTie
     
-    r16
+    r16                                                                                            %! fused_wind
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     bf'!2
@@ -369,7 +369,7 @@ C_FluteMusicVoice = {
     bf'!4..
     \repeatTie
     
-    r16
+    r16                                                                                            %! fused_wind
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     bf'!4
@@ -386,7 +386,7 @@ C_FluteMusicVoice = {
     bf'!8.
     \repeatTie
     
-    r16
+    r16                                                                                            %! fused_wind
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     bf'!2
@@ -406,15 +406,15 @@ C_FluteMusicVoice = {
     bf'!8.
     \repeatTie
     
-    r16
+    r16                                                                                            %! fused_wind
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
-    bf'!2
+    bf'!2                                                                                          %! fused_wind
     
-    bf'!8.
+    bf'!8.                                                                                         %! fused_wind
     \repeatTie
     
-    r16
+    r16                                                                                            %! fused_wind
     
     % [C FluteMusicVoice measure 127 / measure 16]                                                 %! _comment_measure_numbers
     R1 * 1/2                                                                                       %! _make_measure_silences
@@ -485,7 +485,7 @@ C_OboeMusicVoice = {
     c'4..
     \repeatTie
     
-    r16
+    r16                                                                                            %! fused_wind
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     c'4
@@ -500,13 +500,13 @@ C_OboeMusicVoice = {
     \repeatTie
     
     % [C OboeMusicVoice measure 118 / measure 7]                                                   %! _comment_measure_numbers
-    c'2
+    c'2                                                                                            %! fused_wind
     \repeatTie
     
-    c'8.
+    c'8.                                                                                           %! fused_wind
     \repeatTie
     
-    r16
+    r16                                                                                            %! fused_wind
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     c'4
@@ -522,7 +522,7 @@ C_OboeMusicVoice = {
     c'2...
     \repeatTie
     
-    r16
+    r16                                                                                            %! fused_wind
     
     % [C OboeMusicVoice measure 121 / measure 10]                                                  %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
@@ -540,7 +540,7 @@ C_OboeMusicVoice = {
     c'8.
     \repeatTie
     
-    r16
+    r16                                                                                            %! fused_wind
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     c'2
@@ -560,10 +560,10 @@ C_OboeMusicVoice = {
     c'2
     \repeatTie
     
-    c'8.
+    c'8.                                                                                           %! fused_wind
     \repeatTie
     
-    r16
+    r16                                                                                            %! fused_wind
     
     % [C OboeMusicVoice measure 127 / measure 16]                                                  %! _comment_measure_numbers
     R1 * 1/2                                                                                       %! _make_measure_silences
@@ -753,7 +753,7 @@ C_SaxophoneMusicVoice = {
     c'8.
     \repeatTie
     
-    r16
+    r16                                                                                            %! fused_wind
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     c'2.
@@ -771,10 +771,10 @@ C_SaxophoneMusicVoice = {
     c'2
     \repeatTie
     
-    c'8.
+    c'8.                                                                                           %! fused_wind
     \repeatTie
     
-    r16
+    r16                                                                                            %! fused_wind
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     c'2
@@ -795,7 +795,7 @@ C_SaxophoneMusicVoice = {
     c'8.
     \repeatTie
     
-    r16
+    r16                                                                                            %! fused_wind
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     c'4
@@ -822,15 +822,15 @@ C_SaxophoneMusicVoice = {
     c'8.
     \repeatTie
     
-    r16
+    r16                                                                                            %! fused_wind
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
-    c'2
+    c'2                                                                                            %! fused_wind
     
-    c'8.
+    c'8.                                                                                           %! fused_wind
     \repeatTie
     
-    r16
+    r16                                                                                            %! fused_wind
     
     % [C SaxophoneMusicVoice measure 127 / measure 16]                                             %! _comment_measure_numbers
     R1 * 1/2                                                                                       %! _make_measure_silences
@@ -938,10 +938,10 @@ C_GuitarMusicVoice = {
     r1.                                                                                            %! baca_make_repeat_tied_notes
     
     % [C GuitarMusicVoice measure 127 / measure 16]                                                %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! closing
     
     % [C GuitarMusicVoice measure 128 / measure 17]                                                %! _comment_measure_numbers
-    c''1
+    c''1                                                                                           %! closing
     - \accent                                                                                      %! IndicatorCommand
     - \flageolet                                                                                   %! IndicatorCommand
     
@@ -961,7 +961,7 @@ C_GuitarMusicVoice = {
     c''1
     \repeatTie
     
-    r2
+    r2                                                                                             %! closing
     
 }
 
@@ -1056,10 +1056,10 @@ C_PianoMusicVoice = {
     r1.                                                                                            %! baca_make_repeat_tied_notes
     
     % [C PianoMusicVoice measure 127 / measure 16]                                                 %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! closing
     
     % [C PianoMusicVoice measure 128 / measure 17]                                                 %! _comment_measure_numbers
-    as'!1
+    as'!1                                                                                          %! closing
     - \accent                                                                                      %! IndicatorCommand
     
     as'!4
@@ -1077,7 +1077,7 @@ C_PianoMusicVoice = {
     as'!1
     \repeatTie
     
-    r2
+    r2                                                                                             %! closing
     
 }
 

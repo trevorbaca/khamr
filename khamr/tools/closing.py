@@ -21,6 +21,7 @@ def closing():
                 rmakers.silence([0]),
                 rmakers.silence([-1]),
                 ],
+            tag='closing',
             tie_specifier=rmakers.TieSpecifier(
                 repeat_ties=True,
                 )

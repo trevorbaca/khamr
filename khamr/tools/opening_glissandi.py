@@ -24,14 +24,15 @@ def opening_glissandi(tuplet_ratio_rotation, dmask):
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=division_masks,
+            tag='opening_glissandi',
+            tie_specifier=rmakers.TieSpecifier(
+                tie_across_divisions=True,
+                repeat_ties=True,
+                ),
             tuplet_ratios=tuplet_ratios,
             tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True,
                 trivialize=True,
-                ),
-            tie_specifier=rmakers.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True,
                 ),
             ),
         )

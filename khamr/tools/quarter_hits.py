@@ -17,6 +17,7 @@ def quarter_hits(*, dmask=None):
         rewrite_meter=True,
         rhythm_maker=rmakers.NoteRhythmMaker(
             division_masks=dmask,
+            tag='quarter_hits',
             tie_specifier=rmakers.TieSpecifier(
                 repeat_ties=True,
                 ),
