@@ -1671,7 +1671,7 @@ i_GuitarMusicVoice = {
             #16                                                                                    %! IndicatorCommand:baca_start_markup:-PARTS
             Guitar                                                                                 %! IndicatorCommand:baca_start_markup:-PARTS
         }                                                                                          %! IndicatorCommand:baca_start_markup:-PARTS
-    \override NoteHead.style = #'cross                                                             %! OverrideCommand(1)
+    \override NoteHead.style = #'cross                                                             %! baca_note_head_style_cross:OverrideCommand(1)
     \clef "treble"                                                                                 %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                                    %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                                               %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -1940,7 +1940,7 @@ i_GuitarMusicVoice = {
     \times 1/1 {                                                                                   %! guitar_accelerandi
         
         % [_ GuitarMusicVoice measure 25]                                                          %! _comment_measure_numbers
-        \override TupletBracket.staff-padding = #4                                                 %! OverrideCommand(1)
+        \override TupletBracket.staff-padding = #4                                                 %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
         \once \override Beam.grow-direction = #right
         cs''!16 * 117/16                                                                           %! guitar_accelerandi
         ^ \markup { "move towards (and then back away from) the bridge at the center of each accelerando" } %! IndicatorCommand
@@ -2549,14 +2549,14 @@ i_GuitarMusicVoice = {
     r4.                                                                                            %! guitar_isolata
     
     cs''!16                                                                                        %! guitar_isolata
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_cross:OverrideCommand(2)
     
     r16                                                                                            %! guitar_isolata
     
     r4                                                                                             %! guitar_isolata
     
     r2.                                                                                            %! guitar_isolata
-    \revert TupletBracket.staff-padding                                                            %! OverrideCommand(2)
+    \revert TupletBracket.staff-padding                                                            %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
     
 }
 
@@ -3199,7 +3199,7 @@ i_PercussionMusicVoice = {
     \stopStaff                                                                                     %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                                               %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \startStaff                                                                                    %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \override Stem.direction = #down                                                               %! OverrideCommand(1)
+    \override Stem.direction = #down                                                               %! baca_stem_down:OverrideCommand(1)
     \clef "percussion"                                                                             %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                                    %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                                               %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -3488,7 +3488,7 @@ i_PercussionMusicVoice = {
     c'1.
     - \tweak direction #up
     \repeatTie
-    \revert Stem.direction                                                                         %! OverrideCommand(2)
+    \revert Stem.direction                                                                         %! baca_stem_down:OverrideCommand(2)
     
 }
 
@@ -3514,7 +3514,7 @@ i_ViolinMusicVoice = {
             #16                                                                                    %! IndicatorCommand:baca_start_markup:-PARTS
             Violin                                                                                 %! IndicatorCommand:baca_start_markup:-PARTS
         }                                                                                          %! IndicatorCommand:baca_start_markup:-PARTS
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \clef "treble"                                                                                 %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                                    %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                                               %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -3857,7 +3857,7 @@ i_ViolinMusicVoice = {
     b'2
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     
     % [_ ViolinMusicVoice measure 37]                                                              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -4070,7 +4070,7 @@ i_ViolaMusicVoice = {
             #16                                                                                    %! IndicatorCommand:baca_start_markup:-PARTS
             Viola                                                                                  %! IndicatorCommand:baca_start_markup:-PARTS
         }                                                                                          %! IndicatorCommand:baca_start_markup:-PARTS
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \clef "alto"                                                                                   %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                                    %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                                               %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -4405,7 +4405,7 @@ i_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)                              %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
     aqs'!4                                                                                         %! opening_glissandi
     \p                                                                                             %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     
     % [_ ViolaMusicVoice measure 37]                                                               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -4574,7 +4574,7 @@ i_CelloMusicVoice = {
             #16                                                                                    %! IndicatorCommand:baca_start_markup:-PARTS
             Cello                                                                                  %! IndicatorCommand:baca_start_markup:-PARTS
         }                                                                                          %! IndicatorCommand:baca_start_markup:-PARTS
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \clef "bass"                                                                                   %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                                    %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                                               %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -4918,7 +4918,7 @@ i_CelloMusicVoice = {
     b2
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     
     % [_ CelloMusicVoice measure 37]                                                               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -5070,7 +5070,7 @@ i_ContrabassMusicVoice = {
             #16                                                                                    %! IndicatorCommand:baca_start_markup:-PARTS
             Contrabass                                                                             %! IndicatorCommand:baca_start_markup:-PARTS
         }                                                                                          %! IndicatorCommand:baca_start_markup:-PARTS
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \clef "bass"                                                                                   %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                                    %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                                               %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -5453,7 +5453,7 @@ i_ContrabassMusicVoice = {
     c'1.                                                                                           %! opening_glissandi
     \pp                                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     
 }
 

@@ -6657,7 +6657,7 @@ B_ViolinMusicVoice = {
     \repeatTie
     
     % [B ViolinMusicVoice measure 77 / measure 3]                                                  %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     gff'!1.                                                                                        %! continuous_glissandi
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
@@ -6853,7 +6853,7 @@ B_ViolinMusicVoice = {
         \glissando                                                                                 %! SpannerCommand
         
         ff'!2                                                                                      %! continuous_glissandi
-        \revert NoteHead.style                                                                     %! OverrideCommand(2)
+        \revert NoteHead.style                                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
     }                                                                                              %! continuous_glissandi
     
     % [B ViolinMusicVoice measure 104 / measure 30]                                                %! _comment_measure_numbers
@@ -6924,7 +6924,7 @@ B_ViolaMusicVoice = {
     \times 3/5 {                                                                                   %! continuous_glissandi
         
         % [B ViolaMusicVoice measure 77 / measure 3]                                               %! _comment_measure_numbers
-        \override NoteHead.style = #'harmonic                                                      %! OverrideCommand(1)
+        \override NoteHead.style = #'harmonic                                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         gff'!1.                                                                                    %! continuous_glissandi
         \p                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
@@ -7119,7 +7119,7 @@ B_ViolaMusicVoice = {
     \glissando                                                                                     %! SpannerCommand
     
     ff'!4                                                                                          %! continuous_glissandi
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     
     % [B ViolaMusicVoice measure 104 / measure 30]                                                 %! _comment_measure_numbers
     R1 * 3/4                                                                                       %! _make_measure_silences
@@ -7187,7 +7187,7 @@ B_CelloMusicVoice = {
     \repeatTie
     
     % [B CelloMusicVoice measure 77 / measure 3]                                                   %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     gff'!1                                                                                         %! continuous_glissandi
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
@@ -7382,7 +7382,7 @@ B_CelloMusicVoice = {
     
     % [B CelloMusicVoice measure 103 / measure 29]                                                 %! _comment_measure_numbers
     ff'!2.                                                                                         %! continuous_glissandi
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     
     % [B CelloMusicVoice measure 104 / measure 30]                                                 %! _comment_measure_numbers
     R1 * 3/4                                                                                       %! _make_measure_silences
