@@ -1115,7 +1115,7 @@ A_GuitarMusicVoice = {
             }                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
-        \override NoteHead.style = #'cross                                                         %! OverrideCommand(1)
+        \override NoteHead.style = #'cross                                                         %! baca_note_head_style_cross:OverrideCommand(1)
         d''8                                                                                       %! guitar_isolata
         
         r8                                                                                         %! guitar_isolata
@@ -1141,7 +1141,7 @@ A_GuitarMusicVoice = {
         r8                                                                                         %! guitar_isolata
         
         g''8                                                                                       %! guitar_isolata
-        \revert NoteHead.style                                                                     %! OverrideCommand(2)
+        \revert NoteHead.style                                                                     %! baca_note_head_style_cross:OverrideCommand(2)
         
         r8                                                                                         %! guitar_isolata
     }                                                                                              %! guitar_isolata
@@ -1610,7 +1610,7 @@ A_PercussionMusicVoice = {
     \stopStaff                                                                                     %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 1                                               %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                                    %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \override Stem.direction = #down                                                               %! OverrideCommand(1)
+    \override Stem.direction = #down                                                               %! baca_stem_down:OverrideCommand(1)
     \clef "percussion"                                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1719,7 +1719,7 @@ A_PercussionMusicVoice = {
     % [A PercussionMusicVoice measure 58 / measure 14]                                             %! _comment_measure_numbers
     c'2
     \repeatTie
-    \revert Stem.direction                                                                         %! OverrideCommand(2)
+    \revert Stem.direction                                                                         %! baca_stem_down:OverrideCommand(2)
     
     % [A PercussionMusicVoice measure 59 / measure 15]                                             %! _comment_measure_numbers
     r1.                                                                                            %! quarter_hits
@@ -1728,7 +1728,7 @@ A_PercussionMusicVoice = {
     \stopStaff                                                                                     %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
     \once \override Staff.StaffSymbol.line-count = 5                                               %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
     \startStaff                                                                                    %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \override Stem.direction = #down                                                               %! OverrideCommand(1)
+    \override Stem.direction = #down                                                               %! baca_stem_down:OverrideCommand(1)
     \clef "treble"                                                                                 %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)                                   %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -2064,7 +2064,7 @@ A_PercussionMusicVoice = {
     af''!4.                                                                                        %! fused_expanse
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:MarimbaHitCommand
     - \marcato                                                                                     %! MarimbaHitCommand
-    \revert Stem.direction                                                                         %! OverrideCommand(2)
+    \revert Stem.direction                                                                         %! baca_stem_down:OverrideCommand(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                        %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
 }
@@ -3064,7 +3064,7 @@ A_ContrabassMusicVoice = {
             #16                                                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             Cb.                                                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \clef "bass"                                                                                   %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -3167,7 +3167,7 @@ A_ContrabassMusicVoice = {
         \glissando                                                                                 %! SpannerCommand
         
         <gqs,! aqs!>8
-        \revert NoteHead.style                                                                     %! OverrideCommand(2)
+        \revert NoteHead.style                                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
     }                                                                                              %! opening_glissandi
     
     % [A ContrabassMusicVoice measure 58 / measure 14]                                             %! _comment_measure_numbers
