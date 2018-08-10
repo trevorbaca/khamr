@@ -254,9 +254,9 @@ maker(
         'mp > pp',
         selector=baca.tleaves(),
         ),
-    baca.map(
-        baca.qruns(),
+    baca.new(
         baca.trill_spanner(),
+        map=baca.qruns(),
         ),
     baca.pitch('A4'),
     )
@@ -396,9 +396,9 @@ maker(
 maker(
     ('vn', (37, 44)),
     baca.dynamic('ppp'),
-    baca.map(
-        baca.plts(),
+    baca.new(
         baca.trill_spanner(string='m2'),
+        map=baca.plts(),
         ),
     baca.markup('molto flautando e pont.'),
     baca.pitches(khamr.color_trill_pitches),
@@ -419,9 +419,9 @@ maker(
 maker(
     ('va', (37, 44)),
     baca.dynamic('ppp'),
-    baca.map(
-        baca.plts(),
+    baca.new(
         baca.trill_spanner(string='m2'),
+        map=baca.plts(),
         ),
     baca.markup('molto flautando e pont.'),
     baca.pitches(khamr.color_trill_pitches),
@@ -442,9 +442,9 @@ maker(
 maker(
     ('vc', (37, 44)),
     baca.dynamic('ppp'),
-    baca.map(
-        baca.plts(),
+    baca.new(
         baca.trill_spanner(string='m2'),
+        map=baca.plts(),
         ),
     baca.markup('molto flautando e pont.'),
     baca.pitches(khamr.color_trill_pitches),

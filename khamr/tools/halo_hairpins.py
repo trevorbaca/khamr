@@ -12,9 +12,9 @@ def halo_hairpins():
         ]
     commands = []
     for i, hairpin in enumerate(hairpins):
-        command = baca.map(
-            baca.plts()[abjad.index([i], len(hairpins))],
+        command = baca.new(
             baca.hairpin(hairpin, remove_length_1_spanner_start=True),
+            map=baca.plts()[abjad.index([i], len(hairpins))],
             )
         commands.append(command)
     return commands
