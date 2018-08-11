@@ -753,8 +753,10 @@ i_FluteMusicVoice = {                                                          %
 
 
 i_FluteMusicStaff = {                                                          %! extern
+
     \context Voice = "FluteMusicVoice"                                         %! ScoreTemplate
     \i_FluteMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -1043,8 +1045,10 @@ i_OboeMusicVoice = {                                                           %
 
 
 i_OboeMusicStaff = {                                                           %! extern
+
     \context Voice = "OboeMusicVoice"                                          %! ScoreTemplate
     \i_OboeMusicVoice                                                          %! extern
+
 }                                                                              %! extern
 
 
@@ -1328,8 +1332,10 @@ i_ClarinetMusicVoice = {                                                       %
 
 
 i_ClarinetMusicStaff = {                                                       %! extern
+
     \context Voice = "ClarinetMusicVoice"                                      %! ScoreTemplate
     \i_ClarinetMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -1603,8 +1609,10 @@ i_SaxophoneMusicVoice = {                                                      %
 
 
 i_SaxophoneMusicStaff = {                                                      %! extern
+
     \context Voice = "SaxophoneMusicVoice"                                     %! ScoreTemplate
     \i_SaxophoneMusicVoice                                                     %! extern
+
 }                                                                              %! extern
 
 
@@ -1686,6 +1694,7 @@ i_GuitarMusicVoice = {                                                         %
 
     % [_ GuitarMusicVoice measure 8]                                           %! _comment_measure_numbers
     r2.                                                                        %! guitar_isolata
+
     \times 4/5 {                                                               %! guitar_isolata
 
         r8.                                                                    %! guitar_isolata
@@ -1693,12 +1702,14 @@ i_GuitarMusicVoice = {                                                         %
         fs'!16                                                                 %! guitar_isolata
 
         r16                                                                    %! guitar_isolata
+
     }                                                                          %! guitar_isolata
 
     r4                                                                         %! guitar_isolata
 
     % [_ GuitarMusicVoice measure 9]                                           %! _comment_measure_numbers
     r2                                                                         %! guitar_isolata
+
     \times 4/5 {                                                               %! guitar_isolata
 
         r8.                                                                    %! guitar_isolata
@@ -1706,21 +1717,25 @@ i_GuitarMusicVoice = {                                                         %
         g'16                                                                   %! guitar_isolata
 
         r16                                                                    %! guitar_isolata
+
     }                                                                          %! guitar_isolata
 
     r4                                                                         %! guitar_isolata
 
     % [_ GuitarMusicVoice measure 10]                                          %! _comment_measure_numbers
     r2.                                                                        %! guitar_isolata
+
     \times 2/3 {                                                               %! guitar_isolata
 
         % [_ GuitarMusicVoice measure 11]                                      %! _comment_measure_numbers
         r8                                                                     %! guitar_isolata
 
         bf'!4                                                                  %! guitar_isolata
+
     }                                                                          %! guitar_isolata
 
     r2.                                                                        %! guitar_isolata
+
     \times 2/3 {                                                               %! guitar_isolata
 
         % [_ GuitarMusicVoice measure 12]                                      %! _comment_measure_numbers
@@ -1729,6 +1744,7 @@ i_GuitarMusicVoice = {                                                         %
         d'8                                                                    %! guitar_isolata
 
         r8                                                                     %! guitar_isolata
+
     }                                                                          %! guitar_isolata
 
     r1                                                                         %! guitar_isolata
@@ -1744,6 +1760,7 @@ i_GuitarMusicVoice = {                                                         %
 
     % [_ GuitarMusicVoice measure 14]                                          %! _comment_measure_numbers
     r4                                                                         %! guitar_isolata
+
     \times 2/3 {                                                               %! guitar_isolata
 
         r8                                                                     %! guitar_isolata
@@ -1751,6 +1768,7 @@ i_GuitarMusicVoice = {                                                         %
         cs'!8                                                                  %! guitar_isolata
 
         r8                                                                     %! guitar_isolata
+
     }                                                                          %! guitar_isolata
 
     % [_ GuitarMusicVoice measure 15]                                          %! _comment_measure_numbers
@@ -1777,6 +1795,7 @@ i_GuitarMusicVoice = {                                                         %
     r2                                                                         %! guitar_isolata
 
     r2                                                                         %! guitar_isolata
+
     \times 4/5 {                                                               %! guitar_isolata
 
         % [_ GuitarMusicVoice measure 18]                                      %! _comment_measure_numbers
@@ -1785,12 +1804,14 @@ i_GuitarMusicVoice = {                                                         %
         bf'!16                                                                 %! guitar_isolata
 
         r16                                                                    %! guitar_isolata
+
     }                                                                          %! guitar_isolata
 
     r2                                                                         %! guitar_isolata
 
     % [_ GuitarMusicVoice measure 19]                                          %! _comment_measure_numbers
     r4                                                                         %! guitar_isolata
+
     \times 4/5 {                                                               %! guitar_isolata
 
         r8.                                                                    %! guitar_isolata
@@ -1798,12 +1819,14 @@ i_GuitarMusicVoice = {                                                         %
         af'!16                                                                 %! guitar_isolata
 
         r16                                                                    %! guitar_isolata
+
     }                                                                          %! guitar_isolata
 
     r2                                                                         %! guitar_isolata
 
     % [_ GuitarMusicVoice measure 20]                                          %! _comment_measure_numbers
     r2                                                                         %! guitar_isolata
+
     \times 2/3 {                                                               %! guitar_isolata
 
         r8                                                                     %! guitar_isolata
@@ -1811,15 +1834,18 @@ i_GuitarMusicVoice = {                                                         %
         e8                                                                     %! guitar_isolata
 
         r8                                                                     %! guitar_isolata
+
     }                                                                          %! guitar_isolata
 
     r2.                                                                        %! guitar_isolata
+
     \times 2/3 {                                                               %! guitar_isolata
 
         % [_ GuitarMusicVoice measure 21]                                      %! _comment_measure_numbers
         r8                                                                     %! guitar_isolata
 
         f4                                                                     %! guitar_isolata
+
     }                                                                          %! guitar_isolata
 
     r4                                                                         %! guitar_isolata
@@ -1829,6 +1855,7 @@ i_GuitarMusicVoice = {                                                         %
 
     % [_ GuitarMusicVoice measure 23]                                          %! _comment_measure_numbers
     r4                                                                         %! guitar_isolata
+
     \times 2/3 {                                                               %! guitar_isolata
 
         r8                                                                     %! guitar_isolata
@@ -1836,6 +1863,7 @@ i_GuitarMusicVoice = {                                                         %
         d'8                                                                    %! guitar_isolata
 
         r8                                                                     %! guitar_isolata
+
     }                                                                          %! guitar_isolata
 
     r4                                                                         %! guitar_isolata
@@ -1850,6 +1878,7 @@ i_GuitarMusicVoice = {                                                         %
     r16                                                                        %! guitar_isolata
 
     r4                                                                         %! guitar_isolata
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1904,8 +1933,10 @@ i_GuitarMusicVoice = {                                                         %
 
         d''16 * 59/32                                                          %! guitar_accelerandi
         ]                                                                      %! guitar_accelerandi
+
     }                                                                          %! guitar_accelerandi
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1966,8 +1997,10 @@ i_GuitarMusicVoice = {                                                         %
 
         cs''!16 * 429/64                                                       %! guitar_accelerandi
         ]                                                                      %! guitar_accelerandi
+
     }                                                                          %! guitar_accelerandi
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2027,8 +2060,10 @@ i_GuitarMusicVoice = {                                                         %
 
         f''16 * 61/32                                                          %! guitar_accelerandi
         ]                                                                      %! guitar_accelerandi
+
     }                                                                          %! guitar_accelerandi
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2083,8 +2118,10 @@ i_GuitarMusicVoice = {                                                         %
 
         g''16 * 343/64                                                         %! guitar_accelerandi
         ]                                                                      %! guitar_accelerandi
+
     }                                                                          %! guitar_accelerandi
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2150,8 +2187,10 @@ i_GuitarMusicVoice = {                                                         %
 
         af''!16 * 123/64                                                       %! guitar_accelerandi
         ]                                                                      %! guitar_accelerandi
+
     }                                                                          %! guitar_accelerandi
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2206,8 +2245,10 @@ i_GuitarMusicVoice = {                                                         %
 
         cs''!16 * 343/64                                                       %! guitar_accelerandi
         ]                                                                      %! guitar_accelerandi
+
     }                                                                          %! guitar_accelerandi
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2269,8 +2310,10 @@ i_GuitarMusicVoice = {                                                         %
 
         e''16 * 61/32                                                          %! guitar_accelerandi
         ]                                                                      %! guitar_accelerandi
+
     }                                                                          %! guitar_accelerandi
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2331,8 +2374,10 @@ i_GuitarMusicVoice = {                                                         %
 
         d''16 * 409/64                                                         %! guitar_accelerandi
         ]                                                                      %! guitar_accelerandi
+
     }                                                                          %! guitar_accelerandi
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2390,8 +2435,10 @@ i_GuitarMusicVoice = {                                                         %
 
         d''16 * 15/8                                                           %! guitar_accelerandi
         ]                                                                      %! guitar_accelerandi
+
     }                                                                          %! guitar_accelerandi
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2452,15 +2499,19 @@ i_GuitarMusicVoice = {                                                         %
 
         bf''!16 * 429/64                                                       %! guitar_accelerandi
         ]                                                                      %! guitar_accelerandi
+
     }                                                                          %! guitar_accelerandi
     \revert TupletNumber.text
+
     \tweak text #tuplet-number::calc-fraction-text                             %! guitar_accelerandi
     \times 1/1 {                                                               %! guitar_accelerandi
 
         % [_ GuitarMusicVoice measure 40]                                      %! _comment_measure_numbers
         bf''!2                                                                 %! guitar_accelerandi
         \repeatTie
+
     }                                                                          %! guitar_accelerandi
+
     \times 2/3 {                                                               %! guitar_isolata
 
         % [_ GuitarMusicVoice measure 41]                                      %! _comment_measure_numbers
@@ -2469,16 +2520,19 @@ i_GuitarMusicVoice = {                                                         %
         c''8                                                                   %! guitar_isolata
 
         r8                                                                     %! guitar_isolata
+
     }                                                                          %! guitar_isolata
 
     r2                                                                         %! guitar_isolata
 
     r4                                                                         %! guitar_isolata
+
     \times 2/3 {                                                               %! guitar_isolata
 
         r8                                                                     %! guitar_isolata
 
         a''4                                                                   %! guitar_isolata
+
     }                                                                          %! guitar_isolata
 
     % [_ GuitarMusicVoice measure 42]                                          %! _comment_measure_numbers
@@ -2486,6 +2540,7 @@ i_GuitarMusicVoice = {                                                         %
 
     % [_ GuitarMusicVoice measure 43]                                          %! _comment_measure_numbers
     r4                                                                         %! guitar_isolata
+
     \times 2/3 {                                                               %! guitar_isolata
 
         r8                                                                     %! guitar_isolata
@@ -2493,6 +2548,7 @@ i_GuitarMusicVoice = {                                                         %
         d''8                                                                   %! guitar_isolata
 
         r8                                                                     %! guitar_isolata
+
     }                                                                          %! guitar_isolata
 
     r2                                                                         %! guitar_isolata
@@ -2514,8 +2570,10 @@ i_GuitarMusicVoice = {                                                         %
 
 
 i_GuitarMusicStaff = {                                                         %! extern
+
     \context Voice = "GuitarMusicVoice"                                        %! ScoreTemplate
     \i_GuitarMusicVoice                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -2677,6 +2735,7 @@ i_PianoMusicVoice = {                                                          %
     c'1
     - \tweak direction #up
     \repeatTie
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2756,8 +2815,10 @@ i_PianoMusicVoice = {                                                          %
 
         cs''''!16 * 31/16                                                      %! guitar_accelerandi
         ]                                                                      %! guitar_accelerandi
+
     }                                                                          %! guitar_accelerandi
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2820,8 +2881,10 @@ i_PianoMusicVoice = {                                                          %
 
         d''''16 * 221/32                                                       %! guitar_accelerandi
         ]                                                                      %! guitar_accelerandi
+
     }                                                                          %! guitar_accelerandi
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2892,8 +2955,10 @@ i_PianoMusicVoice = {                                                          %
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         e''''16 * 63/32                                                        %! guitar_accelerandi
         ]                                                                      %! guitar_accelerandi
+
     }                                                                          %! guitar_accelerandi
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2956,8 +3021,10 @@ i_PianoMusicVoice = {                                                          %
 
         ef''''!16 * 221/32                                                     %! guitar_accelerandi
         ]                                                                      %! guitar_accelerandi
+
     }                                                                          %! guitar_accelerandi
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3023,8 +3090,10 @@ i_PianoMusicVoice = {                                                          %
 
         cs''''!16 * 123/64                                                     %! guitar_accelerandi
         ]                                                                      %! guitar_accelerandi
+
     }                                                                          %! guitar_accelerandi
     \revert TupletNumber.text
+
     \times 2/3 {                                                               %! guitar_isolata
 
         % [_ PianoMusicVoice measure 37]                                       %! _comment_measure_numbers
@@ -3033,21 +3102,25 @@ i_PianoMusicVoice = {                                                          %
         c''''8                                                                 %! guitar_isolata
 
         r8                                                                     %! guitar_isolata
+
     }                                                                          %! guitar_isolata
 
     r2                                                                         %! guitar_isolata
 
     % [_ PianoMusicVoice measure 38]                                           %! _comment_measure_numbers
     r4                                                                         %! guitar_isolata
+
     \times 2/3 {                                                               %! guitar_isolata
 
         r8                                                                     %! guitar_isolata
 
         bf'''!4                                                                %! guitar_isolata
+
     }                                                                          %! guitar_isolata
 
     % [_ PianoMusicVoice measure 39]                                           %! _comment_measure_numbers
     r1                                                                         %! guitar_isolata
+
     \times 2/3 {                                                               %! guitar_isolata
 
         r8                                                                     %! guitar_isolata
@@ -3056,6 +3129,7 @@ i_PianoMusicVoice = {                                                          %
         \ottava #0                                                             %! SpannerCommand
 
         r8                                                                     %! guitar_isolata
+
     }                                                                          %! guitar_isolata
 
     r4                                                                         %! guitar_isolata
@@ -3127,8 +3201,10 @@ i_PianoMusicVoice = {                                                          %
 
 
 i_PianoMusicStaff = {                                                          %! extern
+
     \context Voice = "PianoMusicVoice"                                         %! ScoreTemplate
     \i_PianoMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -3446,8 +3522,10 @@ i_PercussionMusicVoice = {                                                     %
 
 
 i_PercussionMusicStaff = {                                                     %! extern
+
     \context Voice = "PercussionMusicVoice"                                    %! ScoreTemplate
     \i_PercussionMusicVoice                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -3497,6 +3575,7 @@ i_ViolinMusicVoice = {                                                         %
     % [_ ViolinMusicVoice measure 3]                                           %! _comment_measure_numbers
     g'1.                                                                       %! opening_glissandi
     \repeatTie
+
     \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
     \times 3/4 {                                                               %! opening_glissandi
 
@@ -3512,6 +3591,7 @@ i_ViolinMusicVoice = {                                                         %
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ViolinMusicVoice measure 5]                                           %! _comment_measure_numbers
@@ -3530,6 +3610,7 @@ i_ViolinMusicVoice = {                                                         %
     % [_ ViolinMusicVoice measure 6]                                           %! _comment_measure_numbers
     gqs'!2.                                                                    %! opening_glissandi
     \repeatTie
+
     \times 2/3 {                                                               %! opening_glissandi
 
         % [_ ViolinMusicVoice measure 7]                                       %! _comment_measure_numbers
@@ -3544,6 +3625,7 @@ i_ViolinMusicVoice = {                                                         %
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ViolinMusicVoice measure 8]                                           %! _comment_measure_numbers
@@ -3560,6 +3642,7 @@ i_ViolinMusicVoice = {                                                         %
     % [_ ViolinMusicVoice measure 10]                                          %! _comment_measure_numbers
     a'2.                                                                       %! opening_glissandi
     \repeatTie
+
     \times 4/7 {                                                               %! opening_glissandi
 
         % [_ ViolinMusicVoice measure 11]                                      %! _comment_measure_numbers
@@ -3574,7 +3657,9 @@ i_ViolinMusicVoice = {                                                         %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
+
     \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
     \times 5/7 {                                                               %! opening_glissandi
 
@@ -3591,11 +3676,13 @@ i_ViolinMusicVoice = {                                                         %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ViolinMusicVoice measure 13]                                          %! _comment_measure_numbers
     af'!2.                                                                     %! opening_glissandi
     \repeatTie
+
     \times 4/5 {                                                               %! opening_glissandi
 
         % [_ ViolinMusicVoice measure 14]                                      %! _comment_measure_numbers
@@ -3610,6 +3697,7 @@ i_ViolinMusicVoice = {                                                         %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ViolinMusicVoice measure 15]                                          %! _comment_measure_numbers
@@ -3627,6 +3715,7 @@ i_ViolinMusicVoice = {                                                         %
 
     gqs'!2
     \repeatTie
+
     \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
     \times 3/4 {                                                               %! opening_glissandi
 
@@ -3642,7 +3731,9 @@ i_ViolinMusicVoice = {                                                         %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
+
     \times 2/3 {                                                               %! opening_glissandi
 
         % [_ ViolinMusicVoice measure 19]                                      %! _comment_measure_numbers
@@ -3657,11 +3748,13 @@ i_ViolinMusicVoice = {                                                         %
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ViolinMusicVoice measure 20]                                          %! _comment_measure_numbers
     g'1.                                                                       %! opening_glissandi
     \repeatTie
+
     \times 2/3 {                                                               %! opening_glissandi
 
         % [_ ViolinMusicVoice measure 21]                                      %! _comment_measure_numbers
@@ -3676,6 +3769,7 @@ i_ViolinMusicVoice = {                                                         %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ViolinMusicVoice measure 22]                                          %! _comment_measure_numbers
@@ -3689,6 +3783,7 @@ i_ViolinMusicVoice = {                                                         %
     % [_ ViolinMusicVoice measure 24]                                          %! _comment_measure_numbers
     a'1                                                                        %! opening_glissandi
     \repeatTie
+
     \times 4/5 {                                                               %! opening_glissandi
 
         % [_ ViolinMusicVoice measure 25]                                      %! _comment_measure_numbers
@@ -3703,7 +3798,9 @@ i_ViolinMusicVoice = {                                                         %
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
+
     \times 4/5 {                                                               %! opening_glissandi
 
         % [_ ViolinMusicVoice measure 26]                                      %! _comment_measure_numbers
@@ -3719,6 +3816,7 @@ i_ViolinMusicVoice = {                                                         %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ViolinMusicVoice measure 27]                                          %! _comment_measure_numbers
@@ -3751,6 +3849,7 @@ i_ViolinMusicVoice = {                                                         %
     bf'!1                                                                      %! opening_glissandi
     - \tweak direction #up
     \repeatTie
+
     \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
     \times 5/9 {                                                               %! opening_glissandi
 
@@ -3767,6 +3866,7 @@ i_ViolinMusicVoice = {                                                         %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ViolinMusicVoice measure 33]                                          %! _comment_measure_numbers
@@ -3785,6 +3885,7 @@ i_ViolinMusicVoice = {                                                         %
     % [_ ViolinMusicVoice measure 34]                                          %! _comment_measure_numbers
     a'1                                                                        %! opening_glissandi
     \repeatTie
+
     \times 4/7 {                                                               %! opening_glissandi
 
         % [_ ViolinMusicVoice measure 35]                                      %! _comment_measure_numbers
@@ -3799,6 +3900,7 @@ i_ViolinMusicVoice = {                                                         %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ViolinMusicVoice measure 36]                                          %! _comment_measure_numbers
@@ -3819,6 +3921,7 @@ i_ViolinMusicVoice = {                                                         %
     - \accent                                                                  %! IndicatorCommand
     ^ \markup { "molto flautando e pont." }                                    %! baca_markup:IndicatorCommand
     \startTrillSpan gf'
+
     \times 4/5 {                                                               %! trill_tuplets
 
         f'16                                                                   %! trill_tuplets
@@ -3830,11 +3933,13 @@ i_ViolinMusicVoice = {                                                         %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan g'
+
     }                                                                          %! trill_tuplets
 
     % [_ ViolinMusicVoice measure 38]                                          %! _comment_measure_numbers
     fs'!2                                                                      %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         % [_ ViolinMusicVoice measure 39]                                      %! _comment_measure_numbers
@@ -3849,10 +3954,12 @@ i_ViolinMusicVoice = {                                                         %
         ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan gqf'
+
     }                                                                          %! trill_tuplets
 
     fqs'!2                                                                     %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         fqs'!8.                                                                %! trill_tuplets
@@ -3865,11 +3972,13 @@ i_ViolinMusicVoice = {                                                         %
         ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan gf'
+
     }                                                                          %! trill_tuplets
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     f'2                                                                        %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         % [_ ViolinMusicVoice measure 40]                                      %! _comment_measure_numbers
@@ -3881,6 +3990,7 @@ i_ViolinMusicVoice = {                                                         %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan gqf'
+
     }                                                                          %! trill_tuplets
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -3890,6 +4000,7 @@ i_ViolinMusicVoice = {                                                         %
     % [_ ViolinMusicVoice measure 41]                                          %! _comment_measure_numbers
     fqs'!4                                                                     %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         fqs'!16                                                                %! trill_tuplets
@@ -3901,6 +4012,7 @@ i_ViolinMusicVoice = {                                                         %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan gf'
+
     }                                                                          %! trill_tuplets
 
     f'4                                                                        %! trill_tuplets
@@ -3908,6 +4020,7 @@ i_ViolinMusicVoice = {                                                         %
 
     f'4                                                                        %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         f'16                                                                   %! trill_tuplets
@@ -3919,11 +4032,13 @@ i_ViolinMusicVoice = {                                                         %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan f'
+
     }                                                                          %! trill_tuplets
 
     % [_ ViolinMusicVoice measure 42]                                          %! _comment_measure_numbers
     e'2                                                                        %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         e'8                                                                    %! trill_tuplets
@@ -3937,11 +4052,13 @@ i_ViolinMusicVoice = {                                                         %
         ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan fqs'
+
     }                                                                          %! trill_tuplets
 
     % [_ ViolinMusicVoice measure 43]                                          %! _comment_measure_numbers
     eqs'!2                                                                     %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         eqs'!8.                                                                %! trill_tuplets
@@ -3954,6 +4071,7 @@ i_ViolinMusicVoice = {                                                         %
         ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan f'
+
     }                                                                          %! trill_tuplets
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -3963,6 +4081,7 @@ i_ViolinMusicVoice = {                                                         %
     % [_ ViolinMusicVoice measure 44]                                          %! _comment_measure_numbers
     e'4                                                                        %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         e'4                                                                    %! trill_tuplets
@@ -3973,6 +4092,7 @@ i_ViolinMusicVoice = {                                                         %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan fqs'
+
     }                                                                          %! trill_tuplets
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -3981,6 +4101,7 @@ i_ViolinMusicVoice = {                                                         %
 
     eqs'!4                                                                     %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         eqs'!16                                                                %! trill_tuplets
@@ -3992,6 +4113,7 @@ i_ViolinMusicVoice = {                                                         %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan gf'
+
     }                                                                          %! trill_tuplets
 
     f'4                                                                        %! trill_tuplets
@@ -4002,8 +4124,10 @@ i_ViolinMusicVoice = {                                                         %
 
 
 i_ViolinMusicStaff = {                                                         %! extern
+
     \context Voice = "ViolinMusicVoice"                                        %! ScoreTemplate
     \i_ViolinMusicVoice                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -4062,6 +4186,7 @@ i_ViolaMusicVoice = {                                                          %
     % [_ ViolaMusicVoice measure 4]                                            %! _comment_measure_numbers
     af'!2.                                                                     %! opening_glissandi
     \repeatTie
+
     \times 2/3 {                                                               %! opening_glissandi
 
         % [_ ViolaMusicVoice measure 5]                                        %! _comment_measure_numbers
@@ -4076,6 +4201,7 @@ i_ViolaMusicVoice = {                                                          %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ViolaMusicVoice measure 6]                                            %! _comment_measure_numbers
@@ -4094,6 +4220,7 @@ i_ViolaMusicVoice = {                                                          %
     % [_ ViolaMusicVoice measure 7]                                            %! _comment_measure_numbers
     a'1                                                                        %! opening_glissandi
     \repeatTie
+
     \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
     \times 5/7 {                                                               %! opening_glissandi
 
@@ -4109,6 +4236,7 @@ i_ViolaMusicVoice = {                                                          %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ViolaMusicVoice measure 9]                                            %! _comment_measure_numbers
@@ -4135,6 +4263,7 @@ i_ViolaMusicVoice = {                                                          %
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
     \times 3/4 {                                                               %! opening_glissandi
 
@@ -4150,11 +4279,13 @@ i_ViolaMusicVoice = {                                                          %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ViolaMusicVoice measure 14]                                           %! _comment_measure_numbers
     gqs'!2                                                                     %! opening_glissandi
     \repeatTie
+
     \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
     \times 3/4 {                                                               %! opening_glissandi
 
@@ -4170,6 +4301,7 @@ i_ViolaMusicVoice = {                                                          %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ViolaMusicVoice measure 16]                                           %! _comment_measure_numbers
@@ -4186,6 +4318,7 @@ i_ViolaMusicVoice = {                                                          %
     % [_ ViolaMusicVoice measure 18]                                           %! _comment_measure_numbers
     a'2.                                                                       %! opening_glissandi
     \repeatTie
+
     \times 4/7 {                                                               %! opening_glissandi
 
         % [_ ViolaMusicVoice measure 19]                                       %! _comment_measure_numbers
@@ -4200,7 +4333,9 @@ i_ViolaMusicVoice = {                                                          %
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
+
     \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
     \times 6/7 {                                                               %! opening_glissandi
 
@@ -4216,11 +4351,13 @@ i_ViolaMusicVoice = {                                                          %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ViolaMusicVoice measure 21]                                           %! _comment_measure_numbers
     a'2                                                                        %! opening_glissandi
     \repeatTie
+
     \times 4/5 {                                                               %! opening_glissandi
 
         % [_ ViolaMusicVoice measure 22]                                       %! _comment_measure_numbers
@@ -4235,6 +4372,7 @@ i_ViolaMusicVoice = {                                                          %
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ViolaMusicVoice measure 23]                                           %! _comment_measure_numbers
@@ -4262,6 +4400,7 @@ i_ViolaMusicVoice = {                                                          %
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
     \times 3/4 {                                                               %! opening_glissandi
 
@@ -4277,6 +4416,7 @@ i_ViolaMusicVoice = {                                                          %
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ViolaMusicVoice measure 28]                                           %! _comment_measure_numbers
@@ -4310,6 +4450,7 @@ i_ViolaMusicVoice = {                                                          %
 
     g'2
     \repeatTie
+
     \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
     \times 6/7 {                                                               %! opening_glissandi
 
@@ -4325,7 +4466,9 @@ i_ViolaMusicVoice = {                                                          %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
+
     \times 4/5 {                                                               %! opening_glissandi
 
         % [_ ViolaMusicVoice measure 34]                                       %! _comment_measure_numbers
@@ -4341,6 +4484,7 @@ i_ViolaMusicVoice = {                                                          %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ViolaMusicVoice measure 35]                                           %! _comment_measure_numbers
@@ -4367,6 +4511,7 @@ i_ViolaMusicVoice = {                                                          %
     - \accent                                                                  %! IndicatorCommand
     ^ \markup { "molto flautando e pont." }                                    %! baca_markup:IndicatorCommand
     \startTrillSpan gf'
+
     \times 4/5 {                                                               %! trill_tuplets
 
         % [_ ViolaMusicVoice measure 38]                                       %! _comment_measure_numbers
@@ -4379,6 +4524,7 @@ i_ViolaMusicVoice = {                                                          %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan g'
+
     }                                                                          %! trill_tuplets
 
     fs'!4                                                                      %! trill_tuplets
@@ -4387,6 +4533,7 @@ i_ViolaMusicVoice = {                                                          %
     % [_ ViolaMusicVoice measure 39]                                           %! _comment_measure_numbers
     fs'!2                                                                      %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         fs'!8                                                                  %! trill_tuplets
@@ -4400,10 +4547,12 @@ i_ViolaMusicVoice = {                                                          %
         ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan gqf'
+
     }                                                                          %! trill_tuplets
 
     fqs'!2.                                                                    %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         % [_ ViolaMusicVoice measure 40]                                       %! _comment_measure_numbers
@@ -4417,6 +4566,7 @@ i_ViolaMusicVoice = {                                                          %
         ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan gf'
+
     }                                                                          %! trill_tuplets
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -4426,6 +4576,7 @@ i_ViolaMusicVoice = {                                                          %
     % [_ ViolaMusicVoice measure 41]                                           %! _comment_measure_numbers
     f'2                                                                        %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         f'4                                                                    %! trill_tuplets
@@ -4436,6 +4587,7 @@ i_ViolaMusicVoice = {                                                          %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan gqf'
+
     }                                                                          %! trill_tuplets
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -4445,6 +4597,7 @@ i_ViolaMusicVoice = {                                                          %
     % [_ ViolaMusicVoice measure 42]                                           %! _comment_measure_numbers
     fqs'!4                                                                     %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         fqs'!16                                                                %! trill_tuplets
@@ -4456,6 +4609,7 @@ i_ViolaMusicVoice = {                                                          %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan gf'
+
     }                                                                          %! trill_tuplets
 
     f'4                                                                        %! trill_tuplets
@@ -4464,6 +4618,7 @@ i_ViolaMusicVoice = {                                                          %
     % [_ ViolaMusicVoice measure 43]                                           %! _comment_measure_numbers
     f'2                                                                        %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         f'16                                                                   %! trill_tuplets
@@ -4475,6 +4630,7 @@ i_ViolaMusicVoice = {                                                          %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan f'
+
     }                                                                          %! trill_tuplets
 
     e'4                                                                        %! trill_tuplets
@@ -4483,6 +4639,7 @@ i_ViolaMusicVoice = {                                                          %
     % [_ ViolaMusicVoice measure 44]                                           %! _comment_measure_numbers
     e'2                                                                        %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         e'8                                                                    %! trill_tuplets
@@ -4496,6 +4653,7 @@ i_ViolaMusicVoice = {                                                          %
         ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan fqs'
+
     }                                                                          %! trill_tuplets
 
     eqs'!2.                                                                    %! trill_tuplets
@@ -4506,8 +4664,10 @@ i_ViolaMusicVoice = {                                                          %
 
 
 i_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \i_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -4549,6 +4709,7 @@ i_CelloMusicVoice = {                                                          %
             #16                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:IndicatorCommand
             Vc.                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:IndicatorCommand
+
     \times 2/3 {                                                               %! opening_glissandi
 
         % [_ CelloMusicVoice measure 2]                                        %! _comment_measure_numbers
@@ -4563,6 +4724,7 @@ i_CelloMusicVoice = {                                                          %
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ CelloMusicVoice measure 3]                                            %! _comment_measure_numbers
@@ -4576,6 +4738,7 @@ i_CelloMusicVoice = {                                                          %
     % [_ CelloMusicVoice measure 5]                                            %! _comment_measure_numbers
     af!1                                                                       %! opening_glissandi
     \repeatTie
+
     \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
     \times 6/7 {                                                               %! opening_glissandi
 
@@ -4591,7 +4754,9 @@ i_CelloMusicVoice = {                                                          %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
+
     \times 4/5 {                                                               %! opening_glissandi
 
         % [_ CelloMusicVoice measure 7]                                        %! _comment_measure_numbers
@@ -4607,6 +4772,7 @@ i_CelloMusicVoice = {                                                          %
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ CelloMusicVoice measure 8]                                            %! _comment_measure_numbers
@@ -4615,6 +4781,7 @@ i_CelloMusicVoice = {                                                          %
 
     a2
     \repeatTie
+
     \times 4/5 {                                                               %! opening_glissandi
 
         % [_ CelloMusicVoice measure 9]                                        %! _comment_measure_numbers
@@ -4629,6 +4796,7 @@ i_CelloMusicVoice = {                                                          %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ CelloMusicVoice measure 10]                                           %! _comment_measure_numbers
@@ -4658,6 +4826,7 @@ i_CelloMusicVoice = {                                                          %
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     \times 2/3 {                                                               %! opening_glissandi
 
         % [_ CelloMusicVoice measure 14]                                       %! _comment_measure_numbers
@@ -4672,11 +4841,13 @@ i_CelloMusicVoice = {                                                          %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ CelloMusicVoice measure 15]                                           %! _comment_measure_numbers
     gqs!1.                                                                     %! opening_glissandi
     \repeatTie
+
     \times 4/7 {                                                               %! opening_glissandi
 
         % [_ CelloMusicVoice measure 16]                                       %! _comment_measure_numbers
@@ -4691,6 +4862,7 @@ i_CelloMusicVoice = {                                                          %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ CelloMusicVoice measure 17]                                           %! _comment_measure_numbers
@@ -4708,6 +4880,7 @@ i_CelloMusicVoice = {                                                          %
     % [_ CelloMusicVoice measure 19]                                           %! _comment_measure_numbers
     a1                                                                         %! opening_glissandi
     \repeatTie
+
     \times 4/5 {                                                               %! opening_glissandi
 
         % [_ CelloMusicVoice measure 20]                                       %! _comment_measure_numbers
@@ -4722,7 +4895,9 @@ i_CelloMusicVoice = {                                                          %
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
+
     \times 4/5 {                                                               %! opening_glissandi
 
         % [_ CelloMusicVoice measure 21]                                       %! _comment_measure_numbers
@@ -4737,12 +4912,14 @@ i_CelloMusicVoice = {                                                          %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ CelloMusicVoice measure 22]                                           %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     a2                                                                         %! opening_glissandi
     \repeatTie
+
     \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
     \times 3/4 {                                                               %! opening_glissandi
 
@@ -4758,6 +4935,7 @@ i_CelloMusicVoice = {                                                          %
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ CelloMusicVoice measure 24]                                           %! _comment_measure_numbers
@@ -4784,6 +4962,7 @@ i_CelloMusicVoice = {                                                          %
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     \times 4/7 {                                                               %! opening_glissandi
 
         % [_ CelloMusicVoice measure 28]                                       %! _comment_measure_numbers
@@ -4798,11 +4977,13 @@ i_CelloMusicVoice = {                                                          %
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ CelloMusicVoice measure 29]                                           %! _comment_measure_numbers
     bf!2.                                                                      %! opening_glissandi
     \repeatTie
+
     \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
     \times 6/7 {                                                               %! opening_glissandi
 
@@ -4818,6 +4999,7 @@ i_CelloMusicVoice = {                                                          %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ CelloMusicVoice measure 31]                                           %! _comment_measure_numbers
@@ -4884,6 +5066,7 @@ i_CelloMusicVoice = {                                                          %
     % [_ CelloMusicVoice measure 38]                                           %! _comment_measure_numbers
     f'4                                                                        %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         f'16                                                                   %! trill_tuplets
@@ -4895,11 +5078,13 @@ i_CelloMusicVoice = {                                                          %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan g'
+
     }                                                                          %! trill_tuplets
 
     % [_ CelloMusicVoice measure 39]                                           %! _comment_measure_numbers
     fs'!1                                                                      %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         fs'!8                                                                  %! trill_tuplets
@@ -4913,6 +5098,7 @@ i_CelloMusicVoice = {                                                          %
         ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan gqf'
+
     }                                                                          %! trill_tuplets
 
     fqs'!4                                                                     %! trill_tuplets
@@ -4925,6 +5111,7 @@ i_CelloMusicVoice = {                                                          %
     % [_ CelloMusicVoice measure 41]                                           %! _comment_measure_numbers
     fqs'!4                                                                     %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         fqs'!8.                                                                %! trill_tuplets
@@ -4937,6 +5124,7 @@ i_CelloMusicVoice = {                                                          %
         ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan gf'
+
     }                                                                          %! trill_tuplets
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -4946,6 +5134,7 @@ i_CelloMusicVoice = {                                                          %
     % [_ CelloMusicVoice measure 42]                                           %! _comment_measure_numbers
     f'4                                                                        %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         f'4                                                                    %! trill_tuplets
@@ -4956,6 +5145,7 @@ i_CelloMusicVoice = {                                                          %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan gqf'
+
     }                                                                          %! trill_tuplets
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -4965,6 +5155,7 @@ i_CelloMusicVoice = {                                                          %
     % [_ CelloMusicVoice measure 43]                                           %! _comment_measure_numbers
     fqs'!2.                                                                    %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         fqs'!16                                                                %! trill_tuplets
@@ -4976,11 +5167,13 @@ i_CelloMusicVoice = {                                                          %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan gf'
+
     }                                                                          %! trill_tuplets
 
     % [_ CelloMusicVoice measure 44]                                           %! _comment_measure_numbers
     f'1                                                                        %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         f'16                                                                   %! trill_tuplets
@@ -4992,6 +5185,7 @@ i_CelloMusicVoice = {                                                          %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan f'
+
     }                                                                          %! trill_tuplets
 
     e'4                                                                        %! trill_tuplets
@@ -5002,8 +5196,10 @@ i_CelloMusicVoice = {                                                          %
 
 
 i_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \i_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -5047,6 +5243,7 @@ i_ContrabassMusicVoice = {                                                     %
     % [_ ContrabassMusicVoice measure 2]                                       %! _comment_measure_numbers
     a2                                                                         %! opening_glissandi
     \repeatTie
+
     \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
     \times 6/7 {                                                               %! opening_glissandi
 
@@ -5056,7 +5253,9 @@ i_ContrabassMusicVoice = {                                                     %
         \glissando                                                             %! SpannerCommand
 
         bf!4                                                                   %! opening_glissandi
+
     }                                                                          %! opening_glissandi
+
     \times 4/5 {                                                               %! opening_glissandi
 
         % [_ ContrabassMusicVoice measure 4]                                   %! _comment_measure_numbers
@@ -5065,11 +5264,13 @@ i_ContrabassMusicVoice = {                                                     %
         \glissando                                                             %! SpannerCommand
 
         aqs!8.                                                                 %! opening_glissandi
+
     }                                                                          %! opening_glissandi
 
     % [_ ContrabassMusicVoice measure 5]                                       %! _comment_measure_numbers
     aqs!1                                                                      %! opening_glissandi
     \repeatTie
+
     \times 4/5 {                                                               %! opening_glissandi
 
         % [_ ContrabassMusicVoice measure 6]                                   %! _comment_measure_numbers
@@ -5078,6 +5279,7 @@ i_ContrabassMusicVoice = {                                                     %
         \glissando                                                             %! SpannerCommand
 
         b8.                                                                    %! opening_glissandi
+
     }                                                                          %! opening_glissandi
 
     % [_ ContrabassMusicVoice measure 7]                                       %! _comment_measure_numbers
@@ -5105,6 +5307,7 @@ i_ContrabassMusicVoice = {                                                     %
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     \times 2/3 {                                                               %! opening_glissandi
 
         % [_ ContrabassMusicVoice measure 11]                                  %! _comment_measure_numbers
@@ -5119,6 +5322,7 @@ i_ContrabassMusicVoice = {                                                     %
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ContrabassMusicVoice measure 12]                                      %! _comment_measure_numbers
@@ -5127,6 +5331,7 @@ i_ContrabassMusicVoice = {                                                     %
 
     bf!2
     \repeatTie
+
     \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
     \times 6/7 {                                                               %! opening_glissandi
 
@@ -5142,6 +5347,7 @@ i_ContrabassMusicVoice = {                                                     %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ContrabassMusicVoice measure 14]                                      %! _comment_measure_numbers
@@ -5169,6 +5375,7 @@ i_ContrabassMusicVoice = {                                                     %
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     \times 4/5 {                                                               %! opening_glissandi
 
         % [_ ContrabassMusicVoice measure 18]                                  %! _comment_measure_numbers
@@ -5183,11 +5390,13 @@ i_ContrabassMusicVoice = {                                                     %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ContrabassMusicVoice measure 19]                                      %! _comment_measure_numbers
     a1                                                                         %! opening_glissandi
     \repeatTie
+
     \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
     \times 3/4 {                                                               %! opening_glissandi
 
@@ -5203,6 +5412,7 @@ i_ContrabassMusicVoice = {                                                     %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ContrabassMusicVoice measure 21]                                      %! _comment_measure_numbers
@@ -5216,6 +5426,7 @@ i_ContrabassMusicVoice = {                                                     %
     % [_ ContrabassMusicVoice measure 23]                                      %! _comment_measure_numbers
     b2.                                                                        %! opening_glissandi
     \repeatTie
+
     \times 2/3 {                                                               %! opening_glissandi
 
         % [_ ContrabassMusicVoice measure 24]                                  %! _comment_measure_numbers
@@ -5230,7 +5441,9 @@ i_ContrabassMusicVoice = {                                                     %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
+
     \times 4/7 {                                                               %! opening_glissandi
 
         % [_ ContrabassMusicVoice measure 25]                                  %! _comment_measure_numbers
@@ -5245,12 +5458,14 @@ i_ContrabassMusicVoice = {                                                     %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ContrabassMusicVoice measure 26]                                      %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     bqs!2                                                                      %! opening_glissandi
     \repeatTie
+
     \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
     \times 6/7 {                                                               %! opening_glissandi
 
@@ -5266,6 +5481,7 @@ i_ContrabassMusicVoice = {                                                     %
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ContrabassMusicVoice measure 28]                                      %! _comment_measure_numbers
@@ -5292,6 +5508,7 @@ i_ContrabassMusicVoice = {                                                     %
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
     \times 5/4 {                                                               %! opening_glissandi
 
@@ -5307,11 +5524,13 @@ i_ContrabassMusicVoice = {                                                     %
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ContrabassMusicVoice measure 33]                                      %! _comment_measure_numbers
     b2.                                                                        %! opening_glissandi
     \repeatTie
+
     \times 2/3 {                                                               %! opening_glissandi
 
         % [_ ContrabassMusicVoice measure 34]                                  %! _comment_measure_numbers
@@ -5326,6 +5545,7 @@ i_ContrabassMusicVoice = {                                                     %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ContrabassMusicVoice measure 35]                                      %! _comment_measure_numbers
@@ -5342,6 +5562,7 @@ i_ContrabassMusicVoice = {                                                     %
     % [_ ContrabassMusicVoice measure 37]                                      %! _comment_measure_numbers
     cs'!2.                                                                     %! opening_glissandi
     \repeatTie
+
     \times 4/7 {                                                               %! opening_glissandi
 
         % [_ ContrabassMusicVoice measure 38]                                  %! _comment_measure_numbers
@@ -5356,7 +5577,9 @@ i_ContrabassMusicVoice = {                                                     %
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
+
     \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
     \times 6/7 {                                                               %! opening_glissandi
 
@@ -5373,6 +5596,7 @@ i_ContrabassMusicVoice = {                                                     %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! opening_glissandi
 
     % [_ ContrabassMusicVoice measure 40]                                      %! _comment_measure_numbers
@@ -5411,6 +5635,8 @@ i_ContrabassMusicVoice = {                                                     %
 
 
 i_ContrabassMusicStaff = {                                                     %! extern
+
     \context Voice = "ContrabassMusicVoice"                                    %! ScoreTemplate
     \i_ContrabassMusicVoice                                                    %! extern
+
 }                                                                              %! extern

@@ -511,8 +511,10 @@ A_FluteMusicVoice = {                                                          %
 
 
 A_FluteMusicStaff = {                                                          %! extern
+
     \context Voice = "FluteMusicVoice"                                         %! ScoreTemplate
     \A_FluteMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -677,8 +679,10 @@ A_OboeMusicVoice = {                                                           %
 
 
 A_OboeMusicStaff = {                                                           %! extern
+
     \context Voice = "OboeMusicVoice"                                          %! ScoreTemplate
     \A_OboeMusicVoice                                                          %! extern
+
 }                                                                              %! extern
 
 
@@ -854,8 +858,10 @@ A_ClarinetMusicVoice = {                                                       %
 
 
 A_ClarinetMusicStaff = {                                                       %! extern
+
     \context Voice = "ClarinetMusicVoice"                                      %! ScoreTemplate
     \A_ClarinetMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -1017,12 +1023,15 @@ A_SaxophoneMusicVoice = {                                                      %
 
 
 A_SaxophoneMusicStaff = {                                                      %! extern
+
     \context Voice = "SaxophoneMusicVoice"                                     %! ScoreTemplate
     \A_SaxophoneMusicVoice                                                     %! extern
+
 }                                                                              %! extern
 
 
 A_GuitarMusicVoice = {                                                         %! extern
+
     \times 2/3 {                                                               %! guitar_isolata
 
         % [A GuitarMusicVoice measure 45 / measure 1]                          %! _comment_measure_numbers
@@ -1055,23 +1064,27 @@ A_GuitarMusicVoice = {                                                         %
         d''8                                                                   %! guitar_isolata
 
         r8                                                                     %! guitar_isolata
+
     }                                                                          %! guitar_isolata
 
     r4                                                                         %! guitar_isolata
 
     % [A GuitarMusicVoice measure 46 / measure 2]                              %! _comment_measure_numbers
     r2                                                                         %! guitar_isolata
+
     \times 2/3 {                                                               %! guitar_isolata
 
         % [A GuitarMusicVoice measure 47 / measure 3]                          %! _comment_measure_numbers
         r8                                                                     %! guitar_isolata
 
         fs''!4                                                                 %! guitar_isolata
+
     }                                                                          %! guitar_isolata
 
     r2                                                                         %! guitar_isolata
 
     r2                                                                         %! guitar_isolata
+
     \times 2/3 {                                                               %! guitar_isolata
 
         r8                                                                     %! guitar_isolata
@@ -1080,6 +1093,7 @@ A_GuitarMusicVoice = {                                                         %
         \revert NoteHead.style                                                 %! baca_note_head_style_cross:OverrideCommand(2)
 
         r8                                                                     %! guitar_isolata
+
     }                                                                          %! guitar_isolata
 
     % [A GuitarMusicVoice measure 48 / measure 4]                              %! _comment_measure_numbers
@@ -1225,8 +1239,10 @@ A_GuitarMusicVoice = {                                                         %
 
 
 A_GuitarMusicStaff = {                                                         %! extern
+
     \context Voice = "GuitarMusicVoice"                                        %! ScoreTemplate
     \A_GuitarMusicVoice                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -1374,6 +1390,7 @@ A_PianoMusicVoice = {                                                          %
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     r4                                                                         %! current
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \times 2/3 {                                                               %! current
 
         \ottava #1                                                             %! SpannerCommand
@@ -1386,6 +1403,7 @@ A_PianoMusicVoice = {                                                          %
 
         ef''''!8                                                               %! current
         ]                                                                      %! current
+
     }                                                                          %! current
 
     % [A PianoMusicVoice measure 66 / measure 22]                              %! _comment_measure_numbers
@@ -1416,6 +1434,7 @@ A_PianoMusicVoice = {                                                          %
 
     % [A PianoMusicVoice measure 68 / measure 24]                              %! _comment_measure_numbers
     r2.                                                                        %! current
+
     \times 2/3 {                                                               %! current
 
         ef''''!8                                                               %! current
@@ -1425,6 +1444,7 @@ A_PianoMusicVoice = {                                                          %
 
         e''''8                                                                 %! current
         ]                                                                      %! current
+
     }                                                                          %! current
 
     % [A PianoMusicVoice measure 69 / measure 25]                              %! _comment_measure_numbers
@@ -1442,6 +1462,7 @@ A_PianoMusicVoice = {                                                          %
 
     % [A PianoMusicVoice measure 70 / measure 26]                              %! _comment_measure_numbers
     r4                                                                         %! current
+
     \times 4/5 {                                                               %! current
 
         f''''16                                                                %! current
@@ -1455,6 +1476,7 @@ A_PianoMusicVoice = {                                                          %
 
         cf''''!16                                                              %! current
         ]                                                                      %! current
+
     }                                                                          %! current
 
     % [A PianoMusicVoice measure 71 / measure 27]                              %! _comment_measure_numbers
@@ -1480,6 +1502,7 @@ A_PianoMusicVoice = {                                                          %
 
     % [A PianoMusicVoice measure 72 / measure 28]                              %! _comment_measure_numbers
     r2.                                                                        %! current
+
     \times 2/3 {                                                               %! current
 
         af'''!8                                                                %! current
@@ -1489,10 +1512,12 @@ A_PianoMusicVoice = {                                                          %
 
         cf''''!8                                                               %! current
         ]                                                                      %! current
+
     }                                                                          %! current
 
     % [A PianoMusicVoice measure 73 / measure 29]                              %! _comment_measure_numbers
     r2                                                                         %! current
+
     \times 2/3 {                                                               %! current
 
         c''''8                                                                 %! current
@@ -1502,6 +1527,7 @@ A_PianoMusicVoice = {                                                          %
 
         df''''!8                                                               %! current
         ]                                                                      %! current
+
     }                                                                          %! current
 
     % [A PianoMusicVoice measure 74 / measure 30]                              %! _comment_measure_numbers
@@ -1528,8 +1554,10 @@ A_PianoMusicVoice = {                                                          %
 
 
 A_PianoMusicStaff = {                                                          %! extern
+
     \context Voice = "PianoMusicVoice"                                         %! ScoreTemplate
     \A_PianoMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -2007,8 +2035,10 @@ A_PercussionMusicVoice = {                                                     %
 
 
 A_PercussionMusicStaff = {                                                     %! extern
+
     \context Voice = "PercussionMusicVoice"                                    %! ScoreTemplate
     \A_PercussionMusicVoice                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -2042,6 +2072,7 @@ A_ViolinMusicVoice = {                                                         %
             Vn.                                                                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \times 4/5 {                                                               %! trill_tuplets
 
         % [A ViolinMusicVoice measure 46 / measure 2]                          %! _comment_measure_numbers
@@ -2054,6 +2085,7 @@ A_ViolinMusicVoice = {                                                         %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan af'
+
     }                                                                          %! trill_tuplets
 
     g'4                                                                        %! trill_tuplets
@@ -2062,6 +2094,7 @@ A_ViolinMusicVoice = {                                                         %
     % [A ViolinMusicVoice measure 47 / measure 3]                              %! _comment_measure_numbers
     g'4                                                                        %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         g'8                                                                    %! trill_tuplets
@@ -2075,6 +2108,7 @@ A_ViolinMusicVoice = {                                                         %
         ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan atqf'
+
     }                                                                          %! trill_tuplets
 
     gqf'!4                                                                     %! trill_tuplets
@@ -2082,6 +2116,7 @@ A_ViolinMusicVoice = {                                                         %
 
     gqf'!4                                                                     %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         gqf'!8.                                                                %! trill_tuplets
@@ -2094,6 +2129,7 @@ A_ViolinMusicVoice = {                                                         %
         ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan aff'
+
     }                                                                          %! trill_tuplets
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -2103,6 +2139,7 @@ A_ViolinMusicVoice = {                                                         %
     % [A ViolinMusicVoice measure 48 / measure 4]                              %! _comment_measure_numbers
     gf'!4                                                                      %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         gf'!4                                                                  %! trill_tuplets
@@ -2113,6 +2150,7 @@ A_ViolinMusicVoice = {                                                         %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan atqf'
+
     }                                                                          %! trill_tuplets
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -2122,6 +2160,7 @@ A_ViolinMusicVoice = {                                                         %
     % [A ViolinMusicVoice measure 49 / measure 5]                              %! _comment_measure_numbers
     gqf'!4                                                                     %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         gqf'!16                                                                %! trill_tuplets
@@ -2133,10 +2172,12 @@ A_ViolinMusicVoice = {                                                         %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan af'
+
     }                                                                          %! trill_tuplets
 
     g'2                                                                        %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         % [A ViolinMusicVoice measure 50 / measure 6]                          %! _comment_measure_numbers
@@ -2149,10 +2190,12 @@ A_ViolinMusicVoice = {                                                         %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan a'
+
     }                                                                          %! trill_tuplets
 
     gs'!2                                                                      %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         % [A ViolinMusicVoice measure 51 / measure 7]                          %! _comment_measure_numbers
@@ -2167,10 +2210,12 @@ A_ViolinMusicVoice = {                                                         %
         ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan aqf'
+
     }                                                                          %! trill_tuplets
 
     gqs'!2                                                                     %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         gqs'!8.                                                                %! trill_tuplets
@@ -2183,12 +2228,14 @@ A_ViolinMusicVoice = {                                                         %
         ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan af'
+
     }                                                                          %! trill_tuplets
 
     % [A ViolinMusicVoice measure 52 / measure 8]                              %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g'2                                                                        %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         g'4                                                                    %! trill_tuplets
@@ -2199,11 +2246,13 @@ A_ViolinMusicVoice = {                                                         %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan aqf'
+
     }                                                                          %! trill_tuplets
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     gqs'!2                                                                     %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         % [A ViolinMusicVoice measure 53 / measure 9]                          %! _comment_measure_numbers
@@ -2216,10 +2265,12 @@ A_ViolinMusicVoice = {                                                         %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan bff'
+
     }                                                                          %! trill_tuplets
 
     af'!2                                                                      %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         af'!16                                                                 %! trill_tuplets
@@ -2231,11 +2282,13 @@ A_ViolinMusicVoice = {                                                         %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan bf'
+
     }                                                                          %! trill_tuplets
 
     % [A ViolinMusicVoice measure 54 / measure 10]                             %! _comment_measure_numbers
     a'2                                                                        %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         a'8                                                                    %! trill_tuplets
@@ -2249,11 +2302,13 @@ A_ViolinMusicVoice = {                                                         %
         ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan btqf'
+
     }                                                                          %! trill_tuplets
 
     % [A ViolinMusicVoice measure 55 / measure 11]                             %! _comment_measure_numbers
     aqf'!2                                                                     %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         aqf'!8.                                                                %! trill_tuplets
@@ -2266,6 +2321,7 @@ A_ViolinMusicVoice = {                                                         %
         ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan bff'
+
     }                                                                          %! trill_tuplets
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -2275,6 +2331,7 @@ A_ViolinMusicVoice = {                                                         %
     % [A ViolinMusicVoice measure 56 / measure 12]                             %! _comment_measure_numbers
     af'!4                                                                      %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         af'!4                                                                  %! trill_tuplets
@@ -2285,6 +2342,7 @@ A_ViolinMusicVoice = {                                                         %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan btqf'
+
     }                                                                          %! trill_tuplets
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -2293,6 +2351,7 @@ A_ViolinMusicVoice = {                                                         %
 
     aqf'!4                                                                     %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         aqf'!16                                                                %! trill_tuplets
@@ -2304,11 +2363,13 @@ A_ViolinMusicVoice = {                                                         %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan bff'
+
     }                                                                          %! trill_tuplets
 
     % [A ViolinMusicVoice measure 57 / measure 13]                             %! _comment_measure_numbers
     af'!2                                                                      %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         af'!16                                                                 %! trill_tuplets
@@ -2319,6 +2380,7 @@ A_ViolinMusicVoice = {                                                         %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan af'
+
     }                                                                          %! trill_tuplets
 
     % [A ViolinMusicVoice measure 58 / measure 14]                             %! _comment_measure_numbers
@@ -2400,8 +2462,10 @@ A_ViolinMusicVoice = {                                                         %
 
 
 A_ViolinMusicStaff = {                                                         %! extern
+
     \context Voice = "ViolinMusicVoice"                                        %! ScoreTemplate
     \A_ViolinMusicVoice                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -2439,6 +2503,7 @@ A_ViolaMusicVoice = {                                                          %
     % [A ViolaMusicVoice measure 46 / measure 2]                               %! _comment_measure_numbers
     f'4                                                                        %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         f'16                                                                   %! trill_tuplets
@@ -2450,11 +2515,13 @@ A_ViolaMusicVoice = {                                                          %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan g'
+
     }                                                                          %! trill_tuplets
 
     % [A ViolaMusicVoice measure 47 / measure 3]                               %! _comment_measure_numbers
     fs'!2.                                                                     %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         fs'!8                                                                  %! trill_tuplets
@@ -2468,6 +2535,7 @@ A_ViolaMusicVoice = {                                                          %
         ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan gqf'
+
     }                                                                          %! trill_tuplets
 
     fqs'!2                                                                     %! trill_tuplets
@@ -2476,6 +2544,7 @@ A_ViolaMusicVoice = {                                                          %
     % [A ViolaMusicVoice measure 48 / measure 4]                               %! _comment_measure_numbers
     fqs'!4                                                                     %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         fqs'!8.                                                                %! trill_tuplets
@@ -2488,6 +2557,7 @@ A_ViolaMusicVoice = {                                                          %
         ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan gf'
+
     }                                                                          %! trill_tuplets
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -2497,6 +2567,7 @@ A_ViolaMusicVoice = {                                                          %
     % [A ViolaMusicVoice measure 49 / measure 5]                               %! _comment_measure_numbers
     f'2                                                                        %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         f'4                                                                    %! trill_tuplets
@@ -2507,6 +2578,7 @@ A_ViolaMusicVoice = {                                                          %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan aff'
+
     }                                                                          %! trill_tuplets
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -2516,6 +2588,7 @@ A_ViolaMusicVoice = {                                                          %
     % [A ViolaMusicVoice measure 50 / measure 6]                               %! _comment_measure_numbers
     gf'!2                                                                      %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         gf'!16                                                                 %! trill_tuplets
@@ -2527,11 +2600,13 @@ A_ViolaMusicVoice = {                                                          %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan af'
+
     }                                                                          %! trill_tuplets
 
     % [A ViolaMusicVoice measure 51 / measure 7]                               %! _comment_measure_numbers
     g'2.                                                                       %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         g'16                                                                   %! trill_tuplets
@@ -2543,11 +2618,13 @@ A_ViolaMusicVoice = {                                                          %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan atqf'
+
     }                                                                          %! trill_tuplets
 
     % [A ViolaMusicVoice measure 52 / measure 8]                               %! _comment_measure_numbers
     gqf'!2.                                                                    %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         gqf'!8                                                                 %! trill_tuplets
@@ -2561,6 +2638,7 @@ A_ViolaMusicVoice = {                                                          %
         ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan aff'
+
     }                                                                          %! trill_tuplets
 
     gf'!4                                                                      %! trill_tuplets
@@ -2569,6 +2647,7 @@ A_ViolaMusicVoice = {                                                          %
     % [A ViolaMusicVoice measure 53 / measure 9]                               %! _comment_measure_numbers
     gf'!2                                                                      %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         gf'!8.                                                                 %! trill_tuplets
@@ -2581,6 +2660,7 @@ A_ViolaMusicVoice = {                                                          %
         ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan af'
+
     }                                                                          %! trill_tuplets
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -2590,6 +2670,7 @@ A_ViolaMusicVoice = {                                                          %
     % [A ViolaMusicVoice measure 54 / measure 10]                              %! _comment_measure_numbers
     g'2                                                                        %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         g'4                                                                    %! trill_tuplets
@@ -2600,12 +2681,14 @@ A_ViolaMusicVoice = {                                                          %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan a'
+
     }                                                                          %! trill_tuplets
 
     % [A ViolaMusicVoice measure 55 / measure 11]                              %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     gs'!2.                                                                     %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         gs'!16                                                                 %! trill_tuplets
@@ -2617,11 +2700,13 @@ A_ViolaMusicVoice = {                                                          %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan aqf'
+
     }                                                                          %! trill_tuplets
 
     % [A ViolaMusicVoice measure 56 / measure 12]                              %! _comment_measure_numbers
     gqs'!2.                                                                    %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         gqs'!16                                                                %! trill_tuplets
@@ -2633,6 +2718,7 @@ A_ViolaMusicVoice = {                                                          %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan af'
+
     }                                                                          %! trill_tuplets
 
     g'4                                                                        %! trill_tuplets
@@ -2641,6 +2727,7 @@ A_ViolaMusicVoice = {                                                          %
     % [A ViolaMusicVoice measure 57 / measure 13]                              %! _comment_measure_numbers
     g'2                                                                        %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         g'8                                                                    %! trill_tuplets
@@ -2653,6 +2740,7 @@ A_ViolaMusicVoice = {                                                          %
         ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan aqf'
+
     }                                                                          %! trill_tuplets
 
     % [A ViolaMusicVoice measure 58 / measure 14]                              %! _comment_measure_numbers
@@ -2734,8 +2822,10 @@ A_ViolaMusicVoice = {                                                          %
 
 
 A_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \A_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -2773,6 +2863,7 @@ A_CelloMusicVoice = {                                                          %
     % [A CelloMusicVoice measure 46 / measure 2]                               %! _comment_measure_numbers
     f'2                                                                        %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         % [A CelloMusicVoice measure 47 / measure 3]                           %! _comment_measure_numbers
@@ -2785,6 +2876,7 @@ A_CelloMusicVoice = {                                                          %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan g'
+
     }                                                                          %! trill_tuplets
 
     fs'!2                                                                      %! trill_tuplets
@@ -2792,6 +2884,7 @@ A_CelloMusicVoice = {                                                          %
 
     fs'!2                                                                      %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         fs'!8                                                                  %! trill_tuplets
@@ -2805,6 +2898,7 @@ A_CelloMusicVoice = {                                                          %
         ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan gqf'
+
     }                                                                          %! trill_tuplets
 
     % [A CelloMusicVoice measure 48 / measure 4]                               %! _comment_measure_numbers
@@ -2814,6 +2908,7 @@ A_CelloMusicVoice = {                                                          %
     % [A CelloMusicVoice measure 49 / measure 5]                               %! _comment_measure_numbers
     fqs'!4                                                                     %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         fqs'!8.                                                                %! trill_tuplets
@@ -2826,6 +2921,7 @@ A_CelloMusicVoice = {                                                          %
         ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan gf'
+
     }                                                                          %! trill_tuplets
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -2835,6 +2931,7 @@ A_CelloMusicVoice = {                                                          %
     % [A CelloMusicVoice measure 50 / measure 6]                               %! _comment_measure_numbers
     f'2                                                                        %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         f'4                                                                    %! trill_tuplets
@@ -2845,12 +2942,14 @@ A_CelloMusicVoice = {                                                          %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan gqf'
+
     }                                                                          %! trill_tuplets
 
     % [A CelloMusicVoice measure 51 / measure 7]                               %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fqs'!1                                                                     %! trill_tuplets
     \repeatTie
+
     \times 4/5 {                                                               %! trill_tuplets
 
         % [A CelloMusicVoice measure 52 / measure 8]                           %! _comment_measure_numbers
@@ -2863,6 +2962,7 @@ A_CelloMusicVoice = {                                                          %
         - \accent                                                              %! IndicatorCommand
         \stopTrillSpan                                                         %! SpannerCommand
         \startTrillSpan gf'
+
     }                                                                          %! trill_tuplets
 
     f'2                                                                        %! trill_tuplets
@@ -2986,8 +3086,10 @@ A_CelloMusicVoice = {                                                          %
 
 
 A_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \A_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -3024,6 +3126,7 @@ A_ContrabassMusicVoice = {                                                     %
     % [A ContrabassMusicVoice measure 46 / measure 2]                          %! _comment_measure_numbers
     <g, a>2
     \repeatTie
+
     \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
     \times 6/7 {                                                               %! opening_glissandi
 
@@ -3033,7 +3136,9 @@ A_ContrabassMusicVoice = {                                                     %
         \glissando                                                             %! SpannerCommand
 
         <af,! bf!>4
+
     }                                                                          %! opening_glissandi
+
     \times 4/5 {                                                               %! opening_glissandi
 
         % [A ContrabassMusicVoice measure 48 / measure 4]                      %! _comment_measure_numbers
@@ -3042,11 +3147,13 @@ A_ContrabassMusicVoice = {                                                     %
         \glissando                                                             %! SpannerCommand
 
         <gqs,! aqs!>8.
+
     }                                                                          %! opening_glissandi
 
     % [A ContrabassMusicVoice measure 49 / measure 5]                          %! _comment_measure_numbers
     <gqs,! aqs!>1
     \repeatTie
+
     \times 4/5 {                                                               %! opening_glissandi
 
         % [A ContrabassMusicVoice measure 50 / measure 6]                      %! _comment_measure_numbers
@@ -3055,6 +3162,7 @@ A_ContrabassMusicVoice = {                                                     %
         \glissando                                                             %! SpannerCommand
 
         <a, b>8.
+
     }                                                                          %! opening_glissandi
 
     % [A ContrabassMusicVoice measure 51 / measure 7]                          %! _comment_measure_numbers
@@ -3078,6 +3186,7 @@ A_ContrabassMusicVoice = {                                                     %
     \glissando                                                                 %! SpannerCommand
 
     <bqf,! cqs'!>4
+
     \times 2/3 {                                                               %! opening_glissandi
 
         % [A ContrabassMusicVoice measure 55 / measure 11]                     %! _comment_measure_numbers
@@ -3086,6 +3195,7 @@ A_ContrabassMusicVoice = {                                                     %
         \glissando                                                             %! SpannerCommand
 
         <af,! bf!>2
+
     }                                                                          %! opening_glissandi
 
     % [A ContrabassMusicVoice measure 56 / measure 12]                         %! _comment_measure_numbers
@@ -3094,6 +3204,7 @@ A_ContrabassMusicVoice = {                                                     %
 
     <af,! bf!>2
     \repeatTie
+
     \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
     \times 6/7 {                                                               %! opening_glissandi
 
@@ -3104,6 +3215,7 @@ A_ContrabassMusicVoice = {                                                     %
 
         <gqs,! aqs!>8
         \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
+
     }                                                                          %! opening_glissandi
 
     % [A ContrabassMusicVoice measure 58 / measure 14]                         %! _comment_measure_numbers
@@ -3184,6 +3296,8 @@ A_ContrabassMusicVoice = {                                                     %
 
 
 A_ContrabassMusicStaff = {                                                     %! extern
+
     \context Voice = "ContrabassMusicVoice"                                    %! ScoreTemplate
     \A_ContrabassMusicVoice                                                    %! extern
+
 }                                                                              %! extern
