@@ -458,6 +458,7 @@ B_FluteMusicVoice = {                                                          %
 
     % [B FluteMusicVoice measure 83 / measure 9]                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -482,7 +483,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -504,7 +507,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -526,7 +531,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -548,7 +555,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -571,7 +580,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -593,7 +604,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -615,7 +628,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -637,7 +652,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -659,7 +676,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -681,7 +700,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -703,7 +724,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -725,7 +748,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -747,7 +772,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -769,7 +796,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -791,7 +820,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -813,7 +844,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -835,7 +868,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -857,7 +892,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -879,7 +916,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -901,7 +940,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -923,7 +964,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -945,7 +988,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -967,7 +1012,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -989,7 +1036,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -1011,7 +1060,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -1033,7 +1084,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -1055,7 +1108,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -1077,7 +1132,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -1099,7 +1156,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -1121,7 +1180,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -1143,7 +1204,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -1165,7 +1228,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -1188,7 +1253,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -1210,7 +1277,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -1232,7 +1301,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -1254,7 +1325,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -1276,7 +1349,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -1298,7 +1373,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -1320,7 +1397,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 7/8 {                                                               %! aviary
 
@@ -1342,7 +1421,9 @@ B_FluteMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 4/5 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
@@ -1357,6 +1438,7 @@ B_FluteMusicVoice = {                                                          %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
 
     % [B FluteMusicVoice measure 104 / measure 30]                             %! _comment_measure_numbers
@@ -1418,8 +1500,10 @@ B_FluteMusicVoice = {                                                          %
 
 
 B_FluteMusicStaff = {                                                          %! extern
+
     \context Voice = "FluteMusicVoice"                                         %! ScoreTemplate
     \B_FluteMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -1479,6 +1563,7 @@ B_OboeMusicVoice = {                                                           %
 
     % [B OboeMusicVoice measure 83 / measure 9]                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1500,7 +1585,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1518,7 +1605,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1536,7 +1625,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1554,7 +1645,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1572,7 +1665,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1590,7 +1685,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1608,7 +1705,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1626,7 +1725,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1644,7 +1745,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1662,7 +1765,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1680,7 +1785,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1698,7 +1805,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1717,7 +1826,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1735,7 +1846,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1753,7 +1866,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1771,7 +1886,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1789,7 +1906,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1807,7 +1926,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1825,7 +1946,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1843,7 +1966,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1862,7 +1987,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1880,7 +2007,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1898,7 +2027,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1916,7 +2047,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1935,7 +2068,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1953,7 +2088,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1971,7 +2108,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -1989,7 +2128,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2007,7 +2148,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2025,7 +2168,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2043,7 +2188,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2061,7 +2208,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2079,7 +2228,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2097,7 +2248,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2115,7 +2268,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2133,7 +2288,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2152,7 +2309,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2170,7 +2329,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2188,7 +2349,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2206,7 +2369,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2225,7 +2390,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2243,7 +2410,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2261,7 +2430,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2279,7 +2450,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2297,7 +2470,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2315,7 +2490,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2333,7 +2510,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2351,7 +2530,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2369,7 +2550,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2387,7 +2570,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2405,7 +2590,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2423,7 +2610,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2441,7 +2630,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2459,7 +2650,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2477,7 +2670,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/6 {                                                               %! aviary
 
@@ -2495,7 +2690,9 @@ B_OboeMusicVoice = {                                                           %
 
         fs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 4/5 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
@@ -2510,6 +2707,7 @@ B_OboeMusicVoice = {                                                           %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
 
     % [B OboeMusicVoice measure 104 / measure 30]                              %! _comment_measure_numbers
@@ -2563,8 +2761,10 @@ B_OboeMusicVoice = {                                                           %
 
 
 B_OboeMusicStaff = {                                                           %! extern
+
     \context Voice = "OboeMusicVoice"                                          %! ScoreTemplate
     \B_OboeMusicVoice                                                          %! extern
+
 }                                                                              %! extern
 
 
@@ -2620,6 +2820,7 @@ B_ClarinetMusicVoice = {                                                       %
 
     % [B ClarinetMusicVoice measure 83 / measure 9]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
+
     \times 8/9 {                                                               %! aviary
 
         % [B ClarinetMusicVoice measure 84 / measure 10]                       %! _comment_measure_numbers
@@ -2646,7 +2847,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -2669,7 +2872,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -2692,7 +2897,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -2715,7 +2922,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -2738,7 +2947,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -2761,7 +2972,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         % [B ClarinetMusicVoice measure 87 / measure 13]                       %! _comment_measure_numbers
@@ -2785,7 +2998,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -2808,7 +3023,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -2831,7 +3048,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -2854,7 +3073,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -2877,7 +3098,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -2900,7 +3123,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -2923,7 +3148,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -2946,7 +3173,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -2969,7 +3198,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         % [B ClarinetMusicVoice measure 92 / measure 18]                       %! _comment_measure_numbers
@@ -2993,7 +3224,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -3016,7 +3249,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -3039,7 +3274,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -3062,7 +3299,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -3085,7 +3324,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -3108,7 +3349,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -3131,7 +3374,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -3154,7 +3399,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -3177,7 +3424,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -3200,7 +3449,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         % [B ClarinetMusicVoice measure 98 / measure 24]                       %! _comment_measure_numbers
@@ -3224,7 +3475,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -3247,7 +3500,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         % [B ClarinetMusicVoice measure 99 / measure 25]                       %! _comment_measure_numbers
@@ -3271,7 +3526,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         % [B ClarinetMusicVoice measure 100 / measure 26]                      %! _comment_measure_numbers
@@ -3295,7 +3552,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         % [B ClarinetMusicVoice measure 101 / measure 27]                      %! _comment_measure_numbers
@@ -3319,7 +3578,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -3342,7 +3603,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -3365,7 +3628,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         % [B ClarinetMusicVoice measure 102 / measure 28]                      %! _comment_measure_numbers
@@ -3389,7 +3654,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -3412,7 +3679,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 8/9 {                                                               %! aviary
 
         % [B ClarinetMusicVoice measure 103 / measure 29]                      %! _comment_measure_numbers
@@ -3436,7 +3705,9 @@ B_ClarinetMusicVoice = {                                                       %
 
         g'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 4/5 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
@@ -3451,6 +3722,7 @@ B_ClarinetMusicVoice = {                                                       %
 
         d'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
 
     % [B ClarinetMusicVoice measure 104 / measure 30]                          %! _comment_measure_numbers
@@ -3494,8 +3766,10 @@ B_ClarinetMusicVoice = {                                                       %
 
 
 B_ClarinetMusicStaff = {                                                       %! extern
+
     \context Voice = "ClarinetMusicVoice"                                      %! ScoreTemplate
     \B_ClarinetMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -3551,6 +3825,7 @@ B_SaxophoneMusicVoice = {                                                      %
 
     % [B SaxophoneMusicVoice measure 83 / measure 9]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -3574,7 +3849,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -3594,7 +3871,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -3615,7 +3894,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -3635,7 +3916,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -3655,7 +3938,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -3675,7 +3960,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -3695,7 +3982,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -3715,7 +4004,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -3736,7 +4027,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -3756,7 +4049,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -3777,7 +4072,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -3797,7 +4094,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -3817,7 +4116,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -3837,7 +4138,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -3857,7 +4160,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -3877,7 +4182,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -3897,7 +4204,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -3917,7 +4226,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -3937,7 +4248,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -3957,7 +4270,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -3978,7 +4293,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -3998,7 +4315,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4019,7 +4338,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4039,7 +4360,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4059,7 +4382,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4079,7 +4404,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4099,7 +4426,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4119,7 +4448,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4139,7 +4470,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4159,7 +4492,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4180,7 +4515,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4200,7 +4537,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4220,7 +4559,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4240,7 +4581,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4260,7 +4603,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4280,7 +4625,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4301,7 +4648,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4321,7 +4670,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4341,7 +4692,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4361,7 +4714,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4381,7 +4736,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4401,7 +4758,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4421,7 +4780,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4441,7 +4802,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4461,7 +4824,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4481,7 +4846,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 6/7 {                                                               %! aviary
 
@@ -4501,7 +4868,9 @@ B_SaxophoneMusicVoice = {                                                      %
 
         cs'''!16                                                               %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \times 2/3 {                                                               %! aviary
 
         a''16                                                                  %! aviary
@@ -4512,6 +4881,7 @@ B_SaxophoneMusicVoice = {                                                      %
 
         b''16                                                                  %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
 
     % [B SaxophoneMusicVoice measure 104 / measure 30]                         %! _comment_measure_numbers
@@ -4572,8 +4942,10 @@ B_SaxophoneMusicVoice = {                                                      %
 
 
 B_SaxophoneMusicStaff = {                                                      %! extern
+
     \context Voice = "SaxophoneMusicVoice"                                     %! ScoreTemplate
     \B_SaxophoneMusicVoice                                                     %! extern
+
 }                                                                              %! extern
 
 
@@ -4767,8 +5139,10 @@ B_GuitarMusicVoice = {                                                         %
 
 
 B_GuitarMusicStaff = {                                                         %! extern
+
     \context Voice = "GuitarMusicVoice"                                        %! ScoreTemplate
     \B_GuitarMusicVoice                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -4833,6 +5207,7 @@ B_PianoMusicVoice = {                                                          %
 
     f''''16                                                                    %! current
     ]                                                                          %! current
+
     \times 2/3 {                                                               %! current
 
         e''''8                                                                 %! current
@@ -4842,7 +5217,9 @@ B_PianoMusicVoice = {                                                          %
 
         bf'''!8                                                                %! current
         ]                                                                      %! current
+
     }                                                                          %! current
+
     \times 4/5 {                                                               %! current
 
         % [B PianoMusicVoice measure 77 / measure 3]                           %! _comment_measure_numbers
@@ -4857,7 +5234,9 @@ B_PianoMusicVoice = {                                                          %
 
         e''''16.                                                               %! current
         ]                                                                      %! current
+
     }                                                                          %! current
+
     \times 4/5 {                                                               %! current
 
         f''''16.                                                               %! current
@@ -4871,7 +5250,9 @@ B_PianoMusicVoice = {                                                          %
 
         a'''16.                                                                %! current
         ]                                                                      %! current
+
     }                                                                          %! current
+
     \times 4/5 {                                                               %! current
 
         e''''16.                                                               %! current
@@ -4885,6 +5266,7 @@ B_PianoMusicVoice = {                                                          %
 
         df''''!16.                                                             %! current
         ]                                                                      %! current
+
     }                                                                          %! current
 
     d''''8                                                                     %! current
@@ -4894,6 +5276,7 @@ B_PianoMusicVoice = {                                                          %
 
     ef''''!8                                                                   %! current
     ]                                                                          %! current
+
     \times 2/3 {                                                               %! current
 
         % [B PianoMusicVoice measure 78 / measure 4]                           %! _comment_measure_numbers
@@ -4904,6 +5287,7 @@ B_PianoMusicVoice = {                                                          %
 
         df''''!8                                                               %! current
         ]                                                                      %! current
+
     }                                                                          %! current
 
     bf'''!16                                                                   %! current
@@ -4925,6 +5309,7 @@ B_PianoMusicVoice = {                                                          %
 
     d''''16                                                                    %! current
     ]                                                                          %! current
+
     \times 2/3 {                                                               %! current
 
         % [B PianoMusicVoice measure 79 / measure 5]                           %! _comment_measure_numbers
@@ -4937,7 +5322,9 @@ B_PianoMusicVoice = {                                                          %
 
         af'''!8                                                                %! current
         ]                                                                      %! current
+
     }                                                                          %! current
+
     \times 2/3 {                                                               %! current
 
         g'''8                                                                  %! current
@@ -4947,7 +5334,9 @@ B_PianoMusicVoice = {                                                          %
 
         bf'''!8                                                                %! current
         ]                                                                      %! current
+
     }                                                                          %! current
+
     \times 4/5 {                                                               %! current
 
         a'''16                                                                 %! current
@@ -4961,7 +5350,9 @@ B_PianoMusicVoice = {                                                          %
 
         c''''16                                                                %! current
         ]                                                                      %! current
+
     }                                                                          %! current
+
     \times 4/5 {                                                               %! current
 
         df''''!16                                                              %! current
@@ -4975,7 +5366,9 @@ B_PianoMusicVoice = {                                                          %
 
         af'''!16                                                               %! current
         ]                                                                      %! current
+
     }                                                                          %! current
+
     \times 4/5 {                                                               %! current
 
         % [B PianoMusicVoice measure 80 / measure 6]                           %! _comment_measure_numbers
@@ -4990,7 +5383,9 @@ B_PianoMusicVoice = {                                                          %
 
         df''''!16.                                                             %! current
         ]                                                                      %! current
+
     }                                                                          %! current
+
     \times 4/5 {                                                               %! current
 
         d''''16.                                                               %! current
@@ -5004,7 +5399,9 @@ B_PianoMusicVoice = {                                                          %
 
         g'''16.                                                                %! current
         ]                                                                      %! current
+
     }                                                                          %! current
+
     \times 4/5 {                                                               %! current
 
         % [B PianoMusicVoice measure 81 / measure 7]                           %! _comment_measure_numbers
@@ -5019,6 +5416,7 @@ B_PianoMusicVoice = {                                                          %
 
         ef''''!16                                                              %! current
         ]                                                                      %! current
+
     }                                                                          %! current
 
     f''''16                                                                    %! current
@@ -5050,6 +5448,7 @@ B_PianoMusicVoice = {                                                          %
 
     df''''!16                                                                  %! current
     ]                                                                          %! current
+
     \times 2/3 {                                                               %! current
 
         % [B PianoMusicVoice measure 82 / measure 8]                           %! _comment_measure_numbers
@@ -5060,7 +5459,9 @@ B_PianoMusicVoice = {                                                          %
 
         e''''8                                                                 %! current
         ]                                                                      %! current
+
     }                                                                          %! current
+
     \times 4/5 {                                                               %! current
 
         fs'''!16                                                               %! current
@@ -5074,7 +5475,9 @@ B_PianoMusicVoice = {                                                          %
 
         d''''16                                                                %! current
         ]                                                                      %! current
+
     }                                                                          %! current
+
     \times 4/5 {                                                               %! current
 
         f''''16                                                                %! current
@@ -5088,7 +5491,9 @@ B_PianoMusicVoice = {                                                          %
 
         df''''!16                                                              %! current
         ]                                                                      %! current
+
     }                                                                          %! current
+
     \times 4/5 {                                                               %! current
 
         bf'''!16                                                               %! current
@@ -5102,7 +5507,9 @@ B_PianoMusicVoice = {                                                          %
 
         f''''16                                                                %! current
         ]                                                                      %! current
+
     }                                                                          %! current
+
     \times 2/3 {                                                               %! current
 
         c''''8                                                                 %! current
@@ -5112,7 +5519,9 @@ B_PianoMusicVoice = {                                                          %
 
         d''''8                                                                 %! current
         ]                                                                      %! current
+
     }                                                                          %! current
+
     \times 2/3 {                                                               %! current
 
         % [B PianoMusicVoice measure 83 / measure 9]                           %! _comment_measure_numbers
@@ -5123,6 +5532,7 @@ B_PianoMusicVoice = {                                                          %
 
         af'''!8                                                                %! current
         ]                                                                      %! current
+
     }                                                                          %! current
 
     g'''16                                                                     %! current
@@ -5144,6 +5554,7 @@ B_PianoMusicVoice = {                                                          %
 
     c''''16                                                                    %! current
     ]                                                                          %! current
+
     \times 2/3 {                                                               %! current
 
         df''''!8                                                               %! current
@@ -5154,7 +5565,9 @@ B_PianoMusicVoice = {                                                          %
         e''''8                                                                 %! current
         ]                                                                      %! current
         \ottava #0                                                             %! SpannerCommand
+
     }                                                                          %! current
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5185,7 +5598,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5213,7 +5628,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5241,7 +5658,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5269,7 +5688,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5297,7 +5718,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5325,7 +5748,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5353,7 +5778,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5381,7 +5808,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5409,7 +5838,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5437,7 +5868,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5465,7 +5898,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5493,7 +5928,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5521,7 +5958,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5549,7 +5988,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5577,7 +6018,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5605,7 +6048,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5633,7 +6078,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5661,7 +6108,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5689,7 +6138,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5717,7 +6168,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5746,7 +6199,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5774,7 +6229,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5802,7 +6259,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5830,7 +6289,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5859,7 +6320,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5887,7 +6350,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5915,7 +6380,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5943,7 +6410,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5971,7 +6440,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -5999,7 +6470,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 9/11 {                                                              %! aviary
 
@@ -6027,7 +6500,9 @@ B_PianoMusicVoice = {                                                          %
 
         f'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
+
     \tweak text #tuplet-number::calc-fraction-text                             %! aviary
     \times 5/7 {                                                               %! aviary
 
@@ -6047,6 +6522,7 @@ B_PianoMusicVoice = {                                                          %
 
         c'''16                                                                 %! aviary
         ]                                                                      %! aviary
+
     }                                                                          %! aviary
 
     % [B PianoMusicVoice measure 104 / measure 30]                             %! _comment_measure_numbers
@@ -6077,8 +6553,10 @@ B_PianoMusicVoice = {                                                          %
 
 
 B_PianoMusicStaff = {                                                          %! extern
+
     \context Voice = "PianoMusicVoice"                                         %! ScoreTemplate
     \B_PianoMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -6539,8 +7017,10 @@ B_PercussionMusicVoice = {                                                     %
 
 
 B_PercussionMusicStaff = {                                                     %! extern
+
     \context Voice = "PercussionMusicVoice"                                    %! ScoreTemplate
     \B_PercussionMusicVoice                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -6587,6 +7067,7 @@ B_ViolinMusicVoice = {                                                         %
     % [B ViolinMusicVoice measure 78 / measure 4]                              %! _comment_measure_numbers
     gf'!2.                                                                     %! continuous_glissandi
     \glissando                                                                 %! SpannerCommand
+
     \times 4/5 {                                                               %! continuous_glissandi
 
         % [B ViolinMusicVoice measure 79 / measure 5]                          %! _comment_measure_numbers
@@ -6599,11 +7080,13 @@ B_ViolinMusicVoice = {                                                         %
 
         ff'!2                                                                  %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
 
     % [B ViolinMusicVoice measure 80 / measure 6]                              %! _comment_measure_numbers
     dff'!2.                                                                    %! continuous_glissandi
     \glissando                                                                 %! SpannerCommand
+
     \times 2/3 {                                                               %! continuous_glissandi
 
         % [B ViolinMusicVoice measure 81 / measure 7]                          %! _comment_measure_numbers
@@ -6612,7 +7095,9 @@ B_ViolinMusicVoice = {                                                         %
 
         af'!2                                                                  %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
+
     \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
     \times 5/9 {                                                               %! continuous_glissandi
 
@@ -6622,7 +7107,9 @@ B_ViolinMusicVoice = {                                                         %
 
         ef'!1.                                                                 %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
+
     \times 4/7 {                                                               %! continuous_glissandi
 
         % [B ViolinMusicVoice measure 83 / measure 9]                          %! _comment_measure_numbers
@@ -6633,6 +7120,7 @@ B_ViolinMusicVoice = {                                                         %
         aff'!2.                                                                %! continuous_glissandi
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
 
     % [B ViolinMusicVoice measure 84 / measure 10]                             %! _comment_measure_numbers
@@ -6655,6 +7143,7 @@ B_ViolinMusicVoice = {                                                         %
     % [B ViolinMusicVoice measure 87 / measure 13]                             %! _comment_measure_numbers
     df'!2.                                                                     %! continuous_glissandi
     \glissando                                                                 %! SpannerCommand
+
     \times 2/3 {                                                               %! continuous_glissandi
 
         % [B ViolinMusicVoice measure 88 / measure 14]                         %! _comment_measure_numbers
@@ -6663,7 +7152,9 @@ B_ViolinMusicVoice = {                                                         %
 
         dff'!2                                                                 %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
+
     \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
     \times 6/7 {                                                               %! continuous_glissandi
 
@@ -6673,7 +7164,9 @@ B_ViolinMusicVoice = {                                                         %
 
         af'!2.                                                                 %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
+
     \times 4/7 {                                                               %! continuous_glissandi
 
         % [B ViolinMusicVoice measure 90 / measure 16]                         %! _comment_measure_numbers
@@ -6682,6 +7175,7 @@ B_ViolinMusicVoice = {                                                         %
 
         ef'!2                                                                  %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
 
     % [B ViolinMusicVoice measure 91 / measure 17]                             %! _comment_measure_numbers
@@ -6694,6 +7188,7 @@ B_ViolinMusicVoice = {                                                         %
     % [B ViolinMusicVoice measure 92 / measure 18]                             %! _comment_measure_numbers
     aff'!2.                                                                    %! continuous_glissandi
     \glissando                                                                 %! SpannerCommand
+
     \times 2/3 {                                                               %! continuous_glissandi
 
         % [B ViolinMusicVoice measure 93 / measure 19]                         %! _comment_measure_numbers
@@ -6702,11 +7197,13 @@ B_ViolinMusicVoice = {                                                         %
 
         af'!2                                                                  %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
 
     % [B ViolinMusicVoice measure 94 / measure 20]                             %! _comment_measure_numbers
     bf!1.                                                                      %! continuous_glissandi
     \glissando                                                                 %! SpannerCommand
+
     \times 4/7 {                                                               %! continuous_glissandi
 
         % [B ViolinMusicVoice measure 95 / measure 21]                         %! _comment_measure_numbers
@@ -6715,7 +7212,9 @@ B_ViolinMusicVoice = {                                                         %
 
         ff'!4.                                                                 %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
+
     \times 4/7 {                                                               %! continuous_glissandi
 
         % [B ViolinMusicVoice measure 96 / measure 22]                         %! _comment_measure_numbers
@@ -6724,7 +7223,9 @@ B_ViolinMusicVoice = {                                                         %
 
         gf'!2                                                                  %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
+
     \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
     \times 3/5 {                                                               %! continuous_glissandi
 
@@ -6734,6 +7235,7 @@ B_ViolinMusicVoice = {                                                         %
 
         aff'!2                                                                 %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
 
     % [B ViolinMusicVoice measure 98 / measure 24]                             %! _comment_measure_numbers
@@ -6743,6 +7245,7 @@ B_ViolinMusicVoice = {                                                         %
     % [B ViolinMusicVoice measure 99 / measure 25]                             %! _comment_measure_numbers
     ef'!2                                                                      %! continuous_glissandi
     \glissando                                                                 %! SpannerCommand
+
     \times 2/3 {                                                               %! continuous_glissandi
 
         % [B ViolinMusicVoice measure 100 / measure 26]                        %! _comment_measure_numbers
@@ -6751,11 +7254,13 @@ B_ViolinMusicVoice = {                                                         %
 
         eff'!2                                                                 %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
 
     % [B ViolinMusicVoice measure 101 / measure 27]                            %! _comment_measure_numbers
     df'!1.                                                                     %! continuous_glissandi
     \glissando                                                                 %! SpannerCommand
+
     \times 4/7 {                                                               %! continuous_glissandi
 
         % [B ViolinMusicVoice measure 102 / measure 28]                        %! _comment_measure_numbers
@@ -6764,7 +7269,9 @@ B_ViolinMusicVoice = {                                                         %
 
         bf!1                                                                   %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
+
     \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
     \times 3/5 {                                                               %! continuous_glissandi
 
@@ -6774,6 +7281,7 @@ B_ViolinMusicVoice = {                                                         %
 
         ff'!2                                                                  %! continuous_glissandi
         \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
+
     }                                                                          %! continuous_glissandi
 
     % [B ViolinMusicVoice measure 104 / measure 30]                            %! _comment_measure_numbers
@@ -6804,8 +7312,10 @@ B_ViolinMusicVoice = {                                                         %
 
 
 B_ViolinMusicStaff = {                                                         %! extern
+
     \context Voice = "ViolinMusicVoice"                                        %! ScoreTemplate
     \B_ViolinMusicVoice                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -6840,6 +7350,7 @@ B_ViolaMusicVoice = {                                                          %
     % [B ViolaMusicVoice measure 76 / measure 2]                               %! _comment_measure_numbers
     gs'!2                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
+
     \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
     \times 3/5 {                                                               %! continuous_glissandi
 
@@ -6853,6 +7364,7 @@ B_ViolaMusicVoice = {                                                          %
 
         gf'!1                                                                  %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
 
     % [B ViolaMusicVoice measure 78 / measure 4]                               %! _comment_measure_numbers
@@ -6877,6 +7389,7 @@ B_ViolaMusicVoice = {                                                          %
     % [B ViolaMusicVoice measure 81 / measure 7]                               %! _comment_measure_numbers
     af'!1                                                                      %! continuous_glissandi
     \glissando                                                                 %! SpannerCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
     \times 5/7 {                                                               %! continuous_glissandi
 
@@ -6886,7 +7399,9 @@ B_ViolaMusicVoice = {                                                          %
 
         ef'!1                                                                  %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
+
     \times 4/5 {                                                               %! continuous_glissandi
 
         % [B ViolaMusicVoice measure 83 / measure 9]                           %! _comment_measure_numbers
@@ -6897,7 +7412,9 @@ B_ViolaMusicVoice = {                                                          %
         aff'!2                                                                 %! continuous_glissandi
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
+
     \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
     \times 3/5 {                                                               %! continuous_glissandi
 
@@ -6909,6 +7426,7 @@ B_ViolaMusicVoice = {                                                          %
 
         af'!2.                                                                 %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
 
     % [B ViolaMusicVoice measure 85 / measure 11]                              %! _comment_measure_numbers
@@ -6921,6 +7439,7 @@ B_ViolaMusicVoice = {                                                          %
     eff'!2
     \repeatTie
     \glissando                                                                 %! SpannerCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
     \times 6/7 {                                                               %! continuous_glissandi
 
@@ -6930,11 +7449,13 @@ B_ViolaMusicVoice = {                                                          %
 
         ff'!4.                                                                 %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
 
     % [B ViolaMusicVoice measure 88 / measure 14]                              %! _comment_measure_numbers
     dff'!2                                                                     %! continuous_glissandi
     \glissando                                                                 %! SpannerCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
     \times 3/5 {                                                               %! continuous_glissandi
 
@@ -6944,7 +7465,9 @@ B_ViolaMusicVoice = {                                                          %
 
         af'!1                                                                  %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
+
     \times 4/5 {                                                               %! continuous_glissandi
 
         % [B ViolaMusicVoice measure 90 / measure 16]                          %! _comment_measure_numbers
@@ -6953,7 +7476,9 @@ B_ViolaMusicVoice = {                                                          %
 
         ef'!4.                                                                 %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
+
     \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
     \times 5/9 {                                                               %! continuous_glissandi
 
@@ -6963,6 +7488,7 @@ B_ViolaMusicVoice = {                                                          %
 
         aff'!2.                                                                %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
 
     % [B ViolaMusicVoice measure 92 / measure 18]                              %! _comment_measure_numbers
@@ -6972,6 +7498,7 @@ B_ViolaMusicVoice = {                                                          %
     % [B ViolaMusicVoice measure 93 / measure 19]                              %! _comment_measure_numbers
     af'!1                                                                      %! continuous_glissandi
     \glissando                                                                 %! SpannerCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
     \times 6/7 {                                                               %! continuous_glissandi
 
@@ -6981,11 +7508,13 @@ B_ViolaMusicVoice = {                                                          %
 
         eff'!1                                                                 %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
 
     % [B ViolaMusicVoice measure 95 / measure 21]                              %! _comment_measure_numbers
     ff'!2                                                                      %! continuous_glissandi
     \glissando                                                                 %! SpannerCommand
+
     \times 4/5 {                                                               %! continuous_glissandi
 
         % [B ViolaMusicVoice measure 96 / measure 22]                          %! _comment_measure_numbers
@@ -6994,6 +7523,7 @@ B_ViolaMusicVoice = {                                                          %
 
         gf'!4.                                                                 %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
 
     % [B ViolaMusicVoice measure 97 / measure 23]                              %! _comment_measure_numbers
@@ -7002,6 +7532,7 @@ B_ViolaMusicVoice = {                                                          %
 
     aff'!4                                                                     %! continuous_glissandi
     \glissando                                                                 %! SpannerCommand
+
     \times 2/3 {                                                               %! continuous_glissandi
 
         % [B ViolaMusicVoice measure 98 / measure 24]                          %! _comment_measure_numbers
@@ -7010,6 +7541,7 @@ B_ViolaMusicVoice = {                                                          %
 
         ef'!1                                                                  %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
 
     % [B ViolaMusicVoice measure 99 / measure 25]                              %! _comment_measure_numbers
@@ -7019,6 +7551,7 @@ B_ViolaMusicVoice = {                                                          %
     % [B ViolaMusicVoice measure 100 / measure 26]                             %! _comment_measure_numbers
     eff'!2                                                                     %! continuous_glissandi
     \glissando                                                                 %! SpannerCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
     \times 3/5 {                                                               %! continuous_glissandi
 
@@ -7028,6 +7561,7 @@ B_ViolaMusicVoice = {                                                          %
 
         af'!1                                                                  %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
 
     % [B ViolaMusicVoice measure 102 / measure 28]                             %! _comment_measure_numbers
@@ -7069,8 +7603,10 @@ B_ViolaMusicVoice = {                                                          %
 
 
 B_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \B_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -7135,6 +7671,7 @@ B_CelloMusicVoice = {                                                          %
     % [B CelloMusicVoice measure 80 / measure 6]                               %! _comment_measure_numbers
     cf'!2.                                                                     %! continuous_glissandi
     \glissando                                                                 %! SpannerCommand
+
     \times 4/5 {                                                               %! continuous_glissandi
 
         % [B CelloMusicVoice measure 81 / measure 7]                           %! _comment_measure_numbers
@@ -7143,6 +7680,7 @@ B_CelloMusicVoice = {                                                          %
 
         ff'!2                                                                  %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
 
     % [B CelloMusicVoice measure 82 / measure 8]                               %! _comment_measure_numbers
@@ -7151,6 +7689,7 @@ B_CelloMusicVoice = {                                                          %
     ef'!2
     \repeatTie
     \glissando                                                                 %! SpannerCommand
+
     \times 2/3 {                                                               %! continuous_glissandi
 
         % [B CelloMusicVoice measure 83 / measure 9]                           %! _comment_measure_numbers
@@ -7161,6 +7700,7 @@ B_CelloMusicVoice = {                                                          %
         aff'!2                                                                 %! continuous_glissandi
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
 
     % [B CelloMusicVoice measure 84 / measure 10]                              %! _comment_measure_numbers
@@ -7171,6 +7711,7 @@ B_CelloMusicVoice = {                                                          %
 
     af'!2                                                                      %! continuous_glissandi
     \glissando                                                                 %! SpannerCommand
+
     \times 4/7 {                                                               %! continuous_glissandi
 
         % [B CelloMusicVoice measure 85 / measure 11]                          %! _comment_measure_numbers
@@ -7179,6 +7720,7 @@ B_CelloMusicVoice = {                                                          %
 
         eff'!2.                                                                %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
 
     % [B CelloMusicVoice measure 86 / measure 12]                              %! _comment_measure_numbers
@@ -7191,6 +7733,7 @@ B_CelloMusicVoice = {                                                          %
     % [B CelloMusicVoice measure 87 / measure 13]                              %! _comment_measure_numbers
     ff'!2.                                                                     %! continuous_glissandi
     \glissando                                                                 %! SpannerCommand
+
     \times 4/5 {                                                               %! continuous_glissandi
 
         % [B CelloMusicVoice measure 88 / measure 14]                          %! _comment_measure_numbers
@@ -7199,11 +7742,13 @@ B_CelloMusicVoice = {                                                          %
 
         cf'!4.                                                                 %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
 
     % [B CelloMusicVoice measure 89 / measure 15]                              %! _comment_measure_numbers
     af'!1.                                                                     %! continuous_glissandi
     \glissando                                                                 %! SpannerCommand
+
     \times 2/3 {                                                               %! continuous_glissandi
 
         % [B CelloMusicVoice measure 90 / measure 16]                          %! _comment_measure_numbers
@@ -7212,7 +7757,9 @@ B_CelloMusicVoice = {                                                          %
 
         ef'!2                                                                  %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
+
     \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
     \times 5/7 {                                                               %! continuous_glissandi
 
@@ -7222,7 +7769,9 @@ B_CelloMusicVoice = {                                                          %
 
         aff'!2.                                                                %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
+
     \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
     \times 6/7 {                                                               %! continuous_glissandi
 
@@ -7232,6 +7781,7 @@ B_CelloMusicVoice = {                                                          %
 
         af'!2                                                                  %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
 
     % [B CelloMusicVoice measure 93 / measure 19]                              %! _comment_measure_numbers
@@ -7241,6 +7791,7 @@ B_CelloMusicVoice = {                                                          %
     % [B CelloMusicVoice measure 94 / measure 20]                              %! _comment_measure_numbers
     eff'!1.                                                                    %! continuous_glissandi
     \glissando                                                                 %! SpannerCommand
+
     \times 2/3 {                                                               %! continuous_glissandi
 
         % [B CelloMusicVoice measure 95 / measure 21]                          %! _comment_measure_numbers
@@ -7249,11 +7800,13 @@ B_CelloMusicVoice = {                                                          %
 
         gff'!4                                                                 %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
 
     % [B CelloMusicVoice measure 96 / measure 22]                              %! _comment_measure_numbers
     gf'!2                                                                      %! continuous_glissandi
     \glissando                                                                 %! SpannerCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
     \times 6/7 {                                                               %! continuous_glissandi
 
@@ -7263,7 +7816,9 @@ B_CelloMusicVoice = {                                                          %
 
         aff'!4.                                                                %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
+
     \times 4/7 {                                                               %! continuous_glissandi
 
         % [B CelloMusicVoice measure 98 / measure 24]                          %! _comment_measure_numbers
@@ -7272,7 +7827,9 @@ B_CelloMusicVoice = {                                                          %
 
         ef'!1                                                                  %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
+
     \times 4/5 {                                                               %! continuous_glissandi
 
         % [B CelloMusicVoice measure 99 / measure 25]                          %! _comment_measure_numbers
@@ -7281,6 +7838,7 @@ B_CelloMusicVoice = {                                                          %
 
         eff'!4                                                                 %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
 
     % [B CelloMusicVoice measure 100 / measure 26]                             %! _comment_measure_numbers
@@ -7290,6 +7848,7 @@ B_CelloMusicVoice = {                                                          %
     % [B CelloMusicVoice measure 101 / measure 27]                             %! _comment_measure_numbers
     af'!1.                                                                     %! continuous_glissandi
     \glissando                                                                 %! SpannerCommand
+
     \times 2/3 {                                                               %! continuous_glissandi
 
         % [B CelloMusicVoice measure 102 / measure 28]                         %! _comment_measure_numbers
@@ -7298,6 +7857,7 @@ B_CelloMusicVoice = {                                                          %
 
         bff'!1                                                                 %! continuous_glissandi
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! continuous_glissandi
 
     % [B CelloMusicVoice measure 103 / measure 29]                             %! _comment_measure_numbers
@@ -7332,8 +7892,10 @@ B_CelloMusicVoice = {                                                          %
 
 
 B_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \B_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -7538,6 +8100,8 @@ B_ContrabassMusicVoice = {                                                     %
 
 
 B_ContrabassMusicStaff = {                                                     %! extern
+
     \context Voice = "ContrabassMusicVoice"                                    %! ScoreTemplate
     \B_ContrabassMusicVoice                                                    %! extern
+
 }                                                                              %! extern

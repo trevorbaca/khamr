@@ -1,15 +1,15 @@
-\version "2.19.82"
-\language "english"
+\version "2.19.82"                                                                       %! LilyPondFile
+\language "english"                                                                      %! LilyPondFile
 
-\header {
+\header {                                                                                %! LilyPondFile
     tagline = ##f
-}
+}                                                                                        %! LilyPondFile
 
 \layout {}
 
 \paper {}
 
-\score {
+\score {                                                                                 %! LilyPondFile
     \new Score
     \with
     {
@@ -68,4 +68,4 @@
             }
         >>
     >>
-}
+}                                                                                        %! LilyPondFile

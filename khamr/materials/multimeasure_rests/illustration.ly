@@ -1,18 +1,18 @@
-\version "2.19.82"
-\language "english"
+\version "2.19.82"                                                                       %! LilyPondFile
+\language "english"                                                                      %! LilyPondFile
 
-\include "default.ily"
-\include "rhythm-maker-docs.ily"
+\include "default.ily"                                                                   %! LilyPondFile
+\include "rhythm-maker-docs.ily"                                                         %! LilyPondFile
 
-\header {
+\header {                                                                                %! LilyPondFile
     tagline = ##f
-}
+}                                                                                        %! LilyPondFile
 
 \layout {}
 
 \paper {}
 
-\score {
+\score {                                                                                 %! LilyPondFile
     \new Score
     <<
         \new GlobalContext
@@ -54,4 +54,4 @@
             }   % measure
         }
     >>
-}
+}                                                                                        %! LilyPondFile
