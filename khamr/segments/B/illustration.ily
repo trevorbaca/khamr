@@ -2,7 +2,7 @@ B_GlobalSkips = {                                                              %
 
     % [B GlobalSkips measure 75 / measure 1]                                   %! _comment_measure_numbers
     \time 2/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \mark #2                                                                   %! IndicatorCommand
+    \mark #2                                                                   %! baca_rehearsal_mark:IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
@@ -419,7 +419,7 @@ B_FluteMusicVoice = {                                                          %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     b''2                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     \fff                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“B. fl.”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -435,7 +435,7 @@ B_FluteMusicVoice = {                                                          %
 
     % [B FluteMusicVoice measure 76 / measure 2]                               %! _comment_measure_numbers
     b''2                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B FluteMusicVoice measure 77 / measure 3]                               %! _comment_measure_numbers
@@ -466,7 +466,7 @@ B_FluteMusicVoice = {                                                          %
         d'''16                                                                 %! aviary
         - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \fff                                                                   %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -490,7 +490,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -514,7 +514,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -538,7 +538,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -563,7 +563,7 @@ B_FluteMusicVoice = {                                                          %
 
         % [B FluteMusicVoice measure 86 / measure 12]                          %! _comment_measure_numbers
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -587,7 +587,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -611,7 +611,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -635,7 +635,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -659,7 +659,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -683,7 +683,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -707,7 +707,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -731,7 +731,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -755,7 +755,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -779,7 +779,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -803,7 +803,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -827,7 +827,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -851,7 +851,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -875,7 +875,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -899,7 +899,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -923,7 +923,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -947,7 +947,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -971,7 +971,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -995,7 +995,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -1019,7 +1019,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -1043,7 +1043,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -1067,7 +1067,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -1091,7 +1091,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -1115,7 +1115,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -1139,7 +1139,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -1163,7 +1163,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -1187,7 +1187,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -1211,7 +1211,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -1236,7 +1236,7 @@ B_FluteMusicVoice = {                                                          %
 
         % [B FluteMusicVoice measure 100 / measure 26]                         %! _comment_measure_numbers
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -1260,7 +1260,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -1284,7 +1284,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -1308,7 +1308,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -1332,7 +1332,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -1356,7 +1356,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -1380,7 +1380,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -1404,7 +1404,7 @@ B_FluteMusicVoice = {                                                          %
     \times 7/8 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -1427,7 +1427,7 @@ B_FluteMusicVoice = {                                                          %
     \times 4/5 {                                                               %! aviary
 
         d'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         e'''16                                                                 %! aviary
@@ -1571,7 +1571,7 @@ B_OboeMusicVoice = {                                                           %
         c'''16                                                                 %! aviary
         - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \fff                                                                   %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         ^ \baca-explicit-indicator-markup "(“Oboe”)"                           %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         [                                                                      %! aviary
 
@@ -1592,7 +1592,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -1612,7 +1612,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -1632,7 +1632,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -1652,7 +1652,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -1672,7 +1672,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -1692,7 +1692,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -1712,7 +1712,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -1732,7 +1732,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -1752,7 +1752,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -1772,7 +1772,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -1792,7 +1792,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -1813,7 +1813,7 @@ B_OboeMusicVoice = {                                                           %
 
         % [B OboeMusicVoice measure 88 / measure 14]                           %! _comment_measure_numbers
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -1833,7 +1833,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -1853,7 +1853,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -1873,7 +1873,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -1893,7 +1893,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -1913,7 +1913,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -1933,7 +1933,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -1953,7 +1953,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -1974,7 +1974,7 @@ B_OboeMusicVoice = {                                                           %
 
         % [B OboeMusicVoice measure 91 / measure 17]                           %! _comment_measure_numbers
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -1994,7 +1994,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2014,7 +2014,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2034,7 +2034,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2055,7 +2055,7 @@ B_OboeMusicVoice = {                                                           %
 
         % [B OboeMusicVoice measure 92 / measure 18]                           %! _comment_measure_numbers
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2075,7 +2075,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2095,7 +2095,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2115,7 +2115,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2135,7 +2135,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2155,7 +2155,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2175,7 +2175,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2195,7 +2195,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2215,7 +2215,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2235,7 +2235,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2255,7 +2255,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2275,7 +2275,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2296,7 +2296,7 @@ B_OboeMusicVoice = {                                                           %
 
         % [B OboeMusicVoice measure 96 / measure 22]                           %! _comment_measure_numbers
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2316,7 +2316,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2336,7 +2336,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2356,7 +2356,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2377,7 +2377,7 @@ B_OboeMusicVoice = {                                                           %
 
         % [B OboeMusicVoice measure 98 / measure 24]                           %! _comment_measure_numbers
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2397,7 +2397,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2417,7 +2417,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2437,7 +2437,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2457,7 +2457,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2477,7 +2477,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2497,7 +2497,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2517,7 +2517,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2537,7 +2537,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2557,7 +2557,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2577,7 +2577,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2597,7 +2597,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2617,7 +2617,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2637,7 +2637,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2657,7 +2657,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2677,7 +2677,7 @@ B_OboeMusicVoice = {                                                           %
     \times 5/6 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2696,7 +2696,7 @@ B_OboeMusicVoice = {                                                           %
     \times 4/5 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         cs'''!16                                                               %! aviary
@@ -2723,13 +2723,13 @@ B_OboeMusicVoice = {                                                           %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [B OboeMusicVoice measure 108 / measure 34]                              %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     r1
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -2827,7 +2827,7 @@ B_ClarinetMusicVoice = {                                                       %
         e'''16                                                                 %! aviary
         - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \fff                                                                   %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         ^ \baca-explicit-indicator-markup "(“Clarinet”)"                       %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         [                                                                      %! aviary
 
@@ -2853,7 +2853,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -2878,7 +2878,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -2903,7 +2903,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -2928,7 +2928,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -2953,7 +2953,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -2979,7 +2979,7 @@ B_ClarinetMusicVoice = {                                                       %
 
         % [B ClarinetMusicVoice measure 87 / measure 13]                       %! _comment_measure_numbers
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3004,7 +3004,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3029,7 +3029,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3054,7 +3054,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3079,7 +3079,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3104,7 +3104,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3129,7 +3129,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3154,7 +3154,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3179,7 +3179,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3205,7 +3205,7 @@ B_ClarinetMusicVoice = {                                                       %
 
         % [B ClarinetMusicVoice measure 92 / measure 18]                       %! _comment_measure_numbers
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3230,7 +3230,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3255,7 +3255,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3280,7 +3280,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3305,7 +3305,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3330,7 +3330,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3355,7 +3355,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3380,7 +3380,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3405,7 +3405,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3430,7 +3430,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3456,7 +3456,7 @@ B_ClarinetMusicVoice = {                                                       %
 
         % [B ClarinetMusicVoice measure 98 / measure 24]                       %! _comment_measure_numbers
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3481,7 +3481,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3507,7 +3507,7 @@ B_ClarinetMusicVoice = {                                                       %
 
         % [B ClarinetMusicVoice measure 99 / measure 25]                       %! _comment_measure_numbers
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3533,7 +3533,7 @@ B_ClarinetMusicVoice = {                                                       %
 
         % [B ClarinetMusicVoice measure 100 / measure 26]                      %! _comment_measure_numbers
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3559,7 +3559,7 @@ B_ClarinetMusicVoice = {                                                       %
 
         % [B ClarinetMusicVoice measure 101 / measure 27]                      %! _comment_measure_numbers
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3584,7 +3584,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3609,7 +3609,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3635,7 +3635,7 @@ B_ClarinetMusicVoice = {                                                       %
 
         % [B ClarinetMusicVoice measure 102 / measure 28]                      %! _comment_measure_numbers
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3660,7 +3660,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 8/9 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3686,7 +3686,7 @@ B_ClarinetMusicVoice = {                                                       %
 
         % [B ClarinetMusicVoice measure 103 / measure 29]                      %! _comment_measure_numbers
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3711,7 +3711,7 @@ B_ClarinetMusicVoice = {                                                       %
     \times 4/5 {                                                               %! aviary
 
         e'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         es'''!16                                                               %! aviary
@@ -3833,7 +3833,7 @@ B_SaxophoneMusicVoice = {                                                      %
         a''16                                                                  %! aviary
         - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \fff                                                                   %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         ^ \baca-explicit-indicator-markup "(“SopraninoSaxophone”)"             %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         [                                                                      %! aviary
 
@@ -3856,7 +3856,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -3879,7 +3879,7 @@ B_SaxophoneMusicVoice = {                                                      %
 
         % [B SaxophoneMusicVoice measure 85 / measure 11]                      %! _comment_measure_numbers
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -3901,7 +3901,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -3923,7 +3923,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -3945,7 +3945,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -3967,7 +3967,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -3989,7 +3989,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4012,7 +4012,7 @@ B_SaxophoneMusicVoice = {                                                      %
 
         % [B SaxophoneMusicVoice measure 87 / measure 13]                      %! _comment_measure_numbers
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4034,7 +4034,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4057,7 +4057,7 @@ B_SaxophoneMusicVoice = {                                                      %
 
         % [B SaxophoneMusicVoice measure 88 / measure 14]                      %! _comment_measure_numbers
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4079,7 +4079,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4101,7 +4101,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4123,7 +4123,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4145,7 +4145,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4167,7 +4167,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4189,7 +4189,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4211,7 +4211,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4233,7 +4233,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4255,7 +4255,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4278,7 +4278,7 @@ B_SaxophoneMusicVoice = {                                                      %
 
         % [B SaxophoneMusicVoice measure 92 / measure 18]                      %! _comment_measure_numbers
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4300,7 +4300,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4323,7 +4323,7 @@ B_SaxophoneMusicVoice = {                                                      %
 
         % [B SaxophoneMusicVoice measure 93 / measure 19]                      %! _comment_measure_numbers
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4345,7 +4345,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4367,7 +4367,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4389,7 +4389,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4411,7 +4411,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4433,7 +4433,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4455,7 +4455,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4477,7 +4477,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4500,7 +4500,7 @@ B_SaxophoneMusicVoice = {                                                      %
 
         % [B SaxophoneMusicVoice measure 96 / measure 22]                      %! _comment_measure_numbers
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4522,7 +4522,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4544,7 +4544,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4566,7 +4566,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4588,7 +4588,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4610,7 +4610,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4633,7 +4633,7 @@ B_SaxophoneMusicVoice = {                                                      %
 
         % [B SaxophoneMusicVoice measure 99 / measure 25]                      %! _comment_measure_numbers
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4655,7 +4655,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4677,7 +4677,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4699,7 +4699,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4721,7 +4721,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4743,7 +4743,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4765,7 +4765,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4787,7 +4787,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4809,7 +4809,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4831,7 +4831,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4853,7 +4853,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 6/7 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4874,7 +4874,7 @@ B_SaxophoneMusicVoice = {                                                      %
     \times 2/3 {                                                               %! aviary
 
         a''16                                                                  %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         as''!16                                                                %! aviary
@@ -4898,13 +4898,13 @@ B_SaxophoneMusicVoice = {                                                      %
 
     % [B SaxophoneMusicVoice measure 108 / measure 34]                         %! _comment_measure_numbers
     \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:IndicatorCommand
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     c'1
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -5004,111 +5004,111 @@ B_GuitarMusicVoice = {                                                         %
 
     % [B GuitarMusicVoice measure 84 / measure 10]                             %! _comment_measure_numbers
     af''!2.                                                                    %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [B GuitarMusicVoice measure 85 / measure 11]                             %! _comment_measure_numbers
     af''!1                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B GuitarMusicVoice measure 86 / measure 12]                             %! _comment_measure_numbers
     af''!2.
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     af''!2
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B GuitarMusicVoice measure 87 / measure 13]                             %! _comment_measure_numbers
     af''!2.                                                                    %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B GuitarMusicVoice measure 88 / measure 14]                             %! _comment_measure_numbers
     af''!2                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B GuitarMusicVoice measure 89 / measure 15]                             %! _comment_measure_numbers
     af''!1.                                                                    %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B GuitarMusicVoice measure 90 / measure 16]                             %! _comment_measure_numbers
     af''!2                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B GuitarMusicVoice measure 91 / measure 17]                             %! _comment_measure_numbers
     af''!2.
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     af''!2
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B GuitarMusicVoice measure 92 / measure 18]                             %! _comment_measure_numbers
     af''!2.                                                                    %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B GuitarMusicVoice measure 93 / measure 19]                             %! _comment_measure_numbers
     af''!1                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B GuitarMusicVoice measure 94 / measure 20]                             %! _comment_measure_numbers
     af''!1.                                                                    %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B GuitarMusicVoice measure 95 / measure 21]                             %! _comment_measure_numbers
     af''!2                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B GuitarMusicVoice measure 96 / measure 22]                             %! _comment_measure_numbers
     af''!2                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B GuitarMusicVoice measure 97 / measure 23]                             %! _comment_measure_numbers
     af''!2.                                                                    %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B GuitarMusicVoice measure 98 / measure 24]                             %! _comment_measure_numbers
     af''!1                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B GuitarMusicVoice measure 99 / measure 25]                             %! _comment_measure_numbers
     af''!2                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B GuitarMusicVoice measure 100 / measure 26]                            %! _comment_measure_numbers
     af''!2                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B GuitarMusicVoice measure 101 / measure 27]                            %! _comment_measure_numbers
     af''!1.                                                                    %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B GuitarMusicVoice measure 102 / measure 28]                            %! _comment_measure_numbers
     af''!1                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B GuitarMusicVoice measure 103 / measure 29]                            %! _comment_measure_numbers
     af''!2.                                                                    %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B GuitarMusicVoice measure 104 / measure 30]                            %! _comment_measure_numbers
@@ -5575,7 +5575,7 @@ B_PianoMusicVoice = {                                                          %
         c'''16                                                                 %! aviary
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -5605,7 +5605,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -5635,7 +5635,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -5665,7 +5665,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -5695,7 +5695,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -5725,7 +5725,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -5755,7 +5755,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -5785,7 +5785,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -5815,7 +5815,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -5845,7 +5845,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -5875,7 +5875,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -5905,7 +5905,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -5935,7 +5935,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -5965,7 +5965,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -5995,7 +5995,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -6025,7 +6025,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -6055,7 +6055,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -6085,7 +6085,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -6115,7 +6115,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -6145,7 +6145,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -6176,7 +6176,7 @@ B_PianoMusicVoice = {                                                          %
 
         % [B PianoMusicVoice measure 96 / measure 22]                          %! _comment_measure_numbers
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -6206,7 +6206,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -6236,7 +6236,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -6266,7 +6266,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -6297,7 +6297,7 @@ B_PianoMusicVoice = {                                                          %
 
         % [B PianoMusicVoice measure 99 / measure 25]                          %! _comment_measure_numbers
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -6327,7 +6327,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -6357,7 +6357,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -6387,7 +6387,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -6417,7 +6417,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -6447,7 +6447,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -6477,7 +6477,7 @@ B_PianoMusicVoice = {                                                          %
     \times 9/11 {                                                              %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -6507,7 +6507,7 @@ B_PianoMusicVoice = {                                                          %
     \times 5/7 {                                                               %! aviary
 
         c'''16                                                                 %! aviary
-        - \accent                                                              %! IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
         [                                                                      %! aviary
 
         d'''16                                                                 %! aviary
@@ -6603,17 +6603,17 @@ B_PercussionMusicVoice = {                                                     %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [B PercussionMusicVoice measure 79 / measure 5]                          %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
@@ -6627,31 +6627,31 @@ B_PercussionMusicVoice = {                                                     %
     % [B PercussionMusicVoice measure 80 / measure 6]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B PercussionMusicVoice measure 81 / measure 7]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [B PercussionMusicVoice measure 82 / measure 8]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B PercussionMusicVoice measure 83 / measure 9]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
@@ -6660,7 +6660,7 @@ B_PercussionMusicVoice = {                                                     %
     c'4                                                                        %! baca_make_repeated_duration_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
         \override                                                              %! baca_markup:IndicatorCommand
             #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
@@ -6670,285 +6670,285 @@ B_PercussionMusicVoice = {                                                     %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     % [B PercussionMusicVoice measure 85 / measure 11]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     % [B PercussionMusicVoice measure 86 / measure 12]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     % [B PercussionMusicVoice measure 87 / measure 13]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     % [B PercussionMusicVoice measure 88 / measure 14]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     % [B PercussionMusicVoice measure 89 / measure 15]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     % [B PercussionMusicVoice measure 90 / measure 16]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     % [B PercussionMusicVoice measure 91 / measure 17]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     % [B PercussionMusicVoice measure 92 / measure 18]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     % [B PercussionMusicVoice measure 93 / measure 19]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     % [B PercussionMusicVoice measure 94 / measure 20]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     % [B PercussionMusicVoice measure 95 / measure 21]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     % [B PercussionMusicVoice measure 96 / measure 22]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     % [B PercussionMusicVoice measure 97 / measure 23]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     % [B PercussionMusicVoice measure 98 / measure 24]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     % [B PercussionMusicVoice measure 99 / measure 25]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     % [B PercussionMusicVoice measure 100 / measure 26]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     % [B PercussionMusicVoice measure 103 / measure 29]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! IndicatorCommand
+    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
 
     % [B PercussionMusicVoice measure 104 / measure 30]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
@@ -6961,56 +6961,56 @@ B_PercussionMusicVoice = {                                                     %
     % [B PercussionMusicVoice measure 105 / measure 31]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [B PercussionMusicVoice measure 106 / measure 32]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B PercussionMusicVoice measure 107 / measure 33]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B PercussionMusicVoice measure 108 / measure 34]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [B PercussionMusicVoice measure 109 / measure 35]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [B PercussionMusicVoice measure 110 / measure 36]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B PercussionMusicVoice measure 111 / measure 37]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
 }                                                                              %! extern
