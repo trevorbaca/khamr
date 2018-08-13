@@ -464,8 +464,8 @@ B_FluteMusicVoice = {                                                          %
 
         % [B FluteMusicVoice measure 84 / measure 10]                          %! _comment_measure_numbers
         d'''16                                                                 %! aviary
-        - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \fff                                                                   %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
+        - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \fff                                                                   %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \accent                                                              %! IndicatorCommand
         [                                                                      %! aviary
 
@@ -1455,8 +1455,8 @@ B_FluteMusicVoice = {                                                          %
 
     % [B FluteMusicVoice measure 108 / measure 34]                             %! _comment_measure_numbers
     bf'!1
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
         \column                                                                %! baca_markup:IndicatorCommand
             {                                                                  %! baca_markup:IndicatorCommand
@@ -1569,8 +1569,8 @@ B_OboeMusicVoice = {                                                           %
 
         % [B OboeMusicVoice measure 84 / measure 10]                           %! _comment_measure_numbers
         c'''16                                                                 %! aviary
-        - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \fff                                                                   %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
+        - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \fff                                                                   %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \accent                                                              %! IndicatorCommand
         ^ \baca-explicit-indicator-markup "(“Oboe”)"                           %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         [                                                                      %! aviary
@@ -2741,8 +2741,8 @@ B_OboeMusicVoice = {                                                           %
     r2                                                                         %! fused_wind
 
     c'2.
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "airtone without reed: mix inhales and exhales ad lib." }      %! baca_markup:IndicatorCommand
 
     % [B OboeMusicVoice measure 111 / measure 37]                              %! _comment_measure_numbers
@@ -2825,8 +2825,8 @@ B_ClarinetMusicVoice = {                                                       %
 
         % [B ClarinetMusicVoice measure 84 / measure 10]                       %! _comment_measure_numbers
         e'''16                                                                 %! aviary
-        - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \fff                                                                   %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
+        - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \fff                                                                   %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \accent                                                              %! IndicatorCommand
         ^ \baca-explicit-indicator-markup "(“Clarinet”)"                       %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         [                                                                      %! aviary
@@ -3733,8 +3733,8 @@ B_ClarinetMusicVoice = {                                                       %
 
     % [B ClarinetMusicVoice measure 106 / measure 32]                          %! _comment_measure_numbers
     a2.
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-explicit-indicator-markup "(“BassClarinet”)"                       %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 
     a2
@@ -3831,8 +3831,8 @@ B_SaxophoneMusicVoice = {                                                      %
 
         % [B SaxophoneMusicVoice measure 84 / measure 10]                      %! _comment_measure_numbers
         a''16                                                                  %! aviary
-        - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \fff                                                                   %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
+        - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \fff                                                                   %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \accent                                                              %! IndicatorCommand
         ^ \baca-explicit-indicator-markup "(“SopraninoSaxophone”)"             %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         [                                                                      %! aviary
@@ -4897,7 +4897,7 @@ B_SaxophoneMusicVoice = {                                                      %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [B SaxophoneMusicVoice measure 108 / measure 34]                         %! _comment_measure_numbers
-    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:IndicatorCommand
+    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:IndicatorCommand
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
@@ -4907,8 +4907,8 @@ B_SaxophoneMusicVoice = {                                                      %
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     c'1
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { airtone }                                                      %! baca_markup:IndicatorCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
@@ -5005,8 +5005,8 @@ B_GuitarMusicVoice = {                                                         %
     % [B GuitarMusicVoice measure 84 / measure 10]                             %! _comment_measure_numbers
     af''!2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [B GuitarMusicVoice measure 85 / measure 11]                             %! _comment_measure_numbers
     af''!1                                                                     %! baca_make_repeat_tied_notes
@@ -5158,7 +5158,7 @@ B_PianoMusicVoice = {                                                          %
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \ottava #1                                                                 %! SpannerCommand
+    \ottava #1                                                                 %! baca_ottava:SpannerCommand
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -5166,8 +5166,8 @@ B_PianoMusicVoice = {                                                          %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     df''''!16                                                                  %! current
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Pf.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Piano”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     [                                                                          %! current
@@ -5314,8 +5314,8 @@ B_PianoMusicVoice = {                                                          %
 
         % [B PianoMusicVoice measure 79 / measure 5]                           %! _comment_measure_numbers
         e''''8                                                                 %! current
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \ffff                                                                  %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \ffff                                                                  %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         [                                                                      %! current
 
         c''''8                                                                 %! current
@@ -5564,7 +5564,7 @@ B_PianoMusicVoice = {                                                          %
 
         e''''8                                                                 %! current
         ]                                                                      %! current
-        \ottava #0                                                             %! SpannerCommand
+        \ottava #0                                                             %! baca_ottava:SpannerCommand
 
     }                                                                          %! current
 
@@ -5573,8 +5573,8 @@ B_PianoMusicVoice = {                                                          %
 
         % [B PianoMusicVoice measure 84 / measure 10]                          %! _comment_measure_numbers
         c'''16                                                                 %! aviary
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \accent                                                              %! IndicatorCommand
         [                                                                      %! aviary
 
@@ -6614,8 +6614,8 @@ B_PercussionMusicVoice = {                                                     %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
         \override                                                              %! baca_markup:IndicatorCommand
             #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
@@ -6658,8 +6658,8 @@ B_PercussionMusicVoice = {                                                     %
     % [B PercussionMusicVoice measure 84 / measure 10]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \baca-staccati #2                                                        %! IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
         \override                                                              %! baca_markup:IndicatorCommand
@@ -6949,8 +6949,8 @@ B_PercussionMusicVoice = {                                                     %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
         \override                                                              %! baca_markup:IndicatorCommand
             #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
@@ -7059,42 +7059,42 @@ B_ViolinMusicVoice = {                                                         %
     % [B ViolinMusicVoice measure 77 / measure 3]                              %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
     gff'!1.                                                                    %! continuous_glissandi
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "estr. sul pont." }                                            %! baca_markup:IndicatorCommand
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [B ViolinMusicVoice measure 78 / measure 4]                              %! _comment_measure_numbers
     gf'!2.                                                                     %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \times 4/5 {                                                               %! continuous_glissandi
 
         % [B ViolinMusicVoice measure 79 / measure 5]                          %! _comment_measure_numbers
         bff'!2.                                                                %! continuous_glissandi
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-        \glissando                                                             %! SpannerCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         ff'!2                                                                  %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
     % [B ViolinMusicVoice measure 80 / measure 6]                              %! _comment_measure_numbers
     dff'!2.                                                                    %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \times 2/3 {                                                               %! continuous_glissandi
 
         % [B ViolinMusicVoice measure 81 / measure 7]                          %! _comment_measure_numbers
         cf'!1                                                                  %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         af'!2                                                                  %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
@@ -7103,10 +7103,10 @@ B_ViolinMusicVoice = {                                                         %
 
         % [B ViolinMusicVoice measure 82 / measure 8]                          %! _comment_measure_numbers
         ff'!2.                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         ef'!1.                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
@@ -7114,44 +7114,44 @@ B_ViolinMusicVoice = {                                                         %
 
         % [B ViolinMusicVoice measure 83 / measure 9]                          %! _comment_measure_numbers
         gff'!1                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         aff'!2.                                                                %! continuous_glissandi
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
     % [B ViolinMusicVoice measure 84 / measure 10]                             %! _comment_measure_numbers
     bff'!2.                                                                    %! continuous_glissandi
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [B ViolinMusicVoice measure 85 / measure 11]                             %! _comment_measure_numbers
     af'!1                                                                      %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [B ViolinMusicVoice measure 86 / measure 12]                             %! _comment_measure_numbers
     bf!2                                                                       %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     eff'!2.                                                                    %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [B ViolinMusicVoice measure 87 / measure 13]                             %! _comment_measure_numbers
     df'!2.                                                                     %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \times 2/3 {                                                               %! continuous_glissandi
 
         % [B ViolinMusicVoice measure 88 / measure 14]                         %! _comment_measure_numbers
         ff'!4                                                                  %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         dff'!2                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
@@ -7160,10 +7160,10 @@ B_ViolinMusicVoice = {                                                         %
 
         % [B ViolinMusicVoice measure 89 / measure 15]                         %! _comment_measure_numbers
         cf'!1                                                                  %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         af'!2.                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
@@ -7171,10 +7171,10 @@ B_ViolinMusicVoice = {                                                         %
 
         % [B ViolinMusicVoice measure 90 / measure 16]                         %! _comment_measure_numbers
         bff'!4.                                                                %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         ef'!2                                                                  %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
@@ -7183,35 +7183,35 @@ B_ViolinMusicVoice = {                                                         %
 
     gff'!2
     \repeatTie
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [B ViolinMusicVoice measure 92 / measure 18]                             %! _comment_measure_numbers
     aff'!2.                                                                    %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \times 2/3 {                                                               %! continuous_glissandi
 
         % [B ViolinMusicVoice measure 93 / measure 19]                         %! _comment_measure_numbers
         df'!1                                                                  %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         af'!2                                                                  %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
     % [B ViolinMusicVoice measure 94 / measure 20]                             %! _comment_measure_numbers
     bf!1.                                                                      %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \times 4/7 {                                                               %! continuous_glissandi
 
         % [B ViolinMusicVoice measure 95 / measure 21]                         %! _comment_measure_numbers
         eff'!2                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         ff'!4.                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
@@ -7219,10 +7219,10 @@ B_ViolinMusicVoice = {                                                         %
 
         % [B ViolinMusicVoice measure 96 / measure 22]                         %! _comment_measure_numbers
         gff'!4.                                                                %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         gf'!2                                                                  %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
@@ -7231,44 +7231,44 @@ B_ViolinMusicVoice = {                                                         %
 
         % [B ViolinMusicVoice measure 97 / measure 23]                         %! _comment_measure_numbers
         bff'!2.                                                                %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         aff'!2                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
     % [B ViolinMusicVoice measure 98 / measure 24]                             %! _comment_measure_numbers
     bff'!1                                                                     %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [B ViolinMusicVoice measure 99 / measure 25]                             %! _comment_measure_numbers
     ef'!2                                                                      %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \times 2/3 {                                                               %! continuous_glissandi
 
         % [B ViolinMusicVoice measure 100 / measure 26]                        %! _comment_measure_numbers
         gff'!4                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         eff'!2                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
     % [B ViolinMusicVoice measure 101 / measure 27]                            %! _comment_measure_numbers
     df'!1.                                                                     %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \times 4/7 {                                                               %! continuous_glissandi
 
         % [B ViolinMusicVoice measure 102 / measure 28]                        %! _comment_measure_numbers
         af'!2.                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         bf!1                                                                   %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
@@ -7277,7 +7277,7 @@ B_ViolinMusicVoice = {                                                         %
 
         % [B ViolinMusicVoice measure 103 / measure 29]                        %! _comment_measure_numbers
         bff'!2.                                                                %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         ff'!2                                                                  %! continuous_glissandi
         \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
@@ -7357,48 +7357,48 @@ B_ViolaMusicVoice = {                                                          %
         % [B ViolaMusicVoice measure 77 / measure 3]                           %! _comment_measure_numbers
         \override NoteHead.style = #'harmonic                                  %! baca_note_head_style_harmonic:OverrideCommand(1)
         gff'!1.                                                                %! continuous_glissandi
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         ^ \markup { "estr. sul pont." }                                        %! baca_markup:IndicatorCommand
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         gf'!1                                                                  %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
     % [B ViolaMusicVoice measure 78 / measure 4]                               %! _comment_measure_numbers
     bff'!2.                                                                    %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [B ViolaMusicVoice measure 79 / measure 5]                               %! _comment_measure_numbers
     ff'!1                                                                      %! continuous_glissandi
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [B ViolaMusicVoice measure 80 / measure 6]                               %! _comment_measure_numbers
     dff'!4                                                                     %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     cf'!2                                                                      %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [B ViolaMusicVoice measure 81 / measure 7]                               %! _comment_measure_numbers
     af'!1                                                                      %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
     \times 5/7 {                                                               %! continuous_glissandi
 
         % [B ViolaMusicVoice measure 82 / measure 8]                           %! _comment_measure_numbers
         ff'!2.                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         ef'!1                                                                  %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
@@ -7406,12 +7406,12 @@ B_ViolaMusicVoice = {                                                          %
 
         % [B ViolaMusicVoice measure 83 / measure 9]                           %! _comment_measure_numbers
         gff'!2.                                                                %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         aff'!2                                                                 %! continuous_glissandi
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
@@ -7420,51 +7420,51 @@ B_ViolaMusicVoice = {                                                          %
 
         % [B ViolaMusicVoice measure 84 / measure 10]                          %! _comment_measure_numbers
         bff'!2                                                                 %! continuous_glissandi
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        \glissando                                                             %! SpannerCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         af'!2.                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
     % [B ViolaMusicVoice measure 85 / measure 11]                              %! _comment_measure_numbers
     bf!1                                                                       %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [B ViolaMusicVoice measure 86 / measure 12]                              %! _comment_measure_numbers
     eff'!2.
 
     eff'!2
     \repeatTie
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
     \times 6/7 {                                                               %! continuous_glissandi
 
         % [B ViolaMusicVoice measure 87 / measure 13]                          %! _comment_measure_numbers
         df'!2                                                                  %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         ff'!4.                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
     % [B ViolaMusicVoice measure 88 / measure 14]                              %! _comment_measure_numbers
     dff'!2                                                                     %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
     \times 3/5 {                                                               %! continuous_glissandi
 
         % [B ViolaMusicVoice measure 89 / measure 15]                          %! _comment_measure_numbers
         cf'!1.                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         af'!1                                                                  %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
@@ -7472,10 +7472,10 @@ B_ViolaMusicVoice = {                                                          %
 
         % [B ViolaMusicVoice measure 90 / measure 16]                          %! _comment_measure_numbers
         bff'!4                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         ef'!4.                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
@@ -7484,93 +7484,93 @@ B_ViolaMusicVoice = {                                                          %
 
         % [B ViolaMusicVoice measure 91 / measure 17]                          %! _comment_measure_numbers
         gff'!1.                                                                %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         aff'!2.                                                                %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
     % [B ViolaMusicVoice measure 92 / measure 18]                              %! _comment_measure_numbers
     df'!2.                                                                     %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [B ViolaMusicVoice measure 93 / measure 19]                              %! _comment_measure_numbers
     af'!1                                                                      %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
     \times 6/7 {                                                               %! continuous_glissandi
 
         % [B ViolaMusicVoice measure 94 / measure 20]                          %! _comment_measure_numbers
         bf!2.                                                                  %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         eff'!1                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
     % [B ViolaMusicVoice measure 95 / measure 21]                              %! _comment_measure_numbers
     ff'!2                                                                      %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \times 4/5 {                                                               %! continuous_glissandi
 
         % [B ViolaMusicVoice measure 96 / measure 22]                          %! _comment_measure_numbers
         gff'!4                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         gf'!4.                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
     % [B ViolaMusicVoice measure 97 / measure 23]                              %! _comment_measure_numbers
     bff'!2                                                                     %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     aff'!4                                                                     %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \times 2/3 {                                                               %! continuous_glissandi
 
         % [B ViolaMusicVoice measure 98 / measure 24]                          %! _comment_measure_numbers
         bff'!2                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         ef'!1                                                                  %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
     % [B ViolaMusicVoice measure 99 / measure 25]                              %! _comment_measure_numbers
     gff'!2                                                                     %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [B ViolaMusicVoice measure 100 / measure 26]                             %! _comment_measure_numbers
     eff'!2                                                                     %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
     \times 3/5 {                                                               %! continuous_glissandi
 
         % [B ViolaMusicVoice measure 101 / measure 27]                         %! _comment_measure_numbers
         df'!1.                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         af'!1                                                                  %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
     % [B ViolaMusicVoice measure 102 / measure 28]                             %! _comment_measure_numbers
     bf!1                                                                       %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [B ViolaMusicVoice measure 103 / measure 29]                             %! _comment_measure_numbers
     bff'!2                                                                     %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     ff'!4                                                                      %! continuous_glissandi
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
@@ -7645,41 +7645,41 @@ B_CelloMusicVoice = {                                                          %
     % [B CelloMusicVoice measure 77 / measure 3]                               %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
     gff'!1                                                                     %! continuous_glissandi
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "estr. sul pont." }                                            %! baca_markup:IndicatorCommand
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     gf'!2                                                                      %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [B CelloMusicVoice measure 78 / measure 4]                               %! _comment_measure_numbers
     bff'!4                                                                     %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     ff'!2                                                                      %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [B CelloMusicVoice measure 79 / measure 5]                               %! _comment_measure_numbers
     dff'!1                                                                     %! continuous_glissandi
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [B CelloMusicVoice measure 80 / measure 6]                               %! _comment_measure_numbers
     cf'!2.                                                                     %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \times 4/5 {                                                               %! continuous_glissandi
 
         % [B CelloMusicVoice measure 81 / measure 7]                           %! _comment_measure_numbers
         af'!2.                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         ff'!2                                                                  %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
@@ -7688,38 +7688,38 @@ B_CelloMusicVoice = {                                                          %
 
     ef'!2
     \repeatTie
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \times 2/3 {                                                               %! continuous_glissandi
 
         % [B CelloMusicVoice measure 83 / measure 9]                           %! _comment_measure_numbers
         gff'!1                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         aff'!2                                                                 %! continuous_glissandi
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-        \glissando                                                             %! SpannerCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
     % [B CelloMusicVoice measure 84 / measure 10]                              %! _comment_measure_numbers
     bff'!4                                                                     %! continuous_glissandi
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \glissando                                                                 %! SpannerCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     af'!2                                                                      %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \times 4/7 {                                                               %! continuous_glissandi
 
         % [B CelloMusicVoice measure 85 / measure 11]                          %! _comment_measure_numbers
         bf!1                                                                   %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         eff'!2.                                                                %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
@@ -7728,35 +7728,35 @@ B_CelloMusicVoice = {                                                          %
 
     df'!2
     \repeatTie
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [B CelloMusicVoice measure 87 / measure 13]                              %! _comment_measure_numbers
     ff'!2.                                                                     %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \times 4/5 {                                                               %! continuous_glissandi
 
         % [B CelloMusicVoice measure 88 / measure 14]                          %! _comment_measure_numbers
         dff'!4                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         cf'!4.                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
     % [B CelloMusicVoice measure 89 / measure 15]                              %! _comment_measure_numbers
     af'!1.                                                                     %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \times 2/3 {                                                               %! continuous_glissandi
 
         % [B CelloMusicVoice measure 90 / measure 16]                          %! _comment_measure_numbers
         bff'!4                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         ef'!2                                                                  %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
@@ -7765,10 +7765,10 @@ B_CelloMusicVoice = {                                                          %
 
         % [B CelloMusicVoice measure 91 / measure 17]                          %! _comment_measure_numbers
         gff'!1                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         aff'!2.                                                                %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
@@ -7777,45 +7777,45 @@ B_CelloMusicVoice = {                                                          %
 
         % [B CelloMusicVoice measure 92 / measure 18]                          %! _comment_measure_numbers
         df'!4.                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         af'!2                                                                  %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
     % [B CelloMusicVoice measure 93 / measure 19]                              %! _comment_measure_numbers
     bf!1                                                                       %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [B CelloMusicVoice measure 94 / measure 20]                              %! _comment_measure_numbers
     eff'!1.                                                                    %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \times 2/3 {                                                               %! continuous_glissandi
 
         % [B CelloMusicVoice measure 95 / measure 21]                          %! _comment_measure_numbers
         ff'!2                                                                  %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         gff'!4                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
     % [B CelloMusicVoice measure 96 / measure 22]                              %! _comment_measure_numbers
     gf'!2                                                                      %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
     \times 6/7 {                                                               %! continuous_glissandi
 
         % [B CelloMusicVoice measure 97 / measure 23]                          %! _comment_measure_numbers
         bff'!2                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         aff'!4.                                                                %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
@@ -7823,10 +7823,10 @@ B_CelloMusicVoice = {                                                          %
 
         % [B CelloMusicVoice measure 98 / measure 24]                          %! _comment_measure_numbers
         bff'!2.                                                                %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         ef'!1                                                                  %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
@@ -7834,29 +7834,29 @@ B_CelloMusicVoice = {                                                          %
 
         % [B CelloMusicVoice measure 99 / measure 25]                          %! _comment_measure_numbers
         gff'!4.                                                                %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         eff'!4                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
     % [B CelloMusicVoice measure 100 / measure 26]                             %! _comment_measure_numbers
     df'!2                                                                      %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     % [B CelloMusicVoice measure 101 / measure 27]                             %! _comment_measure_numbers
     af'!1.                                                                     %! continuous_glissandi
-    \glissando                                                                 %! SpannerCommand
+    \glissando                                                                 %! baca_glissando:SpannerCommand
 
     \times 2/3 {                                                               %! continuous_glissandi
 
         % [B CelloMusicVoice measure 102 / measure 28]                         %! _comment_measure_numbers
         bf!2                                                                   %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
         bff'!1                                                                 %! continuous_glissandi
-        \glissando                                                             %! SpannerCommand
+        \glissando                                                             %! baca_glissando:SpannerCommand
 
     }                                                                          %! continuous_glissandi
 
@@ -7933,8 +7933,8 @@ B_ContrabassMusicVoice = {                                                     %
 
     % [B ContrabassMusicVoice measure 77 / measure 3]                          %! _comment_measure_numbers
     <gs,,! as,!>1.
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [B ContrabassMusicVoice measure 78 / measure 4]                          %! _comment_measure_numbers
     <gs,,! as,!>2.
@@ -7942,10 +7942,10 @@ B_ContrabassMusicVoice = {                                                     %
 
     % [B ContrabassMusicVoice measure 79 / measure 5]                          %! _comment_measure_numbers
     <gs,,! as,!>1
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [B ContrabassMusicVoice measure 80 / measure 6]                          %! _comment_measure_numbers
     <gs,,! as,!>2.
@@ -7963,14 +7963,14 @@ B_ContrabassMusicVoice = {                                                     %
 
     % [B ContrabassMusicVoice measure 83 / measure 9]                          %! _comment_measure_numbers
     <gs,,! as,!>1
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseCommand(2)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
 
     % [B ContrabassMusicVoice measure 84 / measure 10]                         %! _comment_measure_numbers
     <gs,,! as,!>2.
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "estr. sul pont." }                                            %! baca_markup:IndicatorCommand
 
     % [B ContrabassMusicVoice measure 85 / measure 11]                         %! _comment_measure_numbers
@@ -8062,10 +8062,10 @@ B_ContrabassMusicVoice = {                                                     %
     r1                                                                         %! baca_make_repeat_tied_notes
 
     % [B ContrabassMusicVoice measure 106 / measure 32]                        %! _comment_measure_numbers
-    \pitchedTrill                                                              %! SpannerCommand
+    \pitchedTrill                                                              %! baca_trill_spanner:SpannerCommand
     g,,2.
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "Shape trill dynamics beautifully. (Thank you, Stefano.)" }    %! baca_markup:IndicatorCommand
     - \tweak TrillPitchHead.stencil #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
     \startTrillSpan f
@@ -8094,7 +8094,7 @@ B_ContrabassMusicVoice = {                                                     %
 
     % [B ContrabassMusicVoice measure 111 / measure 37]                        %! _comment_measure_numbers
     r2.                                                                        %! baca_make_repeat_tied_notes
-    \stopTrillSpan                                                             %! SpannerCommand
+    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
 
 }                                                                              %! extern
 
