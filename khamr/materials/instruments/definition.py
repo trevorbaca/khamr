@@ -45,7 +45,12 @@ instruments = abjad.OrderedDict([
         ),
     (
         'Percussion',
-        abjad.Percussion(),
+        abjad.Percussion(
+            allowable_clefs=[
+                abjad.Clef('percussion'),
+                abjad.Clef('treble'),
+                ],
+            ),
         ),
     (
         'Piano',
