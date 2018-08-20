@@ -28,13 +28,9 @@
         }
         \new RhythmicStaff
         {
-            \time 3/8
             R1 * 3/8
-            \time 4/8
             R1 * 1/2
-            \time 3/16
             R1 * 3/16
-            \time 4/16
             R1 * 1/4
         }
     >>
