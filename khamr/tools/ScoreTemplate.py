@@ -22,16 +22,16 @@ class ScoreTemplate(baca.ScoreTemplate):
         >>> abjad.f(lilypond_file[abjad.Score], strict=89)
         \context Score = "Score"                                                                 %! ScoreTemplate
         <<                                                                                       %! ScoreTemplate
-            \context GlobalContext = "GlobalContext"                                             %! _make_global_context
+            \context GlobalContext = "Global_Context"                                            %! _make_global_context
             <<                                                                                   %! _make_global_context
-                \context GlobalRests = "GlobalRests"                                             %! _make_global_context
+                \context GlobalRests = "Global_Rests"                                            %! _make_global_context
                 {                                                                                %! _make_global_context
                 }                                                                                %! _make_global_context
-                \context GlobalSkips = "GlobalSkips"                                             %! _make_global_context
+                \context GlobalSkips = "Global_Skips"                                            %! _make_global_context
                 {                                                                                %! _make_global_context
                 }                                                                                %! _make_global_context
             >>                                                                                   %! _make_global_context
-            \context MusicContext = "MusicContext"                                               %! make_music_context
+            \context MusicContext = "Music_Context"                                              %! make_music_context
             <<                                                                                   %! make_music_context
                 \context WindSectionStaffGroup = "Wind_Section_Staff_Group"                      %! ScoreTemplate
                 <<                                                                               %! ScoreTemplate
