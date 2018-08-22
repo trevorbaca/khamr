@@ -17,15 +17,15 @@
         \context Score = "Score"                                               %! ScoreTemplate
         <<                                                                     %! ScoreTemplate
 
-            \context GlobalContext = "GlobalContext"                           %! _make_global_context
+            \context GlobalContext = "Global_Context"                          %! _make_global_context
             <<                                                                 %! _make_global_context
 
-                \context GlobalSkips = "GlobalSkips"                           %! _make_global_context
-                \A_GlobalSkips                                                 %! extern
+                \context GlobalSkips = "Global_Skips"                          %! _make_global_context
+                \A_Global_Skips                                                %! extern
 
             >>                                                                 %! _make_global_context
 
-            \context MusicContext = "MusicContext"                             %! make_music_context
+            \context MusicContext = "Music_Context"                            %! make_music_context
             <<                                                                 %! make_music_context
 
                 \context WindSectionStaffGroup = "Wind_Section_Staff_Group"    %! ScoreTemplate
