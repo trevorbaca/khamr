@@ -22,7 +22,7 @@
     <<
         \new PianoStaff
         <<
-            \context Staff = "Treble Staff"
+            \context Staff = "Treble_Staff"
             {
                 \clef "treble"
                 cs'1 * 1/8
@@ -90,7 +90,7 @@
                 a'1 * 1/8
                 ef'1 * 1/8
             }
-            \context Staff = "Bass Staff"
+            \context Staff = "Bass_Staff"
             {
                 \clef "bass"
                 r1 * 1/8
