@@ -219,7 +219,10 @@ maker(
 maker(
     ('sax', (15, 30)),
     baca.dynamic('fff', selector=baca.pheads()),
-    baca.pitch('G#2'),
+    baca.pitch(
+        'G#2',
+        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        ),
     )
 
 maker(
