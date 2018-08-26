@@ -5,12 +5,15 @@ B_Global_Skips = {                                                             %
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(75)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<0>"                                   %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((1))"                                %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.1]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[3'37'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
     - \baca-rehearsal-mark-markup "B"                                          %! baca_rehearsal_mark:IndicatorCommand
+%@% - \baca-start-lmi-left-only "0"                                            %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "75"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% - \abjad-invisible-line                                                    %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
 %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "126"                       %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
 %@% \startTextSpan                                                             %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
@@ -20,42 +23,66 @@ B_Global_Skips = {                                                             %
 
     % [B Global_Skips measure 76 / measure 2]                                  %! _comment_measure_numbers
     s1 * 1/2                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(76)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<1>"                                   %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((2))"                                %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.2]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[3'37'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "1"                                            %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "2"                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "76"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 77 / measure 3]                                  %! _comment_measure_numbers
     \time 6/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/2                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(77)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<2>"                                   %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((3))"                                %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.3]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[3'38'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "2"                                            %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "3"                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "77"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 78 / measure 4]                                  %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(78)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<3>"                                   %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((4))"                                %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.4]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[3'41'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "3"                                            %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "4"                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "78"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 79 / measure 5]                                  %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(79)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<4>"                                   %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((5))"                                %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.5]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[3'43'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
     \stopTextSpan                                                              %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(1)
+%@% - \baca-start-lmi-left-only "4"                                            %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "5"                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "79"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% - \abjad-dashed-line-with-arrow                                            %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "63"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
@@ -67,52 +94,82 @@ B_Global_Skips = {                                                             %
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(80)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<5>"                                   %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((6))"                                %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.6]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[3'47'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "5"                                            %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "6"                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "80"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 81 / measure 7]                                  %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(81)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<6>"                                   %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((7))"                                %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.7]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[3'49'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "6"                                            %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "7"                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "81"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 82 / measure 8]                                  %! _comment_measure_numbers
     \time 5/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/4                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(82)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<7>"                                   %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((8))"                                %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.8]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[3'53'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "7"                                            %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "8"                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "82"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 83 / measure 9]                                  %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(83)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<8>"                                   %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((9))"                                %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.9]"                                        %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[3'58'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "8"                                            %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "9"                                            %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "83"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 84 / measure 10]                                 %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(84)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<9>"                                   %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((10))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.10]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'02'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
     \stopTextSpan                                                              %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(1)
+%@% - \baca-start-lmi-left-only "9"                                            %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "10"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "84"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "126"                       %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
@@ -124,158 +181,254 @@ B_Global_Skips = {                                                             %
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(85)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<10>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((11))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.11]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'03'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "10"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "11"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "85"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 86 / measure 12]                                 %! _comment_measure_numbers
     \time 5/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/4                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(86)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<11>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((12))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.12]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'05'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "11"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "12"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "86"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 87 / measure 13]                                 %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(87)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<12>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((13))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.13]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'07'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "12"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "13"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "87"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 88 / measure 14]                                 %! _comment_measure_numbers
     \time 2/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(88)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<13>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((14))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.14]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'09'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "13"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "14"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "88"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 89 / measure 15]                                 %! _comment_measure_numbers
     \time 6/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/2                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(89)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<14>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((15))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.15]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'10'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "14"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "15"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "89"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 90 / measure 16]                                 %! _comment_measure_numbers
     \time 2/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(90)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<15>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((16))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.16]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'13'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "15"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "16"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "90"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 91 / measure 17]                                 %! _comment_measure_numbers
     \time 5/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/4                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(91)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<16>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((17))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.17]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'14'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "16"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "17"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "91"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 92 / measure 18]                                 %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(92)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<17>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((18))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.18]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'16'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "17"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "18"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "92"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 93 / measure 19]                                 %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(93)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<18>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((19))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.19]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'17'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "18"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "19"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "93"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 94 / measure 20]                                 %! _comment_measure_numbers
     \time 6/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/2                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(94)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<19>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((20))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.20]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'19'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "19"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "20"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "94"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 95 / measure 21]                                 %! _comment_measure_numbers
     \time 2/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(95)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<20>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((21))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.21]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'22'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "20"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "21"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "95"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 96 / measure 22]                                 %! _comment_measure_numbers
     s1 * 1/2                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(96)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<21>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((22))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.22]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'23'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "21"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "22"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "96"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 97 / measure 23]                                 %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(97)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<22>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((23))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.23]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'24'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "22"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "23"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "97"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 98 / measure 24]                                 %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(98)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<23>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((24))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.24]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'26'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "23"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "24"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "98"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 99 / measure 25]                                 %! _comment_measure_numbers
     \time 2/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(99)"                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<24>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((25))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.25]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'27'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "24"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "25"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "99"                                            %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 100 / measure 26]                                %! _comment_measure_numbers
     s1 * 1/2                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(100)"                                      %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<25>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((26))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.26]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'28'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
     \stopTextSpan                                                              %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(1)
+%@% - \baca-start-lmi-left-only "25"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "26"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "100"                                           %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "63"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
@@ -287,42 +440,66 @@ B_Global_Skips = {                                                             %
     \time 6/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/2                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(101)"                                      %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<26>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((27))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.27]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'30'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "26"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "27"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "101"                                           %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 102 / measure 28]                                %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(102)"                                      %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<27>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((28))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.28]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'36'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "27"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "28"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "102"                                           %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 103 / measure 29]                                %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(103)"                                      %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<28>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((29))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.29]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'40'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "28"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "29"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "103"                                           %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 104 / measure 30]                                %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(104)"                                      %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<29>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((30))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.30]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'43'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
     \stopTextSpan                                                              %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(1)
+%@% - \baca-start-lmi-left-only "29"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "30"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "104"                                           %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "42"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
@@ -334,69 +511,105 @@ B_Global_Skips = {                                                             %
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(105)"                                      %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<30>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((31))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.31]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'47'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "30"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "31"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "105"                                           %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 106 / measure 32]                                %! _comment_measure_numbers
     \time 5/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/4                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(106)"                                      %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<31>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((32))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.32]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[4'53'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "31"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "32"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "106"                                           %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 107 / measure 33]                                %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(107)"                                      %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<32>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((33))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.33]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[5'00'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "32"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "33"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "107"                                           %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 108 / measure 34]                                %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(108)"                                      %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<33>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((34))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.34]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[5'04'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "33"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "34"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "108"                                           %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 109 / measure 35]                                %! _comment_measure_numbers
     s1 * 1                                                                     %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(109)"                                      %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<34>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((35))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.35]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[5'10'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-left-only "34"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-left-only "35"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-left-only "109"                                           %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 110 / measure 36]                                %! _comment_measure_numbers
     \time 5/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/4                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(110)"                                      %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<35>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((36))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.36]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[5'16'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
+%@% - \baca-start-lmi-both "35" "36"                                           %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(1)
+%@% - \baca-start-lmn-both "36" "37"                                           %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(2)
+%@% - \baca-start-mn-both "110" "111"                                          %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
+%@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 
     % [B Global_Skips measure 111 / measure 37]                                %! _comment_measure_numbers
     \time 6/8                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
-%@% ^ \baca-measure-number-markup "(111)"                                      %! MEASURE_NUMBER_MARKUP:_label_measure_indices(1)
-%@% ^ \baca-local-measure-index-markup "<36>"                                  %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(2)
-%@% ^ \baca-local-measure-number-markup "((37))"                               %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-stage-number-markup "[B.37]"                                       %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-clock-time-markup "[5'23'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
+%@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP:_label_measure_indices(4)
+%@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(5)
+%@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP:_label_measure_indices(6)
     \stopTextSpan                                                              %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(4)
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
