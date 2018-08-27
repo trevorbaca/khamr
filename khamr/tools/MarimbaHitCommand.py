@@ -22,9 +22,17 @@ class MarimbaHitCommand(baca.Command):
         self,
         indices=None,
         attach_first_markup=False,
+        *,
         match=None,
+        measures=None,
+        scope=None,
         ):
-        baca.Command.__init__(self, match=match)
+        baca.Command.__init__(
+            self,
+            match=match,
+            measures=measures,
+            scope=scope,
+            )
         self._attach_first_markup = bool(attach_first_markup)
         self._indices = indices
         self._measures = None
