@@ -39,12 +39,13 @@ class MarimbaHitCommand(baca.Command):
 
     ### SPECIAL METHODS ###
 
-    def __call__(self, argument=None):
+    def __call__(self, argument=None, runtime=None):
         """
         Calls command on `argument`.
 
         Returns none.
         """
+        self._runtime = runtime
         tag = 'MarimbaHitCommand'
         found_first = False
         for i, plt in enumerate(baca.select(argument).plts()):
