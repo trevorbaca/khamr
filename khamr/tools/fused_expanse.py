@@ -12,6 +12,7 @@ def fused_expanse(fuse_by_counts, dmask=None):
         division_maker=khamr.beat_divisions()
             .fuse_by_counts(
                 counts=fuse_by_counts,
+                cyclic=True,
                 ),
         rewrite_meter=True,
         rhythm_maker=rmakers.NoteRhythmMaker(
