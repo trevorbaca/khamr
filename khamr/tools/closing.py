@@ -13,6 +13,7 @@ def closing():
                 counts=abjad.Infinity,
                 )
             .split_by_durations(
+                cyclic=True,
                 durations=[(2, 4), (4, 4), (12, 4)],
                 ),
         rewrite_meter=True,
