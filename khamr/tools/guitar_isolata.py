@@ -20,6 +20,7 @@ def guitar_isolata(*, dmask=None):
     return baca.rhythm(
         division_maker=baca.DivisionMaker()
             .split_by_durations(
+                cyclic=True,
                 durations=[(1, 4)],
                 ),
         rewrite_meter=True,

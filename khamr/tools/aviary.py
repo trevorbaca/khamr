@@ -13,6 +13,7 @@ def aviary(duration, extra_counts_per_division):
                 counts=abjad.Infinity,
                 )
             .split_by_durations(
+                cyclic=True,
                 durations=[duration],
                 ),
         rhythm_maker=rmakers.EvenDivisionRhythmMaker(

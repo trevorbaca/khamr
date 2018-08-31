@@ -11,6 +11,7 @@ def quarter_hits(*, dmask=None):
         division_maker=baca.DivisionMaker()
             .split_by_durations(
                 compound_meter_multiplier=abjad.Multiplier(3, 2),
+                cyclic=True,
                 durations=[(1, 4)],
                 )
             .flatten(depth=-1),
