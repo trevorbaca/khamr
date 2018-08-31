@@ -11,6 +11,7 @@ def guitar_accelerandi(fuse_by_counts, division_masks=None):
         division_maker=baca.DivisionMaker()
             .fuse_by_counts(
                 counts=fuse_by_counts,
+                cyclic=True,
                 )
             .flatten(depth=-1),
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
