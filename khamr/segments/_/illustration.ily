@@ -1616,11 +1616,11 @@ i_Clarinet_Music_Voice = {                                                     %
     r8                                                                         %! fused_wind
 
     b8
-    [
+    [                                                                          %! fused_wind
 
     b8
     \repeatTie
-    ]
+    ]                                                                          %! fused_wind
 
     r8                                                                         %! fused_wind
 
@@ -1893,11 +1893,11 @@ i_Saxophone_Music_Voice = {                                                    %
     r4.
 
     <d'' eqs''!>8
-    [
+    [                                                                          %! fused_wind
 
     <d'' eqs''!>8
     \repeatTie
-    ]
+    ]                                                                          %! fused_wind
 
     r8                                                                         %! fused_wind
 
