@@ -383,13 +383,16 @@ maker(
 
 maker(
     ('vn', (1, 36)),
-    baca.glissando(),
+    baca.suite(
+        # TODO: release need to cast chords prior to glissando indicators
+        baca.pitches(khamr.violin_halo_pitches),
+        baca.glissando(),
+        ),
     baca.markup(
         'IV',
         direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
-    baca.pitches(khamr.violin_halo_pitches),
     khamr.halo_hairpins(),
     )
 
@@ -406,12 +409,14 @@ maker(
 
 maker(
     ('va', (1, 36)),
-    baca.glissando(),
+    baca.suite(
+        baca.pitches(khamr.violin_halo_pitches),
+        baca.glissando(),
+        ),
     baca.markup(
         'III',
         direction=abjad.Down,
         ),
-    baca.pitches(khamr.violin_halo_pitches),
     baca.note_head_style_harmonic(),
     khamr.halo_hairpins(),
     )
@@ -429,13 +434,15 @@ maker(
 
 maker(
     ('vc', (1, 36)),
-    baca.glissando(),
+    baca.suite(
+        baca.pitches(khamr.cello_halo_pitches),
+        baca.glissando(),
+        ),
     baca.markup(
         'III',
         direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
-    baca.pitches(khamr.cello_halo_pitches),
     khamr.halo_hairpins(),
     )
 
@@ -453,13 +460,15 @@ maker(
 maker(
     'cb',
     baca.dynamic('f'),
-    baca.glissando(),
+    baca.suite(
+        baca.pitches(khamr.contrabass_halo_pitches),
+        baca.glissando(),
+        ),
     baca.markup(
         baca.markups.string_number(3),
         direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
-    baca.pitches(khamr.contrabass_halo_pitches),
     )
 
 maker(

@@ -379,13 +379,16 @@ maker(
 maker(
     ('cb', (1, 14)),
     baca.dynamic('mf'),
-    baca.glissando(),
+    baca.suite(
+        # TODO: release need to cast chord prior to glissando indicators
+        baca.pitches(khamr.double_stop_halo_pitches),
+        baca.glissando(),
+        ),
     baca.markup(
         'III+IV',
         direction=abjad.Down,
         ),
     baca.note_head_style_harmonic(),
-    baca.pitches(khamr.double_stop_halo_pitches),
     )
 
 maker(

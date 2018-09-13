@@ -3385,7 +3385,7 @@ A_Contrabass_Music_Voice = {                                                   %
         % [A Contrabass_Music_Voice measure 47 / measure 3]                    %! _comment_measure_numbers
         <g, a>1.
         \repeatTie
-        \glissando                                                             %! baca_glissando:SpannerCommand
+        \glissando                                                             %! baca_glissando
 
         <af,! bf!>4
 
@@ -3396,7 +3396,7 @@ A_Contrabass_Music_Voice = {                                                   %
         % [A Contrabass_Music_Voice measure 48 / measure 4]                    %! _comment_measure_numbers
         <af,! bf!>2.
         \repeatTie
-        \glissando                                                             %! baca_glissando:SpannerCommand
+        \glissando                                                             %! baca_glissando
 
         <gqs,! aqs!>8.
 
@@ -3411,7 +3411,7 @@ A_Contrabass_Music_Voice = {                                                   %
         % [A Contrabass_Music_Voice measure 50 / measure 6]                    %! _comment_measure_numbers
         <gqs,! aqs!>2.
         \repeatTie
-        \glissando                                                             %! baca_glissando:SpannerCommand
+        \glissando                                                             %! baca_glissando
 
         <a, b>8.
 
@@ -3435,7 +3435,7 @@ A_Contrabass_Music_Voice = {                                                   %
     % [A Contrabass_Music_Voice measure 54 / measure 10]                       %! _comment_measure_numbers
     <a, b>2
     \repeatTie
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     <bqf,! cqs'!>4
 
@@ -3444,7 +3444,7 @@ A_Contrabass_Music_Voice = {                                                   %
         % [A Contrabass_Music_Voice measure 55 / measure 11]                   %! _comment_measure_numbers
         <bqf,! cqs'!>1
         \repeatTie
-        \glissando                                                             %! baca_glissando:SpannerCommand
+        \glissando                                                             %! baca_glissando
 
         <af,! bf!>2
 
@@ -3463,7 +3463,7 @@ A_Contrabass_Music_Voice = {                                                   %
         % [A Contrabass_Music_Voice measure 57 / measure 13]                   %! _comment_measure_numbers
         <af,! bf!>2.
         \repeatTie
-        \glissando                                                             %! baca_glissando:SpannerCommand
+        \glissando                                                             %! baca_glissando
 
         <gqs,! aqs!>8
         \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
