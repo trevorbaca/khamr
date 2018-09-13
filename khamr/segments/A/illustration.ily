@@ -1649,12 +1649,12 @@ A_Piano_Music_Voice = {                                                        %
         cf''''!8                                                               %! current
         - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \fff                                                                   %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        [                                                                      %! current
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         c''''8                                                                 %! current
 
         ef''''!8                                                               %! current
-        ]                                                                      %! current
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! current
 
@@ -1662,27 +1662,27 @@ A_Piano_Music_Voice = {                                                        %
     r4                                                                         %! current
 
     bf'''!16                                                                   %! current
-    [                                                                          %! current
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     gf'''!16                                                                   %! current
 
     f''''16                                                                    %! current
 
     d''''16                                                                    %! current
-    ]                                                                          %! current
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [A Piano_Music_Voice measure 67 / measure 23]                            %! _comment_measure_numbers
     r2                                                                         %! current
 
     bf'''!16                                                                   %! current
-    [                                                                          %! current
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     a'''16                                                                     %! current
 
     cf''''!16                                                                  %! current
 
     df''''!16                                                                  %! current
-    ]                                                                          %! current
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [A Piano_Music_Voice measure 68 / measure 24]                            %! _comment_measure_numbers
     r2.                                                                        %! current
@@ -1690,12 +1690,12 @@ A_Piano_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! current
 
         ef''''!8                                                               %! current
-        [                                                                      %! current
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         d''''8                                                                 %! current
 
         e''''8                                                                 %! current
-        ]                                                                      %! current
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! current
 
@@ -1703,14 +1703,14 @@ A_Piano_Music_Voice = {                                                        %
     r4                                                                         %! current
 
     af'''!16                                                                   %! current
-    [                                                                          %! current
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     g'''16                                                                     %! current
 
     bf'''!16                                                                   %! current
 
     gf'''!16                                                                   %! current
-    ]                                                                          %! current
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [A Piano_Music_Voice measure 70 / measure 26]                            %! _comment_measure_numbers
     r4                                                                         %! current
@@ -1718,7 +1718,7 @@ A_Piano_Music_Voice = {                                                        %
     \times 4/5 {                                                               %! current
 
         f''''16                                                                %! current
-        [                                                                      %! current
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         d''''16                                                                %! current
 
@@ -1727,7 +1727,7 @@ A_Piano_Music_Voice = {                                                        %
         a'''16                                                                 %! current
 
         cf''''!16                                                              %! current
-        ]                                                                      %! current
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! current
 
@@ -1737,7 +1737,7 @@ A_Piano_Music_Voice = {                                                        %
     r4.                                                                        %! current
 
     df''''!16.                                                                 %! current
-    [                                                                          %! current
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     g'''32
     ~
@@ -1750,7 +1750,7 @@ A_Piano_Music_Voice = {                                                        %
     d''''32
 
     e''''16.                                                                   %! current
-    ]                                                                          %! current
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [A Piano_Music_Voice measure 72 / measure 28]                            %! _comment_measure_numbers
     r2.                                                                        %! current
@@ -1758,12 +1758,12 @@ A_Piano_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! current
 
         af'''!8                                                                %! current
-        [                                                                      %! current
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         bf'''!8                                                                %! current
 
         cf''''!8                                                               %! current
-        ]                                                                      %! current
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! current
 
@@ -1773,12 +1773,12 @@ A_Piano_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! current
 
         c''''8                                                                 %! current
-        [                                                                      %! current
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         ef''''!8                                                               %! current
 
         df''''!8                                                               %! current
-        ]                                                                      %! current
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! current
 
@@ -1786,7 +1786,7 @@ A_Piano_Music_Voice = {                                                        %
     r4.                                                                        %! current
 
     ef''''!16.                                                                 %! current
-    [                                                                          %! current
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     a'''32
     ~
@@ -1799,7 +1799,7 @@ A_Piano_Music_Voice = {                                                        %
     cf''''!32
 
     af'''!16.                                                                  %! current
-    ]                                                                          %! current
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
     \ottava #0                                                                 %! baca_ottava:SpannerCommand
 
 }                                                                              %! extern
@@ -2351,14 +2351,14 @@ A_Violin_Music_Voice = {                                                       %
 
         g'8                                                                    %! trill_tuplets
         \repeatTie
-        [                                                                      %! trill_tuplets
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
         gqf'!8.                                                                %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan atqf'
 
     }                                                                          %! trill_tuplets
@@ -2373,13 +2373,13 @@ A_Violin_Music_Voice = {                                                       %
 
         gqf'!8.                                                                %! trill_tuplets
         \repeatTie
-        [                                                                      %! trill_tuplets
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
         gf'!8                                                                  %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan aff'
 
     }                                                                          %! trill_tuplets
@@ -2453,14 +2453,14 @@ A_Violin_Music_Voice = {                                                       %
         % [A Violin_Music_Voice measure 51 / measure 7]                        %! _comment_measure_numbers
         gs'!8                                                                  %! trill_tuplets
         \repeatTie
-        [                                                                      %! trill_tuplets
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
         gqs'!8.                                                                %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan aqf'
 
     }                                                                          %! trill_tuplets
@@ -2472,13 +2472,13 @@ A_Violin_Music_Voice = {                                                       %
 
         gqs'!8.                                                                %! trill_tuplets
         \repeatTie
-        [                                                                      %! trill_tuplets
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
         g'8                                                                    %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan af'
 
     }                                                                          %! trill_tuplets
@@ -2545,14 +2545,14 @@ A_Violin_Music_Voice = {                                                       %
 
         a'8                                                                    %! trill_tuplets
         \repeatTie
-        [                                                                      %! trill_tuplets
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
         aqf'!8.                                                                %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan btqf'
 
     }                                                                          %! trill_tuplets
@@ -2565,13 +2565,13 @@ A_Violin_Music_Voice = {                                                       %
 
         aqf'!8.                                                                %! trill_tuplets
         \repeatTie
-        [                                                                      %! trill_tuplets
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
         af'!8                                                                  %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan bff'
 
     }                                                                          %! trill_tuplets
@@ -2778,14 +2778,14 @@ A_Viola_Music_Voice = {                                                        %
 
         fs'!8                                                                  %! trill_tuplets
         \repeatTie
-        [                                                                      %! trill_tuplets
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
         fqs'!8.                                                                %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan gqf'
 
     }                                                                          %! trill_tuplets
@@ -2801,13 +2801,13 @@ A_Viola_Music_Voice = {                                                        %
 
         fqs'!8.                                                                %! trill_tuplets
         \repeatTie
-        [                                                                      %! trill_tuplets
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
         f'8                                                                    %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan gf'
 
     }                                                                          %! trill_tuplets
@@ -2881,14 +2881,14 @@ A_Viola_Music_Voice = {                                                        %
 
         gqf'!8                                                                 %! trill_tuplets
         \repeatTie
-        [                                                                      %! trill_tuplets
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
         gf'!8.                                                                 %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan aff'
 
     }                                                                          %! trill_tuplets
@@ -2904,13 +2904,13 @@ A_Viola_Music_Voice = {                                                        %
 
         gf'!8.                                                                 %! trill_tuplets
         \repeatTie
-        [                                                                      %! trill_tuplets
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
         g'8                                                                    %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan af'
 
     }                                                                          %! trill_tuplets
@@ -2989,8 +2989,8 @@ A_Viola_Music_Voice = {                                                        %
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
         gqs'!8.                                                                %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
+        ]                                                                      %! trill_tuplets
         \startTrillSpan aqf'
 
     }                                                                          %! trill_tuplets
@@ -3141,14 +3141,14 @@ A_Cello_Music_Voice = {                                                        %
 
         fs'!8                                                                  %! trill_tuplets
         \repeatTie
-        [                                                                      %! trill_tuplets
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
         fqs'!8.                                                                %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan gqf'
 
     }                                                                          %! trill_tuplets
@@ -3165,13 +3165,13 @@ A_Cello_Music_Voice = {                                                        %
 
         fqs'!8.                                                                %! trill_tuplets
         \repeatTie
-        [                                                                      %! trill_tuplets
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
         f'8                                                                    %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ]                                                                      %! trill_tuplets
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan gf'
 
     }                                                                          %! trill_tuplets

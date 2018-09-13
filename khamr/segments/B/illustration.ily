@@ -5597,7 +5597,7 @@ B_Piano_Music_Voice = {                                                        %
     \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Pf.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Piano”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    [                                                                          %! current
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -5612,38 +5612,38 @@ B_Piano_Music_Voice = {                                                        %
     f''''16                                                                    %! current
 
     c''''16                                                                    %! current
-    ]                                                                          %! current
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     af'''!16                                                                   %! current
-    [                                                                          %! current
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     g'''16                                                                     %! current
 
     e''''16                                                                    %! current
 
     c''''16                                                                    %! current
-    ]                                                                          %! current
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [B Piano_Music_Voice measure 76 / measure 2]                             %! _comment_measure_numbers
     b'''16                                                                     %! current
-    [                                                                          %! current
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     df''''!16                                                                  %! current
 
     ef''''!16                                                                  %! current
 
     f''''16                                                                    %! current
-    ]                                                                          %! current
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \times 2/3 {                                                               %! current
 
         e''''8                                                                 %! current
-        [                                                                      %! current
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         fs'''!8                                                                %! current
 
         bf'''!8                                                                %! current
-        ]                                                                      %! current
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! current
 
@@ -5651,7 +5651,7 @@ B_Piano_Music_Voice = {                                                        %
 
         % [B Piano_Music_Voice measure 77 / measure 3]                         %! _comment_measure_numbers
         a'''16.                                                                %! current
-        [                                                                      %! current
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         c''''16.                                                               %! current
 
@@ -5676,14 +5676,14 @@ B_Piano_Music_Voice = {                                                        %
         ef''''!16.                                                             %! current
 
         a'''16.                                                                %! current
-        ]                                                                      %! current
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! current
 
     \times 4/5 {                                                               %! current
 
         e''''16.                                                               %! current
-        [                                                                      %! current
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         fs'''!16.                                                              %! current
 
@@ -5697,45 +5697,44 @@ B_Piano_Music_Voice = {                                                        %
     }                                                                          %! current
 
     d''''8                                                                     %! current
-    [                                                                          %! current
 
     f''''8                                                                     %! current
 
     ef''''!8                                                                   %! current
-    ]                                                                          %! current
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \times 2/3 {                                                               %! current
 
         % [B Piano_Music_Voice measure 78 / measure 4]                         %! _comment_measure_numbers
         f''''8                                                                 %! current
-        [                                                                      %! current
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         b'''8                                                                  %! current
 
         df''''!8                                                               %! current
-        ]                                                                      %! current
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! current
 
     bf'''!16                                                                   %! current
-    [                                                                          %! current
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     a'''16                                                                     %! current
 
     e''''16                                                                    %! current
 
     fs'''!16                                                                   %! current
-    ]                                                                          %! current
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     f''''16                                                                    %! current
-    [                                                                          %! current
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     c''''16                                                                    %! current
 
     df''''!16                                                                  %! current
 
     d''''16                                                                    %! current
-    ]                                                                          %! current
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \times 2/3 {                                                               %! current
 
@@ -5743,31 +5742,31 @@ B_Piano_Music_Voice = {                                                        %
         e''''8                                                                 %! current
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ffff                                                                  %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        [                                                                      %! current
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         c''''8                                                                 %! current
 
         af'''!8                                                                %! current
-        ]                                                                      %! current
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! current
 
     \times 2/3 {                                                               %! current
 
         g'''8                                                                  %! current
-        [                                                                      %! current
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         fs'''!8                                                                %! current
 
         bf'''!8                                                                %! current
-        ]                                                                      %! current
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! current
 
     \times 4/5 {                                                               %! current
 
         a'''16                                                                 %! current
-        [                                                                      %! current
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         e''''16                                                                %! current
 
@@ -5776,14 +5775,14 @@ B_Piano_Music_Voice = {                                                        %
         f''''16                                                                %! current
 
         c''''16                                                                %! current
-        ]                                                                      %! current
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! current
 
     \times 4/5 {                                                               %! current
 
         df''''!16                                                              %! current
-        [                                                                      %! current
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         g'''16                                                                 %! current
 
@@ -5792,7 +5791,7 @@ B_Piano_Music_Voice = {                                                        %
         c''''16                                                                %! current
 
         af'''!16                                                               %! current
-        ]                                                                      %! current
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! current
 
@@ -5800,7 +5799,7 @@ B_Piano_Music_Voice = {                                                        %
 
         % [B Piano_Music_Voice measure 80 / measure 6]                         %! _comment_measure_numbers
         df''''!16.                                                             %! current
-        [                                                                      %! current
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         ef''''!16.                                                             %! current
 
@@ -5809,14 +5808,14 @@ B_Piano_Music_Voice = {                                                        %
         b'''16.                                                                %! current
 
         df''''!16.                                                             %! current
-        ]                                                                      %! current
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! current
 
     \times 4/5 {                                                               %! current
 
         d''''16.                                                               %! current
-        [                                                                      %! current
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         f''''16.                                                               %! current
 
@@ -5825,7 +5824,7 @@ B_Piano_Music_Voice = {                                                        %
         af'''!16.                                                              %! current
 
         g'''16.                                                                %! current
-        ]                                                                      %! current
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! current
 
@@ -5833,7 +5832,7 @@ B_Piano_Music_Voice = {                                                        %
 
         % [B Piano_Music_Voice measure 81 / measure 7]                         %! _comment_measure_numbers
         e''''16                                                                %! current
-        [                                                                      %! current
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         c''''16                                                                %! current
 
@@ -5842,45 +5841,45 @@ B_Piano_Music_Voice = {                                                        %
         df''''!16                                                              %! current
 
         ef''''!16                                                              %! current
-        ]                                                                      %! current
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! current
 
     f''''16                                                                    %! current
-    [                                                                          %! current
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e''''16                                                                    %! current
 
     fs'''!16                                                                   %! current
 
     bf'''!16                                                                   %! current
-    ]                                                                          %! current
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     a'''16                                                                     %! current
-    [                                                                          %! current
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     c''''16                                                                    %! current
 
     af'''!16                                                                   %! current
 
     g'''16                                                                     %! current
-    ]                                                                          %! current
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     e''''16                                                                    %! current
-    [                                                                          %! current
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     f''''16                                                                    %! current
 
     b'''16                                                                     %! current
 
     df''''!16                                                                  %! current
-    ]                                                                          %! current
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \times 2/3 {                                                               %! current
 
         % [B Piano_Music_Voice measure 82 / measure 8]                         %! _comment_measure_numbers
         ef''''!8                                                               %! current
-        [                                                                      %! current
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         a'''8                                                                  %! current
 
@@ -5917,14 +5916,14 @@ B_Piano_Music_Voice = {                                                        %
         b'''16                                                                 %! current
 
         df''''!16                                                              %! current
-        ]                                                                      %! current
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! current
 
     \times 4/5 {                                                               %! current
 
         bf'''!16                                                               %! current
-        [                                                                      %! current
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         a'''16                                                                 %! current
 
@@ -5945,7 +5944,7 @@ B_Piano_Music_Voice = {                                                        %
         df''''!8                                                               %! current
 
         d''''8                                                                 %! current
-        ]                                                                      %! current
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! current
 
@@ -5953,44 +5952,44 @@ B_Piano_Music_Voice = {                                                        %
 
         % [B Piano_Music_Voice measure 83 / measure 9]                         %! _comment_measure_numbers
         e''''8                                                                 %! current
-        [                                                                      %! current
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         c''''8                                                                 %! current
 
         af'''!8                                                                %! current
-        ]                                                                      %! current
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! current
 
     g'''16                                                                     %! current
-    [                                                                          %! current
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     fs'''!16                                                                   %! current
 
     bf'''!16                                                                   %! current
 
     a'''16                                                                     %! current
-    ]                                                                          %! current
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     e''''16                                                                    %! current
-    [                                                                          %! current
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     d''''16                                                                    %! current
 
     f''''16                                                                    %! current
 
     c''''16                                                                    %! current
-    ]                                                                          %! current
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \times 2/3 {                                                               %! current
 
         df''''!8                                                               %! current
-        [                                                                      %! current
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         g'''8                                                                  %! current
 
         e''''8                                                                 %! current
-        ]                                                                      %! current
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
         \ottava #0                                                             %! baca_ottava:SpannerCommand
 
     }                                                                          %! current
