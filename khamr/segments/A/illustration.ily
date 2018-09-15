@@ -1596,7 +1596,7 @@ A_Piano_Music_Voice = {                                                        %
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \ottava #-1                                                                %! baca_ottava_bassa:SpannerCommand
+    \ottava -1                                                                 %! baca_ottava_bassa:SpannerIndicatorCommand(1)
     \clef "bass"                                                               %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -1630,7 +1630,7 @@ A_Piano_Music_Voice = {                                                        %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    \ottava #0                                                                 %! baca_ottava_bassa:SpannerCommand
+    \ottava 0                                                                  %! baca_ottava_bassa:SpannerIndicatorCommand(2)
 
     % [A Piano_Music_Voice measure 64 / measure 20]                            %! _comment_measure_numbers
     r1.                                                                        %! alternate_divisions
@@ -1645,7 +1645,7 @@ A_Piano_Music_Voice = {                                                        %
 
     \times 2/3 {                                                               %! current
 
-        \ottava #1                                                             %! baca_ottava:SpannerCommand
+        \ottava 1                                                              %! baca_ottava:SpannerIndicatorCommand(1)
         cf''''!8                                                               %! current
         - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \fff                                                                   %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -1800,7 +1800,7 @@ A_Piano_Music_Voice = {                                                        %
 
     af'''!16.                                                                  %! current
     ]                                                                          %! Duration_Specifier__rewrite_meter_
-    \ottava #0                                                                 %! baca_ottava:SpannerCommand
+    \ottava 0                                                                  %! baca_ottava:SpannerIndicatorCommand(2)
 
 }                                                                              %! extern
 
