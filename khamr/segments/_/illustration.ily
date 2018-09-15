@@ -3077,7 +3077,7 @@ i_Piano_Music_Voice = {                                                        %
         \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \once \override Staff.StaffSymbol.line-count = 5                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-        \ottava #1                                                             %! baca_ottava:SpannerCommand
+        \ottava 1                                                              %! baca_ottava:SpannerIndicatorCommand(1)
         \once \override Beam.grow-direction = #right
         \clef "treble"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
         \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
@@ -3420,7 +3420,7 @@ i_Piano_Music_Voice = {                                                        %
         r8                                                                     %! guitar_isolata
 
         d''''8                                                                 %! guitar_isolata
-        \ottava #0                                                             %! baca_ottava:SpannerCommand
+        \ottava 0                                                              %! baca_ottava:SpannerIndicatorCommand(2)
 
         r8                                                                     %! guitar_isolata
 
