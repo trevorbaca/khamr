@@ -8578,13 +8578,13 @@ B_Contrabass_Music_Voice = {                                                   %
     r1                                                                         %! baca_make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 106 / measure 32]                      %! _comment_measure_numbers
-    \pitchedTrill                                                              %! baca_trill_spanner:SpannerCommand
+    \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
     g,,2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "Shape trill dynamics beautifully. (Thank you, Stefano.)" }    %! baca_markup:IndicatorCommand
-    - \tweak TrillPitchHead.stencil #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #}))
-    \startTrillSpan f
+    - \tweak TrillPitchHead.stencil #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #})) %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    \startTrillSpan f                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     g,,2
     \repeatTie
@@ -8610,7 +8610,7 @@ B_Contrabass_Music_Voice = {                                                   %
 
     % [B Contrabass_Music_Voice measure 111 / measure 37]                      %! _comment_measure_numbers
     r2.                                                                        %! baca_make_repeat_tied_notes
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
 }                                                                              %! extern
 

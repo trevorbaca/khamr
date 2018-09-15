@@ -307,7 +307,7 @@ maker(
     ('vn', (1, 14)),
     baca.accent(selector=baca.pheads()),
     baca.new(
-        baca.trill_spanner(string='m2'),
+        baca.trill_spanner('m2'),
         map=baca.plts(),
         ),
     )
@@ -338,7 +338,7 @@ maker(
     ('va', (1, 14)),
     baca.accent(selector=baca.pheads()),
     baca.new(
-        baca.trill_spanner(string='m2'),
+        baca.trill_spanner('m2'),
         map=baca.plts(),
         ),
     )
@@ -354,7 +354,7 @@ maker(
     ('vc', (1, 8)),
     baca.accent(selector=baca.pheads()),
     baca.new(
-        baca.trill_spanner(string='m2'),
+        baca.trill_spanner('m2'),
         map=baca.plts(),
         ),
     baca.pitches(khamr.color_trill_pitches),
