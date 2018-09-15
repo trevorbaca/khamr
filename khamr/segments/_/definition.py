@@ -400,7 +400,7 @@ maker(
     ('vn', (37, 44)),
     baca.dynamic('ppp'),
     baca.new(
-        baca.trill_spanner(string='m2'),
+        baca.trill_spanner('m2'),
         map=baca.plts(),
         ),
     baca.markup('molto flautando e pont.'),
@@ -425,7 +425,7 @@ maker(
     ('va', (37, 44)),
     baca.dynamic('ppp'),
     baca.new(
-        baca.trill_spanner(string='m2'),
+        baca.trill_spanner('m2'),
         map=baca.plts(),
         ),
     baca.markup('molto flautando e pont.'),
@@ -450,7 +450,7 @@ maker(
     ('vc', (37, 44)),
     baca.dynamic('ppp'),
     baca.new(
-        baca.trill_spanner(string='m2'),
+        baca.trill_spanner('m2'),
         map=baca.plts(),
         ),
     baca.markup('molto flautando e pont.'),

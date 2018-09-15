@@ -1009,7 +1009,7 @@ i_Flute_Music_Voice = {                                                        %
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \startTrillSpan
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [_ Flute_Music_Voice measure 40]                                         %! _comment_measure_numbers
     a''2
@@ -1027,10 +1027,10 @@ i_Flute_Music_Voice = {                                                        %
     \repeatTie
 
     r8                                                                         %! fused_wind
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     a''4.
-    \startTrillSpan
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [_ Flute_Music_Voice measure 43]                                         %! _comment_measure_numbers
     a''1
@@ -1043,7 +1043,7 @@ i_Flute_Music_Voice = {                                                        %
     \repeatTie
 
     r2                                                                         %! fused_wind
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
 }                                                                              %! extern
 
@@ -4208,13 +4208,13 @@ i_Violin_Music_Voice = {                                                       %
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
 
     % [_ Violin_Music_Voice measure 37]                                        %! _comment_measure_numbers
-    \pitchedTrill                                                              %! baca_trill_spanner:SpannerCommand
+    \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
     f'2                                                                        %! trill_tuplets
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     ^ \markup { "molto flautando e pont." }                                    %! baca_markup:IndicatorCommand
-    \startTrillSpan gf'
+    \startTrillSpan gf'                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     \times 4/5 {                                                               %! trill_tuplets
 
@@ -4222,11 +4222,11 @@ i_Violin_Music_Voice = {                                                       %
         \repeatTie
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         fs'!4                                                                  %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
-        \startTrillSpan g'
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        \startTrillSpan g'                                                     %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
@@ -4242,12 +4242,12 @@ i_Violin_Music_Voice = {                                                       %
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         fqs'!8.                                                                %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
-        \startTrillSpan gqf'
+        \startTrillSpan gqf'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
@@ -4260,12 +4260,12 @@ i_Violin_Music_Voice = {                                                       %
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         f'8                                                                    %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
-        \startTrillSpan gf'
+        \startTrillSpan gf'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
@@ -4279,11 +4279,11 @@ i_Violin_Music_Voice = {                                                       %
         f'4                                                                    %! trill_tuplets
         \repeatTie
 
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         fqs'!16                                                                %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
-        \startTrillSpan gqf'
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        \startTrillSpan gqf'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
@@ -4301,11 +4301,11 @@ i_Violin_Music_Voice = {                                                       %
         \repeatTie
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         f'4                                                                    %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
-        \startTrillSpan gf'
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        \startTrillSpan gf'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
@@ -4321,11 +4321,11 @@ i_Violin_Music_Voice = {                                                       %
         \repeatTie
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         e'4                                                                    %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
-        \startTrillSpan f'
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        \startTrillSpan f'                                                     %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
@@ -4340,12 +4340,12 @@ i_Violin_Music_Voice = {                                                       %
         [                                                                      %! trill_tuplets
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         eqs'!8.                                                                %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! trill_tuplets
-        \startTrillSpan fqs'
+        \startTrillSpan fqs'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
@@ -4359,12 +4359,12 @@ i_Violin_Music_Voice = {                                                       %
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         e'8                                                                    %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
-        \startTrillSpan f'
+        \startTrillSpan f'                                                     %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
@@ -4381,11 +4381,11 @@ i_Violin_Music_Voice = {                                                       %
         e'4                                                                    %! trill_tuplets
         \repeatTie
 
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         eqs'!16                                                                %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
-        \startTrillSpan fqs'
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        \startTrillSpan fqs'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
@@ -4402,17 +4402,17 @@ i_Violin_Music_Voice = {                                                       %
         \repeatTie
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         f'4                                                                    %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
-        \startTrillSpan gf'
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        \startTrillSpan gf'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
     f'4                                                                        %! trill_tuplets
     \repeatTie
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
 }                                                                              %! extern
 
@@ -4798,13 +4798,13 @@ i_Viola_Music_Voice = {                                                        %
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
 
     % [_ Viola_Music_Voice measure 37]                                         %! _comment_measure_numbers
-    \pitchedTrill                                                              %! baca_trill_spanner:SpannerCommand
+    \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
     f'2.                                                                       %! trill_tuplets
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     ^ \markup { "molto flautando e pont." }                                    %! baca_markup:IndicatorCommand
-    \startTrillSpan gf'
+    \startTrillSpan gf'                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     \times 4/5 {                                                               %! trill_tuplets
 
@@ -4813,11 +4813,11 @@ i_Viola_Music_Voice = {                                                        %
         \repeatTie
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         fs'!4                                                                  %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
-        \startTrillSpan g'
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        \startTrillSpan g'                                                     %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
@@ -4835,12 +4835,12 @@ i_Viola_Music_Voice = {                                                        %
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         fqs'!8.                                                                %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
-        \startTrillSpan gqf'
+        \startTrillSpan gqf'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
@@ -4854,12 +4854,12 @@ i_Viola_Music_Voice = {                                                        %
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         f'8                                                                    %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
-        \startTrillSpan gf'
+        \startTrillSpan gf'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
@@ -4876,11 +4876,11 @@ i_Viola_Music_Voice = {                                                        %
         f'4                                                                    %! trill_tuplets
         \repeatTie
 
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         fqs'!16                                                                %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
-        \startTrillSpan gqf'
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        \startTrillSpan gqf'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
@@ -4898,11 +4898,11 @@ i_Viola_Music_Voice = {                                                        %
         \repeatTie
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         f'4                                                                    %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
-        \startTrillSpan gf'
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        \startTrillSpan gf'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
@@ -4919,11 +4919,11 @@ i_Viola_Music_Voice = {                                                        %
         \repeatTie
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         e'4                                                                    %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
-        \startTrillSpan f'
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        \startTrillSpan f'                                                     %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
@@ -4941,18 +4941,18 @@ i_Viola_Music_Voice = {                                                        %
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         eqs'!8.                                                                %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
-        \startTrillSpan fqs'
+        \startTrillSpan fqs'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
     eqs'!2.                                                                    %! trill_tuplets
     \repeatTie
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
 }                                                                              %! extern
 
@@ -5349,13 +5349,13 @@ i_Cello_Music_Voice = {                                                        %
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
 
     % [_ Cello_Music_Voice measure 37]                                         %! _comment_measure_numbers
-    \pitchedTrill                                                              %! baca_trill_spanner:SpannerCommand
+    \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
     f'2.                                                                       %! trill_tuplets
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     ^ \markup { "molto flautando e pont." }                                    %! baca_markup:IndicatorCommand
-    \startTrillSpan gf'
+    \startTrillSpan gf'                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [_ Cello_Music_Voice measure 38]                                         %! _comment_measure_numbers
     f'4                                                                        %! trill_tuplets
@@ -5367,11 +5367,11 @@ i_Cello_Music_Voice = {                                                        %
         \repeatTie
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         fs'!4                                                                  %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
-        \startTrillSpan g'
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        \startTrillSpan g'                                                     %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
@@ -5386,12 +5386,12 @@ i_Cello_Music_Voice = {                                                        %
         [                                                                      %! trill_tuplets
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         fqs'!8.                                                                %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! trill_tuplets
-        \startTrillSpan gqf'
+        \startTrillSpan gqf'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
@@ -5412,12 +5412,12 @@ i_Cello_Music_Voice = {                                                        %
         \repeatTie
         [                                                                      %! trill_tuplets
 
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         f'8                                                                    %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! trill_tuplets
-        \startTrillSpan gf'
+        \startTrillSpan gf'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
@@ -5434,11 +5434,11 @@ i_Cello_Music_Voice = {                                                        %
         f'4                                                                    %! trill_tuplets
         \repeatTie
 
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         fqs'!16                                                                %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
-        \startTrillSpan gqf'
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        \startTrillSpan gqf'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
@@ -5456,11 +5456,11 @@ i_Cello_Music_Voice = {                                                        %
         \repeatTie
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         f'4                                                                    %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
-        \startTrillSpan gf'
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        \startTrillSpan gf'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
@@ -5474,17 +5474,17 @@ i_Cello_Music_Voice = {                                                        %
         \repeatTie
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \pitchedTrill                                                          %! baca_trill_spanner:SpannerCommand
+        \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         e'4                                                                    %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerCommand
-        \startTrillSpan f'
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        \startTrillSpan f'                                                     %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     }                                                                          %! trill_tuplets
 
     e'4                                                                        %! trill_tuplets
     \repeatTie
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
 }                                                                              %! extern
 
