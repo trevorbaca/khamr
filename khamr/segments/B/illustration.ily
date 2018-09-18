@@ -1761,7 +1761,6 @@ B_Flute_Music_Voice = {                                                        %
     r16                                                                        %! fused_wind
 
     % [B Flute_Music_Voice measure 110 / measure 36]                           %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     bf'!2.
 
     bf'!2
@@ -5314,7 +5313,6 @@ B_Saxophone_Music_Voice = {                                                    %
 
     r16                                                                        %! fused_wind
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     c'4
 
     % [B Saxophone_Music_Voice measure 111 / measure 37]                       %! _comment_measure_numbers

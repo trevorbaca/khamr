@@ -419,7 +419,6 @@ C_Flute_Music_Voice = {                                                        %
     r16                                                                        %! fused_wind
 
     % [C Flute_Music_Voice measure 115 / measure 4]                            %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     bf'!2.
 
     % [C Flute_Music_Voice measure 116 / measure 5]                            %! _comment_measure_numbers
@@ -436,7 +435,6 @@ C_Flute_Music_Voice = {                                                        %
 
     r16                                                                        %! fused_wind
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     bf'!4.
 
     % [C Flute_Music_Voice measure 118 / measure 7]                            %! _comment_measure_numbers
@@ -453,7 +451,6 @@ C_Flute_Music_Voice = {                                                        %
 
     r16                                                                        %! fused_wind
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     bf'!2
 
     % [C Flute_Music_Voice measure 120 / measure 9]                            %! _comment_measure_numbers
@@ -467,7 +464,6 @@ C_Flute_Music_Voice = {                                                        %
 
     r16                                                                        %! fused_wind
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     bf'!4
 
     % [C Flute_Music_Voice measure 122 / measure 11]                           %! _comment_measure_numbers
@@ -484,7 +480,6 @@ C_Flute_Music_Voice = {                                                        %
 
     r16                                                                        %! fused_wind
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     bf'!2
 
     % [C Flute_Music_Voice measure 124 / measure 13]                           %! _comment_measure_numbers
@@ -504,7 +499,6 @@ C_Flute_Music_Voice = {                                                        %
 
     r16                                                                        %! fused_wind
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     bf'!2                                                                      %! fused_wind
 
     bf'!8.                                                                     %! fused_wind
@@ -603,7 +597,6 @@ C_Oboe_Music_Voice = {                                                         %
 
     r16                                                                        %! fused_wind
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     c'4
 
     % [C Oboe_Music_Voice measure 116 / measure 5]                             %! _comment_measure_numbers
@@ -624,7 +617,6 @@ C_Oboe_Music_Voice = {                                                         %
 
     r16                                                                        %! fused_wind
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     c'4
 
     % [C Oboe_Music_Voice measure 119 / measure 8]                             %! _comment_measure_numbers
@@ -641,7 +633,6 @@ C_Oboe_Music_Voice = {                                                         %
     r16                                                                        %! fused_wind
 
     % [C Oboe_Music_Voice measure 121 / measure 10]                            %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     c'2.
 
     % [C Oboe_Music_Voice measure 122 / measure 11]                            %! _comment_measure_numbers
@@ -658,7 +649,6 @@ C_Oboe_Music_Voice = {                                                         %
 
     r16                                                                        %! fused_wind
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     c'2
 
     % [C Oboe_Music_Voice measure 124 / measure 13]                            %! _comment_measure_numbers
@@ -911,7 +901,6 @@ C_Saxophone_Music_Voice = {                                                    %
 
     r16                                                                        %! fused_wind
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     c'2.
 
     % [C Saxophone_Music_Voice measure 117 / measure 6]                        %! _comment_measure_numbers
@@ -932,7 +921,6 @@ C_Saxophone_Music_Voice = {                                                    %
 
     r16                                                                        %! fused_wind
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     c'2
 
     % [C Saxophone_Music_Voice measure 120 / measure 9]                        %! _comment_measure_numbers
@@ -953,7 +941,6 @@ C_Saxophone_Music_Voice = {                                                    %
 
     r16                                                                        %! fused_wind
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     c'4
 
     % [C Saxophone_Music_Voice measure 123 / measure 12]                       %! _comment_measure_numbers
@@ -980,7 +967,6 @@ C_Saxophone_Music_Voice = {                                                    %
 
     r16                                                                        %! fused_wind
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     c'2                                                                        %! fused_wind
 
     c'8.                                                                       %! fused_wind
@@ -1537,10 +1523,10 @@ C_Violin_Music_Voice = {                                                       %
     c'1
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak direction #up
     \repeatTie
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     c'4
     - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
@@ -1866,9 +1852,9 @@ C_Cello_Music_Voice = {                                                        %
     c'4                                                                        %! baca_make_repeated_duration_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
 
     c'1                                                                        %! baca_make_repeated_duration_notes
     - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
