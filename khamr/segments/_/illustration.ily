@@ -2274,7 +2274,6 @@ i_Guitar_Music_Voice = {                                                       %
 
         % [_ Guitar_Music_Voice measure 27]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         d''16 * 115/64                                                         %! guitar_accelerandi
         \repeatTie
         [                                                                      %! guitar_accelerandi
@@ -2401,7 +2400,6 @@ i_Guitar_Music_Voice = {                                                       %
 
         % [_ Guitar_Music_Voice measure 30]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         f''16 * 13/8                                                           %! guitar_accelerandi
         \repeatTie
         [                                                                      %! guitar_accelerandi
@@ -2528,7 +2526,6 @@ i_Guitar_Music_Voice = {                                                       %
 
         % [_ Guitar_Music_Voice measure 33]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         af''!16 * 13/8                                                         %! guitar_accelerandi
         \repeatTie
         [                                                                      %! guitar_accelerandi
@@ -2653,7 +2650,6 @@ i_Guitar_Music_Voice = {                                                       %
 
         % [_ Guitar_Music_Voice measure 36]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         e''16 * 113/64                                                         %! guitar_accelerandi
         \repeatTie
         [                                                                      %! guitar_accelerandi
@@ -2776,7 +2772,6 @@ i_Guitar_Music_Voice = {                                                       %
 
         % [_ Guitar_Music_Voice measure 39]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         d''16 * 115/64                                                         %! guitar_accelerandi
         \repeatTie
         [                                                                      %! guitar_accelerandi
@@ -3156,7 +3151,6 @@ i_Piano_Music_Voice = {                                                        %
 
         % [_ Piano_Music_Voice measure 28]                                     %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         cs''''!16 * 117/64                                                     %! guitar_accelerandi
         \repeatTie
         [                                                                      %! guitar_accelerandi
@@ -3246,7 +3240,6 @@ i_Piano_Music_Voice = {                                                        %
 
         af'''!16 * 127/64                                                      %! guitar_accelerandi
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         e''''16 * 63/32                                                        %! guitar_accelerandi
         ]                                                                      %! guitar_accelerandi
 
@@ -3296,7 +3289,6 @@ i_Piano_Music_Voice = {                                                        %
 
         % [_ Piano_Music_Voice measure 33]                                     %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         e''''16 * 117/64                                                       %! guitar_accelerandi
         \repeatTie
         [                                                                      %! guitar_accelerandi
@@ -3995,7 +3987,6 @@ i_Violin_Music_Voice = {                                                       %
     }                                                                          %! opening_glissandi
 
     % [_ Violin_Music_Voice measure 15]                                        %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     gqs'!1.                                                                    %! opening_glissandi
     \repeatTie
 
@@ -4098,7 +4089,6 @@ i_Violin_Music_Voice = {                                                       %
     \times 4/5 {                                                               %! opening_glissandi
 
         % [_ Violin_Music_Voice measure 26]                                    %! _comment_measure_numbers
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         b'2                                                                    %! opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -4114,7 +4104,6 @@ i_Violin_Music_Voice = {                                                       %
     }                                                                          %! opening_glissandi
 
     % [_ Violin_Music_Voice measure 27]                                        %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     aqs'!1.                                                                    %! opening_glissandi
     \repeatTie
 
@@ -4221,7 +4210,6 @@ i_Violin_Music_Voice = {                                                       %
         f'16                                                                   %! trill_tuplets
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         fs'!4                                                                  %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
@@ -4241,7 +4229,6 @@ i_Violin_Music_Voice = {                                                       %
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         fqs'!8.                                                                %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
@@ -4269,7 +4256,6 @@ i_Violin_Music_Voice = {                                                       %
 
     }                                                                          %! trill_tuplets
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     f'2                                                                        %! trill_tuplets
     \repeatTie
 
@@ -4287,7 +4273,6 @@ i_Violin_Music_Voice = {                                                       %
 
     }                                                                          %! trill_tuplets
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fqs'!4                                                                     %! trill_tuplets
     \repeatTie
 
@@ -4300,7 +4285,6 @@ i_Violin_Music_Voice = {                                                       %
         fqs'!16                                                                %! trill_tuplets
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         f'4                                                                    %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
@@ -4320,7 +4304,6 @@ i_Violin_Music_Voice = {                                                       %
         f'16                                                                   %! trill_tuplets
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         e'4                                                                    %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
@@ -4339,7 +4322,6 @@ i_Violin_Music_Voice = {                                                       %
         \repeatTie
         [                                                                      %! trill_tuplets
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         eqs'!8.                                                                %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
@@ -4368,7 +4350,6 @@ i_Violin_Music_Voice = {                                                       %
 
     }                                                                          %! trill_tuplets
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     e'4                                                                        %! trill_tuplets
     \repeatTie
 
@@ -4389,7 +4370,6 @@ i_Violin_Music_Voice = {                                                       %
 
     }                                                                          %! trill_tuplets
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     eqs'!4                                                                     %! trill_tuplets
     \repeatTie
 
@@ -4401,7 +4381,6 @@ i_Violin_Music_Voice = {                                                       %
         eqs'!16                                                                %! trill_tuplets
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         f'4                                                                    %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
@@ -4670,7 +4649,6 @@ i_Viola_Music_Voice = {                                                        %
     }                                                                          %! opening_glissandi
 
     % [_ Viola_Music_Voice measure 23]                                         %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     b'2.                                                                       %! opening_glissandi
     \repeatTie
 
@@ -4766,7 +4744,6 @@ i_Viola_Music_Voice = {                                                        %
     \times 4/5 {                                                               %! opening_glissandi
 
         % [_ Viola_Music_Voice measure 34]                                     %! _comment_measure_numbers
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         a'1                                                                    %! opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -4812,7 +4789,6 @@ i_Viola_Music_Voice = {                                                        %
         f'16                                                                   %! trill_tuplets
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         fs'!4                                                                  %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
@@ -4834,7 +4810,6 @@ i_Viola_Music_Voice = {                                                        %
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         fqs'!8.                                                                %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
@@ -4863,7 +4838,6 @@ i_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! trill_tuplets
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     f'4                                                                        %! trill_tuplets
     \repeatTie
 
@@ -4884,7 +4858,6 @@ i_Viola_Music_Voice = {                                                        %
 
     }                                                                          %! trill_tuplets
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fqs'!2                                                                     %! trill_tuplets
     \repeatTie
 
@@ -4897,7 +4870,6 @@ i_Viola_Music_Voice = {                                                        %
         fqs'!16                                                                %! trill_tuplets
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         f'4                                                                    %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
@@ -4918,7 +4890,6 @@ i_Viola_Music_Voice = {                                                        %
         f'16                                                                   %! trill_tuplets
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         e'4                                                                    %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
@@ -4940,7 +4911,6 @@ i_Viola_Music_Voice = {                                                        %
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         eqs'!8.                                                                %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
@@ -5054,7 +5024,6 @@ i_Cello_Music_Voice = {                                                        %
     \times 4/5 {                                                               %! opening_glissandi
 
         % [_ Cello_Music_Voice measure 7]                                      %! _comment_measure_numbers
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         gqs!1                                                                  %! opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -5160,7 +5129,6 @@ i_Cello_Music_Voice = {                                                        %
     }                                                                          %! opening_glissandi
 
     % [_ Cello_Music_Voice measure 17]                                         %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     a2.
     \repeatTie
 
@@ -5210,7 +5178,6 @@ i_Cello_Music_Voice = {                                                        %
     }                                                                          %! opening_glissandi
 
     % [_ Cello_Music_Voice measure 22]                                         %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     a2                                                                         %! opening_glissandi
     \repeatTie
 
@@ -5297,7 +5264,6 @@ i_Cello_Music_Voice = {                                                        %
     }                                                                          %! opening_glissandi
 
     % [_ Cello_Music_Voice measure 31]                                         %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g1                                                                         %! opening_glissandi
     \repeatTie
 
@@ -5366,7 +5332,6 @@ i_Cello_Music_Voice = {                                                        %
         f'16                                                                   %! trill_tuplets
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         fs'!4                                                                  %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
@@ -5385,7 +5350,6 @@ i_Cello_Music_Voice = {                                                        %
         \repeatTie
         [                                                                      %! trill_tuplets
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         fqs'!8.                                                                %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
@@ -5421,7 +5385,6 @@ i_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! trill_tuplets
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     f'2.                                                                       %! trill_tuplets
     \repeatTie
 
@@ -5442,7 +5405,6 @@ i_Cello_Music_Voice = {                                                        %
 
     }                                                                          %! trill_tuplets
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fqs'!4                                                                     %! trill_tuplets
     \repeatTie
 
@@ -5455,7 +5417,6 @@ i_Cello_Music_Voice = {                                                        %
         fqs'!16                                                                %! trill_tuplets
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         f'4                                                                    %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
@@ -5473,7 +5434,6 @@ i_Cello_Music_Voice = {                                                        %
         f'16                                                                   %! trill_tuplets
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
         e'4                                                                    %! trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
@@ -5645,7 +5605,6 @@ i_Contrabass_Music_Voice = {                                                   %
     }                                                                          %! opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 14]                                    %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     aqs!2                                                                      %! opening_glissandi
     \repeatTie
 
@@ -5756,7 +5715,6 @@ i_Contrabass_Music_Voice = {                                                   %
     }                                                                          %! opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 26]                                    %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     bqs!2                                                                      %! opening_glissandi
     \repeatTie
 
@@ -5878,7 +5836,6 @@ i_Contrabass_Music_Voice = {                                                   %
     \times 6/7 {                                                               %! opening_glissandi
 
         % [_ Contrabass_Music_Voice measure 39]                                %! _comment_measure_numbers
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         bqs!1.                                                                 %! opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
