@@ -128,7 +128,7 @@ C_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-    \bacaStopTextSpanMM                                                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(1)
+    \bacaStopTextSpanMM                                                        %! _attach_metronome_marks(1)
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
 %@% - \baca-start-lmi-left-only "7"                                            %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
@@ -291,7 +291,7 @@ C_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-    \bacaStopTextSpanMM                                                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(1)
+    \bacaStopTextSpanMM                                                        %! _attach_metronome_marks(1)
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
 %@% - \baca-start-lmi-left-only "15"                                           %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
@@ -366,7 +366,7 @@ C_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-    \bacaStopTextSpanMM                                                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(4)
+    \bacaStopTextSpanMM                                                        %! _attach_metronome_marks(4)
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|."                                                                  %! _attach_final_bar_line
