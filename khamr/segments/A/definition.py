@@ -221,7 +221,7 @@ maker(
     baca.dynamic('fff', selector=baca.pheads()),
     baca.pitch(
         'G#2',
-        selector=baca.plts(exclude=baca.enums.HIDDEN),
+        selector=baca.plts(exclude=baca.const.HIDDEN),
         ),
     )
 
