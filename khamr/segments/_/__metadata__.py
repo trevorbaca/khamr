@@ -258,7 +258,6 @@ metadata = abjad.OrderedDict(
                                 context='Percussion_Music_Voice',
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
-                                    after=True,
                                     attribute='bar_extent',
                                     context='Staff',
                                     grob='bar_line',
