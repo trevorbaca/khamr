@@ -25,6 +25,6 @@ if __name__ == '__main__':
         keywords=keywords,
         name='khamr',
         packages=['khamr'],
-        paltforms='Any',
+        platforms='Any',
         url='https://github.com/trevorbaca/khamr',
         )
