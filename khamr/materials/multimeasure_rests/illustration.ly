@@ -1,18 +1,18 @@
-\version "2.19.82"                                                                       %! LilyPondFile
-\language "english"                                                                      %! LilyPondFile
+\version "2.19.82"                                                                       %! abjad.LilyPondFile
+\language "english"                                                                      %! abjad.LilyPondFile
 
-\include "default.ily"                                                                   %! LilyPondFile
-\include "rhythm-maker-docs.ily"                                                         %! LilyPondFile
+\include "default.ily"                                                                   %! abjad.LilyPondFile
+\include "rhythm-maker-docs.ily"                                                         %! abjad.LilyPondFile
 
-\header {                                                                                %! LilyPondFile
+\header {                                                                                %! abjad.LilyPondFile
     tagline = ##f
-}                                                                                        %! LilyPondFile
+}                                                                                        %! abjad.LilyPondFile
 
 \layout {}
 
 \paper {}
 
-\score {                                                                                 %! LilyPondFile
+\score {                                                                                 %! abjad.LilyPondFile
     \new Score
     <<
         \new GlobalContext
@@ -34,4 +34,4 @@
             R1 * 1/4
         }
     >>
-}                                                                                        %! LilyPondFile
+}                                                                                        %! abjad.LilyPondFile
