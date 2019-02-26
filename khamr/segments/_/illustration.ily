@@ -1,4 +1,4 @@
-i_Global_Skips = {                                                             %! extern
+i_Global_Skips = {                                                             %! abjad.Path.extern
 
     % [_ Global_Skips measure 1]                                               %! _comment_measure_numbers
     \time 2/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -751,10 +751,10 @@ i_Global_Skips = {                                                             %
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Flute_Music_Voice = {                                                        %! extern
+i_Flute_Music_Voice = {                                                        %! abjad.Path.extern
 
     % [_ Flute_Music_Voice measure 1]                                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -1045,18 +1045,18 @@ i_Flute_Music_Voice = {                                                        %
     r2                                                                         %! fused_wind
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Flute_Music_Staff = {                                                        %! extern
+i_Flute_Music_Staff = {                                                        %! abjad.Path.extern
 
     \context Voice = "Flute_Music_Voice"                                       %! ScoreTemplate
-    \i_Flute_Music_Voice                                                       %! extern
+    \i_Flute_Music_Voice                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Oboe_Music_Voice = {                                                         %! extern
+i_Oboe_Music_Voice = {                                                         %! abjad.Path.extern
 
     % [_ Oboe_Music_Voice measure 1]                                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -1337,18 +1337,18 @@ i_Oboe_Music_Voice = {                                                         %
 
     r2.
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_OboeMusicStaff = {                                                           %! extern
+i_OboeMusicStaff = {                                                           %! abjad.Path.extern
 
     \context Voice = "Oboe_Music_Voice"                                        %! ScoreTemplate
-    \i_Oboe_Music_Voice                                                        %! extern
+    \i_Oboe_Music_Voice                                                        %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Clarinet_Music_Voice = {                                                     %! extern
+i_Clarinet_Music_Voice = {                                                     %! abjad.Path.extern
 
     % [_ Clarinet_Music_Voice measure 1]                                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -1622,18 +1622,18 @@ i_Clarinet_Music_Voice = {                                                     %
 
     r8                                                                         %! fused_wind
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Clarinet_Music_Staff = {                                                     %! extern
+i_Clarinet_Music_Staff = {                                                     %! abjad.Path.extern
 
     \context Voice = "Clarinet_Music_Voice"                                    %! ScoreTemplate
-    \i_Clarinet_Music_Voice                                                    %! extern
+    \i_Clarinet_Music_Voice                                                    %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Saxophone_Music_Voice = {                                                    %! extern
+i_Saxophone_Music_Voice = {                                                    %! abjad.Path.extern
 
     % [_ Saxophone_Music_Voice measure 1]                                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -1899,18 +1899,18 @@ i_Saxophone_Music_Voice = {                                                    %
 
     r8                                                                         %! fused_wind
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Saxophone_Music_Staff = {                                                    %! extern
+i_Saxophone_Music_Staff = {                                                    %! abjad.Path.extern
 
     \context Voice = "Saxophone_Music_Voice"                                   %! ScoreTemplate
-    \i_Saxophone_Music_Voice                                                   %! extern
+    \i_Saxophone_Music_Voice                                                   %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Guitar_Music_Voice = {                                                       %! extern
+i_Guitar_Music_Voice = {                                                       %! abjad.Path.extern
 
     % [_ Guitar_Music_Voice measure 1]                                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -2855,18 +2855,18 @@ i_Guitar_Music_Voice = {                                                       %
     r2.                                                                        %! guitar_isolata
     \revert TupletBracket.staff-padding                                        %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Guitar_Music_Staff = {                                                       %! extern
+i_Guitar_Music_Staff = {                                                       %! abjad.Path.extern
 
     \context Voice = "Guitar_Music_Voice"                                      %! ScoreTemplate
-    \i_Guitar_Music_Voice                                                      %! extern
+    \i_Guitar_Music_Voice                                                      %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Piano_Music_Voice = {                                                        %! extern
+i_Piano_Music_Voice = {                                                        %! abjad.Path.extern
 
     % [_ Piano_Music_Voice measure 1]                                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -3483,18 +3483,18 @@ i_Piano_Music_Voice = {                                                        %
     - \tweak direction #up
     \repeatTie
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Piano_Music_Staff = {                                                        %! extern
+i_Piano_Music_Staff = {                                                        %! abjad.Path.extern
 
     \context Voice = "Piano_Music_Voice"                                       %! ScoreTemplate
-    \i_Piano_Music_Voice                                                       %! extern
+    \i_Piano_Music_Voice                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Music_Voice = {                                                   %! extern
+i_Percussion_Music_Voice = {                                                   %! abjad.Path.extern
 
     % [_ Percussion_Music_Voice measure 1]                                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -3804,18 +3804,18 @@ i_Percussion_Music_Voice = {                                                   %
     \repeatTie
     \revert Stem.direction                                                     %! baca_stem_down:OverrideCommand(2)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_PercussionMusicStaff = {                                                     %! extern
+i_PercussionMusicStaff = {                                                     %! abjad.Path.extern
 
     \context Voice = "Percussion_Music_Voice"                                  %! ScoreTemplate
-    \i_Percussion_Music_Voice                                                  %! extern
+    \i_Percussion_Music_Voice                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Violin_Music_Voice = {                                                       %! extern
+i_Violin_Music_Voice = {                                                       %! abjad.Path.extern
 
     % [_ Violin_Music_Voice measure 1]                                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -4393,18 +4393,18 @@ i_Violin_Music_Voice = {                                                       %
     \repeatTie
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Violin_Music_Staff = {                                                       %! extern
+i_Violin_Music_Staff = {                                                       %! abjad.Path.extern
 
     \context Voice = "Violin_Music_Voice"                                      %! ScoreTemplate
-    \i_Violin_Music_Voice                                                      %! extern
+    \i_Violin_Music_Voice                                                      %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Viola_Music_Voice = {                                                        %! extern
+i_Viola_Music_Voice = {                                                        %! abjad.Path.extern
 
     % [_ Viola_Music_Voice measure 1]                                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -4924,18 +4924,18 @@ i_Viola_Music_Voice = {                                                        %
     \repeatTie
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Viola_Music_Staff = {                                                        %! extern
+i_Viola_Music_Staff = {                                                        %! abjad.Path.extern
 
     \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
-    \i_Viola_Music_Voice                                                       %! extern
+    \i_Viola_Music_Voice                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Cello_Music_Voice = {                                                        %! extern
+i_Cello_Music_Voice = {                                                        %! abjad.Path.extern
 
     % [_ Cello_Music_Voice measure 1]                                          %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -5446,18 +5446,18 @@ i_Cello_Music_Voice = {                                                        %
     \repeatTie
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_CelloMusicStaff = {                                                          %! extern
+i_CelloMusicStaff = {                                                          %! abjad.Path.extern
 
     \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
-    \i_Cello_Music_Voice                                                       %! extern
+    \i_Cello_Music_Voice                                                       %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Contrabass_Music_Voice = {                                                   %! extern
+i_Contrabass_Music_Voice = {                                                   %! abjad.Path.extern
 
     % [_ Contrabass_Music_Voice measure 1]                                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
@@ -5882,12 +5882,12 @@ i_Contrabass_Music_Voice = {                                                   %
     \repeatTie
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Contrabass_Music_Staff = {                                                   %! extern
+i_Contrabass_Music_Staff = {                                                   %! abjad.Path.extern
 
     \context Voice = "Contrabass_Music_Voice"                                  %! ScoreTemplate
-    \i_Contrabass_Music_Voice                                                  %! extern
+    \i_Contrabass_Music_Voice                                                  %! abjad.Path.extern
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
