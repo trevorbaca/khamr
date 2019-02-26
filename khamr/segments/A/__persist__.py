@@ -4,6 +4,43 @@ import abjad
 persist = abjad.OrderedDict(
     [
         (
+            'alive_during_segment',
+            [
+                'Score',
+                'Global_Context',
+                'Global_Skips',
+                'Music_Context',
+                'Wind_Section_Staff_Group',
+                'Flute_Music_Staff',
+                'Flute_Music_Voice',
+                'Flute_Rest_Voice',
+                'OboeMusicStaff',
+                'Oboe_Music_Voice',
+                'Oboe_Rest_Voice',
+                'Clarinet_Music_Staff',
+                'Clarinet_Music_Voice',
+                'Saxophone_Music_Staff',
+                'Saxophone_Music_Voice',
+                'Saxophone_Rest_Voice',
+                'Percussion_Section_Staff_Group',
+                'Guitar_Music_Staff',
+                'Guitar_Music_Voice',
+                'Piano_Music_Staff',
+                'Piano_Music_Voice',
+                'PercussionMusicStaff',
+                'Percussion_Music_Voice',
+                'String_Section_Staff_Group',
+                'Violin_Music_Staff',
+                'Violin_Music_Voice',
+                'Viola_Music_Staff',
+                'Viola_Music_Voice',
+                'CelloMusicStaff',
+                'Cello_Music_Voice',
+                'Contrabass_Music_Staff',
+                'Contrabass_Music_Voice',
+                ],
+            ),
+        (
             'persistent_indicators',
             abjad.OrderedDict(
                 [
