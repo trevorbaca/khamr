@@ -12,6 +12,7 @@ persist = abjad.OrderedDict(
                 'Music_Context',
                 'Wind_Section_Staff_Group',
                 'Flute_Music_Staff',
+                'Global_Rests',
                 'Flute_Music_Voice',
                 'OboeMusicStaff',
                 'Oboe_Music_Voice',

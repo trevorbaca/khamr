@@ -150,6 +150,10 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     __documentation_section__ = None
 
+    _always_make_global_rests = True
+
+    _global_rests_in_topmost_staff = True
+    
     ### INITIALIZER ###
 
     def __init__(self):
