@@ -374,6 +374,71 @@ C_Global_Skips = {                                                             %
 }                                                                              %! abjad.Path.extern
 
 
+C_Global_Rests = {                                                             %! abjad.Path.extern
+
+    % [C Global_Rests measure 112 / measure 1]                                 %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [C Global_Rests measure 113 / measure 2]                                 %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [C Global_Rests measure 114 / measure 3]                                 %! _comment_measure_numbers
+    R1 * 3/2                                                                   %! _make_global_rests(1)
+
+    % [C Global_Rests measure 115 / measure 4]                                 %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_global_rests(1)
+
+    % [C Global_Rests measure 116 / measure 5]                                 %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests(1)
+
+    % [C Global_Rests measure 117 / measure 6]                                 %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_global_rests(1)
+
+    % [C Global_Rests measure 118 / measure 7]                                 %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests(1)
+
+    % [C Global_Rests measure 119 / measure 8]                                 %! _comment_measure_numbers
+    R1 * 5/4                                                                   %! _make_global_rests(1)
+
+    % [C Global_Rests measure 120 / measure 9]                                 %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests(1)
+
+    % [C Global_Rests measure 121 / measure 10]                                %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_global_rests(1)
+
+    % [C Global_Rests measure 122 / measure 11]                                %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests(1)
+
+    % [C Global_Rests measure 123 / measure 12]                                %! _comment_measure_numbers
+    R1 * 5/4                                                                   %! _make_global_rests(1)
+
+    % [C Global_Rests measure 124 / measure 13]                                %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_global_rests(1)
+
+    % [C Global_Rests measure 125 / measure 14]                                %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [C Global_Rests measure 126 / measure 15]                                %! _comment_measure_numbers
+    R1 * 3/2                                                                   %! _make_global_rests(1)
+
+    % [C Global_Rests measure 127 / measure 16]                                %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [C Global_Rests measure 128 / measure 17]                                %! _comment_measure_numbers
+    R1 * 5/4                                                                   %! _make_global_rests(1)
+
+    % [C Global_Rests measure 129 / measure 18]                                %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_global_rests(1)
+
+    % [C Global_Rests measure 130 / measure 19]                                %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests(1)
+
+    % [C Global_Rests measure 131 / measure 20]                                %! _comment_measure_numbers
+    R1 * 3/2                                                                   %! _make_global_rests(1)
+
+}                                                                              %! abjad.Path.extern
+
+
 C_Flute_Music_Voice = {                                                        %! abjad.Path.extern
 
     % [C Flute_Music_Voice measure 112 / measure 1]                            %! _comment_measure_numbers
@@ -548,12 +613,15 @@ C_Flute_Music_Voice = {                                                        %
 }                                                                              %! abjad.Path.extern
 
 
-C_Flute_Music_Staff = {                                                        %! abjad.Path.extern
+C_Flute_Music_Staff = <<                                                       %! abjad.Path.extern
+
+    \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context
+    \C_Global_Rests                                                            %! abjad.Path.extern
 
     \context Voice = "Flute_Music_Voice"                                       %! khamr.ScoreTemplate.__call__
     \C_Flute_Music_Voice                                                       %! abjad.Path.extern
 
-}                                                                              %! abjad.Path.extern
+>>                                                                             %! abjad.Path.extern
 
 
 C_Oboe_Music_Voice = {                                                         %! abjad.Path.extern
