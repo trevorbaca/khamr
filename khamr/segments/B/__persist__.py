@@ -46,6 +46,7 @@ persist = abjad.OrderedDict(
                 'Cello_Rest_Voice',
                 'Contrabass_Music_Staff',
                 'Contrabass_Music_Voice',
+                'Contrabass_Rest_Voice',
                 ],
             ),
         (

@@ -23,7 +23,11 @@ def stage(n):
         }[n]
 
 maker = baca.SegmentMaker(
+    activate=[
+        abjad.const.LOCAL_MEASURE_NUMBER,
+        ],
     ignore_repeat_pitch_classes=True,
+    phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=khamr.time_signatures[:37],
     transpose_score=True,
