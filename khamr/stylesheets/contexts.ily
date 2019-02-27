@@ -40,7 +40,6 @@
         \consists Staff_collecting_engraver
         \consists Time_signature_engraver
         \accepts GlobalSkips
-        \accepts GlobalRests
         \accepts PageLayout
 
         \override BarNumber.extra-offset = #'(-4 . -4)
@@ -76,6 +75,7 @@
     % STAFF
     \context {
         \Staff
+        \accepts GlobalRests
         \remove Time_signature_engraver
     }
 
