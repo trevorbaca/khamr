@@ -9,14 +9,13 @@ from abjadext import rmakers
 ##################################### [A] #####################################
 ###############################################################################
 
-def stage(n):
-    return {
-        1: (1, 4),
-        2: (5, 8),
-        3: (9, 14),
-        4: (15, 20),
-        5: (21, 30),
-        }[n]
+stage_markup = (
+    ('[A.1]', 1),
+    ('[A.2]', 5),
+    ('[A.3]', 9),
+    ('[A.4]', 15),
+    ('[A.5]', 21),
+    )
 
 maker = baca.SegmentMaker(
     activate=[
@@ -25,6 +24,7 @@ maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
+    stage_markup=stage_markup,
     time_signatures=khamr.time_signatures[:30],
     transpose_score=True,
     validate_measure_count=30,
