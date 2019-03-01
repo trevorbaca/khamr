@@ -29,6 +29,16 @@
         \override MultiMeasureRestText.padding = 0
         }
 
+    % PAGE LAYOUT
+    \context {
+        \name PageLayout
+        \type Engraver_group
+        \consists Text_engraver
+        \consists \alternateTextSpannerEngraver
+
+        \override TextSpanner.font-size=6
+        }
+
     % GLOBAL CONTEXT
     \context {
         \name GlobalContext
@@ -39,9 +49,11 @@
         % prevents LilyPond cyclic chain in pure-Y-offset callbacks warning:
         \consists Staff_collecting_engraver
         \consists Time_signature_engraver
+        \accepts GlobalRests
         \accepts GlobalSkips
         \accepts PageLayout
 
+        \override BarNumber.Y-extent = ##f
         \override BarNumber.extra-offset = #'(-4 . -4)
         \override BarNumber.font-size = 1
 
