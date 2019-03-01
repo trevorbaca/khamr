@@ -46,6 +46,8 @@ stage_5_silence_mask = rmakers.silence([
     15, 16, 17, 19, 20, 21, 23, 24, 26,
     ])
 
+# fl
+
 maker(
     ('fl', (1, 8)),
     khamr.fused_wind(
@@ -53,6 +55,8 @@ maker(
         dmask=rmakers.silence([2, 5], 6),
         ),
     )
+
+# ob
 
 maker(
     ('ob', (1, 8)),
@@ -62,6 +66,8 @@ maker(
         ),
     )
 
+# cl
+
 maker(
     ('cl', (1, 14)),
     khamr.fused_wind(
@@ -70,6 +76,8 @@ maker(
         ),
     )
 
+# sax
+
 maker(
     ('sax', (1, 8)),
     khamr.fused_wind(
@@ -77,6 +85,8 @@ maker(
         dmask=rmakers.silence([1, 3], 6),
         ),
     )
+
+# gt
 
 maker(
     ('gt', (1, 4)),
@@ -89,6 +99,8 @@ maker(
         dmask=rmakers.silence([-1]),
         ),
     )
+
+# pf
 
 maker(
     ('pf', (1, 14)),
@@ -106,6 +118,8 @@ maker(
     ('pf', (21, 30)),
     khamr.current([4, 3, 5], stage_5_silence_mask),
     )
+
+# perc
 
 maker(
     ('perc', (1, 14)),
@@ -127,15 +141,21 @@ maker(
     khamr.fused_expanse(None, stage_5_silence_mask),
     )
 
+# vn
+
 maker(
     ('vn', (1, 14)),
     khamr.trill_tuplets(4, dmask=rmakers.silence([-2, -1])),
     )
 
+# va
+
 maker(
     ('va', (1, 14)),
     khamr.trill_tuplets(3, dmask=rmakers.silence([-2, -1])),
     )
+
+# vc
 
 maker(
     ('vc', (1, 8)),
@@ -148,6 +168,8 @@ maker(
         dmask=rmakers.silence([-1]),
         ),
     )
+
+# cb
 
 maker(
     ('cb', (1, 14)),
@@ -184,7 +206,7 @@ maker(
 
 maker(
     ('fl', (15, 30)),
-    baca.dynamic('fff', selector=baca.pheads()),
+    baca.dynamic('fff'),
     baca.instrument(khamr.instruments['Flute']),
     baca.markup('fluttertongue'),
     baca.pitch('B5'),
@@ -199,7 +221,7 @@ maker(
 
 maker(
     ('ob', (15, 30)),
-    baca.dynamic('fff', selector=baca.pheads()),
+    baca.dynamic('fff'),
     baca.pitch('G#3'),
     )
 
@@ -210,7 +232,7 @@ maker(
 
 maker(
     ('cl', (15, 30)),
-    baca.dynamic('fff', selector=baca.pheads()),
+    baca.dynamic('fff'),
     baca.pitch('F#2'),
     )
 
@@ -221,7 +243,7 @@ maker(
 
 maker(
     ('sax', (15, 30)),
-    baca.dynamic('fff', selector=baca.pheads()),
+    baca.dynamic('fff'),
     baca.pitch(
         'G#2',
         selector=baca.plts(exclude=abjad.const.HIDDEN),
@@ -260,7 +282,7 @@ maker(
 maker(
     ('pf', (15, 20)),
     baca.clef('bass'),
-    baca.dynamic('fff', selector=baca.pheads()),
+    baca.dynamic('fff'),
     baca.ottava_bassa(),
     baca.pitch('<A0 B0 C1 D1 E1 F1 G1 A1>'),
     baca.staff_lines(5),
@@ -270,7 +292,7 @@ maker(
 maker(
     ('pf', (21, 30)),
     baca.clef('treble'),
-    baca.dynamic('fff'),
+    baca.dynamic('fff-ancora'),
     baca.ottava(),
     baca.pitches(khamr.rose_pitch_classes.invert()),
     khamr.sixth_octave(),
@@ -317,7 +339,7 @@ maker(
 
 maker(
     ('vn', (15, 30)),
-    baca.dynamic('fff', selector=baca.pheads()),
+    baca.dynamic('fff'),
     baca.markup('arco ordinario'),
     baca.pitch('A4'),
     )
@@ -348,7 +370,7 @@ maker(
 
 maker(
     ('va', (15, 30)),
-    baca.dynamic('fff', selector=baca.pheads()),
+    baca.dynamic('fff'),
     baca.markup('arco ordinario'),
     baca.pitch('G#4'),
     )
@@ -374,7 +396,7 @@ maker(
 
 maker(
     ('vc', (15, 30)),
-    baca.dynamic('fff', selector=baca.pheads()),
+    baca.dynamic('fff'),
     baca.markup('arco ordinario'),
     baca.pitch('G3'),
     )
@@ -396,7 +418,7 @@ maker(
 
 maker(
     ('cb', (15, 30)),
-    baca.dynamic('fff', selector=baca.pheads()),
+    baca.dynamic('fff'),
     baca.markup('arco ordinario'),
     baca.pitch('<G0 A1>'),
     )

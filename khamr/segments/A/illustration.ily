@@ -688,7 +688,7 @@ A_Flute_Music_Voice = {                                                        %
     % [A Flute_Music_Voice measure 59 / measure 15]                            %! _comment_measure_numbers
     b''1.                                                                      %! alternate_divisions
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { fluttertongue }                                                %! baca_markup:IndicatorCommand
     ^ \baca-explicit-indicator-markup "(“Flute”)"                              %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -699,8 +699,6 @@ A_Flute_Music_Voice = {                                                        %
     % [A Flute_Music_Voice measure 61 / measure 17]                            %! _comment_measure_numbers
     b''2.
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     b''2
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
@@ -712,8 +710,6 @@ A_Flute_Music_Voice = {                                                        %
     % [A Flute_Music_Voice measure 63 / measure 19]                            %! _comment_measure_numbers
     b''1                                                                       %! alternate_divisions
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Flute_Music_Voice measure 64 / measure 20]                            %! _comment_measure_numbers
     r1.                                                                        %! alternate_divisions
@@ -723,8 +719,6 @@ A_Flute_Music_Voice = {                                                        %
 
     b''4                                                                       %! silent_first_division
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Flute_Music_Voice measure 66 / measure 22]                            %! _comment_measure_numbers
     b''2                                                                       %! silent_first_division
@@ -924,7 +918,7 @@ A_Oboe_Music_Voice = {                                                         %
 
     % [A Oboe_Music_Voice measure 59 / measure 15]                             %! _comment_measure_numbers
     ds'!1.                                                                     %! alternate_divisions
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Oboe_Music_Voice measure 60 / measure 16]                             %! _comment_measure_numbers
@@ -932,8 +926,6 @@ A_Oboe_Music_Voice = {                                                         %
 
     % [A Oboe_Music_Voice measure 61 / measure 17]                             %! _comment_measure_numbers
     ds'!2.
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     ds'!2
     \repeatTie
@@ -943,8 +935,6 @@ A_Oboe_Music_Voice = {                                                         %
 
     % [A Oboe_Music_Voice measure 63 / measure 19]                             %! _comment_measure_numbers
     ds'!1                                                                      %! alternate_divisions
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Oboe_Music_Voice measure 64 / measure 20]                             %! _comment_measure_numbers
     r1.                                                                        %! alternate_divisions
@@ -953,8 +943,6 @@ A_Oboe_Music_Voice = {                                                         %
     r4                                                                         %! silent_first_division
 
     ds'!4                                                                      %! silent_first_division
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Oboe_Music_Voice measure 66 / measure 22]                             %! _comment_measure_numbers
     ds'!2                                                                      %! silent_first_division
@@ -1135,7 +1123,7 @@ A_Clarinet_Music_Voice = {                                                     %
 
     % [A Clarinet_Music_Voice measure 59 / measure 15]                         %! _comment_measure_numbers
     gs!1.                                                                      %! alternate_divisions
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Clarinet_Music_Voice measure 60 / measure 16]                         %! _comment_measure_numbers
@@ -1143,8 +1131,6 @@ A_Clarinet_Music_Voice = {                                                     %
 
     % [A Clarinet_Music_Voice measure 61 / measure 17]                         %! _comment_measure_numbers
     gs!2.
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     gs!2
     \repeatTie
@@ -1154,8 +1140,6 @@ A_Clarinet_Music_Voice = {                                                     %
 
     % [A Clarinet_Music_Voice measure 63 / measure 19]                         %! _comment_measure_numbers
     gs!1                                                                       %! alternate_divisions
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Clarinet_Music_Voice measure 64 / measure 20]                         %! _comment_measure_numbers
     r1.                                                                        %! alternate_divisions
@@ -1164,8 +1148,6 @@ A_Clarinet_Music_Voice = {                                                     %
     r4                                                                         %! silent_first_division
 
     gs!4                                                                       %! silent_first_division
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Clarinet_Music_Voice measure 66 / measure 22]                         %! _comment_measure_numbers
     gs!2                                                                       %! silent_first_division
@@ -1350,7 +1332,7 @@ A_Saxophone_Music_Voice = {                                                    %
 
     % [A Saxophone_Music_Voice measure 59 / measure 15]                        %! _comment_measure_numbers
     es'!1.                                                                     %! alternate_divisions
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Saxophone_Music_Voice measure 60 / measure 16]                        %! _comment_measure_numbers
@@ -1358,8 +1340,6 @@ A_Saxophone_Music_Voice = {                                                    %
 
     % [A Saxophone_Music_Voice measure 61 / measure 17]                        %! _comment_measure_numbers
     es'!2.
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     es'!2
     \repeatTie
@@ -1369,8 +1349,6 @@ A_Saxophone_Music_Voice = {                                                    %
 
     % [A Saxophone_Music_Voice measure 63 / measure 19]                        %! _comment_measure_numbers
     es'!1                                                                      %! alternate_divisions
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Saxophone_Music_Voice measure 64 / measure 20]                        %! _comment_measure_numbers
     r1.                                                                        %! alternate_divisions
@@ -1379,8 +1357,6 @@ A_Saxophone_Music_Voice = {                                                    %
     r4                                                                         %! silent_first_division
 
     es'!4                                                                      %! silent_first_division
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Saxophone_Music_Voice measure 66 / measure 22]                        %! _comment_measure_numbers
     es'!2                                                                      %! silent_first_division
@@ -1815,7 +1791,7 @@ A_Piano_Music_Voice = {                                                        %
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1.
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
@@ -1825,13 +1801,9 @@ A_Piano_Music_Voice = {                                                        %
     % [A Piano_Music_Voice measure 61 / measure 17]                            %! _comment_measure_numbers
     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     <a,,, b,,, c,, d,, e,, f,, g,, a,,>4
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Piano_Music_Voice measure 62 / measure 18]                            %! _comment_measure_numbers
     r2.                                                                        %! alternate_divisions
@@ -1839,8 +1811,6 @@ A_Piano_Music_Voice = {                                                        %
     % [A Piano_Music_Voice measure 63 / measure 19]                            %! _comment_measure_numbers
     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \ottava 0                                                                  %! baca_ottava_bassa:SpannerIndicatorCommand(2)
 
     % [A Piano_Music_Voice measure 64 / measure 20]                            %! _comment_measure_numbers
@@ -1858,8 +1828,8 @@ A_Piano_Music_Voice = {                                                        %
 
         \ottava 1                                                              %! baca_ottava:SpannerIndicatorCommand(1)
         cf''''!8                                                               %! current
-        - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \fff                                                                   %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        \baca-fff-ancora                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         c''''8                                                                 %! current
@@ -2910,7 +2880,7 @@ A_Violin_Music_Voice = {                                                       %
 
     % [A Violin_Music_Voice measure 59 / measure 15]                           %! _comment_measure_numbers
     a'1.                                                                       %! alternate_divisions
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "arco ordinario" }                                             %! baca_markup:IndicatorCommand
 
@@ -2919,8 +2889,6 @@ A_Violin_Music_Voice = {                                                       %
 
     % [A Violin_Music_Voice measure 61 / measure 17]                           %! _comment_measure_numbers
     a'2.
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     a'2
     \repeatTie
@@ -2930,8 +2898,6 @@ A_Violin_Music_Voice = {                                                       %
 
     % [A Violin_Music_Voice measure 63 / measure 19]                           %! _comment_measure_numbers
     a'1                                                                        %! alternate_divisions
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Violin_Music_Voice measure 64 / measure 20]                           %! _comment_measure_numbers
     r1.                                                                        %! alternate_divisions
@@ -2940,8 +2906,6 @@ A_Violin_Music_Voice = {                                                       %
     r4                                                                         %! silent_first_division
 
     a'4                                                                        %! silent_first_division
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Violin_Music_Voice measure 66 / measure 22]                           %! _comment_measure_numbers
     a'2                                                                        %! silent_first_division
@@ -3291,7 +3255,7 @@ A_Viola_Music_Voice = {                                                        %
 
     % [A Viola_Music_Voice measure 59 / measure 15]                            %! _comment_measure_numbers
     gs'!1.                                                                     %! alternate_divisions
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "arco ordinario" }                                             %! baca_markup:IndicatorCommand
 
@@ -3300,8 +3264,6 @@ A_Viola_Music_Voice = {                                                        %
 
     % [A Viola_Music_Voice measure 61 / measure 17]                            %! _comment_measure_numbers
     gs'!2.
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     gs'!2
     \repeatTie
@@ -3311,8 +3273,6 @@ A_Viola_Music_Voice = {                                                        %
 
     % [A Viola_Music_Voice measure 63 / measure 19]                            %! _comment_measure_numbers
     gs'!1                                                                      %! alternate_divisions
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Viola_Music_Voice measure 64 / measure 20]                            %! _comment_measure_numbers
     r1.                                                                        %! alternate_divisions
@@ -3321,8 +3281,6 @@ A_Viola_Music_Voice = {                                                        %
     r4                                                                         %! silent_first_division
 
     gs'!4                                                                      %! silent_first_division
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Viola_Music_Voice measure 66 / measure 22]                            %! _comment_measure_numbers
     gs'!2                                                                      %! silent_first_division
@@ -3582,7 +3540,7 @@ A_Cello_Music_Voice = {                                                        %
 
     % [A Cello_Music_Voice measure 59 / measure 15]                            %! _comment_measure_numbers
     g1.                                                                        %! alternate_divisions
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "arco ordinario" }                                             %! baca_markup:IndicatorCommand
 
@@ -3591,8 +3549,6 @@ A_Cello_Music_Voice = {                                                        %
 
     % [A Cello_Music_Voice measure 61 / measure 17]                            %! _comment_measure_numbers
     g2.
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     g2
     \repeatTie
@@ -3602,8 +3558,6 @@ A_Cello_Music_Voice = {                                                        %
 
     % [A Cello_Music_Voice measure 63 / measure 19]                            %! _comment_measure_numbers
     g1                                                                         %! alternate_divisions
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Cello_Music_Voice measure 64 / measure 20]                            %! _comment_measure_numbers
     r1.                                                                        %! alternate_divisions
@@ -3612,8 +3566,6 @@ A_Cello_Music_Voice = {                                                        %
     r4                                                                         %! silent_first_division
 
     g4                                                                         %! silent_first_division
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Cello_Music_Voice measure 66 / measure 22]                            %! _comment_measure_numbers
     g2                                                                         %! silent_first_division
@@ -3824,7 +3776,7 @@ A_Contrabass_Music_Voice = {                                                   %
 
     % [A Contrabass_Music_Voice measure 59 / measure 15]                       %! _comment_measure_numbers
     <g,, a,>1.
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "arco ordinario" }                                             %! baca_markup:IndicatorCommand
 
@@ -3833,8 +3785,6 @@ A_Contrabass_Music_Voice = {                                                   %
 
     % [A Contrabass_Music_Voice measure 61 / measure 17]                       %! _comment_measure_numbers
     <g,, a,>2.
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     <g,, a,>2
     \repeatTie
@@ -3844,8 +3794,6 @@ A_Contrabass_Music_Voice = {                                                   %
 
     % [A Contrabass_Music_Voice measure 63 / measure 19]                       %! _comment_measure_numbers
     <g,, a,>1
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Contrabass_Music_Voice measure 64 / measure 20]                       %! _comment_measure_numbers
     r1.                                                                        %! alternate_divisions
@@ -3854,8 +3802,6 @@ A_Contrabass_Music_Voice = {                                                   %
     r4                                                                         %! silent_first_division
 
     <g,, a,>4
-    - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Contrabass_Music_Voice measure 66 / measure 22]                       %! _comment_measure_numbers
     <g,, a,>2
