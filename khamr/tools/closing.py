@@ -9,22 +9,12 @@ def closing():
     """
     return baca.rhythm(
         division_maker=baca.DivisionMaker()
-            .fuse_by_counts(
-                counts=abjad.Infinity,
-                )
-            .split_by_durations(
-                cyclic=True,
-                durations=[(2, 4), (4, 4), (12, 4)],
-                ),
+        .fuse_by_counts(counts=abjad.Infinity)
+        .split_by_durations(cyclic=True, durations=[(2, 4), (4, 4), (12, 4)]),
         rewrite_meter=True,
         rhythm_maker=rmakers.NoteRhythmMaker(
-            division_masks=[
-                rmakers.silence([0]),
-                rmakers.silence([-1]),
-                ],
-            tag='closing',
-            tie_specifier=rmakers.TieSpecifier(
-                repeat_ties=True,
-                )
-            ),
-        )
+            division_masks=[rmakers.silence([0]), rmakers.silence([-1])],
+            tag="closing",
+            tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
+        ),
+    )

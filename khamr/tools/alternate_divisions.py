@@ -10,14 +10,12 @@ def alternate_divisions(strip_ties=None):
     return baca.rhythm(
         rewrite_meter=True,
         rhythm_maker=rmakers.NoteRhythmMaker(
-            division_masks=[
-                rmakers.silence([1], 2),
-                ],
-            tag='alternate_divisions',
+            division_masks=[rmakers.silence([1], 2)],
+            tag="alternate_divisions",
             tie_specifier=rmakers.TieSpecifier(
                 repeat_ties=True,
                 strip_ties=strip_ties,
                 tie_across_divisions=True,
-                ),
             ),
-        )
+        ),
+    )

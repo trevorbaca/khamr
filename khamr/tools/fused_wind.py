@@ -9,11 +9,9 @@ def fused_wind(fuse_by_counts, *, dmask=None, denominator=8):
     Makes fused wind rhythm.
     """
     return baca.rhythm(
-        division_maker=khamr.beat_divisions()
-            .fuse_by_counts(
-                counts=fuse_by_counts,
-                cyclic=True,
-                ),
+        division_maker=khamr.beat_divisions().fuse_by_counts(
+            counts=fuse_by_counts, cyclic=True
+        ),
         rewrite_meter=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
             division_masks=dmask,
@@ -23,10 +21,8 @@ def fused_wind(fuse_by_counts, *, dmask=None, denominator=8):
                 suffix_talea=[-1],
                 suffix_counts=[1],
                 talea_denominator=denominator,
-                ),
-            tag='fused_wind',
-            tie_specifier=rmakers.TieSpecifier(
-                repeat_ties=True,
-                ),
             ),
-        )
+            tag="fused_wind",
+            tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
+        ),
+    )
