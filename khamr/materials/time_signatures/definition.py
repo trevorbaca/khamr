@@ -9,9 +9,9 @@ import baca
 #   = 75.6 beats at 42 MM
 numerators = baca.sequence([[2, 2, 3], [2, 4], [3, 4, 5]])
 numerators = numerators.helianthate(-1, -1)
-pairs = baca.sequence([
-    [(2, 4), (2, 4), (6, 4)], [(3, 4), (4, 4)], [(6, 8), (4, 4), (5, 4)],
-    ])
+pairs = baca.sequence(
+    [[(2, 4), (2, 4), (6, 4)], [(3, 4), (4, 4)], [(6, 8), (4, 4), (5, 4)]]
+)
 pairs = pairs.helianthate(-1, -1)
 pairs = pairs.flatten()
 time_signatures_ = [abjad.TimeSignature(_) for _ in pairs]

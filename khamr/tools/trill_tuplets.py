@@ -13,15 +13,13 @@ def trill_tuplets(tuplet_ratios, *, dmask=None):
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=dmask,
-            tag='trill_tuplets',
+            tag="trill_tuplets",
             tie_specifier=rmakers.TieSpecifier(
-                repeat_ties=True,
-                tie_across_divisions=True,
-                ),
+                repeat_ties=True, tie_across_divisions=True
+            ),
             tuplet_ratios=khamr.string_tuplet_ratios(tuplet_ratios),
             tuplet_specifier=rmakers.TupletSpecifier(
-                extract_trivial=True,
-                trivialize=True,
-                ),
+                extract_trivial=True, trivialize=True
             ),
-        )
+        ),
+    )

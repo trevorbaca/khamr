@@ -12,13 +12,10 @@ def silent_first_division():
         rewrite_meter=True,
         division_maker=beat_divisions(),
         rhythm_maker=rmakers.NoteRhythmMaker(
-            division_masks=[
-                rmakers.silence([0]),
-                ],
-            tag='silent_first_division',
+            division_masks=[rmakers.silence([0])],
+            tag="silent_first_division",
             tie_specifier=rmakers.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True,
-                ),
+                tie_across_divisions=True, repeat_ties=True
             ),
-        )
+        ),
+    )

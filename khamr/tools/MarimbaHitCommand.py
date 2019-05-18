@@ -11,10 +11,7 @@ class MarimbaHitCommand(baca.Command):
 
     __documentation_section__ = None
 
-    __slots__ = (
-        '_attach_first_markup',
-        '_indices',
-        )
+    __slots__ = ("_attach_first_markup", "_indices")
 
     ### INITIALIZER ###
 
@@ -26,13 +23,10 @@ class MarimbaHitCommand(baca.Command):
         match=None,
         measures=None,
         scope=None,
-        ):
+    ):
         baca.Command.__init__(
-            self,
-            match=match,
-            measures=measures,
-            scope=scope,
-            )
+            self, match=match, measures=measures, scope=scope
+        )
         self._attach_first_markup = bool(attach_first_markup)
         self._indices = indices
         self._measures = None
@@ -46,54 +40,31 @@ class MarimbaHitCommand(baca.Command):
         Returns none.
         """
         self._runtime = runtime
-        tag = 'MarimbaHitCommand'
+        tag = "MarimbaHitCommand"
         found_first = False
         for i, plt in enumerate(baca.select(argument).plts()):
             if i not in self.indices:
                 continue
             staff_lines = baca.StaffLines(line_count=5)
-            abjad.attach(
-                baca.StaffLines(line_count=5),
-                plt.head,
-                tag=tag,
-                )
+            abjad.attach(baca.StaffLines(line_count=5), plt.head, tag=tag)
             if self.attach_first_markup and not found_first:
-                string = 'marimba + woodblock'
+                string = "marimba + woodblock"
                 markup = abjad.Markup(string, direction=abjad.Up)
-                markup = markup.box().override(('box-padding', 0.75))
+                markup = markup.box().override(("box-padding", 0.75))
                 markup = markup.larger()
                 abjad.attach(markup, plt.head, tag=tag)
                 found_first = True
             abjad.detach(abjad.Articulation, plt.head)
             abjad.attach(
-                abjad.Dynamic('sfz'),
-                plt.head,
-                context='Voice',
-                tag=tag,
-                )
-            abjad.attach(
-                abjad.Articulation('marcato'),
-                plt.head,
-                tag=tag,
-                )
+                abjad.Dynamic("sfz"), plt.head, context="Voice", tag=tag
+            )
+            abjad.attach(abjad.Articulation("marcato"), plt.head, tag=tag)
             abjad.detach(abjad.Clef, plt.head)
-            abjad.attach(
-                abjad.Clef('treble'),
-                plt.head,
-                tag=tag,
-                )
+            abjad.attach(abjad.Clef("treble"), plt.head, tag=tag)
             next_leaf = abjad.inspect(plt.tail).leaf(1)
             if next_leaf is not None:
-                abjad.attach(
-                    baca.StaffLines(line_count=1),
-                    next_leaf,
-                    tag=tag,
-                    )
-                abjad.attach(
-                    abjad.Clef('percussion'),
-                    next_leaf,
-                    tag=tag,
-                    )
+                abjad.attach(baca.StaffLines(line_count=1), next_leaf, tag=tag)
+                abjad.attach(abjad.Clef("percussion"), next_leaf, tag=tag)
 
     ### PUBLIC PROPERTIES ###
 

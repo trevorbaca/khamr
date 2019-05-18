@@ -9,18 +9,16 @@ def quarter_hits(*, dmask=None):
     """
     return baca.rhythm(
         division_maker=baca.DivisionMaker()
-            .split_by_durations(
-                compound_meter_multiplier=abjad.Multiplier(3, 2),
-                cyclic=True,
-                durations=[(1, 4)],
-                )
-            .flatten(depth=-1),
+        .split_by_durations(
+            compound_meter_multiplier=abjad.Multiplier(3, 2),
+            cyclic=True,
+            durations=[(1, 4)],
+        )
+        .flatten(depth=-1),
         rewrite_meter=True,
         rhythm_maker=rmakers.NoteRhythmMaker(
             division_masks=dmask,
-            tag='quarter_hits',
-            tie_specifier=rmakers.TieSpecifier(
-                repeat_ties=True,
-                ),
-            ),
-        )
+            tag="quarter_hits",
+            tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
+        ),
+    )

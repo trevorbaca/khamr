@@ -9,35 +9,27 @@ def guitar_accelerandi(fuse_by_counts, division_masks=None):
     """
     return baca.rhythm(
         division_maker=baca.DivisionMaker()
-            .fuse_by_counts(
-                counts=fuse_by_counts,
-                cyclic=True,
-                )
-            .flatten(depth=-1),
+        .fuse_by_counts(counts=fuse_by_counts, cyclic=True)
+        .flatten(depth=-1),
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
-            beam_specifier=rmakers.BeamSpecifier(
-                use_feather_beams=True,
-                ),
+            beam_specifier=rmakers.BeamSpecifier(use_feather_beams=True),
             division_masks=division_masks,
             interpolation_specifiers=[
                 rmakers.InterpolationSpecifier(
                     start_duration=abjad.Duration(1, 2),
                     stop_duration=abjad.Duration(1, 8),
                     written_duration=abjad.Duration(1, 16),
-                    ),
+                ),
                 rmakers.InterpolationSpecifier(
                     start_duration=abjad.Duration(1, 8),
                     stop_duration=abjad.Duration(1, 2),
                     written_duration=abjad.Duration(1, 16),
-                    ),
-                ],
-            tag='guitar_accelerandi',
+                ),
+            ],
+            tag="guitar_accelerandi",
             tie_specifier=rmakers.TieSpecifier(
-                tie_across_divisions=True,
-                repeat_ties=True,
-                ),
-            tuplet_specifier=rmakers.TupletSpecifier(
-                duration_bracket=True,
-                ),
+                tie_across_divisions=True, repeat_ties=True
             ),
-        )
+            tuplet_specifier=rmakers.TupletSpecifier(duration_bracket=True),
+        ),
+    )
