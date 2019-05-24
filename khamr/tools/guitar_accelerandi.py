@@ -3,8 +3,9 @@ import baca
 from abjadext import rmakers
 
 
-def guitar_accelerandi(fuse_by_counts, 
-    division_masks=None) -> baca.RhythmCommand:
+def guitar_accelerandi(
+    fuse_by_counts, division_masks=None
+) -> baca.RhythmCommand:
     """
     Makes guitar accelerandi.
     """
