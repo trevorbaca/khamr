@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def alternate_divisions(strip_ties=None):
+def alternate_divisions(strip_ties=None) -> baca.RhythmCommand:
     """
     Makes repeat-tied alternate divisions.
     """

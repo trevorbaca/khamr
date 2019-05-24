@@ -1,7 +1,7 @@
 import baca
 
 
-def quarter_divisions():
+def quarter_divisions() -> baca.DivisionMaker:
     """
     Makes quarter division-maker.
     """

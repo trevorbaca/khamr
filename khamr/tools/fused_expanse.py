@@ -1,15 +1,15 @@
 import abjad
 import baca
-import khamr
 from abjadext import rmakers
+from .beat_divisions import beat_divisions
 
 
-def fused_expanse(fuse_by_counts, dmask=None):
+def fused_expanse(fuse_by_counts, dmask=None) -> baca.RhythmCommand:
     """
     Makes fused expanse rhythm.
     """
     return baca.rhythm(
-        division_maker=khamr.beat_divisions().fuse_by_counts(
+        division_maker=beat_divisions().fuse_by_counts(
             counts=fuse_by_counts, cyclic=True
         ),
         rewrite_meter=True,

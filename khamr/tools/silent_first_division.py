@@ -4,7 +4,7 @@ from abjadext import rmakers
 from .beat_divisions import beat_divisions
 
 
-def silent_first_division():
+def silent_first_division() -> baca.RhythmCommand:
     """
     Makes repeat-tied durations with silent first division.
     """
