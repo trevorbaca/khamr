@@ -9,8 +9,9 @@ def guitar_isolata(*, dmask=None) -> baca.RhythmCommand:
     Makes guitar isolata.
     """
 
-    division_masks: typing.List[typing.Union[rmakers.SilenceMask,
-    rmakers.SustainMask]]
+    division_masks: typing.List[
+        typing.Union[rmakers.SilenceMask, rmakers.SustainMask]
+    ]
     if dmask is None:
         division_masks = [
             rmakers.silence([1, 2, 3, 5, 6, 7, 8], 9),

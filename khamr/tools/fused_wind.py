@@ -4,8 +4,9 @@ from abjadext import rmakers
 from .beat_divisions import beat_divisions
 
 
-def fused_wind(fuse_by_counts, *, dmask=None, 
-    denominator=8) -> baca.RhythmCommand:
+def fused_wind(
+    fuse_by_counts, *, dmask=None, denominator=8
+) -> baca.RhythmCommand:
     """
     Makes fused wind rhythm.
     """
