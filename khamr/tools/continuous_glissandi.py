@@ -4,7 +4,7 @@ import khamr
 from abjadext import rmakers
 
 
-def continuous_glissandi(tuplet_ratio_rotation, dmask):
+def continuous_glissandi(tuplet_ratio_rotation, dmask) -> baca.RhythmCommand:
     """
     Makes continuous glissandi rhythm.
     """

@@ -1,4 +1,7 @@
-def string_tuplet_ratios(number):
+import typing
+
+
+def string_tuplet_ratios(number) -> typing.List[typing.Tuple]:
     """
     Makes string tuplet ratios.
     """

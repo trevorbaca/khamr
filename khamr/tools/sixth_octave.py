@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def sixth_octave():
+def sixth_octave() -> baca.RegisterCommand:
     """
     Makes sixth octave register command.
     """

@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def halo_hairpins():
+def halo_hairpins() -> baca.Suite:
     """
     Makes halo hairpins.
     """
@@ -24,4 +24,4 @@ def halo_hairpins():
             map=baca.plts()[abjad.index([i], len(hairpins))],
         )
         commands.append(command)
-    return commands
+    return baca.chunk(*commands)

@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def wide_third_octave():
+def wide_third_octave() -> baca.RegisterCommand:
     """
     Makes wide third octave register command.
     """

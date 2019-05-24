@@ -1,7 +1,7 @@
 import baca
 
 
-def levine_multiphonic(number):
+def levine_multiphonic(number) -> baca.Markup:
     """
     Makes Levine multiphonic.
     """

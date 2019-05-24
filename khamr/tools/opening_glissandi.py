@@ -4,7 +4,7 @@ import khamr
 from abjadext import rmakers
 
 
-def opening_glissandi(tuplet_ratio_rotation, dmask):
+def opening_glissandi(tuplet_ratio_rotation, dmask) -> baca.RhythmCommand:
     """
     Makes opening glissandi rhythm.
     """

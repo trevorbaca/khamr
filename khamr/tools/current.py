@@ -1,16 +1,16 @@
 import abjad
 import baca
-import khamr
 from abjadext import rmakers
+from .beat_divisions import beat_divisions
 
 
-def current(counts, dmask=None):
+def current(counts, dmask=None) -> baca.RhythmCommand:
     """
     Makes current rhythm.
     """
     tuplet_ratios = [_ * (1,) for _ in counts]
     return baca.rhythm(
-        division_maker=khamr.beat_divisions(),
+        division_maker=beat_divisions(),
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=dmask,

@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def closing():
+def closing() -> baca.RhythmCommand:
     """
     Makes closing rhythm.
     """
