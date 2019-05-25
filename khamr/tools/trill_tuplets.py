@@ -1,7 +1,6 @@
 import abjad
 import baca
 from abjadext import rmakers
-from .quarter_divisions import quarter_divisions
 from .string_tuplet_ratios import string_tuplet_ratios
 
 
@@ -10,7 +9,7 @@ def trill_tuplets(tuplet_ratios, *, dmask=None) -> baca.RhythmCommand:
     Makes trill tuplet rhythm.
     """
     return baca.rhythm(
-        division_maker=quarter_divisions(),
+        division_expression=baca.split_by_durations([(1, 4)]),
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=dmask,
