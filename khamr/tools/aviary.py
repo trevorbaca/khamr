@@ -8,11 +8,7 @@ def aviary(duration, extra_counts_per_division) -> baca.RhythmCommand:
     Makes aviary rhythm.
     """
 
-    division_maker = baca.DivisionMaker()
-    division_maker = division_maker.fuse_by_counts(counts=abjad.Infinity)
-    division_maker = division_maker.split_by_durations(
-        cyclic=True, durations=[duration]
-    )
+    expression = baca.split_by_durations([duration])
 
     rhythm_maker = rmakers.EvenDivisionRhythmMaker(
         denominators=[16],
@@ -21,5 +17,5 @@ def aviary(duration, extra_counts_per_division) -> baca.RhythmCommand:
     )
 
     return baca.rhythm(
-        division_maker=division_maker, rhythm_maker=rhythm_maker
+        division_expression=expression, rhythm_maker=rhythm_maker
     )
