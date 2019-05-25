@@ -3,29 +3,33 @@ import baca
 from abjadext import rmakers
 
 
-def guitar_accelerandi(
-    fuse_by_counts, division_masks=None
-) -> baca.RhythmCommand:
+def guitar_accelerandi(counts) -> baca.RhythmCommand:
     """
     Makes guitar accelerandi.
     """
+
+    expression = baca.DivisionSequenceExpression()
+    expression = expression.sequence()
+    expression = expression.partition_by_counts(
+        counts, cyclic=True, overhang=True
+    )
+    expression = expression.map(baca.sequence().sum())
+    expression = expression.flatten(depth=-1)
+
     return baca.rhythm(
-        division_maker=baca.DivisionMaker()
-        .fuse_by_counts(counts=fuse_by_counts, cyclic=True)
-        .flatten(depth=-1),
+        division_expression=expression,
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
             beam_specifier=rmakers.BeamSpecifier(use_feather_beams=True),
-            division_masks=division_masks,
             interpolation_specifiers=[
                 rmakers.InterpolationSpecifier(
-                    start_duration=abjad.Duration(1, 2),
-                    stop_duration=abjad.Duration(1, 8),
-                    written_duration=abjad.Duration(1, 16),
+                    start_duration=(1, 2),
+                    stop_duration=(1, 8),
+                    written_duration=(1, 16),
                 ),
                 rmakers.InterpolationSpecifier(
-                    start_duration=abjad.Duration(1, 8),
-                    stop_duration=abjad.Duration(1, 2),
-                    written_duration=abjad.Duration(1, 16),
+                    start_duration=(1, 8),
+                    stop_duration=(1, 2),
+                    written_duration=(1, 16),
                 ),
             ],
             tag="guitar_accelerandi",
