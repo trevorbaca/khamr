@@ -138,7 +138,7 @@ maker(
 
 maker(
     ('perc', (21, 30)),
-    khamr.fused_expanse(None, stage_5_silence_mask),
+    khamr.quarter_hits(dmask=stage_5_silence_mask),
     )
 
 # vn

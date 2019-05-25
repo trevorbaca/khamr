@@ -1,7 +1,6 @@
 import abjad
 import baca
 from abjadext import rmakers
-from .beat_divisions import beat_divisions
 
 
 def current(counts, dmask=None) -> baca.RhythmCommand:
@@ -10,7 +9,7 @@ def current(counts, dmask=None) -> baca.RhythmCommand:
     """
     tuplet_ratios = [_ * (1,) for _ in counts]
     return baca.rhythm(
-        division_maker=beat_divisions(),
+        division_expression=baca.compound_quarter_divisions(),
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=dmask,

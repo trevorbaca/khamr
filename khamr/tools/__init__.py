@@ -3,7 +3,6 @@ from .MarkupLibrary import MarkupLibrary
 from .ScoreTemplate import ScoreTemplate
 from .alternate_divisions import alternate_divisions
 from .aviary import aviary
-from .beat_divisions import beat_divisions
 from .closing import closing
 from .continuous_glissandi import continuous_glissandi
 from .current import current
