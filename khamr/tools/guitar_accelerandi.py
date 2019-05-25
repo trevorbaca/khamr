@@ -9,7 +9,7 @@ def guitar_accelerandi(counts) -> baca.RhythmCommand:
     """
 
     expression = baca.DivisionSequenceExpression()
-    expression = expression.sequence()
+    expression = expression.division_sequence()
     expression = expression.partition_by_counts(
         counts, cyclic=True, overhang=True
     )
