@@ -19,9 +19,6 @@ from khamr.materials.contrabass_halo_pitches.definition import (
 from khamr.materials.double_stop_halo_pitches.definition import (
     double_stop_halo_pitches,
 )
-from khamr.materials.full_measure_divisions.definition import (
-    full_measure_divisions,
-)
 from khamr.materials.instruments.definition import instruments
 from khamr.materials.margin_markups.definition import margin_markups
 from khamr.materials.metric_modulations.definition import metric_modulations
