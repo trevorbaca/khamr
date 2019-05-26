@@ -2,7 +2,6 @@ from .cello_halo_pitches.definition import cello_halo_pitches
 from .color_trill_pitches.definition import color_trill_pitches
 from .contrabass_halo_pitches.definition import contrabass_halo_pitches
 from .double_stop_halo_pitches.definition import double_stop_halo_pitches
-from .full_measure_divisions.definition import full_measure_divisions
 from .instruments.definition import instruments
 from .margin_markups.definition import margin_markups
 from .metric_modulations.definition import metric_modulations
