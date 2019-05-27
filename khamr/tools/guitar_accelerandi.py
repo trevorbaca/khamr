@@ -8,16 +8,8 @@ def guitar_accelerandi(counts) -> baca.RhythmCommand:
     Makes guitar accelerandi.
     """
 
-    expression = baca.DivisionSequenceExpression()
-    expression = expression.division_sequence()
-    expression = expression.partition_by_counts(
-        counts, cyclic=True, overhang=True
-    )
-    expression = expression.map(baca.sequence().sum())
-    expression = expression.flatten(depth=-1)
-
     return baca.rhythm(
-        division_expression=expression,
+        division_expression=baca.fuse_by_counts(counts, cyclic=True),
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
             beam_specifier=rmakers.BeamSpecifier(use_feather_beams=True),
             interpolation_specifiers=[
