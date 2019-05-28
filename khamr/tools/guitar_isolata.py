@@ -22,7 +22,7 @@ def guitar_isolata(*, dmask=None) -> baca.RhythmCommand:
         division_masks = [dmask]
 
     return baca.rhythm(
-        divisions=baca.split_by_durations([(1, 4)]),
+        divisions=baca.quarter_split_each(),
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=division_masks,

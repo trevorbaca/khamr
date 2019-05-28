@@ -3,14 +3,12 @@ import baca
 from abjadext import rmakers
 
 
-def fused_wind(
-    fuse_by_counts, *, dmask=None, denominator=8
-) -> baca.RhythmCommand:
+def fused_wind(counts, *, dmask=None, denominator=8) -> baca.RhythmCommand:
     """
     Makes fused wind rhythm.
     """
     return baca.rhythm(
-        divisions=baca.fuse_compound_quarter_divisions(fuse_by_counts),
+        divisions=baca.fuse_compound_quarter_divisions(counts, cyclic=True),
         rewrite_meter=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
             division_masks=dmask,
