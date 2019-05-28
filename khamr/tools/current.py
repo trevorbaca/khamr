@@ -9,7 +9,7 @@ def current(counts, dmask=None) -> baca.RhythmCommand:
     """
     tuplet_ratios = [_ * (1,) for _ in counts]
     return baca.rhythm(
-        division_expression=baca.compound_quarter_divisions(),
+        divisions=baca.quarter_divisions(compound=(3, 2)),
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=dmask,
