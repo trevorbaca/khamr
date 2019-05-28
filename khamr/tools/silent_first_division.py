@@ -8,7 +8,7 @@ def silent_first_division() -> baca.RhythmCommand:
     Makes repeat-tied durations with silent first division.
     """
     return baca.rhythm(
-        division_expression=baca.compound_quarter_divisions(),
+        divisions=baca.quarter_divisions(compound=(3, 2)),
         rewrite_meter=True,
         rhythm_maker=rmakers.NoteRhythmMaker(
             division_masks=[rmakers.silence([0])],

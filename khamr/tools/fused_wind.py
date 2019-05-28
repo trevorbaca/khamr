@@ -10,9 +10,7 @@ def fused_wind(
     Makes fused wind rhythm.
     """
     return baca.rhythm(
-        division_expression=baca.fuse_compound_quarter_divisions(
-            fuse_by_counts
-        ),
+        divisions=baca.fuse_compound_quarter_divisions(fuse_by_counts),
         rewrite_meter=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
             division_masks=dmask,

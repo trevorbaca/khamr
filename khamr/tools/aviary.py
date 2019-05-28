@@ -16,6 +16,4 @@ def aviary(duration, extra_counts_per_division) -> baca.RhythmCommand:
         tag="aviary",
     )
 
-    return baca.rhythm(
-        division_expression=expression, rhythm_maker=rhythm_maker
-    )
+    return baca.rhythm(divisions=expression, rhythm_maker=rhythm_maker)
