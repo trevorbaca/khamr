@@ -8,7 +8,7 @@ def aviary(duration, extra_counts_per_division) -> baca.RhythmCommand:
     Makes aviary rhythm.
     """
 
-    expression = baca.split_by_durations([duration])
+    expression = baca.split_expanse([duration], cyclic=True)
 
     rhythm_maker = rmakers.EvenDivisionRhythmMaker(
         denominators=[16],
