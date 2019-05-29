@@ -19,7 +19,7 @@ def fused_wind(counts, *, dmask=None, denominator=8) -> baca.RhythmCommand:
                 suffix_counts=[1],
                 talea_denominator=denominator,
             ),
-            tag="fused_wind",
+            tag="khamr.fused_wind",
             tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
         ),
     )

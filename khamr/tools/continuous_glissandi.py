@@ -21,7 +21,7 @@ def continuous_glissandi(tuplet_ratio_rotation, dmask) -> baca.RhythmCommand:
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=division_masks,
-            tag="continuous_glissandi",
+            tag="khamr.continuous_glissandi",
             tuplet_ratios=tuplet_ratios,
             tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True, trivialize=True

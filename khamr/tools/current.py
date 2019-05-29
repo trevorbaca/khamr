@@ -13,7 +13,7 @@ def current(counts, dmask=None) -> baca.RhythmCommand:
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=dmask,
-            tag="current",
+            tag="khamr.current",
             tuplet_ratios=tuplet_ratios,
             tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True, trivialize=True

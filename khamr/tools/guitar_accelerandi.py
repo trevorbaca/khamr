@@ -24,7 +24,7 @@ def guitar_accelerandi(counts) -> baca.RhythmCommand:
                     written_duration=(1, 16),
                 ),
             ],
-            tag="guitar_accelerandi",
+            tag="khamr.guitar_accelerandi",
             tie_specifier=rmakers.TieSpecifier(
                 tie_across_divisions=True, repeat_ties=True
             ),

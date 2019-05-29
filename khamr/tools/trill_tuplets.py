@@ -13,7 +13,7 @@ def trill_tuplets(tuplet_ratios, *, dmask=None) -> baca.RhythmCommand:
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=dmask,
-            tag="trill_tuplets",
+            tag="khamr.trill_tuplets",
             tie_specifier=rmakers.TieSpecifier(
                 repeat_ties=True, tie_across_divisions=True
             ),

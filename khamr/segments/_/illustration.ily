@@ -858,7 +858,7 @@ i_Flute_Music_Voice = {                                                        %
     <g' g''>4.
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     <g' g''>4
 
@@ -877,7 +877,7 @@ i_Flute_Music_Voice = {                                                        %
     <g' g''>8
     \repeatTie
 
-    r4.                                                                        %! fused_wind
+    r4.                                                                        %! khamr.fused_wind
 
     % [_ Flute_Music_Voice measure 8]                                          %! _comment_measure_numbers
     r2.
@@ -898,7 +898,7 @@ i_Flute_Music_Voice = {                                                        %
     <g' g''>8
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     <g' g''>4
 
@@ -916,7 +916,7 @@ i_Flute_Music_Voice = {                                                        %
     <g' g''>4
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     % [_ Flute_Music_Voice measure 14]                                         %! _comment_measure_numbers
     r2
@@ -948,7 +948,7 @@ i_Flute_Music_Voice = {                                                        %
     <g' g''>8
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     <gs'! gs''!>2.
 
@@ -964,7 +964,7 @@ i_Flute_Music_Voice = {                                                        %
     <gs'! gs''!>8
     \repeatTie
 
-    r4.                                                                        %! fused_wind
+    r4.                                                                        %! khamr.fused_wind
 
     % [_ Flute_Music_Voice measure 23]                                         %! _comment_measure_numbers
     r2.
@@ -992,7 +992,7 @@ i_Flute_Music_Voice = {                                                        %
     <gs'! gs''!>8
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     % [_ Flute_Music_Voice measure 28]                                         %! _comment_measure_numbers
     <gs'! gs''!>1
@@ -1005,7 +1005,7 @@ i_Flute_Music_Voice = {                                                        %
     <gs'! gs''!>4
     \repeatTie
 
-    r2                                                                         %! fused_wind
+    r2                                                                         %! khamr.fused_wind
 
     % [_ Flute_Music_Voice measure 31]                                         %! _comment_measure_numbers
     r1
@@ -1026,7 +1026,7 @@ i_Flute_Music_Voice = {                                                        %
     <gs'! gs''!>8
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     <gs'! gs''!>4
 
@@ -1041,7 +1041,7 @@ i_Flute_Music_Voice = {                                                        %
     <gs'! gs''!>4.
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     % [_ Flute_Music_Voice measure 37]                                         %! _comment_measure_numbers
     r2.
@@ -1074,7 +1074,7 @@ i_Flute_Music_Voice = {                                                        %
     a''4
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     a''4.
@@ -1090,7 +1090,7 @@ i_Flute_Music_Voice = {                                                        %
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
 
-    r2                                                                         %! fused_wind
+    r2                                                                         %! khamr.fused_wind
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -1193,7 +1193,7 @@ i_Oboe_Music_Voice = {                                                         %
     c'8
     \repeatTie
 
-    r2..                                                                       %! fused_wind
+    r2..                                                                       %! khamr.fused_wind
 
     % [_ Oboe_Music_Voice measure 6]                                           %! _comment_measure_numbers
     r2.
@@ -1211,10 +1211,10 @@ i_Oboe_Music_Voice = {                                                         %
     \repeatTie
 
     % [_ Oboe_Music_Voice measure 9]                                           %! _comment_measure_numbers
-    c'4.                                                                       %! fused_wind
+    c'4.                                                                       %! khamr.fused_wind
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     c'2
 
@@ -1231,7 +1231,7 @@ i_Oboe_Music_Voice = {                                                         %
     c'8
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     r2
 
@@ -1249,10 +1249,10 @@ i_Oboe_Music_Voice = {                                                         %
     \repeatTie
 
     % [_ Oboe_Music_Voice measure 16]                                          %! _comment_measure_numbers
-    c'4.                                                                       %! fused_wind
+    c'4.                                                                       %! khamr.fused_wind
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     % [_ Oboe_Music_Voice measure 17]                                          %! _comment_measure_numbers
     c'2.
@@ -1270,10 +1270,10 @@ i_Oboe_Music_Voice = {                                                         %
     \repeatTie
 
     % [_ Oboe_Music_Voice measure 20]                                          %! _comment_measure_numbers
-    c'4                                                                        %! fused_wind
+    c'4                                                                        %! khamr.fused_wind
     \repeatTie
 
-    r2                                                                         %! fused_wind
+    r2                                                                         %! khamr.fused_wind
 
     r2.
 
@@ -1295,10 +1295,10 @@ i_Oboe_Music_Voice = {                                                         %
     \repeatTie
 
     % [_ Oboe_Music_Voice measure 25]                                          %! _comment_measure_numbers
-    c'4.                                                                       %! fused_wind
+    c'4.                                                                       %! khamr.fused_wind
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     % [_ Oboe_Music_Voice measure 26]                                          %! _comment_measure_numbers
     c'2
@@ -1309,10 +1309,10 @@ i_Oboe_Music_Voice = {                                                         %
     \repeatTie
 
     % [_ Oboe_Music_Voice measure 28]                                          %! _comment_measure_numbers
-    c'2..                                                                      %! fused_wind
+    c'2..                                                                      %! khamr.fused_wind
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     % [_ Oboe_Music_Voice measure 29]                                          %! _comment_measure_numbers
     r2.
@@ -1332,7 +1332,7 @@ i_Oboe_Music_Voice = {                                                         %
     c'4.
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     % [_ Oboe_Music_Voice measure 33]                                          %! _comment_measure_numbers
     c'2.
@@ -1351,7 +1351,7 @@ i_Oboe_Music_Voice = {                                                         %
     c'8
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     r2
 
@@ -1393,7 +1393,7 @@ i_Oboe_Music_Voice = {                                                         %
     <e'' b''>4.
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     <e'' b''>2.
     - \flageolet                                                               %! baca_flageolet:IndicatorCommand
@@ -1410,7 +1410,7 @@ i_Oboe_Music_Voice = {                                                         %
     <e'' b''>4
     \repeatTie
 
-    r2                                                                         %! fused_wind
+    r2                                                                         %! khamr.fused_wind
 
     r2.
 
@@ -1503,7 +1503,7 @@ i_Clarinet_Music_Voice = {                                                     %
     b8
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     % [_ Clarinet_Music_Voice measure 4]                                       %! _comment_measure_numbers
     r2.
@@ -1522,13 +1522,13 @@ i_Clarinet_Music_Voice = {                                                     %
     \repeatTie
 
     % [_ Clarinet_Music_Voice measure 8]                                       %! _comment_measure_numbers
-    b2                                                                         %! fused_wind
+    b2                                                                         %! khamr.fused_wind
     \repeatTie
 
-    b8                                                                         %! fused_wind
+    b8                                                                         %! khamr.fused_wind
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     r2
 
@@ -1549,7 +1549,7 @@ i_Clarinet_Music_Voice = {                                                     %
     b8
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     b2
 
@@ -1568,7 +1568,7 @@ i_Clarinet_Music_Voice = {                                                     %
     b8
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     b2.
 
@@ -1580,7 +1580,7 @@ i_Clarinet_Music_Voice = {                                                     %
     b2..
     \repeatTie
 
-    r4.                                                                        %! fused_wind
+    r4.                                                                        %! khamr.fused_wind
 
     % [_ Clarinet_Music_Voice measure 18]                                      %! _comment_measure_numbers
     r2.
@@ -1606,7 +1606,7 @@ i_Clarinet_Music_Voice = {                                                     %
     b8
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     r2
 
@@ -1628,7 +1628,7 @@ i_Clarinet_Music_Voice = {                                                     %
     b4.
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     b2
 
@@ -1641,10 +1641,10 @@ i_Clarinet_Music_Voice = {                                                     %
     \repeatTie
 
     % [_ Clarinet_Music_Voice measure 31]                                      %! _comment_measure_numbers
-    b8                                                                         %! fused_wind
+    b8                                                                         %! khamr.fused_wind
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     b2.
 
@@ -1655,7 +1655,7 @@ i_Clarinet_Music_Voice = {                                                     %
     b4.
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     % [_ Clarinet_Music_Voice measure 33]                                      %! _comment_measure_numbers
     r2.
@@ -1673,10 +1673,10 @@ i_Clarinet_Music_Voice = {                                                     %
     b2.
     \repeatTie
 
-    b4.                                                                        %! fused_wind
+    b4.                                                                        %! khamr.fused_wind
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     % [_ Clarinet_Music_Voice measure 37]                                      %! _comment_measure_numbers
     r2.
@@ -1704,7 +1704,7 @@ i_Clarinet_Music_Voice = {                                                     %
     b4
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     b4.
 
@@ -1716,14 +1716,14 @@ i_Clarinet_Music_Voice = {                                                     %
     b1
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     b8
 
     b8
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1819,7 +1819,7 @@ i_Saxophone_Music_Voice = {                                                    %
     e''8
     \repeatTie
 
-    r4.                                                                        %! fused_wind
+    r4.                                                                        %! khamr.fused_wind
 
     % [_ Saxophone_Music_Voice measure 6]                                      %! _comment_measure_numbers
     r2.
@@ -1840,7 +1840,7 @@ i_Saxophone_Music_Voice = {                                                    %
     e''2..
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     % [_ Saxophone_Music_Voice measure 10]                                     %! _comment_measure_numbers
     r2.
@@ -1865,7 +1865,7 @@ i_Saxophone_Music_Voice = {                                                    %
     e''4.
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     % [_ Saxophone_Music_Voice measure 15]                                     %! _comment_measure_numbers
     e''1.
@@ -1875,10 +1875,10 @@ i_Saxophone_Music_Voice = {                                                    %
     \repeatTie
 
     % [_ Saxophone_Music_Voice measure 17]                                     %! _comment_measure_numbers
-    e''4.                                                                      %! fused_wind
+    e''4.                                                                      %! khamr.fused_wind
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     e''2.
 
@@ -1895,10 +1895,10 @@ i_Saxophone_Music_Voice = {                                                    %
     \repeatTie
 
     % [_ Saxophone_Music_Voice measure 21]                                     %! _comment_measure_numbers
-    e''8                                                                       %! fused_wind
+    e''8                                                                       %! khamr.fused_wind
     \repeatTie
 
-    r4.                                                                        %! fused_wind
+    r4.                                                                        %! khamr.fused_wind
 
     % [_ Saxophone_Music_Voice measure 22]                                     %! _comment_measure_numbers
     r2
@@ -1918,13 +1918,13 @@ i_Saxophone_Music_Voice = {                                                    %
     \repeatTie
 
     % [_ Saxophone_Music_Voice measure 27]                                     %! _comment_measure_numbers
-    e''2                                                                       %! fused_wind
+    e''2                                                                       %! khamr.fused_wind
     \repeatTie
 
-    e''8                                                                       %! fused_wind
+    e''8                                                                       %! khamr.fused_wind
     \repeatTie
 
-    r2..                                                                       %! fused_wind
+    r2..                                                                       %! khamr.fused_wind
 
     % [_ Saxophone_Music_Voice measure 28]                                     %! _comment_measure_numbers
     r1
@@ -1941,10 +1941,10 @@ i_Saxophone_Music_Voice = {                                                    %
     \repeatTie
 
     % [_ Saxophone_Music_Voice measure 32]                                     %! _comment_measure_numbers
-    e''8                                                                       %! fused_wind
+    e''8                                                                       %! khamr.fused_wind
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     e''1
 
@@ -1956,7 +1956,7 @@ i_Saxophone_Music_Voice = {                                                    %
     e''8
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     e''2.
 
@@ -1984,7 +1984,7 @@ i_Saxophone_Music_Voice = {                                                    %
     e''4
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     % [_ Saxophone_Music_Voice measure 38]                                     %! _comment_measure_numbers
     r2
@@ -2012,7 +2012,7 @@ i_Saxophone_Music_Voice = {                                                    %
     <d'' eqs''!>8
     \repeatTie
 
-    r2..                                                                       %! fused_wind
+    r2..                                                                       %! khamr.fused_wind
 
     % [_ Saxophone_Music_Voice measure 44]                                     %! _comment_measure_numbers
     r2.
@@ -2026,7 +2026,7 @@ i_Saxophone_Music_Voice = {                                                    %
     \repeatTie
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -2086,7 +2086,7 @@ i_Guitar_Music_Voice = {                                                       %
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):abjad.ScoreTemplate.attach_defaults
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    cs'!4                                                                      %! guitar_isolata
+    cs'!4                                                                      %! khamr.guitar_isolata
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-default-indicator-markup "(“Guitar”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -2101,232 +2101,232 @@ i_Guitar_Music_Voice = {                                                       %
             Gt.                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
 
-    r4                                                                         %! guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata
 
     % [_ Guitar_Music_Voice measure 2]                                         %! _comment_measure_numbers
-    r2                                                                         %! guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata
 
     % [_ Guitar_Music_Voice measure 3]                                         %! _comment_measure_numbers
-    r1.                                                                        %! guitar_isolata
+    r1.                                                                        %! khamr.guitar_isolata
 
     % [_ Guitar_Music_Voice measure 4]                                         %! _comment_measure_numbers
-    r2.                                                                        %! guitar_isolata
+    r2.                                                                        %! khamr.guitar_isolata
 
     % [_ Guitar_Music_Voice measure 5]                                         %! _comment_measure_numbers
-    r8                                                                         %! guitar_isolata
+    r8                                                                         %! khamr.guitar_isolata
 
-    c'16                                                                       %! guitar_isolata
+    c'16                                                                       %! khamr.guitar_isolata
 
-    r16                                                                        %! guitar_isolata
+    r16                                                                        %! khamr.guitar_isolata
 
-    r2.                                                                        %! guitar_isolata
+    r2.                                                                        %! khamr.guitar_isolata
 
     % [_ Guitar_Music_Voice measure 6]                                         %! _comment_measure_numbers
-    r4                                                                         %! guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata
 
-    r16                                                                        %! guitar_isolata
+    r16                                                                        %! khamr.guitar_isolata
 
-    a'16                                                                       %! guitar_isolata
+    a'16                                                                       %! khamr.guitar_isolata
 
-    r4.                                                                        %! guitar_isolata
+    r4.                                                                        %! khamr.guitar_isolata
 
     % [_ Guitar_Music_Voice measure 7]                                         %! _comment_measure_numbers
-    r2                                                                         %! guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata
 
-    r8                                                                         %! guitar_isolata
+    r8                                                                         %! khamr.guitar_isolata
 
-    d'16                                                                       %! guitar_isolata
+    d'16                                                                       %! khamr.guitar_isolata
 
-    r16                                                                        %! guitar_isolata
+    r16                                                                        %! khamr.guitar_isolata
 
-    r4                                                                         %! guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata
 
     % [_ Guitar_Music_Voice measure 8]                                         %! _comment_measure_numbers
-    r2.                                                                        %! guitar_isolata
+    r2.                                                                        %! khamr.guitar_isolata
 
-    \times 4/5 {                                                               %! guitar_isolata
+    \times 4/5 {                                                               %! khamr.guitar_isolata
 
-        r8.                                                                    %! guitar_isolata
+        r8.                                                                    %! khamr.guitar_isolata
 
-        fs'!16                                                                 %! guitar_isolata
+        fs'!16                                                                 %! khamr.guitar_isolata
 
-        r16                                                                    %! guitar_isolata
+        r16                                                                    %! khamr.guitar_isolata
 
-    }                                                                          %! guitar_isolata
+    }                                                                          %! khamr.guitar_isolata
 
-    r4                                                                         %! guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata
 
     % [_ Guitar_Music_Voice measure 9]                                         %! _comment_measure_numbers
-    r2                                                                         %! guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata
 
-    \times 4/5 {                                                               %! guitar_isolata
+    \times 4/5 {                                                               %! khamr.guitar_isolata
 
-        r8.                                                                    %! guitar_isolata
+        r8.                                                                    %! khamr.guitar_isolata
 
-        g'16                                                                   %! guitar_isolata
+        g'16                                                                   %! khamr.guitar_isolata
 
-        r16                                                                    %! guitar_isolata
+        r16                                                                    %! khamr.guitar_isolata
 
-    }                                                                          %! guitar_isolata
+    }                                                                          %! khamr.guitar_isolata
 
-    r4                                                                         %! guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata
 
     % [_ Guitar_Music_Voice measure 10]                                        %! _comment_measure_numbers
-    r2.                                                                        %! guitar_isolata
+    r2.                                                                        %! khamr.guitar_isolata
 
-    \times 2/3 {                                                               %! guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata
 
         % [_ Guitar_Music_Voice measure 11]                                    %! _comment_measure_numbers
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-        bf'!4                                                                  %! guitar_isolata
+        bf'!4                                                                  %! khamr.guitar_isolata
 
-    }                                                                          %! guitar_isolata
+    }                                                                          %! khamr.guitar_isolata
 
-    r2.                                                                        %! guitar_isolata
+    r2.                                                                        %! khamr.guitar_isolata
 
-    \times 2/3 {                                                               %! guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata
 
         % [_ Guitar_Music_Voice measure 12]                                    %! _comment_measure_numbers
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-        d'8                                                                    %! guitar_isolata
+        d'8                                                                    %! khamr.guitar_isolata
 
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-    }                                                                          %! guitar_isolata
+    }                                                                          %! khamr.guitar_isolata
 
-    r1                                                                         %! guitar_isolata
+    r1                                                                         %! khamr.guitar_isolata
 
     % [_ Guitar_Music_Voice measure 13]                                        %! _comment_measure_numbers
-    r8                                                                         %! guitar_isolata
+    r8                                                                         %! khamr.guitar_isolata
 
-    ef'!16                                                                     %! guitar_isolata
+    ef'!16                                                                     %! khamr.guitar_isolata
 
-    r8.                                                                        %! guitar_isolata
+    r8.                                                                        %! khamr.guitar_isolata
 
     r4.
 
     % [_ Guitar_Music_Voice measure 14]                                        %! _comment_measure_numbers
-    r4                                                                         %! guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata
 
-    \times 2/3 {                                                               %! guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata
 
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-        cs'!8                                                                  %! guitar_isolata
+        cs'!8                                                                  %! khamr.guitar_isolata
 
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-    }                                                                          %! guitar_isolata
+    }                                                                          %! khamr.guitar_isolata
 
     % [_ Guitar_Music_Voice measure 15]                                        %! _comment_measure_numbers
-    r2.                                                                        %! guitar_isolata
+    r2.                                                                        %! khamr.guitar_isolata
 
-    r4.                                                                        %! guitar_isolata
+    r4.                                                                        %! khamr.guitar_isolata
 
-    b'16                                                                       %! guitar_isolata
+    b'16                                                                       %! khamr.guitar_isolata
 
-    r16                                                                        %! guitar_isolata
+    r16                                                                        %! khamr.guitar_isolata
 
-    r4                                                                         %! guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata
 
     % [_ Guitar_Music_Voice measure 16]                                        %! _comment_measure_numbers
-    r2                                                                         %! guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata
 
     % [_ Guitar_Music_Voice measure 17]                                        %! _comment_measure_numbers
-    r16                                                                        %! guitar_isolata
+    r16                                                                        %! khamr.guitar_isolata
 
-    a'16                                                                       %! guitar_isolata
+    a'16                                                                       %! khamr.guitar_isolata
 
-    r8                                                                         %! guitar_isolata
+    r8                                                                         %! khamr.guitar_isolata
 
-    r2                                                                         %! guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata
 
-    r2                                                                         %! guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata
 
-    \times 4/5 {                                                               %! guitar_isolata
+    \times 4/5 {                                                               %! khamr.guitar_isolata
 
         % [_ Guitar_Music_Voice measure 18]                                    %! _comment_measure_numbers
-        r8.                                                                    %! guitar_isolata
+        r8.                                                                    %! khamr.guitar_isolata
 
-        bf'!16                                                                 %! guitar_isolata
+        bf'!16                                                                 %! khamr.guitar_isolata
 
-        r16                                                                    %! guitar_isolata
+        r16                                                                    %! khamr.guitar_isolata
 
-    }                                                                          %! guitar_isolata
+    }                                                                          %! khamr.guitar_isolata
 
-    r2                                                                         %! guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata
 
     % [_ Guitar_Music_Voice measure 19]                                        %! _comment_measure_numbers
-    r4                                                                         %! guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata
 
-    \times 4/5 {                                                               %! guitar_isolata
+    \times 4/5 {                                                               %! khamr.guitar_isolata
 
-        r8.                                                                    %! guitar_isolata
+        r8.                                                                    %! khamr.guitar_isolata
 
-        af'!16                                                                 %! guitar_isolata
+        af'!16                                                                 %! khamr.guitar_isolata
 
-        r16                                                                    %! guitar_isolata
+        r16                                                                    %! khamr.guitar_isolata
 
-    }                                                                          %! guitar_isolata
+    }                                                                          %! khamr.guitar_isolata
 
-    r2                                                                         %! guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata
 
     % [_ Guitar_Music_Voice measure 20]                                        %! _comment_measure_numbers
-    r2                                                                         %! guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata
 
-    \times 2/3 {                                                               %! guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata
 
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-        e8                                                                     %! guitar_isolata
+        e8                                                                     %! khamr.guitar_isolata
 
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-    }                                                                          %! guitar_isolata
+    }                                                                          %! khamr.guitar_isolata
 
-    r2.                                                                        %! guitar_isolata
+    r2.                                                                        %! khamr.guitar_isolata
 
-    \times 2/3 {                                                               %! guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata
 
         % [_ Guitar_Music_Voice measure 21]                                    %! _comment_measure_numbers
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-        f4                                                                     %! guitar_isolata
+        f4                                                                     %! khamr.guitar_isolata
 
-    }                                                                          %! guitar_isolata
+    }                                                                          %! khamr.guitar_isolata
 
-    r4                                                                         %! guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata
 
     % [_ Guitar_Music_Voice measure 22]                                        %! _comment_measure_numbers
-    r2                                                                         %! guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata
 
     % [_ Guitar_Music_Voice measure 23]                                        %! _comment_measure_numbers
-    r4                                                                         %! guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata
 
-    \times 2/3 {                                                               %! guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata
 
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-        d'8                                                                    %! guitar_isolata
+        d'8                                                                    %! khamr.guitar_isolata
 
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-    }                                                                          %! guitar_isolata
+    }                                                                          %! khamr.guitar_isolata
 
-    r4                                                                         %! guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata
 
     % [_ Guitar_Music_Voice measure 24]                                        %! _comment_measure_numbers
-    r2                                                                         %! guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata
 
-    r8                                                                         %! guitar_isolata
+    r8                                                                         %! khamr.guitar_isolata
 
-    fs'!16                                                                     %! guitar_isolata
+    fs'!16                                                                     %! khamr.guitar_isolata
 
-    r16                                                                        %! guitar_isolata
+    r16                                                                        %! khamr.guitar_isolata
 
-    r4                                                                         %! guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata
 
     \override TupletNumber.text = \markup {
         \scale
@@ -2367,23 +2367,23 @@ i_Guitar_Music_Voice = {                                                       %
                     }
                 }
         }
-    \times 1/1 {                                                               %! guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi
 
         % [_ Guitar_Music_Voice measure 25]                                    %! _comment_measure_numbers
         \override TupletBracket.staff-padding = #4                             %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
         \once \override Beam.grow-direction = #right
-        cs''!16 * 117/16                                                       %! guitar_accelerandi
+        cs''!16 * 117/16                                                       %! khamr.guitar_accelerandi
         ^ \markup { "move towards (and then back away from) the bridge at the center of each accelerando" } %! baca_markup:IndicatorCommand
-        [                                                                      %! guitar_accelerandi
+        [                                                                      %! khamr.guitar_accelerandi
 
-        c''16 * 73/16                                                          %! guitar_accelerandi
+        c''16 * 73/16                                                          %! khamr.guitar_accelerandi
 
-        a''16 * 73/32                                                          %! guitar_accelerandi
+        a''16 * 73/32                                                          %! khamr.guitar_accelerandi
 
-        d''16 * 59/32                                                          %! guitar_accelerandi
-        ]                                                                      %! guitar_accelerandi
+        d''16 * 59/32                                                          %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi
 
-    }                                                                          %! guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -2425,28 +2425,28 @@ i_Guitar_Music_Voice = {                                                       %
                     }
                 }
         }
-    \times 1/1 {                                                               %! guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi
 
         % [_ Guitar_Music_Voice measure 27]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        d''16 * 115/64                                                         %! guitar_accelerandi
+        d''16 * 115/64                                                         %! khamr.guitar_accelerandi
         \repeatTie
-        [                                                                      %! guitar_accelerandi
+        [                                                                      %! khamr.guitar_accelerandi
 
-        fs''!16 * 121/64                                                       %! guitar_accelerandi
+        fs''!16 * 121/64                                                       %! khamr.guitar_accelerandi
 
-        g''16 * 139/64                                                         %! guitar_accelerandi
+        g''16 * 139/64                                                         %! khamr.guitar_accelerandi
 
-        bf''!16 * 87/32                                                        %! guitar_accelerandi
+        bf''!16 * 87/32                                                        %! khamr.guitar_accelerandi
 
-        d''16 * 117/32                                                         %! guitar_accelerandi
+        d''16 * 117/32                                                         %! khamr.guitar_accelerandi
 
-        ef''!16 * 81/16                                                        %! guitar_accelerandi
+        ef''!16 * 81/16                                                        %! khamr.guitar_accelerandi
 
-        cs''!16 * 429/64                                                       %! guitar_accelerandi
-        ]                                                                      %! guitar_accelerandi
+        cs''!16 * 429/64                                                       %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi
 
-    }                                                                          %! guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -2488,28 +2488,28 @@ i_Guitar_Music_Voice = {                                                       %
                     }
                 }
         }
-    \times 1/1 {                                                               %! guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi
 
         % [_ Guitar_Music_Voice measure 28]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        cs''!16 * 487/64                                                       %! guitar_accelerandi
+        cs''!16 * 487/64                                                       %! khamr.guitar_accelerandi
         \repeatTie
-        [                                                                      %! guitar_accelerandi
+        [                                                                      %! khamr.guitar_accelerandi
 
-        b''16 * 209/32                                                         %! guitar_accelerandi
+        b''16 * 209/32                                                         %! khamr.guitar_accelerandi
 
-        a''16 * 143/32                                                         %! guitar_accelerandi
+        a''16 * 143/32                                                         %! khamr.guitar_accelerandi
 
-        bf''!16 * 197/64                                                       %! guitar_accelerandi
+        bf''!16 * 197/64                                                       %! khamr.guitar_accelerandi
 
-        af''!16 * 19/8                                                         %! guitar_accelerandi
+        af''!16 * 19/8                                                         %! khamr.guitar_accelerandi
 
-        e''16 * 65/32                                                          %! guitar_accelerandi
+        e''16 * 65/32                                                          %! khamr.guitar_accelerandi
 
-        f''16 * 61/32                                                          %! guitar_accelerandi
-        ]                                                                      %! guitar_accelerandi
+        f''16 * 61/32                                                          %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi
 
-    }                                                                          %! guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -2551,22 +2551,22 @@ i_Guitar_Music_Voice = {                                                       %
                     }
                 }
         }
-    \times 1/1 {                                                               %! guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi
 
         % [_ Guitar_Music_Voice measure 30]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        f''16 * 13/8                                                           %! guitar_accelerandi
+        f''16 * 13/8                                                           %! khamr.guitar_accelerandi
         \repeatTie
-        [                                                                      %! guitar_accelerandi
+        [                                                                      %! khamr.guitar_accelerandi
 
-        d''16 * 125/64                                                         %! guitar_accelerandi
+        d''16 * 125/64                                                         %! khamr.guitar_accelerandi
 
-        fs''!16 * 49/16                                                        %! guitar_accelerandi
+        fs''!16 * 49/16                                                        %! khamr.guitar_accelerandi
 
-        g''16 * 343/64                                                         %! guitar_accelerandi
-        ]                                                                      %! guitar_accelerandi
+        g''16 * 343/64                                                         %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi
 
-    }                                                                          %! guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -2610,32 +2610,32 @@ i_Guitar_Music_Voice = {                                                       %
                     }
                 }
         }
-    \times 1/1 {                                                               %! guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi
 
         % [_ Guitar_Music_Voice measure 31]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        g''16 * 123/16                                                         %! guitar_accelerandi
+        g''16 * 123/16                                                         %! khamr.guitar_accelerandi
         \repeatTie
-        [                                                                      %! guitar_accelerandi
+        [                                                                      %! khamr.guitar_accelerandi
 
-        bf''!16 * 449/64                                                       %! guitar_accelerandi
+        bf''!16 * 449/64                                                       %! khamr.guitar_accelerandi
 
-        a''16 * 351/64                                                         %! guitar_accelerandi
+        a''16 * 351/64                                                         %! khamr.guitar_accelerandi
 
-        ef''!16 * 65/16                                                        %! guitar_accelerandi
+        ef''!16 * 65/16                                                        %! khamr.guitar_accelerandi
 
-        cs''!16 * 199/64                                                       %! guitar_accelerandi
+        cs''!16 * 199/64                                                       %! khamr.guitar_accelerandi
 
-        b''16 * 81/32                                                          %! guitar_accelerandi
+        b''16 * 81/32                                                          %! khamr.guitar_accelerandi
 
-        f''16 * 35/16                                                          %! guitar_accelerandi
+        f''16 * 35/16                                                          %! khamr.guitar_accelerandi
 
-        bf''!16 * 2                                                            %! guitar_accelerandi
+        bf''!16 * 2                                                            %! khamr.guitar_accelerandi
 
-        af''!16 * 123/64                                                       %! guitar_accelerandi
-        ]                                                                      %! guitar_accelerandi
+        af''!16 * 123/64                                                       %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi
 
-    }                                                                          %! guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -2677,22 +2677,22 @@ i_Guitar_Music_Voice = {                                                       %
                     }
                 }
         }
-    \times 1/1 {                                                               %! guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi
 
         % [_ Guitar_Music_Voice measure 33]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        af''!16 * 13/8                                                         %! guitar_accelerandi
+        af''!16 * 13/8                                                         %! khamr.guitar_accelerandi
         \repeatTie
-        [                                                                      %! guitar_accelerandi
+        [                                                                      %! khamr.guitar_accelerandi
 
-        e''16 * 125/64                                                         %! guitar_accelerandi
+        e''16 * 125/64                                                         %! khamr.guitar_accelerandi
 
-        d''16 * 49/16                                                          %! guitar_accelerandi
+        d''16 * 49/16                                                          %! khamr.guitar_accelerandi
 
-        cs''!16 * 343/64                                                       %! guitar_accelerandi
-        ]                                                                      %! guitar_accelerandi
+        cs''!16 * 343/64                                                       %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi
 
-    }                                                                          %! guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -2734,30 +2734,30 @@ i_Guitar_Music_Voice = {                                                       %
                     }
                 }
         }
-    \times 1/1 {                                                               %! guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi
 
         % [_ Guitar_Music_Voice measure 34]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        cs''!16 * 245/32                                                       %! guitar_accelerandi
+        cs''!16 * 245/32                                                       %! khamr.guitar_accelerandi
         \repeatTie
-        [                                                                      %! guitar_accelerandi
+        [                                                                      %! khamr.guitar_accelerandi
 
-        c''16 * 109/16                                                         %! guitar_accelerandi
+        c''16 * 109/16                                                         %! khamr.guitar_accelerandi
 
-        a''16 * 161/32                                                         %! guitar_accelerandi
+        a''16 * 161/32                                                         %! khamr.guitar_accelerandi
 
-        b''16 * 115/32                                                         %! guitar_accelerandi
+        b''16 * 115/32                                                         %! khamr.guitar_accelerandi
 
-        a''16 * 175/64                                                         %! guitar_accelerandi
+        a''16 * 175/64                                                         %! khamr.guitar_accelerandi
 
-        ef''!16 * 9/4                                                          %! guitar_accelerandi
+        ef''!16 * 9/4                                                          %! khamr.guitar_accelerandi
 
-        cs''!16 * 129/64                                                       %! guitar_accelerandi
+        cs''!16 * 129/64                                                       %! khamr.guitar_accelerandi
 
-        e''16 * 61/32                                                          %! guitar_accelerandi
-        ]                                                                      %! guitar_accelerandi
+        e''16 * 61/32                                                          %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi
 
-    }                                                                          %! guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -2801,26 +2801,26 @@ i_Guitar_Music_Voice = {                                                       %
                     }
                 }
         }
-    \times 1/1 {                                                               %! guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi
 
         % [_ Guitar_Music_Voice measure 36]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        e''16 * 113/64                                                         %! guitar_accelerandi
+        e''16 * 113/64                                                         %! khamr.guitar_accelerandi
         \repeatTie
-        [                                                                      %! guitar_accelerandi
+        [                                                                      %! khamr.guitar_accelerandi
 
-        f''16 * 121/64                                                         %! guitar_accelerandi
+        f''16 * 121/64                                                         %! khamr.guitar_accelerandi
 
-        bf''!16 * 147/64                                                       %! guitar_accelerandi
+        bf''!16 * 147/64                                                       %! khamr.guitar_accelerandi
 
-        af''!16 * 25/8                                                         %! guitar_accelerandi
+        af''!16 * 25/8                                                         %! khamr.guitar_accelerandi
 
-        a''16 * 145/32                                                         %! guitar_accelerandi
+        a''16 * 145/32                                                         %! khamr.guitar_accelerandi
 
-        d''16 * 409/64                                                         %! guitar_accelerandi
-        ]                                                                      %! guitar_accelerandi
+        d''16 * 409/64                                                         %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi
 
-    }                                                                          %! guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -2864,24 +2864,24 @@ i_Guitar_Music_Voice = {                                                       %
                     }
                 }
         }
-    \times 1/1 {                                                               %! guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi
 
         % [_ Guitar_Music_Voice measure 37]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        d''16 * 477/64                                                         %! guitar_accelerandi
+        d''16 * 477/64                                                         %! khamr.guitar_accelerandi
         \repeatTie
-        [                                                                      %! guitar_accelerandi
+        [                                                                      %! khamr.guitar_accelerandi
 
-        cs''!16 * 353/64                                                       %! guitar_accelerandi
+        cs''!16 * 353/64                                                       %! khamr.guitar_accelerandi
 
-        c''16 * 97/32                                                          %! guitar_accelerandi
+        c''16 * 97/32                                                          %! khamr.guitar_accelerandi
 
-        bf''!16 * 17/8                                                         %! guitar_accelerandi
+        bf''!16 * 17/8                                                         %! khamr.guitar_accelerandi
 
-        d''16 * 15/8                                                           %! guitar_accelerandi
-        ]                                                                      %! guitar_accelerandi
+        d''16 * 15/8                                                           %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi
 
-    }                                                                          %! guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -2923,91 +2923,91 @@ i_Guitar_Music_Voice = {                                                       %
                     }
                 }
         }
-    \times 1/1 {                                                               %! guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi
 
         % [_ Guitar_Music_Voice measure 39]                                    %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        d''16 * 115/64                                                         %! guitar_accelerandi
+        d''16 * 115/64                                                         %! khamr.guitar_accelerandi
         \repeatTie
-        [                                                                      %! guitar_accelerandi
+        [                                                                      %! khamr.guitar_accelerandi
 
-        fs''!16 * 121/64                                                       %! guitar_accelerandi
+        fs''!16 * 121/64                                                       %! khamr.guitar_accelerandi
 
-        g''16 * 139/64                                                         %! guitar_accelerandi
+        g''16 * 139/64                                                         %! khamr.guitar_accelerandi
 
-        af''!16 * 87/32                                                        %! guitar_accelerandi
+        af''!16 * 87/32                                                        %! khamr.guitar_accelerandi
 
-        e''16 * 117/32                                                         %! guitar_accelerandi
+        e''16 * 117/32                                                         %! khamr.guitar_accelerandi
 
-        f''16 * 81/16                                                          %! guitar_accelerandi
+        f''16 * 81/16                                                          %! khamr.guitar_accelerandi
 
-        bf''!16 * 429/64                                                       %! guitar_accelerandi
-        ]                                                                      %! guitar_accelerandi
+        bf''!16 * 429/64                                                       %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi
 
-    }                                                                          %! guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi
     \revert TupletNumber.text
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! guitar_accelerandi
-    \times 1/1 {                                                               %! guitar_accelerandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi
 
         % [_ Guitar_Music_Voice measure 40]                                    %! _comment_measure_numbers
-        bf''!2                                                                 %! guitar_accelerandi
+        bf''!2                                                                 %! khamr.guitar_accelerandi
         \repeatTie
 
-    }                                                                          %! guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi
 
-    \times 2/3 {                                                               %! guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata
 
         % [_ Guitar_Music_Voice measure 41]                                    %! _comment_measure_numbers
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-        c''8                                                                   %! guitar_isolata
+        c''8                                                                   %! khamr.guitar_isolata
 
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-    }                                                                          %! guitar_isolata
+    }                                                                          %! khamr.guitar_isolata
 
-    r2                                                                         %! guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata
 
-    r4                                                                         %! guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata
 
-    \times 2/3 {                                                               %! guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata
 
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-        a''4                                                                   %! guitar_isolata
+        a''4                                                                   %! khamr.guitar_isolata
 
-    }                                                                          %! guitar_isolata
+    }                                                                          %! khamr.guitar_isolata
 
     % [_ Guitar_Music_Voice measure 42]                                        %! _comment_measure_numbers
-    r2.                                                                        %! guitar_isolata
+    r2.                                                                        %! khamr.guitar_isolata
 
     % [_ Guitar_Music_Voice measure 43]                                        %! _comment_measure_numbers
-    r4                                                                         %! guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata
 
-    \times 2/3 {                                                               %! guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata
 
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-        d''8                                                                   %! guitar_isolata
+        d''8                                                                   %! khamr.guitar_isolata
 
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-    }                                                                          %! guitar_isolata
+    }                                                                          %! khamr.guitar_isolata
 
-    r2                                                                         %! guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata
 
     % [_ Guitar_Music_Voice measure 44]                                        %! _comment_measure_numbers
-    r4.                                                                        %! guitar_isolata
+    r4.                                                                        %! khamr.guitar_isolata
 
-    cs''!16                                                                    %! guitar_isolata
+    cs''!16                                                                    %! khamr.guitar_isolata
     \revert NoteHead.style                                                     %! baca_note_head_style_cross:OverrideCommand(2)
 
-    r16                                                                        %! guitar_isolata
+    r16                                                                        %! khamr.guitar_isolata
 
-    r4                                                                         %! guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata
 
-    r2.                                                                        %! guitar_isolata
+    r2.                                                                        %! khamr.guitar_isolata
     \revert TupletBracket.staff-padding                                        %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -3247,7 +3247,7 @@ i_Piano_Music_Voice = {                                                        %
                     }
                 }
         }
-    \times 1/1 {                                                               %! guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi
 
         % [_ Piano_Music_Voice measure 25]                                     %! _comment_measure_numbers
         \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
@@ -3260,33 +3260,33 @@ i_Piano_Music_Voice = {                                                        %
     %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-        cs''''!16 * 247/32                                                     %! guitar_accelerandi
+        cs''''!16 * 247/32                                                     %! khamr.guitar_accelerandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-mf-ancora                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         ^ \markup { "match dynamic levels of guitar" }                         %! baca_markup:IndicatorCommand
-        [                                                                      %! guitar_accelerandi
+        [                                                                      %! khamr.guitar_accelerandi
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        c''''16 * 459/64                                                       %! guitar_accelerandi
+        c''''16 * 459/64                                                       %! khamr.guitar_accelerandi
 
-        a'''16 * 187/32                                                        %! guitar_accelerandi
+        a'''16 * 187/32                                                        %! khamr.guitar_accelerandi
 
-        d''''16 * 287/64                                                       %! guitar_accelerandi
+        d''''16 * 287/64                                                       %! khamr.guitar_accelerandi
 
-        fs'''!16 * 223/64                                                      %! guitar_accelerandi
+        fs'''!16 * 223/64                                                      %! khamr.guitar_accelerandi
 
-        g'''16 * 181/64                                                        %! guitar_accelerandi
+        g'''16 * 181/64                                                        %! khamr.guitar_accelerandi
 
-        bf'''!16 * 153/64                                                      %! guitar_accelerandi
+        bf'''!16 * 153/64                                                      %! khamr.guitar_accelerandi
 
-        d''''16 * 137/64                                                       %! guitar_accelerandi
+        d''''16 * 137/64                                                       %! khamr.guitar_accelerandi
 
-        ef''''!16 * 2                                                          %! guitar_accelerandi
+        ef''''!16 * 2                                                          %! khamr.guitar_accelerandi
 
-        cs''''!16 * 31/16                                                      %! guitar_accelerandi
-        ]                                                                      %! guitar_accelerandi
+        cs''''!16 * 31/16                                                      %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi
 
-    }                                                                          %! guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -3328,30 +3328,30 @@ i_Piano_Music_Voice = {                                                        %
                     }
                 }
         }
-    \times 1/1 {                                                               %! guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi
 
         % [_ Piano_Music_Voice measure 28]                                     %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        cs''''!16 * 117/64                                                     %! guitar_accelerandi
+        cs''''!16 * 117/64                                                     %! khamr.guitar_accelerandi
         \repeatTie
-        [                                                                      %! guitar_accelerandi
+        [                                                                      %! khamr.guitar_accelerandi
 
-        b'''16 * 121/64                                                        %! guitar_accelerandi
+        b'''16 * 121/64                                                        %! khamr.guitar_accelerandi
 
-        a'''16 * 135/64                                                        %! guitar_accelerandi
+        a'''16 * 135/64                                                        %! khamr.guitar_accelerandi
 
-        bf'''!16 * 5/2                                                         %! guitar_accelerandi
+        bf'''!16 * 5/2                                                         %! khamr.guitar_accelerandi
 
-        af'''!16 * 201/64                                                      %! guitar_accelerandi
+        af'''!16 * 201/64                                                      %! khamr.guitar_accelerandi
 
-        e''''16 * 33/8                                                         %! guitar_accelerandi
+        e''''16 * 33/8                                                         %! khamr.guitar_accelerandi
 
-        f''''16 * 11/2                                                         %! guitar_accelerandi
+        f''''16 * 11/2                                                         %! khamr.guitar_accelerandi
 
-        d''''16 * 221/32                                                       %! guitar_accelerandi
-        ]                                                                      %! guitar_accelerandi
+        d''''16 * 221/32                                                       %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi
 
-    }                                                                          %! guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -3393,38 +3393,38 @@ i_Piano_Music_Voice = {                                                        %
                     }
                 }
         }
-    \times 1/1 {                                                               %! guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi
 
         % [_ Piano_Music_Voice measure 30]                                     %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        d''''16 * 497/64                                                       %! guitar_accelerandi
+        d''''16 * 497/64                                                       %! khamr.guitar_accelerandi
         \repeatTie
-        [                                                                      %! guitar_accelerandi
+        [                                                                      %! khamr.guitar_accelerandi
 
-        fs'''!16 * 59/8                                                        %! guitar_accelerandi
+        fs'''!16 * 59/8                                                        %! khamr.guitar_accelerandi
 
-        g'''16 * 51/8                                                          %! guitar_accelerandi
+        g'''16 * 51/8                                                          %! khamr.guitar_accelerandi
 
-        bf'''!16 * 333/64                                                      %! guitar_accelerandi
+        bf'''!16 * 333/64                                                      %! khamr.guitar_accelerandi
 
-        a'''16 * 67/16                                                         %! guitar_accelerandi
+        a'''16 * 67/16                                                         %! khamr.guitar_accelerandi
 
-        ef''''!16 * 219/64                                                     %! guitar_accelerandi
+        ef''''!16 * 219/64                                                     %! khamr.guitar_accelerandi
 
-        cs''''!16 * 185/64                                                     %! guitar_accelerandi
+        cs''''!16 * 185/64                                                     %! khamr.guitar_accelerandi
 
-        b'''16 * 5/2                                                           %! guitar_accelerandi
+        b'''16 * 5/2                                                           %! khamr.guitar_accelerandi
 
-        f''''16 * 9/4                                                          %! guitar_accelerandi
+        f''''16 * 9/4                                                          %! khamr.guitar_accelerandi
 
-        bf'''!16 * 133/64                                                      %! guitar_accelerandi
+        bf'''!16 * 133/64                                                      %! khamr.guitar_accelerandi
 
-        af'''!16 * 127/64                                                      %! guitar_accelerandi
+        af'''!16 * 127/64                                                      %! khamr.guitar_accelerandi
 
-        e''''16 * 63/32                                                        %! guitar_accelerandi
-        ]                                                                      %! guitar_accelerandi
+        e''''16 * 63/32                                                        %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi
 
-    }                                                                          %! guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -3466,30 +3466,30 @@ i_Piano_Music_Voice = {                                                        %
                     }
                 }
         }
-    \times 1/1 {                                                               %! guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi
 
         % [_ Piano_Music_Voice measure 33]                                     %! _comment_measure_numbers
         \once \override Beam.grow-direction = #left
-        e''''16 * 117/64                                                       %! guitar_accelerandi
+        e''''16 * 117/64                                                       %! khamr.guitar_accelerandi
         \repeatTie
-        [                                                                      %! guitar_accelerandi
+        [                                                                      %! khamr.guitar_accelerandi
 
-        d''''16 * 121/64                                                       %! guitar_accelerandi
+        d''''16 * 121/64                                                       %! khamr.guitar_accelerandi
 
-        cs''''!16 * 135/64                                                     %! guitar_accelerandi
+        cs''''!16 * 135/64                                                     %! khamr.guitar_accelerandi
 
-        c''''16 * 5/2                                                          %! guitar_accelerandi
+        c''''16 * 5/2                                                          %! khamr.guitar_accelerandi
 
-        a'''16 * 201/64                                                        %! guitar_accelerandi
+        a'''16 * 201/64                                                        %! khamr.guitar_accelerandi
 
-        b'''16 * 33/8                                                          %! guitar_accelerandi
+        b'''16 * 33/8                                                          %! khamr.guitar_accelerandi
 
-        a'''16 * 11/2                                                          %! guitar_accelerandi
+        a'''16 * 11/2                                                          %! khamr.guitar_accelerandi
 
-        ef''''!16 * 221/32                                                     %! guitar_accelerandi
-        ]                                                                      %! guitar_accelerandi
+        ef''''!16 * 221/32                                                     %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi
 
-    }                                                                          %! guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi
     \revert TupletNumber.text
 
     \override TupletNumber.text = \markup {
@@ -3533,76 +3533,76 @@ i_Piano_Music_Voice = {                                                        %
                     }
                 }
         }
-    \times 1/1 {                                                               %! guitar_accelerandi
+    \times 1/1 {                                                               %! khamr.guitar_accelerandi
 
         % [_ Piano_Music_Voice measure 35]                                     %! _comment_measure_numbers
         \once \override Beam.grow-direction = #right
-        ef''''!16 * 123/16                                                     %! guitar_accelerandi
+        ef''''!16 * 123/16                                                     %! khamr.guitar_accelerandi
         \repeatTie
-        [                                                                      %! guitar_accelerandi
+        [                                                                      %! khamr.guitar_accelerandi
 
-        cs''''!16 * 449/64                                                     %! guitar_accelerandi
+        cs''''!16 * 449/64                                                     %! khamr.guitar_accelerandi
 
-        e''''16 * 351/64                                                       %! guitar_accelerandi
+        e''''16 * 351/64                                                       %! khamr.guitar_accelerandi
 
-        f''''16 * 65/16                                                        %! guitar_accelerandi
+        f''''16 * 65/16                                                        %! khamr.guitar_accelerandi
 
-        bf'''!16 * 199/64                                                      %! guitar_accelerandi
+        bf'''!16 * 199/64                                                      %! khamr.guitar_accelerandi
 
-        af'''!16 * 81/32                                                       %! guitar_accelerandi
+        af'''!16 * 81/32                                                       %! khamr.guitar_accelerandi
 
-        a'''16 * 35/16                                                         %! guitar_accelerandi
+        a'''16 * 35/16                                                         %! khamr.guitar_accelerandi
 
-        d''''16 * 2                                                            %! guitar_accelerandi
+        d''''16 * 2                                                            %! khamr.guitar_accelerandi
 
-        cs''''!16 * 123/64                                                     %! guitar_accelerandi
-        ]                                                                      %! guitar_accelerandi
+        cs''''!16 * 123/64                                                     %! khamr.guitar_accelerandi
+        ]                                                                      %! khamr.guitar_accelerandi
 
-    }                                                                          %! guitar_accelerandi
+    }                                                                          %! khamr.guitar_accelerandi
     \revert TupletNumber.text
 
-    \times 2/3 {                                                               %! guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata
 
         % [_ Piano_Music_Voice measure 37]                                     %! _comment_measure_numbers
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-        c''''8                                                                 %! guitar_isolata
+        c''''8                                                                 %! khamr.guitar_isolata
 
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-    }                                                                          %! guitar_isolata
+    }                                                                          %! khamr.guitar_isolata
 
-    r2                                                                         %! guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata
 
     % [_ Piano_Music_Voice measure 38]                                         %! _comment_measure_numbers
-    r4                                                                         %! guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata
 
-    \times 2/3 {                                                               %! guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata
 
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-        bf'''!4                                                                %! guitar_isolata
+        bf'''!4                                                                %! khamr.guitar_isolata
 
-    }                                                                          %! guitar_isolata
+    }                                                                          %! khamr.guitar_isolata
 
     % [_ Piano_Music_Voice measure 39]                                         %! _comment_measure_numbers
-    r1                                                                         %! guitar_isolata
+    r1                                                                         %! khamr.guitar_isolata
 
-    \times 2/3 {                                                               %! guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata
 
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-        d''''8                                                                 %! guitar_isolata
+        d''''8                                                                 %! khamr.guitar_isolata
         \ottava 0                                                              %! baca_ottava:SpannerIndicatorCommand(2)
 
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-    }                                                                          %! guitar_isolata
+    }                                                                          %! khamr.guitar_isolata
 
-    r4                                                                         %! guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata
 
     % [_ Piano_Music_Voice measure 40]                                         %! _comment_measure_numbers
-    r2                                                                         %! guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata
 
     % [_ Piano_Music_Voice measure 41]                                         %! _comment_measure_numbers
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
@@ -3819,25 +3819,25 @@ i_Percussion_Music_Voice = {                                                   %
     c'2.
     \repeatTie
 
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
     af''!2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:MarimbaHitCommand
-    - \marcato                                                                 %! MarimbaHitCommand
-    ^ \markup {                                                                %! MarimbaHitCommand
-        \larger                                                                %! MarimbaHitCommand
-            \override                                                          %! MarimbaHitCommand
-                #'(box-padding . 0.75)                                         %! MarimbaHitCommand
-                \box                                                           %! MarimbaHitCommand
-                    "marimba + woodblock"                                      %! MarimbaHitCommand
-        }                                                                      %! MarimbaHitCommand
+    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:khamr.MarimbaHitCommand
+    - \marcato                                                                 %! khamr.MarimbaHitCommand
+    ^ \markup {                                                                %! khamr.MarimbaHitCommand
+        \larger                                                                %! khamr.MarimbaHitCommand
+            \override                                                          %! khamr.MarimbaHitCommand
+                #'(box-padding . 0.75)                                         %! khamr.MarimbaHitCommand
+                \box                                                           %! khamr.MarimbaHitCommand
+                    "marimba + woodblock"                                      %! khamr.MarimbaHitCommand
+        }                                                                      %! khamr.MarimbaHitCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [_ Percussion_Music_Voice measure 16]                                    %! _comment_measure_numbers
@@ -3845,14 +3845,14 @@ i_Percussion_Music_Voice = {                                                   %
     \repeatTie
 
     % [_ Percussion_Music_Voice measure 17]                                    %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
     c'2.
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -3929,29 +3929,29 @@ i_Percussion_Music_Voice = {                                                   %
     c'4
     \repeatTie
 
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    af''!1                                                                     %! fused_expanse
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    af''!1                                                                     %! khamr.fused_expanse
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:MarimbaHitCommand
-    - \marcato                                                                 %! MarimbaHitCommand
+    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:khamr.MarimbaHitCommand
+    - \marcato                                                                 %! khamr.MarimbaHitCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [_ Percussion_Music_Voice measure 33]                                    %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
     c'2.
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -3990,7 +3990,7 @@ i_Percussion_Music_Voice = {                                                   %
     \repeatTie
 
     % [_ Percussion_Music_Voice measure 41]                                    %! _comment_measure_numbers
-    c'2                                                                        %! fused_expanse
+    c'2                                                                        %! khamr.fused_expanse
     \repeatTie
 
     c'2.
@@ -4069,7 +4069,7 @@ i_Violin_Music_Voice = {                                                       %
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):abjad.ScoreTemplate.attach_defaults
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    g'2                                                                        %! opening_glissandi
+    g'2                                                                        %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -4088,64 +4088,64 @@ i_Violin_Music_Voice = {                                                       %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
 
     % [_ Violin_Music_Voice measure 2]                                         %! _comment_measure_numbers
-    g'2                                                                        %! opening_glissandi
+    g'2                                                                        %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Violin_Music_Voice measure 3]                                         %! _comment_measure_numbers
-    g'1.                                                                       %! opening_glissandi
+    g'1.                                                                       %! khamr.opening_glissandi
     \repeatTie
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
-    \times 3/4 {                                                               %! opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
+    \times 3/4 {                                                               %! khamr.opening_glissandi
 
         % [_ Violin_Music_Voice measure 4]                                     %! _comment_measure_numbers
-        g'2.                                                                   %! opening_glissandi
+        g'2.                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        af'!4                                                                  %! opening_glissandi
+        af'!4                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Violin_Music_Voice measure 5]                                         %! _comment_measure_numbers
-    af'!2.                                                                     %! opening_glissandi
+    af'!2.                                                                     %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
     \glissando                                                                 %! baca_glissando
 
-    gqs'!4                                                                     %! opening_glissandi
+    gqs'!4                                                                     %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [_ Violin_Music_Voice measure 6]                                         %! _comment_measure_numbers
-    gqs'!2.                                                                    %! opening_glissandi
+    gqs'!2.                                                                    %! khamr.opening_glissandi
     \repeatTie
 
-    \times 2/3 {                                                               %! opening_glissandi
+    \times 2/3 {                                                               %! khamr.opening_glissandi
 
         % [_ Violin_Music_Voice measure 7]                                     %! _comment_measure_numbers
-        gqs'!1                                                                 %! opening_glissandi
+        gqs'!1                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        a'2                                                                    %! opening_glissandi
+        a'2                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Violin_Music_Voice measure 8]                                         %! _comment_measure_numbers
     a'2.
@@ -4155,76 +4155,76 @@ i_Violin_Music_Voice = {                                                       %
     \repeatTie
 
     % [_ Violin_Music_Voice measure 9]                                         %! _comment_measure_numbers
-    a'1                                                                        %! opening_glissandi
+    a'1                                                                        %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Violin_Music_Voice measure 10]                                        %! _comment_measure_numbers
-    a'2.                                                                       %! opening_glissandi
+    a'2.                                                                       %! khamr.opening_glissandi
     \repeatTie
 
-    \times 4/7 {                                                               %! opening_glissandi
+    \times 4/7 {                                                               %! khamr.opening_glissandi
 
         % [_ Violin_Music_Voice measure 11]                                    %! _comment_measure_numbers
-        a'1.                                                                   %! opening_glissandi
+        a'1.                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        bqf'!4                                                                 %! opening_glissandi
+        bqf'!4                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
-    \times 5/7 {                                                               %! opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
+    \times 5/7 {                                                               %! khamr.opening_glissandi
 
         % [_ Violin_Music_Voice measure 12]                                    %! _comment_measure_numbers
-        bqf'!1.                                                                %! opening_glissandi
+        bqf'!1.                                                                %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         - \tweak direction #up
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        af'!4                                                                  %! opening_glissandi
+        af'!4                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Violin_Music_Voice measure 13]                                        %! _comment_measure_numbers
-    af'!2.                                                                     %! opening_glissandi
+    af'!2.                                                                     %! khamr.opening_glissandi
     \repeatTie
 
-    \times 4/5 {                                                               %! opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi
 
         % [_ Violin_Music_Voice measure 14]                                    %! _comment_measure_numbers
-        af'!2                                                                  %! opening_glissandi
+        af'!2                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        gqs'!8                                                                 %! opening_glissandi
+        gqs'!8                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Violin_Music_Voice measure 15]                                        %! _comment_measure_numbers
-    gqs'!1.                                                                    %! opening_glissandi
+    gqs'!1.                                                                    %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Violin_Music_Voice measure 16]                                        %! _comment_measure_numbers
-    gqs'!2                                                                     %! opening_glissandi
+    gqs'!2                                                                     %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Violin_Music_Voice measure 17]                                        %! _comment_measure_numbers
@@ -4234,190 +4234,190 @@ i_Violin_Music_Voice = {                                                       %
     gqs'!2
     \repeatTie
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
-    \times 3/4 {                                                               %! opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
+    \times 3/4 {                                                               %! khamr.opening_glissandi
 
         % [_ Violin_Music_Voice measure 18]                                    %! _comment_measure_numbers
-        gqs'!2.                                                                %! opening_glissandi
+        gqs'!2.                                                                %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        a'4                                                                    %! opening_glissandi
+        a'4                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
-    \times 2/3 {                                                               %! opening_glissandi
+    \times 2/3 {                                                               %! khamr.opening_glissandi
 
         % [_ Violin_Music_Voice measure 19]                                    %! _comment_measure_numbers
-        a'1                                                                    %! opening_glissandi
+        a'1                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        g'2                                                                    %! opening_glissandi
+        g'2                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Violin_Music_Voice measure 20]                                        %! _comment_measure_numbers
-    g'1.                                                                       %! opening_glissandi
+    g'1.                                                                       %! khamr.opening_glissandi
     \repeatTie
 
-    \times 2/3 {                                                               %! opening_glissandi
+    \times 2/3 {                                                               %! khamr.opening_glissandi
 
         % [_ Violin_Music_Voice measure 21]                                    %! _comment_measure_numbers
-        g'2                                                                    %! opening_glissandi
+        g'2                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        a'4                                                                    %! opening_glissandi
+        a'4                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Violin_Music_Voice measure 22]                                        %! _comment_measure_numbers
-    a'2                                                                        %! opening_glissandi
+    a'2                                                                        %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Violin_Music_Voice measure 23]                                        %! _comment_measure_numbers
-    a'2.                                                                       %! opening_glissandi
+    a'2.                                                                       %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Violin_Music_Voice measure 24]                                        %! _comment_measure_numbers
-    a'1                                                                        %! opening_glissandi
+    a'1                                                                        %! khamr.opening_glissandi
     \repeatTie
 
-    \times 4/5 {                                                               %! opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi
 
         % [_ Violin_Music_Voice measure 25]                                    %! _comment_measure_numbers
-        a'2                                                                    %! opening_glissandi
+        a'2                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        b'8                                                                    %! opening_glissandi
+        b'8                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
-    \times 4/5 {                                                               %! opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi
 
         % [_ Violin_Music_Voice measure 26]                                    %! _comment_measure_numbers
-        b'2                                                                    %! opening_glissandi
+        b'2                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        aqs'!8                                                                 %! opening_glissandi
+        aqs'!8                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Violin_Music_Voice measure 27]                                        %! _comment_measure_numbers
-    aqs'!1.                                                                    %! opening_glissandi
+    aqs'!1.                                                                    %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Violin_Music_Voice measure 28]                                        %! _comment_measure_numbers
-    aqs'!2.                                                                    %! opening_glissandi
+    aqs'!2.                                                                    %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
     \glissando                                                                 %! baca_glissando
 
-    bf'!4                                                                      %! opening_glissandi
+    bf'!4                                                                      %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [_ Violin_Music_Voice measure 29]                                        %! _comment_measure_numbers
-    bf'!2.                                                                     %! opening_glissandi
+    bf'!2.                                                                     %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Violin_Music_Voice measure 30]                                        %! _comment_measure_numbers
-    bf'!2.                                                                     %! opening_glissandi
+    bf'!2.                                                                     %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Violin_Music_Voice measure 31]                                        %! _comment_measure_numbers
-    bf'!1                                                                      %! opening_glissandi
+    bf'!1                                                                      %! khamr.opening_glissandi
     - \tweak direction #up
     \repeatTie
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
-    \times 5/9 {                                                               %! opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
+    \times 5/9 {                                                               %! khamr.opening_glissandi
 
         % [_ Violin_Music_Voice measure 32]                                    %! _comment_measure_numbers
-        bf'!1.                                                                 %! opening_glissandi
+        bf'!1.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         - \tweak direction #up
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        g'2.                                                                   %! opening_glissandi
+        g'2.                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Violin_Music_Voice measure 33]                                        %! _comment_measure_numbers
-    g'2                                                                        %! opening_glissandi
+    g'2                                                                        %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
     \glissando                                                                 %! baca_glissando
 
-    a'4                                                                        %! opening_glissandi
+    a'4                                                                        %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [_ Violin_Music_Voice measure 34]                                        %! _comment_measure_numbers
-    a'1                                                                        %! opening_glissandi
+    a'1                                                                        %! khamr.opening_glissandi
     \repeatTie
 
-    \times 4/7 {                                                               %! opening_glissandi
+    \times 4/7 {                                                               %! khamr.opening_glissandi
 
         % [_ Violin_Music_Voice measure 35]                                    %! _comment_measure_numbers
-        a'1.                                                                   %! opening_glissandi
+        a'1.                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        b'4                                                                    %! opening_glissandi
+        b'4                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Violin_Music_Voice measure 36]                                        %! _comment_measure_numbers
     b'2.
@@ -4431,198 +4431,198 @@ i_Violin_Music_Voice = {                                                       %
 
     % [_ Violin_Music_Voice measure 37]                                        %! _comment_measure_numbers
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    f'2                                                                        %! trill_tuplets
+    f'2                                                                        %! khamr.trill_tuplets
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     ^ \markup { "molto flautando e pont." }                                    %! baca_markup:IndicatorCommand
     \startTrillSpan gf'                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        f'16                                                                   %! trill_tuplets
+        f'16                                                                   %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        fs'!4                                                                  %! trill_tuplets
+        fs'!4                                                                  %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan g'                                                     %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
     % [_ Violin_Music_Voice measure 38]                                        %! _comment_measure_numbers
-    fs'!2                                                                      %! trill_tuplets
+    fs'!2                                                                      %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
         % [_ Violin_Music_Voice measure 39]                                    %! _comment_measure_numbers
-        fs'!8                                                                  %! trill_tuplets
+        fs'!8                                                                  %! khamr.trill_tuplets
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        fqs'!8.                                                                %! trill_tuplets
+        fqs'!8.                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan gqf'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    fqs'!2                                                                     %! trill_tuplets
+    fqs'!2                                                                     %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        fqs'!8.                                                                %! trill_tuplets
+        fqs'!8.                                                                %! khamr.trill_tuplets
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        f'8                                                                    %! trill_tuplets
+        f'8                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan gf'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    f'2                                                                        %! trill_tuplets
+    f'2                                                                        %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
         % [_ Violin_Music_Voice measure 40]                                    %! _comment_measure_numbers
-        f'4                                                                    %! trill_tuplets
+        f'4                                                                    %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        fqs'!16                                                                %! trill_tuplets
+        fqs'!16                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan gqf'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    fqs'!4                                                                     %! trill_tuplets
+    fqs'!4                                                                     %! khamr.trill_tuplets
     \repeatTie
 
     % [_ Violin_Music_Voice measure 41]                                        %! _comment_measure_numbers
-    fqs'!4                                                                     %! trill_tuplets
+    fqs'!4                                                                     %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        fqs'!16                                                                %! trill_tuplets
+        fqs'!16                                                                %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        f'4                                                                    %! trill_tuplets
+        f'4                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan gf'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    f'4                                                                        %! trill_tuplets
+    f'4                                                                        %! khamr.trill_tuplets
     \repeatTie
 
-    f'4                                                                        %! trill_tuplets
+    f'4                                                                        %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        f'16                                                                   %! trill_tuplets
+        f'16                                                                   %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        e'4                                                                    %! trill_tuplets
+        e'4                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan f'                                                     %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
     % [_ Violin_Music_Voice measure 42]                                        %! _comment_measure_numbers
-    e'2                                                                        %! trill_tuplets
+    e'2                                                                        %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        e'8                                                                    %! trill_tuplets
+        e'8                                                                    %! khamr.trill_tuplets
         \repeatTie
-        [                                                                      %! trill_tuplets
+        [                                                                      %! khamr.trill_tuplets
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        eqs'!8.                                                                %! trill_tuplets
+        eqs'!8.                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
-        ]                                                                      %! trill_tuplets
+        ]                                                                      %! khamr.trill_tuplets
         \startTrillSpan fqs'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
     % [_ Violin_Music_Voice measure 43]                                        %! _comment_measure_numbers
-    eqs'!2                                                                     %! trill_tuplets
+    eqs'!2                                                                     %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        eqs'!8.                                                                %! trill_tuplets
+        eqs'!8.                                                                %! khamr.trill_tuplets
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        e'8                                                                    %! trill_tuplets
+        e'8                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan f'                                                     %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    e'4                                                                        %! trill_tuplets
+    e'4                                                                        %! khamr.trill_tuplets
     \repeatTie
 
     % [_ Violin_Music_Voice measure 44]                                        %! _comment_measure_numbers
-    e'4                                                                        %! trill_tuplets
+    e'4                                                                        %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        e'4                                                                    %! trill_tuplets
+        e'4                                                                    %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        eqs'!16                                                                %! trill_tuplets
+        eqs'!16                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan fqs'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    eqs'!4                                                                     %! trill_tuplets
+    eqs'!4                                                                     %! khamr.trill_tuplets
     \repeatTie
 
-    eqs'!4                                                                     %! trill_tuplets
+    eqs'!4                                                                     %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        eqs'!16                                                                %! trill_tuplets
+        eqs'!16                                                                %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        f'4                                                                    %! trill_tuplets
+        f'4                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan gf'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    f'4                                                                        %! trill_tuplets
+    f'4                                                                        %! khamr.trill_tuplets
     \repeatTie
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -4684,7 +4684,7 @@ i_Viola_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):abjad.ScoreTemplate.attach_defaults
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    g'4.                                                                       %! opening_glissandi
+    g'4.                                                                       %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ^ \baca-default-indicator-markup "(“Viola”)"                               %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -4701,143 +4701,143 @@ i_Viola_Music_Voice = {                                                        %
             Va.                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
 
-    af'!8                                                                      %! opening_glissandi
+    af'!8                                                                      %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [_ Viola_Music_Voice measure 2]                                          %! _comment_measure_numbers
-    af'!2                                                                      %! opening_glissandi
+    af'!2                                                                      %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Viola_Music_Voice measure 3]                                          %! _comment_measure_numbers
-    af'!1.                                                                     %! opening_glissandi
+    af'!1.                                                                     %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Viola_Music_Voice measure 4]                                          %! _comment_measure_numbers
-    af'!2.                                                                     %! opening_glissandi
+    af'!2.                                                                     %! khamr.opening_glissandi
     \repeatTie
 
-    \times 2/3 {                                                               %! opening_glissandi
+    \times 2/3 {                                                               %! khamr.opening_glissandi
 
         % [_ Viola_Music_Voice measure 5]                                      %! _comment_measure_numbers
-        af'!1                                                                  %! opening_glissandi
+        af'!1                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        gqs'!2                                                                 %! opening_glissandi
+        gqs'!2                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Viola_Music_Voice measure 6]                                          %! _comment_measure_numbers
-    gqs'!2                                                                     %! opening_glissandi
+    gqs'!2                                                                     %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
     \glissando                                                                 %! baca_glissando
 
-    a'4                                                                        %! opening_glissandi
+    a'4                                                                        %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [_ Viola_Music_Voice measure 7]                                          %! _comment_measure_numbers
-    a'1                                                                        %! opening_glissandi
+    a'1                                                                        %! khamr.opening_glissandi
     \repeatTie
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
-    \times 5/7 {                                                               %! opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
+    \times 5/7 {                                                               %! khamr.opening_glissandi
 
         % [_ Viola_Music_Voice measure 8]                                      %! _comment_measure_numbers
-        a'1.                                                                   %! opening_glissandi
+        a'1.                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        bqf'!4                                                                 %! opening_glissandi
+        bqf'!4                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Viola_Music_Voice measure 9]                                          %! _comment_measure_numbers
-    bqf'!1                                                                     %! opening_glissandi
+    bqf'!1                                                                     %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Viola_Music_Voice measure 10]                                         %! _comment_measure_numbers
-    bqf'!2.                                                                    %! opening_glissandi
+    bqf'!2.                                                                    %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Viola_Music_Voice measure 11]                                         %! _comment_measure_numbers
-    bqf'!1                                                                     %! opening_glissandi
+    bqf'!1                                                                     %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Viola_Music_Voice measure 12]                                         %! _comment_measure_numbers
-    bqf'!1                                                                     %! opening_glissandi
+    bqf'!1                                                                     %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
     \glissando                                                                 %! baca_glissando
 
-    af'!4                                                                      %! opening_glissandi
+    af'!4                                                                      %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
-    \times 3/4 {                                                               %! opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
+    \times 3/4 {                                                               %! khamr.opening_glissandi
 
         % [_ Viola_Music_Voice measure 13]                                     %! _comment_measure_numbers
-        af'!2.                                                                 %! opening_glissandi
+        af'!2.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        gqs'!4                                                                 %! opening_glissandi
+        gqs'!4                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Viola_Music_Voice measure 14]                                         %! _comment_measure_numbers
-    gqs'!2                                                                     %! opening_glissandi
+    gqs'!2                                                                     %! khamr.opening_glissandi
     \repeatTie
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
-    \times 3/4 {                                                               %! opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
+    \times 3/4 {                                                               %! khamr.opening_glissandi
 
         % [_ Viola_Music_Voice measure 15]                                     %! _comment_measure_numbers
-        gqs'!1.                                                                %! opening_glissandi
+        gqs'!1.                                                                %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        a'2                                                                    %! opening_glissandi
+        a'2                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Viola_Music_Voice measure 16]                                         %! _comment_measure_numbers
-    a'2                                                                        %! opening_glissandi
+    a'2                                                                        %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Viola_Music_Voice measure 17]                                         %! _comment_measure_numbers
@@ -4848,131 +4848,131 @@ i_Viola_Music_Voice = {                                                        %
     \repeatTie
 
     % [_ Viola_Music_Voice measure 18]                                         %! _comment_measure_numbers
-    a'2.                                                                       %! opening_glissandi
+    a'2.                                                                       %! khamr.opening_glissandi
     \repeatTie
 
-    \times 4/7 {                                                               %! opening_glissandi
+    \times 4/7 {                                                               %! khamr.opening_glissandi
 
         % [_ Viola_Music_Voice measure 19]                                     %! _comment_measure_numbers
-        a'1.                                                                   %! opening_glissandi
+        a'1.                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        g'4                                                                    %! opening_glissandi
+        g'4                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
-    \times 6/7 {                                                               %! opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
+    \times 6/7 {                                                               %! khamr.opening_glissandi
 
         % [_ Viola_Music_Voice measure 20]                                     %! _comment_measure_numbers
-        g'1.                                                                   %! opening_glissandi
+        g'1.                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        a'4                                                                    %! opening_glissandi
+        a'4                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Viola_Music_Voice measure 21]                                         %! _comment_measure_numbers
-    a'2                                                                        %! opening_glissandi
+    a'2                                                                        %! khamr.opening_glissandi
     \repeatTie
 
-    \times 4/5 {                                                               %! opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi
 
         % [_ Viola_Music_Voice measure 22]                                     %! _comment_measure_numbers
-        a'2                                                                    %! opening_glissandi
+        a'2                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        b'8                                                                    %! opening_glissandi
+        b'8                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Viola_Music_Voice measure 23]                                         %! _comment_measure_numbers
-    b'2.                                                                       %! opening_glissandi
+    b'2.                                                                       %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Viola_Music_Voice measure 24]                                         %! _comment_measure_numbers
-    b'1                                                                        %! opening_glissandi
+    b'1                                                                        %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Viola_Music_Voice measure 25]                                         %! _comment_measure_numbers
-    b'2                                                                        %! opening_glissandi
+    b'2                                                                        %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Viola_Music_Voice measure 26]                                         %! _comment_measure_numbers
-    b'4.                                                                       %! opening_glissandi
+    b'4.                                                                       %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
     \glissando                                                                 %! baca_glissando
 
-    aqs'!8                                                                     %! opening_glissandi
+    aqs'!8                                                                     %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
-    \times 3/4 {                                                               %! opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
+    \times 3/4 {                                                               %! khamr.opening_glissandi
 
         % [_ Viola_Music_Voice measure 27]                                     %! _comment_measure_numbers
-        aqs'!1.                                                                %! opening_glissandi
+        aqs'!1.                                                                %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        bf'!2                                                                  %! opening_glissandi
+        bf'!2                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Viola_Music_Voice measure 28]                                         %! _comment_measure_numbers
-    bf'!1                                                                      %! opening_glissandi
+    bf'!1                                                                      %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Viola_Music_Voice measure 29]                                         %! _comment_measure_numbers
-    bf'!2                                                                      %! opening_glissandi
+    bf'!2                                                                      %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
     \glissando                                                                 %! baca_glissando
 
-    g'4                                                                        %! opening_glissandi
+    g'4                                                                        %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [_ Viola_Music_Voice measure 30]                                         %! _comment_measure_numbers
-    g'2.                                                                       %! opening_glissandi
+    g'2.                                                                       %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Viola_Music_Voice measure 31]                                         %! _comment_measure_numbers
-    g'1                                                                        %! opening_glissandi
+    g'1                                                                        %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Viola_Music_Voice measure 32]                                         %! _comment_measure_numbers
@@ -4982,204 +4982,204 @@ i_Viola_Music_Voice = {                                                        %
     g'2
     \repeatTie
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
-    \times 6/7 {                                                               %! opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
+    \times 6/7 {                                                               %! khamr.opening_glissandi
 
         % [_ Viola_Music_Voice measure 33]                                     %! _comment_measure_numbers
-        g'2.                                                                   %! opening_glissandi
+        g'2.                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        a'8                                                                    %! opening_glissandi
+        a'8                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
-    \times 4/5 {                                                               %! opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi
 
         % [_ Viola_Music_Voice measure 34]                                     %! _comment_measure_numbers
-        a'1                                                                    %! opening_glissandi
+        a'1                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        b'4                                                                    %! opening_glissandi
+        b'4                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Viola_Music_Voice measure 35]                                         %! _comment_measure_numbers
-    b'1                                                                        %! opening_glissandi
+    b'1                                                                        %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Viola_Music_Voice measure 36]                                         %! _comment_measure_numbers
-    b'1                                                                        %! opening_glissandi
+    b'1                                                                        %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
     \glissando                                                                 %! baca_glissando
 
-    aqs'!4                                                                     %! opening_glissandi
+    aqs'!4                                                                     %! khamr.opening_glissandi
     - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
 
     % [_ Viola_Music_Voice measure 37]                                         %! _comment_measure_numbers
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    f'2.                                                                       %! trill_tuplets
+    f'2.                                                                       %! khamr.trill_tuplets
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     ^ \markup { "molto flautando e pont." }                                    %! baca_markup:IndicatorCommand
     \startTrillSpan gf'                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
         % [_ Viola_Music_Voice measure 38]                                     %! _comment_measure_numbers
-        f'16                                                                   %! trill_tuplets
+        f'16                                                                   %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        fs'!4                                                                  %! trill_tuplets
+        fs'!4                                                                  %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan g'                                                     %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    fs'!4                                                                      %! trill_tuplets
+    fs'!4                                                                      %! khamr.trill_tuplets
     \repeatTie
 
     % [_ Viola_Music_Voice measure 39]                                         %! _comment_measure_numbers
-    fs'!2                                                                      %! trill_tuplets
+    fs'!2                                                                      %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        fs'!8                                                                  %! trill_tuplets
+        fs'!8                                                                  %! khamr.trill_tuplets
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        fqs'!8.                                                                %! trill_tuplets
+        fqs'!8.                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan gqf'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    fqs'!2.                                                                    %! trill_tuplets
+    fqs'!2.                                                                    %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
         % [_ Viola_Music_Voice measure 40]                                     %! _comment_measure_numbers
-        fqs'!8.                                                                %! trill_tuplets
+        fqs'!8.                                                                %! khamr.trill_tuplets
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        f'8                                                                    %! trill_tuplets
+        f'8                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan gf'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    f'4                                                                        %! trill_tuplets
+    f'4                                                                        %! khamr.trill_tuplets
     \repeatTie
 
     % [_ Viola_Music_Voice measure 41]                                         %! _comment_measure_numbers
-    f'2                                                                        %! trill_tuplets
+    f'2                                                                        %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        f'4                                                                    %! trill_tuplets
+        f'4                                                                    %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        fqs'!16                                                                %! trill_tuplets
+        fqs'!16                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan gqf'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    fqs'!2                                                                     %! trill_tuplets
+    fqs'!2                                                                     %! khamr.trill_tuplets
     \repeatTie
 
     % [_ Viola_Music_Voice measure 42]                                         %! _comment_measure_numbers
-    fqs'!4                                                                     %! trill_tuplets
+    fqs'!4                                                                     %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        fqs'!16                                                                %! trill_tuplets
+        fqs'!16                                                                %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        f'4                                                                    %! trill_tuplets
+        f'4                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan gf'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    f'4                                                                        %! trill_tuplets
+    f'4                                                                        %! khamr.trill_tuplets
     \repeatTie
 
     % [_ Viola_Music_Voice measure 43]                                         %! _comment_measure_numbers
-    f'2                                                                        %! trill_tuplets
+    f'2                                                                        %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        f'16                                                                   %! trill_tuplets
+        f'16                                                                   %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        e'4                                                                    %! trill_tuplets
+        e'4                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan f'                                                     %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    e'4                                                                        %! trill_tuplets
+    e'4                                                                        %! khamr.trill_tuplets
     \repeatTie
 
     % [_ Viola_Music_Voice measure 44]                                         %! _comment_measure_numbers
-    e'2                                                                        %! trill_tuplets
+    e'2                                                                        %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        e'8                                                                    %! trill_tuplets
+        e'8                                                                    %! khamr.trill_tuplets
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        eqs'!8.                                                                %! trill_tuplets
+        eqs'!8.                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan fqs'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    eqs'!2.                                                                    %! trill_tuplets
+    eqs'!2.                                                                    %! khamr.trill_tuplets
     \repeatTie
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -5241,7 +5241,7 @@ i_Cello_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):abjad.ScoreTemplate.attach_defaults
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    g2                                                                         %! opening_glissandi
+    g2                                                                         %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ^ \baca-default-indicator-markup "(“Cello”)"                               %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -5259,69 +5259,69 @@ i_Cello_Music_Voice = {                                                        %
             Vc.                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
 
-    \times 2/3 {                                                               %! opening_glissandi
+    \times 2/3 {                                                               %! khamr.opening_glissandi
 
         % [_ Cello_Music_Voice measure 2]                                      %! _comment_measure_numbers
-        g2                                                                     %! opening_glissandi
+        g2                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        af!4                                                                   %! opening_glissandi
+        af!4                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Cello_Music_Voice measure 3]                                          %! _comment_measure_numbers
-    af!1.                                                                      %! opening_glissandi
+    af!1.                                                                      %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Cello_Music_Voice measure 4]                                          %! _comment_measure_numbers
-    af!2.                                                                      %! opening_glissandi
+    af!2.                                                                      %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Cello_Music_Voice measure 5]                                          %! _comment_measure_numbers
-    af!1                                                                       %! opening_glissandi
+    af!1                                                                       %! khamr.opening_glissandi
     \repeatTie
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
-    \times 6/7 {                                                               %! opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
+    \times 6/7 {                                                               %! khamr.opening_glissandi
 
         % [_ Cello_Music_Voice measure 6]                                      %! _comment_measure_numbers
-        af!2.                                                                  %! opening_glissandi
+        af!2.                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        gqs!8                                                                  %! opening_glissandi
+        gqs!8                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
-    \times 4/5 {                                                               %! opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi
 
         % [_ Cello_Music_Voice measure 7]                                      %! _comment_measure_numbers
-        gqs!1                                                                  %! opening_glissandi
+        gqs!1                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        a4                                                                     %! opening_glissandi
+        a4                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Cello_Music_Voice measure 8]                                          %! _comment_measure_numbers
     a2.
@@ -5330,29 +5330,29 @@ i_Cello_Music_Voice = {                                                        %
     a2
     \repeatTie
 
-    \times 4/5 {                                                               %! opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi
 
         % [_ Cello_Music_Voice measure 9]                                      %! _comment_measure_numbers
-        a1                                                                     %! opening_glissandi
+        a1                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        bqf!4                                                                  %! opening_glissandi
+        bqf!4                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Cello_Music_Voice measure 10]                                         %! _comment_measure_numbers
-    bqf!2.                                                                     %! opening_glissandi
+    bqf!2.                                                                     %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Cello_Music_Voice measure 11]                                         %! _comment_measure_numbers
-    bqf!1                                                                      %! opening_glissandi
+    bqf!1                                                                      %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Cello_Music_Voice measure 12]                                         %! _comment_measure_numbers
@@ -5363,55 +5363,55 @@ i_Cello_Music_Voice = {                                                        %
     \repeatTie
 
     % [_ Cello_Music_Voice measure 13]                                         %! _comment_measure_numbers
-    bqf!2                                                                      %! opening_glissandi
+    bqf!2                                                                      %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
     \glissando                                                                 %! baca_glissando
 
-    af!4                                                                       %! opening_glissandi
+    af!4                                                                       %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    \times 2/3 {                                                               %! opening_glissandi
+    \times 2/3 {                                                               %! khamr.opening_glissandi
 
         % [_ Cello_Music_Voice measure 14]                                     %! _comment_measure_numbers
-        af!2                                                                   %! opening_glissandi
+        af!2                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        gqs!4                                                                  %! opening_glissandi
+        gqs!4                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Cello_Music_Voice measure 15]                                         %! _comment_measure_numbers
-    gqs!1.                                                                     %! opening_glissandi
+    gqs!1.                                                                     %! khamr.opening_glissandi
     \repeatTie
 
-    \times 4/7 {                                                               %! opening_glissandi
+    \times 4/7 {                                                               %! khamr.opening_glissandi
 
         % [_ Cello_Music_Voice measure 16]                                     %! _comment_measure_numbers
-        gqs!2.                                                                 %! opening_glissandi
+        gqs!2.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        a8                                                                     %! opening_glissandi
+        a8                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Cello_Music_Voice measure 17]                                         %! _comment_measure_numbers
     a2.
@@ -5421,135 +5421,135 @@ i_Cello_Music_Voice = {                                                        %
     \repeatTie
 
     % [_ Cello_Music_Voice measure 18]                                         %! _comment_measure_numbers
-    a2.                                                                        %! opening_glissandi
+    a2.                                                                        %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Cello_Music_Voice measure 19]                                         %! _comment_measure_numbers
-    a1                                                                         %! opening_glissandi
+    a1                                                                         %! khamr.opening_glissandi
     \repeatTie
 
-    \times 4/5 {                                                               %! opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi
 
         % [_ Cello_Music_Voice measure 20]                                     %! _comment_measure_numbers
-        a1.                                                                    %! opening_glissandi
+        a1.                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        g4.                                                                    %! opening_glissandi
+        g4.                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
-    \times 4/5 {                                                               %! opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi
 
         % [_ Cello_Music_Voice measure 21]                                     %! _comment_measure_numbers
-        g2                                                                     %! opening_glissandi
+        g2                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        a8                                                                     %! opening_glissandi
+        a8                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Cello_Music_Voice measure 22]                                         %! _comment_measure_numbers
-    a2                                                                         %! opening_glissandi
+    a2                                                                         %! khamr.opening_glissandi
     \repeatTie
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
-    \times 3/4 {                                                               %! opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
+    \times 3/4 {                                                               %! khamr.opening_glissandi
 
         % [_ Cello_Music_Voice measure 23]                                     %! _comment_measure_numbers
-        a2.                                                                    %! opening_glissandi
+        a2.                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        b4                                                                     %! opening_glissandi
+        b4                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Cello_Music_Voice measure 24]                                         %! _comment_measure_numbers
-    b1                                                                         %! opening_glissandi
+    b1                                                                         %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Cello_Music_Voice measure 25]                                         %! _comment_measure_numbers
-    b2                                                                         %! opening_glissandi
+    b2                                                                         %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Cello_Music_Voice measure 26]                                         %! _comment_measure_numbers
-    b2                                                                         %! opening_glissandi
+    b2                                                                         %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Cello_Music_Voice measure 27]                                         %! _comment_measure_numbers
-    b1                                                                         %! opening_glissandi
+    b1                                                                         %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
     \glissando                                                                 %! baca_glissando
 
-    aqs!2                                                                      %! opening_glissandi
+    aqs!2                                                                      %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    \times 4/7 {                                                               %! opening_glissandi
+    \times 4/7 {                                                               %! khamr.opening_glissandi
 
         % [_ Cello_Music_Voice measure 28]                                     %! _comment_measure_numbers
-        aqs!1.                                                                 %! opening_glissandi
+        aqs!1.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        bf!4                                                                   %! opening_glissandi
+        bf!4                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Cello_Music_Voice measure 29]                                         %! _comment_measure_numbers
-    bf!2.                                                                      %! opening_glissandi
+    bf!2.                                                                      %! khamr.opening_glissandi
     \repeatTie
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
-    \times 6/7 {                                                               %! opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
+    \times 6/7 {                                                               %! khamr.opening_glissandi
 
         % [_ Cello_Music_Voice measure 30]                                     %! _comment_measure_numbers
-        bf!2.                                                                  %! opening_glissandi
+        bf!2.                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        g8                                                                     %! opening_glissandi
+        g8                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Cello_Music_Voice measure 31]                                         %! _comment_measure_numbers
-    g1                                                                         %! opening_glissandi
+    g1                                                                         %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Cello_Music_Voice measure 32]                                         %! _comment_measure_numbers
@@ -5560,30 +5560,30 @@ i_Cello_Music_Voice = {                                                        %
     \repeatTie
 
     % [_ Cello_Music_Voice measure 33]                                         %! _comment_measure_numbers
-    g2.                                                                        %! opening_glissandi
+    g2.                                                                        %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Cello_Music_Voice measure 34]                                         %! _comment_measure_numbers
-    g2.                                                                        %! opening_glissandi
+    g2.                                                                        %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
     \glissando                                                                 %! baca_glissando
 
-    a4                                                                         %! opening_glissandi
+    a4                                                                         %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [_ Cello_Music_Voice measure 35]                                         %! _comment_measure_numbers
-    a2.                                                                        %! opening_glissandi
+    a2.                                                                        %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
     \glissando                                                                 %! baca_glissando
 
-    b4                                                                         %! opening_glissandi
+    b4                                                                         %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -5601,7 +5601,7 @@ i_Cello_Music_Voice = {                                                        %
 
     % [_ Cello_Music_Voice measure 37]                                         %! _comment_measure_numbers
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    f'2.                                                                       %! trill_tuplets
+    f'2.                                                                       %! khamr.trill_tuplets
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -5609,125 +5609,125 @@ i_Cello_Music_Voice = {                                                        %
     \startTrillSpan gf'                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [_ Cello_Music_Voice measure 38]                                         %! _comment_measure_numbers
-    f'4                                                                        %! trill_tuplets
+    f'4                                                                        %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        f'16                                                                   %! trill_tuplets
+        f'16                                                                   %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        fs'!4                                                                  %! trill_tuplets
+        fs'!4                                                                  %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan g'                                                     %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
     % [_ Cello_Music_Voice measure 39]                                         %! _comment_measure_numbers
-    fs'!1                                                                      %! trill_tuplets
+    fs'!1                                                                      %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        fs'!8                                                                  %! trill_tuplets
+        fs'!8                                                                  %! khamr.trill_tuplets
         \repeatTie
-        [                                                                      %! trill_tuplets
+        [                                                                      %! khamr.trill_tuplets
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        fqs'!8.                                                                %! trill_tuplets
+        fqs'!8.                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
-        ]                                                                      %! trill_tuplets
+        ]                                                                      %! khamr.trill_tuplets
         \startTrillSpan gqf'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    fqs'!4                                                                     %! trill_tuplets
+    fqs'!4                                                                     %! khamr.trill_tuplets
     \repeatTie
 
     % [_ Cello_Music_Voice measure 40]                                         %! _comment_measure_numbers
-    fqs'!2                                                                     %! trill_tuplets
+    fqs'!2                                                                     %! khamr.trill_tuplets
     \repeatTie
 
     % [_ Cello_Music_Voice measure 41]                                         %! _comment_measure_numbers
-    fqs'!4                                                                     %! trill_tuplets
+    fqs'!4                                                                     %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        fqs'!8.                                                                %! trill_tuplets
+        fqs'!8.                                                                %! khamr.trill_tuplets
         \repeatTie
-        [                                                                      %! trill_tuplets
+        [                                                                      %! khamr.trill_tuplets
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        f'8                                                                    %! trill_tuplets
+        f'8                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
-        ]                                                                      %! trill_tuplets
+        ]                                                                      %! khamr.trill_tuplets
         \startTrillSpan gf'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    f'2.                                                                       %! trill_tuplets
+    f'2.                                                                       %! khamr.trill_tuplets
     \repeatTie
 
     % [_ Cello_Music_Voice measure 42]                                         %! _comment_measure_numbers
-    f'4                                                                        %! trill_tuplets
+    f'4                                                                        %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        f'4                                                                    %! trill_tuplets
+        f'4                                                                    %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        fqs'!16                                                                %! trill_tuplets
+        fqs'!16                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan gqf'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    fqs'!4                                                                     %! trill_tuplets
+    fqs'!4                                                                     %! khamr.trill_tuplets
     \repeatTie
 
     % [_ Cello_Music_Voice measure 43]                                         %! _comment_measure_numbers
-    fqs'!2.                                                                    %! trill_tuplets
+    fqs'!2.                                                                    %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        fqs'!16                                                                %! trill_tuplets
+        fqs'!16                                                                %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        f'4                                                                    %! trill_tuplets
+        f'4                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan gf'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
     % [_ Cello_Music_Voice measure 44]                                         %! _comment_measure_numbers
-    f'1                                                                        %! trill_tuplets
+    f'1                                                                        %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        f'16                                                                   %! trill_tuplets
+        f'16                                                                   %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        e'4                                                                    %! trill_tuplets
+        e'4                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan f'                                                     %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    e'4                                                                        %! trill_tuplets
+    e'4                                                                        %! khamr.trill_tuplets
     \repeatTie
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -5789,7 +5789,7 @@ i_Contrabass_Music_Voice = {                                                   %
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):abjad.ScoreTemplate.attach_defaults
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    a2                                                                         %! opening_glissandi
+    a2                                                                         %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-default-indicator-markup "(“Contrabass”)"                          %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -5806,49 +5806,49 @@ i_Contrabass_Music_Voice = {                                                   %
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
 
     % [_ Contrabass_Music_Voice measure 2]                                     %! _comment_measure_numbers
-    a2                                                                         %! opening_glissandi
+    a2                                                                         %! khamr.opening_glissandi
     \repeatTie
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
-    \times 6/7 {                                                               %! opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
+    \times 6/7 {                                                               %! khamr.opening_glissandi
 
         % [_ Contrabass_Music_Voice measure 3]                                 %! _comment_measure_numbers
-        a1.                                                                    %! opening_glissandi
+        a1.                                                                    %! khamr.opening_glissandi
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        bf!4                                                                   %! opening_glissandi
+        bf!4                                                                   %! khamr.opening_glissandi
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
-    \times 4/5 {                                                               %! opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi
 
         % [_ Contrabass_Music_Voice measure 4]                                 %! _comment_measure_numbers
-        bf!2.                                                                  %! opening_glissandi
+        bf!2.                                                                  %! khamr.opening_glissandi
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        aqs!8.                                                                 %! opening_glissandi
+        aqs!8.                                                                 %! khamr.opening_glissandi
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 5]                                     %! _comment_measure_numbers
-    aqs!1                                                                      %! opening_glissandi
+    aqs!1                                                                      %! khamr.opening_glissandi
     \repeatTie
 
-    \times 4/5 {                                                               %! opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi
 
         % [_ Contrabass_Music_Voice measure 6]                                 %! _comment_measure_numbers
-        aqs!2.                                                                 %! opening_glissandi
+        aqs!2.                                                                 %! khamr.opening_glissandi
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        b8.                                                                    %! opening_glissandi
+        b8.                                                                    %! khamr.opening_glissandi
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 7]                                     %! _comment_measure_numbers
-    b1                                                                         %! opening_glissandi
+    b1                                                                         %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Contrabass_Music_Voice measure 8]                                     %! _comment_measure_numbers
@@ -5859,36 +5859,36 @@ i_Contrabass_Music_Voice = {                                                   %
     \repeatTie
 
     % [_ Contrabass_Music_Voice measure 9]                                     %! _comment_measure_numbers
-    b1                                                                         %! opening_glissandi
+    b1                                                                         %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Contrabass_Music_Voice measure 10]                                    %! _comment_measure_numbers
-    b2                                                                         %! opening_glissandi
+    b2                                                                         %! khamr.opening_glissandi
     \repeatTie
     \glissando                                                                 %! baca_glissando
 
-    cqs'!4                                                                     %! opening_glissandi
+    cqs'!4                                                                     %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    \times 2/3 {                                                               %! opening_glissandi
+    \times 2/3 {                                                               %! khamr.opening_glissandi
 
         % [_ Contrabass_Music_Voice measure 11]                                %! _comment_measure_numbers
-        cqs'!1                                                                 %! opening_glissandi
+        cqs'!1                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        bf!2                                                                   %! opening_glissandi
+        bf!2                                                                   %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 12]                                    %! _comment_measure_numbers
     bf!2.
@@ -5897,222 +5897,222 @@ i_Contrabass_Music_Voice = {                                                   %
     bf!2
     \repeatTie
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
-    \times 6/7 {                                                               %! opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
+    \times 6/7 {                                                               %! khamr.opening_glissandi
 
         % [_ Contrabass_Music_Voice measure 13]                                %! _comment_measure_numbers
-        bf!2.                                                                  %! opening_glissandi
+        bf!2.                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        aqs!8                                                                  %! opening_glissandi
+        aqs!8                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 14]                                    %! _comment_measure_numbers
-    aqs!2                                                                      %! opening_glissandi
+    aqs!2                                                                      %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Contrabass_Music_Voice measure 15]                                    %! _comment_measure_numbers
-    aqs!1.                                                                     %! opening_glissandi
+    aqs!1.                                                                     %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Contrabass_Music_Voice measure 16]                                    %! _comment_measure_numbers
-    aqs!2                                                                      %! opening_glissandi
+    aqs!2                                                                      %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Contrabass_Music_Voice measure 17]                                    %! _comment_measure_numbers
-    aqs!1                                                                      %! opening_glissandi
+    aqs!1                                                                      %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
     \glissando                                                                 %! baca_glissando
 
-    b4                                                                         %! opening_glissandi
+    b4                                                                         %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    \times 4/5 {                                                               %! opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi
 
         % [_ Contrabass_Music_Voice measure 18]                                %! _comment_measure_numbers
-        b2.                                                                    %! opening_glissandi
+        b2.                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        a8.                                                                    %! opening_glissandi
+        a8.                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 19]                                    %! _comment_measure_numbers
-    a1                                                                         %! opening_glissandi
+    a1                                                                         %! khamr.opening_glissandi
     \repeatTie
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
-    \times 3/4 {                                                               %! opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
+    \times 3/4 {                                                               %! khamr.opening_glissandi
 
         % [_ Contrabass_Music_Voice measure 20]                                %! _comment_measure_numbers
-        a1.                                                                    %! opening_glissandi
+        a1.                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        b2                                                                     %! opening_glissandi
+        b2                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 21]                                    %! _comment_measure_numbers
-    b2                                                                         %! opening_glissandi
+    b2                                                                         %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Contrabass_Music_Voice measure 22]                                    %! _comment_measure_numbers
-    b2                                                                         %! opening_glissandi
+    b2                                                                         %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Contrabass_Music_Voice measure 23]                                    %! _comment_measure_numbers
-    b2.                                                                        %! opening_glissandi
+    b2.                                                                        %! khamr.opening_glissandi
     \repeatTie
 
-    \times 2/3 {                                                               %! opening_glissandi
+    \times 2/3 {                                                               %! khamr.opening_glissandi
 
         % [_ Contrabass_Music_Voice measure 24]                                %! _comment_measure_numbers
-        b1                                                                     %! opening_glissandi
+        b1                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        cs'!2                                                                  %! opening_glissandi
+        cs'!2                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
-    \times 4/7 {                                                               %! opening_glissandi
+    \times 4/7 {                                                               %! khamr.opening_glissandi
 
         % [_ Contrabass_Music_Voice measure 25]                                %! _comment_measure_numbers
-        cs'!2.                                                                 %! opening_glissandi
+        cs'!2.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        bqs!8                                                                  %! opening_glissandi
+        bqs!8                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 26]                                    %! _comment_measure_numbers
-    bqs!2                                                                      %! opening_glissandi
+    bqs!2                                                                      %! khamr.opening_glissandi
     \repeatTie
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
-    \times 6/7 {                                                               %! opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
+    \times 6/7 {                                                               %! khamr.opening_glissandi
 
         % [_ Contrabass_Music_Voice measure 27]                                %! _comment_measure_numbers
-        bqs!1.                                                                 %! opening_glissandi
+        bqs!1.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        c'4                                                                    %! opening_glissandi
+        c'4                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 28]                                    %! _comment_measure_numbers
-    c'1                                                                        %! opening_glissandi
+    c'1                                                                        %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Contrabass_Music_Voice measure 29]                                    %! _comment_measure_numbers
-    c'2.                                                                       %! opening_glissandi
+    c'2.                                                                       %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Contrabass_Music_Voice measure 30]                                    %! _comment_measure_numbers
-    c'2.                                                                       %! opening_glissandi
+    c'2.                                                                       %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Contrabass_Music_Voice measure 31]                                    %! _comment_measure_numbers
-    c'2.                                                                       %! opening_glissandi
+    c'2.                                                                       %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
     \glissando                                                                 %! baca_glissando
 
-    a4                                                                         %! opening_glissandi
+    a4                                                                         %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
-    \times 5/4 {                                                               %! opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
+    \times 5/4 {                                                               %! khamr.opening_glissandi
 
         % [_ Contrabass_Music_Voice measure 32]                                %! _comment_measure_numbers
-        a2.                                                                    %! opening_glissandi
+        a2.                                                                    %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        b4                                                                     %! opening_glissandi
+        b4                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 33]                                    %! _comment_measure_numbers
-    b2.                                                                        %! opening_glissandi
+    b2.                                                                        %! khamr.opening_glissandi
     \repeatTie
 
-    \times 2/3 {                                                               %! opening_glissandi
+    \times 2/3 {                                                               %! khamr.opening_glissandi
 
         % [_ Contrabass_Music_Voice measure 34]                                %! _comment_measure_numbers
-        b1                                                                     %! opening_glissandi
+        b1                                                                     %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        cs'!2                                                                  %! opening_glissandi
+        cs'!2                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 35]                                    %! _comment_measure_numbers
-    cs'!1                                                                      %! opening_glissandi
+    cs'!1                                                                      %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Contrabass_Music_Voice measure 36]                                    %! _comment_measure_numbers
@@ -6123,71 +6123,71 @@ i_Contrabass_Music_Voice = {                                                   %
     \repeatTie
 
     % [_ Contrabass_Music_Voice measure 37]                                    %! _comment_measure_numbers
-    cs'!2.                                                                     %! opening_glissandi
+    cs'!2.                                                                     %! khamr.opening_glissandi
     \repeatTie
 
-    \times 4/7 {                                                               %! opening_glissandi
+    \times 4/7 {                                                               %! khamr.opening_glissandi
 
         % [_ Contrabass_Music_Voice measure 38]                                %! _comment_measure_numbers
-        cs'!2.                                                                 %! opening_glissandi
+        cs'!2.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        bqs!8                                                                  %! opening_glissandi
+        bqs!8                                                                  %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
-    \times 6/7 {                                                               %! opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
+    \times 6/7 {                                                               %! khamr.opening_glissandi
 
         % [_ Contrabass_Music_Voice measure 39]                                %! _comment_measure_numbers
-        bqs!1.                                                                 %! opening_glissandi
+        bqs!1.                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \repeatTie
         \glissando                                                             %! baca_glissando
 
-        dqf'!4                                                                 %! opening_glissandi
+        dqf'!4                                                                 %! khamr.opening_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [_ Contrabass_Music_Voice measure 40]                                    %! _comment_measure_numbers
-    dqf'!2                                                                     %! opening_glissandi
+    dqf'!2                                                                     %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Contrabass_Music_Voice measure 41]                                    %! _comment_measure_numbers
-    dqf'!1                                                                     %! opening_glissandi
+    dqf'!1                                                                     %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
     \glissando                                                                 %! baca_glissando
 
-    c'4                                                                        %! opening_glissandi
+    c'4                                                                        %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [_ Contrabass_Music_Voice measure 42]                                    %! _comment_measure_numbers
-    c'2.                                                                       %! opening_glissandi
+    c'2.                                                                       %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Contrabass_Music_Voice measure 43]                                    %! _comment_measure_numbers
-    c'1                                                                        %! opening_glissandi
+    c'1                                                                        %! khamr.opening_glissandi
     \repeatTie
 
     % [_ Contrabass_Music_Voice measure 44]                                    %! _comment_measure_numbers
-    c'1.                                                                       %! opening_glissandi
+    c'1.                                                                       %! khamr.opening_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie

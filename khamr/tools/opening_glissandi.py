@@ -34,7 +34,7 @@ def opening_glissandi(tuplet_ratio_rotation, dmask) -> baca.RhythmCommand:
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=division_masks,
-            tag="opening_glissandi",
+            tag="khamr.opening_glissandi",
             tie_specifier=rmakers.TieSpecifier(
                 tie_across_divisions=True, repeat_ties=True
             ),

@@ -784,987 +784,987 @@ B_Flute_Music_Voice = {                                                        %
     % [B Flute_Music_Voice measure 83 / measure 9]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
         % [B Flute_Music_Voice measure 84 / measure 10]                        %! _comment_measure_numbers
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-fff-ancora                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
         % [B Flute_Music_Voice measure 86 / measure 12]                        %! _comment_measure_numbers
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
         % [B Flute_Music_Voice measure 100 / measure 26]                       %! _comment_measure_numbers
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 7/8 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 7/8 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 4/5 {                                                               %! aviary
+    \times 4/5 {                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1818,7 +1818,7 @@ B_Flute_Music_Voice = {                                                        %
     bf'!2...
     \repeatTie
 
-    r16                                                                        %! fused_wind
+    r16                                                                        %! khamr.fused_wind
 
     % [B Flute_Music_Voice measure 110 / measure 36]                           %! _comment_measure_numbers
     bf'!2.
@@ -1836,7 +1836,7 @@ B_Flute_Music_Voice = {                                                        %
     bf'!16
     \repeatTie
 
-    r16                                                                        %! fused_wind
+    r16                                                                        %! khamr.fused_wind
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1959,1151 +1959,1151 @@ B_Oboe_Music_Voice = {                                                         %
     % [B Oboe_Music_Voice measure 83 / measure 9]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
         % [B Oboe_Music_Voice measure 84 / measure 10]                         %! _comment_measure_numbers
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-fff-ancora                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
         ^ \baca-explicit-indicator-markup "(“Oboe”)"                           %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
         % [B Oboe_Music_Voice measure 88 / measure 14]                         %! _comment_measure_numbers
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
         % [B Oboe_Music_Voice measure 91 / measure 17]                         %! _comment_measure_numbers
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
         % [B Oboe_Music_Voice measure 92 / measure 18]                         %! _comment_measure_numbers
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
         % [B Oboe_Music_Voice measure 96 / measure 22]                         %! _comment_measure_numbers
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
         % [B Oboe_Music_Voice measure 98 / measure 24]                         %! _comment_measure_numbers
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/6 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/6 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        fs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 4/5 {                                                               %! aviary
+    \times 4/5 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3151,7 +3151,7 @@ B_Oboe_Music_Voice = {                                                         %
     r1
 
     % [B Oboe_Music_Voice measure 110 / measure 36]                            %! _comment_measure_numbers
-    r2                                                                         %! fused_wind
+    r2                                                                         %! khamr.fused_wind
 
     c'2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3168,7 +3168,7 @@ B_Oboe_Music_Voice = {                                                         %
     c'16
     \repeatTie
 
-    r16                                                                        %! fused_wind
+    r16                                                                        %! khamr.fused_wind
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -3284,909 +3284,909 @@ B_Clarinet_Music_Voice = {                                                     %
     % [B Clarinet_Music_Voice measure 83 / measure 9]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
         % [B Clarinet_Music_Voice measure 84 / measure 10]                     %! _comment_measure_numbers
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-fff-ancora                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
         ^ \baca-explicit-indicator-markup "(“Clarinet”)"                       %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
         % [B Clarinet_Music_Voice measure 87 / measure 13]                     %! _comment_measure_numbers
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
         % [B Clarinet_Music_Voice measure 92 / measure 18]                     %! _comment_measure_numbers
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
         % [B Clarinet_Music_Voice measure 98 / measure 24]                     %! _comment_measure_numbers
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
         % [B Clarinet_Music_Voice measure 99 / measure 25]                     %! _comment_measure_numbers
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
         % [B Clarinet_Music_Voice measure 100 / measure 26]                    %! _comment_measure_numbers
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
         % [B Clarinet_Music_Voice measure 101 / measure 27]                    %! _comment_measure_numbers
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
         % [B Clarinet_Music_Voice measure 102 / measure 28]                    %! _comment_measure_numbers
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 8/9 {                                                               %! aviary
+    \times 8/9 {                                                               %! khamt.aviary
 
         % [B Clarinet_Music_Voice measure 103 / measure 29]                    %! _comment_measure_numbers
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        g'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 4/5 {                                                               %! aviary
+    \times 4/5 {                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        es'''!16                                                               %! aviary
+        es'''!16                                                               %! khamt.aviary
 
-        g'''16                                                                 %! aviary
+        g'''16                                                                 %! khamt.aviary
 
-        gs'''!16                                                               %! aviary
+        gs'''!16                                                               %! khamt.aviary
 
-        d'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        d'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -4357,1063 +4357,1063 @@ B_Saxophone_Music_Voice = {                                                    %
     % [B Saxophone_Music_Voice measure 83 / measure 9]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
         % [B Saxophone_Music_Voice measure 84 / measure 10]                    %! _comment_measure_numbers
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-fff-ancora                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
         ^ \baca-explicit-indicator-markup "(“SopraninoSaxophone”)"             %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
         % [B Saxophone_Music_Voice measure 85 / measure 11]                    %! _comment_measure_numbers
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
         % [B Saxophone_Music_Voice measure 87 / measure 13]                    %! _comment_measure_numbers
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
         % [B Saxophone_Music_Voice measure 88 / measure 14]                    %! _comment_measure_numbers
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
         % [B Saxophone_Music_Voice measure 92 / measure 18]                    %! _comment_measure_numbers
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
         % [B Saxophone_Music_Voice measure 93 / measure 19]                    %! _comment_measure_numbers
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
         % [B Saxophone_Music_Voice measure 96 / measure 22]                    %! _comment_measure_numbers
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
         % [B Saxophone_Music_Voice measure 99 / measure 25]                    %! _comment_measure_numbers
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 6/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 6/7 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
+        b''16                                                                  %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        bs''!16                                                                %! aviary
+        bs''!16                                                                %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
-        ]                                                                      %! aviary
+        cs'''!16                                                               %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \times 2/3 {                                                               %! aviary
+    \times 2/3 {                                                               %! khamt.aviary
 
-        a''16                                                                  %! aviary
+        a''16                                                                  %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        as''!16                                                                %! aviary
+        as''!16                                                                %! khamt.aviary
 
-        b''16                                                                  %! aviary
-        ]                                                                      %! aviary
+        b''16                                                                  %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -5467,10 +5467,10 @@ B_Saxophone_Music_Voice = {                                                    %
     \repeatTie
 
     % [B Saxophone_Music_Voice measure 110 / measure 36]                       %! _comment_measure_numbers
-    c'2...                                                                     %! fused_wind
+    c'2...                                                                     %! khamr.fused_wind
     \repeatTie
 
-    r16                                                                        %! fused_wind
+    r16                                                                        %! khamr.fused_wind
 
     c'4
 
@@ -5484,7 +5484,7 @@ B_Saxophone_Music_Voice = {                                                    %
     c'16
     \repeatTie
 
-    r16                                                                        %! fused_wind
+    r16                                                                        %! khamr.fused_wind
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -5813,7 +5813,7 @@ B_Piano_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    df''''!16                                                                  %! current
+    df''''!16                                                                  %! khamr.current
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-fff-ancora                                                           %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Pf.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -5828,1349 +5828,1349 @@ B_Piano_Music_Voice = {                                                        %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    d''''16                                                                    %! current
+    d''''16                                                                    %! khamr.current
 
-    f''''16                                                                    %! current
+    f''''16                                                                    %! khamr.current
 
-    c''''16                                                                    %! current
+    c''''16                                                                    %! khamr.current
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    af'''!16                                                                   %! current
+    af'''!16                                                                   %! khamr.current
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    g'''16                                                                     %! current
+    g'''16                                                                     %! khamr.current
 
-    e''''16                                                                    %! current
+    e''''16                                                                    %! khamr.current
 
-    c''''16                                                                    %! current
+    c''''16                                                                    %! khamr.current
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [B Piano_Music_Voice measure 76 / measure 2]                             %! _comment_measure_numbers
-    b'''16                                                                     %! current
+    b'''16                                                                     %! khamr.current
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    df''''!16                                                                  %! current
+    df''''!16                                                                  %! khamr.current
 
-    ef''''!16                                                                  %! current
+    ef''''!16                                                                  %! khamr.current
 
-    f''''16                                                                    %! current
+    f''''16                                                                    %! khamr.current
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    \times 2/3 {                                                               %! current
+    \times 2/3 {                                                               %! khamr.current
 
-        e''''8                                                                 %! current
+        e''''8                                                                 %! khamr.current
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        fs'''!8                                                                %! current
+        fs'''!8                                                                %! khamr.current
 
-        bf'''!8                                                                %! current
+        bf'''!8                                                                %! khamr.current
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
-    \times 4/5 {                                                               %! current
+    \times 4/5 {                                                               %! khamr.current
 
         % [B Piano_Music_Voice measure 77 / measure 3]                         %! _comment_measure_numbers
-        a'''16.                                                                %! current
+        a'''16.                                                                %! khamr.current
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        c''''16.                                                               %! current
+        c''''16.                                                               %! khamr.current
 
-        af'''!16.                                                              %! current
+        af'''!16.                                                              %! khamr.current
 
-        g'''16.                                                                %! current
+        g'''16.                                                                %! khamr.current
 
-        e''''16.                                                               %! current
-        ]                                                                      %! current
+        e''''16.                                                               %! khamr.current
+        ]                                                                      %! khamr.current
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
-    \times 4/5 {                                                               %! current
+    \times 4/5 {                                                               %! khamr.current
 
-        f''''16.                                                               %! current
-        [                                                                      %! current
+        f''''16.                                                               %! khamr.current
+        [                                                                      %! khamr.current
 
-        b'''16.                                                                %! current
+        b'''16.                                                                %! khamr.current
 
-        df''''!16.                                                             %! current
+        df''''!16.                                                             %! khamr.current
 
-        ef''''!16.                                                             %! current
+        ef''''!16.                                                             %! khamr.current
 
-        a'''16.                                                                %! current
+        a'''16.                                                                %! khamr.current
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
-    \times 4/5 {                                                               %! current
+    \times 4/5 {                                                               %! khamr.current
 
-        e''''16.                                                               %! current
+        e''''16.                                                               %! khamr.current
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        fs'''!16.                                                              %! current
+        fs'''!16.                                                              %! khamr.current
 
-        bf'''!16.                                                              %! current
+        bf'''!16.                                                              %! khamr.current
 
-        c''''16.                                                               %! current
+        c''''16.                                                               %! khamr.current
 
-        df''''!16.                                                             %! current
-        ]                                                                      %! current
+        df''''!16.                                                             %! khamr.current
+        ]                                                                      %! khamr.current
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
-    d''''8                                                                     %! current
+    d''''8                                                                     %! khamr.current
 
-    f''''8                                                                     %! current
+    f''''8                                                                     %! khamr.current
 
-    ef''''!8                                                                   %! current
+    ef''''!8                                                                   %! khamr.current
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    \times 2/3 {                                                               %! current
+    \times 2/3 {                                                               %! khamr.current
 
         % [B Piano_Music_Voice measure 78 / measure 4]                         %! _comment_measure_numbers
-        f''''8                                                                 %! current
+        f''''8                                                                 %! khamr.current
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        b'''8                                                                  %! current
+        b'''8                                                                  %! khamr.current
 
-        df''''!8                                                               %! current
+        df''''!8                                                               %! khamr.current
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
-    bf'''!16                                                                   %! current
+    bf'''!16                                                                   %! khamr.current
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    a'''16                                                                     %! current
+    a'''16                                                                     %! khamr.current
 
-    e''''16                                                                    %! current
+    e''''16                                                                    %! khamr.current
 
-    fs'''!16                                                                   %! current
+    fs'''!16                                                                   %! khamr.current
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    f''''16                                                                    %! current
+    f''''16                                                                    %! khamr.current
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    c''''16                                                                    %! current
+    c''''16                                                                    %! khamr.current
 
-    df''''!16                                                                  %! current
+    df''''!16                                                                  %! khamr.current
 
-    d''''16                                                                    %! current
+    d''''16                                                                    %! khamr.current
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    \times 2/3 {                                                               %! current
+    \times 2/3 {                                                               %! khamr.current
 
         % [B Piano_Music_Voice measure 79 / measure 5]                         %! _comment_measure_numbers
-        e''''8                                                                 %! current
+        e''''8                                                                 %! khamr.current
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ffff                                                                  %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        c''''8                                                                 %! current
+        c''''8                                                                 %! khamr.current
 
-        af'''!8                                                                %! current
+        af'''!8                                                                %! khamr.current
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
-    \times 2/3 {                                                               %! current
+    \times 2/3 {                                                               %! khamr.current
 
-        g'''8                                                                  %! current
+        g'''8                                                                  %! khamr.current
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        fs'''!8                                                                %! current
+        fs'''!8                                                                %! khamr.current
 
-        bf'''!8                                                                %! current
+        bf'''!8                                                                %! khamr.current
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
-    \times 4/5 {                                                               %! current
+    \times 4/5 {                                                               %! khamr.current
 
-        a'''16                                                                 %! current
+        a'''16                                                                 %! khamr.current
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        e''''16                                                                %! current
+        e''''16                                                                %! khamr.current
 
-        d''''16                                                                %! current
+        d''''16                                                                %! khamr.current
 
-        f''''16                                                                %! current
+        f''''16                                                                %! khamr.current
 
-        c''''16                                                                %! current
+        c''''16                                                                %! khamr.current
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
-    \times 4/5 {                                                               %! current
+    \times 4/5 {                                                               %! khamr.current
 
-        df''''!16                                                              %! current
+        df''''!16                                                              %! khamr.current
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        g'''16                                                                 %! current
+        g'''16                                                                 %! khamr.current
 
-        e''''16                                                                %! current
+        e''''16                                                                %! khamr.current
 
-        c''''16                                                                %! current
+        c''''16                                                                %! khamr.current
 
-        af'''!16                                                               %! current
+        af'''!16                                                               %! khamr.current
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
-    \times 4/5 {                                                               %! current
+    \times 4/5 {                                                               %! khamr.current
 
         % [B Piano_Music_Voice measure 80 / measure 6]                         %! _comment_measure_numbers
-        df''''!16.                                                             %! current
+        df''''!16.                                                             %! khamr.current
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        ef''''!16.                                                             %! current
+        ef''''!16.                                                             %! khamr.current
 
-        f''''16.                                                               %! current
+        f''''16.                                                               %! khamr.current
 
-        b'''16.                                                                %! current
+        b'''16.                                                                %! khamr.current
 
-        df''''!16.                                                             %! current
+        df''''!16.                                                             %! khamr.current
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
-    \times 4/5 {                                                               %! current
+    \times 4/5 {                                                               %! khamr.current
 
-        d''''16.                                                               %! current
+        d''''16.                                                               %! khamr.current
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        f''''16.                                                               %! current
+        f''''16.                                                               %! khamr.current
 
-        c''''16.                                                               %! current
+        c''''16.                                                               %! khamr.current
 
-        af'''!16.                                                              %! current
+        af'''!16.                                                              %! khamr.current
 
-        g'''16.                                                                %! current
+        g'''16.                                                                %! khamr.current
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
-    \times 4/5 {                                                               %! current
+    \times 4/5 {                                                               %! khamr.current
 
         % [B Piano_Music_Voice measure 81 / measure 7]                         %! _comment_measure_numbers
-        e''''16                                                                %! current
+        e''''16                                                                %! khamr.current
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        c''''16                                                                %! current
+        c''''16                                                                %! khamr.current
 
-        b'''16                                                                 %! current
+        b'''16                                                                 %! khamr.current
 
-        df''''!16                                                              %! current
+        df''''!16                                                              %! khamr.current
 
-        ef''''!16                                                              %! current
+        ef''''!16                                                              %! khamr.current
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
-    f''''16                                                                    %! current
+    f''''16                                                                    %! khamr.current
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    e''''16                                                                    %! current
+    e''''16                                                                    %! khamr.current
 
-    fs'''!16                                                                   %! current
+    fs'''!16                                                                   %! khamr.current
 
-    bf'''!16                                                                   %! current
+    bf'''!16                                                                   %! khamr.current
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    a'''16                                                                     %! current
+    a'''16                                                                     %! khamr.current
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    c''''16                                                                    %! current
+    c''''16                                                                    %! khamr.current
 
-    af'''!16                                                                   %! current
+    af'''!16                                                                   %! khamr.current
 
-    g'''16                                                                     %! current
+    g'''16                                                                     %! khamr.current
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    e''''16                                                                    %! current
+    e''''16                                                                    %! khamr.current
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    f''''16                                                                    %! current
+    f''''16                                                                    %! khamr.current
 
-    b'''16                                                                     %! current
+    b'''16                                                                     %! khamr.current
 
-    df''''!16                                                                  %! current
+    df''''!16                                                                  %! khamr.current
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    \times 2/3 {                                                               %! current
+    \times 2/3 {                                                               %! khamr.current
 
         % [B Piano_Music_Voice measure 82 / measure 8]                         %! _comment_measure_numbers
-        ef''''!8                                                               %! current
+        ef''''!8                                                               %! khamr.current
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        a'''8                                                                  %! current
+        a'''8                                                                  %! khamr.current
 
-        e''''8                                                                 %! current
-        ]                                                                      %! current
+        e''''8                                                                 %! khamr.current
+        ]                                                                      %! khamr.current
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
-    \times 4/5 {                                                               %! current
+    \times 4/5 {                                                               %! khamr.current
 
-        fs'''!16                                                               %! current
-        [                                                                      %! current
+        fs'''!16                                                               %! khamr.current
+        [                                                                      %! khamr.current
 
-        bf'''!16                                                               %! current
+        bf'''!16                                                               %! khamr.current
 
-        c''''16                                                                %! current
+        c''''16                                                                %! khamr.current
 
-        df''''!16                                                              %! current
+        df''''!16                                                              %! khamr.current
 
-        d''''16                                                                %! current
-        ]                                                                      %! current
+        d''''16                                                                %! khamr.current
+        ]                                                                      %! khamr.current
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
-    \times 4/5 {                                                               %! current
+    \times 4/5 {                                                               %! khamr.current
 
-        f''''16                                                                %! current
-        [                                                                      %! current
+        f''''16                                                                %! khamr.current
+        [                                                                      %! khamr.current
 
-        ef''''!16                                                              %! current
+        ef''''!16                                                              %! khamr.current
 
-        f''''16                                                                %! current
+        f''''16                                                                %! khamr.current
 
-        b'''16                                                                 %! current
+        b'''16                                                                 %! khamr.current
 
-        df''''!16                                                              %! current
+        df''''!16                                                              %! khamr.current
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
-    \times 4/5 {                                                               %! current
+    \times 4/5 {                                                               %! khamr.current
 
-        bf'''!16                                                               %! current
+        bf'''!16                                                               %! khamr.current
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        a'''16                                                                 %! current
+        a'''16                                                                 %! khamr.current
 
-        e''''16                                                                %! current
+        e''''16                                                                %! khamr.current
 
-        fs'''!16                                                               %! current
+        fs'''!16                                                               %! khamr.current
 
-        f''''16                                                                %! current
-        ]                                                                      %! current
+        f''''16                                                                %! khamr.current
+        ]                                                                      %! khamr.current
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
-    \times 2/3 {                                                               %! current
+    \times 2/3 {                                                               %! khamr.current
 
-        c''''8                                                                 %! current
-        [                                                                      %! current
+        c''''8                                                                 %! khamr.current
+        [                                                                      %! khamr.current
 
-        df''''!8                                                               %! current
+        df''''!8                                                               %! khamr.current
 
-        d''''8                                                                 %! current
+        d''''8                                                                 %! khamr.current
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
-    \times 2/3 {                                                               %! current
+    \times 2/3 {                                                               %! khamr.current
 
         % [B Piano_Music_Voice measure 83 / measure 9]                         %! _comment_measure_numbers
-        e''''8                                                                 %! current
+        e''''8                                                                 %! khamr.current
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        c''''8                                                                 %! current
+        c''''8                                                                 %! khamr.current
 
-        af'''!8                                                                %! current
+        af'''!8                                                                %! khamr.current
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
-    g'''16                                                                     %! current
+    g'''16                                                                     %! khamr.current
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    fs'''!16                                                                   %! current
+    fs'''!16                                                                   %! khamr.current
 
-    bf'''!16                                                                   %! current
+    bf'''!16                                                                   %! khamr.current
 
-    a'''16                                                                     %! current
+    a'''16                                                                     %! khamr.current
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    e''''16                                                                    %! current
+    e''''16                                                                    %! khamr.current
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    d''''16                                                                    %! current
+    d''''16                                                                    %! khamr.current
 
-    f''''16                                                                    %! current
+    f''''16                                                                    %! khamr.current
 
-    c''''16                                                                    %! current
+    c''''16                                                                    %! khamr.current
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    \times 2/3 {                                                               %! current
+    \times 2/3 {                                                               %! khamr.current
 
-        df''''!8                                                               %! current
+        df''''!8                                                               %! khamr.current
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        g'''8                                                                  %! current
+        g'''8                                                                  %! khamr.current
 
-        e''''8                                                                 %! current
+        e''''8                                                                 %! khamr.current
         ]                                                                      %! Duration_Specifier__rewrite_meter_
         \ottava 0                                                              %! baca_ottava:SpannerIndicatorCommand(2)
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
         % [B Piano_Music_Voice measure 84 / measure 10]                        %! _comment_measure_numbers
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
         % [B Piano_Music_Voice measure 96 / measure 22]                        %! _comment_measure_numbers
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
         % [B Piano_Music_Voice measure 99 / measure 25]                        %! _comment_measure_numbers
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 9/11 {                                                              %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 9/11 {                                                              %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
 
-        cs'''!16                                                               %! aviary
+        cs'''!16                                                               %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        f'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! aviary
-    \times 5/7 {                                                               %! aviary
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamt.aviary
+    \times 5/7 {                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
+        c'''16                                                                 %! khamt.aviary
         - \accent                                                              %! baca_accent:IndicatorCommand
-        [                                                                      %! aviary
+        [                                                                      %! khamt.aviary
 
-        d'''16                                                                 %! aviary
+        d'''16                                                                 %! khamt.aviary
 
-        ds'''!16                                                               %! aviary
+        ds'''!16                                                               %! khamt.aviary
 
-        e'''16                                                                 %! aviary
+        e'''16                                                                 %! khamt.aviary
 
-        f'''16                                                                 %! aviary
+        f'''16                                                                 %! khamt.aviary
 
-        fs'''!16                                                               %! aviary
+        fs'''!16                                                               %! khamt.aviary
 
-        c'''16                                                                 %! aviary
-        ]                                                                      %! aviary
+        c'''16                                                                 %! khamt.aviary
+        ]                                                                      %! khamt.aviary
 
-    }                                                                          %! aviary
+    }                                                                          %! khamt.aviary
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -7796,125 +7796,125 @@ B_Violin_Music_Voice = {                                                       %
 
     % [B Violin_Music_Voice measure 77 / measure 3]                            %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-    gff'!1.                                                                    %! continuous_glissandi
+    gff'!1.                                                                    %! khamr.continuous_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "estr. sul pont." }                                            %! baca_markup:IndicatorCommand
     \glissando                                                                 %! baca_glissando
 
     % [B Violin_Music_Voice measure 78 / measure 4]                            %! _comment_measure_numbers
-    gf'!2.                                                                     %! continuous_glissandi
+    gf'!2.                                                                     %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    \times 4/5 {                                                               %! continuous_glissandi
+    \times 4/5 {                                                               %! khamr.continuous_glissandi
 
         % [B Violin_Music_Voice measure 79 / measure 5]                        %! _comment_measure_numbers
-        bff'!2.                                                                %! continuous_glissandi
+        bff'!2.                                                                %! khamr.continuous_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \glissando                                                             %! baca_glissando
 
-        ff'!2                                                                  %! continuous_glissandi
+        ff'!2                                                                  %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     % [B Violin_Music_Voice measure 80 / measure 6]                            %! _comment_measure_numbers
-    dff'!2.                                                                    %! continuous_glissandi
+    dff'!2.                                                                    %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    \times 2/3 {                                                               %! continuous_glissandi
+    \times 2/3 {                                                               %! khamr.continuous_glissandi
 
         % [B Violin_Music_Voice measure 81 / measure 7]                        %! _comment_measure_numbers
-        cf'!1                                                                  %! continuous_glissandi
+        cf'!1                                                                  %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        af'!2                                                                  %! continuous_glissandi
+        af'!2                                                                  %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
-    \times 5/9 {                                                               %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
+    \times 5/9 {                                                               %! khamr.continuous_glissandi
 
         % [B Violin_Music_Voice measure 82 / measure 8]                        %! _comment_measure_numbers
-        ff'!2.                                                                 %! continuous_glissandi
+        ff'!2.                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        ef'!1.                                                                 %! continuous_glissandi
+        ef'!1.                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
-    \times 4/7 {                                                               %! continuous_glissandi
+    \times 4/7 {                                                               %! khamr.continuous_glissandi
 
         % [B Violin_Music_Voice measure 83 / measure 9]                        %! _comment_measure_numbers
-        gff'!1                                                                 %! continuous_glissandi
+        gff'!1                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        aff'!2.                                                                %! continuous_glissandi
+        aff'!2.                                                                %! khamr.continuous_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     % [B Violin_Music_Voice measure 84 / measure 10]                           %! _comment_measure_numbers
-    bff'!2.                                                                    %! continuous_glissandi
+    bff'!2.                                                                    %! khamr.continuous_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \glissando                                                                 %! baca_glissando
 
     % [B Violin_Music_Voice measure 85 / measure 11]                           %! _comment_measure_numbers
-    af'!1                                                                      %! continuous_glissandi
+    af'!1                                                                      %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
     % [B Violin_Music_Voice measure 86 / measure 12]                           %! _comment_measure_numbers
-    bf!2                                                                       %! continuous_glissandi
+    bf!2                                                                       %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    eff'!2.                                                                    %! continuous_glissandi
+    eff'!2.                                                                    %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
     % [B Violin_Music_Voice measure 87 / measure 13]                           %! _comment_measure_numbers
-    df'!2.                                                                     %! continuous_glissandi
+    df'!2.                                                                     %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    \times 2/3 {                                                               %! continuous_glissandi
+    \times 2/3 {                                                               %! khamr.continuous_glissandi
 
         % [B Violin_Music_Voice measure 88 / measure 14]                       %! _comment_measure_numbers
-        ff'!4                                                                  %! continuous_glissandi
+        ff'!4                                                                  %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        dff'!2                                                                 %! continuous_glissandi
+        dff'!2                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
-    \times 6/7 {                                                               %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
+    \times 6/7 {                                                               %! khamr.continuous_glissandi
 
         % [B Violin_Music_Voice measure 89 / measure 15]                       %! _comment_measure_numbers
-        cf'!1                                                                  %! continuous_glissandi
+        cf'!1                                                                  %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        af'!2.                                                                 %! continuous_glissandi
+        af'!2.                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
-    \times 4/7 {                                                               %! continuous_glissandi
+    \times 4/7 {                                                               %! khamr.continuous_glissandi
 
         % [B Violin_Music_Voice measure 90 / measure 16]                       %! _comment_measure_numbers
-        bff'!4.                                                                %! continuous_glissandi
+        bff'!4.                                                                %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        ef'!2                                                                  %! continuous_glissandi
+        ef'!2                                                                  %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     % [B Violin_Music_Voice measure 91 / measure 17]                           %! _comment_measure_numbers
     gff'!2.
@@ -7924,103 +7924,103 @@ B_Violin_Music_Voice = {                                                       %
     \glissando                                                                 %! baca_glissando
 
     % [B Violin_Music_Voice measure 92 / measure 18]                           %! _comment_measure_numbers
-    aff'!2.                                                                    %! continuous_glissandi
+    aff'!2.                                                                    %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    \times 2/3 {                                                               %! continuous_glissandi
+    \times 2/3 {                                                               %! khamr.continuous_glissandi
 
         % [B Violin_Music_Voice measure 93 / measure 19]                       %! _comment_measure_numbers
-        df'!1                                                                  %! continuous_glissandi
+        df'!1                                                                  %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        af'!2                                                                  %! continuous_glissandi
+        af'!2                                                                  %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     % [B Violin_Music_Voice measure 94 / measure 20]                           %! _comment_measure_numbers
-    bf!1.                                                                      %! continuous_glissandi
+    bf!1.                                                                      %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    \times 4/7 {                                                               %! continuous_glissandi
+    \times 4/7 {                                                               %! khamr.continuous_glissandi
 
         % [B Violin_Music_Voice measure 95 / measure 21]                       %! _comment_measure_numbers
-        eff'!2                                                                 %! continuous_glissandi
+        eff'!2                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        ff'!4.                                                                 %! continuous_glissandi
+        ff'!4.                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
-    \times 4/7 {                                                               %! continuous_glissandi
+    \times 4/7 {                                                               %! khamr.continuous_glissandi
 
         % [B Violin_Music_Voice measure 96 / measure 22]                       %! _comment_measure_numbers
-        gff'!4.                                                                %! continuous_glissandi
+        gff'!4.                                                                %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        gf'!2                                                                  %! continuous_glissandi
+        gf'!2                                                                  %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
-    \times 3/5 {                                                               %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
+    \times 3/5 {                                                               %! khamr.continuous_glissandi
 
         % [B Violin_Music_Voice measure 97 / measure 23]                       %! _comment_measure_numbers
-        bff'!2.                                                                %! continuous_glissandi
+        bff'!2.                                                                %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        aff'!2                                                                 %! continuous_glissandi
+        aff'!2                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     % [B Violin_Music_Voice measure 98 / measure 24]                           %! _comment_measure_numbers
-    bff'!1                                                                     %! continuous_glissandi
+    bff'!1                                                                     %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
     % [B Violin_Music_Voice measure 99 / measure 25]                           %! _comment_measure_numbers
-    ef'!2                                                                      %! continuous_glissandi
+    ef'!2                                                                      %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    \times 2/3 {                                                               %! continuous_glissandi
+    \times 2/3 {                                                               %! khamr.continuous_glissandi
 
         % [B Violin_Music_Voice measure 100 / measure 26]                      %! _comment_measure_numbers
-        gff'!4                                                                 %! continuous_glissandi
+        gff'!4                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        eff'!2                                                                 %! continuous_glissandi
+        eff'!2                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     % [B Violin_Music_Voice measure 101 / measure 27]                          %! _comment_measure_numbers
-    df'!1.                                                                     %! continuous_glissandi
+    df'!1.                                                                     %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    \times 4/7 {                                                               %! continuous_glissandi
+    \times 4/7 {                                                               %! khamr.continuous_glissandi
 
         % [B Violin_Music_Voice measure 102 / measure 28]                      %! _comment_measure_numbers
-        af'!2.                                                                 %! continuous_glissandi
+        af'!2.                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        bf!1                                                                   %! continuous_glissandi
+        bf!1                                                                   %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
-    \times 3/5 {                                                               %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
+    \times 3/5 {                                                               %! khamr.continuous_glissandi
 
         % [B Violin_Music_Voice measure 103 / measure 29]                      %! _comment_measure_numbers
-        bff'!2.                                                                %! continuous_glissandi
+        bff'!2.                                                                %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        ff'!2                                                                  %! continuous_glissandi
+        ff'!2                                                                  %! khamr.continuous_glissandi
         \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -8139,28 +8139,28 @@ B_Viola_Music_Voice = {                                                        %
     gs'!2                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
-    \times 3/5 {                                                               %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
+    \times 3/5 {                                                               %! khamr.continuous_glissandi
 
         % [B Viola_Music_Voice measure 77 / measure 3]                         %! _comment_measure_numbers
         \override NoteHead.style = #'harmonic                                  %! baca_note_head_style_harmonic:OverrideCommand(1)
-        gff'!1.                                                                %! continuous_glissandi
+        gff'!1.                                                                %! khamr.continuous_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         ^ \markup { "estr. sul pont." }                                        %! baca_markup:IndicatorCommand
         \glissando                                                             %! baca_glissando
 
-        gf'!1                                                                  %! continuous_glissandi
+        gf'!1                                                                  %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     % [B Viola_Music_Voice measure 78 / measure 4]                             %! _comment_measure_numbers
-    bff'!2.                                                                    %! continuous_glissandi
+    bff'!2.                                                                    %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
     % [B Viola_Music_Voice measure 79 / measure 5]                             %! _comment_measure_numbers
-    ff'!1                                                                      %! continuous_glissandi
+    ff'!1                                                                      %! khamr.continuous_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -8168,57 +8168,57 @@ B_Viola_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     % [B Viola_Music_Voice measure 80 / measure 6]                             %! _comment_measure_numbers
-    dff'!4                                                                     %! continuous_glissandi
+    dff'!4                                                                     %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    cf'!2                                                                      %! continuous_glissandi
+    cf'!2                                                                      %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
     % [B Viola_Music_Voice measure 81 / measure 7]                             %! _comment_measure_numbers
-    af'!1                                                                      %! continuous_glissandi
+    af'!1                                                                      %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
-    \times 5/7 {                                                               %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
+    \times 5/7 {                                                               %! khamr.continuous_glissandi
 
         % [B Viola_Music_Voice measure 82 / measure 8]                         %! _comment_measure_numbers
-        ff'!2.                                                                 %! continuous_glissandi
+        ff'!2.                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        ef'!1                                                                  %! continuous_glissandi
+        ef'!1                                                                  %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
-    \times 4/5 {                                                               %! continuous_glissandi
+    \times 4/5 {                                                               %! khamr.continuous_glissandi
 
         % [B Viola_Music_Voice measure 83 / measure 9]                         %! _comment_measure_numbers
-        gff'!2.                                                                %! continuous_glissandi
+        gff'!2.                                                                %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        aff'!2                                                                 %! continuous_glissandi
+        aff'!2                                                                 %! khamr.continuous_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
-    \times 3/5 {                                                               %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
+    \times 3/5 {                                                               %! khamr.continuous_glissandi
 
         % [B Viola_Music_Voice measure 84 / measure 10]                        %! _comment_measure_numbers
-        bff'!2                                                                 %! continuous_glissandi
+        bff'!2                                                                 %! khamr.continuous_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \glissando                                                             %! baca_glissando
 
-        af'!2.                                                                 %! continuous_glissandi
+        af'!2.                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     % [B Viola_Music_Voice measure 85 / measure 11]                            %! _comment_measure_numbers
-    bf!1                                                                       %! continuous_glissandi
+    bf!1                                                                       %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
     % [B Viola_Music_Voice measure 86 / measure 12]                            %! _comment_measure_numbers
@@ -8228,139 +8228,139 @@ B_Viola_Music_Voice = {                                                        %
     \repeatTie
     \glissando                                                                 %! baca_glissando
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
-    \times 6/7 {                                                               %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
+    \times 6/7 {                                                               %! khamr.continuous_glissandi
 
         % [B Viola_Music_Voice measure 87 / measure 13]                        %! _comment_measure_numbers
-        df'!2                                                                  %! continuous_glissandi
+        df'!2                                                                  %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        ff'!4.                                                                 %! continuous_glissandi
+        ff'!4.                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     % [B Viola_Music_Voice measure 88 / measure 14]                            %! _comment_measure_numbers
-    dff'!2                                                                     %! continuous_glissandi
+    dff'!2                                                                     %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
-    \times 3/5 {                                                               %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
+    \times 3/5 {                                                               %! khamr.continuous_glissandi
 
         % [B Viola_Music_Voice measure 89 / measure 15]                        %! _comment_measure_numbers
-        cf'!1.                                                                 %! continuous_glissandi
+        cf'!1.                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        af'!1                                                                  %! continuous_glissandi
+        af'!1                                                                  %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
-    \times 4/5 {                                                               %! continuous_glissandi
+    \times 4/5 {                                                               %! khamr.continuous_glissandi
 
         % [B Viola_Music_Voice measure 90 / measure 16]                        %! _comment_measure_numbers
-        bff'!4                                                                 %! continuous_glissandi
+        bff'!4                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        ef'!4.                                                                 %! continuous_glissandi
+        ef'!4.                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
-    \times 5/9 {                                                               %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
+    \times 5/9 {                                                               %! khamr.continuous_glissandi
 
         % [B Viola_Music_Voice measure 91 / measure 17]                        %! _comment_measure_numbers
-        gff'!1.                                                                %! continuous_glissandi
+        gff'!1.                                                                %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        aff'!2.                                                                %! continuous_glissandi
+        aff'!2.                                                                %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     % [B Viola_Music_Voice measure 92 / measure 18]                            %! _comment_measure_numbers
-    df'!2.                                                                     %! continuous_glissandi
+    df'!2.                                                                     %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
     % [B Viola_Music_Voice measure 93 / measure 19]                            %! _comment_measure_numbers
-    af'!1                                                                      %! continuous_glissandi
+    af'!1                                                                      %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
-    \times 6/7 {                                                               %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
+    \times 6/7 {                                                               %! khamr.continuous_glissandi
 
         % [B Viola_Music_Voice measure 94 / measure 20]                        %! _comment_measure_numbers
-        bf!2.                                                                  %! continuous_glissandi
+        bf!2.                                                                  %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        eff'!1                                                                 %! continuous_glissandi
+        eff'!1                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     % [B Viola_Music_Voice measure 95 / measure 21]                            %! _comment_measure_numbers
-    ff'!2                                                                      %! continuous_glissandi
+    ff'!2                                                                      %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    \times 4/5 {                                                               %! continuous_glissandi
+    \times 4/5 {                                                               %! khamr.continuous_glissandi
 
         % [B Viola_Music_Voice measure 96 / measure 22]                        %! _comment_measure_numbers
-        gff'!4                                                                 %! continuous_glissandi
+        gff'!4                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        gf'!4.                                                                 %! continuous_glissandi
+        gf'!4.                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     % [B Viola_Music_Voice measure 97 / measure 23]                            %! _comment_measure_numbers
-    bff'!2                                                                     %! continuous_glissandi
+    bff'!2                                                                     %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    aff'!4                                                                     %! continuous_glissandi
+    aff'!4                                                                     %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    \times 2/3 {                                                               %! continuous_glissandi
+    \times 2/3 {                                                               %! khamr.continuous_glissandi
 
         % [B Viola_Music_Voice measure 98 / measure 24]                        %! _comment_measure_numbers
-        bff'!2                                                                 %! continuous_glissandi
+        bff'!2                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        ef'!1                                                                  %! continuous_glissandi
+        ef'!1                                                                  %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     % [B Viola_Music_Voice measure 99 / measure 25]                            %! _comment_measure_numbers
-    gff'!2                                                                     %! continuous_glissandi
+    gff'!2                                                                     %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
     % [B Viola_Music_Voice measure 100 / measure 26]                           %! _comment_measure_numbers
-    eff'!2                                                                     %! continuous_glissandi
+    eff'!2                                                                     %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
-    \times 3/5 {                                                               %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
+    \times 3/5 {                                                               %! khamr.continuous_glissandi
 
         % [B Viola_Music_Voice measure 101 / measure 27]                       %! _comment_measure_numbers
-        df'!1.                                                                 %! continuous_glissandi
+        df'!1.                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        af'!1                                                                  %! continuous_glissandi
+        af'!1                                                                  %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     % [B Viola_Music_Voice measure 102 / measure 28]                           %! _comment_measure_numbers
-    bf!1                                                                       %! continuous_glissandi
+    bf!1                                                                       %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
     % [B Viola_Music_Voice measure 103 / measure 29]                           %! _comment_measure_numbers
-    bff'!2                                                                     %! continuous_glissandi
+    bff'!2                                                                     %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    ff'!4                                                                      %! continuous_glissandi
+    ff'!4                                                                      %! khamr.continuous_glissandi
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -8482,24 +8482,24 @@ B_Cello_Music_Voice = {                                                        %
 
     % [B Cello_Music_Voice measure 77 / measure 3]                             %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
-    gff'!1                                                                     %! continuous_glissandi
+    gff'!1                                                                     %! khamr.continuous_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "estr. sul pont." }                                            %! baca_markup:IndicatorCommand
     \glissando                                                                 %! baca_glissando
 
-    gf'!2                                                                      %! continuous_glissandi
+    gf'!2                                                                      %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
     % [B Cello_Music_Voice measure 78 / measure 4]                             %! _comment_measure_numbers
-    bff'!4                                                                     %! continuous_glissandi
+    bff'!4                                                                     %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    ff'!2                                                                      %! continuous_glissandi
+    ff'!2                                                                      %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
     % [B Cello_Music_Voice measure 79 / measure 5]                             %! _comment_measure_numbers
-    dff'!1                                                                     %! continuous_glissandi
+    dff'!1                                                                     %! khamr.continuous_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -8507,19 +8507,19 @@ B_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     % [B Cello_Music_Voice measure 80 / measure 6]                             %! _comment_measure_numbers
-    cf'!2.                                                                     %! continuous_glissandi
+    cf'!2.                                                                     %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    \times 4/5 {                                                               %! continuous_glissandi
+    \times 4/5 {                                                               %! khamr.continuous_glissandi
 
         % [B Cello_Music_Voice measure 81 / measure 7]                         %! _comment_measure_numbers
-        af'!2.                                                                 %! continuous_glissandi
+        af'!2.                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        ff'!2                                                                  %! continuous_glissandi
+        ff'!2                                                                  %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     % [B Cello_Music_Voice measure 82 / measure 8]                             %! _comment_measure_numbers
     ef'!2.
@@ -8528,38 +8528,38 @@ B_Cello_Music_Voice = {                                                        %
     \repeatTie
     \glissando                                                                 %! baca_glissando
 
-    \times 2/3 {                                                               %! continuous_glissandi
+    \times 2/3 {                                                               %! khamr.continuous_glissandi
 
         % [B Cello_Music_Voice measure 83 / measure 9]                         %! _comment_measure_numbers
-        gff'!1                                                                 %! continuous_glissandi
+        gff'!1                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        aff'!2                                                                 %! continuous_glissandi
+        aff'!2                                                                 %! khamr.continuous_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     % [B Cello_Music_Voice measure 84 / measure 10]                            %! _comment_measure_numbers
-    bff'!4                                                                     %! continuous_glissandi
+    bff'!4                                                                     %! khamr.continuous_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \glissando                                                                 %! baca_glissando
 
-    af'!2                                                                      %! continuous_glissandi
+    af'!2                                                                      %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    \times 4/7 {                                                               %! continuous_glissandi
+    \times 4/7 {                                                               %! khamr.continuous_glissandi
 
         % [B Cello_Music_Voice measure 85 / measure 11]                        %! _comment_measure_numbers
-        bf!1                                                                   %! continuous_glissandi
+        bf!1                                                                   %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        eff'!2.                                                                %! continuous_glissandi
+        eff'!2.                                                                %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     % [B Cello_Music_Voice measure 86 / measure 12]                            %! _comment_measure_numbers
     df'!2.
@@ -8569,137 +8569,137 @@ B_Cello_Music_Voice = {                                                        %
     \glissando                                                                 %! baca_glissando
 
     % [B Cello_Music_Voice measure 87 / measure 13]                            %! _comment_measure_numbers
-    ff'!2.                                                                     %! continuous_glissandi
+    ff'!2.                                                                     %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    \times 4/5 {                                                               %! continuous_glissandi
+    \times 4/5 {                                                               %! khamr.continuous_glissandi
 
         % [B Cello_Music_Voice measure 88 / measure 14]                        %! _comment_measure_numbers
-        dff'!4                                                                 %! continuous_glissandi
+        dff'!4                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        cf'!4.                                                                 %! continuous_glissandi
+        cf'!4.                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     % [B Cello_Music_Voice measure 89 / measure 15]                            %! _comment_measure_numbers
-    af'!1.                                                                     %! continuous_glissandi
+    af'!1.                                                                     %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    \times 2/3 {                                                               %! continuous_glissandi
+    \times 2/3 {                                                               %! khamr.continuous_glissandi
 
         % [B Cello_Music_Voice measure 90 / measure 16]                        %! _comment_measure_numbers
-        bff'!4                                                                 %! continuous_glissandi
+        bff'!4                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        ef'!2                                                                  %! continuous_glissandi
+        ef'!2                                                                  %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
-    \times 5/7 {                                                               %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
+    \times 5/7 {                                                               %! khamr.continuous_glissandi
 
         % [B Cello_Music_Voice measure 91 / measure 17]                        %! _comment_measure_numbers
-        gff'!1                                                                 %! continuous_glissandi
+        gff'!1                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        aff'!2.                                                                %! continuous_glissandi
+        aff'!2.                                                                %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
-    \times 6/7 {                                                               %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
+    \times 6/7 {                                                               %! khamr.continuous_glissandi
 
         % [B Cello_Music_Voice measure 92 / measure 18]                        %! _comment_measure_numbers
-        df'!4.                                                                 %! continuous_glissandi
+        df'!4.                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        af'!2                                                                  %! continuous_glissandi
+        af'!2                                                                  %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     % [B Cello_Music_Voice measure 93 / measure 19]                            %! _comment_measure_numbers
-    bf!1                                                                       %! continuous_glissandi
+    bf!1                                                                       %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
     % [B Cello_Music_Voice measure 94 / measure 20]                            %! _comment_measure_numbers
-    eff'!1.                                                                    %! continuous_glissandi
+    eff'!1.                                                                    %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    \times 2/3 {                                                               %! continuous_glissandi
+    \times 2/3 {                                                               %! khamr.continuous_glissandi
 
         % [B Cello_Music_Voice measure 95 / measure 21]                        %! _comment_measure_numbers
-        ff'!2                                                                  %! continuous_glissandi
+        ff'!2                                                                  %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        gff'!4                                                                 %! continuous_glissandi
+        gff'!4                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     % [B Cello_Music_Voice measure 96 / measure 22]                            %! _comment_measure_numbers
-    gf'!2                                                                      %! continuous_glissandi
+    gf'!2                                                                      %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! continuous_glissandi
-    \times 6/7 {                                                               %! continuous_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
+    \times 6/7 {                                                               %! khamr.continuous_glissandi
 
         % [B Cello_Music_Voice measure 97 / measure 23]                        %! _comment_measure_numbers
-        bff'!2                                                                 %! continuous_glissandi
+        bff'!2                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        aff'!4.                                                                %! continuous_glissandi
+        aff'!4.                                                                %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
-    \times 4/7 {                                                               %! continuous_glissandi
+    \times 4/7 {                                                               %! khamr.continuous_glissandi
 
         % [B Cello_Music_Voice measure 98 / measure 24]                        %! _comment_measure_numbers
-        bff'!2.                                                                %! continuous_glissandi
+        bff'!2.                                                                %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        ef'!1                                                                  %! continuous_glissandi
+        ef'!1                                                                  %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
-    \times 4/5 {                                                               %! continuous_glissandi
+    \times 4/5 {                                                               %! khamr.continuous_glissandi
 
         % [B Cello_Music_Voice measure 99 / measure 25]                        %! _comment_measure_numbers
-        gff'!4.                                                                %! continuous_glissandi
+        gff'!4.                                                                %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        eff'!4                                                                 %! continuous_glissandi
+        eff'!4                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     % [B Cello_Music_Voice measure 100 / measure 26]                           %! _comment_measure_numbers
-    df'!2                                                                      %! continuous_glissandi
+    df'!2                                                                      %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
     % [B Cello_Music_Voice measure 101 / measure 27]                           %! _comment_measure_numbers
-    af'!1.                                                                     %! continuous_glissandi
+    af'!1.                                                                     %! khamr.continuous_glissandi
     \glissando                                                                 %! baca_glissando
 
-    \times 2/3 {                                                               %! continuous_glissandi
+    \times 2/3 {                                                               %! khamr.continuous_glissandi
 
         % [B Cello_Music_Voice measure 102 / measure 28]                       %! _comment_measure_numbers
-        bf!2                                                                   %! continuous_glissandi
+        bf!2                                                                   %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-        bff'!1                                                                 %! continuous_glissandi
+        bff'!1                                                                 %! khamr.continuous_glissandi
         \glissando                                                             %! baca_glissando
 
-    }                                                                          %! continuous_glissandi
+    }                                                                          %! khamr.continuous_glissandi
 
     % [B Cello_Music_Voice measure 103 / measure 29]                           %! _comment_measure_numbers
-    ff'!2.                                                                     %! continuous_glissandi
+    ff'!2.                                                                     %! khamr.continuous_glissandi
     \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
