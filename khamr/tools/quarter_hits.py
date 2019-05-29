@@ -12,7 +12,7 @@ def quarter_hits(*, dmask=None) -> baca.RhythmCommand:
         rewrite_meter=True,
         rhythm_maker=rmakers.NoteRhythmMaker(
             division_masks=dmask,
-            tag="quarter_hits",
+            tag="khamr.quarter_hits",
             tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
         ),
     )

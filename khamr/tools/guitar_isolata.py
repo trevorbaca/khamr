@@ -26,7 +26,7 @@ def guitar_isolata(*, dmask=None) -> baca.RhythmCommand:
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=division_masks,
-            tag="guitar_isolata",
+            tag="khamr.guitar_isolata",
             tuplet_ratios=[
                 (-1, 1, -1),
                 (-1, 1, -1),

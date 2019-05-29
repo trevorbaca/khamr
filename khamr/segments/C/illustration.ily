@@ -473,7 +473,7 @@ C_Flute_Music_Voice = {                                                        %
     bf'!8.
     \repeatTie
 
-    r16                                                                        %! fused_wind
+    r16                                                                        %! khamr.fused_wind
 
     % [C Flute_Music_Voice measure 115 / measure 4]                            %! _comment_measure_numbers
     bf'!2.
@@ -487,10 +487,10 @@ C_Flute_Music_Voice = {                                                        %
     bf'!4
     \repeatTie
 
-    bf'!16                                                                     %! fused_wind
+    bf'!16                                                                     %! khamr.fused_wind
     \repeatTie
 
-    r16                                                                        %! fused_wind
+    r16                                                                        %! khamr.fused_wind
 
     bf'!4.
 
@@ -506,7 +506,7 @@ C_Flute_Music_Voice = {                                                        %
     bf'!8.
     \repeatTie
 
-    r16                                                                        %! fused_wind
+    r16                                                                        %! khamr.fused_wind
 
     bf'!2
 
@@ -519,7 +519,7 @@ C_Flute_Music_Voice = {                                                        %
     bf'!4..
     \repeatTie
 
-    r16                                                                        %! fused_wind
+    r16                                                                        %! khamr.fused_wind
 
     bf'!4
 
@@ -535,7 +535,7 @@ C_Flute_Music_Voice = {                                                        %
     bf'!8.
     \repeatTie
 
-    r16                                                                        %! fused_wind
+    r16                                                                        %! khamr.fused_wind
 
     bf'!2
 
@@ -554,14 +554,14 @@ C_Flute_Music_Voice = {                                                        %
     bf'!8.
     \repeatTie
 
-    r16                                                                        %! fused_wind
+    r16                                                                        %! khamr.fused_wind
 
-    bf'!2                                                                      %! fused_wind
+    bf'!2                                                                      %! khamr.fused_wind
 
-    bf'!8.                                                                     %! fused_wind
+    bf'!8.                                                                     %! khamr.fused_wind
     \repeatTie
 
-    r16                                                                        %! fused_wind
+    r16                                                                        %! khamr.fused_wind
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -687,7 +687,7 @@ C_Oboe_Music_Voice = {                                                         %
     c'4..
     \repeatTie
 
-    r16                                                                        %! fused_wind
+    r16                                                                        %! khamr.fused_wind
 
     c'4
 
@@ -701,13 +701,13 @@ C_Oboe_Music_Voice = {                                                         %
     \repeatTie
 
     % [C Oboe_Music_Voice measure 118 / measure 7]                             %! _comment_measure_numbers
-    c'2                                                                        %! fused_wind
+    c'2                                                                        %! khamr.fused_wind
     \repeatTie
 
-    c'8.                                                                       %! fused_wind
+    c'8.                                                                       %! khamr.fused_wind
     \repeatTie
 
-    r16                                                                        %! fused_wind
+    r16                                                                        %! khamr.fused_wind
 
     c'4
 
@@ -722,7 +722,7 @@ C_Oboe_Music_Voice = {                                                         %
     c'2...
     \repeatTie
 
-    r16                                                                        %! fused_wind
+    r16                                                                        %! khamr.fused_wind
 
     % [C Oboe_Music_Voice measure 121 / measure 10]                            %! _comment_measure_numbers
     c'2.
@@ -739,7 +739,7 @@ C_Oboe_Music_Voice = {                                                         %
     c'8.
     \repeatTie
 
-    r16                                                                        %! fused_wind
+    r16                                                                        %! khamr.fused_wind
 
     c'2
 
@@ -758,10 +758,10 @@ C_Oboe_Music_Voice = {                                                         %
     c'2
     \repeatTie
 
-    c'8.                                                                       %! fused_wind
+    c'8.                                                                       %! khamr.fused_wind
     \repeatTie
 
-    r16                                                                        %! fused_wind
+    r16                                                                        %! khamr.fused_wind
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1055,7 +1055,7 @@ C_Saxophone_Music_Voice = {                                                    %
     c'8.
     \repeatTie
 
-    r16                                                                        %! fused_wind
+    r16                                                                        %! khamr.fused_wind
 
     c'2.
 
@@ -1072,10 +1072,10 @@ C_Saxophone_Music_Voice = {                                                    %
     c'2
     \repeatTie
 
-    c'8.                                                                       %! fused_wind
+    c'8.                                                                       %! khamr.fused_wind
     \repeatTie
 
-    r16                                                                        %! fused_wind
+    r16                                                                        %! khamr.fused_wind
 
     c'2
 
@@ -1095,7 +1095,7 @@ C_Saxophone_Music_Voice = {                                                    %
     c'8.
     \repeatTie
 
-    r16                                                                        %! fused_wind
+    r16                                                                        %! khamr.fused_wind
 
     c'4
 
@@ -1121,14 +1121,14 @@ C_Saxophone_Music_Voice = {                                                    %
     c'8.
     \repeatTie
 
-    r16                                                                        %! fused_wind
+    r16                                                                        %! khamr.fused_wind
 
-    c'2                                                                        %! fused_wind
+    c'2                                                                        %! khamr.fused_wind
 
-    c'8.                                                                       %! fused_wind
+    c'8.                                                                       %! khamr.fused_wind
     \repeatTie
 
-    r16                                                                        %! fused_wind
+    r16                                                                        %! khamr.fused_wind
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1288,10 +1288,10 @@ C_Guitar_Music_Voice = {                                                       %
     r1.                                                                        %! baca_make_repeat_tied_notes
 
     % [C Guitar_Music_Voice measure 127 / measure 16]                          %! _comment_measure_numbers
-    r2                                                                         %! closing
+    r2                                                                         %! khamr.closing
 
     % [C Guitar_Music_Voice measure 128 / measure 17]                          %! _comment_measure_numbers
-    c''1                                                                       %! closing
+    c''1                                                                       %! khamr.closing
     - \accent                                                                  %! baca_accent:IndicatorCommand
     - \flageolet                                                               %! baca_flageolet:IndicatorCommand
 
@@ -1311,7 +1311,7 @@ C_Guitar_Music_Voice = {                                                       %
     c''1
     \repeatTie
 
-    r2                                                                         %! closing
+    r2                                                                         %! khamr.closing
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1440,10 +1440,10 @@ C_Piano_Music_Voice = {                                                        %
     r1.                                                                        %! baca_make_repeat_tied_notes
 
     % [C Piano_Music_Voice measure 127 / measure 16]                           %! _comment_measure_numbers
-    r2                                                                         %! closing
+    r2                                                                         %! khamr.closing
 
     % [C Piano_Music_Voice measure 128 / measure 17]                           %! _comment_measure_numbers
-    as'!1                                                                      %! closing
+    as'!1                                                                      %! khamr.closing
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     as'!4
@@ -1461,7 +1461,7 @@ C_Piano_Music_Voice = {                                                        %
     as'!1
     \repeatTie
 
-    r2                                                                         %! closing
+    r2                                                                         %! khamr.closing
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 

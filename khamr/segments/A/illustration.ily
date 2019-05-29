@@ -618,7 +618,7 @@ A_Flute_Music_Voice = {                                                        %
     bf''!4.
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     bf''!4
@@ -633,15 +633,15 @@ A_Flute_Music_Voice = {                                                        %
     \repeatTie
 
     % [A Flute_Music_Voice measure 51 / measure 7]                             %! _comment_measure_numbers
-    bf''!2                                                                     %! fused_wind
+    bf''!2                                                                     %! khamr.fused_wind
     \repeatTie
 
-    bf''!8                                                                     %! fused_wind
+    bf''!8                                                                     %! khamr.fused_wind
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
 
-    r4.                                                                        %! fused_wind
+    r4.                                                                        %! khamr.fused_wind
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     % [A Flute_Music_Voice measure 52 / measure 8]                             %! _comment_measure_numbers
@@ -686,7 +686,7 @@ A_Flute_Music_Voice = {                                                        %
     R1 * 1/2                                                                   %! _make_measure_silences
 
     % [A Flute_Music_Voice measure 59 / measure 15]                            %! _comment_measure_numbers
-    b''1.                                                                      %! alternate_divisions
+    b''1.                                                                      %! khamr.alternate_divisions
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -694,7 +694,7 @@ A_Flute_Music_Voice = {                                                        %
     ^ \baca-explicit-indicator-markup "(“Flute”)"                              %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 
     % [A Flute_Music_Voice measure 60 / measure 16]                            %! _comment_measure_numbers
-    r2                                                                         %! alternate_divisions
+    r2                                                                         %! khamr.alternate_divisions
 
     % [A Flute_Music_Voice measure 61 / measure 17]                            %! _comment_measure_numbers
     b''2.
@@ -705,63 +705,63 @@ A_Flute_Music_Voice = {                                                        %
     \repeatTie
 
     % [A Flute_Music_Voice measure 62 / measure 18]                            %! _comment_measure_numbers
-    r2.                                                                        %! alternate_divisions
+    r2.                                                                        %! khamr.alternate_divisions
 
     % [A Flute_Music_Voice measure 63 / measure 19]                            %! _comment_measure_numbers
-    b''1                                                                       %! alternate_divisions
+    b''1                                                                       %! khamr.alternate_divisions
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
     % [A Flute_Music_Voice measure 64 / measure 20]                            %! _comment_measure_numbers
-    r1.                                                                        %! alternate_divisions
+    r1.                                                                        %! khamr.alternate_divisions
 
     % [A Flute_Music_Voice measure 65 / measure 21]                            %! _comment_measure_numbers
-    r4                                                                         %! silent_first_division
+    r4                                                                         %! khamr.silent_first_division
 
-    b''4                                                                       %! silent_first_division
+    b''4                                                                       %! khamr.silent_first_division
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
     % [A Flute_Music_Voice measure 66 / measure 22]                            %! _comment_measure_numbers
-    b''2                                                                       %! silent_first_division
+    b''2                                                                       %! khamr.silent_first_division
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Flute_Music_Voice measure 67 / measure 23]                            %! _comment_measure_numbers
-    b''2.                                                                      %! silent_first_division
+    b''2.                                                                      %! khamr.silent_first_division
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Flute_Music_Voice measure 68 / measure 24]                            %! _comment_measure_numbers
-    b''1                                                                       %! silent_first_division
+    b''1                                                                       %! khamr.silent_first_division
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Flute_Music_Voice measure 69 / measure 25]                            %! _comment_measure_numbers
-    b''2                                                                       %! silent_first_division
+    b''2                                                                       %! khamr.silent_first_division
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Flute_Music_Voice measure 70 / measure 26]                            %! _comment_measure_numbers
-    b''2                                                                       %! silent_first_division
+    b''2                                                                       %! khamr.silent_first_division
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Flute_Music_Voice measure 71 / measure 27]                            %! _comment_measure_numbers
-    b''1.                                                                      %! silent_first_division
+    b''1.                                                                      %! khamr.silent_first_division
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Flute_Music_Voice measure 72 / measure 28]                            %! _comment_measure_numbers
-    b''1                                                                       %! silent_first_division
+    b''1                                                                       %! khamr.silent_first_division
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Flute_Music_Voice measure 73 / measure 29]                            %! _comment_measure_numbers
-    b''2.                                                                      %! silent_first_division
+    b''2.                                                                      %! khamr.silent_first_division
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Flute_Music_Voice measure 74 / measure 30]                            %! _comment_measure_numbers
-    b''2.                                                                      %! silent_first_division
+    b''2.                                                                      %! khamr.silent_first_division
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
@@ -860,7 +860,7 @@ A_Oboe_Music_Voice = {                                                         %
     <e'' b''>8
     \repeatTie
 
-    r2..                                                                       %! fused_wind
+    r2..                                                                       %! khamr.fused_wind
 
     % [A Oboe_Music_Voice measure 50 / measure 6]                              %! _comment_measure_numbers
     r2.
@@ -878,7 +878,7 @@ A_Oboe_Music_Voice = {                                                         %
     <e'' b''>4.
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -917,12 +917,12 @@ A_Oboe_Music_Voice = {                                                         %
     R1 * 1/2                                                                   %! _make_measure_silences
 
     % [A Oboe_Music_Voice measure 59 / measure 15]                             %! _comment_measure_numbers
-    ds'!1.                                                                     %! alternate_divisions
+    ds'!1.                                                                     %! khamr.alternate_divisions
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Oboe_Music_Voice measure 60 / measure 16]                             %! _comment_measure_numbers
-    r2                                                                         %! alternate_divisions
+    r2                                                                         %! khamr.alternate_divisions
 
     % [A Oboe_Music_Voice measure 61 / measure 17]                             %! _comment_measure_numbers
     ds'!2.
@@ -931,53 +931,53 @@ A_Oboe_Music_Voice = {                                                         %
     \repeatTie
 
     % [A Oboe_Music_Voice measure 62 / measure 18]                             %! _comment_measure_numbers
-    r2.                                                                        %! alternate_divisions
+    r2.                                                                        %! khamr.alternate_divisions
 
     % [A Oboe_Music_Voice measure 63 / measure 19]                             %! _comment_measure_numbers
-    ds'!1                                                                      %! alternate_divisions
+    ds'!1                                                                      %! khamr.alternate_divisions
 
     % [A Oboe_Music_Voice measure 64 / measure 20]                             %! _comment_measure_numbers
-    r1.                                                                        %! alternate_divisions
+    r1.                                                                        %! khamr.alternate_divisions
 
     % [A Oboe_Music_Voice measure 65 / measure 21]                             %! _comment_measure_numbers
-    r4                                                                         %! silent_first_division
+    r4                                                                         %! khamr.silent_first_division
 
-    ds'!4                                                                      %! silent_first_division
+    ds'!4                                                                      %! khamr.silent_first_division
 
     % [A Oboe_Music_Voice measure 66 / measure 22]                             %! _comment_measure_numbers
-    ds'!2                                                                      %! silent_first_division
+    ds'!2                                                                      %! khamr.silent_first_division
     \repeatTie
 
     % [A Oboe_Music_Voice measure 67 / measure 23]                             %! _comment_measure_numbers
-    ds'!2.                                                                     %! silent_first_division
+    ds'!2.                                                                     %! khamr.silent_first_division
     \repeatTie
 
     % [A Oboe_Music_Voice measure 68 / measure 24]                             %! _comment_measure_numbers
-    ds'!1                                                                      %! silent_first_division
+    ds'!1                                                                      %! khamr.silent_first_division
     \repeatTie
 
     % [A Oboe_Music_Voice measure 69 / measure 25]                             %! _comment_measure_numbers
-    ds'!2                                                                      %! silent_first_division
+    ds'!2                                                                      %! khamr.silent_first_division
     \repeatTie
 
     % [A Oboe_Music_Voice measure 70 / measure 26]                             %! _comment_measure_numbers
-    ds'!2                                                                      %! silent_first_division
+    ds'!2                                                                      %! khamr.silent_first_division
     \repeatTie
 
     % [A Oboe_Music_Voice measure 71 / measure 27]                             %! _comment_measure_numbers
-    ds'!1.                                                                     %! silent_first_division
+    ds'!1.                                                                     %! khamr.silent_first_division
     \repeatTie
 
     % [A Oboe_Music_Voice measure 72 / measure 28]                             %! _comment_measure_numbers
-    ds'!1                                                                      %! silent_first_division
+    ds'!1                                                                      %! khamr.silent_first_division
     \repeatTie
 
     % [A Oboe_Music_Voice measure 73 / measure 29]                             %! _comment_measure_numbers
-    ds'!2.                                                                     %! silent_first_division
+    ds'!2.                                                                     %! khamr.silent_first_division
     \repeatTie
 
     % [A Oboe_Music_Voice measure 74 / measure 30]                             %! _comment_measure_numbers
-    ds'!2.                                                                     %! silent_first_division
+    ds'!2.                                                                     %! khamr.silent_first_division
     \repeatTie
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -1065,7 +1065,7 @@ A_Clarinet_Music_Voice = {                                                     %
     a8
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     % [A Clarinet_Music_Voice measure 48 / measure 4]                          %! _comment_measure_numbers
     r2.
@@ -1084,13 +1084,13 @@ A_Clarinet_Music_Voice = {                                                     %
     \repeatTie
 
     % [A Clarinet_Music_Voice measure 52 / measure 8]                          %! _comment_measure_numbers
-    a2                                                                         %! fused_wind
+    a2                                                                         %! khamr.fused_wind
     \repeatTie
 
-    a8                                                                         %! fused_wind
+    a8                                                                         %! khamr.fused_wind
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     r2
 
@@ -1111,7 +1111,7 @@ A_Clarinet_Music_Voice = {                                                     %
     a8
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     r2
 
@@ -1122,12 +1122,12 @@ A_Clarinet_Music_Voice = {                                                     %
     r2
 
     % [A Clarinet_Music_Voice measure 59 / measure 15]                         %! _comment_measure_numbers
-    gs!1.                                                                      %! alternate_divisions
+    gs!1.                                                                      %! khamr.alternate_divisions
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Clarinet_Music_Voice measure 60 / measure 16]                         %! _comment_measure_numbers
-    r2                                                                         %! alternate_divisions
+    r2                                                                         %! khamr.alternate_divisions
 
     % [A Clarinet_Music_Voice measure 61 / measure 17]                         %! _comment_measure_numbers
     gs!2.
@@ -1136,53 +1136,53 @@ A_Clarinet_Music_Voice = {                                                     %
     \repeatTie
 
     % [A Clarinet_Music_Voice measure 62 / measure 18]                         %! _comment_measure_numbers
-    r2.                                                                        %! alternate_divisions
+    r2.                                                                        %! khamr.alternate_divisions
 
     % [A Clarinet_Music_Voice measure 63 / measure 19]                         %! _comment_measure_numbers
-    gs!1                                                                       %! alternate_divisions
+    gs!1                                                                       %! khamr.alternate_divisions
 
     % [A Clarinet_Music_Voice measure 64 / measure 20]                         %! _comment_measure_numbers
-    r1.                                                                        %! alternate_divisions
+    r1.                                                                        %! khamr.alternate_divisions
 
     % [A Clarinet_Music_Voice measure 65 / measure 21]                         %! _comment_measure_numbers
-    r4                                                                         %! silent_first_division
+    r4                                                                         %! khamr.silent_first_division
 
-    gs!4                                                                       %! silent_first_division
+    gs!4                                                                       %! khamr.silent_first_division
 
     % [A Clarinet_Music_Voice measure 66 / measure 22]                         %! _comment_measure_numbers
-    gs!2                                                                       %! silent_first_division
+    gs!2                                                                       %! khamr.silent_first_division
     \repeatTie
 
     % [A Clarinet_Music_Voice measure 67 / measure 23]                         %! _comment_measure_numbers
-    gs!2.                                                                      %! silent_first_division
+    gs!2.                                                                      %! khamr.silent_first_division
     \repeatTie
 
     % [A Clarinet_Music_Voice measure 68 / measure 24]                         %! _comment_measure_numbers
-    gs!1                                                                       %! silent_first_division
+    gs!1                                                                       %! khamr.silent_first_division
     \repeatTie
 
     % [A Clarinet_Music_Voice measure 69 / measure 25]                         %! _comment_measure_numbers
-    gs!2                                                                       %! silent_first_division
+    gs!2                                                                       %! khamr.silent_first_division
     \repeatTie
 
     % [A Clarinet_Music_Voice measure 70 / measure 26]                         %! _comment_measure_numbers
-    gs!2                                                                       %! silent_first_division
+    gs!2                                                                       %! khamr.silent_first_division
     \repeatTie
 
     % [A Clarinet_Music_Voice measure 71 / measure 27]                         %! _comment_measure_numbers
-    gs!1.                                                                      %! silent_first_division
+    gs!1.                                                                      %! khamr.silent_first_division
     \repeatTie
 
     % [A Clarinet_Music_Voice measure 72 / measure 28]                         %! _comment_measure_numbers
-    gs!1                                                                       %! silent_first_division
+    gs!1                                                                       %! khamr.silent_first_division
     \repeatTie
 
     % [A Clarinet_Music_Voice measure 73 / measure 29]                         %! _comment_measure_numbers
-    gs!2.                                                                      %! silent_first_division
+    gs!2.                                                                      %! khamr.silent_first_division
     \repeatTie
 
     % [A Clarinet_Music_Voice measure 74 / measure 30]                         %! _comment_measure_numbers
-    gs!2.                                                                      %! silent_first_division
+    gs!2.                                                                      %! khamr.silent_first_division
     \repeatTie
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -1275,7 +1275,7 @@ A_Saxophone_Music_Voice = {                                                    %
     <d'' eqs''!>8
     \repeatTie
 
-    r4.                                                                        %! fused_wind
+    r4.                                                                        %! khamr.fused_wind
 
     % [A Saxophone_Music_Voice measure 50 / measure 6]                         %! _comment_measure_numbers
     r2.
@@ -1292,7 +1292,7 @@ A_Saxophone_Music_Voice = {                                                    %
     <d'' eqs''!>4.
     \repeatTie
 
-    r8                                                                         %! fused_wind
+    r8                                                                         %! khamr.fused_wind
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1331,12 +1331,12 @@ A_Saxophone_Music_Voice = {                                                    %
     R1 * 1/2                                                                   %! _make_measure_silences
 
     % [A Saxophone_Music_Voice measure 59 / measure 15]                        %! _comment_measure_numbers
-    es'!1.                                                                     %! alternate_divisions
+    es'!1.                                                                     %! khamr.alternate_divisions
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [A Saxophone_Music_Voice measure 60 / measure 16]                        %! _comment_measure_numbers
-    r2                                                                         %! alternate_divisions
+    r2                                                                         %! khamr.alternate_divisions
 
     % [A Saxophone_Music_Voice measure 61 / measure 17]                        %! _comment_measure_numbers
     es'!2.
@@ -1345,53 +1345,53 @@ A_Saxophone_Music_Voice = {                                                    %
     \repeatTie
 
     % [A Saxophone_Music_Voice measure 62 / measure 18]                        %! _comment_measure_numbers
-    r2.                                                                        %! alternate_divisions
+    r2.                                                                        %! khamr.alternate_divisions
 
     % [A Saxophone_Music_Voice measure 63 / measure 19]                        %! _comment_measure_numbers
-    es'!1                                                                      %! alternate_divisions
+    es'!1                                                                      %! khamr.alternate_divisions
 
     % [A Saxophone_Music_Voice measure 64 / measure 20]                        %! _comment_measure_numbers
-    r1.                                                                        %! alternate_divisions
+    r1.                                                                        %! khamr.alternate_divisions
 
     % [A Saxophone_Music_Voice measure 65 / measure 21]                        %! _comment_measure_numbers
-    r4                                                                         %! silent_first_division
+    r4                                                                         %! khamr.silent_first_division
 
-    es'!4                                                                      %! silent_first_division
+    es'!4                                                                      %! khamr.silent_first_division
 
     % [A Saxophone_Music_Voice measure 66 / measure 22]                        %! _comment_measure_numbers
-    es'!2                                                                      %! silent_first_division
+    es'!2                                                                      %! khamr.silent_first_division
     \repeatTie
 
     % [A Saxophone_Music_Voice measure 67 / measure 23]                        %! _comment_measure_numbers
-    es'!2.                                                                     %! silent_first_division
+    es'!2.                                                                     %! khamr.silent_first_division
     \repeatTie
 
     % [A Saxophone_Music_Voice measure 68 / measure 24]                        %! _comment_measure_numbers
-    es'!1                                                                      %! silent_first_division
+    es'!1                                                                      %! khamr.silent_first_division
     \repeatTie
 
     % [A Saxophone_Music_Voice measure 69 / measure 25]                        %! _comment_measure_numbers
-    es'!2                                                                      %! silent_first_division
+    es'!2                                                                      %! khamr.silent_first_division
     \repeatTie
 
     % [A Saxophone_Music_Voice measure 70 / measure 26]                        %! _comment_measure_numbers
-    es'!2                                                                      %! silent_first_division
+    es'!2                                                                      %! khamr.silent_first_division
     \repeatTie
 
     % [A Saxophone_Music_Voice measure 71 / measure 27]                        %! _comment_measure_numbers
-    es'!1.                                                                     %! silent_first_division
+    es'!1.                                                                     %! khamr.silent_first_division
     \repeatTie
 
     % [A Saxophone_Music_Voice measure 72 / measure 28]                        %! _comment_measure_numbers
-    es'!1                                                                      %! silent_first_division
+    es'!1                                                                      %! khamr.silent_first_division
     \repeatTie
 
     % [A Saxophone_Music_Voice measure 73 / measure 29]                        %! _comment_measure_numbers
-    es'!2.                                                                     %! silent_first_division
+    es'!2.                                                                     %! khamr.silent_first_division
     \repeatTie
 
     % [A Saxophone_Music_Voice measure 74 / measure 30]                        %! _comment_measure_numbers
-    es'!2.                                                                     %! silent_first_division
+    es'!2.                                                                     %! khamr.silent_first_division
     \repeatTie
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -1433,7 +1433,7 @@ A_Saxophone_Music_Staff = {                                                    %
 
 A_Guitar_Music_Voice = {                                                       %! abjad.Path.extern
 
-    \times 2/3 {                                                               %! guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata
 
         % [A Guitar_Music_Voice measure 45 / measure 1]                        %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1453,7 +1453,7 @@ A_Guitar_Music_Voice = {                                                       %
         \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
         - \tweak color #(x11-color 'green4)                                    %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         ^ \baca-reapplied-indicator-markup "[“Gt.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1468,43 +1468,43 @@ A_Guitar_Music_Voice = {                                                       %
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         \override NoteHead.style = #'cross                                     %! baca_note_head_style_cross:OverrideCommand(1)
-        d''8                                                                   %! guitar_isolata
+        d''8                                                                   %! khamr.guitar_isolata
 
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-    }                                                                          %! guitar_isolata
+    }                                                                          %! khamr.guitar_isolata
 
-    r4                                                                         %! guitar_isolata
+    r4                                                                         %! khamr.guitar_isolata
 
     % [A Guitar_Music_Voice measure 46 / measure 2]                            %! _comment_measure_numbers
-    r2                                                                         %! guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata
 
-    \times 2/3 {                                                               %! guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata
 
         % [A Guitar_Music_Voice measure 47 / measure 3]                        %! _comment_measure_numbers
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-        fs''!4                                                                 %! guitar_isolata
+        fs''!4                                                                 %! khamr.guitar_isolata
 
-    }                                                                          %! guitar_isolata
+    }                                                                          %! khamr.guitar_isolata
 
-    r2                                                                         %! guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata
 
-    r2                                                                         %! guitar_isolata
+    r2                                                                         %! khamr.guitar_isolata
 
-    \times 2/3 {                                                               %! guitar_isolata
+    \times 2/3 {                                                               %! khamr.guitar_isolata
 
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-        g''8                                                                   %! guitar_isolata
+        g''8                                                                   %! khamr.guitar_isolata
         \revert NoteHead.style                                                 %! baca_note_head_style_cross:OverrideCommand(2)
 
-        r8                                                                     %! guitar_isolata
+        r8                                                                     %! khamr.guitar_isolata
 
-    }                                                                          %! guitar_isolata
+    }                                                                          %! khamr.guitar_isolata
 
     % [A Guitar_Music_Voice measure 48 / measure 4]                            %! _comment_measure_numbers
-    r2.                                                                        %! guitar_isolata
+    r2.                                                                        %! khamr.guitar_isolata
 
     % [A Guitar_Music_Voice measure 49 / measure 5]                            %! _comment_measure_numbers
     fs!1                                                                       %! baca_make_repeat_tied_notes
@@ -1566,7 +1566,7 @@ A_Guitar_Music_Voice = {                                                       %
     r2                                                                         %! baca_make_repeat_tied_notes
 
     % [A Guitar_Music_Voice measure 59 / measure 15]                           %! _comment_measure_numbers
-    g1.                                                                        %! alternate_divisions
+    g1.                                                                        %! khamr.alternate_divisions
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
@@ -1584,7 +1584,7 @@ A_Guitar_Music_Voice = {                                                       %
         }                                                                      %! baca_markup:IndicatorCommand
 
     % [A Guitar_Music_Voice measure 60 / measure 16]                           %! _comment_measure_numbers
-    r2                                                                         %! alternate_divisions
+    r2                                                                         %! khamr.alternate_divisions
 
     % [A Guitar_Music_Voice measure 61 / measure 17]                           %! _comment_measure_numbers
     g2.
@@ -1593,53 +1593,53 @@ A_Guitar_Music_Voice = {                                                       %
     \repeatTie
 
     % [A Guitar_Music_Voice measure 62 / measure 18]                           %! _comment_measure_numbers
-    r2.                                                                        %! alternate_divisions
+    r2.                                                                        %! khamr.alternate_divisions
 
     % [A Guitar_Music_Voice measure 63 / measure 19]                           %! _comment_measure_numbers
-    g1                                                                         %! alternate_divisions
+    g1                                                                         %! khamr.alternate_divisions
 
     % [A Guitar_Music_Voice measure 64 / measure 20]                           %! _comment_measure_numbers
-    r1.                                                                        %! alternate_divisions
+    r1.                                                                        %! khamr.alternate_divisions
 
     % [A Guitar_Music_Voice measure 65 / measure 21]                           %! _comment_measure_numbers
-    r4                                                                         %! silent_first_division
+    r4                                                                         %! khamr.silent_first_division
 
-    g4                                                                         %! silent_first_division
+    g4                                                                         %! khamr.silent_first_division
 
     % [A Guitar_Music_Voice measure 66 / measure 22]                           %! _comment_measure_numbers
-    g2                                                                         %! silent_first_division
+    g2                                                                         %! khamr.silent_first_division
     \repeatTie
 
     % [A Guitar_Music_Voice measure 67 / measure 23]                           %! _comment_measure_numbers
-    g2.                                                                        %! silent_first_division
+    g2.                                                                        %! khamr.silent_first_division
     \repeatTie
 
     % [A Guitar_Music_Voice measure 68 / measure 24]                           %! _comment_measure_numbers
-    g1                                                                         %! silent_first_division
+    g1                                                                         %! khamr.silent_first_division
     \repeatTie
 
     % [A Guitar_Music_Voice measure 69 / measure 25]                           %! _comment_measure_numbers
-    g2                                                                         %! silent_first_division
+    g2                                                                         %! khamr.silent_first_division
     \repeatTie
 
     % [A Guitar_Music_Voice measure 70 / measure 26]                           %! _comment_measure_numbers
-    g2                                                                         %! silent_first_division
+    g2                                                                         %! khamr.silent_first_division
     \repeatTie
 
     % [A Guitar_Music_Voice measure 71 / measure 27]                           %! _comment_measure_numbers
-    g1.                                                                        %! silent_first_division
+    g1.                                                                        %! khamr.silent_first_division
     \repeatTie
 
     % [A Guitar_Music_Voice measure 72 / measure 28]                           %! _comment_measure_numbers
-    g1                                                                         %! silent_first_division
+    g1                                                                         %! khamr.silent_first_division
     \repeatTie
 
     % [A Guitar_Music_Voice measure 73 / measure 29]                           %! _comment_measure_numbers
-    g2.                                                                        %! silent_first_division
+    g2.                                                                        %! khamr.silent_first_division
     \repeatTie
 
     % [A Guitar_Music_Voice measure 74 / measure 30]                           %! _comment_measure_numbers
-    g2.                                                                        %! silent_first_division
+    g2.                                                                        %! khamr.silent_first_division
     \repeatTie
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -1796,7 +1796,7 @@ A_Piano_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [A Piano_Music_Voice measure 60 / measure 16]                            %! _comment_measure_numbers
-    r2                                                                         %! alternate_divisions
+    r2                                                                         %! khamr.alternate_divisions
 
     % [A Piano_Music_Voice measure 61 / measure 17]                            %! _comment_measure_numbers
     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1
@@ -1806,7 +1806,7 @@ A_Piano_Music_Voice = {                                                        %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
     % [A Piano_Music_Voice measure 62 / measure 18]                            %! _comment_measure_numbers
-    r2.                                                                        %! alternate_divisions
+    r2.                                                                        %! khamr.alternate_divisions
 
     % [A Piano_Music_Voice measure 63 / measure 19]                            %! _comment_measure_numbers
     <a,,, b,,, c,, d,, e,, f,, g,, a,,>1
@@ -1814,110 +1814,110 @@ A_Piano_Music_Voice = {                                                        %
     \ottava 0                                                                  %! baca_ottava_bassa:SpannerIndicatorCommand(2)
 
     % [A Piano_Music_Voice measure 64 / measure 20]                            %! _comment_measure_numbers
-    r1.                                                                        %! alternate_divisions
+    r1.                                                                        %! khamr.alternate_divisions
 
     % [A Piano_Music_Voice measure 65 / measure 21]                            %! _comment_measure_numbers
     \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
-    r4                                                                         %! current
+    r4                                                                         %! khamr.current
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \times 2/3 {                                                               %! current
+    \times 2/3 {                                                               %! khamr.current
 
         \ottava 1                                                              %! baca_ottava:SpannerIndicatorCommand(1)
-        cf''''!8                                                               %! current
+        cf''''!8                                                               %! khamr.current
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-fff-ancora                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        c''''8                                                                 %! current
+        c''''8                                                                 %! khamr.current
 
-        ef''''!8                                                               %! current
+        ef''''!8                                                               %! khamr.current
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
     % [A Piano_Music_Voice measure 66 / measure 22]                            %! _comment_measure_numbers
-    r4                                                                         %! current
+    r4                                                                         %! khamr.current
 
-    bf'''!16                                                                   %! current
+    bf'''!16                                                                   %! khamr.current
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    gf'''!16                                                                   %! current
+    gf'''!16                                                                   %! khamr.current
 
-    f''''16                                                                    %! current
+    f''''16                                                                    %! khamr.current
 
-    d''''16                                                                    %! current
+    d''''16                                                                    %! khamr.current
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [A Piano_Music_Voice measure 67 / measure 23]                            %! _comment_measure_numbers
-    r2                                                                         %! current
+    r2                                                                         %! khamr.current
 
-    bf'''!16                                                                   %! current
+    bf'''!16                                                                   %! khamr.current
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    a'''16                                                                     %! current
+    a'''16                                                                     %! khamr.current
 
-    cf''''!16                                                                  %! current
+    cf''''!16                                                                  %! khamr.current
 
-    df''''!16                                                                  %! current
+    df''''!16                                                                  %! khamr.current
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [A Piano_Music_Voice measure 68 / measure 24]                            %! _comment_measure_numbers
-    r2.                                                                        %! current
+    r2.                                                                        %! khamr.current
 
-    \times 2/3 {                                                               %! current
+    \times 2/3 {                                                               %! khamr.current
 
-        ef''''!8                                                               %! current
+        ef''''!8                                                               %! khamr.current
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        d''''8                                                                 %! current
+        d''''8                                                                 %! khamr.current
 
-        e''''8                                                                 %! current
+        e''''8                                                                 %! khamr.current
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
     % [A Piano_Music_Voice measure 69 / measure 25]                            %! _comment_measure_numbers
-    r4                                                                         %! current
+    r4                                                                         %! khamr.current
 
-    af'''!16                                                                   %! current
+    af'''!16                                                                   %! khamr.current
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    g'''16                                                                     %! current
+    g'''16                                                                     %! khamr.current
 
-    bf'''!16                                                                   %! current
+    bf'''!16                                                                   %! khamr.current
 
-    gf'''!16                                                                   %! current
+    gf'''!16                                                                   %! khamr.current
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [A Piano_Music_Voice measure 70 / measure 26]                            %! _comment_measure_numbers
-    r4                                                                         %! current
+    r4                                                                         %! khamr.current
 
-    \times 4/5 {                                                               %! current
+    \times 4/5 {                                                               %! khamr.current
 
-        f''''16                                                                %! current
+        f''''16                                                                %! khamr.current
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        d''''16                                                                %! current
+        d''''16                                                                %! khamr.current
 
-        ef''''!16                                                              %! current
+        ef''''!16                                                              %! khamr.current
 
-        a'''16                                                                 %! current
+        a'''16                                                                 %! khamr.current
 
-        cf''''!16                                                              %! current
+        cf''''!16                                                              %! khamr.current
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
     % [A Piano_Music_Voice measure 71 / measure 27]                            %! _comment_measure_numbers
-    r2.                                                                        %! current
+    r2.                                                                        %! khamr.current
 
-    r4.                                                                        %! current
+    r4.                                                                        %! khamr.current
 
-    df''''!16.                                                                 %! current
+    df''''!16.                                                                 %! khamr.current
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
     g'''32
@@ -1930,43 +1930,43 @@ A_Piano_Music_Voice = {                                                        %
 
     d''''32
 
-    e''''16.                                                                   %! current
+    e''''16.                                                                   %! khamr.current
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [A Piano_Music_Voice measure 72 / measure 28]                            %! _comment_measure_numbers
-    r2.                                                                        %! current
+    r2.                                                                        %! khamr.current
 
-    \times 2/3 {                                                               %! current
+    \times 2/3 {                                                               %! khamr.current
 
-        af'''!8                                                                %! current
+        af'''!8                                                                %! khamr.current
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        bf'''!8                                                                %! current
+        bf'''!8                                                                %! khamr.current
 
-        cf''''!8                                                               %! current
+        cf''''!8                                                               %! khamr.current
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
     % [A Piano_Music_Voice measure 73 / measure 29]                            %! _comment_measure_numbers
-    r2                                                                         %! current
+    r2                                                                         %! khamr.current
 
-    \times 2/3 {                                                               %! current
+    \times 2/3 {                                                               %! khamr.current
 
-        c''''8                                                                 %! current
+        c''''8                                                                 %! khamr.current
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        ef''''!8                                                               %! current
+        ef''''!8                                                               %! khamr.current
 
-        df''''!8                                                               %! current
+        df''''!8                                                               %! khamr.current
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! current
+    }                                                                          %! khamr.current
 
     % [A Piano_Music_Voice measure 74 / measure 30]                            %! _comment_measure_numbers
-    r4.                                                                        %! current
+    r4.                                                                        %! khamr.current
 
-    ef''''!16.                                                                 %! current
+    ef''''!16.                                                                 %! khamr.current
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
     a'''32
@@ -1979,7 +1979,7 @@ A_Piano_Music_Voice = {                                                        %
 
     cf''''!32
 
-    af'''!16.                                                                  %! current
+    af'''!16.                                                                  %! khamr.current
     ]                                                                          %! Duration_Specifier__rewrite_meter_
     \ottava 0                                                                  %! baca_ottava:SpannerIndicatorCommand(2)
 
@@ -2099,32 +2099,32 @@ A_Percussion_Music_Voice = {                                                   %
     c'2
     \repeatTie
 
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
     af''!2
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:MarimbaHitCommand
-    - \marcato                                                                 %! MarimbaHitCommand
+    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:khamr.MarimbaHitCommand
+    - \marcato                                                                 %! khamr.MarimbaHitCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [A Percussion_Music_Voice measure 54 / measure 10]                       %! _comment_measure_numbers
     af''!2
     \repeatTie
 
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
     c'4
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -2151,348 +2151,348 @@ A_Percussion_Music_Voice = {                                                   %
     \revert Stem.direction                                                     %! baca_stem_down:OverrideCommand(2)
 
     % [A Percussion_Music_Voice measure 59 / measure 15]                       %! _comment_measure_numbers
-    r1.                                                                        %! quarter_hits
+    r1.                                                                        %! khamr.quarter_hits
 
     % [A Percussion_Music_Voice measure 60 / measure 16]                       %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
     \override Stem.direction = #down                                           %! baca_stem_down:OverrideCommand(1)
-    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    af''!4                                                                     %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    af''!4                                                                     %! khamr.quarter_hits
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:MarimbaHitCommand
-    - \marcato                                                                 %! MarimbaHitCommand
+    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:khamr.MarimbaHitCommand
+    - \marcato                                                                 %! khamr.MarimbaHitCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    r4                                                                         %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    r4                                                                         %! khamr.quarter_hits
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [A Percussion_Music_Voice measure 61 / measure 17]                       %! _comment_measure_numbers
-    r2.                                                                        %! quarter_hits
+    r2.                                                                        %! khamr.quarter_hits
 
-    r2                                                                         %! quarter_hits
+    r2                                                                         %! khamr.quarter_hits
 
     % [A Percussion_Music_Voice measure 62 / measure 18]                       %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    af''!4.                                                                    %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    af''!4.                                                                    %! khamr.quarter_hits
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:MarimbaHitCommand
-    - \marcato                                                                 %! MarimbaHitCommand
+    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:khamr.MarimbaHitCommand
+    - \marcato                                                                 %! khamr.MarimbaHitCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    r4.                                                                        %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    r4.                                                                        %! khamr.quarter_hits
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [A Percussion_Music_Voice measure 63 / measure 19]                       %! _comment_measure_numbers
-    r1                                                                         %! quarter_hits
+    r1                                                                         %! khamr.quarter_hits
 
     % [A Percussion_Music_Voice measure 64 / measure 20]                       %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    af''!4.                                                                    %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    af''!4.                                                                    %! khamr.quarter_hits
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:MarimbaHitCommand
-    - \marcato                                                                 %! MarimbaHitCommand
+    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:khamr.MarimbaHitCommand
+    - \marcato                                                                 %! khamr.MarimbaHitCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    r4.                                                                        %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    r4.                                                                        %! khamr.quarter_hits
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    r2.                                                                        %! quarter_hits
+    r2.                                                                        %! khamr.quarter_hits
 
     % [A Percussion_Music_Voice measure 65 / measure 21]                       %! _comment_measure_numbers
-    r4                                                                         %! quarter_hits
+    r4                                                                         %! khamr.quarter_hits
 
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    af''!4                                                                     %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    af''!4                                                                     %! khamr.quarter_hits
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:MarimbaHitCommand
-    - \marcato                                                                 %! MarimbaHitCommand
+    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:khamr.MarimbaHitCommand
+    - \marcato                                                                 %! khamr.MarimbaHitCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [A Percussion_Music_Voice measure 66 / measure 22]                       %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    r4                                                                         %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    r4                                                                         %! khamr.quarter_hits
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    af''!4                                                                     %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    af''!4                                                                     %! khamr.quarter_hits
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:MarimbaHitCommand
-    - \marcato                                                                 %! MarimbaHitCommand
+    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:khamr.MarimbaHitCommand
+    - \marcato                                                                 %! khamr.MarimbaHitCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [A Percussion_Music_Voice measure 67 / measure 23]                       %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    r2                                                                         %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    r2                                                                         %! khamr.quarter_hits
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    af''!4                                                                     %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    af''!4                                                                     %! khamr.quarter_hits
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:MarimbaHitCommand
-    - \marcato                                                                 %! MarimbaHitCommand
+    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:khamr.MarimbaHitCommand
+    - \marcato                                                                 %! khamr.MarimbaHitCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [A Percussion_Music_Voice measure 68 / measure 24]                       %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    r2.                                                                        %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    r2.                                                                        %! khamr.quarter_hits
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    af''!4                                                                     %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    af''!4                                                                     %! khamr.quarter_hits
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:MarimbaHitCommand
-    - \marcato                                                                 %! MarimbaHitCommand
+    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:khamr.MarimbaHitCommand
+    - \marcato                                                                 %! khamr.MarimbaHitCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [A Percussion_Music_Voice measure 69 / measure 25]                       %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    r4                                                                         %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    r4                                                                         %! khamr.quarter_hits
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    af''!4                                                                     %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    af''!4                                                                     %! khamr.quarter_hits
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:MarimbaHitCommand
-    - \marcato                                                                 %! MarimbaHitCommand
+    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:khamr.MarimbaHitCommand
+    - \marcato                                                                 %! khamr.MarimbaHitCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [A Percussion_Music_Voice measure 70 / measure 26]                       %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    r4                                                                         %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    r4                                                                         %! khamr.quarter_hits
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    af''!4                                                                     %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    af''!4                                                                     %! khamr.quarter_hits
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:MarimbaHitCommand
-    - \marcato                                                                 %! MarimbaHitCommand
+    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:khamr.MarimbaHitCommand
+    - \marcato                                                                 %! khamr.MarimbaHitCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [A Percussion_Music_Voice measure 71 / measure 27]                       %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    r2.                                                                        %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    r2.                                                                        %! khamr.quarter_hits
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    r4.                                                                        %! quarter_hits
+    r4.                                                                        %! khamr.quarter_hits
 
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    af''!4.                                                                    %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    af''!4.                                                                    %! khamr.quarter_hits
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:MarimbaHitCommand
-    - \marcato                                                                 %! MarimbaHitCommand
+    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:khamr.MarimbaHitCommand
+    - \marcato                                                                 %! khamr.MarimbaHitCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [A Percussion_Music_Voice measure 72 / measure 28]                       %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    r2.                                                                        %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    r2.                                                                        %! khamr.quarter_hits
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    af''!4                                                                     %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    af''!4                                                                     %! khamr.quarter_hits
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:MarimbaHitCommand
-    - \marcato                                                                 %! MarimbaHitCommand
+    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:khamr.MarimbaHitCommand
+    - \marcato                                                                 %! khamr.MarimbaHitCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [A Percussion_Music_Voice measure 73 / measure 29]                       %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    r2                                                                         %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    r2                                                                         %! khamr.quarter_hits
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    af''!4                                                                     %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    af''!4                                                                     %! khamr.quarter_hits
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:MarimbaHitCommand
-    - \marcato                                                                 %! MarimbaHitCommand
+    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:khamr.MarimbaHitCommand
+    - \marcato                                                                 %! khamr.MarimbaHitCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [A Percussion_Music_Voice measure 74 / measure 30]                       %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    r4.                                                                        %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    r4.                                                                        %! khamr.quarter_hits
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+    \clef "treble"                                                             %! EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
-    af''!4.                                                                    %! quarter_hits
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
+    af''!4.                                                                    %! khamr.quarter_hits
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:MarimbaHitCommand
-    - \marcato                                                                 %! MarimbaHitCommand
+    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:khamr.MarimbaHitCommand
+    - \marcato                                                                 %! khamr.MarimbaHitCommand
     \revert Stem.direction                                                     %! baca_stem_down:OverrideCommand(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
@@ -2502,15 +2502,15 @@ A_Percussion_Music_Voice = {                                                   %
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
             % [A Percussion_Music_Voice measure 75 / measure 31]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
-            \stopStaff                                                         %! PHANTOM:_style_phantom_measures(5):EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-            \once \override Staff.StaffSymbol.line-count = 1                   %! PHANTOM:_style_phantom_measures(5):EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-            \startStaff                                                        %! PHANTOM:_style_phantom_measures(5):EXPLICIT_STAFF_LINES:_set_status_tag:MarimbaHitCommand
-            \clef "percussion"                                                 %! PHANTOM:_style_phantom_measures(5):EXPLICIT_CLEF:_set_status_tag:MarimbaHitCommand
+            \stopStaff                                                         %! PHANTOM:_style_phantom_measures(5):EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+            \once \override Staff.StaffSymbol.line-count = 1                   %! PHANTOM:_style_phantom_measures(5):EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+            \startStaff                                                        %! PHANTOM:_style_phantom_measures(5):EXPLICIT_STAFF_LINES:_set_status_tag:khamr.MarimbaHitCommand
+            \clef "percussion"                                                 %! PHANTOM:_style_phantom_measures(5):EXPLICIT_CLEF:_set_status_tag:khamr.MarimbaHitCommand
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             \once \override Staff.StaffSymbol.color = #(x11-color 'blue)       %! PHANTOM:_style_phantom_measures(5):EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
             \once \override Staff.Clef.color = #(x11-color 'blue)              %! PHANTOM:_style_phantom_measures(5):EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
         %@% \override Staff.Clef.color = ##f                                   %! PHANTOM:_style_phantom_measures(5):EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-            \set Staff.forceClef = ##t                                         %! PHANTOM:_style_phantom_measures(5):EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):MarimbaHitCommand
+            \set Staff.forceClef = ##t                                         %! PHANTOM:_style_phantom_measures(5):EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):khamr.MarimbaHitCommand
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
             \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)            %! PHANTOM:_style_phantom_measures(5):EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
@@ -2563,7 +2563,7 @@ A_Violin_Music_Voice = {                                                       %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    gf'!2                                                                      %! trill_tuplets
+    gf'!2                                                                      %! khamr.trill_tuplets
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -2579,313 +2579,313 @@ A_Violin_Music_Voice = {                                                       %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
         % [A Violin_Music_Voice measure 46 / measure 2]                        %! _comment_measure_numbers
-        gf'!16                                                                 %! trill_tuplets
+        gf'!16                                                                 %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        g'4                                                                    %! trill_tuplets
+        g'4                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan af'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    g'4                                                                        %! trill_tuplets
+    g'4                                                                        %! khamr.trill_tuplets
     \repeatTie
 
     % [A Violin_Music_Voice measure 47 / measure 3]                            %! _comment_measure_numbers
-    g'4                                                                        %! trill_tuplets
+    g'4                                                                        %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        g'8                                                                    %! trill_tuplets
+        g'8                                                                    %! khamr.trill_tuplets
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        gqf'!8.                                                                %! trill_tuplets
+        gqf'!8.                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan atqf'                                                  %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    gqf'!4                                                                     %! trill_tuplets
+    gqf'!4                                                                     %! khamr.trill_tuplets
     \repeatTie
 
-    gqf'!4                                                                     %! trill_tuplets
+    gqf'!4                                                                     %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        gqf'!8.                                                                %! trill_tuplets
+        gqf'!8.                                                                %! khamr.trill_tuplets
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        gf'!8                                                                  %! trill_tuplets
+        gf'!8                                                                  %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan aff'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    gf'!4                                                                      %! trill_tuplets
+    gf'!4                                                                      %! khamr.trill_tuplets
     \repeatTie
 
     % [A Violin_Music_Voice measure 48 / measure 4]                            %! _comment_measure_numbers
-    gf'!4                                                                      %! trill_tuplets
+    gf'!4                                                                      %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        gf'!4                                                                  %! trill_tuplets
+        gf'!4                                                                  %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        gqf'!16                                                                %! trill_tuplets
+        gqf'!16                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan atqf'                                                  %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    gqf'!4                                                                     %! trill_tuplets
+    gqf'!4                                                                     %! khamr.trill_tuplets
     \repeatTie
 
     % [A Violin_Music_Voice measure 49 / measure 5]                            %! _comment_measure_numbers
-    gqf'!4                                                                     %! trill_tuplets
+    gqf'!4                                                                     %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        gqf'!16                                                                %! trill_tuplets
+        gqf'!16                                                                %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        g'4                                                                    %! trill_tuplets
+        g'4                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan af'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    g'2                                                                        %! trill_tuplets
+    g'2                                                                        %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
         % [A Violin_Music_Voice measure 50 / measure 6]                        %! _comment_measure_numbers
-        g'16                                                                   %! trill_tuplets
+        g'16                                                                   %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        gs'!4                                                                  %! trill_tuplets
+        gs'!4                                                                  %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan a'                                                     %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    gs'!2                                                                      %! trill_tuplets
+    gs'!2                                                                      %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
         % [A Violin_Music_Voice measure 51 / measure 7]                        %! _comment_measure_numbers
-        gs'!8                                                                  %! trill_tuplets
+        gs'!8                                                                  %! khamr.trill_tuplets
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        gqs'!8.                                                                %! trill_tuplets
+        gqs'!8.                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan aqf'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    gqs'!2                                                                     %! trill_tuplets
+    gqs'!2                                                                     %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        gqs'!8.                                                                %! trill_tuplets
+        gqs'!8.                                                                %! khamr.trill_tuplets
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        g'8                                                                    %! trill_tuplets
+        g'8                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan af'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
     % [A Violin_Music_Voice measure 52 / measure 8]                            %! _comment_measure_numbers
-    g'2                                                                        %! trill_tuplets
+    g'2                                                                        %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        g'4                                                                    %! trill_tuplets
+        g'4                                                                    %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        gqs'!16                                                                %! trill_tuplets
+        gqs'!16                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan aqf'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    gqs'!2                                                                     %! trill_tuplets
+    gqs'!2                                                                     %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
         % [A Violin_Music_Voice measure 53 / measure 9]                        %! _comment_measure_numbers
-        gqs'!16                                                                %! trill_tuplets
+        gqs'!16                                                                %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        af'!4                                                                  %! trill_tuplets
+        af'!4                                                                  %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan bff'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    af'!2                                                                      %! trill_tuplets
+    af'!2                                                                      %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        af'!16                                                                 %! trill_tuplets
+        af'!16                                                                 %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        a'4                                                                    %! trill_tuplets
+        a'4                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan bf'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
     % [A Violin_Music_Voice measure 54 / measure 10]                           %! _comment_measure_numbers
-    a'2                                                                        %! trill_tuplets
+    a'2                                                                        %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        a'8                                                                    %! trill_tuplets
+        a'8                                                                    %! khamr.trill_tuplets
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        aqf'!8.                                                                %! trill_tuplets
+        aqf'!8.                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan btqf'                                                  %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
     % [A Violin_Music_Voice measure 55 / measure 11]                           %! _comment_measure_numbers
-    aqf'!2                                                                     %! trill_tuplets
+    aqf'!2                                                                     %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        aqf'!8.                                                                %! trill_tuplets
+        aqf'!8.                                                                %! khamr.trill_tuplets
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        af'!8                                                                  %! trill_tuplets
+        af'!8                                                                  %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan bff'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    af'!4                                                                      %! trill_tuplets
+    af'!4                                                                      %! khamr.trill_tuplets
     \repeatTie
 
     % [A Violin_Music_Voice measure 56 / measure 12]                           %! _comment_measure_numbers
-    af'!4                                                                      %! trill_tuplets
+    af'!4                                                                      %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        af'!4                                                                  %! trill_tuplets
+        af'!4                                                                  %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        aqf'!16                                                                %! trill_tuplets
+        aqf'!16                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan btqf'                                                  %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    aqf'!4                                                                     %! trill_tuplets
+    aqf'!4                                                                     %! khamr.trill_tuplets
     \repeatTie
 
-    aqf'!4                                                                     %! trill_tuplets
+    aqf'!4                                                                     %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        aqf'!16                                                                %! trill_tuplets
+        aqf'!16                                                                %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        af'!4                                                                  %! trill_tuplets
+        af'!4                                                                  %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan bff'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
     % [A Violin_Music_Voice measure 57 / measure 13]                           %! _comment_measure_numbers
-    af'!2                                                                      %! trill_tuplets
+    af'!2                                                                      %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        af'!16                                                                 %! trill_tuplets
+        af'!16                                                                 %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        g'4                                                                    %! trill_tuplets
+        g'4                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan af'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
     % [A Violin_Music_Voice measure 58 / measure 14]                           %! _comment_measure_numbers
-    r2                                                                         %! trill_tuplets
+    r2                                                                         %! khamr.trill_tuplets
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     % [A Violin_Music_Voice measure 59 / measure 15]                           %! _comment_measure_numbers
-    a'1.                                                                       %! alternate_divisions
+    a'1.                                                                       %! khamr.alternate_divisions
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "arco ordinario" }                                             %! baca_markup:IndicatorCommand
 
     % [A Violin_Music_Voice measure 60 / measure 16]                           %! _comment_measure_numbers
-    r2                                                                         %! alternate_divisions
+    r2                                                                         %! khamr.alternate_divisions
 
     % [A Violin_Music_Voice measure 61 / measure 17]                           %! _comment_measure_numbers
     a'2.
@@ -2894,53 +2894,53 @@ A_Violin_Music_Voice = {                                                       %
     \repeatTie
 
     % [A Violin_Music_Voice measure 62 / measure 18]                           %! _comment_measure_numbers
-    r2.                                                                        %! alternate_divisions
+    r2.                                                                        %! khamr.alternate_divisions
 
     % [A Violin_Music_Voice measure 63 / measure 19]                           %! _comment_measure_numbers
-    a'1                                                                        %! alternate_divisions
+    a'1                                                                        %! khamr.alternate_divisions
 
     % [A Violin_Music_Voice measure 64 / measure 20]                           %! _comment_measure_numbers
-    r1.                                                                        %! alternate_divisions
+    r1.                                                                        %! khamr.alternate_divisions
 
     % [A Violin_Music_Voice measure 65 / measure 21]                           %! _comment_measure_numbers
-    r4                                                                         %! silent_first_division
+    r4                                                                         %! khamr.silent_first_division
 
-    a'4                                                                        %! silent_first_division
+    a'4                                                                        %! khamr.silent_first_division
 
     % [A Violin_Music_Voice measure 66 / measure 22]                           %! _comment_measure_numbers
-    a'2                                                                        %! silent_first_division
+    a'2                                                                        %! khamr.silent_first_division
     \repeatTie
 
     % [A Violin_Music_Voice measure 67 / measure 23]                           %! _comment_measure_numbers
-    a'2.                                                                       %! silent_first_division
+    a'2.                                                                       %! khamr.silent_first_division
     \repeatTie
 
     % [A Violin_Music_Voice measure 68 / measure 24]                           %! _comment_measure_numbers
-    a'1                                                                        %! silent_first_division
+    a'1                                                                        %! khamr.silent_first_division
     \repeatTie
 
     % [A Violin_Music_Voice measure 69 / measure 25]                           %! _comment_measure_numbers
-    a'2                                                                        %! silent_first_division
+    a'2                                                                        %! khamr.silent_first_division
     \repeatTie
 
     % [A Violin_Music_Voice measure 70 / measure 26]                           %! _comment_measure_numbers
-    a'2                                                                        %! silent_first_division
+    a'2                                                                        %! khamr.silent_first_division
     \repeatTie
 
     % [A Violin_Music_Voice measure 71 / measure 27]                           %! _comment_measure_numbers
-    a'1.                                                                       %! silent_first_division
+    a'1.                                                                       %! khamr.silent_first_division
     \repeatTie
 
     % [A Violin_Music_Voice measure 72 / measure 28]                           %! _comment_measure_numbers
-    a'1                                                                        %! silent_first_division
+    a'1                                                                        %! khamr.silent_first_division
     \repeatTie
 
     % [A Violin_Music_Voice measure 73 / measure 29]                           %! _comment_measure_numbers
-    a'2.                                                                       %! silent_first_division
+    a'2.                                                                       %! khamr.silent_first_division
     \repeatTie
 
     % [A Violin_Music_Voice measure 74 / measure 30]                           %! _comment_measure_numbers
-    a'2.                                                                       %! silent_first_division
+    a'2.                                                                       %! khamr.silent_first_division
     \repeatTie
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -3001,7 +3001,7 @@ A_Viola_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    f'2                                                                        %! trill_tuplets
+    f'2                                                                        %! khamr.trill_tuplets
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -3018,249 +3018,249 @@ A_Viola_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [A Viola_Music_Voice measure 46 / measure 2]                             %! _comment_measure_numbers
-    f'4                                                                        %! trill_tuplets
+    f'4                                                                        %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        f'16                                                                   %! trill_tuplets
+        f'16                                                                   %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        fs'!4                                                                  %! trill_tuplets
+        fs'!4                                                                  %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan g'                                                     %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
     % [A Viola_Music_Voice measure 47 / measure 3]                             %! _comment_measure_numbers
-    fs'!2.                                                                     %! trill_tuplets
+    fs'!2.                                                                     %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        fs'!8                                                                  %! trill_tuplets
+        fs'!8                                                                  %! khamr.trill_tuplets
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        fqs'!8.                                                                %! trill_tuplets
+        fqs'!8.                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan gqf'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    fqs'!2                                                                     %! trill_tuplets
+    fqs'!2                                                                     %! khamr.trill_tuplets
     \repeatTie
 
     % [A Viola_Music_Voice measure 48 / measure 4]                             %! _comment_measure_numbers
-    fqs'!4                                                                     %! trill_tuplets
+    fqs'!4                                                                     %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        fqs'!8.                                                                %! trill_tuplets
+        fqs'!8.                                                                %! khamr.trill_tuplets
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        f'8                                                                    %! trill_tuplets
+        f'8                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan gf'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    f'4                                                                        %! trill_tuplets
+    f'4                                                                        %! khamr.trill_tuplets
     \repeatTie
 
     % [A Viola_Music_Voice measure 49 / measure 5]                             %! _comment_measure_numbers
-    f'2                                                                        %! trill_tuplets
+    f'2                                                                        %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        f'4                                                                    %! trill_tuplets
+        f'4                                                                    %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        gf'!16                                                                 %! trill_tuplets
+        gf'!16                                                                 %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan aff'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    gf'!4                                                                      %! trill_tuplets
+    gf'!4                                                                      %! khamr.trill_tuplets
     \repeatTie
 
     % [A Viola_Music_Voice measure 50 / measure 6]                             %! _comment_measure_numbers
-    gf'!2                                                                      %! trill_tuplets
+    gf'!2                                                                      %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        gf'!16                                                                 %! trill_tuplets
+        gf'!16                                                                 %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        g'4                                                                    %! trill_tuplets
+        g'4                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan af'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
     % [A Viola_Music_Voice measure 51 / measure 7]                             %! _comment_measure_numbers
-    g'2.                                                                       %! trill_tuplets
+    g'2.                                                                       %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        g'16                                                                   %! trill_tuplets
+        g'16                                                                   %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        gqf'!4                                                                 %! trill_tuplets
+        gqf'!4                                                                 %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan atqf'                                                  %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
     % [A Viola_Music_Voice measure 52 / measure 8]                             %! _comment_measure_numbers
-    gqf'!2.                                                                    %! trill_tuplets
+    gqf'!2.                                                                    %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        gqf'!8                                                                 %! trill_tuplets
+        gqf'!8                                                                 %! khamr.trill_tuplets
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        gf'!8.                                                                 %! trill_tuplets
+        gf'!8.                                                                 %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan aff'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    gf'!4                                                                      %! trill_tuplets
+    gf'!4                                                                      %! khamr.trill_tuplets
     \repeatTie
 
     % [A Viola_Music_Voice measure 53 / measure 9]                             %! _comment_measure_numbers
-    gf'!2                                                                      %! trill_tuplets
+    gf'!2                                                                      %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        gf'!8.                                                                 %! trill_tuplets
+        gf'!8.                                                                 %! khamr.trill_tuplets
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        g'8                                                                    %! trill_tuplets
+        g'8                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan af'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    g'4                                                                        %! trill_tuplets
+    g'4                                                                        %! khamr.trill_tuplets
     \repeatTie
 
     % [A Viola_Music_Voice measure 54 / measure 10]                            %! _comment_measure_numbers
-    g'2                                                                        %! trill_tuplets
+    g'2                                                                        %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        g'4                                                                    %! trill_tuplets
+        g'4                                                                    %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        gs'!16                                                                 %! trill_tuplets
+        gs'!16                                                                 %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan a'                                                     %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
     % [A Viola_Music_Voice measure 55 / measure 11]                            %! _comment_measure_numbers
-    gs'!2.                                                                     %! trill_tuplets
+    gs'!2.                                                                     %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        gs'!16                                                                 %! trill_tuplets
+        gs'!16                                                                 %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        gqs'!4                                                                 %! trill_tuplets
+        gqs'!4                                                                 %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan aqf'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
     % [A Viola_Music_Voice measure 56 / measure 12]                            %! _comment_measure_numbers
-    gqs'!2.                                                                    %! trill_tuplets
+    gqs'!2.                                                                    %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        gqs'!16                                                                %! trill_tuplets
+        gqs'!16                                                                %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        g'4                                                                    %! trill_tuplets
+        g'4                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan af'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    g'4                                                                        %! trill_tuplets
+    g'4                                                                        %! khamr.trill_tuplets
     \repeatTie
 
     % [A Viola_Music_Voice measure 57 / measure 13]                            %! _comment_measure_numbers
-    g'2                                                                        %! trill_tuplets
+    g'2                                                                        %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        g'8                                                                    %! trill_tuplets
+        g'8                                                                    %! khamr.trill_tuplets
         \repeatTie
-        [                                                                      %! trill_tuplets
+        [                                                                      %! khamr.trill_tuplets
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        gqs'!8.                                                                %! trill_tuplets
+        gqs'!8.                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
-        ]                                                                      %! trill_tuplets
+        ]                                                                      %! khamr.trill_tuplets
         \startTrillSpan aqf'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
     % [A Viola_Music_Voice measure 58 / measure 14]                            %! _comment_measure_numbers
-    r2                                                                         %! trill_tuplets
+    r2                                                                         %! khamr.trill_tuplets
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     % [A Viola_Music_Voice measure 59 / measure 15]                            %! _comment_measure_numbers
-    gs'!1.                                                                     %! alternate_divisions
+    gs'!1.                                                                     %! khamr.alternate_divisions
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "arco ordinario" }                                             %! baca_markup:IndicatorCommand
 
     % [A Viola_Music_Voice measure 60 / measure 16]                            %! _comment_measure_numbers
-    r2                                                                         %! alternate_divisions
+    r2                                                                         %! khamr.alternate_divisions
 
     % [A Viola_Music_Voice measure 61 / measure 17]                            %! _comment_measure_numbers
     gs'!2.
@@ -3269,53 +3269,53 @@ A_Viola_Music_Voice = {                                                        %
     \repeatTie
 
     % [A Viola_Music_Voice measure 62 / measure 18]                            %! _comment_measure_numbers
-    r2.                                                                        %! alternate_divisions
+    r2.                                                                        %! khamr.alternate_divisions
 
     % [A Viola_Music_Voice measure 63 / measure 19]                            %! _comment_measure_numbers
-    gs'!1                                                                      %! alternate_divisions
+    gs'!1                                                                      %! khamr.alternate_divisions
 
     % [A Viola_Music_Voice measure 64 / measure 20]                            %! _comment_measure_numbers
-    r1.                                                                        %! alternate_divisions
+    r1.                                                                        %! khamr.alternate_divisions
 
     % [A Viola_Music_Voice measure 65 / measure 21]                            %! _comment_measure_numbers
-    r4                                                                         %! silent_first_division
+    r4                                                                         %! khamr.silent_first_division
 
-    gs'!4                                                                      %! silent_first_division
+    gs'!4                                                                      %! khamr.silent_first_division
 
     % [A Viola_Music_Voice measure 66 / measure 22]                            %! _comment_measure_numbers
-    gs'!2                                                                      %! silent_first_division
+    gs'!2                                                                      %! khamr.silent_first_division
     \repeatTie
 
     % [A Viola_Music_Voice measure 67 / measure 23]                            %! _comment_measure_numbers
-    gs'!2.                                                                     %! silent_first_division
+    gs'!2.                                                                     %! khamr.silent_first_division
     \repeatTie
 
     % [A Viola_Music_Voice measure 68 / measure 24]                            %! _comment_measure_numbers
-    gs'!1                                                                      %! silent_first_division
+    gs'!1                                                                      %! khamr.silent_first_division
     \repeatTie
 
     % [A Viola_Music_Voice measure 69 / measure 25]                            %! _comment_measure_numbers
-    gs'!2                                                                      %! silent_first_division
+    gs'!2                                                                      %! khamr.silent_first_division
     \repeatTie
 
     % [A Viola_Music_Voice measure 70 / measure 26]                            %! _comment_measure_numbers
-    gs'!2                                                                      %! silent_first_division
+    gs'!2                                                                      %! khamr.silent_first_division
     \repeatTie
 
     % [A Viola_Music_Voice measure 71 / measure 27]                            %! _comment_measure_numbers
-    gs'!1.                                                                     %! silent_first_division
+    gs'!1.                                                                     %! khamr.silent_first_division
     \repeatTie
 
     % [A Viola_Music_Voice measure 72 / measure 28]                            %! _comment_measure_numbers
-    gs'!1                                                                      %! silent_first_division
+    gs'!1                                                                      %! khamr.silent_first_division
     \repeatTie
 
     % [A Viola_Music_Voice measure 73 / measure 29]                            %! _comment_measure_numbers
-    gs'!2.                                                                     %! silent_first_division
+    gs'!2.                                                                     %! khamr.silent_first_division
     \repeatTie
 
     % [A Viola_Music_Voice measure 74 / measure 30]                            %! _comment_measure_numbers
-    gs'!2.                                                                     %! silent_first_division
+    gs'!2.                                                                     %! khamr.silent_first_division
     \repeatTie
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -3376,7 +3376,7 @@ A_Cello_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    f'2                                                                        %! trill_tuplets
+    f'2                                                                        %! khamr.trill_tuplets
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -3393,109 +3393,109 @@ A_Cello_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [A Cello_Music_Voice measure 46 / measure 2]                             %! _comment_measure_numbers
-    f'2                                                                        %! trill_tuplets
+    f'2                                                                        %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
         % [A Cello_Music_Voice measure 47 / measure 3]                         %! _comment_measure_numbers
-        f'16                                                                   %! trill_tuplets
+        f'16                                                                   %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        fs'!4                                                                  %! trill_tuplets
+        fs'!4                                                                  %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan g'                                                     %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    fs'!2                                                                      %! trill_tuplets
+    fs'!2                                                                      %! khamr.trill_tuplets
     \repeatTie
 
-    fs'!2                                                                      %! trill_tuplets
+    fs'!2                                                                      %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        fs'!8                                                                  %! trill_tuplets
+        fs'!8                                                                  %! khamr.trill_tuplets
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        fqs'!8.                                                                %! trill_tuplets
+        fqs'!8.                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan gqf'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
     % [A Cello_Music_Voice measure 48 / measure 4]                             %! _comment_measure_numbers
-    fqs'!2.                                                                    %! trill_tuplets
+    fqs'!2.                                                                    %! khamr.trill_tuplets
     \repeatTie
 
     % [A Cello_Music_Voice measure 49 / measure 5]                             %! _comment_measure_numbers
-    fqs'!4                                                                     %! trill_tuplets
+    fqs'!4                                                                     %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        fqs'!8.                                                                %! trill_tuplets
+        fqs'!8.                                                                %! khamr.trill_tuplets
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        f'8                                                                    %! trill_tuplets
+        f'8                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         ]                                                                      %! Duration_Specifier__rewrite_meter_
         \startTrillSpan gf'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    f'2                                                                        %! trill_tuplets
+    f'2                                                                        %! khamr.trill_tuplets
     \repeatTie
 
     % [A Cello_Music_Voice measure 50 / measure 6]                             %! _comment_measure_numbers
-    f'2                                                                        %! trill_tuplets
+    f'2                                                                        %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
-        f'4                                                                    %! trill_tuplets
+        f'4                                                                    %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        fqs'!16                                                                %! trill_tuplets
+        fqs'!16                                                                %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan gqf'                                                   %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
     % [A Cello_Music_Voice measure 51 / measure 7]                             %! _comment_measure_numbers
-    fqs'!1                                                                     %! trill_tuplets
+    fqs'!1                                                                     %! khamr.trill_tuplets
     \repeatTie
 
-    \times 4/5 {                                                               %! trill_tuplets
+    \times 4/5 {                                                               %! khamr.trill_tuplets
 
         % [A Cello_Music_Voice measure 52 / measure 8]                         %! _comment_measure_numbers
-        fqs'!16                                                                %! trill_tuplets
+        fqs'!16                                                                %! khamr.trill_tuplets
         \repeatTie
 
         \pitchedTrill                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        f'4                                                                    %! trill_tuplets
+        f'4                                                                    %! khamr.trill_tuplets
         - \accent                                                              %! baca_accent:IndicatorCommand
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \startTrillSpan gf'                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! trill_tuplets
+    }                                                                          %! khamr.trill_tuplets
 
-    f'2                                                                        %! trill_tuplets
+    f'2                                                                        %! khamr.trill_tuplets
     \repeatTie
 
-    r2                                                                         %! trill_tuplets
+    r2                                                                         %! khamr.trill_tuplets
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     % [A Cello_Music_Voice measure 53 / measure 9]                             %! _comment_measure_numbers
@@ -3539,13 +3539,13 @@ A_Cello_Music_Voice = {                                                        %
     r2                                                                         %! baca_make_repeat_tied_notes
 
     % [A Cello_Music_Voice measure 59 / measure 15]                            %! _comment_measure_numbers
-    g1.                                                                        %! alternate_divisions
+    g1.                                                                        %! khamr.alternate_divisions
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "arco ordinario" }                                             %! baca_markup:IndicatorCommand
 
     % [A Cello_Music_Voice measure 60 / measure 16]                            %! _comment_measure_numbers
-    r2                                                                         %! alternate_divisions
+    r2                                                                         %! khamr.alternate_divisions
 
     % [A Cello_Music_Voice measure 61 / measure 17]                            %! _comment_measure_numbers
     g2.
@@ -3554,53 +3554,53 @@ A_Cello_Music_Voice = {                                                        %
     \repeatTie
 
     % [A Cello_Music_Voice measure 62 / measure 18]                            %! _comment_measure_numbers
-    r2.                                                                        %! alternate_divisions
+    r2.                                                                        %! khamr.alternate_divisions
 
     % [A Cello_Music_Voice measure 63 / measure 19]                            %! _comment_measure_numbers
-    g1                                                                         %! alternate_divisions
+    g1                                                                         %! khamr.alternate_divisions
 
     % [A Cello_Music_Voice measure 64 / measure 20]                            %! _comment_measure_numbers
-    r1.                                                                        %! alternate_divisions
+    r1.                                                                        %! khamr.alternate_divisions
 
     % [A Cello_Music_Voice measure 65 / measure 21]                            %! _comment_measure_numbers
-    r4                                                                         %! silent_first_division
+    r4                                                                         %! khamr.silent_first_division
 
-    g4                                                                         %! silent_first_division
+    g4                                                                         %! khamr.silent_first_division
 
     % [A Cello_Music_Voice measure 66 / measure 22]                            %! _comment_measure_numbers
-    g2                                                                         %! silent_first_division
+    g2                                                                         %! khamr.silent_first_division
     \repeatTie
 
     % [A Cello_Music_Voice measure 67 / measure 23]                            %! _comment_measure_numbers
-    g2.                                                                        %! silent_first_division
+    g2.                                                                        %! khamr.silent_first_division
     \repeatTie
 
     % [A Cello_Music_Voice measure 68 / measure 24]                            %! _comment_measure_numbers
-    g1                                                                         %! silent_first_division
+    g1                                                                         %! khamr.silent_first_division
     \repeatTie
 
     % [A Cello_Music_Voice measure 69 / measure 25]                            %! _comment_measure_numbers
-    g2                                                                         %! silent_first_division
+    g2                                                                         %! khamr.silent_first_division
     \repeatTie
 
     % [A Cello_Music_Voice measure 70 / measure 26]                            %! _comment_measure_numbers
-    g2                                                                         %! silent_first_division
+    g2                                                                         %! khamr.silent_first_division
     \repeatTie
 
     % [A Cello_Music_Voice measure 71 / measure 27]                            %! _comment_measure_numbers
-    g1.                                                                        %! silent_first_division
+    g1.                                                                        %! khamr.silent_first_division
     \repeatTie
 
     % [A Cello_Music_Voice measure 72 / measure 28]                            %! _comment_measure_numbers
-    g1                                                                         %! silent_first_division
+    g1                                                                         %! khamr.silent_first_division
     \repeatTie
 
     % [A Cello_Music_Voice measure 73 / measure 29]                            %! _comment_measure_numbers
-    g2.                                                                        %! silent_first_division
+    g2.                                                                        %! khamr.silent_first_division
     \repeatTie
 
     % [A Cello_Music_Voice measure 74 / measure 30]                            %! _comment_measure_numbers
-    g2.                                                                        %! silent_first_division
+    g2.                                                                        %! khamr.silent_first_division
     \repeatTie
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -3680,8 +3680,8 @@ A_Contrabass_Music_Voice = {                                                   %
     <g, a>2
     \repeatTie
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
-    \times 6/7 {                                                               %! opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
+    \times 6/7 {                                                               %! khamr.opening_glissandi
 
         % [A Contrabass_Music_Voice measure 47 / measure 3]                    %! _comment_measure_numbers
         <g, a>1.
@@ -3690,9 +3690,9 @@ A_Contrabass_Music_Voice = {                                                   %
 
         <af,! bf!>4
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
-    \times 4/5 {                                                               %! opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi
 
         % [A Contrabass_Music_Voice measure 48 / measure 4]                    %! _comment_measure_numbers
         <af,! bf!>2.
@@ -3701,13 +3701,13 @@ A_Contrabass_Music_Voice = {                                                   %
 
         <gqs,! aqs!>8.
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [A Contrabass_Music_Voice measure 49 / measure 5]                        %! _comment_measure_numbers
     <gqs,! aqs!>1
     \repeatTie
 
-    \times 4/5 {                                                               %! opening_glissandi
+    \times 4/5 {                                                               %! khamr.opening_glissandi
 
         % [A Contrabass_Music_Voice measure 50 / measure 6]                    %! _comment_measure_numbers
         <gqs,! aqs!>2.
@@ -3716,7 +3716,7 @@ A_Contrabass_Music_Voice = {                                                   %
 
         <a, b>8.
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [A Contrabass_Music_Voice measure 51 / measure 7]                        %! _comment_measure_numbers
     <a, b>1
@@ -3740,7 +3740,7 @@ A_Contrabass_Music_Voice = {                                                   %
 
     <bqf,! cqs'!>4
 
-    \times 2/3 {                                                               %! opening_glissandi
+    \times 2/3 {                                                               %! khamr.opening_glissandi
 
         % [A Contrabass_Music_Voice measure 55 / measure 11]                   %! _comment_measure_numbers
         <bqf,! cqs'!>1
@@ -3749,7 +3749,7 @@ A_Contrabass_Music_Voice = {                                                   %
 
         <af,! bf!>2
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [A Contrabass_Music_Voice measure 56 / measure 12]                       %! _comment_measure_numbers
     <af,! bf!>2.
@@ -3758,8 +3758,8 @@ A_Contrabass_Music_Voice = {                                                   %
     <af,! bf!>2
     \repeatTie
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! opening_glissandi
-    \times 6/7 {                                                               %! opening_glissandi
+    \tweak text #tuplet-number::calc-fraction-text                             %! khamr.opening_glissandi
+    \times 6/7 {                                                               %! khamr.opening_glissandi
 
         % [A Contrabass_Music_Voice measure 57 / measure 13]                   %! _comment_measure_numbers
         <af,! bf!>2.
@@ -3769,10 +3769,10 @@ A_Contrabass_Music_Voice = {                                                   %
         <gqs,! aqs!>8
         \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
 
-    }                                                                          %! opening_glissandi
+    }                                                                          %! khamr.opening_glissandi
 
     % [A Contrabass_Music_Voice measure 58 / measure 14]                       %! _comment_measure_numbers
-    r2                                                                         %! opening_glissandi
+    r2                                                                         %! khamr.opening_glissandi
 
     % [A Contrabass_Music_Voice measure 59 / measure 15]                       %! _comment_measure_numbers
     <g,, a,>1.
@@ -3781,7 +3781,7 @@ A_Contrabass_Music_Voice = {                                                   %
     ^ \markup { "arco ordinario" }                                             %! baca_markup:IndicatorCommand
 
     % [A Contrabass_Music_Voice measure 60 / measure 16]                       %! _comment_measure_numbers
-    r2                                                                         %! alternate_divisions
+    r2                                                                         %! khamr.alternate_divisions
 
     % [A Contrabass_Music_Voice measure 61 / measure 17]                       %! _comment_measure_numbers
     <g,, a,>2.
@@ -3790,16 +3790,16 @@ A_Contrabass_Music_Voice = {                                                   %
     \repeatTie
 
     % [A Contrabass_Music_Voice measure 62 / measure 18]                       %! _comment_measure_numbers
-    r2.                                                                        %! alternate_divisions
+    r2.                                                                        %! khamr.alternate_divisions
 
     % [A Contrabass_Music_Voice measure 63 / measure 19]                       %! _comment_measure_numbers
     <g,, a,>1
 
     % [A Contrabass_Music_Voice measure 64 / measure 20]                       %! _comment_measure_numbers
-    r1.                                                                        %! alternate_divisions
+    r1.                                                                        %! khamr.alternate_divisions
 
     % [A Contrabass_Music_Voice measure 65 / measure 21]                       %! _comment_measure_numbers
-    r4                                                                         %! silent_first_division
+    r4                                                                         %! khamr.silent_first_division
 
     <g,, a,>4
 
