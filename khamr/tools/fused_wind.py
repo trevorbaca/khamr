@@ -7,8 +7,10 @@ def fused_wind(counts, *, dmask=None, denominator=8) -> baca.RhythmCommand:
     """
     Makes fused wind rhythm.
     """
+    divisions = baca.quarter_split_each(compound=(3, 2))
+    divisions = divisions.fuse(counts, cyclic=True)
     return baca.rhythm(
-        divisions=baca.fuse_compound_quarter_divisions(counts, cyclic=True),
+        divisions=divisions,
         rewrite_meter=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
             division_masks=dmask,

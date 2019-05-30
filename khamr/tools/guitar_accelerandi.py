@@ -9,7 +9,7 @@ def guitar_accelerandi(counts) -> baca.RhythmCommand:
     """
 
     return baca.rhythm(
-        divisions=baca.fuse_divisions(counts, cyclic=True),
+        divisions=baca.divisions().fuse(counts, cyclic=True),
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
             beam_specifier=rmakers.BeamSpecifier(use_feather_beams=True),
             interpolation_specifiers=[
