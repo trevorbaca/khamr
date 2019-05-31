@@ -50,7 +50,7 @@ maker(
 
 maker(
     ('fl', (10, 29)),
-    khamr.aviary((7, 16), [1]),
+    khamr.aviary((7, 16), extra=[1]),
     )
 
 maker(
@@ -66,7 +66,7 @@ maker(
 maker(
     ('ob', (10, 29)),
     baca.instrument(khamr.instruments['Oboe']),
-    khamr.aviary((5, 16), [1]),
+    khamr.aviary((5, 16), extra=[1]),
     )
 
 maker(
@@ -82,7 +82,7 @@ maker(
 maker(
     ('cl', (10, 29)),
     baca.instrument(khamr.instruments['Clarinet']),
-    khamr.aviary((8, 16), [1]),
+    khamr.aviary((8, 16), extra=[1]),
     )
 
 maker(
@@ -101,7 +101,7 @@ maker(
 maker(
     ('sax', (10, 29)),
     baca.instrument(khamr.instruments['SopraninoSaxophone']),
-    khamr.aviary((6, 16), [1]),
+    khamr.aviary((6, 16), extra=[1]),
     )
 
 maker(
@@ -126,7 +126,7 @@ maker(
 
 maker(
     ('pf', (10, 29)),
-    khamr.aviary((9, 16), [2]),
+    khamr.aviary((9, 16), extra=[2]),
     )
 
 maker(
