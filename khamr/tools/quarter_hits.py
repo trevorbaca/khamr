@@ -7,8 +7,9 @@ def quarter_hits(*, dmask=None) -> baca.RhythmCommand:
     """
     Makes quarter hits.
     """
+    quarters = baca.divisions().quarters(compound=(3, 2))
     return baca.rhythm(
-        divisions=baca.divisions().quarters_each(compound=(3, 2)),
+        divisions=baca.divisions().map(quarters),
         rewrite_meter=True,
         rhythm_maker=rmakers.NoteRhythmMaker(
             division_masks=dmask,
