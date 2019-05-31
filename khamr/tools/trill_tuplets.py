@@ -9,7 +9,7 @@ def trill_tuplets(tuplet_ratios, *, dmask=None) -> baca.RhythmCommand:
     Makes trill tuplet rhythm.
     """
     return baca.rhythm(
-        divisions=baca.divisions().quarters_each(),
+        divisions=baca.divisions().fuse().quarters(),
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=dmask,
