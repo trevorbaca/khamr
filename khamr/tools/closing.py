@@ -7,8 +7,8 @@ def closing() -> baca.RhythmCommand:
     """
     Makes closing rhythm.
     """
-    durations = [(2, 4), (4, 4), (12, 4)]
-    divisions = baca.divisions().fuse().split_each(durations, cyclic=True)
+    divisions = [(2, 4), (4, 4), (12, 4)]
+    divisions = baca.divisions().fuse().split(divisions, cyclic=True)
     return baca.rhythm(
         divisions=divisions,
         rewrite_meter=True,
