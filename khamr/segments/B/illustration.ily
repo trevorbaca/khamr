@@ -5,7 +5,7 @@ B_Global_Skips = {                                                             %
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
-    - \baca-rehearsal-mark-markup "B"                                          %! baca_rehearsal_mark:IndicatorCommand
+    - \baca-rehearsal-mark-markup "B"                                          %! baca.rehearsal_mark:IndicatorCommand
     - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "75"                                            %! MEASURE_NUMBER
@@ -726,7 +726,7 @@ B_Flute_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     b''2                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“B. fl.”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -742,7 +742,7 @@ B_Flute_Music_Voice = {                                                        %
 
     % [B Flute_Music_Voice measure 76 / measure 2]                             %! _comment_measure_numbers
     b''2                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -790,8 +790,8 @@ B_Flute_Music_Voice = {                                                        %
         % [B Flute_Music_Voice measure 84 / measure 10]                        %! _comment_measure_numbers
         d'''16                                                                 %! khamr.aviary
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \baca-fff-ancora                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        \baca-fff-ancora                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -815,7 +815,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -839,7 +839,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -863,7 +863,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -888,7 +888,7 @@ B_Flute_Music_Voice = {                                                        %
 
         % [B Flute_Music_Voice measure 86 / measure 12]                        %! _comment_measure_numbers
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -912,7 +912,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -936,7 +936,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -960,7 +960,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -984,7 +984,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1008,7 +1008,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1032,7 +1032,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1056,7 +1056,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1080,7 +1080,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1104,7 +1104,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1128,7 +1128,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1152,7 +1152,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1176,7 +1176,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1200,7 +1200,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1224,7 +1224,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1248,7 +1248,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1272,7 +1272,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1296,7 +1296,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1320,7 +1320,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1344,7 +1344,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1368,7 +1368,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1392,7 +1392,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1416,7 +1416,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1440,7 +1440,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1464,7 +1464,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1488,7 +1488,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1512,7 +1512,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1536,7 +1536,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1561,7 +1561,7 @@ B_Flute_Music_Voice = {                                                        %
 
         % [B Flute_Music_Voice measure 100 / measure 26]                       %! _comment_measure_numbers
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1585,7 +1585,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1609,7 +1609,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1633,7 +1633,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1657,7 +1657,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1681,7 +1681,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1705,7 +1705,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1729,7 +1729,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1752,7 +1752,7 @@ B_Flute_Music_Voice = {                                                        %
     \times 4/5 {                                                               %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
@@ -1799,20 +1799,20 @@ B_Flute_Music_Voice = {                                                        %
     % [B Flute_Music_Voice measure 108 / measure 34]                           %! _comment_measure_numbers
     bf'!1
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \column                                                                %! baca_markup:IndicatorCommand
-            {                                                                  %! baca_markup:IndicatorCommand
-                \line                                                          %! baca_markup:IndicatorCommand
-                    {                                                          %! baca_markup:IndicatorCommand
-                        "airtone with lips covering mouthplate"                %! baca_markup:IndicatorCommand
-                    }                                                          %! baca_markup:IndicatorCommand
-                \line                                                          %! baca_markup:IndicatorCommand
-                    {                                                          %! baca_markup:IndicatorCommand
-                        "(sounds major 7th lower)"                             %! baca_markup:IndicatorCommand
-                    }                                                          %! baca_markup:IndicatorCommand
-            }                                                                  %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    ^ \markup {                                                                %! baca.markup:IndicatorCommand
+        \column                                                                %! baca.markup:IndicatorCommand
+            {                                                                  %! baca.markup:IndicatorCommand
+                \line                                                          %! baca.markup:IndicatorCommand
+                    {                                                          %! baca.markup:IndicatorCommand
+                        "airtone with lips covering mouthplate"                %! baca.markup:IndicatorCommand
+                    }                                                          %! baca.markup:IndicatorCommand
+                \line                                                          %! baca.markup:IndicatorCommand
+                    {                                                          %! baca.markup:IndicatorCommand
+                        "(sounds major 7th lower)"                             %! baca.markup:IndicatorCommand
+                    }                                                          %! baca.markup:IndicatorCommand
+            }                                                                  %! baca.markup:IndicatorCommand
+        }                                                                      %! baca.markup:IndicatorCommand
 
     % [B Flute_Music_Voice measure 109 / measure 35]                           %! _comment_measure_numbers
     bf'!2...
@@ -1965,8 +1965,8 @@ B_Oboe_Music_Voice = {                                                         %
         % [B Oboe_Music_Voice measure 84 / measure 10]                         %! _comment_measure_numbers
         c'''16                                                                 %! khamr.aviary
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \baca-fff-ancora                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        \baca-fff-ancora                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         ^ \baca-explicit-indicator-markup "(“Oboe”)"                           %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         [                                                                      %! khamr.aviary
 
@@ -1987,7 +1987,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2007,7 +2007,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2027,7 +2027,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2047,7 +2047,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2067,7 +2067,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2087,7 +2087,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2107,7 +2107,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2127,7 +2127,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2147,7 +2147,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2167,7 +2167,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2187,7 +2187,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2208,7 +2208,7 @@ B_Oboe_Music_Voice = {                                                         %
 
         % [B Oboe_Music_Voice measure 88 / measure 14]                         %! _comment_measure_numbers
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2228,7 +2228,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2248,7 +2248,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2268,7 +2268,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2288,7 +2288,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2308,7 +2308,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2328,7 +2328,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2348,7 +2348,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2369,7 +2369,7 @@ B_Oboe_Music_Voice = {                                                         %
 
         % [B Oboe_Music_Voice measure 91 / measure 17]                         %! _comment_measure_numbers
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2389,7 +2389,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2409,7 +2409,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2429,7 +2429,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2450,7 +2450,7 @@ B_Oboe_Music_Voice = {                                                         %
 
         % [B Oboe_Music_Voice measure 92 / measure 18]                         %! _comment_measure_numbers
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2470,7 +2470,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2490,7 +2490,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2510,7 +2510,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2530,7 +2530,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2550,7 +2550,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2570,7 +2570,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2590,7 +2590,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2610,7 +2610,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2630,7 +2630,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2650,7 +2650,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2670,7 +2670,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2691,7 +2691,7 @@ B_Oboe_Music_Voice = {                                                         %
 
         % [B Oboe_Music_Voice measure 96 / measure 22]                         %! _comment_measure_numbers
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2711,7 +2711,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2731,7 +2731,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2751,7 +2751,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2772,7 +2772,7 @@ B_Oboe_Music_Voice = {                                                         %
 
         % [B Oboe_Music_Voice measure 98 / measure 24]                         %! _comment_measure_numbers
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2792,7 +2792,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2812,7 +2812,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2832,7 +2832,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2852,7 +2852,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2872,7 +2872,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2892,7 +2892,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2912,7 +2912,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2932,7 +2932,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2952,7 +2952,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2972,7 +2972,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -2992,7 +2992,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -3012,7 +3012,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -3032,7 +3032,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -3052,7 +3052,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -3072,7 +3072,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 5/6 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -3091,7 +3091,7 @@ B_Oboe_Music_Voice = {                                                         %
     \times 4/5 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         cs'''!16                                                               %! khamr.aviary
@@ -3136,13 +3136,13 @@ B_Oboe_Music_Voice = {                                                         %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [B Oboe_Music_Voice measure 108 / measure 34]                            %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     r1
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -3155,8 +3155,8 @@ B_Oboe_Music_Voice = {                                                         %
 
     c'2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    ^ \markup { "airtone without reed: mix inhales and exhales ad lib." }      %! baca_markup:IndicatorCommand
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    ^ \markup { "airtone without reed: mix inhales and exhales ad lib." }      %! baca.markup:IndicatorCommand
 
     % [B Oboe_Music_Voice measure 111 / measure 37]                            %! _comment_measure_numbers
     c'4.
@@ -3289,8 +3289,8 @@ B_Clarinet_Music_Voice = {                                                     %
         % [B Clarinet_Music_Voice measure 84 / measure 10]                     %! _comment_measure_numbers
         e'''16                                                                 %! khamr.aviary
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \baca-fff-ancora                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        \baca-fff-ancora                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         ^ \baca-explicit-indicator-markup "(“Clarinet”)"                       %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         [                                                                      %! khamr.aviary
 
@@ -3316,7 +3316,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3341,7 +3341,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3366,7 +3366,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3391,7 +3391,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3416,7 +3416,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3442,7 +3442,7 @@ B_Clarinet_Music_Voice = {                                                     %
 
         % [B Clarinet_Music_Voice measure 87 / measure 13]                     %! _comment_measure_numbers
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3467,7 +3467,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3492,7 +3492,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3517,7 +3517,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3542,7 +3542,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3567,7 +3567,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3592,7 +3592,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3617,7 +3617,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3642,7 +3642,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3668,7 +3668,7 @@ B_Clarinet_Music_Voice = {                                                     %
 
         % [B Clarinet_Music_Voice measure 92 / measure 18]                     %! _comment_measure_numbers
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3693,7 +3693,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3718,7 +3718,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3743,7 +3743,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3768,7 +3768,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3793,7 +3793,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3818,7 +3818,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3843,7 +3843,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3868,7 +3868,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3893,7 +3893,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3919,7 +3919,7 @@ B_Clarinet_Music_Voice = {                                                     %
 
         % [B Clarinet_Music_Voice measure 98 / measure 24]                     %! _comment_measure_numbers
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3944,7 +3944,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3970,7 +3970,7 @@ B_Clarinet_Music_Voice = {                                                     %
 
         % [B Clarinet_Music_Voice measure 99 / measure 25]                     %! _comment_measure_numbers
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -3996,7 +3996,7 @@ B_Clarinet_Music_Voice = {                                                     %
 
         % [B Clarinet_Music_Voice measure 100 / measure 26]                    %! _comment_measure_numbers
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -4022,7 +4022,7 @@ B_Clarinet_Music_Voice = {                                                     %
 
         % [B Clarinet_Music_Voice measure 101 / measure 27]                    %! _comment_measure_numbers
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -4047,7 +4047,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -4072,7 +4072,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -4098,7 +4098,7 @@ B_Clarinet_Music_Voice = {                                                     %
 
         % [B Clarinet_Music_Voice measure 102 / measure 28]                    %! _comment_measure_numbers
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -4123,7 +4123,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 8/9 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -4149,7 +4149,7 @@ B_Clarinet_Music_Voice = {                                                     %
 
         % [B Clarinet_Music_Voice measure 103 / measure 29]                    %! _comment_measure_numbers
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -4174,7 +4174,7 @@ B_Clarinet_Music_Voice = {                                                     %
     \times 4/5 {                                                               %! khamr.aviary
 
         e'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         es'''!16                                                               %! khamr.aviary
@@ -4215,7 +4215,7 @@ B_Clarinet_Music_Voice = {                                                     %
     % [B Clarinet_Music_Voice measure 106 / measure 32]                        %! _comment_measure_numbers
     a2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \baca-explicit-indicator-markup "(“BassClarinet”)"                       %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 
     a2
@@ -4363,8 +4363,8 @@ B_Saxophone_Music_Voice = {                                                    %
         % [B Saxophone_Music_Voice measure 84 / measure 10]                    %! _comment_measure_numbers
         a''16                                                                  %! khamr.aviary
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \baca-fff-ancora                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        \baca-fff-ancora                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         ^ \baca-explicit-indicator-markup "(“SopraninoSaxophone”)"             %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         [                                                                      %! khamr.aviary
 
@@ -4387,7 +4387,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4410,7 +4410,7 @@ B_Saxophone_Music_Voice = {                                                    %
 
         % [B Saxophone_Music_Voice measure 85 / measure 11]                    %! _comment_measure_numbers
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4432,7 +4432,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4454,7 +4454,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4476,7 +4476,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4498,7 +4498,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4520,7 +4520,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4543,7 +4543,7 @@ B_Saxophone_Music_Voice = {                                                    %
 
         % [B Saxophone_Music_Voice measure 87 / measure 13]                    %! _comment_measure_numbers
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4565,7 +4565,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4588,7 +4588,7 @@ B_Saxophone_Music_Voice = {                                                    %
 
         % [B Saxophone_Music_Voice measure 88 / measure 14]                    %! _comment_measure_numbers
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4610,7 +4610,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4632,7 +4632,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4654,7 +4654,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4676,7 +4676,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4698,7 +4698,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4720,7 +4720,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4742,7 +4742,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4764,7 +4764,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4786,7 +4786,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4809,7 +4809,7 @@ B_Saxophone_Music_Voice = {                                                    %
 
         % [B Saxophone_Music_Voice measure 92 / measure 18]                    %! _comment_measure_numbers
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4831,7 +4831,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4854,7 +4854,7 @@ B_Saxophone_Music_Voice = {                                                    %
 
         % [B Saxophone_Music_Voice measure 93 / measure 19]                    %! _comment_measure_numbers
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4876,7 +4876,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4898,7 +4898,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4920,7 +4920,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4942,7 +4942,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4964,7 +4964,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -4986,7 +4986,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -5008,7 +5008,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -5031,7 +5031,7 @@ B_Saxophone_Music_Voice = {                                                    %
 
         % [B Saxophone_Music_Voice measure 96 / measure 22]                    %! _comment_measure_numbers
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -5053,7 +5053,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -5075,7 +5075,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -5097,7 +5097,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -5119,7 +5119,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -5141,7 +5141,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -5164,7 +5164,7 @@ B_Saxophone_Music_Voice = {                                                    %
 
         % [B Saxophone_Music_Voice measure 99 / measure 25]                    %! _comment_measure_numbers
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -5186,7 +5186,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -5208,7 +5208,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -5230,7 +5230,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -5252,7 +5252,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -5274,7 +5274,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -5296,7 +5296,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -5318,7 +5318,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -5340,7 +5340,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -5362,7 +5362,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -5384,7 +5384,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 6/7 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -5405,7 +5405,7 @@ B_Saxophone_Music_Voice = {                                                    %
     \times 2/3 {                                                               %! khamr.aviary
 
         a''16                                                                  %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         as''!16                                                                %! khamr.aviary
@@ -5446,19 +5446,19 @@ B_Saxophone_Music_Voice = {                                                    %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [B Saxophone_Music_Voice measure 108 / measure 34]                       %! _comment_measure_numbers
-    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:IndicatorCommand
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca.bar_extent_persistent:IndicatorCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     c'1
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    ^ \markup { airtone }                                                      %! baca_markup:IndicatorCommand
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    ^ \markup { airtone }                                                      %! baca.markup:IndicatorCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [B Saxophone_Music_Voice measure 109 / measure 35]                       %! _comment_measure_numbers
@@ -5602,111 +5602,111 @@ B_Guitar_Music_Voice = {                                                       %
 
     % [B Guitar_Music_Voice measure 84 / measure 10]                           %! _comment_measure_numbers
     af''!2.                                                                    %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
 
     % [B Guitar_Music_Voice measure 85 / measure 11]                           %! _comment_measure_numbers
     af''!1                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 86 / measure 12]                           %! _comment_measure_numbers
     af''!2.
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     af''!2
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 87 / measure 13]                           %! _comment_measure_numbers
     af''!2.                                                                    %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 88 / measure 14]                           %! _comment_measure_numbers
     af''!2                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 89 / measure 15]                           %! _comment_measure_numbers
     af''!1.                                                                    %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 90 / measure 16]                           %! _comment_measure_numbers
     af''!2                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 91 / measure 17]                           %! _comment_measure_numbers
     af''!2.
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     af''!2
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 92 / measure 18]                           %! _comment_measure_numbers
     af''!2.                                                                    %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 93 / measure 19]                           %! _comment_measure_numbers
     af''!1                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 94 / measure 20]                           %! _comment_measure_numbers
     af''!1.                                                                    %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 95 / measure 21]                           %! _comment_measure_numbers
     af''!2                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 96 / measure 22]                           %! _comment_measure_numbers
     af''!2                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 97 / measure 23]                           %! _comment_measure_numbers
     af''!2.                                                                    %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 98 / measure 24]                           %! _comment_measure_numbers
     af''!1                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 99 / measure 25]                           %! _comment_measure_numbers
     af''!2                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 100 / measure 26]                          %! _comment_measure_numbers
     af''!2                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 101 / measure 27]                          %! _comment_measure_numbers
     af''!1.                                                                    %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 102 / measure 28]                          %! _comment_measure_numbers
     af''!1                                                                     %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Guitar_Music_Voice measure 103 / measure 29]                          %! _comment_measure_numbers
     af''!2.                                                                    %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -5806,7 +5806,7 @@ B_Piano_Music_Voice = {                                                        %
             #16                                                                %! _clone_segment_initial_short_instrument_name
             Pf.                                                                %! _clone_segment_initial_short_instrument_name
         }                                                                      %! _clone_segment_initial_short_instrument_name
-    \ottava 1                                                                  %! baca_ottava:SpannerIndicatorCommand(1)
+    \ottava 1                                                                  %! baca.ottava:SpannerIndicatorCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -5962,7 +5962,7 @@ B_Piano_Music_Voice = {                                                        %
         % [B Piano_Music_Voice measure 79 / measure 5]                         %! _comment_measure_numbers
         e''''8                                                                 %! khamr.current
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ffff                                                                  %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \ffff                                                                  %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         c''''8                                                                 %! khamr.current
@@ -6211,7 +6211,7 @@ B_Piano_Music_Voice = {                                                        %
 
         e''''8                                                                 %! khamr.current
         ]                                                                      %! Duration_Specifier__rewrite_meter_
-        \ottava 0                                                              %! baca_ottava:SpannerIndicatorCommand(2)
+        \ottava 0                                                              %! baca.ottava:SpannerIndicatorCommand(2)
 
     }                                                                          %! khamr.current
 
@@ -6221,8 +6221,8 @@ B_Piano_Music_Voice = {                                                        %
         % [B Piano_Music_Voice measure 84 / measure 10]                        %! _comment_measure_numbers
         c'''16                                                                 %! khamr.aviary
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6252,7 +6252,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6282,7 +6282,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6312,7 +6312,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6342,7 +6342,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6372,7 +6372,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6402,7 +6402,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6432,7 +6432,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6462,7 +6462,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6492,7 +6492,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6522,7 +6522,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6552,7 +6552,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6582,7 +6582,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6612,7 +6612,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6642,7 +6642,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6672,7 +6672,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6702,7 +6702,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6732,7 +6732,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6762,7 +6762,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6792,7 +6792,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6823,7 +6823,7 @@ B_Piano_Music_Voice = {                                                        %
 
         % [B Piano_Music_Voice measure 96 / measure 22]                        %! _comment_measure_numbers
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6853,7 +6853,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6883,7 +6883,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6913,7 +6913,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6944,7 +6944,7 @@ B_Piano_Music_Voice = {                                                        %
 
         % [B Piano_Music_Voice measure 99 / measure 25]                        %! _comment_measure_numbers
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -6974,7 +6974,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -7004,7 +7004,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -7034,7 +7034,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -7064,7 +7064,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -7094,7 +7094,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -7124,7 +7124,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 9/11 {                                                              %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -7154,7 +7154,7 @@ B_Piano_Music_Voice = {                                                        %
     \times 5/7 {                                                               %! khamr.aviary
 
         c'''16                                                                 %! khamr.aviary
-        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca.accent:IndicatorCommand
         [                                                                      %! khamr.aviary
 
         d'''16                                                                 %! khamr.aviary
@@ -7320,44 +7320,44 @@ B_Percussion_Music_Voice = {                                                   %
     % [B Percussion_Music_Voice measure 79 / measure 5]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \override                                                              %! baca_markup:IndicatorCommand
-            #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
-            \box                                                               %! baca_markup:IndicatorCommand
-                "bass drum"                                                    %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    ^ \markup {                                                                %! baca.markup:IndicatorCommand
+        \override                                                              %! baca.markup:IndicatorCommand
+            #'(box-padding . 0.5)                                              %! baca.markup:IndicatorCommand
+            \box                                                               %! baca.markup:IndicatorCommand
+                "bass drum"                                                    %! baca.markup:IndicatorCommand
+        }                                                                      %! baca.markup:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 80 / measure 6]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Percussion_Music_Voice measure 81 / measure 7]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [B Percussion_Music_Voice measure 82 / measure 8]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Percussion_Music_Voice measure 83 / measure 9]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
@@ -7365,358 +7365,358 @@ B_Percussion_Music_Voice = {                                                   %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \override                                                              %! baca_markup:IndicatorCommand
-            #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
-            \box                                                               %! baca_markup:IndicatorCommand
-                castanets                                                      %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
+    ^ \markup {                                                                %! baca.markup:IndicatorCommand
+        \override                                                              %! baca.markup:IndicatorCommand
+            #'(box-padding . 0.5)                                              %! baca.markup:IndicatorCommand
+            \box                                                               %! baca.markup:IndicatorCommand
+                castanets                                                      %! baca.markup:IndicatorCommand
+        }                                                                      %! baca.markup:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 85 / measure 11]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 86 / measure 12]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 87 / measure 13]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 88 / measure 14]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 89 / measure 15]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 90 / measure 16]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 91 / measure 17]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 92 / measure 18]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 93 / measure 19]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 94 / measure 20]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 95 / measure 21]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 96 / measure 22]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 97 / measure 23]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 98 / measure 24]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 99 / measure 25]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 100 / measure 26]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 103 / measure 29]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! baca_make_repeated_duration_notes
-    - \baca-staccati #2                                                        %! baca_double_staccato:IndicatorCommand
+    - \baca-staccati #2                                                        %! baca.double_staccato:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 104 / measure 30]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \override                                                              %! baca_markup:IndicatorCommand
-            #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
-            \box                                                               %! baca_markup:IndicatorCommand
-                "bass drum"                                                    %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    ^ \markup {                                                                %! baca.markup:IndicatorCommand
+        \override                                                              %! baca.markup:IndicatorCommand
+            #'(box-padding . 0.5)                                              %! baca.markup:IndicatorCommand
+            \box                                                               %! baca.markup:IndicatorCommand
+                "bass drum"                                                    %! baca.markup:IndicatorCommand
+        }                                                                      %! baca.markup:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 105 / measure 31]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [B Percussion_Music_Voice measure 106 / measure 32]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Percussion_Music_Voice measure 107 / measure 33]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Percussion_Music_Voice measure 108 / measure 34]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [B Percussion_Music_Voice measure 109 / measure 35]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [B Percussion_Music_Voice measure 110 / measure 36]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [B Percussion_Music_Voice measure 111 / measure 37]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -7795,44 +7795,44 @@ B_Violin_Music_Voice = {                                                       %
     \repeatTie
 
     % [B Violin_Music_Voice measure 77 / measure 3]                            %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
     gff'!1.                                                                    %! khamr.continuous_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    ^ \markup { "estr. sul pont." }                                            %! baca_markup:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    ^ \markup { "estr. sul pont." }                                            %! baca.markup:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [B Violin_Music_Voice measure 78 / measure 4]                            %! _comment_measure_numbers
     gf'!2.                                                                     %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \times 4/5 {                                                               %! khamr.continuous_glissandi
 
         % [B Violin_Music_Voice measure 79 / measure 5]                        %! _comment_measure_numbers
         bff'!2.                                                                %! khamr.continuous_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
+        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+        \glissando                                                             %! baca.glissando
 
         ff'!2                                                                  %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
     % [B Violin_Music_Voice measure 80 / measure 6]                            %! _comment_measure_numbers
     dff'!2.                                                                    %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \times 2/3 {                                                               %! khamr.continuous_glissandi
 
         % [B Violin_Music_Voice measure 81 / measure 7]                        %! _comment_measure_numbers
         cf'!1                                                                  %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         af'!2                                                                  %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
@@ -7841,10 +7841,10 @@ B_Violin_Music_Voice = {                                                       %
 
         % [B Violin_Music_Voice measure 82 / measure 8]                        %! _comment_measure_numbers
         ff'!2.                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         ef'!1.                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
@@ -7852,44 +7852,44 @@ B_Violin_Music_Voice = {                                                       %
 
         % [B Violin_Music_Voice measure 83 / measure 9]                        %! _comment_measure_numbers
         gff'!1                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         aff'!2.                                                                %! khamr.continuous_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-        \glissando                                                             %! baca_glissando
+        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
     % [B Violin_Music_Voice measure 84 / measure 10]                           %! _comment_measure_numbers
     bff'!2.                                                                    %! khamr.continuous_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     % [B Violin_Music_Voice measure 85 / measure 11]                           %! _comment_measure_numbers
     af'!1                                                                      %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     % [B Violin_Music_Voice measure 86 / measure 12]                           %! _comment_measure_numbers
     bf!2                                                                       %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     eff'!2.                                                                    %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     % [B Violin_Music_Voice measure 87 / measure 13]                           %! _comment_measure_numbers
     df'!2.                                                                     %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \times 2/3 {                                                               %! khamr.continuous_glissandi
 
         % [B Violin_Music_Voice measure 88 / measure 14]                       %! _comment_measure_numbers
         ff'!4                                                                  %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         dff'!2                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
@@ -7898,10 +7898,10 @@ B_Violin_Music_Voice = {                                                       %
 
         % [B Violin_Music_Voice measure 89 / measure 15]                       %! _comment_measure_numbers
         cf'!1                                                                  %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         af'!2.                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
@@ -7909,10 +7909,10 @@ B_Violin_Music_Voice = {                                                       %
 
         % [B Violin_Music_Voice measure 90 / measure 16]                       %! _comment_measure_numbers
         bff'!4.                                                                %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         ef'!2                                                                  %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
@@ -7921,35 +7921,35 @@ B_Violin_Music_Voice = {                                                       %
 
     gff'!2
     \repeatTie
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     % [B Violin_Music_Voice measure 92 / measure 18]                           %! _comment_measure_numbers
     aff'!2.                                                                    %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \times 2/3 {                                                               %! khamr.continuous_glissandi
 
         % [B Violin_Music_Voice measure 93 / measure 19]                       %! _comment_measure_numbers
         df'!1                                                                  %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         af'!2                                                                  %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
     % [B Violin_Music_Voice measure 94 / measure 20]                           %! _comment_measure_numbers
     bf!1.                                                                      %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \times 4/7 {                                                               %! khamr.continuous_glissandi
 
         % [B Violin_Music_Voice measure 95 / measure 21]                       %! _comment_measure_numbers
         eff'!2                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         ff'!4.                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
@@ -7957,10 +7957,10 @@ B_Violin_Music_Voice = {                                                       %
 
         % [B Violin_Music_Voice measure 96 / measure 22]                       %! _comment_measure_numbers
         gff'!4.                                                                %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         gf'!2                                                                  %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
@@ -7969,44 +7969,44 @@ B_Violin_Music_Voice = {                                                       %
 
         % [B Violin_Music_Voice measure 97 / measure 23]                       %! _comment_measure_numbers
         bff'!2.                                                                %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         aff'!2                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
     % [B Violin_Music_Voice measure 98 / measure 24]                           %! _comment_measure_numbers
     bff'!1                                                                     %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     % [B Violin_Music_Voice measure 99 / measure 25]                           %! _comment_measure_numbers
     ef'!2                                                                      %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \times 2/3 {                                                               %! khamr.continuous_glissandi
 
         % [B Violin_Music_Voice measure 100 / measure 26]                      %! _comment_measure_numbers
         gff'!4                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         eff'!2                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
     % [B Violin_Music_Voice measure 101 / measure 27]                          %! _comment_measure_numbers
     df'!1.                                                                     %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \times 4/7 {                                                               %! khamr.continuous_glissandi
 
         % [B Violin_Music_Voice measure 102 / measure 28]                      %! _comment_measure_numbers
         af'!2.                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         bf!1                                                                   %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
@@ -8015,10 +8015,10 @@ B_Violin_Music_Voice = {                                                       %
 
         % [B Violin_Music_Voice measure 103 / measure 29]                      %! _comment_measure_numbers
         bff'!2.                                                                %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         ff'!2                                                                  %! khamr.continuous_glissandi
-        \revert NoteHead.style                                                 %! baca_note_head_style_harmonic:OverrideCommand(2)
+        \revert NoteHead.style                                                 %! baca.note_head_style_harmonic:OverrideCommand(2)
 
     }                                                                          %! khamr.continuous_glissandi
 
@@ -8143,50 +8143,50 @@ B_Viola_Music_Voice = {                                                        %
     \times 3/5 {                                                               %! khamr.continuous_glissandi
 
         % [B Viola_Music_Voice measure 77 / measure 3]                         %! _comment_measure_numbers
-        \override NoteHead.style = #'harmonic                                  %! baca_note_head_style_harmonic:OverrideCommand(1)
+        \override NoteHead.style = #'harmonic                                  %! baca.note_head_style_harmonic:OverrideCommand(1)
         gff'!1.                                                                %! khamr.continuous_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        ^ \markup { "estr. sul pont." }                                        %! baca_markup:IndicatorCommand
-        \glissando                                                             %! baca_glissando
+        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+        ^ \markup { "estr. sul pont." }                                        %! baca.markup:IndicatorCommand
+        \glissando                                                             %! baca.glissando
 
         gf'!1                                                                  %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
     % [B Viola_Music_Voice measure 78 / measure 4]                             %! _comment_measure_numbers
     bff'!2.                                                                    %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     % [B Viola_Music_Voice measure 79 / measure 5]                             %! _comment_measure_numbers
     ff'!1                                                                      %! khamr.continuous_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \glissando                                                                 %! baca.glissando
 
     % [B Viola_Music_Voice measure 80 / measure 6]                             %! _comment_measure_numbers
     dff'!4                                                                     %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     cf'!2                                                                      %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     % [B Viola_Music_Voice measure 81 / measure 7]                             %! _comment_measure_numbers
     af'!1                                                                      %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
     \times 5/7 {                                                               %! khamr.continuous_glissandi
 
         % [B Viola_Music_Voice measure 82 / measure 8]                         %! _comment_measure_numbers
         ff'!2.                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         ef'!1                                                                  %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
@@ -8194,12 +8194,12 @@ B_Viola_Music_Voice = {                                                        %
 
         % [B Viola_Music_Voice measure 83 / measure 9]                         %! _comment_measure_numbers
         gff'!2.                                                                %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         aff'!2                                                                 %! khamr.continuous_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-        \glissando                                                             %! baca_glissando
+        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
@@ -8209,50 +8209,50 @@ B_Viola_Music_Voice = {                                                        %
         % [B Viola_Music_Voice measure 84 / measure 10]                        %! _comment_measure_numbers
         bff'!2                                                                 %! khamr.continuous_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        \glissando                                                             %! baca_glissando
+        \fff                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+        \glissando                                                             %! baca.glissando
 
         af'!2.                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
     % [B Viola_Music_Voice measure 85 / measure 11]                            %! _comment_measure_numbers
     bf!1                                                                       %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     % [B Viola_Music_Voice measure 86 / measure 12]                            %! _comment_measure_numbers
     eff'!2.
 
     eff'!2
     \repeatTie
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
     \times 6/7 {                                                               %! khamr.continuous_glissandi
 
         % [B Viola_Music_Voice measure 87 / measure 13]                        %! _comment_measure_numbers
         df'!2                                                                  %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         ff'!4.                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
     % [B Viola_Music_Voice measure 88 / measure 14]                            %! _comment_measure_numbers
     dff'!2                                                                     %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
     \times 3/5 {                                                               %! khamr.continuous_glissandi
 
         % [B Viola_Music_Voice measure 89 / measure 15]                        %! _comment_measure_numbers
         cf'!1.                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         af'!1                                                                  %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
@@ -8260,10 +8260,10 @@ B_Viola_Music_Voice = {                                                        %
 
         % [B Viola_Music_Voice measure 90 / measure 16]                        %! _comment_measure_numbers
         bff'!4                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         ef'!4.                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
@@ -8272,96 +8272,96 @@ B_Viola_Music_Voice = {                                                        %
 
         % [B Viola_Music_Voice measure 91 / measure 17]                        %! _comment_measure_numbers
         gff'!1.                                                                %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         aff'!2.                                                                %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
     % [B Viola_Music_Voice measure 92 / measure 18]                            %! _comment_measure_numbers
     df'!2.                                                                     %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     % [B Viola_Music_Voice measure 93 / measure 19]                            %! _comment_measure_numbers
     af'!1                                                                      %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
     \times 6/7 {                                                               %! khamr.continuous_glissandi
 
         % [B Viola_Music_Voice measure 94 / measure 20]                        %! _comment_measure_numbers
         bf!2.                                                                  %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         eff'!1                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
     % [B Viola_Music_Voice measure 95 / measure 21]                            %! _comment_measure_numbers
     ff'!2                                                                      %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \times 4/5 {                                                               %! khamr.continuous_glissandi
 
         % [B Viola_Music_Voice measure 96 / measure 22]                        %! _comment_measure_numbers
         gff'!4                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         gf'!4.                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
     % [B Viola_Music_Voice measure 97 / measure 23]                            %! _comment_measure_numbers
     bff'!2                                                                     %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     aff'!4                                                                     %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \times 2/3 {                                                               %! khamr.continuous_glissandi
 
         % [B Viola_Music_Voice measure 98 / measure 24]                        %! _comment_measure_numbers
         bff'!2                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         ef'!1                                                                  %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
     % [B Viola_Music_Voice measure 99 / measure 25]                            %! _comment_measure_numbers
     gff'!2                                                                     %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     % [B Viola_Music_Voice measure 100 / measure 26]                           %! _comment_measure_numbers
     eff'!2                                                                     %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
     \times 3/5 {                                                               %! khamr.continuous_glissandi
 
         % [B Viola_Music_Voice measure 101 / measure 27]                       %! _comment_measure_numbers
         df'!1.                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         af'!1                                                                  %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
     % [B Viola_Music_Voice measure 102 / measure 28]                           %! _comment_measure_numbers
     bf!1                                                                       %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     % [B Viola_Music_Voice measure 103 / measure 29]                           %! _comment_measure_numbers
     bff'!2                                                                     %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     ff'!4                                                                      %! khamr.continuous_glissandi
-    \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -8481,43 +8481,43 @@ B_Cello_Music_Voice = {                                                        %
     \repeatTie
 
     % [B Cello_Music_Voice measure 77 / measure 3]                             %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                      %! baca.note_head_style_harmonic:OverrideCommand(1)
     gff'!1                                                                     %! khamr.continuous_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    ^ \markup { "estr. sul pont." }                                            %! baca_markup:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    ^ \markup { "estr. sul pont." }                                            %! baca.markup:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     gf'!2                                                                      %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     % [B Cello_Music_Voice measure 78 / measure 4]                             %! _comment_measure_numbers
     bff'!4                                                                     %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     ff'!2                                                                      %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     % [B Cello_Music_Voice measure 79 / measure 5]                             %! _comment_measure_numbers
     dff'!1                                                                     %! khamr.continuous_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \glissando                                                                 %! baca_glissando
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    \glissando                                                                 %! baca.glissando
 
     % [B Cello_Music_Voice measure 80 / measure 6]                             %! _comment_measure_numbers
     cf'!2.                                                                     %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \times 4/5 {                                                               %! khamr.continuous_glissandi
 
         % [B Cello_Music_Voice measure 81 / measure 7]                         %! _comment_measure_numbers
         af'!2.                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         ff'!2                                                                  %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
@@ -8526,38 +8526,38 @@ B_Cello_Music_Voice = {                                                        %
 
     ef'!2
     \repeatTie
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \times 2/3 {                                                               %! khamr.continuous_glissandi
 
         % [B Cello_Music_Voice measure 83 / measure 9]                         %! _comment_measure_numbers
         gff'!1                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         aff'!2                                                                 %! khamr.continuous_glissandi
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-        \glissando                                                             %! baca_glissando
+        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
     % [B Cello_Music_Voice measure 84 / measure 10]                            %! _comment_measure_numbers
     bff'!4                                                                     %! khamr.continuous_glissandi
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    \glissando                                                                 %! baca_glissando
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    \glissando                                                                 %! baca.glissando
 
     af'!2                                                                      %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \times 4/7 {                                                               %! khamr.continuous_glissandi
 
         % [B Cello_Music_Voice measure 85 / measure 11]                        %! _comment_measure_numbers
         bf!1                                                                   %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         eff'!2.                                                                %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
@@ -8566,35 +8566,35 @@ B_Cello_Music_Voice = {                                                        %
 
     df'!2
     \repeatTie
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     % [B Cello_Music_Voice measure 87 / measure 13]                            %! _comment_measure_numbers
     ff'!2.                                                                     %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \times 4/5 {                                                               %! khamr.continuous_glissandi
 
         % [B Cello_Music_Voice measure 88 / measure 14]                        %! _comment_measure_numbers
         dff'!4                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         cf'!4.                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
     % [B Cello_Music_Voice measure 89 / measure 15]                            %! _comment_measure_numbers
     af'!1.                                                                     %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \times 2/3 {                                                               %! khamr.continuous_glissandi
 
         % [B Cello_Music_Voice measure 90 / measure 16]                        %! _comment_measure_numbers
         bff'!4                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         ef'!2                                                                  %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
@@ -8603,10 +8603,10 @@ B_Cello_Music_Voice = {                                                        %
 
         % [B Cello_Music_Voice measure 91 / measure 17]                        %! _comment_measure_numbers
         gff'!1                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         aff'!2.                                                                %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
@@ -8615,45 +8615,45 @@ B_Cello_Music_Voice = {                                                        %
 
         % [B Cello_Music_Voice measure 92 / measure 18]                        %! _comment_measure_numbers
         df'!4.                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         af'!2                                                                  %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
     % [B Cello_Music_Voice measure 93 / measure 19]                            %! _comment_measure_numbers
     bf!1                                                                       %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     % [B Cello_Music_Voice measure 94 / measure 20]                            %! _comment_measure_numbers
     eff'!1.                                                                    %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \times 2/3 {                                                               %! khamr.continuous_glissandi
 
         % [B Cello_Music_Voice measure 95 / measure 21]                        %! _comment_measure_numbers
         ff'!2                                                                  %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         gff'!4                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
     % [B Cello_Music_Voice measure 96 / measure 22]                            %! _comment_measure_numbers
     gf'!2                                                                      %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! khamr.continuous_glissandi
     \times 6/7 {                                                               %! khamr.continuous_glissandi
 
         % [B Cello_Music_Voice measure 97 / measure 23]                        %! _comment_measure_numbers
         bff'!2                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         aff'!4.                                                                %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
@@ -8661,10 +8661,10 @@ B_Cello_Music_Voice = {                                                        %
 
         % [B Cello_Music_Voice measure 98 / measure 24]                        %! _comment_measure_numbers
         bff'!2.                                                                %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         ef'!1                                                                  %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
@@ -8672,35 +8672,35 @@ B_Cello_Music_Voice = {                                                        %
 
         % [B Cello_Music_Voice measure 99 / measure 25]                        %! _comment_measure_numbers
         gff'!4.                                                                %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         eff'!4                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
     % [B Cello_Music_Voice measure 100 / measure 26]                           %! _comment_measure_numbers
     df'!2                                                                      %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     % [B Cello_Music_Voice measure 101 / measure 27]                           %! _comment_measure_numbers
     af'!1.                                                                     %! khamr.continuous_glissandi
-    \glissando                                                                 %! baca_glissando
+    \glissando                                                                 %! baca.glissando
 
     \times 2/3 {                                                               %! khamr.continuous_glissandi
 
         % [B Cello_Music_Voice measure 102 / measure 28]                       %! _comment_measure_numbers
         bf!2                                                                   %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
         bff'!1                                                                 %! khamr.continuous_glissandi
-        \glissando                                                             %! baca_glissando
+        \glissando                                                             %! baca.glissando
 
     }                                                                          %! khamr.continuous_glissandi
 
     % [B Cello_Music_Voice measure 103 / measure 29]                           %! _comment_measure_numbers
     ff'!2.                                                                     %! khamr.continuous_glissandi
-    \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
+    \revert NoteHead.style                                                     %! baca.note_head_style_harmonic:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -8822,7 +8822,7 @@ B_Contrabass_Music_Voice = {                                                   %
     % [B Contrabass_Music_Voice measure 77 / measure 3]                        %! _comment_measure_numbers
     <gs,,! as,!>1.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
 
     % [B Contrabass_Music_Voice measure 78 / measure 4]                        %! _comment_measure_numbers
     <gs,,! as,!>2.
@@ -8831,9 +8831,9 @@ B_Contrabass_Music_Voice = {                                                   %
     % [B Contrabass_Music_Voice measure 79 / measure 5]                        %! _comment_measure_numbers
     <gs,,! as,!>1
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [B Contrabass_Music_Voice measure 80 / measure 6]                        %! _comment_measure_numbers
     <gs,,! as,!>2.
@@ -8852,14 +8852,14 @@ B_Contrabass_Music_Voice = {                                                   %
     % [B Contrabass_Music_Voice measure 83 / measure 9]                        %! _comment_measure_numbers
     <gs,,! as,!>1
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
 
     % [B Contrabass_Music_Voice measure 84 / measure 10]                       %! _comment_measure_numbers
     <gs,,! as,!>2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    ^ \markup { "estr. sul pont." }                                            %! baca_markup:IndicatorCommand
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    ^ \markup { "estr. sul pont." }                                            %! baca.markup:IndicatorCommand
 
     % [B Contrabass_Music_Voice measure 85 / measure 11]                       %! _comment_measure_numbers
     <gs,,! as,!>1
@@ -8929,7 +8929,7 @@ B_Contrabass_Music_Voice = {                                                   %
 
     % [B Contrabass_Music_Voice measure 100 / measure 26]                      %! _comment_measure_numbers
     <g,, a,>2
-    ^ \markup { "arco ordinario" }                                             %! baca_markup:IndicatorCommand
+    ^ \markup { "arco ordinario" }                                             %! baca.markup:IndicatorCommand
 
     % [B Contrabass_Music_Voice measure 101 / measure 27]                      %! _comment_measure_numbers
     <g,, a,>1.
@@ -8950,13 +8950,13 @@ B_Contrabass_Music_Voice = {                                                   %
     r1                                                                         %! baca_make_repeat_tied_notes
 
     % [B Contrabass_Music_Voice measure 106 / measure 32]                      %! _comment_measure_numbers
-    \pitchedTrill                                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    \pitchedTrill                                                              %! baca.trill_spanner:SpannerIndicatorCommand(1)
     g,,2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    ^ \markup { "Shape trill dynamics beautifully. (Thank you, Stefano.)" }    %! baca_markup:IndicatorCommand
-    - \tweak TrillPitchHead.stencil #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #})) %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    \startTrillSpan f                                                          %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    ^ \markup { "Shape trill dynamics beautifully. (Thank you, Stefano.)" }    %! baca.markup:IndicatorCommand
+    - \tweak TrillPitchHead.stencil #(lambda (grob) (grob-interpret-markup grob #{ \markup \musicglyph #"noteheads.s0harmonic" #})) %! baca.trill_spanner:SpannerIndicatorCommand(1)
+    \startTrillSpan f                                                          %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     g,,2
     \repeatTie
@@ -8982,7 +8982,7 @@ B_Contrabass_Music_Voice = {                                                   %
 
     % [B Contrabass_Music_Voice measure 111 / measure 37]                      %! _comment_measure_numbers
     r2.                                                                        %! baca_make_repeat_tied_notes
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
+    \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 

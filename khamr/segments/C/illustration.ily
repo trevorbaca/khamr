@@ -5,7 +5,7 @@ C_Global_Skips = {                                                             %
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/2                                                                   %! _make_global_skips(1)
-    - \baca-rehearsal-mark-markup "C"                                          %! baca_rehearsal_mark:IndicatorCommand
+    - \baca-rehearsal-mark-markup "C"                                          %! baca.rehearsal_mark:IndicatorCommand
     - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER
 %@% - \baca-start-mn-left-only "112"                                           %! MEASURE_NUMBER
@@ -1252,14 +1252,14 @@ C_Guitar_Music_Voice = {                                                       %
     % [C Guitar_Music_Voice measure 118 / measure 7]                           %! _comment_measure_numbers
     c''1                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \accent                                                                  %! baca_accent:IndicatorCommand
-    - \flageolet                                                               %! baca_flageolet:IndicatorCommand
+    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    - \accent                                                                  %! baca.accent:IndicatorCommand
+    - \flageolet                                                               %! baca.flageolet:IndicatorCommand
 
     % [C Guitar_Music_Voice measure 119 / measure 8]                           %! _comment_measure_numbers
     c''2.
-    - \accent                                                                  %! baca_accent:IndicatorCommand
-    - \flageolet                                                               %! baca_flageolet:IndicatorCommand
+    - \accent                                                                  %! baca.accent:IndicatorCommand
+    - \flageolet                                                               %! baca.flageolet:IndicatorCommand
 
     c''2
     \repeatTie
@@ -1292,12 +1292,12 @@ C_Guitar_Music_Voice = {                                                       %
 
     % [C Guitar_Music_Voice measure 128 / measure 17]                          %! _comment_measure_numbers
     c''1                                                                       %! khamr.closing
-    - \accent                                                                  %! baca_accent:IndicatorCommand
-    - \flageolet                                                               %! baca_flageolet:IndicatorCommand
+    - \accent                                                                  %! baca.accent:IndicatorCommand
+    - \flageolet                                                               %! baca.flageolet:IndicatorCommand
 
     c''4
-    - \accent                                                                  %! baca_accent:IndicatorCommand
-    - \flageolet                                                               %! baca_flageolet:IndicatorCommand
+    - \accent                                                                  %! baca.accent:IndicatorCommand
+    - \flageolet                                                               %! baca.flageolet:IndicatorCommand
 
     % [C Guitar_Music_Voice measure 129 / measure 18]                          %! _comment_measure_numbers
     c''2.
@@ -1406,12 +1406,12 @@ C_Piano_Music_Voice = {                                                        %
     % [C Piano_Music_Voice measure 118 / measure 7]                            %! _comment_measure_numbers
     as'!1                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \accent                                                                  %! baca_accent:IndicatorCommand
+    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    - \accent                                                                  %! baca.accent:IndicatorCommand
 
     % [C Piano_Music_Voice measure 119 / measure 8]                            %! _comment_measure_numbers
     as'!2.
-    - \accent                                                                  %! baca_accent:IndicatorCommand
+    - \accent                                                                  %! baca.accent:IndicatorCommand
 
     as'!2
     \repeatTie
@@ -1444,10 +1444,10 @@ C_Piano_Music_Voice = {                                                        %
 
     % [C Piano_Music_Voice measure 128 / measure 17]                           %! _comment_measure_numbers
     as'!1                                                                      %! khamr.closing
-    - \accent                                                                  %! baca_accent:IndicatorCommand
+    - \accent                                                                  %! baca.accent:IndicatorCommand
 
     as'!4
-    - \accent                                                                  %! baca_accent:IndicatorCommand
+    - \accent                                                                  %! baca.accent:IndicatorCommand
 
     % [C Piano_Music_Voice measure 129 / measure 18]                           %! _comment_measure_numbers
     as'!2.
@@ -1527,13 +1527,13 @@ C_Percussion_Music_Voice = {                                                   %
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     ^ \baca-reapplied-indicator-markup "[“Perc.”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Percussion”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1546,22 +1546,22 @@ C_Percussion_Music_Voice = {                                                   %
     % [C Percussion_Music_Voice measure 113 / measure 2]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [C Percussion_Music_Voice measure 114 / measure 3]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1.                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [C Percussion_Music_Voice measure 115 / measure 4]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     \repeatTie
 
     % [C Percussion_Music_Voice measure 116 / measure 5]                       %! _comment_measure_numbers
@@ -1594,68 +1594,68 @@ C_Percussion_Music_Voice = {                                                   %
     % [C Percussion_Music_Voice measure 119 / measure 8]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \override                                                              %! baca_markup:IndicatorCommand
-            #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
-            \box                                                               %! baca_markup:IndicatorCommand
-                "snare drum"                                                   %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    ^ \markup {                                                                %! baca.markup:IndicatorCommand
+        \override                                                              %! baca.markup:IndicatorCommand
+            #'(box-padding . 0.5)                                              %! baca.markup:IndicatorCommand
+            \box                                                               %! baca.markup:IndicatorCommand
+                "snare drum"                                                   %! baca.markup:IndicatorCommand
+        }                                                                      %! baca.markup:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [C Percussion_Music_Voice measure 120 / measure 9]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [C Percussion_Music_Voice measure 121 / measure 10]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [C Percussion_Music_Voice measure 122 / measure 11]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [C Percussion_Music_Voice measure 123 / measure 12]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [C Percussion_Music_Voice measure 124 / measure 13]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [C Percussion_Music_Voice measure 125 / measure 14]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [C Percussion_Music_Voice measure 126 / measure 15]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1.                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
@@ -1738,29 +1738,29 @@ C_Violin_Music_Voice = {                                                       %
             #16                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             Vn.                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override Staff.BarLine.bar-extent = #'(-2 . 0)                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:IndicatorCommand
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca.bar_extent_persistent:IndicatorCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
     \markup {                                                                  %! _clone_segment_initial_short_instrument_name
         \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
             #16                                                                %! _clone_segment_initial_short_instrument_name
             Vn.                                                                %! _clone_segment_initial_short_instrument_name
         }                                                                      %! _clone_segment_initial_short_instrument_name
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     c'2
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vn.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    ^ \markup { "bow on wooden mute" }                                         %! baca_markup:IndicatorCommand
+    ^ \markup { "bow on wooden mute" }                                         %! baca.markup:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1779,7 +1779,7 @@ C_Violin_Music_Voice = {                                                       %
     \repeatTie
 
     c'2.
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Violin_Music_Voice measure 115 / measure 4]                           %! _comment_measure_numbers
     c'2.
@@ -1790,7 +1790,7 @@ C_Violin_Music_Voice = {                                                       %
     \repeatTie
 
     c'2.
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Violin_Music_Voice measure 117 / measure 6]                           %! _comment_measure_numbers
     c'2.
@@ -1801,19 +1801,19 @@ C_Violin_Music_Voice = {                                                       %
     \repeatTie
 
     c'2.
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Violin_Music_Voice measure 119 / measure 8]                           %! _comment_measure_numbers
     c'1
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak direction #up
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     c'4
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Violin_Music_Voice measure 120 / measure 9]                           %! _comment_measure_numbers
     c'1
@@ -1825,7 +1825,7 @@ C_Violin_Music_Voice = {                                                       %
     \repeatTie
 
     c'4
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Violin_Music_Voice measure 122 / measure 11]                          %! _comment_measure_numbers
     c'1
@@ -1837,7 +1837,7 @@ C_Violin_Music_Voice = {                                                       %
     \repeatTie
 
     c'2.
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Violin_Music_Voice measure 124 / measure 13]                          %! _comment_measure_numbers
     c'2.
@@ -1848,12 +1848,12 @@ C_Violin_Music_Voice = {                                                       %
     \repeatTie
 
     c'4
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Violin_Music_Voice measure 126 / measure 15]                          %! _comment_measure_numbers
     c'1.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
     - \tweak direction #up
     \repeatTie
 
@@ -1936,28 +1936,28 @@ C_Viola_Music_Voice = {                                                        %
             #16                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             Va.                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
     \markup {                                                                  %! _clone_segment_initial_short_instrument_name
         \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
             #16                                                                %! _clone_segment_initial_short_instrument_name
             Va.                                                                %! _clone_segment_initial_short_instrument_name
         }                                                                      %! _clone_segment_initial_short_instrument_name
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     c'2
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    ^ \markup { "bow on wooden mute" }                                         %! baca_markup:IndicatorCommand
+    ^ \markup { "bow on wooden mute" }                                         %! baca.markup:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1976,14 +1976,14 @@ C_Viola_Music_Voice = {                                                        %
     \repeatTie
 
     c'1
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Viola_Music_Voice measure 115 / measure 4]                            %! _comment_measure_numbers
     c'2
     \repeatTie
 
     c'4
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Viola_Music_Voice measure 116 / measure 5]                            %! _comment_measure_numbers
     c'1
@@ -1995,7 +1995,7 @@ C_Viola_Music_Voice = {                                                        %
     \repeatTie
 
     c'2
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Viola_Music_Voice measure 118 / measure 7]                            %! _comment_measure_numbers
     c'1
@@ -2005,10 +2005,10 @@ C_Viola_Music_Voice = {                                                        %
     % [C Viola_Music_Voice measure 119 / measure 8]                            %! _comment_measure_numbers
     c'2.
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     c'2
     \repeatTie
@@ -2018,7 +2018,7 @@ C_Viola_Music_Voice = {                                                        %
     \repeatTie
 
     c'2.
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Viola_Music_Voice measure 121 / measure 10]                           %! _comment_measure_numbers
     c'2.
@@ -2026,14 +2026,14 @@ C_Viola_Music_Voice = {                                                        %
 
     % [C Viola_Music_Voice measure 122 / measure 11]                           %! _comment_measure_numbers
     c'1
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Viola_Music_Voice measure 123 / measure 12]                           %! _comment_measure_numbers
     c'2
     \repeatTie
 
     c'2.
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Viola_Music_Voice measure 124 / measure 13]                           %! _comment_measure_numbers
     c'2.
@@ -2041,7 +2041,7 @@ C_Viola_Music_Voice = {                                                        %
 
     % [C Viola_Music_Voice measure 125 / measure 14]                           %! _comment_measure_numbers
     c'2
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Viola_Music_Voice measure 126 / measure 15]                           %! _comment_measure_numbers
     c'1
@@ -2050,8 +2050,8 @@ C_Viola_Music_Voice = {                                                        %
 
     c'2                                                                        %! baca_make_repeated_duration_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2132,28 +2132,28 @@ C_Cello_Music_Voice = {                                                        %
             #16                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             Vc.                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
     \markup {                                                                  %! _clone_segment_initial_short_instrument_name
         \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
             #16                                                                %! _clone_segment_initial_short_instrument_name
             Vc.                                                                %! _clone_segment_initial_short_instrument_name
         }                                                                      %! _clone_segment_initial_short_instrument_name
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     c'2
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    ^ \markup { "bow on tailpiece" }                                           %! baca_markup:IndicatorCommand
+    ^ \markup { "bow on tailpiece" }                                           %! baca.markup:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -2172,21 +2172,21 @@ C_Cello_Music_Voice = {                                                        %
     \repeatTie
 
     c'2
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     c'2.
     \repeatTie
 
     % [C Cello_Music_Voice measure 115 / measure 4]                            %! _comment_measure_numbers
     c'2.
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Cello_Music_Voice measure 116 / measure 5]                            %! _comment_measure_numbers
     c'2
     \repeatTie
 
     c'2
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Cello_Music_Voice measure 117 / measure 6]                            %! _comment_measure_numbers
     c'2.
@@ -2194,32 +2194,32 @@ C_Cello_Music_Voice = {                                                        %
 
     % [C Cello_Music_Voice measure 118 / measure 7]                            %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeated_duration_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Cello_Music_Voice measure 119 / measure 8]                            %! _comment_measure_numbers
     c'4                                                                        %! baca_make_repeated_duration_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     c'1                                                                        %! baca_make_repeated_duration_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Cello_Music_Voice measure 120 / measure 9]                            %! _comment_measure_numbers
     c'4                                                                        %! baca_make_repeated_duration_notes
     \repeatTie
 
     c'2.
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Cello_Music_Voice measure 121 / measure 10]                           %! _comment_measure_numbers
     c'2
     \repeatTie
 
     c'4
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Cello_Music_Voice measure 122 / measure 11]                           %! _comment_measure_numbers
     c'1
@@ -2228,14 +2228,14 @@ C_Cello_Music_Voice = {                                                        %
 
     % [C Cello_Music_Voice measure 123 / measure 12]                           %! _comment_measure_numbers
     c'2.
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
 
     c'2
     \repeatTie
 
     % [C Cello_Music_Voice measure 124 / measure 13]                           %! _comment_measure_numbers
     c'2.
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Cello_Music_Voice measure 125 / measure 14]                           %! _comment_measure_numbers
     c'2
@@ -2243,15 +2243,15 @@ C_Cello_Music_Voice = {                                                        %
 
     % [C Cello_Music_Voice measure 126 / measure 15]                           %! _comment_measure_numbers
     c'2.
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
 
     c'2
     \repeatTie
 
     c'4                                                                        %! baca_make_repeated_duration_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2332,29 +2332,29 @@ C_Contrabass_Music_Voice = {                                                   %
             #16                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             Cb.                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:IndicatorCommand
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca.bar_extent_persistent:IndicatorCommand
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \set Staff.instrumentName =                                                %! _clone_segment_initial_short_instrument_name
     \markup {                                                                  %! _clone_segment_initial_short_instrument_name
         \hcenter-in                                                            %! _clone_segment_initial_short_instrument_name
             #16                                                                %! _clone_segment_initial_short_instrument_name
             Cb.                                                                %! _clone_segment_initial_short_instrument_name
         }                                                                      %! _clone_segment_initial_short_instrument_name
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca.clef:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     c'2
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Cb.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Contrabass”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    ^ \markup { "bow on tailpiece" }                                           %! baca_markup:IndicatorCommand
+    ^ \markup { "bow on tailpiece" }                                           %! baca.markup:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -2370,24 +2370,24 @@ C_Contrabass_Music_Voice = {                                                   %
 
     % [C Contrabass_Music_Voice measure 114 / measure 3]                       %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeated_duration_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     c'2
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Contrabass_Music_Voice measure 115 / measure 4]                       %! _comment_measure_numbers
     c'2
     \repeatTie
 
     c'4
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Contrabass_Music_Voice measure 116 / measure 5]                       %! _comment_measure_numbers
     c'2.
     \repeatTie
 
     c'4
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Contrabass_Music_Voice measure 117 / measure 6]                       %! _comment_measure_numbers
     c'2.
@@ -2395,25 +2395,25 @@ C_Contrabass_Music_Voice = {                                                   %
 
     % [C Contrabass_Music_Voice measure 118 / measure 7]                       %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeated_duration_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Contrabass_Music_Voice measure 119 / measure 8]                       %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeated_duration_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     c'4
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Contrabass_Music_Voice measure 120 / measure 9]                       %! _comment_measure_numbers
     c'2.
     \repeatTie
 
     c'4
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Contrabass_Music_Voice measure 121 / measure 10]                      %! _comment_measure_numbers
     c'2.
@@ -2421,14 +2421,14 @@ C_Contrabass_Music_Voice = {                                                   %
 
     % [C Contrabass_Music_Voice measure 122 / measure 11]                      %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeated_duration_notes
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Contrabass_Music_Voice measure 123 / measure 12]                      %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeated_duration_notes
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
 
     c'4
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Contrabass_Music_Voice measure 124 / measure 13]                      %! _comment_measure_numbers
     c'2.
@@ -2436,7 +2436,7 @@ C_Contrabass_Music_Voice = {                                                   %
 
     % [C Contrabass_Music_Voice measure 125 / measure 14]                      %! _comment_measure_numbers
     c'2
-    - \downbow                                                                 %! baca_alternate_bow_strokes:IndicatorCommand
+    - \downbow                                                                 %! baca.alternate_bow_strokes:IndicatorCommand
 
     % [C Contrabass_Music_Voice measure 126 / measure 15]                      %! _comment_measure_numbers
     c'2
@@ -2444,8 +2444,8 @@ C_Contrabass_Music_Voice = {                                                   %
 
     c'1                                                                        %! baca_make_repeated_duration_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    - \upbow                                                                   %! baca_alternate_bow_strokes:IndicatorCommand
+    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
+    - \upbow                                                                   %! baca.alternate_bow_strokes:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
 
