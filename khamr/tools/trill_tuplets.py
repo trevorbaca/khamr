@@ -1,10 +1,13 @@
 import abjad
 import baca
+import typing
 from abjadext import rmakers
 from .string_tuplet_ratios import string_tuplet_ratios
 
 
-def trill_tuplets(tuplet_ratios, *, dmask=None) -> baca.RhythmCommand:
+def trill_tuplets(
+    tuplet_ratios: int, *, dmask: rmakers.MasksTyping = None
+) -> baca.RhythmCommand:
     """
     Makes trill tuplet rhythm.
     """
@@ -13,7 +16,6 @@ def trill_tuplets(tuplet_ratios, *, dmask=None) -> baca.RhythmCommand:
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=dmask,
-            tag="khamr.trill_tuplets",
             tie_specifier=rmakers.TieSpecifier(
                 repeat_ties=True, tie_across_divisions=True
             ),
@@ -21,5 +23,6 @@ def trill_tuplets(tuplet_ratios, *, dmask=None) -> baca.RhythmCommand:
             tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True, trivialize=True
             ),
+            tag="khamr.trill_tuplets",
         ),
     )

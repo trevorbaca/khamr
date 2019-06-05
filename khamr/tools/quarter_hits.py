@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def quarter_hits(*, dmask=None) -> baca.RhythmCommand:
+def quarter_hits(*, dmask: rmakers.MasksTyping = None) -> baca.RhythmCommand:
     """
     Makes quarter hits.
     """
@@ -13,7 +13,7 @@ def quarter_hits(*, dmask=None) -> baca.RhythmCommand:
         rewrite_meter=True,
         rhythm_maker=rmakers.NoteRhythmMaker(
             division_masks=dmask,
-            tag="khamr.quarter_hits",
             tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
+            tag="khamr.quarter_hits",
         ),
     )

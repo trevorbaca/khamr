@@ -4,7 +4,9 @@ import khamr
 from abjadext import rmakers
 
 
-def opening_glissandi(tuplet_ratio_rotation, dmask) -> baca.RhythmCommand:
+def opening_glissandi(
+    tuplet_ratio_rotation: int, *, dmask: rmakers.MasksTyping
+) -> baca.RhythmCommand:
     """
     Makes opening glissandi rhythm.
     """
@@ -34,7 +36,6 @@ def opening_glissandi(tuplet_ratio_rotation, dmask) -> baca.RhythmCommand:
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             division_masks=division_masks,
-            tag="khamr.opening_glissandi",
             tie_specifier=rmakers.TieSpecifier(
                 tie_across_divisions=True, repeat_ties=True
             ),
@@ -42,5 +43,6 @@ def opening_glissandi(tuplet_ratio_rotation, dmask) -> baca.RhythmCommand:
             tuplet_specifier=rmakers.TupletSpecifier(
                 extract_trivial=True, trivialize=True
             ),
+            tag="khamr.opening_glissandi",
         ),
     )

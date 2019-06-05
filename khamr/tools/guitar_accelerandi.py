@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def guitar_accelerandi(counts) -> baca.RhythmCommand:
+def guitar_accelerandi(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
     """
     Makes guitar accelerandi.
     """
@@ -24,10 +24,10 @@ def guitar_accelerandi(counts) -> baca.RhythmCommand:
                     written_duration=(1, 16),
                 ),
             ],
-            tag="khamr.guitar_accelerandi",
             tie_specifier=rmakers.TieSpecifier(
                 tie_across_divisions=True, repeat_ties=True
             ),
             tuplet_specifier=rmakers.TupletSpecifier(duration_bracket=True),
+            tag="khamr.guitar_accelerandi",
         ),
     )

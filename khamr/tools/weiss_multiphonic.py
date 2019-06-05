@@ -1,7 +1,7 @@
 import baca
 
 
-def weiss_multiphonic(number) -> baca.Markup:
+def weiss_multiphonic(number: int) -> baca.Markup:
     """
     Makes Weiss multiphonic.
     """
