@@ -201,7 +201,7 @@ maker(
 
 maker(
     ('vn', (1, 36)),
-    khamr.opening_glissandi(0, rmakers.sustain([0, 1, 2, 5], 7)),
+    khamr.opening_glissandi(0, dmask=rmakers.sustain([0, 1, 2, 5], 7)),
     )
 
 maker(
@@ -211,7 +211,7 @@ maker(
 
 maker(
     ('va', (1, 36)),
-    khamr.opening_glissandi(-1, rmakers.sustain([1, 2, 3, 6], 7)),
+    khamr.opening_glissandi(-1, dmask=rmakers.sustain([1, 2, 3, 6], 7)),
     )
 
 maker(
@@ -221,7 +221,7 @@ maker(
 
 maker(
     ('vc', (1, 36)),
-    khamr.opening_glissandi(-2, rmakers.sustain([0, 2, 3, 4], 7)),
+    khamr.opening_glissandi(-2, dmask=rmakers.sustain([0, 2, 3, 4], 7)),
     )
 
 maker(
@@ -231,7 +231,7 @@ maker(
 
 maker(
     'cb',
-    khamr.opening_glissandi(-3, rmakers.sustain([0, 1, 4, 6], 7)),
+    khamr.opening_glissandi(-3, dmask=rmakers.sustain([0, 1, 4, 6], 7)),
     )
 
 maker(

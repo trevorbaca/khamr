@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def fused_expanse(counts) -> baca.RhythmCommand:
+def fused_expanse(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
     """
     Makes fused expanse rhythm.
     """
@@ -14,7 +14,7 @@ def fused_expanse(counts) -> baca.RhythmCommand:
         divisions=divisions,
         rewrite_meter=True,
         rhythm_maker=rmakers.NoteRhythmMaker(
-            tag="khamr.fused_expanse",
             tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
+            tag="khamr.fused_expanse",
         ),
     )

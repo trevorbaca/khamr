@@ -50,7 +50,7 @@ maker(
 
 maker(
     ('fl', (10, 29)),
-    khamr.aviary((7, 16), extra=[1]),
+    khamr.aviary((7, 16), extra_counts=[1]),
     )
 
 maker(
@@ -66,7 +66,7 @@ maker(
 maker(
     ('ob', (10, 29)),
     baca.instrument(khamr.instruments['Oboe']),
-    khamr.aviary((5, 16), extra=[1]),
+    khamr.aviary((5, 16), extra_counts=[1]),
     )
 
 maker(
@@ -82,7 +82,7 @@ maker(
 maker(
     ('cl', (10, 29)),
     baca.instrument(khamr.instruments['Clarinet']),
-    khamr.aviary((8, 16), extra=[1]),
+    khamr.aviary((8, 16), extra_counts=[1]),
     )
 
 maker(
@@ -101,7 +101,7 @@ maker(
 maker(
     ('sax', (10, 29)),
     baca.instrument(khamr.instruments['SopraninoSaxophone']),
-    khamr.aviary((6, 16), extra=[1]),
+    khamr.aviary((6, 16), extra_counts=[1]),
     )
 
 maker(
@@ -126,7 +126,7 @@ maker(
 
 maker(
     ('pf', (10, 29)),
-    khamr.aviary((9, 16), extra=[2]),
+    khamr.aviary((9, 16), extra_counts=[2]),
     )
 
 maker(
@@ -156,7 +156,7 @@ maker(
 
 maker(
     ('vn', (3, 29)),
-    khamr.continuous_glissandi(0, rmakers.sustain([0, 1, 3], 7)),
+    khamr.continuous_glissandi(0, dmask=rmakers.sustain([0, 1, 3], 7)),
     )
 
 maker(
@@ -166,7 +166,7 @@ maker(
 
 maker(
     ('va', (3, 29)),
-    khamr.continuous_glissandi(-1, rmakers.sustain([1, 2, 4], 7)),
+    khamr.continuous_glissandi(-1, dmask=rmakers.sustain([1, 2, 4], 7)),
     )
 
 maker(
@@ -176,7 +176,7 @@ maker(
 
 maker(
     ('vc', (3, 29)),
-    khamr.continuous_glissandi(-2, rmakers.sustain([2, 3, 5], 7)),
+    khamr.continuous_glissandi(-2, dmask=rmakers.sustain([2, 3, 5], 7)),
     )
 
 maker(

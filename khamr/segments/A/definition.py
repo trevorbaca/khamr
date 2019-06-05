@@ -116,7 +116,7 @@ maker(
 
 maker(
     ('pf', (21, 30)),
-    khamr.current([4, 3, 5], stage_5_silence_mask),
+    khamr.current([4, 3, 5], dmask=stage_5_silence_mask),
     )
 
 # perc
@@ -175,7 +175,7 @@ maker(
     ('cb', (1, 14)),
     khamr.opening_glissandi(
         -3,
-        [rmakers.sustain([0, 1, 4, 6], 7), rmakers.silence([-1])],
+        dmask=[rmakers.sustain([0, 1, 4, 6], 7), rmakers.silence([-1])],
         ),
     )
 
