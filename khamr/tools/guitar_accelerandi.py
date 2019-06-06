@@ -11,7 +11,9 @@ def guitar_accelerandi(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
     return baca.rhythm(
         divisions=baca.divisions().fuse(counts, cyclic=True),
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
-            beam_specifier=rmakers.BeamSpecifier(use_feather_beams=True),
+            beam_specifier=rmakers.BeamSpecifier(
+                beam_each_division=True, use_feather_beams=True
+            ),
             interpolation_specifiers=[
                 rmakers.InterpolationSpecifier(
                     start_duration=(1, 2),

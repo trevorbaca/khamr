@@ -22,6 +22,7 @@ def continuous_glissandi(
     return baca.rhythm(
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
+            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=division_masks,
             tuplet_ratios=tuplet_ratios,
             tuplet_specifier=rmakers.TupletSpecifier(

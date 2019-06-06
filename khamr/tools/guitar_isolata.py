@@ -20,6 +20,7 @@ def guitar_isolata(*, dmask: rmakers.MasksTyping = None) -> baca.RhythmCommand:
         divisions=baca.divisions().fuse().quarters(),
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
+            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             tuplet_ratios=[
                 (-1, 1, -1),
