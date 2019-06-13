@@ -111,7 +111,7 @@ maker(
 
 maker(
     ('pf', (15, 20)),
-    khamr.alternate_divisions(strip_ties=True),
+    khamr.alternate_divisions(detach_ties=True),
     )
 
 maker(
