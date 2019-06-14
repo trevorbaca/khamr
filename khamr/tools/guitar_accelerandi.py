@@ -11,7 +11,12 @@ def guitar_accelerandi(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
     return baca.rhythm(
         divisions=baca.divisions().fuse(counts, cyclic=True),
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
-            beam_specifier=rmakers.BeamSpecifier(
+            rmakers.TupletSpecifier(
+                duration_bracket=True,
+                selector=baca.tuplets().filter_length(">", 1),
+            ),
+            rmakers.TieSpecifier(tie_across_divisions=True, repeat_ties=True),
+            rmakers.BeamSpecifier(
                 beam_each_division=True, use_feather_beams=True
             ),
             interpolation_specifiers=[
@@ -26,10 +31,6 @@ def guitar_accelerandi(counts: abjad.IntegerSequence) -> baca.RhythmCommand:
                     written_duration=(1, 16),
                 ),
             ],
-            tie_specifier=rmakers.TieSpecifier(
-                tie_across_divisions=True, repeat_ties=True
-            ),
-            tuplet_specifier=rmakers.TupletSpecifier(duration_bracket=True),
             tag="khamr.guitar_accelerandi",
         ),
     )
