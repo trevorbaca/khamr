@@ -21,7 +21,7 @@ def alternate_divisions(detach_ties: bool = None) -> baca.RhythmCommand:
         rewrite_meter=True,
         rhythm_maker=rmakers.NoteRhythmMaker(
             *specifiers,
-            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
+            rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=[rmakers.silence([1], 2)],
             tie_specifier=rmakers.TieSpecifier(
                 repeat_ties=True, tie_across_divisions=True
