@@ -12,7 +12,7 @@ def quarter_hits(*, dmask: rmakers.MasksTyping = None) -> baca.RhythmCommand:
         divisions=baca.divisions().map(quarters),
         rewrite_meter=True,
         rhythm_maker=rmakers.NoteRhythmMaker(
-            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
+            rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
             tag="khamr.quarter_hits",

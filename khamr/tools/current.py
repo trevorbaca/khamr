@@ -15,7 +15,7 @@ def current(
         divisions=baca.divisions().map(quarters),
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
-            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
+            rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             tuplet_ratios=tuplet_ratios,
             tuplet_specifier=rmakers.TupletSpecifier(

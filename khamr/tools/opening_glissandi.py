@@ -35,7 +35,7 @@ def opening_glissandi(
     return baca.rhythm(
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
-            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
+            rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=division_masks,
             tie_specifier=rmakers.TieSpecifier(
                 tie_across_divisions=True, repeat_ties=True
