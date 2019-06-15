@@ -19,6 +19,7 @@ def fused_wind(
         divisions=divisions,
         rewrite_meter=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
+            rmakers.TupletSpecifier(extract_trivial=True),
             beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             incise_specifier=rmakers.InciseSpecifier(
